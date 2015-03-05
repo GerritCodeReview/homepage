@@ -19,7 +19,7 @@ with deeply integrated and delegatable access controls.
 
 *** promo
 ## Download
-[Gerrit 2.10](https://gerrit-documentation.storage.googleapis.com/ReleaseNotes/ReleaseNotes-2.10.html)
+[Gerrit 2.10][download]
 ***
 |||---|||
 
@@ -44,3 +44,34 @@ together.
 ![project list](images/project-list.png)
 
 --
+
+## Extensible through plugins
+
+Gerrit Code Review can be extended and further customized by installing
+[server-side plugins][plugins]. Source code for additional plugins
+can be found through the [project listing](https://gerrit.googlesource.com/).
+
+--
+
+|||---||| 2,2,2,:4,2
+
+### Mailing list
+[repo-discuss](https://groups.google.com/group/repo-discuss)
+
+### Social media
+[![Google+](https://ssl.gstatic.com/images/icons/gplus-32.png)](https://plus.google.com/communities/111271594706618791655)
+
+### IRC
+[freenode](https://freenode.net/) #gerrit
+
+[Channel log](http://echelog.com/logs/browse/gerrit/)
+
+### Training
+[Slides and tutorials](http://gerrit-training.scmforge.com/)
+
+|||---|||
+
+--
+
+[download]: https://gerrit-documentation.storage.googleapis.com/ReleaseNotes/ReleaseNotes-2.10.html
+[plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.11/config-plugins.html
