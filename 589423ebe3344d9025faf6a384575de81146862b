@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "72a1d25d_dc7ead31",
+        "filename": "index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1012247
+      },
+      "writtenOn": "2015-03-05T19:10:36Z",
+      "side": 1,
+      "message": "Strange that this gets turned into a #something link on the rendered page. Is that a bug of the Markdown highlighter?",
+      "range": {
+        "startLine": 78,
+        "startChar": 10,
+        "endLine": 78,
+        "endChar": 40
+      },
+      "revId": "589423ebe3344d9025faf6a384575de81146862b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
