@@ -1,11 +1,11 @@
 # Gerrit Code Review
 
 * [Home][home]
-* About
+* [About](about.md)
 * [Documentation](https://gerrit-documentation.storage.googleapis.com/Documentation/2.11/index.html)
-* [Download](http://gerrit-releases.storage.googleapis.com/index.html)
-* [Issues](https://code.google.com/p/gerrit/issues/list)
+* [Downloads](http://gerrit-releases.storage.googleapis.com/index.html)
 * [Source](https://gerrit.googlesource.com/gerrit/)
+* [Issues](https://code.google.com/p/gerrit/issues/list)
 * [Reviews](https://gerrit-review.googlesource.com/#/q/status:open+project:gerrit)
 
 [home]: /index.md
