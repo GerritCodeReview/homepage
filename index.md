@@ -41,7 +41,16 @@ Gerrit includes Git-enabled SSH and HTTPS servers compatible with all
 Git clients.  Simplify management by hosting many Git repositories
 together.
 
+|||---||| 6,2,4
+### Navigate projects
 ![project list](images/project-list.png)
+
+### Control access
+![access panel](images/access.png)
+
+## Update branches
+![branch list](images/branches.png)
+|||---|||
 
 Schedule [git gc] over all managed repositories and [replicate] to
 geographical mirrors for latency reduction and backup servers for hot
