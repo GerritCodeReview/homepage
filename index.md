@@ -75,7 +75,7 @@ can be found through the [project listing](https://gerrit.googlesource.com/).
 [![Google+](https://ssl.gstatic.com/images/icons/gplus-32.png)](https://plus.google.com/communities/111271594706618791655)
 
 ### IRC
-[freenode](https://freenode.net/) #gerrit
+[#gerrit](irc://chat.freenode.net/gerrit) on [Freenode](https://freenode.net/)
 
 [Channel log](http://echelog.com/logs/browse/gerrit/)
 
