@@ -43,6 +43,10 @@ together.
 
 ![project list](images/project-list.png)
 
+Schedule [git gc] over all managed repositories and [replicate] to
+geographical mirrors for latency reduction and backup servers for hot
+spare redundancy.
+
 --
 
 ## Extensible through plugins
@@ -74,4 +78,6 @@ can be found through the [project listing](https://gerrit.googlesource.com/).
 --
 
 [download]: https://gerrit-documentation.storage.googleapis.com/ReleaseNotes/ReleaseNotes-2.10.html
+[git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.11/config-gerrit.html#gc
 [plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.11/config-plugins.html
+[replicate]: https://gerrit.googlesource.com/plugins/replication/+doc/master/src/main/resources/Documentation/config.md
