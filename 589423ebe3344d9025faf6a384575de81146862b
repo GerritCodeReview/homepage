@@ -46,6 +46,30 @@
       "revId": "589423ebe3344d9025faf6a384575de81146862b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "97d47838_8de5e125",
+        "filename": "index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1012247
+      },
+      "writtenOn": "2015-03-09T10:08:19Z",
+      "side": 1,
+      "message": "Changing to \"\\#gerrit\" doesn\u0027t appear to help according to the live view. Note that what\u0027s wrong is the target of the link and that target doesn\u0027t include \u0027#\u0027. The link caption (which does include \u0027#\u0027) is rendered correctly.",
+      "parentUuid": "65e029b0_cf725d76",
+      "range": {
+        "startLine": 78,
+        "startChar": 10,
+        "endLine": 78,
+        "endChar": 40
+      },
+      "revId": "589423ebe3344d9025faf6a384575de81146862b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
