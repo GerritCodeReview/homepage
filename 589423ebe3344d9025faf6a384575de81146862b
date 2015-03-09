@@ -94,6 +94,30 @@
       "revId": "589423ebe3344d9025faf6a384575de81146862b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "45c5e522_8eca1b42",
+        "filename": "index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2015-03-09T15:13:16Z",
+      "side": 1,
+      "message": "Right. The link formatter is crazy paranoid and only permits http://, https:// and mailto: URL schemes. irc:// will be rejected and then its not a valid link.",
+      "parentUuid": "45c5e522_6eb24fe3",
+      "range": {
+        "startLine": 78,
+        "startChar": 10,
+        "endLine": 78,
+        "endChar": 40
+      },
+      "revId": "589423ebe3344d9025faf6a384575de81146862b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
