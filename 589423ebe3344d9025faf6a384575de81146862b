@@ -70,6 +70,30 @@
       "revId": "589423ebe3344d9025faf6a384575de81146862b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "45c5e522_6eb24fe3",
+        "filename": "index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2015-03-09T10:25:16Z",
+      "side": 1,
+      "message": "OK, I tried it with the inline edit and it seems it\u0027s not the `#` that causes the problem, but the `irc://` protocol.\n\nAfter changing that to `http://` the link is rendered properly.",
+      "parentUuid": "97d47838_8de5e125",
+      "range": {
+        "startLine": 78,
+        "startChar": 10,
+        "endLine": 78,
+        "endChar": 40
+      },
+      "revId": "589423ebe3344d9025faf6a384575de81146862b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
