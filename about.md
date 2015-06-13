@@ -12,7 +12,7 @@ and its peer-review process is to their day-to-day work.
 [Mondrian]: http://video.google.com/videoplay?docid=-8502904076440714866
 [Perforce]: http://www.perforce.com/
 [Bigtable]: http://research.google.com/archive/bigtable.html
-[Rietveld]: http://code.google.com/p/rietveld/
+[Rietveld]: https://github.com/rietveld-codereview/rietveld
 
 ## Rietveld
 
