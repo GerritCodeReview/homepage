@@ -1,4 +1,3 @@
-[Homepage][home] for [Gerrit Code Review][gerrit].
+Homepage for [Gerrit Code Review][home].
 
-[home]: https://gerrit.googlesource.com/homepage/+doc/HEAD/
-[gerrit]: https://gerrit.googlesource.com/gerrit/
+[home]: https://www.gerritcodereview.com/
