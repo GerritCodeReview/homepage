@@ -79,9 +79,6 @@ can be found through the [project listing](https://gerrit.googlesource.com/).
 
 [Channel log](http://echelog.com/logs/browse/gerrit/)
 
-### Training
-[Slides and tutorials](http://gerrit-training.scmforge.com/)
-
 |||---|||
 
 --
