@@ -19,7 +19,7 @@ with deeply integrated and delegatable access controls.
 
 *** promo
 ## Download
-[Gerrit 2.11.2][download]
+[Gerrit 2.11.3][download]
 ***
 |||---|||
 
@@ -83,7 +83,7 @@ can be found through the [project listing](https://gerrit.googlesource.com/).
 
 --
 
-[download]: https://gerrit-documentation.storage.googleapis.com/ReleaseNotes/ReleaseNotes-2.11.2.html
-[git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.11.2/config-gerrit.html#gc
-[plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.11.2/config-plugins.html
+[download]: https://gerrit-documentation.storage.googleapis.com/ReleaseNotes/ReleaseNotes-2.11.3.html
+[git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.11.3/config-gerrit.html#gc
+[plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.11.3/config-plugins.html
 [replicate]: https://gerrit.googlesource.com/plugins/replication/+doc/master/src/main/resources/Documentation/config.md
