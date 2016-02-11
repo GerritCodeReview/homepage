@@ -1,6 +1,6 @@
 # Gerrit Code Review
 
-* [About](about.md)
+* [About](/about.md)
 * [Documentation](https://gerrit-documentation.storage.googleapis.com/Documentation/2.12/index.html)
 * [Downloads](https://gerrit-releases.storage.googleapis.com/index.html)
 * [Issues](https://code.google.com/p/gerrit/issues/list)
