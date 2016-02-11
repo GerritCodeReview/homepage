@@ -67,7 +67,7 @@ spare redundancy.
 
 Gerrit Code Review can be extended and further customized by installing
 [server-side plugins][plugins]. Source code for additional plugins
-can be found through the [project listing](https://gerrit.googlesource.com/).
+can be found through the [project listing](https://gerrit.googlesource.com/plugins/).
 
 ## Get in touch
 
