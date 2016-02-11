@@ -8,4 +8,4 @@
 * [Reviews](https://gerrit-review.googlesource.com/#/q/status:open+project:gerrit)
 
 [home]: /index.md
-[logo]: images/diffy45.png
+[logo]: /images/diffy45.png
