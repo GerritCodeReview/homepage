@@ -90,7 +90,7 @@ The default built in web container which Gerrit uses is Jetty. Some
 installations have had serious "Failed to dispatch" errors which lead to 100%CPU
 and filled up logs, requiring a server reboot to recover. This can triggered by
 long running RPCs building causing the http queue to be used. One way to
-workaround this issue is to set http.maxqueued = 0. Alternatively, you can use
+workaround this issue is to set httpd.maxQueued = 0. Alternatively, you can use
 [Tomcat]
 (https://gerrit-review.googlesource.com/#/c/35010/6/Documentation/install-tomcat.txt)
 instead to replace Jetty.
