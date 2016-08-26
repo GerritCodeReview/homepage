@@ -75,6 +75,24 @@
       "revId": "adcb0bd0b1973cbac22e4212300eaaa868435d4c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a56a6a2b_43828600",
+        "filename": "issues.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2016-08-26T22:01:39Z",
+      "side": 1,
+      "message": "ok, makes sense to have a catch-all for the biggest part\n\nwe could start by adding components for the most popular plugins, let me know if I can help creating these components",
+      "parentUuid": "85848625_4a51b367",
+      "revId": "adcb0bd0b1973cbac22e4212300eaaa868435d4c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
