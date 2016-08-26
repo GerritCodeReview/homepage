@@ -93,6 +93,24 @@
       "revId": "adcb0bd0b1973cbac22e4212300eaaa868435d4c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "85848625_8a4acbb2",
+        "filename": "issues.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2016-08-26T22:36:42Z",
+      "side": 1,
+      "message": "Good idea; I created a root \"plugins\" component and set up some children for a few. I added you as an administrator of the plugins component, I think this means you can create subcomponents for other plugins.",
+      "parentUuid": "a56a6a2b_43828600",
+      "revId": "adcb0bd0b1973cbac22e4212300eaaa868435d4c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
