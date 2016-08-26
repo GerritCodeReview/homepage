@@ -25,6 +25,24 @@
     },
     {
       "key": {
+        "uuid": "85848625_6a567762",
+        "filename": "issues.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2016-08-26T21:48:28Z",
+      "side": 1,
+      "message": "I think I am going to keep the honesty.\n\nA good example of a Priority-4 issue might be \"Support CVS\". Uh yea, that\u0027s like never going to happen.",
+      "parentUuid": "a5918a63_2bcf1961",
+      "revId": "adcb0bd0b1973cbac22e4212300eaaa868435d4c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a56a6a2b_237d8a11",
         "filename": "issues.md",
         "patchSetId": 3
@@ -36,6 +54,24 @@
       "writtenOn": "2016-08-26T21:35:56Z",
       "side": 1,
       "message": "- no component for Gerrit core itself ?\n- how about adding components for plugins ?",
+      "revId": "adcb0bd0b1973cbac22e4212300eaaa868435d4c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "85848625_4a51b367",
+        "filename": "issues.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2016-08-26T21:48:28Z",
+      "side": 1,
+      "message": "No, the server doesn\u0027t have its own component. The no component is a giant catch-all bucket of everything else.\n\nWe could configure components for each plugin, but there are 70 something plugins so that is a bit of work.",
+      "parentUuid": "a56a6a2b_237d8a11",
       "revId": "adcb0bd0b1973cbac22e4212300eaaa868435d4c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
