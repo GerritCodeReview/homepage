@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "85848625_0af33ba0",
+        "filename": "issues.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2016-08-26T19:23:36Z",
+      "side": 1,
+      "message": "component",
+      "range": {
+        "startLine": 71,
+        "startChar": 56,
+        "endLine": 71,
+        "endChar": 66
+      },
+      "revId": "1ee2e009bd27b3e3d251222b4e747092828291a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "457a8ef7_e8c43340",
+        "filename": "issues.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2016-08-26T19:23:36Z",
+      "side": 1,
+      "message": "This is currently managed by Googlers but I think it\u0027s fine if some non-Googler gets equally involved some day. Would \"maintainers\" work here?",
+      "range": {
+        "startLine": 72,
+        "startChar": 24,
+        "endLine": 72,
+        "endChar": 32
+      },
+      "revId": "1ee2e009bd27b3e3d251222b4e747092828291a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "457a8ef7_08f347a0",
+        "filename": "issues.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2016-08-26T19:23:36Z",
+      "side": 1,
+      "message": "How does this relate to Environment-Google?",
+      "range": {
+        "startLine": 79,
+        "startChar": 4,
+        "endLine": 79,
+        "endChar": 16
+      },
+      "revId": "1ee2e009bd27b3e3d251222b4e747092828291a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
