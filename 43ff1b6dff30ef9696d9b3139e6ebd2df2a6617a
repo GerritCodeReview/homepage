@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0577b647_cea0a38f",
+        "filename": "issues.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-08-27T02:07:19Z",
+      "side": 1,
+      "message": "All the issues are there, not only the open ones.",
+      "range": {
+        "startLine": 3,
+        "startChar": 1,
+        "endLine": 3,
+        "endChar": 5
+      },
+      "revId": "43ff1b6dff30ef9696d9b3139e6ebd2df2a6617a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e573825a_ad867d10",
+        "filename": "issues.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-08-27T02:07:19Z",
+      "side": 1,
+      "message": "or",
+      "range": {
+        "startLine": 24,
+        "startChar": 59,
+        "endLine": 24,
+        "endChar": 61
+      },
+      "revId": "43ff1b6dff30ef9696d9b3139e6ebd2df2a6617a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0577b647_eea55f9c",
+        "filename": "issues.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-08-27T02:07:19Z",
+      "side": 1,
+      "message": ";",
+      "range": {
+        "startLine": 55,
+        "startChar": 62,
+        "endLine": 55,
+        "endChar": 63
+      },
+      "revId": "43ff1b6dff30ef9696d9b3139e6ebd2df2a6617a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
