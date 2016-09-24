@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a560afe5_ed44e147",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-09-24T08:16:21Z",
+      "side": 1,
+      "message": "Actually I think it might be OK to only port the most recent ones, i.e. 2.13.x and 2.12.x, and provide links to to older ones on the previous location.",
+      "range": {
+        "startLine": 26,
+        "startChar": 13,
+        "endLine": 26,
+        "endChar": 45
+      },
+      "revId": "7e4ad300a9494fc1a0afbb096bfc7337011a7368",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f03b47ab_d0d4023f",
+        "filename": "releases/README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-09-24T08:16:21Z",
+      "side": 1,
+      "message": "Look into using an included file to avoid repeating this here and in the actual release note.",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 14
+      },
+      "revId": "7e4ad300a9494fc1a0afbb096bfc7337011a7368",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a560afe5_cd411d36",
+        "filename": "releases/README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-09-24T08:16:21Z",
+      "side": 1,
+      "message": "Would it be better to have a single page for the entire series, with additional sections for the main release and point releases?",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 27
+      },
+      "revId": "7e4ad300a9494fc1a0afbb096bfc7337011a7368",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
