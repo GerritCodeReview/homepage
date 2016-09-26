@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "a560afe5_ede86108",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2016-09-26T07:28:34Z",
+      "side": 1,
+      "message": "- Public in-progress release notes for the next version lets users know what we\u0027re working on.",
+      "revId": "7e4ad300a9494fc1a0afbb096bfc7337011a7368",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a560afe5_ed44e147",
         "filename": "/COMMIT_MSG",
         "patchSetId": 4
