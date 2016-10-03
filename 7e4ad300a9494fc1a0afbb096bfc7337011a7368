@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "c260391e_f30c109e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-10-03T07:46:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a560afe5_ede86108",
+      "revId": "7e4ad300a9494fc1a0afbb096bfc7337011a7368",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a560afe5_ed44e147",
         "filename": "/COMMIT_MSG",
         "patchSetId": 4
@@ -124,6 +142,30 @@
       "side": 1,
       "message": "Yes. Also, having 2.13 and 2.14 in the same file (in general release notes of multiple major releases) is probably not going to scale well.",
       "parentUuid": "a560afe5_cd411d36",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 27
+      },
+      "revId": "7e4ad300a9494fc1a0afbb096bfc7337011a7368",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a2d345ea_92d79cbb",
+        "filename": "releases/README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-10-03T07:46:21Z",
+      "side": 1,
+      "message": "Done.  There is now a single page for each major release (2.12, 2.13, etc) and the bugfix releases are listed in the same pages.",
+      "parentUuid": "a560afe5_adf269f4",
       "range": {
         "startLine": 19,
         "startChar": 0,
