@@ -9,7 +9,7 @@ use of [Perforce] and to many Google-only services, such as
 [Bigtable].  Google employees have often described how useful Mondrian
 and its peer-review process is to their day-to-day work.
 
-[Mondrian]: http://video.google.com/videoplay?docid=-8502904076440714866
+[Mondrian]: https://www.youtube.com/watch?v=sMql3Di4Kgc
 [Perforce]: http://www.perforce.com/
 [Bigtable]: http://research.google.com/archive/bigtable.html
 [Rietveld]: https://github.com/rietveld-codereview/rietveld
