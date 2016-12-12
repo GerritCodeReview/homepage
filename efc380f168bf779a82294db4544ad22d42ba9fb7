@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ad8730a_514614c6",
+        "filename": "releases/2.13.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-12-12T05:47:24Z",
+      "side": 1,
+      "message": "Nope.  Will fix.",
+      "parentUuid": "7ad9ff0c_50f4cc65",
+      "revId": "efc380f168bf779a82294db4544ad22d42ba9fb7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7ad9ff0c_70f9d05c",
         "filename": "releases/2.13.md",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2016-12-12T05:42:32Z",
       "side": 1,
       "message": "UI support for that feature would be also great, like Move button or \"Change destinatiob\" or some such.",
+      "revId": "efc380f168bf779a82294db4544ad22d42ba9fb7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7ad9ff0c_d0075c83",
+        "filename": "releases/2.13.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 487,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2016-12-12T05:47:24Z",
+      "side": 1,
+      "message": "Yes, but I don\u0027t have time to implement it, and it\u0027s probably a bit more functionality than I\u0027d want to add on the stable branch anyway.  It was already pushing the limits to accept this ssh addition.",
+      "parentUuid": "7ad9ff0c_70f9d05c",
       "revId": "efc380f168bf779a82294db4544ad22d42ba9fb7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
