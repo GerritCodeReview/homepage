@@ -69,6 +69,24 @@
       "revId": "efc380f168bf779a82294db4544ad22d42ba9fb7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7ad9ff0c_9001d46f",
+        "filename": "releases/2.13.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 487,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2016-12-12T05:51:03Z",
+      "side": 1,
+      "message": "Sure, I meant to offer that feature in next release. Do we have an issue for that? May be create one and declare it an \"easy hack\"? Or may be even write a mail to dev. ML with \"Feature Request\" title in it- Do you think couple of hours later we would get woking \"Move destination\" button UI fix uploaded by someone?",
+      "parentUuid": "7ad9ff0c_d0075c83",
+      "revId": "efc380f168bf779a82294db4544ad22d42ba9fb7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
