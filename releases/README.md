@@ -1,6 +1,6 @@
 # Gerrit Code Review Releases
 
-Latest release: **[2.13.3](/releases/2.13.md)**.
+Latest release: **[2.13.4](/releases/2.13.md)**.
 
 [TOC]
 
