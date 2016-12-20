@@ -57,6 +57,7 @@ together.
 #### Update branches
 
 ![branch list](images/branches.png)
+
 |||---|||
 
 Schedule [git gc] over all managed repositories and [replicate] to
