@@ -2,7 +2,7 @@
 
 * [About](/about.md)
 * [Releases](/releases/README.md)
-* [Documentation](https://gerrit-documentation.storage.googleapis.com/Documentation/2.13.4/index.html)
+* [Documentation](https://gerrit-documentation.storage.googleapis.com/Documentation/2.13.5/index.html)
 * [Issues](/issues.md)
 * [Wiki](https://gerrit.googlesource.com/homepage/+/md-pages/docs/)
 * [Source](https://gerrit.googlesource.com/gerrit/)
