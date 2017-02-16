@@ -81,6 +81,8 @@ can be found through the [project listing](https://gerrit.googlesource.com/plugi
 
 [![Google+](https://ssl.gstatic.com/images/icons/gplus-32.png)](https://plus.google.com/communities/111271594706618791655)
 
+[![Twitter](https://www.gerritforge.com/images/Twitter_Logo_Blue.png)](https://twitter.com/gerritreview)
+
 ### IRC
 
 [freenode](https://freenode.net/) #gerrit
