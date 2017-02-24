@@ -22,6 +22,30 @@
       "revId": "a7c8757ddd5198f2cb4e66d90dca5715be0db8cd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0bd7f946_b48a1855",
+        "filename": "releases/2.13.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 479,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-02-24T02:04:32Z",
+      "side": 1,
+      "message": "Thanks.  Fixed in https://gerrit-review.googlesource.com/98491\n\nI should also have noticed when I copy-pasted it :/",
+      "parentUuid": "62feebd1_297daa89",
+      "range": {
+        "startLine": 479,
+        "startChar": 31,
+        "endLine": 479,
+        "endChar": 44
+      },
+      "revId": "a7c8757ddd5198f2cb4e66d90dca5715be0db8cd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
