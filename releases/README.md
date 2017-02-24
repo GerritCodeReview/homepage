@@ -16,9 +16,13 @@ Latest release: **[2.13.6](/releases/2.13.md)**.
 
 ## 2.13 {#2.13}
 
+* Support for Git LFS
+
 * Metrics interface
 
 * Hooks plugin
+
+* Access control for git submodule subscriptions
 
 [Release notes for Gerrit 2.13](/releases/2.13.md).
 
