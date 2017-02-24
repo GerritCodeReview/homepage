@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "62feebd1_297daa89",
+        "filename": "releases/2.13.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 479,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2017-02-24T01:45:47Z",
+      "side": 1,
+      "message": "Rebase Always doesn\u0027t exist on the stable-2.13 branch.\n\nSorry, I should have updated the commit message to reflect that.",
+      "range": {
+        "startLine": 479,
+        "startChar": 31,
+        "endLine": 479,
+        "endChar": 44
+      },
+      "revId": "a7c8757ddd5198f2cb4e66d90dca5715be0db8cd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
