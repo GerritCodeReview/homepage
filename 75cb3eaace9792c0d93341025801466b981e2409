@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "7ec1ab40_5b25c06a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-03-06T07:33:35Z",
+      "side": 1,
+      "message": "Can you wait a moment? I\u0027m working on altenative fix for: [1].\n\n* [1] Bug: Issue 5190",
+      "revId": "75cb3eaace9792c0d93341025801466b981e2409",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2e90daae_eba4ea94",
         "filename": "releases/2.13.md",
         "patchSetId": 1
