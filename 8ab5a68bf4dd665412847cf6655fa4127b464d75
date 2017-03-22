@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e935972_8fcbde6d",
+        "filename": "releases/2.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 518,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2017-03-22T08:10:54Z",
+      "side": 1,
+      "message": "This is just one manifestation of this bug. It was a general issue with VersionedMetaData when the last file of a branch was supposed to be deleted. E.g. you will get the same issue if you make a modification in the project config / access rights so that project.config becomes empty and is deleted from refs/meta/config.",
+      "range": {
+        "startLine": 517,
+        "startChar": 2,
+        "endLine": 518,
+        "endChar": 26
+      },
+      "revId": "8ab5a68bf4dd665412847cf6655fa4127b464d75",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
