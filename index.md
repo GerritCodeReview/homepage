@@ -92,6 +92,6 @@ can be found through the [project listing](https://gerrit.googlesource.com/plugi
 |||---|||
 
 [download]: /releases/2.13.md
-[git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.13.4/config-gerrit.html#gc
-[plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.13.4/config-plugins.html
+[git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.13.6/config-gerrit.html#gc
+[plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.13.6/config-plugins.html
 [replicate]: https://gerrit.googlesource.com/plugins/replication/+doc/master/src/main/resources/Documentation/config.md
