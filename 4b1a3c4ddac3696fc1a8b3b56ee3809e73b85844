@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee20e668_b1d6a4e4",
+        "filename": "releases/2.14.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2017-03-27T16:01:59Z",
+      "side": 1,
+      "message": "Quite confusing: better to say how to enable the polygerrit link to switch between GWT and PolyGerrit",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 20
+      },
+      "revId": "4b1a3c4ddac3696fc1a8b3b56ee3809e73b85844",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
