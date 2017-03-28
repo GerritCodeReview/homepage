@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "e1a93cbc_f3f94081",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-03-28T19:56:15Z",
+      "side": 1,
+      "message": "Too long line. Max 72 chars. You also mentioned more that just PG UI, so may be just:\n\n  Update release notes for gerrit 2.14",
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d580df07_68d4380e",
         "filename": "releases/2.14.md",
         "patchSetId": 7
