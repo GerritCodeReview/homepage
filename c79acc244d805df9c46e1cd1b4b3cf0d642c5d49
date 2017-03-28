@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d580df07_68d4380e",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-03-28T19:55:21Z",
+      "side": 1,
+      "message": "Nit: Capitalize consequent, in the same sentence: The Buck is called \"Buck\", see: [1].\n\n* [1] https://buckbuild.com",
+      "range": {
+        "startLine": 59,
+        "startChar": 2,
+        "endLine": 59,
+        "endChar": 6
+      },
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5e3698dd_d6b060cb",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-03-28T19:55:21Z",
+      "side": 1,
+      "message": "Not sure it\u0027s needed. We could also mention Bazlets repository and provide link to it, similar to Bucklets, that simplifies building custom plugins. May be also mention that two build modes are supported: standalone mode and in gerrit tree build mode.",
+      "range": {
+        "startLine": 59,
+        "startChar": 31,
+        "endLine": 59,
+        "endChar": 92
+      },
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2219f158_22b600c4",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-03-28T19:55:21Z",
+      "side": 1,
+      "message": "Here it\u0027s different.",
+      "range": {
+        "startLine": 59,
+        "startChar": 88,
+        "endLine": 59,
+        "endChar": 92
+      },
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "98f80598_6aca15b5",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-03-28T19:55:21Z",
+      "side": 1,
+      "message": "No please, please.",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 9
+      },
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
