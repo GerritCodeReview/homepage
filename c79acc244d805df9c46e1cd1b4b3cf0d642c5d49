@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "c6261137_06b85e82",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-03-28T20:09:23Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "e1a93cbc_f3f94081",
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d580df07_68d4380e",
         "filename": "releases/2.14.md",
         "patchSetId": 7
@@ -88,6 +106,54 @@
     },
     {
       "key": {
+        "uuid": "5247af7c_a186deaf",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-03-28T20:09:23Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "d580df07_68d4380e",
+      "range": {
+        "startLine": 59,
+        "startChar": 2,
+        "endLine": 59,
+        "endChar": 6
+      },
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "24614999_32d9b169",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-03-28T20:09:23Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "2219f158_22b600c4",
+      "range": {
+        "startLine": 59,
+        "startChar": 88,
+        "endLine": 59,
+        "endChar": 92
+      },
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "98f80598_6aca15b5",
         "filename": "releases/2.14.md",
         "patchSetId": 7
@@ -99,6 +165,30 @@
       "writtenOn": "2017-03-28T19:55:21Z",
       "side": 1,
       "message": "No please, please.",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 9
+      },
+      "revId": "c79acc244d805df9c46e1cd1b4b3cf0d642c5d49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0aa59116_3fd7da80",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-03-28T20:09:23Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "98f80598_6aca15b5",
       "range": {
         "startLine": 60,
         "startChar": 2,
