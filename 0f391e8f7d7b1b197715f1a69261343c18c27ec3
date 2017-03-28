@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9e9d4375_0df2d21a",
+        "filename": "releases/2.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-03-28T19:37:05Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "12b0cef1_30d0486b",
+      "revId": "0f391e8f7d7b1b197715f1a69261343c18c27ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c489a4cd_cf951f3d",
         "filename": "releases/2.14.md",
         "patchSetId": 6
@@ -30,6 +48,30 @@
       "writtenOn": "2017-03-27T19:16:12Z",
       "side": 1,
       "message": "Capitalization nits:\n* polygerrit\u0027s ui → PolyGerrit\u0027s UI\n* url → URL\n* gwt ui → GWT UI",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 27
+      },
+      "revId": "0f391e8f7d7b1b197715f1a69261343c18c27ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e6516ccd_2b25cc92",
+        "filename": "releases/2.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-03-28T19:37:05Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "c489a4cd_cf951f3d",
       "range": {
         "startLine": 31,
         "startChar": 0,
