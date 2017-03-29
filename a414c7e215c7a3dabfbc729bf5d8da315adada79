@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fdb840c9_3ff1cae4",
+        "filename": "releases/2.14.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-03-29T05:07:55Z",
+      "side": 1,
+      "message": "I\u0027m not sure that this should be so prominent in the release notes, given that it\u0027s still not feature complete.",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 7,
+        "endChar": 19
+      },
+      "revId": "a414c7e215c7a3dabfbc729bf5d8da315adada79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aff755e1_5ee6e2fa",
+        "filename": "releases/2.14.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-03-29T05:07:55Z",
+      "side": 1,
+      "message": "\"elliptic curve/ed25519\"",
+      "range": {
+        "startLine": 11,
+        "startChar": 14,
+        "endLine": 11,
+        "endChar": 23
+      },
+      "revId": "a414c7e215c7a3dabfbc729bf5d8da315adada79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17ccf7bd_6bca8816",
+        "filename": "releases/2.14.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-03-29T05:07:55Z",
+      "side": 1,
+      "message": "Remove for consistency with previous lines.",
+      "range": {
+        "startLine": 11,
+        "startChar": 28,
+        "endLine": 11,
+        "endChar": 29
+      },
+      "revId": "a414c7e215c7a3dabfbc729bf5d8da315adada79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "09ab2aba_1842fe33",
+        "filename": "releases/2.14.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-03-29T05:07:55Z",
+      "side": 1,
+      "message": "- \"####\" causes \"Footer links\" to be rendered as a level 4 header nested under \"Emails\".\n\n- This should probably not be a separate top level section anyway. It should be under the \"User Interface\" section at L53\n\n- For consistency with the existing notes it\u0027s better to use normal paragraphs rather than bullet points.",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 28
+      },
+      "revId": "a414c7e215c7a3dabfbc729bf5d8da315adada79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
