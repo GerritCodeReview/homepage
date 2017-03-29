@@ -4,6 +4,10 @@ Latest release: **[2.13.6](/releases/2.13.md)**.
 
 [TOC]
 
+## 2.15 *(In development)* {#2.15}
+
+[Release notes for Gerrit 2.15](/releases/2.15.md)
+
 ## 2.14 *(In development)* {#2.14}
 
 * Changes can be assigned to specific users
