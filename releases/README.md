@@ -12,6 +12,8 @@ Latest release: **[2.13.7](/releases/2.13.md)**.
 
 * Changes can be assigned to specific users
 
+* Open and Abandoned changes can be deleted
+
 * HTML emails and new templating framework
 
 * Support for receiving review comments by email
