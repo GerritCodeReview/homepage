@@ -16,6 +16,10 @@ Latest release: **[2.13.6](/releases/2.13.md)**.
 
 * Secondary index with Elastic Search
 
+* New [Polymer](https://www.polymer-project.org/) based user interface
+
+* Support for elliptic curve/ed25519 SSH keys
+
 [Release notes for Gerrit 2.14](/releases/2.14.md)
 
 ## 2.13 {#2.13}
