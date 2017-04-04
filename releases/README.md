@@ -14,6 +14,12 @@ Latest release: **[2.13.7](/releases/2.13.md)**.
 
 * HTML emails and new templating framework
 
+* Support for receiving review comments by email
+
+* New [Polymer](https://www.polymer-project.org/) based user interface
+
+* Support for elliptic curve/ed25519 SSH keys
+
 [Release notes for Gerrit 2.14](/releases/2.14.md)
 
 ## 2.13 {#2.13}
