@@ -22,6 +22,30 @@
       "revId": "9a7d59c7c5aa23510342682eaaa849e1d7899596",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5587205a_4abbef1b",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-04-04T06:12:58Z",
+      "side": 1,
+      "message": "Same thing, really, but I can reword it if you prefer.",
+      "parentUuid": "2365c034_c43f4d9a",
+      "range": {
+        "startLine": 28,
+        "startChar": 46,
+        "endLine": 28,
+        "endChar": 53
+      },
+      "revId": "9a7d59c7c5aa23510342682eaaa849e1d7899596",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
