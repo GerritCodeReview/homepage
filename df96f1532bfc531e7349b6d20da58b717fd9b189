@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c2ad627c_426e2dad",
+        "filename": "releases/2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-04-04T23:42:51Z",
+      "side": 1,
+      "message": "process",
+      "range": {
+        "startLine": 23,
+        "startChar": 28,
+        "endLine": 23,
+        "endChar": 36
+      },
+      "revId": "df96f1532bfc531e7349b6d20da58b717fd9b189",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c9458361_361d728b",
+        "filename": "releases/2.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-04-04T23:42:51Z",
+      "side": 1,
+      "message": "- Wrap paragraphs at 80 columns\n\n- This doesn\u0027t really describe what private changes does\n\n- We probably don\u0027t need to mention that drafts are being deprecated.  In fact, support for draft changes is likely to be completely removed in 2.15 rather than deprecated.",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 23
+      },
+      "revId": "df96f1532bfc531e7349b6d20da58b717fd9b189",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
