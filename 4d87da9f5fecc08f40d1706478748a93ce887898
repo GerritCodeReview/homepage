@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "70c7060a_aa7a5abb",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-04-04T07:39:32Z",
+      "side": 1,
+      "message": "Wrap this at 80 columns, and add a link to the capability documentation.\n\n(Done in a PS that I will push)",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 11
+      },
+      "revId": "4d87da9f5fecc08f40d1706478748a93ce887898",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "36ec330b_d06dad51",
+        "filename": "releases/2.14.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-04-04T07:39:32Z",
+      "side": 1,
+      "message": "Some of these conflict with the ones I added in separate changes.\n\nPlease add the missing ones in a separate commit.",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 35
+      },
+      "revId": "4d87da9f5fecc08f40d1706478748a93ce887898",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
