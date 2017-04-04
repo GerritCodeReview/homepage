@@ -14,8 +14,6 @@ Latest release: **[2.13.7](/releases/2.13.md)**.
 
 * HTML emails and new templating framework
 
-* Secondary index with Elastic Search
-
 [Release notes for Gerrit 2.14](/releases/2.14.md)
 
 ## 2.13 {#2.13}
