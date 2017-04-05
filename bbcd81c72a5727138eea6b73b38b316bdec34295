@@ -46,6 +46,30 @@
       "revId": "bbcd81c72a5727138eea6b73b38b316bdec34295",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "913f67e1_c0db7a84",
+        "filename": "releases/2.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 606,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2017-04-05T02:15:08Z",
+      "side": 1,
+      "message": "in 2.11, only topic predicate existed and it was supporting exact match as well as regex.\n\nin 2.12, there are 2 predicates: topic and intopic. topic only supports exact match and intopic support using a full-text search and regex. My change is fixing issue 5759 because it fixes the regex search using intopic predicate. I just need to mention in that issue that regex search must be used with intopic predicate.",
+      "parentUuid": "347ba416_f0ffb2c3",
+      "range": {
+        "startLine": 606,
+        "startChar": 7,
+        "endLine": 606,
+        "endChar": 12
+      },
+      "revId": "bbcd81c72a5727138eea6b73b38b316bdec34295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
