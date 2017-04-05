@@ -22,6 +22,30 @@
       "revId": "bbcd81c72a5727138eea6b73b38b316bdec34295",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "347ba416_f0ffb2c3",
+        "filename": "releases/2.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 606,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-04-05T02:02:40Z",
+      "side": 1,
+      "message": "Ah.  issue 5759 reports a problem with \"topic:\".  Does your change also fix it for that?",
+      "parentUuid": "2f6834b4_30a57794",
+      "range": {
+        "startLine": 606,
+        "startChar": 7,
+        "endLine": 606,
+        "endChar": 12
+      },
+      "revId": "bbcd81c72a5727138eea6b73b38b316bdec34295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
