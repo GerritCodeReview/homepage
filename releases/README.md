@@ -6,6 +6,8 @@ Latest release: **[2.13.7](/releases/2.13.md)**.
 
 ## 2.15 *(In development)* {#2.15}
 
+* Private Changes
+
 [Release notes for Gerrit 2.15](/releases/2.15.md)
 
 ## 2.14 *(In development)* {#2.14}
