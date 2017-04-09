@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e19b1273_b1d36522",
+        "filename": "releases/2.13.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-04-09T10:59:39Z",
+      "side": 1,
+      "message": "Should we add it in this change or another one?\n\n  * [Issue 5907](https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d5906):\n  Don\u0027t fire dozens (or even hundreds) SQl statements in the worst case to open one single change on the change screen",
+      "revId": "a6aacc0c18f1c038164dc14fda0cbc270facb134",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
