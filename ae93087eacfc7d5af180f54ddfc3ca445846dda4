@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "305edbf7_4cbf2d98",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-04-10T05:15:48Z",
+      "side": 1,
+      "message": "While writing this it occurred to me that this doesn\u0027t really make sense, since the user now has no way to get the converted password -- it\u0027s no longer displayed in the UI and the \"get password\" endpoint was removed.  They effectively have to reset it to a new one, and copy the result.\n\nOr am I missing something?",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 49
+      },
+      "revId": "ae93087eacfc7d5af180f54ddfc3ca445846dda4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
