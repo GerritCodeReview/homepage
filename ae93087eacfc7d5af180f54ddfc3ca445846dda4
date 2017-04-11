@@ -70,6 +70,30 @@
       "revId": "ae93087eacfc7d5af180f54ddfc3ca445846dda4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeb20964_b2f53523",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-04-11T07:49:25Z",
+      "side": 1,
+      "message": "Either way, this is the way it is, so from that perspective the release note is correct.  I\u0027ll merge this and file a bug later if I can reproduce the problem I mentioned before.",
+      "parentUuid": "4304579d_ce73210f",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 49
+      },
+      "revId": "ae93087eacfc7d5af180f54ddfc3ca445846dda4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
