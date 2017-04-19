@@ -142,6 +142,30 @@
       "revId": "ae93087eacfc7d5af180f54ddfc3ca445846dda4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "76afed29_dc834ea9",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1019939
+      },
+      "writtenOn": "2017-04-19T13:14:08Z",
+      "side": 1,
+      "message": "https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d6032",
+      "parentUuid": "f4cf6cb6_39c4341f",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 49
+      },
+      "revId": "ae93087eacfc7d5af180f54ddfc3ca445846dda4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
