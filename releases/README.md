@@ -24,6 +24,8 @@ Latest release: **[2.14](/releases/2.14.md)**.
 
 * Support for elliptic curve/ed25519 SSH keys
 
+* Secondary index with Elastic Search (experimental)
+
 [Release notes for Gerrit 2.14](/releases/2.14.md)
 
 ## 2.13 {#2.13}
