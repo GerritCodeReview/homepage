@@ -1,6 +1,6 @@
 # Gerrit Code Review Releases
 
-Latest release: **[2.13.7](/releases/2.13.md)**.
+Latest release: **[2.14](/releases/2.14.md)**.
 
 [TOC]
 
@@ -10,7 +10,7 @@ Latest release: **[2.13.7](/releases/2.13.md)**.
 
 [Release notes for Gerrit 2.15](/releases/2.15.md)
 
-## 2.14 *(In development)* {#2.14}
+## 2.14 {#2.14}
 
 * Changes can be assigned to specific users
 
