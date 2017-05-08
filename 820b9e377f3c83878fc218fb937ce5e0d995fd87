@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a6589dfb_ab6b357d",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-05-08T11:20:50Z",
+      "side": 1,
+      "message": "note that we are missing documentation of the WIP workflow in intro-user.txt\n\nhere we should also mention that the draft workflow is removed.",
+      "revId": "820b9e377f3c83878fc218fb937ce5e0d995fd87",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
