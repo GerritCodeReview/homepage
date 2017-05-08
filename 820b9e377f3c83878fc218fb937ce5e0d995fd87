@@ -16,6 +16,24 @@
       "revId": "820b9e377f3c83878fc218fb937ce5e0d995fd87",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dfcccd7b_efe983c8",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-05-08T11:30:10Z",
+      "side": 1,
+      "message": "\u003e here we should also mention that the draft workflow is removed.\n\nIt wasn\u0027t clear if we can remove draft workflow in one single release, or may be need two releases for that, but yes.",
+      "parentUuid": "a6589dfb_ab6b357d",
+      "revId": "820b9e377f3c83878fc218fb937ce5e0d995fd87",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
