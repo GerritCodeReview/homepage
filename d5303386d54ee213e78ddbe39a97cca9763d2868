@@ -22,6 +22,30 @@
       "revId": "d5303386d54ee213e78ddbe39a97cca9763d2868",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b68f0f9c_0ebfdfa3",
+        "filename": "releases/2.14.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-05-15T07:13:53Z",
+      "side": 1,
+      "message": "IIUC the support for viewing edits is in, but support for actually making edits is still under review.",
+      "parentUuid": "745618f6_26405a14",
+      "range": {
+        "startLine": 301,
+        "startChar": 0,
+        "endLine": 301,
+        "endChar": 4
+      },
+      "revId": "d5303386d54ee213e78ddbe39a97cca9763d2868",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
