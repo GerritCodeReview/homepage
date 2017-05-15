@@ -46,6 +46,30 @@
       "revId": "d5303386d54ee213e78ddbe39a97cca9763d2868",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ad5d1d9d_2f0fd2ad",
+        "filename": "releases/2.14.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-05-15T07:17:55Z",
+      "side": 1,
+      "message": "That change will require the es6 changes too see https://gerrit-review.googlesource.com/#/c/106730/ and see the rest of the changes on the side.",
+      "parentUuid": "b68f0f9c_0ebfdfa3",
+      "range": {
+        "startLine": 301,
+        "startChar": 0,
+        "endLine": 301,
+        "endChar": 4
+      },
+      "revId": "d5303386d54ee213e78ddbe39a97cca9763d2868",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
