@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8bc2546c_1e4ea46e",
+        "filename": "releases/2.14.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-05-26T22:15:41Z",
+      "side": 1,
+      "message": "i wonder should this be moved to bug fixes as this affects gwtui not just polygerrit. It actually affects gwtui more as it blocks the files from being displayed whereas in polygerrit it continued to show them but with a Server Error notice notification.",
+      "range": {
+        "startLine": 298,
+        "startChar": 0,
+        "endLine": 299,
+        "endChar": 64
+      },
+      "revId": "2fe9bc8d9113ec5d20d50786acee9b1dd04c703f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
