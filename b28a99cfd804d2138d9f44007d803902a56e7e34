@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "296a74c4_cad2ccd0",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-09T00:29:23Z",
+      "side": 1,
+      "message": "We should keep the links for 2.14, like in the other release notes.",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 112
+      },
+      "revId": "b28a99cfd804d2138d9f44007d803902a56e7e34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
