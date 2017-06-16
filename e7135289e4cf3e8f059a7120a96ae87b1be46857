@@ -23,6 +23,30 @@
       "revId": "e7135289e4cf3e8f059a7120a96ae87b1be46857",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "881b97ca_477d5ee3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-06-16T17:56:18Z",
+      "side": 1,
+      "message": "\u003e I wish there were a way to mark a change RFC without having to\n \u003e remember to edit the commit message later.\n \u003e \n \u003e Is Code-Review-2 the only way to do that?\n\nNope, Change Owner and Site Administrator can toggle the WIP state. Change in WIP state can\u0027t be merged. Use what you sell.",
+      "parentUuid": "271a2348_46a3a26e",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 5
+      },
+      "revId": "e7135289e4cf3e8f059a7120a96ae87b1be46857",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
