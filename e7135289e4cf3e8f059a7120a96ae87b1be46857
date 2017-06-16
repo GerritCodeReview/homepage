@@ -47,6 +47,30 @@
       "revId": "e7135289e4cf3e8f059a7120a96ae87b1be46857",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1894448b_e5324157",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2017-06-16T20:25:21Z",
+      "side": 1,
+      "message": "Both of those alternatives accomplish the goal of not accidentally submitting without taking an additional action. So would e.g. having a validator that checks for \"DO NOT SUBMIT\" in commit messages.\n\nNone of the options feel like they\u0027re perfectly expressing my intent, which is that the code is complete and good enough to be submitted as-is, if there is consensus that this is the way forward. WIP kind of implies to me that the code is not complete; CR-2 kind of implies that it\u0027s not good enough to submit. But they are both close enough to my intent that I certainly don\u0027t think it\u0027s worth writing additional code and complicating the Gerrit workflow to express it more perfectly.\n\nActually, now that I\u0027ve written that, \"submitted as-is, if there is consensus that this is the way forward\" sounds an awful lot like a bog-standard code review. The difference, I guess, is that consensus implies more than one person, and we don\u0027t have a way to express that I want LGTMs from multiple people.\n\nJust food for thought. In practice, in the future I will just pick one of the above options in preference to \"RFC\".",
+      "parentUuid": "881b97ca_477d5ee3",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 5
+      },
+      "revId": "e7135289e4cf3e8f059a7120a96ae87b1be46857",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
