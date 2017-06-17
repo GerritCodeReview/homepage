@@ -71,6 +71,30 @@
       "revId": "e7135289e4cf3e8f059a7120a96ae87b1be46857",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b66830c5_212a0bcd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-06-17T05:27:41Z",
+      "side": 1,
+      "message": "\u003e Just food for thought. In practice, in the future I will just pick\n \u003e one of the above options in preference to \"RFC\".\n\nI agree. Both options don\u0027t precisely express what RFC actually trying to say: require more than one Code-Review approvals. Moreover, both options are volatile and are not persisted in the git history in any way. \n\nBut, hey we are already using project specific rules in gerrit. So, one option is to extend the rule with Multiple-Approval semantic.\n\nWe can even let \"RFC:\" or alternatively, replace it with Multiple-Approval-Required (MAR) in subject or footer. The new prolog predicate would scan commit message and when MAR thing is detected, the number of required approvals is greater than 1. Done. No more pre-submit actions needed.\n\nEven better, because MAR is persisted in the commit message now, it\u0027s even documented, for the next generations, that this change was subtle enough to require more than 4 eyes (or even only 2, in case we had self-approval).",
+      "parentUuid": "1894448b_e5324157",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 5
+      },
+      "revId": "e7135289e4cf3e8f059a7120a96ae87b1be46857",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
