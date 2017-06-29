@@ -35,6 +35,24 @@
       "revId": "dded3f13c3dffa019ed01a4e4ff7aaa9af4f9d16",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa015727_0405d52f",
+        "filename": "releases/public-keys.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-29T11:27:47Z",
+      "side": 1,
+      "message": "Thanks.  In a later commit I\u0027ll update this page to mention that the keys are available on Ubuntu\u0027s key server.",
+      "parentUuid": "b64dd0bd_cd479768",
+      "revId": "dded3f13c3dffa019ed01a4e4ff7aaa9af4f9d16",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
