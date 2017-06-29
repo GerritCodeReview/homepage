@@ -70,6 +70,30 @@
       "revId": "b44d21b56f379b11e45977296d1c4ded6238df18",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "100cbdeb_8c94499b",
+        "filename": "releases/public-keys.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-29T10:01:00Z",
+      "side": 1,
+      "message": "Done in the parent change.",
+      "parentUuid": "fe1ca052_cea241f8",
+      "range": {
+        "startLine": 9,
+        "startChar": 46,
+        "endLine": 9,
+        "endChar": 54
+      },
+      "revId": "b44d21b56f379b11e45977296d1c4ded6238df18",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
