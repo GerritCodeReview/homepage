@@ -22,6 +22,30 @@
       "revId": "b44d21b56f379b11e45977296d1c4ded6238df18",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9633040d_9aa45cee",
+        "filename": "releases/public-keys.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-29T08:26:57Z",
+      "side": 1,
+      "message": "I didn\u0027t notice that it was in the finger print. I just took the ID from the key manager app on osx.",
+      "parentUuid": "48ab7ed4_01ee0ac0",
+      "range": {
+        "startLine": 9,
+        "startChar": 46,
+        "endLine": 9,
+        "endChar": 54
+      },
+      "revId": "b44d21b56f379b11e45977296d1c4ded6238df18",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
