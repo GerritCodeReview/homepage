@@ -17,6 +17,24 @@
       "revId": "dded3f13c3dffa019ed01a4e4ff7aaa9af4f9d16",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b64dd0bd_cd479768",
+        "filename": "releases/public-keys.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2017-06-29T11:24:03Z",
+      "side": 1,
+      "message": "I\u0027ve published it now here:\n  http://keyserver.ubuntu.com/pks/lookup?op\u003dvindex\u0026search\u003dekempin\u0026fingerprint\u003don",
+      "parentUuid": "4c9cc3c5_ebe48c96",
+      "revId": "dded3f13c3dffa019ed01a4e4ff7aaa9af4f9d16",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
