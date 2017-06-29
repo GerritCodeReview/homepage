@@ -1,5 +1,11 @@
 # Gerrit Code Review Releases
 
+Gerrit Code Review releases can be downloaded from the
+[download site](https://gerrit-releases.storage.googleapis.com/index.html)
+(.war files only) or from
+[Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.google.gerrit%22)
+(version 2.9 and later).
+
 Latest release: **[2.14.1](/releases/2.14.md)**.
 
 [TOC]
