@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d689e58b_57a47668",
+        "filename": "releases/public-keys.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-29T23:29:25Z",
+      "side": 1,
+      "message": "I don\u0027t know if I\u0027m doing something wrong, but when I import the key it\u0027s showing the fingerprint as:\n\nA4F9 BFB0 EC56 812A 86E6  0AE1 5FD7 C59A 9A12 888C\n\nOn the site it does show the matching fingerprint:\n\nhttps://keyserver.ubuntu.com/pks/lookup?op\u003dvindex\u0026search\u003dhugares\u0026fingerprint\u003don",
+      "range": {
+        "startLine": 12,
+        "startChar": 55,
+        "endLine": 12,
+        "endChar": 105
+      },
+      "revId": "09946bb97fa0705fdc4ecbe9889a8e32f64f325d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
