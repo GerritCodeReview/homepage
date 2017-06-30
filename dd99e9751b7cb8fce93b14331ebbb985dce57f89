@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "321c2834_abc325ee",
+        "filename": "releases/public-keys.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-30T08:03:32Z",
+      "side": 1,
+      "message": "I think it would be better to add these keys in the same table so we have one table.\n\nHaving two tables on the page looks a bit odd.\n\nTo distinguish, you could add \"for binary release artifacts (deb)\" \"for binary release artifacts (rpm)\" in the notes column.",
+      "revId": "dd99e9751b7cb8fce93b14331ebbb985dce57f89",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
