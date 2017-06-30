@@ -13,3 +13,5 @@ The following public keys are are available on the
 |                  | david.pursehouse@sonymobile.com | 5BEE 1865 DB05 5B31 9DCB  1369 F236 A953 E082 5A6D | Obsoleted |
 | Edwin Kempin     | ekempin@google.com              | 8DC3 89F5 9066 40FA C5A9  9037 51B5 FD97 A0D0 EF51 |           |
 | Saša Živkov      | sasa.zivkov@sap.com             | 024B 9991 1E26 0764 22A7  5AD4 4D52 61F9 26C1 290E |           |
+| GerritForge      | info@gerritforge.com            | F0E2 4DA6 6FFA A737 081E  5A7E 1FFF AA5E 1871 F775 | Deb       |
+| GerritForge Yum  | yum@gerritforge.com             | 87BE F09F 08AF 18A9 79ED  67DB AF71 9AD5 21EF A0F0 | Rpm       |
