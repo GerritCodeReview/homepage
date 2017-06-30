@@ -5,6 +5,7 @@ The following public keys are are available on the
 
 * Release artifacts that are deployed to Maven Central
 * Release announcement emails
+* Binary package distributions
 
 | Name             | Email Address                   | Fingerprint                                        | Notes     |
 |------------------|---------------------------------|----------------------------------------------------|-----------|
