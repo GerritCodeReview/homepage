@@ -11,4 +11,12 @@ are deployed to Maven Central:
 | Edwin Kempin     | ekempin@google.com              | 8DC3 89F5 9066 40FA C5A9  9037 51B5 FD97 A0D0 EF51 |           |
 | Saša Živkov      | sasa.zivkov@sap.com             | 024B 9991 1E26 0764 22A7  5AD4 4D52 61F9 26C1 290E |           |
 
+The following public keys are used to sign the binary release artifacts
+that are available on GerritForge and BinTray:
+
+| Name             | Email Address                   | Fingerprint                                        | Notes     |
+|------------------|---------------------------------|----------------------------------------------------|-----------|
+| GerritForge      | info@gerritforge.com            | F0E2 4DA6 6FFA A737 081E  5A7E 1FFF AA5E 1871 F775 | Deb       |
+| GerritForge Yum  | yum@gerritforge.com             | 87BE F09F 08AF 18A9 79ED  67DB AF71 9AD5 21EF A0F0 | Rpm       |
+
 These keys are available on the [Ubuntu Public Key Server](https://keyserver.ubuntu.com/).
