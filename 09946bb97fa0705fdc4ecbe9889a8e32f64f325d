@@ -22,6 +22,30 @@
       "revId": "09946bb97fa0705fdc4ecbe9889a8e32f64f325d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3e4a6b46_299e29fd",
+        "filename": "releases/public-keys.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2017-07-05T11:52:25Z",
+      "side": 1,
+      "message": "I asked a colleague to download my public key and the fingerprint is ok, I do not know why you are getting another one. Here is the output of the downloaded key:\n\n\ngpg --list-keys --fingerprint\n...\n--------------------------------\npub 2048R/24EE7037 2016-09-21 [expires: 2021-09-20]\nKey fingerprint \u003d 6884 7C78 8005 34A7 3386 86C9 C5D7 01B8 24EE 7037\nuid Hugo Ares \u003chugares@gmail.com\u003e",
+      "parentUuid": "d689e58b_57a47668",
+      "range": {
+        "startLine": 12,
+        "startChar": 55,
+        "endLine": 12,
+        "endChar": 105
+      },
+      "revId": "09946bb97fa0705fdc4ecbe9889a8e32f64f325d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
