@@ -22,6 +22,30 @@
       "revId": "89f93d541d2803f75440c4124dddc6ef1d19d43f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "68c3c452_cdb76d89",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 512,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-07-18T12:27:56Z",
+      "side": 1,
+      "message": "Thanks.  Fixed in https://gerrit-review.googlesource.com/114111",
+      "parentUuid": "ab655aa9_90c77979",
+      "range": {
+        "startLine": 511,
+        "startChar": 0,
+        "endLine": 512,
+        "endChar": 63
+      },
+      "revId": "89f93d541d2803f75440c4124dddc6ef1d19d43f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
