@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ab655aa9_90c77979",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 512,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-07-18T10:28:35Z",
+      "side": 1,
+      "message": "This one affected gwt too. since going to /\u003cprefix/register caused it to throw an internal server error.",
+      "range": {
+        "startLine": 511,
+        "startChar": 0,
+        "endLine": 512,
+        "endChar": 63
+      },
+      "revId": "89f93d541d2803f75440c4124dddc6ef1d19d43f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
