@@ -24,7 +24,7 @@ with deeply integrated and delegatable access controls.
 
 ## Download
 
-[Gerrit 2.14.1][download]
+[Gerrit 2.14.2][download]
 
 ***
 
