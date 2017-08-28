@@ -18,3 +18,4 @@ The following public keys are are available on the
 | Saša Živkov      | sasa.zivkov@sap.com             | 024B 9991 1E26 0764 22A7  5AD4 4D52 61F9 26C1 290E |           |
 | GerritForge      | info@gerritforge.com            | F0E2 4DA6 6FFA A737 081E  5A7E 1FFF AA5E 1871 F775 | Deb       |
 | GerritForge Yum  | yum@gerritforge.com             | 87BE F09F 08AF 18A9 79ED  67DB AF71 9AD5 21EF A0F0 | Rpm       |
+| Masaya Suzuki    | masayasuzuki@google.com         | 17DE EE31 04AA 1FBD ABE4 D1F7 2489 35B0 B6B8 7F19 |           |
