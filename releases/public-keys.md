@@ -4,7 +4,7 @@ The following public keys are are available on the
 [Ubuntu Public Key Server](https://keyserver.ubuntu.com/), and are used to sign:
 
 * Release tags on the gerrit and core plugin repositories
-* Release artifacts that are deployed to Maven Central
+* Release artifacts that are published on the Maven Central and Google Maven repositories
 * Release announcement emails
 * Binary package distributions
 
