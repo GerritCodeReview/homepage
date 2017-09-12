@@ -22,6 +22,30 @@
       "revId": "3a305075e525978a3f9793715cbe9fc826f7c3b2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9779efac_db4a3452",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-09-12T10:00:14Z",
+      "side": 1,
+      "message": "No, in all the release notes we mention the important notes at the top.\n\nHowever, I have pushed a follow-up change to clarify this a bit.\n\nhttps://gerrit-review.googlesource.com/#/c/homepage/+/126730",
+      "parentUuid": "acb7e0d6_ee605315",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 119,
+        "endChar": 18
+      },
+      "revId": "3a305075e525978a3f9793715cbe9fc826f7c3b2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
