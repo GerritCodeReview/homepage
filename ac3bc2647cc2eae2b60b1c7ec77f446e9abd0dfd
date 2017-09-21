@@ -16,6 +16,24 @@
       "revId": "ac3bc2647cc2eae2b60b1c7ec77f446e9abd0dfd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2f2c62d7_2823a972",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1012987
+      },
+      "writtenOn": "2017-09-21T00:41:12Z",
+      "side": 1,
+      "message": "Only groups is required since it is a new index. Accounts and changes will be done by the online reindexer",
+      "parentUuid": "260ded97_b781a573",
+      "revId": "ac3bc2647cc2eae2b60b1c7ec77f446e9abd0dfd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
