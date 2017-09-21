@@ -33,7 +33,9 @@ Latest release: **[2.14.4](/releases/2.14.md)**.
 
 * Support for elliptic curve/ed25519 SSH keys
 
-* Secondary index with Elastic Search (experimental)
+* Secondary index for groups
+
+* Experimental support for Elastic Search as secondary index
 
 [Release notes for Gerrit 2.14](/releases/2.14.md)
 
