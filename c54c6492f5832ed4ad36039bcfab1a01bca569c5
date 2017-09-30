@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a2545c7b_3ca34551",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2017-09-30T15:49:48Z",
+      "side": 1,
+      "message": "As mentioned over IM, I think a sentence highlighting the doc improvements would be nice. Something as simple as, \"Reworked several documentation sections to help users find what they need.\"",
+      "revId": "c54c6492f5832ed4ad36039bcfab1a01bca569c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a8ff3157_127ff1c9",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2017-09-30T15:49:48Z",
+      "side": 1,
+      "message": "Use the 2.15-specific link, as elsewhere in this doc.",
+      "range": {
+        "startLine": 140,
+        "startChar": 25,
+        "endLine": 140,
+        "endChar": 77
+      },
+      "revId": "c54c6492f5832ed4ad36039bcfab1a01bca569c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
