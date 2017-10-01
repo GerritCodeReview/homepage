@@ -15,7 +15,17 @@ Latest release: **[2.14.4](/releases/2.14.md)**.
 
 ## 2.15 *(In development)* {#2.15}
 
-* Private Changes
+* New change workflows for changes not yet ready for full review (formerly
+  Drafts).
+
+* The new PolyGerrit UI is mature enough for most uses.
+
+* Account data is stored in NoteDb.
+
+* NoteDb migration for change metadata is available.
+
+* Made several improvements and additions to the documentation to help users
+  find the information they need.
 
 [Release notes for Gerrit 2.15](/releases/2.15.md)
 
