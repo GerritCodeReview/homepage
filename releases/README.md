@@ -13,7 +13,7 @@ Latest release: **[2.14.4](/releases/2.14.md)**.
 
 [TOC]
 
-## 2.15 *(In development)* {#2.15}
+## 2.15 *(Release candidate)* {#2.15}
 
 * New change workflows for changes not yet ready for full review (formerly
   Drafts).
