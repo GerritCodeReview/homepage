@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "90e45ae2_3c93b819",
+        "filename": "releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-02T21:37:02Z",
+      "side": 1,
+      "message": "I wonder should this be 3.0?",
+      "revId": "8e92aa2f1b7f3d66dd99e58fcef8a05990227178",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c38a85d6_75252a1b",
+        "filename": "releases/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-02T21:37:02Z",
+      "side": 1,
+      "message": "I wonder should this be 3.0?",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 50
+      },
+      "revId": "8e92aa2f1b7f3d66dd99e58fcef8a05990227178",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
