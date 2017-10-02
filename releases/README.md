@@ -13,6 +13,12 @@ Latest release: **[2.14.4](/releases/2.14.md)**.
 
 [TOC]
 
+## 2.16 *(In development)* {#2.16}
+
+* Inline editing support
+
+[Release notes for Gerrit 2.16](/releases/2.16.md)
+
 ## 2.15 *(Release candidate)* {#2.15}
 
 * New change workflows for changes not yet ready for full review (formerly
