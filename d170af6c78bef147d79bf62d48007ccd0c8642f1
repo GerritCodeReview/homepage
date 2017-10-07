@@ -45,6 +45,30 @@
       "revId": "d170af6c78bef147d79bf62d48007ccd0c8642f1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c5da0117_690221a0",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-07T10:58:20Z",
+      "side": 1,
+      "message": "Sorry for duplicate comment, half way through it asked me to sign back in, and didnt see it saved.",
+      "parentUuid": "08ebddb8_47b3aa1c",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 38
+      },
+      "revId": "d170af6c78bef147d79bf62d48007ccd0c8642f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
