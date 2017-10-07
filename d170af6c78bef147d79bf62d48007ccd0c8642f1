@@ -69,6 +69,30 @@
       "revId": "d170af6c78bef147d79bf62d48007ccd0c8642f1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4901ae41_a39eb714",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-10-07T12:04:02Z",
+      "side": 1,
+      "message": "Doh, yes, you\u0027re right.  This should be in the 2.15 release notes.",
+      "parentUuid": "c5da0117_690221a0",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 38
+      },
+      "revId": "d170af6c78bef147d79bf62d48007ccd0c8642f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
