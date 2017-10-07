@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "08ebddb8_47b3aa1c",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-07T10:57:40Z",
+      "side": 1,
+      "message": "This was done in 2.15. Is this to prevent users from getting confused by also putting it in the 2.16 release notes?",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 38
+      },
+      "revId": "d170af6c78bef147d79bf62d48007ccd0c8642f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "21663b15_801189d2",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-07T10:57:40Z",
+      "side": 1,
+      "message": "Is this to prevent users getting confused? Since this was done in 2.15.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 38
+      },
+      "revId": "d170af6c78bef147d79bf62d48007ccd0c8642f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
