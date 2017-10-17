@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e3044be7_43f31d35",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-10-17T06:37:41Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7d81c6d2_4a722233",
+      "range": {
+        "startLine": 337,
+        "startChar": 22,
+        "endLine": 337,
+        "endChar": 42
+      },
+      "revId": "d8887e4c921b5d657818fa93d99a974b62928377",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "45986020_ff40856a",
         "filename": "releases/2.14.md",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2017-10-17T06:32:36Z",
       "side": 1,
       "message": "Do we have more info on this one, like which condition caused the ISE?",
+      "revId": "d8887e4c921b5d657818fa93d99a974b62928377",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d80f327b_ed908f97",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 389,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-10-17T06:37:41Z",
+      "side": 1,
+      "message": "https://gerrit-review.googlesource.com/c/gerrit/+/125911\n\nI wasn\u0027t sure if it was necessary to add details.",
+      "parentUuid": "45986020_ff40856a",
       "revId": "d8887e4c921b5d657818fa93d99a974b62928377",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
