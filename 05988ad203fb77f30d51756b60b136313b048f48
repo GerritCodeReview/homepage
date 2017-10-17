@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9cc7b909_5354e396",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-17T10:58:49Z",
+      "side": 1,
+      "message": "This should be updated to say it only affected users that created accounts over ssh or rest api. As it dosen\u0027t affect /register.",
+      "range": {
+        "startLine": 334,
+        "startChar": 0,
+        "endLine": 338,
+        "endChar": 10
+      },
+      "revId": "05988ad203fb77f30d51756b60b136313b048f48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
