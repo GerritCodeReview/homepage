@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "881bf28e_55e676be",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2017-10-25T07:45:11Z",
+      "side": 1,
+      "message": "perhaps include that 2.14.6 will have 2.8.2?",
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "14d5df4b_b2f86ec6",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2017-10-25T07:45:11Z",
+      "side": 1,
+      "message": "Suggestion: include \"Chrome v62\" here in this line.",
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "decb9125_a8889a18",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2017-10-25T07:45:11Z",
+      "side": 1,
+      "message": "I\u0027d consider CSS elements internal logic, not relevant from a user perspective. Perhaps just link to the issue if people want to know more details? https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d7481",
+      "range": {
+        "startLine": 356,
+        "startChar": 2,
+        "endLine": 359,
+        "endChar": 53
+      },
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "676fc04f_92f0bede",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2017-10-25T07:45:11Z",
+      "side": 1,
+      "message": "(Minor) Similar here, what is the impact for the user? I would be encouraged to upgrade as it reads now.",
+      "range": {
+        "startLine": 363,
+        "startChar": 2,
+        "endLine": 365,
+        "endChar": 38
+      },
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d4f8854c_0a2f9450",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2017-10-25T07:45:11Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 370,
+        "startChar": 31,
+        "endLine": 370,
+        "endChar": 40
+      },
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
