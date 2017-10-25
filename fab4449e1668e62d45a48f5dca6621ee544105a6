@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "c581adb7_4240d999",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-10-25T07:51:37Z",
+      "side": 1,
+      "message": "Actually I think before it was also not possible to copy in other browsers, but Chrome allowed it. Thus the new version of chrome fixes a bug.\n\nIn the patch on gerrit the css was changed to `text` for all browsers, so the behavior is the same",
+      "parentUuid": "14d5df4b_b2f86ec6",
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "decb9125_a8889a18",
         "filename": "releases/2.14.md",
         "patchSetId": 2
@@ -47,6 +65,30 @@
       "writtenOn": "2017-10-25T07:45:11Z",
       "side": 1,
       "message": "I\u0027d consider CSS elements internal logic, not relevant from a user perspective. Perhaps just link to the issue if people want to know more details? https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d7481",
+      "range": {
+        "startLine": 356,
+        "startChar": 2,
+        "endLine": 359,
+        "endChar": 53
+      },
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c2f9b60_2f4c0ee0",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-10-25T07:51:37Z",
+      "side": 1,
+      "message": "Yes, it might be better to rewrite this whole block.",
+      "parentUuid": "decb9125_a8889a18",
       "range": {
         "startLine": 356,
         "startChar": 2,
@@ -82,6 +124,30 @@
     },
     {
       "key": {
+        "uuid": "22c6d1a2_17a2fcf8",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-10-25T07:51:37Z",
+      "side": 1,
+      "message": "I assume you mean \"would not\".\n\nI\u0027ll need to check where we actually use the element that was fixed.  It might be better to just remove the paragraph.",
+      "parentUuid": "676fc04f_92f0bede",
+      "range": {
+        "startLine": 363,
+        "startChar": 2,
+        "endLine": 365,
+        "endChar": 38
+      },
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d4f8854c_0a2f9450",
         "filename": "releases/2.14.md",
         "patchSetId": 2
@@ -102,6 +168,30 @@
       "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7165297d_7161ef03",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-10-25T07:51:37Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d4f8854c_0a2f9450",
+      "range": {
+        "startLine": 370,
+        "startChar": 31,
+        "endLine": 370,
+        "endChar": 40
+      },
+      "revId": "fab4449e1668e62d45a48f5dca6621ee544105a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
