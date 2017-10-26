@@ -13,13 +13,13 @@ Latest release: **[2.14.5.1](/releases/2.14.md)**.
 
 [TOC]
 
-## 2.16 *(In development)* {#2.16}
+## 3.0 *(In development)* {#3.0}
 
 * Inline editing support in PolyGerrit UI.
 
 * Redesigned UI for PolyGerrit based on material.
 
-[Release notes for Gerrit 2.16](/releases/2.16.md)
+[Release notes for Gerrit 3.0](/releases/3.0.md)
 
 ## 2.15 *(Release candidate)* {#2.15}
 
