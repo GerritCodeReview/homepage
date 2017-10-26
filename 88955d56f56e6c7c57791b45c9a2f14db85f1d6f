@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ef2c42d9_6e2ec635",
+        "filename": "releases/2.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 360,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2017-10-26T21:12:02Z",
+      "side": 1,
+      "message": "Only when force pushing? The change does not mention this specifically and suggest regular push is also affected.",
+      "range": {
+        "startLine": 360,
+        "startChar": 29,
+        "endLine": 360,
+        "endChar": 34
+      },
+      "revId": "88955d56f56e6c7c57791b45c9a2f14db85f1d6f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
