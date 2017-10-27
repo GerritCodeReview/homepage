@@ -1,0 +1,320 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a9a81c71_2bb3062e",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Is this needed? Or is this showing users that they can choose a different name to clone into?",
+      "range": {
+        "startLine": 15,
+        "startChar": 56,
+        "endLine": 15,
+        "endChar": 66
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a254021f_4a4178f6",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "These should link to the local docs instead of gerrit-documentation site.",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 121
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3c3651c0_4732a573",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Should linke to local doc\u0027s.",
+      "range": {
+        "startLine": 28,
+        "startChar": 13,
+        "endLine": 28,
+        "endChar": 111
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "13dfff66_966c9725",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Remove whitespace please.",
+      "range": {
+        "startLine": 79,
+        "startChar": 42,
+        "endLine": 79,
+        "endChar": 43
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "831c1495_7d0d35fe",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Should link to local docs.",
+      "range": {
+        "startLine": 80,
+        "startChar": 22,
+        "endLine": 80,
+        "endChar": 125
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "74739b6b_cff40688",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Should link to local docs.",
+      "range": {
+        "startLine": 89,
+        "startChar": 36,
+        "endLine": 89,
+        "endChar": 129
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b10f25c7_cc4c8a60",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Remove this i here please.",
+      "range": {
+        "startLine": 89,
+        "startChar": 35,
+        "endLine": 89,
+        "endChar": 36
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7fc1760e_0d5d4b53",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Should link to local docs.",
+      "range": {
+        "startLine": 122,
+        "startChar": 22,
+        "endLine": 122,
+        "endChar": 141
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a3a9ab3b_fb23014a",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Should link to local docs.",
+      "range": {
+        "startLine": 126,
+        "startChar": 45,
+        "endLine": 126,
+        "endChar": 147
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "65593ac7_a52f6c52",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "what about -a --amend? (optional, though that\u0027s what i do :))",
+      "range": {
+        "startLine": 137,
+        "startChar": 19,
+        "endLine": 137,
+        "endChar": 26
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dfdc4ec1_8b27589f",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Should link to local docs.",
+      "range": {
+        "startLine": 148,
+        "startChar": 26,
+        "endLine": 148,
+        "endChar": 128
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "27eb370a_2ef68dff",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Should link to local docs.",
+      "range": {
+        "startLine": 162,
+        "startChar": 10,
+        "endLine": 162,
+        "endChar": 113
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc42b6ba_d08dfc3f",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "put this up on line 161.",
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8bde60ec_2b71590d",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-10-27T17:23:32Z",
+      "side": 1,
+      "message": "Should link to local docs.",
+      "range": {
+        "startLine": 166,
+        "startChar": 12,
+        "endLine": 166,
+        "endChar": 105
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
