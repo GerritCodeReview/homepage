@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "09b5e7eb_2dc4bb7c",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "I think this is from the original walkthrough. You\u0027re right, it\u0027s probably not necessary, so I\u0027ve removed it.",
+      "parentUuid": "a9a81c71_2bb3062e",
+      "range": {
+        "startLine": 15,
+        "startChar": 56,
+        "endLine": 15,
+        "endChar": 66
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a254021f_4a4178f6",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
@@ -36,6 +60,30 @@
       "writtenOn": "2017-10-27T17:23:32Z",
       "side": 1,
       "message": "These should link to the local docs instead of gerrit-documentation site.",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 121
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6c8b2da8_d81fd651",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a254021f_4a4178f6",
       "range": {
         "startLine": 22,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "ed1581f0_5b41c802",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "3c3651c0_4732a573",
+      "range": {
+        "startLine": 28,
+        "startChar": 13,
+        "endLine": 28,
+        "endChar": 111
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "13dfff66_966c9725",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "c5768b4d_b3bf734d",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13dfff66_966c9725",
+      "range": {
+        "startLine": 79,
+        "startChar": 42,
+        "endLine": 79,
+        "endChar": 43
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "831c1495_7d0d35fe",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
@@ -105,6 +201,30 @@
       "writtenOn": "2017-10-27T17:23:32Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 80,
+        "startChar": 22,
+        "endLine": 80,
+        "endChar": 125
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "090d3967_6f4f022f",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "831c1495_7d0d35fe",
       "range": {
         "startLine": 80,
         "startChar": 22,
@@ -163,6 +283,54 @@
     },
     {
       "key": {
+        "uuid": "034ef4bf_0b47e379",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "74739b6b_cff40688",
+      "range": {
+        "startLine": 89,
+        "startChar": 36,
+        "endLine": 89,
+        "endChar": 129
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "50a35a75_ccd3f3f4",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b10f25c7_cc4c8a60",
+      "range": {
+        "startLine": 89,
+        "startChar": 35,
+        "endLine": 89,
+        "endChar": 36
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7fc1760e_0d5d4b53",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
@@ -174,6 +342,30 @@
       "writtenOn": "2017-10-27T17:23:32Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 122,
+        "startChar": 22,
+        "endLine": 122,
+        "endChar": 141
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae8e79a0_849c881b",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7fc1760e_0d5d4b53",
       "range": {
         "startLine": 122,
         "startChar": 22,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "5925114f_e6af4ae4",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a3a9ab3b_fb23014a",
+      "range": {
+        "startLine": 126,
+        "startChar": 45,
+        "endLine": 126,
+        "endChar": 147
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "65593ac7_a52f6c52",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
@@ -232,6 +448,30 @@
     },
     {
       "key": {
+        "uuid": "8edb3443_2801107f",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Again, this comes from the original doc. We could discuss later about adding -a.\n\nI think, though, that the important issue is that we are amending the commit.",
+      "parentUuid": "65593ac7_a52f6c52",
+      "range": {
+        "startLine": 137,
+        "startChar": 19,
+        "endLine": 137,
+        "endChar": 26
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dfdc4ec1_8b27589f",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
@@ -243,6 +483,30 @@
       "writtenOn": "2017-10-27T17:23:32Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 148,
+        "startChar": 26,
+        "endLine": 148,
+        "endChar": 128
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a6d83dfe_175d0155",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "dfdc4ec1_8b27589f",
       "range": {
         "startLine": 148,
         "startChar": 26,
@@ -295,6 +559,48 @@
     },
     {
       "key": {
+        "uuid": "f019997d_a8cb50aa",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "27eb370a_2ef68dff",
+      "range": {
+        "startLine": 162,
+        "startChar": 10,
+        "endLine": 162,
+        "endChar": 113
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "67be4ed1_0bff7deb",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "In the actual file, the entire link is on one line. I think this may be a Gerrit formatting thing that we\u0027re seeing here.",
+      "parentUuid": "cc42b6ba_d08dfc3f",
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8bde60ec_2b71590d",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
@@ -306,6 +612,30 @@
       "writtenOn": "2017-10-27T17:23:32Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 166,
+        "startChar": 12,
+        "endLine": 166,
+        "endChar": 105
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ec11a198_378efd00",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8bde60ec_2b71590d",
       "range": {
         "startLine": 166,
         "startChar": 12,
@@ -341,6 +671,30 @@
     },
     {
       "key": {
+        "uuid": "efbf31c7_1783b6f4",
+        "filename": "docs/guides.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b52b52f9_5212505d",
+      "range": {
+        "startLine": 11,
+        "startChar": 9,
+        "endLine": 11,
+        "endChar": 92
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "54d55a99_8b7fb7c4",
         "filename": "docs/guides.md",
         "patchSetId": 39
@@ -352,6 +706,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 23,
+        "startChar": 9,
+        "endLine": 23,
+        "endChar": 92
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6c37cddf_5f1fb472",
+        "filename": "docs/guides.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "54d55a99_8b7fb7c4",
       "range": {
         "startLine": 23,
         "startChar": 9,
@@ -387,6 +765,30 @@
     },
     {
       "key": {
+        "uuid": "107a8c34_70e6b076",
+        "filename": "docs/guides.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7da19014_5ea4de32",
+      "range": {
+        "startLine": 34,
+        "startChar": 9,
+        "endLine": 34,
+        "endChar": 92
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7905ee5f_e404ba3f",
         "filename": "docs/guides.md",
         "patchSetId": 39
@@ -398,6 +800,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 45,
+        "startChar": 9,
+        "endLine": 45,
+        "endChar": 92
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "73000796_12a01a51",
+        "filename": "docs/guides.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7905ee5f_e404ba3f",
       "range": {
         "startLine": 45,
         "startChar": 9,
@@ -433,6 +859,30 @@
     },
     {
       "key": {
+        "uuid": "b062e199_6520dd46",
+        "filename": "docs/hello-gerrit.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "dc22378f_1a5b469e",
+      "range": {
+        "startLine": 41,
+        "startChar": 18,
+        "endLine": 41,
+        "endChar": 111
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9bab4b7c_6f359e6f",
         "filename": "docs/hello-gerrit.md",
         "patchSetId": 39
@@ -444,6 +894,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 47,
+        "startChar": 20,
+        "endLine": 47,
+        "endChar": 110
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9d497271_8bb386e3",
+        "filename": "docs/hello-gerrit.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "9bab4b7c_6f359e6f",
       "range": {
         "startLine": 47,
         "startChar": 20,
@@ -479,6 +953,30 @@
     },
     {
       "key": {
+        "uuid": "333bb741_cf544304",
+        "filename": "docs/hello-gerrit.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2c4ed31e_a54b849f",
+      "range": {
+        "startLine": 148,
+        "startChar": 12,
+        "endLine": 148,
+        "endChar": 101
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "abdd2817_766bbe3d",
         "filename": "docs/hello-gerrit.md",
         "patchSetId": 39
@@ -502,6 +1000,30 @@
     },
     {
       "key": {
+        "uuid": "3e7059dc_e2b043d8",
+        "filename": "docs/hello-gerrit.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "abdd2817_766bbe3d",
+      "range": {
+        "startLine": 153,
+        "startChar": 18,
+        "endLine": 153,
+        "endChar": 117
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "65864d84_7a7f3e25",
         "filename": "docs/hello-gerrit.md",
         "patchSetId": 39
@@ -513,6 +1035,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 209,
+        "startChar": 28,
+        "endLine": 209,
+        "endChar": 118
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fe01f206_ac403a9b",
+        "filename": "docs/hello-gerrit.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "65864d84_7a7f3e25",
       "range": {
         "startLine": 209,
         "startChar": 28,
@@ -571,6 +1117,54 @@
     },
     {
       "key": {
+        "uuid": "f3668216_7fda753f",
+        "filename": "docs/hello-gerrit.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "307d5976_7ba25d66",
+      "range": {
+        "startLine": 214,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 2
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e98c28ab_4b357dad",
+        "filename": "docs/hello-gerrit.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e3ee4059_01ef69b8",
+      "range": {
+        "startLine": 214,
+        "startChar": 9,
+        "endLine": 214,
+        "endChar": 96
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7c507b03_468410d0",
         "filename": "docs/intro-gerrit-walkthrough.md",
         "patchSetId": 39
@@ -582,6 +1176,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 45,
+        "startChar": 14,
+        "endLine": 45,
+        "endChar": 103
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c87ddf0_5be25f11",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7c507b03_468410d0",
       "range": {
         "startLine": 45,
         "startChar": 14,
@@ -617,6 +1235,30 @@
     },
     {
       "key": {
+        "uuid": "2d5737c4_0accfc2c",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "51248bf6_b64212d4",
+      "range": {
+        "startLine": 100,
+        "startChar": 9,
+        "endLine": 100,
+        "endChar": 116
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "abbdfd7e_6e637fa8",
         "filename": "docs/intro-gerrit-walkthrough.md",
         "patchSetId": 39
@@ -628,6 +1270,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 104,
+        "startChar": 11,
+        "endLine": 104,
+        "endChar": 117
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2e1bd48c_d3d46b8e",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "abbdfd7e_6e637fa8",
       "range": {
         "startLine": 104,
         "startChar": 11,
@@ -663,6 +1329,30 @@
     },
     {
       "key": {
+        "uuid": "3a05ddf8_15220be8",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "93038154_bbd48f0b",
+      "range": {
+        "startLine": 106,
+        "startChar": 12,
+        "endLine": 106,
+        "endChar": 108
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ccb9d26_8d82ffa2",
         "filename": "docs/intro-gerrit-walkthrough.md",
         "patchSetId": 39
@@ -674,6 +1364,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 109,
+        "startChar": 28,
+        "endLine": 109,
+        "endChar": 131
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c0c56e62_21730df7",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5ccb9d26_8d82ffa2",
       "range": {
         "startLine": 109,
         "startChar": 28,
@@ -709,6 +1423,30 @@
     },
     {
       "key": {
+        "uuid": "7de5032b_bb5eb80d",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "12ce9795_0154a86b",
+      "range": {
+        "startLine": 125,
+        "startChar": 11,
+        "endLine": 125,
+        "endChar": 98
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ada3f638_113e68ff",
         "filename": "docs/intro-gerrit-walkthrough.md",
         "patchSetId": 39
@@ -720,6 +1458,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 130,
+        "startChar": 35,
+        "endLine": 130,
+        "endChar": 122
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dfc1e44c_2be4d50a",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ada3f638_113e68ff",
       "range": {
         "startLine": 130,
         "startChar": 35,
@@ -755,6 +1517,30 @@
     },
     {
       "key": {
+        "uuid": "ed144150_0a6c01de",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "46837cdf_929ea896",
+      "range": {
+        "startLine": 166,
+        "startChar": 9,
+        "endLine": 166,
+        "endChar": 115
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b21ee22e_e148488f",
         "filename": "docs/intro-gerrit-walkthrough.md",
         "patchSetId": 39
@@ -766,6 +1552,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 167,
+        "startChar": 10,
+        "endLine": 167,
+        "endChar": 106
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "085ead7e_17fbd259",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b21ee22e_e148488f",
       "range": {
         "startLine": 167,
         "startChar": 10,
@@ -824,6 +1634,54 @@
     },
     {
       "key": {
+        "uuid": "0527e9d0_51a89952",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "29e8efa0_dfcee51a",
+      "range": {
+        "startLine": 195,
+        "startChar": 0,
+        "endLine": 195,
+        "endChar": 2
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c230b47e_4ca08608",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "f1306d14_97c7ab51",
+      "range": {
+        "startLine": 195,
+        "startChar": 10,
+        "endLine": 195,
+        "endChar": 107
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cfa9883c_0be2672f",
         "filename": "docs/intro-gerrit-walkthrough.md",
         "patchSetId": 39
@@ -847,6 +1705,30 @@
     },
     {
       "key": {
+        "uuid": "a0121bca_8d2a4cc3",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "cfa9883c_0be2672f",
+      "range": {
+        "startLine": 271,
+        "startChar": 17,
+        "endLine": 271,
+        "endChar": 116
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2c5889c5_0f00afe9",
         "filename": "docs/intro-gerrit-walkthrough.md",
         "patchSetId": 39
@@ -858,6 +1740,30 @@
       "writtenOn": "2017-10-27T17:33:11Z",
       "side": 1,
       "message": "Should link to local docs.",
+      "range": {
+        "startLine": 276,
+        "startChar": 52,
+        "endLine": 276,
+        "endChar": 156
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2f285c1b_510a1b0b",
+        "filename": "docs/intro-gerrit-walkthrough.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T18:23:20Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2c5889c5_0f00afe9",
       "range": {
         "startLine": 276,
         "startChar": 52,
