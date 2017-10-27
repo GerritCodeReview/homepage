@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "980ba4b0_e15a17d5",
+        "filename": "images/intro-quick-hot-key-help.jpg",
+        "patchSetId": 38
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T16:54:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c2df2210_613e513e",
+      "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9b29174d_7f353719",
         "filename": "images/intro-quick-new-review.jpg",
         "patchSetId": 38
@@ -33,6 +51,24 @@
       "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a977e506_0c2e6f61",
+        "filename": "images/intro-quick-new-review.jpg",
+        "patchSetId": 38
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T16:54:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "9b29174d_7f353719",
+      "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "8d750312_928ac90c",
+        "filename": "images/intro-quick-review-2-patches.jpg",
+        "patchSetId": 38
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T16:54:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "1f89d950_422f6bca",
+      "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b5480a3f_577d7331",
         "filename": "images/intro-quick-review-line-comment.jpg",
         "patchSetId": 38
@@ -67,6 +121,24 @@
       "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8f7363a2_f2828589",
+        "filename": "images/intro-quick-review-line-comment.jpg",
+        "patchSetId": 38
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T16:54:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b5480a3f_577d7331",
+      "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "77e26b62_b36c040d",
+        "filename": "images/intro-quick-reviewing-the-change.jpg",
+        "patchSetId": 38
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T16:54:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d2bf56a2_3d51cab7",
+      "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e8abe22c_2259274c",
         "filename": "images/intro-quick-verifying.jpg",
         "patchSetId": 38
@@ -101,6 +191,24 @@
       "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b1cb8021_6a115af8",
+        "filename": "images/intro-quick-verifying.jpg",
+        "patchSetId": 38
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-27T16:54:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e8abe22c_2259274c",
+      "revId": "9d44271731ca17aad33baae66c8e8728dbd79194",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
