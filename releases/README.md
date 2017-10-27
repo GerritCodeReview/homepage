@@ -30,6 +30,9 @@ Latest release: **[2.14.5.1](/releases/2.14.md)**.
 
 * Account data is stored in NoteDb.
 
+* NoteDb for change metadata is considered stable, and new sites use it by
+  default.
+
 * NoteDb migration for change metadata is available.
 
 * Made several improvements and additions to the documentation to help users
