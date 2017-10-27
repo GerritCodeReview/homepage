@@ -35,6 +35,8 @@ Latest release: **[2.14.5.1](/releases/2.14.md)**.
 * Made several improvements and additions to the documentation to help users
   find the information they need.
 
+* NoteDB is now the default for new installs.
+
 [Release notes for Gerrit 2.15](/releases/2.15.md)
 
 ## 2.14 {#2.14}
