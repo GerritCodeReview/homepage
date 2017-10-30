@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "4e075f7c_6169ed40",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-10-30T07:50:21Z",
+      "side": 1,
+      "message": "The homepage runs at gerritcodereview.com which does not have local docs.\n\nAll other documentation links in the homepage project point to gerrit-documentation.googlesource.com\n\nThe only problem here is that there are now going to be significantly more links to replace when we release a new version, assuming these should always point to the latest version.\n\nI\u0027m not sure if it\u0027s possible in Gitiles Markdown, but it would make things easier if the version could be defined with a macro that gets changed in one place.",
+      "parentUuid": "6c8b2da8_d81fd651",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 121
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3c3651c0_4732a573",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
