@@ -120,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "ad68401a_b2d4a694",
+        "filename": "docs/committing-changes.md",
+        "patchSetId": 39
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1041213
+      },
+      "writtenOn": "2017-10-30T16:59:48Z",
+      "side": 1,
+      "message": "One idea I\u0027ve had: let\u0027s create a \"latest\" folder in for the Gerrit docs. The contents of this folder should match the contents in the latest Gerrit release. By having this folder, we can create URLs that point to the latest version of the docs, and not have to worry (as much) about updating the links later. \n\nIf we went with that plan, I\u0027d update these links after that new folder is created.",
+      "parentUuid": "4e075f7c_6169ed40",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 121
+      },
+      "revId": "953f9a28c627250721dc91bcc7985237aa14866d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3c3651c0_4732a573",
         "filename": "docs/committing-changes.md",
         "patchSetId": 39
