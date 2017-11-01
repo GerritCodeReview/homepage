@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0158e637_4bfaac69",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2017-11-01T08:35:32Z",
+      "side": 1,
+      "message": "Should we add here more details, like on some dialects or in some cases. My understanding of the underlying problem its that it was only happening on MySQL/MariaDB in some specific cases. So that the other dialects might not be affected by this problem.",
+      "revId": "dc021cc7bc4d9ab496b2b72f84647c7701ce9b0a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
