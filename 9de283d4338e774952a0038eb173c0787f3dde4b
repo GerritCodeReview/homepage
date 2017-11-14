@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2280d07f_d034e98a",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-11-14T23:33:19Z",
+      "side": 1,
+      "message": "I\u0027m sure this isn\u0027t the only breaking change.  Do we want to document all of them?\n\nAlso, if we are making breaking changes, is there any objection to moving all the *Input classes from the extension.common package to more appropriate api.xyz packages?",
+      "revId": "9de283d4338e774952a0038eb173c0787f3dde4b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
