@@ -46,6 +46,30 @@
       "revId": "bc351da31b695abd93a102572631f228ddd36156",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "12726a76_00ff0675",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2017-11-22T06:54:32Z",
+      "side": 1,
+      "message": "\u003e What about reverting the guava upgrade on stable-2.14 then?\n\nI have no preference regarding this.",
+      "parentUuid": "d44f08a4_9f138b72",
+      "range": {
+        "startLine": 397,
+        "startChar": 0,
+        "endLine": 401,
+        "endChar": 63
+      },
+      "revId": "bc351da31b695abd93a102572631f228ddd36156",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
