@@ -22,6 +22,30 @@
       "revId": "2afe74d2d03543dc4b2541676954eea4ca4e925e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3ff26211_3f32cf4e",
+        "filename": "releases/2.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-11-22T07:09:30Z",
+      "side": 1,
+      "message": "Line 311 is the release notes for the major 2.14 release.  It\u0027s intentionally repeated here.\n\nI did the same for GWT which was upgraded in 2.14 and then again in 2.14.6 (based on suggestion from Gert van Dijk).",
+      "parentUuid": "110e2f77_100f2b3c",
+      "range": {
+        "startLine": 422,
+        "startChar": 0,
+        "endLine": 422,
+        "endChar": 32
+      },
+      "revId": "2afe74d2d03543dc4b2541676954eea4ca4e925e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
