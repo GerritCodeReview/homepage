@@ -9,6 +9,8 @@
 * [Source](https://gerrit.googlesource.com/gerrit/)
 * [Reviews](https://gerrit-review.googlesource.com/#/q/status:open+project:gerrit)
 * [Builds](https://gerrit-ci.gerritforge.com)
+* **[Preview our new site
+  design!](http://gerrit-documentation.storage.googleapis.com/beta/index.html)**
 
 [home]: /index.md
 [logo]: /images/diffy45.png
