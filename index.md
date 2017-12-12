@@ -1,5 +1,11 @@
 ## Code Review for Git
 
+<div id="banner" style="position:absolute; top: 0; left: 0; background-color
+#DDEEEE; width: 100%;">
+<div id="banner-content" style="width: 800px; margin: 0 auto; padding: 10px;
+border: 1px solid #000;">Preview our new site!</div>
+</div>
+
 Gerrit provides web based code review and repository management for
 the [Git][git] version control system.
 
