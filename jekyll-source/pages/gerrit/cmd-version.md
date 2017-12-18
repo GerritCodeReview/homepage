@@ -1,6 +1,6 @@
 ---
 title: " gerrit version"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-version.html
 ---
 ## NAME

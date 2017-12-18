@@ -1,6 +1,6 @@
 ---
 title: " gerrit index start"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-index-start.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " gerrit flush-caches"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-flush-caches.html
 ---
 ## NAME

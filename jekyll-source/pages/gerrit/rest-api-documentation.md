@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - /Documentation/ REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api-documentation.html
 ---
 This page describes the documentation search related REST endpoints.

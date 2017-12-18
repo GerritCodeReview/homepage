@@ -1,6 +1,6 @@
 ---
 title: " gerrit index project"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-index-project.html
 ---
 ## NAME

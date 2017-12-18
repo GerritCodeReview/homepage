@@ -1,6 +1,6 @@
 ---
 title: " missing Change-Id in commit message footer"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-missing-changeid.html
 ---
 With this error message Gerrit rejects to push a commit to a project

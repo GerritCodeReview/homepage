@@ -1,6 +1,6 @@
 ---
 title: " gerrit stream-events"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-stream-events.html
 ---
 ## SYNOPSIS

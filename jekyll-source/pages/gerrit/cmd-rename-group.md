@@ -1,6 +1,6 @@
 ---
 title: " gerrit rename-group"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-rename-group.html
 ---
 ## NAME

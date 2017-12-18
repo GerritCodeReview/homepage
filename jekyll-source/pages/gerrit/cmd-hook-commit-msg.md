@@ -1,6 +1,6 @@
 ---
 title: " commit-msg Hook"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-hook-commit-msg.html
 ---
 ## NAME

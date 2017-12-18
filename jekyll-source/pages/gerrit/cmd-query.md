@@ -1,6 +1,6 @@
 ---
 title: " gerrit query"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-query.html
 ---
 ## NAME

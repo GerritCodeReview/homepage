@@ -1,6 +1,6 @@
 ---
 title: " invalid author"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-invalid-author.html
 ---
 For every pushed commit Gerrit verifies that the e-mail address of the

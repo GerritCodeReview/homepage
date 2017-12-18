@@ -1,6 +1,6 @@
 ---
 title: " gerrit ls-groups"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-ls-groups.html
 ---
 ## NAME

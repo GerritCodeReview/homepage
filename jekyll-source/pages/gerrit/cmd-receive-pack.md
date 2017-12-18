@@ -1,6 +1,6 @@
 ---
 title: " git-receive-pack"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-receive-pack.html
 ---
 ## NAME

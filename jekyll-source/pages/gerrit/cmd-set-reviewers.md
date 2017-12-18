@@ -1,6 +1,6 @@
 ---
 title: " gerrit set-reviewers"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-set-reviewers.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " gerrit ls-members"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-ls-members.html
 ---
 ## NAME

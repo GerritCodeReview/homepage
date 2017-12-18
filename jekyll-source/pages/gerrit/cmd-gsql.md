@@ -1,6 +1,6 @@
 ---
 title: " gerrit gsql"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-gsql.html
 ---
 ## NAME

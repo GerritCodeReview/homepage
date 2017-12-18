@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - /groups/ REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api-groups.html
 ---
 This page describes the group related REST endpoints. Please also take

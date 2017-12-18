@@ -1,6 +1,6 @@
 ---
 title: " gerrit logging set-level"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-logging-set-level.html
 ---
 ## NAME

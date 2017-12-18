@@ -1,6 +1,6 @@
 ---
 title: " gerrit index changes"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-index-changes.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " gerrit set-head"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-set-head.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " gerrit ls-projects"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-ls-projects.html
 ---
 ## NAME

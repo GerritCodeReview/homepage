@@ -1,6 +1,6 @@
 ---
 title: " gerrit show-caches"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-show-caches.html
 ---
 ## NAME

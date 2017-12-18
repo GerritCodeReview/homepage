@@ -1,6 +1,6 @@
 ---
 title: " suexec"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-suexec.html
 ---
 ## NAME

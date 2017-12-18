@@ -1,6 +1,6 @@
 ---
 title: " gerrit test-submit rule"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-test-submit-rule.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " gerrit ban-commit"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-ban-commit.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - /projects/ REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api-projects.html
 ---
 This page describes the project related REST endpoints. Please also take

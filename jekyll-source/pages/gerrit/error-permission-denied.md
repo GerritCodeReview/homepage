@@ -1,6 +1,6 @@
 ---
 title: " Permission denied (publickey)"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-permission-denied.html
 ---
 With this error message an SSH command to Gerrit is rejected if the SSH

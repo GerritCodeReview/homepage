@@ -1,6 +1,6 @@
 ---
 title: " Project not found: ..."
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-project-not-found.html
 ---
 With this error message Gerrit rejects to push a commit if the git

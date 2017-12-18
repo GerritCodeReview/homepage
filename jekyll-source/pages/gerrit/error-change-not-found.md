@@ -1,6 +1,6 @@
 ---
 title: " change ... not found"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-change-not-found.html
 ---
 With this error message Gerrit rejects to push a commit to a change that

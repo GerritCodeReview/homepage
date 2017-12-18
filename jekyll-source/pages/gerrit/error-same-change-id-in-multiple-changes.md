@@ -1,6 +1,6 @@
 ---
 title: " same Change-Id in multiple changes"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-same-change-id-in-multiple-changes.html
 ---
 With this error message Gerrit rejects to push a commit if it contains

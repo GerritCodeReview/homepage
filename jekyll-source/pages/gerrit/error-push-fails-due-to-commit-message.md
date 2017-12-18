@@ -1,6 +1,6 @@
 ---
 title: " Push fails due to commit message"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-push-fails-due-to-commit-message.html
 ---
 If Gerrit rejects pushing a commit it is often the case that there is an

@@ -1,6 +1,6 @@
 ---
 title: " gerrit-cherry-pick"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-cherry-pick.html
 ---
 ## NAME

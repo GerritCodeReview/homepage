@@ -1,6 +1,6 @@
 ---
 title: " gerrit set-account"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-set-account.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " not Signed-off-by author/committer/uploader in commit message footer"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-not-signed-off-by.html
 ---
 Projects in Gerrit can be configured to require a

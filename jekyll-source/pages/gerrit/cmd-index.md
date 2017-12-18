@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - Command Line Tools"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-index.html
 ---
 ## Client

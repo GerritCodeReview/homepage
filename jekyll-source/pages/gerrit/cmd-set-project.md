@@ -1,6 +1,6 @@
 ---
 title: " gerrit set-project"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-set-project.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " invalid Change-Id line format in commit message footer"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-invalid-changeid-line.html
 ---
 With this error message Gerrit rejects to push a commit if its commit

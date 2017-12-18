@@ -1,6 +1,6 @@
 ---
 title: " no common ancestry"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-no-common-ancestry.html
 ---
 With this error message Gerrit rejects to push a commit for code review

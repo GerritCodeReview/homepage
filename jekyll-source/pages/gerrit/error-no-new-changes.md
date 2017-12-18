@@ -1,6 +1,6 @@
 ---
 title: " no new changes"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-no-new-changes.html
 ---
 With this error message Gerrit rejects to push a commit if the pushed

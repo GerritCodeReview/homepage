@@ -1,6 +1,6 @@
 ---
 title: " multiple Change-Id lines in commit message footer"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-multiple-changeid-lines.html
 ---
 With this error message Gerrit rejects to push a commit if the commit

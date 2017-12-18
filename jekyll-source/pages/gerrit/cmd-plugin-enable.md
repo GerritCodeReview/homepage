@@ -1,6 +1,6 @@
 ---
 title: " plugin enable"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-plugin-enable.html
 ---
 ## NAME

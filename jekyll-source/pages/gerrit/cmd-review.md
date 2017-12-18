@@ -1,6 +1,6 @@
 ---
 title: " gerrit review"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-review.html
 ---
 ## NAME

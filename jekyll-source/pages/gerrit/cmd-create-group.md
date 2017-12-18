@@ -1,6 +1,6 @@
 ---
 title: " gerrit create-group"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-create-group.html
 ---
 ## NAME

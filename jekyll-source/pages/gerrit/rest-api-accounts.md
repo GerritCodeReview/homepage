@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - /accounts/ REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api-accounts.html
 ---
 This page describes the account related REST endpoints. Please also take

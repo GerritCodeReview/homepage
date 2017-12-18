@@ -1,6 +1,6 @@
 ---
 title: " you are not allowed to upload merges"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-not-allowed-to-upload-merges.html
 ---
 With this error message Gerrit rejects to push a merge commit if the

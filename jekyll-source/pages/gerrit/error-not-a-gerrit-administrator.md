@@ -1,6 +1,6 @@
 ---
 title: " Not a Gerrit administrator"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-not-a-gerrit-administrator.html
 ---
 With this error message Gerrit rejects to execute an SSH command that

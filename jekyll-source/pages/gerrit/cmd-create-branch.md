@@ -1,6 +1,6 @@
 ---
 title: " gerrit create-branch"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-create-branch.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " gerrit set-members"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-set-members.html
 ---
 ## NAME

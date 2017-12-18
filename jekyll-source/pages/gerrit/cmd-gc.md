@@ -1,6 +1,6 @@
 ---
 title: " gerrit gc"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-gc.html
 ---
 ## NAME

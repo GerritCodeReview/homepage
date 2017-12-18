@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - /plugins/ REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api-plugins.html
 ---
 This page describes the plugin related REST endpoints. Please also take

@@ -1,6 +1,6 @@
 ---
 title: " Not permitted to create ..."
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-not-permitted-to-create.html
 ---
 With this error message Gerrit rejects to create a new project in Gerrit

@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - Error Messages"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-messages.html
 ---
 This page provides access to detailed explanations of Gerrit error

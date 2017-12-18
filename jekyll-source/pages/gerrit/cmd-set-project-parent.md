@@ -1,6 +1,6 @@
 ---
 title: " gerrit set-project-parent"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-set-project-parent.html
 ---
 ## NAME

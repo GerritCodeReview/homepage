@@ -1,6 +1,6 @@
 ---
 title: " change ... does not belong to project ..."
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-change-does-not-belong-to-project.html
 ---
 With this error message Gerrit rejects to push a commit to a change that

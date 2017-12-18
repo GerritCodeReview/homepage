@@ -1,6 +1,6 @@
 ---
 title: " gerrit test-submit type"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-test-submit-type.html
 ---
 ## NAME

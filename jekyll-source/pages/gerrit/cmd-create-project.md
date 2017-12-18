@@ -1,6 +1,6 @@
 ---
 title: " gerrit create-project"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-create-project.html
 ---
 ## NAME

@@ -1,6 +1,6 @@
 ---
 title: " plugin install"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-plugin-install.html
 ---
 ## NAME

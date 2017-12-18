@@ -1,6 +1,6 @@
 ---
 title: " not valid ref"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-not-valid-ref.html
 ---
 With this error message Gerrit rejects to push a commit if the target

@@ -1,6 +1,6 @@
 ---
 title: " commit already exists"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-commit-already-exists.html
 ---
 With "commit already exists (as current patchset)" or "commit already

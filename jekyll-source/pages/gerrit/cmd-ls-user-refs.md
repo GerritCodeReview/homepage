@@ -1,6 +1,6 @@
 ---
 title: " gerrit ls-user-refs"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-ls-user-refs.html
 ---
 ## NAME

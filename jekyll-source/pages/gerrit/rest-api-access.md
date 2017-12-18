@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - /access/ REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api-access.html
 ---
 This page describes the access rights related REST endpoints. Please

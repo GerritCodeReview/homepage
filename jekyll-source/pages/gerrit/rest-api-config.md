@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - /config/ REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api-config.html
 ---
 This page describes the config related REST endpoints. Please also take

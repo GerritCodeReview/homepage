@@ -1,6 +1,6 @@
 ---
 title: " plugin remove"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-plugin-remove.html
 ---
 ## NAME

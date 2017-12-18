@@ -1,6 +1,6 @@
 ---
 title: " One or more refs/for/ names blocks change upload"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-change-upload-blocked.html
 ---
 With this error message Gerrit rejects to push a commit for code review

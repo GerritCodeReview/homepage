@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - /changes/ REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api-changes.html
 ---
 This page describes the change related REST endpoints. Please also take

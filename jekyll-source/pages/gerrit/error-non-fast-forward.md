@@ -1,6 +1,6 @@
 ---
 title: " non-fast forward"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-non-fast-forward.html
 ---
 With this error message Gerrit rejects a push if the remote branch can’t

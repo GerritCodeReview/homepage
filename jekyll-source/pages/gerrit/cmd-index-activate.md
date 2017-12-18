@@ -1,6 +1,6 @@
 ---
 title: " gerrit index activate"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-index-activate.html
 ---
 ## NAME

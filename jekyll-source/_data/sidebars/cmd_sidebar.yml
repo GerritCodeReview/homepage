@@ -18,6 +18,16 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Return to...
+    output: web
+    folderitems:
+      - title: Documentation Home Page
+        url: /doc-index.html
+        output: web
+      - title: Gerrit Home Page
+        url: /index.html
+        output: web
+
   - title: "Command-line Reference"
     output: web
     folderitems:

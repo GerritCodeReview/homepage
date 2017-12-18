@@ -1,6 +1,6 @@
 ---
 title: " prohibited by Gerrit"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-prohibited-by-gerrit.html
 ---
 This is a general error message that is returned by Gerrit if a push is

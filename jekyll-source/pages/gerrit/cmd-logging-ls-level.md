@@ -1,6 +1,6 @@
 ---
 title: " gerrit logging ls-level"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-logging-ls-level.html
 ---
 ## NAME

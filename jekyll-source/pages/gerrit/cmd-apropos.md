@@ -1,6 +1,6 @@
 ---
 title: " gerrit apropos"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-apropos.html
 ---
 ## NAME

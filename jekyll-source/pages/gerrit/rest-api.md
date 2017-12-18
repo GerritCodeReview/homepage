@@ -1,6 +1,6 @@
 ---
 title: " Gerrit Code Review - REST API"
-sidebar: gerritdoc_sidebar
+sidebar: restapi_sidebar
 permalink: rest-api.html
 ---
 Gerrit Code Review comes with a REST like API available over HTTP. The

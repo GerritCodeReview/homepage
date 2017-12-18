@@ -1,6 +1,6 @@
 ---
 title: " gerrit close-connection"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-close-connection.html
 ---
 ## NAME

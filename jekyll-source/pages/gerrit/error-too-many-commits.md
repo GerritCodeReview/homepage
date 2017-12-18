@@ -1,6 +1,6 @@
 ---
 title: " too many commits"
-sidebar: gerritdoc_sidebar
+sidebar: errors_sidebar
 permalink: error-too-many-commits.html
 ---
 This error occurs when a push directly to a branch [bypassing

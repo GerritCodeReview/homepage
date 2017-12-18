@@ -1,6 +1,6 @@
 ---
 title: " gerrit show-connections"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-show-connections.html
 ---
 ## NAME

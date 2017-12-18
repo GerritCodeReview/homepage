@@ -1,6 +1,6 @@
 ---
 title: " plugin ls"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-plugin-ls.html
 ---
 ## NAME

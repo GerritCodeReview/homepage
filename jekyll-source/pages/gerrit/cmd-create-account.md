@@ -1,6 +1,6 @@
 ---
 title: " gerrit create-account"
-sidebar: gerritdoc_sidebar
+sidebar: cmd_sidebar
 permalink: cmd-create-account.html
 ---
 ## NAME
