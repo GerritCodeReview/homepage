@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c0f55c0f_cf1b1e1a",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-01-25T05:14:38Z",
+      "side": 1,
+      "message": "Enclose in backticks",
+      "range": {
+        "startLine": 46,
+        "startChar": 27,
+        "endLine": 46,
+        "endChar": 39
+      },
+      "revId": "859e86f5a375be0fe01c82b8aecdd13536ed814e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f5b117c_22cdff7f",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-01-25T05:14:38Z",
+      "side": 1,
+      "message": "... by setting receive.allowPushToRefsChanges to true.\n\n(receive.allowPushToRefsChanges should be hyperlinked to the relevant documentation)",
+      "revId": "859e86f5a375be0fe01c82b8aecdd13536ed814e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
