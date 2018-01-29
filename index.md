@@ -28,6 +28,14 @@ with deeply integrated and delegatable access controls.
 
 ***
 
+*** promo
+
+## Shawn Pearce Memorial Fund
+
+[Support Shawn's family](https://www.gofundme.com/shawn-pearce-memorial-fund)
+
+***
+
 |||---|||
 
 ## Discuss code
