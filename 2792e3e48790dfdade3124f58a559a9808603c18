@@ -16,6 +16,24 @@
       "revId": "2792e3e48790dfdade3124f58a559a9808603c18",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "05cd8030_6b208fcf",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-01-29T06:14:04Z",
+      "side": 1,
+      "message": "I haven\u0027t checked it.  I didn\u0027t plan to do any more releases from stable-2.13.",
+      "parentUuid": "264fbe07_9c6d5980",
+      "revId": "2792e3e48790dfdade3124f58a559a9808603c18",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
