@@ -26,6 +26,10 @@ with deeply integrated and delegatable access controls.
 
 [Gerrit 2.14.6][download]
 
+## Donate
+
+[Support Shawn's family](https://www.gofundme.com/shawn-pearce-memorial-fund)
+
 ***
 
 |||---|||
