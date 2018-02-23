@@ -22,6 +22,30 @@
       "revId": "f4d3280ad949a841dd0d9145645d5f42393afb8f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5235aee1_5af17498",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2018-02-23T08:18:33Z",
+      "side": 1,
+      "message": "Thanks for fixing it.",
+      "parentUuid": "df7d7a5f_65a086a7",
+      "range": {
+        "startLine": 39,
+        "startChar": 50,
+        "endLine": 39,
+        "endChar": 53
+      },
+      "revId": "f4d3280ad949a841dd0d9145645d5f42393afb8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
