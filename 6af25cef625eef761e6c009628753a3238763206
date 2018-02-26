@@ -22,6 +22,30 @@
       "revId": "6af25cef625eef761e6c009628753a3238763206",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "07be3b87_bdffeddd",
+        "filename": "releases/2.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 451,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-02-26T06:49:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6248c728_6d9d4f09",
+      "range": {
+        "startLine": 451,
+        "startChar": 18,
+        "endLine": 451,
+        "endChar": 24
+      },
+      "revId": "6af25cef625eef761e6c009628753a3238763206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
