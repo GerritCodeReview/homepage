@@ -46,6 +46,30 @@
       "revId": "6af25cef625eef761e6c009628753a3238763206",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c5c38ca1_8f02df6c",
+        "filename": "releases/2.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 451,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-02-27T03:45:29Z",
+      "side": 1,
+      "message": "Actually 0.1.53 was correct.  This part is the release note for 2.12 in which we upgraded to 0.1.53.\n\nThe update to 0.1.54 is in 2.12.8 as mentioned below.",
+      "parentUuid": "07be3b87_bdffeddd",
+      "range": {
+        "startLine": 451,
+        "startChar": 18,
+        "endLine": 451,
+        "endChar": 24
+      },
+      "revId": "6af25cef625eef761e6c009628753a3238763206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
