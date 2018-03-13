@@ -23,6 +23,30 @@
       "revId": "a0687b3eb77cfaabc33a6a05bfe0898bec6b5009",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "538dae5a_11d1025a",
+        "filename": "releases/2.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2018-03-13T12:05:39Z",
+      "side": 1,
+      "message": "Yep, this file is not converted to .html, see https://www.gerritcodereview.com/releases/2.13.md",
+      "parentUuid": "14e8a346_e9467cbb",
+      "range": {
+        "startLine": 110,
+        "startChar": 50,
+        "endLine": 110,
+        "endChar": 52
+      },
+      "revId": "a0687b3eb77cfaabc33a6a05bfe0898bec6b5009",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
