@@ -23,6 +23,30 @@
       "revId": "9c73a7d251918f72f57727127ba7ba6e0ef009f8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "23e68c4c_fa968593",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2018-03-13T07:01:32Z",
+      "side": 1,
+      "message": "Yes, this migration is part of 2.13. It should be made a little clearer here.",
+      "parentUuid": "1282d709_972484bb",
+      "range": {
+        "startLine": 114,
+        "startChar": 15,
+        "endLine": 114,
+        "endChar": 75
+      },
+      "revId": "9c73a7d251918f72f57727127ba7ba6e0ef009f8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
