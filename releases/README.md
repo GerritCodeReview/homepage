@@ -56,7 +56,7 @@ Latest release: **[2.14.7](/releases/2.14.md)**.
 
 * Secondary index for groups
 
-* Experimental support for Elastic Search as secondary index
+* Experimental support for Elasticsearch as secondary index
 
 [Release notes for Gerrit 2.14](/releases/2.14.md)
 
