@@ -83,6 +83,8 @@ can be found through the [project listing](https://gerrit.googlesource.com/plugi
 
 [![Twitter](https://www.gerritforge.com/images/Twitter_Logo_Blue.png)](https://twitter.com/gerritreview)
 
+[![YouTube](https://www.gerritforge.com/images/youtube_social_icon_red.png)](https://www.youtube.com/gerritforgetv)
+
 ### IRC
 
 [freenode](https://freenode.net/) #gerrit
