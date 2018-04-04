@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dce9be7b_835d776c",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-04-04T21:53:24Z",
+      "side": 1,
+      "message": "(nit, more of a question really) Why put this particular one on top? Was it really that severe? And perhaps reword it to the actual impact to users - which functionality was actually broken. As it stands right now I would think that adding an SSH key would not have worked with 2.15. https://gerrit-documentation.storage.googleapis.com/Documentation/2.15/rest-api-accounts.html#add-ssh-key",
+      "revId": "e1576eed5788ef521cff853e9cb742485a64dd35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
