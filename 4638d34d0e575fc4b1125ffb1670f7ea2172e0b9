@@ -23,6 +23,30 @@
       "revId": "4638d34d0e575fc4b1125ffb1670f7ea2172e0b9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d2064f0_d7129534",
+        "filename": "releases/2.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1010008
+      },
+      "writtenOn": "2018-04-10T08:52:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95520f19_3f7753db",
+      "range": {
+        "startLine": 7,
+        "startChar": 3,
+        "endLine": 7,
+        "endChar": 9
+      },
+      "revId": "4638d34d0e575fc4b1125ffb1670f7ea2172e0b9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
