@@ -22,6 +22,30 @@
       "revId": "2a5b8b8143651b4f906f1aeeab7d7f5899b00878",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "36c17b93_78d1eedd",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2018-04-15T20:51:41Z",
+      "side": 1,
+      "message": "The diff could be loaded, only intraline edits weren\u0027t specifically marked. Otherwise, we would have noticed that bug much earlier. The bug also only affected diffs between patch sets and among those, only those which had at least one edit due to rebase.\n\nI don\u0027t know whether anybody noticed that, though. The high CPU load was much more obvious.",
+      "parentUuid": "f4d70254_2e080d7f",
+      "range": {
+        "startLine": 359,
+        "startChar": 0,
+        "endLine": 359,
+        "endChar": 43
+      },
+      "revId": "2a5b8b8143651b4f906f1aeeab7d7f5899b00878",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
