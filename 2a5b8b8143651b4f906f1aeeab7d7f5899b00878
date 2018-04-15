@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f4d70254_2e080d7f",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-04-15T12:36:25Z",
+      "side": 1,
+      "message": "Perhaps add a few more noteworthy details?\n\n* High CPU usage on the server as symptom.\n* Diff could not be loaded, I think?\n* Bug introduced in 2.15.1.\n\n(of course, all tech details are in the linked issue and the commit message, but we write release notes for the users/sysadmins, not developers.)\n\nSuggestion:\n\n Fix bug in the intraline diff loader with edits due to a rebase. It was causing failing requests to load the diff in changes and high CPU usage on the server. The bug was introduced in 2.15.1.",
+      "range": {
+        "startLine": 359,
+        "startChar": 0,
+        "endLine": 359,
+        "endChar": 43
+      },
+      "revId": "2a5b8b8143651b4f906f1aeeab7d7f5899b00878",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
