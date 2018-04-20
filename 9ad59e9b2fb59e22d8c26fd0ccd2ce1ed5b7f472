@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "acbb632d_86d8b535",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-04-20T12:19:57Z",
+      "side": 1,
+      "message": "repeated word",
+      "range": {
+        "startLine": 79,
+        "startChar": 65,
+        "endLine": 79,
+        "endChar": 74
+      },
+      "revId": "9ad59e9b2fb59e22d8c26fd0ccd2ce1ed5b7f472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f102056e_e0fa94db",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-04-20T12:19:57Z",
+      "side": 1,
+      "message": "missing space before \u0027on\u0027",
+      "range": {
+        "startLine": 93,
+        "startChar": 66,
+        "endLine": 93,
+        "endChar": 68
+      },
+      "revId": "9ad59e9b2fb59e22d8c26fd0ccd2ce1ed5b7f472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b56a9915_d33ca6bf",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-04-20T12:19:57Z",
+      "side": 1,
+      "message": "should be",
+      "range": {
+        "startLine": 96,
+        "startChar": 46,
+        "endLine": 96,
+        "endChar": 52
+      },
+      "revId": "9ad59e9b2fb59e22d8c26fd0ccd2ce1ed5b7f472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "889ce499_77ac2f4d",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-04-20T12:19:57Z",
+      "side": 1,
+      "message": "remove the hyphen",
+      "range": {
+        "startLine": 97,
+        "startChar": 49,
+        "endLine": 97,
+        "endChar": 50
+      },
+      "revId": "9ad59e9b2fb59e22d8c26fd0ccd2ce1ed5b7f472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3965025b_210b1992",
+        "filename": "releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-04-20T12:19:57Z",
+      "side": 1,
+      "message": "should be",
+      "range": {
+        "startLine": 99,
+        "startChar": 44,
+        "endLine": 99,
+        "endChar": 50
+      },
+      "revId": "9ad59e9b2fb59e22d8c26fd0ccd2ce1ed5b7f472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
