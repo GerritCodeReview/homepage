@@ -16,6 +16,24 @@
       "revId": "59af38c2f5e75589e0ef0cf40215182af0665ef2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "458c8d4a_64f5fc98",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 407,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-04-29T06:23:10Z",
+      "side": 1,
+      "message": "Good catch.  I actually intended to write that, but it looks like I forgot.\n\nDone.",
+      "parentUuid": "2225e907_9eae99fd",
+      "revId": "59af38c2f5e75589e0ef0cf40215182af0665ef2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
