@@ -16,6 +16,24 @@
       "revId": "cf4c2f747b48c9f1bd5c36ec5bdb0ad9352e09bd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5f1695d9_f7adf176",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-05-23T08:01:02Z",
+      "side": 1,
+      "message": "Actually, the problem wasn\u0027t visible from REST API endpoints but only through GerritApi in plugins.\nFrom a user\u0027s perspective, the change makes the REST API, SSH commands and GerritApi behave in a consistent way in checking user\u0027s permissions: either denied or allowed in the same way for all of them.\n\nPreviously, depending on the channel you were coming from, an action was either allowed or denied, based on the fact that the current user was materialised or not in the same instance object.",
+      "parentUuid": "40b5aff3_4582034e",
+      "revId": "cf4c2f747b48c9f1bd5c36ec5bdb0ad9352e09bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
