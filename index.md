@@ -24,7 +24,7 @@ with deeply integrated and delegatable access controls.
 
 ## Download
 
-[Gerrit 2.15.1][download]
+[Gerrit 2.15.2][download]
 
 ***
 
@@ -94,6 +94,6 @@ can be found through the [project listing](https://gerrit.googlesource.com/plugi
 |||---|||
 
 [download]: /releases/2.15.md
-[git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.1/config-gerrit.html#gc
-[plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.1/config-plugins.html
-[replicate]: https://gerrit.googlesource.com/plugins/replication/+doc/v2.15.1/src/main/resources/Documentation/config.md
+[git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.2/config-gerrit.html#gc
+[plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.2/config-plugins.html
+[replicate]: https://gerrit.googlesource.com/plugins/replication/+doc/v2.15.2/src/main/resources/Documentation/config.md
