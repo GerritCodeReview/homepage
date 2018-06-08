@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4e7ff82_9f1c810d",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2018-06-08T04:40:46Z",
+      "side": 1,
+      "message": "The fact, that Dashboard remains broken until online reindexing is ready is a serious problem, especially on big sites, where it takes some time to accomplish. The question is if we can offer any workarounds for the root cause.",
+      "revId": "e7269c22ddbcbda81394cae8eac2071f74447996",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
