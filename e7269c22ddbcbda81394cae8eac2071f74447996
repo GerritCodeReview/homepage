@@ -16,6 +16,24 @@
       "revId": "e7269c22ddbcbda81394cae8eac2071f74447996",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fb819227_4b5f0ef2",
+        "filename": "releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2018-06-08T23:09:58Z",
+      "side": 1,
+      "message": "See this https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d9219 before merging this change.\n\nWe at wikimedia did online reindexer and it still caused the is:wip field failure.",
+      "parentUuid": "d4e7ff82_9f1c810d",
+      "revId": "e7269c22ddbcbda81394cae8eac2071f74447996",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
