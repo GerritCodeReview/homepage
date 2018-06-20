@@ -93,8 +93,6 @@ can be found through the [project listing](https://gerrit.googlesource.com/plugi
 
 |||---|||
 
-[*privacy*](https://www.google.com/policies/privacy/)
-
 [download]: /releases/2.15.md
 [git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.2/config-gerrit.html#gc
 [plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.2/config-plugins.html
