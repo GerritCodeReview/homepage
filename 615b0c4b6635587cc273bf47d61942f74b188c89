@@ -22,6 +22,30 @@
       "revId": "615b0c4b6635587cc273bf47d61942f74b188c89",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7f0f02b9_49c81cb9",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-07-05T03:13:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3062b85_4f657841",
+      "range": {
+        "startLine": 401,
+        "startChar": 83,
+        "endLine": 401,
+        "endChar": 87
+      },
+      "revId": "615b0c4b6635587cc273bf47d61942f74b188c89",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
