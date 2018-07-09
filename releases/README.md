@@ -15,6 +15,12 @@ Latest release: **[2.15.2](/releases/2.15.md)**.
 
 ## 2.16 *(In development)* {#2.16}
 
+* GWT UI is deprecated.
+
+* PolyGerrit is now the default UI.
+
+* Experimental Dark Mode in PolyGerrit.
+
 * Inline editing support in PolyGerrit UI.
 
 * Redesigned UI for PolyGerrit based on material.
