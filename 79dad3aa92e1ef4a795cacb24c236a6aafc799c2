@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "48c527b2_3b31421a",
+        "filename": "releases/2.16.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-07-10T02:35:33Z",
+      "side": 1,
+      "message": "GWT UI",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "79dad3aa92e1ef4a795cacb24c236a6aafc799c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c06abd19_c9e14820",
+        "filename": "releases/2.16.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-07-10T02:35:33Z",
+      "side": 1,
+      "message": "removed",
+      "range": {
+        "startLine": 53,
+        "startChar": 42,
+        "endLine": 53,
+        "endChar": 48
+      },
+      "revId": "79dad3aa92e1ef4a795cacb24c236a6aafc799c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91f2b992_f0a7709b",
+        "filename": "releases/2.16.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-07-10T02:35:33Z",
+      "side": 1,
+      "message": "GWT UI",
+      "range": {
+        "startLine": 53,
+        "startChar": 10,
+        "endLine": 53,
+        "endChar": 15
+      },
+      "revId": "79dad3aa92e1ef4a795cacb24c236a6aafc799c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f3ecfe55_4ba1e052",
+        "filename": "releases/2.16.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-07-10T02:35:33Z",
+      "side": 1,
+      "message": "Dashboards\n\nAlthough this sentence doesn\u0027t really add anything since it\u0027s saying almost exactly the same as the header.",
+      "range": {
+        "startLine": 73,
+        "startChar": 8,
+        "endLine": 73,
+        "endChar": 17
+      },
+      "revId": "79dad3aa92e1ef4a795cacb24c236a6aafc799c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
