@@ -22,6 +22,53 @@
       "revId": "13c4969973d0e4b96c8c286e680e2ee7bb5bbbd6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecd79e80_355ee6bc",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-07-12T07:04:05Z",
+      "side": 1,
+      "message": "Thanks. Fixed in:\n\n\nhttps://gerrit-review.googlesource.com/c/homepage/+/188702",
+      "parentUuid": "5f5c8e8a_b71a1bdc",
+      "range": {
+        "startLine": 3,
+        "startChar": 18,
+        "endLine": 3,
+        "endChar": 20
+      },
+      "revId": "13c4969973d0e4b96c8c286e680e2ee7bb5bbbd6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d9550b17_57e8020d",
+        "filename": "releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-07-12T07:04:05Z",
+      "side": 1,
+      "message": "2.14.9",
+      "range": {
+        "startLine": 16,
+        "startChar": 77,
+        "endLine": 16,
+        "endChar": 83
+      },
+      "revId": "13c4969973d0e4b96c8c286e680e2ee7bb5bbbd6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
