@@ -1,42 +1,84 @@
-## Code Review for Git
-
-Gerrit provides web based code review and repository management for
-the [Git][git] version control system.
-
-[git]: http://git-scm.com/
-
-|||---||| 2,2,2,3,:1,2
-![diffy the kung fu review cuckoo](images/diffy100.png)
-
-### Discuss code
-
-and boost your team's code fu by talking about specifics.
-
-### Serve Git
-
-as an integrated experience within the larger code review flow.
-
-### Manage workflows
-
-with deeply integrated and delegatable access controls.
-
-*** promo
-
-## Download
-
-[Gerrit 2.15.3][download]
-
-***
-
-|||---|||
+---
+title: "Gerrit Code Review"
+sidebar: gerritdoc_sidebar
+permalink: index.html
+hide_sidebar: true
+hide_navtoggle: true
+toc: false
+---
+<div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Discuss code</h4>
+                    <p>and boost your team's code fu by talking about
+                    specifics.</p>
+                    <a href="intro-gerrit-walkthrough.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Serve Git</h4>
+                    <p>As an integrated experience within the larger code
+                    review flow.</p>
+                    <a href="user-dashboards.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Manage workflows</h4>
+                    <p>with deeply integrated and delagatable access controls.
+                    </p>
+                    <a href="project-configuration.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-download fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Download</h4>
+                    <p>Our latest release is:<br>
+                    <b><a href="2.15.md">2.15.2</a></b>
+                    </p>
+                    <a href="https://gerrit-releases.storage.googleapis.com/gerrit-2.15.2.war" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 ## Discuss code
+Read old and new versions of files with syntax highlighting and colored
+differences. Discuss specific sections with others to make the right changes.
 
-Read old and new versions of files with syntax highlighting and
-colored differences.  Discuss specific sections with others to make
-the right changes.
-
-![side-by-side compare](images/sbs.png)
+<img src="images/sbs.png">
 
 ## Manage and serve Git repositories
 
@@ -44,20 +86,30 @@ Gerrit includes Git-enabled SSH and HTTPS servers compatible with all
 Git clients.  Simplify management by hosting many Git repositories
 together.
 
-|||---||| 6,2,4
-
-#### Navigate projects
-
-![project list](images/project-list.png)
-
-#### Control access
-
-![access panel](images/access.png)
-
-#### Update branches
-
-![branch list](images/branches.png)
-|||---|||
+<table>
+<tr>
+ <td>
+ <h4>Navigate projects</h4>
+ </td>
+ <td>
+ <h4>Control access</h4>
+ </td>
+ <td>
+ <h4>Update branches</h4>
+ </td>
+</tr>
+<tr>
+ <td>
+ <img src="images/project-list.png">
+ </td>
+ <td>
+ <img src="images/access.png">
+ </td>
+ <td>
+ <img src="images/branches.png">
+ </td>
+</tr>
+</table>
 
 Schedule [git gc] over all managed repositories and [replicate] to
 geographical mirrors for latency reduction and backup servers for hot
@@ -71,29 +123,32 @@ can be found through the [project listing](https://gerrit.googlesource.com/plugi
 
 ## Get in touch
 
-|||---||| 2,2,2,:4,2
+<table>
+<tr>
+<td>
+<h3>Mailing list</h3>
+</td>
+<td>
+<h3>Social media</h3>
+</td>
+<td>
+<h3>IRC</h3>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://groups.google.com/group/repo-discuss">Repo Discuss</a>
+</td>
+<td>
+<a href="https://plus.google.com/communities/111271594706618791655">Google+</a>
+<br>
+<a href="https://twitter.com/gerritreview">Twitter</a>
+</td>
+<td>
+<a href="https://freenode.net">freenode</a> #gerrit
+<br>
+<a href="https://echelog.com/logs/browse/gerrit/">Channel log</a>
+</td>
+</tr>
+</table>
 
-### Mailing list
-
-[repo-discuss](https://groups.google.com/group/repo-discuss)
-
-### Social media
-
-[![Google+](https://ssl.gstatic.com/images/icons/gplus-32.png)](https://plus.google.com/communities/111271594706618791655)
-
-[![Twitter](https://www.gerritforge.com/images/Twitter_Logo_Blue.png)](https://twitter.com/gerritreview)
-
-[![YouTube](https://www.gerritforge.com/images/youtube_social_icon_red.png)](https://www.youtube.com/gerritforgetv)
-
-### IRC
-
-[freenode](https://freenode.net/) #gerrit
-
-[Channel log](http://echelog.com/logs/browse/gerrit/)
-
-|||---|||
-
-[download]: /releases/2.15.md
-[git gc]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.3/config-gerrit.html#gc
-[plugins]: https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.3/config-plugins.html
-[replicate]: https://gerrit.googlesource.com/plugins/replication/+doc/v2.15.3/src/main/resources/Documentation/config.md

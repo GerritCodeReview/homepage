@@ -1,0 +1,87 @@
+entries:
+- title: Sidebar
+  product: Gerrit Documentation
+  version: alpha
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Gerrit Code Review
+    output: web
+    folderitems:
+
+    - title: Product Overview
+      url: /alpha-intro-quick.html
+      output: web
+
+    - title: How Gerrit Works
+      url: /alpha-intro-how-gerrit-works.html
+      output: web
+
+    - title: Quickstart for Linux
+      url: /alpha-linux-quickstart.html
+      output: web
+
+  - title: How-to Guides
+    output: web
+    folderitems:
+
+    - title: All How-to Guides
+      output: web
+
+      subfolders:
+      - title: "Contributing Changes"
+        output: web
+        subfolderitems:
+
+        - title: Cloning a Gerrit Repository
+          url: /cloning-a-gerrit-repository.html
+          output: web
+        - title: Pushing a Commit
+          url: /pushing-a-commit.html
+          output: web
+        - title: Updating a Change
+          url: /updating-a-change.html
+          output: web
+        - title: Marking a Change as Private
+          url: /marking-a-change-as-private.html
+          output: web
+        - title: Marking a Change as a Work in Progress
+          url: /marking-a-change-as-a-wip.html
+          output: web
+
+  - title: Walkthroughs and Examples
+    output: web
+    folderitems:
+
+    - title: Basic Gerrit Walkthrough
+      url: /alpha-intro-gerrit-walkthrough.html
+      output: web
+
+  - title: Concepts
+    output: web
+    folderitems:
+
+    - title: Changes
+      output: web
+      url: /alpha-concept-changes.html
+
+    - title: The refs/for Namespace
+      output: web
+      url: /alpha-concept-refs-for-namespace.html
+
+    - title: Patchsets
+      output: web
+      url: /alpha-concept-patchsets.html
