@@ -5,6 +5,113 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/about.md",
+        "destination": "/about.html",
+        "type": 301
+      },
+      {
+        "source": "/docs/MultiMaster.md",
+        "destination": "/multimaster.html",
+        "type": 301
+      },
+      {
+        "source": "/docs/Notedb.md",
+        "destination": "/notedb.html",
+        "type": 301
+      },
+      {
+        "source": "/docs/OutstandingTopics.md",
+        "destination": "/outstandingtopics.html",
+        "type": 301
+      },
+      {
+        "source": "/docs/ReviewKungFu.md",
+        "destination": "/reviewkungfu.html",
+        "type": 301
+      },
+      {
+        "source": "/docs/RoadMap.md",
+        "destination": "/roadmap.html",
+        "type": 301
+      },
+      {
+        "source": "/docs/Scaling.md",
+        "destination": "/scaling.html",
+        "type": 301
+      },
+      {
+        "source": "/docs/ShowCases.md",
+        "destination": "/showcases.html",
+        "type": 301
+      },
+      {
+        "source": "/docs/SqlMergeUserAccounts.md",
+        "destination": "/sqlmergeuseraccounts.html",
+        "type": 301
+      },
+      {
+        "source": "/index.md",
+        "destination": "/index.html",
+        "type": 301
+      },
+      {
+        "source": "/issues.md",
+        "destination": "/issues.html",
+        "type": 301
+      },
+      {
+        "source": "/navbar.md",
+        "destination": "/navbar.html",
+        "type": 301
+      },
+      {
+        "source": "/README.md",
+        "destination": "/README.html",
+        "type": 301
+      },
+      {
+        "source": "/releases/2.11.md",
+        "destination": "/2.11.html",
+        "type": 301
+      },
+      {
+        "source": "/releases/2.12.md",
+        "destination": "/2.12.html",
+        "type": 301
+      },
+      {
+        "source": "/releases/2.13.md",
+        "destination": "/2.13.html",
+        "type": 301
+      },
+      {
+        "source": "/releases/2.14.md",
+        "destination": "/2.14.html",
+        "type": 301
+      },
+      {
+        "source": "/releases/2.15.md",
+        "destination": "/2.15.html",
+        "type": 301
+      },
+      {
+        "source": "/releases/2.16.md",
+        "destination": "/2.16.html",
+        "type": 301
+      },
+      {
+        "source": "/releases/public-keys.md",
+        "destination": "/public-keys.html",
+        "type": 301
+      },
+      {
+        "source": "/releases/README.md",
+        "destination": "/releases-readme.html",
+        "type": 301
+      }
     ]
   }
 }
