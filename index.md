@@ -66,9 +66,9 @@ toc: false
                 <div class="panel-body">
                     <h4>Download</h4>
                     <p>Our latest release is:<br>
-                    <b><a href="2.15.md">2.15.3</a></b>
+                    <b><a href="2.15.md">2.15.2</a></b>
                     </p>
-                    <a href="https://gerrit-releases.storage.googleapis.com/gerrit-2.15.3.war" class="btn btn-primary">Download</a>
+                    <a href="https://gerrit-releases.storage.googleapis.com/gerrit-2.15.2.war" class="btn btn-primary">Download</a>
                 </div>
             </div>
         </div>
@@ -111,8 +111,7 @@ together.
 </tr>
 </table>
 
-Schedule [git gc](https://gerrit-documentation.storage.googleapis.com/Documentation/2.15.3/config-gerrit.html#gc)
-over all managed repositories and [replicate](https://gerrit.googlesource.com/plugins/replication/+doc/v2.15.3/src/main/resources/Documentation/config.md) to
+Schedule [git gc] over all managed repositories and [replicate] to
 geographical mirrors for latency reduction and backup servers for hot
 spare redundancy.
 
