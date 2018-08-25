@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c1a39d13_30f6d4cc",
+        "filename": "index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-08-25T03:02:51Z",
+      "side": 1,
+      "message": "This link doesn\u0027t work, it results in a \"not found\" error:\n\nhttps://www.gerritcodereview.com/releases/2.15.html\n\nThe correct link is:\n\nhttps://www.gerritcodereview.com/2.15.html\n\nWhich is as it is now, due to the fix done in:\n\nhttps://gerrit-review.googlesource.com/c/homepage/+/193890\n\nThe reason we still see the .md link on the live site is because the above change has not been deployed yet.",
+      "revId": "42e3a519fe662c526930ef0838ea6f32069b1288",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
