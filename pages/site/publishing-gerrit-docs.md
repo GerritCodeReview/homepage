@@ -66,7 +66,7 @@ docker run -v $(pwd):/site bretfisher/jekyll-serve jekyll build
 
 **Note:** If this is your first time running Firebase on this machine, you need
 to provide authentication credentials. For more information, see
-[Appendix: Logging in to Firebase](#logging_in_to_firebase).
+[Appendix: Logging in to Firebase](#appendix-logging-in-to-firebase).
 
 **To deploy the site:**
 
