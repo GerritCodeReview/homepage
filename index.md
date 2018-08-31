@@ -132,6 +132,9 @@ Source code for additional plugins can be found through the
 <h3>Mailing list</h3>
 </td>
 <td>
+<h3>Stack Overflow</h3>
+</td>
+<td>
 <h3>Social media</h3>
 </td>
 <td>
@@ -141,6 +144,9 @@ Source code for additional plugins can be found through the
 <tr>
 <td>
 <a href="https://groups.google.com/group/repo-discuss">Repo Discuss</a>
+</td>
+<td>
+<a href="https://stackoverflow.com/questions/tagged/gerrit">Questions tagged [gerrit]</a>
 </td>
 <td>
 <a href="https://plus.google.com/communities/111271594706618791655">Google+</a>
