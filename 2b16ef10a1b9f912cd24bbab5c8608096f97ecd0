@@ -143,6 +143,24 @@
     },
     {
       "key": {
+        "uuid": "92d83eb8_8df8e920",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-09-04T07:55:30Z",
+      "side": 1,
+      "message": "I\u0027m not sure; I\u0027ll have to look into it.\n\nI\u0027ve also just noticed that all the previously used named anchors don\u0027t redirect properly either.  For example:\n\nhttps://www.gerritcodereview.com/2.14.md#2.14.2\n\nredirects to the html page, but it does not have that named anchor.  This will need to be fixed with a redirection update, or by fixing the named anchors in the markup.  The latter would be better, IMO.",
+      "parentUuid": "404f85d4_c86a973c",
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "71d4c679_23673243",
         "filename": "pages/site/releases/2.14.md",
         "patchSetId": 1
@@ -246,6 +264,30 @@
       "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4360ba66_7ac5431d",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-09-04T07:55:30Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5eb23425_d82400fb",
+      "range": {
+        "startLine": 360,
+        "startChar": 2,
+        "endLine": 361,
+        "endChar": 70
+      },
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
