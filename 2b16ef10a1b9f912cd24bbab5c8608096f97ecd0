@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de1212a4_b71da9bd",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 310,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-09-04T07:33:51Z",
+      "side": 1,
+      "message": "This part needs an update for the change \"Upgrade PostgreSQL connector to 42.2.4.\", I guess.",
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "96fb8584_fe73368f",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-09-04T07:33:51Z",
+      "side": 1,
+      "message": "was bumped to 1.6.2 in Ic7464964dc7e21946aac4b4a786107a0df51ae2a",
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d6f863f8_9a93e0d3",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-09-04T07:33:51Z",
+      "side": 1,
+      "message": "Is this release imminent or \"in development\" still?",
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "71d4c679_23673243",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-09-04T07:33:51Z",
+      "side": 1,
+      "message": "Perhaps add that this is only valid when starting Gerrit through gerrit.sh? (Not everyone starts gerrit that way, right?)",
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fddd5994_77814e5c",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-09-04T07:33:51Z",
+      "side": 1,
+      "message": "Suggestion:\n\n This works with git 2.19 supporting colorization of the \u0027remote\u0027 part of the output when interacting with a remote (e.g. on push).\n\nNot sure if you want to include details like the local git configuration key, but perhaps just add a reference to the change if that\u0027s helpful? reference: https://github.com/git/git/commit/bf1a11f0a100b080a25233980c14b5ae8f3a7d2d",
+      "range": {
+        "startLine": 360,
+        "startChar": 2,
+        "endLine": 361,
+        "endChar": 70
+      },
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
