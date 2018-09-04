@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "5a9cb07d_599b0eb8",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 310,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-09-04T07:48:16Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "cf1826e7_b7bcf771",
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "96fb8584_fe73368f",
         "filename": "pages/site/releases/2.14.md",
         "patchSetId": 1
@@ -104,6 +122,24 @@
       "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "404f85d4_c86a973c",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-09-04T07:48:16Z",
+      "side": 1,
+      "message": "Ah okay, Jekyll doesn\u0027t have named anchors as we had in Gitiles?",
+      "parentUuid": "b09814c9_46bf7396",
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -177,6 +213,30 @@
       "side": 1,
       "message": "Is 2.19 out yet?",
       "parentUuid": "fddd5994_77814e5c",
+      "range": {
+        "startLine": 360,
+        "startChar": 2,
+        "endLine": 361,
+        "endChar": 70
+      },
+      "revId": "2b16ef10a1b9f912cd24bbab5c8608096f97ecd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5eb23425_d82400fb",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2018-09-04T07:48:16Z",
+      "side": 1,
+      "message": "No, RC1 atm afaik, but, ...\n\n* if we write implicit \"future version\" this becomes out of date as soon as 2.19 is released.\n* being specific about 2.19 and people can find out themselves it\u0027s in RC still, no?",
+      "parentUuid": "414fe322_122c6877",
       "range": {
         "startLine": 360,
         "startChar": 2,
