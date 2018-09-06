@@ -22,6 +22,30 @@
       "revId": "c538ec056c1040f8d48928570e6bd32c3e7bd594",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e5fc28fc_950a4f99",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-09-06T06:31:05Z",
+      "side": 1,
+      "message": "I\u0027ll do that in a followup commit after the 2.14.12 documentation has been published.",
+      "parentUuid": "d618bea0_2b63187a",
+      "range": {
+        "startLine": 347,
+        "startChar": 23,
+        "endLine": 347,
+        "endChar": 63
+      },
+      "revId": "c538ec056c1040f8d48928570e6bd32c3e7bd594",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
