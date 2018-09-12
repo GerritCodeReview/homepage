@@ -144,6 +144,44 @@ that you might find useful include:
 For more information on how the documentation is structured and the syntax it
 supports, see the [template documentation](http://idratherbewriting.com/documentation-theme-jekyll/).
 
+### Writing blog posts
+
+The Gerrit website supports adding blog posts. Users can view a list of
+current blogposts by click the **News** link in the navigation bar. 
+
+To create a blog post:
+
+1.  Create a new markdown file. The name of the file must use this format:
+
+        YYYY-MM-DD-[permalink].md
+
+    Where `[permalink]` is a descriptive name of the file.
+
+1.  Add the following to the top of the blog post:
+
+        ---
+        title: [TITLE]
+        tags: [TAGS]
+        keywords: [KEYWORDS]
+        permalink: [FILENAME].html
+        summary: [SUMMARY]
+        hide_sidebar: true
+        hide_navtoggle: true
+        toc: true
+        ---
+
+    Where:
+
+    +  `[TITLE]` is the title of the blog post
+    +  `[TAGS]` is an optional comma-delimited list of tags
+    +  `[KEYWORDS]` is an optional comma-delimited list of keywords
+    +  `[FILENAME]` is the name of the file
+    +  `[SUMMARY]` is a one- to two- sentence description of the post
+
+1.  Save the new post in the `_posts` directory.
+
+1.  Save any images in the top-level `images` directory.
+
 ## Appendix: Logging in to Firebase
 
 If you have never used Firebase before, you need to perform these steps:
