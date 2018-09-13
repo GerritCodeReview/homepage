@@ -34,7 +34,7 @@ design solves two UX issues:
 
 +  Merging the submit requirements and votes sections has helped us avoid
    repeating all the labels under both sections, reducing the vertical real
-   estate required to display a large number of labels. 
+   estate required to display a large number of labels.
 +  The Other labels section can now be collapsed so in case of a large number of
    labels, users can collapse the list to get to the file list quickly.
 
@@ -45,7 +45,7 @@ design solves two UX issues:
 You now have more tools to compare images. The new
 <a href="https://gerrit.googlesource.com/plugins/image-diff/">image diffing plugin</a>
 adds new modes that make it easier to quickly locate small differences between
-similar images. 
+similar images.
 
 ### Gerrit dark theme
 
@@ -65,7 +65,7 @@ about a change just below the change title. This frees up vertical space from
 the left section on the UI, which reduces the scrolling needed to get to the
 file list. The left section of the change is now dedicated to data about people
 and votes.
-   
+
 ### Draft comments
 
 <img src="images/draft-comments.png" width="" alt="Screenshot of draft comments feature" title="Draft Comments Feature">
