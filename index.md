@@ -124,34 +124,12 @@ Gerrit Code Review can be extended and further customized by installing
 Source code for additional plugins can be found through the
 [project listing](https://gerrit.googlesource.com/plugins/).
 
-## Get in touch
+## Support
 
-<table>
-<tr>
-<td>
-<h3>Mailing list</h3>
-</td>
-<td>
-<h3>Social media</h3>
-</td>
-<td>
-<h3>IRC</h3>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://groups.google.com/group/repo-discuss">Repo Discuss</a>
-</td>
-<td>
-<a href="https://plus.google.com/communities/111271594706618791655">Google+</a>
-<br>
-<a href="https://twitter.com/gerritreview">Twitter</a>
-</td>
-<td>
-<a href="https://freenode.net">freenode</a> #gerrit
-<br>
-<a href="https://echelog.com/logs/browse/gerrit/">Channel log</a>
-</td>
-</tr>
-</table>
+Write to the mailing list (<a href="https://groups.google.com/group/repo-discuss">repo-discuss on Google Groups</a>)
+or join the IRC channel <a href="https://echelog.com/logs/browse/gerrit/">#gerrit</a>.
 
+## Social Media
+
+Follow us on Twitter (<a href="https://twitter.com/gerritreview">@gerritreview</a>) and
+<a href="https://plus.google.com/communities/111271594706618791655">Google+</a>.
