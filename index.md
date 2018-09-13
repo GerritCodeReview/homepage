@@ -126,8 +126,10 @@ Source code for additional plugins can be found through the
 
 ## Support
 
-Write to the mailing list (<a href="https://groups.google.com/group/repo-discuss">repo-discuss on Google Groups</a>)
-or join the IRC channel <a href="https://echelog.com/logs/browse/gerrit/">#gerrit</a>.
+Write to the mailing list (<a href="https://groups.google.com/group/repo-discuss">repo-discuss on Google Groups</a>),
+join the IRC channel <a href="https://echelog.com/logs/browse/gerrit/">#gerrit</a>, or
+check the questions tagged with <a href="https://stackoverflow.com/questions/tagged/gerrit">[gerrit]</a>
+on Stack Overflow.
 
 ## Social Media
 
