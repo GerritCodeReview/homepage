@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bc9a105a_c94a4305",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2018-09-19T04:00:17Z",
+      "side": 1,
+      "message": "Do we have actually any instructions how to upgrade ES version on production gerrit site? Say I started from 2.x an would like to upgrade to 5.6 and later to 6.4?",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 0
+      },
+      "revId": "4426132667946456da63e3b90b1e57307e222370",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b0b34969_e0bbf071",
+        "filename": "pages/site/elasticsearch-compatibility.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2018-09-19T04:00:17Z",
+      "side": 1,
+      "message": "Nit: Trailing space.",
+      "range": {
+        "startLine": 14,
+        "startChar": 112,
+        "endLine": 14,
+        "endChar": 113
+      },
+      "revId": "4426132667946456da63e3b90b1e57307e222370",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
