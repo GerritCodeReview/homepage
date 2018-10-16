@@ -13,6 +13,10 @@ Latest release: **[2.15.3](/releases/2.15.md)**.
 
 [TOC]
 
+## 3.0 *(In development)* {#3.0}
+
+[Release notes for Gerrit 3.0](/releases/3.0.md)
+
 ## 2.16 *(In development)* {#2.16}
 
 * GWT UI is deprecated.
