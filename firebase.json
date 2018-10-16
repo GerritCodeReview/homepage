@@ -93,6 +93,11 @@
         "type": 301
       },
       {
+        "source": "/releases/3.0.md",
+        "destination": "/3.0.html",
+        "type": 301
+      },
+      {
         "source": "/releases/public-keys.md",
         "destination": "/public-keys.html",
         "type": 301
