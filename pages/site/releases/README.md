@@ -18,6 +18,10 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 
 Latest release: **[2.15](/2.15.md)**.
 
+## 3.0 *(In development)*
+
+[Release notes for Gerrit 3.0](/3.0.md)
+
 ## 2.16 *(In development)*
 
 * GWT UI is deprecated
