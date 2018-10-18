@@ -20,11 +20,15 @@ Latest release: **[2.15](/2.15.md)**.
 
 ## 3.0 *(In development)*
 
+* Removal of GWTUI.
+
+* Removal of ReviewDB.
+
 [Release notes for Gerrit 3.0](/3.0.md)
 
 ## 2.16 *(In development)*
 
-* GWT UI is deprecated
+* GWT UI is deprecated.
 
 * PolyGerrit is now the default UI.
 
