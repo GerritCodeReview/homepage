@@ -52,6 +52,24 @@
       "revId": "71b3e937337e2789558d643c0b6c51ba13449f88",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "363e61b8_e3450384",
+        "filename": "pages/site/releases/2.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2018-10-21T22:53:33Z",
+      "side": 1,
+      "message": "Jgit updates were released https://github.com/eclipse/jgit/releases",
+      "parentUuid": "ae1227b3_273c8692",
+      "revId": "71b3e937337e2789558d643c0b6c51ba13449f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
