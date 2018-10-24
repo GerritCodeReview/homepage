@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "823e4652_1a558b32",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-10-24T03:52:03Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 88,
+        "startChar": 16,
+        "endLine": 88,
+        "endChar": 21
+      },
+      "revId": "07542488858b10da00cccc3f7f8da7763ac8c556",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "105689ce_02b4a1b7",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-10-24T03:52:03Z",
+      "side": 1,
+      "message": "indexes",
+      "range": {
+        "startLine": 88,
+        "startChar": 48,
+        "endLine": 88,
+        "endChar": 56
+      },
+      "revId": "07542488858b10da00cccc3f7f8da7763ac8c556",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "89277f6e_2f5b1815",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-10-24T03:52:03Z",
+      "side": 1,
+      "message": "Link to the instructions for how to do this?",
+      "range": {
+        "startLine": 89,
+        "startChar": 19,
+        "endLine": 90,
+        "endChar": 0
+      },
+      "revId": "07542488858b10da00cccc3f7f8da7763ac8c556",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
