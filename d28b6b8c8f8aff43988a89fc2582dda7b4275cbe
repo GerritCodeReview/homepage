@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b2bb77c_8f8c4a60",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-11-08T23:05:36Z",
+      "side": 1,
+      "message": "It\u0027s my first release on Gerrit, thanks for that :-)",
+      "range": {
+        "startLine": 2,
+        "startChar": 31,
+        "endLine": 2,
+        "endChar": 32
+      },
+      "revId": "d28b6b8c8f8aff43988a89fc2582dda7b4275cbe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "57406763_db4f59eb",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-11-08T23:05:36Z",
+      "side": 1,
+      "message": "Add link to docs?",
+      "range": {
+        "startLine": 23,
+        "startChar": 6,
+        "endLine": 23,
+        "endChar": 26
+      },
+      "revId": "d28b6b8c8f8aff43988a89fc2582dda7b4275cbe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f77d513f_bd9911e0",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-11-08T23:05:36Z",
+      "side": 1,
+      "message": "nit: space at EOL",
+      "range": {
+        "startLine": 95,
+        "startChar": 184,
+        "endLine": 95,
+        "endChar": 185
+      },
+      "revId": "d28b6b8c8f8aff43988a89fc2582dda7b4275cbe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "45a3bfa3_605362f3",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-11-08T23:05:36Z",
+      "side": 1,
+      "message": "Do we need to repeat this? Why not just giving a link to the relevant part of the 2.15 release notes?",
+      "range": {
+        "startLine": 93,
+        "startChar": 1,
+        "endLine": 95,
+        "endChar": 183
+      },
+      "revId": "d28b6b8c8f8aff43988a89fc2582dda7b4275cbe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
