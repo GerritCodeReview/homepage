@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "3a035a4e_4145058a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-11-08T23:19:05Z",
+      "side": 1,
+      "message": "It\u0027s linked in the section added below.",
+      "parentUuid": "57406763_db4f59eb",
+      "range": {
+        "startLine": 23,
+        "startChar": 6,
+        "endLine": 23,
+        "endChar": 26
+      },
+      "revId": "d28b6b8c8f8aff43988a89fc2582dda7b4275cbe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f77d513f_bd9911e0",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
@@ -87,6 +111,53 @@
         "startChar": 1,
         "endLine": 95,
         "endChar": 183
+      },
+      "revId": "d28b6b8c8f8aff43988a89fc2582dda7b4275cbe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d3afaf39_4385c766",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-11-08T23:19:05Z",
+      "side": 1,
+      "message": "This would be better in the \"Important notes\" section at the top.",
+      "parentUuid": "45a3bfa3_605362f3",
+      "range": {
+        "startLine": 93,
+        "startChar": 1,
+        "endLine": 95,
+        "endChar": 183
+      },
+      "revId": "d28b6b8c8f8aff43988a89fc2582dda7b4275cbe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2339fdd4_a144ec58",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-11-08T23:19:05Z",
+      "side": 1,
+      "message": "There are actually several new REST endpoints and additions to existing ones.  I\u0027ve found that an effective way to find them is to git log the documentation, for example:\n\n git log --oneline --no-merges v2.15.6..stable-2.16 Documentation/rest-api-changes.txt",
+      "range": {
+        "startLine": 153,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 16
       },
       "revId": "d28b6b8c8f8aff43988a89fc2582dda7b4275cbe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
