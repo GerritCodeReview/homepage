@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1126cac8_7da5fd95",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-11-10T05:38:53Z",
+      "side": 1,
+      "message": "Links should not be added until the release is actually done.  I will do that.",
+      "revId": "b2e4a7eaa8ceda5971d04a1442c521d281eb4f19",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "58d455b7_8a29f34a",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-11-10T05:38:53Z",
+      "side": 1,
+      "message": "As above",
+      "revId": "b2e4a7eaa8ceda5971d04a1442c521d281eb4f19",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e1e249fc_34637408",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 404,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-11-10T05:38:53Z",
+      "side": 1,
+      "message": "Please add this on top of https://gerrit-review.googlesource.com/c/homepage/+/203714",
+      "revId": "b2e4a7eaa8ceda5971d04a1442c521d281eb4f19",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
