@@ -28,15 +28,17 @@ Latest release: **[2.15](/2.15.md)**.
 
 ## 2.16 *(Release candidate)*
 
-* GWT UI is deprecated.
-
-* PolyGerrit is now the default UI.
+* GWT UI is deprecated, and PolyGerrit is now the default UI.
 
 * Experimental Dark Mode in PolyGerrit.
 
 * Inline editing support in PolyGerrit UI.
 
 * Redesigned UI for PolyGerrit based on material.
+
+* New configuration option to ignore self-approval on labels.
+
+* New CommonMark/Markdown parser.
 
 [Release notes for Gerrit 2.16](/2.16.md)
 
