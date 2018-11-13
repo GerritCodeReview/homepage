@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6e4e0c1e_c5db9cc0",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-11-13T19:32:57Z",
+      "side": 1,
+      "message": "\u003e Is it necessary to have this prefix at all?  Most of the entity names are unique anyway.\n\nActually, I\u0027ve just used the same notation mentioned in the description of the changes for maximum consistency.\n \n\u003e Also, in previous release notes we included links to the documentation of the entities.\n\nDo you have any example?",
+      "parentUuid": "933a7f86_ab640547",
+      "range": {
+        "startLine": 252,
+        "startChar": 0,
+        "endLine": 252,
+        "endChar": 113
+      },
+      "revId": "3faf34003f8d3f7246cc8f5cd3e501ba68e6424b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "5fc93243_812d505d",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "3faf34003f8d3f7246cc8f5cd3e501ba68e6424b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8e3db715_7e43c41a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-11-13T19:32:57Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5fc93243_812d505d",
+      "range": {
+        "startLine": 254,
+        "startChar": 0,
+        "endLine": 254,
+        "endChar": 101
+      },
+      "revId": "3faf34003f8d3f7246cc8f5cd3e501ba68e6424b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
