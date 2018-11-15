@@ -16,6 +16,24 @@
       "revId": "42ce103880a0bdf2ee19f26e84a13b97d72af2e8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1fa46704_dddce2aa",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2018-11-15T12:05:02Z",
+      "side": 1,
+      "message": "It was resolved during the hackathon. SSH is supported as well. Just try and see ;-)",
+      "parentUuid": "d8008097_66f4ae89",
+      "revId": "42ce103880a0bdf2ee19f26e84a13b97d72af2e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
