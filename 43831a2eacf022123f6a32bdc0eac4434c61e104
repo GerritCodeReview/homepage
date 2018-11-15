@@ -22,6 +22,30 @@
       "revId": "43831a2eacf022123f6a32bdc0eac4434c61e104",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95c1feb8_de0d10c8",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 355,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-11-15T20:21:13Z",
+      "side": 1,
+      "message": "I did it like this to be consistent with how it\u0027s done in the 2.14 and 2.15 release notes.",
+      "parentUuid": "80a65b1a_9ca58b8b",
+      "range": {
+        "startLine": 355,
+        "startChar": 31,
+        "endLine": 355,
+        "endChar": 60
+      },
+      "revId": "43831a2eacf022123f6a32bdc0eac4434c61e104",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
