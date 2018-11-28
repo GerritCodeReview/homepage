@@ -2,6 +2,98 @@
   "comments": [
     {
       "key": {
+        "uuid": "6ba31b6c_13ab1fad",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2018-11-28T18:24:10Z",
+      "side": 1,
+      "message": "2.2.0, would be more precise I think.",
+      "range": {
+        "startLine": 9,
+        "startChar": 36,
+        "endLine": 9,
+        "endChar": 41
+      },
+      "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c77d7ea7_fd06a6f2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2018-11-28T18:24:10Z",
+      "side": 1,
+      "message": "a workaround",
+      "range": {
+        "startLine": 10,
+        "startChar": 8,
+        "endLine": 10,
+        "endChar": 21
+      },
+      "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4360aa5c_6b9eb22f",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2018-11-28T18:24:10Z",
+      "side": 1,
+      "message": "2.2.0, as per previous /related comment.",
+      "range": {
+        "startLine": 40,
+        "startChar": 40,
+        "endLine": 40,
+        "endChar": 45
+      },
+      "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1e32577_0818d30a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2018-11-28T18:24:10Z",
+      "side": 1,
+      "message": "2.2.0, rather? -Consistent with other dropped version mentions in this change.",
+      "range": {
+        "startLine": 220,
+        "startChar": 27,
+        "endLine": 220,
+        "endChar": 30
+      },
+      "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "460b17d8_ae9c800e",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 2
@@ -48,6 +140,75 @@
     },
     {
       "key": {
+        "uuid": "7f603029_80f5f831",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2018-11-28T18:24:10Z",
+      "side": 1,
+      "message": "having",
+      "range": {
+        "startLine": 228,
+        "startChar": 9,
+        "endLine": 228,
+        "endChar": 13
+      },
+      "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5d554b7d_06313c29",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2018-11-28T18:24:10Z",
+      "side": 1,
+      "message": "v2.2.0",
+      "range": {
+        "startLine": 230,
+        "startChar": 3,
+        "endLine": 230,
+        "endChar": 9
+      },
+      "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f6b7a29f_654abe13",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2018-11-28T18:24:10Z",
+      "side": 1,
+      "message": "v2.2.0 or later",
+      "range": {
+        "startLine": 232,
+        "startChar": 61,
+        "endLine": 232,
+        "endChar": 67
+      },
+      "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2bfe9ebe_102ad377",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 2
@@ -65,6 +226,23 @@
         "endLine": 233,
         "endChar": 73
       },
+      "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df518bcc_d7566208",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2018-11-28T18:24:10Z",
+      "side": 1,
+      "message": "Extra blank line, when comparing to other similar separations in this file.",
       "revId": "3bdd4baacbab76c0301c8f258cd8c4a96d83c580",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
