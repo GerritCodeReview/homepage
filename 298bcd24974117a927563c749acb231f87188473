@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "82f1cefb_07c16517",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-08T04:27:47Z",
+      "side": 1,
+      "message": "Instead of replacing the links, we usually have separate links for each one.  See 2.15.md for example.",
+      "revId": "298bcd24974117a927563c749acb231f87188473",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "54d0c5af_ad6fb5a2",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 582,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-08T04:27:47Z",
+      "side": 1,
+      "message": "This section already exists above, starting at L511.",
+      "range": {
+        "startLine": 580,
+        "startChar": 0,
+        "endLine": 582,
+        "endChar": 10
+      },
+      "revId": "298bcd24974117a927563c749acb231f87188473",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e7a3f165_a7f5af6a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 585,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-08T04:27:47Z",
+      "side": 1,
+      "message": "This isn\u0027t a fix.  The issue exists on 2.14 and 2.15; the change submitted on stable-2.16 was only a test that shows that it works on 2.16.",
+      "range": {
+        "startLine": 585,
+        "startChar": 76,
+        "endLine": 585,
+        "endChar": 113
+      },
+      "revId": "298bcd24974117a927563c749acb231f87188473",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "076446db_dc4fa29d",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 588,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-08T04:27:47Z",
+      "side": 1,
+      "message": "These don\u0027t need to be mentioned.  The change in UrlFormatter was introduced on stable-2.16 after 2.16 was made, so the failures to load never appeared in a released version.",
+      "range": {
+        "startLine": 587,
+        "startChar": 0,
+        "endLine": 588,
+        "endChar": 114
+      },
+      "revId": "298bcd24974117a927563c749acb231f87188473",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
