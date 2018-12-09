@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7df6223e_1bbdbb83",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-09T06:45:07Z",
+      "side": 1,
+      "message": "This issue is already included at line 529.  Maybe expand that existing one to mention that the quoting/encoding prevents execution of arbitrary commands?",
+      "range": {
+        "startLine": 520,
+        "startChar": 0,
+        "endLine": 521,
+        "endChar": 74
+      },
+      "revId": "b790a4860ba385e298b367028c8efc88070954e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "43efc29c_931bfeba",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 533,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-09T06:45:07Z",
+      "side": 1,
+      "message": "The REST API itself was not broken.  The fix was in the example request in the documentation.",
+      "range": {
+        "startLine": 533,
+        "startChar": 0,
+        "endLine": 533,
+        "endChar": 36
+      },
+      "revId": "b790a4860ba385e298b367028c8efc88070954e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0947893c_bfdf432b",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 592,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-09T06:45:07Z",
+      "side": 1,
+      "message": "in",
+      "range": {
+        "startLine": 592,
+        "startChar": 54,
+        "endLine": 592,
+        "endChar": 56
+      },
+      "revId": "b790a4860ba385e298b367028c8efc88070954e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
