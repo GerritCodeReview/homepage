@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "bb162009_1485cd6a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-12-09T20:54:40Z",
+      "side": 1,
+      "message": "Yes, will do that.",
+      "parentUuid": "7df6223e_1bbdbb83",
+      "range": {
+        "startLine": 520,
+        "startChar": 0,
+        "endLine": 521,
+        "endChar": 74
+      },
+      "revId": "b790a4860ba385e298b367028c8efc88070954e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "43efc29c_931bfeba",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2018-12-09T06:45:07Z",
       "side": 1,
       "message": "The REST API itself was not broken.  The fix was in the example request in the documentation.",
+      "range": {
+        "startLine": 533,
+        "startChar": 0,
+        "endLine": 533,
+        "endChar": 36
+      },
+      "revId": "b790a4860ba385e298b367028c8efc88070954e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "48487a19_9a234a20",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 533,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-12-09T20:54:40Z",
+      "side": 1,
+      "message": "Will flag it as documentation updated then.",
+      "parentUuid": "43efc29c_931bfeba",
       "range": {
         "startLine": 533,
         "startChar": 0,
@@ -68,6 +116,30 @@
       "revId": "b790a4860ba385e298b367028c8efc88070954e9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dc44f214_17ea9267",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 592,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2018-12-09T20:54:40Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "0947893c_bfdf432b",
+      "range": {
+        "startLine": 592,
+        "startChar": 54,
+        "endLine": 592,
+        "endChar": 56
+      },
+      "revId": "b790a4860ba385e298b367028c8efc88070954e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
