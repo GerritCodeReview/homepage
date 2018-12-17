@@ -28,8 +28,6 @@ Latest release: **[2.16](/2.16.md)**.
 
 ## 2.16
 
-* Support for git protocol version 2.
-
 * GWT UI is deprecated, and PolyGerrit is now the default UI.
 
 * Experimental Dark Mode in PolyGerrit.
