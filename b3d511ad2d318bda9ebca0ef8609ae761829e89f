@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1dacf354_1f086d03",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-20T08:21:27Z",
+      "side": 1,
+      "message": "Remove this; we don\u0027t usually link to changes in release notes like this.",
+      "range": {
+        "startLine": 520,
+        "startChar": 2,
+        "endLine": 520,
+        "endChar": 75
+      },
+      "revId": "b3d511ad2d318bda9ebca0ef8609ae761829e89f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "98f30762_0f21af82",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-20T08:21:27Z",
+      "side": 1,
+      "message": "The info about v2 should also be adjusted in the 2.16 release summary.",
+      "revId": "b3d511ad2d318bda9ebca0ef8609ae761829e89f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a13060b_7159648c",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 550,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2018-12-20T08:21:27Z",
+      "side": 1,
+      "message": "This additional info should also be added to the 2.14 and 2.15 release notes.",
+      "range": {
+        "startLine": 544,
+        "startChar": 2,
+        "endLine": 550,
+        "endChar": 9
+      },
+      "revId": "b3d511ad2d318bda9ebca0ef8609ae761829e89f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
