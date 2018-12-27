@@ -126,10 +126,25 @@ Source code for additional plugins can be found through the
 
 ## Support
 
-Write to the mailing list (<a href="https://groups.google.com/group/repo-discuss">repo-discuss on Google Groups</a>),
+The Gerrit open source community actively supports the last 2 releases
+on a best effort basis. Older releases are not actively maintained but
+may still receive important fixes (e.g. security fixes), but there is
+no guarantee for this. Which fixes are backported to these old
+releases is decided on a case by case basis.
+
+End of life for old releases is not announced but happens implicitly
+when a new Gerrit version is released.
+
+For questions write to the mailing list (<a href="https://groups.google.com/group/repo-discuss">repo-discuss on Google Groups</a>),
 join the IRC channel <a href="https://echelog.com/logs/browse/gerrit/">#gerrit</a>, or
 check the questions tagged with <a href="https://stackoverflow.com/questions/tagged/gerrit">[gerrit]</a>
 on Stack Overflow.
+
+The repo-discuss mailing is managed to prevent spam posts. This means
+posts from new participants must be approved manually before they
+appear on the mailing list. Approvals normally happen within 1 work
+day. Posts of people that participate in mailing list discussions
+frequently are approved automatically.
 
 ## Social Media
 
