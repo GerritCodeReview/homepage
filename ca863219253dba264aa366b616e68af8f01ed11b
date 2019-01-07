@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "28c94429_db39cee5",
+        "filename": "pages/site/releases/2.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-01-07T00:50:18Z",
+      "side": 1,
+      "message": "I don\u0027t think it\u0027s feasible to list all other changes included in this upgrade; there are 1222 commits since v3.4.2.201412180340-r.\n\n  $ git log --oneline --no-merges v3.4.2.201412180340-r..v4.5.4.201711221230-r | wc -l\n  1222",
+      "revId": "ca863219253dba264aa366b616e68af8f01ed11b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
