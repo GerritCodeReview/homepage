@@ -63,6 +63,11 @@
         "type": 301
       },
       {
+        "source": "/releases/2.9.md",
+        "destination": "/2.9.html",
+        "type": 301
+      },
+      {
         "source": "/releases/2.11.md",
         "destination": "/2.11.html",
         "type": 301
