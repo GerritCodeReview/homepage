@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0f644a73_dc651f6b",
+        "filename": "pages/site/releases/2.13.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-01-07T14:24:47Z",
+      "side": 1,
+      "message": "we are updating JGit from 4.5.2 in this release, \nmaybe you want to mention the following Gerrit relevant JGit fixes \nshipped in the releases between 4.5.2 and 4.5.4:\n\n4.5.4\nhttps://projects.eclipse.org/projects/technology.jgit/releases/4.5.4\n* Fix LockFile semantics when running on NFS\n* Honor trustFolderStats also when reading packed-refs\n\n4.5.3\nhttps://projects.eclipse.org/projects/technology.jgit/releases/4.5.3\n* Fix exception handling for opening bitmap index files",
+      "revId": "5aa84be2870435db57ac0f7a95e95bf93d1da111",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
