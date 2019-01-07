@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a5c8678d_10aaf79a",
+        "filename": "pages/site/releases/2.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-01-07T13:57:17Z",
+      "side": 1,
+      "message": "we are updating JGit from 4.1.2 in this release, maybe you want to mention the following Gerrit relevant JGit fixes shipped in the releases between 4.1.2 and 4.5.4:\n\n4.5.4\nhttps://projects.eclipse.org/projects/technology.jgit/releases/4.5.4\n* Fix LockFile semantics when running on NFS\n* Honor trustFolderStats also when reading packed-refs\n\n4.5.3\nhttps://projects.eclipse.org/projects/technology.jgit/releases/4.5.3\n* Fix exception handling for opening bitmap index files\n\n4.5.2\nhttps://projects.eclipse.org/projects/technology.jgit/releases/4.5.2/bugs\n* 514170 Pack marked as corrupted even if it isn\u0027t\n\n4.5.1\nhttps://projects.eclipse.org/projects/technology.jgit/releases/4.5.1\n* 513435 Don\u0027t remove Pack when FileNotFoundException is transient",
+      "revId": "286eacf361c889a93257344966cba845f51992f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
