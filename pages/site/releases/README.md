@@ -100,6 +100,31 @@ Latest release: **[2.16](/2.16.md)**.
 
 [Release notes for Gerrit 2.12](/2.12.html).
 
+## 2.11
+
+* [Issue 505](https://bugs.chromium.org/p/gerrit/issues/detail?id=505):
+Changes can be created and edited directly in the browser.
+
+* Many improvements in the new change screen.
+
+* The old change screen is removed.
+
+[Release notes for Gerrit 2.11](/2.11.html).
+
+## 2.10
+
+* Support for externally loaded plugins.
+
+* Customizable `My` menu.
+
+[Release notes for Gerrit 2.10](/2.10.html).
+
+## 2.9
+
+* The new change screen is now the default change screen.
+
+[Release notes for Gerrit 2.9](/2.9.html).
+
 ## Older Releases
 
 Release notes for releases prior to 2.12 can be found on the old
