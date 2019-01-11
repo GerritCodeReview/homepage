@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4bb9a7b0_f03adf41",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 404,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-01-11T04:08:11Z",
+      "side": 1,
+      "message": "stateless.\n\nStateless transports like HTTP are affected. Stateful, bidirectional (I don\u0027t know why we got in the habit of calling these bidirectional --- I guess the intent was something like \"full-duplex\") transports like SSH are not.",
+      "range": {
+        "startLine": 404,
+        "startChar": 34,
+        "endLine": 404,
+        "endChar": 47
+      },
+      "revId": "9f9a843a4975bbcde950b718d0ec6a7a33057aa5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
