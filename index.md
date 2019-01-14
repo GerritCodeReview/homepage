@@ -150,3 +150,12 @@ frequently are approved automatically.
 
 Follow us on Twitter (<a href="https://twitter.com/gerritreview">@gerritreview</a>) and
 <a href="https://plus.google.com/communities/111271594706618791655">Google+</a>.
+
+## Training Slides
+
+The following slides explain Git and Gerrit concepts and workflows and are meant
+for self-studying how Git and Gerrit work:
+
+* <a href="https://docs.google.com/presentation/d/1IQCRPHEIX-qKo7QFxsD3V62yhyGA9_5YsYXFOiBpgkk/edit?usp=sharing">Git explained: Git Concepts and Workflows</a>
+* <a href="https://docs.google.com/presentation/d/1C73UgQdzZDw0gzpaEqIC6SPujZJhqamyqO1XOHjH-uk/edit?usp=sharing">Gerrit explained: Gerrit Concepts and Workflows</a>
+
