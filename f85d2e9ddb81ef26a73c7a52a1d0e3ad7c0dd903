@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fc5c58eb_d8921068",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 405,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2019-01-22T23:28:42Z",
+      "side": 1,
+      "message": "Should that be the same as https://gerrit-review.googlesource.com/c/homepage/+/211272/1/pages/site/releases/2.16.md ?",
+      "range": {
+        "startLine": 403,
+        "startChar": 0,
+        "endLine": 405,
+        "endChar": 47
+      },
+      "revId": "f85d2e9ddb81ef26a73c7a52a1d0e3ad7c0dd903",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
