@@ -4340,9 +4340,9 @@ database may be set to control how Gerrit behaves.
 > Gerrit. If you modify any columns in this table, Gerrit needs to be
 > restarted before it will use the new values.
 
-## Configuring the Polygerrit UI
+## Configuring the PolyGerrit UI
 
-Please see [UI](dev-polygerrit.html) on configuring the Polygerrit UI.
+Please see [UI](dev-polygerrit.html) on configuring the PolyGerrit UI.
 
 ### Configurable Parameters
 
