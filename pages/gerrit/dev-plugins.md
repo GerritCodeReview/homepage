@@ -2480,7 +2480,7 @@ Compiled plugins and extensions can be deployed to a running Gerrit
 server using the [plugin install](cmd-plugin-install.html) command.
 
 Web UI plugins distributed as a single ‘.js\` file (or \`.html’ file for
-Polygerrit) can be deployed without the overhead of JAR packaging. For
+PolyGerrit) can be deployed without the overhead of JAR packaging. For
 more information refer to [plugin install](cmd-plugin-install.html)
 command.
 
