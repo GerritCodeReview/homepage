@@ -38,6 +38,24 @@
     },
     {
       "key": {
+        "uuid": "cc1ef9d7_cd418298",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 493,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2019-01-22T23:50:06Z",
+      "side": 1,
+      "message": "Nope, i doin\u0027t think it\u0027s the same as the one David P links to (https://gerrit-review.googlesource.com/c/gerrit/+/210434)\n\nhttps://gerrit-review.googlesource.com/c/gerrit/+/209114 adds the groovy support.",
+      "parentUuid": "872dad6e_8ab58e6a",
+      "revId": "132d4e2e5c6e33b91cc4479e4c2ef997b1fb933f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9065f5f9_7d73d64f",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
