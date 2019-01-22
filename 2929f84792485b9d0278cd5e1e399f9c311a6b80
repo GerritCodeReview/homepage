@@ -22,6 +22,30 @@
       "revId": "2929f84792485b9d0278cd5e1e399f9c311a6b80",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "34f935d4_96641227",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-01-22T23:28:12Z",
+      "side": 1,
+      "message": "Doh.  Fixed, thanks.",
+      "parentUuid": "3ffa01f5_1464a385",
+      "range": {
+        "startLine": 7,
+        "startChar": 12,
+        "endLine": 7,
+        "endChar": 13
+      },
+      "revId": "2929f84792485b9d0278cd5e1e399f9c311a6b80",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
