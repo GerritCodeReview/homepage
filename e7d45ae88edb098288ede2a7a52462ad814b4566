@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0c9e531c_d342310c",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 496,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-01-23T05:54:30Z",
+      "side": 1,
+      "message": "The main reason we bumped the schema version index is to support online reindexing. So the option to perform online reindexing should be mentioned here in addition to offline reindexing.",
+      "revId": "e7d45ae88edb098288ede2a7a52462ad814b4566",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
