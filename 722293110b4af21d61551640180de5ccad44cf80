@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "194a467f_82d15308",
+        "filename": "pages/gerrit/config-gerrit.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4345,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-01-23T00:29:42Z",
+      "side": 1,
+      "message": "I\u0027m not sure if we even need these files any more.  I just did a global replace with sed.",
+      "parentUuid": "47dbc29a_d256ea23",
+      "range": {
+        "startLine": 4345,
+        "startChar": 16,
+        "endLine": 4345,
+        "endChar": 35
+      },
+      "revId": "722293110b4af21d61551640180de5ccad44cf80",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e46261e0_d6f6d9e0",
         "filename": "pages/gerrit/dev-plugins.md",
         "patchSetId": 1
