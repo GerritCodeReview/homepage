@@ -34,6 +34,24 @@
       "revId": "e7d45ae88edb098288ede2a7a52462ad814b4566",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2854ff92_2eb94bbd",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 496,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-01-23T22:09:24Z",
+      "side": 1,
+      "message": "Will put a warning on the projects reindex: if done online, it will leave the server unusable until the new projects index is ready, which really makes it more convenient to make the reindexing offline.\n\nFor accounts and groups, the online reindex is fine.",
+      "parentUuid": "8646f94d_1de0ba88",
+      "revId": "e7d45ae88edb098288ede2a7a52462ad814b4566",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
