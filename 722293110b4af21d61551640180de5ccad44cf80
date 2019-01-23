@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "47dbc29a_d256ea23",
+        "filename": "pages/gerrit/config-gerrit.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4345,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-01-23T00:11:24Z",
+      "side": 1,
+      "message": "Not about this change: this is a dev page --- should it be renamed to a user-facing page (with a symlink or other kind of redirect pointing to it from the old name)?",
+      "range": {
+        "startLine": 4345,
+        "startChar": 16,
+        "endLine": 4345,
+        "endChar": 35
+      },
+      "revId": "722293110b4af21d61551640180de5ccad44cf80",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e46261e0_d6f6d9e0",
+        "filename": "pages/gerrit/dev-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2483,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-01-23T00:11:24Z",
+      "side": 1,
+      "message": "Can this be rephrased to match PolyGerrit being the default? E.g.\n\n Web UI plugins distributed as a single `.js` or `.html` file can be deployed\n without the overhead of JAR packaging.",
+      "range": {
+        "startLine": 2482,
+        "startChar": 0,
+        "endLine": 2483,
+        "endChar": 66
+      },
+      "revId": "722293110b4af21d61551640180de5ccad44cf80",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f92997a0_bfaec867",
         "filename": "pages/site/releases/2.15.md",
         "patchSetId": 1
