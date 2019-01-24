@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6cf81956_ae1d729c",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 506,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-01-24T05:54:29Z",
+      "side": 1,
+      "message": "Mention, that --index option can be passed multiple times?\n\n  Reindex only index with given name. This option can be supplied\n  more than once to reindex multiple indices.",
+      "revId": "03dc7a10033f8af1a62a34b8eaa43d932631e56b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
