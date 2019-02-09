@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "40de4a05_9ad22ba1",
+        "filename": "pages/site/releases/public-keys.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-02-09T12:16:41Z",
+      "side": 1,
+      "message": "Nit: Aside from the Gerritforge keys, keys are listed in alphabetical order of name.",
+      "revId": "b97aaa0eb5f0ac891302fd613176e3ff253e370d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d6c335f_d696b468",
+        "filename": "pages/site/releases/public-keys.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-02-09T12:16:41Z",
+      "side": 1,
+      "message": "Nit: Not necessary to repeat the name.  See L20-21 for example.",
+      "range": {
+        "startLine": 31,
+        "startChar": 2,
+        "endLine": 31,
+        "endChar": 16
+      },
+      "revId": "b97aaa0eb5f0ac891302fd613176e3ff253e370d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
