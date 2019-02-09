@@ -25,4 +25,7 @@ The following public keys are are available on the
 | Patrick Hiesel   | hiesel@google.com               | 7789 759C D085 C90A 1823  63AB 710A 7242 BD5B 6C39 |           |
 | Saša Živkov      | sasa.zivkov@sap.com             | 024B 9991 1E26 0764 22A7  5AD4 4D52 61F9 26C1 290E |           |
 | GerritForge      | info@gerritforge.com            | F0E2 4DA6 6FFA A737 081E  5A7E 1FFF AA5E 1871 F775 | Deb       |
+| GerritForge      | info@gerritforge.com            | 9911 F82E 2783 6B7F AE85  090D 8470 05AE 6190 67D5 | rsa-3027  |
 | GerritForge Yum  | yum@gerritforge.com             | 87BE F09F 08AF 18A9 79ED  67DB AF71 9AD5 21EF A0F0 | Rpm       |
+| Luca Milanesio   | luca.milanesio@gmail.com        | 4D87 E730 9713 C7D6 6B77  CFBF 7079 1290 7562 EA4B | rsa-3072  |
+| Luca Milanesio   | luca.milanesio@gmail.com        | 8882 AA37 B122 C819 2736  DBB6 E9A9 BDCD C015 06A0 | rsa-2048  |
