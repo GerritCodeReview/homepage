@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f723423_7f4468a5",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2019-02-20T14:06:45Z",
+      "side": 1,
+      "message": "I think we should make this just PolyGerrit like what we did for 2.16.5.\n\n(and then move all the PolyGerrit fixes under this heading)",
+      "range": {
+        "startLine": 515,
+        "startChar": 0,
+        "endLine": 515,
+        "endChar": 26
+      },
+      "revId": "7b272c2ad063476cc0e1e97143edc81f90ef4ecb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
