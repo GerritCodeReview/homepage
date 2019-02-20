@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e369482d_82df0758",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 513,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-02-20T10:37:36Z",
+      "side": 1,
+      "message": "This could do with a bit more detail, but I think it\u0027s OK to do that in a follow-up.  We should also add a link to the new documentation when 2.16.6 is released and that documentation is available.",
+      "range": {
+        "startLine": 509,
+        "startChar": 0,
+        "endLine": 513,
+        "endChar": 39
+      },
+      "revId": "13cf492c6461ce06d5d82e39d75cfd7834350319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
