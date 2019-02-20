@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "2af54c6f_e9e74103",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 512,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-02-20T13:26:54Z",
+      "side": 1,
+      "message": "name of the weblink the UI should use when",
+      "range": {
+        "startLine": 511,
+        "startChar": 53,
+        "endLine": 512,
+        "endChar": 15
+      },
+      "revId": "13cf492c6461ce06d5d82e39d75cfd7834350319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e369482d_82df0758",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
@@ -18,6 +41,29 @@
         "startChar": 0,
         "endLine": 513,
         "endChar": 39
+      },
+      "revId": "13cf492c6461ce06d5d82e39d75cfd7834350319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84f47d02_92bad733",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 533,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-02-20T13:26:54Z",
+      "side": 1,
+      "message": "Perhaps something like:\n\n    Fix faulty relative URLs in change weblinks\n\nWould be more descriptive of the actual issue.",
+      "range": {
+        "startLine": 533,
+        "startChar": 0,
+        "endLine": 533,
+        "endChar": 52
       },
       "revId": "13cf492c6461ce06d5d82e39d75cfd7834350319",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
