@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e32559d3_267e33ac",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 524,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-02-21T08:56:16Z",
+      "side": 1,
+      "message": "I don\u0027t really see this behaviour with Gerrit actually on self-hosted, but only on *.googlesource.com. So I doubt this is correct as-is.\n\nFor me, with Gerrit and default Gitiles configuration, compared to Google-Gerrits:\n\n* parent commit hash on the left column is not clickable.\n* commit hash above file listing is not clickable.\n* I see a \"Links  browse\" item on the left column where \u0027browse\u0027 is clickable. this is not shown on *.googlesource.com.\n\nOr am I missing something here?\n\n(I could continue asking this on the mailing list instead if you prefer.)",
+      "range": {
+        "startLine": 517,
+        "startChar": 0,
+        "endLine": 524,
+        "endChar": 59
+      },
+      "revId": "d784da1a13fc172eda6bc4900b8f0a4d9dd0e181",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
