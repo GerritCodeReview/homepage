@@ -46,6 +46,30 @@
       "revId": "d784da1a13fc172eda6bc4900b8f0a4d9dd0e181",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "14db8959_1d32267a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 524,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-02-21T11:15:10Z",
+      "side": 1,
+      "message": "Oh, you\u0027re right, I was running a version without those changes. Sorry for all the noise. Thanks for the thorough explanation!\n\n* Somehow I assumed this was the section about general 2.16, not the unreleased 2.16.6.\n* So I assumed this was on my master version, but these were of course fairly recent changes.",
+      "parentUuid": "30cb29c5_874efad3",
+      "range": {
+        "startLine": 517,
+        "startChar": 0,
+        "endLine": 524,
+        "endChar": 59
+      },
+      "revId": "d784da1a13fc172eda6bc4900b8f0a4d9dd0e181",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
