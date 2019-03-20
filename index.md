@@ -189,6 +189,46 @@ Please add new kudos at the top of this list.
 
 ---
 
+**To: David Pursehouse, david.pursehouse@gmail.com (CollabNet), David Ostrovsky,
+david.ostrovsky@gmail.com, Luca Milanesio, luca.milanesio@gmail.com
+(GerritForge), Matthias Sohn, matthias.sohn@sap.com (SAP)**
+
+```
+  The Gerrit open source project had to deal with 2 severe security
+  vulnerabilities ([issue 10201](https://bugs.chromium.org/p/gerrit/issues/detail?id=10201),
+  [issue 10262](https://bugs.chromium.org/p/gerrit/issues/detail?id=10262) that
+  required patching 2 JGit releases and 8 Gerrit releases (2.9 to 2.16). David
+  Pursehouse, David Ostrovsky, Luca Milanesio, Matthias Sohn were extremely
+  supportive to deal with the situation. In particular they took care of:
+
+  * reverting the problematic code in Gerrit (David Pursehouse)
+  * preparing fixed JGit versions (Matthias Sohn)
+  * making the fixed JGit versions available to Gerrit without breaking the
+    embargo (Matthias Sohn)
+  * upgrading JGit for all affected Gerrit versions (David Ostrovsky)
+  * fixing the CI build for Gerrit 2.9 (David Ostrovsky, Luca Milanesio)
+  * writing release notes (David Pursehouse)
+  * code reviews (David Pursehouse, David Ostrovsky, Luca Milanesio)
+  * releasing fixed Gerrit 2.16 versions (David Pursehouse, Luca Milanesio)
+  * releasing fixed Gerrit 2.15 version (David Pursehouse)
+  * releasing fixed Gerrit 2.9 to 2.14 versions (Luca Milanesio)
+  * announcing and documenting the vulnerabilities for the community
+    (David Pursehouse, Luca Milanesio)
+  * collaboration on a post mortem (David Pursehouse, David Ostrovsky, Luca
+    Milanesio, Matthias Sohn)
+
+  This was an extraordinary collaboration across teams, projects, companies and
+  timezones and showed to the Gerrit community that the Gerrit project is taking
+  security seriously.
+
+  This engagement was especially remarkable since a lot of these actions
+  happened during Christmas/New Year.
+```
+
+From: Edwin Kempin, ekempin@google.com (Google)
+
+---
+
 **To: Luca Milanesio, luca.milanesio@gmail.com (GerritForge)**
 
 ```
