@@ -37,6 +37,27 @@ Note: Please add new kudos at the top of this list.
 
 ---
 
+**[2019-03-20] To: David Pursehouse (CollabNet)**
+
+```
+  David takes great care of the Gerrit releases. This is of high importance for
+  the Gerrit community because it makes new features and bug-fixes available for
+  everyone.
+
+  David was driving several major releases and ensures that the release notes
+  are always well-written and complete. In addition, he pays high attention to
+  backporting bug-fixes that matter and ensures that release issues are quickly
+  addressed by frequently releasing minor versions that include these bug-fixes.
+  David also takes care of merging the stable branches back to master which can
+  be a lot of work because conflicts need to be resovled.
+
+  I really appreciate all this work. Thank you!
+```
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2019-03-20] To: David Ostrovsky**
 
 ```
