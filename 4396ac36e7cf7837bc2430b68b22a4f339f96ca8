@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "056410a3_390e7b7f",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-03-20T10:56:18Z",
+      "side": 1,
+      "message": "general comment: Should we fuzz out these email addresses to mitigate spam? or maybe not mention them at all?",
+      "revId": "4396ac36e7cf7837bc2430b68b22a4f339f96ca8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "de39062e_5ac21315",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-03-20T10:56:18Z",
+      "side": 1,
+      "message": "nit: start with upper-case letters?",
+      "revId": "4396ac36e7cf7837bc2430b68b22a4f339f96ca8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
