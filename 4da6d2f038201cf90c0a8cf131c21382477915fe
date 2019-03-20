@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "af9e7089_310d6ddf",
+        "filename": "pages/site/kudos.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-03-20T16:25:46Z",
+      "side": 1,
+      "message": "I think I created 6 JGit releases to ship these fixes:\n5.2.1\t2018-12-26\n5.1.5\t2018-12-26\n4.11.6\t2018-12-24\n4.9.8\t2018-12-24\n4.7.7\t2018-12-24\n4.5.5\t2018-12-24\nsee https://projects.eclipse.org/projects/technology.jgit/governance\n\nI think 5 were consumed by public Gerrit releases, 4.11.6 was consumed by CollabNet\nhttps://gerrit-review.googlesource.com/q/status:merged+message:%2522upgrade+jgit+to%2522+topic:issue-10262",
+      "range": {
+        "startLine": 47,
+        "startChar": 20,
+        "endLine": 47,
+        "endChar": 35
+      },
+      "revId": "4da6d2f038201cf90c0a8cf131c21382477915fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d5b26186_645f104a",
+        "filename": "pages/site/kudos.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-03-20T16:25:46Z",
+      "side": 1,
+      "message": "* JGit fixes were implemented by Masaya Suzuki and Jonathan Nieder\n* JGit fixes were reviewed by Masaya, Jonathan Nieder, Jonathan Tan and me",
+      "revId": "4da6d2f038201cf90c0a8cf131c21382477915fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
