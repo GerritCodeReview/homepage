@@ -19,6 +19,70 @@
     },
     {
       "key": {
+        "uuid": "5eb123dd_7821f8ba",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-03-20T12:19:39Z",
+      "side": 1,
+      "message": "If we use commas to both separate the name from the email address and the separate different receivers from each other, it\u0027s a bit confusing to read.",
+      "range": {
+        "startLine": 192,
+        "startChar": 6,
+        "endLine": 192,
+        "endChar": 80
+      },
+      "revId": "4396ac36e7cf7837bc2430b68b22a4f339f96ca8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f9aa31d_13b7bb24",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-03-20T12:19:39Z",
+      "side": 1,
+      "message": "What if we omitted the email addresses completely?",
+      "parentUuid": "056410a3_390e7b7f",
+      "revId": "4396ac36e7cf7837bc2430b68b22a4f339f96ca8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e809dcf0_4b43693b",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-03-20T12:19:39Z",
+      "side": 1,
+      "message": "and",
+      "range": {
+        "startLine": 201,
+        "startChar": 46,
+        "endLine": 201,
+        "endChar": 47
+      },
+      "revId": "4396ac36e7cf7837bc2430b68b22a4f339f96ca8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "de39062e_5ac21315",
         "filename": "index.md",
         "patchSetId": 1
