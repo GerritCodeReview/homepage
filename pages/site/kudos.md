@@ -37,6 +37,50 @@ Note: Please add new kudos at the top of this list.
 
 ---
 
+**[2019-03-20] To: David Pursehouse (CollabNet); David Ostrovsky; Jonathan
+Nieder (Google), Jonathan Tan (Google), Luca Milanesio (GerritForge);
+Masaya Suzuki (Google), Matthias Sohn (SAP)**
+
+```
+  The Gerrit open source project had to deal with 2 severe security
+  vulnerabilities ([issue 10201](https://bugs.chromium.org/p/gerrit/issues/detail?id=10201),
+  [issue 10262](https://bugs.chromium.org/p/gerrit/issues/detail?id=10262) that
+  required patching 6 JGit releases and 8 Gerrit releases (2.9 to 2.16). David
+  Pursehouse, David Ostrovsky, Jonathan Nieder, Jonathan Tan, Luca Milanesio,
+  Masaya Suzuki and Matthias Sohn were extremely supportive to deal with the
+  situation. In particular they took care of:
+
+  * Reverting the problematic code in Gerrit (David Pursehouse)
+  * Implementing JGit fixes (Masaya Suzuki, Jonathan Nieder)
+  * Reviewing JGit fixes (Masaya Suzuki, Jonathan Nieder, Jonathan Tan, Matthias
+    Sohn)
+  * Preparing fixed JGit versions (Matthias Sohn)
+  * Making the fixed JGit versions available to Gerrit without breaking the
+    embargo (Matthias Sohn)
+  * Upgrading JGit for all affected Gerrit versions (David Ostrovsky)
+  * Fixing the CI build for Gerrit 2.9 (David Ostrovsky, Luca Milanesio)
+  * Writing release notes (David Pursehouse)
+  * Code reviews (David Pursehouse, David Ostrovsky, Luca Milanesio)
+  * Releasing fixed Gerrit 2.16 versions (David Pursehouse, Luca Milanesio)
+  * Releasing fixed Gerrit 2.15 version (David Pursehouse)
+  * Releasing fixed Gerrit 2.9 to 2.14 versions (Luca Milanesio)
+  * Announcing and documenting the vulnerabilities for the community
+    (David Pursehouse, Luca Milanesio)
+  * Collaboration on a post mortem (David Pursehouse, David Ostrovsky, Luca
+    Milanesio, Matthias Sohn)
+
+  This was an extraordinary collaboration across teams, projects, companies and
+  timezones and showed to the Gerrit community that the Gerrit project is taking
+  security seriously.
+
+  This engagement was especially remarkable since a lot of these actions
+  happened during Christmas/New Year.
+```
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2019-03-20] To: Luca Milanesio (GerritForge)**
 
 ```
