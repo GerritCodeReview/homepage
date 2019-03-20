@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e27d6ec9_370f961c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-03-20T10:49:34Z",
+      "side": 1,
+      "message": "nit: Kudos is singular",
+      "range": {
+        "startLine": 10,
+        "startChar": 50,
+        "endLine": 10,
+        "endChar": 53
+      },
+      "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0d99ca4d_772b6e4d",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-03-20T10:49:34Z",
+      "side": 1,
+      "message": "Should this go to a separate page? I think it will grow over time (if the plan is never to remove kudos)",
+      "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ba926d4d_e4880e60",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-03-20T10:49:34Z",
+      "side": 1,
+      "message": "Should we add a \"Date awarded\" or \"date given\" and define an ordering by recency?",
+      "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
