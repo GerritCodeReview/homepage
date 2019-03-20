@@ -60,6 +60,24 @@
     },
     {
       "key": {
+        "uuid": "42bf80ca_6dfebeb5",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-03-20T12:03:02Z",
+      "side": 1,
+      "message": "Hmm, I think the project homepage would be a better fit as those are recognition to contributions to the project that don\u0027t necessarily have to be shipped in the binary. (why would the end user care)",
+      "parentUuid": "a4422dc8_6a6bb893",
+      "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ba926d4d_e4880e60",
         "filename": "index.md",
         "patchSetId": 1
