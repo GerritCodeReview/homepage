@@ -189,6 +189,26 @@ Please add new kudos at the top of this list.
 
 ---
 
+**To: David Ostrovsky, david.ostrovsky@gmail.com**
+
+```
+  Since years David is taking care of our build tool chain and ensures that the
+  development setup to start working on Gerrit and Gerrit plugins is staying
+  smooth.
+
+  David was the main driver to adopt first Buck and than Bazel. Rewriting the
+  complete build tool chain multiple times was a large amount of work and
+  included tracing down and fixing many tricky issues that required
+  collaboration with the Buck and Bazel teams.
+
+  I'm happy that the Gerrit build always just works, but I know that this can't
+  be taken for granted. Thanks David for all your hard work on this.
+```
+
+From: Edwin Kempin, ekempin@google.com (Google)
+
+---
+
 **To: Shawn Pearce, sop@google.com (Google)**
 
 ```
