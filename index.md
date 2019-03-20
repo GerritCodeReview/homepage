@@ -159,3 +159,65 @@ for self-studying how Git and Gerrit work:
 * <a href="https://docs.google.com/presentation/d/1IQCRPHEIX-qKo7QFxsD3V62yhyGA9_5YsYXFOiBpgkk/edit?usp=sharing">Git explained: Git Concepts and Workflows</a>
 * <a href="https://docs.google.com/presentation/d/1C73UgQdzZDw0gzpaEqIC6SPujZJhqamyqO1XOHjH-uk/edit?usp=sharing">Gerrit explained: Gerrit Concepts and Workflows</a>
 
+## Kudos
+
+Gerrit is an open source project and its success much depends on the Gerrit
+community and the people driving it. Every day we see highly engaged and
+motivated contributors and kudos is a way for you to thank them and show your
+appreciation.
+
+Kudos is a public written thank you note of appreciation. These can be given by
+anyone to any Gerrit contributor and are public on the Gerrit homepage.
+
+Kudos can be given for doing a good job (e.g. fixing an important bug, helping
+someone resolving an issue, speaking at an event etc.) or living good
+citizenship behavior (e.g. doing lots of reviews, actively helping users on the
+mailing list, caring about releases, organizing community events, maintaining
+plugins etc.).
+
+### How to add kudos?
+
+Upload a change to the [homepage](https://gerrit-review.googlesource.com/admin/repos/homepage)
+project that adds the kudos to this page. If you don't know how to do this, just
+send an email to the [repo-discuss](https://groups.google.com/forum/#!pendingmsg/repo-discuss)
+mailing list that has a subject starting with '[kudos]' and a Gerrit maintainer
+will take care to upload the kudos for you.
+
+### List of kudos
+
+Please add new kudos at the top of this list.
+
+---
+
+**To: Shawn Pearce, sop@google.com (Google)**
+
+```
+  I want to thank Shawn for starting the Gerrit Code Review project and
+  fostering a great open source community around it.
+
+  Shawns passion and dedication are the source of our success. Shawn was an
+  outstanding engineer who shaped the long-term vision for our project. The
+  number of his contributions is beyond count, his guidance and deep technical
+  knowledge were exceptional and I'm truely thankful for all his reviews that
+  made me learn so much.
+```
+
+From: Edwin Kempin, ekempin@google.com (Google)
+
+---
+
+### Template
+
+```
+  ---
+
+  **To: <receiver-name>, <receiver-email> (<receiver-company>)**
+
+  ```
+    <kudos-text>
+  ```
+
+  From: <sender-name>, <sender-email> (<sender-company>)
+
+  ---
+```
