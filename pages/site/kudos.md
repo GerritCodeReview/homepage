@@ -37,6 +37,26 @@ Note: Please add new kudos at the top of this list.
 
 ---
 
+**[2019-03-20] To: Luca Milanesio, luca.milanesio@gmail.com (GerritForge)**
+
+```
+  Luca runs the [CI server](https://gerrit-ci.gerritforge.com) for the Gerrit
+  project. This supports the Gerrit development a lot because changes are
+  automatically verified and change authors get quick feedback on issues with
+  compilation, tests and formatting.
+
+  Luca did not only set up builds for Gerrit across all its branches, but also
+  for most of the Gerrit plugins. This makes the consumption of Gerrit plugins
+  much easier since users can simply download the jars of the plugins they need,
+  instead of building them themselves.
+
+  Thank you Luca!
+```
+
+From: Edwin Kempin, ekempin@google.com (Google)
+
+---
+
 **[2019-03-20] To: David Pursehouse, david.pursehouse@gmail.com (CollabNet)**
 
 ```
