@@ -40,6 +40,19 @@ Note: Please add new kudos at the top of this list.
 **[2019-03-20] To: Luca Milanesio (GerritForge)**
 
 ```
+  I want to thank Luca for setting up the
+  [analytics dashboard](https://analytics.gerrithub.io/kibana/app/kibana#/dashboards)
+  for Gerrit. This dashboard makes the community contributions transparent and I
+  always find it interesting to look at the various statistics.
+```
+
+From: Edwin Kempin (Google)
+
+---
+
+**[2019-03-20] To: Luca Milanesio (GerritForge)**
+
+```
   Luca runs the [CI server](https://gerrit-ci.gerritforge.com) for the Gerrit
   project. This supports the Gerrit development a lot because changes are
   automatically verified and change authors get quick feedback on issues with
