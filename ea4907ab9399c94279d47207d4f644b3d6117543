@@ -78,6 +78,70 @@
     },
     {
       "key": {
+        "uuid": "43e8b772_b31adc05",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-03-20T12:04:37Z",
+      "side": 1,
+      "message": "+1 to a separate page.",
+      "parentUuid": "0d99ca4d_772b6e4d",
+      "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b1704624_da93586d",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-03-20T12:04:37Z",
+      "side": 1,
+      "message": "resolve",
+      "range": {
+        "startLine": 173,
+        "startChar": 8,
+        "endLine": 173,
+        "endChar": 17
+      },
+      "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4d13328f_d015fd3d",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-03-20T12:04:37Z",
+      "side": 1,
+      "message": "Shawn\u0027s",
+      "range": {
+        "startLine": 198,
+        "startChar": 2,
+        "endLine": 198,
+        "endChar": 8
+      },
+      "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ba926d4d_e4880e60",
         "filename": "index.md",
         "patchSetId": 1
@@ -89,6 +153,24 @@
       "writtenOn": "2019-03-20T10:49:34Z",
       "side": 1,
       "message": "Should we add a \"Date awarded\" or \"date given\" and define an ordering by recency?",
+      "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "49bba71a_e1714b01",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-03-20T12:04:37Z",
+      "side": 1,
+      "message": "Line 188 says to add new kudos at the top. I agree that we should use that ordering.\n\nA date might be helpful indeed, especially if the kudos is for a one-time thing.",
+      "parentUuid": "ba926d4d_e4880e60",
       "revId": "ea4907ab9399c94279d47207d4f644b3d6117543",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
