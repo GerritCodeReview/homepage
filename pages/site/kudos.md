@@ -37,6 +37,21 @@ Note: Please add new kudos at the top of this list.
 
 ---
 
+**[2019-03-21] To: Gert van Dijk**
+
+```
+  I want to thank Gert for actively supporting users on the repo-discuss mailing
+  list [1]. Taking time to understand user issues and guide them to solutions is
+  highly appreciated. This work is especially important to make the onboarding
+  of new Gerrit users smooth.
+```
+
+[1] <https://groups.google.com/forum/#!forum/repo-discuss>
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2019-03-20] To: David Pursehouse (CollabNet); David Ostrovsky; Jonathan
 Nieder (Google), Jonathan Tan (Google), Luca Milanesio (GerritForge);
 Masaya Suzuki (Google), Matthias Sohn (SAP)**
