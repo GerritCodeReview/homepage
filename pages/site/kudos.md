@@ -27,7 +27,7 @@ etc.).
 
 Upload a change to the [homepage](https://gerrit-review.googlesource.com/admin/repos/homepage)
 project that adds the kudos to this page. If you don't know how to do this, just
-send an email to the [repo-discuss](https://groups.google.com/forum/#!pendingmsg/repo-discuss)
+send an email to the [repo-discuss](https://groups.google.com/forum/#!forum/repo-discuss)
 mailing list that has a subject starting with '[kudos]' and a Gerrit maintainer
 will take care to upload the kudos for you.
 
