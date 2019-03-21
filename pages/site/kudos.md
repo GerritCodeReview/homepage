@@ -58,12 +58,11 @@ Masaya Suzuki (Google), Matthias Sohn (SAP)**
 
 ```
   The Gerrit open source project had to deal with 2 severe security
-  vulnerabilities ([issue 10201](https://bugs.chromium.org/p/gerrit/issues/detail?id=10201),
-  [issue 10262](https://bugs.chromium.org/p/gerrit/issues/detail?id=10262) that
-  required patching 6 JGit releases and 8 Gerrit releases (2.9 to 2.16). David
-  Pursehouse, David Ostrovsky, Jonathan Nieder, Jonathan Tan, Luca Milanesio,
-  Masaya Suzuki and Matthias Sohn were extremely supportive to deal with the
-  situation. In particular they took care of:
+  vulnerabilities (issue 10201 [1], issue 10262 [2]) that required patching 6
+  JGit releases and 8 Gerrit releases (2.9 to 2.16). David Pursehouse, David
+  Ostrovsky, Jonathan Nieder, Jonathan Tan, Luca Milanesio, Masaya Suzuki and
+  Matthias Sohn were extremely supportive to deal with the situation. In
+  particular they took care of:
 
   * Reverting the problematic code in Gerrit (David Pursehouse)
   * Implementing JGit fixes (Masaya Suzuki, Jonathan Nieder)
@@ -92,18 +91,8 @@ Masaya Suzuki (Google), Matthias Sohn (SAP)**
   happened during Christmas/New Year.
 ```
 
-From: Edwin Kempin (Google)
-
----
-
-**[2019-03-20] To: Luca Milanesio (GerritForge)**
-
-```
-  I want to thank Luca for setting up the
-  [analytics dashboard](https://analytics.gerrithub.io/kibana/app/kibana#/dashboards)
-  for Gerrit. This dashboard makes the community contributions transparent and I
-  always find it interesting to look at the various statistics.
-```
+[1] <https://bugs.chromium.org/p/gerrit/issues/detail?id=10201><br>
+[2] <https://bugs.chromium.org/p/gerrit/issues/detail?id=10262>
 
 From: Edwin Kempin (Google)
 
@@ -112,10 +101,23 @@ From: Edwin Kempin (Google)
 **[2019-03-20] To: Luca Milanesio (GerritForge)**
 
 ```
-  Luca runs the [CI server](https://gerrit-ci.gerritforge.com) for the Gerrit
-  project. This supports the Gerrit development a lot because changes are
-  automatically verified and change authors get quick feedback on issues with
-  compilation, tests and formatting.
+  I want to thank Luca for setting up the analytics dashboard [1] for Gerrit.
+  This dashboard makes the community contributions transparent and I always find
+  it interesting to look at the various statistics.
+```
+
+[1] <https://analytics.gerrithub.io/kibana/app/kibana#/dashboards>
+
+From: Edwin Kempin (Google)
+
+---
+
+**[2019-03-20] To: Luca Milanesio (GerritForge)**
+
+```
+  Luca runs the CI server [1] for the Gerrit project. This supports the Gerrit
+  development a lot because changes are automatically verified and change
+  authors get quick feedback on issues with compilation, tests and formatting.
 
   Luca did not only set up builds for Gerrit across all its branches, but also
   for most of the Gerrit plugins. This makes the consumption of Gerrit plugins
@@ -124,6 +126,8 @@ From: Edwin Kempin (Google)
 
   Thank you Luca!
 ```
+
+[1] <https://gerrit-ci.gerritforge.com>
 
 From: Edwin Kempin (Google)
 
