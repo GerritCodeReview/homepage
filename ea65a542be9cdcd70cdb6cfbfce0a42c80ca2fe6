@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aac12d5_db90c191",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-04-15T01:03:59Z",
+      "side": 1,
+      "message": "Or 2.16.8",
+      "range": {
+        "startLine": 21,
+        "startChar": 26,
+        "endLine": 21,
+        "endChar": 34
+      },
+      "revId": "ea65a542be9cdcd70cdb6cfbfce0a42c80ca2fe6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1708f5dc_66b8801e",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-04-15T01:03:59Z",
+      "side": 1,
+      "message": "I\u0027d rather put this in a note in the table.  I\u0027ll rebase this change on top of my just uploaded change that introduces a notes column on the table.",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 89
+      },
+      "revId": "ea65a542be9cdcd70cdb6cfbfce0a42c80ca2fe6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
