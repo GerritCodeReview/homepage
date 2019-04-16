@@ -34,6 +34,24 @@
       "revId": "b7b04761a0faaac3ca0e72cf790691a1ef1167f2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cf0a4608_ec7b4a29",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-04-16T19:06:03Z",
+      "side": 1,
+      "message": "Not sure myself either, however we should have done something about it (if anything) -as we worked on those earlier. As for this specific instance, I\u0027d rather mention it now than assume users being aware of this by default. The above proposed note could serve as an awareness raising one in general.\n\nNow, this note focuses on the ES server-side (external) deployment. I.e., not on the Gerrit-internal Lucene one, as far as I understand this. The ES client which is within Gerrit is the low-level, REST one, that we forked to a minimal extent last year. Doing so allowed us to decouple ES versions supported from Lucene\u0027s in Gerrit, dependencies wise.",
+      "parentUuid": "5ca10572_14d5638c",
+      "revId": "b7b04761a0faaac3ca0e72cf790691a1ef1167f2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
