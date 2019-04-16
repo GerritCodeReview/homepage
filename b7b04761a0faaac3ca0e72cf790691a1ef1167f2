@@ -16,6 +16,24 @@
       "revId": "b7b04761a0faaac3ca0e72cf790691a1ef1167f2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5ca10572_14d5638c",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-04-16T01:10:28Z",
+      "side": 1,
+      "message": "I don\u0027t know if it\u0027s been explicitly mentioned for other ES releases.",
+      "parentUuid": "d18411f1_001c8659",
+      "revId": "b7b04761a0faaac3ca0e72cf790691a1ef1167f2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
