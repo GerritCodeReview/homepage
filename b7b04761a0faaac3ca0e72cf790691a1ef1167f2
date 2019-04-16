@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d18411f1_001c8659",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-04-16T01:07:18Z",
+      "side": 1,
+      "message": "This is not something new, is it? ES is based on the Lucene. And the index codec is only shipped for current and the previous version. So that I expect the same situation for ES 6, 7 and 8.",
+      "revId": "b7b04761a0faaac3ca0e72cf790691a1ef1167f2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
