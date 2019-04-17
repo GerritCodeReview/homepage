@@ -43,8 +43,15 @@ directory is not stored in the repository.
 
 1.  Navigate to the root of the homepage repository.
 1.  Type the following command:
-    
+
     ```
+    docker-compose up
+    ```
+1.  If that command fails, try these, with caution:
+
+    ```
+    docker-compose down && \
+    git clean -fdx && \
     docker-compose up
     ```
 
