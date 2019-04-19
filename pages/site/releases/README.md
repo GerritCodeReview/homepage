@@ -20,9 +20,10 @@ Latest release: **[2.16](/2.16.md)**.
 
 ## 3.0.0 *(release candidate)*
 
-* Removal of GWTUI.
+* The GWT UI is removed and PolyGerrit is now the only UI.
 
-* Removal of ReviewDB.
+* The database backend for changes, accounts, groups and projects ("ReviewDb") is
+removed and all metadata is now stored in git ("NoteDb").
 
 [Release notes for Gerrit 3.0](/3.0.md)
 
