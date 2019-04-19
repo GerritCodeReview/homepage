@@ -18,7 +18,7 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 
 Latest release: **[2.16](/2.16.md)**.
 
-## 3.0 *(In development)*
+## 3.0.0 *(release candidate)*
 
 * Removal of GWTUI.
 
