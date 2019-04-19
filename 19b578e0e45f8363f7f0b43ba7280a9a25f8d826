@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "05626fe3_03274756",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-04-19T23:30:56Z",
+      "side": 1,
+      "message": "We should mention though that some of the meta-data isn\u0027t in git but is still stored in H2 files.",
+      "range": {
+        "startLine": 18,
+        "startChar": 14,
+        "endLine": 18,
+        "endChar": 47
+      },
+      "revId": "19b578e0e45f8363f7f0b43ba7280a9a25f8d826",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
