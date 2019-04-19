@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f28dbe3d_2e8c0c54",
+        "filename": "pages/site/releases/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-04-19T23:29:29Z",
+      "side": 1,
+      "message": "Any reason for showing the 3rd digit, even if this isn\u0027t a patch-release?",
+      "range": {
+        "startLine": 21,
+        "startChar": 7,
+        "endLine": 21,
+        "endChar": 8
+      },
+      "revId": "7aad1738a8a86db99d3c969363a55f1777b01035",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
