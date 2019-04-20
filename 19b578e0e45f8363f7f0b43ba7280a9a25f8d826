@@ -46,6 +46,30 @@
       "revId": "19b578e0e45f8363f7f0b43ba7280a9a25f8d826",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "655035c6_087433c7",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-04-20T00:14:31Z",
+      "side": 1,
+      "message": "I was planning to add this in a follow up change.",
+      "parentUuid": "ab0b95ac_e9a18188",
+      "range": {
+        "startLine": 18,
+        "startChar": 14,
+        "endLine": 18,
+        "endChar": 47
+      },
+      "revId": "19b578e0e45f8363f7f0b43ba7280a9a25f8d826",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
