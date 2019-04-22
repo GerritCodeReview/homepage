@@ -25,6 +25,8 @@ Latest release: **[2.16](/2.16.md)**.
 * The database backend for changes, accounts, groups and projects ("ReviewDb") is
 removed and all metadata is now stored in git ("NoteDb").
 
+* Support for signed push with GPG subkeys.
+
 [Release notes for Gerrit 3.0](/3.0.md)
 
 ## 2.16
