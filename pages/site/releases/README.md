@@ -27,6 +27,8 @@ removed and all metadata is now stored in git ("NoteDb").
 
 * Support for signed push with GPG subkeys.
 
+* New core plugins: `delete-project`, `gitiles` and `webhooks`.
+
 [Release notes for Gerrit 3.0](/3.0.md)
 
 ## 2.16
