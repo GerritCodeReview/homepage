@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "576350a0_6b4732b4",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-04-22T01:40:28Z",
+      "side": 1,
+      "message": "Dependency on gwtorm was removed and only few used parts were moved into gerit core in: [1]. Move it to the section of deleted dependencies above.\n\n* [1] https://gerrit-review.googlesource.com/c/gerrit/+/220075",
+      "range": {
+        "startLine": 68,
+        "startChar": 2,
+        "endLine": 68,
+        "endChar": 24
+      },
+      "revId": "9da82d2215ce822ff4a36911ae38ac1899d7fccf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
