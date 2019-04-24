@@ -140,8 +140,8 @@ join the IRC channel <a href="https://echelog.com/logs/browse/gerrit/">#gerrit</
 check the questions tagged with <a href="https://stackoverflow.com/questions/tagged/gerrit">[gerrit]</a>
 on Stack Overflow.
 
-The repo-discuss mailing is managed to prevent spam posts. This means
-posts from new participants must be approved manually before they
+The repo-discuss mailing list is managed to prevent spam posts. This
+means posts from new participants must be approved manually before they
 appear on the mailing list. Approvals normally happen within 1 work
 day. Posts of people that participate in mailing list discussions
 frequently are approved automatically.
