@@ -146,6 +146,13 @@ appear on the mailing list. Approvals normally happen within 1 work
 day. Posts of people that participate in mailing list discussions
 frequently are approved automatically.
 
+## Events
+
+Events (e.g. user summits, hackathons) are announced on the
+<a href="https://groups.google.com/group/repo-discuss">repo-discuss</a>
+mailing list and can be found in the
+<a href"https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">community calendar</a>.
+
 ## Social Media
 
 Follow us on Twitter (<a href="https://twitter.com/gerritreview">@gerritreview</a>) and
