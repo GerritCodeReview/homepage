@@ -16,9 +16,9 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[2.16](/2.16.md)**.
+Latest release: **[3.0.0](/3.0.md)**.
 
-## 3.0.0 *(release candidate)*
+## 3.0.0
 
 * The GWT UI is removed and PolyGerrit is now the only UI.
 
