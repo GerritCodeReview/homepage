@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "68ca599f_e58a4e81",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-05-16T08:46:43Z",
+      "side": 1,
+      "message": ". See\n\nInconsistent double-spacing otherwise.",
+      "range": {
+        "startLine": 26,
+        "startChar": 43,
+        "endLine": 26,
+        "endChar": 49
+      },
+      "revId": "b141db88428d8e67ba8ce54809f422cecee07c51",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a1fc183e_610f8c83",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-05-16T08:46:43Z",
+      "side": 1,
+      "message": "Extra space. (Or inconsistent with above line 28.)",
+      "range": {
+        "startLine": 32,
+        "startChar": 2,
+        "endLine": 32,
+        "endChar": 3
+      },
+      "revId": "b141db88428d8e67ba8ce54809f422cecee07c51",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
