@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4045284d_d71b12db",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-05-16T15:20:47Z",
+      "side": 1,
+      "message": "This is introducing many problems, like moveiong to other companies and stopping contribution on gerrit, like multiple companies for the same contributors, unknown, etc. Why it is important information? If someone moving 42 times and is still gerrit maintainers, should we list 42 company names for the same maintainer?",
+      "range": {
+        "startLine": 9,
+        "startChar": 38,
+        "endLine": 9,
+        "endChar": 66
+      },
+      "revId": "406438ce25979a957c99335520d5766909845ba8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "485079d6_977e4a7d",
+        "filename": "pages/site/maintainers.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-05-16T15:20:47Z",
+      "side": 1,
+      "message": "Many your contribution was done @Sony. So may be say: Sony, CollabNet.",
+      "range": {
+        "startLine": 18,
+        "startChar": 26,
+        "endLine": 18,
+        "endChar": 35
+      },
+      "revId": "406438ce25979a957c99335520d5766909845ba8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "09d88fd4_2fb21c40",
+        "filename": "pages/site/maintainers.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-05-16T15:20:47Z",
+      "side": 1,
+      "message": "SAP funded tons of Edwin contribution. According to GerritForge analytics ca. 50% of Edwin\u0027s contribution was done as he was @SAP. May be say: SAP, Google.",
+      "range": {
+        "startLine": 19,
+        "startChar": 26,
+        "endLine": 19,
+        "endChar": 32
+      },
+      "revId": "406438ce25979a957c99335520d5766909845ba8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b7cd4fe5_4b7bccde",
+        "filename": "pages/site/maintainers.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-05-16T15:20:47Z",
+      "side": 1,
+      "message": "I don\u0027t know if it makes sense to make credit to any company, when \nmaintainers left their employers we should list the last company at the time when they were active: Ericsson. If they are moving further who is going to maintain this list?",
+      "range": {
+        "startLine": 21,
+        "startChar": 26,
+        "endLine": 21,
+        "endChar": 32
+      },
+      "revId": "406438ce25979a957c99335520d5766909845ba8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8b74c38d_547ecaf0",
+        "filename": "pages/site/maintainers.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-05-16T15:20:47Z",
+      "side": 1,
+      "message": "Logan Hanks, Google, is missing. Even if Logan left Google, we should name the company at the time when he was active.",
+      "revId": "406438ce25979a957c99335520d5766909845ba8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
