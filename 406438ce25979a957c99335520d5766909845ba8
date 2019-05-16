@@ -155,6 +155,23 @@
       "revId": "406438ce25979a957c99335520d5766909845ba8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6d15cc81_ced49962",
+        "filename": "pages/site/maintainers.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-05-16T15:35:28Z",
+      "side": 1,
+      "message": "I would add:\n\n  Companies that funded the development of Gerrit Code Review (in alphabetical order):\n  - Axis\n  - CollabNet\n  - Ericsson\n  - GerritForge\n  - Google\n  - Qualcomm\n  - SAP\n  - Sony\n  - Wikimedia Foundation\n  \n  Other minor contributions came from additional 160 companies around the world.",
+      "revId": "406438ce25979a957c99335520d5766909845ba8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
