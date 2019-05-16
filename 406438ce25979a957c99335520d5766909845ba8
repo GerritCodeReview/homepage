@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "a027984a_db887908",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-05-16T15:24:21Z",
+      "side": 1,
+      "message": "it is useful to make transparent whose interests each of the maintainers are currently representing. For historical information, we could link to analytics.",
+      "parentUuid": "4045284d_d71b12db",
+      "range": {
+        "startLine": 9,
+        "startChar": 38,
+        "endLine": 9,
+        "endChar": 66
+      },
+      "revId": "406438ce25979a957c99335520d5766909845ba8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "485079d6_977e4a7d",
         "filename": "pages/site/maintainers.md",
         "patchSetId": 3
