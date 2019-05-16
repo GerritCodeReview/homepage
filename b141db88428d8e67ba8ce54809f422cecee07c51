@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "a7cabf39_8a82e080",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-16T08:49:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "68ca599f_e58a4e81",
+      "range": {
+        "startLine": 26,
+        "startChar": 43,
+        "endLine": 26,
+        "endChar": 49
+      },
+      "revId": "b141db88428d8e67ba8ce54809f422cecee07c51",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a1fc183e_610f8c83",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "b141db88428d8e67ba8ce54809f422cecee07c51",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d8c5daca_d7a0970d",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-16T08:49:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a1fc183e_610f8c83",
+      "range": {
+        "startLine": 32,
+        "startChar": 2,
+        "endLine": 32,
+        "endChar": 3
+      },
+      "revId": "b141db88428d8e67ba8ce54809f422cecee07c51",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
