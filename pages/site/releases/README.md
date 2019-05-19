@@ -18,6 +18,10 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 
 Latest release: **[3.0.0](/3.0.md)**.
 
+## 3.1.0 (in development)
+
+[Release notes for Gerrit 3.1.0](/3.1.md)
+
 ## 3.0.0
 
 * The GWT UI is removed and PolyGerrit is now the only UI.
