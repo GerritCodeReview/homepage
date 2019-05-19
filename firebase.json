@@ -108,6 +108,11 @@
         "type": 301
       },
       {
+        "source": "/releases/3.1.md",
+        "destination": "/3.1.html",
+        "type": 301
+      },
+      {
         "source": "/releases/public-keys.md",
         "destination": "/public-keys.html",
         "type": 301
