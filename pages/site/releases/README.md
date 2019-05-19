@@ -31,7 +31,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 * New core plugins: `delete-project`, `gitiles`, `plugin-manager` and `webhooks`.
 
-[Release notes for Gerrit 3.0](/3.0.md)
+[Release notes for Gerrit 3.0.0](/3.0.md)
 
 ## 2.16
 
