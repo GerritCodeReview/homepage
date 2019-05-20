@@ -151,7 +151,7 @@ frequently are approved automatically.
 Events (e.g. user summits, hackathons) are announced on the
 <a href="https://groups.google.com/group/repo-discuss">repo-discuss</a>
 mailing list and can be found in the
-<a href"https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">community calendar</a>.
+<a href="https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">community calendar</a>.
 
 ## Social Media
 
