@@ -132,8 +132,8 @@ may still receive important fixes (e.g. security fixes), but there is
 no guarantee for this. Which fixes are backported to these old
 releases is decided on a case by case basis.
 
-End of life for old releases is not announced but happens implicitly
-when a new Gerrit version is released.
+End of life for old releases happens implicitly when a new Gerrit version
+is released, and is not necessarily announced.
 
 For questions write to the mailing list (<a href="https://groups.google.com/group/repo-discuss">repo-discuss on Google Groups</a>),
 join the IRC channel <a href="https://echelog.com/logs/browse/gerrit/">#gerrit</a>, or
