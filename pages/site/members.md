@@ -6,6 +6,22 @@ hide_navtoggle: true
 toc: false
 ---
 
+## Community Managers
+
+Gerrit community managers act as stakeholders for the Gerrit community
+and focus on the health of the community. For details about the role of
+community managers, refer to the
+[description here](https://gerrit-review.googlesource.com/Documentation/dev-roles.html#community-manager).
+
+Community Managers for the 2019 term are:
+
+| Name                  | Affiliation            |
+|-----------------------|------------------------|
+| Edwin Kempin          | Google                 |
+| Marco Miller          | Ericsson               |
+| Matthias Sohn         | SAP                    |
+
+
 ## Engineering Steering Committee
 
 The Gerrit project has an Engineering Steering Committee (ESC) that
