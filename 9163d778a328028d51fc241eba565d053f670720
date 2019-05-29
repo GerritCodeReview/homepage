@@ -22,6 +22,30 @@
       "revId": "9163d778a328028d51fc241eba565d053f670720",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "06373d11_d7381689",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T06:47:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "615cf8de_07e5a2d2",
+      "range": {
+        "startLine": 63,
+        "startChar": 80,
+        "endLine": 63,
+        "endChar": 81
+      },
+      "revId": "9163d778a328028d51fc241eba565d053f670720",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
