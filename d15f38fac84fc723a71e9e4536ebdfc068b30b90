@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bd021425_816196ab",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-05-29T07:31:22Z",
+      "side": 1,
+      "message": "Why don\u0027t we point to the reference policy we have in Gerrit (2 releases before the latest) on the home page?",
+      "range": {
+        "startLine": 15,
+        "startChar": 46,
+        "endLine": 15,
+        "endChar": 53
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "be47831a_72fb970d",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-05-29T07:31:22Z",
+      "side": 1,
+      "message": "If we do not build on the CI v2.13 or earlier, we won\u0027t be able to verify changes automatically. In case of security fixes, we\u0027ll have to fall back to manual verification.",
+      "range": {
+        "startLine": 26,
+        "startChar": 35,
+        "endLine": 26,
+        "endChar": 69
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df35d433_8eea5d69",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-05-29T07:31:22Z",
+      "side": 1,
+      "message": "Add a note to hyperlink https://gerrit-ci.gerritforge.com/",
+      "range": {
+        "startLine": 29,
+        "startChar": 46,
+        "endLine": 29,
+        "endChar": 48
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "355d2527_f2040616",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-05-29T07:31:22Z",
+      "side": 1,
+      "message": "Add a note to hyperlink https://archive-ci.gerritforge.com/",
+      "range": {
+        "startLine": 34,
+        "startChar": 31,
+        "endLine": 34,
+        "endChar": 38
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
