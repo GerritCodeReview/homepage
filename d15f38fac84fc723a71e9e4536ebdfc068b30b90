@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "8468ae7a_9912db27",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T08:24:25Z",
+      "side": 1,
+      "message": "how about sticking to the existing rule (last 2 releases are maintained) and only take explicit action by the ESC if we want to make an exception from this rule, e.g. continue maintaining 2.15 for half a year longer since step to noteDB is a big one",
+      "parentUuid": "79f50409_fdad7aea",
+      "range": {
+        "startLine": 15,
+        "startChar": 46,
+        "endLine": 15,
+        "endChar": 53
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "69fded48_20b79139",
         "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
         "patchSetId": 3
