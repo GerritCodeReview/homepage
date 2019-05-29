@@ -1,7 +1,7 @@
 ---
 title: Gerrit User Summit 2019, 29-30 Aug in Gothenburg (Sweden)
-tags: news, summit, hackathon
-keywords: news, summit, hackathon
+tags: news summit hackathon
+keywords: news summit hackathon
 permalink: 2019-02-27-user-summit-gothenburg.html
 summary: "The Gerrit Community, with the collaboration of Volvo Cars and GerritForge,
 is happy to announce the Gerrit User Summit & Hackathon 2019"

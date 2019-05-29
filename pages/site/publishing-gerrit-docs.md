@@ -183,8 +183,8 @@ To create a blog post:
     Where:
 
     +  `[TITLE]` is the title of the blog post
-    +  `[TAGS]` is an optional comma-delimited list of tags
-    +  `[KEYWORDS]` is an optional comma-delimited list of keywords
+    +  `[TAGS]` is an optional space-delimited list of tags
+    +  `[KEYWORDS]` is an optional space-delimited list of keywords
     +  `[FILENAME]` is the name of the file
     +  `[SUMMARY]` is a one- to two- sentence description of the post
 
