@@ -19,6 +19,41 @@
     },
     {
       "key": {
+        "uuid": "e610ee23_d2b90a64",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T07:33:38Z",
+      "side": 1,
+      "message": "yes, and we should give the details of the vote (nominated candidates, quorum, how many maintainers voted in favour of the proposal, abstained, rejected) and link to the notes of the corresponding discussion at the hackathon (https://docs.google.com/document/d/1XPRpJo-0rwg0D5ZBiO9l00_Nqkem5Htc6vk_iddYfZ0/)",
+      "parentUuid": "659a09ff_ee18878e",
+      "revId": "d02c040916e33a4953c601b67b471f06b7fd1a97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6806ff94_1afc6324",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T07:33:38Z",
+      "side": 1,
+      "message": "link to Luca\u0027s blog post\nhttps://gitenterprise.me/2019/05/20/gerrit-v3-0-is-here/\nand the first mentioning of Gerrit 3.0 in 2015\nhttps://groups.google.com/forum/#!searchin/repo-discuss/%22Gerrit$203.0%22%7Csort:date/repo-discuss/Zz8sEbsO36s/RKRrWF07CgAJ ?",
+      "revId": "d02c040916e33a4953c601b67b471f06b7fd1a97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c91ebf49_74354ba1",
         "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
         "patchSetId": 2
@@ -30,6 +65,30 @@
       "writtenOn": "2019-05-29T07:01:22Z",
       "side": 1,
       "message": "Should we add more detail here?  Or should we have a separate \"hackathon report\" follow up post?",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 78
+      },
+      "revId": "d02c040916e33a4953c601b67b471f06b7fd1a97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "93cc0f72_fcadb2ad",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T07:33:38Z",
+      "side": 1,
+      "message": "I\u0027d put additional details into a separate post",
+      "parentUuid": "c91ebf49_74354ba1",
       "range": {
         "startLine": 42,
         "startChar": 0,
