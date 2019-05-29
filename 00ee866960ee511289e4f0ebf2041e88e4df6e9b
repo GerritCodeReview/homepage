@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e92aa71a_e2a26b1b",
+        "filename": "_posts/2019-05-28-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T08:18:42Z",
+      "side": 1,
+      "message": "Can we add a rule to purge empty plugin repositories if they reach a certain age without seeing any activity ?\n\ne.g.\n\nhttps://gerrit.googlesource.com/plugins/approval-extension/\nwhich was mentioned as being empty back in 2012 in this post\nhttps://groups.google.com/forum/#!searchin/repo-discuss/approval-extension%7Csort:date/repo-discuss/by1XD-6pSMg/NSaHvwTjfxAJ\nand only has 2 abandoned changes\nhttps://gerrit-review.googlesource.com/q/project:plugins/approval-extension\n\nhttps://gerrit-review.googlesource.com/q/project:plugins/approver-annotator\nonly has 1 abandoned change\nhttps://gerrit-review.googlesource.com/q/project:plugins/approver-annotator\n\nhttps://gerrit.googlesource.com/plugins/auth-htpasswd/\nempty and no changes\nhttps://gerrit-review.googlesource.com/q/project:plugins/auth-htpasswd\n\nhttps://gerrit.googlesource.com/plugins/auto-topic/\nempty and 2 abandoned changes\nhttps://gerrit.googlesource.com/plugins/auto-topic/\n\nhttps://gerrit.googlesource.com/plugins/change-labels/\nempty and no changes\nhttps://gerrit-review.googlesource.com/q/project:plugins/change-labels\n\n...",
+      "revId": "00ee866960ee511289e4f0ebf2041e88e4df6e9b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c59686c_76846e83",
+        "filename": "_posts/2019-05-28-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T08:18:42Z",
+      "side": 1,
+      "message": "was this discussed with maintainers ?",
+      "revId": "00ee866960ee511289e4f0ebf2041e88e4df6e9b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
