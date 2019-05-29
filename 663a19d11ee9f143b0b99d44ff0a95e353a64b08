@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "7bbf4701_a26544ab",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T11:31:41Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "accd4316_ea4e3fdc",
+      "revId": "663a19d11ee9f143b0b99d44ff0a95e353a64b08",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff6a596d_ddc10872",
         "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
         "patchSetId": 4
@@ -102,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "3a68e6e5_0cf856dd",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T11:31:41Z",
+      "side": 1,
+      "message": "ok, looking at the list of maintainers [1] there are 7 maintainers who are not employed by Google.\nOut of these 7 all except Hugo and Martin were present in the discussion during the hackathon.\nAFAIR those present were all in favour of the proposed candidates.\n\n[1] https://gerrit.googlesource.com/homepage/+/refs/changes/92/225992/4/pages/site/members.md#maintainers",
+      "parentUuid": "e5b8e74c_02c37372",
+      "range": {
+        "startLine": 52,
+        "startChar": 19,
+        "endLine": 52,
+        "endChar": 72
+      },
+      "revId": "663a19d11ee9f143b0b99d44ff0a95e353a64b08",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9d3cb92b_5c4671c8",
         "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
         "patchSetId": 4
@@ -134,6 +176,24 @@
       "revId": "663a19d11ee9f143b0b99d44ff0a95e353a64b08",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3cc2734b_053ada30",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-05-29T11:31:41Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "48a00a94_79246d41",
+      "revId": "663a19d11ee9f143b0b99d44ff0a95e353a64b08",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
