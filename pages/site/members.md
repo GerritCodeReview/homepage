@@ -31,31 +31,31 @@ to the
 
 Current maintainers are:
 
-| Name                  |
-|-----------------------|
-| Alice Kober-Sotzek    |
-| Becky Siegel          |
-| Ben Rohlfs            |
-| Dave Borowitz         |
-| David Ostrovsky       |
-| David Pursehouse      |
-| Edwin Kempin          |
-| Han-Wen Nienhuys      |
-| Hugo Arès             |
-| Luca Milanesio        |
-| Marco Miller          |
-| Martin Fick           |
-| Ole Rehmsen           |
-| Patrick Hiesel        |
-| Saša Živkov           |
-| Viktar Donich         |
-| Wyatt Allen           |
+| Name                  | Affiliation                |
+|-----------------------|----------------------------|
+| Alice Kober-Sotzek    | Google                     |
+| Becky Siegel          | Google                     |
+| Ben Rohlfs            | Google                     |
+| Dave Borowitz         | Google                     |
+| David Ostrovsky       | Independent                |
+| David Pursehouse      | CollabNet (formerly Sony)  |
+| Edwin Kempin          | Google (formerly SAP)      |
+| Han-Wen Nienhuys      | Google                     |
+| Hugo Arès             | Kaloom (formerly Ericsson) |
+| Luca Milanesio        | GerritForge                |
+| Marco Miller          | Ericsson                   |
+| Martin Fick           | Qualcomm                   |
+| Ole Rehmsen           | Google                     |
+| Patrick Hiesel        | Google                     |
+| Saša Živkov           | SAP                        |
+| Viktar Donich         | Google                     |
+| Wyatt Allen           | Google                     |
 
 ## Former maintainers
 
-| Name                  |
-|-----------------------|
-| Andrew Bonventre      |
-| Kasper Nilsson        |
-| Logan Hanks           |
-| Shawn Pearce          |
+| Name                  | Affiliation                |
+|-----------------------|----------------------------|
+| Andrew Bonventre      | Google                     |
+| Kasper Nilsson        | Google                     |
+| Logan Hanks           | Google                     |
+| Shawn Pearce          | Google                     |
