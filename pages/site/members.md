@@ -8,7 +8,11 @@ toc: false
 
 ## Engineering Steering Committee
 
-Members of the Engineering Steering Committee (ESC) for the 2019 term are:
+The Gerrit project has an Engineering Steering Committee (ESC) that
+governs the project. For details about the role of the ESC, refer to the
+[description here](https://gerrit-review.googlesource.com/Documentation/dev-processes.html#steering-committee).
+
+Members of the ESC for the 2019 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
@@ -19,6 +23,11 @@ Members of the Engineering Steering Committee (ESC) for the 2019 term are:
 | Patrick Hiesel        | Google                 |
 
 ## Maintainers
+
+Maintainers are the gatekeepers of the project and are in charge of approving
+and submitting changes. For more details about the role of maintainers, refer
+to the
+[description here](https://gerrit-review.googlesource.com/Documentation/dev-roles.html#maintainer).
 
 Current maintainers are:
 
