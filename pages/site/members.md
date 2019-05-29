@@ -10,7 +10,7 @@ toc: false
 
 Members of the Engineering Steering Committee (ESC) for the 2019 term are:
 
-| Name                  | Company                |
+| Name                  | Affiliation            |
 |-----------------------|------------------------|
 | Alice Kober-Sotzek    | Google                 |
 | Ben Rohlfs            | Google                 |
