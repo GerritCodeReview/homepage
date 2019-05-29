@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "accd4316_ea4e3fdc",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T09:47:41Z",
+      "side": 1,
+      "message": "There wasn\u0027t a vote on the maintainers list as far as I remember. The vote was done on Edwin\u0027s changes. The one with the concerns is linked below.\n\nI\u0027m not sure how much value it adds to mention numbers. Anyone who is interested can look at the linked changes.",
+      "parentUuid": "f5f2ece8_6961b4ad",
+      "revId": "663a19d11ee9f143b0b99d44ff0a95e353a64b08",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ff6a596d_ddc10872",
         "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
         "patchSetId": 4
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "e5b8e74c_02c37372",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T09:47:41Z",
+      "side": 1,
+      "message": "IIRC the votes was done by raising hands in the hackathon room. I can\u0027t find any mail thread apart from the initial nomination by David Ostrovsky and a couple of replies.",
+      "parentUuid": "ff6a596d_ddc10872",
+      "range": {
+        "startLine": 52,
+        "startChar": 19,
+        "endLine": 52,
+        "endChar": 72
+      },
+      "revId": "663a19d11ee9f143b0b99d44ff0a95e353a64b08",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9d3cb92b_5c4671c8",
         "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
         "patchSetId": 4
@@ -53,6 +95,24 @@
       "writtenOn": "2019-05-29T08:37:08Z",
       "side": 1,
       "message": "was there a vote on the maintainers list (I have no read access) ?",
+      "revId": "663a19d11ee9f143b0b99d44ff0a95e353a64b08",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "48a00a94_79246d41",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T09:47:41Z",
+      "side": 1,
+      "message": "The nomination of you by Sasa was on the maintainers list, followed by Marco\u0027s self nomination and the announcement of the trio all in the same thread. There wasn\u0027t a vote per se, but some people replied with +1",
+      "parentUuid": "9d3cb92b_5c4671c8",
       "revId": "663a19d11ee9f143b0b99d44ff0a95e353a64b08",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
