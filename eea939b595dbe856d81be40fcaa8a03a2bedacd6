@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "0b65852d_4d15c1c2",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T14:21:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dfc080d5_e9070d9e",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 10
+      },
+      "revId": "eea939b595dbe856d81be40fcaa8a03a2bedacd6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "80ad4663_8cb5a319",
         "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
         "patchSetId": 5
@@ -119,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "9413953d_2e5afd86",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T14:21:18Z",
+      "side": 1,
+      "message": "I\u0027ve reworded the whole section.",
+      "parentUuid": "80ad4663_8cb5a319",
+      "range": {
+        "startLine": 35,
+        "startChar": 39,
+        "endLine": 35,
+        "endChar": 55
+      },
+      "revId": "eea939b595dbe856d81be40fcaa8a03a2bedacd6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "23fb3b1b_9064d7be",
         "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
         "patchSetId": 5
@@ -139,6 +187,30 @@
       "revId": "eea939b595dbe856d81be40fcaa8a03a2bedacd6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "26085289_928c73aa",
+        "filename": "_posts/2019-05-18-gerrit-news-apr-may-2019.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T14:21:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "23fb3b1b_9064d7be",
+      "range": {
+        "startLine": 36,
+        "startChar": 36,
+        "endLine": 36,
+        "endChar": 42
+      },
+      "revId": "eea939b595dbe856d81be40fcaa8a03a2bedacd6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
