@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "b8e67a6e_924c4f7b",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T12:08:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "308206a2_22c081a3",
+      "range": {
+        "startLine": 15,
+        "startChar": 46,
+        "endLine": 15,
+        "endChar": 53
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "69fded48_20b79139",
         "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
         "patchSetId": 3
@@ -117,6 +141,30 @@
       "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8c824e43_2c338466",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T12:08:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "69fded48_20b79139",
+      "range": {
+        "startLine": 19,
+        "startChar": 68,
+        "endLine": 19,
+        "endChar": 69
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -143,6 +191,30 @@
     },
     {
       "key": {
+        "uuid": "61e9813e_f202a5a6",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T12:08:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9167bd4_cdb7b472",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 17
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "be47831a_72fb970d",
         "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
         "patchSetId": 3
@@ -154,6 +226,30 @@
       "writtenOn": "2019-05-29T07:31:22Z",
       "side": 1,
       "message": "If we do not build on the CI v2.13 or earlier, we won\u0027t be able to verify changes automatically. In case of security fixes, we\u0027ll have to fall back to manual verification.",
+      "range": {
+        "startLine": 26,
+        "startChar": 35,
+        "endLine": 26,
+        "endChar": 69
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c51af20_f0a48bd7",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T12:08:33Z",
+      "side": 1,
+      "message": "Shall we then say we don\u0027t even make security releases for 2.13 and earlier?",
+      "parentUuid": "be47831a_72fb970d",
       "range": {
         "startLine": 26,
         "startChar": 35,
@@ -189,6 +285,30 @@
     },
     {
       "key": {
+        "uuid": "2d03e535_9641e4e9",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T12:08:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df35d433_8eea5d69",
+      "range": {
+        "startLine": 29,
+        "startChar": 46,
+        "endLine": 29,
+        "endChar": 48
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "79db242d_7a19c4ed",
         "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
         "patchSetId": 3
@@ -209,6 +329,30 @@
       "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cf699371_73b0a6fb",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-05-29T12:08:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "79db242d_7a19c4ed",
+      "range": {
+        "startLine": 29,
+        "startChar": 60,
+        "endLine": 30,
+        "endChar": 48
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
