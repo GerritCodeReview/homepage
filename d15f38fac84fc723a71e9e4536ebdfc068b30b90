@@ -25,6 +25,52 @@
     },
     {
       "key": {
+        "uuid": "69fded48_20b79139",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-05-29T07:31:46Z",
+      "side": 1,
+      "message": "releases? \na new release?\n\nor maybe just\n\nand released?",
+      "range": {
+        "startLine": 19,
+        "startChar": 68,
+        "endLine": 19,
+        "endChar": 69
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b9167bd4_cdb7b472",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-05-29T07:31:46Z",
+      "side": 1,
+      "message": "the volume of changes?",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 17
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "be47831a_72fb970d",
         "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
         "patchSetId": 3
@@ -63,6 +109,29 @@
         "startLine": 29,
         "startChar": 46,
         "endLine": 29,
+        "endChar": 48
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "79db242d_7a19c4ed",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-05-29T07:31:46Z",
+      "side": 1,
+      "message": "there will be? \n\nor \n\nbut core maintainers will not put extra effort into keeping the builds working?",
+      "range": {
+        "startLine": 29,
+        "startChar": 60,
+        "endLine": 30,
         "endChar": 48
       },
       "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
