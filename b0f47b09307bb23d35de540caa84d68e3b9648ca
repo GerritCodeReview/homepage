@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7afccce8_3edf5b3c",
+        "filename": "_posts/2019-05-31-gerrit-end-of-life-update.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-05-29T13:10:55Z",
+      "side": 1,
+      "message": "maintenance",
+      "range": {
+        "startLine": 17,
+        "startChar": 33,
+        "endLine": 17,
+        "endChar": 44
+      },
+      "revId": "b0f47b09307bb23d35de540caa84d68e3b9648ca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7069840b_4b21e747",
+        "filename": "_posts/2019-05-31-gerrit-end-of-life-update.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-05-29T13:10:55Z",
+      "side": 1,
+      "message": "maintainers.",
+      "range": {
+        "startLine": 33,
+        "startChar": 50,
+        "endLine": 33,
+        "endChar": 61
+      },
+      "revId": "b0f47b09307bb23d35de540caa84d68e3b9648ca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
