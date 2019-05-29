@@ -1,12 +1,26 @@
 ---
-title: "Gerrit Code Review Maintainers"
-permalink: maintainers.html
+title: "Gerrit Code Review - Project Members"
+permalink: members.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false
 ---
 
-Current maintainers:
+## Engineering Steering Committee
+
+Members of the Engineering Steering Committee (ESC) for the 2019 term are:
+
+| Name                  | Company                |
+|-----------------------|------------------------|
+| Alice Kober-Sotzek    | Google                 |
+| Ben Rohlfs            | Google                 |
+| David Pursehouse      | CollabNet              |
+| Luca Milanesio        | GerritForge            |
+| Patrick Hiesel        | Google                 |
+
+## Maintainers
+
+Current maintainers are:
 
 | Name                  |
 |-----------------------|
@@ -28,7 +42,7 @@ Current maintainers:
 | Viktar Donich         |
 | Wyatt Allen           |
 
-Historical maintainers:
+## Former maintainers
 
 | Name                  |
 |-----------------------|
