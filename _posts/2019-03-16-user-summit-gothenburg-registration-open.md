@@ -1,7 +1,7 @@
 ---
 title: Gerrit User Summit 2019 Registration is Open
-tags: news, summit, hackathon
-keywords: news, summit, hackathon
+tags: news summit hackathon
+keywords: news summit hackathon
 permalink: 2019-02-27-user-summit-gothenburg-registration-open.html
 summary: "Registration for the Gerrit User Summit 2019 is now open"
 hide_sidebar: true
