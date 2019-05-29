@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "79f50409_fdad7aea",
+        "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-05-29T07:48:27Z",
+      "side": 1,
+      "message": "I think if we make this announcement, we must update our current policy for supporting old releases [1]. At [1] we say that only the last 2 releases are supported and that EOL is not announced but happens implicitly. I\u0027m fine with changing this, but then we should update the information on the homepgae, otherwise we have a contradiction:\n\n- homepage says that only the last 2 releases are supported (3.0 + 2.16), hence 2.15 and earlier has reached EOL\n- the news say 2.14 and earlier has reached EOL, which implicitly means that 2.15 is still supported. It also creates the expectation that EOL for other branches will also be announced in the future\n\n[1] https://www.gerritcodereview.com/#support",
+      "parentUuid": "bd021425_816196ab",
+      "range": {
+        "startLine": 15,
+        "startChar": 46,
+        "endLine": 15,
+        "endChar": 53
+      },
+      "revId": "d15f38fac84fc723a71e9e4536ebdfc068b30b90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "69fded48_20b79139",
         "filename": "_posts/2019-05-31-gerrit-2-14-end-of-life.md",
         "patchSetId": 3
