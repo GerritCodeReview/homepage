@@ -162,7 +162,10 @@ To create a blog post:
 
         YYYY-MM-DD-[permalink].md
 
-    Where `[permalink]` is a descriptive name of the file.
+    Where `[permalink]` is a descriptive name of the file and `YYYY-MM-DD` is
+    the date that will be shown on the post. Posts will be listed on the index
+    in chronological order; posts with a date in the future will not be rendered
+    or appear in the index until that date.
 
 1.  Add the following to the top of the blog post:
 
@@ -185,7 +188,13 @@ To create a blog post:
     +  `[FILENAME]` is the name of the file
     +  `[SUMMARY]` is a one- to two- sentence description of the post
 
-1.  Save the new post in the `_posts` directory.
+1.  Save the post in the `_posts` directory or the `_drafts` directory.
+
+    For posts to be published immediately, save the new file in the `_posts` directory.
+
+    For posts that are still work in progress, or to be written iteratively by
+    multiple authors across several commits, save the new file in the `_drafts`
+    directory. When the post is complete, move the file into the `_posts` directory.
 
 1.  Save any images in the top-level `images` directory.
 
