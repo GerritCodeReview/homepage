@@ -155,8 +155,7 @@ mailing list and can be found in the
 
 ## Social Media
 
-Follow us on Twitter (<a href="https://twitter.com/gerritreview">@gerritreview</a>) and
-<a href="https://plus.google.com/communities/111271594706618791655">Google+</a>.
+Follow us on Twitter (<a href="https://twitter.com/gerritreview">@gerritreview</a>).
 
 ## Training Slides
 
