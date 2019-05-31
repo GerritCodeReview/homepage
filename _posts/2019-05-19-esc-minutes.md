@@ -1,5 +1,5 @@
 ---
-title: Gerrit ESC Minutes - 16 May 2019
+title: "Gerrit ESC Meeting #1 Minutes"
 tags: news
 keywords: news
 permalink: 2019-05-19-esc-minutes.html
