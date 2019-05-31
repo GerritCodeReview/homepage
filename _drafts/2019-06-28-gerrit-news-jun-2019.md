@@ -1,5 +1,5 @@
 ---
-title: Gerrit Project News June 2019
+title: "Gerrit Project News #3: June 2019"
 tags: news
 keywords: news
 permalink: 2019-06-28-gerrit-news-jun-2019.html

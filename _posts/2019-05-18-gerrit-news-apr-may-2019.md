@@ -1,5 +1,5 @@
 ---
-title: Gerrit Project News April-May 2019
+title: "Gerrit Project News #2: April-May 2019"
 tags: news
 keywords: news
 permalink: 2019-05-18-gerrit-news-apr-may-2019.html

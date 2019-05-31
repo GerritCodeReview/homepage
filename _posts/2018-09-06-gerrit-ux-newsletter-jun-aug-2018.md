@@ -1,5 +1,5 @@
 ---
-title: Gerrit UX Newsletter Jun-Aug 2018
+title: "Gerrit Project News #1: June-August 2018"
 tags: ux
 keywords: ux
 permalink: 2018-09-06-gerrit-ux-newsletter-jun-aug-2018.html
