@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "91ac9052_71b2d684",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-05T01:51:21Z",
+      "side": 1,
+      "message": "This should also be added in the \"new features\" section below, but that can be done in a follow up change.",
+      "revId": "32a0d5ce06d7935e9fe6d313e28640b15b68d4a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "222bf219_2f7c514a",
         "filename": "pages/site/releases/3.1.md",
         "patchSetId": 1
@@ -22,6 +39,30 @@
       "revId": "32a0d5ce06d7935e9fe6d313e28640b15b68d4a6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f32ab855_e0fde65e",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-05T01:51:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "222bf219_2f7c514a",
+      "range": {
+        "startLine": 15,
+        "startChar": 32,
+        "endLine": 15,
+        "endChar": 41
+      },
+      "revId": "32a0d5ce06d7935e9fe6d313e28640b15b68d4a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
