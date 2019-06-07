@@ -65,7 +65,6 @@ Current maintainers are:
 | Patrick Hiesel        | Google                     |
 | Saša Živkov           | SAP                        |
 | Viktar Donich         | Google                     |
-| Wyatt Allen           | Google                     |
 
 ## Former maintainers
 
@@ -75,3 +74,4 @@ Current maintainers are:
 | Kasper Nilsson        | Google                     |
 | Logan Hanks           | Google                     |
 | Shawn Pearce          | Google                     |
+| Wyatt Allen           | Google                     |
