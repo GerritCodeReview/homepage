@@ -78,7 +78,7 @@ The next meeting will be held on June 25, 12:30 CEST.
 
   Wyatt agreed to step down as maintainer, but will keep in touch with the project.
 
-  Viktar and Becky remain maintainers. Vikar is still involved in plugin reviews, and
+  Viktar and Becky remain maintainers. Viktar is still involved in plugin reviews, and
   will attend the user summit in Gothenburg. Becky would like to remain in touch with
   the project and will look for ways to contribute in future.
 
