@@ -46,6 +46,30 @@
       "revId": "53e74eeba976826cb48f3ca661eb6d96ad082cec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b8542f05_00be7656",
+        "filename": "_posts/2019-06-11-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-06-12T07:54:02Z",
+      "side": 1,
+      "message": "Suggestion:\n\nWe are aware that Gerrit/JGit with Java 8 can run into memory issues in specific setups and think that upgrading to Java 11 could help. Even though we can\u0027t upgrade immediately, it\u0027s one of the items we intend to put on our roadmap.",
+      "parentUuid": "cdec6efc_805fedb5",
+      "range": {
+        "startLine": 73,
+        "startChar": 2,
+        "endLine": 73,
+        "endChar": 6
+      },
+      "revId": "53e74eeba976826cb48f3ca661eb6d96ad082cec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
