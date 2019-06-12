@@ -22,6 +22,30 @@
       "revId": "53e74eeba976826cb48f3ca661eb6d96ad082cec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cdec6efc_805fedb5",
+        "filename": "_posts/2019-06-11-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-12T07:41:09Z",
+      "side": 1,
+      "message": "I put TODO here because I couldn\u0027t come up with a nice summary of the discussion, i.e. what\u0027s the problem and why we need to move forward from java 8.",
+      "parentUuid": "9896022c_87dc3ebd",
+      "range": {
+        "startLine": 73,
+        "startChar": 2,
+        "endLine": 73,
+        "endChar": 6
+      },
+      "revId": "53e74eeba976826cb48f3ca661eb6d96ad082cec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
