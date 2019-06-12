@@ -94,5 +94,5 @@ The next meeting will be held on June 25, 12:30 CEST.
 
 * New releases
 
-  Version 2.15.14 will be released this week; 2.16.8 and 3.0.1 will follow later,
+  Version 2.15.14 will be released this week; 2.16.9 and 3.0.1 will follow later,
   but no specific date is decided yet.
