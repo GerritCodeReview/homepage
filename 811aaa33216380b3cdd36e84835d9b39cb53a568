@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dceda312_a9e9ae77",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-17T23:32:06Z",
+      "side": 1,
+      "message": "For recent releases we haven\u0027t been doing this, instead we explicitly list all the fixes.",
+      "range": {
+        "startLine": 548,
+        "startChar": 0,
+        "endLine": 548,
+        "endChar": 99
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1ca139ed_6ce2421f",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 559,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-17T23:32:06Z",
+      "side": 1,
+      "message": "missing colon",
+      "range": {
+        "startLine": 559,
+        "startChar": 72,
+        "endLine": 559,
+        "endChar": 74
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5d7defbb_81cd33b7",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 560,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-17T23:32:06Z",
+      "side": 1,
+      "message": "Change to \"Fix duplicate key detection when using MySQL for the patch review store\"?",
+      "range": {
+        "startLine": 560,
+        "startChar": 2,
+        "endLine": 560,
+        "endChar": 51
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7ad4213f_9e233164",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 563,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-17T23:32:06Z",
+      "side": 1,
+      "message": "correctly detect",
+      "range": {
+        "startLine": 563,
+        "startChar": 2,
+        "endLine": 563,
+        "endChar": 19
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ffbf5840_cf07243c",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-17T23:32:06Z",
+      "side": 1,
+      "message": "Why is this indentation changed?",
+      "range": {
+        "startLine": 576,
+        "startChar": 2,
+        "endLine": 576,
+        "endChar": 4
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
