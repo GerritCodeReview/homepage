@@ -15,4 +15,4 @@ documents can be found in Gerrit by using the link inside each doc.
 
 ## List of Design Documents
 
-None :-)
+*) [Revamp External ID Storage](./design-docs-revamp-external-id-storage-doc.html)
