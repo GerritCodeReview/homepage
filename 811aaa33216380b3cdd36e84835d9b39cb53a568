@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "b8967534_d8bcb6cc",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-06-18T05:51:43Z",
+      "side": 1,
+      "message": "Cool, let me go through the v2.15.14 release notes and see what\u0027s applicable.",
+      "parentUuid": "dceda312_a9e9ae77",
+      "range": {
+        "startLine": 548,
+        "startChar": 0,
+        "endLine": 548,
+        "endChar": 99
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1ca139ed_6ce2421f",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 3
@@ -45,6 +69,30 @@
       "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9dfc529c_23a56cde",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 559,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-06-18T05:51:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ca139ed_6ce2421f",
+      "range": {
+        "startLine": 559,
+        "startChar": 72,
+        "endLine": 559,
+        "endChar": 74
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "2dc6e6de_af6d3a77",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 560,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-06-18T05:51:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d7defbb_81cd33b7",
+      "range": {
+        "startLine": 560,
+        "startChar": 2,
+        "endLine": 560,
+        "endChar": 51
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7ad4213f_9e233164",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 3
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "2c485708_08f3bf03",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 563,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-06-18T05:51:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7ad4213f_9e233164",
+      "range": {
+        "startLine": 563,
+        "startChar": 2,
+        "endLine": 563,
+        "endChar": 19
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffbf5840_cf07243c",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 3
@@ -105,6 +201,30 @@
       "writtenOn": "2019-06-17T23:32:06Z",
       "side": 1,
       "message": "Why is this indentation changed?",
+      "range": {
+        "startLine": 576,
+        "startChar": 2,
+        "endLine": 576,
+        "endChar": 4
+      },
+      "revId": "811aaa33216380b3cdd36e84835d9b39cb53a568",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e882c8a9_1f6a9c40",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-06-18T05:51:43Z",
+      "side": 1,
+      "message": "I believe that extra space gets ignored in Markdown. It\u0027s just for visual order and general bullet points alignment but has no special meaning.",
+      "parentUuid": "ffbf5840_cf07243c",
       "range": {
         "startLine": 576,
         "startChar": 2,
