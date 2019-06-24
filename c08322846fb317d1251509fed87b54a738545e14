@@ -22,6 +22,30 @@
       "revId": "c08322846fb317d1251509fed87b54a738545e14",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5cc78671_a2df31f4",
+        "filename": "_posts/2019-06-05-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-06-24T23:39:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0db23bd8_2a00100a",
+      "range": {
+        "startLine": 14,
+        "startChar": 6,
+        "endLine": 14,
+        "endChar": 28
+      },
+      "revId": "c08322846fb317d1251509fed87b54a738545e14",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
