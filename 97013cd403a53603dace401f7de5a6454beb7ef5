@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a6d34a27_79b2ee7d",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 551,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-06-26T11:53:13Z",
+      "side": 1,
+      "message": "This was already included in 2.15, isnt\u0027t?",
+      "range": {
+        "startLine": 550,
+        "startChar": 0,
+        "endLine": 551,
+        "endChar": 59
+      },
+      "revId": "97013cd403a53603dace401f7de5a6454beb7ef5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a52ea7c_824d2f55",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-06-26T11:53:13Z",
+      "side": 1,
+      "message": "issues",
+      "range": {
+        "startLine": 596,
+        "startChar": 17,
+        "endLine": 596,
+        "endChar": 23
+      },
+      "revId": "97013cd403a53603dace401f7de5a6454beb7ef5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
