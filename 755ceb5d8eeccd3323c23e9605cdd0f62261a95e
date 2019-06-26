@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "0a4fbaa1_4344699a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-26T14:27:45Z",
+      "side": 1,
+      "message": "Good point.  I\u0027ll do this as a follow up for this and 2.15.15 to avoid also rebasing the following change.",
+      "parentUuid": "48489d1b_e760b7a4",
+      "revId": "755ceb5d8eeccd3323c23e9605cdd0f62261a95e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "afbd89b0_e0866b44",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "133c1f08_bb223d10",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 612,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-26T14:27:45Z",
+      "side": 1,
+      "message": "No.",
+      "parentUuid": "afbd89b0_e0866b44",
+      "revId": "755ceb5d8eeccd3323c23e9605cdd0f62261a95e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c7d05c6f_b643cc65",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2019-06-26T14:25:59Z",
       "side": 1,
       "message": "Link to documentation?",
+      "revId": "755ceb5d8eeccd3323c23e9605cdd0f62261a95e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "34ae1006_ed29d1a5",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 616,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-26T14:27:45Z",
+      "side": 1,
+      "message": "Documentation isn\u0027t deployed yet.",
+      "parentUuid": "c7d05c6f_b643cc65",
       "revId": "755ceb5d8eeccd3323c23e9605cdd0f62261a95e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
