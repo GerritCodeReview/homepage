@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "2e68d232_dedec21e",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 551,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-26T12:24:55Z",
+      "side": 1,
+      "message": "As were the other changes listed below. We still list them explicitly.",
+      "parentUuid": "a6d34a27_79b2ee7d",
+      "range": {
+        "startLine": 550,
+        "startChar": 0,
+        "endLine": 551,
+        "endChar": 59
+      },
+      "revId": "97013cd403a53603dace401f7de5a6454beb7ef5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7a52ea7c_824d2f55",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "97013cd403a53603dace401f7de5a6454beb7ef5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c525b4c_29a30807",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-06-26T12:24:55Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7a52ea7c_824d2f55",
+      "range": {
+        "startLine": 596,
+        "startChar": 17,
+        "endLine": 596,
+        "endChar": 23
+      },
+      "revId": "97013cd403a53603dace401f7de5a6454beb7ef5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
