@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "67746202_943acb6e",
+        "filename": "_posts/2019-06-25-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-06-27T15:54:45Z",
+      "side": 1,
+      "message": "Considering the linked bug, did this turn out to be just a testing issue? If not, we should maybe link a different bug.",
+      "range": {
+        "startLine": 46,
+        "startChar": 2,
+        "endLine": 48,
+        "endChar": 55
+      },
+      "revId": "f41448694940f354dd29727722fa05dc57540910",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
