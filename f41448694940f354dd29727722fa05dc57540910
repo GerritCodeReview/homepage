@@ -22,6 +22,30 @@
       "revId": "f41448694940f354dd29727722fa05dc57540910",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3fa52d39_aafaeca1",
+        "filename": "_posts/2019-06-25-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-06-27T20:05:46Z",
+      "side": 1,
+      "message": "The bug is about a racy read test failing, that means that JGit is not managing it correctly. The consequence of having a JGit that isn\u0027t capable of managing racy reads is causing multiple failures all around Gerrit.\n\nWe could avoid these types of issues being unnoticed by continuously building from JGit source code and reporting back to them the joint validation status.",
+      "parentUuid": "67746202_943acb6e",
+      "range": {
+        "startLine": 46,
+        "startChar": 2,
+        "endLine": 48,
+        "endChar": 55
+      },
+      "revId": "f41448694940f354dd29727722fa05dc57540910",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
