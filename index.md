@@ -136,8 +136,7 @@ End of life for old releases happens implicitly when a new Gerrit version
 is released, and is not necessarily announced.
 
 For questions write to the mailing list (<a href="https://groups.google.com/group/repo-discuss">repo-discuss on Google Groups</a>),
-join the IRC channel <a href="https://echelog.com/logs/browse/gerrit/">#gerrit</a>, or
-check the questions tagged with <a href="https://stackoverflow.com/questions/tagged/gerrit">[gerrit]</a>
+or check the questions tagged with <a href="https://stackoverflow.com/questions/tagged/gerrit">[gerrit]</a>
 on Stack Overflow.
 
 The repo-discuss mailing list is managed to prevent spam posts. This
