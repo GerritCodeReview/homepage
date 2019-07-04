@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2d201b93_e4457cda",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 617,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-07-04T23:16:48Z",
+      "side": 1,
+      "message": "Move this up to where the other issues are listed.  I would put it around line 562 so it\u0027s next to the other issue that\u0027s also related to direct push",
+      "revId": "587cd42fce89ceed5138139dbbbae5a72cf16b3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7e02ca05_6d5f8614",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-07-04T23:16:48Z",
+      "side": 1,
+      "message": "This should also explicitly mention that support for 7.2. is added",
+      "revId": "587cd42fce89ceed5138139dbbbae5a72cf16b3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
