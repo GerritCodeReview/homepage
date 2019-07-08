@@ -392,6 +392,24 @@
     },
     {
       "key": {
+        "uuid": "479088b7_e9cea2d1",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-08T15:55:58Z",
+      "side": 1,
+      "message": "\u003e If the index system is broken, down, or stale then it would be appropriate for things to get slower.\n\nThey wouldn\u0027t get slower, they would just not work or bring the task down entirely. If there is no backwards mapping because the index is down and there is no mapping in Git, we would need to read all account refs to find the account that the external ID belongs to which can take \u003e30s depending on how many accounts there are.\n\n\u003e I don\u0027t follow, what refs need to be updated atomically together?\n\nIf you want to add an external ID, the insert operation needs to be atomic in that it must ensure that this external ID did not previously exist and after the operation is associated with exactly one account. If you store the mapping of ExtId-\u003eAccount in an index and it is stale  (e.g. the record is missing) there is no way to ensure that. If this mapping is in Git, this is guaranteed by a BatchRefUpdate.\n\n\u003e If you do, then I also suggest that you add an objective that states that you want to ensure that you do not degrade performance for the open source version of Gerrit.\n\nCan you explain how performance would be degraded by this design with respect to what we currently have?\n\nFrom what I see, when we (for example) authenticate users with LDAP, we already read an external ID note from Git right now. This design would not change that with respect to disk reads.\n\nThis design even has the potential to improve performance over what we currently have for all auth paths if we implement the parts that are now marked as optional (\"AccountByExternalId\"). That would make it so that authentication happens completely in memory. (For completeness, the LDAP realm already has a cache built in which benefits the current system and this design equally, but it seems to never invalidate, so we better solve this differently).\n\nThe InternalAuthBackend by the way currently also does an uncached disk read (via AccountCache#getByUsername) when authenticating, so there we have another chance for improving what we currently have.",
+      "parentUuid": "18c63664_c6b82bb5",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d07f2a5f_550e1ea4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
