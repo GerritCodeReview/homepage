@@ -74,6 +74,30 @@
     },
     {
       "key": {
+        "uuid": "6c5fab55_4bc9cce3",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-08T15:18:40Z",
+      "side": 1,
+      "message": "I don\u0027t mind much either way, it would be in line with the current structure though:\n\naccount.config - stores account metadata\npreference.config - stores preferences\n(new) external-ids.config - stores external IDs",
+      "parentUuid": "505f8f9d_08b54a10",
+      "range": {
+        "startLine": 61,
+        "startChar": 78,
+        "endLine": 61,
+        "endChar": 82
+      },
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f801cbe0_50414a8e",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
@@ -266,6 +290,24 @@
       "side": 1,
       "message": "Sounds like the answer is \"yes\". We should only keep primary data in the git repos, index data belongs in our index.",
       "parentUuid": "3c9d4d32_edfe4b95",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "09a35389_51b46da9",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-08T15:18:40Z",
+      "side": 1,
+      "message": "For external IDs, I disagree, for emails, I can see your point in part.\n\nWe need a way to authenticate a user even when the index subsystem is broken, down or stale. That means we need to to be able to resolve from ExternalID to Account.Id (and state) fast using only Git data.\nThe other strong reason is atomicity and staleness. For authenticating users, we can\u0027t afford any staleness for security reasons, so we have to leverage atomic ref updates. One could make an argument that after the index query we could do a cross-check of data and verify that the user that the index gave us really possesses the external ID we want to look up, but then, if that is not the case, there is no way but fail with a 500.\n\nAlso, we can\u0027t send a query to the index for every request because it is on the auth path because of latency.",
+      "parentUuid": "634ca5ef_8d9096d2",
       "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
