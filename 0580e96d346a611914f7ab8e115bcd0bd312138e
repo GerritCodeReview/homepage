@@ -374,6 +374,24 @@
     },
     {
       "key": {
+        "uuid": "900326e3_33beb13f",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-08T15:38:53Z",
+      "side": 1,
+      "message": "\u003e I forgot one of the main arguments actually: ExternalIDs need to be unique which is best enforced in primary storage.\n\nUnfortunately these indexes do nothing to enforce this since anyone can update the user refs directly without updating these indexes.",
+      "parentUuid": "18c63664_c6b82bb5",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d07f2a5f_550e1ea4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
