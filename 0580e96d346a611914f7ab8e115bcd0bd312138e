@@ -122,6 +122,30 @@
     },
     {
       "key": {
+        "uuid": "efce3a5d_761f6b40",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-07-08T23:01:34Z",
+      "side": 1,
+      "message": "I agree with Patrick, as the external-ids are a secondary entity and potentially with different volatility compared to the account info.\n\nE.g. With OAuth you can have a number of volatile external ids, whilst your identity often remains the same.",
+      "parentUuid": "91f52b2f_004d147d",
+      "range": {
+        "startLine": 61,
+        "startChar": 78,
+        "endLine": 61,
+        "endChar": 82
+      },
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f801cbe0_50414a8e",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
@@ -440,6 +464,24 @@
       "side": 1,
       "message": "I think I understand what you are concerned with. What I am hearing is that these \"indexes\" are not for speed, but rather for data consistency, for primary key enforcement? I suggest updating the doc to reflect this intent since it currently says: \"We add two new refs with NotesMaps that allow fast lookups of accounts by primary email and by external ID\".\n\nIt might make more sense to use a single ref as the primary key enforcement mechanism since it would result in fewer refs. Both approaches would work with BatchRefUpdate, and both would take the performance hit this would entail (rewriting the entire packed refs file). Using a single ref would reduce the overall ref count dramatically and affect most unrelated repo reads a lot less. A single ref might also be more inline with the way we have a single ref to enforce change number uniqueness? If you are then concerned that having a single ref would be slow for externalid reads, I would suggest that an index is more appropriate to speed those up, and in the open source world this might be faster than reading a git ref.",
       "parentUuid": "25dba9a4_24d0a102",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cd693f65_023c59d0",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-07-08T23:01:34Z",
+      "side": 1,
+      "message": "I believe that when accounts were moved outside ReviewDb, we started relying on indexes for reverse lookups needed during authentication: however, as indexes alignments are best-effort and definitely NOT transactionally applied to all nodes (read: slaves), we failed and people started having problems.\n\nWe then rolled back the decision and we started to not rely on indexes anymore for authentication, with potentially an impact on performance.\nNow we do know what is the real performance impact and, with this design, we are trying to minimize it and make it more scalable.\n\nWe don\u0027t want, however, to go back to the indexing hell associated with failed authentication. Index and Git repos will never be 100% aligned, and that\u0027s OK as long as we rely on indexes for searches and non-transactional operations.\n\nAuthentication is transactional because based on an authenticated principal I can grant permissions and mutate data. We just can\u0027t rely on an index to authenticate people. Does this clarify the direction and the history behind it?",
+      "parentUuid": "e59e4efe_ff6d9be2",
       "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
