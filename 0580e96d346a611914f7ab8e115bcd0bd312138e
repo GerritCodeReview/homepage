@@ -488,6 +488,24 @@
     },
     {
       "key": {
+        "uuid": "4cf12de7_749e9239",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-07-08T23:22:06Z",
+      "side": 1,
+      "message": "I agree with Martin Fick\u0027s point about separating primary data and secondary data.\n\nIs there a fsck tool to check that refs/index/ is consistent with the primary data? Is there a repair tool to rebuild it? If so, then I like this --- yes, it\u0027s storing derived data in Git, but as long as it\u0027s clearly distinguished from the primary data and easy for administrators to work with, the downsides go away.\n\nIf this works well with accounts, we could do something similar for Change-Id allocation within a repo.",
+      "parentUuid": "cd693f65_023c59d0",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d07f2a5f_550e1ea4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
