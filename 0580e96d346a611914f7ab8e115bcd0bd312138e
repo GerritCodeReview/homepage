@@ -98,6 +98,30 @@
     },
     {
       "key": {
+        "uuid": "91f52b2f_004d147d",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-08T15:34:59Z",
+      "side": 1,
+      "message": "The \"external-ids\" separation feels artificial, I would say it is a remnant of the DB structure that we don\u0027t need to keep.  It feels like account data to me (very different from preferences).",
+      "parentUuid": "6c5fab55_4bc9cce3",
+      "range": {
+        "startLine": 61,
+        "startChar": 78,
+        "endLine": 61,
+        "endChar": 82
+      },
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f801cbe0_50414a8e",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
@@ -325,6 +349,24 @@
       "writtenOn": "2019-07-08T15:23:56Z",
       "side": 1,
       "message": "... I forgot one of the main arguments actually: ExternalIDs need to be unique which is best enforced in primary storage.",
+      "parentUuid": "09a35389_51b46da9",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "18c63664_c6b82bb5",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-08T15:34:59Z",
+      "side": 1,
+      "message": "\u003e We need a way to authenticate a user even when the index subsystem is broken, down or stale. That means we need to to be able to resolve from ExternalID to Account.Id (and state) fast using only Git data.\n\nIf the index system is broken, down, or stale then it would be appropriate for things to get slower.\n\n\u003e so we have to leverage atomic ref updates.\n\nI don\u0027t follow, what refs need to be updated atomically together? I am suggesting that there only be one ref, the account ref. Are there other refs that need to be updated when dealing with accounts besides these new ones that I am saying shouldn\u0027t be added?\n\n\u003e Also, we can\u0027t send a query to the index for every request because it is on the auth path because of latency\n\nIn the open source world, an index query tends to be lower latency than a git data lookup.\n\nIf you are working with a lot of google technology specific constraints and you are designing for them, I suggest that you specify some of this in your \"objective\" section to make it clearer to the open source reviewers. If you do, then I also suggest that you add an objective that states that you want to ensure that you do not degrade performance for the open source version of Gerrit.",
       "parentUuid": "09a35389_51b46da9",
       "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
