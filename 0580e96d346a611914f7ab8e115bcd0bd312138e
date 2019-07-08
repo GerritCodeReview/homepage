@@ -410,6 +410,24 @@
     },
     {
       "key": {
+        "uuid": "25dba9a4_24d0a102",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-08T15:57:22Z",
+      "side": 1,
+      "message": "\u003e Unfortunately these indexes do nothing to enforce this since anyone can update the user refs directly without updating these indexes.\n\nAn enforcer in ReceiveCommits will prevent that. So the only way to screw this up is admins mingling with the repo directly and not through Gerrit. You can make any system inconsistent if you mingle with the bytes (SQL tables, for that sake) directly.",
+      "parentUuid": "479088b7_e9cea2d1",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d07f2a5f_550e1ea4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
