@@ -428,6 +428,24 @@
     },
     {
       "key": {
+        "uuid": "e59e4efe_ff6d9be2",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-08T16:57:56Z",
+      "side": 1,
+      "message": "I think I understand what you are concerned with. What I am hearing is that these \"indexes\" are not for speed, but rather for data consistency, for primary key enforcement? I suggest updating the doc to reflect this intent since it currently says: \"We add two new refs with NotesMaps that allow fast lookups of accounts by primary email and by external ID\".\n\nIt might make more sense to use a single ref as the primary key enforcement mechanism since it would result in fewer refs. Both approaches would work with BatchRefUpdate, and both would take the performance hit this would entail (rewriting the entire packed refs file). Using a single ref would reduce the overall ref count dramatically and affect most unrelated repo reads a lot less. A single ref might also be more inline with the way we have a single ref to enforce change number uniqueness? If you are then concerned that having a single ref would be slow for externalid reads, I would suggest that an index is more appropriate to speed those up, and in the open source world this might be faster than reading a git ref.",
+      "parentUuid": "25dba9a4_24d0a102",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d07f2a5f_550e1ea4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
