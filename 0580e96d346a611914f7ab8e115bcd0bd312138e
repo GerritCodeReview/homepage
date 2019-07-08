@@ -314,6 +314,24 @@
     },
     {
       "key": {
+        "uuid": "307c7817_5fa61dcb",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-08T15:23:56Z",
+      "side": 1,
+      "message": "... I forgot one of the main arguments actually: ExternalIDs need to be unique which is best enforced in primary storage.",
+      "parentUuid": "09a35389_51b46da9",
+      "revId": "0580e96d346a611914f7ab8e115bcd0bd312138e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d07f2a5f_550e1ea4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 1
