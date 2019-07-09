@@ -144,6 +144,24 @@
     },
     {
       "key": {
+        "uuid": "7090bf6e_fb305b5c",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-09T19:16:36Z",
+      "side": 1,
+      "message": "As you may have seen, I have been guessing a lot as to the problem(s) based on the solution(s). That is because I am missing the part where this docs says \"design X will be faster than design Y because of Z\". It would be good to make sure that any solution(s) proposed here can easily be connected to the problem(s) outlined, so that the trail can easily be seen by the reader. For example, I don\u0027t know which specific things are supposed to improve performance, I have to guess.  Perhaps it\u0027s the sharding, perhaps its\u0027 the NoteMaps, perhaps it\u0027s using different refs for emails versus externalids, perhaps it\u0027s putting the externalids in a separate file from other account info? Sometimes it is easy to assume the reader will recognize why a proposed solution is faster, but either the reader (I know I miss-read a bunch of stuff, I apologize) or writer could be making false assumptions. By pointing out the intent of each design feature: performance, data integrity, space reduction... (many of these intents are in the doc, or now in the comments, and some are still missing), it will hopefully be more obvious where the miss-understandings are. I hope that another patchset might point these things out a bit more.\n\nRight now this redesign feels big so I would also suggest to focus on the #1 thing you are trying to achieve. For anything that is secondary, perhaps word it as a follow on improvement that could happen if still desired. This way you avoid premature optimization and you make your original objective more achievable and more reviewable and not dependent on too many things.",
+      "parentUuid": "013b472a_005d4c7c",
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7c7ab412_f9893ac4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
