@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "cfcbf3bd_3449219d",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-07-09T22:55:06Z",
+      "side": 1,
+      "message": "\u003e Could you add some details here as to how this is slow? i.e. How does \"holding an entire generation of all external IDs\" make it slow? If slow updating, how long does this take for a sample size, milliseconds, seconds, minutes...? How much data is it updating? What is causing the update to be slow, is it parsing the data, is it writing the data to git, to H2? Without this information it is nearly impossible to be able to review a solution and say \"yes, this solution could indeed help alleviate that problem\". Without this data it is impossible for someone to notice that a piece that you measured to be slow shouldn\u0027t be slow, and that maybe there is some naive n^2 algo in there that can easily be fixed.\n\nSome data from today:\n- Number of updates in 8h period: 613\n- Peak of updates per minute: 83/min (1.38/sec)\n- Average time of update: 3s\n\nP.S. Bear in mind that because of the racy-reads problem in JGit, the *minimum* time for an update is 2.5s (resolution of the timestamp on the filesystem).\n\nIf you have 83 updates in one minute and the update takes 3s ... I believe you have contention :-)",
+      "parentUuid": "60282344_f28157d3",
+      "range": {
+        "startLine": 28,
+        "startChar": 84,
+        "endLine": 28,
+        "endChar": 120
+      },
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "40fa7557_e1ba2101",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
