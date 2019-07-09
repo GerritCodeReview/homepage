@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "adc83c6b_eddc841a",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-07-09T17:35:48Z",
+      "side": 1,
+      "message": "Martin, this is the bit that causes performance problems. We get account data from a cache that is keyed on a SHA1 that depends on all external IDs of all the users put together.  If one user changes their email, computing a new entry has to iterate over all users, halting interactions for everyone logged in.",
+      "range": {
+        "startLine": 28,
+        "startChar": 84,
+        "endLine": 28,
+        "endChar": 120
+      },
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "40fa7557_e1ba2101",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
