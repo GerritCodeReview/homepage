@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "013b472a_005d4c7c",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-09T16:29:14Z",
+      "side": 1,
+      "message": "I\u0027ll fill in some details here tomorrow.\n\nI think the 500 need to be broken down over an ~8hr workday, so that would make 1 per minute - still no contention.\n\nThis requirement came out of the design discussions we had at the last hackathon and Luca talked about some numbers that he is seeing in their installations that show a desire for sharding and less contention, so we added it to the design.\n\nLuca, do you have these number at hand so that I can add them to the doc?\n\nFor what it is worth: Contention isn\u0027t a problem we currently see in our installations given the update rates we have. Factoring in growth, that might not be true forever, though. I think one use case where contention can kick in is when you want to create a number of accounts in a small time frame (say a batch of 50).\n\nWe\u0027ve seen other bottlenecks making Gerrit fall over - for example if a lot of users want a new account and the sequencer only generates sequences of 1. Given this experience, I think there is a general desire to scale down on (potential) bottlenecks where possible.",
+      "parentUuid": "70846806_1ff3f6bb",
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7c7ab412_f9893ac4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
@@ -84,6 +102,24 @@
       "side": 1,
       "message": "\u003e If I understand what you are proposing here (which I very well may not), it seems like this sharding scheme will not actually reduce your lock contention at all in the open source world. It would if the refs in question were treated as loose refs, but if you are to take advantage of atomic ref updates across multiple refs, then the ref updates will all happen on the packedrefs file. Updating the packedrefs files uses a single lock for the entire file, so no matter what shard you update you will be sharing a single lock.\n\nPoint taken: it looks like we would end up exactly with the same problem we would like to resolve. Atomic update of refs won\u0027t be a good idea, at least for us.\n\n\u003e I suspect that not only will the sharding not improve lock contention, it has a good chance of increasing it since updating the packedrefs file takes a lot longer than updating loose refs since all the packedrefs need to be rewritten instead  of just the individual 40 bytes of a loose ref. :(\n\nYes, as the packed refs would be quite big. We would be best to stick with a loose ref update for All-Users.",
       "parentUuid": "7c7ab412_f9893ac4",
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "988a2935_a94a4618",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-09T16:29:14Z",
+      "side": 1,
+      "message": "This is a really helpful comment, thanks!\n\nIf we go with sharding, we could make atomicity configurable to reduce contention by using lose refs. As Jonathan outlined in another comment, there needs to be an fsck functionality anyway, which provides a fallback.",
+      "parentUuid": "7497e173_a706f708",
       "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
