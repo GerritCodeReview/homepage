@@ -230,6 +230,24 @@
       "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eabbd963_f855388a",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-09T18:38:15Z",
+      "side": 1,
+      "message": "\u003e packed-ref storage may not help with contention now, but does it hurt to have the sharding here?\n\nYes, see my previous reply, potentially thousands of times more data to write on each update.",
+      "parentUuid": "42902d4d_c36de908",
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
