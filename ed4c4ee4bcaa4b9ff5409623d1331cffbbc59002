@@ -123,6 +123,24 @@
       "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8ab50fb7_9b3cde40",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-07-09T17:10:19Z",
+      "side": 1,
+      "message": "packed-ref storage may not help with contention now, but does it hurt to have the sharding here?\n\nI see these comments as another vote to roll out RefTable to local FS repositories in JGit too, so we get better scalability",
+      "parentUuid": "988a2935_a94a4618",
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
