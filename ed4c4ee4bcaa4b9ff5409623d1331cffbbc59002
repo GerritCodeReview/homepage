@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "eb623aba_f0957f5f",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-09T18:18:07Z",
+      "side": 1,
+      "message": "Thanks, makes sense.\n\nIf the cache is the problem, then I would favor a solution to the cache problem that does not redesign the primary storage. Performance is in the details and if we know where a problem is, let\u0027s fix it directly without changing so much that we potentially introduce new performance problems in new areas. Can we make the cache be by account, by email, and by external id without changing the primary storage?",
+      "parentUuid": "ea4cf9e8_c12d5d16",
+      "range": {
+        "startLine": 28,
+        "startChar": 84,
+        "endLine": 28,
+        "endChar": 120
+      },
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "40fa7557_e1ba2101",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
