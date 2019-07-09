@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "70846806_1ff3f6bb",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-09T16:06:53Z",
+      "side": 1,
+      "message": "\u003e In our case, yes: \u0027git-sizer\u0027 on All-Users.git on GerritHub.io shows as concerning:\nrefs/meta/external-ids^{tree}\n\nCan you add some details? Can you put a number on how long it takes to update, milliseconds, seconds, minutes...?\n\nI am trying to get a better understanding of the problem that is attempting to be solved here. I am having a hard time imagining lock contention on 500 updates in a day, that\u0027s only about 21 updates an hour? Are the updates taking around 3 minutes each?",
+      "parentUuid": "4b6c6091_cf480ded",
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7c7ab412_f9893ac4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
