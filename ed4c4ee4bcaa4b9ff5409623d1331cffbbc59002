@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "4b6c6091_cf480ded",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-07-09T06:59:27Z",
+      "side": 1,
+      "message": "\u003e Is the single ref with lots of data that also needs to be updated too slow to write?\n\nIn our case, yes: \u0027git-sizer\u0027 on All-Users.git on GerritHub.io shows as concerning:\nrefs/meta/external-ids^{tree}\n\n\u003e Is the single ref needing to be updated also a ref lock contention?\n\nYes, and from multiple nodes also.",
+      "parentUuid": "40fa7557_e1ba2101",
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7c7ab412_f9893ac4",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2019-07-09T05:50:55Z",
       "side": 1,
       "message": "If I understand what you are proposing here (which I very well may not), it seems like this sharding scheme will not actually reduce your lock contention at all in the open source world. It would if the refs in question were treated as loose refs, but if you are to take advantage of atomic ref updates across multiple refs, then the ref updates will all happen on the packedrefs file. Updating the packedrefs files uses a single lock for the entire file, so no matter what shard you update you will be sharing a single lock.\n\nI suspect that not only will the sharding not improve lock contention, it has a good chance of increasing it since updating the packedrefs file takes a lot longer than updating loose refs since all the packedrefs need to be rewritten instead  of just the individual 40 bytes of a loose ref. :(",
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7497e173_a706f708",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-07-09T06:59:27Z",
+      "side": 1,
+      "message": "\u003e If I understand what you are proposing here (which I very well may not), it seems like this sharding scheme will not actually reduce your lock contention at all in the open source world. It would if the refs in question were treated as loose refs, but if you are to take advantage of atomic ref updates across multiple refs, then the ref updates will all happen on the packedrefs file. Updating the packedrefs files uses a single lock for the entire file, so no matter what shard you update you will be sharing a single lock.\n\nPoint taken: it looks like we would end up exactly with the same problem we would like to resolve. Atomic update of refs won\u0027t be a good idea, at least for us.\n\n\u003e I suspect that not only will the sharding not improve lock contention, it has a good chance of increasing it since updating the packedrefs file takes a lot longer than updating loose refs since all the packedrefs need to be rewritten instead  of just the individual 40 bytes of a loose ref. :(\n\nYes, as the packed refs would be quite big. We would be best to stick with a loose ref update for All-Users.",
+      "parentUuid": "7c7ab412_f9893ac4",
       "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
