@@ -25,6 +25,47 @@
     },
     {
       "key": {
+        "uuid": "99e15994_c1ef693c",
+        "filename": "_posts/2019-07-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-10T07:39:06Z",
+      "side": 1,
+      "message": "Should we stop numbering altogether or use 2019-5 or something?",
+      "parentUuid": "59b6e634_1426f63b",
+      "range": {
+        "startLine": 14,
+        "startChar": 10,
+        "endLine": 14,
+        "endChar": 16
+      },
+      "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6894b170_4900fc25",
+        "filename": "_posts/2019-07-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-10T07:39:06Z",
+      "side": 1,
+      "message": "The design doc will cook for a few more days to see how points can be addressed and to add more details where needed.",
+      "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d58693ec_467b9b92",
         "filename": "_posts/2019-07-09-esc-minutes.md",
         "patchSetId": 3
