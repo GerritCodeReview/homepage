@@ -90,7 +90,7 @@ The next meeting will be held on July 23, 12:30 CEST.
 
   Luca asked about how theming with Polymer 2 will work. Ben explained that
   arbitrary css styling as currently possible will not be possible any more
-  with Shadow DOM. However it should be noted the the current 'support' was
+  with Shadow DOM. However it should be noted that the current 'support' was
   never official; the recommended and documented approach is still to override
   css properties from plugins that use `registerStyleModule()`. We are open
   to adding more css properties and will have to see how much of an issue this
