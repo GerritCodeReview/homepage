@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "59b6e634_1426f63b",
+        "filename": "_posts/2019-07-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-07-10T06:26:51Z",
+      "side": 1,
+      "message": "fifth",
+      "range": {
+        "startLine": 14,
+        "startChar": 10,
+        "endLine": 14,
+        "endChar": 16
+      },
+      "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cbcdda4f_9c30b806",
+        "filename": "_posts/2019-07-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-07-10T06:26:51Z",
+      "side": 1,
+      "message": "Proposal:\n\nLuca asked for how theming with Polymer 2 will work. Ben explained that arbitrary css styling as currently possible will not anymore with Shadow DOM. But this was never officially supported. The recommended and documented approach is still to override css properties from plugins that use registerStyleModule(). We are open to adding more css properties and will have to see how much of an issue this becomes.",
+      "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
