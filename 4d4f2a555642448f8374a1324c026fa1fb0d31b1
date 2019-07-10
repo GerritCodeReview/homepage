@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "eff45def_d09bb6cd",
+        "filename": "_posts/2019-07-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-07-10T07:55:39Z",
+      "side": 1,
+      "message": "Good idea.  Done.",
+      "parentUuid": "99e15994_c1ef693c",
+      "range": {
+        "startLine": 14,
+        "startChar": 10,
+        "endLine": 14,
+        "endChar": 16
+      },
+      "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6894b170_4900fc25",
         "filename": "_posts/2019-07-09-esc-minutes.md",
         "patchSetId": 3
@@ -63,6 +87,24 @@
       "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1ac7de28_8b864c8d",
+        "filename": "_posts/2019-07-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-07-10T07:55:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6894b170_4900fc25",
+      "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -83,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "3c387ba2_ed63144c",
+        "filename": "_posts/2019-07-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-07-10T07:55:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d58693ec_467b9b92",
+      "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cbcdda4f_9c30b806",
         "filename": "_posts/2019-07-09-esc-minutes.md",
         "patchSetId": 3
@@ -97,6 +157,24 @@
       "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "faea3097_ad014c5a",
+        "filename": "_posts/2019-07-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-07-10T07:55:39Z",
+      "side": 1,
+      "message": "Thanks.  I\u0027ve added a new section based on this.",
+      "parentUuid": "cbcdda4f_9c30b806",
+      "revId": "4d4f2a555642448f8374a1324c026fa1fb0d31b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
