@@ -121,6 +121,30 @@
     },
     {
       "key": {
+        "uuid": "c9988bd2_1b07e22f",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-10T18:02:32Z",
+      "side": 1,
+      "message": "This math isn\u0027t working, if it takes 2.5s then how are you getting 1.38s updates?\n\nWhile aggregate data such as this can provide hints, without individual target use case data you will have nothing to beat with your new implementation, and no way to measure success. You need data the reads something like, \"I add a new email address using the RESTAPI, and it takes 3 seconds to respond, and it blocks all other thread reads for those 2.8s. During the update it takes .1s to write git data (blobs/trees), and 2.5s to update the ref. My moving to scheme X, we should be able to write git data in xs and ... and other thread reads will be blocked for xs\".",
+      "parentUuid": "cfcbf3bd_3449219d",
+      "range": {
+        "startLine": 28,
+        "startChar": 84,
+        "endLine": 28,
+        "endChar": 120
+      },
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "40fa7557_e1ba2101",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
