@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "438ebf29_abbba480",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1085065
+      },
+      "writtenOn": "2019-07-11T19:06:22Z",
+      "side": 1,
+      "message": "If all users are insisting on the same ref that contains the data of all users, it is pretty clear that the whole system isn\u0027t scalable.\n\nAs the number of users grows, there is more contention and more data to write. I believe I gave you already some real numbers, can you make some tests on your side and provide alternative numbers?\n\nIf we put then the perspective of multi-master/multi-site, the contention is even more problematic because any user can update from a different site, causing the block of any other operation on refs/meta/external-ids until that change is propagated and up to date with the global ref-db.",
+      "parentUuid": "f80489bd_7791f4c7",
+      "range": {
+        "startLine": 55,
+        "startChar": 55,
+        "endLine": 55,
+        "endChar": 111
+      },
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f9db1184_c54384e0",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
@@ -59,6 +83,24 @@
     },
     {
       "key": {
+        "uuid": "5dd53fad_cb264910",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1085065
+      },
+      "writtenOn": "2019-07-11T19:06:22Z",
+      "side": 1,
+      "message": "It would never be milliseconds, because of the racy reads problem. Did you customize JGit to find another solution to the racy reads? If yes, it would be nice if you could contribute that to JGit mainstream, so that we can all have massive ref updates in msecs :-)",
+      "parentUuid": "f9db1184_c54384e0",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "bec6bbdb_a36f5552",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
@@ -70,6 +112,24 @@
       "writtenOn": "2019-07-11T18:10:50Z",
       "side": 1,
       "message": "It seems these numbers may not be accurate?\n\nHere too it is important to know what is taking 3s, Luca seems to believe it is a jgit ref update problem. If this is the case, then any proposed Gerrit improvement for lock contention will have to be designed to overcome this specific limitation. However, I am leary of trying to come up with any scheme that can do this if jgit is actually that broken. Mainly because if any new scheme appears to at least match this existing performance than we will not really know if it actually made things worse since it sounds like the current scheme does a 2.5s sleep? That would mean that any new scheme could potentially waste up to an extra 2.5s than the current scheme and we might not be able to measure the difference.",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "095ebdd0_9645c8f2",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1085065
+      },
+      "writtenOn": "2019-07-11T19:06:22Z",
+      "side": 1,
+      "message": "\u003e It seems these numbers may not be accurate?\n\nPeak \u003d 83 updates/min, Average \u003d 3 secs. You can compare peak with average to see if numbers are accurate.\n\n\u003e Here too it is important to know what is taking 3s, Luca seems to believe it is a jgit ref update problem. If this is the case, then any proposed Gerrit improvement for lock contention will have to be designed to overcome this specific limitation.\n\nHaven\u0027t done instrumentation of those 3s yet, that\u0027s an average figure though. Peaks are much higher than that.\n\n\u003e However, I am leary of trying to come up with any scheme that can do this if jgit is actually that broken. Mainly because if any new scheme appears to at least match this existing performance than we will not really know if it actually made things worse since it sounds like the current scheme does a 2.5s sleep? That would mean that any new scheme could potentially waste up to an extra 2.5s than the current scheme and we might not be able to measure the difference.\n\nUnfortunately isn\u0027t 2.5s sleep, if you look at the JGit code is much worse than that: it\u0027s continuous read and reload of the packed refs, for 2.5s. However, that\u0027s a different problem and isn\u0027t related at all to the external ids.",
+      "parentUuid": "bec6bbdb_a36f5552",
       "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
