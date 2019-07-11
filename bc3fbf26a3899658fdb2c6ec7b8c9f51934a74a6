@@ -153,6 +153,24 @@
     },
     {
       "key": {
+        "uuid": "584637d2_a26e9737",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-11T21:18:28Z",
+      "side": 1,
+      "message": "If my understanding is right, given the current primary storage (not the current lookup code) approach of refs/meta/external-ids, I believe it requires at a minimum one \"full git round trip\" (see *1 below) to go from an external id to a password, and this new index will require at a minimum two \"full git round trips\"?  The current data as documented here: https://gerrit-review.googlesource.com/Documentation/config-accounts.html#external-ids might look like this:\n\n [externalId \"username:jdoe\"]\n   accountId \u003d 1003407\n   email \u003d jdoe@example.com\n   password \u003d bcrypt:4:LCbmSBDivK/hhGVQMfkDpA\u003d\u003d:XcWn0pKYSVU/UJgOvhidkEtmqCp6oKB7\n\nSo to get the password for externalId \"username:jdoe\", I would hash \"username:jdoe\" and get the file for it. I don\u0027t believe there is a technical reason I would have to read any more data (all the other externalId files) from refs/meta/external-ids to get that one file. That lookup requires at a minimum the \"full git round trip\" retrieving and the 4 lines of data above to be retrieved and some \"other git data\" (see *2 below), but not a lot of data.\n\nIn the proposed index layout, I believe it would require at a minimum 2 \"full round trip\"s to primary storage and approximately the same amount of data to be retrieved as using the current storage model. The first full round trip\" fetch would also hash \"username:jdoe\" and get the accountId for it. I think the second \"full round trip\" fetch would then get the password from the new external-ids.config file on refs/users/uu/vvvvvuu?\n\nWhat I am understanding is that currently to go from email to accountId (not a full use case since you then probably want to do something with that accountId), I would have to read on average half the files on refs/meta/external-ids to find the accountId. This is a lot of data (.5 X number_of_accounts blobs), but it is actually only one git ref/objects roundtrip, so it can be fast in some situations, but slow in others. I think this is the piece you would really like to improve? One advantage of this, is that some of the data you might want might already be in the blobs you loaded. One quick idea worth thinking about to speed this up, would be to improve the current design by adding additional entries, keyed by the email, to refs/meta/external-ids, that point to the same blob that currently contains the external-id. Using this approach would keep the advantages of the current storage model, fast lookups from externalId, and it would add fast lookups from email, all while avoid having an extra ref that can get out of sync.\n\n\n*1 By a \"full git round trip\", I mean likely 5 smaller roundtrips.\n 1) get commit sha1 from ref\n 2) get commit from sha1 (parse tree sha1)\n 3) get tree from tree sha1 (parse 2 char subtree sha1)\n 4) get subtree from subtree sha1 (parse blob sha1)\n 5) get blob from blob sha1\n\n*2 By \"other git data\" for 50K accounts I mean:\n 1) the sha1 of the commit\n 2) the commit data\n 3) the first treeish ~256 * ~42 bytes\n 4) the second treeish ~195 * ~82 bytes",
+      "parentUuid": "58fe0e9d_ab3e496d",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "19a4fa3e_04a890a8",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
