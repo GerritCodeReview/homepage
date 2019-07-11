@@ -1,0 +1,112 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bfabb347_32cb02cf",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-11T18:10:50Z",
+      "side": 1,
+      "message": "This seems extreme, so I have to ask what is causing that? Is this an intermittent system (external to your jvm) latency, or are you seeing regular one minute loads for a fixed size of externalids? Approximately how much data (MB?) and how many users causes a 1 minute load? It is important to know what is causing such a long time if you want to be able to improve and eliminate this. For example: if this is intermittent random network delays, than only local node caches will solve this, and creating a git cache will not (because it may suffer from the same external factors).",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f80489bd_7791f4c7",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-11T18:10:50Z",
+      "side": 1,
+      "message": "I don\u0027t believe this is accurate. There are at least three factors affecting the limit here, the CPU processing limit, the git object db writing, and the git ref updates. We need to have a good understanding of how each of these are currently affecting updates in order to avoid the same issues with any new design. Can we get some numbers here?",
+      "range": {
+        "startLine": 55,
+        "startChar": 55,
+        "endLine": 55,
+        "endChar": 111
+      },
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f9db1184_c54384e0",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-11T18:10:50Z",
+      "side": 1,
+      "message": "I don\u0027t believe this is an accurate picture. It should take milliseconds to update a loose ref on a normal (even NFS system), but it def could take seconds if updating packed-refs, and I suppose if using PAXOS on a global network. So both packed refs and loose refs are normal, but neither alone is \"usual\" since they could be order of magnitudes different.",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bec6bbdb_a36f5552",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-11T18:10:50Z",
+      "side": 1,
+      "message": "It seems these numbers may not be accurate?\n\nHere too it is important to know what is taking 3s, Luca seems to believe it is a jgit ref update problem. If this is the case, then any proposed Gerrit improvement for lock contention will have to be designed to overcome this specific limitation. However, I am leary of trying to come up with any scheme that can do this if jgit is actually that broken. Mainly because if any new scheme appears to at least match this existing performance than we will not really know if it actually made things worse since it sounds like the current scheme does a 2.5s sleep? That would mean that any new scheme could potentially waste up to an extra 2.5s than the current scheme and we might not be able to measure the difference.",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "58fe0e9d_ab3e496d",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-11T18:10:50Z",
+      "side": 1,
+      "message": "Could you add an explanation as to why and how much you think this will improve over current lookups? It is not obvious how this will improve things. I am guessing that the intent is for the fixed size sharding (i.e reading shard_ratio fewer accounts) what you think will improve the performance? Is that what you think will make it \"fast\", or is there something else?\n\nI understand that you can\u0027t have real numbers without code, but I having a formulaic improvement would be useful. My guess is that given an email, it will take on git ref lookup, and git data lookup which reads one entire shard worth of accounts, N/shard_ratio, to get one accountId. It will then require follow-on lookups to get any extra account data. Is this what you are expecting? \n\nCould you similarly qualify what the current lookup approach so as to get a picture of whether this will be faster or slower, and in what conditions? There is mention about data sizes making things slow, and this usually the case with CPU bound stuff, but if we are going to primary storage, then latency can often be the limiting factor, not necessarily how much data you are fetching (this is particularly true for the google team I suspect). I want to make sure that roundtrips to storage are quantified in both scenarios.",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "19a4fa3e_04a890a8",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-11T18:10:50Z",
+      "side": 1,
+      "message": "Without an example of how this is different from the `refs/meta/external-ids`, it is hard to picture how this will lead to a performance improvement.",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
