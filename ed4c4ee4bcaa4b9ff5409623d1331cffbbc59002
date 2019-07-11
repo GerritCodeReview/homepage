@@ -169,6 +169,30 @@
     },
     {
       "key": {
+        "uuid": "234790a6_a2e4cee9",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-11T14:35:04Z",
+      "side": 1,
+      "message": "The doc explains the different parts that lock each other up, mainly:\n- Type1: Any request waiting for the external ID cache to reload all data through using the account resolver\n- Type2: Many updates that go into refs/meta/external-ids and then lock each other up.\n\nI don\u0027t want to get all that specific about numbers because those depend on a variety of parameters (number of accounts, external IDs, storage backend, etc.)",
+      "parentUuid": "fd947705_ce2cce1f",
+      "range": {
+        "startLine": 28,
+        "startChar": 84,
+        "endLine": 28,
+        "endChar": 120
+      },
+      "revId": "ed4c4ee4bcaa4b9ff5409623d1331cffbbc59002",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "40fa7557_e1ba2101",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 4
