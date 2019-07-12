@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "c3dcdca8_3f2fa04a",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-12T19:31:32Z",
+      "side": 1,
+      "message": "Thanks. I would like to clarify that the current storage model (which I am by no means attached to BTW, I like your proposal better), does not dictate this problem, this is a coding problem. Because git has sha1s for every blob, it makes it easy to cache immutable values based on individual subsets of data from a ref (cache it by its blob sha1 instead of by the ref sha1). So even though all the current externalIds are on the same ref, they each are stored in their own blobs which can be accessed individually and cached based on the sha1d of those blobs, we just happen to not do that in Gerrit, so you are seeing the results of that.\n\nI want to point this out because I don\u0027t think we need indexes at the git level. I think that it is extra  complexity and I think it will slow things down because you need to update two refs at least for many updates. If you go with the proposed consolidation of all the primary data to the user\u0027s ref, then you can avoid any slowdowns to the BatchUpdateRef having to update indexes because you will only have one ref. This would completely avoid the whole concern of lock contention on updates in the future, and would fix the current contention that has been mentioned. I think that this could be very effectively backed by H2 persistent caches that get incrementally updated whenever a single user account is updated. These updates would generally be very cheap. This approach seems like it would be a big win for both simplicity and performance.  Would you agree that this would mean that the only times you would see a large cold startup hit is the first time you ever start your server, or if someone explicitly flushes those persistent caches? It sounds like that is the main driver for having the git indexes, trying to avoid the completely cold startup cost?",
+      "parentUuid": "c3281b35_e48cd1ab",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f80489bd_7791f4c7",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
@@ -201,6 +219,24 @@
       "side": 1,
       "message": "\u003e Could you add an explanation as to why and how much you think this will improve over current lookups? It is not obvious how this will improve things. I am guessing that the intent is for the fixed size sharding (i.e reading shard_ratio fewer accounts) what you think will improve the performance? Is that what you think will make it \"fast\", or is there something else?\n\nThe fixed size sharding (the \u003cshard\u003e part of refs/index/account-by-external-id/\u003cshard\u003e) will only ever help with write contention, it\u0027s not meant for read performance. I see that this leads to confusion in the discussion, so let\u0027s leave that ref sharding aside for now and look at what else there is. If this sharding is useful or not is a discussion that can easier be done separately just focusing on that.\n\nSo, minus sharding, the proposal is:\n\nOld system:\n- ExtId data in refs/meta/external-ids\n- Account-by-External-ID lookup by using refs/meta/external-ids or ExternalIDCache\n- Account-by-Email lookup by using ExternalIDCache\n- External-ID-by-Account-ID lookup only through ExternalIDCache\n\nCaches:\n- AccountCache (not persisted, empty on restarts, complex eviction propagation, no state sharding, etc.)\n- External ID cache (long reload time, has to reload ALL data whenever a single extID changes)\n\nProposed system:\n- ExtId data in refs/users/...\n- Account-by-External-ID lookup by using refs/index/external-ids\n- Account-by-Email lookup by using refs/index/external-ids\n- External-ID-by-Account-ID lookup using AccountState (hence refs/users/...)\n\nCaches:\n- AccountCache (immutable, serialized: through serialization not empty on startup, no eviction propagation, etc.). All enabled by having all data for AccountState live in refs/users/... and change only if the account changes\n- (optional) Account-by-External-ID-Cache (immutable, serialized, only changes when data for that account changes)\n- (optional) Account-by-Email-Cache (immutable, serialized, only changes when data for that account changes)\n- No need for ExternalIDCache\n\nI see you are asking a lot about the index refs. In the end we are presented with a problem of linking two types of entities - Account and ExternalID - for fast lookups from either one to the other. Currently, that is implemented by offering one way in the primary storage (ExtID-\u003eAccount) and the other way (Account-\u003eExtId) through a cache (ExternalIDCache) that suffers from loading gaps for aforementioned reasons.\n\nSo to your question: Can we add emails to refs/meta/external-ids? Yes, but it solves only part of the issue. We would need to create a backlink in refs/users/... for each account to point to a list of external IDs to solve the remaining issue. This is pretty much what the current design proposal is, just turned upside down (ExternalID data in refs/meta/external-ids instead of refs/users/...). Between the two, I favor the current proposal because it makes it more clear that one is just a loop stricture (refs/index/...) and having all data for AccountState in refs/users/... feels a bit more natural for the AccountCache being keyed by that SHA1.\n\nTo your point about lookup cost: All lookups but one improve or have the same performance as they do right now, so let\u0027s look at the one that in theory does not: Logging in users (ExtID-\u003eAccount).\n\nCurrent:\n1) Load ref map of All-Users\n2) Load note from refs/meta/external-ids\n3) Done.\n\nThen (cold cache):\n1) Load ref map of All-Users\n2) Load note from refs/index/external-ids\n3) Load file from refs/users/...\n\nThen (cache):\n1) Load ref map of All-Users\n2) (cache) AccountByExternalID\n3) (cache) AccountById\n\nBoth of these caches will have a very high hit rate. A miss only occurs if a user updates their account. So even in that case we could get a better performance by just having to load the ref map (which we need for a variety of other things in the same request usually).",
       "parentUuid": "584637d2_a26e9737",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9ddc3a38_e397e4d9",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-12T19:31:32Z",
+      "side": 1,
+      "message": "Thank you for some good explanation as to the intent,expectations, and reasoning of your proposal. I hope much of this can make it into the doc.",
+      "parentUuid": "13ceed63_9250cc23",
       "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
