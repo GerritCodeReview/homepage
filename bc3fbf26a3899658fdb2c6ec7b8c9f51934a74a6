@@ -127,6 +127,24 @@
     },
     {
       "key": {
+        "uuid": "16f38ef3_6a7a6056",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-15T21:18:29Z",
+      "side": 1,
+      "message": "Ugh, Nasser pointed out that I overlooked the primary key feature of having the externalid ref(s), so consolidating all the data on user account refs will not prevent duplicates. But adding the indexes as not just lookups, but also as primary key enforcers seems to depend on close synchronization between more than one ref (because the externalIds/emails will be mentioned in both the indexes and accounts). I think the existing storage which doesn\u0027t benefit from the consolidation avoids the issue of having duplicated externalId/email data on the user account ref making removing the need to have close synchronization (BatchRefUpdate) between the refs.\n\nAs much as I would prefer having the consolidated data, I think that so far, the only proposed solution that does not require updating two refs in lockstep (and thus likely leading to the packed-refs contention, or potential synchronization issues) seems to be to keep the current storage. I also agree that it would be nicer to track ref sha1a only, and the current storage does not allow that. However, the code could be improved to track blobs instead to allow for incremental updates. Lastly, the current storage could be improved to add email keys which would speed up the cold cache situation if that is important.",
+      "parentUuid": "56bfeaf1_f1aefc37",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f80489bd_7791f4c7",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
