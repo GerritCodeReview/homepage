@@ -109,6 +109,24 @@
     },
     {
       "key": {
+        "uuid": "56bfeaf1_f1aefc37",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-15T19:22:29Z",
+      "side": 1,
+      "message": "To help illustrate this, assuming you have consolidated all the data onto the user refs, I am imagining one way to do this is to have a cached index (H2 likely) with at least the following data:\n\n 1) map from external-id to Accounts\n 2) map of user account refs to account data including\n      a) sha1 of ref\n      b) enough other account data to be able to remove/update an entry given new data\n\nNote this cached index would not look like a lot of the other indexes which hold many separate entries. Instead, this is a single entry and would not need a key.\n\nI am imagining a typical lookup sequence to then be:\n\n1) Get the cached index\n2) From the cached index, get the map of user account refs to sha1s it was based on.\n3) Determine which user account refs have changed (been added, deleted, or altered)\n4) Re-read the new data from the user account refs that have changed\n5) Update the cached index with the new data\n6) Store the new cached index",
+      "parentUuid": "a4fb5063_95f32c54",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f80489bd_7791f4c7",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
