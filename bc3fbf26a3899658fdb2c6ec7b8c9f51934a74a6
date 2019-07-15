@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "ea03e13e_1f546131",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-15T14:53:04Z",
+      "side": 1,
+      "message": "\u003e I would like to clarify that the current storage model, does not dictate this problem\n\nYes, we only ever use SHA1s of refs as cache keys in Gerrit today. We could use blob SHA1s (e.g. entries in NoteMaps) but these come at a much higher cost. Again, this depends on storage and ref backend but in most replicated settings the RefDb will be much cheaper to read and versatile throughout the request (other caches might just need ref SHA1s as well). At the minimum, one can assume that RefDb of All-Users is accessed so frequently that it itself is always in a git cache locally  if the setup has that or comes down from what ever global DB there is reasonably quickly (this is true for our setup and I am sure for others as well).\n\nI think you yourself raised this argument before: At least the ref-sha1 approach is tested terrain that we have a lot of experience with :-)\n\n\u003e If you go with the proposed consolidation of all the primary data to the user\u0027s ref, then you can avoid any slowdowns to the BatchUpdateRef having to update indexes because you will only have one ref.\n\nYes, but I am not sure I follow the rest of this proposal completely: If we move external IDs into refs/users/... and remove refs/meta/external-ids. How would I go from ExtId to Account(.Id) when the cache doesn\u0027t contain a record?\n\nWe could certainly cache:\nExternal.Id -\u003e (Account.Id, SHA1 of refs/users/...)\n\nWhich is fine for most cases, but what if we find that the record is outdated (e.g. the persistent cache has an issue in itself or the record is not yet replicated)?\n\nThe most prominent example is Gerrit in a master/slave setup with cache replication assuming a scenario where cache replication is a little behind. \n\nMy point is that there must be a reasonable way of computing the record that is not \"read and parse O(n) records\".\n\nI do agree that this would be simpler, wouldn\u0027t suffer from contention and through persisting the account cache would solve the cold start problem. But: We need to figure out how to get from ExtId or Email to an Account when the cache record isn\u0027t there. I am all ears if you have something in mind here.",
+      "parentUuid": "c3dcdca8_3f2fa04a",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f80489bd_7791f4c7",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
@@ -240,6 +258,24 @@
       "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b35fab9a_065dd57f",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-15T14:53:04Z",
+      "side": 1,
+      "message": "Absolutely. I want to wait until all discussion is settled so that I can go over the doc once more to fill in results of or summaries of what was discussed.",
+      "parentUuid": "9ddc3a38_e397e4d9",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
