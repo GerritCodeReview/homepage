@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "e7fca4eb_ccb91059",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-15T15:19:18Z",
+      "side": 1,
+      "message": "One more sentence on the first issue I replied to, namely:\n\u003e I would like to clarify that the current storage model, does not dictate this problem\n\nI think this *is* in fact governed by the storage model: The only way you can build a mapping from Account.Id \u003d\u003e ExternalId when the primary storage only knows the other way around is by knowing (\u003dreading) all external IDs. You can use a blob SHA1 to know that a specific mapping of Acc.Id to ExtID is out of date but then once again you will have to read all data.",
+      "parentUuid": "ea03e13e_1f546131",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f80489bd_7791f4c7",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
