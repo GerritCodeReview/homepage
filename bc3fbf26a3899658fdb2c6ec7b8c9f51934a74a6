@@ -91,6 +91,24 @@
     },
     {
       "key": {
+        "uuid": "a4fb5063_95f32c54",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-07-15T18:34:45Z",
+      "side": 1,
+      "message": "\u003e We could certainly cache:\n\u003e   External.Id -\u003e (Account.Id, SHA1 of refs/users/...)\n\u003e\n\u003e Which is fine for most cases, but what if we find that the record is outdated (e.g. the persistent cache has an issue in itself or the record is not yet replicated)?\n\u003e\n\u003e The most prominent example is Gerrit in a master/slave setup with cache replication assuming a scenario where cache replication is a little behind. \n\nYes, this will be a problem with git-indexes also since they may also be behind, (or ahead), more git data to replicate means a longer replication time and more chances for things to be out of sync. A reliable cache design will likely not rely on two refs being in sync. I agree this is potentially a problem we are facing now, and that your consolidation would help. I don\u0027t want to then go an undermine that improvement by adding two new refs that rely on another ref to be in sync.\n\n\n\u003e You can use a blob SHA1 to know that a specific mapping of Acc.Id to ExtID is out of date but then once again you will have to read all data.\n\nI don\u0027t follow, it seems to me that you could just re-read the blob (data) that changed and update your cached index? My assumption is that we would have a cache with entries for every account, i.e. we don\u0027t have just a recently used cache, we must design the cache to be able to hold it all the account data. So as long as it is not a complete cold cache situation we would have everything in the cache except for what has just changed. When a user account ref changes, you re-read only the data you need from that ref and update your account cache/index. This cached index can be verified on a non cold startup against all the user account refs, and reads to those which have changed can incrementally update the cache before the server comes online and starts serving requests.",
+      "parentUuid": "e7fca4eb_ccb91059",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f80489bd_7791f4c7",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
