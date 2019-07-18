@@ -50,7 +50,6 @@ Current maintainers are:
 | Name                  | Affiliation                |
 |-----------------------|----------------------------|
 | Alice Kober-Sotzek    | Google                     |
-| Becky Siegel          | Google                     |
 | Ben Rohlfs            | Google                     |
 | Dave Borowitz         | Google                     |
 | David Ostrovsky       | Independent                |
@@ -71,6 +70,7 @@ Current maintainers are:
 | Name                  | Affiliation                |
 |-----------------------|----------------------------|
 | Andrew Bonventre      | Google                     |
+| Becky Siegel          | Google                     |
 | Kasper Nilsson        | Google                     |
 | Logan Hanks           | Google                     |
 | Shawn Pearce          | Google                     |
