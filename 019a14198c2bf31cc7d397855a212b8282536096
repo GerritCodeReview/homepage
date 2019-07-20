@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7aa8c6b7_8e513f85",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-07-20T18:23:44Z",
+      "side": 1,
+      "message": "Yes, if we exclude filter options that need the server-side support (e.g, configs for the shallow clone),",
+      "parentUuid": "f1efbb63_d40e1089",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 26
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0a0e378b_138c01cc",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2019-07-19T20:06:32Z",
       "side": 1,
       "message": "Hm, what complex functionality are you referring to?",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 21
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aaa3c077_96ee94d1",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-07-20T18:23:44Z",
+      "side": 1,
+      "message": "Well, I would rephrase the statement as follows:\nit may be overkill to have to install a plugin\nwhile you need only a tiny portion of it (one simple API).",
+      "parentUuid": "0a0e378b_138c01cc",
       "range": {
         "startLine": 83,
         "startChar": 0,
