@@ -2,6 +2,75 @@
   "comments": [
     {
       "key": {
+        "uuid": "3e7b4b5f_61c1bbea",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-07-23T12:28:22Z",
+      "side": 1,
+      "message": "This would indeed be a very desirable feature for Gerrit. Thanks for proposing this and working on a solution for it.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 37
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1580fc23_ef54dfba",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-07-23T12:28:22Z",
+      "side": 1,
+      "message": "What would it take to implement the feature in Gerrit? What would the design/implementation look like?\n\nSince Gerrit already supports GPG-signed pushs, having GPG-signed commits in the browser would be a nice addition. If there are some aspects of GPG-signed commits which can\u0027t be implemented directly in Gerrit, it would be interesting to hear about them, too.\n\nThe reason I\u0027m asking is that we (ESC) would like to understand the whole picture and evaluate whether the tree API in combination with the browser extension is the best solution from a Gerrit (and Gerrit user) perspective.",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 28
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a5150e3_a8b13360",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-07-23T12:28:22Z",
+      "side": 1,
+      "message": "Can you please go into details how this works? It would be helpful to understand the whole process: when/how the signing is triggered; which elements (e.g. tree of commit) are combined in which way to generate the signature; what the signature entails, and how this signature is then reported back and presented to the user.\n\nI guess the document you linked contains some of these details. It\u0027s a bit long, though, and contains also many other aspects. Can you please outline the process in an easy-to-understand summary?",
+      "range": {
+        "startLine": 30,
+        "startChar": 13,
+        "endLine": 31,
+        "endChar": 27
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f1efbb63_d40e1089",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
