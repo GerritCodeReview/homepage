@@ -1,5 +1,5 @@
 ---
-title: "Gerrit ESC Meeting #2 Minutes"
+title: "Gerrit ESC Meeting Minutes"
 tags: news
 keywords: news
 permalink: 2019-05-28-esc-minutes.html
