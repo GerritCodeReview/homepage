@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f3a0c2b1_60ffc1be",
+        "filename": "_posts/2019-07-23-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-07-24T07:52:58Z",
+      "side": 1,
+      "message": "I think there was a slight misunderstanding here. When Edwin, Patrick, and I confirmed that a pluggable authentication backend was a good idea, we weren\u0027t thinking of any company goals or interests. We were rather thinking that such an authentication backend would be good for Gerrit from an architectural point of view and that it would nicely complement other customization options of Gerrit.",
+      "range": {
+        "startLine": 66,
+        "startChar": 2,
+        "endLine": 67,
+        "endChar": 61
+      },
+      "revId": "9cdad451de2a1533120293ce753b34c371d1b169",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
