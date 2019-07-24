@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "71d3031e_fa0d6c70",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-07-24T14:56:12Z",
+      "side": 1,
+      "message": "The design and implementation would be similar to our prior work, the “le-git-imate” commit signing extension, which we designed and implemented for GitHub and GiLab. I will provide a summary description of le-git-imate (including the role of the tree API in the browser extension) in response to the next comment.\n\nI should mention that it is not possible to implement user commit signing directly on the server side (e.g. on Gerrit). Indeed, the server cannot cryptographically sign the commits on behalf of users without requiring users to share their private keys with the server.\n\nNote that we are actively working on implementing the commit/review signing feature in Gerrit. For an efficient implementation and a minimal impact on users experience, we need the tree API to be part of core Gerrit. In addition to our prior work for GitHub/GitLab, signing commits/reviews in Gerrit would require additional security analysis, since the process is more complex than signing commits in GitHub/GitLab.",
+      "parentUuid": "1580fc23_ef54dfba",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 28
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3a5150e3_a8b13360",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
@@ -59,6 +83,30 @@
       "writtenOn": "2019-07-23T12:28:22Z",
       "side": 1,
       "message": "Can you please go into details how this works? It would be helpful to understand the whole process: when/how the signing is triggered; which elements (e.g. tree of commit) are combined in which way to generate the signature; what the signature entails, and how this signature is then reported back and presented to the user.\n\nI guess the document you linked contains some of these details. It\u0027s a bit long, though, and contains also many other aspects. Can you please outline the process in an easy-to-understand summary?",
+      "range": {
+        "startLine": 30,
+        "startChar": 13,
+        "endLine": 31,
+        "endChar": 27
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6d103e50_9187b6bf",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-07-24T14:56:12Z",
+      "side": 1,
+      "message": "We designed and implemented the le-git-imate browser extension to achieve user commit signing in web-based Git hosting repositories like GitHub/GitLab. \n\nle-git-imate creates a true GPG-signed Git commit object in the browser which means the signature is computed over commit fields and is part of the commit done through the web UI. As a result, the signature provides the exact same security guarantees offered by Git\u0027s standard commit signing.\n\nIndeed, the commit signature allows tools like Git client to cryptographically verify that the actions executed by the GitHub/GitLab server on behalf of the user are performed correctly. That said, anyone (including the committer/author of the commit) who clones the repository can validate the commit signature.\n\nFrom the user\u0027s perspective, le-git-imate’s works as follows:\nAfter preparing the commit, instead of using GitHub’s “commit/merge” button to commit the change, the user hits the extension button. Then the following steps take place:\nStep 1: The extension computes the new commit and displays a popup window with three text areas: (1) information about the parent commit, (2) changes between the new commit and the parent commit, (3) the new commit.\nStep 2: If the user is satisfied with the new commit, she hits a button called “finalize commit” by which the new signed Git commit is pushed to the server. \n\nFrom a technical point of view, le-git-imate performs the following steps in the background:\n1) Collect information about the commit form webUI\n2) Compute the “tree hash” of the new commit using an optimized algorithm\n3) Compute a true GPG-signed Git commit\n4) Create all new blob and tree objects related to the new commit\n5) Create a packfile of all the objects (i.e, commit, blob, tree)\n6) Push the packfile to the server using git pack protocol\n\nA few points about above steps:\nWe rely on GitHub/GitLab APIs to retrieve the minimum number of Git blob/tree objects from the server to compute the tree hash.\nWe use an optimized algorithm since unlike the normal Git, it does not need the entire repository to compute the new commit. Instead, it uses GitHub/GitLab APIs to retrieve only a minimum set of Git objects to compute the new tree hash and therefore the new commit object.\nTo create a signed commit object in the browser and push it to the server, we re-implement the functionality of the git-commit (for both regular and merge commits) and git-send-pack commands in the browser (in JavaScript).\n\nle-git-imate is described in more detail in the academic publication linked in the design document. Note that, after this publication, we were able to further the development of the extension to generate true GPG-signed Git commit objects.",
+      "parentUuid": "3a5150e3_a8b13360",
       "range": {
         "startLine": 30,
         "startChar": 13,
