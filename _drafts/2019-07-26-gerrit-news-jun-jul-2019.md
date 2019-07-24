@@ -9,6 +9,19 @@ hide_navtoggle: true
 toc: true
 ---
 
-## Item 1
+## Community Managers
 
-## Item 2
+The Gerrit Community Managers for 2019 were
+[announced](https://www.gerritcodereview.com/2019-06-28-cm-announce.html):
+
+* Edwin Kempin (Google)
+* Marco Miller (Ericsson)
+* Matthias Sohn (SAP)
+
+See the linked post for details.
+
+## User Summits and Hackathons in Sweden and USA
+
+The schedules are finalized for the user summits in
+[Gothenburg](https://gerrit.googlesource.com/summit/2019/+/refs/heads/master/schedule-europe.md)
+and [Sunnyvale](https://gerrit.googlesource.com/summit/2019/+/refs/heads/master/schedule-usa.md).
