@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f5007aa7_e12a4f5d",
+        "filename": "_drafts/2019-07-26-gerrit-news-jun-jul-2019.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-07-24T07:36:17Z",
+      "side": 1,
+      "message": "FYI: I think we use a limit of 80 characters in .md files.",
+      "range": {
+        "startLine": 31,
+        "startChar": 96,
+        "endLine": 31,
+        "endChar": 111
+      },
+      "revId": "d8c3fefa0f831a5a7e559c7fdeddaff8494d2777",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
