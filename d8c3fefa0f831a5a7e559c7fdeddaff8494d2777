@@ -22,6 +22,30 @@
       "revId": "d8c3fefa0f831a5a7e559c7fdeddaff8494d2777",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f61a3762_f266c1f1",
+        "filename": "_drafts/2019-07-26-gerrit-news-jun-jul-2019.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-07-24T09:05:03Z",
+      "side": 1,
+      "message": "Done. I wonder why that is though. For code it kind of makes sense but for md text I think we\u0027d be fine with longer lines.",
+      "parentUuid": "f5007aa7_e12a4f5d",
+      "range": {
+        "startLine": 31,
+        "startChar": 96,
+        "endLine": 31,
+        "endChar": 111
+      },
+      "revId": "d8c3fefa0f831a5a7e559c7fdeddaff8494d2777",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
