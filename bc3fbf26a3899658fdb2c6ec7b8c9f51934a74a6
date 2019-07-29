@@ -227,6 +227,24 @@
     },
     {
       "key": {
+        "uuid": "98545c6b_f38a305c",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-07-29T16:16:15Z",
+      "side": 1,
+      "message": "depending on OS, filesystem and java version being used the racy read problem in JGit can be reduced with the patch series [1].\n\nOn Mac OSX using APFS on SSD with Java 11 the racy interval can be reduced to something like 20us when using ext4 \non Linux and Java 8 I saw something in the order of 10ms. The patch series measures the racy interval on the actual system\nin order to find the right interval which needs to be considered racy. It\u0027s not simply clock plus filesystem time resolution\nprobably since there are a couple of non real-time components in this game. Hence this is done in 2 steps. \n\nThe first step [2] measures clock resolution and resolution of file timestamps seen from the used Java version.\nThis is necessary since different Java versions have different bugs regarding their handling of timestamps.\nE.g. on Mac Java 8 is broken to the point that it only gives 1 second resolution [3] even on filesystems providing\n1ns timestamp resolution (e.g. ext4). All existing Java versions truncate higher resolution timestamps provided by\nsome filesystems (e.g. ext4, NTFS etc) to 1 microsecond resolution due to how FileTime stores timestamps [4]:\nstill using a single field of type long, hence they truncate to 1 microsecond to avoid overflow :-()\ndespite the fact that since Java 8 FileTime also has a field of type Instant which could provide full resolution.\nBut apparently in the current implementation this field is still considered secondary storage.\n\nThe second step [5] measures the interval needed to safely detect racy read situations. On most systems I tested this on\nso far this interval is larger than the sum of clock resolution and resolution of file timestamps seen from Java.\n\nTo avoid redundant measurement for each start of the application the measured values are persisted in ~/.gitconfig.\n\n[1] https://git.eclipse.org/r/#/c/146281/\n[2] https://git.eclipse.org/r/#/c/145654/\n[3] https://bugs.openjdk.java.net/browse/JDK-8177809\n[4] https://bugs.openjdk.java.net/browse/JDK-8181493\n[5] https://git.eclipse.org/r/#/c/146085/",
+      "parentUuid": "5dd53fad_cb264910",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "bec6bbdb_a36f5552",
         "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
         "patchSetId": 5
@@ -256,6 +274,24 @@
       "side": 1,
       "message": "\u003e It seems these numbers may not be accurate?\n\nPeak \u003d 83 updates/min, Average \u003d 3 secs. You can compare peak with average to see if numbers are accurate.\n\n\u003e Here too it is important to know what is taking 3s, Luca seems to believe it is a jgit ref update problem. If this is the case, then any proposed Gerrit improvement for lock contention will have to be designed to overcome this specific limitation.\n\nHaven\u0027t done instrumentation of those 3s yet, that\u0027s an average figure though. Peaks are much higher than that.\n\n\u003e However, I am leary of trying to come up with any scheme that can do this if jgit is actually that broken. Mainly because if any new scheme appears to at least match this existing performance than we will not really know if it actually made things worse since it sounds like the current scheme does a 2.5s sleep? That would mean that any new scheme could potentially waste up to an extra 2.5s than the current scheme and we might not be able to measure the difference.\n\nUnfortunately isn\u0027t 2.5s sleep, if you look at the JGit code is much worse than that: it\u0027s continuous read and reload of the packed refs, for 2.5s. However, that\u0027s a different problem and isn\u0027t related at all to the external ids.",
       "parentUuid": "bec6bbdb_a36f5552",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "998b7bc7_fc86c0e6",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-07-29T16:16:15Z",
+      "side": 1,
+      "message": "see again the series [1]\n\nWe should also differentiate between numbers from Google using RefTable and GerritForge using standard packed refs.\n\n[1] https://git.eclipse.org/r/#/c/146281/",
+      "parentUuid": "095ebdd0_9645c8f2",
       "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -362,6 +398,29 @@
       "writtenOn": "2019-07-11T18:10:50Z",
       "side": 1,
       "message": "Without an example of how this is different from the `refs/meta/external-ids`, it is hard to picture how this will lead to a performance improvement.",
+      "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "99a4adb1_a63a3548",
+        "filename": "pages/design-docs/external-id-storage-revamp/doc.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-07-29T16:16:15Z",
+      "side": 1,
+      "message": "the Eclipse foundation\u0027s Gerrit server has a number of accounts in this order of magnitude",
+      "range": {
+        "startLine": 308,
+        "startChar": 35,
+        "endLine": 308,
+        "endChar": 51
+      },
       "revId": "bc3fbf26a3899658fdb2c6ec7b8c9f51934a74a6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
