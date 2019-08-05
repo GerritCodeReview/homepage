@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "b9089906_227e031f",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-05T16:15:51Z",
+      "side": 1,
+      "message": "\u003e This would indeed be a very desirable feature for Gerrit. Thanks for proposing this and working on a solution for it.\n\nThanks for considering this proposal.",
+      "parentUuid": "3e7b4b5f_61c1bbea",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 37
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1580fc23_ef54dfba",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
@@ -107,6 +131,30 @@
       "side": 1,
       "message": "\u003e The design and implementation would be similar to our prior work, the “le-git-imate” commit signing extension, which we designed and implemented for GitHub and GiLab. I will provide a summary description of le-git-imate (including the role of the tree API in the browser extension) in response to the next comment.\n\u003e \n\u003e I should mention that it is not possible to implement user commit signing directly on the server side (e.g. on Gerrit). Indeed, the server cannot cryptographically sign the commits on behalf of users without requiring users to share their private keys with the server.\n\u003e\n\nI see. Would it be possible to do the signing part in the frontend of Gerrit? (I guess it would be similar to what le-git-imate already does, just that it\u0027s directly in Gerrit.)\n\nOf course, the tree API would be necessary as a backend element.\n\n\u003e \n\u003e Note that we are actively working on implementing the commit/review signing feature in Gerrit. For an efficient implementation and a minimal impact on users experience, we need the tree API to be part of core Gerrit. In addition to our prior work for GitHub/GitLab, signing commits/reviews in Gerrit would require additional security analysis, since the process is more complex than signing commits in GitHub/GitLab.\n\nThat\u0027s great to hear. Out of curiosity, why is the process in Gerrit more complex? Is it because of some of the examples I mentioned in my other comment? Does the Change-Id in the commit message cause issues?",
       "parentUuid": "71d3031e_fa0d6c70",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 28
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a6ed708d_295305f8",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-05T16:15:51Z",
+      "side": 1,
+      "message": "\u003e \u003e The design and implementation would be similar to our prior work, the “le-git-imate” commit signing extension, which we designed and implemented for GitHub and GiLab. I will provide a summary description of le-git-imate (including the role of the tree API in the browser extension) in response to the next comment.\n\u003e \u003e \n\u003e \u003e I should mention that it is not possible to implement user commit signing directly on the server side (e.g. on Gerrit). Indeed, the server cannot cryptographically sign the commits on behalf of users without requiring users to share their private keys with the server.\n\u003e \u003e\n\u003e \n\u003e I see. Would it be possible to do the signing part in the frontend of Gerrit? (I guess it would be similar to what le-git-imate already does, just that it\u0027s directly in Gerrit.)\n\nCan you please elaborate this question? I am not sure if I understand it correctly. The design has to be carefully considered in order to be aligned with the threat model for user commit/review signatures, in which the server may be untrusted.\n\n\u003e \n\u003e Of course, the tree API would be necessary as a backend element.\n\u003e \n\u003e \u003e \n\u003e \u003e Note that we are actively working on implementing the commit/review signing feature in Gerrit. For an efficient implementation and a minimal impact on users experience, we need the tree API to be part of core Gerrit. In addition to our prior work for GitHub/GitLab, signing commits/reviews in Gerrit would require additional security analysis, since the process is more complex than signing commits in GitHub/GitLab.\n\u003e \n\u003e That\u0027s great to hear. Out of curiosity, why is the process in Gerrit more complex? Is it because of some of the examples I mentioned in my other comment? Does the Change-Id in the commit message cause issues?\n\nAs you gave some examples in other comments, on Gerrit we have to deal with new challenges like merge policies, reviews, etc. I should draft another document to explain the issues that we already encountered.\nThough the commit signing on Gerrit is kinda similar to what we did on GitHub/GitLab, there are new challenges from a technical point of view. For example, the merge commit is not only about sending new Git objects to the server.\nIn case of the review signing, we have security/usability concerns and our design and threat model are not finalized yet.",
+      "parentUuid": "550c7192_bf176141",
       "range": {
         "startLine": 26,
         "startChar": 0,
@@ -214,6 +262,30 @@
     },
     {
       "key": {
+        "uuid": "17dfd123_035a5224",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-05T16:15:51Z",
+      "side": 1,
+      "message": "\u003e Do I understand correctly (for GitHub/GitLab) that the signing should be used when\n\u003e 1) a user creates a new commit directly on the web UI?\n\u003e 2) a user merges a pull request?\n\nYes.\n\n\u003e In case (1), is it also possible to edit the commit again and post another version of it?\n\nYes. You can consider le-git-imate as a git client tool which means you can make changes to the repository and then create a new commit/revision  repository (create a new signed commit that reflects new changes).\n\n\u003e Regarding Gerrit, I\u0027m wondering if it will be that easy to replace the standard UI actions with corresponding ones in le-git-imate. For instance, Gerrit has different submit/merge types (e.g. MergeIfNecessay, RebaseIfNecessary) which can be configured per repository. Would le-git-imate respect them as well?\n\nIn our prototype implementation, we already considered the \"always merge” policy. But it wouldn\u0027t be a major problem to support other options. \nWe are working on how to integrate all Gerrit policies into our extension. For instance, different policies can be defined in the le-git-imate setup step.\n\n\u003e Will submit/merging be implemented by uploading a new commit to Gerrit and then relying on Gerrit\u0027s auto-close feature for changes? \n\nCurrently we rely on Gerrit auto-close though we can use Gerrit APIs to close the change. We would be happy to discuss it further for the alternative approaches. \n\n\u003e What if the user lacks permission to directly push to the master branch of the repository (as is common for many Gerrit installations to protect the master branch from unreviewed commits)?\n\nThere are such permission issues on GiHub/GitLab as well. In those cases, we warn the user (a pop-up message) about the issue. This is another example of issues that we can discuss more.\n\n\u003e When it comes to editing, I guess you would need to replace Gerrit\u0027s \"Publish Edit\", wouldn\u0027t you? Since the commit is created fully on the frontend, the new commit would need to be uploaded as a new patch set and the existing edit would need to be discarded/deleted. Or did you find a smarter way?\n\nYes, we do publish the edit. From a security point of view, we would like to keep track of everything in the repository history (discard nothing). However, our design is not finalized yet and we would be happy to get advice from your side. \n\n\u003e Would signing be also available for other actions on Gerrit\u0027s change screen like \"Rebase\", \"Cherry-pick\", \"Create follow-up change\", or \"Revert\"?\n\nAt the moment, we are not working on them since we are focus on the core implementation. In general, supporting those actions is a matter of re-implementing some git functionalities (e.g., git rebase) in the browser. They can definitely be considered as a future plan.",
+      "parentUuid": "7029887b_5aa325fb",
+      "range": {
+        "startLine": 30,
+        "startChar": 13,
+        "endLine": 31,
+        "endChar": 27
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c779515c_46d13b11",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
@@ -260,6 +332,54 @@
     },
     {
       "key": {
+        "uuid": "ec7dcb8b_ad3a6b50",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-05T16:15:51Z",
+      "side": 1,
+      "message": "\u003e Would le-git-imate also work with only this option?\n\nle-git-imate works with both path and treeId options.\nActually, on Github it works with treeIds, and on GitLab it uses the path option. Note, GitHub does not support tree retrieval by path.",
+      "parentUuid": "c779515c_46d13b11",
+      "range": {
+        "startLine": 53,
+        "startChar": 45,
+        "endLine": 53,
+        "endChar": 53
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0e360f97_75973e89",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-05T16:15:51Z",
+      "side": 1,
+      "message": "\u003e If the tree is very large, it could take quite some time to walk through all of it. Have you tried the proposed implementation on large trees? If so, with which results?\n\nYou are right. Using the recursive option, there might be a performance or timeout issue to load a large tree with thousands of files. In such cases, the API should truncate tree to a max, let\u0027s say, 1000. That’s what GitHub/GitLab does. If the items in the tree array exceeded the limit, the user would be notified to iterate the request for more items. \n\nWe have not proposed this truncate option in the Gerrit Tree API, but we can do it.\n\nSpeaking of the le-git-imate performance on large repos, though we did not benchmark the extension with \"a very large repository\", we did benchmark with a variety of repositories with different history sizes, file counts, directory-tree depths and file sizes (such as atom and react). And we did not face the truncate issue.\nThat is mainly because of two reasons:\n1) The le-git-imate\u0027s performance does not depend on the size of a repository. Instead it depends only on the number of files/directories that are changed in a commit. \n\n2) le-git-imate does not use the recursive option to fetch all trees. Instead it retrieves the minimum number of Git objects that are necessary to create the new commit.\n\nWe evaluated over 50K merge requests on top 50 most starred GitHub projects (as of Feb. 2018). Our statistics show that the median number of commits and changed files in the PR branch are 4 and 3, respectively. In other words, the number of changed files in the vast majority of merge requests is small. Thus there is little chance that the number of retrieved tree entries that are involved in a commit exceeds the GitHub/GitLab limit (1000). That said, le-git-imate usually fetches few tree objects and does not deal with the truncate issue (even in a large repository). You may check out the evaluation section in the paper for more details.",
+      "parentUuid": "caf45f58_721dd041",
+      "range": {
+        "startLine": 53,
+        "startChar": 34,
+        "endLine": 53,
+        "endChar": 43
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c2f21d94_7db382c4",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
@@ -283,6 +403,30 @@
     },
     {
       "key": {
+        "uuid": "40e98ebc_1b37874e",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-05T16:15:51Z",
+      "side": 1,
+      "message": "\u003e It would be good to define the returned data objects and their hierarchy.\n\nI will update the document to address your concern. Meanwhile, the hierarchy is quite similar to the output of git cat-file -p \u003ctreeId\u003e.\n\n\u003e What I saw in the implementation so far for a tree entry:\n\u003e - SHA-1\n\u003e - Mode\n\u003e - Path\n\u003e - Type\n\u003e \n\u003e Is the \u0027path\u0027 the full path or just the \u0027name\u0027 within the directory?\n\nJust \u0027name\u0027 within the directory.\n\n\u003e Is the \u0027mode\u0027 something you would need for le-git-imate?\n\nYes, we need it for le-git-imate. A tree object is computed over tree entries, each entry is defined by four fields: SHA-1, Mode, Path, Type.",
+      "parentUuid": "c2f21d94_7db382c4",
+      "range": {
+        "startLine": 55,
+        "startChar": 35,
+        "endLine": 55,
+        "endChar": 51
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7dd18943_fb051fef",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
@@ -294,6 +438,30 @@
       "writtenOn": "2019-08-02T18:03:48Z",
       "side": 1,
       "message": "Do you have a use case in mind for which this would be helpful?",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 38
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c938a01c_6fa3f4f1",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-05T16:15:51Z",
+      "side": 1,
+      "message": "\u003e Do you have a use case in mind for which this would be helpful?\n\nAs I mentioned earlier, le-git-imate works with both path and treeId options. In general, the path option is preferable to make less API requests, and therefore to improve the le-git-imate performance. So, we don\u0027t need that option for le-git-imate (at least at the moment). However, depending on the number of change files and the directory depth in the repository, we \"may\" be able to improve the le-git-imate performance by using both path and treeId.\n\nOther than that, I have no use case on top of my mind. People in other projects (who already requested a tree-API feature on Gerrit) might need the treeId option as well.",
+      "parentUuid": "7dd18943_fb051fef",
       "range": {
         "startLine": 58,
         "startChar": 0,
