@@ -190,6 +190,30 @@
     },
     {
       "key": {
+        "uuid": "7029887b_5aa325fb",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-05T13:22:13Z",
+      "side": 1,
+      "message": "\u003e Indeed, the commit signature allows tools like Git client to cryptographically verify that the \u003e actions executed by the GitHub/GitLab server on behalf of the user are performed correctly. \n\nHow realistic is this concern, though? I\u0027m asking because we at Google are very much worried that clients got themselves hacked (since not all clients are managed tightly), and are pushing rogue code.  \n\nIf however, an adversary is already in the position to control what goes on inside the Git/Gerrit server, then we\u0027re already in a very bad place.",
+      "parentUuid": "17cb370e_a672a843",
+      "range": {
+        "startLine": 30,
+        "startChar": 13,
+        "endLine": 31,
+        "endChar": 27
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c779515c_46d13b11",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
