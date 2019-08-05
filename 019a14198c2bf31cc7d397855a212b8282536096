@@ -545,6 +545,30 @@
     },
     {
       "key": {
+        "uuid": "a47e3315_a3cd1b6c",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-05T16:23:21Z",
+      "side": 1,
+      "message": "\u003e filter\u003dblob:none doesn\u0027t require any server-side setup. Likewise filter\u003dtree:0.\n\nPlease correct me, if I am wrong.\nYou are saying that `filter\u003dblob:none` or `filter\u003dtree:0` options would not be ignored by the server even if the following configs are not set on the server side?\nuploadpack.allowfilter\nuploadpack.allowanysha1inwant\n\nIf so, please confirm that doing the following git command, blobs are not downloaded?\ngit clone --filter\u003dblob:none https://github.com/in-toto/in-toto\n\nAnd you do not get this message? \n\"warning: filtering not recognized by server, ignoring\"\n\nIf so, then what is this about?\nhttps://github.com/git/git/blob/master/fetch-pack.c#L964-#L969\n\nAnd what is the purpose of following git test scripts?\nhttps://github.com/git/git/blob/master/t/t5702-protocol-v2.sh#L309-#L319\nhttps://github.com/git/git/blob/master/t/t5702-protocol-v2.sh#L383-#L409\n\nSorry for asking so many questions!",
+      "parentUuid": "d9f5fff9_2300af62",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 26
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0a0e378b_138c01cc",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
