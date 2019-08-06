@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "54c68b70_6b489abf",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-06T03:26:38Z",
+      "side": 1,
+      "message": "\u003e this is quite vague; can you give specific examples of incidents, \n\nThough it is possible to provide a very long list of software supply chain attacks, a list of the most famous ones is available here: https://github.com/in-toto/supply-chain-compromises\nFor instance, the source code repository of Juniper, ProFTPD, Code Spaces, Bitcoin Gold, Gentoo, etc. have been compromised. And most of those incidents did happen without a key compromise. \n\n\u003e and how GPG signing of commits would have prevented them?\n\nGPG signing of commits can not prevent all types of software supply chain attacks. Indeed, a comprehensive solution is needed to secure the entire development chain, something like “in-toto” that we will present at USENIX Security 2019, on Aug. 16: https://www.usenix.org/system/files/sec19-torres-arias.pdf\n\nCommit signing, however, can mitigate attacks against the first step of the chain, the source code management system. Actually, if all commits (no matter submitted through the web UI or the command line) could be signed, a compromised or malicious server would not be able to alter the source code repository without having access to the developer\u0027s private key. \n\n\u003e Are you doing this on behalf of a client that is looking to increase their security, or is this part of an academic research project?\n\nWe are doing this for anyone that wants to take advantage of GitHub/GitLab’s web-based features without sacrificing security. \nle-git-imate allows users to cryptographically sign web UI commits which means providing the same security guarantees offered by Git client tool. Please note that commits created through the command could already be signed by Git CLI. le-git-imate makes it possible for commits created through the web UI.",
+      "parentUuid": "c6784621_ab47798f",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 36
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1580fc23_ef54dfba",
         "filename": "pages/design-docs/tree-api-endpoint/doc.md",
         "patchSetId": 1
@@ -274,6 +298,30 @@
       "side": 1,
       "message": "\u003e Do I understand correctly (for GitHub/GitLab) that the signing should be used when\n\u003e 1) a user creates a new commit directly on the web UI?\n\u003e 2) a user merges a pull request?\n\nYes.\n\n\u003e In case (1), is it also possible to edit the commit again and post another version of it?\n\nYes. You can consider le-git-imate as a git client tool which means you can make changes to the repository and then create a new commit/revision  repository (create a new signed commit that reflects new changes).\n\n\u003e Regarding Gerrit, I\u0027m wondering if it will be that easy to replace the standard UI actions with corresponding ones in le-git-imate. For instance, Gerrit has different submit/merge types (e.g. MergeIfNecessay, RebaseIfNecessary) which can be configured per repository. Would le-git-imate respect them as well?\n\nIn our prototype implementation, we already considered the \"always merge” policy. But it wouldn\u0027t be a major problem to support other options. \nWe are working on how to integrate all Gerrit policies into our extension. For instance, different policies can be defined in the le-git-imate setup step.\n\n\u003e Will submit/merging be implemented by uploading a new commit to Gerrit and then relying on Gerrit\u0027s auto-close feature for changes? \n\nCurrently we rely on Gerrit auto-close though we can use Gerrit APIs to close the change. We would be happy to discuss it further for the alternative approaches. \n\n\u003e What if the user lacks permission to directly push to the master branch of the repository (as is common for many Gerrit installations to protect the master branch from unreviewed commits)?\n\nThere are such permission issues on GiHub/GitLab as well. In those cases, we warn the user (a pop-up message) about the issue. This is another example of issues that we can discuss more.\n\n\u003e When it comes to editing, I guess you would need to replace Gerrit\u0027s \"Publish Edit\", wouldn\u0027t you? Since the commit is created fully on the frontend, the new commit would need to be uploaded as a new patch set and the existing edit would need to be discarded/deleted. Or did you find a smarter way?\n\nYes, we do publish the edit. From a security point of view, we would like to keep track of everything in the repository history (discard nothing). However, our design is not finalized yet and we would be happy to get advice from your side. \n\n\u003e Would signing be also available for other actions on Gerrit\u0027s change screen like \"Rebase\", \"Cherry-pick\", \"Create follow-up change\", or \"Revert\"?\n\nAt the moment, we are not working on them since we are focus on the core implementation. In general, supporting those actions is a matter of re-implementing some git functionalities (e.g., git rebase) in the browser. They can definitely be considered as a future plan.",
       "parentUuid": "7029887b_5aa325fb",
+      "range": {
+        "startLine": 30,
+        "startChar": 13,
+        "endLine": 31,
+        "endChar": 27
+      },
+      "revId": "019a14198c2bf31cc7d397855a212b8282536096",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c03a8b3_9509506b",
+        "filename": "pages/design-docs/tree-api-endpoint/doc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1084892
+      },
+      "writtenOn": "2019-08-06T03:26:38Z",
+      "side": 1,
+      "message": "\u003e \u003e Do I understand correctly (for GitHub/GitLab) that the signing should be used when\n\u003e \u003e 1) a user creates a new commit directly on the web UI?\n\u003e \u003e 2) a user merges a pull request?\n\u003e \n\u003e Yes.\n\u003e \n\u003e \u003e In case (1), is it also possible to edit the commit again and post another version of it?\n\u003e \n\u003e Yes. You can consider le-git-imate as a git client tool which means you can make changes to the repository and then create a new commit/revision  repository (create a new signed commit that reflects new changes).\n\u003e \n\u003e \u003e Regarding Gerrit, I\u0027m wondering if it will be that easy to replace the standard UI actions with corresponding ones in le-git-imate. For instance, Gerrit has different submit/merge types (e.g. MergeIfNecessay, RebaseIfNecessary) which can be configured per repository. Would le-git-imate respect them as well?\n\u003e \n\u003e In our prototype implementation, we already considered the \"always merge” policy. But it wouldn\u0027t be a major problem to support other options. \n\u003e We are working on how to integrate all Gerrit policies into our extension. For instance, different policies can be defined in the le-git-imate setup step.\n\u003e \n\u003e \u003e Will submit/merging be implemented by uploading a new commit to Gerrit and then relying on Gerrit\u0027s auto-close feature for changes? \n\u003e \n\u003e Currently we rely on Gerrit auto-close though we can use Gerrit APIs to close the change. We would be happy to discuss it further for the alternative approaches. \n\u003e \n\u003e \u003e What if the user lacks permission to directly push to the master branch of the repository (as is common for many Gerrit installations to protect the master branch from unreviewed commits)?\n\u003e \n\u003e There are such permission issues on GiHub/GitLab as well. In those cases, we warn the user (a pop-up message) about the issue. This is another example of issues that we can discuss more.\n\u003e \n\u003e \u003e When it comes to editing, I guess you would need to replace Gerrit\u0027s \"Publish Edit\", wouldn\u0027t you? Since the commit is created fully on the frontend, the new commit would need to be uploaded as a new patch set and the existing edit would need to be discarded/deleted. Or did you find a smarter way?\n\u003e \n\u003e Yes, we do publish the edit. From a security point of view, we would like to keep track of everything in the repository history (discard nothing). However, our design is not finalized yet and we would be happy to get advice from your side. \n\u003e \n\u003e \u003e Would signing be also available for other actions on Gerrit\u0027s change screen like \"Rebase\", \"Cherry-pick\", \"Create follow-up change\", or \"Revert\"?\n\u003e \n\u003e At the moment, we are not working on them since we are focus on the core implementation. In general, supporting those actions is a matter of re-implementing some git functionalities (e.g., git rebase) in the browser. They can definitely be considered as a future plan.\n\n\u003e How realistic is this concern, though? \n\nFirst, the fast growing increase of software supply chain attack shows how real this threat is. Second, the integrity of commits can only be guaranteed if all commits are signed by users.\nIn our paper, we have shown several tampering attacks against commits made via the web UI. Such attacks: (1) are stealthy in nature, since subtle changes bundled together with a developer’s actions are hard to detect, (2) can be framed as if the user did something wrong, and (3) can be executed either by attackers than control the Git server, or by MITM attackers in conjunction with a user’s web UI action.\n\n\u003e I\u0027m asking because we at Google are very much worried that clients got themselves hacked (since not all clients are managed tightly), and are pushing rogue code.  If however, an adversary is already in the position to control what goes on inside the Git/Gerrit server, then we\u0027re already in a very bad place.\n\nFirst, our defense mechanism is aimed to mitigate attacks that tamper with commits performed through the web UI.\nSecond, defenses like le-git-imate and the intended commit/review signing for Gerrit rely on the ability of clients (developers) to properly protect their signing keys. Even if an attacker was able to compromise a client, then signing a malicious commit would incriminate that client, thus leaving a trail of evidence.\n\nIt is notable that le-git-imate assumes the attacker is able to tamper with the repository including any aspect of the web pages served to clients. This scenario may happen either directly (e.g., a compromised or malicious server), or indirectly (e.g., through MITM attacks, such as government attacks against GitHub). There is evidence that, despite the use of HTTPS, MITM attacks are still possible due to powerful nation-state adversaries or due to various protocol flaws. Such an attacker will continue to violate the repository’s integrity as long as the attacks are undetected.\nSince web UI commits are created by the server (on behalf of the user) are not signed by the user, the attack may go undetected for a long amount of time. \n\nIn sum, rather than relying exclusively on the ability of web services to remain secure, client-side mechanisms such as le-git-imate can provide an additional layer of protection.",
+      "parentUuid": "17dfd123_035a5224",
       "range": {
         "startLine": 30,
         "startChar": 13,
