@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "914a9bb4_e97651de",
+        "filename": "_posts/2019-08-06-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-08-07T07:36:13Z",
+      "side": 1,
+      "message": "One \u0027to\u0027 too much.",
+      "range": {
+        "startLine": 41,
+        "startChar": 55,
+        "endLine": 41,
+        "endChar": 57
+      },
+      "revId": "6822757fa19b89cc77f4202a60e14c5da2cc0219",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f4c4043c_35b9e125",
+        "filename": "_posts/2019-08-06-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-08-07T07:36:13Z",
+      "side": 1,
+      "message": "Could we maybe start to use \u0027frontend\u0027 at some point in time instead of \u0027PolyGerrit\u0027? Since we don\u0027t have GWT anymore, there\u0027s no need to make a distinction.",
+      "range": {
+        "startLine": 73,
+        "startChar": 27,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "6822757fa19b89cc77f4202a60e14c5da2cc0219",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dc7952ce_b0d6a7b1",
+        "filename": "_posts/2019-08-06-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-08-07T07:36:13Z",
+      "side": 1,
+      "message": "backend?",
+      "range": {
+        "startLine": 80,
+        "startChar": 78,
+        "endLine": 80,
+        "endChar": 82
+      },
+      "revId": "6822757fa19b89cc77f4202a60e14c5da2cc0219",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ef291087_0ba771e1",
+        "filename": "_posts/2019-08-06-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-08-07T07:36:13Z",
+      "side": 1,
+      "message": "backend?",
+      "range": {
+        "startLine": 85,
+        "startChar": 4,
+        "endLine": 85,
+        "endChar": 8
+      },
+      "revId": "6822757fa19b89cc77f4202a60e14c5da2cc0219",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "76cd364e_d9de145a",
+        "filename": "_posts/2019-08-06-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-08-07T07:36:13Z",
+      "side": 1,
+      "message": "the backend code?",
+      "range": {
+        "startLine": 97,
+        "startChar": 26,
+        "endLine": 97,
+        "endChar": 30
+      },
+      "revId": "6822757fa19b89cc77f4202a60e14c5da2cc0219",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "34c39a16_a0dad45e",
+        "filename": "_posts/2019-08-06-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-08-07T07:36:13Z",
+      "side": 1,
+      "message": "Do we still have those? I thought we didn\u0027t explicitly make a distinction anymore. Of course, we still have people who are more focused on the backend or on the frontend but I don\u0027t think that we need a hard cut.",
+      "range": {
+        "startLine": 100,
+        "startChar": 18,
+        "endLine": 100,
+        "endChar": 40
+      },
+      "revId": "6822757fa19b89cc77f4202a60e14c5da2cc0219",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
