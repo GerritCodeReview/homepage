@@ -37,6 +37,25 @@ Note: Please add new kudos at the top of this list.
 
 ---
 
+**[2019-08-07] To: David Pursehouse (CollabNet)**
+
+```
+  For the open source community it is very important that all discusssions are
+  transparent and that findings and conclusions are clearly communicated. David
+  takes care to collect and publish project news regularly on our homepage [1]
+  making it easy for everyone to follow what's going on in the project.
+  Previously one could get this level of insights only by closely following the
+  mailing list and ongoing reviews. Thank you David, this is a great overview
+  for everyone, especially for people that are not deeply involved in the
+  project.
+```
+
+[1] <https://www.gerritcodereview.com/news.html>
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2019-03-21] To: Gert van Dijk**
 
 ```
