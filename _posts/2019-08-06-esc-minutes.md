@@ -17,7 +17,7 @@ David Pursehouse, Alice Kober-Sotzek, Patrick Hiesel, Ben Rohlfs
 
 ### Place/Date/Duration
 
-Online, July 23, 12:30 - 13:30 CEST
+Online, August 6, 12:30 - 13:30 CEST
 
 ### Next meeting
 
