@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "941ce321_dd051a92",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "I am not sure, I think we should ask Android.",
+      "parentUuid": "02d72395_99f378ac",
+      "range": {
+        "startLine": 9,
+        "startChar": 33,
+        "endLine": 9,
+        "endChar": 48
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e2953168_1df6a3ae",
         "filename": "pages/design-docs/revert-submit/solution-Gal.md",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2019-08-13T16:07:27Z",
       "side": 1,
       "message": "is this necessary? you can find the submitID from the change, ie. have \n\n  POST /changes/123/revert.all\n\non a merged change, and then submit-ID associated with 123.",
+      "range": {
+        "startLine": 10,
+        "startChar": 65,
+        "endLine": 10,
+        "endChar": 93
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea15d896_62e1ee00",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "I am not sure about this as well, we should ask Android.\nShould 123 be the changeID or perhaps submitID?\nI think it would be more intuitive if it were changeId, and then users don\u0027t have to worry about submitId, the backend will find it for them.",
+      "parentUuid": "e2953168_1df6a3ae",
       "range": {
         "startLine": 10,
         "startChar": 65,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "b04a050a_1791c8bb",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "Once the input increases above 100s, it might take a few seconds/minutes to create all the necessary reverts. This is not exactly a problem, but should we implement a way to see the progress for the reverts already made?",
+      "parentUuid": "7ce9b465_0d974079",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 0
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ce76b6b7_9413cba4",
         "filename": "pages/design-docs/revert-submit/use-cases.md",
         "patchSetId": 1
@@ -91,6 +163,30 @@
       "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df741bc2_b3e33149",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ce76b6b7_9413cba4",
+      "range": {
+        "startLine": 16,
+        "startChar": 23,
+        "endLine": 16,
+        "endChar": 33
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -140,6 +236,54 @@
     },
     {
       "key": {
+        "uuid": "790ed77e_2e7dc244",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "Added",
+      "parentUuid": "da06a430_3bf2b43b",
+      "range": {
+        "startLine": 17,
+        "startChar": 65,
+        "endLine": 17,
+        "endChar": 99
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d03af2b6_e2f18af0",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f565c7db_c041aa63",
+      "range": {
+        "startLine": 17,
+        "startChar": 54,
+        "endLine": 17,
+        "endChar": 59
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "12d33899_02efe44f",
         "filename": "pages/design-docs/revert-submit/use-cases.md",
         "patchSetId": 1
@@ -151,6 +295,30 @@
       "writtenOn": "2019-08-13T16:07:27Z",
       "side": 1,
       "message": "Is that important? In the android case, this can\u0027t happen?",
+      "range": {
+        "startLine": 32,
+        "startChar": 50,
+        "endLine": 32,
+        "endChar": 69
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "978f0098_0ab68ebf",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "It is not important, but it is a corner case that we might have to consider. The solution of submission id evades this issue completely.",
+      "parentUuid": "12d33899_02efe44f",
       "range": {
         "startLine": 32,
         "startChar": 50,
@@ -186,6 +354,30 @@
     },
     {
       "key": {
+        "uuid": "f250438a_63cf2db9",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c07a5a5_da62c215",
+      "range": {
+        "startLine": 34,
+        "startChar": 23,
+        "endLine": 34,
+        "endChar": 29
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8643e59b_a2871ac3",
         "filename": "pages/design-docs/revert-submit/use-cases.md",
         "patchSetId": 1
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "3f5e2512_84854fde",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "Yes, I agree",
+      "parentUuid": "8643e59b_a2871ac3",
+      "range": {
+        "startLine": 35,
+        "startChar": 74,
+        "endLine": 35,
+        "endChar": 91
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e77fbef3_95705e12",
         "filename": "pages/design-docs/revert-submit/use-cases.md",
         "patchSetId": 1
@@ -220,6 +436,30 @@
       "writtenOn": "2019-08-13T16:07:27Z",
       "side": 1,
       "message": "why not?",
+      "range": {
+        "startLine": 36,
+        "startChar": 280,
+        "endLine": 36,
+        "endChar": 290
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ae29de03_9135b62b",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-13T18:12:45Z",
+      "side": 1,
+      "message": "If the issue in question 2 is not important since Android won\u0027t encounter it, I think this issue falls under the same category.",
+      "parentUuid": "e77fbef3_95705e12",
       "range": {
         "startLine": 36,
         "startChar": 280,
