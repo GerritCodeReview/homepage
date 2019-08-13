@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02d72395_99f378ac",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "is this necessary? I think we can already query for the submission ID, but just not from the UI.",
+      "range": {
+        "startLine": 9,
+        "startChar": 33,
+        "endLine": 9,
+        "endChar": 48
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e2953168_1df6a3ae",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "is this necessary? you can find the submitID from the change, ie. have \n\n  POST /changes/123/revert.all\n\non a merged change, and then submit-ID associated with 123.",
+      "range": {
+        "startLine": 10,
+        "startChar": 65,
+        "endLine": 10,
+        "endChar": 93
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7ce9b465_0d974079",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "scale is about how effort increases with increased inputs.\n\nIs there a reason behind 100s as a limit case?  What intrinsic limits does the infrastructure you use have?",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 0
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce76b6b7_9413cba4",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "blank line after this header.",
+      "range": {
+        "startLine": 16,
+        "startChar": 23,
+        "endLine": 16,
+        "endChar": 33
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f565c7db_c041aa63",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "can you wrap this at 80 columns, throughout?",
+      "range": {
+        "startLine": 17,
+        "startChar": 54,
+        "endLine": 17,
+        "endChar": 59
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "da06a430_3bf2b43b",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "The important part is that the changes are across repositories.\n\nI think the discussion is confusing because you can submit changes together (dependent changes) always, but the use-case Android is interested in, is \"atomic\" submissions across repositories.",
+      "range": {
+        "startLine": 17,
+        "startChar": 65,
+        "endLine": 17,
+        "endChar": 99
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "12d33899_02efe44f",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "Is that important? In the android case, this can\u0027t happen?",
+      "range": {
+        "startLine": 32,
+        "startChar": 50,
+        "endLine": 32,
+        "endChar": 69
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2c07a5a5_da62c215",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "this is not a question",
+      "range": {
+        "startLine": 34,
+        "startChar": 23,
+        "endLine": 34,
+        "endChar": 29
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8643e59b_a2871ac3",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "topic or submission?\n\nwe could throw an error,  I think",
+      "range": {
+        "startLine": 35,
+        "startChar": 74,
+        "endLine": 35,
+        "endChar": 91
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e77fbef3_95705e12",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-13T16:07:27Z",
+      "side": 1,
+      "message": "why not?",
+      "range": {
+        "startLine": 36,
+        "startChar": 280,
+        "endLine": 36,
+        "endChar": 290
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
