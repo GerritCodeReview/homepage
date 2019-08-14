@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "830981c8_e338c4b9",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-14T18:34:28Z",
+      "side": 1,
+      "message": "Yes, I agree, but it\u0027s a nice-to-have that we can treat separately.\n\nOr, it is an alternative that lets clients mimick the revert client-side.",
+      "parentUuid": "bbfb2cac_eade6d2c",
+      "range": {
+        "startLine": 9,
+        "startChar": 33,
+        "endLine": 9,
+        "endChar": 48
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e2953168_1df6a3ae",
         "filename": "pages/design-docs/revert-submit/solution-Gal.md",
         "patchSetId": 1
@@ -144,6 +168,30 @@
     },
     {
       "key": {
+        "uuid": "5f64ef4b_caa19d8a",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-14T18:34:28Z",
+      "side": 1,
+      "message": "yes it is my suggestion to let the backend figure out the submit ID from the change id. the submit ID is not a change identifier, so /changes/{submit-ID}/ would be strange.",
+      "parentUuid": "ea15d896_62e1ee00",
+      "range": {
+        "startLine": 10,
+        "startChar": 65,
+        "endLine": 10,
+        "endChar": 93
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7ce9b465_0d974079",
         "filename": "pages/design-docs/revert-submit/solution-Gal.md",
         "patchSetId": 1
@@ -179,6 +227,30 @@
       "side": 1,
       "message": "Once the input increases above 100s, it might take a few seconds/minutes to create all the necessary reverts. This is not exactly a problem, but should we implement a way to see the progress for the reverts already made?",
       "parentUuid": "7ce9b465_0d974079",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 0
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "70a98a92_d1951675",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-08-14T18:34:28Z",
+      "side": 1,
+      "message": "What you point is not what we usually call scalability, but rather UX/UI.",
+      "parentUuid": "b04a050a_1791c8bb",
       "range": {
         "startLine": 21,
         "startChar": 0,
