@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "bbfb2cac_eade6d2c",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-08-14T06:25:21Z",
+      "side": 1,
+      "message": "Ah maybe you meant internally? That would work by implementing a query predicate without exposing it as query operator, but that\u0027s the same amount of work.\n\nAnyway, if we offer revert by submission ID, I expect that people want to know beforehand which changes will be reverted if they do a revert by submission ID, don\u0027t they? To answer this we would need the query operator.",
+      "parentUuid": "ad7a16dc_b9a0eab9",
+      "range": {
+        "startLine": 9,
+        "startChar": 33,
+        "endLine": 9,
+        "endChar": 48
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e2953168_1df6a3ae",
         "filename": "pages/design-docs/revert-submit/solution-Gal.md",
         "patchSetId": 1
