@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "ad7a16dc_b9a0eab9",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-08-14T06:21:26Z",
+      "side": 1,
+      "message": "\u003e I think we can already query for the submission ID\n\nHow would this work if there is no query operator?",
+      "parentUuid": "941ce321_dd051a92",
+      "range": {
+        "startLine": 9,
+        "startChar": 33,
+        "endLine": 9,
+        "endChar": 48
+      },
+      "revId": "5811f9ed727990d1f92c543ced3604ded9aed400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e2953168_1df6a3ae",
         "filename": "pages/design-docs/revert-submit/solution-Gal.md",
         "patchSetId": 1
