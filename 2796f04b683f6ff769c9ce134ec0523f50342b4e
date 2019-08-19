@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "61773824_a920a86b",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-19T11:46:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5bd5043e_70a845af",
+      "range": {
+        "startLine": 15,
+        "startChar": 26,
+        "endLine": 15,
+        "endChar": 58
+      },
+      "revId": "2796f04b683f6ff769c9ce134ec0523f50342b4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3d769188_9bfde3f4",
         "filename": "pages/design-docs/revert-submit/use-cases.md",
         "patchSetId": 4
@@ -71,6 +95,54 @@
     },
     {
       "key": {
+        "uuid": "80e9438f_7b1b3d5b",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-19T11:46:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "122a54bf_18ee5030",
+      "range": {
+        "startLine": 22,
+        "startChar": 53,
+        "endLine": 22,
+        "endChar": 72
+      },
+      "revId": "2796f04b683f6ff769c9ce134ec0523f50342b4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f8f0fba4_f5b2b8cc",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-19T11:46:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3d769188_9bfde3f4",
+      "range": {
+        "startLine": 21,
+        "startChar": 51,
+        "endLine": 22,
+        "endChar": 37
+      },
+      "revId": "2796f04b683f6ff769c9ce134ec0523f50342b4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "25b4084b_f776dda9",
         "filename": "pages/design-docs/revert-submit/use-cases.md",
         "patchSetId": 4
@@ -91,6 +163,30 @@
       "revId": "2796f04b683f6ff769c9ce134ec0523f50342b4e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5e0d9066_20c4998d",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-19T11:46:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "25b4084b_f776dda9",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 54
+      },
+      "revId": "2796f04b683f6ff769c9ce134ec0523f50342b4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
