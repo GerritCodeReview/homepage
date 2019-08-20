@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "b79ba2d3_a10b20fa",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-20T09:47:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3107b86e_76cc3749",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 25
+      },
+      "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9096f8e4_2f5d3f49",
         "filename": "pages/design-docs/revert-submit/solution-Gal.md",
         "patchSetId": 7
@@ -88,6 +112,24 @@
     },
     {
       "key": {
+        "uuid": "ad1bc423_099ac9e4",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-20T09:47:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca306652_3480ce61",
+      "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f0a1af5c_e2f74e64",
         "filename": "pages/design-docs/revert-submit/solution-Gal.md",
         "patchSetId": 7
@@ -99,6 +141,24 @@
       "writtenOn": "2019-08-20T07:58:28Z",
       "side": 1,
       "message": "Is there any reason not to do this in the first place?",
+      "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3727f527_58f736aa",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-20T09:47:13Z",
+      "side": 1,
+      "message": "I don\u0027t think there is a point allowing the user to query by submission id if he doesn\u0027t know the submission id of any change.",
+      "parentUuid": "f0a1af5c_e2f74e64",
       "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
