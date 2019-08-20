@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7156e095_1bcbffb3",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-08-20T14:15:07Z",
+      "side": 1,
+      "message": "I think I understand what you mean and agree that it is a good way to approach this, but the writing makes it sound like the endpoint and the UIAction are the same thing (\u003dcall). However, they are completely separate. How about this:\n\n### Implement a UIAction to show a \"Revert all\" button\nThe action will perform basic sanity checks that are fast to decide if the \"Revert all\" button should be shown. We will check {permissions, ...}. This leaves the possibility for false-positives (button shows, action fails) which is the result of a trade-off between performance and correctness that is often followed for deciding button visibility.\n\n### Implement a REST endpoint (change resource) to revert all changes with the same submission ID\nThe endpoint will first perform a number of checks to see if \"Revert all\" is a legal action on the change. These conditions have to be met:\n- permission...\n- change status...\n\nIt will then use the index to get all changes that have the same change ID. It will run the aforementioned checks also on these changes. It will then figure out the ordering in which the changes have to be reverted by adhering to the following sorting principles\n- parent before child,...\n\nThe next step is to try to revert the ordered list of changes one-by-one. This phase will be retried on a per-change basis to ensure maximum fail-safety.\n\nEach reverted change will be added to a topic with the following name spec: \"$originalName-revert\".\n\nEach original change will be updated to link to it\u0027s revert from the change messages, similar to a singular revert.\n\nThe final HTTP response will contain a list of ChangeInfos that represent the reverted changes.\n\n(optional) The endpoint will have a dry-run mode when \u0027dry-run\u0027 is passed as parameter. It will report back both the status (success, failure) and a list of changes that will get reverted if the dry run succeeds. This will allow the UI to show a preview of what the action will do to the user. When dry run is requested, the endpoint will do all the work required without the final write action.",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 38
+      },
+      "revId": "31b238654a4043f7a4bd86ce6ef6f84b90ebfb10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
