@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df4aa3ba_01ae070d",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-08-20T07:58:28Z",
+      "side": 1,
+      "message": "tiny nit: Remove \u0027should\u0027 and \u0027would\u0027. This is a solution that will achieve a goal, so these steps are necessary.",
+      "range": {
+        "startLine": 11,
+        "startChar": 11,
+        "endLine": 11,
+        "endChar": 17
+      },
+      "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3107b86e_76cc3749",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-08-20T07:58:28Z",
+      "side": 1,
+      "message": "Topics can span multiple repositories. Transactions across repositories are not atomic, so we can make a good effort (\u003dretry) to try and create reverts for all changes with a certain submission ID, but there is no guarantee.\n\nI don\u0027t think it\u0027s a problem, but it\u0027d be good for the doc to clarify this and talk about retrying.",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 25
+      },
+      "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9096f8e4_2f5d3f49",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-08-20T07:58:28Z",
+      "side": 1,
+      "message": "For changes in the same repository, that is. Cross-repo submissions have no guaranteed ordering if I recall that correctly.",
+      "range": {
+        "startLine": 57,
+        "startChar": 35,
+        "endLine": 57,
+        "endChar": 36
+      },
+      "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ca306652_3480ce61",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-08-20T07:58:28Z",
+      "side": 1,
+      "message": "This is a UIAction, I assume?\n\nCan you be a little more specific with the pre-flight checks? What is checked (e.g. checking if the user has CREATE_CHANGE permission everywhere, etc.)?\n\nUI Actions can be more expensive from a computing perspective, but they shouldn\u0027t go above and beyond, so it would be interesting to know upfront what this will look like approximately. Specifically, if you want to do any Git operations.",
+      "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f0a1af5c_e2f74e64",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-08-20T07:58:28Z",
+      "side": 1,
+      "message": "Is there any reason not to do this in the first place?",
+      "revId": "d2832bb28e10bc825543ac4567e3438364c528ae",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
