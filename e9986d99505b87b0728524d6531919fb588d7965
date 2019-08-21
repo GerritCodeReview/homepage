@@ -22,6 +22,30 @@
       "revId": "e9986d99505b87b0728524d6531919fb588d7965",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eee9729a_510ff528",
+        "filename": "_posts/2019-08-20-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-08-21T11:18:43Z",
+      "side": 1,
+      "message": "According to the notes Alice won\u0027t be there on Saturday. I\u0027m not sure how that relates to the proposal for a bug fixing hackathon.\n\nAlice, can you clarify?",
+      "parentUuid": "538bb6ad_b1c8d6cc",
+      "range": {
+        "startLine": 98,
+        "startChar": 66,
+        "endLine": 99,
+        "endChar": 12
+      },
+      "revId": "e9986d99505b87b0728524d6531919fb588d7965",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
