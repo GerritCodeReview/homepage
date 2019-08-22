@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3937253c_7a1e5568",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-08-22T07:37:32Z",
+      "side": 1,
+      "message": "this sentence seems broken",
+      "range": {
+        "startLine": 12,
+        "startChar": 67,
+        "endLine": 12,
+        "endChar": 75
+      },
+      "revId": "f56ba157ae35b4fa88aeb2e9bf88b2b95bfc8dca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "290d0c3f_7de8168f",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-08-22T07:37:32Z",
+      "side": 1,
+      "message": "dependencies",
+      "range": {
+        "startLine": 82,
+        "startChar": 36,
+        "endLine": 82,
+        "endChar": 48
+      },
+      "revId": "f56ba157ae35b4fa88aeb2e9bf88b2b95bfc8dca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c36d2fae_c50d5fa5",
+        "filename": "pages/design-docs/revert-submit/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-08-22T07:37:32Z",
+      "side": 1,
+      "message": "reverts",
+      "range": {
+        "startLine": 22,
+        "startChar": 36,
+        "endLine": 22,
+        "endChar": 45
+      },
+      "revId": "f56ba157ae35b4fa88aeb2e9bf88b2b95bfc8dca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
