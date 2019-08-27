@@ -16,6 +16,24 @@
       "revId": "4a075e38d0c0719aa8f1291ee55049677f1fa0b3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "76f4504d_65e9a285",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 700,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-08-27T09:58:18Z",
+      "side": 1,
+      "message": "And this one?\n\nhttps://gerrit-review.googlesource.com/c/gerrit/+/234437\n\n(Looks like making starring/unstarring changes got more reliable by retrying on backend error?)",
+      "parentUuid": "54993f1d_d85be181",
+      "revId": "4a075e38d0c0719aa8f1291ee55049677f1fa0b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
