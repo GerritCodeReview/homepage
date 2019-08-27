@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50d90138_2ec53fa9",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 624,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-08-27T14:29:59Z",
+      "side": 1,
+      "message": "* missing issueID in link\n* (nit) missing colon",
+      "range": {
+        "startLine": 624,
+        "startChar": 60,
+        "endLine": 624,
+        "endChar": 71
+      },
+      "revId": "27b3065370e5b9a56401df9012c737cc54f75ac5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
