@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b59bb93_d3daa83a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 658,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-08-27T09:31:56Z",
+      "side": 1,
+      "message": "(nit) missing colon (inconsistent with other items)",
+      "range": {
+        "startLine": 658,
+        "startChar": 75,
+        "endLine": 658,
+        "endChar": 76
+      },
+      "revId": "751cd480c2791b963ff489fb4c26934e590cefd2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "672133f0_e0808792",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-08-27T09:31:56Z",
+      "side": 1,
+      "message": "(nit) extraneous line (inconsistent with other items)",
+      "revId": "751cd480c2791b963ff489fb4c26934e590cefd2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0eedc4e4_5b8f7cb0",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 694,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-08-27T09:31:56Z",
+      "side": 1,
+      "message": "(as discussed on Slack) consider including\n\n  * [Issue 11271](https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d11271)\n  Update rules_go to 0.18.6 for compatibility with Bazel 0.27.0",
+      "revId": "751cd480c2791b963ff489fb4c26934e590cefd2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
