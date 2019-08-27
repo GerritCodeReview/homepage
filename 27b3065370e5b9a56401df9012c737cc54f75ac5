@@ -70,6 +70,30 @@
       "revId": "27b3065370e5b9a56401df9012c737cc54f75ac5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "74803942_39a8dbc2",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 624,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-08-27T14:54:13Z",
+      "side": 1,
+      "message": "Let me fix in a followup change: done in Change-Id: I30f15058aa.",
+      "parentUuid": "ce2eb052_e5bb843e",
+      "range": {
+        "startLine": 624,
+        "startChar": 60,
+        "endLine": 624,
+        "endChar": 71
+      },
+      "revId": "27b3065370e5b9a56401df9012c737cc54f75ac5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
