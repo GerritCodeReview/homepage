@@ -52,6 +52,24 @@
       "revId": "4a075e38d0c0719aa8f1291ee55049677f1fa0b3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cc296760_cbf80d74",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 700,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-08-27T10:07:10Z",
+      "side": 1,
+      "message": "My mistake. For the second one I included it in the 2.15.16 notes [1] but missed it here.\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/234774/3/pages/site/releases/2.15.md#434",
+      "parentUuid": "50c07bf8_d3afee08",
+      "revId": "4a075e38d0c0719aa8f1291ee55049677f1fa0b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
