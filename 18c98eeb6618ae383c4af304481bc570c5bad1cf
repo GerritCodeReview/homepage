@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d9d5b776_8ec05a1c",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-08-28T07:54:30Z",
+      "side": 1,
+      "message": "This should be written in the context of development of Gerrit itself, it\u0027s not relevant for most users, right?\n\nsuggestion:\n\n Add a git-review configuration for Gerrit developers",
+      "revId": "18c98eeb6618ae383c4af304481bc570c5bad1cf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a286c70e_b7b1bf36",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 479,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-08-28T07:54:30Z",
+      "side": 1,
+      "message": "(minor) suggest to include what this fixes?\n\n Set XSRF token for `/` to avoid potential unauthenticated errors after redirects from /login/",
+      "revId": "18c98eeb6618ae383c4af304481bc570c5bad1cf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
