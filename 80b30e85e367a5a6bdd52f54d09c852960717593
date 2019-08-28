@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "90f6f34d_5f9809f1",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-08-28T18:13:55Z",
+      "side": 1,
+      "message": "I would add the end-user impact: Fix stale replication pushes caused by an in-flight push ...",
+      "revId": "80b30e85e367a5a6bdd52f54d09c852960717593",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bebbf5ff_c478172e",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 711,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-08-28T18:13:55Z",
+      "side": 1,
+      "message": "This isn\u0027t really *that* implementation but rather the introduction of a new extension point.",
+      "range": {
+        "startLine": 710,
+        "startChar": 2,
+        "endLine": 711,
+        "endChar": 30
+      },
+      "revId": "80b30e85e367a5a6bdd52f54d09c852960717593",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6cd89333_8b60eab1",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 719,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-08-28T18:13:55Z",
+      "side": 1,
+      "message": "A bit more description is needed, copying from the commit message:\n\n    When the replication plugin is stopped or reloaded,\n    mark all the current replications as cancelled.",
+      "revId": "80b30e85e367a5a6bdd52f54d09c852960717593",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
