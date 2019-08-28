@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5b4e3133_04f7cfeb",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-28T10:15:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "72a64558_b53afce3",
+      "range": {
+        "startLine": 13,
+        "startChar": 32,
+        "endLine": 13,
+        "endChar": 55
+      },
+      "revId": "14f442f552361c79dc75b114a78db57ba2276407",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c98f2c52_8dd6137c",
         "filename": "pages/design-docs/revert-submit/solution-Gal.md",
         "patchSetId": 10
@@ -39,6 +63,24 @@
       "revId": "14f442f552361c79dc75b114a78db57ba2276407",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c46cc062_87e52ed8",
+        "filename": "pages/design-docs/revert-submit/solution-Gal.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-08-28T10:15:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c98f2c52_8dd6137c",
+      "revId": "14f442f552361c79dc75b114a78db57ba2276407",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
