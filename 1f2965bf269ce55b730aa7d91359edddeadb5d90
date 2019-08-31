@@ -16,6 +16,24 @@
       "revId": "1f2965bf269ce55b730aa7d91359edddeadb5d90",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1b963b00_7a4a28a5",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-08-31T21:55:15Z",
+      "side": 1,
+      "message": "\u003e How do existing sites like Wikimedia resolve this?\n\nWhilst you are in v2.15/NoteDb, you will not experience any problem.\nThe migration to v2.16 instead will be definitely painful :-(\n\nOn GerritHub.io, I had to remove some changes from the repository, otherwise, the migration would have never succeeded.",
+      "parentUuid": "a19f975a_85d6eee9",
+      "revId": "1f2965bf269ce55b730aa7d91359edddeadb5d90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
