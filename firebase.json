@@ -121,6 +121,11 @@
         "source": "/releases/README.md",
         "destination": "/releases-readme.html",
         "type": 301
+      },
+      {
+          "source": "support.md",
+          "destination": "/support.html",
+          "type": 301
       }
     ]
   }
