@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "438c5d84_571e257c",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-03T07:50:33Z",
+      "side": 1,
+      "message": "Maybe just \u0027Often\u0027?",
+      "range": {
+        "startLine": 16,
+        "startChar": 25,
+        "endLine": 16,
+        "endChar": 44
+      },
+      "revId": "1c974e9e4f76296520c1912eab0830d979dc530e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "53d4fc74_359f01ff",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-03T07:50:33Z",
+      "side": 1,
+      "message": "This sentence looks a bit broken to me. Maybe something like this would be better:\n\n\"Many questions regarding Gerrit concerns are a direct result of local environment and configuration. Often such issues have already been discussed on the repo-discuss mailing list and you may find an answer by searching through the existing posts. If you have a new question, you can start a new discussion thread. Via the mailing list you can reach Gerrit experts in the our world wide community and benefit from their collective knowledge.\"",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 52
+      },
+      "revId": "1c974e9e4f76296520c1912eab0830d979dc530e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "39c63c90_e3686545",
         "filename": "pages/site/support.md",
         "patchSetId": 1
