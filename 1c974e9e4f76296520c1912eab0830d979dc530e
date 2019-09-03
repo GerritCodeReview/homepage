@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "39c63c90_e3686545",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-03T07:13:22Z",
+      "side": 1,
+      "message": "Looking at [1] it looks like we still file feature requests in the issue tracker and\nfollow the design process for the larger ones.\n\nI think tracking also feature requests in the issue tracker makes sense since issue trackers help\nto track status over time whereas design-docs define a valuable format how to design those features.\nIf we don\u0027t use an issue tracker for tracking feature requests how do we do queries on\nstatus of design docs and their implementation ?\n\n[1] https://bugs.chromium.org/p/gerrit/issues/list?q\u003dType%3DFeature",
+      "revId": "1c974e9e4f76296520c1912eab0830d979dc530e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
