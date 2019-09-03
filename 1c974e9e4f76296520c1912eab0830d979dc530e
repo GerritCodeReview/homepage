@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "147e0629_40776211",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-09-03T10:14:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "438c5d84_571e257c",
+      "range": {
+        "startLine": 16,
+        "startChar": 25,
+        "endLine": 16,
+        "endChar": 44
+      },
+      "revId": "1c974e9e4f76296520c1912eab0830d979dc530e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "53d4fc74_359f01ff",
         "filename": "pages/site/support.md",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "191b4934_5c9b6887",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-09-03T10:14:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53d4fc74_359f01ff",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 52
+      },
+      "revId": "1c974e9e4f76296520c1912eab0830d979dc530e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "39c63c90_e3686545",
         "filename": "pages/site/support.md",
         "patchSetId": 1
@@ -62,6 +110,24 @@
       "revId": "1c974e9e4f76296520c1912eab0830d979dc530e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0b5aab8_2c6b0561",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-09-03T10:14:01Z",
+      "side": 1,
+      "message": "Changed the phrasing to the less absolute \"...not always the best place...\"\n\nThe intent is to limit the amount of fire-and-forget feature requests that (IMO) floods the the already bogged down issue-tracker. If you need to invest the time to describe general use-cases etc. there\u0027s at least a chance that the feature requests we get are fewer, more thought through and easier to handle.\nThis could be made better by having a template for feature-requests that f.i. suggests that the filer should list some general use-cases etc. (currently the new feature request template is empty).\n\nWith \"not a good place to initially request new features\" I tried to describe that if you are looking for feedback for a new feature it\u0027s not the best place to start.\n1. My impression is that it\u0027s hard to get a reasonably fast Ack/Nak for a feature request in the issue tracker.\n  a. \"Accepted\" status sort of gives the impression that someone has started\n     working on the feature or that it is in someones backlog.\n  b. The decision whether the feature is aligned with future plans for Gerrit\n     or fits within the scope of what Gerrit should handle (not saying there\u0027s\n     a clear picture there) should perhaps handled by a group of people\n     (maintainers, SCE ...) or at least with the help of some guidelines. This\n     may be why people seem to be hesitant to give any sort of feedback on\n     Feature-Issues.\n  \n  This could be remedied, while still having feature requests in the issue tracker, by having some sort of separate process for feature requests.\n\n2. I\u0027m not trying to suggest that we shouldn\u0027t track features in the issue-tracker just that it\u0027s currently sub-optimal for requesting new ones. Tracking progress of accepted features where implementation is planned or ongoing should IMO be tracked in the issue-tracker.",
+      "parentUuid": "39c63c90_e3686545",
+      "revId": "1c974e9e4f76296520c1912eab0830d979dc530e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
