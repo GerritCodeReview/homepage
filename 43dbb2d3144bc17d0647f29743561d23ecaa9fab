@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bff6062f_b9c903c7",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-04T05:51:29Z",
+      "side": 0,
+      "message": "I believe we should keep the implicit policy, as people may miss the announcement on the mailing list and thus assume that the version is still active.\n\nWe can mention that we will remind people on the mailing list as you proposed.",
+      "range": {
+        "startLine": 17,
+        "startChar": 37,
+        "endLine": 17,
+        "endChar": 47
+      },
+      "revId": "43dbb2d3144bc17d0647f29743561d23ecaa9fab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
