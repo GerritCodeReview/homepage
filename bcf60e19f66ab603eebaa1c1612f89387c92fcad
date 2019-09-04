@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "40f30637_15878c7e",
+        "filename": "firebase.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-04T07:18:49Z",
+      "side": 1,
+      "message": "I don\u0027t think this is needed.  The other entries are for redirecting files that existed before we moved to firebase and had to change the extensions.",
+      "range": {
+        "startLine": 125,
+        "startChar": 6,
+        "endLine": 129,
+        "endChar": 7
+      },
+      "revId": "bcf60e19f66ab603eebaa1c1612f89387c92fcad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
