@@ -14,8 +14,9 @@ may still receive important fixes (e.g. security fixes), but there is
 no guarantee for this. Which fixes are backported to these old
 releases is decided on a case by case basis.
 
-End of life for old releases happens implicitly when a new Gerrit version
-is released, and is not necessarily announced.
+End of life for old release happens implicitly when a new Gerrit version is
+released, and is announced via the [project news](https://www.gerritcodereview.com/news.html)
+and on the mailing list.
 
 The following table shows the current level of support for Gerrit releases:
 
