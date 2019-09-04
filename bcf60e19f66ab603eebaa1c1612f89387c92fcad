@@ -22,6 +22,30 @@
       "revId": "bcf60e19f66ab603eebaa1c1612f89387c92fcad",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ac0b8a71_b2dd071e",
+        "filename": "firebase.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-09-04T11:01:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40f30637_15878c7e",
+      "range": {
+        "startLine": 125,
+        "startChar": 6,
+        "endLine": 129,
+        "endChar": 7
+      },
+      "revId": "bcf60e19f66ab603eebaa1c1612f89387c92fcad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
