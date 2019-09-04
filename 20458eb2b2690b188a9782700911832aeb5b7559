@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f66bf6f_ec886f6e",
+        "filename": "_posts/2019-09-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-04T05:46:18Z",
+      "side": 1,
+      "message": "This look too pessimistic :-)\nCan we just say \"they will be published once they will be vetted by Volvo legal team?\"",
+      "range": {
+        "startLine": 39,
+        "startChar": 48,
+        "endLine": 39,
+        "endChar": 61
+      },
+      "revId": "20458eb2b2690b188a9782700911832aeb5b7559",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aa2be812_43b7bc2b",
+        "filename": "_posts/2019-09-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-04T05:46:18Z",
+      "side": 1,
+      "message": "It was mentioned the E2E testing as a way to mitigate the time spent in making a release, the following chapter is thus linked to the same discussion.\n\nOnce we\u0027ll have in place E2E, the whole release process will be fully automated. Edwin is working on automating the release notes also.",
+      "range": {
+        "startLine": 89,
+        "startChar": 47,
+        "endLine": 89,
+        "endChar": 64
+      },
+      "revId": "20458eb2b2690b188a9782700911832aeb5b7559",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ed36c7ed_265bfc6b",
+        "filename": "_posts/2019-09-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-04T05:46:18Z",
+      "side": 1,
+      "message": "and the initial change posted (https://gerrit-review.googlesource.com/c/gerrit/+/225212).",
+      "range": {
+        "startLine": 99,
+        "startChar": 42,
+        "endLine": 99,
+        "endChar": 53
+      },
+      "revId": "20458eb2b2690b188a9782700911832aeb5b7559",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "37d0d13c_4e0fe88b",
+        "filename": "_posts/2019-09-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-04T05:46:18Z",
+      "side": 1,
+      "message": "similar to the one expected by Zuul",
+      "range": {
+        "startLine": 133,
+        "startChar": 41,
+        "endLine": 133,
+        "endChar": 45
+      },
+      "revId": "20458eb2b2690b188a9782700911832aeb5b7559",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
