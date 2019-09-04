@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "55a3563d_d56a478d",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-04T23:29:50Z",
+      "side": 1,
+      "message": "Why isn\u0027t the checker_uuid field needed?\n\nIf this entity has the same elements as the CheckInput, can we just add the sub_checks field to CheckInput as a list of CheckInputs but document that for sub_checks the checker_uuid is ignored?  Likewise, document that the sub_checks field itself is only relevant at the top level.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 0
+      },
+      "revId": "aed5e8c67e160e75fd2063271aa89fa743b8a63d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b84b062d_62437555",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-04T23:29:50Z",
+      "side": 1,
+      "message": "\u0027should\u0027 or \u0027must\u0027?",
+      "range": {
+        "startLine": 40,
+        "startChar": 35,
+        "endLine": 40,
+        "endChar": 39
+      },
+      "revId": "aed5e8c67e160e75fd2063271aa89fa743b8a63d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
