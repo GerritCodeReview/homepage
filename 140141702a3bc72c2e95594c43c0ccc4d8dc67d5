@@ -22,6 +22,30 @@
       "revId": "140141702a3bc72c2e95594c43c0ccc4d8dc67d5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bbaed56a_2286d4f2",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-05T14:24:16Z",
+      "side": 1,
+      "message": "Indeed, and we could use that facility in Zuul now (Zuul now has a \"buildset\" page in its web UI, so we could link the single check result to that, and users could follow the link and find all the individual job results).\n\nHowever, there\u0027s an additional desire here, and that is that we reduce the number of times a user has to leave Gerrit to find information about a change.  Many times it is important to see and understand which jobs ran for a change.  For example, in a repo with many jobs configured, only a few of which may run for a given change depending on what files are updated, the user may want to confirm that the expected jobs ran.  In the same way that displaying results, timing information, and a re-run button helps keep the most relevant information and actions related to a change in Gerrit, displaying subchecks will as well.\n\n(I will add this as a clarification to the use-case in the next PS.)",
+      "parentUuid": "0b00ad0c_26cd407c",
+      "range": {
+        "startLine": 51,
+        "startChar": 32,
+        "endLine": 53,
+        "endChar": 12
+      },
+      "revId": "140141702a3bc72c2e95594c43c0ccc4d8dc67d5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
