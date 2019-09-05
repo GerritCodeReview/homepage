@@ -34,6 +34,24 @@
       "revId": "1f2965bf269ce55b730aa7d91359edddeadb5d90",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7bef20c7_93b740e6",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2019-09-05T01:54:01Z",
+      "side": 1,
+      "message": "I mean for sites that have migrated under 2.15. Can we list a way of how to resolve this for sites that want to upgrade to 2.16 but migrated to NoteDB under 2.15?",
+      "parentUuid": "1b963b00_7a4a28a5",
+      "revId": "1f2965bf269ce55b730aa7d91359edddeadb5d90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
