@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "1e6ec5e9_19dca411",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-09-05T06:41:22Z",
+      "side": 1,
+      "message": "Nit: SubCheckInput.",
+      "range": {
+        "startLine": 23,
+        "startChar": 17,
+        "endLine": 23,
+        "endChar": 30
+      },
+      "revId": "aed5e8c67e160e75fd2063271aa89fa743b8a63d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "55a3563d_d56a478d",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 1
@@ -13,6 +36,30 @@
       "writtenOn": "2019-09-04T23:29:50Z",
       "side": 1,
       "message": "Why isn\u0027t the checker_uuid field needed?\n\nIf this entity has the same elements as the CheckInput, can we just add the sub_checks field to CheckInput as a list of CheckInputs but document that for sub_checks the checker_uuid is ignored?  Likewise, document that the sub_checks field itself is only relevant at the top level.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 0
+      },
+      "revId": "aed5e8c67e160e75fd2063271aa89fa743b8a63d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "889977bb_82c71084",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-09-05T06:41:22Z",
+      "side": 1,
+      "message": "\u003e Why isn\u0027t the checker_uuid field needed?\n\nBecause sub-checks never reported on their own, but always in the context of their *parent* check. Example (see also my comment on the parent change): Code-Style checker in gerrit would have 5 sub-checks:\n\n* Bazel-Style-Sub-Check\n* JavaScript-Style-Sub-Check\n* Java-Style-Sub-Check\n* Python-Style-Sub-Check\n* Shell-Style-Sub-Check\n\nThe CI would run all of them independently, but report the reult back to Gerrit on parent and single checker: Code-Style, with the independent outcome URLs and start/end time for every single sub-check job.",
+      "parentUuid": "55a3563d_d56a478d",
       "range": {
         "startLine": 21,
         "startChar": 0,
