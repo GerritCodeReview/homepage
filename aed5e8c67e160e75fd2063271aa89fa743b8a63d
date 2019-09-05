@@ -164,6 +164,23 @@
       "revId": "aed5e8c67e160e75fd2063271aa89fa743b8a63d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a8cc5bc2_36c0fee9",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-05T14:49:10Z",
+      "side": 1,
+      "message": "This should also explicitly state whether sub-checks should be individually re-runnable.  My recollection of our discussion at the hackathon is fuzzy -- I think it was suggested that the checker should include a flag for each sub-check indicating whether it is individually re-runnable, and if so, and the user clicks the re-run button for an individual sub-check, that we re-set both the sub-check and the overall check status to NOT_STARTED, notify the checker, and it should notice the change in sub-check status and know to re-run that sub-check.\n\n(We likely won\u0027t take advantage of this in Zuul in the forseeable future, as the immutability of buildsets (collections of jobs run on a change) is fairly well baked in at the moment, so we\u0027ll set that flag to false on all sub-checks.)",
+      "revId": "aed5e8c67e160e75fd2063271aa89fa743b8a63d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
