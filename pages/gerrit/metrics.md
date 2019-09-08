@@ -192,6 +192,11 @@ The following metrics are reported.
   - `plugins/replication/replication_retries`: Number of retries when
     pushing to remote destination.
 
+  - `plugins/replication/latency_slower_than`: Time (in ms) spent
+    pushing project to remote destination, where latency was slower than
+    threshold.
+
+
 ### License
 
   - `license/cla_check_count`: Total number of CLA check requests.
