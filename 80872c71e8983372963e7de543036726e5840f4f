@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "77f9c1e5_9033708f",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-09T12:01:49Z",
+      "side": 1,
+      "message": "nit: wrap this line",
+      "revId": "80872c71e8983372963e7de543036726e5840f4f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0bf3292b_411cef29",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-09T12:01:49Z",
+      "side": 1,
+      "message": "I think we should either drop or rephrase this. E.g. if an individual takes part in a code review discussion (on a change for the gerrit project), this individual is not representing the project, but this code of conduct should still apply for that discussion. I think that should be clearer (e.g. we should not make a difference between people contributing to the project and people representing the project).",
+      "range": {
+        "startLine": 36,
+        "startChar": 59,
+        "endLine": 41,
+        "endChar": 32
+      },
+      "revId": "80872c71e8983372963e7de543036726e5840f4f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
