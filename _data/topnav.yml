@@ -9,8 +9,6 @@ topnav:
       url: /news.html
     - title: Support
       url: /support.html
-    - title: Testimonials
-      url: /testimonials.html
     - title: Kudos
       url: /kudos.html
 #Topnav dropdowns
@@ -21,6 +19,8 @@ topnav_dropdowns:
       folderitems:
         - title: Members
           url: /members.html
+        - title: Testimonials
+          url: /testimonials.html
     - title: Code
       folderitems:
         - title: Source
