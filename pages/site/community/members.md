@@ -21,6 +21,8 @@ Community Managers for the 2019 term are:
 | Marco Miller          | Ericsson               |
 | Matthias Sohn         | SAP                    |
 
+You may contact community managers via email at [gerritcodereview-community-managers@googlegroups.com](mailto:gerritcodereview-community-managers@googlegroups.com).
+
 
 ## Engineering Steering Committee
 
