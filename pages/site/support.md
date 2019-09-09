@@ -20,14 +20,15 @@ and on the mailing list.
 
 The following table shows the current level of support for Gerrit releases:
 
-| Version  | Support Status |
-|----------|----------------|
-| 3.0      | Active         |
-| 2.16     | Active         |
-| 2.15     | Active         |
-| 2.14     | EOL [since 31 May 2019](https://www.gerritcodereview.com/2019-05-31-gerrit-end-of-life-update.html) |
-| 2.13     | EOL            |
-| pre 2.13 | EOL            |
+| Version  | Support Status | Notes |
+|----------|----------------|-------|
+| 3.1      | In development | [Release planned for November 2019](https://www.gerritcodereview.com/2019-09-09-gerrit-3.1-release-and-2.15-planned-eol.html) |
+| 3.0      | Active         |       |
+| 2.16     | Active         |       |
+| 2.15     | Active         | [EOL planned for November 2019](https://www.gerritcodereview.com/2019-09-09-gerrit-3.1-release-and-2.15-planned-eol.html) |
+| 2.14     | EOL            | [EOL since 31 May 2019](https://www.gerritcodereview.com/2019-05-31-gerrit-end-of-life-update.html) |
+| 2.13     | EOL            |       |
+| pre 2.13 | EOL            |       |
 
 ## General Support
 
