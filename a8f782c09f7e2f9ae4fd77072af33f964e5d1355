@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be96154b_fcc2a78e",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-09T22:13:10Z",
+      "side": 1,
+      "message": "Also collaborating on its development; see https://gerrit-review.googlesource.com/q/topic:%22subchecks%22+(status:open%20OR%20status:merged)",
+      "revId": "a8f782c09f7e2f9ae4fd77072af33f964e5d1355",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a46e5ec7_6ed3cff8",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-09T22:13:10Z",
+      "side": 1,
+      "message": "Nit: If you feel like updating this, the name is just \"Zuul\" (project gating is ultimately a suite of processes that include CI, but not limited to it).  Our website is zuul-ci.org because we couldn\u0027t afford to buy zuul.org off of whoever is squatting it.  :(\n\nLess of a nit: Do you want to mention that we\u0027re starting work to implement Zuul for upstream Gerrit?  https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d11418  I\u0027m working on that right now. :)",
+      "revId": "a8f782c09f7e2f9ae4fd77072af33f964e5d1355",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
