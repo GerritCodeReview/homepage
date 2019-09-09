@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "615a0f4a_6bc764b8",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-09T23:58:23Z",
+      "side": 1,
+      "message": "what is CCR ?",
+      "range": {
+        "startLine": 5,
+        "startChar": 66,
+        "endLine": 5,
+        "endChar": 69
+      },
+      "revId": "3847c48255077c01b75cc1feadab2ebb638be985",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aa9cad3e_d794d85c",
+        "filename": "pages/design-docs/permission-tests/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-09T23:58:23Z",
+      "side": 1,
+      "message": "we should also test that BLOCK and EXCLUSIVE rules work as expected",
+      "revId": "3847c48255077c01b75cc1feadab2ebb638be985",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
