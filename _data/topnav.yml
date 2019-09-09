@@ -19,6 +19,8 @@ topnav_dropdowns:
           url: /codeofconduct.html
         - title: Members
           url: /members.html
+        - title: Contributing
+          external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.0.2/index.html#_developer
         - title: Kudos
           url: /kudos.html
         - title: Testimonials
