@@ -56,6 +56,17 @@ combination of changes that were not submitted together.
 
 ## <a id="implementation-plan"> Implementation Plan
 
+### Add necessary functionality to the original "Revert" endpoint
+
+It is useful for the implementation of the new REST endpoint to add some features
+to the original "Revert" endpoint. Those features will be added:
+
+1. Ability to choose the parent commit of the commit that is being reverted (by
+passing the SHA1 of the parent commit).
+
+2. Ability to choose a topic name for the reverted commit, rather than take the
+same topic as the parent's commit.
+
 ### Implement a UIAction to show a "Revert all" button
 
 Implement a UIAction to show a "Revert Submission" button. The action will
@@ -114,4 +125,3 @@ would be necessary to also reveal the submission ID in ChangeInfo and the UI.
 1-3 can take a week.
 
 4-6 can take a week.
-
