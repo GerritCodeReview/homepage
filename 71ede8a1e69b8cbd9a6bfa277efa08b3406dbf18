@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "277d636f_6244cd24",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 557,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-10T17:01:24Z",
+      "side": 1,
+      "message": "That is incorrect: it drains when the plugin is stopped, not only at Gerrit shutdown.",
+      "range": {
+        "startLine": 557,
+        "startChar": 33,
+        "endLine": 557,
+        "endChar": 53
+      },
+      "revId": "71ede8a1e69b8cbd9a6bfa277efa08b3406dbf18",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d056ae67_92536227",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 557,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-10T17:01:24Z",
+      "side": 1,
+      "message": ". missing at the end of the sentence.",
+      "revId": "71ede8a1e69b8cbd9a6bfa277efa08b3406dbf18",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
