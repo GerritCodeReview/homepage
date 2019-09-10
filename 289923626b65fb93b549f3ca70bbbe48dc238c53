@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "c3418e43_517d6fea",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "maybe rephrase this a bit, to me it kind of sounds like there was one European, and one US event, and both of the events have been repeated twice, making it 6 events...",
+      "range": {
+        "startLine": 22,
+        "startChar": 11,
+        "endLine": 22,
+        "endChar": 58
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b8da0a61_698bffe6",
         "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
         "patchSetId": 7
@@ -47,6 +70,184 @@
       "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bcf1be28_615b3664",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "to adopt",
+      "range": {
+        "startLine": 103,
+        "startChar": 51,
+        "endLine": 103,
+        "endChar": 66
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf506777_455d9eaa",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "by?",
+      "range": {
+        "startLine": 152,
+        "startChar": 32,
+        "endLine": 152,
+        "endChar": 35
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd4252d7_f09fd7dc",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "add an empty line before this sentence",
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "54eb243d_1a4dd25a",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "maybe say when this was, my impression is that zuul is around quite a while and is actually pretty mature, isn\u0027t it?",
+      "range": {
+        "startLine": 199,
+        "startChar": 58,
+        "endLine": 200,
+        "endChar": 11
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "565c6902_2a6922e1",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "Shawn :)",
+      "range": {
+        "startLine": 242,
+        "startChar": 70,
+        "endLine": 242,
+        "endChar": 74
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e34125a_a55c2482",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "founder",
+      "range": {
+        "startLine": 242,
+        "startChar": 60,
+        "endLine": 242,
+        "endChar": 68
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df79a87a_caa68c67",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "it still",
+      "range": {
+        "startLine": 246,
+        "startChar": 48,
+        "endLine": 246,
+        "endChar": 53
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dca45c58_26d1116b",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T07:21:25Z",
+      "side": 1,
+      "message": "from",
+      "range": {
+        "startLine": 249,
+        "startChar": 7,
+        "endLine": 249,
+        "endChar": 11
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
