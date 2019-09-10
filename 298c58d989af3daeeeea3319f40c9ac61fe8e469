@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "16b2054d_75bac88d",
+        "filename": "_posts/2019-09-03-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-10T00:46:55Z",
+      "side": 1,
+      "message": "Before I spend any time on this, I just want to see what everyone thinks about changing the structure of these posts.\n\nRather than having a \"Minutes\" level 2 header with all the items underneath as bullets, how about removing the \"Minutes\" header and making each of the bullets below its own level 2 item with a separate title?\n\nI think this will have these benefits:\n\n1. It will be easier to glance over the page and see the subjects that were discussed.\n2. Each item will have its own anchor that will allow us to link to specific parts of the minutes from other places; for example linking directly to the info about 3.1 planning below\n3. The page can include a table of contents (actually we already set `toc: true` in the header but we don\u0027t seem to have any tables of contents in the rendered pages so far)",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 0
+      },
+      "revId": "298c58d989af3daeeeea3319f40c9ac61fe8e469",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
