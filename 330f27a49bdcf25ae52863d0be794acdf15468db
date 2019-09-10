@@ -2,6 +2,121 @@
   "comments": [
     {
       "key": {
+        "uuid": "9e31c549_d7f07dbf",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-09-10T20:22:32Z",
+      "side": 1,
+      "message": "members.html#community-managers",
+      "range": {
+        "startLine": 42,
+        "startChar": 22,
+        "endLine": 42,
+        "endChar": 34
+      },
+      "revId": "330f27a49bdcf25ae52863d0be794acdf15468db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a3c4d79c_b062758f",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-09-10T20:22:32Z",
+      "side": 1,
+      "message": "with",
+      "range": {
+        "startLine": 48,
+        "startChar": 12,
+        "endLine": 48,
+        "endChar": 14
+      },
+      "revId": "330f27a49bdcf25ae52863d0be794acdf15468db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a41dbf75_6693ee7e",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-09-10T20:22:32Z",
+      "side": 1,
+      "message": "outside of the",
+      "range": {
+        "startLine": 58,
+        "startChar": 13,
+        "endLine": 58,
+        "endChar": 24
+      },
+      "revId": "330f27a49bdcf25ae52863d0be794acdf15468db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c425906a_514b46ba",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-09-10T20:22:32Z",
+      "side": 1,
+      "message": "Would align this link with the previously proposed one.",
+      "range": {
+        "startLine": 75,
+        "startChar": 56,
+        "endLine": 75,
+        "endChar": 68
+      },
+      "revId": "330f27a49bdcf25ae52863d0be794acdf15468db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "724537ae_672d820a",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-09-10T20:22:32Z",
+      "side": 1,
+      "message": "Would move this WIP proposal to a separate change.",
+      "range": {
+        "startLine": 76,
+        "startChar": 77,
+        "endLine": 78,
+        "endChar": 60
+      },
+      "revId": "330f27a49bdcf25ae52863d0be794acdf15468db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "52121ad0_ae8d6b52",
         "filename": "pages/site/community/members.md",
         "patchSetId": 5
