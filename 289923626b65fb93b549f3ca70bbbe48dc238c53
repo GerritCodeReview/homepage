@@ -194,6 +194,30 @@
     },
     {
       "key": {
+        "uuid": "aa097160_c682a4e7",
+        "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-10T08:27:54Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "12c2d247_7c830aa1",
+      "range": {
+        "startLine": 152,
+        "startChar": 32,
+        "endLine": 152,
+        "endChar": 35
+      },
+      "revId": "289923626b65fb93b549f3ca70bbbe48dc238c53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bd4252d7_f09fd7dc",
         "filename": "_posts/2019-09-08-user-summit-gothenburg-summary.md",
         "patchSetId": 7
