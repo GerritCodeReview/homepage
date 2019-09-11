@@ -357,6 +357,30 @@
     },
     {
       "key": {
+        "uuid": "fb1a1d32_fc36ae1f",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-09-11T08:15:34Z",
+      "side": 1,
+      "message": "Actually in this form it says \"If you would like a response from community managers, please include a temporary/throwaway email address.\"",
+      "parentUuid": "27fe087b_f742016d",
+      "range": {
+        "startLine": 76,
+        "startChar": 77,
+        "endLine": 78,
+        "endChar": 60
+      },
+      "revId": "330f27a49bdcf25ae52863d0be794acdf15468db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "52121ad0_ae8d6b52",
         "filename": "pages/site/community/members.md",
         "patchSetId": 5
