@@ -309,6 +309,30 @@
     },
     {
       "key": {
+        "uuid": "e2605978_121ec0ce",
+        "filename": "pages/site/community/CodeOfConduct.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-11T08:09:06Z",
+      "side": 1,
+      "message": "maybe something like\nhttps://www.djangoproject.com/conduct/reporting/\n\nI am not sure how to implement such an anonymous form. How to engage in a private discussion anonymously if you don\u0027t know how to contact the reporter?",
+      "parentUuid": "bb27ff76_91f46f40",
+      "range": {
+        "startLine": 76,
+        "startChar": 77,
+        "endLine": 78,
+        "endChar": 60
+      },
+      "revId": "330f27a49bdcf25ae52863d0be794acdf15468db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "52121ad0_ae8d6b52",
         "filename": "pages/site/community/members.md",
         "patchSetId": 5
