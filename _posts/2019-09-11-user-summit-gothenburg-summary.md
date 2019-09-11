@@ -130,7 +130,7 @@ functionality. However, it is mostly incompatible with the recent versions of
 Gerrit; it doesn't have a PolyGerrit UI and relies on an external relational database.
 The maintainers of the Zuul project have explicitly shown interest in
 integrating soon with the checks API and also
-[collaborating on its development](https://gerrit-review.googlesource.com/q/topic:%22subchecks%22+(status:open%20OR%20status:merged).
+[collaborating on its development](https://gerrit-review.googlesource.com/q/topic:subchecks).
 
 ### Gerrit goes multi-site
 
