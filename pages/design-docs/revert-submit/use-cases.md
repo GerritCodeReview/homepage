@@ -1,3 +1,10 @@
+---
+title: ""
+hide_sidebar: true
+hide_navtoggle: true
+toc: false
+---
+
 # Use-case
 
 Primary use case: Users should be able to revert multiple changes that were
