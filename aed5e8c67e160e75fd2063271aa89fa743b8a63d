@@ -181,6 +181,24 @@
       "revId": "aed5e8c67e160e75fd2063271aa89fa743b8a63d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "90cd6390_2b25cf8b",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:49:04Z",
+      "side": 1,
+      "message": "Thanks for thinking and writing about the re-run use case even though you wouldn\u0027t need it for Zuul. I added some comments for it on the latest patch set. I would love to have it directly implemented but I would also be open to have this as a later improvement.",
+      "parentUuid": "a8cc5bc2_36c0fee9",
+      "revId": "aed5e8c67e160e75fd2063271aa89fa743b8a63d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
