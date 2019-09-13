@@ -1,4 +1,11 @@
-#Conclusion
+---
+title: ""
+hide_sidebar: true
+hide_navtoggle: true
+toc: false
+---
+
+# Conclusion
 
 The solution described in [Solution - solution - Gal initial solution](solution-Gal.md) 
 was chosen for the following reasons:
