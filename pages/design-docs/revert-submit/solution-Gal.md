@@ -1,3 +1,10 @@
+---
+title: ""
+hide_sidebar: true
+hide_navtoggle: true
+toc: false
+---
+
 # Solution - Gal's initial solution
 
 ## <a id="overview"> Overview
