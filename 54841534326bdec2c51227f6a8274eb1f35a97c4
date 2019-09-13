@@ -1,0 +1,372 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84c5d2f1_7d6a95b3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "Thank you very much for the offer. We would be happy if you looked into the backend implementation.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 30
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1aa113de_d6c8c80f",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "Isn\u0027t this saying the same thing twice/thrice over? ;-)",
+      "range": {
+        "startLine": 3,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 41
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cf703d1d_592d9f52",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "For sub-checks, will the default state also be NOT_STARTED if a state was never specified?",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 28
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ec8873f0_00f8bd8b",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "In theory, this might also be some other page showing some details for a sub-check (e.g. build output while the sub-check is running) but I currently cant\u0027 think of a better, concise formulation for this.",
+      "range": {
+        "startLine": 18,
+        "startChar": 62,
+        "endLine": 18,
+        "endChar": 92
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c0aff78f_a4900d5f",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "I think we should introduce a sub data structure for properties like \"rerunnable\" as I envision more to come and it would be nice to group these \u0027config\u0027 properties.",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 21,
+        "endChar": 14
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "acfed90d_870d9796",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "For checks, we allow partial updates. Extending this concept to the list of sub-checks would mean that a provided list would not override all already know information about sub-checks but only update the sub-checks which are contained in the provided list. Does this sound reasonable to you?\n\nAn additional question would be whether we should also allow partial updates for sub-check details (e.g. any input field which is not provided is not overriden). I would say so but would like to hear your opinion on this.",
+      "range": {
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 30,
+        "endChar": 65
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "78574271_67656333",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "Similarly as we have CheckInput and CheckInfo, we should also have SubCheckInput and SubCheckInfo. You probably meant this but there\u0027s a small aspect why this is important for me: SubCheckInfo might be slightly different than SubCheckInput. Overall, they should contain the same data but there might be some differences. For instance, we might have a \u0027required\u0027 config parameter and a \u0027required\u0027 info flag of a sub-check (\u003d whether it is really considered as required for submit for the change; see my other comment below). The latter would be indicated by an additional field in SubCheckInfo.",
+      "range": {
+        "startLine": 32,
+        "startChar": 11,
+        "endLine": 33,
+        "endChar": 28
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "79173323_76d22a21",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "For the internal, Java representation, I agree. For Gson (especially the REST API), I think we should stay consistent with the rest of Gerrit and treat the empty list as the \u0027unset\u0027 value. This means that checks which are explicitly updated with an empty list as sub-checks will get all of their sub-checks deleted. When a check with no sub-checks is returned from the Gerrit backend via Gson, the sub-check field will be omitted (exactly as we do e.g. for boolean values which are false or other objects which are null).",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 5
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "37cade85_8949a6e6",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "FYI: This isn\u0027t implemented yet nor defined in a design doc. I agree, though, that we do want to have it.",
+      "range": {
+        "startLine": 51,
+        "startChar": 23,
+        "endLine": 52,
+        "endChar": 61
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7bf96d82_0e7c3de5",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "In general, how would you expect the overall check status to behave? Do you think it should be explicitly set by the checker? Or should it be derived from the sub-checks? Or should it maybe not matter anymore in any way?",
+      "range": {
+        "startLine": 54,
+        "startChar": 29,
+        "endLine": 54,
+        "endChar": 68
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e05fad7_157355dd",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "typo: checker",
+      "range": {
+        "startLine": 55,
+        "startChar": 13,
+        "endLine": 55,
+        "endChar": 19
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b1b6bcb0_93011899",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "I would have thought that we would use the same mechanism for sub-checks as for checks regarding re-run: The checker should simply query for pending checks when getting the event and the reset sub-checks will show up in the result again. This in turn would lead to sub-checks being re-run.\n\nIn any case, it would be helpful to have a separate paragraph which details how the pending checks endpoint behaves in the context of sub-checks.",
+      "range": {
+        "startLine": 55,
+        "startChar": 41,
+        "endLine": 57,
+        "endChar": 52
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "87686d29_d726265d",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "Could we rename this to \u0027sub_check_name\u0027 or just \u0027sub-check\u0027 so that it\u0027s a bit more obvious that the parameter relates to sub-checks?",
+      "range": {
+        "startLine": 60,
+        "startChar": 10,
+        "endLine": 60,
+        "endChar": 14
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fcdd66aa_f4072607",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "Overall, this sounds very reasonable.",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 8
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4cdbbf69_6f373e04",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "Even though I wrote in the original design-doc that sub-checks should only be considered as optional, I\u0027ve heard of use cases for which it would be crucial that sub-checks can also be required. Hence, I\u0027ve changed my opinion. I think we should include a \"required\" field in the SubCheckInput. However, only sub-checks whose check is also required will block submission of the change, which will be indicated by the \"For submit\" field.\n\nOf course, we can also add the \"required\" field as a later improvement.",
+      "range": {
+        "startLine": 66,
+        "startChar": 27,
+        "endLine": 67,
+        "endChar": 25
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d98709c_127f9dc8",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:41:32Z",
+      "side": 1,
+      "message": "Would you mind if we chose a a bit different UI representation in the end? I can think of several possibilities, for example: not the whole row of a sub-check is indented.",
+      "range": {
+        "startLine": 67,
+        "startChar": 28,
+        "endLine": 69,
+        "endChar": 56
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
