@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba9b12ce_7e34ace4",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:31:59Z",
+      "side": 1,
+      "message": "Would grouping of sub-checks per check be important for your use case? We have some ideas for grouping checks per status (which would be essential for changes with many checks/sub-checks) and this would probably not fit nicely with grouping sub-checks per check first. Of course, we could think about a secondary grouping of sub-checks per check (with status being the primary) but it would be good to know whether this is something which is essential for you.",
+      "range": {
+        "startLine": 26,
+        "startChar": 32,
+        "endLine": 26,
+        "endChar": 58
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ec35fa6b_ddf529e7",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:31:59Z",
+      "side": 1,
+      "message": "This aspect is the strongest reason for introducing sub-checks. All of the others could be somehow fulfilled with the current checks system (or just some small adjustments). Could you please highlight this on-the-fly nature of sub-checks a bit more? It\u0027s contained in the text below but I think it should be much more prominent.",
+      "range": {
+        "startLine": 30,
+        "startChar": 36,
+        "endLine": 30,
+        "endChar": 60
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "998527a4_1277e147",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-09-13T21:31:59Z",
+      "side": 1,
+      "message": "After hearing more about Zuul from you, I know what you mean here but I\u0027m not sure whether others without that additional context would do so too. I think the missing piece of information here might be that Zuul configs also go through Gerrit reviews and that Zuul uses the new version of the configs when it runs on a corresponding change.",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 36
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
