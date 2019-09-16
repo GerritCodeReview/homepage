@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9c805669_9f820c4e",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-09-16T12:35:21Z",
+      "side": 1,
+      "message": "As David said, it is internal. The document has been rewritten.\nIn short, all that matters is that we have some internal code that proves that the approach suggested in this document can work.",
+      "parentUuid": "615a0f4a_6bc764b8",
+      "range": {
+        "startLine": 5,
+        "startChar": 66,
+        "endLine": 5,
+        "endChar": 69
+      },
+      "revId": "3847c48255077c01b75cc1feadab2ebb638be985",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aa9cad3e_d794d85c",
         "filename": "pages/design-docs/permission-tests/use-cases.md",
         "patchSetId": 1
@@ -39,6 +63,24 @@
       "revId": "3847c48255077c01b75cc1feadab2ebb638be985",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "78560f43_8c69cc85",
+        "filename": "pages/design-docs/permission-tests/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-09-16T12:35:21Z",
+      "side": 1,
+      "message": "Ack, but I think this may be a little bit out of scope for this. It may be relevant, but I don\u0027t think the tests I\u0027d like to add are going to help by testing that BLOCK and EXCLUSIVE rules work as expected. I think testing they works for all cases could be a future project.",
+      "parentUuid": "aa9cad3e_d794d85c",
+      "revId": "3847c48255077c01b75cc1feadab2ebb638be985",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
