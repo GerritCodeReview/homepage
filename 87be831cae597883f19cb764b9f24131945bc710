@@ -1,0 +1,141 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f2a75540_3bd9e30a",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-16T18:32:35Z",
+      "side": 1,
+      "message": "I agree manual tests are not a viable alternative",
+      "revId": "87be831cae597883f19cb764b9f24131945bc710",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e174cbbf_cd1599a8",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-16T18:32:35Z",
+      "side": 1,
+      "message": "this is no solution but the status quo",
+      "revId": "87be831cae597883f19cb764b9f24131945bc710",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab2ff04f_104e9946",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-16T18:32:35Z",
+      "side": 1,
+      "message": "which IAM permission system ?",
+      "range": {
+        "startLine": 51,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 6
+      },
+      "revId": "87be831cae597883f19cb764b9f24131945bc710",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "42a7537d_6e30f480",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-16T18:32:35Z",
+      "side": 1,
+      "message": "why does this group need to be anonymous ?",
+      "range": {
+        "startLine": 58,
+        "startChar": 62,
+        "endLine": 58,
+        "endChar": 79
+      },
+      "revId": "87be831cae597883f19cb764b9f24131945bc710",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eeb8125c_a2123dae",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-16T18:32:35Z",
+      "side": 1,
+      "message": "I think this should just work, install the plugin and assign permissions to user:\u003cuserid\u003e and this should\nassign the defined permissions to the user identified by the userid",
+      "revId": "87be831cae597883f19cb764b9f24131945bc710",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5a0ed09e_90446baf",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-16T18:32:35Z",
+      "side": 1,
+      "message": "I don\u0027t understand (yet) what we gain from deriving this from some IAM system.",
+      "range": {
+        "startLine": 72,
+        "startChar": 9,
+        "endLine": 72,
+        "endChar": 59
+      },
+      "revId": "87be831cae597883f19cb764b9f24131945bc710",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "14c031d4_eab2f8d7",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-16T18:32:35Z",
+      "side": 1,
+      "message": "I\u0027d tend to start with one test class per permission category as defined in [1].\nAnd then in a next step add tests for meaningful combinations. Maybe JUnit theories\ncan help to create the permutations.\n\n[1] https://gerrit-review.googlesource.com/Documentation/access-control.html#access_categories",
+      "revId": "87be831cae597883f19cb764b9f24131945bc710",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
