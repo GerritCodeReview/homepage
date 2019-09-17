@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1e558b43_1c5dcdf2",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2019-09-17T08:27:31Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "e54f0397_ab61ae71",
+      "range": {
+        "startLine": 138,
+        "startChar": 29,
+        "endLine": 138,
+        "endChar": 36
+      },
+      "revId": "a9a9d40bbccd64a5a6ec12a91eefd1a353771a47",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "619c29dc_5cb526cd",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 2
