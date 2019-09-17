@@ -22,6 +22,23 @@
       "revId": "a9a9d40bbccd64a5a6ec12a91eefd1a353771a47",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "619c29dc_5cb526cd",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-17T05:54:46Z",
+      "side": 1,
+      "message": "Do we want to mention that:\n\n- Internet Explorer isn\u0027t supported by Microsoft either\n- Microsoft Edge (the successor of IE) is supported",
+      "revId": "a9a9d40bbccd64a5a6ec12a91eefd1a353771a47",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
