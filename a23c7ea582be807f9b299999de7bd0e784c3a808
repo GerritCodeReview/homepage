@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "22779333_56435267",
+        "filename": "_drafts/2019-09-27-gerrit-news-aug-sep-2019.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-17T06:16:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f67732b3_33a09d1f",
+      "range": {
+        "startLine": 21,
+        "startChar": 29,
+        "endLine": 21,
+        "endChar": 47
+      },
+      "revId": "a23c7ea582be807f9b299999de7bd0e784c3a808",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "610dc9fd_44913a4b",
         "filename": "_drafts/2019-09-27-gerrit-news-aug-sep-2019.md",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2019-09-17T05:51:14Z",
       "side": 1,
       "message": "and the associated events.\n\nP.S. We should link to the code of conduct from the Gerrit User Summit 2019 page also.",
+      "revId": "a23c7ea582be807f9b299999de7bd0e784c3a808",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "62665821_b0257095",
+        "filename": "_drafts/2019-09-27-gerrit-news-aug-sep-2019.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-17T06:16:43Z",
+      "side": 1,
+      "message": "Added \"and associated events\".\n\nI think we will probably do a separate post to announce the code of conduct, so any further details can go in there.",
+      "parentUuid": "610dc9fd_44913a4b",
       "revId": "a23c7ea582be807f9b299999de7bd0e784c3a808",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
