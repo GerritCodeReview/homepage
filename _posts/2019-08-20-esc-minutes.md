@@ -1,7 +1,7 @@
 ---
 title: "Gerrit ESC Meeting Minutes"
-tags: news
-keywords: news
+tags: esc
+keywords: esc minutes
 permalink: 2019-08-20-esc-minutes.html
 summary: "Minutes from the ESC meeting held on August 20th"
 hide_sidebar: true
