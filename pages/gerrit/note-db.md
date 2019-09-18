@@ -214,3 +214,9 @@ this section serves primarily as a reference.
     reading changes only from NoteDb might result in inaccurate results,
     and writing to NoteDb would compound the problem.  
 
+## NoteDB to ReviewDB rollback
+
+In case of rollback from NoteDB to ReviewDB, all the meta refs and the
+sequence ref need to be removed.
+The [remove-notedb-refs.sh](https://gerrit.googlesource.com/gerrit/+/refs/heads/stable-2.16/contrib/remove-notedb-refs.sh)
+script has been written to automate this process.
