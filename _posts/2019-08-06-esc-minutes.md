@@ -25,7 +25,7 @@ The next meeting will be held on August 20, 12:30 CEST.
 
 ## Minutes
 
-* Gerrit News Page
+### Gerrit News Page
 
   The project news for June and July was
   [published](https://www.gerritcodereview.com/2019-07-26-gerrit-news-jun-jul-2019.html).
@@ -44,25 +44,25 @@ The next meeting will be held on August 20, 12:30 CEST.
   and maybe it would be nice to include that kind of information. We will look into doing
   this if it's possible to do it in a way that's not too Google-centric.
 
-* Mentoring for the pluggable Auth Backend feature
+### Mentoring for the pluggable Auth Backend feature
 
   Google has tentatively confirmed that they will provide one developer to act as
   'mentor' for this feature for one quarter, probably Q4 of this year. We will follow
   up on this in the next meeting.
 
-* REST API for retrieving Git trees
+### REST API for retrieving Git trees
 
   We had a rather long discussion about the
   [design](https://gerrit-review.googlesource.com/c/homepage/+/231894) and decided to
   reject it. Alice will post a detailed response on that change.
 
-* Redesign of external IDs
+### Redesign of external IDs
 
   Patrick's [alternative solution](https://gerrit-review.googlesource.com/c/gerrit/+/231934)
   was submitted. We will come back to this in the next meeting after data has been
   gathered.
 
-* Recommendation on where to store global configurations
+### Recommendation on where to store global configurations
 
   ESC was requested to provide guidance about whether global configurations should
   go in `gerrit.config` or `All-Projects`.
@@ -70,7 +70,7 @@ The next meeting will be held on August 20, 12:30 CEST.
   This is now being tracked in
   [issue 11285](https://bugs.chromium.org/p/gerrit/issues/detail?id=11285).
 
-* Development workflow for frontend fixes
+### Development workflow for frontend fixes
 
   The typical workflow for bug fixes on the backend is to submit the change to the
   earliest appropriate stable branch and then merge up through other stable branches
@@ -100,7 +100,7 @@ The next meeting will be held on August 20, 12:30 CEST.
   status quo. The maintainers who are more familiar with frontend code agreed to
   provide support in cherry-picking and merging frontend fixes.
 
-* Removal of obsolete user preferences
+### Removal of obsolete user preferences
 
   When GWT was replaced with PolyGerrit there were some features that got dropped,
   and the related settings are no longer presented in the UI. However, support for

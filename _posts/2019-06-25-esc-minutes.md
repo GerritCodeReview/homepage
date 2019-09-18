@@ -29,19 +29,19 @@ The next meeting will be held on July 19, 12:30 CEST.
 
 ## Minutes
 
-* Security notification changes
+### Security notification changes
 
   There is only one change still pending. The other issues in the tracker
   were closed.
 
-* Upcoming Gerrit User Summits in Gothenburg and Sunnyvale
+### Upcoming Gerrit User Summits in Gothenburg and Sunnyvale
 
   The next Gerrit User Summits dates and schedule are now published. Google,
   GerritForge, and CollabNet are planning to send representatives to one or
   both events. More talks details are going to be published in the next few
   days, and slots for new talks are still available on the Sunnyvale event.
 
-* Issues with recent JGit releases
+### Issues with recent JGit releases
 
   The recent releases of JGit, starting from 5.1.8, are experiencing
   [problems](https://bugs.eclipse.org/bugs/show_bug.cgi?id=548188)
@@ -51,7 +51,7 @@ The next meeting will be held on July 19, 12:30 CEST.
   Gerrit will stay on the latest stable JGit versions which are not impacted
   by the racy read problem.
 
-* Removal of Gerrit v2.13 and associated plugins from the Gerrit CI
+### Removal of Gerrit v2.13 and associated plugins from the Gerrit CI
 
   Gerrit v2.13 has not been supported by the community for a few months and it
   is now going also be removed from the Gerrit CI. That means that all existing
@@ -60,7 +60,7 @@ The next meeting will be held on July 19, 12:30 CEST.
   This would allow to remove the support for the Buck-based builds and save a lot
   of space in the Docker build images.
 
-* Gerrit CI security
+### Gerrit CI security
 
   The current security on Gerrit CI is going to be upgraded to use X.509 Client
   certificates instead of the current GitHub OAuth authentication. The existing
@@ -68,7 +68,7 @@ The next meeting will be held on July 19, 12:30 CEST.
   the Gerrit maintainers will be provided with a client authentication
   certificate to install on their Web Browsers.
 
-* Gerrit News Page
+### Gerrit News Page
 
   There hasn't been any feedback on David's proposal to publish a regular news
   post on the project website. The draft for a post at the end of June is there,
@@ -77,7 +77,7 @@ The next meeting will be held on July 19, 12:30 CEST.
   David will try to get the ball rolling with a brief update on recent activity
   in the project.
 
-* Polymer 2 Migration
+### Polymer 2 Migration
 
   Polymer 2 support is currently available on gerrit-review.googlesource.com and
   accessible by adding the `?p2` URL parameter.
@@ -89,7 +89,7 @@ The next meeting will be held on July 19, 12:30 CEST.
   Everyone is invited to try it out and report any issue. Similarly, plugins need
   to be checked for Polymer 2 compatibility and fixed if needed.
 
-* New Gitiles release
+### New Gitiles release
 
   The current version of Gitiles needs to be fixed and a stable branch created to
   address one recent regression. See
@@ -99,7 +99,7 @@ The next meeting will be held on July 19, 12:30 CEST.
   on the master branch, needs to be branched and released more consistently with
   the Gerrit semantic versioning.
 
-* Frequency of Meetings
+### Frequency of Meetings
 
   It was agreed that the current bi-weekly meeting frequency is sufficient for
   now, and the next meeting will be in 2 weeks as usual. If we feel that we need

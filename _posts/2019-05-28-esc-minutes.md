@@ -29,13 +29,13 @@ The next meeting will be held on June 11, 12:30 CEST.
 
 ## Minutes
 
-* New Plugins
+### New Plugins
 
   We would like to establish a process for creating new plugins on
   gerrit-review such that we can review the functionality, reduce overlap
   between plugins and keep track of who is maintaining the plugin.
 
-* Existing Plugins
+### Existing Plugins
 
   We would like to know more about the current state of all the plugins
   that are hosted on gerrit-review:
@@ -54,30 +54,30 @@ The next meeting will be held on June 11, 12:30 CEST.
   we would like to come up with criteria for being in a bucket and
   transitioning to another.
 
-* Security-related email notifications
+### Security-related email notifications
 
   We are generally open to proposed changes to add more email notifications
   for security relevant events, but we are also concerned about potential
   email spam, and we would like to audit extension points to be used, if
   possible.
 
-* Homepage
+### Homepage
 
   We will consolidate the list of people (ESC, community managers, maintainers)
   on one page. We will keep using Jekyll and will integrate it into checks and
   CI such that the homepage is generated automatically after every submit.
 
-* Bug tracker
+### Bug tracker
 
   Potentially changing to a different bug tracker other than Monorail has low
   priority. We will continue to collect issues, though, and will do some
   experimenting on the side. We may want to do some cleanup at the Gothenburg
   Hackathon to reduce the high number of old bugs.
 
-* Release 2.14
+### Release 2.14
 
   It has reached end of life. Will send out an announcement with details soon.
 
-* Roadmap
+### Roadmap
 
   We will be starting to discuss and brainstorm at the next ESC meeting.

@@ -25,13 +25,13 @@ The next meeting will be held on September 17, 12:30 CEST.
 
 ## Minutes
 
-* Gerrit News Page
+### Gerrit News Page
 
   There were no suggestions for news items. The draft for the next issue already
   exists, and is scheduled for publishing on September 27th. Anyone can send
   suggested news items for review before then.
 
-* Hackathon and User Summit in Gothenburg
+### Hackathon and User Summit in Gothenburg
 
   The recent hackathon and summit were a great success. During the hackathon
   many bugs were fixed, and 3 new releases have since been made.
@@ -45,23 +45,23 @@ The next meeting will be held on September 17, 12:30 CEST.
   Luca will prepare a more detailed article to be published on the project
   news page soon.
 
-* REST API for retrieving Git trees
+### REST API for retrieving Git trees
 
   The authors of the rejected design are planning to attend the upcoming user
   summit in Sunnyvale so there may be some opportunity to revisit the proposal
   and come to a compromise.
 
-* Gerrit versioning and criteria for accepting fixes
+### Gerrit versioning and criteria for accepting fixes
 
   Luca's [updates to the versioning rules](https://gerrit-review.googlesource.com/c/gerrit/+/234560)
   were reviewed, accepted, and submitted.
 
-* Design document for reverting multiple changes
+### Design document for reverting multiple changes
 
   The design for [reverting multiple changes](https://gerrit-review.googlesource.com/c/homepage/+/233996)
   was reviewed and approved.
 
-* Plans for 3.1 release and EOL of 2.15
+### Plans for 3.1 release and EOL of 2.15
 
   David suggested that we should start thinking about the release schedule
   for Gerrit 3.1 and therefore also bringing 2.15 to EOL.
@@ -80,7 +80,7 @@ The next meeting will be held on September 17, 12:30 CEST.
   by surprise. We will make a separate news announcement, and update the
   homepage with more explicit details of support levels for recent releases.
 
-* Proposal for making more frequent patch releases
+### Proposal for making more frequent patch releases
 
   Luca proposed to make more frequent patch releases (for example every two
   weeks) to avoid that we have to make large release note updates and that
@@ -97,7 +97,7 @@ The next meeting will be held on September 17, 12:30 CEST.
   release (see the next section). Also, Edwin is working on a way to
   automate creation of the release notes.
 
-* Improved end-to-end testing
+### Improved end-to-end testing
 
   Most of the release process is now automated, but there is no end-to-end
   testing. Work on this is in progress at GerritForge - see the
@@ -105,7 +105,7 @@ The next meeting will be held on September 17, 12:30 CEST.
 
   We will follow up on this in the next meeting.
 
-* Polymer 2 and customization/themes
+### Polymer 2 and customization/themes
 
   Ben talked about the current status of Polymer 2 migration in terms of
   what level of support should be expected for customization.
@@ -127,7 +127,7 @@ The next meeting will be held on September 17, 12:30 CEST.
   should be customizable but don't necessarily need to support every use
   case.
 
-* Migration of CI to Zuul
+### Migration of CI to Zuul
 
   Monty Taylor (Redhat) has offered to help with the adoption of [Zuul](https://zuul-ci.org/)
   for Gerrit's CI. They are also keen to help with support for the checks
@@ -140,7 +140,7 @@ The next meeting will be held on September 17, 12:30 CEST.
 
   There is no timeline yet. Luca will follow up.
 
-* JGit updates
+### JGit updates
 
   We had planned to include JGit upgrades in 2.16.11 and 3.0.2 but at the
   last minute a regression was found and the updates were reverted.

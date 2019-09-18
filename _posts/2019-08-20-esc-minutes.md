@@ -25,7 +25,7 @@ The next meeting will be held on September 3, 12:30 CEST.
 
 ## Minutes
 
-* Gerrit News Page
+### Gerrit News Page
 
   There were no suggestions for new items. The hackathon in Gothenburg is coming
   up next week and there are likely to be some interesting things to write about,
@@ -33,7 +33,7 @@ The next meeting will be held on September 3, 12:30 CEST.
   the hackathon rather than waiting until the next project news at the end of
   next month.
 
-* REST API for retrieving Git trees
+### REST API for retrieving Git trees
 
   We discussed whether or not the rejected design document should be restructured
   to follow the new structure proposed by Edwin. We don't want to ask the author to
@@ -43,20 +43,20 @@ The next meeting will be held on September 3, 12:30 CEST.
   ensure that the new structure is used. Alice will look into how we can still
   submit that rejected document.
 
-* Follow up on Dave Borowitz's open changes
+### Follow up on Dave Borowitz's open changes
 
   Dave has left the project but there are several of his changes still open. We
   will look over those to see which of them are still needed, and then work on
   getting them submitted.
 
-* Removal of obsolete user preferences
+### Removal of obsolete user preferences
 
   Patrick discussed this with Edwin and they concluded that it's not necessary
   to implement migrations to remove the obsolete values from users' settings.
 
   David will rework the changes to remove the migration code.
 
-* Status of the replication plugin
+### Status of the replication plugin
 
   There have been a lot of complaints about the replication plugin being unstable
   in 2.16. Luca attempted to fix one of the more serious issues, but abandoned it
@@ -70,7 +70,7 @@ The next meeting will be held on September 3, 12:30 CEST.
   Luca is concerned that the plugin has very low test coverage and wants to
   ensure that the coverage is increased before making further fixes.
 
-* Gerrit versioning and criteria for accepting fixes
+### Gerrit versioning and criteria for accepting fixes
 
   Following the discussion about the replication plugin fixes, we also discussed
   more generally what the criteria should be for accepting fixes on stable branches
@@ -92,7 +92,7 @@ The next meeting will be held on September 3, 12:30 CEST.
   being on the master branch. This is not very discoverable, so we decided that it
   will be better to move it to the project homepage with a link from core.
 
-* Upcoming hackathon and summit in Gothenburg
+### Upcoming hackathon and summit in Gothenburg
 
   Alice had proposed to focus on bug fixes during this hackathon. This was scheduled
   for Saturday, but Alice won't be joining on that day. Luca suggested to join
@@ -103,7 +103,7 @@ The next meeting will be held on September 3, 12:30 CEST.
   Luca mentioned that there are many more users registered for this summit than
   the previous European summit in London.
 
-* Design document for reverting multiple changes
+### Design document for reverting multiple changes
 
   Patrick requested that we have a look at the [design document](https://gerrit-review.googlesource.com/c/homepage/+/233996)
   that has been up for review since last week. Some of us had already looked at it

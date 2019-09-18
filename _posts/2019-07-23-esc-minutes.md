@@ -25,12 +25,12 @@ The next meeting will be held on August 6, 12:30 CEST.
 
 ## Minutes
 
-* Gerrit News Page
+### Gerrit News Page
 
   There are still no contributions for the next edition of the project
   news, which is due to be published at the end of this month.
 
-* REST API for retrieving Git trees
+### REST API for retrieving Git trees
 
   The [design document](https://gerrit-review.googlesource.com/c/homepage/+/231894) was
   reviewed and the general feeling is that the feature is being proposed as a
@@ -40,7 +40,7 @@ The next meeting will be held on August 6, 12:30 CEST.
 
   Alice will post feedback on the design document.
 
-* Redesign of external IDs
+### Redesign of external IDs
 
   Discussion is still ongoing in Patrick's
   [proposed redesign of external IDs](https://gerrit-review.googlesource.com/c/homepage/+/228398).
@@ -53,7 +53,7 @@ The next meeting will be held on August 6, 12:30 CEST.
   If the alternative solution does not fix the issues, we will go back to the redesign
   and make a committee decision on whether to proceed.
 
-* Pluggable authentication backend
+### Pluggable authentication backend
 
   Support for a pluggable authentication backend has been on the table since
   2012 but has stalled several times.
@@ -72,7 +72,7 @@ The next meeting will be held on August 6, 12:30 CEST.
   they will be able to provide a team member to work on this in the 'mentor' role,
   with the assumption that the implementation will be done by CollabNet.
 
-* Joint meeting with community managers
+### Joint meeting with community managers
 
   A joint meeting between the ESC and community managers has been scheduled
   in September.
