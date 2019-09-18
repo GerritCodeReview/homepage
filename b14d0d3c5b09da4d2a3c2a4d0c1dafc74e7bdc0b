@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "17e34c20_33e0aab1",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-18T18:11:19Z",
+      "side": 1,
+      "message": "I don\u0027t think it\u0027s critical, but I think there are some benefits we should make sure we don\u0027t lose:\n\n1) Being able to see all the jobs run for a single check (for example, if Zuul is one of many checkers, the user can confirm that all of the expected Zuul jobs ran (some jobs may only run on certain types of changes) by looking at the sub-checks under the Zuul check).\n\n2) Being able to see which checker/check is responsible for a sub-check (again, if Zuul is one of many, making it clear that a given job was run by Zuul as opposed to another system).\n\nIn the current UI, I imagined that sub-checks could be displayed as an expandable tree.  We could still do that, and simply sort checks by failed/success even without sorting the individual sub-checks under that.  That easily supports benefits #1 and #2 above.\n\nOr we could flatten the entire list of checks and sub-checks and group them by result -- but then we need to think carefully about how to present the information to keep those benefits.  For #1, we could simply allow multiple sorting options (click on \"Status\" to sort by success/failed, click on \"Name\" to sort by check).  And to keep #2, we could make sure to present the checker name along with the sub-check name.\n\nOr if there are other ideas about how to implement the status-based grouping, I\u0027m sure we can find a way to address those -- hopefully those 2 points help clarify the benefits I hope to achieve by grouping checks with sub-checks.",
+      "parentUuid": "ba9b12ce_7e34ace4",
+      "range": {
+        "startLine": 26,
+        "startChar": 32,
+        "endLine": 26,
+        "endChar": 58
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ec35fa6b_ddf529e7",
         "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
         "patchSetId": 3
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "7bca1679_fb697faf",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-18T18:11:19Z",
+      "side": 1,
+      "message": "Yes; one way I could do that is to enumerate some of the kinds of dynamic situations that come up in Zuul:\n\n * Checks which only run on certain branches, or if certain files are changed (or if certain files are *not* changed).  These are all supported by the current checks API, but some users may find it convenient to manage that within the external system.\n * Checks which only run if other checks are run (e.g., if a job builds an image, 1 or more subsequent jobs may run which then use that image in testing).\n * Checks which only run if other checks succeed (e.g., to save resources, run a style test first and then run integration test if that passes)\n * Checks which decide what other checks to run (e.g., a job runs a script to perform analysis on the contents of the change\u0027s repo to decide which tests should run).\n * Checks which are configured within the change under test (see below).\n\nI\u0027ll put that in the next revision.",
+      "parentUuid": "ec35fa6b_ddf529e7",
+      "range": {
+        "startLine": 30,
+        "startChar": 36,
+        "endLine": 30,
+        "endChar": 60
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "998527a4_1277e147",
         "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
         "patchSetId": 3
@@ -59,6 +107,30 @@
       "writtenOn": "2019-09-13T21:31:59Z",
       "side": 1,
       "message": "After hearing more about Zuul from you, I know what you mean here but I\u0027m not sure whether others without that additional context would do so too. I think the missing piece of information here might be that Zuul configs also go through Gerrit reviews and that Zuul uses the new version of the configs when it runs on a corresponding change.",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 36
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f8673e0_1f3554c7",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-18T18:11:19Z",
+      "side": 1,
+      "message": "Yes, explaining this concisely is something I always struggle with.  I\u0027ll work in a better explanation (and probably borrow some of your fine text :).",
+      "parentUuid": "998527a4_1277e147",
       "range": {
         "startLine": 33,
         "startChar": 0,
