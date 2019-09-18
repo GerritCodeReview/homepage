@@ -37,6 +37,52 @@
     },
     {
       "key": {
+        "uuid": "ce173e9c_4a034f17",
+        "filename": "_posts/2019-09-17-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-09-18T07:07:09Z",
+      "side": 1,
+      "message": "Well, I wouldn\u0027t bring this assumption, and frankly speaking: we wouldn\u0027t care, whether or not Bazel 7.0 or 8.0 is compatible with Bazel 1.0. The documented way to build the tip of stable Gerrit branches is to fetch the bazel version listed in .bazelversion, e.g.:\n\n* Gerrit version: 2.14, 2.15: Bazel version 1.0\n* Gerrit version: 2.16, 3.0: Bazel version 2.0\n* Gerrit version: 3.1: Bazel version 3.0\n\netc. The plan is, once stable-2-1.4, stable-2.15 are using Bazel 1.0, there will not be any further build specific change on those branches. Further development would only touch the supported development branches, stable-2.16 and further. Should we made this plan even more explicit/ announce it here?",
+      "range": {
+        "startLine": 47,
+        "startChar": 23,
+        "endLine": 48,
+        "endChar": 40
+      },
+      "revId": "8d912cd99bfee81be0d2625f29417f703271cee7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "77e17d8c_4b2c6007",
+        "filename": "_posts/2019-09-17-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-09-18T07:07:09Z",
+      "side": 1,
+      "message": "This is quite ambiguous statement. There are three different ways to support Java 11 and newer Java versions in build tool chain:\n\n* 1. Running current release.war built with Java 8 on newer Java versions, 11 and newer. This is already possible today, when some options are set in gerrit config file. Note, that this proposal, to support addition of those properties automagically was rejected: [a].\n* 2. Build gerrit on Host Java 11 or new versionm but still produce Java 8 byte code (major version 52). Use case: Build Gerrit on Debian Buster, where Java 11 is the default Java version. I updated gerrit CI docker image to use Debian Buster: [b], and it turned out, that Gerrit cannot be built because of this Bazel\u0027s ErrorProne related false positive bug: [c]. We disabled the check here: [d], but we probably want to cherry-pick that change to other stable branches.\n* 3. Build gerrit on Host Java 8 or Host Java 11, but produce Java 11 byte code (major version 55). Quite some progress was made by fixing different issues, in Gerrit and in Bazel, but we are still blocked by failing tests in core replication plugin, where outdated EasyMock version is used. The attempt to bump EasyMock to 4.0.2 version was rejected: [e]. The current plan is to disable replication plugin tests until they are work on Java 11 and newer Java versions.\n\n[a] https://gerrit-review.googlesource.com/c/gerrit/+/196632\n[b] https://gerrit-review.googlesource.com/c/gerrit-ci-scripts/+/237181\n[c] https://github.com/bazelbuild/bazel/issues/9378\n[d] https://gerrit-review.googlesource.com/c/gerrit/+/237183\n[e] https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d11518",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 63
+      },
+      "revId": "8d912cd99bfee81be0d2625f29417f703271cee7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "838c7c38_5b08ba2f",
         "filename": "_posts/2019-09-17-esc-minutes.md",
         "patchSetId": 3
@@ -175,6 +221,75 @@
       "revId": "8d912cd99bfee81be0d2625f29417f703271cee7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e9b8f98_51f7a549",
+        "filename": "_posts/2019-09-17-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-09-18T07:07:09Z",
+      "side": 1,
+      "message": "I wouldn\u0027t do this statement today, as we currently don\u0027t know, how fast Java 11 adoption in the community would be in (near) future.",
+      "range": {
+        "startLine": 92,
+        "startChar": 23,
+        "endLine": 92,
+        "endChar": 54
+      },
+      "revId": "8d912cd99bfee81be0d2625f29417f703271cee7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eeb43629_1093890b",
+        "filename": "_posts/2019-09-17-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-09-18T07:07:09Z",
+      "side": 1,
+      "message": "+1.",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 47
+      },
+      "revId": "8d912cd99bfee81be0d2625f29417f703271cee7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "83ea74d6_102471df",
+        "filename": "_posts/2019-09-17-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-09-18T07:07:09Z",
+      "side": 1,
+      "message": "It would be great, if someone could help with the review.",
+      "range": {
+        "startLine": 117,
+        "startChar": 22,
+        "endLine": 117,
+        "endChar": 51
+      },
+      "revId": "8d912cd99bfee81be0d2625f29417f703271cee7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
