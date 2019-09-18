@@ -389,6 +389,30 @@
     },
     {
       "key": {
+        "uuid": "c0187c0c_6c7d3e4f",
+        "filename": "_posts/2019-09-17-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-18T07:54:35Z",
+      "side": 1,
+      "message": "Yes, we\u0027ve been investing a lot of time on that, it would be a waste to miss the target once again :-(\nCan you follow-up with Alice and make sure that we get proper attention?\n\nThanks again DavidO for driving innovation into Gerrit :-)",
+      "parentUuid": "83ea74d6_102471df",
+      "range": {
+        "startLine": 117,
+        "startChar": 22,
+        "endLine": 117,
+        "endChar": 51
+      },
+      "revId": "8d912cd99bfee81be0d2625f29417f703271cee7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c2e9040c_48189283",
         "filename": "_posts/2019-09-17-esc-minutes.md",
         "patchSetId": 3
