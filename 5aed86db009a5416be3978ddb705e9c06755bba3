@@ -1,0 +1,278 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf6b04f4_ff007737",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "Are we targeting Gerrit using the global ref-db in this design? or just define the interface and the associated NoOp?",
+      "range": {
+        "startLine": 6,
+        "startChar": 64,
+        "endLine": 6,
+        "endChar": 70
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "485d1c00_2dc43106",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 6,
+        "startChar": 71,
+        "endLine": 6,
+        "endChar": 77
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f38cf45_43fdbd2c",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "Can you explain why the default implementation is a NoOp?\nAre you planning to propose a DynamicItem\u003cGlobalRefDb\u003e linked by default in Gerrit sysModule?",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 43
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a56761db_420442d0",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "What\u0027s the purpose of the tests if the default implementation in core is a NoOp?\nI believe the rationale is more to have a \"validation suite\" for documenting and checking the expected behaviour?",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "32633de1_653cb426",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "What up-to-date means in this context?",
+      "range": {
+        "startLine": 18,
+        "startChar": 7,
+        "endLine": 18,
+        "endChar": 21
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "970cb2b1_fb89e2fa",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "Is this an atomic compareAndSwap? If yes, can we state it explicitly?",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1944b484_b9fffde9",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "What type of lock is this one? Read? Write? Exclusive? What\u0027s the behaviour in case of concurrency?\nWhat about waiting time for a lock to be available?",
+      "range": {
+        "startLine": 23,
+        "startChar": 17,
+        "endLine": 23,
+        "endChar": 24
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cbc93cf9_e97426c2",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "Is there an equivalent for removing a ref?\nHow refs removal should be managed?",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0650d8c9_c0c86dae",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "What\u0027s the point of using a DBMS as global ref-db? It would be best to focus only on this design and not mention further the future implementations.\nZookeeper is already out there and should be good enough to mention for now.",
+      "range": {
+        "startLine": 47,
+        "startChar": 57,
+        "endLine": 47,
+        "endChar": 69
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0d872ec5_a5005eae",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "What are the alternatives to having the global ref-db in Gerrit core?\n- JGit?\n- multi-site? (as it is today)\n- a 3rd party library to link as dependency?",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "50ecd360_812bbd0a",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "That isn\u0027t a detailed argument: you need to explain what are the benefits of having a global ref-db interface in Gerrit core.",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cf4e8aad_1f8b0a8b",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "Can you refer to the currently open change?",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a8931123_09354e08",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "This is beyond the scope of the design",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1e21f41c_97d74466",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-19T15:36:43Z",
+      "side": 1,
+      "message": "Can you put some timelines?",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
