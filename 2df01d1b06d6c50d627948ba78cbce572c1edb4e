@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "f682583f_116094ea",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T22:20:40Z",
+      "side": 1,
+      "message": "True, let me move this up.",
+      "parentUuid": "615a52b4_5c0b99ce",
+      "range": {
+        "startLine": 576,
+        "startChar": 0,
+        "endLine": 584,
+        "endChar": 35
+      },
+      "revId": "2df01d1b06d6c50d627948ba78cbce572c1edb4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7b53f9dd_1fb4e0cd",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "2df01d1b06d6c50d627948ba78cbce572c1edb4e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce2fc5df_229790c1",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 593,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T22:20:40Z",
+      "side": 1,
+      "message": "Nope, this looks like a regression that was fixed.",
+      "parentUuid": "7b53f9dd_1fb4e0cd",
+      "range": {
+        "startLine": 592,
+        "startChar": 0,
+        "endLine": 593,
+        "endChar": 100
+      },
+      "revId": "2df01d1b06d6c50d627948ba78cbce572c1edb4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
