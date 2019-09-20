@@ -1,6 +1,5 @@
 ---
 title: "Gerrit Code Review Releases"
-sidebar: gerritdoc_sidebar
 permalink: releases-readme.html
 hide_sidebar: true
 hide_navtoggle: true
