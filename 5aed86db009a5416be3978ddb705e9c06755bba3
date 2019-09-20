@@ -48,6 +48,54 @@
     },
     {
       "key": {
+        "uuid": "b96c7f9f_f4b046f6",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "485d1c00_2dc43106",
+      "range": {
+        "startLine": 6,
+        "startChar": 71,
+        "endLine": 6,
+        "endChar": 77
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "59d100ed_416fe5be",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "My initial though was to include usage of the global ref-db in Gerrit, but I will focus on the interface and Noop",
+      "parentUuid": "bf6b04f4_ff007737",
+      "range": {
+        "startLine": 6,
+        "startChar": 64,
+        "endLine": 6,
+        "endChar": 70
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f38cf45_43fdbd2c",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 1
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "08f1fddc_07ad7491",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f38cf45_43fdbd2c",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 43
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a56761db_420442d0",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 1
@@ -85,6 +157,24 @@
       "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "38426b6e_9c155676",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a56761db_420442d0",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -111,6 +201,30 @@
     },
     {
       "key": {
+        "uuid": "efce4513_f8525db7",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "32633de1_653cb426",
+      "range": {
+        "startLine": 18,
+        "startChar": 7,
+        "endLine": 18,
+        "endChar": 21
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "970cb2b1_fb89e2fa",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 1
@@ -125,6 +239,24 @@
       "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "32be74a2_84a090a9",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "970cb2b1_fb89e2fa",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -151,6 +283,30 @@
     },
     {
       "key": {
+        "uuid": "be6aff10_bdfddbf9",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1944b484_b9fffde9",
+      "range": {
+        "startLine": 23,
+        "startChar": 17,
+        "endLine": 23,
+        "endChar": 24
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cbc93cf9_e97426c2",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 1
@@ -165,6 +321,24 @@
       "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d0a1910d_9ebd2ce2",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "We don\u0027t have that functionality in multi-site plugin, but you are right it will be useful I\u0027m adding it",
+      "parentUuid": "cbc93cf9_e97426c2",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -191,6 +365,30 @@
     },
     {
       "key": {
+        "uuid": "e215fba0_8c9ef9b3",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0650d8c9_c0c86dae",
+      "range": {
+        "startLine": 47,
+        "startChar": 57,
+        "endLine": 47,
+        "endChar": 69
+      },
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0d872ec5_a5005eae",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 1
@@ -205,6 +403,24 @@
       "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9a266460_d7c93f08",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0d872ec5_a5005eae",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -225,6 +441,24 @@
     },
     {
       "key": {
+        "uuid": "0b53d581_2bb99b51",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50ecd360_812bbd0a",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cf4e8aad_1f8b0a8b",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 1
@@ -239,6 +473,24 @@
       "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7ec33c24_d6a7f4b2",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf4e8aad_1f8b0a8b",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -259,6 +511,24 @@
     },
     {
       "key": {
+        "uuid": "394acd72_8754f776",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a8931123_09354e08",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1e21f41c_97d74466",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 1
@@ -273,6 +543,24 @@
       "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "22298081_b5dc3db9",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-20T15:19:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e21f41c_97d74466",
+      "revId": "5aed86db009a5416be3978ddb705e9c06755bba3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
