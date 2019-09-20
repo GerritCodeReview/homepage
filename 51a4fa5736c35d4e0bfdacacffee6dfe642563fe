@@ -16,6 +16,24 @@
       "revId": "51a4fa5736c35d4e0bfdacacffee6dfe642563fe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a325505f_e1c477f5",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 578,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T19:27:20Z",
+      "side": 1,
+      "message": "Good catch, I believe https://polymer2-gerrit-review.googlesource.com/c/gerrit/+/231853 has a wrong pointer then :-O\n\nLet me see if I can find the right one.",
+      "parentUuid": "174e0798_486022ef",
+      "revId": "51a4fa5736c35d4e0bfdacacffee6dfe642563fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
