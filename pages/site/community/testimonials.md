@@ -1,6 +1,5 @@
 ---
 title: "Testimonials"
-sidebar: gerritdoc_sidebar
 permalink: testimonials.html
 hide_sidebar: true
 hide_navtoggle: true

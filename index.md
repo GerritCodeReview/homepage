@@ -1,6 +1,5 @@
 ---
 title: "Gerrit Code Review"
-sidebar: gerritdoc_sidebar
 permalink: index.html
 hide_sidebar: true
 hide_navtoggle: true

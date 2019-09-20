@@ -1,6 +1,5 @@
 ---
 title: "Issue Tracking"
-sidebar: gerritdoc_sidebar
 permalink: issues.html
 hide_sidebar: true
 hide_navtoggle: true

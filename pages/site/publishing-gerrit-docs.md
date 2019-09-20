@@ -1,6 +1,5 @@
 ---
 title: "Publishing Gerrit Documentation"
-sidebar: gerritdoc_sidebar
 permalink: publishing.html
 hide_sidebar: true
 hide_navtoggle: true

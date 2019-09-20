@@ -1,6 +1,5 @@
 ---
 title: "Design Documents"
-sidebar: gerritdoc_sidebar
 permalink: design-docs-index.html
 hide_sidebar: true
 hide_navtoggle: true
