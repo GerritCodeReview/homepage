@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cd0af537_666dd5c3",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T15:27:34Z",
+      "side": 1,
+      "message": "Wrap long lines.",
+      "range": {
+        "startLine": 67,
+        "startChar": 79,
+        "endLine": 67,
+        "endChar": 89
+      },
+      "revId": "1fff96d7a4206e537ae596982b63faa4090dbdbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1f3a8053_f953a358",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T15:27:34Z",
+      "side": 1,
+      "message": "a bit more complex and, potentially, reviews across Gerrit and global-refdb more difficult to follow.",
+      "range": {
+        "startLine": 77,
+        "startChar": 33,
+        "endLine": 77,
+        "endChar": 49
+      },
+      "revId": "1fff96d7a4206e537ae596982b63faa4090dbdbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "af40848f_563805fd",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T15:27:34Z",
+      "side": 1,
+      "message": "\"all\"? Can you give some scope? The multi-site use-cases? The split-brain prevention use-cases?",
+      "range": {
+        "startLine": 89,
+        "startChar": 34,
+        "endLine": 89,
+        "endChar": 52
+      },
+      "revId": "1fff96d7a4206e537ae596982b63faa4090dbdbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "740f4373_02bd865d",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T15:27:34Z",
+      "side": 1,
+      "message": "\"unneeded\"",
+      "range": {
+        "startLine": 91,
+        "startChar": 53,
+        "endLine": 91,
+        "endChar": 61
+      },
+      "revId": "1fff96d7a4206e537ae596982b63faa4090dbdbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8c4c0ed5_187c2f8f",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T15:27:34Z",
+      "side": 1,
+      "message": "Mythical man-month?\nWe need to be more realistic, including tests and reviews.",
+      "range": {
+        "startLine": 114,
+        "startChar": 104,
+        "endLine": 114,
+        "endChar": 113
+      },
+      "revId": "1fff96d7a4206e537ae596982b63faa4090dbdbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
