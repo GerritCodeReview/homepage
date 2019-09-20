@@ -34,6 +34,24 @@
       "revId": "51a4fa5736c35d4e0bfdacacffee6dfe642563fe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "db60bdb3_93c90028",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 578,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T19:29:42Z",
+      "side": 1,
+      "message": "Nope, the link is correct, and the issue is just outdated. Don\u0027t worry, I\u0027ll update all the issues once the release is out.",
+      "parentUuid": "a325505f_e1c477f5",
+      "revId": "51a4fa5736c35d4e0bfdacacffee6dfe642563fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
