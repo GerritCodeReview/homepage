@@ -1,7 +1,7 @@
 ---
 title: Summary of the Gerrit User Summit 2019 in Gothenburg
-tags: news
-keywords: news
+tags: news summit hackathon
+keywords: news summit hackathon
 permalink: 2019-09-11-user-summit-gothenburg-summary.html
 summary: "Summary of the Gerrit User Summit 2019 in Gothenburg"
 hide_sidebar: true
