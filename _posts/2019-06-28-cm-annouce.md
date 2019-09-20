@@ -1,6 +1,6 @@
 ---
 title: "Gerrit Community Managers Announce for 2019"
-tags: news
+tags: news community
 keywords: news community
 permalink: 2019-06-28-cm-announce.html
 summary: "Gerrit Community Managers announced for 2019"
