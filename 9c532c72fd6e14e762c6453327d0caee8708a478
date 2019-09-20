@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "39aeb40d_ac47a6fc",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T21:57:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "bb461f7d_75aa28c8",
+      "range": {
+        "startLine": 568,
+        "startChar": 2,
+        "endLine": 568,
+        "endChar": 75
+      },
+      "revId": "9c532c72fd6e14e762c6453327d0caee8708a478",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c3a5f2eb_a46ea0f5",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "9c532c72fd6e14e762c6453327d0caee8708a478",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "51729fc1_a704dc53",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-20T21:57:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3a5f2eb_a46ea0f5",
+      "range": {
+        "startLine": 595,
+        "startChar": 2,
+        "endLine": 596,
+        "endChar": 108
+      },
+      "revId": "9c532c72fd6e14e762c6453327d0caee8708a478",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
