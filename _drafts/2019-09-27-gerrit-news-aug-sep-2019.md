@@ -27,3 +27,6 @@ for details.
 
 The community managers have published a [code of conduct](https://gerritcodereview.com/codeofconduct.html)
 for the project and associated events.
+
+See the recent [news post](https://www.gerritcodereview.com/2019-09-20-code-of-conduct.html)
+for details.
