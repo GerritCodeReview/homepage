@@ -1,7 +1,7 @@
 ---
 title: "Community Manager Meeting June 5, 2019"
-tags: news
-keywords: news cmm community
+tags: news community
+keywords: news community
 permalink: 2019-06-05-cm-minutes.html
 summary: "Minutes from the Community Manager meeting on June 5th"
 hide_sidebar: true
