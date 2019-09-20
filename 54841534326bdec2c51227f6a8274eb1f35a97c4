@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "5828ca58_d15e51ac",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "I\u0027m very optimistic that this is the solution.  :)",
+      "parentUuid": "1aa113de_d6c8c80f",
+      "range": {
+        "startLine": 3,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 41
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cf703d1d_592d9f52",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -59,6 +83,30 @@
       "writtenOn": "2019-09-13T21:41:32Z",
       "side": 1,
       "message": "For sub-checks, will the default state also be NOT_STARTED if a state was never specified?",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 28
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9e0cdcf_d4aff59b",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "That seems reasonable and simple.  The way I would expect to implement this  in Zuul, is to always set \u0027state\u0027 and it would never be NOT_STARTED -- the earliest state value would be SCHEDULED.  So as an implementor, I would be fine with this as described, or either of the following changes would also be fine:\n\n* Make state required.\n* If state is required, disallow NOT_STARTED.",
+      "parentUuid": "cf703d1d_592d9f52",
       "range": {
         "startLine": 16,
         "startChar": 2,
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "020a7415_c2ed094f",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "Indeed, that\u0027s one of the best features of the API.  Maybe \"status or result\" captures it without adding too much?",
+      "parentUuid": "ec8873f0_00f8bd8b",
+      "range": {
+        "startLine": 18,
+        "startChar": 62,
+        "endLine": 18,
+        "endChar": 92
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c0aff78f_a4900d5f",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -105,6 +177,30 @@
       "writtenOn": "2019-09-13T21:41:32Z",
       "side": 1,
       "message": "I think we should introduce a sub data structure for properties like \"rerunnable\" as I envision more to come and it would be nice to group these \u0027config\u0027 properties.",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 21,
+        "endChar": 14
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eb913967_965ab7ab",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c0aff78f_a4900d5f",
       "range": {
         "startLine": 21,
         "startChar": 2,
@@ -140,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "18587f73_24e8765a",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "My preference would be not to perform partial updates of sub-checks, but rather overwrite the entire sub_checks entry of the check each time.  Mostly to accommodate the removal of sub-checks.\n\nIn Zuul, it\u0027s not unheard-of for a reconfiguration which removes a job to occur partway through a set of jobs for a change (indeed, this happened enough that we have quite a few regression tests for it).  We should handle this case in Gerrit one way or another.\n\nThe easiest way to handle it, both in Zuul and Gerrit, would be to disallow partial updates of the sub_checks field.  I think most checkers would have a complete view of all the sub-checks at any given time (after all, they have to identify which check to update, so there is a natural point of convergence for sub-checks), and so could provide all of the data during each update.\n\nIf, however, we did want to allow partial updates, we need to decide how to handle removal of a sub-check.  Do we require the system to send an entry for the sub-check but add an extra field to indicate removal?  Do we not allow sub-checks to be removed, but simply suggest setting state\u003dNOT_RELEVANT in this case?  Both of those are possible but would require extra work in Zuul to continue tracking the state of discarded jobs longer.\n\nAnother option would be to perform partial updates by default, but add a boolean flag to CheckInput indicating that the sub_checks field is a complete, rather than partial update.  Essentially, we could implement both behaviors with a flag to toggle between them.  This would also be simple to implement in Zuul.",
+      "parentUuid": "acfed90d_870d9796",
+      "range": {
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 30,
+        "endChar": 65
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "78574271_67656333",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -151,6 +271,30 @@
       "writtenOn": "2019-09-13T21:41:32Z",
       "side": 1,
       "message": "Similarly as we have CheckInput and CheckInfo, we should also have SubCheckInput and SubCheckInfo. You probably meant this but there\u0027s a small aspect why this is important for me: SubCheckInfo might be slightly different than SubCheckInput. Overall, they should contain the same data but there might be some differences. For instance, we might have a \u0027required\u0027 config parameter and a \u0027required\u0027 info flag of a sub-check (\u003d whether it is really considered as required for submit for the change; see my other comment below). The latter would be indicated by an additional field in SubCheckInfo.",
+      "range": {
+        "startLine": 32,
+        "startChar": 11,
+        "endLine": 33,
+        "endChar": 28
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4d0b11fd_bccc6376",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "Indeed that was more or less what I was imagining; I\u0027m including explicit definitions in the next PS.",
+      "parentUuid": "78574271_67656333",
       "range": {
         "startLine": 32,
         "startChar": 11,
@@ -209,6 +353,30 @@
     },
     {
       "key": {
+        "uuid": "b6cd7ed6_c2e98467",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "Yes -- I think the point I wanted to make here is that we expect the sub-check to be subservient to the parent check in terms of any future restrictions like this.",
+      "parentUuid": "37cade85_8949a6e6",
+      "range": {
+        "startLine": 51,
+        "startChar": 23,
+        "endLine": 52,
+        "endChar": 61
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7bf96d82_0e7c3de5",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -220,6 +388,30 @@
       "writtenOn": "2019-09-13T21:41:32Z",
       "side": 1,
       "message": "In general, how would you expect the overall check status to behave? Do you think it should be explicitly set by the checker? Or should it be derived from the sub-checks? Or should it maybe not matter anymore in any way?",
+      "range": {
+        "startLine": 54,
+        "startChar": 29,
+        "endLine": 54,
+        "endChar": 68
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "170ab9f9_9dc0748a",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "I think the overall status is still useful (Zuul maintains both an overall status for the BuildSet(\u003dcheck) as well as each Build(\u003dsub-check).  I think it would be both simple and sufficient for Gerrit to only consider the overall check state and treat sub-check states as purely informative (to the point that they could disagree -- caveat implementor).  I\u0027d be okay with that.\n\nBut if we want to avoid that, then perhaps we could derive overall check state from sub-check state?  I think taking the first match from the following list would work?\n\n* All sub-checks completed and all required sub-checks successful: successful.\n* All sub-checks completed and any required sub-check failed: failed.\n* Any sub-check not_started: not_started.\n* Any sub-check running: running.\n* Any sub-check scheduled: scheduled.\n* All sub-checks not_relevant: not_relevant.\n\nWe could also just do that if the check state is omitted?\n\nI don\u0027t have a strong preference.  I\u0027d be happy to implement any of the options, and I don\u0027t think any of them would be a problem for Zuul.",
+      "parentUuid": "7bf96d82_0e7c3de5",
       "range": {
         "startLine": 54,
         "startChar": 29,
@@ -255,6 +447,30 @@
     },
     {
       "key": {
+        "uuid": "fc16c861_7b7ff9ef",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3e05fad7_157355dd",
+      "range": {
+        "startLine": 55,
+        "startChar": 13,
+        "endLine": 55,
+        "endChar": 19
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b1b6bcb0_93011899",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -266,6 +482,30 @@
       "writtenOn": "2019-09-13T21:41:32Z",
       "side": 1,
       "message": "I would have thought that we would use the same mechanism for sub-checks as for checks regarding re-run: The checker should simply query for pending checks when getting the event and the reset sub-checks will show up in the result again. This in turn would lead to sub-checks being re-run.\n\nIn any case, it would be helpful to have a separate paragraph which details how the pending checks endpoint behaves in the context of sub-checks.",
+      "range": {
+        "startLine": 55,
+        "startChar": 41,
+        "endLine": 57,
+        "endChar": 52
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "752d0b43_800b084a",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "I *think* we agree -- the salient points are that the pending checks endpoint does not consider sub-checks at all, and the way to cause a checker to re-run a subcheck is to set the overall check status to NOT_STARTED so that it appears in the next poll by the checker, and also to set the sub-check status to NOT_STARTED so that the checker notices it needs to re-run the sub-check.\n\nI\u0027ve updated the next PS to clarify.",
+      "parentUuid": "b1b6bcb0_93011899",
       "range": {
         "startLine": 55,
         "startChar": 41,
@@ -347,6 +587,30 @@
     },
     {
       "key": {
+        "uuid": "7fc10c5f_46ffbedb",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "I\u0027m happy to include that now.  Zuul has a notion of voting and non-voting jobs which should map well to that.  I\u0027ve updated accordingly, and put the required field in the new config dictionary.",
+      "parentUuid": "4cdbbf69_6f373e04",
+      "range": {
+        "startLine": 66,
+        "startChar": 27,
+        "endLine": 67,
+        "endChar": 25
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9d98709c_127f9dc8",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -358,6 +622,30 @@
       "writtenOn": "2019-09-13T21:41:32Z",
       "side": 1,
       "message": "Would you mind if we chose a a bit different UI representation in the end? I can think of several possibilities, for example: not the whole row of a sub-check is indented.",
+      "range": {
+        "startLine": 67,
+        "startChar": 28,
+        "endLine": 69,
+        "endChar": 56
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0874b42e_15443fdf",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-09-20T22:04:23Z",
+      "side": 1,
+      "message": "That\u0027s fine!  Something which is nearly like what I described but with better use of space would be a sort of table where the background of sub-checks is a different color, but checks and sub-checks otherwise look the same.  That would probably look better on mobile devices.\n\nI left comments on the parent change about what I think are the useful UX features we get from solutions like these, so maybe that will help when considering other options.\n\nI thought this should at least have some consideration of a UI.  I\u0027ve adjusted the wording slightly to not suggest indenting as the only option.",
+      "parentUuid": "9d98709c_127f9dc8",
       "range": {
         "startLine": 67,
         "startChar": 28,
