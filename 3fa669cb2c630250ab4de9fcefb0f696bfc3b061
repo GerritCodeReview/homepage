@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "f6cee6f0_9eff3de5",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-09-23T15:05:40Z",
+      "side": 1,
+      "message": "What is missing in this document is an introduction and motivation for a global ref-db.\nI see that this is at least partially discussed in the uses-cases.md but it would be\nbetter if the motivation for this new concept (global ref-db) is discussed and explained\nhere, before the \"Solution\" chapter begins.",
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "931f2227_d03ef2c3",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
