@@ -159,6 +159,30 @@
     },
     {
       "key": {
+        "uuid": "0bb7f89e_ea36d8d1",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-23T15:48:53Z",
+      "side": 1,
+      "message": "\u003e Luca: I think the gist of the algorithm implemented by Google was discussed at the Munich hackathon in May 2019,\n\u003e see https://groups.google.com/forum/#!topic/gerrit-hackathon-muc-2019/Zh7c9Qy94sE\n\nYes, and I recall that Dave mentioned that they had a JGit wrapper in Gerrit that was using Spanner as a global ref-db. I was just curious IF Google could actually share the interface definition of that global refdb (IF it was abstract) and contribute to the JGit project.\n\nAt the moment, I believe (but I\u0027m not 100% sure) it is only in the Google\u0027s custom code-base.",
+      "parentUuid": "1014bd9c_3b586b5a",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73bd6177_07c7ae3e",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
