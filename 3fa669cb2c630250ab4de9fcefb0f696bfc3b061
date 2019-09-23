@@ -19,6 +19,75 @@
     },
     {
       "key": {
+        "uuid": "68a56429_38d82c80",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-23T15:45:17Z",
+      "side": 1,
+      "message": "why AutoClosable and not something like Lock ?",
+      "range": {
+        "startLine": 27,
+        "startChar": 3,
+        "endLine": 27,
+        "endChar": 16
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1584c5fc_ecf0e180",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-23T15:45:17Z",
+      "side": 1,
+      "message": "why not Ref ?",
+      "range": {
+        "startLine": 27,
+        "startChar": 50,
+        "endLine": 27,
+        "endChar": 56
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a802e2b_55577d62",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-23T15:45:17Z",
+      "side": 1,
+      "message": "detection of",
+      "range": {
+        "startLine": 48,
+        "startChar": 15,
+        "endLine": 48,
+        "endChar": 21
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "931f2227_d03ef2c3",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
@@ -66,6 +135,30 @@
     },
     {
       "key": {
+        "uuid": "1014bd9c_3b586b5a",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-23T15:45:17Z",
+      "side": 1,
+      "message": "I second Patrick\u0027s opinion that this should be implemented as another project (bundle) in JGit.\nIf needed we can add multiple projects for implementations using different storage technology\n(Zookeeper, Cassandra, TiDB, ...)\n\nLuca: I think the gist of the algorithm implemented by Google was discussed at the Munich hackathon in May 2019,\nsee https://groups.google.com/forum/#!topic/gerrit-hackathon-muc-2019/Zh7c9Qy94sE",
+      "parentUuid": "8b8986c2_72cce0a3",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73bd6177_07c7ae3e",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
@@ -83,6 +176,23 @@
         "endLine": 84,
         "endChar": 27
       },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0a06ceb8_65df858c",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-09-23T15:45:17Z",
+      "side": 1,
+      "message": "how about a non-dummy implementation which can be used in production at some point in time ?",
       "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
