@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "6c0d54ed_d6ac4342",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-23T19:19:44Z",
+      "side": 1,
+      "message": "\u003e What is missing in this document is an introduction and motivation for a global ref-db.\n\u003e I see that this is at least partially discussed in the uses-cases.md but it would be\n\u003e better if the motivation for this new concept (global ref-db) is discussed and explained\n\u003e here, before the \"Solution\" chapter begins.\n\nAre you suggesting to copy\u0026paste the design of the multi-site plugin? Or at least the relevant parts?",
+      "parentUuid": "f6cee6f0_9eff3de5",
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "68a56429_38d82c80",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
