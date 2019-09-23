@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "931f2227_d03ef2c3",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-09-23T08:44:23Z",
+      "side": 1,
+      "message": "JGit would be the correct place for this IMO. Gerrit\u0027s use of JGit is as simple as calling it\u0027s interfaces. JGit already differentiates between a FileRepository and a DfsRepository. The idea of the Dfs one is that it is distributed to some extent. I think providing your own implementation for a DfsRefDatabase is the way to go. The implementation will be way simpler and more bullet proof because you essentially just provide this one class with a bunch of extra helpers and make sure the biding is correct. You will also avoid any inter-plugin dependency headache.\n\nIf on the other hand, this is implemented as a Gerrit plugin, we\u0027d have to ensure that it is called properly whenever an update is done. So we would create the necessity for calling a plugin endpoint before calling JGit.",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "73bd6177_07c7ae3e",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-09-23T08:44:23Z",
+      "side": 1,
+      "message": "The fact that we don\u0027t have inter-plugin dependencies present a major drawback for the proposed solution I think. just because there are a handful of plugins that will want to use this functionality.",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 27
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
