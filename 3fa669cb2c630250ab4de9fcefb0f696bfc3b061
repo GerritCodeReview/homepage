@@ -206,6 +206,30 @@
     },
     {
       "key": {
+        "uuid": "a1928dc4_77e3cce9",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-23T15:52:29Z",
+      "side": 1,
+      "message": "\u003e The fact that we don\u0027t have inter-plugin dependencies present a major drawback for the proposed solution I think. just because there are a handful of plugins that will want to use this functionality.\n\nWe do have and use plugin dependency:\n- the multi-site plugin depends on the replication plugin and implements one of its extension points\n- the its-jira plugin dependes on the its-base plugin and implements one of its interfaces.",
+      "parentUuid": "73bd6177_07c7ae3e",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 27
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0a06ceb8_65df858c",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
@@ -217,6 +241,24 @@
       "writtenOn": "2019-09-23T15:45:17Z",
       "side": 1,
       "message": "how about a non-dummy implementation which can be used in production at some point in time ?",
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e421b84b_76dcb233",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-23T15:52:29Z",
+      "side": 1,
+      "message": "I believe anyone could write one of those: I would love Google to share their Spanner-based implementation.",
+      "parentUuid": "0a06ceb8_65df858c",
       "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
