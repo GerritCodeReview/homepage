@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "8b8986c2_72cce0a3",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-23T10:38:40Z",
+      "side": 1,
+      "message": "Hi Patrick, I believe your statement is coming from the Google\u0027s implementation of the global-refdb, correct?\n\nCan Google provide its design to the community (without the implementation, of course) so that we can all implement and benefit from alternative solutions?\n\nI believe Marcin\u0027s effort are great in trying and building something we can all use: having the input from Google and its design would be very helpful.\n\nP.S. Is Google\u0027s global-refdb part of JGit and available as an Eclipse project?",
+      "parentUuid": "931f2227_d03ef2c3",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73bd6177_07c7ae3e",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
