@@ -34,6 +34,41 @@
       "revId": "97a4bf6e53b1de6c332714d2f5a36100da7f33bb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "19465593_1a4ff274",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-09-24T09:30:04Z",
+      "side": 1,
+      "message": "Done, Issue 11580.",
+      "parentUuid": "0ee292c7_4c3f2bef",
+      "revId": "97a4bf6e53b1de6c332714d2f5a36100da7f33bb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "419a5cd0_ae48f447",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-09-24T09:30:04Z",
+      "side": 1,
+      "message": "I believe I have missed some details here:\n\n- on push it will publish without warning.\n- merged changes cannot be marked as private",
+      "revId": "97a4bf6e53b1de6c332714d2f5a36100da7f33bb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
