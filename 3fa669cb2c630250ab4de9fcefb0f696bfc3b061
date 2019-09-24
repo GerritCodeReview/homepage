@@ -225,6 +225,30 @@
     },
     {
       "key": {
+        "uuid": "b4fe65d5_5e1d3a8e",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-24T05:58:41Z",
+      "side": 1,
+      "message": "@Jonathan, thanks for the feedback, it is really helpful.\n\n\u003e \u003e I was just curious IF Google could actually share the interface definition of that global refdb (IF it was abstract) and contribute to the JGit project.\n\u003e \n\u003e It\u0027s ordinary DfsRefDatabase.\n\nDfsRefDatabase isn\u0027t an interface but an abstract class.\nAlready contains a lot of implementation details that are just not suitable for the interface that Marcin is proposing.\n\nI am thinking that the proposed GlobalRefDatabase isn\u0027t a RefDatabase after all, but just a transaction coordinator between nodes?\n\n\u003e Actually most of DfsRefDatabase doesn\u0027t end up being useful, since the scanAllRefs approach in that class is not great for getRefsByPrefix access patterns. A better interface to work with is DfsReftableDatabase.\n\nI look at DfsReftableDatabase, and that sounds like another implementation rather than an interface to a generic coordination element.\n\nDo you guys store the local ref-database of the node or not? Do you require absolute global consistency of all ref-updates or can you manage nodes being \"behind\" and recover after a latency period?\nIf accept a node being \"behind\", how do you manage the storage and the skew between the local and the global ref-db?",
+      "parentUuid": "2d2d2fe8_a7be4a7a",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73bd6177_07c7ae3e",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
