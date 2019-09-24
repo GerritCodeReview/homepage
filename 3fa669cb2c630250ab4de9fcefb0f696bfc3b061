@@ -201,6 +201,30 @@
     },
     {
       "key": {
+        "uuid": "2d2d2fe8_a7be4a7a",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-09-24T03:25:31Z",
+      "side": 1,
+      "message": "\u003e I was just curious IF Google could actually share the interface definition of that global refdb (IF it was abstract) and contribute to the JGit project.\n\nIt\u0027s ordinary DfsRefDatabase.\n\nActually most of DfsRefDatabase doesn\u0027t end up being useful, since the scanAllRefs approach in that class is not great for getRefsByPrefix access patterns. A better interface to work with is DfsReftableDatabase.\n\n\u003e I second Patrick\u0027s opinion that this should be implemented as another project (bundle) in JGit.\n\u003e If needed we can add multiple projects for implementations using different storage technology (Zookeeper, Cassandra, TiDB, ...)\n\nYes. I\u0027m happy to help with reviews and advice.",
+      "parentUuid": "0bb7f89e_ea36d8d1",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73bd6177_07c7ae3e",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
