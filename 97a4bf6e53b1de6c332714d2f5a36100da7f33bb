@@ -16,6 +16,24 @@
       "revId": "97a4bf6e53b1de6c332714d2f5a36100da7f33bb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0ee292c7_4c3f2bef",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-24T09:12:48Z",
+      "side": 1,
+      "message": "I wonder if this should be made configurable.  Can you raise an issue?",
+      "parentUuid": "538da1ec_e0a94fd4",
+      "revId": "97a4bf6e53b1de6c332714d2f5a36100da7f33bb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
