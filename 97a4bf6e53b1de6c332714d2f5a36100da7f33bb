@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "538da1ec_e0a94fd4",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-09-24T09:02:15Z",
+      "side": 1,
+      "message": "I believe this is a \u0027breaking change\u0027, not a feature, because users cannot keep submitted changes private (which was a bad idea, but still). WDYT?",
+      "revId": "97a4bf6e53b1de6c332714d2f5a36100da7f33bb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
