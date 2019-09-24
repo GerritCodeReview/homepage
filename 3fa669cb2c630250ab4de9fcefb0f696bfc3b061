@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "1f4e04d9_f5e0aa11",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-24T21:25:32Z",
+      "side": 1,
+      "message": "I agree I will work on introduction and some real use case. Probably as a use case I will use multi-site split-brain prevention because it is already well documented in the multi-site design doc",
+      "parentUuid": "92087a6d_bd11a298",
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "68a56429_38d82c80",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
@@ -267,6 +285,30 @@
     },
     {
       "key": {
+        "uuid": "1ceeb432_7c3076d0",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-24T21:25:32Z",
+      "side": 1,
+      "message": "\u003e I look at DfsReftableDatabase, and that sounds like another implementation rather than an interface to a generic coordination element.\n\nI agree with Luca we still want to keep local ref-db as it is. Global ref-db is just keeping up to date refs for every change in multi nodes environment. The main use case is to make sure that all nodes are in sync or coordinate them with locks. That\u0027s why I believe we don\u0027t need to implement all the complexity of DfsReftableDatabase.",
+      "parentUuid": "b4fe65d5_5e1d3a8e",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73bd6177_07c7ae3e",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
@@ -302,6 +344,30 @@
       "side": 1,
       "message": "\u003e The fact that we don\u0027t have inter-plugin dependencies present a major drawback for the proposed solution I think. just because there are a handful of plugins that will want to use this functionality.\n\nWe do have and use plugin dependency:\n- the multi-site plugin depends on the replication plugin and implements one of its extension points\n- the its-jira plugin dependes on the its-base plugin and implements one of its interfaces.",
       "parentUuid": "73bd6177_07c7ae3e",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 27
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "21f9d391_d893bf48",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-09-24T21:25:32Z",
+      "side": 1,
+      "message": "It is possible to use multi-site plugin as dependency. Problem is that multi-site is not just global ref-db it contains a lot more things, like broker api and its implementation. So if someone needs just global ref-db shouldn\u0027t be force to include all the unnecessary functionality.",
+      "parentUuid": "a1928dc4_77e3cce9",
       "range": {
         "startLine": 83,
         "startChar": 0,
