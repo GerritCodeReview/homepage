@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "92087a6d_bd11a298",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-09-24T07:59:26Z",
+      "side": 1,
+      "message": "\u003e Are you suggesting to copy\u0026paste the design of the multi-site plugin? Or at least the relevant parts?\n\nNot everyone working on Gerrit core is necessary familiar or looking into the multi-site plugin.\nSince this document proposes to introduce the concept of a global ref-db in the Gerrit core\nI believe that it should contain the introduction and motivation. Whether it is copied from\nthe multi-site plugin is not really relevant.",
+      "parentUuid": "6c0d54ed_d6ac4342",
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "68a56429_38d82c80",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
