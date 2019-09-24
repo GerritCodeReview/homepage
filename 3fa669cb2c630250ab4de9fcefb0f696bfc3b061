@@ -309,6 +309,30 @@
     },
     {
       "key": {
+        "uuid": "a1f5e9dd_5cb9f3cc",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-09-24T23:36:00Z",
+      "side": 1,
+      "message": "\u003e Do you guys store the local ref-database of the node or not? Do you require absolute global consistency of all ref-updates or can you manage nodes being \"behind\" and recover after a latency period?\n\nWe allow stale (eventually consistent) reads and require consistency for writes. The RefDatabase interface handles this well, by handling writes in compareAndPut and newBatchUpdate.",
+      "parentUuid": "1ceeb432_7c3076d0",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73bd6177_07c7ae3e",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
