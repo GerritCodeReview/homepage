@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7afb5950_346d56a8",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-09-27T09:28:08Z",
+      "side": 1,
+      "message": "Do we have this in a cache somewhere then? Or will it have to be recomputed on every call?",
+      "revId": "f93d79aa0cf3144bdac29c5001345fb64227b6a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e105a6d0_47adcbd2",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-09-27T09:28:08Z",
+      "side": 1,
+      "message": "How can we still support this on the change search *queries*? Or would that be dropped initially?",
+      "revId": "f93d79aa0cf3144bdac29c5001345fb64227b6a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c53b1519_3387c517",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-09-27T09:28:08Z",
+      "side": 1,
+      "message": "callers",
+      "range": {
+        "startLine": 25,
+        "startChar": 40,
+        "endLine": 25,
+        "endChar": 46
+      },
+      "revId": "f93d79aa0cf3144bdac29c5001345fb64227b6a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
