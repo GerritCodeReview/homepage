@@ -22,6 +22,30 @@
       "revId": "fd8407200bd3c7688d7900339000c2fef5a578d9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "936f675e_b03b1a56",
+        "filename": "_posts/2019-09-17-esc-minutes.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-27T08:02:57Z",
+      "side": 1,
+      "message": "\u003e Could this part be clarified in a follow up change, whether these statements refer to...?\n\u003e \n\u003e - *building* Gerrit with Java 11 JDK (either with \"{-source,-target} 8\" support or without)\n\nYes, that will start with Gerrit v3.1. A failed validation of a change for Java 11 will trigger a Verified -1.\n\nP.S. Our builds will become potentially (not necessarily) slower for that.\n\n\u003e - *running* Gerrit with Java 11 runtime (already possible with 2.14+ presumably?)\n\nPossible, yes, supported, not really until v3.2.",
+      "parentUuid": "71d85452_490f5904",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 74
+      },
+      "revId": "fd8407200bd3c7688d7900339000c2fef5a578d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
