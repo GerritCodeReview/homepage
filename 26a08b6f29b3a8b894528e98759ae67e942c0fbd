@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0dd23d2a_339987c5",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-27T19:57:58Z",
+      "side": 1,
+      "message": "You say \"two primary dimensions\" above, so is this the 1st primary dimension? Else maybe say \"two important dimensions\" above?",
+      "range": {
+        "startLine": 28,
+        "startChar": 7,
+        "endLine": 28,
+        "endChar": 18
+      },
+      "revId": "26a08b6f29b3a8b894528e98759ae67e942c0fbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2b2573fd_59dde64c",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-27T19:57:58Z",
+      "side": 1,
+      "message": "s/most/the most/",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 4
+      },
+      "revId": "26a08b6f29b3a8b894528e98759ae67e942c0fbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f7a98408_5f18d40a",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-27T19:57:58Z",
+      "side": 1,
+      "message": "s/ specific//",
+      "range": {
+        "startLine": 58,
+        "startChar": 50,
+        "endLine": 58,
+        "endChar": 59
+      },
+      "revId": "26a08b6f29b3a8b894528e98759ae67e942c0fbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "40792f9f_1c4c1e2b",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-27T19:57:58Z",
+      "side": 1,
+      "message": "JGit",
+      "range": {
+        "startLine": 60,
+        "startChar": 32,
+        "endLine": 60,
+        "endChar": 36
+      },
+      "revId": "26a08b6f29b3a8b894528e98759ae67e942c0fbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ec24d1dc_b1f0fb1d",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-27T19:57:58Z",
+      "side": 1,
+      "message": "s/share/shared/",
+      "range": {
+        "startLine": 88,
+        "startChar": 48,
+        "endLine": 88,
+        "endChar": 53
+      },
+      "revId": "26a08b6f29b3a8b894528e98759ae67e942c0fbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4bbe23bd_4593f82d",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-27T19:57:58Z",
+      "side": 1,
+      "message": "s/nodes/node/",
+      "range": {
+        "startLine": 90,
+        "startChar": 115,
+        "endLine": 90,
+        "endChar": 120
+      },
+      "revId": "26a08b6f29b3a8b894528e98759ae67e942c0fbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2131d8c_41683f89",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-27T19:57:58Z",
+      "side": 1,
+      "message": "s/installations/installation/",
+      "range": {
+        "startLine": 92,
+        "startChar": 82,
+        "endLine": 92,
+        "endChar": 95
+      },
+      "revId": "26a08b6f29b3a8b894528e98759ae67e942c0fbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "49f7577a_4fa58362",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-27T19:57:58Z",
+      "side": 1,
+      "message": "Additionally, using persisted replication tasks to manage incomplete replication on server shutdown assumes replication tasks can be persisted before the server shuts down. With more servers there is a greater chance that some tasks never get persisted (unclean shutdowns) and get dropped, ultimately leading to potentially very long replication latencies for those tasks.",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 90
+      },
+      "revId": "26a08b6f29b3a8b894528e98759ae67e942c0fbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
