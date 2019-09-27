@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "71d85452_490f5904",
+        "filename": "_posts/2019-09-17-esc-minutes.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-09-27T00:40:26Z",
+      "side": 1,
+      "message": "Could this part be clarified in a follow up change, whether these statements refer to...?\n\n- *building* Gerrit with Java 11 JDK (either with \"{-source,-target} 8\" support or without)\n- *running* Gerrit with Java 11 runtime (already possible with 2.14+ presumably?)\n\nThanks!",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 74
+      },
+      "revId": "fd8407200bd3c7688d7900339000c2fef5a578d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
