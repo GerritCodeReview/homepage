@@ -9,3 +9,4 @@ toc: false
 ## Design Doc - Stop indexing mergeable
 
 * [Use Cases](use-cases.md)
+* [Solution - Remove field](solution-remove-field.md)
