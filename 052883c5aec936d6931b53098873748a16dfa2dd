@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "5e64bf10_937861b4",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-09-27T12:29:26Z",
+      "side": 1,
+      "message": "In the same way that other laze load options work: They get computed when requested. For example: ALL_REVISIONS, CHANGE_ACTIONS, etc.",
+      "parentUuid": "7dcacd4e_55d7d62d",
+      "range": {
+        "startLine": 23,
+        "startChar": 27,
+        "endLine": 23,
+        "endChar": 64
+      },
+      "revId": "052883c5aec936d6931b53098873748a16dfa2dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "32531736_b0a7aff1",
         "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
         "patchSetId": 2
@@ -59,6 +83,30 @@
       "writtenOn": "2019-09-27T12:11:08Z",
       "side": 1,
       "message": "There are already these related configuration options to improve performance:\n\n* index.reindexAfterRefUpdate\n* change.api.excludeMergeableInChangeInfo\n\nSo if reindexAfterRefUpdate is set to false (true by default) and excludeMergeableInChangeInfo is true (set to false by default), then it makes sense to skip mergeable computation on change reindexing. Because the majority of changes have  mergeable bit already staled anyway.",
+      "range": {
+        "startLine": 25,
+        "startChar": 73,
+        "endLine": 26,
+        "endChar": 39
+      },
+      "revId": "052883c5aec936d6931b53098873748a16dfa2dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0debf735_20646240",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-09-27T12:29:26Z",
+      "side": 1,
+      "message": "Yes, this is what I was referring to. But this is not what this solution is about. This solution is about not ever doing this computation and cleaning up these cinfigs by removing them.\n\nAs I wrote in another comment, I\u0027ll add a solution 2 that would make the computation conditional. I\u0027ll upload that next week.",
+      "parentUuid": "32531736_b0a7aff1",
       "range": {
         "startLine": 25,
         "startChar": 73,
