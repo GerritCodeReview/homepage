@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ff0e0cff_c7e1b50b",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1045122
+      },
+      "writtenOn": "2019-09-27T09:30:05Z",
+      "side": 1,
+      "message": "Ah, that appears to be in your parent change.\n\n\u003e Gerrit caches \u0027mergeability\u0027 computations in a cache.\n\n(Perhaps worth to note it here.)",
+      "parentUuid": "7afb5950_346d56a8",
+      "revId": "f93d79aa0cf3144bdac29c5001345fb64227b6a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e105a6d0_47adcbd2",
         "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
         "patchSetId": 1
