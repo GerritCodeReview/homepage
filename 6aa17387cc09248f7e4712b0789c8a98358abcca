@@ -22,6 +22,75 @@
       "revId": "6aa17387cc09248f7e4712b0789c8a98358abcca",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8ac07fe7_b7ea047b",
+        "filename": "pages/design-docs/stop-indexing-mergeable/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-30T04:16:31Z",
+      "side": 1,
+      "message": "nit: remove indentation on this line and the following",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 2
+      },
+      "revId": "6aa17387cc09248f7e4712b0789c8a98358abcca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "acf6e0bd_750f2352",
+        "filename": "pages/design-docs/stop-indexing-mergeable/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-30T04:16:31Z",
+      "side": 1,
+      "message": "its",
+      "range": {
+        "startLine": 25,
+        "startChar": 52,
+        "endLine": 25,
+        "endChar": 56
+      },
+      "revId": "6aa17387cc09248f7e4712b0789c8a98358abcca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dc9da126_eb42e86c",
+        "filename": "pages/design-docs/stop-indexing-mergeable/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-30T04:16:31Z",
+      "side": 1,
+      "message": "redundant words",
+      "range": {
+        "startLine": 28,
+        "startChar": 41,
+        "endLine": 28,
+        "endChar": 52
+      },
+      "revId": "6aa17387cc09248f7e4712b0789c8a98358abcca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
