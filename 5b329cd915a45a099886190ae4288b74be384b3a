@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9bb2ad1e_baa4dfd4",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-09-30T21:10:48Z",
+      "side": 1,
+      "message": "This doesn\u0027t read as a use case; it reads as a solution. Can you review https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html and try to closer adhere to the guidelines presented there?",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 41
+      },
+      "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
