@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "22b47e3b_5b0d6ad5",
+        "filename": "pages/design-docs/stop-indexing-mergeable/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-30T04:18:41Z",
+      "side": 1,
+      "message": "How can we have a conclusion when the review of the design is still ongoing?",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 37
+      },
+      "revId": "052883c5aec936d6931b53098873748a16dfa2dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8bdabb09_3ae267f5",
         "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
         "patchSetId": 2
@@ -65,6 +88,29 @@
         "startChar": 27,
         "endLine": 23,
         "endChar": 64
+      },
+      "revId": "052883c5aec936d6931b53098873748a16dfa2dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f18b2df_ecf9cb3c",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-09-30T04:18:41Z",
+      "side": 1,
+      "message": "callers",
+      "range": {
+        "startLine": 25,
+        "startChar": 40,
+        "endLine": 25,
+        "endChar": 46
       },
       "revId": "052883c5aec936d6931b53098873748a16dfa2dd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
