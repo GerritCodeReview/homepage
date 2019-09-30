@@ -22,6 +22,30 @@
       "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c778b55f_4fe53cd2",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-30T22:50:57Z",
+      "side": 1,
+      "message": "Agreed, even if this is a technical requirement, you should define:\n- who is the user\n- what is the system\n- what the user is trying to achieve interacting with the system",
+      "parentUuid": "9bb2ad1e_baa4dfd4",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 41
+      },
+      "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
