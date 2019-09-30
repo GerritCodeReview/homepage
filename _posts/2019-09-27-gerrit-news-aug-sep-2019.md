@@ -30,3 +30,13 @@ for the project and associated events.
 
 See the recent [news post](https://www.gerritcodereview.com/2019-09-20-code-of-conduct.html)
 for details.
+
+## Mailing list and issue tracker component for ESC
+
+A new [ESC component](https://bugs.chromium.org/p/gerrit/issues/list?q=component%3AESC%20) has
+been created in the issue tracker to make it easier to bring issues to the
+attention of the Engineering Steering Committee.
+
+A [mailing list](mailto:gerritcodereview-esc@googlegroups.com) has also been created
+which allows direct communication to all members of the ESC. Correspondence
+on this list remains private between the sender and ESC members.
