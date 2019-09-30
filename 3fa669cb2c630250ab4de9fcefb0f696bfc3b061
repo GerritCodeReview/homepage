@@ -333,6 +333,30 @@
     },
     {
       "key": {
+        "uuid": "941626f0_7f7704ec",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-09-30T15:50:42Z",
+      "side": 1,
+      "message": "Assuming we move design into JGit, the DfsRefDatabase implementation you have at Google won\u0027t be using the new interface, correct? But would still rely on its partial abstract implementation, that is then implemented downstream in your distributed JGit implementation.\n\nDfsRefDatabase lacks also the shared locking interface, but it is implemented downstream in the execution of the ref-updates.\n\nWould the GlobalRefDatabase be beneficial for Google\u0027s stack of the DfsRefDatabase? Or not? And if yes, what would be the plan to integrate it with Google\u0027s stack? Would that part of the code-base become OpenSource so that we can use it?",
+      "parentUuid": "a1f5e9dd_5cb9f3cc",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "3fa669cb2c630250ab4de9fcefb0f696bfc3b061",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73bd6177_07c7ae3e",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 4
