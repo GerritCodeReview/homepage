@@ -126,6 +126,30 @@
     },
     {
       "key": {
+        "uuid": "efbbc38c_37921387",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-01T22:59:22Z",
+      "side": 1,
+      "message": "\u003e True, see below the number of destinations I have:\n\u003e   $ grep \u0027\\[remote \u0027 replication.config  | wc -l\n\u003e   9228\n\nI see, I suspect this paints a very different picture from how most of us use replication. Are each of those destinations effectively different customers? Does each of those destinations only replicate a small subset of projects to it? I believe each of those \"remote\" entries has to be served by at least one thread? I can start to see why things would be very unpredictable in your setup since you likely have a configuration that does not protect your server from being overloaded if all your customers made simultaneous updates. I believe you likely have immensely over configured your server already and are getting lucky that it is not crashing!\n\nIn our case our destinations replicate every project (all 12K+) on the server. So the scale of each of our destinations is very different than yours, effectively along a different axis. We have tons of project that we need to send to a few places, you likely have something close to each project needing to be individually sent to a separate destination? I am not sure that a common solution would help us both.",
+      "parentUuid": "4fc51ef6_cdbf8440",
+      "range": {
+        "startLine": 11,
+        "startChar": 21,
+        "endLine": 11,
+        "endChar": 33
+      },
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "78dde81a_32338ced",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 3
