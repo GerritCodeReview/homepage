@@ -174,6 +174,30 @@
     },
     {
       "key": {
+        "uuid": "5658d9b1_c2a70ff1",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-01T23:42:31Z",
+      "side": 1,
+      "message": "\u003e \u003e I see, I suspect this paints a very different picture from how most of us use replication. Are each of those destinations effectively different customers? \n\u003e \n\u003e Most of them, yes. Some organisation has hundreds of repos, other just a few.\n\u003e The 40k repos are spread across 9k destinations.\n\u003e \n\u003e We have then the multi-site destinations where we replicate *all of the repos* (3 sites at the moment).\n\n\nOK, makes sense, thanks for that picture.\n\n\u003e \u003e I believe each of those \"remote\" entries has to be served by at least one thread? \n\u003e \n\u003e Yes.\n...\n\u003e It has crashed (actually just this afternoon) but not on all the sites at the same time.\n\u003e So, I am interested in your design effort :-)\n\nI suspect that you could benefit from a much simpler solution. Perhaps to help you out, it would make sense for the replication plugin to put all the remotes without a \u0027threads \u003d\u0027 entry into a common thread pool that you can then configure the thread count on. Or more flexibly, make the plugin support a \u0027thread-pool \u003d XXX\u0027 key that could point to a \u0027[thread-pool \"XXX\"]\u0027 block that would have a \u0027thread \u003d x\u0027 entry in it? That should allow you to set more reasonable limits on the 9K destinations by putting most of them in a common thread pool or two with fairly low thread counts. Both of those suggestions  would be fairly easy to implement given the structure of the current plugin and queuing.\n\n\n\u003e We have that use-case also. As we will increase the number of nodes and sites, we\u0027ll have exactly the same problem as you have :-) So, again, we have a common interest here.\n\nYes, I agree. To be clear though, I do not want to address with this design-doc the problem of having a minimum of one thread dedicated per \"remote\" block.",
+      "parentUuid": "11660854_8662fde8",
+      "range": {
+        "startLine": 11,
+        "startChar": 21,
+        "endLine": 11,
+        "endChar": 33
+      },
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "78dde81a_32338ced",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 3
@@ -221,6 +245,24 @@
       "side": 1,
       "message": "See above my comments on reliability: yes it is all about bugs and I\u0027ve been fixing many of them recently :-)\n\nHowever, when a piece of software has so many bugs, it typically means that its complexity is too high for humans.",
       "parentUuid": "66804a65_39ae5ca4",
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "deffbc39_9c002f64",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-01T23:42:31Z",
+      "side": 1,
+      "message": "Thank you for having greatly simplified the persistent storage recently.",
+      "parentUuid": "e8d0ed23_aa2be059",
       "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
