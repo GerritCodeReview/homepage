@@ -102,6 +102,30 @@
     },
     {
       "key": {
+        "uuid": "4fc51ef6_cdbf8440",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-01T22:23:45Z",
+      "side": 1,
+      "message": "\u003e I suspect that you mean something different by endpoints than what I mean by repliation destinations. \n\nTrue, see below the number of destinations I have:\n  $ grep \u0027\\[remote \u0027 replication.config  | wc -l\n  9228\n\nThey are less than 40k, but still considerable.\n\n\u003e You said that the design is far from perfect, it would be valuable to us if you could describe specific issues you encounter with the current design.\n\nIt is basically not reliable and non-deterministic. Upon a ref-update, it may take for exactly the same repo:\n- a few seconds\n- a few minutes\n- never start\n\nThat is mainly because it tries to solve too many problems at once:\n- multiplexing of git events to replication events\n- aggregation of events in batches\n- queueing with persistent backend\n\nBy separating it into different concerns and taking some \"off-the-shelf\" pluggable components for some of those problems (e.g. persistent event queue), the code-base would become simpler and more flexible also.",
+      "parentUuid": "cee26ebe_c1b019b1",
+      "range": {
+        "startLine": 11,
+        "startChar": 21,
+        "endLine": 11,
+        "endChar": 33
+      },
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "78dde81a_32338ced",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 3
@@ -131,6 +155,24 @@
       "side": 1,
       "message": "This doc is intended to address scalability only, things seem to be fairly reliable for us on the master side. I believe our master side reliability comes from adapting our master usage to be inline with the limits described below. When we tried to exceed those limits years ago we had master issues. I believe that reliability issues that we do run into now tend to be bugs (mostly on the receiving side with git), not architecture.",
       "parentUuid": "78dde81a_32338ced",
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e8d0ed23_aa2be059",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-01T22:23:45Z",
+      "side": 1,
+      "message": "See above my comments on reliability: yes it is all about bugs and I\u0027ve been fixing many of them recently :-)\n\nHowever, when a piece of software has so many bugs, it typically means that its complexity is too high for humans.",
+      "parentUuid": "66804a65_39ae5ca4",
       "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -181,6 +223,30 @@
       "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c93b257b_96242184",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-01T22:23:45Z",
+      "side": 1,
+      "message": "Oh yes, agreed.",
+      "parentUuid": "fb930519_bf7c09c4",
+      "range": {
+        "startLine": 71,
+        "startChar": 57,
+        "endLine": 72,
+        "endChar": 21
+      },
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
