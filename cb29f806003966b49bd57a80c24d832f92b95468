@@ -78,6 +78,30 @@
     },
     {
       "key": {
+        "uuid": "cee26ebe_c1b019b1",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-01T18:22:39Z",
+      "side": 1,
+      "message": "I suspect that you mean something different by endpoints than what I mean by repliation destinations. By endpoints, it sounds like you mean combinations of URLs (i.e. replication config URLs x # of projects) after expanding for projects? I will update the doc to reflect what I mean. By destinations, I mean URI entries in the replication.config, we have ~6 destinations with ~7 threads each and we have a middle tier, since the master could not handle more destinations. The middle tier is another master that handles replicating to less important sites (more than 6 more) with a greater delay than the master. This middle tier was added years ago since we reached our site limit a long time ago. Now we want to add more sites to the main masters (sites with lower latency than the middle tier) and we can\u0027t, which is a shame since we have more than one master, but doing so would increase the overall counts thread (and thus run into the limits below), or reduce the thread counts to the existing sites and thus impact them. I will add some numbers to the doc also, since it might help illustrate the problem better.\n\nYou said that the design is far from perfect, it would be valuable to us if you could describe specific issues you encounter with the current design.",
+      "parentUuid": "53a219fa_b7c00217",
+      "range": {
+        "startLine": 11,
+        "startChar": 21,
+        "endLine": 11,
+        "endChar": 33
+      },
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "78dde81a_32338ced",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 3
@@ -95,6 +119,24 @@
     },
     {
       "key": {
+        "uuid": "66804a65_39ae5ca4",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-01T18:22:39Z",
+      "side": 1,
+      "message": "This doc is intended to address scalability only, things seem to be fairly reliable for us on the master side. I believe our master side reliability comes from adapting our master usage to be inline with the limits described below. When we tried to exceed those limits years ago we had master issues. I believe that reliability issues that we do run into now tend to be bugs (mostly on the receiving side with git), not architecture.",
+      "parentUuid": "78dde81a_32338ced",
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9ff1ab36_0a85feda",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 3
@@ -106,6 +148,30 @@
       "writtenOn": "2019-10-01T17:49:55Z",
       "side": 1,
       "message": "This is not related to the use-cases though. Would you add the resiliency part to the use-cases?",
+      "range": {
+        "startLine": 71,
+        "startChar": 57,
+        "endLine": 72,
+        "endChar": 21
+      },
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fb930519_bf7c09c4",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-01T18:22:39Z",
+      "side": 1,
+      "message": "I believe it is because we want to add more masters to support more destinations, and with the current design adding more masters makes this problem worse, not better.",
+      "parentUuid": "9ff1ab36_0a85feda",
       "range": {
         "startLine": 71,
         "startChar": 57,
