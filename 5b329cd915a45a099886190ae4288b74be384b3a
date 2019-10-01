@@ -46,6 +46,30 @@
       "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2f234b24_f7e9d091",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-10-01T07:02:00Z",
+      "side": 1,
+      "message": "\u003e Agreed, even if this is a technical requirement, you should define:\n\u003e - who is the user\n\u003e - what is the system\n\u003e - what the user is trying to achieve interacting with the system\n\nYes you are right this shouldn\u0027t be here. I believe all those points are covered in primary and secondary use cases",
+      "parentUuid": "c778b55f_4fe53cd2",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 41
+      },
+      "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
