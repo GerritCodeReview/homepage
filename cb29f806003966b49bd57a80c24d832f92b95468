@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "f097d085_3e84cea1",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-01T15:02:40Z",
+      "side": 1,
+      "message": "Will this be continued with a proposed new design?",
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aa3c3cb6_96120e27",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 3
