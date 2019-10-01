@@ -150,6 +150,30 @@
     },
     {
       "key": {
+        "uuid": "11660854_8662fde8",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-01T23:07:35Z",
+      "side": 1,
+      "message": "\u003e \u003e True, see below the number of destinations I have:\n\u003e \u003e   $ grep \u0027\\[remote \u0027 replication.config  | wc -l\n\u003e \u003e   9228\n\u003e \n\u003e I see, I suspect this paints a very different picture from how most of us use replication. Are each of those destinations effectively different customers? \n\nMost of them, yes. Some organisation has hundreds of repos, other just a few.\nThe 40k repos are spread across 9k destinations.\n\nWe have then the multi-site destinations where we replicate *all of the repos* (3 sites at the moment).\n\n\u003e Does each of those destinations only replicate a small subset of projects to it? \n\nSee above: the repos are partitioned across destinations.\n\n\u003e I believe each of those \"remote\" entries has to be served by at least one thread? \n\nYes.\n\n\u003e I can start to see why things would be very unpredictable in your setup since you likely have a configuration that does not protect your server from being overloaded if all your customers made simultaneous updates.\n\nPossible, not very likely. We are HA and multi-site anyway, so to bring down the service they need to kill *all of them*.\n\n\u003e I believe you likely have immensely over configured your server already and are getting lucky that it is not crashing!\n\nIt has crashed (actually just this afternoon) but not on all the sites at the same time.\nSo, I am interested in your design effort :-)\n\n\u003e In our case our destinations replicate every project (all 12K+) on the server. So the scale of each of our destinations is very different than yours, effectively along a different axis. We have tons of project that we need to send to a few places, you likely have something close to each project needing to be individually sent to a separate destination? I am not sure that a common solution would help us both.\n\nWe have that use-case also. As we will increase the number of nodes and sites, we\u0027ll have exactly the same problem as you have :-) So, again, we have a common interest here.",
+      "parentUuid": "efbbc38c_37921387",
+      "range": {
+        "startLine": 11,
+        "startChar": 21,
+        "endLine": 11,
+        "endChar": 33
+      },
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "78dde81a_32338ced",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 3
