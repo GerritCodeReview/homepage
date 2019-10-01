@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "3ac853e8_2601730c",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-01T17:41:36Z",
+      "side": 1,
+      "message": "I am trying to ensure that the problem description stands on its own and is well described, understood, and agreed upon before offering solutions. As a community we noticed that as positive engineers, we tend to talk about solutions and often forget to describe the objective/problem and scope. This doc is intended to not have solutions. I will upload a follow on change with a proposal for a solution, and maybe someone else will have a solution.",
+      "parentUuid": "af17167e_112b8b09",
+      "revId": "cb29f806003966b49bd57a80c24d832f92b95468",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aa3c3cb6_96120e27",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 3
