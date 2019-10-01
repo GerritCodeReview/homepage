@@ -70,6 +70,30 @@
       "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "05d3266e_7628a3f3",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-10-01T16:18:28Z",
+      "side": 1,
+      "message": "\u003e \u003e Agreed, even if this is a technical requirement, you should define:\n\u003e \u003e - who is the user\n\u003e \u003e - what is the system\n\u003e \u003e - what the user is trying to achieve interacting with the system\n\u003e \n\u003e Yes you are right this shouldn\u0027t be here. I believe all those points are covered in primary and secondary use cases\n\nEverything I read below seems to be solution-focused. This doc is expected to contain a problem, describing (as Luca notes) user, system, and their interactions.\n\nIt is also recommended to split the problem and solution docs into two separate changes to focus review on the problem before discussing the solution(s).",
+      "parentUuid": "2f234b24_f7e9d091",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 41
+      },
+      "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
