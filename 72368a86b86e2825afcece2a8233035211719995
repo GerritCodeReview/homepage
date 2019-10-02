@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1237bf63_7d6a4d12",
+        "filename": "_posts/2019-10-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-02T06:35:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e9c4096_eb0499d7",
+      "revId": "72368a86b86e2825afcece2a8233035211719995",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "82bbc3d6_c815317a",
         "filename": "_posts/2019-10-01-esc-minutes.md",
         "patchSetId": 1
@@ -39,6 +57,30 @@
       "revId": "72368a86b86e2825afcece2a8233035211719995",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "14729630_453f2997",
+        "filename": "_posts/2019-10-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-02T06:35:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82bbc3d6_c815317a",
+      "range": {
+        "startLine": 153,
+        "startChar": 31,
+        "endLine": 153,
+        "endChar": 34
+      },
+      "revId": "72368a86b86e2825afcece2a8233035211719995",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
