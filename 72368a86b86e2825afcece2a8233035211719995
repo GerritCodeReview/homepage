@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e9c4096_eb0499d7",
+        "filename": "_posts/2019-10-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-10-02T06:28:54Z",
+      "side": 1,
+      "message": "closing paran",
+      "revId": "72368a86b86e2825afcece2a8233035211719995",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "82bbc3d6_c815317a",
+        "filename": "_posts/2019-10-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-10-02T06:28:54Z",
+      "side": 1,
+      "message": "I think we won\u0027t have something ready in time for 3.1. We can as well just write release notes. :-)",
+      "range": {
+        "startLine": 153,
+        "startChar": 31,
+        "endLine": 153,
+        "endChar": 34
+      },
+      "revId": "72368a86b86e2825afcece2a8233035211719995",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
