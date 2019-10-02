@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "94bf2875_d8d456c6",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-10-02T14:30:16Z",
+      "side": 1,
+      "message": "due to missing permission checks",
+      "range": {
+        "startLine": 6,
+        "startChar": 9,
+        "endLine": 6,
+        "endChar": 24
+      },
+      "revId": "bd80462670fb0c1540365f847d89b177c91af3c7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8830432c_5ba4fb82",
+        "filename": "pages/design-docs/permission-tests/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-10-02T14:30:16Z",
+      "side": 1,
+      "message": "in gerrit tests, right?",
+      "range": {
+        "startLine": 37,
+        "startChar": 14,
+        "endLine": 37,
+        "endChar": 20
+      },
+      "revId": "bd80462670fb0c1540365f847d89b177c91af3c7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
