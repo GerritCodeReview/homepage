@@ -21,7 +21,7 @@ Online, September 17, 12:30 - 13:30 CEST
 
 ### Next meeting
 
-The next meeting will be held on October 2, 12:30 CEST.
+The next meeting will be held on October 1, 12:30 CEST.
 
 ## Minutes
 
