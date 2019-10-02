@@ -48,6 +48,23 @@
     },
     {
       "key": {
+        "uuid": "d1d5376e_f964e645",
+        "filename": "_posts/2019-10-01-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-10-02T07:42:07Z",
+      "side": 1,
+      "message": "Can we link the bug that requests checks to be in core and ask members to express support in case they think this would benefit the project?\n\nAt this point, I think we aren\u0027t looking for a broader discussion, it\u0027s too early for that, but it\u0027d be nice to gauge general interest by looking for supporting voices.\n\nhttps://bugs.chromium.org/p/gerrit/issues/detail?id\u003d11534",
+      "revId": "75864fab302ff644d3aa6f838fe4b182346ea7c8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "38e5a448_cf744a59",
         "filename": "_posts/2019-10-01-esc-minutes.md",
         "patchSetId": 2
