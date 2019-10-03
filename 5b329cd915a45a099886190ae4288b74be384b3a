@@ -94,6 +94,30 @@
       "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3651628e_1a355a43",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2019-10-03T10:37:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05d3266e_7628a3f3",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 41
+      },
+      "revId": "5b329cd915a45a099886190ae4288b74be384b3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
