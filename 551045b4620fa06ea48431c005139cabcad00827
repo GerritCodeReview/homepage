@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6c09d645_3df86535",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-04T14:37:21Z",
+      "side": 1,
+      "message": "if.",
+      "range": {
+        "startLine": 18,
+        "startChar": 17,
+        "endLine": 18,
+        "endChar": 21
+      },
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d472edd_66b939bb",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-04T14:37:21Z",
+      "side": 1,
+      "message": "So, the disadvantage here, is that the tests would rely on the endpoint declare the needed permission. If one required permission is not declared (mistake) then it wouldn\u0027t be tested.",
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0abd0d24_4268ff33",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-04T14:37:21Z",
+      "side": 1,
+      "message": "For all? I am not aware, that endpoints define (right now) in declarative way which permissions they need. Or am I missing something? Can you point me to the code?",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 66
+      },
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bbcbec2a_8b13347f",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-04T14:37:21Z",
+      "side": 1,
+      "message": "This is exaggeration and does not refelct the current status of gerrit code base. There are permission tests. The test setup is group based as you pointed out in the begining of this document, and the tests are not automaticly doable right now, because endpoint do not declare their permissions.",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 50
+      },
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4e40a550_27edef16",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-04T14:37:21Z",
+      "side": 1,
+      "message": "How/where the learned permission for endpoint will be declared/stored?",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 50
+      },
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd0fb342_a517e03d",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-04T14:37:21Z",
+      "side": 1,
+      "message": "not needed?",
+      "range": {
+        "startLine": 86,
+        "startChar": 72,
+        "endLine": 86,
+        "endChar": 76
+      },
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
