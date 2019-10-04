@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fb37ca60_26b9aa00",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "config",
+      "range": {
+        "startLine": 24,
+        "startChar": 42,
+        "endLine": 24,
+        "endChar": 52
+      },
+      "revId": "bcff1259455db255ef840735c4f2de676ccd41d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "92678697_5bd29d2b",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "Isn\u0027t the \u0027name\u0027 field missing in this table?",
+      "revId": "bcff1259455db255ef840735c4f2de676ccd41d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}

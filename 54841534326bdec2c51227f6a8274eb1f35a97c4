@@ -119,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "85d34fa3_cbaf1f0d",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "As there are different use cases out in the wild, I would try to keep this as flexible as possible and hence not make the state required or even disallow some values. Also for consistency reasons, it might make sense to offer the same behavior for checks and sub-checks. Let\u0027s go with the default state NOT_STARTED.",
+      "parentUuid": "d9e0cdcf_d4aff59b",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 28
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ec8873f0_00f8bd8b",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -260,6 +284,30 @@
     },
     {
       "key": {
+        "uuid": "259dcd78_f85974a4",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "I heard of some use cases which do require that sub-checks aren\u0027t reported in bulk. So, I think we should support this as well.\n\nAll other fields of checks have a null-value with which their value can be unset. We could define that specifying an empty list of sub-checks removes any sub-checks of that check. By sending that value and afterwards posting again the relevant sub-checks, it would be possible to remove a sub-check which isn\u0027t run anymore. Would this work for Zuul?",
+      "parentUuid": "18587f73_24e8765a",
+      "range": {
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 30,
+        "endChar": 65
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "78574271_67656333",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -377,6 +425,30 @@
     },
     {
       "key": {
+        "uuid": "96975535_61a8c318",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "Okay. Sounds good.",
+      "parentUuid": "b6cd7ed6_c2e98467",
+      "range": {
+        "startLine": 51,
+        "startChar": 23,
+        "endLine": 52,
+        "endChar": 61
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7bf96d82_0e7c3de5",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -412,6 +484,30 @@
       "side": 1,
       "message": "I think the overall status is still useful (Zuul maintains both an overall status for the BuildSet(\u003dcheck) as well as each Build(\u003dsub-check).  I think it would be both simple and sufficient for Gerrit to only consider the overall check state and treat sub-check states as purely informative (to the point that they could disagree -- caveat implementor).  I\u0027d be okay with that.\n\nBut if we want to avoid that, then perhaps we could derive overall check state from sub-check state?  I think taking the first match from the following list would work?\n\n* All sub-checks completed and all required sub-checks successful: successful.\n* All sub-checks completed and any required sub-check failed: failed.\n* Any sub-check not_started: not_started.\n* Any sub-check running: running.\n* Any sub-check scheduled: scheduled.\n* All sub-checks not_relevant: not_relevant.\n\nWe could also just do that if the check state is omitted?\n\nI don\u0027t have a strong preference.  I\u0027d be happy to implement any of the options, and I don\u0027t think any of them would be a problem for Zuul.",
       "parentUuid": "7bf96d82_0e7c3de5",
+      "range": {
+        "startLine": 54,
+        "startChar": 29,
+        "endLine": 54,
+        "endChar": 68
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e7e53448_27b263d1",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "In the future, we might need to make this configurable but for the beginning, let\u0027s go with: Don\u0027t automatically derive the check state from the sub-check state but also block on required sub-checks. This way, systems like Zuul have the most flexibility. They have to ensure themselves, though, that what they post makes sense to the user.",
+      "parentUuid": "170ab9f9_9dc0748a",
       "range": {
         "startLine": 54,
         "startChar": 29,
@@ -518,6 +614,30 @@
     },
     {
       "key": {
+        "uuid": "6562bff6_ae340fe8",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "Thanks for the additional details. I actually think that the pending checks endpoint should be adjusted to also report pending sub-checks, not on the same level as checks but as a sub-entity specifying their name and state. Thus, we can also distinguish between re-running individual sub-checks (\u003c- only set the sub-check to NOT_STARTED) and re-running the checker completely (\u003c- use re-run on the checker level to set the checker to NOT_STARTED and remove any sub-checks). The latter might also include new sub-checks (or less sub-checks) and is requested by not naming sub-checks in pending checks, whereas the former re-runs exactly the requested ones by naming them. Hence, I wouldn\u0027t automatically set the checker to NOT_STARTED if re-run is used on a sub-check.\n\nI know that we might want to show different attempts in the future, both on the check and sub-check level. This might mean that we internally still keep some references to previous sub-check attempts but we can think about that when we implement that feature. At the moment, we would just override everything.",
+      "parentUuid": "752d0b43_800b084a",
+      "range": {
+        "startLine": 55,
+        "startChar": 41,
+        "endLine": 57,
+        "endChar": 52
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "87686d29_d726265d",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -611,6 +731,30 @@
     },
     {
       "key": {
+        "uuid": "e613b48a_5cbb53b4",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "Thanks.",
+      "parentUuid": "7fc10c5f_46ffbedb",
+      "range": {
+        "startLine": 66,
+        "startChar": 27,
+        "endLine": 67,
+        "endChar": 25
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9d98709c_127f9dc8",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -655,6 +799,30 @@
       "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3c52822d_6b5a0d6c",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:55:10Z",
+      "side": 1,
+      "message": "The different coloring might be a good option. I\u0027ll keep it in mind.",
+      "parentUuid": "0874b42e_15443fdf",
+      "range": {
+        "startLine": 67,
+        "startChar": 28,
+        "endLine": 69,
+        "endChar": 56
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
