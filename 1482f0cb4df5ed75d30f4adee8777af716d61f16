@@ -22,6 +22,30 @@
       "revId": "1482f0cb4df5ed75d30f4adee8777af716d61f16",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4c9c8092_67e24a73",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-10-04T20:59:03Z",
+      "side": 1,
+      "message": "I thought of mentioning it still, given the remaining confusion about it in the community -[1].\n\n[1] https://groups.google.com/forum/#!topic/repo-discuss/t5SxlzwCEOQ",
+      "parentUuid": "ff21b19c_8f9c1492",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 66
+      },
+      "revId": "1482f0cb4df5ed75d30f4adee8777af716d61f16",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
