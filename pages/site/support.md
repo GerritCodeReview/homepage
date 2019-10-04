@@ -53,6 +53,12 @@ appear on the mailing list. Approvals normally happen within 1 work
 day. Posts of people that participate in mailing list discussions
 frequently are approved automatically.
 
+Using the [mailing list][repo-discuss], you can also request to be
+invited to the open [Slack][slack-workspace] channel if prompted to. A
+maintainer or community manager should then be able to address your
+request. Please try [accessing it][slack-workspace] first before issuing
+a request for it.
+
 You could also check the questions tagged with "gerrit" on
 [Stack Overflow][stack-overflow].
 
@@ -75,4 +81,5 @@ use-cases.
 [feature-request]: https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose
 [issue-tracking]: /issues.html
 [repo-discuss]: https://groups.google.com/forum/#!forum/repo-discuss
+[slack-workspace]: https://gerritcodereview.slack.com
 [stack-overflow]: https://stackoverflow.com/questions/tagged/gerrit
