@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "fe1ce8af_56dc805f",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:53:25Z",
+      "side": 1,
+      "message": "Thanks for the detailed answer. Those details will be helpful when we\u0027ll look closer at the UI.\n\nOne idea I had is that we could maybe also go with two different views: one which focuses on the grouping/hierarchy and another one which focuses more on providing a good overview regarding states.",
+      "parentUuid": "17e34c20_33e0aab1",
+      "range": {
+        "startLine": 26,
+        "startChar": 32,
+        "endLine": 26,
+        "endChar": 58
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ec35fa6b_ddf529e7",
         "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
         "patchSetId": 3
@@ -96,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "30cae978_c86f6035",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:53:25Z",
+      "side": 1,
+      "message": "Thanks.",
+      "parentUuid": "7bca1679_fb697faf",
+      "range": {
+        "startLine": 30,
+        "startChar": 36,
+        "endLine": 30,
+        "endChar": 60
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "998527a4_1277e147",
         "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
         "patchSetId": 3
@@ -140,6 +188,30 @@
       "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1359cfdf_4a92c786",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2019-10-04T15:53:25Z",
+      "side": 1,
+      "message": "The text in the new patch set explains this much better. :-)",
+      "parentUuid": "6f8673e0_1f3554c7",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 36
+      },
+      "revId": "b14d0d3c5b09da4d2a3c2a4d0c1dafc74e7bdc0b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
