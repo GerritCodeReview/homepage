@@ -53,8 +53,17 @@ appear on the mailing list. Approvals normally happen within 1 work
 day. Posts of people that participate in mailing list discussions
 frequently are approved automatically.
 
+Using the [mailing list][repo-discuss], you can also request to be
+invited to the open [Slack][slack-workspace] channel if prompted to. A
+maintainer or community manager should then be able to adress your
+request. Please try [accessing it][slack-workspace] first before issuing
+a request for it.
+
 You could also check the questions tagged with "gerrit" on
 [Stack Overflow][stack-overflow].
+
+Note that [the legacy IRC freenode channel for Gerrit][irc-channel] is
+no longer officially maintained or used by the Gerrit maintainers.
 
 ## Bugs
 
@@ -73,6 +82,8 @@ submit your feature request together with some valid, general,
 use-cases.
 
 [feature-request]: https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose
+[irc-channel]: https://echelog.com/logs/browse/gerrit/
 [issue-tracking]: /issues.html
 [repo-discuss]: https://groups.google.com/forum/#!forum/repo-discuss
+[slack-workspace]: https://gerritcodereview.slack.com
 [stack-overflow]: https://stackoverflow.com/questions/tagged/gerrit
