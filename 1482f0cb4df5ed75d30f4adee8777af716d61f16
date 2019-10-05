@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "e142bf19_36bbe720",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-05T01:20:57Z",
+      "side": 1,
+      "message": "address",
+      "range": {
+        "startLine": 58,
+        "startChar": 55,
+        "endLine": 58,
+        "endChar": 61
+      },
+      "revId": "1482f0cb4df5ed75d30f4adee8777af716d61f16",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ff21b19c_8f9c1492",
         "filename": "pages/site/support.md",
         "patchSetId": 1
@@ -61,6 +84,30 @@
       "side": 1,
       "message": "I’m in this channel and recently gained ops status in there.",
       "parentUuid": "4c9c8092_67e24a73",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 66
+      },
+      "revId": "1482f0cb4df5ed75d30f4adee8777af716d61f16",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bc133087_b8373c66",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-05T01:20:57Z",
+      "side": 1,
+      "message": "It was intentionally removed from here because none of the maintainers are using it. I don\u0027t think we should put it back.",
+      "parentUuid": "be1162ea_c5db8647",
       "range": {
         "startLine": 65,
         "startChar": 0,
