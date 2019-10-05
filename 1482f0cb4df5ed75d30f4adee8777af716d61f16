@@ -167,6 +167,30 @@
       "revId": "1482f0cb4df5ed75d30f4adee8777af716d61f16",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "18941ea1_c9bc76a5",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-05T03:42:35Z",
+      "side": 1,
+      "message": "If everyone agrees that the IRC is not an official communication channel, then we can add a note about that, but let\u0027s do it as a follow up after discussion in the community.",
+      "parentUuid": "b1dd4fc9_23358fff",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 66
+      },
+      "revId": "1482f0cb4df5ed75d30f4adee8777af716d61f16",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
