@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4aa4a52a_06f6cdac",
+        "filename": "pages/site/support.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-05T21:44:47Z",
+      "side": 1,
+      "message": "Did we discuss if we are ok with the limitations of the free slack plan ?\nThe gerritcodereview workspace now has 8.5k messsages, this means soon the oldest messages\nwill no longer be accessible using the free plan. Not sure if this is a problem or not.\n\nAn alternative could be to run our own instance of mattermost [1] which is open source.\nThe Eclipse Foundation is using mattermost. Here is the mattermost channel for JGit [2].\n\n[1] https://www.mattermost.org/\n[2] https://mattermost.eclipse.org/eclipse/channels/jgit",
+      "revId": "e2261fe9c3eb74803d805fa1f433d4f72345840d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0756f34c_124417df",
+        "filename": "pages/site/support.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-05T21:44:47Z",
+      "side": 1,
+      "message": "I would remove these words",
+      "range": {
+        "startLine": 57,
+        "startChar": 52,
+        "endLine": 57,
+        "endChar": 67
+      },
+      "revId": "e2261fe9c3eb74803d805fa1f433d4f72345840d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
