@@ -9,4 +9,4 @@ toc: false
 ## Design Doc - Scaling Multi-Master Replication
 
 * [Use Cases](use-cases.md)
-* [Solution - Sharing Persisted Replication Tasks](solution-sharing-persisted-events.md)
+* [Solution](solution-distribute-replication-tasks-via-shared-FS.md)
