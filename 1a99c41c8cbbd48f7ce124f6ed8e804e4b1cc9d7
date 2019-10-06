@@ -1,0 +1,542 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7042d3e9_2bb298a0",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "remove duplicate \"be\"",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 2
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6b579db9_7a9d93cd",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "didn\u0027t you say above the global ref-db implementation should be done in a plugin ?",
+      "range": {
+        "startLine": 14,
+        "startChar": 33,
+        "endLine": 14,
+        "endChar": 66
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "19431849_ee4b1417",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "I think this interface should be \n- defined in JGit\n- provide methods available in RefDatabase (a subset might be sufficient)\n- provide an implementation of RefUpdate handling transactions and managing replication of the RefUpdate persisted in global refdb to the local refdb of each repository instance within a multi-site cluster. AFAIR Google uses Spanner to update refs in their implementation of a global refdb and uses persistent queues to ensure replication of ref updates isn\u0027t lost in case an instance is down during a ref update transaction",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f0048cdd_ff104b3c",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "I think this isn\u0027t sufficient since a single push command for a repository can update multiple refs, e.g.\npush origin refs/heads/foo/*:refs/heads/bar/*\nthat\u0027s why JGit has RefUpdate (atomic) and BatchRefUpdate (not atomic) or PackedBatchRefUpdate (atomic).\nSame comment for all other methods below. FileRefTableDatabase will provide a more efficient implementation for ref updates.\n\nIn JGit there is exactly one RefDatabase per Repository, maybe it would be more consistent to do this here in the same way, one global refdb per cluster of JGit Repository instances of a given repository living in different Gerrit instances. The global refdb instance to use could be selected in Gerrit using the Project.NameKey selecting the respective repository.",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e8b49363_26018489",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "why not Ref ?",
+      "range": {
+        "startLine": 27,
+        "startChar": 50,
+        "endLine": 27,
+        "endChar": 64
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "403cecdf_2a275025",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "use Duration to include the time unit being used ?",
+      "range": {
+        "startLine": 27,
+        "startChar": 66,
+        "endLine": 27,
+        "endChar": 70
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f8cd113c_dc9a57e6",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "leaseLock ?",
+      "range": {
+        "startLine": 27,
+        "startChar": 17,
+        "endLine": 27,
+        "endChar": 24
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "428c39e7_471ad234",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "why AutoClosable and not Lock ?",
+      "range": {
+        "startLine": 27,
+        "startChar": 3,
+        "endLine": 27,
+        "endChar": 16
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ace3c0b1_e9779e65",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "in JGit lifecycle of a repository is coupled with lifecycle of its RefDatabase, i.e. if a repository is created this also creates its RefDatabase.\nIn a multi-site cluster using global refdb there are multiple replica of a given repository living in different instances. Creating a repository should\ncreate the corresponding instance of a global refdb and deletion of a repository should delete the corresponding global refdb.",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "67fe26a4_05d7ee5f",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "in JGit this is handled by a RefUpdate updating from an ObjectId which is different from ObjectId.ZEROID to ObjectId.ZEROID.\nVice versa creation of a new ref is handled by a RefUpdate from ZEROID to an ObjectID which is different from ZEROID.",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d17c793_cd24fad6",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "See my comments above. If some interfaces in JGit are missing this doesn\u0027t mean they cannot be added if we need them.\n\nI think we should try if we can define a global refdb as a combination of a RefDatabase based on a distributed database and a corresponding implementation of RefUpdate handling transactional update of refs in the global refdb and replication of the same refs updates to the RefDatabase of each instance.",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "355e1052_1db5b9d8",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "Gerrit master no longer depends on JGit release cycle since it builds JGit from source",
+      "range": {
+        "startLine": 74,
+        "startChar": 543,
+        "endLine": 74,
+        "endChar": 568
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "adcaf827_3c475ba7",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "if this is implemented in JGit also other implementations could use this interface",
+      "range": {
+        "startLine": 74,
+        "startChar": 442,
+        "endLine": 74,
+        "endChar": 473
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c78d383f_7e859595",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "did you try ? which incompatible changes are needed ?\nAFAIK one of the main reasons why Shawn started JGit was that he needed a Java implementation of Git for Gerrit.\nMost if not all of the JGit committers have a serious interest in Gerrit being successful.",
+      "range": {
+        "startLine": 74,
+        "startChar": 144,
+        "endLine": 74,
+        "endChar": 170
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "46dc3324_cfd02c94",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "This doesn\u0027t mean that the interfaces missing in JGit cannot be introduced.",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0869e30c_3f1e0e18",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "I think this would be easier to read without using all-caps for keywords, I\u0027d try italics font",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "48779ab0_0ece47a6",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "where would this implementation live ? I guess in a plugin ?",
+      "range": {
+        "startLine": 7,
+        "startChar": 20,
+        "endLine": 7,
+        "endChar": 42
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "72ca3923_628b1222",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "use",
+      "range": {
+        "startLine": 7,
+        "startChar": 15,
+        "endLine": 7,
+        "endChar": 19
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "22b78970_c27b88b6",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "use",
+      "range": {
+        "startLine": 9,
+        "startChar": 75,
+        "endLine": 9,
+        "endChar": 79
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "15e6057a_bb5d63d7",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "could the same be achieved with the global refdb API defined in the multi-site plugin ?\nWhat\u0027s the advantage to define this API in Gerrit core ?",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "40f59124_09a5089f",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "this sounds impossible except if all masters try to execute the same update",
+      "range": {
+        "startLine": 16,
+        "startChar": 5,
+        "endLine": 16,
+        "endChar": 75
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3814e0bd_29e847e3",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "would global ref-db API also be used by Gerrit core itself ?",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df1a3ad1_5208d50d",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "do you mean: \"both clients have their persisted representation of HEAD referring to commit W0\" ?\n\nwhat does W in W0 stand for ? I would use C0 (like commit)",
+      "range": {
+        "startLine": 39,
+        "startChar": 30,
+        "endLine": 39,
+        "endChar": 57
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "92b6ae37_7d70eb70",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "could you show the timestamps in the diagrams ?",
+      "range": {
+        "startLine": 39,
+        "startChar": 4,
+        "endLine": 39,
+        "endChar": 6
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6b2373c8_1bff29c4",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "I don\u0027t understand this, aren\u0027t both instances masters ?\nIn line 52 you say that the next push from client 2 is served by instance2 which means both instances are RW nodes",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 7
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f19c1594_5cbadcb3",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T00:08:38Z",
+      "side": 1,
+      "message": "doesn\u0027t that mean you always first persist the ref update in the global refdb and then replicate it to all instances having their own local persisted representation ?",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
