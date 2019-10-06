@@ -366,6 +366,30 @@
     },
     {
       "key": {
+        "uuid": "810297da_8678c41c",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-06T21:04:03Z",
+      "side": 1,
+      "message": "Tried to resume the change and move to another branch, but the Eclipse Foundation Gerrit doesn\u0027t allow me. Am I missing some permissions?\n\nHowever, it would be for sure in conflict so it must be re-done from scratch anyway.",
+      "parentUuid": "ebe127aa_8dbf1729",
+      "range": {
+        "startLine": 74,
+        "startChar": 442,
+        "endLine": 74,
+        "endChar": 473
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "46dc3324_cfd02c94",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 8
