@@ -390,6 +390,30 @@
     },
     {
       "key": {
+        "uuid": "77b7b33c_3a43b65c",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T21:26:42Z",
+      "side": 1,
+      "message": "I restored the abandoned change and moved it to the master branch and rebased it on origin/master\n\nin 2.14 moving a change is only possible via REST API but not yet from the UI.\n\nI agreed with Denis that we will try to upgrade git.eclipse.org to 2.16 until EclipseCon in 3 weeks",
+      "parentUuid": "810297da_8678c41c",
+      "range": {
+        "startLine": 74,
+        "startChar": 442,
+        "endLine": 74,
+        "endChar": 473
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "46dc3324_cfd02c94",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 8
