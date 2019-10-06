@@ -294,6 +294,30 @@
     },
     {
       "key": {
+        "uuid": "1960a6b4_6cdb1f42",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-06T11:47:57Z",
+      "side": 1,
+      "message": "I proposed to change the abstract classes associated with RefBatabase into an interface in JGIt months ago, unfortunately the change was rejected.\n\nis anyone from the JGit Team willing to tackle that refactoring?",
+      "parentUuid": "adcaf827_3c475ba7",
+      "range": {
+        "startLine": 74,
+        "startChar": 442,
+        "endLine": 74,
+        "endChar": 473
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "46dc3324_cfd02c94",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 8
