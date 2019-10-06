@@ -318,6 +318,30 @@
     },
     {
       "key": {
+        "uuid": "6fa1ec0a_2400983a",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-06T13:27:03Z",
+      "side": 1,
+      "message": "This change [1] was rejected on the stable-5.2 branch but not rejected in general.\nJGit follows semantic versioning rules which means we avoid adding new API in service releases.\nSometimes in exceptional cases we do small API additions in order to help properly fixing\na bug. Such larger refactorings should happen in a minor (or major) release.\nYou didn\u0027t answer David\u0027s and Jonathan\u0027s questions and abandoned the change after less\nthan a day of review instead of moving it to master.\n\nIf there are good reasons we can also consider to do breaking changes which means a major release.\nThough this should happen in an early phase of the Eclipse release cycle in order to give other\nprojects in the release train (EGit, not sure if there are other projects on the simultaneous\nrelease which directly depend on JGit) a chance to adapt. The next JGit release is planned for\nDecember. If we need more time we could introduce a \"next\" branch for preparation of breaking changes\nwhich could later be merged to master to allow decoupling such changes from the release train schedule\n(this was proposed by Jonathan during last year\u0027s hackathon in Palo Alto).\n\nI would be willing to review such changes if they are developed in conjunction with an implementation\n(in JGit, Gerrit or a Gerrit plugin) demonstrating that the proposed changes solve the issues you face\nwith the current implementation.\n\n[1] https://git.eclipse.org/r/#/c/141468",
+      "parentUuid": "1960a6b4_6cdb1f42",
+      "range": {
+        "startLine": 74,
+        "startChar": 442,
+        "endLine": 74,
+        "endChar": 473
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "46dc3324_cfd02c94",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 8
