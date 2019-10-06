@@ -342,6 +342,30 @@
     },
     {
       "key": {
+        "uuid": "ebe127aa_8dbf1729",
+        "filename": "pages/design-docs/global-refdb/solution-1.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-06T13:54:26Z",
+      "side": 1,
+      "message": "happy to resume it on master: that change was not related to this design but rather with the permission aware ref database, which was eventually done in Gerrit .\n\nRelying on interfaces rather than implementation is always a good design principle and makes sense regardless.",
+      "parentUuid": "6fa1ec0a_2400983a",
+      "range": {
+        "startLine": 74,
+        "startChar": 442,
+        "endLine": 74,
+        "endChar": 473
+      },
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "46dc3324_cfd02c94",
         "filename": "pages/design-docs/global-refdb/solution-1.md",
         "patchSetId": 8
