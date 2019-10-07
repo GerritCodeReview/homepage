@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1cc44b33_9d878e7d",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-07T06:42:53Z",
+      "side": 1,
+      "message": "It\u0027s documented here [1]. I\u0027ll update this to include a link when the 3.0.3 documentation is published.\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/234562/9/Documentation/pg-plugin-admin-api.txt",
+      "parentUuid": "91e55bab_f2259749",
+      "range": {
+        "startLine": 166,
+        "startChar": 0,
+        "endLine": 167,
+        "endChar": 39
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1e71933f_4407d5b4",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2019-10-07T06:34:40Z",
       "side": 1,
       "message": "Is there any reference to this fix?",
+      "range": {
+        "startLine": 195,
+        "startChar": 4,
+        "endLine": 195,
+        "endChar": 7
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "129616ed_03c57fbb",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-07T06:42:53Z",
+      "side": 1,
+      "message": "There isn\u0027t an explicit issue report for this; it was done as part of the fixes for issue 4824 but the actual issue is still not fixed. There is still a change open for that [1].\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/239124",
+      "parentUuid": "1e71933f_4407d5b4",
       "range": {
         "startLine": 195,
         "startChar": 4,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "544e12e5_af448eb5",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-07T06:42:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf5708b0_aa970f69",
+      "range": {
+        "startLine": 198,
+        "startChar": 34,
+        "endLine": 198,
+        "endChar": 37
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "032d54c4_994103b2",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -91,6 +163,30 @@
       "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4e4b54d4_ad601890",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-07T06:42:53Z",
+      "side": 1,
+      "message": "Done.  Note that this and all the other long lines below were copied from the 2.16 release notes.",
+      "parentUuid": "032d54c4_994103b2",
+      "range": {
+        "startLine": 207,
+        "startChar": 80,
+        "endLine": 207,
+        "endChar": 103
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "a4f4f607_6b5899cd",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-07T06:42:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a64a80fc_2df67c2c",
+      "range": {
+        "startLine": 210,
+        "startChar": 79,
+        "endLine": 210,
+        "endChar": 100
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4b961ffa_f4726d5f",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -140,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "7f0ca85f_577931e9",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-07T06:42:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4b961ffa_f4726d5f",
+      "range": {
+        "startLine": 213,
+        "startChar": 80,
+        "endLine": 213,
+        "endChar": 108
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "32be66d7_594ec943",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -160,6 +304,30 @@
       "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4163c9b9_f86e01a8",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-07T06:42:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "32be66d7_594ec943",
+      "range": {
+        "startLine": 225,
+        "startChar": 82,
+        "endLine": 225,
+        "endChar": 94
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
