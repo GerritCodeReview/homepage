@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "18a982b4_cb1f78b1",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-08T22:01:48Z",
+      "side": 1,
+      "message": "\u003e Should we change this default? Are the NoteDb issues limited only to migration of data from ReviewDb?\n\nTo be honest with you, when you stay on v2.15 NoteDb isn\u0027t an issue anymore.\nHowever, when you migrate to v2.16, you may (or may not) be blocked by the migration P0 issue.\n\nYes, we could change the default, because even new sites may have the problem.\nAnyway, Gerrit v2.15 is EOL in 4 weeks\u0027 time, it is thus very unlikely that people will start using it as \u0027brand-new site\u0027.",
+      "parentUuid": "230fa6f4_e142f1b2",
+      "range": {
+        "startLine": 67,
+        "startChar": 66,
+        "endLine": 68,
+        "endChar": 15
+      },
+      "revId": "84d5e25b021017856ba3afcd4f5b81944c9aaa7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "109e5c2a_bf8e0283",
         "filename": "pages/site/releases/2.15.md",
         "patchSetId": 2
