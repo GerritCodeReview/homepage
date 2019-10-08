@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "baad4193_20d30a84",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-08T06:19:09Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "1cc44b33_9d878e7d",
+      "range": {
+        "startLine": 166,
+        "startChar": 0,
+        "endLine": 167,
+        "endChar": 39
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1e71933f_4407d5b4",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -84,6 +108,30 @@
       "side": 1,
       "message": "There isn\u0027t an explicit issue report for this; it was done as part of the fixes for issue 4824 but the actual issue is still not fixed. There is still a change open for that [1].\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/239124",
       "parentUuid": "1e71933f_4407d5b4",
+      "range": {
+        "startLine": 195,
+        "startChar": 4,
+        "endLine": 195,
+        "endChar": 7
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "01f3646d_0d82f673",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-08T06:19:09Z",
+      "side": 1,
+      "message": "If the issue isn\u0027t completed, is it worth mentioning? WDYT?",
+      "parentUuid": "129616ed_03c57fbb",
       "range": {
         "startLine": 195,
         "startChar": 4,
