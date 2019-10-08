@@ -144,6 +144,30 @@
     },
     {
       "key": {
+        "uuid": "ede9a075_b06cc24c",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-08T06:22:02Z",
+      "side": 1,
+      "message": "It\u0027s a separate issue that Gert found and fixed while he was working on issue 4824, so it\u0027s not mentioned in that issue and no new issue was created. It\u0027s still worth mentioning.",
+      "parentUuid": "01f3646d_0d82f673",
+      "range": {
+        "startLine": 195,
+        "startChar": 4,
+        "endLine": 195,
+        "endChar": 7
+      },
+      "revId": "982e2f943addb9e63af1ac325e73935fa0989cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf5708b0_aa970f69",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
