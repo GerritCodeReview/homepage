@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "878c6d40_6a1fd990",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-09T10:05:50Z",
+      "side": 1,
+      "message": "\u003e This document assumes that we add more master nodes in order to run more instances of the replication plugin. This is OK and probably the only possibility with what we have today.\n\u003e \n\u003e As we have been experimenting with running and managing Gerrit nodes in k8s for quite some time\n\u003e I would also like to propose thinking about having specialized \"replicator\" nodes whose only\n\u003e purpose would be to perform replication tasks.\n\nI like a lot this proposal: the specialised \"replicator\" node could also use more \"boosted\" version of JGit (e.g. powered by Git Protocol v2) and have a dedicated scalable and elastic deployment.\n\nWe do need, however, to replace the in-memory replication queue with an external message broker.\n\n\u003e In this scenario, we would scale the replication\n\u003e by adding more replicator nodes and I believe that this gives us more flexibility i.e. we\n\u003e do not necessary need to add a full master node in order to scale-up the replication. \n\n+1 to that.",
+      "parentUuid": "73d43ecf_b55c8b1a",
+      "range": {
+        "startLine": 30,
+        "startChar": 24,
+        "endLine": 30,
+        "endChar": 37
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2e4e386b_1ff77ab4",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
