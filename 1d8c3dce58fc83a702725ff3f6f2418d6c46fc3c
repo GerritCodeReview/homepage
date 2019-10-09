@@ -1,0 +1,118 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98439f60_3995db55",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-09T10:00:21Z",
+      "side": 1,
+      "message": "I like the proposed solution... but I guess that it is quite hard to read for those\nnow knowing the internals of the replication plugin (which may be the case even for\nmany Gerrit core contributors). Adding some examples for how an ref-updated event\nis translated into replication tasks and how the tasks are distributed among master nodes\nwould greatly help to better follow and understand this document.",
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "73d43ecf_b55c8b1a",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-09T10:00:21Z",
+      "side": 1,
+      "message": "This document assumes that we add more master nodes in order to run more instances of the replication plugin. This is OK and probably the only possibility with what we have today.\n\nAs we have been experimenting with running and managing Gerrit nodes in k8s for quite some time\nI would also like to propose thinking about having specialized \"replicator\" nodes whose only\npurpose would be to perform replication tasks. In this scenario, we would scale the replication\nby adding more replicator nodes and I believe that this gives us more flexibility i.e. we\ndo not necessary need to add a full master node in order to scale-up the replication. Replication plugin would still need to run in each master-node but its only purpose would\nbe to process the ref-updated events and persist the replication tasks in the \"waiting\" directory. On the \"replicator\" nodes we would run the replication plugin as a\nstandalone application. If this makes sense to you we should discuss this in a separate\ndesign doc?",
+      "range": {
+        "startLine": 30,
+        "startChar": 24,
+        "endLine": 30,
+        "endChar": 37
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2e4e386b_1ff77ab4",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-09T10:00:21Z",
+      "side": 1,
+      "message": "threads",
+      "range": {
+        "startLine": 47,
+        "startChar": 19,
+        "endLine": 47,
+        "endChar": 25
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "10e3ca37_b98273fc",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-09T10:00:21Z",
+      "side": 1,
+      "message": "This is already described above (line 45)",
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "468804bc_5ff6dde3",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-09T10:00:21Z",
+      "side": 1,
+      "message": "This is already described above",
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6358c002_c00cba80",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-09T10:00:21Z",
+      "side": 1,
+      "message": "This is already described above",
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
