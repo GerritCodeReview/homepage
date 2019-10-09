@@ -33,6 +33,29 @@
       "revId": "2a50a950159cdb5e05e9cf781bb3500190deb9fc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "518e3b77_78f61da8",
+        "filename": "pages/design-docs/stop-indexing-mergeable/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-10-09T20:21:28Z",
+      "side": 1,
+      "message": "It looks like googlesource.com customers do want this functionality though: https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d6905",
+      "range": {
+        "startLine": 37,
+        "startChar": 8,
+        "endLine": 37,
+        "endChar": 79
+      },
+      "revId": "2a50a950159cdb5e05e9cf781bb3500190deb9fc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
