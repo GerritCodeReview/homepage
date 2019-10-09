@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fcd189e_1395d515",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-configurable-indexing.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T21:07:59Z",
+      "side": 1,
+      "message": "This seems reasonable if the result of this configuration means the the is:mergeable operator would still work, but potentially but much slower (i.e. have it do on-demand computations).",
+      "revId": "5fc91e9263f2800696b61ae674144b81362339c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f067c3ed_e254e687",
+        "filename": "pages/design-docs/stop-indexing-mergeable/solution-configurable-indexing.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T21:07:59Z",
+      "side": 1,
+      "message": "This really isn\u0027t a scaling solution, it is simply the removal of functionality. \n\nIt seems this proposal is missing a discussion of the alternatives considered? Please consider developing solutions to make mergeability testing faster, there are many ways this can likely be improved. For example it should be possible to track which files are affected by a change (already in the index?) and quickly check if the commits between the old and new tip affect those files. If the affected files don\u0027t change, then the mergeability test can probably be skipped?",
+      "revId": "5fc91e9263f2800696b61ae674144b81362339c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
