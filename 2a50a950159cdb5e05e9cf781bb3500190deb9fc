@@ -36,6 +36,29 @@
     },
     {
       "key": {
+        "uuid": "4dd988f9_369755c4",
+        "filename": "pages/design-docs/stop-indexing-mergeable/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T20:57:59Z",
+      "side": 1,
+      "message": "In what way does it not scale? Can you explain how the mergeability computation count increases (more open changes and more tip advances)?",
+      "range": {
+        "startLine": 34,
+        "startChar": 45,
+        "endLine": 34,
+        "endChar": 64
+      },
+      "revId": "2a50a950159cdb5e05e9cf781bb3500190deb9fc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "518e3b77_78f61da8",
         "filename": "pages/design-docs/stop-indexing-mergeable/use-cases.md",
         "patchSetId": 4
