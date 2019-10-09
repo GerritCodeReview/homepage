@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "1b826631_1644c007",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T19:47:09Z",
+      "side": 1,
+      "message": "This seems to only address bullet point #1 in the use-case, what about #2 and #3?",
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6c09d645_3df86535",
         "filename": "pages/design-docs/permission-tests/solution-Gal.md",
         "patchSetId": 3
@@ -60,6 +77,24 @@
       "writtenOn": "2019-10-04T14:37:21Z",
       "side": 1,
       "message": "So, the disadvantage here, is that the tests would rely on the endpoint declare the needed permission. If one required permission is not declared (mistake) then it wouldn\u0027t be tested.",
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d9d8ffb_b0f916e2",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T19:47:09Z",
+      "side": 1,
+      "message": "If the endpoint could declare the permissions that it needs, than would it not make more sense to simply add a Gerrit layer that enforces these declarations and to skip testing anything but this layer?",
+      "parentUuid": "8d472edd_66b939bb",
       "revId": "551045b4620fa06ea48431c005139cabcad00827",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
