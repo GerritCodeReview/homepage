@@ -90,6 +90,30 @@
     },
     {
       "key": {
+        "uuid": "4b6fa521_26742f7f",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T22:11:26Z",
+      "side": 1,
+      "message": "\"Shared nothing\" is not part of the use case.",
+      "parentUuid": "327b16f1_a572177b",
+      "range": {
+        "startLine": 2,
+        "startChar": 48,
+        "endLine": 2,
+        "endChar": 71
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73d43ecf_b55c8b1a",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
