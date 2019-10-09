@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "e90145c0_4c1e4057",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-09T22:21:54Z",
+      "side": 1,
+      "message": "Should Gerrit admins be able to add masters and slaves, without any restart, for scaling up the capacity of the cluster and have the extra masters to re-balance the push replication load?\n\nExample: I start with Master MA and Slave SA and MA \u003dpush\u003d\u003e SA. Should the Gerrit admin be able to add SB, SC and SD and MA automatically replicates to them as well? Should the Gerrit admin be able to add MB, MC and MD and the replication tasks be automatically redistributed across all the masters?",
+      "parentUuid": "aa9c3ddf_f0d87df6",
+      "range": {
+        "startLine": 62,
+        "startChar": 32,
+        "endLine": 62,
+        "endChar": 65
+      },
+      "revId": "25e2530bb474de9d5fdab24490cc2b3094d2bb74",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1af42490_b01b26f0",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 4
@@ -107,6 +131,30 @@
       "side": 1,
       "message": "The use case is about adding masters (not sites) to an existing master. The assumption is that within a site, all masters share the git repos. This is not a multi-site-master scenario.",
       "parentUuid": "cf1f8b42_29d55217",
+      "range": {
+        "startLine": 168,
+        "startChar": 38,
+        "endLine": 168,
+        "endChar": 67
+      },
+      "revId": "25e2530bb474de9d5fdab24490cc2b3094d2bb74",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6087ca5a_f0f1a5b7",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-09T22:21:54Z",
+      "side": 1,
+      "message": "Gotcha, so this is multi-master in the single site, that share everything. Gotcha. Would be best to specify right at the beginning that this is NOT a multi-master across sites but all in the same location for HA and WLB.",
+      "parentUuid": "a874955a_965cd3dc",
       "range": {
         "startLine": 168,
         "startChar": 38,
