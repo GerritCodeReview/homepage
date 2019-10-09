@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "aa9c3ddf_f0d87df6",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T22:09:00Z",
+      "side": 1,
+      "message": "I don\u0027t understand the question, can you be more specific?",
+      "parentUuid": "a1408bb1_9a564489",
+      "range": {
+        "startLine": 62,
+        "startChar": 32,
+        "endLine": 62,
+        "endChar": 65
+      },
+      "revId": "25e2530bb474de9d5fdab24490cc2b3094d2bb74",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1af42490_b01b26f0",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 4
@@ -59,6 +83,30 @@
       "writtenOn": "2019-10-09T21:56:19Z",
       "side": 1,
       "message": "They *should never be shared* IMHO: if I have two masters A and B that are sharing nothing and are aligned through replication, the fact that A has received and processed a ref-update A1, doesn\u0027t mean that B should be able to consume that replication task, because B hasn\u0027t received the ref-update A1 and thus would have no way to replicate it on behalf of A.",
+      "range": {
+        "startLine": 168,
+        "startChar": 38,
+        "endLine": 168,
+        "endChar": 67
+      },
+      "revId": "25e2530bb474de9d5fdab24490cc2b3094d2bb74",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a874955a_965cd3dc",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T22:09:00Z",
+      "side": 1,
+      "message": "The use case is about adding masters (not sites) to an existing master. The assumption is that within a site, all masters share the git repos. This is not a multi-site-master scenario.",
+      "parentUuid": "cf1f8b42_29d55217",
       "range": {
         "startLine": 168,
         "startChar": 38,
