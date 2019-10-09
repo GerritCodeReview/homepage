@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "b45cf87f_7a882bd3",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T16:24:01Z",
+      "side": 1,
+      "message": "It\u0027s not obvious to me how it would be useful to share replication if you don\u0027t share the git repos/refs, what would you use that for?",
+      "parentUuid": "8a98db26_3d97667c",
+      "range": {
+        "startLine": 2,
+        "startChar": 48,
+        "endLine": 2,
+        "endChar": 71
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "73d43ecf_b55c8b1a",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
@@ -101,6 +125,30 @@
       "side": 1,
       "message": "+1 for replicator node, with standalone replication plugin. This should probably go in its own design doc, though.",
       "parentUuid": "878c6d40_6a1fd990",
+      "range": {
+        "startLine": 30,
+        "startChar": 24,
+        "endLine": 30,
+        "endChar": 37
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ebbfc28c_fda2bafc",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-09T16:24:01Z",
+      "side": 1,
+      "message": "\u003e This document assumes that we add more master nodes in order to run more instances of the replication plugin. This is OK and probably the only possibility with what we have today.\n\nIt is not an assumption of this document, it is part of the use case definition of the parent doc.\n\n\u003e On the \"replicator\" nodes we would run the replication plugin as a standalone application. If this makes sense to you we should discuss this in a separate design doc?\n\nYes, this would be neat, and yes I would suggest a very different design doc for that.\n\nAs a suggested starting direction for your replicator nodes, it probably makes sense to start with full gerrit master nodes along with this solution as you replicator nodes. If you want to make those node much leaner, i.e. closer to running the replication plugin as a standalone app, but without loosing any functionality currently supported by the plugin you would probably need to have a, potentially minimal, application framework. This framework would need APIs that look like Gerrit\u0027s that provide at least the following features: gerrit based read ACL permission interpretations (including perm logic for changes, tags, and other special Gerrit refs), threadpool support, and ssh command support for the show-queue and replication commands.\n\nYou might then decide to leverage the existing Gerrit code base to create such a minimal framework, perhaps by defining some minimal framework that the replication plugin could be run with. The next question then becomes, what else could leverage that framework? In the kubernetes world, such a framework might become a useful way to isolate and scale independent tasks like replication, gitles, git serving...\n\nOf course, the natural progression is to give such a framework a fancy name (aclgit, ggit, geegit, gergit?) and to  eventually build Gerrit itself on it? I am feeling like maybe this has been suggested before? :) I would support anyone seeking this path.",
+      "parentUuid": "53b6c37f_b452deee",
       "range": {
         "startLine": 30,
         "startChar": 24,
