@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1af42490_b01b26f0",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-10-09T10:22:42Z",
+      "side": 1,
+      "message": "IMO this is an awesome, factual and terse description/summary of the complexities and pitfalls of replication.\nI think a lot of Gerrit admins would appreciate if this section was also made available outside of this design proposal, in f.i. the documentation of the replication plugin.",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 139,
+        "endChar": 0
+      },
+      "revId": "25e2530bb474de9d5fdab24490cc2b3094d2bb74",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
