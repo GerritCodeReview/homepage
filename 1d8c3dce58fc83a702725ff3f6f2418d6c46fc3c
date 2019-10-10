@@ -233,6 +233,30 @@
     },
     {
       "key": {
+        "uuid": "28c89521_98565ddb",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-10T12:16:37Z",
+      "side": 1,
+      "message": "\u003e As a suggested starting direction for your replicator nodes, it probably makes sense to start \n\u003e with full gerrit master nodes along with this solution as you replicator nodes. If you want to \n\u003e make those node much leaner, i.e. closer to running the replication plugin as a standalone\n\u003e app, but without loosing any functionality currently supported by the plugin you would\n\u003e probably need to have a, potentially minimal, application framework.\n\nMy proposal here is strictly limited to running the replication as a standalone application.\nRunning *any* plugin standalone is out of scope.\n\n\u003e APIs that look like Gerrit\u0027s that provide at least the following features: gerrit based read \n\u003e ACL permission interpretations (including perm logic for changes, tags, and other special \n\nSpecifically for the replication I believe that we do not need all of that because\nthere would be a stripped down replication plugin running inside the Gerrit master\nnodes, whose purpose is to:\n* listen to ref-updated events\n* evaluate all the necessary permissions\n* create replication tasks\n\nOnce replication tasks are created (in the shared fils system) they just have to be done, period.\nNo permission evaluation is necessary after the tasks are created.\nTheoretically, the replication tasks could even be processed just by using bash and native\nGit (not that I am suggesting that) assuming the scripts follow all the contracts for FS based locking.\n\n\u003e threadpool support, and ssh command support for the show-queue and replication commands.\n\nYes, this part is needed but this is already nothing Gerrit specific.\n\n\u003e Of course, the natural progression is to give such a framework a fancy name (aclgit, ggit,\n\u003e geegit, gergit?) and to  eventually build Gerrit itself on it? I am feeling like maybe this\n\u003e has been suggested before? :) I would support anyone seeking this path\n\nThis is a valid goal but, as said, I believe that we do not need that for the replicator nodes.",
+      "parentUuid": "43faa7e2_8dd3164e",
+      "range": {
+        "startLine": 30,
+        "startChar": 24,
+        "endLine": 30,
+        "endChar": 37
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2e4e386b_1ff77ab4",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
