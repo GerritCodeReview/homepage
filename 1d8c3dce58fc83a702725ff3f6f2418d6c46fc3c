@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "55fe8ebb_fb7c8d0e",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-10T18:30:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "98439f60_3995db55",
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8a98db26_3d97667c",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
@@ -111,6 +129,30 @@
       "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c7ced38f_43af824a",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-10T18:30:20Z",
+      "side": 1,
+      "message": "Fixed use case to be clearer.",
+      "parentUuid": "4b6fa521_26742f7f",
+      "range": {
+        "startLine": 2,
+        "startChar": 48,
+        "endLine": 2,
+        "endChar": 71
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -257,6 +299,30 @@
     },
     {
       "key": {
+        "uuid": "5cb992b8_56db196d",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-10T18:30:20Z",
+      "side": 1,
+      "message": "\u003e Once replication tasks are created (in the shared fils system) they just have to be done, period. No permission evaluation is necessary after the tasks are created.\n\nI\u0027m not sure this is possible for \"replicate all\" scenarios?",
+      "parentUuid": "28c89521_98565ddb",
+      "range": {
+        "startLine": 30,
+        "startChar": 24,
+        "endLine": 30,
+        "endChar": 37
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2e4e386b_1ff77ab4",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
@@ -280,6 +346,30 @@
     },
     {
       "key": {
+        "uuid": "839d99c2_a098c1aa",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-10T18:30:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e4e386b_1ff77ab4",
+      "range": {
+        "startLine": 47,
+        "startChar": 19,
+        "endLine": 47,
+        "endChar": 25
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "10e3ca37_b98273fc",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
@@ -291,6 +381,24 @@
       "writtenOn": "2019-10-09T10:00:21Z",
       "side": 1,
       "message": "This is already described above (line 45)",
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f68bc302_a02c0cc7",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-10T18:30:20Z",
+      "side": 1,
+      "message": "I revamped this section a bit to be more action specific focused on actual plugin changes and to try to reduce the duplication from the design section. Hopefully it is better now.",
+      "parentUuid": "10e3ca37_b98273fc",
       "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -314,6 +422,24 @@
     },
     {
       "key": {
+        "uuid": "e0d06ebe_f6d5a2b2",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-10T18:30:20Z",
+      "side": 1,
+      "message": "same as above",
+      "parentUuid": "468804bc_5ff6dde3",
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6358c002_c00cba80",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
@@ -328,6 +454,24 @@
       "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d64a3de1_2c5526db",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-10T18:30:20Z",
+      "side": 1,
+      "message": "same as above",
+      "parentUuid": "6358c002_c00cba80",
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
