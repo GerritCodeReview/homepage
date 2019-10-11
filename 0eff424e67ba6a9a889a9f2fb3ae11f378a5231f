@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5b566c3f_4816c3e5",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T15:49:20Z",
+      "side": 1,
+      "message": "Yes, and I guess that\u0027s actually irrelevant here since making it multi threaded would not help overcome the CPU limit with adding more destinations, removed.",
+      "parentUuid": "8b3c209c_731c12b8",
+      "range": {
+        "startLine": 97,
+        "startChar": 84,
+        "endLine": 98,
+        "endChar": 39
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a21aa027_b7d7bf22",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 6
@@ -71,6 +95,54 @@
     },
     {
       "key": {
+        "uuid": "d6841f69_f81a1aef",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T15:49:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a21aa027_b7d7bf22",
+      "range": {
+        "startLine": 111,
+        "startChar": 4,
+        "endLine": 111,
+        "endChar": 7
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e9d7c45_9a153745",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T15:49:20Z",
+      "side": 1,
+      "message": "Subject is \"total\", so I believe \"becomes\" is correct, \"The total ... becomes\"",
+      "parentUuid": "ad42288e_2fe0591a",
+      "range": {
+        "startLine": 111,
+        "startChar": 47,
+        "endLine": 111,
+        "endChar": 54
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "054d2c14_66c1ebb4",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 6
@@ -91,6 +163,30 @@
       "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b98bcacd_2112cfa1",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T15:49:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "054d2c14_66c1ebb4",
+      "range": {
+        "startLine": 117,
+        "startChar": 48,
+        "endLine": 117,
+        "endChar": 52
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "a6a5f022_c18cd7da",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T15:49:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d447ba1_8c01ec48",
+      "range": {
+        "startLine": 124,
+        "startChar": 15,
+        "endLine": 124,
+        "endChar": 31
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6b70601a_b930acf5",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 6
@@ -131,6 +251,24 @@
       "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "89ecfc35_0d4433a3",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T15:49:20Z",
+      "side": 1,
+      "message": "I\u0027m not seeing this as a resource limit, i.e. that should be covered by the already mentioned limits (CPU/disk I/O)?",
+      "parentUuid": "6b70601a_b930acf5",
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -154,6 +292,30 @@
       "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b8a7ec1e_4c29d559",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T15:49:20Z",
+      "side": 1,
+      "message": "Explained why you can\u0027t in new PS.",
+      "parentUuid": "c7724ac9_151c3562",
+      "range": {
+        "startLine": 172,
+        "startChar": 38,
+        "endLine": 172,
+        "endChar": 67
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
