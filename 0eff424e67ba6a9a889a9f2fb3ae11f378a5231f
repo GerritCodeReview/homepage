@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b3c209c_731c12b8",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-11T09:31:28Z",
+      "side": 1,
+      "message": "you mean for a single combination of source and target repository ?",
+      "range": {
+        "startLine": 97,
+        "startChar": 84,
+        "endLine": 98,
+        "endChar": 39
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a21aa027_b7d7bf22",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-11T09:31:28Z",
+      "side": 1,
+      "message": "s/the//",
+      "range": {
+        "startLine": 111,
+        "startChar": 4,
+        "endLine": 111,
+        "endChar": 7
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ad42288e_2fe0591a",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-11T09:31:28Z",
+      "side": 1,
+      "message": "become",
+      "range": {
+        "startLine": 111,
+        "startChar": 47,
+        "endLine": 111,
+        "endChar": 54
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "054d2c14_66c1ebb4",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-11T09:31:28Z",
+      "side": 1,
+      "message": "s/that//",
+      "range": {
+        "startLine": 117,
+        "startChar": 48,
+        "endLine": 117,
+        "endChar": 52
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5d447ba1_8c01ec48",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-11T09:31:28Z",
+      "side": 1,
+      "message": "oversimplified",
+      "range": {
+        "startLine": 124,
+        "startChar": 15,
+        "endLine": 124,
+        "endChar": 31
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6b70601a_b930acf5",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-11T09:31:28Z",
+      "side": 1,
+      "message": "number of loose objects and packs in the destination can also degrade replication performance\nif gc isn\u0027t scheduled to run frequently enough in the destination",
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c7724ac9_151c3562",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-11T09:31:28Z",
+      "side": 1,
+      "message": "can\u0027t they be shared using persisted replication tasks shared e.g. via NFS ?",
+      "range": {
+        "startLine": 172,
+        "startChar": 38,
+        "endLine": 172,
+        "endChar": 67
+      },
+      "revId": "0eff424e67ba6a9a889a9f2fb3ae11f378a5231f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
