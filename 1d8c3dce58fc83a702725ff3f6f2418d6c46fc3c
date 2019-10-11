@@ -347,6 +347,30 @@
     },
     {
       "key": {
+        "uuid": "e4b4b68a_de1ae7fc",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T15:55:58Z",
+      "side": 1,
+      "message": "\u003e 1 the generated task contains white/black list of ref patterns to push/skip\n\nIf by \"ref patterns\" you literally mean patterns such as regular expressions, then you would likely be re-implementing the gerrit ACL logic in order to interpret those patterns correctly. If you however didn\u0027t actually mean patterns, but rather a list of explicit hard coded refs, than it would be racy to evaluate such a list in advance.\n\nOf course, I believe coming up with a hard coded list is an intractable problem. But if it isn\u0027t and you can solve it, please do, that would could make ACLs much faster!",
+      "parentUuid": "72a7be8d_439dd6c9",
+      "range": {
+        "startLine": 30,
+        "startChar": 24,
+        "endLine": 30,
+        "endChar": 37
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2e4e386b_1ff77ab4",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
