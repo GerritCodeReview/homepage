@@ -167,6 +167,30 @@
       "revId": "2a50a950159cdb5e05e9cf781bb3500190deb9fc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "81e6b01b_ed114bef",
+        "filename": "pages/design-docs/stop-indexing-mergeable/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-10-11T15:44:52Z",
+      "side": 1,
+      "message": "Thanks for clarifying that. I didn\u0027t realize those weren\u0027t using the same data. This [1] is the API used by the webUI, correct?\n\nWhy don\u0027t the two share a cache?\n\nDoes the same performance concern in this doc apply to [1]?\n\n[1] https://gerrit-review.googlesource.com/Documentation/rest-api-changes.html#get-mergeable",
+      "parentUuid": "0eb6b696_b16a77a8",
+      "range": {
+        "startLine": 37,
+        "startChar": 8,
+        "endLine": 37,
+        "endChar": 79
+      },
+      "revId": "2a50a950159cdb5e05e9cf781bb3500190deb9fc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
