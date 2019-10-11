@@ -22,6 +22,30 @@
       "revId": "36775c4c7e09333992db724b99739c263c012692",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ede87db_50dd977a",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T17:09:14Z",
+      "side": 1,
+      "message": "Correct, that is why my solution addresses both of these shortcomings first.",
+      "parentUuid": "a096b4c7_e121db34",
+      "range": {
+        "startLine": 173,
+        "startChar": 30,
+        "endLine": 173,
+        "endChar": 66
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
