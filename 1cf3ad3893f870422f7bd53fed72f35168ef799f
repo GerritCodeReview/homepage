@@ -22,6 +22,30 @@
       "revId": "1cf3ad3893f870422f7bd53fed72f35168ef799f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "561941aa_91292c63",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T16:04:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88f0cf2e_2440150f",
+      "range": {
+        "startLine": 175,
+        "startChar": 3,
+        "endLine": 175,
+        "endChar": 10
+      },
+      "revId": "1cf3ad3893f870422f7bd53fed72f35168ef799f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
