@@ -323,6 +323,30 @@
     },
     {
       "key": {
+        "uuid": "72a7be8d_439dd6c9",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-10-11T11:45:13Z",
+      "side": 1,
+      "message": "\u003e \u003e Once replication tasks are created (in the shared fils system) they just have to be done, period. No permission evaluation is necessary after the tasks are created.\n\u003e \n\u003e I\u0027m not sure this is possible for \"replicate all\" scenarios?\n\nYes, you are right, for the \"replicate all\" case the generated PushOne tasks need to\nperform ref filtering. I see 3 possible solutions:\n\n1 the generated task contains white/black list of ref patterns to push/skip\n2 we build a library out of Gerrit core source code which is used by the standalone replication\nnode in order to perform filtering\n3 (your initial proposal) full-blown Gerrit framework to run any plugin as standalone application\n\nOption 1 would still keep it possible to implement standalone replication using any technology.\nThere could be some corner cases where option 1 is not feasible but we should really be\nsure about that before giving up on the (simplicity of) option 1.",
+      "parentUuid": "5cb992b8_56db196d",
+      "range": {
+        "startLine": 30,
+        "startChar": 24,
+        "endLine": 30,
+        "endChar": 37
+      },
+      "revId": "1d8c3dce58fc83a702725ff3f6f2418d6c46fc3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2e4e386b_1ff77ab4",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 1
