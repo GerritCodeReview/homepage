@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "6762dc95_ebc5b6e2",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T17:22:27Z",
+      "side": 1,
+      "message": "I can see that you are trying to focus on users, which generally is a good idea for use cases. I believe that what you are trying to solve involves taking a small leap and seeing your admins as \"users\" that want something i.e. \"Our Gerrit admins would like to be able to run service X with less CPU, disk I/O, network traffic ... than currently.\"",
+      "parentUuid": "20e909c9_63fce40b",
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f1adad29_a7fdd483",
         "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
         "patchSetId": 5
