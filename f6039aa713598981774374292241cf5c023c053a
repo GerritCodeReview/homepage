@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3785bdea_79931142",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f519c427_484d78e1",
+      "range": {
+        "startLine": 49,
+        "startChar": 1,
+        "endLine": 51,
+        "endChar": 99
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "38219fff_cbcd5ec0",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "f6039aa713598981774374292241cf5c023c053a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3ff9811e_fa72b574",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38219fff_cbcd5ec0",
+      "range": {
+        "startLine": 53,
+        "startChar": 2,
+        "endLine": 62,
+        "endChar": 72
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "99734909_27723b05",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eb1eac4a_9567ae75",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 65
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "63b32867_8584b0e8",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 2
@@ -91,6 +163,30 @@
       "revId": "f6039aa713598981774374292241cf5c023c053a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "57fb1545_c72c9ad9",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63b32867_8584b0e8",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 93
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "5ab4b776_eba5c619",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "934525b8_ab659723",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 68
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "018d501f_db7dc329",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 2
@@ -137,6 +257,30 @@
       "revId": "f6039aa713598981774374292241cf5c023c053a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a9c02d1d_f1704319",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "018d501f_db7dc329",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 120,
+        "endChar": 68
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "4e13d103_ef259fc8",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6848405_ad2a54d7",
+      "range": {
+        "startLine": 146,
+        "startChar": 12,
+        "endLine": 146,
+        "endChar": 71
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "317ce737_7bb463e9",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 2
@@ -183,6 +351,30 @@
       "revId": "f6039aa713598981774374292241cf5c023c053a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd853bd5_6e052402",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "317ce737_7bb463e9",
+      "range": {
+        "startLine": 150,
+        "startChar": 2,
+        "endLine": 154,
+        "endChar": 79
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "7a3617ce_89e14e1b",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a2b3add_46f73d34",
+      "range": {
+        "startLine": 285,
+        "startChar": 0,
+        "endLine": 296,
+        "endChar": 15
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0f0f84f2_aec95996",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 2
@@ -229,6 +445,30 @@
       "revId": "f6039aa713598981774374292241cf5c023c053a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "69129803_bfc9004e",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 328,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T19:11:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0f0f84f2_aec95996",
+      "range": {
+        "startLine": 309,
+        "startChar": 0,
+        "endLine": 328,
+        "endChar": 7
+      },
+      "revId": "f6039aa713598981774374292241cf5c023c053a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
