@@ -313,6 +313,30 @@
     },
     {
       "key": {
+        "uuid": "b623559b_8f29afe1",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T18:47:29Z",
+      "side": 1,
+      "message": "To be fair, out limit of 30K is for our entire server (and we have a very larger server ~2.9M changes). That would mean a much smaller number for any specific head even on our server. Maybe you can provide a number that reflects what you actually have open for a single head, and on your entire server? Do you use the abandon util? What is your target for open changes?",
+      "parentUuid": "1108c59c_3f3c2a61",
+      "range": {
+        "startLine": 55,
+        "startChar": 5,
+        "endLine": 55,
+        "endChar": 22
+      },
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c17c6ba8_7e537fe5",
         "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
         "patchSetId": 5
