@@ -50,6 +50,63 @@
     },
     {
       "key": {
+        "uuid": "3bd9e5b4_0de3e884",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T17:07:16Z",
+      "side": 1,
+      "message": "Too vague for a use case.",
+      "range": {
+        "startLine": 10,
+        "startChar": 42,
+        "endLine": 10,
+        "endChar": 46
+      },
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1ade296d_824b2acc",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T17:07:16Z",
+      "side": 1,
+      "message": "This is too vague to provide any value as a use case.",
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "20e909c9_63fce40b",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T17:07:16Z",
+      "side": 1,
+      "message": "The above three things are vague things that do not really describe something that you want to be able to do that you cannot currently. They do not outline something that needs to be improved, fixed, or designed.",
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f1adad29_a7fdd483",
         "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
         "patchSetId": 5
@@ -143,6 +200,29 @@
       "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1108c59c_3f3c2a61",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-11T17:07:16Z",
+      "side": 1,
+      "message": "Gerrit provides an abandon utility to deal with open changes growing so large that the total number of open changes starts to impact other operations. On our servers, we abandon changes so that there generally are usually only around 15K open changes, sometimes this would get to around 30K and we can handle this. However when it gets over 30K, we suffer from many problems.\n\nI believe the Gerrit project has already acknowledged that there is a limit by providing the abandon utility, and I don\u0027t believe that limit is as high as 100K, we should pick a better number here. Once we have a limit to work with, the problem becomes bounded and there can be a reasonable performance target for any solution.",
+      "range": {
+        "startLine": 55,
+        "startChar": 5,
+        "endLine": 55,
+        "endChar": 22
+      },
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
