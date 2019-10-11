@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "135d2487_c6e98546",
+        "filename": "pages/design-docs/indexing-mergeable/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-11T09:10:32Z",
+      "side": 1,
+      "message": "Is that correct?",
+      "range": {
+        "startLine": 3,
+        "startChar": 11,
+        "endLine": 3,
+        "endChar": 41
+      },
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1adad29_a7fdd483",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-11T09:10:32Z",
+      "side": 1,
+      "message": "same here.",
+      "range": {
+        "startLine": 44,
+        "startChar": 69,
+        "endLine": 44,
+        "endChar": 73
+      },
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "179101d6_04bac6b3",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-11T09:10:32Z",
+      "side": 1,
+      "message": "What is this? Explain?",
+      "range": {
+        "startLine": 44,
+        "startChar": 45,
+        "endLine": 44,
+        "endChar": 49
+      },
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c17c6ba8_7e537fe5",
+        "filename": "pages/design-docs/indexing-mergeable/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-11T09:10:32Z",
+      "side": 1,
+      "message": "IOW: It was a mistake to add that feature to gerrit in the first place, right?",
+      "range": {
+        "startLine": 54,
+        "startChar": 61,
+        "endLine": 56,
+        "endChar": 68
+      },
+      "revId": "882977c891d9eadf8f713f670d311ba64a951ca9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
