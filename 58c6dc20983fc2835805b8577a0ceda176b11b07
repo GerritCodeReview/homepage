@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5680d8ad_a4d9721d",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-12T23:11:06Z",
+      "side": 1,
+      "message": "you intend to push via anonymous git protocol ?",
+      "range": {
+        "startLine": 66,
+        "startChar": 10,
+        "endLine": 66,
+        "endChar": 13
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "919425a5_ac92d2cd",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-12T23:11:06Z",
+      "side": 1,
+      "message": "where are the timestamps used ?",
+      "range": {
+        "startLine": 153,
+        "startChar": 19,
+        "endLine": 153,
+        "endChar": 29
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8bca2d1a_139d9992",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-12T23:11:06Z",
+      "side": 1,
+      "message": "s/be//",
+      "range": {
+        "startLine": 164,
+        "startChar": 33,
+        "endLine": 164,
+        "endChar": 35
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f7a05cf5_c5d3d2dd",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-12T23:11:06Z",
+      "side": 1,
+      "message": "maybe already waiting tasks should be collected in a waiting/\u003csha1 of destination URI\u003e/ folder\nthen a node starting to process replication for a given destination can pick up all tasks for the same destination by moving all the tasks for a given destination\nfrom the waiting/\u003cdestination sha1\u003e/ to the corresponding running/\u003cdestination sha1\u003e/ folder and doesn\u0027t need to read the other tasks to find out which have the same destination",
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d2635fc8_81e26446",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-12T23:11:06Z",
+      "side": 1,
+      "message": "shouldn\u0027t lock / unlock be done by the same node to avoid races ?",
+      "range": {
+        "startLine": 166,
+        "startChar": 17,
+        "endLine": 166,
+        "endChar": 57
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a7ea737_dd3e5d07",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-10-12T23:11:06Z",
+      "side": 1,
+      "message": "this sentence seems broken",
+      "range": {
+        "startLine": 227,
+        "startChar": 5,
+        "endLine": 227,
+        "endChar": 35
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
