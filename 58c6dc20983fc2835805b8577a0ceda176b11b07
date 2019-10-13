@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9cb24790_b57c74c9",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-13T02:12:11Z",
+      "side": 1,
+      "message": "This is an example, but yes we use that with other security measures on top of it.",
+      "parentUuid": "5680d8ad_a4d9721d",
+      "range": {
+        "startLine": 66,
+        "startChar": 10,
+        "endLine": 66,
+        "endChar": 13
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "919425a5_ac92d2cd",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 3
@@ -88,6 +112,24 @@
     },
     {
       "key": {
+        "uuid": "471fbd53_394af8d2",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-13T02:12:11Z",
+      "side": 1,
+      "message": "I considered this approach, however I found several issues with it. To start with, it\u0027s more complicated on the creation side since you have to create the directory inside the waiting directory independently of moving tasks into it, thus leaving a gap with empty URI directories that could leave stale empty directories around. A more serious creation side problem is that while moving new task files into the waiting URI directory from one thread/host, another one could move the URI directory to the running directory. This concurrency means that the new task file may appear unnoticed in the running URI directory AFTER the URI push is already underway. At first glance most people think the scenario I just described is not possible, however from my experience I have seen this surprising behavior on local and NFS filesystems, moves into directories being moved themselves can complete after the destination directory\u0027s move completes! And finally this would cause a problem on the abort side since once the URI directory has been moved to the running directory, if a new waiting directory for the same URI is created with new task files in it, it will become harder to abort the running URI directory since it would no longer be moveable back to the waiting directory. Instead you would have to move the individual task files from the running URI directory back to the waiting URI directory. this last process now potentially becomes difficult to track since as you empty the running directory other threads may be attempting to move the waiting URI directory ontop of the running URI directory, and they can succeed as soon as the directory becomes empty. This becomes harder to reason about and essentially moves the problem you were trying to avoid from the running transition to the abort transition. I believe the simplification sought out ends up being lost.",
+      "parentUuid": "f7a05cf5_c5d3d2dd",
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d2635fc8_81e26446",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 3
@@ -99,6 +141,30 @@
       "writtenOn": "2019-10-12T23:11:06Z",
       "side": 1,
       "message": "shouldn\u0027t lock / unlock be done by the same node to avoid races ?",
+      "range": {
+        "startLine": 166,
+        "startChar": 17,
+        "endLine": 166,
+        "endChar": 57
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f67930bb_7a099cf9",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-13T02:12:11Z",
+      "side": 1,
+      "message": "Yes, the actions in this paragraph are all actions that follow after a thread manages to create the lock directory, except for the action below specifically prescribed on failure to make the lock directory.",
+      "parentUuid": "d2635fc8_81e26446",
       "range": {
         "startLine": 166,
         "startChar": 17,
