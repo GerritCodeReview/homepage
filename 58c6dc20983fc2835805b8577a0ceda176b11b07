@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "9a58479a_75919cae",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-14T14:55:40Z",
+      "side": 1,
+      "message": "Step3, updated doc to reflect.",
+      "parentUuid": "919425a5_ac92d2cd",
+      "range": {
+        "startLine": 153,
+        "startChar": 19,
+        "endLine": 153,
+        "endChar": 29
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8bca2d1a_139d9992",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 3
@@ -127,6 +151,30 @@
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8444029d_5d4d7563",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-14T14:55:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8bca2d1a_139d9992",
+      "range": {
+        "startLine": 164,
+        "startChar": 33,
+        "endLine": 164,
+        "endChar": 35
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -197,6 +245,30 @@
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b1f30662_f4d8297a",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-14T14:55:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a7ea737_dd3e5d07",
+      "range": {
+        "startLine": 227,
+        "startChar": 5,
+        "endLine": 227,
+        "endChar": 35
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
