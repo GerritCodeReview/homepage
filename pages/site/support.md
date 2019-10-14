@@ -62,6 +62,31 @@ a request for it.
 You could also check the questions tagged with "gerrit" on
 [Stack Overflow][stack-overflow].
 
+## Response time and SLA
+
+Gerrit Code Review is an open-source project, which means that the people
+that are using the tool are invited to cooperate and join for contributing
+to its development and support.
+Opening new issues, triaging existing ones and helping to resolve them are
+ways of contributing to the project.
+
+There **is not a formal support contract** amongst the members of the
+community, therefore there **IS NO guaranteed SLA (Service Level Agreement)**
+on the response and resolution of the issues raised.
+However, amongst ourselves, we are aiming to achieve the following response times,
+depending on the severity of the issue raised.
+
+| Severity | Description                                                 | Target response time
+|----------|-------------------------------------------------------------|---------------------
+| P0       | Major functionality broken that renders a feature unusable  | 1 working day
+| P1       | Defect causing regression in production                     | 5 working days
+| P2       | Work tied to roadmap or near term upcoming release          | 30 working days
+| P3       | Desirable feature or enhancement not in the roadmap         | -
+| P4       | Everything else                                             | -
+
+> **NOTE**: Bug reports about existing features are typically classified between P0 and P2,
+> feature requests are classified between P2 and P4.
+
 ## Bugs
 
 If the issue/question you posted on Repo Discuss is considered a bug
