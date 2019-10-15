@@ -9,7 +9,7 @@ toc: false
 
 ## Kudos
 
-Gerrit is an open source project and its success much depends on the Gerrit
+Gerrit is an open-source project and its success much depends on the Gerrit
 community and the people driving it. Every day we see highly engaged and
 motivated contributors and kudos is a way for you to thank them and show your
 appreciation.
@@ -40,7 +40,7 @@ Note: Please add new kudos at the top of this list.
 **[2019-08-07] To: David Pursehouse (CollabNet)**
 
 ```
-  For the open source community it is very important that all discusssions are
+  For the open-source community it is very important that all discusssions are
   transparent and that findings and conclusions are clearly communicated. David
   takes care to collect and publish project news regularly on our homepage [1]
   making it easy for everyone to follow what's going on in the project.
@@ -76,7 +76,7 @@ Nieder (Google), Jonathan Tan (Google), Luca Milanesio (GerritForge);
 Masaya Suzuki (Google), Matthias Sohn (SAP)**
 
 ```
-  The Gerrit open source project had to deal with 2 severe security
+  The Gerrit open-source project had to deal with 2 severe security
   vulnerabilities (issue 10201 [1], issue 10262 [2]) that required patching 6
   JGit releases and 8 Gerrit releases (2.9 to 2.16). David Pursehouse, David
   Ostrovsky, Jonathan Nieder, Jonathan Tan, Luca Milanesio, Masaya Suzuki and
@@ -197,7 +197,7 @@ From: Edwin Kempin (Google)
 
 ```
   I want to thank Shawn for starting the Gerrit Code Review project and
-  fostering a great open source community around it.
+  fostering a great open-source community around it.
 
   Shawn's passion and dedication are the source of our success. Shawn was an
   outstanding engineer who shaped the long-term vision for our project. The

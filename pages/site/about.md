@@ -11,7 +11,7 @@ toc: false
 
 Google developed [Mondrian], a Perforce based code review tool to
 facilitate peer-review of changes prior to submission to the central
-code repository.  Mondrian is not open source, as it is tied to the
+code repository.  Mondrian is not open-source, as it is tied to the
 use of [Perforce] and to many Google-only services, such as
 [Bigtable].  Google employees have often described how useful Mondrian
 and its peer-review process is to their day-to-day work.
@@ -23,10 +23,10 @@ and its peer-review process is to their day-to-day work.
 
 ## Rietveld
 
-Guido van Rossum open sourced portions of Mondrian within [Rietveld],
+Guido van Rossum open-sourced portions of Mondrian within [Rietveld],
 a similar code review tool running on Google App Engine, but for use
 with Subversion rather than Perforce.  Rietveld is in common use by
-many open source projects, facilitating their peer reviews much as
+many open-source projects, facilitating their peer reviews much as
 Mondrian does for Google employees.  Unlike Mondrian and the Google
 Perforce triggers, Rietveld is strictly advisory and does not enforce
 peer-review prior to submission.
@@ -53,7 +53,7 @@ permitting access over its network port.
 ## Android
 
 The [Android Open Source Project][AOSP] (AOSP) was founded by Google
-by the open source releasing of the Android operating system.  AOSP
+by the open-source releasing of the Android operating system.  AOSP
 has selected Git as its primary version control tool.  As many of the
 engineers have a background of working with Mondrian at Google, there
 is a strong desire to have the same (or better) feature set available
