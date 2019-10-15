@@ -5,7 +5,7 @@ permalink: dev-contributing.html
 ---
 ## Introduction
 
-Gerrit is developed as a [self-hosting open source
+Gerrit is developed as a [self-hosting open-source
 project](https://gerrit-review.googlesource.com/) and very much welcomes
 contributions from anyone with a contributor’s agreement on file with
 the project.

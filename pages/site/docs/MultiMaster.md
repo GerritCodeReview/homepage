@@ -8,7 +8,7 @@ toc: false
 
 
 We spent some time at the May 2012 Hackathon outlining an incremental approach
-to making open source Gerrit clusterable (the version running for android-review
+to making open-source Gerrit clusterable (the version running for android-review
 and gerrit-review is already clustered but uses much of Google's proprietary
 technologies such as GFS and BigTable). Several incremental steps were outlined
 on how to move Gerrit in that direction.
@@ -75,7 +75,7 @@ some what is required for this setup to work well.
 
 The main additional problem with separate backends is: resolving ref updates in
 a globally safe way. In Google’s implementation, this is solved by placing the
-refs in BigTable. ZooKeeper seemed like a good free/open source alternative
+refs in BigTable. ZooKeeper seemed like a good free/open-source alternative
 since it is Java based and under the Apache license. The other piece to solve is
 moving object data across sites, it was suggested that ZooKeeper would likely be
 involved in helping to coordinate this, but details were not really discussed.
