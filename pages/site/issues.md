@@ -57,7 +57,7 @@ Closed states resolve an issue:
 
 ### Priority-3
 - We feel your pain: the team would like to fix this, but lacks the
-  resources to do this soon.  Gerrit is an open source project;
+  resources to do this soon.  Gerrit is an open-source project;
   contributions are appreciated.
 - Desirable feature or enhancement *not* on the roadmap.
 

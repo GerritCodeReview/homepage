@@ -11,7 +11,7 @@ deployment to other existing container installations if using the
 standalone daemon is not desired.
 
 Gerrit Code Review can be installed into any J2EE servlet container,
-including popular open source containers such as Jetty or Tomcat, or any
+including popular open-source containers such as Jetty or Tomcat, or any
 commercial server which supports the J2EE servlet specification.
 
 ## Installation
