@@ -22,6 +22,30 @@
       "revId": "1a4666c7da049a777a53eb96f902c6bc309a7b91",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6ef395fb_0552dd09",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-15T18:19:58Z",
+      "side": 1,
+      "message": "Yeah, sorry this came out of a mailing list discussion. The text in the boxes is fine, however the boxes have big \"Learn More\" buttons which lead to pages that don\u0027t really seem to describe what the box was about. Also, the workflow box has an icon of a lock, which I find strange and not indicative of a workflow at all. The icon for discuss and code review, while pretty, does not seem to be inline with any Gerrit graphics and does not feel representative to me of the project. \n\nSo the good stuff that seems salvageable to me would be the 3 statements, the git icon, and perhaps the entire download box?\n\nPerhaps as David suggested, this would be better on the about page? I\u0027m just not sure its worth a lot to try and make them fit just to salvage them though. I agree that having a nice about page would be good, I just don\u0027t think these boxes \"as is\" would really be very good. If we want to just shove them onto the about page for now and worry about them later, I\u0027ll gladly do that?",
+      "parentUuid": "15898b2b_de58a03f",
+      "range": {
+        "startLine": 7,
+        "startChar": 7,
+        "endLine": 7,
+        "endChar": 22
+      },
+      "revId": "1a4666c7da049a777a53eb96f902c6bc309a7b91",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
