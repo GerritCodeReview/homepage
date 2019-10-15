@@ -21,12 +21,12 @@ of Git.
 
 Google developed Mondrian, a Perforce based code review tool to
 facilitate peer-review of changes prior to submission to the central
-code repository. Mondrian is not open source, as it is tied to the use
+code repository. Mondrian is not open-source, as it is tied to the use
 of Perforce and to many Google-only services, such as Bigtable. Google
 employees have often described how useful Mondrian and its peer-review
 process is to their day-to-day work.
 
-Guido van Rossum open sourced portions of Mondrian within Rietveld, a
+Guido van Rossum open-sourced portions of Mondrian within Rietveld, a
 similar code review tool running on Google App Engine, but for use with
 Subversion rather than Perforce. Rietveld is in common use by many open
 source projects, facilitating their peer reviews much as Mondrian does
@@ -187,7 +187,7 @@ of the database and into the git repositories for each project.
 
 ## Project Information
 
-Gerrit is developed as a self-hosting open source project:
+Gerrit is developed as a self-hosting open-source project:
 
   - [Project Homepage](https://www.gerritcodereview.com/)
 
@@ -202,7 +202,7 @@ Gerrit is developed as a self-hosting open source project:
 
 ## Internationalization and Localization
 
-As a source code review system for open source projects, where the
+As a source code review system for open-source projects, where the
 commonly preferred language for communication is typically English,
 Gerrit does not make internationalization or localization a priority.
 
@@ -264,7 +264,7 @@ for a Gerrit managed project can be expected to be able to run a
 JavaScript enabled browser, as they also would need to be running Git in
 order to contribute.
 
-There are a number of open source browsers available, including Firefox
+There are a number of open-source browsers available, including Firefox
 and Chromium. Users have some degree of choice in their browser
 selection, including being able to build and audit their browser from
 source.
@@ -441,7 +441,7 @@ of the Gerrit developers, no real guarantees can be made about latency.
 
 ## Scalability
 
-Gerrit is designed for a very large scale open source project, or large
+Gerrit is designed for a very large scale open-source project, or large
 commercial development project. Roughly this amounts to parameters such
 as the following:
 
@@ -506,7 +506,7 @@ increased from their defaults.
 
 ### Discussion
 
-Very few, if any open source projects have more than a handful of Git
+Very few, if any open-source projects have more than a handful of Git
 repositories associated with them. Since Gerrit treats each Git
 repository as a project, an upper limit of 10,000 projects is
 reasonable. If a site has more than 1,000 projects, administrators
@@ -514,11 +514,11 @@ should increase
 [`cache.projects.memoryLimit`](config-gerrit.html#cache.name.memoryLimit)
 to match.
 
-Almost no open source project has 1,000 contributors over all time, let
+Almost no open-source project has 1,000 contributors over all time, let
 alone on a daily basis. This default figure of 1,000 was WAG’d by
 looking at PR statements published by cell phone companies picking up
 the Android operating system. If all of the stated employees in those PR
-statements were working on **only** the open source Android
+statements were working on **only** the open-source Android
 repositories, we might reach the 1,000 estimate listed here. Knowing
 these companies as being very closed-source minded in the past, it is
 very unlikely all of their Android engineers will be working on the open
@@ -679,7 +679,7 @@ Most deployments caring about reliability will setup a warm-spare
 standby system and use a manual fail-over process to switch from the
 failed system to the warm-spare.
 
-As Git is a distributed version control system, and open source projects
+As Git is a distributed version control system, and open-source projects
 tend to have contributors from all over the world, most contributors
 will be able to tolerate a Gerrit down time of several hours while the
 administrator is notified, signs on, and brings the warm-spare up.

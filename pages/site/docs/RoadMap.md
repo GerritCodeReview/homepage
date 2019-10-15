@@ -12,7 +12,7 @@ There are many ideas suggested, and discussions which lead to decisions about
 the future direction and designs of Gerrit which happen in many forums: on IRC,
 the ML, at the hackathons, and in the issue tracker. It can be hard for an
 outsider to get a feel for where Gerrit might be headed in the near, medium, and
-long term. Of course, since this is an open source project, code speaks loudly.
+long term. Of course, since this is an open-source project, code speaks loudly.
 However there are times when the maintainers feel that certain pathes are not
 the way forward, and the desired alternative may have already been proposed as
 the way that Gerrit should move. It can be helpful to developers to get an idea

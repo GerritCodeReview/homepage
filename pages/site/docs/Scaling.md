@@ -86,7 +86,7 @@ with this.)
 
 The Gerrit MultiMaster plug-in describes how to setup a single site multi-master
 with a shared storage back-end for git repository data. However, there are
-currently no known sites using the open source MM technology yet. The google
+currently no known sites using the open-source MM technology yet. The google
 hosted gerrit-review site currently runs in multi-site multi-master mode, but it
 relies on proprietary technology to do so.
 

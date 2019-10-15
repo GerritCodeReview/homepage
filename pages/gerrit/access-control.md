@@ -686,7 +686,7 @@ A user must be able to clone or fetch the project in order to create a
 new commit on their local system, so in practice they must also have the
 `Read` access granted to upload a change.
 
-For an open source, public Gerrit installation, it is common to grant
+For an open-source, public Gerrit installation, it is common to grant
 `Push` for `+refs/for/refs/heads/*+` to `Registered Users` in the
 `All-Projects` ACL. For more private installations, its common to grant
 `Push` for `+refs/for/refs/heads/*+` to all users of a project.
@@ -801,7 +801,7 @@ granted `Read` with *DENY*, and does not otherwise grant `Read` with
 *ALLOW*, then a `Read` in the all projects ACL is ignored. This behavior
 is useful to hide a handful of projects on an otherwise public server.
 
-For an open source, public Gerrit installation it is common to grant
+For an open-source, public Gerrit installation it is common to grant
 `Read` to `Anonymous Users` in the `All-Projects` ACL, enabling casual
 browsing of any project’s changes, as well as fetching any project’s
 repository over SSH or HTTP. New projects can be temporarily hidden from
