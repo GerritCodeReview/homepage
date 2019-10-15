@@ -131,6 +131,9 @@ Source code for additional plugins can be found through the
 
 Members of the community will discuss most Gerrit related things on the [repo-discuss](https://groups.google.com/group/repo-discuss) mailing list. Events such as user summits and hackathons are announced there. You can also see the events posted on our [Calendar](https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">community calendar), or if you prefer to follow us on [Twitter@gerritreview](https://twitter.com/gerritreview).  For a more real-time Gerrit discussion, see our [Slack channel](https://gerritcodereview.slack.com/)
 
+
+## Support
+
 Please refer to the [support](support.html) page for more details.
 
 ## Training Slides
