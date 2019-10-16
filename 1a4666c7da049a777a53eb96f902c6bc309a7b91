@@ -46,6 +46,53 @@
       "revId": "1a4666c7da049a777a53eb96f902c6bc309a7b91",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "31fdd106_eb58033b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-10-16T08:35:37Z",
+      "side": 1,
+      "message": "Ok, my comment was obviously colored by the fact that I hadn\u0027t pushed any of the \"Learn More\" buttons.\nNow that I have I agree that they promise more than they can fulfill.",
+      "parentUuid": "6ef395fb_0552dd09",
+      "range": {
+        "startLine": 7,
+        "startChar": 7,
+        "endLine": 7,
+        "endChar": 22
+      },
+      "revId": "1a4666c7da049a777a53eb96f902c6bc309a7b91",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d4fdee5_2a0efe82",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-10-16T08:35:37Z",
+      "side": 1,
+      "message": "With all the other boxes gone the one Download box looks unnaturally big and upsets the overall balance of the landing page.\n\nCould we:\n1. Keep the boxes but remove the \"Learn more\" link. IMO the padlock symbol isn\u0027t that awful since the one of the main benefits of Gerrit is the ACL (perhaps more what it does than how you do it).\n2. Keep only the \"Download\" box but make it significantly smaller, and perhaps move it to the bottom.\n3. Remove the Download button as well, and perhaps adding download buttons to releases-readme instead (in a follow-up change.)\n\nWhere I\u0027m leaning towards option 1 or 3, in no particular order of preference.",
+      "range": {
+        "startLine": 23,
+        "startChar": 16,
+        "endLine": 29,
+        "endChar": 22
+      },
+      "revId": "1a4666c7da049a777a53eb96f902c6bc309a7b91",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
