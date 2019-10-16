@@ -22,6 +22,30 @@
       "revId": "84284fb05101aca77ce66a67ffc9c8bd58949289",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d0d582d_ba3e4c96",
+        "filename": "pages/site/support.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-16T05:51:52Z",
+      "side": 1,
+      "message": "True, good catch. Because there is no formal agreement but only objectives.",
+      "parentUuid": "e9c3ac8a_bf8c961b",
+      "range": {
+        "startLine": 65,
+        "startChar": 21,
+        "endLine": 65,
+        "endChar": 24
+      },
+      "revId": "84284fb05101aca77ce66a67ffc9c8bd58949289",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }

@@ -239,6 +239,30 @@
       "revId": "7782583516b0b75c368bfd79af73fafde579c540",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "46c808f8_ecfa688b",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-16T05:51:52Z",
+      "side": 1,
+      "message": "That is true: the program has no bugs, it just executes the instructions that are provided to the CPUs. There are just gaps between the human understanding of a feature and the underlying machine-level representation.\n\nWill ad P3 then ;-)",
+      "parentUuid": "2196d153_60f88ff5",
+      "range": {
+        "startLine": 87,
+        "startChar": 52,
+        "endLine": 87,
+        "endChar": 90
+      },
+      "revId": "7782583516b0b75c368bfd79af73fafde579c540",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
