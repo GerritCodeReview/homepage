@@ -85,7 +85,7 @@ depending on the severity of the issue raised.
 | P3       | Desirable feature or enhancement not in the roadmap         | -
 | P4       | Everything else                                             | -
 
-> **NOTE**: Bug reports about existing features are typically classified between P0 and P2,
+> **NOTE**: Bug reports about existing features are typically classified between P0 and P3,
 > feature requests are classified between P2 and P4.
 
 ## Bugs
