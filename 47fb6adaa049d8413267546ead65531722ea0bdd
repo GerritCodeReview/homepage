@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "a60a81bd_b6135496",
+        "filename": "_posts/2019-10-15-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-16T12:05:32Z",
+      "side": 1,
+      "message": "I\u0027d add also that the Java 11 security issue isn\u0027t private either, so hiding the issue with Gerrit won\u0027t make sense.",
+      "revId": "47fb6adaa049d8413267546ead65531722ea0bdd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "094ed54f_8d88b03e",
+        "filename": "_posts/2019-10-15-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-16T12:05:32Z",
+      "side": 1,
+      "message": "and document the scalability limitations of the feature.",
+      "revId": "47fb6adaa049d8413267546ead65531722ea0bdd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "438d96c0_b3b2ea25",
         "filename": "_posts/2019-10-15-esc-minutes.md",
         "patchSetId": 1
@@ -18,6 +52,29 @@
         "startChar": 39,
         "endLine": 80,
         "endChar": 40
+      },
+      "revId": "47fb6adaa049d8413267546ead65531722ea0bdd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "52646382_a45a9225",
+        "filename": "_posts/2019-10-15-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-16T12:05:32Z",
+      "side": 1,
+      "message": "has been",
+      "range": {
+        "startLine": 82,
+        "startChar": 38,
+        "endLine": 82,
+        "endChar": 44
       },
       "revId": "47fb6adaa049d8413267546ead65531722ea0bdd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
