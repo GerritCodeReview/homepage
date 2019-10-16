@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "fdc1e400_550d9639",
+        "filename": "pages/site/support.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-16T21:02:13Z",
+      "side": 1,
+      "message": "True, but the description associated to the priority levels is actually a severity.",
+      "parentUuid": "eeead46c_db0949e2",
+      "range": {
+        "startLine": 80,
+        "startChar": 2,
+        "endLine": 80,
+        "endChar": 10
+      },
+      "revId": "0baa54a138f7d0f90cfc7ab033afaed90c3b5ad5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a8ab838d_0d6db680",
         "filename": "pages/site/support.md",
         "patchSetId": 7
@@ -36,6 +60,24 @@
       "writtenOn": "2019-10-16T20:57:46Z",
       "side": 1,
       "message": "I find it odd that the highest 2 priorities only mention bugs and the lower ones only enhancement requests.\nMaybe we should differentiate between bug and enhancement/new feature and give examples for both per priority\n\nChromium defines priority based on target timeline [1]\n\nP0 - Emergency\nP1 - Needed for current milestone\nP2 - Wanted for current milestone\nP3 - Not time sensitive\n\nThis [2] also seems an easy to understand definition:\nP0\tDo not do anything else, this is a blocker.\nP1\tMust be fixed.\nP2\tShould be fixed, time and resource permitting.\nP3\tMight get fixed.\nP4\tNoted … this is one step away from the black hole.\n\nI like this way to classify bugs [3] but it\u0027s probably a bit too much black and white\n\n[1] https://www.chromium.org/for-testers/bug-reporting-guidelines/triage-best-practices\n[2] https://blogs.msdn.microsoft.com/willy-peter_schaub/2009/10/22/getting-your-priorities-right-p0-p1-p2/\n[3] https://miro.medium.com/max/5768/1*LrTP2-3ZMikmrnyi7Bergw.png from https://medium.com/qualityfaster/the-zero-bug-policy-b0bd987be684",
+      "revId": "0baa54a138f7d0f90cfc7ab033afaed90c3b5ad5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c38ad04d_4c42f228",
+        "filename": "pages/site/support.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-16T21:02:13Z",
+      "side": 1,
+      "message": "I just reported as baseline what we have today, without any changes.\nMore than happy to discuss and revise the support level we give, possibly during the next ESC-Community Manager meeting in Sunnyvale?",
+      "parentUuid": "a8ab838d_0d6db680",
       "revId": "0baa54a138f7d0f90cfc7ab033afaed90c3b5ad5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -62,6 +104,30 @@
       "revId": "0baa54a138f7d0f90cfc7ab033afaed90c3b5ad5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "03972061_ba7d96d7",
+        "filename": "pages/site/support.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-16T21:02:13Z",
+      "side": 1,
+      "message": "Apologies, I missed this comment. Let me address it in the follow-up change.",
+      "parentUuid": "e4f69c91_afc5574b",
+      "range": {
+        "startLine": 88,
+        "startChar": 88,
+        "endLine": 88,
+        "endChar": 90
+      },
+      "revId": "0baa54a138f7d0f90cfc7ab033afaed90c3b5ad5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
