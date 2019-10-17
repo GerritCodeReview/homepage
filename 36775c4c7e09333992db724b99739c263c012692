@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "fa0d45ae_e1821db3",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "Could you point out where? To be clear, I don\u0027t consider \"adding more nodes\" as a solution to the fact that \"adding more nodes doesn\u0027t help scale destinations\" (the problem).",
+      "parentUuid": "1bb21b82_68906798",
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c3c7fa5d_524c1ad8",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -30,6 +48,30 @@
       "writtenOn": "2019-10-17T06:56:41Z",
       "side": 1,
       "message": "Can you share your current limits?\n- number of repos\n- number of destinations\n- number of ref-updates / hour, globally and per-repo\n- specs of the Gerrit master (# cores, RAM)\n\nUnderstanding your current limits and the associated bottlenecks would help selecting the right design for it.",
+      "range": {
+        "startLine": 11,
+        "startChar": 14,
+        "endLine": 11,
+        "endChar": 33
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d9e1967_1ac3450d",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "I have added the following to the sections where I thought appropriate:\n\n* number of repos\n* specs of the Gerrit master (# cores, RAM)\n\nLines 17 and 40 explain that we currently are limited to 5 destinations, the details of why we are limited come down to the CPU and memory limits described below.\n\nAs for the number of ref-updates / hour, globally and per-repo, I believe we have on average around on 6K replication tasks per hour. In my experience, in a well balanced master setup the aggregated ref updates get distributed across nodes, so admins can already handle adding more aggregate updates by adding more master nodes. While adding more destinations will increase the aggregate, I don\u0027t believe we have issues with aggregate throughput. Evidence that the aggregate is not a problem for us is that during normal operation we tend to see between 10 and 30 replication pushes per server across 3 servers running concurrently. This use case is more about handling the extra bursts, not the extra aggregate that adding extra destinations causes because the bursts currently get handled by a single master no matter how many you have in your cluster. While this data may be interesting, I don\u0027t think it is directly related to the use case, so I have not added it to the doc.\n\n\u003e Understanding your current limits and the associated bottlenecks would help selecting the right design for it.\n\nLet me know if there are more specifics of my use case\u0027s bottlenecks that you feel need more highlighting.",
+      "parentUuid": "c3c7fa5d_524c1ad8",
       "range": {
         "startLine": 11,
         "startChar": 14,
@@ -65,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "4dd191b6_d96b7484",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "The use case is about allowing admins to scale destination support by adding more of the same servers, not by upgrading their hardware.",
+      "parentUuid": "f9a26a1a_a2860971",
+      "range": {
+        "startLine": 40,
+        "startChar": 78,
+        "endLine": 40,
+        "endChar": 88
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aec79572_70c90225",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -76,6 +142,30 @@
       "writtenOn": "2019-10-17T07:13:14Z",
       "side": 1,
       "message": "10 destinations x 9 threads \u003d 90 threads, which still seems compatible with a large-scale server (e.g. 512 cores)",
+      "range": {
+        "startLine": 42,
+        "startChar": 55,
+        "endLine": 42,
+        "endChar": 64
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "368ace34_bef7fc13",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "The use case is about allowing admins to scale destination support by adding more of the same servers (no matter whether they have 1 core or 512 cores).",
+      "parentUuid": "aec79572_70c90225",
       "range": {
         "startLine": 42,
         "startChar": 55,
@@ -134,6 +224,30 @@
     },
     {
       "key": {
+        "uuid": "94d4a192_d3ef7e65",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "Sure, I\u0027ve added our specifics to the sections on CPUs and memory as I don\u0027t want to detract from the generic problem of not being able to scale by adding more nodes (i.e. the use case is assuming that it is not considered problematic if an individual node\u0027s limits have been reached)",
+      "parentUuid": "6988f61a_486493fa",
+      "range": {
+        "startLine": 47,
+        "startChar": 48,
+        "endLine": 47,
+        "endChar": 78
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4f016b7c_a7ae9cc5",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -154,6 +268,30 @@
       "revId": "36775c4c7e09333992db724b99739c263c012692",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "82f35924_af8a6091",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "Yes problematic projects are my problem since it is in the section where I am describing this as a problem. :) I describe some of the reasons below.",
+      "parentUuid": "4f016b7c_a7ae9cc5",
+      "range": {
+        "startLine": 54,
+        "startChar": 44,
+        "endLine": 54,
+        "endChar": 74
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -180,6 +318,30 @@
     },
     {
       "key": {
+        "uuid": "3fb7ab4d_01d436d6",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "I have framed the use case from the point of view of an admin. The use case is about empowering admins to scale their systems by adding more nodes, to empower them to scale without having to alter the software or hardware do more with a single node with the assumption that systems will continue to grow to exceed the capacity of a single node.\n\nCurrently the architecture does not scale when \"adding more master nodes\", thus \"adding more master nodes\" cannot be a solution to the problem that \"the architecture does not scale when adding more master nodes\".",
+      "parentUuid": "0f141183_b637b97e",
+      "range": {
+        "startLine": 62,
+        "startChar": 66,
+        "endLine": 62,
+        "endChar": 93
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "45fecfd8_a7e0b3be",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -200,6 +362,30 @@
       "revId": "36775c4c7e09333992db724b99739c263c012692",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0507d8db_1745d366",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "NFS scaling is not a problem for us, we know how to do that. On lines 89-90, I mention that an admin will need to be able to scale these types of limits (i.e. this use case is assuming the admin can do that). If you believe that you need to scale this limit, I would propose uploading a different use case doc to do so as this is out of the scope of this use case.",
+      "parentUuid": "45fecfd8_a7e0b3be",
+      "range": {
+        "startLine": 63,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 75
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -226,6 +412,30 @@
     },
     {
       "key": {
+        "uuid": "0133d06d_6b07bf54",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "f54a4bf2_bdd63530",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 85
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "389d536e_8f9e53fc",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -249,6 +459,30 @@
     },
     {
       "key": {
+        "uuid": "a5d3d944_5e5a5f98",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "The things that you are listing are not resource limits, they are data/inputs which are limited by the available resources. This use case is not trying to address how the limits on those inputs can be increased.",
+      "parentUuid": "389d536e_8f9e53fc",
+      "range": {
+        "startLine": 86,
+        "startChar": 37,
+        "endLine": 86,
+        "endChar": 57
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5fedc4d6_e9e0e756",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -269,6 +503,30 @@
       "revId": "36775c4c7e09333992db724b99739c263c012692",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "56c10c5d_ae38e3a0",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-17T23:14:47Z",
+      "side": 1,
+      "message": "I have re-ordered this section since it seemed like I was offering a solution, which was not the intent of this section, rather it was to point out what might be seen as an obvious \"solution via configuration\" would not work. Hopefully the problems I was trying to point out stand out better now.",
+      "parentUuid": "5fedc4d6_e9e0e756",
+      "range": {
+        "startLine": 170,
+        "startChar": 38,
+        "endLine": 170,
+        "endChar": 67
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
