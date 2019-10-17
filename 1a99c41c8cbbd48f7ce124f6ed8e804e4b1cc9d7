@@ -534,6 +534,24 @@
     },
     {
       "key": {
+        "uuid": "f2920e40_08719fbb",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-10-17T02:01:16Z",
+      "side": 1,
+      "message": "I have trouble with the \"user\" given in this case. Why should a Gerrit admin want \"to plug another implementation of global ref-db\"? That seems to already assume an admin wants *any* gloabl ref-db, but there\u0027s no context given for what root problem this is about.\n\nBasically, I don\u0027t see a problem scenario described here for a user of Gerrit. I don\u0027t want to sound repetitive, but I don\u0027t feel this is being addressed. Please see [1] or [2] as what I consider good examples of use cases.\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/239559/4/pages/design-docs/generate-release-notes/use-cases.md\n[2] https://gerrit-review.googlesource.com/c/homepage/+/239032/8/pages/design-docs/scaling-multi-master-replication/use-cases.md",
+      "parentUuid": "15e6057a_bb5d63d7",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "40f59124_09a5089f",
         "filename": "pages/design-docs/global-refdb/use-cases.md",
         "patchSetId": 8
