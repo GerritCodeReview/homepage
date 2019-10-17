@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "1bb21b82_68906798",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "Overall, there are hints to the implementation you have in mind \"leaking\" into the use-cases. That is fine, however, they should just be moved into the solution document.",
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c3c7fa5d_524c1ad8",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -48,6 +65,121 @@
     },
     {
       "key": {
+        "uuid": "aec79572_70c90225",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "10 destinations x 9 threads \u003d 90 threads, which still seems compatible with a large-scale server (e.g. 512 cores)",
+      "range": {
+        "startLine": 42,
+        "startChar": 55,
+        "endLine": 42,
+        "endChar": 64
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "38747c99_4c04e088",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "Yes, fully agreed. They just increase the contentions on the shared resources.",
+      "range": {
+        "startLine": 44,
+        "startChar": 32,
+        "endLine": 45,
+        "endChar": 14
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6988f61a_486493fa",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "Can you share them so that we have more context?",
+      "range": {
+        "startLine": 47,
+        "startChar": 48,
+        "endLine": 47,
+        "endChar": 78
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4f016b7c_a7ae9cc5",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "Is this possibly the problem? I recall you mentioned that your repos have hundreds of thousands of refs and, without Git protocol v2, the refs-advertisement phase would be huge.",
+      "range": {
+        "startLine": 54,
+        "startChar": 44,
+        "endLine": 54,
+        "endChar": 74
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f141183_b637b97e",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "This is the use-case, whilst here you mention the solution. This statement should be moved into a solution description section.",
+      "range": {
+        "startLine": 62,
+        "startChar": 66,
+        "endLine": 62,
+        "endChar": 93
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "45fecfd8_a7e0b3be",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -64,6 +196,75 @@
         "startChar": 4,
         "endLine": 63,
         "endChar": 75
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f54a4bf2_bdd63530",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "The replication plugin supports auto-reload of new destinations. We can work in making it differential so that the impact on existing replication tasks will be absolutely zero.",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 85
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "389d536e_8f9e53fc",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "The number of refs in a repo and the overall size of the new BLOBs are another *significant* limit to the replication system.",
+      "range": {
+        "startLine": 86,
+        "startChar": 37,
+        "endLine": 86,
+        "endChar": 57
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5fedc4d6_e9e0e756",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T07:13:14Z",
+      "side": 1,
+      "message": "Why do you need to share them? You could distribute to the nodes without having to share them. (e.g. sharding)",
+      "range": {
+        "startLine": 170,
+        "startChar": 38,
+        "endLine": 170,
+        "endChar": 67
       },
       "revId": "36775c4c7e09333992db724b99739c263c012692",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
