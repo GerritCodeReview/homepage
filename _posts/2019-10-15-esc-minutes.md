@@ -93,7 +93,7 @@ them to check if they will also have impact on Google's index backend.
 ### Follow up on blocking issues for 3.1
 
 Per the release plan for 3.1 we expect to cut the stable-3.1 branch and
-make the first release candidate at the end of this weeks.
+make the first release candidate at the end of this week.
 
 We had a look at the list of issues that are labelled `Blocking-3.1` and
 the open changes that have the hashtag `blocking-3.1`. Aside from the changes
