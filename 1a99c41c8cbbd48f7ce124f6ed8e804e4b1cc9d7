@@ -552,6 +552,24 @@
     },
     {
       "key": {
+        "uuid": "c6024109_056ef076",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T05:42:50Z",
+      "side": 1,
+      "message": "\u003e I have trouble with the \"user\" given in this case. Why should a Gerrit admin want \"to plug another implementation of global ref-db\"? That seems to already assume an admin wants *any* gloabl ref-db, but there\u0027s no context given for what root problem this is about.\n\nThe user is the Gerrit admin, not the end user. The reason why he may want another implementation of the global ref-db is not the focus of the design document.\nHowever, let me give you examples on the reasons:\n\n- The default implementation ABC is incompatible with the companies policies\n- Company XYZ has already implementation B in place for other use-cases and want to reuse it\n- He doesn\u0027t have any skills in ABC and instead a lot in XYZ\n- The implementation ABC is not scalable enough for is setup and thus needs XYZ\n\n\u003e Basically, I don\u0027t see a problem scenario described here for a user of Gerrit. I don\u0027t want to sound repetitive, but I don\u0027t feel this is being addressed. Please see [1] or [2] as what I consider good examples of use cases.\n\u003e \n\u003e [1] https://gerrit-review.googlesource.com/c/homepage/+/239559/4/pages/design-docs/generate-release-notes/use-cases.md\n\u003e [2] https://gerrit-review.googlesource.com/c/homepage/+/239032/8/pages/design-docs/scaling-multi-master-replication/use-cases.md\n\nAre you basically saying that you do not see the point of going multi-site (or HA) and having another implementation of the global ref-db? That is absolutely fine, the Gerrit admin with this requirement is not necessarily you or one of your team.\n\nHowever, other people in the world may have (or may not have) this requirement and use-case.\n\nDoes that clarify?",
+      "parentUuid": "f2920e40_08719fbb",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "40f59124_09a5089f",
         "filename": "pages/design-docs/global-refdb/use-cases.md",
         "patchSetId": 8
@@ -586,6 +604,24 @@
       "writtenOn": "2019-10-06T00:08:38Z",
       "side": 1,
       "message": "would global ref-db API also be used by Gerrit core itself ?",
+      "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d8bad3e_13209f49",
+        "filename": "pages/design-docs/global-refdb/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T05:42:50Z",
+      "side": 1,
+      "message": "I believe Gerrit has reference to the ref-db already today. The global ref-db is simply a globally consistent view of it.",
+      "parentUuid": "3814e0bd_29e847e3",
       "revId": "1a99c41c8cbbd48f7ce124f6ed8e804e4b1cc9d7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
