@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "c3c7fa5d_524c1ad8",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T06:56:41Z",
+      "side": 1,
+      "message": "Can you share your current limits?\n- number of repos\n- number of destinations\n- number of ref-updates / hour, globally and per-repo\n- specs of the Gerrit master (# cores, RAM)\n\nUnderstanding your current limits and the associated bottlenecks would help selecting the right design for it.",
+      "range": {
+        "startLine": 11,
+        "startChar": 14,
+        "endLine": 11,
+        "endChar": 33
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f9a26a1a_a2860971",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-17T06:56:41Z",
+      "side": 1,
+      "message": "40 threads isn\u0027t that much for nowadays servers.",
+      "range": {
+        "startLine": 40,
+        "startChar": 78,
+        "endLine": 40,
+        "endChar": 88
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "45fecfd8_a7e0b3be",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
