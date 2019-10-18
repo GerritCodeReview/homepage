@@ -155,6 +155,30 @@
     },
     {
       "key": {
+        "uuid": "3d642300_4b7f86fe",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-18T16:31:29Z",
+      "side": 1,
+      "message": "I think you may have miss-read this reply. The admin wants to add more nodes of the same size as the original (i.e. horizontal scaling), the admin does not want to upgrade the original node (vertical scaling).",
+      "parentUuid": "a80e5125_b3b3e3cf",
+      "range": {
+        "startLine": 40,
+        "startChar": 78,
+        "endLine": 40,
+        "endChar": 88
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aec79572_70c90225",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -390,6 +414,30 @@
     },
     {
       "key": {
+        "uuid": "0068eddb_da6e73e5",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-18T16:31:29Z",
+      "side": 1,
+      "message": "I think you miss-understood one of my replies above. This line is exactly what the use case is intending to do.",
+      "parentUuid": "d6ac814a_d3f151e4",
+      "range": {
+        "startLine": 62,
+        "startChar": 66,
+        "endLine": 62,
+        "endChar": 93
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "45fecfd8_a7e0b3be",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -449,6 +497,30 @@
       "side": 1,
       "message": "I know high performance NFS is not a problem for Qualcomm, but it could be for everyone else in the world.\n\nwe should make the design useful for most people in the world.",
       "parentUuid": "0507d8db_1745d366",
+      "range": {
+        "startLine": 63,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 75
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c732e456_3933f9e3",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-18T16:31:29Z",
+      "side": 1,
+      "message": "I suspect that most people don\u0027t have issues scaling NFS, my use case will add value for us, and hopefully some others without solving that problem.",
+      "parentUuid": "f0b82a18_2a1b2c93",
       "range": {
         "startLine": 63,
         "startChar": 4,
