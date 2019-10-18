@@ -18,7 +18,7 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 
 Latest release: **[3.0.3](/3.0.md)**.
 
-## 3.1.0 (in development)
+## 3.1.0 (release candidate)
 
 [Release notes for Gerrit 3.1.0](/3.1.md)
 
