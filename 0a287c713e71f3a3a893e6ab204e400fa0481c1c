@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1269eb7e_0788b7de",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T21:31:21Z",
+      "side": 1,
+      "message": "Please add the background on the target architecture implemented at Qualcomm: these use-cases and design applies to that infrastructure solution or any other similar ones.\n\nIt may or may not provide benefits to other solutions or different hardware specs in terms of CPU, RAM or shared storage.",
+      "revId": "0a287c713e71f3a3a893e6ab204e400fa0481c1c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
