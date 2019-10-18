@@ -20,6 +20,12 @@ Latest release: **[3.0.3](/3.0.md)**.
 
 ## 3.1.0 (release candidate)
 
+* Support for git protocol V2
+
+* Polymer 2
+
+* Mandatory plugins
+
 [Release notes for Gerrit 3.1.0](/3.1.md)
 
 ## 3.0.0
