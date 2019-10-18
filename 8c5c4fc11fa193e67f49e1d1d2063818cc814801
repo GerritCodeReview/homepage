@@ -22,6 +22,30 @@
       "revId": "8c5c4fc11fa193e67f49e1d1d2063818cc814801",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1120cd34_8d8c5d99",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-10-18T07:57:09Z",
+      "side": 1,
+      "message": "Please create an issue in the tracker and add the ESC component.",
+      "parentUuid": "f53fc35e_db3ae524",
+      "range": {
+        "startLine": 92,
+        "startChar": 26,
+        "endLine": 92,
+        "endChar": 30
+      },
+      "revId": "8c5c4fc11fa193e67f49e1d1d2063818cc814801",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
