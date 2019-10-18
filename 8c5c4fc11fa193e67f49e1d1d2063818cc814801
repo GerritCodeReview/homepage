@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f53fc35e_db3ae524",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-18T07:50:46Z",
+      "side": 1,
+      "message": "Unrelated here, but we are 3 releases behind concerning security related framework. Can you add that topic of BC upgrade: [1] for the next ESC call?\n\n* [1] https://gerrit-review.googlesource.com/c/gerrit/+/241130",
+      "range": {
+        "startLine": 92,
+        "startChar": 26,
+        "endLine": 92,
+        "endChar": 30
+      },
+      "revId": "8c5c4fc11fa193e67f49e1d1d2063818cc814801",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
