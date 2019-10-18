@@ -179,6 +179,30 @@
     },
     {
       "key": {
+        "uuid": "1caaf7db_60aa3e34",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T19:21:34Z",
+      "side": 1,
+      "message": "\u003e I think you may have miss-read this reply. The admin wants to add more nodes of the same size as the original (i.e. horizontal scaling), the admin does not want to upgrade the original node (vertical scaling).\n\nApologies, and yes, I believe I am struggling to understand the use-case and thanks for helping me out understanding the context, much appreciated.\n\nIn order to improve the scalability, the Gerrit admin should first understand where the bottleneck is. It could well be that the repo is just too big for the \"size\" of the current node. One solution to the problem could then be to off-load the replication task to a much bigger node (not the same size of the main one) so that can have more parallelism and memory to do that job more effectively.\n\n*If* (BIG IF) the problem is the overall size of the repo you are replicating (too many refs? too many blobs? too many binaries?) then adding more nodes of the same size of the original wouldn\u0027t really help that much.\n\nIs the use-case \"a Gerrit admin that does not want to add more nodes of a bigger size of the main one\"? If yes, then that Gerrit admin should spend more time understanding the real bottleneck and plan the future resources to allocate accordingly.",
+      "parentUuid": "3d642300_4b7f86fe",
+      "range": {
+        "startLine": 40,
+        "startChar": 78,
+        "endLine": 40,
+        "endChar": 88
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aec79572_70c90225",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -214,6 +238,30 @@
       "side": 1,
       "message": "The use case is about allowing admins to scale destination support by adding more of the same servers (no matter whether they have 1 core or 512 cores).",
       "parentUuid": "aec79572_70c90225",
+      "range": {
+        "startLine": 42,
+        "startChar": 55,
+        "endLine": 42,
+        "endChar": 64
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ce55129_fc8e0a0e",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T19:21:34Z",
+      "side": 1,
+      "message": "That is the solution, not the problem. The problem is allowing to scale destinations. The solution *could* be adding more nodes with the same specs *OR* adding less nodes of higher specs *OR* upgrading the current nodes.\n\nWe should not put ONE possible solution into the use-case, otherwise we will limit our spectrum of choice of the best design.",
+      "parentUuid": "368ace34_bef7fc13",
       "range": {
         "startLine": 42,
         "startChar": 55,
@@ -438,6 +486,30 @@
     },
     {
       "key": {
+        "uuid": "a4e7d12a_67506592",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T19:21:34Z",
+      "side": 1,
+      "message": "Apologies, I believe I have now understood (I hope) and added my comments up.\nThank you for your patience.",
+      "parentUuid": "0068eddb_da6e73e5",
+      "range": {
+        "startLine": 62,
+        "startChar": 66,
+        "endLine": 62,
+        "endChar": 93
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "45fecfd8_a7e0b3be",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -521,6 +593,30 @@
       "side": 1,
       "message": "I suspect that most people don\u0027t have issues scaling NFS, my use case will add value for us, and hopefully some others without solving that problem.",
       "parentUuid": "f0b82a18_2a1b2c93",
+      "range": {
+        "startLine": 63,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 75
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4caf9060_5d1ec7a8",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T19:21:34Z",
+      "side": 1,
+      "message": "Agreed, any improvement should be beneficial for the maximum number of use-cases, including yours in the first place.\n\nWith regards to NFS, it would be useful if you could add some specs and benchmarks in the solution part and guide other people on how can they achieve equal performance.\n\nIn my experience, not every Gerrit admin has the possibility to chose the implementation of the NFS (for budget reasons, or company policies) and, unfortunately, they cannot do so much about it.",
+      "parentUuid": "c732e456_3933f9e3",
       "range": {
         "startLine": 63,
         "startChar": 4,
