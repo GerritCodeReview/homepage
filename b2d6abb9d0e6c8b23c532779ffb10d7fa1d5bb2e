@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "00cc78c9_dd0e1e35",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-18T07:29:08Z",
+      "side": 1,
+      "message": "Nit: unrelated white space change.",
+      "revId": "b2d6abb9d0e6c8b23c532779ffb10d7fa1d5bb2e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "547453e8_2f28376a",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-18T07:29:08Z",
+      "side": 1,
+      "message": "Mention that it is only relevant for building javadoc and is not included in final artifact?",
+      "range": {
+        "startLine": 87,
+        "startChar": 20,
+        "endLine": 87,
+        "endChar": 36
+      },
+      "revId": "b2d6abb9d0e6c8b23c532779ffb10d7fa1d5bb2e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8a0b591c_a86f1f6d",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-10-18T07:29:08Z",
+      "side": 1,
+      "message": "Mention that it\u0027s test only and not included in final artifact?\n\nAlternatively, split updates in two section:\n\nFinal artifact relevant and other build tool chainrelevant depedencies?",
+      "range": {
+        "startLine": 89,
+        "startChar": 20,
+        "endLine": 89,
+        "endChar": 27
+      },
+      "revId": "b2d6abb9d0e6c8b23c532779ffb10d7fa1d5bb2e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
