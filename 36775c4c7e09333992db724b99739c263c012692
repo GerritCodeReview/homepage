@@ -653,6 +653,30 @@
     },
     {
       "key": {
+        "uuid": "f450e231_b783fb43",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T21:32:45Z",
+      "side": 1,
+      "message": "\u003e Can we please continue any discussions about scaling NFS somewhere else?\n\nI believe it is relevant: having the wrong implementation of the NFS sharing would compromise the scalability of the solution. We need to know what are the underlying requirements of the shared storage that make this design effective.",
+      "parentUuid": "9afc2219_d8edce85",
+      "range": {
+        "startLine": 63,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 75
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f54a4bf2_bdd63530",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
