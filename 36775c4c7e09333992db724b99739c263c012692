@@ -131,6 +131,30 @@
     },
     {
       "key": {
+        "uuid": "a80e5125_b3b3e3cf",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T16:14:04Z",
+      "side": 1,
+      "message": "oh, so basically the use case is *without* adding more resources how can you do more.\n\nwe should then remove the reference to adding nodes, which would open the objection “if you buy new hardware to get new nodes, just buy them bigger”",
+      "parentUuid": "4dd191b6_d96b7484",
+      "range": {
+        "startLine": 40,
+        "startChar": 78,
+        "endLine": 40,
+        "endChar": 88
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aec79572_70c90225",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -342,6 +366,30 @@
     },
     {
       "key": {
+        "uuid": "d6ac814a_d3f151e4",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T16:14:04Z",
+      "side": 1,
+      "message": "If you add more nodes it means you are changing the prerequisite of your use case and opens up the objection of the 512 core replication node.\n\nwe should define clear requirements and conditions, saying that this design addresses the problem of maximising throughput without adding new hardware.",
+      "parentUuid": "3fb7ab4d_01d436d6",
+      "range": {
+        "startLine": 62,
+        "startChar": 66,
+        "endLine": 62,
+        "endChar": 93
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "45fecfd8_a7e0b3be",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 8
@@ -386,6 +434,30 @@
       "revId": "36775c4c7e09333992db724b99739c263c012692",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f0b82a18_2a1b2c93",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-18T16:14:04Z",
+      "side": 1,
+      "message": "I know high performance NFS is not a problem for Qualcomm, but it could be for everyone else in the world.\n\nwe should make the design useful for most people in the world.",
+      "parentUuid": "0507d8db_1745d366",
+      "range": {
+        "startLine": 63,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 75
+      },
+      "revId": "36775c4c7e09333992db724b99739c263c012692",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
