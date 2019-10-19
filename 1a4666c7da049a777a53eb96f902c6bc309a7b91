@@ -73,6 +73,29 @@
     },
     {
       "key": {
+        "uuid": "9d6b3256_d3ab7f98",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-10-19T20:55:05Z",
+      "side": 1,
+      "message": "I\u0027d rather not add this text, at least not yet, if willing to keep the boxes/texts -while removing their Learn More links. Updating them links could eventually be done through follow-up changes.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 0
+      },
+      "revId": "1a4666c7da049a777a53eb96f902c6bc309a7b91",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7d4fdee5_2a0efe82",
         "filename": "index.md",
         "patchSetId": 1
@@ -84,6 +107,30 @@
       "writtenOn": "2019-10-16T08:35:37Z",
       "side": 1,
       "message": "With all the other boxes gone the one Download box looks unnaturally big and upsets the overall balance of the landing page.\n\nCould we:\n1. Keep the boxes but remove the \"Learn more\" link. IMO the padlock symbol isn\u0027t that awful since the one of the main benefits of Gerrit is the ACL (perhaps more what it does than how you do it).\n2. Keep only the \"Download\" box but make it significantly smaller, and perhaps move it to the bottom.\n3. Remove the Download button as well, and perhaps adding download buttons to releases-readme instead (in a follow-up change.)\n\nWhere I\u0027m leaning towards option 1 or 3, in no particular order of preference.",
+      "range": {
+        "startLine": 23,
+        "startChar": 16,
+        "endLine": 29,
+        "endChar": 22
+      },
+      "revId": "1a4666c7da049a777a53eb96f902c6bc309a7b91",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a22e790_93b1bf0b",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2019-10-19T20:55:05Z",
+      "side": 1,
+      "message": "\u003e With all the other boxes gone the one Download box looks unnaturally big and upsets the overall balance of the landing page.\n\u003e \n\u003e Could we:\n\u003e 1. Keep the boxes but remove the \"Learn more\" link. IMO the padlock symbol isn\u0027t that awful since the one of the main benefits of Gerrit is the ACL (perhaps more what it does than how you do it).\n\n+1, as per my above comment. -Would then also keep the Download box with its current link.\n\n\u003e 2. Keep only the \"Download\" box but make it significantly smaller, and perhaps move it to the bottom.\n\u003e 3. Remove the Download button as well, and perhaps adding download buttons to releases-readme instead (in a follow-up change.)",
+      "parentUuid": "7d4fdee5_2a0efe82",
       "range": {
         "startLine": 23,
         "startChar": 16,
