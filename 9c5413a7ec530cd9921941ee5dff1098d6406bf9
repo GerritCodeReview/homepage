@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7b455fff_15253b18",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-21T15:46:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "21ee56c4_d1c254be",
+      "range": {
+        "startLine": 16,
+        "startChar": 63,
+        "endLine": 16,
+        "endChar": 67
+      },
+      "revId": "9c5413a7ec530cd9921941ee5dff1098d6406bf9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e309622e_cb384f1d",
         "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
         "patchSetId": 11
@@ -45,6 +69,30 @@
       "revId": "9c5413a7ec530cd9921941ee5dff1098d6406bf9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a1fe26be_aabb1b7d",
+        "filename": "pages/design-docs/scaling-multi-master-replication/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-21T15:46:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e309622e_cb384f1d",
+      "range": {
+        "startLine": 19,
+        "startChar": 42,
+        "endLine": 19,
+        "endChar": 48
+      },
+      "revId": "9c5413a7ec530cd9921941ee5dff1098d6406bf9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
