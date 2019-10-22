@@ -111,6 +111,30 @@
       "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "852d4965_c80197b5",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-22T22:58:48Z",
+      "side": 1,
+      "message": "\u003e The shared filesystem storage has problems too:\n\n\u003e - latency\n\nI am assuming this is not a repeat of the concern below about \"real-time\", so perhaps it refers to persistence latency, and or directory listing latency? It likely has lower or comparable persistence latency to most other solutions. For this use case, the persistence latency does not seem to specifically be very important. As for directory listings, I believe there are many ways to improve the design via sharding and file attributes to decrease this latency if this becomes an issue. The lack of sharding is likely already a replication persistence problem with the current plugin and likely should be dealt with even without this solution.\n\n\u003e - concurrent locking\n\nI believe for this simple use case this likely is on par with other solutions, see the locking prototype here: https://gerrit-review.googlesource.com/c/plugins/replication/+/241132\n\n\u003e - stale file handles\n\nAside from potentially interrupting code execution, these are likely not disruptive since they are effectively file not founds which can easily be handled.\n\n\u003e - caching issues\n\nI believe that many of the current Gerrit NFS caching issues are due to the jgit caching layers which are hard to workaround.\n\nWithout jgit in the way these should not be a big challenge. The files are currently immutable so they have no caching issues. In my experience refreshing parent directories will refresh any operation that uses directory listings on the child directory. It probably would be good (and easy) to build that into the plugin.\n\n\u003e - lack of real-time notifications\n\nI think you mean event vs polling (since real-time and Gerrit are not really compatible)? I address this in the next section.\n\n\u003e You are basically saying that you did not believe it was worth to think about any other solution other than reusing the shared filesystem, just because it is there.\n\nI am saying that other storage mechanism have extra expenses and the expense list is huge. Here are some obvious expenses: developing a new persistent mechanism, adding external tools to maintain, likely lower reliability due to extra moving parts, likely more communication overhead, likely more libraries to manage with more version compatibility issues, likely more expertise needed to manage, likely more RAM usage, and the list goes on...\n\n\u003e I understand the point, however, it goes against the design-driven approach IMHO, where we asked whoever proposed a solution to think about other possible solutions.\n\nI believe I listed about 6 of them. It is true that I have not listed any explicit alternate sharing mechanisms as all the ones I can think of would suffer the extra expenses that I mention. Do you have any specific suggestions that you believe do not suffer extra expenses?",
+      "parentUuid": "cbe030ac_24945f56",
+      "range": {
+        "startLine": 282,
+        "startChar": 54,
+        "endLine": 283,
+        "endChar": 41
+      },
+      "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
