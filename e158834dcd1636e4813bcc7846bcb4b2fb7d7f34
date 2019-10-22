@@ -22,6 +22,30 @@
       "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "daedfa9c_79d79783",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-10-22T22:48:10Z",
+      "side": 1,
+      "message": "I disagree that \"sub-checks\" are a solution.  They are an existing problem in that there are checkers which run multiple units of work as part of a check.  I call them sub-checks here to align terminology with both the current system and prior design discussions around the checks plugin.\n\nPerhaps if I modified the first paragraph of this use-case document to to read as follows, it would be more clear:\n\n  Some checkers may run multiple units of work (some call these \"jobs\",\n  we will call them \"sub-checks\" in this document) as part of a single\n  check.  Users may wish to be able to see the individual results and\n  log links for these units of work as conveniently as they do now with\n  checks themselves.\n\nWould that address your concern?",
+      "parentUuid": "e94b68f3_70ebed79",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 4
+      },
+      "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
