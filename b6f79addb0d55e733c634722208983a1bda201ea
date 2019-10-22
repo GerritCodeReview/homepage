@@ -70,6 +70,47 @@
       "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4f697336_4fc8e80c",
+        "filename": "pages/design-docs/scaling-multi-master-replication/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-22T22:01:31Z",
+      "side": 1,
+      "message": "OK, will comment there.",
+      "parentUuid": "39ec1d82_f93e93f0",
+      "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cbe030ac_24945f56",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-22T22:01:31Z",
+      "side": 1,
+      "message": "The shared filesystem storage has problems too:\n- latency\n- concurrent locking\n- stale file handles\n- caching issues\n- lack of real-time notifications\n\nYou are basically saying that you did not believe it was worth to think about any other solution other than reusing the shared filesystem, just because it is there.\n\nI understand the point, however, it goes against the design-driven approach IMHO, where we asked whoever proposed a solution to think about other possible solutions.",
+      "range": {
+        "startLine": 282,
+        "startChar": 54,
+        "endLine": 283,
+        "endChar": 41
+      },
+      "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
