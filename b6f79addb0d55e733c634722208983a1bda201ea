@@ -375,6 +375,30 @@
       "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2b95bdcb_a4a9575f",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-24T22:10:13Z",
+      "side": 1,
+      "message": "\u003e \u003e The new task file should appear in other nodes directory listings with the same delay that a new loose ref will appear to the other nodes. The other node cannot begin to replicate until it sees the new loose ref, thus this task file delay does not impact replication on the other node.\n\u003e \n\u003e The file attributes, yes, the content, no.\n\u003e \n\u003e Example:\n\u003e T0) Node A updates refs/heads/master from C1 to C2\n\u003e T0) Node B does not see the refs/heads/master utime updated, but if he tries to read the refs/heads/master (aka try to replicate its value) it would see C2\n\nI was specifically considering a NEW task file and a NEW loose ref, not a changing one.\n \n\u003e P.S.: I believe it would be best to continue the conversation at Sunnyvale with a whiteboard, otherwise we may crash the NoteDb on gerrit-review :-)\n\nI really don\u0027t think it would be appropriate to delay the approval of this solution that long.",
+      "parentUuid": "d1344fde_9bfda72c",
+      "range": {
+        "startLine": 282,
+        "startChar": 54,
+        "endLine": 283,
+        "endChar": 41
+      },
+      "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
