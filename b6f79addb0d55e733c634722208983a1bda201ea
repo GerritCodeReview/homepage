@@ -303,6 +303,30 @@
       "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ebb0ea6b_15580f64",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-24T21:25:59Z",
+      "side": 1,
+      "message": "\u003e \u003e The latency tomorrow with the storage of events on NFS is:\n\u003e \u003e T0) ref-update happens, replication event stored on NFS, with latency L time (for busy NFS servers, could even be 60 seconds)\n\u003e \u003e T1 \u003d T0 + L) replication starts\n\u003e \u003e \n\u003e \u003e The NFS solution increases latency by the NFS cache propagation time, which could be up to 2 minutes.\n\u003e \n\u003e Thank you for explaining your specific concern here, it was not something I previously understood. It sounds like your concern here is about any extra write latency that moving the persisted task storage from a local filesystem to NFS would add?\n\nNFS cache TTL on read is the problem: the latency L time is when the other node sees the replication event. For us and some of our clients, that time when there is heavy load can be up to minutes.\n\n\u003e I believe that NFS caching does not come into play when writing, it only affects reads.\n\nYep, that\u0027s the issue.\n\n\u003e I believe that if someone\u0027s shared filesystem is good enough for sharing their git repos (which it sounds like yours is not), then it is reasonable to assume they can tolerate any extra write latency enccured by this move in order to solve my use case since they will be tolerating this write latency also when writing their git objects and refs. This stems from the fact that writing a task file should be about the same as writing a loose ref update with jgit.\n\nJGit already has the workarounds to deal with this problem: it just not trust the filesystem at all and does extra reads even when they are not needed.\n\n\u003e \u003e The all point of a design document isn\u0027t showcasing your implementation but rather brainstorming\n\u003e \n\u003e This doc is about my proposed design, not brainstorming. I agree that it is important for the community to stay open to other designs, and for me to be open to critic of this design.  Alternate designs may be uploaded in parallel for review. I do not believe it is up to me to provide alternate designs for this use case, or for alternate use cases.\n\nThat is not what has been proposed and agreed in the community, see:\nhttps://gerrit-review.googlesource.com/Documentation/dev-design-docs.html\n\n\"Possible Solutions: Possible solutions with the pros and cons, and explanation of implementation details.\"\n\nThis is exactly what this discussion is about: trying to analyse the pros and cons of possible solutions. If this solution, that works for you, would make other scenarios worse, then we need to discuss and come to an agreement.\n\nI do like the idea of scaling up the replication horizontally, as our clients have HA in place with a shared filesystem. I am just brainstorming on other possible (pluggable?) storage for the persistence of the events, so that the overall latency would not be worse than today.\n\n\u003e I believe that \"the requirements of multiple Gerrit users.\" here might be another way of saying \"different use cases\", which this solution need not address.\n\u003e \n\u003e I do not want my solution to make your situation worse than it is today, and it is important that you point out anywhere you believe it might. This being said, it is also important that you respect that I am not trying to solve all the problems you are facing unless they are the same as described by my use case.\n\nSure, but not making them worse either :-)",
+      "parentUuid": "95f9cbdf_f132258f",
+      "range": {
+        "startLine": 282,
+        "startChar": 54,
+        "endLine": 283,
+        "endChar": 41
+      },
+      "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
