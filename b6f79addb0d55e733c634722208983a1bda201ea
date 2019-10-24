@@ -135,6 +135,30 @@
       "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a96e654d_7d9e9ee7",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-24T09:59:48Z",
+      "side": 1,
+      "message": "\u003e \u003e The shared filesystem storage has problems too:\n\u003e \n\u003e \u003e - latency\n\u003e \n\u003e I am assuming this is not a repeat of the concern below about \"real-time\", so perhaps it refers to persistence latency, and or directory listing latency? \n\nWith NFS, the other nodes could see new files seconds or even minutes afterwards. Adding 1-2 mins delay to all existing replications could be a serious issue.\n\nIn our use-case, we use HA and multi-site, we want to reduce the replication latency from tens of seconds to less than 1 sec: this solution won\u0027t be helpful.\n\nUsing other shared replication queue implementation (e.g. a message broker) would resolve this problem and reduce latency to msecs.\n\nWhy not making the replication queue storage pluggable with a DynamicItem? The filesystem-based implementation, that would be best for your use-case, could stay as a default implementation. However, we could also play a message broker and having msecs latency instead.\n\n\u003e \u003e - concurrent locking\n\u003e \n\u003e I believe for this simple use case this likely is on par with other solutions, see the locking prototype here: https://gerrit-review.googlesource.com/c/plugins/replication/+/241132\n\nIt depends on how many destinations you have. In our case we have tens of thousands with the same URI but different credentials and associated projects. Locking by URI would result in everyone stuck on the same lock.\n\nHaving something more granular, it would results in tens of thousands of directories that would eventually slow down the overall system.\n\n\u003e \u003e - stale file handles\n\u003e \n\u003e Aside from potentially interrupting code execution, these are likely not disruptive since they are effectively file not founds which can easily be handled.\n\nAck.\n\n\u003e \u003e - caching issues\n\u003e \n\u003e I believe that many of the current Gerrit NFS caching issues are due to the jgit caching layers which are hard to workaround.\n\u003e \n\u003e Without jgit in the way these should not be a big challenge. The files are currently immutable so they have no caching issues. In my experience refreshing parent directories will refresh any operation that uses directory listings on the child directory. It probably would be good (and easy) to build that into the plugin.\n\nWe tried that workaround, it works for your NFS implementation but did not for others. We cannot force a solution that would work only in very specific situations.\n\n\u003e \u003e - lack of real-time notifications\n\u003e \n\u003e I think you mean event vs polling (since real-time and Gerrit are not really compatible)? I address this in the next section.\n\nAck.",
+      "parentUuid": "852d4965_c80197b5",
+      "range": {
+        "startLine": 282,
+        "startChar": 54,
+        "endLine": 283,
+        "endChar": 41
+      },
+      "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
