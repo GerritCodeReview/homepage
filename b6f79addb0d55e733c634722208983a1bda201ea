@@ -231,6 +231,30 @@
       "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "415f1e3c_4f88f97a",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2019-10-24T20:03:15Z",
+      "side": 1,
+      "message": "\u003e \u003e NFS is caching the files attributes, not the file content. If you know that a file exists on the other node, you will be able to read it. The problem is that you cannot discover that the file exists through attributes because they are cached and thus can\u0027t be trusted. (see the trustfolderstats flag in JGit config)\n\u003e \n\u003e I am not sure how you think this affects my particular use case, maybe you can read the rest of the solution and position this concern on the specific piece that you think would be problematic. I am only planning on using file attributes (the time) as a reference point for scheduling delays.\n\nTo help clarify, the proposed solution allows distributing replication to other nodes when the nodes are ready. Any caching delays added by a shared filesystem caching layer will not add any latency to the current node if it is ready to replicate a task (i.e. this proposal should not make things worse than what exists today). I see no reason to believe that the potential delays experienced by other nodes would not be acceptable and inline with the proposed use case. If you do see a problem for my use case, or the current use of the plugin, I hope you can point out where more specifically in the detailed design sections below.",
+      "parentUuid": "89a31b45_db839962",
+      "range": {
+        "startLine": 282,
+        "startChar": 54,
+        "endLine": 283,
+        "endChar": 41
+      },
+      "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
