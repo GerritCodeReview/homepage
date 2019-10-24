@@ -351,6 +351,30 @@
       "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d1344fde_9bfda72c",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-10-24T21:58:35Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e \u003e The latency tomorrow with the storage of events on NFS is:\n\u003e \u003e \u003e \u003e T0) ref-update happens, replication event stored on NFS, with latency L time (for busy NFS servers, could even be 60 seconds)\n\u003e \u003e \u003e \u003e T1 \u003d T0 + L) replication starts\n\u003e \u003e \u003e \u003e \n\u003e \u003e \u003e \u003e The NFS solution increases latency by the NFS cache propagation time, which could be up to 2 minutes.\n\u003e \u003e \u003e \n\u003e \u003e \u003e Thank you for explaining your specific concern here, it was not something I previously understood. It sounds like your concern here is about any extra write latency that moving the persisted task storage from a local filesystem to NFS would add?\n\u003e \u003e\n\u003e \u003e NFS cache TTL on read is the problem: the latency L time is when the other node sees the replication event. \n\u003e \n\u003e The new task file should appear in other nodes directory listings with the same delay that a new loose ref will appear to the other nodes. The other node cannot begin to replicate until it sees the new loose ref, thus this task file delay does not impact replication on the other node.\n\nThe file attributes, yes, the content, no.\n\nExample:\nT0) Node A updates refs/heads/master from C1 to C2\nT0) Node B does not see the refs/heads/master utime updated, but if he tries to read the refs/heads/master (aka try to replicate its value) it would see C2\n\nBottom line: if we \"tell\" Note B that refs/heads/master must be replicated now, it will be able to do it because will be able to re-read the loose ref. Remember that JGit has a workaround to the NFS caching for that reason.\n\nP.S.: I believe it would be best to continue the conversation at Sunnyvale with a whiteboard, otherwise we may crash the NoteDb on gerrit-review :-)\n\n\u003e \u003e \u003e \u003e The all point of a design document isn\u0027t showcasing your implementation but rather brainstorming\n\u003e \u003e \u003e \n\u003e \u003e \u003e This doc is about my proposed design, not brainstorming. I agree that it is important for the community to stay open to other designs, and for me to be open to critic of this design.  Alternate designs may be uploaded in parallel for review. I do not believe it is up to me to provide alternate designs for this use case, or for alternate use cases.\n\u003e \u003e \n\u003e \u003e That is not what has been proposed and agreed in the community, see:\n\u003e \u003e https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html\n\u003e \u003e \n\u003e \u003e \"Possible Solutions: Possible solutions with the pros and cons, and explanation of implementation details.\"\n\u003e \n\u003e Further down it expands this to:\n\u003e \n\u003e \"Anyone who has ideas for an alternative solution uploads a change with a solution-\u003cn\u003e.md that describes their solution. In case of doubt whether an idea is a refinement of an existing solution or an alternative solution, it’s up to the owner of the discussed solution to decide if the solution should be updated, or if the proposer should start a new alternative solution.\"\n\nI do like your solution, I just want to understand its implications and see if you have considered alternative approaches.\n\nIt is not \"your\" or \"my\" solution, but rather we work together for \"our\" solution :-) I am more than happy also to actively support the implementation, review and testing. That\u0027s the spirit of OpenSource after all, working together even if we work in different companies with different goals.",
+      "parentUuid": "40012896_c8670046",
+      "range": {
+        "startLine": 282,
+        "startChar": 54,
+        "endLine": 283,
+        "endChar": 41
+      },
+      "revId": "b6f79addb0d55e733c634722208983a1bda201ea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
