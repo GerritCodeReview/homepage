@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "780822cb_603a4a23",
+        "filename": "_posts/2019-10-28-ux-at-gerrit-summit.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-10-28T14:24:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec60fb59_fa1e6454",
+      "range": {
+        "startLine": 3,
+        "startChar": 6,
+        "endLine": 3,
+        "endChar": 10
+      },
+      "revId": "a330201979c910b83feb5af587053cd23726fff5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6116948f_d68ce421",
         "filename": "_posts/2019-10-28-ux-at-gerrit-summit.md",
         "patchSetId": 1
@@ -62,6 +86,48 @@
       "revId": "a330201979c910b83feb5af587053cd23726fff5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab0396e3_6d9ffdd8",
+        "filename": "_posts/2019-10-28-ux-at-gerrit-summit.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-10-28T14:24:31Z",
+      "side": 1,
+      "message": "Thanks for pointing that out! Not sure how long lines should be and what that does to the rendered text, but I gave it a shot. Let me know if this works :)",
+      "parentUuid": "6116948f_d68ce421",
+      "revId": "a330201979c910b83feb5af587053cd23726fff5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3268ce_ac4be596",
+        "filename": "_posts/2019-10-28-ux-at-gerrit-summit.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-10-28T14:24:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "476bdfb0_80ca06a7",
+      "range": {
+        "startLine": 12,
+        "startChar": 358,
+        "endLine": 12,
+        "endChar": 400
+      },
+      "revId": "a330201979c910b83feb5af587053cd23726fff5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
