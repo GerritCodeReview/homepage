@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "d96adadc_3e122cff",
+        "filename": "_posts/2019-10-28-ux-at-gerrit-summit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-10-28T14:40:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "929cda83_b2693c85",
+      "range": {
+        "startLine": 12,
+        "startChar": 77,
+        "endLine": 12,
+        "endChar": 78
+      },
+      "revId": "1c388d236cc238f33e8a78ba29faa9c300e6bd4b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "78320347_6989808a",
         "filename": "_posts/2019-10-28-ux-at-gerrit-summit.md",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "1c388d236cc238f33e8a78ba29faa9c300e6bd4b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aa32c854_7b6a4dc4",
+        "filename": "_posts/2019-10-28-ux-at-gerrit-summit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-10-28T14:40:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78320347_6989808a",
+      "range": {
+        "startLine": 17,
+        "startChar": 77,
+        "endLine": 17,
+        "endChar": 103
+      },
+      "revId": "1c388d236cc238f33e8a78ba29faa9c300e6bd4b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
