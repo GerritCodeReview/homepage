@@ -143,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "d92e06d5_f768cada",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-10-29T21:41:03Z",
+      "side": 1,
+      "message": "Sounds good, I\u0027ll make that clear in PS4.",
+      "parentUuid": "85d34fa3_cbaf1f0d",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 28
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ec8873f0_00f8bd8b",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -296,6 +320,30 @@
       "side": 1,
       "message": "I heard of some use cases which do require that sub-checks aren\u0027t reported in bulk. So, I think we should support this as well.\n\nAll other fields of checks have a null-value with which their value can be unset. We could define that specifying an empty list of sub-checks removes any sub-checks of that check. By sending that value and afterwards posting again the relevant sub-checks, it would be possible to remove a sub-check which isn\u0027t run anymore. Would this work for Zuul?",
       "parentUuid": "18587f73_24e8765a",
+      "range": {
+        "startLine": 29,
+        "startChar": 25,
+        "endLine": 30,
+        "endChar": 65
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd7d7507_d9c0b5ca",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-10-29T21:41:03Z",
+      "side": 1,
+      "message": "Yes.  It won\u0027t be the most trivial implementation (because I don\u0027t want to send two API requests for each update, so will need to add some more state tracking), but I don\u0027t think it should be too hard, and it does not seem like too great of a thing to ask of an API user.\n\nI\u0027ll update the next PS to reflect this (including your description of the uses of omitted and empty-list values in your comment on line 39).",
+      "parentUuid": "259dcd78_f85974a4",
       "range": {
         "startLine": 29,
         "startChar": 25,
@@ -520,6 +568,30 @@
     },
     {
       "key": {
+        "uuid": "ea384a34_40bd7f25",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-10-29T21:41:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e7e53448_27b263d1",
+      "range": {
+        "startLine": 54,
+        "startChar": 29,
+        "endLine": 54,
+        "endChar": 68
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3e05fad7_157355dd",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -638,6 +710,30 @@
     },
     {
       "key": {
+        "uuid": "06bf49e3_28027c9f",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-10-29T21:41:03Z",
+      "side": 1,
+      "message": "I think that will work, but I guess we will need to add an extra field to the index in Gerrit so that we can search for changes with pending sub-checks.\n\nI\u0027ve updated this in PS4 -- let me know if that\u0027s what you had in mind.",
+      "parentUuid": "6562bff6_ae340fe8",
+      "range": {
+        "startLine": 55,
+        "startChar": 41,
+        "endLine": 57,
+        "endChar": 52
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "87686d29_d726265d",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 2
@@ -677,6 +773,30 @@
         "startChar": 0,
         "endLine": 60,
         "endChar": 8
+      },
+      "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a3f9567b_316c084f",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-10-29T21:41:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "87686d29_d726265d",
+      "range": {
+        "startLine": 60,
+        "startChar": 10,
+        "endLine": 60,
+        "endChar": 14
       },
       "revId": "54841534326bdec2c51227f6a8274eb1f35a97c4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
