@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "829b3959_ed21fe11",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-11-08T10:53:02Z",
+      "side": 1,
+      "message": "This is not accurate. The part, that would save computation is a different setting: \"index.reindexAfterRefUpdate\". When reindexAfterRefUpdate is set to fasle, only then 1k+ changes will no be re-computed. In that case, the mergeable bit becomes stale, in which case it doesn\u0027t make sense to retrieve it, and that why the \"excludeMergeableInChangeInfo\" option was added. Can you re-phrase it so that it is clear what option really saves computation on the server side.",
+      "revId": "6d72f0118b31b7f785028cc2834624c7f4eb8c60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
