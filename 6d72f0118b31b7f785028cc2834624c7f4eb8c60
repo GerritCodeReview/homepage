@@ -16,6 +16,24 @@
       "revId": "6d72f0118b31b7f785028cc2834624c7f4eb8c60",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9fe1e65a_686d163a",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-10T17:47:00Z",
+      "side": 1,
+      "message": "This is taken from the commit that added the option [1].  The reindexAfterRefUpdate option was added long before and is included since 2.15 [2].\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/211555\n[2] https://gerrit-review.googlesource.com/c/gerrit/+/103735",
+      "parentUuid": "829b3959_ed21fe11",
+      "revId": "6d72f0118b31b7f785028cc2834624c7f4eb8c60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
