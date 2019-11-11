@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1711cdb3_d7a0d72d",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-11-11T08:53:16Z",
+      "side": 1,
+      "message": "Diff file download was already implemented. The missing feature that was implemented here was to download a regular file from the patch set, from both base version and specific patch set version. It is implemented as a dropdown.",
+      "revId": "203fa957daac4f8d73159d3ddb4dfafd8d8f5af7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
