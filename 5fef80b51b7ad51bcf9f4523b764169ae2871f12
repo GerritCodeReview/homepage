@@ -22,6 +22,30 @@
       "revId": "5fef80b51b7ad51bcf9f4523b764169ae2871f12",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5e58593c_ba1ed504",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-11T18:35:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70de1173_e5f7a846",
+      "range": {
+        "startLine": 9,
+        "startChar": 13,
+        "endLine": 9,
+        "endChar": 18
+      },
+      "revId": "5fef80b51b7ad51bcf9f4523b764169ae2871f12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
