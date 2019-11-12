@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0f271334_0319e549",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-11-12T23:47:58Z",
+      "side": 1,
+      "message": "I\u0027m interested in how this is stored. I think this will be notedb, but will updates to attention set be atomic with the other metadata changes?",
+      "range": {
+        "startLine": 17,
+        "startChar": 27,
+        "endLine": 17,
+        "endChar": 16
+      },
+      "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "45e2218f_1707ecfa",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-11-12T23:47:58Z",
+      "side": 1,
+      "message": "finish sentence?",
+      "range": {
+        "startLine": 62,
+        "startChar": 68,
+        "endLine": 62,
+        "endChar": 74
+      },
+      "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
