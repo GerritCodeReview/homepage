@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "77a23dec_dd04f30e",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Added.",
+      "parentUuid": "ce14a26e_7404bf3c",
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0f7387e1_7f2241d2",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 3
@@ -30,6 +48,30 @@
       "writtenOn": "2019-11-13T20:31:30Z",
       "side": 1,
       "message": "Makes sense. What would the text next to this checkbox say, roughly? (I\u0027m trying to put myself in a reviewer\u0027s shoes and figure out how smooth / intuitive this would be.)",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 39
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7c8787be_a1db6e1a",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Maybe \"Keep myself in the attention set\"?",
+      "parentUuid": "0f7387e1_7f2241d2",
       "range": {
         "startLine": 29,
         "startChar": 0,
@@ -65,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "8f0b9500_189fa9f4",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Have not thought about this yet. Will do that when fleshing out the implementation. Keeping unresolved.",
+      "parentUuid": "18ad2aab_362a265a",
+      "range": {
+        "startLine": 62,
+        "startChar": 64,
+        "endLine": 62,
+        "endChar": 83
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d0182efa_5cb27726",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 3
@@ -76,6 +142,30 @@
       "writtenOn": "2019-11-13T20:31:30Z",
       "side": 1,
       "message": "Based on the experience of prolog rules: consider using something with a more rigid structure (e.g. JSON) behind the scenes. That doesn\u0027t rule out having a string-based UI, but the closer to the moment of user input that it gets transformed into something simpler (and diagnostics emitted if it was wrong), the better.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 86
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dda97ae0_e02c59e2",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Ack. Keeping unresolved to look at later.",
+      "parentUuid": "d0182efa_5cb27726",
       "range": {
         "startLine": 65,
         "startChar": 0,
@@ -105,6 +195,24 @@
     },
     {
       "key": {
+        "uuid": "0a4ed200_c8593d9f",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Ack. Have added a TBD remark in the \"Detailed Design\" section below.",
+      "parentUuid": "1a41c2da_aa3fda31",
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "26017e07_6041ecda",
         "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
         "patchSetId": 3
@@ -125,6 +233,30 @@
       "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "309e84eb_d48a5984",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "26017e07_6041ecda",
+      "range": {
+        "startLine": 21,
+        "startChar": 39,
+        "endLine": 21,
+        "endChar": 68
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -151,6 +283,30 @@
     },
     {
       "key": {
+        "uuid": "1894b097_8a656060",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Yes. Added.",
+      "parentUuid": "7c1592a5_6e93d603",
+      "range": {
+        "startLine": 24,
+        "startChar": 17,
+        "endLine": 24,
+        "endChar": 57
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "abfce29c_81862f3e",
         "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
         "patchSetId": 3
@@ -174,6 +330,30 @@
     },
     {
       "key": {
+        "uuid": "af06879c_af588131",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "I would hope that in 95% of the cases you would not even need to read these reasons. And then you would be mostly curious about an individual and the associated reason. Do you have a certain use case or journey in mind that makes you think this would be an important UI element to have? Otherwise I would tend to defer this to a next iteration when we have more evidence that users need this.",
+      "parentUuid": "abfce29c_81862f3e",
+      "range": {
+        "startLine": 27,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 17
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cda44e2b_f09bea55",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 3
@@ -188,6 +368,24 @@
       "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8f4d2e23_ef7d3aa7",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "The generated HTML looks fine: https://www.gerritcodereview.com/pages/design-docs/revert-submit/use-cases.html\n\nBut done anyway. :-)",
+      "parentUuid": "cda44e2b_f09bea55",
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -238,6 +436,30 @@
     },
     {
       "key": {
+        "uuid": "0d7c73fd_ad05870a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Edwin is right. Added to links to clarify this.",
+      "parentUuid": "d44be5a5_b73732a9",
+      "range": {
+        "startLine": 25,
+        "startChar": 72,
+        "endLine": 25,
+        "endChar": 90
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f3489b1_afca842d",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 3
@@ -249,6 +471,30 @@
       "writtenOn": "2019-11-13T20:31:30Z",
       "side": 1,
       "message": "Nice.",
+      "range": {
+        "startLine": 29,
+        "startChar": 65,
+        "endLine": 30,
+        "endChar": 43
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4927149a_51a3042b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "3f3489b1_afca842d",
       "range": {
         "startLine": 29,
         "startChar": 65,
@@ -284,6 +530,30 @@
     },
     {
       "key": {
+        "uuid": "91bb705d_e9c928b9",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Thanks for the pointer. I will keep this as an unresolved comment and answer this when fleshing out the implementation. I would prefer to not offer such an ability, but don\u0027t have a better idea yet.",
+      "parentUuid": "18ac6934_2ec30dea",
+      "range": {
+        "startLine": 38,
+        "startChar": 5,
+        "endLine": 38,
+        "endChar": 71
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "26e1af05_7060fe78",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 3
@@ -307,6 +577,30 @@
     },
     {
       "key": {
+        "uuid": "e61f72e7_7a55701c",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "26e1af05_7060fe78",
+      "range": {
+        "startLine": 41,
+        "startChar": 9,
+        "endLine": 41,
+        "endChar": 33
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bd26a77a_4e26e732",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 3
@@ -318,6 +612,30 @@
       "writtenOn": "2019-11-13T21:46:29Z",
       "side": 1,
       "message": "This the the fourth role: user, change owner, reviewer, developer...\nSuggestion: add short definitions of these roles before describing the use-cases.",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 18
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5d3138af_1a7b852b",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T22:45:52Z",
+      "side": 1,
+      "message": "Thanks for the suggestion. Which of the roles do you think needs clarification?",
+      "parentUuid": "bd26a77a_4e26e732",
       "range": {
         "startLine": 51,
         "startChar": 9,
