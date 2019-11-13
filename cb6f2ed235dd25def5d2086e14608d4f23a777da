@@ -281,6 +281,52 @@
       "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "26e1af05_7060fe78",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-11-13T21:46:29Z",
+      "side": 1,
+      "message": "user?\n\nFrom the previous text I thought that you use the name \"user\" for both change owner and reviewer?",
+      "range": {
+        "startLine": 41,
+        "startChar": 9,
+        "endLine": 41,
+        "endChar": 33
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd26a77a_4e26e732",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-11-13T21:46:29Z",
+      "side": 1,
+      "message": "This the the fourth role: user, change owner, reviewer, developer...\nSuggestion: add short definitions of these roles before describing the use-cases.",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 18
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
