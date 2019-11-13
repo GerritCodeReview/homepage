@@ -21,6 +21,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Generate Release Notes](design-docs/generate-release-notes)
 - [Revert submit](design-docs/revert-submit.html) by Gal Paikin, approved 2019-09-02
 - [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html)
+- [Threaded Change Log](design-docs/threaded-change-log.html) by Jacek Centkowski, proposed 2019-11-13
 
 ## Reviews of Design Documents
 
