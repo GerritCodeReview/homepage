@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "311a3dc5_88fd9aa0",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T00:53:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fee2946f_cd674f6a",
+      "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0f271334_0319e549",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 1
@@ -39,6 +57,30 @@
       "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5965f79a_93d21b5c",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T00:53:50Z",
+      "side": 1,
+      "message": "Added to the list of open questions in solution-1-implementation.md.",
+      "parentUuid": "0f271334_0319e549",
+      "range": {
+        "startLine": 17,
+        "startChar": 27,
+        "endLine": 17,
+        "endChar": 16
+      },
+      "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -88,6 +130,54 @@
     },
     {
       "key": {
+        "uuid": "f395bb19_77eecb75",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T00:53:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42e2c3d1_d36eb974",
+      "range": {
+        "startLine": 62,
+        "startChar": 73,
+        "endLine": 62,
+        "endChar": 74
+      },
+      "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "31d0a1ff_35dbd4d2",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T00:53:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "45e2218f_1707ecfa",
+      "range": {
+        "startLine": 62,
+        "startChar": 68,
+        "endLine": 62,
+        "endChar": 74
+      },
+      "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "049e2f78_3e57b024",
         "filename": "pages/design-docs/index.md",
         "patchSetId": 1
@@ -108,6 +198,30 @@
       "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91fc8e5c_3244d108",
+        "filename": "pages/design-docs/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-13T00:53:50Z",
+      "side": 1,
+      "message": "Yeah, it looks weird, but it actually works for revert-submit.html above, so there must be some generation magic in place.",
+      "parentUuid": "049e2f78_3e57b024",
+      "range": {
+        "startLine": 23,
+        "startChar": 18,
+        "endLine": 23,
+        "endChar": 48
+      },
+      "revId": "d71c87929065e13a25459496f5c6a718b9000e9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
