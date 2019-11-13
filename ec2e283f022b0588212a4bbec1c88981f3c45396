@@ -16,6 +16,24 @@
       "revId": "ec2e283f022b0588212a4bbec1c88981f3c45396",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "82b6fbf2_abfdfb10",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-13T22:24:50Z",
+      "side": 1,
+      "message": "I don\u0027t think we need such detail in the release notes.  There\u0027s a link to the documentation where this is mentioned.",
+      "parentUuid": "92d0f1f2_17675459",
+      "revId": "ec2e283f022b0588212a4bbec1c88981f3c45396",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
