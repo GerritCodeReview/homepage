@@ -1,0 +1,262 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ce14a26e_7404bf3c",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Where does the uploader fit in here?",
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f7387e1_7f2241d2",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Makes sense. What would the text next to this checkbox say, roughly? (I\u0027m trying to put myself in a reviewer\u0027s shoes and figure out how smooth / intuitive this would be.)",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 39
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "18ad2aab_362a265a",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Probably not about this page: are there constraints on the nature of these conditions? Are they evaluated periodically? Can they be slow to compute? Are they cacheable, and do they feed into the ETag? If I wanted a condition like \"add this reviewer once an external system sends a POST request saying they\u0027re ready\", would this plugin API support that?",
+      "range": {
+        "startLine": 62,
+        "startChar": 64,
+        "endLine": 62,
+        "endChar": 83
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d0182efa_5cb27726",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Based on the experience of prolog rules: consider using something with a more rigid structure (e.g. JSON) behind the scenes. That doesn\u0027t rule out having a string-based UI, but the closer to the moment of user input that it gets transformed into something simpler (and diagnostics emitted if it was wrong), the better.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 86
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a41c2da_aa3fda31",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Can this section say a little bit about the emails, too?\n\nE.g. I\u0027m wondering whether when I write a \"Please take another look\" comment, there is a single email telling reviewers\n\n1. that they have been added back to the attention set\n2. my comment\n3. the diff since the previous patchset, if they haven\u0027t already received it\n\nor whether these things are split up / handled another way.",
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "26017e07_6041ecda",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "yes, please (especially when using touch input, this is valuable)",
+      "range": {
+        "startLine": 21,
+        "startChar": 39,
+        "endLine": 21,
+        "endChar": 68
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7c1592a5_6e93d603",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Does this open a dialog asking why?",
+      "range": {
+        "startLine": 24,
+        "startChar": 17,
+        "endLine": 24,
+        "endChar": 57
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "abfce29c_81862f3e",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "If there are many reviewers, it could be tedious going to them one by one to read the status of each. Are they all in one place somewhere or is there some way to \"expand all\"?",
+      "range": {
+        "startLine": 27,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 17
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cda44e2b_f09bea55",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "nit: the spaces surrounding the `\u003ca\u003e` tag result in this being rendered with an extra space in front",
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0095036b_29d1a5db",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Does this mean the per-file \"reviewed\" flag or the \"is:reviewed\" search operator \u003chttps://gerrit-review.googlesource.com/Documentation/user-search.html\u003e?",
+      "range": {
+        "startLine": 25,
+        "startChar": 72,
+        "endLine": 25,
+        "endChar": 90
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f3489b1_afca842d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Nice.",
+      "range": {
+        "startLine": 29,
+        "startChar": 65,
+        "endLine": 30,
+        "endChar": 43
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "18ac6934_2ec30dea",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2019-11-13T20:31:30Z",
+      "side": 1,
+      "message": "Go\u0027s maintner tool (https://godoc.org/golang.org/x/build/maintner, see also https://github.com/golang/go/issues/21192) uses new-patchset notifications to trigger a build of the new patchset. Will they have the ability to explicitly opt in to new-patchset notifications (I don\u0027t think the notification it wants needs any content beyond saying \"Hey, as a heads up, change #m had a new patchset #n just uploaded.\")?",
+      "range": {
+        "startLine": 38,
+        "startChar": 5,
+        "endLine": 38,
+        "endChar": 71
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
