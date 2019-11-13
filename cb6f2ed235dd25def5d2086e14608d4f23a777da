@@ -214,6 +214,30 @@
     },
     {
       "key": {
+        "uuid": "d44be5a5_b73732a9",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-11-13T20:39:56Z",
+      "side": 1,
+      "message": "Neither. I think this relates to reviewed stars [1] which can be set/unset via the UI by the \"Mark Reviewed\"/\"Mark Unreviewed\" actions on change level.\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-stars.html#reviewed-star",
+      "parentUuid": "0095036b_29d1a5db",
+      "range": {
+        "startLine": 25,
+        "startChar": 72,
+        "endLine": 25,
+        "endChar": 90
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3f3489b1_afca842d",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 3
