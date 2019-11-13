@@ -16,6 +16,24 @@
       "revId": "87423dcbe769979955da7fb0707346e139d67200",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bbfcbb87_b1dd60fc",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-13T20:10:09Z",
+      "side": 1,
+      "message": "I don\u0027t think it\u0027s necessary to mention that. What it does should be already documented in the release notes of the release where the option was introduced.  Now we\u0027re just removing it, so all we need to say is \"it\u0027s not possible any more\"",
+      "parentUuid": "8df0b8e2_3df31b7c",
+      "revId": "87423dcbe769979955da7fb0707346e139d67200",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
