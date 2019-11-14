@@ -151,6 +151,23 @@
     },
     {
       "key": {
+        "uuid": "c654c78b_94a46ea9",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-11-14T15:53:35Z",
+      "side": 1,
+      "message": "we sometimes have several authors working on the same change",
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f249d353_60afa1eb",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
