@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e17b2ca4_8b0b5222",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-11-14T13:32:29Z",
+      "side": 1,
+      "message": "A change consists of \n* 1..n patchsets\n* each modifying 1..n files.\n\n0..n Reviewers can comment on the following hierarchy levels\n* change\n* file in a patchset\n* contiguous selection of words or lines in a file of a patchset\n\nAll comments of a given reviewer on a given change are grouped and sent via a notification email to other reviewers of the change in a single reply.\n\nCan you clarify how to identify a discussion thread within the scope of a single change ?\n\nDoes a single comment on any of the levels and its corresponding chain of replies form a separate discussion thread ?\n\nMaybe the level in the above mentioned hierarchy should be considered ?",
+      "range": {
+        "startLine": 12,
+        "startChar": 34,
+        "endLine": 12,
+        "endChar": 52
+      },
+      "revId": "5632d7c1f314ab583c66b4017c51d6ed51d7f2c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a3c1fbf_9fe4fb11",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-11-14T13:32:29Z",
+      "side": 1,
+      "message": "What do you mean by user reply ?\n\nI think we need to distinguish between comments from reviewers and comments from the change author(s). In some cases multiple users upload new patchsets to the same change so there might be more than author involved in a change.\n\nIt would be helpful if comments coming from these two roles are rendered differently, e.g. using a different background color for respective comments e.g. blue and yellow. It could make sense to also make it more obvious which comments came from the same author e.g. by using different shades of yellow for each reviewer.\n\nComments from reviewers may\n* raise an issue which the reviewer thinks needs to be fixed\n* ask a question\n* give optional suggestions what could be improved if the author agrees\n* be a neutral comment not requiring a reaction\n\nThe first 2 comment types require a response and would benefit from an unresolved bit to track their status if the issue has been fixed or the question has been answered in a subsequent comment.\nThe other 2 types of comments seem to not require status tracking",
+      "revId": "5632d7c1f314ab583c66b4017c51d6ed51d7f2c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
