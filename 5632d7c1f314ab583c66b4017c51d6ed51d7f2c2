@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "46fa64e4_90b95cab",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2019-11-14T21:50:34Z",
+      "side": 1,
+      "message": "I didn\u0027t want to interfere with file/inline comments as they already have threading possibility (and dedicated \u0027Comment Threads\u0027 tab). In fact they are not shown in \u0027Change Log\u0027 (AFAICT when \u0027resolved\u0027). Idea is to introduce the possibility to group user messages in \u0027Change Log\u0027 as they are hard to follow now.",
+      "parentUuid": "e17b2ca4_8b0b5222",
+      "range": {
+        "startLine": 12,
+        "startChar": 34,
+        "endLine": 12,
+        "endChar": 52
+      },
+      "revId": "5632d7c1f314ab583c66b4017c51d6ed51d7f2c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2a3c1fbf_9fe4fb11",
         "filename": "pages/design-docs/threaded-change-log/use-cases.md",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2019-11-14T13:32:29Z",
       "side": 1,
       "message": "What do you mean by user reply ?\n\nI think we need to distinguish between comments from reviewers and comments from the change author(s). In some cases multiple users upload new patchsets to the same change so there might be more than author involved in a change.\n\nIt would be helpful if comments coming from these two roles are rendered differently, e.g. using a different background color for respective comments e.g. blue and yellow. It could make sense to also make it more obvious which comments came from the same author e.g. by using different shades of yellow for each reviewer.\n\nComments from reviewers may\n* raise an issue which the reviewer thinks needs to be fixed\n* ask a question\n* give optional suggestions what could be improved if the author agrees\n* be a neutral comment not requiring a reaction\n\nThe first 2 comment types require a response and would benefit from an unresolved bit to track their status if the issue has been fixed or the question has been answered in a subsequent comment.\nThe other 2 types of comments seem to not require status tracking",
+      "revId": "5632d7c1f314ab583c66b4017c51d6ed51d7f2c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4a609382_d4c9c1c2",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2019-11-14T21:50:34Z",
+      "side": 1,
+      "message": "\u003e What do you mean by user reply ?\n\nBy user replies I mean when one clicks \u0027Reply\u0027 button in particular \u0027Change Log\u0027 message (as a reply to the review message).\n\nFile/Inline comments have \u0027unresolved\u0027 bit mandatory but I can imagine that this bit will be only in use for review related flows IOW it will be purely optional in terms of ChangeMessage entity (can be \u0027null\u0027) however it will be proposed when one would upload review feedback (with indication that my general review comment is a subject of resolution). This way the review giver will be responsible for deciding if particular comment needs a resolution or not.",
+      "parentUuid": "2a3c1fbf_9fe4fb11",
       "revId": "5632d7c1f314ab583c66b4017c51d6ed51d7f2c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
