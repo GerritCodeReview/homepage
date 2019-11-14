@@ -645,6 +645,30 @@
       "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "37e13706_6023c8f5",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2019-11-14T14:28:47Z",
+      "side": 1,
+      "message": "All of them. Yes, some of the definitions would be trivial but it would be useful\nto, for example, differentiate between: user, developer, change owner.\n\nA typical Gerrit user is a developer and is often a change owner. However, from this document\nI guess that by \"developer\" you mean someone who wants to use REST API of Gerrit to\nachieve some automation? Then \"user\" may mean change-owner or reviewer, or it may\nmean any of the roles including developer and admin.\n\nHaving formalized definitions in a spec like this one will be helpful IMHO.",
+      "parentUuid": "5d3138af_1a7b852b",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 18
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
