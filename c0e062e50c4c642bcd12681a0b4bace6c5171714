@@ -1,0 +1,464 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "51a0a550_c14efa31",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "In which ways is the current Gerrit workflow lacking? I agree that it is lacking, but I think it would be better to have the specifics here in the problem description so that their influence on the acceptance criteria and other aspects of this doc are clear. It can also ensure that proposed solutions sufficiently address all problems.",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 22
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aeb399c9_fccf1426",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "nit: The recommended best practice is to keep this doc (and really, change) focused on the problem. As such, I think you\u0027d want to move this to a solution doc.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 73
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fbf7b531_0ae86d70",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "What does the mean in terms of the current workflow? i.e. can you express this use case in a way that doesn\u0027t include the proposed solution?\n\nPerhaps?\n\n * As a user, I want to understand when and why responsibility (ownership?) for the next action on a change will be modified",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 11
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ca50f441_0c46d6ff",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "Same as above.\n\nMaybe?\n\n * As a user, I want to set conditions that must occur before I will be responsible for action on a change, e.g.:",
+      "range": {
+        "startLine": 41,
+        "startChar": 72,
+        "endLine": 41,
+        "endChar": 90
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6da776a1_cae8f17e",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "This part doesn\u0027t seem to match the \"when I want to be added\" in the super-bullet. Should it be its own top-level bullet?",
+      "range": {
+        "startLine": 42,
+        "startChar": 50,
+        "endLine": 43,
+        "endChar": 32
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8accc8f0_b813d2e4",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "Again doesn\u0027t seem to match the context of the super-bullet.",
+      "range": {
+        "startLine": 48,
+        "startChar": 87,
+        "endLine": 49,
+        "endChar": 24
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d48908e5_962d31bb",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "in a solution-agnostic way: \"...change who will be responsible for the next action...\" ?",
+      "range": {
+        "startLine": 50,
+        "startChar": 36,
+        "endLine": 50,
+        "endChar": 53
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a9dd3c4_06f2e348",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "Can you use solution-agnostic wording?",
+      "range": {
+        "startLine": 51,
+        "startChar": 81,
+        "endLine": 51,
+        "endChar": 96
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "faff3815_7f3a6dbc",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 52,
+        "startChar": 75,
+        "endLine": 52,
+        "endChar": 84
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91403937_ace94f48",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "nice to have: do you have examples of stats that you have in mind? I\u0027ve often had requests for \"code review stats\" and sometimes people have very different ideas of what the stats should be.",
+      "range": {
+        "startLine": 54,
+        "startChar": 61,
+        "endLine": 54,
+        "endChar": 66
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "88d85147_d3b7f79e",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "SLOs? Or did you really mean SLAs?",
+      "range": {
+        "startLine": 57,
+        "startChar": 35,
+        "endLine": 57,
+        "endChar": 38
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "68741af8_d02c4610",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "nit: s/and/and should/",
+      "range": {
+        "startLine": 62,
+        "startChar": 70,
+        "endLine": 62,
+        "endChar": 74
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3b4e96a1_3f543137",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "While I agree with all this, I don\u0027t think it\u0027s quite what this section is trying to capture. I think the intent of Acceptance Criteria is to generically outline elements of a solution that are required for being considered an acceptable solution to this problem. What you\u0027ve written certainly are things a solution should have, but if I uploaded a \"solution\" that included only that, I don\u0027t think you\u0027d find it \"acceptable\" 😉",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 53
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "61a709d6_4b7dd01a",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "Is this intentionally \u0027core\u0027 or a \u0027code\u0027 typo?",
+      "range": {
+        "startLine": 79,
+        "startChar": 76,
+        "endLine": 79,
+        "endChar": 80
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ad9b4df4_53636ec9",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "Related to my first comment above, what problems specifically?",
+      "range": {
+        "startLine": 79,
+        "startChar": 50,
+        "endLine": 79,
+        "endChar": 66
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5e41c482_9a464178",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "Do you understand why users like it so much? Though, thinking about it, I would want to see this as backgroud for a specific solution, so perhaps this section of the background should be in the solution doc?",
+      "range": {
+        "startLine": 80,
+        "startChar": 63,
+        "endLine": 81,
+        "endChar": 45
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fc6f261d_5c3b45c2",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "Can\u0027t assignee be any user? (not saying that makes the workflow better, just trying to be accurate about the current functionality)",
+      "range": {
+        "startLine": 85,
+        "startChar": 14,
+        "endLine": 85,
+        "endChar": 63
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "af6d9154_502db6de",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "Could be modified through REST API too?",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 86,
+        "endChar": 29
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "99a4a1a5_d4225256",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "How is the Reviewed flag set/unset today?",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 60
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "071825ff_6de2f9ad",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T05:54:36Z",
+      "side": 1,
+      "message": "This section isn\u0027t in the template. I think \"Requirements\" are probably the items I thought were missing from \"Acceptance Criteria\" above. \"Issues\" might be the problems I thought were missing from \"Use Cases\" at the top. Does that sound right?\n\nThat said, I think I only see \"Issues\" in the text below (sorry if I missed requirements in there). It is a long list, so I could imagine you didn\u0027t want it at the very top; however, I think having the problems clearly stated at the beginning gives valuable context to the rest of the document. Maybe if you want to keep them separate, have them above the Acceptance Criteria and make a note at the top that detailed problems can be found below?",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 41
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
