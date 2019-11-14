@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c70927dc_ce369870",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Clarified.",
+      "parentUuid": "8803e494_63211127",
+      "range": {
+        "startLine": 34,
+        "startChar": 7,
+        "endLine": 34,
+        "endChar": 36
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9351d552_9a4e65aa",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 4
@@ -56,6 +80,24 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a919626_904d61ac",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Great idea. Will pass it on to our UX designer and keep it in mind.",
+      "parentUuid": "c00cc47f_30657569",
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -105,6 +147,30 @@
     },
     {
       "key": {
+        "uuid": "1021af70_e7a70315",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3d8df46_3782b396",
+      "range": {
+        "startLine": 41,
+        "startChar": 44,
+        "endLine": 41,
+        "endChar": 71
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "51a0a550_c14efa31",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -128,6 +194,30 @@
     },
     {
       "key": {
+        "uuid": "2e897659_d9886b90",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Added a link to the status quo problem description below.",
+      "parentUuid": "51a0a550_c14efa31",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 22
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "aeb399c9_fccf1426",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -148,6 +238,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cbddbb51_93f0b2f8",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "aeb399c9_fccf1426",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 73
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -191,6 +305,48 @@
     },
     {
       "key": {
+        "uuid": "1ed0797e_af480a71",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c654c78b_94a46ea9",
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "44c22266_a9662b64",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3ebb20fe_077de165",
+      "range": {
+        "startLine": 28,
+        "startChar": 18,
+        "endLine": 28,
+        "endChar": 30
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f249d353_60afa1eb",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -211,6 +367,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "deabf12f_b5b81846",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f249d353_60afa1eb",
+      "range": {
+        "startLine": 36,
+        "startChar": 74,
+        "endLine": 36,
+        "endChar": 89
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -261,6 +441,30 @@
     },
     {
       "key": {
+        "uuid": "27bc3d28_dd047049",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fbf7b531_0ae86d70",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 11
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ca50f441_0c46d6ff",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -307,6 +511,54 @@
     },
     {
       "key": {
+        "uuid": "e7421fdf_079c121c",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca50f441_0c46d6ff",
+      "range": {
+        "startLine": 41,
+        "startChar": 72,
+        "endLine": 41,
+        "endChar": 90
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b6c882e9_9d6085c6",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "I have added a use case for wanting automation above. Thanks, that was obviously missing.\n\nI leave this as is here as an additional use case.",
+      "parentUuid": "8e3287a4_ecfcaf9b",
+      "range": {
+        "startLine": 41,
+        "startChar": 14,
+        "endLine": 41,
+        "endChar": 38
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6da776a1_cae8f17e",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -327,6 +579,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "52379700_1202af97",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "6da776a1_cae8f17e",
+      "range": {
+        "startLine": 42,
+        "startChar": 50,
+        "endLine": 43,
+        "endChar": 32
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -353,6 +629,30 @@
     },
     {
       "key": {
+        "uuid": "c64f53ff_946ebac7",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Here this is a sub-bullet of setting conditions when to be added back, so I think this is adequate.\n\nWhat you are saying is either covered by \"As a reviewer I want to set expectations about when I will be able to review a change (being out of office or otherwise busy).\" above or it is covered by \"Non-Goals\" I think.\n\nWDYT?",
+      "parentUuid": "c3d80c3c_ceaf3e90",
+      "range": {
+        "startLine": 47,
+        "startChar": 8,
+        "endLine": 47,
+        "endChar": 85
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8accc8f0_b813d2e4",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -373,6 +673,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1804be3e_29fa659c",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8accc8f0_b813d2e4",
+      "range": {
+        "startLine": 48,
+        "startChar": 87,
+        "endLine": 49,
+        "endChar": 24
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -399,6 +723,30 @@
     },
     {
       "key": {
+        "uuid": "cbe9da91_5225a641",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d48908e5_962d31bb",
+      "range": {
+        "startLine": 50,
+        "startChar": 36,
+        "endLine": 50,
+        "endChar": 53
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a9dd3c4_06f2e348",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -419,6 +767,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce094746_eff16a88",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a9dd3c4_06f2e348",
+      "range": {
+        "startLine": 51,
+        "startChar": 81,
+        "endLine": 51,
+        "endChar": 96
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -445,6 +817,30 @@
     },
     {
       "key": {
+        "uuid": "ba571cb0_cef473c5",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "faff3815_7f3a6dbc",
+      "range": {
+        "startLine": 52,
+        "startChar": 75,
+        "endLine": 52,
+        "endChar": 84
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "91403937_ace94f48",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -465,6 +861,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a269c766_ef58bf73",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "91403937_ace94f48",
+      "range": {
+        "startLine": 54,
+        "startChar": 61,
+        "endLine": 54,
+        "endChar": 66
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -491,6 +911,30 @@
     },
     {
       "key": {
+        "uuid": "d0ec391d_719b3528",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88d85147_d3b7f79e",
+      "range": {
+        "startLine": 57,
+        "startChar": 35,
+        "endLine": 57,
+        "endChar": 38
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "68741af8_d02c4610",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -511,6 +955,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9af142e1_9c66b4c7",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "68741af8_d02c4610",
+      "range": {
+        "startLine": 62,
+        "startChar": 70,
+        "endLine": 62,
+        "endChar": 74
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -548,6 +1016,48 @@
       "writtenOn": "2019-11-14T05:57:24Z",
       "side": 1,
       "message": "This criteria does not give someone means to evaluate a solution by, it mainly tells me when the solution needs to be implemented by.",
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a2ed50d_f9e30250",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "I was trying to follow this official template https://gerrit.googlesource.com/gerrit/+/master/Documentation/dev-design-doc-use-cases-template.md, which says:\n\n\"Describe conditions that must be satisfied to consider the feature as done. If a mentor is assigned, the mentorship ends when this state is reached. Please note that a mentorship can also end earlier if the maximum time frame for the mentorship has exceeded.\"\n\nSo I think the idea of the section was to describe when the effort is completed, but I agree that this is probably not a great section for a \"Use Cases\" doc. Will bring this up in an upcoming ESC meeting and suggest something better.\n\nNaively I would say a solution is acceptable, if use cases, requirements and issues are well addressed. Do you have a suggestion what else should be mentioned here?",
+      "parentUuid": "3b4e96a1_3f543137",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 53
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4f016981_8a728d75",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "I was trying to follow this official template https://gerrit.googlesource.com/gerrit/+/master/Documentation/dev-design-doc-use-cases-template.md, which says:\n\n\"Describe conditions that must be satisfied to consider the feature as done. If a mentor is assigned, the mentorship ends when this state is reached. Please note that a mentorship can also end earlier if the maximum time frame for the mentorship has exceeded.\"\n\nSo I think the idea of the section was to describe when the effort is completed, but I agree that this is probably not a great section for a \"Use Cases\" doc. Will bring this up in an upcoming ESC meeting and suggest something better.\n\nNaively I would say a solution is acceptable, if use cases, requirements and issues are well addressed. Do you have a suggestion what else should be mentioned here?",
+      "parentUuid": "bb9d1629_f5b1c90a",
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -600,6 +1110,54 @@
     },
     {
       "key": {
+        "uuid": "1f549af0_5cf55c1c",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61a709d6_4b7dd01a",
+      "range": {
+        "startLine": 79,
+        "startChar": 76,
+        "endLine": 79,
+        "endChar": 80
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d268ff3d_efde35bf",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ad9b4df4_53636ec9",
+      "range": {
+        "startLine": 79,
+        "startChar": 50,
+        "endLine": 79,
+        "endChar": 66
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5e41c482_9a464178",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -620,6 +1178,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "575b7b7d_9deedf7a",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Why users like it? Because it addresses the above use cases well. :-) It is clear whose turn it is at every point of time. That is seen as very beneficial for a productive review.\n\nI think you can argue both ways where this paragraph belongs as a background. For the moment I find it helpful here such that readers understand why we are launching ourselves into this problem space and why we believe this important and we can make a dent.",
+      "parentUuid": "5e41c482_9a464178",
+      "range": {
+        "startLine": 80,
+        "startChar": 63,
+        "endLine": 81,
+        "endChar": 45
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -646,6 +1228,30 @@
     },
     {
       "key": {
+        "uuid": "f445b68e_da5a7d14",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc6f261d_5c3b45c2",
+      "range": {
+        "startLine": 85,
+        "startChar": 14,
+        "endLine": 85,
+        "endChar": 63
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "af6d9154_502db6de",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -666,6 +1272,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c03e487e_d03aca7b",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "af6d9154_502db6de",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 86,
+        "endChar": 29
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -716,6 +1346,30 @@
     },
     {
       "key": {
+        "uuid": "9d330bcd_ee63904f",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a6b8c226_b83c55dd",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 60
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "071825ff_6de2f9ad",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -736,6 +1390,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bfa9afc2_ee67d771",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-14T16:54:05Z",
+      "side": 1,
+      "message": "Good points.\n\nI think \"requirements\" should into the \"use cases\" section, but yeah, you are right, I am only listing issue, so let\u0027s just drop \"requirements\" from the section title and them to \"use cases\", if any come up.\n\nGood point also  about having a note at the top, done.\n\nRenamed this section to \"status quo\".",
+      "parentUuid": "071825ff_6de2f9ad",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 41
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
