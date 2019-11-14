@@ -2,6 +2,92 @@
   "comments": [
     {
       "key": {
+        "uuid": "8803e494_63211127",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2019-11-14T05:57:24Z",
+      "side": 1,
+      "message": "Is the is intended to create a barrier for this action, i.e. to discourage it, or is it more to help the person being \"assigned\" the change to know why?",
+      "range": {
+        "startLine": 34,
+        "startChar": 7,
+        "endLine": 34,
+        "endChar": 36
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c00cc47f_30657569",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2019-11-14T05:57:24Z",
+      "side": 1,
+      "message": "Perhaps changing the user\u0027s justification from right justified to left justified would be more space conserving. Sliding the user by dragging them from side to side might also help give a means to change their \"status\".",
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a0b4781_2787fa98",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2019-11-14T05:57:24Z",
+      "side": 1,
+      "message": "If the original authors of the assignee feature feel it is still important to preserve the assignee feature as a single user feature, it might be possible to enable this by providing a rule which can enforce the current single user behavior.",
+      "range": {
+        "startLine": 15,
+        "startChar": 25,
+        "endLine": 15,
+        "endChar": 35
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f3d8df46_3782b396",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2019-11-14T05:57:24Z",
+      "side": 1,
+      "message": "I suggest that \"by default\" be added here to clarify that you likely are not planning on changing the behavior for watchers?",
+      "range": {
+        "startLine": 41,
+        "startChar": 44,
+        "endLine": 41,
+        "endChar": 71
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "51a0a550_c14efa31",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -41,6 +127,29 @@
         "startChar": 0,
         "endLine": 23,
         "endChar": 73
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f249d353_60afa1eb",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2019-11-14T05:57:24Z",
+      "side": 1,
+      "message": "Since \"attention set\" is not something that exists today in Gerrit, any mention of it (outside of the background section below) is likely a solution leaking into the use case.",
+      "range": {
+        "startLine": 36,
+        "startChar": 74,
+        "endLine": 36,
+        "endChar": 89
       },
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
@@ -295,6 +404,23 @@
         "endLine": 69,
         "endChar": 53
       },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bb9d1629_f5b1c90a",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2019-11-14T05:57:24Z",
+      "side": 1,
+      "message": "This criteria does not give someone means to evaluate a solution by, it mainly tells me when the solution needs to be implemented by.",
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
