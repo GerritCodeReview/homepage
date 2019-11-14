@@ -168,6 +168,29 @@
     },
     {
       "key": {
+        "uuid": "3ebb20fe_077de165",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-11-14T15:55:03Z",
+      "side": 1,
+      "message": "I think this is not quite specific enough. I believe one doesn\u0027t really want to know this but be able to assume that things are progressing as expected. Only if something deviates from the norm, I want to know that this is happening to maybe do something about it.",
+      "range": {
+        "startLine": 28,
+        "startChar": 18,
+        "endLine": 28,
+        "endChar": 30
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f249d353_60afa1eb",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -214,6 +237,30 @@
     },
     {
       "key": {
+        "uuid": "cc0d473b_21b3e095",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-11-14T15:55:03Z",
+      "side": 1,
+      "message": "Maybe an easy way to solve this is to introduce the notion of an attention set as part of the problem and then just use the term to describe the problem further. I.e. we could say that there currently is no good way to indicate who needs to pay attention to a change besides the assignee field which suffers from a few limitations [list them] and bolding which also has shortcomings. A summary of these shortcoming could then be that there realy needs to be a changing set of people that may need to do something at a given stage of the review process. This set of people will be referred to as the attention set in the rest of the document, making it easier to describe when a set of people should need to pay attention.",
+      "parentUuid": "fbf7b531_0ae86d70",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 11
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ca50f441_0c46d6ff",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -237,6 +284,29 @@
     },
     {
       "key": {
+        "uuid": "8e3287a4_ecfcaf9b",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-11-14T15:55:03Z",
+      "side": 1,
+      "message": "I don\u0027t think any user really wants that. Ideally they would want automatic rules to match their expectations as much as possible. Only when that breaks down may they want to set something manually.",
+      "range": {
+        "startLine": 41,
+        "startChar": 14,
+        "endLine": 41,
+        "endChar": 38
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6da776a1_cae8f17e",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -253,6 +323,29 @@
         "startChar": 50,
         "endLine": 43,
         "endChar": 32
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c3d80c3c_ceaf3e90",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2019-11-14T15:55:03Z",
+      "side": 1,
+      "message": "another, maybe clearer way to put this might be to say: As a reviewer, I want to be able to prevent other from putting me in the attention set due to unavailability.",
+      "range": {
+        "startLine": 47,
+        "startChar": 8,
+        "endLine": 47,
+        "endChar": 85
       },
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
