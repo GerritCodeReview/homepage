@@ -935,6 +935,30 @@
     },
     {
       "key": {
+        "uuid": "72200339_61dbabd6",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T22:41:04Z",
+      "side": 1,
+      "message": "I still see SLAs in PS5?",
+      "parentUuid": "d0ec391d_719b3528",
+      "range": {
+        "startLine": 57,
+        "startChar": 35,
+        "endLine": 57,
+        "endChar": 38
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "68741af8_d02c4610",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
@@ -1058,6 +1082,30 @@
       "side": 1,
       "message": "I was trying to follow this official template https://gerrit.googlesource.com/gerrit/+/master/Documentation/dev-design-doc-use-cases-template.md, which says:\n\n\"Describe conditions that must be satisfied to consider the feature as done. If a mentor is assigned, the mentorship ends when this state is reached. Please note that a mentorship can also end earlier if the maximum time frame for the mentorship has exceeded.\"\n\nSo I think the idea of the section was to describe when the effort is completed, but I agree that this is probably not a great section for a \"Use Cases\" doc. Will bring this up in an upcoming ESC meeting and suggest something better.\n\nNaively I would say a solution is acceptable, if use cases, requirements and issues are well addressed. Do you have a suggestion what else should be mentioned here?",
       "parentUuid": "bb9d1629_f5b1c90a",
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab075392_ecf6571e",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1006432
+      },
+      "writtenOn": "2019-11-14T22:41:04Z",
+      "side": 1,
+      "message": "\u003e Naively I would say a solution is acceptable, if use cases, requirements and issues are well addressed. Do you have a suggestion what else should be mentioned here?\n\nI agree on exactly that. I think this section should have solution-agnostic details of what it would mean for the use cases to be \"well addressed\". This could end up being a rephrasing of the primary use cases with specific details of what those use cases must provide in order to be acceptable to a user.\n\nFor example, the use case \"As a user I want to know at a glance which changes need my attention\". The term \"at a glance\" is fine for a use case, but acceptance criteria probably want to be more specific. Where is the user glancing? How long does a \"glance\" take (upper bound)? What thinking/understanding by the user is expected to determine \"needs my attention\"? I think the discussion this morning covered a lot of these details (in a solution-agnostic way) and those would be good to have here as any solution would be expected to provide that functionality. Continuing this example, a solution that only implemented attention via emails, but had no dashboard support, would likely not be acceptable.",
+      "parentUuid": "1a2ed50d_f9e30250",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 53
+      },
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
