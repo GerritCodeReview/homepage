@@ -565,6 +565,30 @@
     },
     {
       "key": {
+        "uuid": "a6b8c226_b83c55dd",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-11-14T06:42:21Z",
+      "side": 1,
+      "message": "In the UI this is exposed as action on the change:\nhttps://imgur.com/4JaOWSb",
+      "parentUuid": "99a4a1a5_d4225256",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 60
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "071825ff_6de2f9ad",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 4
