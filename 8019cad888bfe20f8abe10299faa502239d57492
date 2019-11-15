@@ -22,6 +22,30 @@
       "revId": "8019cad888bfe20f8abe10299faa502239d57492",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d682d36f_8505a9ca",
+        "filename": "_data/topnav.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-15T01:20:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdc3cc15_f6e69704",
+      "range": {
+        "startLine": 41,
+        "startChar": 92,
+        "endLine": 41,
+        "endChar": 95
+      },
+      "revId": "8019cad888bfe20f8abe10299faa502239d57492",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
