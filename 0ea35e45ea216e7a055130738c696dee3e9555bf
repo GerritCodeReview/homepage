@@ -16,6 +16,24 @@
       "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4cae56eb_6a76364d",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2019-11-17T18:00:57Z",
+      "side": 1,
+      "message": "When \u0027REPLY\u0027 button in message scope is selected \u0027inReplyTo\u0027 will contain the original message id.",
+      "parentUuid": "1af9635c_13e7684a",
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
