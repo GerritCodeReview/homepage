@@ -54,6 +54,98 @@
     },
     {
       "key": {
+        "uuid": "920513b4_02d5f37c",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-21T10:13:36Z",
+      "side": 1,
+      "message": "Maybe consider the alternative of just using a CommentInfo instead of adding some fields that make the change message similar to comments, but not quite the same.\n\nFrom looking at CommentInfo I think what a change message should have is:\npatch_set\nid\nin_reply_to\nmessage\nupdated\nauthor\nunresolved\n(not sure about \u0027tag\u0027 field, don\u0027t really understand that)\n\nhttps://gerrit-review.googlesource.com/Documentation/rest-api-changes.html#comment-info",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 53
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d0de7ee6_7c5a5926",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-21T10:13:36Z",
+      "side": 1,
+      "message": "You are welcome to leave the UI design to me and the frontend team, so you could focus on the technical design here and just make sure that a REST API is added.",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 7
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "71533355_bc7eaf7c",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-21T10:13:36Z",
+      "side": 1,
+      "message": "That part is a solution, not a use case.",
+      "range": {
+        "startLine": 13,
+        "startChar": 45,
+        "endLine": 14,
+        "endChar": 71
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e4852f7a_c6b4365b",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-21T10:13:36Z",
+      "side": 1,
+      "message": "Maybe start the doc with a definition of what a \"change message\" is and then propose to add threading to change messages.",
+      "range": {
+        "startLine": 18,
+        "startChar": 2,
+        "endLine": 19,
+        "endChar": 8
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1dbbe9a1_2c1ef279",
         "filename": "pages/design-docs/threaded-change-log/use-cases.md",
         "patchSetId": 2
@@ -65,6 +157,30 @@
       "writtenOn": "2019-11-19T20:11:07Z",
       "side": 1,
       "message": "By the way that this is stated, it implies that you can only reply to a single change message at a time.\n\nI would rather want to move to a model where a change message is just a comment, just like file or intra line comments. You can then enter draft replies, just like you can for intra line comments. When you hit \"Reply\" on the change, you can add a new comment (previously change message).",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 38
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a147e7f0_de472f30",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-21T10:13:36Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "1dbbe9a1_2c1ef279",
       "range": {
         "startLine": 18,
         "startChar": 0,
