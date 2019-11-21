@@ -48,6 +48,23 @@
     },
     {
       "key": {
+        "uuid": "5168adde_fed770b7",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-21T17:35:05Z",
+      "side": 1,
+      "message": "i think that should be the last uploader, not the owner. unless the ui makes it easy to take over ownership (via request+confirm handshake).\n\nbut then, that seems wrong anyway - reviewers often need to respond to each other, so the asymmetry in handling is counterproductive to start with.",
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "62902b6d_7e849019",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 5
@@ -117,6 +134,23 @@
     },
     {
       "key": {
+        "uuid": "2584adcb_a700a90b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-21T17:35:05Z",
+      "side": 1,
+      "message": "that seems just weird without more context. i\u0027ve seen that this is (somewhat) explained further down, but as it stands here, it\u0027s not helpful imo.",
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "dcb4c6f1_5d2cdb0f",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 5
@@ -140,6 +174,30 @@
     },
     {
       "key": {
+        "uuid": "70bd63fa_4a35c2cd",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-21T17:35:05Z",
+      "side": 1,
+      "message": "huh?",
+      "parentUuid": "dcb4c6f1_5d2cdb0f",
+      "range": {
+        "startLine": 38,
+        "startChar": 58,
+        "endLine": 38,
+        "endChar": 72
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67ee703a_691711e1",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 5
@@ -151,6 +209,23 @@
       "writtenOn": "2019-11-18T22:55:00Z",
       "side": 1,
       "message": "maybe also add \"*   wait for feedback to be addressed\" ?",
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9a10e536_100fc1e2",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-21T17:35:05Z",
+      "side": 1,
+      "message": "that\u0027s not a bug, but a feature - as soon as you have multiple assignees, you face diffusion of responsibility.\nhowever, it should be easy to \"pass the bucket\".",
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
