@@ -100,6 +100,23 @@
     },
     {
       "key": {
+        "uuid": "27ad812d_2971738e",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-21T15:09:53Z",
+      "side": 1,
+      "message": "a con (or rather, a challenge that often isn\u0027t adequately addressed) is that presenting threads visually is hard. the current flat presentation of inline comments is rather suboptimal for non-linear threads. conversely, naive (unconstrained) indentation quickly becomes counterproductive in longer threads. some common forum platforms \"saturate\" the indentation, but if that isn\u0027t done quite right, it\u0027s confusing (because there is a break in the presentation).",
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "71533355_bc7eaf7c",
         "filename": "pages/design-docs/threaded-change-log/use-cases.md",
         "patchSetId": 2
