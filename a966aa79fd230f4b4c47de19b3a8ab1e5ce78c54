@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "c443c199_8dc5fee4",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-11-22T03:04:20Z",
+      "side": 1,
+      "message": "This is unexpected design decision to hoist the configuration of sub-check to the sub-check creation endpoint.\n\nThis is a mismatch in creation and configuration endpoints. This is controversial if somebody really needs this flexibility. I cannot imagine, that the same sub-check would pass different values for:\n\n* rerunnable\n* required\n\non different changes?\n\nI understand, that we don\u0027t offer dedicated configuration endpoint for sub-checks (as it the case for checkers); sub-checks are dynamic and created \"on the fly\" per definition.\n\nAlternatives: induce the value for rerunnable and required from checker definition. That means that a sub-check is rerunnable, iff the checker is rerunnable and a sub-check is required iff the checker is required. Wouldn\u0027t this be sufficient enough?\n\nExample: in Gerrit we currently have:\n\n* ReviewDb-Checker\n* NoteDb-Checker\n* Polygerrit-Checker\n* CodeStyle-Checker\n\ncheckers. Let\u0027s assume we would transform these static checkers definition to one single: ZUUL-checker, with 4 sub-checks:\n\n* ReviewDb-Sub-Check\n* NoteDb-Sub-Check\n* Polygerrit-Sub-Check\n* CodeStyle-Sub-Check\n\nWe would then define, that the ZUUL is both rerunnable and required, in which case all above sub-checkers are also rerunnable and required. In this proposal, the SubCheckInput entity would not offer config attribute and the values for sub-checks are induced from the checker definition.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 0
+      },
+      "revId": "a966aa79fd230f4b4c47de19b3a8ab1e5ce78c54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b5cc4e63_a2a180c6",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 4
