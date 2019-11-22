@@ -19,6 +19,7 @@ documents can be found in Gerrit by using the link inside each doc.
 ## List of Design Documents
 
 - [Generate Release Notes](design-docs/generate-release-notes)
+- [Auth Backend](design-docs/auth-backend)
 - [Revert submit](design-docs/revert-submit.html) by Gal Paikin, approved 2019-09-02
 - [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html)
 
