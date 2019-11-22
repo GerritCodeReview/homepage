@@ -22,6 +22,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html) by Martin Fick, proposed 2019-10-04
 - [Attention Set](design-docs/attention-set.html) by Ben Rohlfs, approved 2020-01-03
 - [Change Log: Threaded Feedback](design-docs/change-log-threaded-feedback.html) by Jacek Centkowski, proposed 2019-11-13
+- [Auth Extensions](design-docs/auth-extensions) collective effort (captured by Jacek Centkowski)
 
 ## Reviews of Design Documents
 
