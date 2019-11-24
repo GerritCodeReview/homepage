@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adf69ce_e3d42d42",
+        "filename": "pages/design-docs/auth-extensions/solution-auth-extensios.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-24T04:12:40Z",
+      "side": 1,
+      "message": "File name is wrong.  s/extensios/extension/",
+      "revId": "877f70c776fc3c688fa84e72d88a3f73cd937446",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "48dc0784_39ed93e0",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-24T04:12:40Z",
+      "side": 1,
+      "message": "remove this",
+      "range": {
+        "startLine": 48,
+        "startChar": 27,
+        "endLine": 48,
+        "endChar": 36
+      },
+      "revId": "877f70c776fc3c688fa84e72d88a3f73cd937446",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
