@@ -38,6 +38,24 @@
     },
     {
       "key": {
+        "uuid": "df8ab2a3_b59181ac",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-25T07:52:52Z",
+      "side": 1,
+      "message": "Yeah, I think what Patrick means is that you want to reply to multiple change messages in one go. For example if reviewer A said \"please add tests\", reviewer B said \"please add screenshots\", then the owner may want to reply to both change messages at once (and maybe even add another change message \"please take another look\" themselves).",
+      "parentUuid": "302104c5_01b31a1a",
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1af9635c_13e7684a",
         "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
         "patchSetId": 2
@@ -70,6 +88,24 @@
       "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "278d3d02_e207575b",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-25T07:52:52Z",
+      "side": 1,
+      "message": "Resolving.",
+      "parentUuid": "4cae56eb_6a76364d",
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -121,6 +157,30 @@
     },
     {
       "key": {
+        "uuid": "1325a641_b84e39ba",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-25T07:52:52Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5cba5050_4e5afb09",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 53
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d0de7ee6_7c5a5926",
         "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
         "patchSetId": 2
@@ -169,6 +229,30 @@
     },
     {
       "key": {
+        "uuid": "2e8ba14f_2bcb2d9e",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-25T07:52:52Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "78a8a635_3f38ef18",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 7
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "27ad812d_2971738e",
         "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
         "patchSetId": 2
@@ -202,6 +286,24 @@
       "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0a9772ad_b1618cd7",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-25T07:52:52Z",
+      "side": 1,
+      "message": "This goes beyond the scope of this design doc.\n\nI think we should just start with the current linear thread view. And if that is becoming a source of user frustration, then let\u0027s track that problem in its own issue.",
+      "parentUuid": "19ea0283_ca01c0a3",
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -253,6 +355,30 @@
     },
     {
       "key": {
+        "uuid": "8e4e27b0_c9c3470c",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-25T07:52:52Z",
+      "side": 1,
+      "message": "Resolving.",
+      "parentUuid": "d36bdb3a_a09fb795",
+      "range": {
+        "startLine": 13,
+        "startChar": 45,
+        "endLine": 14,
+        "endChar": 71
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e4852f7a_c6b4365b",
         "filename": "pages/design-docs/threaded-change-log/use-cases.md",
         "patchSetId": 2
@@ -298,6 +424,30 @@
       "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "efe542b5_199b7e6a",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-25T07:52:52Z",
+      "side": 1,
+      "message": "Resolving.",
+      "parentUuid": "f06f15d6_76de6f64",
+      "range": {
+        "startLine": 18,
+        "startChar": 2,
+        "endLine": 19,
+        "endChar": 8
+      },
+      "revId": "0ea35e45ea216e7a055130738c696dee3e9555bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
