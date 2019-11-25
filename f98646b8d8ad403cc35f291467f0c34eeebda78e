@@ -88,6 +88,29 @@
     },
     {
       "key": {
+        "uuid": "f15f4ee9_f2cc1e52",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T12:48:25Z",
+      "side": 1,
+      "message": "Should this be interpreted as:\n\"Add this user as reviewer in 9h\"\nor\n\"Add this reviewer to the Attention Set in 9h\"\n?\nAnalogous question rules/conditions below.",
+      "range": {
+        "startLine": 55,
+        "startChar": 31,
+        "endLine": 55,
+        "endChar": 56
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "65d42bac_86a723af",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 5
@@ -209,6 +232,167 @@
       "writtenOn": "2019-11-18T22:55:00Z",
       "side": 1,
       "message": "maybe also add \"*   wait for feedback to be addressed\" ?",
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c375a95e_fbca8370",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T12:48:25Z",
+      "side": 1,
+      "message": "I would quite strongly disagree.\nassignee - \"you need to review this\"\nreviewed - \"something has/hasn\u0027t happened since you last marked this change as reviewed\"\n\nThere are some implicit overlap.\nF.i. if you as a reviewer are set as assignee and add a CR label, the change is marked as reviewed and you most likely shouldn\u0027t be assigned to it any longer.\nBut if the change gets CR-1 and you as owner are assigned you might make a comment like \"Agreed, I will look at this tomorrow\" and then the change is marked as reviewed but you should still be assignee.",
+      "range": {
+        "startLine": 101,
+        "startChar": 4,
+        "endLine": 101,
+        "endChar": 68
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1210d23_8bb90cbd",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T12:48:25Z",
+      "side": 1,
+      "message": "Mainly because they do not mean the same thing, see comment above.",
+      "range": {
+        "startLine": 103,
+        "startChar": 22,
+        "endLine": 103,
+        "endChar": 65
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c88dd633_cb44b9d8",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T12:48:25Z",
+      "side": 1,
+      "message": "Arguably this use-case has never been supported by the reviewed feature since all reviewers, except the one performing the action, get\u0027s the change marked as unreviewed. So the only part of the \"Whose turn is it?\" question that is answered when you perform an action is \"Not mine!\", if there are more than one reviewer + owner there is no ordering among the remaining reviewers.",
+      "range": {
+        "startLine": 102,
+        "startChar": 94,
+        "endLine": 103,
+        "endChar": 20
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "98bd8764_11494ab0",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T12:48:25Z",
+      "side": 1,
+      "message": "IMO this statement is false for assignee. The users expectations are kept very much explicit \"I need you to review this change\", and the reviewer can be equally explicit by changing the assignee back to the owner \"I cannot review this ATM you need to find someone else or wait until I have the opportunity to review it\".",
+      "range": {
+        "startLine": 104,
+        "startChar": 8,
+        "endLine": 104,
+        "endChar": 52
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7bddeeaf_7282e913",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T12:48:25Z",
+      "side": 1,
+      "message": "I see this more of a severe workplace culture problem that is not easily solved by Gerrit features.\nIf the owner would have such fear that fear is probably also true for adding someone as reviewer! The step from non-reviewer to reviewer is IMO much greater than the step from reviewer to assignee.\nFWAICT the current AS implementation would be comparable with \"all reviewers are set as assignee as soon as the change is marked as un-reviewed for them\" which I would fear more and I assume that anyone who\u0027s in a state were they fear repercussions from their colleagues if they set them as assignee would be at least equally fearful of the same repercussions if they add them as reviewers as they would have been adding them as assignee in",
+      "range": {
+        "startLine": 104,
+        "startChar": 53,
+        "endLine": 105,
+        "endChar": 48
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bbb3e3ff_0823b769",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T12:48:25Z",
+      "side": 1,
+      "message": "I\u0027m afraid I cannot look at these statement in any other light than as an attempt to straw-man the current feature-set in favor of the new one.\nIt shouldn\u0027t be necessary, the goal is hopefully not to get this feature in by any means necessary but to have clearly state the facts as we see them and have a fruitful discussion were we can hopefully find the flaws in the current design and address them iteratively until we have a design with the greatest possible benefits and the smallest possible degradation.",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 77
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e3269207_cce4e3c3",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T12:48:25Z",
+      "side": 1,
+      "message": "This fear is not remedied by any change in behavior. It is equally true for the current and the suggested feature-set.\n\"Does my reviewer pay attention to changes where the reviewer is in the attention-set?\"\nSure it should be remedied by information to the users, but that is also equally true for the current feature-set.",
+      "range": {
+        "startLine": 105,
+        "startChar": 49,
+        "endLine": 106,
+        "endChar": 77
+      },
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
