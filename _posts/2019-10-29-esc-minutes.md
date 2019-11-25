@@ -21,7 +21,10 @@ Online, October 15, 12:30 - 13:20 CEST
 
 ### Next meeting
 
-The next meeting will be held on November 12, 12:30 CEST.
+Per the biweekly schedule the next meeting should be held on November 12, but
+we will skip it due to conflict with the Gerrit Hackathon.
+
+The next meeting will be held on November 26, 12:30 CEST.
 
 ## Minutes
 
