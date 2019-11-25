@@ -229,6 +229,24 @@
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d8f56c01_e7205882",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-25T12:02:07Z",
+      "side": 1,
+      "message": "You can still only assign to one of the reviewers, if you want.\n\nDo you often work with changes where there are multiple reviewers, but only one has the responsibility? Could the reviewers without responsibility be moved to CC then?\n\nI think being able to assign a review to more than one person can be vital. For example if you actually have two reviewers and want them both to review. Then you want them both assigned initially. And then if the first reviewer has reviewed the change, then you may want to have the owner and the second reviewer assigned for taking action.",
+      "parentUuid": "9a10e536_100fc1e2",
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
