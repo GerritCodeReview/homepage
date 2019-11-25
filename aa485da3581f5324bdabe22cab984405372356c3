@@ -16,6 +16,23 @@
       "revId": "aa485da3581f5324bdabe22cab984405372356c3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dcc51888_b4830591",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-25T16:37:14Z",
+      "side": 1,
+      "message": "i concurr, but i don\u0027t see how the current design aims to address that - rather, it seems meant to make the decision for the user.",
+      "revId": "aa485da3581f5324bdabe22cab984405372356c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
