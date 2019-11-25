@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "987c4ed1_7e6239e6",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-25T13:59:48Z",
+      "side": 1,
+      "message": "Something that I\u0027m missing that could increase understanding and be something to center discussions around to stifle the propensity for tool-shedding.\n* What, conceptually is an Attention Set.\n\nAnd some questions that I also still have after reading the design:\n* What does being a member of an Attention Set mean?\n* What is the difference of being in an Attention Set vs not being in an Attention set?\n  - Does level of notification change?",
+      "revId": "aa485da3581f5324bdabe22cab984405372356c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
