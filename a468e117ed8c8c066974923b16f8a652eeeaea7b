@@ -1445,6 +1445,75 @@
     },
     {
       "key": {
+        "uuid": "53b00160_2394ebd2",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-26T16:43:02Z",
+      "side": 1,
+      "message": "This is in fact true with many Gerrit features.\nWe have users that hardly ever use the submit-button but always pushes their changes to target after review is completed. A feature not being used by *some* users is really not a good reason why you should remove that feature.\n\nI don\u0027t see the fact that some users won\u0027t use Attention Set and some users will ignore the Attention Set as valid reasons for why not to implement it!\nBut if that\u0027s really considered a serious problem it\u0027s equally serious for the future Attention Set.",
+      "range": {
+        "startLine": 106,
+        "startChar": 42,
+        "endLine": 107,
+        "endChar": 36
+      },
+      "revId": "a468e117ed8c8c066974923b16f8a652eeeaea7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "106f5b93_fb66924a",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-26T16:43:02Z",
+      "side": 1,
+      "message": "These bullet points (apart from \"Only one user can be assigned\", which is actually a core part of the feature) has nothing to do with the actual feature but the way it is currently implemented. So saying that these are shortcomings of the feature is somewhat misleading.",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 48
+      },
+      "revId": "a468e117ed8c8c066974923b16f8a652eeeaea7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aee0899b_b7bceb26",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-26T16:43:02Z",
+      "side": 1,
+      "message": "Will there be a config option to turn Attention Set off?",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 48
+      },
+      "revId": "a468e117ed8c8c066974923b16f8a652eeeaea7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "78f5d6ee_22755544",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 7
