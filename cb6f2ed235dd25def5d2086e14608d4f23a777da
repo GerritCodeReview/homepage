@@ -84,6 +84,30 @@
     },
     {
       "key": {
+        "uuid": "53437ced_0027fede",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "I have added a generic sentence to solution-1-user-interface.md, but the exact UI changes are still TBD.",
+      "parentUuid": "7c8787be_a1db6e1a",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 39
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "18ad2aab_362a265a",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 3
@@ -131,6 +155,30 @@
     },
     {
       "key": {
+        "uuid": "4b9d3f36_57dc5572",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Added an open question to implementation.md.",
+      "parentUuid": "8f0b9500_189fa9f4",
+      "range": {
+        "startLine": 62,
+        "startChar": 64,
+        "endLine": 62,
+        "endChar": 83
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d0182efa_5cb27726",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 3
@@ -175,6 +223,30 @@
       "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3524d5b8_71e7c3c3",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Added an open question to implementation.md.",
+      "parentUuid": "dda97ae0_e02c59e2",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 86
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -669,6 +741,30 @@
       "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a9712b14_c67fd144",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Sorry, but I disagree. I only use \"developer\" once and then only in the context of using an API, so that should be clear. Adding such definitions would mean that readers have more text to consume, which can make a design doc harder to read.",
+      "parentUuid": "37e13706_6023c8f5",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 18
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }

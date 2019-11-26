@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "79b0e3bf_01c53f8a",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Thanks for the feedback. I have completely rewritten workflow.md and I think it answers your questions better now.\n\nAs for this list of questions, it is meant to be about just the implementation details, not the conceptual solution. Clarified a bit here.",
+      "parentUuid": "987c4ed1_7e6239e6",
+      "revId": "aa485da3581f5324bdabe22cab984405372356c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dcc51888_b4830591",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 6
@@ -33,6 +51,24 @@
       "revId": "aa485da3581f5324bdabe22cab984405372356c3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "27bf3483_00019ab1",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "I have completely rewritte workflow.md. PTAL",
+      "parentUuid": "dcc51888_b4830591",
+      "revId": "aa485da3581f5324bdabe22cab984405372356c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }

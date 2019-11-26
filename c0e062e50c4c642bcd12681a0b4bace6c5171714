@@ -66,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "4932d9c6_1318ab3b",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "I have reworked the entire solution with regards to rules and conditions. This file does not exist anymore. Instead there is now a \"Defaults\" and a \"Snoozing\" section in workflow.md, and I have tracked back a lot on configurability. PTAL",
+      "parentUuid": "9351d552_9a4e65aa",
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c00cc47f_30657569",
         "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
         "patchSetId": 4
@@ -121,6 +139,30 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ee3baf0c_138e05b2",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Thanks! Added to \"Alternatives Considered\".",
+      "parentUuid": "2a0b4781_2787fa98",
+      "range": {
+        "startLine": 15,
+        "startChar": 25,
+        "endLine": 15,
+        "endChar": 35
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -1109,6 +1151,48 @@
       "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "21afa857_cce35c47",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f016981_8a728d75",
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e14f3d90_7dabf86f",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab075392_ecf6571e",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 53
+      },
+      "revId": "c0e062e50c4c642bcd12681a0b4bace6c5171714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {

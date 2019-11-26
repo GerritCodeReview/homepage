@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c5a0a009_56de2120",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "obsolete",
+      "parentUuid": "76906204_515c647d",
+      "range": {
+        "startLine": 23,
+        "startChar": 28,
+        "endLine": 23,
+        "endChar": 34
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "de3c0b9a_86267ba2",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 5
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "f8e9d4e3_b2307987",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "This file is gone, but I have added a sentence about private changes to workflow.md.",
+      "parentUuid": "de3c0b9a_86267ba2",
+      "range": {
+        "startLine": 23,
+        "startChar": 28,
+        "endLine": 23,
+        "endChar": 31
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5168adde_fed770b7",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 5
@@ -62,6 +110,24 @@
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "baa97fb3_af69a906",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Added a sentence that \"owner\" typically means \"owner, uploader or committer\".\n\nClarified in workflow.md that these are just default suggestions and can be overridden easily. Removed the word \"rule\" from the design entirely.",
+      "parentUuid": "5168adde_fed770b7",
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -88,6 +154,30 @@
     },
     {
       "key": {
+        "uuid": "45ba86d6_7d57ea68",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "obsolete",
+      "parentUuid": "62902b6d_7e849019",
+      "range": {
+        "startLine": 48,
+        "startChar": 49,
+        "endLine": 48,
+        "endChar": 57
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f15f4ee9_f2cc1e52",
         "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
         "patchSetId": 5
@@ -108,6 +198,30 @@
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "64f7a5e5_fe23c8bd",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Completely rewritten in \"snoozing\" section in workflow.md.",
+      "parentUuid": "f15f4ee9_f2cc1e52",
+      "range": {
+        "startLine": 55,
+        "startChar": 31,
+        "endLine": 55,
+        "endChar": 56
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -134,6 +248,30 @@
     },
     {
       "key": {
+        "uuid": "094b3dc4_cb7b663c",
+        "filename": "pages/design-docs/attention-set/solution-1-rules-conditions.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "obsolete",
+      "parentUuid": "65d42bac_86a723af",
+      "range": {
+        "startLine": 66,
+        "startChar": 56,
+        "endLine": 66,
+        "endChar": 63
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d2a85707_422d2c97",
         "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
         "patchSetId": 5
@@ -157,6 +295,30 @@
     },
     {
       "key": {
+        "uuid": "65193af2_355878b4",
+        "filename": "pages/design-docs/attention-set/solution-1-user-interface.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "That is a trailing whitespace. :-)",
+      "parentUuid": "d2a85707_422d2c97",
+      "range": {
+        "startLine": 21,
+        "startChar": 87,
+        "endLine": 21,
+        "endChar": 89
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2584adcb_a700a90b",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 5
@@ -171,6 +333,24 @@
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "61ca08cb_02a4cb5b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Rephrased and moved.",
+      "parentUuid": "2584adcb_a700a90b",
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -221,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "b56f385e_10dd3125",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Changed to:\n\n  As a user I want to be assisted with changing the responsibility for taking action as much as\n  possible, e.g. I should not have to change the responsibility from me to the owner when I am\n  publishing comments.",
+      "parentUuid": "70bd63fa_4a35c2cd",
+      "range": {
+        "startLine": 38,
+        "startChar": 58,
+        "endLine": 38,
+        "endChar": 72
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "67ee703a_691711e1",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 5
@@ -235,6 +439,24 @@
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "39b8669d_324235bb",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "I have rephrased this and am using the word \"snoozing\", now. So this use case is about \"yes, I have to take action, but I am waiting for this external event\". While what you are saying is \"no, I don\u0027t have to take action, I am waiting for someone else to move the review process forward\". The latter is simply reflected currently not having responsibility for taking action. Makes sense?",
+      "parentUuid": "67ee703a_691711e1",
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -258,6 +480,30 @@
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "630b24db_42f66db4",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "For me \"you need to review this\" is the same as \"you need to take action\".\n\n\"something has happened\" is not interesting at all, if I don\u0027t need to take action. That might be the reason why this feature gets extremely low usage.\n\nYou are correct that the competition of the two features is not the primary problem. I have removed that section (moved some of the content to other bullet points). Also I have rearranged the sections such that the issues with assignee are at the top.",
+      "parentUuid": "c375a95e_fbca8370",
+      "range": {
+        "startLine": 101,
+        "startChar": 4,
+        "endLine": 101,
+        "endChar": 68
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -307,6 +553,54 @@
     },
     {
       "key": {
+        "uuid": "79eaa3bb_80100839",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Reworked.",
+      "parentUuid": "c88dd633_cb44b9d8",
+      "range": {
+        "startLine": 102,
+        "startChar": 94,
+        "endLine": 103,
+        "endChar": 20
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ae2e455_47ffc296",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Reworked.",
+      "parentUuid": "f1210d23_8bb90cbd",
+      "range": {
+        "startLine": 103,
+        "startChar": 22,
+        "endLine": 103,
+        "endChar": 65
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "98bd8764_11494ab0",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 5
@@ -330,6 +624,30 @@
     },
     {
       "key": {
+        "uuid": "375279a6_038119c1",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "Removed that bullet point, but added one to \"assignee problems\":\n\n  The problems listed above lead to some users ignoring the assignee value or actively asking        others to not use it, e.g. this happens on gerrit-review.\n\nThat is my experience from using gerrit-review. No one really cares about assignee. And as a new user that can be really confusing: There is this really prominent feature in the UI that nobody uses, and if you use it, then nobody cares. ???",
+      "parentUuid": "98bd8764_11494ab0",
+      "range": {
+        "startLine": 104,
+        "startChar": 8,
+        "endLine": 104,
+        "endChar": 52
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7bddeeaf_7282e913",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 5
@@ -350,6 +668,30 @@
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2378a72a_c1fcca14",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "I think this does not have to do with fear. The problem is that the feature has too many shortcoming, so some teams just don\u0027t use it. Reworded that item.",
+      "parentUuid": "7bddeeaf_7282e913",
+      "range": {
+        "startLine": 104,
+        "startChar": 53,
+        "endLine": 105,
+        "endChar": 48
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -396,6 +738,54 @@
       "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "261855b6_646f5221",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "You are correct that the current assignee feature already clearly addresses \"I expect you to take action\". The problem is that the feature as a whole is not used by some teams, and you cannot turn it off. Clarified that.",
+      "parentUuid": "e3269207_cce4e3c3",
+      "range": {
+        "startLine": 105,
+        "startChar": 49,
+        "endLine": 106,
+        "endChar": 77
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "46a1bf93_0ccf358d",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-26T09:26:59Z",
+      "side": 1,
+      "message": "I have removed the bullet point in favor of:\n\n1. Problem with assignee: Some teams don\u0027t use it.\n2. Problem with reviewed: State is not visible to other users.",
+      "parentUuid": "bbb3e3ff_0823b769",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 77
+      },
+      "revId": "f98646b8d8ad403cc35f291467f0c34eeebda78e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
