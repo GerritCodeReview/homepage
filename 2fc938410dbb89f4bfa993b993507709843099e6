@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "14bba0b0_afa7d6a8",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-26T01:46:23Z",
+      "side": 1,
+      "message": "optional: wrap lines at 100 columns.",
+      "revId": "2fc938410dbb89f4bfa993b993507709843099e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "594e1770_01d6c526",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-26T01:46:23Z",
+      "side": 1,
+      "message": "maybe better to link to the ESC section of the community docs which has more detail about how to reach out.",
+      "range": {
+        "startLine": 15,
+        "startChar": 71,
+        "endLine": 15,
+        "endChar": 128
+      },
+      "revId": "2fc938410dbb89f4bfa993b993507709843099e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fd8a0ef6_58564ebc",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-26T01:46:23Z",
+      "side": 1,
+      "message": "If this is in the roadmap I think it would be better to state it as a feature, rather than \u0027discuss\u0027.  I.e. change this to \"Pluggable authentication backend\"",
+      "range": {
+        "startLine": 23,
+        "startChar": 2,
+        "endLine": 23,
+        "endChar": 60
+      },
+      "revId": "2fc938410dbb89f4bfa993b993507709843099e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bc22c921_8cee2e77",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-26T01:46:23Z",
+      "side": 1,
+      "message": "I would prefer to write this explicitly as \"percentile\"",
+      "range": {
+        "startLine": 26,
+        "startChar": 207,
+        "endLine": 26,
+        "endChar": 212
+      },
+      "revId": "2fc938410dbb89f4bfa993b993507709843099e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1586b3ff_4531e21c",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-26T01:46:23Z",
+      "side": 1,
+      "message": "performant",
+      "range": {
+        "startLine": 29,
+        "startChar": 43,
+        "endLine": 29,
+        "endChar": 54
+      },
+      "revId": "2fc938410dbb89f4bfa993b993507709843099e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "074b2ba2_f822158e",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-26T01:46:23Z",
+      "side": 1,
+      "message": "More detail of what this means?  Does it refer to the threaded change log proposed by Jacek?",
+      "range": {
+        "startLine": 43,
+        "startChar": 4,
+        "endLine": 43,
+        "endChar": 13
+      },
+      "revId": "2fc938410dbb89f4bfa993b993507709843099e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
