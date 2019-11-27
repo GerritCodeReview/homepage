@@ -17,7 +17,7 @@ David Pursehouse, Luca Milanesio, Patrick Hiesel, Alice Kober-Sotzek
 
 ### Place/Date/Duration
 
-Online, October 15, 12:30 - 13:20 CEST
+Online, October 29, 12:30 - 13:20 CEST
 
 ### Next meeting
 
