@@ -19,6 +19,29 @@
     },
     {
       "key": {
+        "uuid": "292f99e6_6cee92b9",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-27T13:54:10Z",
+      "side": 1,
+      "message": "Would it be plausible to have the Attention Set logic listen to @ notations in the change-messages and inline-comments?\n\nExample:\nSven uploaded a change and Ben and Oswald are reviewers.\nDuring the review Ben gives a CR-1 after which only Sven is in the AS.\nSven needs clarification on one of the inline-comments Ben left in his review and replies to the comment with:\n   \"@Ben what do you mean?\"\nBen is then added to the AS whereas Oswald is not.",
+      "range": {
+        "startLine": 64,
+        "startChar": 4,
+        "endLine": 64,
+        "endChar": 31
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "dc01cb9e_dec0ccde",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -64,6 +87,29 @@
       "writtenOn": "2019-11-27T12:04:53Z",
       "side": 1,
       "message": "apart from being indeed orthogonal to AS, it\u0027s somewhat questionable that owners would bother to fill out multiple fields when they can simply write a global comment. otoh, the experience is that reviewers often simply don\u0027t bother reading the comments and will do another thing than what was asked from them, so if you make the expectation message really \"in the face\", it could help.",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fb64847d_1ce4f0e9",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-27T13:54:10Z",
+      "side": 1,
+      "message": "I think that the expectation message would only be used in a fraction of the reviews but when you\u0027d need it it could be very valuable.\nI believe by-default there should be no message so having an expectation-message at all would be an exception that you would react to.\n\n* If reviewers with expectations were highlighted on the Change Screen.\n\n* And there were some sort of behavior for when the expectation is fulfilled. Like:\nIn the UI the expectation message (don\u0027t know how it would be displayed, hover-over?) comes with a button like \"fulfilled\".\nWhen button is pressed the message is cleared and a change message is posted:\n\nSven - 2019-11-27 14:43\nExpectation : \"please vote on library compliance\" fulfilled\n\n* And it was indexed and you could search for your expectations \"has:expectations\".\n\n* And changes with expectations was highlighted on the dashboard.\n\nI sort-of don\u0027t have any good arguments ATM for why it wouldn\u0027t be at least an acceptable replacement for assignee.",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 66
+      },
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -155,6 +201,24 @@
     },
     {
       "key": {
+        "uuid": "625a315c_be1c210b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-27T13:54:10Z",
+      "side": 1,
+      "message": "I don\u0027t know if I understand correctly but:\nWouldn\u0027t \"timestamp-based discrimination\" just be a re-implementation of the \"reviewed\" flag logic? I believe something like this was attempted by Edwin a while back (if I\u0027m not mistaken).",
+      "parentUuid": "c7ab1414_f6d23eb9",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9119492e_e2a66b74",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -166,6 +230,75 @@
       "writtenOn": "2019-11-27T12:04:53Z",
       "side": 1,
       "message": "that\u0027s just an implementation detail, not an alternative",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6ecb13b9_a77c1333",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-27T13:54:10Z",
+      "side": 1,
+      "message": "I don\u0027t know if this is a valid option.\nIMO AS should be a core feature",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 59
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aaa23d88_b52c4f00",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-27T13:54:10Z",
+      "side": 1,
+      "message": "Making the assignee feature configurable and disabled by default sounds good to me.",
+      "range": {
+        "startLine": 125,
+        "startChar": 47,
+        "endLine": 127,
+        "endChar": 46
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab7d2df7_3a7f0638",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-11-27T13:54:10Z",
+      "side": 1,
+      "message": "I thought about this as well. The problem is that AS will replace \"reviewed\" flag (which IMO is close to useless today but is non-the-less used). So you would have to choose between improved notification and single-user responsibility.",
+      "range": {
+        "startLine": 128,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 93
+      },
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
