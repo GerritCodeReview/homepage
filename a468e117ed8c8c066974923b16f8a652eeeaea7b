@@ -1486,6 +1486,30 @@
     },
     {
       "key": {
+        "uuid": "21dd4587_f91ddcde",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T14:47:09Z",
+      "side": 1,
+      "message": "The Assignee feature has shortcomings *with regards to the above listed use cases*, not by itself.\n\nFor the primary use cases it is detrimental when less than 100% use the feature.\n\nThe Attention Set is a feature that you have to use. It will be impossible to use Gerrit without using the attention set. (Similar to a bug tracking system that you can not use without assigning users.) I have added a prominent sentence stating this to workflow.md.",
+      "parentUuid": "53b00160_2394ebd2",
+      "range": {
+        "startLine": 106,
+        "startChar": 42,
+        "endLine": 107,
+        "endChar": 36
+      },
+      "revId": "a468e117ed8c8c066974923b16f8a652eeeaea7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "106f5b93_fb66924a",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 7
@@ -1529,6 +1553,54 @@
       "revId": "a468e117ed8c8c066974923b16f8a652eeeaea7b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e3fc56b1_b5aed200",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T14:47:09Z",
+      "side": 1,
+      "message": "The Assignee feature has shortcomings *with regards to the above listed use cases*, not by itself.",
+      "parentUuid": "106f5b93_fb66924a",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 48
+      },
+      "revId": "a468e117ed8c8c066974923b16f8a652eeeaea7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2357417e_9ef2f7c0",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T14:47:09Z",
+      "side": 1,
+      "message": "If you or someone else requests it, then we will definitely consider it. I have added it to open questions in implementation.md.\n\nAs stated above, the success of the attention set depends somewhat on all hosts and all users using it, so it becomes a core part of the Gerrit code review workflow. So at least the attention would be turned on by default. If there is an ability to turn it off, then it is opt-out, not opt-in.",
+      "parentUuid": "aee0899b_b7bceb26",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 48
+      },
+      "revId": "a468e117ed8c8c066974923b16f8a652eeeaea7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
