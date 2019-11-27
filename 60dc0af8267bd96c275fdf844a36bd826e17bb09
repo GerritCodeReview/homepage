@@ -22,6 +22,30 @@
       "revId": "60dc0af8267bd96c275fdf844a36bd826e17bb09",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e5b1f3a6_7b71aaae",
+        "filename": "_posts/2019-11-26-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-27T08:51:17Z",
+      "side": 1,
+      "message": "It\u0027s expected to be published today.  It seems I misread your message on slack, so I will fix this.",
+      "parentUuid": "cea0eb1d_1fad9fdf",
+      "range": {
+        "startLine": 74,
+        "startChar": 54,
+        "endLine": 74,
+        "endChar": 58
+      },
+      "revId": "60dc0af8267bd96c275fdf844a36bd826e17bb09",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
