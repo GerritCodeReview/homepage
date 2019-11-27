@@ -60,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "db7b1b4d_9925fb4e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:22:00Z",
+      "side": 1,
+      "message": "I like the idea. Added.",
+      "parentUuid": "292f99e6_6cee92b9",
+      "range": {
+        "startLine": 64,
+        "startChar": 4,
+        "endLine": 64,
+        "endChar": 31
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dc01cb9e_dec0ccde",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -510,6 +534,30 @@
     },
     {
       "key": {
+        "uuid": "da7b517a_46b08fc4",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:22:00Z",
+      "side": 1,
+      "message": "Cool, let me keep your comment unresolved then as a reminder for me to consider this once more when the ESC makes its final decision.",
+      "parentUuid": "aaa23d88_b52c4f00",
+      "range": {
+        "startLine": 125,
+        "startChar": 47,
+        "endLine": 127,
+        "endChar": 46
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ab7d2df7_3a7f0638",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -530,6 +578,30 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "711e07dc_a61c2add",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:22:00Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ab7d2df7_3a7f0638",
+      "range": {
+        "startLine": 128,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 93
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
