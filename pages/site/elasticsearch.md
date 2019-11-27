@@ -11,7 +11,7 @@ The following table shows the compatibility of Gerrit Code Review with Elasticse
 
 | Elasticsearch Version | 2.14.x  | 2.15.x  | 2.16.x  | 3.x   | Notes                                            |
 |-----------------------|---------|---------|---------|-------|--------------------------------------------------|
-| 2.4.x                 | 2.14.8  | 2.15.3  |         | 3.0.0 | Support discontinued in 2.15.8, 2.16.1 and 3.0.0 |
+| 2.4.x                 | 2.14.8  | 2.15.3  |         |       | Support discontinued in 2.15.8, 2.16.1 and 3.0.0 |
 | 5.6.x                 | 2.14.8  | 2.15.3  |         | 3.0.0 |                                                  |
 | 6.2.x                 | 2.14.8  | 2.15.3  |         | 3.0.0 |                                                  |
 | 6.3.x                 | 2.14.10 | 2.15.3  |         | 3.0.0 |                                                  |
