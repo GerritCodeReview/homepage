@@ -65,6 +65,29 @@
     },
     {
       "key": {
+        "uuid": "c6d2f890_05774f7a",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-11-27T14:30:19Z",
+      "side": 1,
+      "message": "This is fully supported in Gerrit 3.1. Should this be Java 13 support instead? Or do you mean switching to build Gerrit with Java 11 per default and producing major byte code version 55?",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 17
+      },
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4193d973_98baec70",
         "filename": "pages/site/roadmap/roadmap.md",
         "patchSetId": 2
