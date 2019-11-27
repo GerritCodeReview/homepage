@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "cc158421_d9b22da8",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "b990d537_c40fb7af",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "292f99e6_6cee92b9",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -59,6 +77,24 @@
     },
     {
       "key": {
+        "uuid": "7313ad7f_83904892",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "That sounds like a severe problem with citizenship and trust.\n\nDo you have a better default in mind? Do you think by default the owner should not be put into the attention set when a reviewer publishes comments?",
+      "parentUuid": "dc01cb9e_dec0ccde",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c66585fe_83afd7e0",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -73,6 +109,24 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95fe655f_9fc8b787",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c66585fe_83afd7e0",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -116,6 +170,48 @@
     },
     {
       "key": {
+        "uuid": "fcc0892d_0304548a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Ack\n\nAs this is a separate concern, we are currently not planning to implement \"Expectations\" along with the Attention Set. It is too much of a distraction from the core feature set.\n\nAdded a sentence to the doc saying so.",
+      "parentUuid": "99bb02bb_2954319d",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8193fccf_787344b9",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Ack\n\nAs this is a separate concern, we are currently not planning to implement \"Expectations\" along with the Attention Set. It is too much of a distraction from the core feature set.\n\nAdded a sentence to the doc saying so.",
+      "parentUuid": "fb64847d_1ce4f0e9",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 66
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "22275b35_3b3ca615",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -130,6 +226,24 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e73c2f67_142ec72b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "22275b35_3b3ca615",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -150,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "aee95401_53d74a21",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Ack, but I think that would defeat the primary \"at one glance\" use case, if I had to parse additional information to understand if it is really my or someone else\u0027s turn.",
+      "parentUuid": "ba54dad8_9e14cc4f",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ba795c4_81b56d6b",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -167,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "66f3468c_2b6d7295",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Clarified that this is about the owner on a \"ready to submit\" change.",
+      "parentUuid": "9ba795c4_81b56d6b",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f90d1251_e481e5b8",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -181,6 +331,24 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "31ee1dbc_76572077",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Ack, but I think that would defeat the primary \"at one glance\" use case, if I had to parse additional information to understand if it is really my or someone else\u0027s turn.",
+      "parentUuid": "f90d1251_e481e5b8",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -216,6 +384,24 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "282720eb_7152f33e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "I have a hard time taking your critique seriously until you take the time to write your own alternative solution. :-)\n\nFrom https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html:\n\"Anyone who has ideas for an alternative solution uploads a change with a solution-\u003cn\u003e.md that describes their solution.\"\n\n\u003e Fixing the UI of the assignee feature. Many of the UI details you are proposing for AS are perfectly suitable for making the assignee feature more useful.\n\nYeah, cool. Glad you like some parts of the proposal, but which ones? I think it would be up to you to say which UI details are useful and which are not and then write down an alternative proposal. I am beginning to be a bit frustrated and I think that comes from the fact that we don\u0027t have an alternative written down. But I really don\u0027t know exactly what you want. It would be great to get a better understanding of that.",
+      "parentUuid": "625a315c_be1c210b",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -256,6 +442,48 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "686d7996_7992121b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6ecb13b9_a77c1333",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 59
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "210293fc_cf577abc",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-27T15:09:38Z",
+      "side": 1,
+      "message": "Correct, moved to implementation.md.",
+      "parentUuid": "9119492e_e2a66b74",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
