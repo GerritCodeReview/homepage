@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a34761cb_228f1966",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-27T00:54:07Z",
+      "side": 1,
+      "message": "can we say \"features\" here instead?",
+      "range": {
+        "startLine": 10,
+        "startChar": 50,
+        "endLine": 10,
+        "endChar": 58
+      },
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91a7b5f0_d1409932",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-27T00:54:07Z",
+      "side": 1,
+      "message": "features?",
+      "range": {
+        "startLine": 13,
+        "startChar": 86,
+        "endLine": 13,
+        "endChar": 94
+      },
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4592d3db_cd60e077",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-27T00:54:07Z",
+      "side": 1,
+      "message": "General comment, maybe can be addressed in follow-up changes: Would it be useful to link to design documents and/or open changes, where such links are available?  Also, perhaps we can somehow indicate features that are already \"Done\", i.e. changes are submitted to the master branch?",
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4193d973_98baec70",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-27T00:54:07Z",
+      "side": 1,
+      "message": "More specifically, the intention is to rework the plugin using the new interfaces that were defined in core Gerrit.  I\u0027ve actually been wondering if it\u0027s possible to do this already with the 3.1.0 API since IIRC those changes were already included.",
+      "range": {
+        "startLine": 76,
+        "startChar": 2,
+        "endLine": 77,
+        "endChar": 26
+      },
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d921974_3d279f2f",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-27T00:54:07Z",
+      "side": 1,
+      "message": "Duplicate of the previous point?",
+      "range": {
+        "startLine": 88,
+        "startChar": 2,
+        "endLine": 88,
+        "endChar": 23
+      },
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
