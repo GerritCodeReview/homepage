@@ -88,6 +88,30 @@
     },
     {
       "key": {
+        "uuid": "d7b16e9c_5cfc337b",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-11-27T15:44:05Z",
+      "side": 1,
+      "message": "Yes, that\u0027s my understanding. Gerrit v3.2 should target Java 11 by default.\n\nWith Gerrit v3.1, it is built on Java 8 and, with restrictions, can work on Java 11 also, which is different than \"officially supported for production use\".\n\nWe do not run pre-commit validations or E2E tests on Java 11 on the stable-3.1 branch.",
+      "parentUuid": "c6d2f890_05774f7a",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 17
+      },
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4193d973_98baec70",
         "filename": "pages/site/roadmap/roadmap.md",
         "patchSetId": 2
