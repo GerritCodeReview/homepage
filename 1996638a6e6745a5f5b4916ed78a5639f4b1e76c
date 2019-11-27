@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b990d537_c40fb7af",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "this makes it too easy to get rid of \"uncomfortable\" reviewers.",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dc01cb9e_dec0ccde",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "as i said, this is often insufficient. and while the reviewer could manually add the other reviewers, they typically won\u0027t, because it\u0027s fundamentally not their problem.",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c66585fe_83afd7e0",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "this doesn\u0027t work as stated - when a non-owner uploads a new ps, the owner should be treated as a reviewer.",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "99bb02bb_2954319d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "apart from being indeed orthogonal to AS, it\u0027s somewhat questionable that owners would bother to fill out multiple fields when they can simply write a global comment. otoh, the experience is that reviewers often simply don\u0027t bother reading the comments and will do another thing than what was asked from them, so if you make the expectation message really \"in the face\", it could help.",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "22275b35_3b3ca615",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "the ooo case makes no sense here - for yourself, it\u0027s obviously irrelevant whether you\u0027re in the AS or not, because you\u0027re not looking at gerrit, and others can see your status in about the same place they see your AS membership.\n\nthe \"otherwise busy\" case is more plausible. however, the overhead of sharing one\u0027s priority list / schedule via gerrit is unlikely to make this a much used feature.",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ba54dad8_9e14cc4f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "this is valid per se, but i think a better way to deal with that are the aforementioned real-time activity notifications. so i see that i need to do something, but i also see that for the time being the CI and/or other reviewers are currently on it.",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9ba795c4_81b56d6b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "i think that\u0027s bogus. such strict dependencies typically go both ways as far as reviews are concerned, so you would want them to be seen as \"active\" at the same time.",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f90d1251_e481e5b8",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "see line 108",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c7ab1414_f6d23eb9",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "i have a hard time taking this proposal seriously until you take the alternatives sven and me pointed out seriously. specifically:\n- fixing the UI of the assignee feature. many of the UI details you are proposing for AS are perfectly suitable for making the assignee feature more useful\n- implementing simple timestamp-based discrimination, plus additional real-time indicators that act as temporary inhibitors",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9119492e_e2a66b74",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-27T12:04:53Z",
+      "side": 1,
+      "message": "that\u0027s just an implementation detail, not an alternative",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
