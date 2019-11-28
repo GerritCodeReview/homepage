@@ -368,6 +368,30 @@
     },
     {
       "key": {
+        "uuid": "5b0dcb45_1067426c",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-11-28T10:08:54Z",
+      "side": 1,
+      "message": "\u003e [...] but we can\u0027t make Java 11 required yet.\n\nThis section is about Gerrit 3.2 that is scheduled to Q2 2020. Probably, Google will not accomplish Java 11 migration until then. That why, this bullet point should be removed (or moved to the Distant future section), as in Gerrit 3.1 Java 11 is already fully supported. Alternatively change it to: \"Document on the homepage that Gerrit supports Java 11\".\n\n\u003e As next step, we should rather additionally run our tests on Java 11 and see whether they reliably work.\n\nIt is already implemented for months. There are at least two CIs, that are building and running *all* tests for gerrit project with language level Java 11:\n\n* Bazel CI, where I added Java tool chain 11 on 24th. September 2019 in this CL: [1]\n* GerritForge dedicated CI job, that is targeting Java 11 byte code: [2]\n\nParticularly, if you have Java 11 installed on your machine, you could download the latest and greatest Gerrit@HEAD from GerritForge CI Java 11 dedicated job, that produces Java 11 (major byte code version 55) and this would just work: [3].\n\nIOW, I invested so much efforts in last three years my spare free time to make Gerrit support Java 11 out of the box. That includes fixing dozen of problems in Bazel itself, Gerrit, JGit, Guice, rules_closure and other transitive dependencies. And as result of all these efforts, all you have to tell me is: \"Let us add a bullet point Support Java 11 to tentative roadmap list for Gerrit release 3.2\". Really?\n\nAs I said in my previous comment, add to \"Distant future\" section the line: \"Switch to language level Java 11 per default\".\n\n* [1] https://github.com/bazelbuild/continuous-integration/pull/833\n* [2] https://gerrit-ci.gerritforge.com/view/Gerrit/job/Gerrit-bazel-java11-master\n* [3] https://gerrit-ci.gerritforge.com/view/Gerrit/job/Gerrit-bazel-java11-master/105/artifact/gerrit/bazel-bin/gerrit.war",
+      "parentUuid": "3eb4dfa3_37904e4c",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 17
+      },
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4193d973_98baec70",
         "filename": "pages/site/roadmap/roadmap.md",
         "patchSetId": 2
