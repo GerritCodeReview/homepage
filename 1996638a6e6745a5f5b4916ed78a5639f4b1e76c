@@ -119,6 +119,24 @@
     },
     {
       "key": {
+        "uuid": "fb64c4e8_a44fbdd9",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-28T17:27:29Z",
+      "side": 1,
+      "message": "unlike the case of \"uncomfortable\" reviewers, this isn\u0027t about interpersonal relationships, but about asking the impossible from the acting user - they\u0027d have to know every other invited user\u0027s interest in any aspect of the contribution.",
+      "parentUuid": "7313ad7f_83904892",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c66585fe_83afd7e0",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -306,6 +324,24 @@
     },
     {
       "key": {
+        "uuid": "f7b8b327_0c2f75ea",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-28T17:27:29Z",
+      "side": 1,
+      "message": "no, it wouldn\u0027t - on your dashboard, you\u0027d see the list of \"bolded\" changes, some of which would have additional \"decorations\" for \"currently being attended to\", \"you\u0027re the assignee\", \"new replies to threads you participated in\", etc.\nthat might of course be a bit overwhelming at first, but one would quickly get used to it.",
+      "parentUuid": "aee95401_53d74a21",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9ba795c4_81b56d6b",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -423,6 +459,24 @@
       "side": 1,
       "message": "I have a hard time taking your critique seriously until you take the time to write your own alternative solution. :-)\n\nFrom https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html:\n\"Anyone who has ideas for an alternative solution uploads a change with a solution-\u003cn\u003e.md that describes their solution.\"\n\n\u003e Fixing the UI of the assignee feature. Many of the UI details you are proposing for AS are perfectly suitable for making the assignee feature more useful.\n\nYeah, cool. Glad you like some parts of the proposal, but which ones? I think it would be up to you to say which UI details are useful and which are not and then write down an alternative proposal. I am beginning to be a bit frustrated and I think that comes from the fact that we don\u0027t have an alternative written down. But I really don\u0027t know exactly what you want. It would be great to get a better understanding of that.",
       "parentUuid": "625a315c_be1c210b",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2fb978b7_13936368",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-28T17:27:29Z",
+      "side": 1,
+      "message": "@sven: it\u0027s a bit of a stretch to call it a re-implementation given the somewhat fundamental difference, but yeah, the _result_ would essentially look like \"reviewed\" having been fixed. i have no clue what edwin attempted.\n\n@ben: 😋\nsee cover message.",
+      "parentUuid": "282720eb_7152f33e",
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false

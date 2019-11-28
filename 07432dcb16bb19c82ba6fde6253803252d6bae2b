@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b012dc4b_8ddc6767",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-28T17:27:29Z",
+      "side": 1,
+      "message": "that\u0027s not enough. when you leave the reviewer on but systematically keep them out of the attention set, they\u0027ll never know until the change is merged. for all i can tell that\u0027s an unavoidable consequence of taking the decision when action is required out of the affected person\u0027s hands.",
+      "range": {
+        "startLine": 56,
+        "startChar": 93,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "db4f3f5b_247cee46",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-28T17:27:29Z",
+      "side": 1,
+      "message": "grammar botch",
+      "range": {
+        "startLine": 73,
+        "startChar": 87,
+        "endLine": 73,
+        "endChar": 95
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95a667a5_5aa1d4d7",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-28T17:27:29Z",
+      "side": 1,
+      "message": "such inter-change dependencies again require rules which are automatically executed in the background. i wouldn\u0027t rule that out per se, but it seems more appropriate for my \"inhibitors\" approach rather than jamming it into AS.",
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
