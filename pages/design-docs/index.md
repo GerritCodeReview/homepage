@@ -22,6 +22,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html)
 - [Attention Set](design-docs/attention-set.html) by Ben Rohlfs, proposed 2019-11-12
 - [Threaded Change Log](design-docs/threaded-change-log.html) by Jacek Centkowski, proposed 2019-11-13
+- [Deletion of Groups](design-docs/delete-groups.html) by Gal Paikin, proposed 2019-11-29
 
 ## Reviews of Design Documents
 
