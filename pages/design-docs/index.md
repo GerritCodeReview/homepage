@@ -25,6 +25,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Attention Set](design-docs/attention-set.html) by Ben Rohlfs, approved 2020-01-03
 - [Change Log: Threaded Feedback](design-docs/change-log-threaded-feedback.html) by Jacek Centkowski, approved 2020-03-25
 - [Instance Id](design-docs/instance-id/index.html) by Fabio Ponciroli, approved 2020-05-05
+- [Deletion of Groups](design-docs/delete-groups.html) by Gal Paikin, proposed 2019-11-29
 
 ## Reviews of Design Documents
 
