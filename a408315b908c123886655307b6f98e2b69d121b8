@@ -1,0 +1,124 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d56e8a09_2910c47e",
+        "filename": "pages/design-docs/auth-extensions/diagrams/auth-flow.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-11-28T14:56:05Z",
+      "side": 1,
+      "message": "What needs to be done to see the rendered version of this?",
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9369311f_5606dc40",
+        "filename": "pages/design-docs/auth-extensions/solution-auth-extension.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-11-28T14:56:05Z",
+      "side": 1,
+      "message": "I would prefer if the solution doc is added in a follow-up change so that we can concentrate on discussion the use-cases first.",
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7dafc481_c4ca7a0e",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-11-28T14:56:05Z",
+      "side": 1,
+      "message": "Maybe rephrase this to:\n\n* Enable plugins to authenticate users for WebUI login and Git operations over HTTP, e.g. against an external third-party system.\n* Allow administrators to install an auth plugin which is used for user authentication instead of the build-in authentication support that is configured via Auth types (HTTP, LDAP, OAuth, etc...).",
+      "range": {
+        "startLine": 12,
+        "startChar": 2,
+        "endLine": 13,
+        "endChar": 61
+      },
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9fc3f767_02e1a68b",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-11-28T14:56:05Z",
+      "side": 1,
+      "message": "That\u0027s probably not as easy as it sounds. E.g the reviewer suggestion uses the account index to suggest users where the display name / email matches what the user has typed. If the display names / e-mails are not stored in Gerrit, the reviewer suggestion would either not work, or would be unusably slow because it needs to contact the third-party system. If the data is only in the account index, but not otherwise stored in Gerrit, how would Gerrit know when to update the index data to prevent that it gets stale when the name/email changes in the third-party system?\n\nHow to implement this is of course part of the solution, so we can also discuss this later. Just wanted to say that I\u0027m not sure that this is feasible. Should we rather remove this use-case and replace it with something that is easier to achieve?",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 26,
+        "endChar": 63
+      },
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2f98af48_928500e0",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-11-28T14:56:05Z",
+      "side": 1,
+      "message": "Maybe rephrase to:\n\n* Allow administrators to install multiple auth plugins at once that handle user authentication.",
+      "range": {
+        "startLine": 27,
+        "startChar": 2,
+        "endLine": 28,
+        "endChar": 65
+      },
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "412a4463_f8d1dbd7",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-11-28T14:56:05Z",
+      "side": 1,
+      "message": "I would add:\n\n* Add tests for existing auth types so that we are sure that they continue to work when the code is refactored to support the new functionality.\n* (Re)Implement the existing auth support for HTTP, LDAP, OAuth, etc... based on the new auth extension point, so that we are sure that the extension point is generic enough to support all of them and that this functionality could potentially be extracted as plugins.",
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
