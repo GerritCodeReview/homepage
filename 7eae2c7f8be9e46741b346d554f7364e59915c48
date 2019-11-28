@@ -226,6 +226,30 @@
     },
     {
       "key": {
+        "uuid": "04019c5d_a21ef010",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-11-28T05:46:33Z",
+      "side": 1,
+      "message": "\u003e yes, I\u0027d like to use Java 11 features in the next version of JGit\n\nJust bump the Java language level to Java 11, like for example upcoming Jetty version 10. Gerrit is only one project that is using JGit. Why would you care?\n\n\u003e My understanding is that this is about building with Java 11.\n\nIn which case this bullet point should be changed to: \"bump Java language level to Java 11 per default.\"",
+      "parentUuid": "fb257905_7baf7f89",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 17
+      },
+      "revId": "7eae2c7f8be9e46741b346d554f7364e59915c48",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4193d973_98baec70",
         "filename": "pages/site/roadmap/roadmap.md",
         "patchSetId": 2
