@@ -1,0 +1,176 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4d337310_68c1d5b9",
+        "filename": "pages/design-docs/delete-groups/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T00:12:15Z",
+      "side": 1,
+      "message": "Deletion of groups",
+      "range": {
+        "startLine": 1,
+        "startChar": 15,
+        "endLine": 1,
+        "endChar": 31
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1db107c6_9f7ddc0a",
+        "filename": "pages/design-docs/delete-groups/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T00:12:15Z",
+      "side": 1,
+      "message": "The intention of it being a core feature is that it is usable by plugins that want to perform group deletion. If the functionality is moved to a plugin it makes it difficult to use from another plugin. I wouldn\u0027t say this is a blocker though; we already deal with this situation with the delete-project plugin.",
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "36f1208d_edadd691",
+        "filename": "pages/design-docs/delete-groups/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T00:12:15Z",
+      "side": 1,
+      "message": "Why does implementing as a REST endpoint mean that we have to have the audit trail?",
+      "range": {
+        "startLine": 29,
+        "startChar": 41,
+        "endLine": 37,
+        "endChar": 0
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4e52dd56_516fdc27",
+        "filename": "pages/design-docs/delete-groups/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T00:12:15Z",
+      "side": 1,
+      "message": "This problem can be reduced by making it a core plugin.",
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f847234_b3114efc",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T00:12:15Z",
+      "side": 1,
+      "message": "Related to the comment in the other file. What is the rationale for not needing an audit trail in this case, compared to when it\u0027s implemented as a REST endpoint in core?",
+      "range": {
+        "startLine": 7,
+        "startChar": 57,
+        "endLine": 8,
+        "endChar": 14
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c5a86de0_829a54aa",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T00:12:15Z",
+      "side": 1,
+      "message": "I\u0027m not sure if we need to add so much detail here, but the exact use case for us is not related to the host being around for a long time.  We want to be able to provision a new organization on the host, and later be able to also \"deprovision\" that org if it\u0027s cancelled or moved to a new host.\n\nIn this context organization means a customer, having their projects under a namespace and with access controls managed by a specific group. When the organization is cancelled or moved, we want to remove all the projects and groups associated to it.  The former is already possible with the delete-project plugin.",
+      "range": {
+        "startLine": 12,
+        "startChar": 12,
+        "endLine": 13,
+        "endChar": 38
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b885c06f_13bb32e7",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T00:12:15Z",
+      "side": 1,
+      "message": "nit: lower case \u0027i\u0027 here",
+      "range": {
+        "startLine": 15,
+        "startChar": 15,
+        "endLine": 15,
+        "endChar": 16
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9a83ea1b_ef3af67f",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T00:12:15Z",
+      "side": 1,
+      "message": "I\u0027d say this is minor concern; in many cases groups are not visible to all users.",
+      "range": {
+        "startLine": 15,
+        "startChar": 21,
+        "endLine": 15,
+        "endChar": 77
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
