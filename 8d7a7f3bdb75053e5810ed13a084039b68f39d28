@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "85dfabf0_3221a53f",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T07:36:16Z",
+      "side": 1,
+      "message": "I would also propose that clicking \"reply\" on another change message does not open the \"reply\" dialog. You could visually present changes messages identical to code comments and show a yellow threaded comment box in place. WDYT?",
+      "range": {
+        "startLine": 60,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 14
+      },
+      "revId": "8d7a7f3bdb75053e5810ed13a084039b68f39d28",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d13b8ba_d1fc6a43",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T07:36:16Z",
+      "side": 1,
+      "message": "We don\u0027t have that for inline comments, and I am sceptical about the impact/complexity ratio of this. So I would recommend not doing this now and leave such a controversial change for later.",
+      "range": {
+        "startLine": 64,
+        "startChar": 60,
+        "endLine": 66,
+        "endChar": 74
+      },
+      "revId": "8d7a7f3bdb75053e5810ed13a084039b68f39d28",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91bfd834_c6a31109",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T07:36:16Z",
+      "side": 1,
+      "message": "I would propose to leave the change log ordering as is. It should still be strictly ordered by time, because that is the main goal of that view. Also when you reply to two change messages in one go, then you don\u0027t know how to group this anyway.",
+      "range": {
+        "startLine": 68,
+        "startChar": 4,
+        "endLine": 79,
+        "endChar": 67
+      },
+      "revId": "8d7a7f3bdb75053e5810ed13a084039b68f39d28",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4477c03a_06145542",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T07:36:16Z",
+      "side": 1,
+      "message": "I would love to have this in phase 1.",
+      "range": {
+        "startLine": 115,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 47
+      },
+      "revId": "8d7a7f3bdb75053e5810ed13a084039b68f39d28",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "99cd498f_513ba48c",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T07:36:16Z",
+      "side": 1,
+      "message": "I don\u0027t believe in this having enough impact vs the complexity it generates in the UI and in the code.",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 119,
+        "endChar": 58
+      },
+      "revId": "8d7a7f3bdb75053e5810ed13a084039b68f39d28",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
