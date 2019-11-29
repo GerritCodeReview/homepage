@@ -142,6 +142,30 @@
       "revId": "92f479441e4cb3668bda533cbb6b1146a0b7a27b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7bc1179a_eece5c13",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-11-29T09:33:19Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e We want to switch to use Java 11 features and be able to consume the transitive dependencies, that also switched to Java 11 language level.\n\u003e \n\u003e \u003e Whilst I agree on this, it is not the same as what is indicated at L62.\n\u003e \n\u003e I don\u0027t follow. The line 63 is saying: \"Switched default language level to Java 11\". There is no room for interpretation here. It is binary: whether this change is approved and merged or it is rejected: [1].\n\nThe [1] bumps the minimum required version of Java to 11. If Google compiles the code targeting Java 8, then it won\u0027t start.\n\n\u003e   Bump java language level to Java 11 per default\n\u003e \n\u003e Right now it\u0027s rejected. Once [1] is merged (and only then), and we announced that Gerrit requires Java 11 to run release.war, we could start using Java 11 feature in Gerrit code and we will be able to consume transitive depedencies (Jetty 10, JGit 6.x, ...) that switched to language level Java 11.\n\nAgreed, and is not v3.2, that\u0027s my understanding.\nAnyway, I\u0027ll be silent now and leave Google to comment on it :-)\n\n\u003e * [1] https://gerrit-review.googlesource.com/c/gerrit/+/246913",
+      "parentUuid": "d863ed22_a210c0fc",
+      "range": {
+        "startLine": 62,
+        "startChar": 4,
+        "endLine": 62,
+        "endChar": 46
+      },
+      "revId": "92f479441e4cb3668bda533cbb6b1146a0b7a27b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
