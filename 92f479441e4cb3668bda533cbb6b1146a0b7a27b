@@ -214,6 +214,30 @@
       "revId": "92f479441e4cb3668bda533cbb6b1146a0b7a27b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fc83fc2_62f71d2c",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2019-11-29T14:36:42Z",
+      "side": 1,
+      "message": "\u003e Can we please get the addition of this roadmap submitted and continue the discussion about how to move to Java 11 somewhere else?\n\nThere is nothing to discuss here: We have your statement, there is a chance to require Java 11 in upcoming 3.2 gerrit release and there is my change to implement that move. C\u0027est tout.",
+      "parentUuid": "b40d879b_7d580b73",
+      "range": {
+        "startLine": 62,
+        "startChar": 4,
+        "endLine": 62,
+        "endChar": 46
+      },
+      "revId": "92f479441e4cb3668bda533cbb6b1146a0b7a27b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
