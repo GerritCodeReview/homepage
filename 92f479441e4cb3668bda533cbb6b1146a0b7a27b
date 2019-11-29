@@ -70,6 +70,30 @@
       "revId": "92f479441e4cb3668bda533cbb6b1146a0b7a27b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "34509df1_09fb37cc",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-11-29T07:48:01Z",
+      "side": 1,
+      "message": "\u003e This is a wrong statement: gerrit coden is already today Java 8 and Java 11 compatible.\n\nThe statement was \"Google doesn\u0027t use the plain vanilla gerrit.war in their setup, so it won\u0027t matter if they moved to Java 11 or not.\", waiting for Alice to confirm though.\n\n\u003e We want to switch to use Java 11 features and be able to consume the transitive dependencies, that also switched to Java 11 language level. \n\nWhilst I agree on this, it is not the same as what is indicated at L62.\nI agree with you that it can be challenging to do that in v3.2, as I am not sure that Google will be able to complete his transition to Java 11 on time.\n\n\u003e Jetty upcoming 10 release can only be used with Java 11. Also see Matthias comment why it would make sense to switch to java 11 for JGit in this change.\n\nThat should be a wake up call for Google to speed up their plans of upgrading it.",
+      "parentUuid": "702671ef_e0413f04",
+      "range": {
+        "startLine": 62,
+        "startChar": 4,
+        "endLine": 62,
+        "endChar": 46
+      },
+      "revId": "92f479441e4cb3668bda533cbb6b1146a0b7a27b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
