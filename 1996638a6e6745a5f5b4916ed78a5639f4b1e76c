@@ -137,6 +137,24 @@
     },
     {
       "key": {
+        "uuid": "883f7551_bbd0f874",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T08:44:51Z",
+      "side": 1,
+      "message": "If you think this is not a great default, then would could be a better default?\n\nAlso see below: \"These simple defaults are not expected to do the right thing in 100% of the cases, just maybe 90%. The owner of a change is still expected to manage the attention set individually and make sure that it reflects their expectations.\"\n\nUltimately it is the owner\u0027s responsibility to curate the attention set. Reviewers can just do their best.",
+      "parentUuid": "fb64c4e8_a44fbdd9",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c66585fe_83afd7e0",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -339,6 +357,24 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7e3da50a_3fa013c3",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T08:44:51Z",
+      "side": 1,
+      "message": "I believe it is easier to not parse all these decorations and have the information of \"is x expected to act on y?\" question clearly modeled as a boolean. Commenting further on your suggestion only makes sense, if it is built our as a complete solution.",
+      "parentUuid": "f7b8b327_0c2f75ea",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {

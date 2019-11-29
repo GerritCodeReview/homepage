@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "acb20827_07b7acfe",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T08:44:51Z",
+      "side": 1,
+      "message": "If I understand correctly then you are saying that an owner could avoid adding a specific reviewer\u0027s feedback by not adding them to the attention set? Yeah, that is possible and to me that would be a sign of a severely broken trust and culture in your project. I don\u0027t think we should be building Gerrit for these kinds of long tail broken workflows.",
+      "parentUuid": "b012dc4b_8ddc6767",
+      "range": {
+        "startLine": 56,
+        "startChar": 93,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "db4f3f5b_247cee46",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 10
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "933aba48_5a10372e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T08:44:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "db4f3f5b_247cee46",
+      "range": {
+        "startLine": 73,
+        "startChar": 87,
+        "endLine": 73,
+        "endChar": 95
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "95a667a5_5aa1d4d7",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 10
@@ -62,6 +110,24 @@
       "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd78090e_ceeb5c77",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-11-29T08:44:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "95a667a5_5aa1d4d7",
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
