@@ -94,6 +94,30 @@
       "revId": "92f479441e4cb3668bda533cbb6b1146a0b7a27b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9e93188_6bdaad90",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2019-11-29T07:52:53Z",
+      "side": 1,
+      "message": "\u003e I am very skeptical that Google will finalize the switch to Java 11 internally by the Q2 2020, so that the switch would definitely miss gerrit release 3.2 and probably gerrit release 3.3 (Q4 2020) as well. \n\nThe roadmap is a living document; if it turns out that this won\u0027t happen for 3.2 then we can adjust the roadmap to move it to a later release or \"distant future\".",
+      "parentUuid": "34509df1_09fb37cc",
+      "range": {
+        "startLine": 62,
+        "startChar": 4,
+        "endLine": 62,
+        "endChar": 46
+      },
+      "revId": "92f479441e4cb3668bda533cbb6b1146a0b7a27b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
