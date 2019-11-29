@@ -128,6 +128,30 @@
     },
     {
       "key": {
+        "uuid": "d768afc5_7647547a",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2019-11-29T09:47:49Z",
+      "side": 1,
+      "message": "Doesn\u0027t this mean that the following behavior would actually satisfy the main usecase?\n1. Deleted groups go to refs/deletedgroups\n2. Deleted groups have an audit trail.\n3. Once a group is created with the same name as before, it finds the relevant ref in refs/deletedgroups and recreates the group, and connects the audit trails.\n\nIf so I really misunderstood the problem in the Hackathon, I thought the entire problem was that this doesn\u0027t work out for your use case :)",
+      "parentUuid": "c5a86de0_829a54aa",
+      "range": {
+        "startLine": 12,
+        "startChar": 12,
+        "endLine": 13,
+        "endChar": 38
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b885c06f_13bb32e7",
         "filename": "pages/design-docs/delete-groups/use-cases.md",
         "patchSetId": 1
