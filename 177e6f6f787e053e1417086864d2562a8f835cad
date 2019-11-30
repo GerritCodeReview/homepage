@@ -1,0 +1,199 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9788fd42_97d8e4ac",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "i\u0027d drop that, because it prompts the question \"what about everyone else?\", which is not answered.",
+      "range": {
+        "startLine": 57,
+        "startChar": 82,
+        "endLine": 57,
+        "endChar": 94
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "615235d2_2714ff7e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "i\u0027d append \"per se\" here (explanation below).",
+      "range": {
+        "startLine": 57,
+        "startChar": 51,
+        "endLine": 57,
+        "endChar": 61
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "05eab6d9_a65b2717",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "\"or abandoned\", i guess",
+      "range": {
+        "startLine": 66,
+        "startChar": 30,
+        "endLine": 66,
+        "endChar": 31
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c527b026_8eccbb5a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "do empty change messages count?\nif so, i\u0027d write \"publishing comments or voting\", or maybe \"replying\" (that appears to be the name of the dialog).\nif no, then i object - i rarely write cover messages in addition to inline comments, and i certainly don\u0027t want such a pointless process requirement imposed on me. also, it would conflict with what i\u0027m suggesting below.",
+      "range": {
+        "startLine": 67,
+        "startChar": 15,
+        "endLine": 67,
+        "endChar": 31
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ef8cd6c9_d0aab892",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "i don\u0027t think considering the committer makes sense. it\u0027s typically enforced that the uploader is the committer, and users that can override it are acting completely on the committer\u0027s behalf.",
+      "range": {
+        "startLine": 70,
+        "startChar": 26,
+        "endLine": 70,
+        "endChar": 38
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "812d0e64_7522ac0f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "\"add only\", otherwise it\u0027s ambiguous.",
+      "range": {
+        "startLine": 73,
+        "startChar": 87,
+        "endLine": 73,
+        "endChar": 96
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ac6124c8_68ac6d0f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "this needs to support multiple @mentions, and the @all wildcard.\n\nthen there is the UI side of it - you wouldn\u0027t want a separate step for selecting the AS, so basically the explicit selection list should be updated as-you-type with only little delay. otoh, this would make the UI somewhat jittery.\nthe alternative would be making @mentions the only way to override the defaults (at publication time), but that suffers from somewhat suboptimal discoverability and inconsistency.",
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b607ccf_dfb37d65",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "after much thought, i came up with this less convoluted and imo much more useful ruleset:\n\n- when a non-empty change message is published, everyone else is added\n  - rationale: the change log is essentially a forum, so it makes no sense to treat the owner specially\n  - refinement: the added users can be overridden with @mentions\n- when an inline comment is published, add\n  - the uploader (and the owner, if different)\n  - everyone else already participating in the thread\n  - refinement: users added via @mentions\n  - refinement: users gain the ability to watch threads without actively participating (yet); conversely, they can unwatch uninteresting threads. the participation status mentioned above is implemented via watches.\n\nall these rules implicitly exclude the publishing user. this should be worked into the \"parent\" item, e.g., \"will remove the publishing user [and exclude them from the inclusion rules below]\".",
+      "range": {
+        "startLine": 69,
+        "startChar": 1,
+        "endLine": 74,
+        "endChar": 26
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c3ac2bc0_780c9af4",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "two more top level items:\n\n- add the uploader (and the owner, if different) when:\n  - change submitability changes\n  - a negative vote is given\n    - this appears redundant, as these should never come without comment, but it happens\n- when a non-owner uploads a PS, the owner is added. the rationale is that this is extraordinary enough to warrant an exception from the rule that uploads are quiet. (hence the \"per se\" above.)",
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}

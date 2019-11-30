@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "5ed6f3fe_aefe3859",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-11-30T13:33:27Z",
+      "side": 1,
+      "message": "yes, that\u0027s what i\u0027m saying.\nyou presumably shouldn\u0027t \"build for\" such situations, but pretending that they don\u0027t exist doesn\u0027t help.\n\nat the minimum, you need per-user overrides:\n- to set a change to \"aggressive attention set\" mode, where that user is always added to the AS whenever anyone else is added, unless the user themselves is doing it. presumably, the default (applied when the user is added to a change) should be a user setting.\n- a user setting that disables filtering of notification mails according to attention set.\n\nthat lets everyone choose their own trade-off between efficiency and control.",
+      "parentUuid": "acb20827_07b7acfe",
+      "range": {
+        "startLine": 56,
+        "startChar": 93,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "db4f3f5b_247cee46",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 10
