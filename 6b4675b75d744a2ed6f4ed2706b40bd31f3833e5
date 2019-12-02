@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "383de828_96fd4e0c",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-02T21:40:17Z",
+      "side": 1,
+      "message": "\"and (if different) the uploader\"",
+      "range": {
+        "startLine": 70,
+        "startChar": 42,
+        "endLine": 70,
+        "endChar": 47
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "68ccd817_3ecbf08b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-02T21:40:17Z",
+      "side": 1,
+      "message": "this can be simplified to \"if the owner or (if different) the uploader replies, add everyone else\"",
+      "range": {
+        "startLine": 73,
+        "startChar": 4,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}

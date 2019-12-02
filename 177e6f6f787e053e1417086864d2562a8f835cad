@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "cae077c3_c4d48fe3",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-02T21:40:17Z",
+      "side": 1,
+      "message": "no, i was referring to the auto-addition of the owner upon non-owner upload. that still doesn\u0027t cause a notification for the upload _per se_, but as an indirect consequence.",
+      "parentUuid": "fef81ae1_bc16538a",
+      "range": {
+        "startLine": 57,
+        "startChar": 51,
+        "endLine": 57,
+        "endChar": 61
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "05eab6d9_a65b2717",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 12
@@ -366,6 +390,30 @@
     },
     {
       "key": {
+        "uuid": "8c66b829_4dd5cfef",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-02T21:40:17Z",
+      "side": 1,
+      "message": "\u003e Just because a reviewer comments with \"the change is lacking tests\" is not a good reason for adding other reviewers.\n\nwell, no, but \"what does everyone else think?\" is. i\u0027m quite sure that i\u0027ll forget to add \"everyone else\" to the AS on a regular basis, because i\u0027m bad at dealing with redundant data. also, during an ongoing dialog it might not even occur to me that i should \"broadcast\" the particular message. conversely, i\u0027m about just as likely to forget removing \"everyone else\" in the opposite case. so it\u0027s just a choice whether you want to err on the side of reliability or quietness. i think my personal preference is obvious ...\n\none argument you can make in favor of going with \"quiet\" now is that once @mentions are actually implemented and therefore non-redundant specification of @all is sufficient, it won\u0027t be necessary to cause confusion by flipping the default.\n\nwhen jacek\u0027s threaded change messages are in place, the \"thread participants\" idea can be extended to that. but that still leaves open how people would find interesting threads in the first place.",
+      "parentUuid": "e8ef440e_46c67b8b",
+      "range": {
+        "startLine": 69,
+        "startChar": 1,
+        "endLine": 74,
+        "endChar": 26
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c3ac2bc0_780c9af4",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 12
@@ -395,6 +443,24 @@
       "side": 1,
       "message": "I don\u0027t understand.\n\nAny vote adds the owner/uploader.\n\nChange submitability changes on voting, so is this a separate event?\n\nAdded the \"when a non-owner uploads a PS\" rule. Thanks.",
       "parentUuid": "c3ac2bc0_780c9af4",
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2facb351_91fa31b2",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-02T21:40:17Z",
+      "side": 1,
+      "message": "\u003e Any vote adds the owner/uploader.\n\nthat wasn\u0027t stated explicitly before. now it\u0027s clear.",
+      "parentUuid": "1227bfe1_9bf7039f",
       "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
