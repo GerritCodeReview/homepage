@@ -48,6 +48,54 @@
     },
     {
       "key": {
+        "uuid": "e2b702f2_35e579af",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9788fd42_97d8e4ac",
+      "range": {
+        "startLine": 57,
+        "startChar": 82,
+        "endLine": 57,
+        "endChar": 94
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fef81ae1_bc16538a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "This would require configurable notifications, which is a valid feature request for 2020, but I would prefer to not make this part of this proposal.",
+      "parentUuid": "615235d2_2714ff7e",
+      "range": {
+        "startLine": 57,
+        "startChar": 51,
+        "endLine": 57,
+        "endChar": 61
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "05eab6d9_a65b2717",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 12
@@ -68,6 +116,30 @@
       "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4e089c45_eae9e947",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05eab6d9_a65b2717",
+      "range": {
+        "startLine": 66,
+        "startChar": 30,
+        "endLine": 66,
+        "endChar": 31
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "83f90604_fe8330ac",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c527b026_8eccbb5a",
+      "range": {
+        "startLine": 67,
+        "startChar": 15,
+        "endLine": 67,
+        "endChar": 31
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ef8cd6c9_d0aab892",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 12
@@ -114,6 +210,30 @@
       "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aff9c04d_49cb3780",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef8cd6c9_d0aab892",
+      "range": {
+        "startLine": 70,
+        "startChar": 26,
+        "endLine": 70,
+        "endChar": 38
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -157,6 +277,48 @@
     },
     {
       "key": {
+        "uuid": "106e78f8_d6309a48",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "812d0e64_7522ac0f",
+      "range": {
+        "startLine": 73,
+        "startChar": 87,
+        "endLine": 73,
+        "endChar": 96
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1cbd9bf7_b1a640fc",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "I have removed the support for @mentions again after thinking about it more.\n\nAs you say, it is not discoverable. And I would also like to add support for @mentions in a separate effort.\n\nTweaking the attention set while replying will need a dedicated UI. We are working on that. Stay tuned.",
+      "parentUuid": "ac6124c8_68ac6d0f",
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7b607ccf_dfb37d65",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 12
@@ -180,6 +342,30 @@
     },
     {
       "key": {
+        "uuid": "e8ef440e_46c67b8b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "I have added a refinement for \"everyone else already participating in the thread\". That makes sense.\n\nAs mentioned above, I would prefer to implement support for @mentions in a separate effort.\n\nI don\u0027t believe that \"when a non-empty change message is published, everyone else is added\" is a good rule. Just because a reviewer comments with \"the change is lacking tests\" is not a good reason for adding other reviewers.\n\nWatching threads would be a refinement that I would prefer to leave for later iterations.",
+      "parentUuid": "7b607ccf_dfb37d65",
+      "range": {
+        "startLine": 69,
+        "startChar": 1,
+        "endLine": 74,
+        "endChar": 26
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c3ac2bc0_780c9af4",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 12
@@ -194,6 +380,24 @@
       "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1227bfe1_9bf7039f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "I don\u0027t understand.\n\nAny vote adds the owner/uploader.\n\nChange submitability changes on voting, so is this a separate event?\n\nAdded the \"when a non-owner uploads a PS\" rule. Thanks.",
+      "parentUuid": "c3ac2bc0_780c9af4",
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }

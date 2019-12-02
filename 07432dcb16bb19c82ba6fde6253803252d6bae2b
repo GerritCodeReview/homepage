@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "7929b56c_c72e742f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-02T16:17:39Z",
+      "side": 1,
+      "message": "I don\u0027t pretend that such situations don\u0027t exist. I just don\u0027t want to build complexity into the system to cater for them. :-)\n\nIdeally I would also love to avoid too many user settings and configuration knobs. It makes the system harder to maintain and to reason about.",
+      "parentUuid": "5ed6f3fe_aefe3859",
+      "range": {
+        "startLine": 56,
+        "startChar": 93,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "db4f3f5b_247cee46",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 10
