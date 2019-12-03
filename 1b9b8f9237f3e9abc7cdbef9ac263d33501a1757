@@ -118,6 +118,30 @@
       "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2a2e0cd5_93b49400",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-12-03T12:33:33Z",
+      "side": 1,
+      "message": "\u003e (we would need to write down this rule in the documentation that describes the design doc review process)\n\nDone in [1] which has the same topic as this change now.\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/247381",
+      "parentUuid": "7c801c84_53358bab",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 11
+      },
+      "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
