@@ -36,6 +36,29 @@
     },
     {
       "key": {
+        "uuid": "5c947878_d47bbf57",
+        "filename": "pages/design-docs/auth-extensions/solution-auth-extension.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-12-03T11:43:21Z",
+      "side": 1,
+      "message": "than",
+      "range": {
+        "startLine": 39,
+        "startChar": 5,
+        "endLine": 39,
+        "endChar": 9
+      },
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7dafc481_c4ca7a0e",
         "filename": "pages/design-docs/auth-extensions/use-cases.md",
         "patchSetId": 2
@@ -82,6 +105,30 @@
     },
     {
       "key": {
+        "uuid": "1e359f37_b89ca2c5",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-12-03T11:43:21Z",
+      "side": 1,
+      "message": "Just to add on this, we would love to not have to store account data (such as email, display name etc) in Gerrit too, and only have this data in the user backend system, but so far we didn\u0027t have an idea how to make this work, hence I\u0027m curious on your ideas regarding this.",
+      "parentUuid": "9fc3f767_02e1a68b",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 26,
+        "endChar": 63
+      },
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2f98af48_928500e0",
         "filename": "pages/design-docs/auth-extensions/use-cases.md",
         "patchSetId": 2
@@ -116,6 +163,24 @@
       "writtenOn": "2019-11-28T14:56:05Z",
       "side": 1,
       "message": "I would add:\n\n* Add tests for existing auth types so that we are sure that they continue to work when the code is refactored to support the new functionality.\n* (Re)Implement the existing auth support for HTTP, LDAP, OAuth, etc... based on the new auth extension point, so that we are sure that the extension point is generic enough to support all of them and that this functionality could potentially be extracted as plugins.",
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7161911e_b981689e",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-12-03T11:43:21Z",
+      "side": 1,
+      "message": "On another thought, adding the test is not really a secondary use case, but rather a precondition for adding the new extension point. Hence maybe that should be moved into a separate section?",
+      "parentUuid": "412a4463_f8d1dbd7",
       "revId": "a408315b908c123886655307b6f98e2b69d121b8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
