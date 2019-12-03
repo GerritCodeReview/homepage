@@ -1,6 +1,5 @@
 ---
 title: "User Stories"
-sidebar: gerritdoc_sidebar
 permalink: userStories.html
 hide_sidebar: true
 hide_navtoggle: true

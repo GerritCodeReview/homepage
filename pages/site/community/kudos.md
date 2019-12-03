@@ -1,6 +1,5 @@
 ---
 title: "Kudos"
-sidebar: gerritdoc_sidebar
 permalink: kudos.html
 hide_sidebar: true
 hide_navtoggle: true
