@@ -22,6 +22,30 @@
       "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f5c99ff_70d1b7dc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-03T11:46:21Z",
+      "side": 1,
+      "message": "I would like to also copy positive votes on design docs. I would trust the author that when substantial changes are made then they would manually remove the positive votes and ask for another round of review. FWIW, Google internally we always trust and even copy positive votes for all code changes. I would love to do that in Gerrit, as well, if we could restrict this rule to only apply for maintainers. Does that work?",
+      "parentUuid": "46329684_455b65bb",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 11
+      },
+      "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
