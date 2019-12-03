@@ -19,7 +19,8 @@ toc: false
                     <h4>Discuss code</h4>
                     <p>and boost your team's code fu by talking about
                     specifics.</p>
-                    <a href="intro-gerrit-walkthrough.html" class="btn btn-primary">Learn More</a>
+                    <a href="https://gerrit-review.googlesource.com/Documentation/intro-gerrit-walkthrough.html"
+                       class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -35,7 +36,8 @@ toc: false
                     <h4>Serve Git</h4>
                     <p>As an integrated experience within the larger code
                     review flow.</p>
-                    <a href="user-dashboards.html" class="btn btn-primary">Learn More</a>
+                    <a href="https://gerrit-review.googlesource.com/Documentation/user-dashboards.html"
+                       class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -51,7 +53,8 @@ toc: false
                     <h4>Manage workflows</h4>
                     <p>with deeply integrated and delagatable access controls.
                     </p>
-                    <a href="project-configuration.html" class="btn btn-primary">Learn More</a>
+                    <a href="https://gerrit-review.googlesource.com/Documentation/project-configuration.html"
+                       class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
