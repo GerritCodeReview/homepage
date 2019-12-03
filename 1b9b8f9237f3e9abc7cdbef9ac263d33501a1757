@@ -94,6 +94,30 @@
       "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7c801c84_53358bab",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-03T12:31:38Z",
+      "side": 1,
+      "message": "SGTM, I voted +1 anyway, as my comment was non-blocking.",
+      "parentUuid": "3a33c6fe_c889ef73",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 11
+      },
+      "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
