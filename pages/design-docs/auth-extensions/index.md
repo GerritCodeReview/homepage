@@ -9,3 +9,4 @@ toc: false
 # Design Doc - Gerrit Auth Backend
 
 * [Use Cases](use-cases.md)
+* [Solution - Auth Extension Point](solution-auth-extension.md)
