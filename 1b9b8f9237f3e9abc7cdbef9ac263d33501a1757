@@ -46,6 +46,30 @@
       "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c67be10b_622ddb67",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-12-03T11:57:13Z",
+      "side": 1,
+      "message": "Just by the label configuration we can neither exclude design docs nor make this rule only apply to some users. Maybe that\u0027s doable by a Prolog rule, but we don\u0027t like to add new Prolog rules.\n\nI agree with Ben that copying the votes is useful for design docs, and I think we can trust authors to remove votes if significant changes to a design are done (we would need to write down this rule in the documentation that describes the design doc review process). If anyone misuses this, we can just revert the commit.",
+      "parentUuid": "0f5c99ff_70d1b7dc",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 11
+      },
+      "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
