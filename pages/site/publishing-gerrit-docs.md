@@ -1,6 +1,5 @@
 ---
 title: "Publishing Gerrit Documentation"
-sidebar: gerritdoc_sidebar
 permalink: publishing.html
 hide_sidebar: true
 hide_navtoggle: true
@@ -118,7 +117,6 @@ content, see [Getting started with the Documentation Theme for Jekyll](http://id
     ```
     ---
     title: [TITLE_NAME]
-    sidebar: [SIDEBAR_NAME]
     permalink: [FILENAME]
     ---
     ```
@@ -126,12 +124,6 @@ content, see [Getting started with the Documentation Theme for Jekyll](http://id
     Where:
 
     *  TITLE_NAME is the title of the topic.
-    *  SIDEBAR_NAME is one of the following values:
-       *  gerritsidebar: This sidebar is used for most topics.
-       *  errors_sidebar: This sidebar is used for error messages.
-       *  cmd_sidebar: This sidebar is used for the command reference topics.
-       *  restapi_sidebar: This sidebar is used for the REST API reference.
-       *  userguide_sidebar: This sidebar is used for the Gerrit User Guide (currently in alpha
     *  FILENAME is the output name of the file. This name MUST be unique.
 
 1.  Author your topic using the Kramdown Markdown.

@@ -92,7 +92,6 @@ defaults:
       layout: "page"
       comments: false
       search: true
-      sidebar: gerritdoc_sidebar
       topnav: topnav
   -
     scope:
@@ -112,21 +111,9 @@ defaults:
       layout: "post"
       comments: false
       search: true
-      sidebar: home_sidebar
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
-
-sidebars:
-- home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
-- gerritdoc_sidebar
-- cmd_sidebar
-- errors_sidebar
-- restapi_sidebar
 
 description: "The definitive source for all things related to Gerrit Code
 Review."

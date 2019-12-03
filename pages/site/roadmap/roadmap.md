@@ -1,6 +1,5 @@
 ---
 title: "Tentative Roadmap"
-sidebar: gerritdoc_sidebar
 permalink: roadmap.html
 hide_sidebar: true
 hide_navtoggle: true

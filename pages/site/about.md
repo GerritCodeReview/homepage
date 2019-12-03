@@ -1,6 +1,5 @@
 ---
 title: "Gerrit's History"
-sidebar: gerritdoc_sidebar
 permalink: about.html
 hide_sidebar: true
 hide_navtoggle: true
