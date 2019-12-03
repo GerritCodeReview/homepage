@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "46329684_455b65bb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-03T11:21:33Z",
+      "side": 1,
+      "message": "Whilst I am generally fine with this relaxed check, I would exclude design docs. It is true that do not contain code; however, they do contain the design of the code which could be even more important than the code itself.\n\nOut of topic: we should introduce a way to \"detect\" the trivial changes (white-spaces etc) and implement a copyPositiveScoreOnTrivialChange feature :-)",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 11
+      },
+      "revId": "1b9b8f9237f3e9abc7cdbef9ac263d33501a1757",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
