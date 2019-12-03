@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "8ff7b87a_55418389",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-03T23:12:32Z",
+      "side": 1,
+      "message": "nit: trailing whitespace",
+      "range": {
+        "startLine": 45,
+        "startChar": 56,
+        "endLine": 45,
+        "endChar": 57
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d07be9e4_5290fc9e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-03T23:12:32Z",
+      "side": 1,
+      "message": "nit: I know you have the caveat on line 22 about owner, but since you\u0027re listing reviewers and CCs separately, you might want to list \u0027uploaders\u0027 separately too. Given that in the defaults you have both owner and uploader-specific actions, you might want to always list them separately (I think it would help address Oswald\u0027s comments too).",
+      "range": {
+        "startLine": 54,
+        "startChar": 5,
+        "endLine": 54,
+        "endChar": 10
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "383de828_96fd4e0c",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -42,6 +88,69 @@
         "endLine": 74,
         "endChar": 80
       },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5f1cb506_29d9f8eb",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-03T23:12:32Z",
+      "side": 1,
+      "message": "nit: trailing whitespace?",
+      "range": {
+        "startLine": 28,
+        "startChar": 36,
+        "endLine": 28,
+        "endChar": 37
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "32c47585_aa6f7950",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-03T23:12:32Z",
+      "side": 1,
+      "message": "Related to the comment below, is this just \"discoverable\" or also \"usable for manually modifying who is in the attention set\"?",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 42
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8b2e55f7_7a0ce985",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-03T23:12:32Z",
+      "side": 1,
+      "message": "I interpreted this as manual, but Martin read it as \"could be automated\". Which one did you intend? Assuming you didn\u0027t intend automated, should that also be an acceptance criteria?",
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
