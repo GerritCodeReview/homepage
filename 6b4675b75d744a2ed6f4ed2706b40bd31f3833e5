@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "88456a6c_e6e3b9e8",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-04T18:28:27Z",
+      "side": 1,
+      "message": "well, gerrit, like every software, already enforces certain workflows by its very design. others may not be strictly enforceable, but not using them amounts to self-sabotage, and given a good UI, it would be just silly to avoid them.\nso a more valid objection would be to speak of \"unnecessary constraints\", and to consider thoroughly whether that\u0027s the case here.\nprovided the \"knobs\" we both stipulated are implemented, i don\u0027t see a problem with the AS being a core workflow, as with these modifications it doesn\u0027t appear to be particularly intrusive - it\u0027s really an already present and always enabled feature, but on steroids.\n\nas far as \"authoritarian\" concerns, that\u0027s actually the word that came to my mind when i tried to describe the new workflow itself, but that seemed a tad over the top. but my wording \"passive on the receiving end\" wasn\u0027t very well understood. maybe opt-out vs. opt-in would be better? anyway, other thread.",
+      "parentUuid": "f280639d_5d7bb988",
+      "range": {
+        "startLine": 25,
+        "startChar": 31,
+        "endLine": 25,
+        "endChar": 65
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "fae84a6e_42ec0846",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -151,6 +175,30 @@
       "writtenOn": "2019-12-04T14:13:09Z",
       "side": 1,
       "message": "nit:\n\n    4 things that we perceive as",
+      "range": {
+        "startLine": 40,
+        "startChar": 24,
+        "endLine": 40,
+        "endChar": 26
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "85f20a40_406eb1d2",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-04T18:28:27Z",
+      "side": 1,
+      "message": "to be extra-pedantic, this should be spelled out as \"four\". :D",
+      "parentUuid": "5a441327_2840ba00",
       "range": {
         "startLine": 40,
         "startChar": 24,
@@ -301,6 +349,30 @@
     },
     {
       "key": {
+        "uuid": "bf46ebb1_8963dce7",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-04T18:28:27Z",
+      "side": 1,
+      "message": "true, it\u0027s possible to upload a patchset and remove oneself right away (i think ...?).\n\nanyway, i think this enumeration unnecessarily complicates matters. \"participants\" or \"subscribers\" would seem more natural. or \"users on the review\"? other ideas? isn\u0027t there an established term for that already?",
+      "parentUuid": "d07be9e4_5290fc9e",
+      "range": {
+        "startLine": 54,
+        "startChar": 5,
+        "endLine": 54,
+        "endChar": 10
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9a1aff80_9f9cd4b0",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -312,6 +384,30 @@
       "writtenOn": "2019-12-04T14:13:09Z",
       "side": 1,
       "message": "Although I personally see this as an improvement I know of many users that would appreciate the ability to configure this on a user level.\nPerhaps you could consider a switch in the user-settings in the lines of:\n\nNotify me:\n\nalways | only when I\u0027m in the Attention Set",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 33
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a794c0f_083c138e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-04T18:28:27Z",
+      "side": 1,
+      "message": "that\u0027s functionally almost equivalent to what i asked for (because any action by others adds one to the \"aggressive AS\"). the caveat is that there\u0027s the option to also get notified about one\u0027s own comments, so your suggestion appears better. it might even make sense to put that option in the existing combo box:\n\nEmail notifications:\n- Every comment [that\u0027s actually a misnomer; it means \"All activity\"]\n- Only comments left by others [again: \"activity by others\"]\n- Only when I\u0027m in the attention set\n- Never\n\nas a refinement i also asked for, the two \"only ...\" options would enable a per-change setting which permits toggling to the other option.",
+      "parentUuid": "9a1aff80_9f9cd4b0",
       "range": {
         "startLine": 56,
         "startChar": 0,
