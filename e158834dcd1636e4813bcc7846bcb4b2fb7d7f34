@@ -144,6 +144,30 @@
     },
     {
       "key": {
+        "uuid": "df414feb_2189bd4c",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-04T18:57:39Z",
+      "side": 1,
+      "message": "What about reporting sub-checks that still need to run, to give the user visibility into those pending checks? From the wording in the Acceptance Criteria, it sounds like sub-checks would only be reported post-completion. If you have sub-sub-checks (or some other kind of dependency structure) it could be hours before the top-level check completes and reports any kind of status to the user.",
+      "parentUuid": "ec84ead3_30ddd127",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 6
+      },
+      "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "01c83e67_6278e635",
         "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
         "patchSetId": 4
@@ -176,6 +200,24 @@
       "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c1c3aef_94cfefde",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-04T18:57:39Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "75078470_f3ca22d7",
+      "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
