@@ -2,6 +2,190 @@
   "comments": [
     {
       "key": {
+        "uuid": "7178e5c9_d01cb11d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "I thought we had converged on the assumption that assignee and AS doesn\u0027t have that big of an overlap.\nAS - Used for each change.\nassignee - Used to express f.i. urgency.\n\nWhat I assumed we still disagreed on was whether the benefits of having assignee on top of AS outweighed the costs.\n\nIf my assumptions are correct I would argue that:\n# AS is a replacement for the \"Reviewed\" (aka reviewed-flag, aka reviewed-star) feature.\n# Because you fear that having both AS and assignee would be confusing to users you propose to remove assignee or make the assignee feature configurable (default disabled).",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 67
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f280639d_5d7bb988",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "IMO this is rather unfortunate authoritarian language for a design-proposal in an Open-Source project.\nIf a company|project wishes to use a Gerrit feature or not or how they wish to use it shouldn\u0027t be any of our concerns and furthermore we have no way of enforcing that they use it \"correctly\".\n\nThis is the type of rule you can set up for f.i. gerrit-review.googlesource.com but it\u0027s not our place to have this demand on every installation of Gerrit.",
+      "range": {
+        "startLine": 25,
+        "startChar": 31,
+        "endLine": 25,
+        "endChar": 65
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fae84a6e_42ec0846",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "expected, same argument as above.",
+      "range": {
+        "startLine": 28,
+        "startChar": 31,
+        "endLine": 28,
+        "endChar": 52
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c7c5ef8e_f95ce3e4",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "That\u0027s a quite definitive statement, proposal:\n\n   As a reviewer you shouldn\u0027t have to concern yourself with changes you are not assigned to.",
+      "range": {
+        "startLine": 31,
+        "startChar": 4,
+        "endLine": 31,
+        "endChar": 74
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "193e046b_e311dd28",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "nit:\n\n    are expected",
+      "range": {
+        "startLine": 32,
+        "startChar": 22,
+        "endLine": 32,
+        "endChar": 26
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd00698e_32f31928",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "nit:\n\n    expect",
+      "range": {
+        "startLine": 34,
+        "startChar": 22,
+        "endLine": 34,
+        "endChar": 29
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5a441327_2840ba00",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "nit:\n\n    4 things that we perceive as",
+      "range": {
+        "startLine": 40,
+        "startChar": 24,
+        "endLine": 40,
+        "endChar": 26
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eeea9298_2fafa929",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "Since assignee is based on setters perceived urgency it is not trivial to find any way to automate it.\nAs discussed earlier it *would* be trivial to implement some baseline transitions.\n* When the assigned reviewer replies to a change unset or set the one who set the assignee as assignee.",
+      "range": {
+        "startLine": 43,
+        "startChar": 4,
+        "endLine": 43,
+        "endChar": 46
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8ff7b87a_55418389",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -25,6 +209,75 @@
     },
     {
       "key": {
+        "uuid": "cb348792_a785023a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "Arguably this is a feature of assignee, not a shortcoming.",
+      "range": {
+        "startLine": 46,
+        "startChar": 4,
+        "endLine": 46,
+        "endChar": 38
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b687770c_b1978a04",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "Personally I don\u0027t see the usefulness of striving towards setting everything in the reply-dialog.\nOne of the most reoccurring complaints about PG from our users is that you *have to* set everything in the reply-dialog.",
+      "range": {
+        "startLine": 47,
+        "startChar": 4,
+        "endLine": 47,
+        "endChar": 44
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "188a7148_9e3f7969",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "This is a shortcoming that all features exposed in the UI has.\nThe real issue is whether the cost of having them in the UI outweighs the benefits of exposing them.\nThe only way the design proposal, in it\u0027s current state, is addressing this particular shortcoming of assignee (a shortcoming shared with all other features in the UI) is that it suggests to remove it together with the benefits it has.\n\nSo instead of having this point as \"addressing one of the shortcomings of assignee\", it would be better suited under a list of arguments for Attention Set.",
+      "range": {
+        "startLine": 50,
+        "startChar": 6,
+        "endLine": 50,
+        "endChar": 44
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d07be9e4_5290fc9e",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -41,6 +294,29 @@
         "startChar": 5,
         "endLine": 54,
         "endChar": 10
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9a1aff80_9f9cd4b0",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "Although I personally see this as an improvement I know of many users that would appreciate the ability to configure this on a user level.\nPerhaps you could consider a switch in the user-settings in the lines of:\n\nNotify me:\n\nalways | only when I\u0027m in the Attention Set",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 33
       },
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
@@ -87,6 +363,75 @@
         "startChar": 4,
         "endLine": 74,
         "endChar": 80
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d82ef65f_f18f849f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "could",
+      "range": {
+        "startLine": 129,
+        "startChar": 29,
+        "endLine": 129,
+        "endChar": 34
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9096c19f_5c9372e2",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "As per previous discussions I don\u0027t think there\u0027s anyone who\u0027d want either-or.\nI thought we\u0027d come to the conclusion that the overlap between assignee and AS wasn\u0027t as substantial as it was initially described in this design-proposal. The debate is more around how big the net benefit of using assignee together with AS is, not whether there\u0027s any benefits at all.\n\nSince the usefulness of AS is more general (for everyday use) than the usefulness of assignee (which is used in exceptional cases to f.i. to describe urgency), either-or is not really an alternative to removing assignee since it would have the same effect, only with a more complicated implementation.\n\nNot totally analogous but: I could compare it with the option of either submit-button or rebase-button. The choice is simple since you use the submit-button for just about every change you upload, whereas the rebase-button increases the usefulness of Gerrit but you can get by without it.\n\nWe would prefer to have both assignee and AS and I wouldn\u0027t want to choose between them.",
+      "range": {
+        "startLine": 132,
+        "startChar": 15,
+        "endLine": 132,
+        "endChar": 25
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "32e78ca1_21e3a91d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2019-12-04T14:13:09Z",
+      "side": 1,
+      "message": "Then you wouldn\u0027t be able to use the Attention Set for what it is designed for so you\u0027d loose the functionality (that is \"sort-of\" supported by reviewed-flag currently).\nIt would be the same choice as the either-or scenario above but and AS limited to one reviewer would be less useful than assignee.",
+      "range": {
+        "startLine": 134,
+        "startChar": 0,
+        "endLine": 137,
+        "endChar": 67
       },
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
