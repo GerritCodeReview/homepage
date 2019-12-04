@@ -168,6 +168,30 @@
     },
     {
       "key": {
+        "uuid": "5a388200_47ed7911",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-12-04T19:16:00Z",
+      "side": 1,
+      "message": "Good point.  In the proposed solution, we\u0027ve explicitly stated that sub-checks may be updated multiple times.  I think you\u0027ve made a good argument for describing that as a use-case, and we should indicate that here.  I\u0027ll add that in the next PS.",
+      "parentUuid": "df414feb_2189bd4c",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 6
+      },
+      "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "01c83e67_6278e635",
         "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
         "patchSetId": 4
