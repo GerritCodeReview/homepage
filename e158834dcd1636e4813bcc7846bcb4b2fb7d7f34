@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "926ddba5_b8fa1dd2",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-12-04T17:48:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "57ba2c78_e764e75f",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 4
+      },
+      "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1ca8e318_082a5d1d",
         "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
         "patchSetId": 4
@@ -96,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "ec84ead3_30ddd127",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-12-04T17:48:05Z",
+      "side": 1,
+      "message": "Yes, I intend for this to account for any external system which decides what checks to run.  For example, Zuul can use criteria such as branch or files modified to determine that a job is relevant; jobs can then declare that they should only run when others complete; and in particularly complex cases, jobs can run simply for the purpose of deciding what further jobs should be run.  All of that should be accommodated by giving the checker control over what it reports as sub-checks.",
+      "parentUuid": "1ca8e318_082a5d1d",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 6
+      },
+      "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "01c83e67_6278e635",
         "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
         "patchSetId": 4
@@ -107,6 +155,24 @@
       "writtenOn": "2019-11-21T20:20:10Z",
       "side": 1,
       "message": "This is pretty broad, but maybe that\u0027s your intent? Would any solution meeting this criteria be good enough for you?\n\nAny specific ideas about what \u0027useful\u0027 and \u0027understandable\u0027 would entail?",
+      "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "75078470_f3ca22d7",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-12-04T17:48:05Z",
+      "side": 1,
+      "message": "That\u0027s a good question.  There\u0027s a little bit of text at the bottom suggesting what we would need out of a UI, but it\u0027s not very clear that\u0027s what it is, and in conversation with Ben at GUS, I realized I can supply some more input/requirements based on my own experience with the hacky-javascript UI we have on OpenDev\u0027s current Gerrit.\n\nI\u0027ll make this slightly less vague, but still high-level, and rework the last paragraph to be more clear and add more info.",
+      "parentUuid": "01c83e67_6278e635",
       "revId": "e158834dcd1636e4813bcc7846bcb4b2fb7d7f34",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
