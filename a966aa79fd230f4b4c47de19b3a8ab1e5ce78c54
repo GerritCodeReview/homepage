@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e197609d_f7e2ac8c",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-12-04T17:47:05Z",
+      "side": 1,
+      "message": "\u003e I cannot imagine, that the same sub-check would pass different values for:\n\u003e \n\u003e * rerunnable\n\u003e * required\n\u003e \n\u003e on different changes?\n\nYes, that absolutely will happen.  Whether a sub-check is required or not may change at any time.  It could even change between patchsets for a given change (whether because a new patchset updates Zuul\u0027s configuration, or it was changed externally while a change was under review).  Further, that sub-check may only be required for that change (and not required for others) based solely on the content of the change.\n\nI think I can explain this better in a response below:\n\n\u003e Alternatives: induce the value for rerunnable and required from checker definition. That means that a sub-check is rerunnable, iff the checker is rerunnable and a sub-check is required iff the checker is required. Wouldn\u0027t this be sufficient enough?\n\u003e \n\u003e Example: in Gerrit we currently have:\n\u003e \n\u003e * ReviewDb-Checker\n\u003e * NoteDb-Checker\n\u003e * Polygerrit-Checker\n\u003e * CodeStyle-Checker\n\u003e \n\u003e checkers. Let\u0027s assume we would transform these static checkers definition to one single: ZUUL-checker, with 4 sub-checks:\n\u003e \n\u003e * ReviewDb-Sub-Check\n\u003e * NoteDb-Sub-Check\n\u003e * Polygerrit-Sub-Check\n\u003e * CodeStyle-Sub-Check\n\u003e \n\u003e We would then define, that the ZUUL is both rerunnable and required, in which case all above sub-checkers are also rerunnable and required. In this proposal, the SubCheckInput entity would not offer config attribute and the values for sub-checks are induced from the checker definition.\n\nThat is one policy we could adopt and may be fine for the Gerrit project.  But we have a different policy in place for the OpenStack project:\n\nThe \"Zuul\" check is always required, however its sub-checks may or may not be required.  We run non-voting jobs when we are interested in the result of a job but know that it is unstable (perhaps due to a dependency on unreliable external resources), or when we are creating new jobs and consider them experimental.\n\nHere is an example buildset from Zuul itself:\n\n  http://zuul.opendev.org/t/zuul/buildset/cdcee563c2fa4db491c9231b87b017f3\n\nThe overall result of the buildset (\u003d\u003dcheck) is success, and it is required.  One of the jobs (\u003d\u003dsub-check), \"nodepool-zuul-functional\" is non-voting (\u003d\u003dnot required).  We usually want to see it pass, but if everything else passes and it fails because it is unable to set up a dependency, we usually approve the change anyway.\n\nThe same thing is true for re-running.  In OpenDev, we have a policy of not allowing re-running of individual jobs (sub-checks).  In fact, we typically ask that people re-run tests from *all* CI systems (checks).  I know that sounds excessive to some, but we do that in order to reduce the chance that a flaky test merges in the first place.  In order to implement this policy with checks, in OpenDev\u0027s Zuul, we will likely set the overall check to rerunnable\u003dTrue, and each individual sub-check to rerunnable\u003dFalse.\n\nIn short, I think we need the flexibility of having different values for both of these attributes for each of the sub-checks, and also the check itself.",
+      "parentUuid": "c443c199_8dc5fee4",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 0
+      },
+      "revId": "a966aa79fd230f4b4c47de19b3a8ab1e5ce78c54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b5cc4e63_a2a180c6",
         "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
         "patchSetId": 4
@@ -45,6 +69,30 @@
       "revId": "a966aa79fd230f4b4c47de19b3a8ab1e5ce78c54",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95fed3c9_9f6a0482",
+        "filename": "pages/design-docs/plugins/checks/sub-checks/solution-0.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1087826
+      },
+      "writtenOn": "2019-12-04T17:47:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b5cc4e63_a2a180c6",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 4
+      },
+      "revId": "a966aa79fd230f4b4c47de19b3a8ab1e5ce78c54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
