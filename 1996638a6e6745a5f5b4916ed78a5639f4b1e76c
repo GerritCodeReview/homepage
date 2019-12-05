@@ -190,6 +190,23 @@
     },
     {
       "key": {
+        "uuid": "c881b549_b6623f2d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1073575
+      },
+      "writtenOn": "2019-12-05T03:05:52Z",
+      "side": 1,
+      "message": "Long term do you imagine other ways of customizing the defaults other than direct manual adjustment?\n\nFor example, could a repo define different or additional rules. Or could a user have a rule they would like applied to them. For example, \"Add me to the attention set whenever another reviewer publishes a comment\" or \"Add me to the attention set whenever a patch set is uploaded\" for people who want that level of visibility?",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "99bb02bb_2954319d",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -293,6 +310,23 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a0cfb651_b97d1b1c",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1073575
+      },
+      "writtenOn": "2019-12-05T03:05:52Z",
+      "side": 1,
+      "message": "How would checks / pre-submit tests potentially fit into this?",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
@@ -716,6 +750,29 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96a2279c_94d2137d",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1073575
+      },
+      "writtenOn": "2019-12-05T03:05:52Z",
+      "side": 1,
+      "message": "time zone / working hours difference is another great example here.",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 33
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
