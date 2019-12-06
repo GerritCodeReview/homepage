@@ -558,6 +558,29 @@
     },
     {
       "key": {
+        "uuid": "27499170_0e22ce86",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-06T19:38:00Z",
+      "side": 1,
+      "message": "\u0027As\u0027 repeated twice",
+      "range": {
+        "startLine": 43,
+        "startChar": 4,
+        "endLine": 43,
+        "endChar": 9
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "32c47585_aa6f7950",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 13
