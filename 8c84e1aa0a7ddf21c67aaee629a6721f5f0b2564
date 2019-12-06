@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "08677ef2_7fcde15c",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-12-06T16:51:24Z",
+      "side": 1,
+      "message": "I\u0027d want to go in a slightly different direction storage-wise:\n\nWe leave change message alone. Instead, we treat the human-created change message like an in-line comment: Store it in a JSON file in Git instead of in the commit message. The Git commit messages are then just Gerrit\u0027s descriptions of what was updated and contain no user input. So they would say \"Patch set x uploaded\" or \"6 Comments\".\n\nJust like inline comments, the files in Git are updated with commits, but the files at HEAD contains all change messages, so that when we parse a NoteDb ref we only have to parse files at HEAD + commits (important for latency).\n\nThat has multiple advantages over stuffing more content in the commit message:\n1) We get n:m relation options in:\na) When hitting \u0027reply\u0027 on the UI, you can answer n prior change messages just as you can answer x inline comments.\nb) (optional): You can type m new change messages per review to give the author a chance to check off your comments one-by-one and allow for threaded discussions there as well.\n2) Change messages and comments become more alike entity-wise\n3) The parser/serializer is easier, because GSON does the heavy lifting",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 31
+      },
+      "revId": "8c84e1aa0a7ddf21c67aaee629a6721f5f0b2564",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1a49fc66_31cb657d",
         "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
         "patchSetId": 6
