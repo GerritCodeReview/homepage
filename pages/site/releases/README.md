@@ -15,7 +15,7 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.1.0](/3.1.md)**.
+Latest release: **[3.1.0](/3.1.html)**.
 
 ## 3.1.0
 
@@ -27,7 +27,7 @@ Latest release: **[3.1.0](/3.1.md)**.
 
 * Performance logging and tracing
 
-[Release notes for Gerrit 3.1.0](/3.1.md)
+[Release notes for Gerrit 3.1.0](/3.1.html)
 
 ## 3.0.0
 
@@ -42,7 +42,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 * New core plugins: `delete-project`, `gitiles`, `plugin-manager` and `webhooks`.
 
-[Release notes for Gerrit 3.0.0](/3.0.md)
+[Release notes for Gerrit 3.0.0](/3.0.html)
 
 ## 2.16
 
@@ -58,7 +58,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 * New CommonMark/Markdown parser.
 
-[Release notes for Gerrit 2.16](/2.16.md)
+[Release notes for Gerrit 2.16](/2.16.html)
 
 ## 2.15
 
@@ -77,7 +77,7 @@ removed and all metadata is now stored in git ("NoteDb").
 * Made several improvements and additions to the documentation to help users
   find the information they need.
 
-[Release notes for Gerrit 2.15](/2.15.md)
+[Release notes for Gerrit 2.15](/2.15.html)
 
 
 ## 2.14
