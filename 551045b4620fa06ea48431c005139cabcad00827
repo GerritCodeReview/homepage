@@ -147,6 +147,30 @@
     },
     {
       "key": {
+        "uuid": "d345d22c_fec03ef2",
+        "filename": "pages/design-docs/permission-tests/solution-Gal.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2019-12-11T17:26:34Z",
+      "side": 1,
+      "message": "errors are not unheard of, see\n\n  https://gerrit-review.googlesource.com/c/gerrit/+/190214\n\nthis was caught by our internal permission tests.",
+      "parentUuid": "bbcbec2a_8b13347f",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 50
+      },
+      "revId": "551045b4620fa06ea48431c005139cabcad00827",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4e40a550_27edef16",
         "filename": "pages/design-docs/permission-tests/solution-Gal.md",
         "patchSetId": 3
