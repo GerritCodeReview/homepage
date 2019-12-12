@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "05985ab3_9a9e957b",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2019-12-12T13:16:04Z",
+      "side": 1,
+      "message": "Sounds good to me 😊",
+      "parentUuid": "08677ef2_7fcde15c",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 31
+      },
+      "revId": "8c84e1aa0a7ddf21c67aaee629a6721f5f0b2564",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1a49fc66_31cb657d",
         "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
         "patchSetId": 6
