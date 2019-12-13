@@ -63,6 +63,7 @@ Current maintainers are:
 | Ole Rehmsen           | Google                     |
 | Patrick Hiesel        | Google                     |
 | Saša Živkov           | SAP                        |
+| Tao Zhou              | Google                     |
 | Viktar Donich         | Google                     |
 
 ## Former maintainers
