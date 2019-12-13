@@ -9,7 +9,7 @@ hide_navtoggle: true
 toc: true
 ---
 
-## Engineering Steering Committee Meeting, December 12, 2019
+## Engineering Steering Committee Meeting, December 10, 2019
 
 ### Attendees
 
@@ -17,7 +17,7 @@ David Pursehouse, Luca Milanesio, Alice Kober-Sotzek, Patrick Hiesel
 
 ### Place/Date/Duration
 
-Online, December 12, 12:30 - 13:30 CEST
+Online, December 10, 12:30 - 13:30 CEST
 
 ### Next meeting
 
