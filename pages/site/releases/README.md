@@ -15,7 +15,7 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.1.1](/3.1.html)**.
+Latest release: **[3.1.2](/3.1.html)**.
 
 ## 3.1.0
 
