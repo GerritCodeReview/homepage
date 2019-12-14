@@ -9,7 +9,9 @@ hide_navtoggle: true
 toc: true
 ---
 
-## Item 1
+## Documentation
+
+Added documentation [how to backup Gerrit](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.1/backup.html).
 
 ## Item 2
 
