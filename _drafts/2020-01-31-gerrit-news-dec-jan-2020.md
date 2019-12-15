@@ -9,9 +9,14 @@ hide_navtoggle: true
 toc: true
 ---
 
-## Documentation
+## Backup Documentation
 
-Added documentation [how to backup Gerrit](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.1/backup.html).
+Matthias Sohn (SAP) created a new documentation page with detailed
+instructions of how to backup a Gerrit site. This was included in
+the releases
+[2.16.14](http://gerrit-documentation.storage.googleapis.com/Documentation/2.16.14/backup.html),
+[3.0.5](http://gerrit-documentation.storage.googleapis.com/Documentation/3.0.5/backup.html),
+and [3.1.1](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.1/backup.html).
 
 ## Item 2
 
