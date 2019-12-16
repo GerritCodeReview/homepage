@@ -35,6 +35,8 @@ Target: Q2 2020
   * Introduction of Caffeine cache instead of Guava
   * Replace H2 persistence with other more performant backends
   * Improve Gerrit performance with mono-repos (tens of GBytes of size)
+  * Improve Gerrit memory usage for repositories with a large number of
+    non-tag refs and tags
 * Better multi-master / multi-site support
   * Support for pluggable global ref-db (JGit or Gerrit)
   * Zookeeper-based global ref-db
