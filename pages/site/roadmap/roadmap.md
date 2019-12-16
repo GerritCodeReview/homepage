@@ -82,6 +82,9 @@ Target: Q2 2020
 * High-availability plugin
   * Support for global ref-db
   * Mention HA and multi-master setup in Gerrit documentation
+* Examples plugin
+  * Add PolyGerrit examples
+  * Try out plugin best practices (CI badge, homepage, etc)
 
 ## Distant future
 * Role-based access control
