@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "96cc4339_11001afc",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2019-12-16T23:23:23Z",
+      "side": 1,
+      "message": "Do we need this in the roadmap? Examples is a testing plugin so shouldn\u0027t be in the roadmap.",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 0
+      },
+      "revId": "9986b486c4237d854c3f1833f9db12acf3a9d655",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
