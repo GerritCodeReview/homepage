@@ -22,6 +22,30 @@
       "revId": "9986b486c4237d854c3f1833f9db12acf3a9d655",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8bd6bfab_46bc8ad0",
+        "filename": "pages/site/roadmap/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-16T23:26:47Z",
+      "side": 1,
+      "message": "I\u0027m not really sure what\u0027s \"needed\" or not in the roadmap. It\u0027s a new idea for Gerrit 😊\n\nDoes it hurt? I think it helps give the community (including plugin developers) an idea of what\u0027s being worked on.",
+      "parentUuid": "96cc4339_11001afc",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 0
+      },
+      "revId": "9986b486c4237d854c3f1833f9db12acf3a9d655",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
