@@ -685,6 +685,30 @@
     },
     {
       "key": {
+        "uuid": "69e0fad2_470d0ae3",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-17T17:57:48Z",
+      "side": 1,
+      "message": "please follow up on my second paragraph somehow.",
+      "parentUuid": "3e74d085_dc09b9e1",
+      "range": {
+        "startLine": 54,
+        "startChar": 5,
+        "endLine": 54,
+        "endChar": 10
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9a1aff80_9f9cd4b0",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -803,6 +827,30 @@
     },
     {
       "key": {
+        "uuid": "b50a9db6_09a48690",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-17T17:57:48Z",
+      "side": 1,
+      "message": "i don\u0027t think you can/should do that, because in some situations you cannot treat them equivalently (specifically, regarding their interactions). better to \"resolve\" the particular cases and remove the generalized statement to avoid confusion.",
+      "parentUuid": "d3b86d8a_4e9fb101",
+      "range": {
+        "startLine": 70,
+        "startChar": 42,
+        "endLine": 70,
+        "endChar": 47
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "68ccd817_3ecbf08b",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -847,6 +895,30 @@
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a0301a83_d85edcd5",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-17T17:57:48Z",
+      "side": 1,
+      "message": "tbh, i assumed you meant to include ccs, because otherwise you have multiple \"holes\":\n- when someone in cc or entirely uninvited leaves a comment without giving a score, they end up in cc, and so they\u0027d never learn about followups. that\u0027s *mostly* covered by the thread participants logic, but sometimes people just start new threads on a new patchset, etc. i think that point can be addressed by automatically adding/moving users to reviewers when they only comment as well (i find the current behavior weird regardless of AS).\n- how do you intend to realize the initial notification about being added to cc by another user, in particular on the dashboard? it definitely requires *some* kind of attention, as otherwise it would be wholly pointless.",
+      "parentUuid": "4ee8b883_877a65ed",
+      "range": {
+        "startLine": 73,
+        "startChar": 4,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {

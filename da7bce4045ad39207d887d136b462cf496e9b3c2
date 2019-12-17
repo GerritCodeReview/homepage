@@ -70,6 +70,93 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3cc94dd5_5416f240",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-17T17:57:48Z",
+      "side": 1,
+      "message": "apropos nothing: sam, would you mind making your \"real\" name a bit less fancy? it completely messes up the display in various contexts.",
+      "parentUuid": "f17c88bd_c5aa6e9d",
+      "range": {
+        "startLine": 13,
+        "startChar": 5,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2df84188_15725047",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-17T17:57:48Z",
+      "side": 1,
+      "message": "trailing ws.\n(don\u0027t you review your own changes with appropriate highlighting?)",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b84985f5_2943d6c2",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-17T17:57:48Z",
+      "side": 1,
+      "message": "swap",
+      "range": {
+        "startLine": 53,
+        "startChar": 73,
+        "endLine": 53,
+        "endChar": 80
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d73ba23_1878f5fd",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-17T17:57:48Z",
+      "side": 1,
+      "message": "...",
+      "range": {
+        "startLine": 56,
+        "startChar": 22,
+        "endLine": 56,
+        "endChar": 23
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
