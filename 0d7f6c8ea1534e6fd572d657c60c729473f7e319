@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "48a7f85b_da2f9441",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "This is *really* good ! Often I have clear difficulties in understanding what is blocked on me and what should I do as a priority.\n\nAt the moment we rely on people adding \u0027bump\u0027 as a comment, which is a suboptimal solution.\n\nI really welcome this initiative in making it a first-class use-case in Gerrit.",
+      "range": {
+        "startLine": 24,
+        "startChar": 41,
+        "endLine": 24,
+        "endChar": 72
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "15767061_8e315a46",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "I wouldn\u0027t say \"any user\" but I prefer to have this enabled by permission.",
+      "range": {
+        "startLine": 29,
+        "startChar": 7,
+        "endLine": 29,
+        "endChar": 13
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a4cef502_de59537c",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "Is this out of scope? I believe making the notification system pluggable is a different concern, and *really valid one*. I would remove from the use-case of this design.",
+      "range": {
+        "startLine": 33,
+        "startChar": 46,
+        "endLine": 33,
+        "endChar": 60
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4bec814a_9c7d12e3",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "Why not talking about escalation policy for people out of office?\nI recall one very important fix on the replication plugin stuck for weeks because of the holiday period.",
+      "range": {
+        "startLine": 51,
+        "startChar": 12,
+        "endLine": 51,
+        "endChar": 30
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5352312d_5a8d28ef",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "This looks like the Gerrit analytics project: it is already out there as WIP effort.\nIt would be too much to put this processing in the use-case of the attention set IMHO.",
+      "range": {
+        "startLine": 53,
+        "startChar": 57,
+        "endLine": 53,
+        "endChar": 91
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5da78553_d501127b",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "Yes, that\u0027s a good approach. We should think about how to integrate with the reviewers, owners and find-owners plugins.",
+      "range": {
+        "startLine": 63,
+        "startChar": 74,
+        "endLine": 64,
+        "endChar": 28
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b541957c_05af2ca7",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "nit: empty char at the end of the line.",
+      "range": {
+        "startLine": 76,
+        "startChar": 14,
+        "endLine": 76,
+        "endChar": 15
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3860a92f_a1eca659",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "We should clearly say if this is going to deprecate or remove the assingee feature altogether.",
+      "range": {
+        "startLine": 113,
+        "startChar": 8,
+        "endLine": 113,
+        "endChar": 24
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "010b416e_8de01cb8",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:31:46Z",
+      "side": 1,
+      "message": "Nit: space at end of the line.",
+      "range": {
+        "startLine": 116,
+        "startChar": 78,
+        "endLine": 116,
+        "endChar": 79
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
