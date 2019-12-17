@@ -2,6 +2,144 @@
   "comments": [
     {
       "key": {
+        "uuid": "ea6f58f4_1fddd287",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:39:45Z",
+      "side": 1,
+      "message": "My understanding is that assignee is different from reviewer or attention set. It is an optional feature (vs. attention set being a first-class citizen), it has been introduced by Axis and others to \"mirror\" the Jira behaviour and is a pure informative field. Gerrit doesn\u0027t do any special action on the assignee AFAIK.",
+      "range": {
+        "startLine": 42,
+        "startChar": 18,
+        "endLine": 42,
+        "endChar": 43
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a6740a47_9b0d93eb",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:39:45Z",
+      "side": 1,
+      "message": "That was the whole purpose, to have a SPOC that could not be the reviewer of the changes. It\u0027s like the Jira assignee, which isn\u0027t necessarily the team of people working on it.",
+      "range": {
+        "startLine": 45,
+        "startChar": 6,
+        "endLine": 45,
+        "endChar": 35
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9f820fb6_ae8a466e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:39:45Z",
+      "side": 1,
+      "message": "That was configurable on GWT UI: I have no idea why that has not been carried over in PolyGerrit.",
+      "range": {
+        "startLine": 51,
+        "startChar": 18,
+        "endLine": 51,
+        "endChar": 43
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "96f7a0dc_fcd5b49a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:39:45Z",
+      "side": 1,
+      "message": "I *really* like that :-) because it has also scalability and performance implication. A \"bolding\" feature not really well understood by people and expensive to maintain and store, is definitely a good candidate to go.",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 0
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f253b43_b9ec82e7",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:39:45Z",
+      "side": 1,
+      "message": "Looks like a good compromise.",
+      "range": {
+        "startLine": 66,
+        "startChar": 81,
+        "endLine": 67,
+        "endChar": 7
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8da51e45_7f3710b0",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:39:45Z",
+      "side": 1,
+      "message": "Are you suggesting that reviewers are by default people that must act? I could add groups as reviewers that potentially have tens of people inside. I do not necessarily asking for *ALL of them* to review.",
+      "range": {
+        "startLine": 77,
+        "startChar": 29,
+        "endLine": 77,
+        "endChar": 64
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "48a7f85b_da2f9441",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 15
