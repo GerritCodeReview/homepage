@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "8d5061b9_49646a58",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1023872
+      },
+      "writtenOn": "2019-12-17T18:01:50Z",
+      "side": 1,
+      "message": "RE my name: That is actually on purpose, by raising visibility into edge-cases it helps to highlight polish opportunities in the UI.\n\nOngoing work to improve this:\nhttps://gerrit-review.googlesource.com/c/gerrit/+/224012\nhttps://gerrit-review.googlesource.com/c/gerrit/+/234112\n\nGiven the freeform nature of the name input, as a product we should strive to make it as accessible and usable by all, regardless of a customers choice in name.",
+      "parentUuid": "3cc94dd5_5416f240",
+      "range": {
+        "startLine": 13,
+        "startChar": 5,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2df84188_15725047",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
