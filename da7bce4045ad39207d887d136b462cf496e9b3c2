@@ -121,6 +121,23 @@
     },
     {
       "key": {
+        "uuid": "65b33044_c1dd180c",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "FWIW, this does not seem like an \"implementation detail\" but rather belongs into workflows.",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2df84188_15725047",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -138,6 +155,63 @@
     },
     {
       "key": {
+        "uuid": "5d2f82c0_60f41337",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "How does this map to the Open Source module where you just send changes into the void and hope for someone to pick it up? The use cases mention \"finding the right reviewer is not part of this doc\" - but if we create these assumptions, do we not have to have a solution for \"finding the right reviewer\"?",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eb925988_0e24a22a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "Feels like a good thing to decouple from this change. The attention set will provide value even if you still send the same emails as now, and that change can then be evaluated and vetted independently.",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "419c344a_f8939435",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "I *think* this is only about the change level \"reviewed\", not file-level \"reviewed\", is that correct? Maybe make that explicit here?",
+      "range": {
+        "startLine": 49,
+        "startChar": 1,
+        "endLine": 49,
+        "endChar": 9
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b84985f5_2943d6c2",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -149,6 +223,29 @@
       "writtenOn": "2019-12-17T17:57:48Z",
       "side": 1,
       "message": "swap",
+      "range": {
+        "startLine": 53,
+        "startChar": 73,
+        "endLine": 53,
+        "endChar": 80
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0a6e73c9_86998de5",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "have it",
       "range": {
         "startLine": 53,
         "startChar": 73,
@@ -181,6 +278,92 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8b763228_6694afd2",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "Can these defaults be overridden in the API?",
+      "range": {
+        "startLine": 75,
+        "startChar": 10,
+        "endLine": 75,
+        "endChar": 18
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f716a7d9_9e8a5553",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "I think this is good, I wonder if it should be motivated here?",
+      "range": {
+        "startLine": 79,
+        "startChar": 3,
+        "endLine": 79,
+        "endChar": 4
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d8bbdece_c44166f1",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "How is this different from the primary use case\n\n\"As a user I want to see if and why a certain change needs or does not need my or someone else’s attention.\"\n\nIs the new part the \"when\"? The \"why\" seems to be covered already?",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "65c2b7be_3e9df87d",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1070860
+      },
+      "writtenOn": "2019-12-17T18:10:28Z",
+      "side": 1,
+      "message": "Not sure this needs to be mentioned here specifically as it applies to all UI elements, but from our experience with other code review tools, it\u0027s as always important it\u0027s also accessible for screenreader users etc.",
+      "range": {
+        "startLine": 74,
+        "startChar": 61,
+        "endLine": 74,
+        "endChar": 85
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
