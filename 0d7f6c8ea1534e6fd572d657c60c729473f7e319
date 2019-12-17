@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "d3ef08a1_db335ad1",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Added.",
+      "parentUuid": "17ea3226_b75dadcc",
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c56eb2bd_34152c49",
         "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
         "patchSetId": 15
@@ -30,6 +48,24 @@
       "writtenOn": "2019-12-17T09:41:36Z",
       "side": 1,
       "message": "Agreed: this is a first-class review workflow concept, it can *expose* interfaces to other plugins, but the attention set should be part of Gerrit core.",
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4b1ca6f_a6d50f71",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c56eb2bd_34152c49",
       "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
@@ -59,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "c4987d51_b4528e89",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "I have removed this entire section, because it is not really relevant anymore.",
+      "parentUuid": "ea6f58f4_1fddd287",
+      "range": {
+        "startLine": 42,
+        "startChar": 18,
+        "endLine": 42,
+        "endChar": 43
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a6740a47_9b0d93eb",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 15
@@ -79,6 +139,30 @@
       "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf98c26e_45098a33",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "I have removed this entire section, because it is not really relevant anymore.",
+      "parentUuid": "a6740a47_9b0d93eb",
+      "range": {
+        "startLine": 45,
+        "startChar": 6,
+        "endLine": 45,
+        "endChar": 35
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -105,6 +189,30 @@
     },
     {
       "key": {
+        "uuid": "ae144254_e0029b3d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Me neither. I would love to be able to turn \"assignee\" off, but that knob does not exist.\n\nAnyway, I have removed this entire section, because it is not really relevant anymore.",
+      "parentUuid": "9f820fb6_ae8a466e",
+      "range": {
+        "startLine": 51,
+        "startChar": 18,
+        "endLine": 51,
+        "endChar": 43
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "96f7a0dc_fcd5b49a",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 15
@@ -128,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "8472db94_e7235150",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "96f7a0dc_fcd5b49a",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 0
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0f253b43_b9ec82e7",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 15
@@ -139,6 +271,30 @@
       "writtenOn": "2019-12-17T09:39:45Z",
       "side": 1,
       "message": "Looks like a good compromise.",
+      "range": {
+        "startLine": 66,
+        "startChar": 81,
+        "endLine": 67,
+        "endChar": 7
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a31bfd3_2cb2d132",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "0f253b43_b9ec82e7",
       "range": {
         "startLine": 66,
         "startChar": 81,
@@ -171,6 +327,30 @@
       "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b7bf29a_3aa69bd3",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Yes, *by default* I would argue that adding a new reviewer to the attention set makes more sense than leaving them out.\n\nOf course, in a concrete situation you can override this default and not add the new reviewer to the attention set, if you think that makes more sense.\n\nI am not very familiar with workflows where groups are added as reviewers. I would be happy to learn more about that.\n\nI think it should be part of a \"find reviewers\" design how we can make sure that groups of people are replaced by individuals as reviewers and the group moved to CC.",
+      "parentUuid": "8da51e45_7f3710b0",
+      "range": {
+        "startLine": 77,
+        "startChar": 29,
+        "endLine": 77,
+        "endChar": 64
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -220,6 +400,30 @@
     },
     {
       "key": {
+        "uuid": "838b642d_ed067fa6",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "I have added an open question to the implementation doc about permissions. Not sure whether rewriting the use case is appropriate and if so how.",
+      "parentUuid": "15767061_8e315a46",
+      "range": {
+        "startLine": 29,
+        "startChar": 7,
+        "endLine": 29,
+        "endChar": 13
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a4cef502_de59537c",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 15
@@ -243,6 +447,30 @@
     },
     {
       "key": {
+        "uuid": "ff985eae_42e93dd4",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4cef502_de59537c",
+      "range": {
+        "startLine": 33,
+        "startChar": 46,
+        "endLine": 33,
+        "endChar": 60
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4bec814a_9c7d12e3",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 15
@@ -254,6 +482,30 @@
       "writtenOn": "2019-12-17T09:31:46Z",
       "side": 1,
       "message": "Why not talking about escalation policy for people out of office?\nI recall one very important fix on the replication plugin stuck for weeks because of the holiday period.",
+      "range": {
+        "startLine": 51,
+        "startChar": 12,
+        "endLine": 51,
+        "endChar": 30
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "73a8a0d3_05b55702",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "I have difficulties phrasing a good use case for escalation that fits into the scope. Can you suggest one?",
+      "parentUuid": "4bec814a_9c7d12e3",
       "range": {
         "startLine": 51,
         "startChar": 12,
@@ -289,6 +541,30 @@
     },
     {
       "key": {
+        "uuid": "61953b07_09e963d1",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Removed the use case.\n\nThe idea was that the attention set information can be a huge signal boost for these kinds of analytics, because currently you don\u0027t know which percentage of the review time the owner is waiting on the reviewers or is required to act themself.",
+      "parentUuid": "5352312d_5a8d28ef",
+      "range": {
+        "startLine": 53,
+        "startChar": 57,
+        "endLine": 53,
+        "endChar": 91
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5da78553_d501127b",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 15
@@ -309,6 +585,30 @@
       "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "66363130_b4c718b2",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Yeah, Edwin will likely be working on OWNERS related features. Will make sure to coordinate with him.",
+      "parentUuid": "5da78553_d501127b",
+      "range": {
+        "startLine": 63,
+        "startChar": 74,
+        "endLine": 64,
+        "endChar": 28
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -335,6 +635,30 @@
     },
     {
       "key": {
+        "uuid": "a680ce97_ab8b2cf2",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b541957c_05af2ca7",
+      "range": {
+        "startLine": 76,
+        "startChar": 14,
+        "endLine": 76,
+        "endChar": 15
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3860a92f_a1eca659",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 15
@@ -358,6 +682,30 @@
     },
     {
       "key": {
+        "uuid": "8473bf85_dd7d8855",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "I clearly say that in the proposed solution. Here we are just describing the use cases and the status quo.",
+      "parentUuid": "3860a92f_a1eca659",
+      "range": {
+        "startLine": 113,
+        "startChar": 8,
+        "endLine": 113,
+        "endChar": 24
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "010b416e_8de01cb8",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 15
@@ -378,6 +726,30 @@
       "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ec598776_2074e56c",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T10:30:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "010b416e_8de01cb8",
+      "range": {
+        "startLine": 116,
+        "startChar": 78,
+        "endLine": 116,
+        "endChar": 79
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
