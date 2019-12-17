@@ -121,6 +121,30 @@
     },
     {
       "key": {
+        "uuid": "594b9be8_7e43ebab",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T08:50:51Z",
+      "side": 1,
+      "message": "If as a team you want to ensure that reviews are not bypassing a certain group of people, then I think the solution for that are OWNERS files, which we will also be working on in Q1. I don\u0027t think the attention set or the notification system should be concerned with that directly.",
+      "parentUuid": "e9a12c18_fbc31203",
+      "range": {
+        "startLine": 56,
+        "startChar": 93,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "db4f3f5b_247cee46",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 10

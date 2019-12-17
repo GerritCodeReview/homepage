@@ -207,6 +207,24 @@
     },
     {
       "key": {
+        "uuid": "e72b09c5_83fe68ec",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T08:50:51Z",
+      "side": 1,
+      "message": "We have thought about it, but think that this kind of customization is either not needed or could even be harmful by making the workflow less transparent and more confusing.\n\nWe might be wrong here, so would like to listen to users once we have launched a first version of the feature.",
+      "parentUuid": "c881b549_b6623f2d",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "99bb02bb_2954319d",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -327,6 +345,24 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3548fbc6_b832d52e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T08:50:51Z",
+      "side": 1,
+      "message": "There is a \"wait for tests or other checks to finish\" bullet point below. But we won\u0027t implement snoozing for v1, so let\u0027s discuss this later.",
+      "parentUuid": "a0cfb651_b97d1b1c",
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -706,6 +742,30 @@
     },
     {
       "key": {
+        "uuid": "b932f21e_a8f2243c",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T08:50:51Z",
+      "side": 1,
+      "message": "\"Making the assignee feature configurable and disabled by default\" is not part of the proposal.",
+      "parentUuid": "da7b517a_46b08fc4",
+      "range": {
+        "startLine": 125,
+        "startChar": 47,
+        "endLine": 127,
+        "endChar": 46
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ab7d2df7_3a7f0638",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 8
@@ -773,6 +833,30 @@
       "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a5802acd_697ef3be",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T08:50:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "96a2279c_94d2137d",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 33
+      },
+      "revId": "1996638a6e6745a5f5b4916ed78a5639f4b1e76c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }

@@ -120,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "78fe3089_2b02957a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T08:50:51Z",
+      "side": 1,
+      "message": "Rephrased, PTAL.",
+      "parentUuid": "cae077c3_c4d48fe3",
+      "range": {
+        "startLine": 57,
+        "startChar": 51,
+        "endLine": 57,
+        "endChar": 61
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "05eab6d9_a65b2717",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 12
@@ -411,6 +435,30 @@
       "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b532a177_88e8ad33",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T08:50:51Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8c66b829_4dd5cfef",
+      "range": {
+        "startLine": 69,
+        "startChar": 1,
+        "endLine": 74,
+        "endChar": 26
+      },
+      "revId": "177e6f6f787e053e1417086864d2562a8f835cad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {

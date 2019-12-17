@@ -626,6 +626,30 @@
     },
     {
       "key": {
+        "uuid": "d33c34c7_e1463a1b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-17T08:50:51Z",
+      "side": 1,
+      "message": "I have added an open questions to the implementation doc for keeping track of this.",
+      "parentUuid": "91bb705d_e9c928b9",
+      "range": {
+        "startLine": 38,
+        "startChar": 5,
+        "endLine": 38,
+        "endChar": 71
+      },
+      "revId": "cb6f2ed235dd25def5d2086e14608d4f23a777da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "26e1af05_7060fe78",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 3
