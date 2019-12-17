@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "a60a7b76_79a13516",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 16
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-12-17T23:04:28Z",
+      "side": 1,
+      "message": "this should go into a comment as it\u0027s pointless after Friday",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "25a91fee_cb11ec5f",
         "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
         "patchSetId": 16
@@ -281,6 +298,29 @@
     },
     {
       "key": {
+        "uuid": "dd234419_4d8d5a9d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-12-17T23:04:28Z",
+      "side": 1,
+      "message": "maybe this shouldn\u0027t be done or configurable for auto-abandoned changes, I often revisit such changes and restore the ones which were abandoned by the script too early",
+      "range": {
+        "startLine": 66,
+        "startChar": 34,
+        "endLine": 66,
+        "endChar": 43
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8b763228_6694afd2",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -320,6 +360,52 @@
         "startChar": 3,
         "endLine": 79,
         "endChar": 4
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8af9fe56_02061204",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-12-17T23:04:28Z",
+      "side": 1,
+      "message": "I\u0027d call this pausing",
+      "range": {
+        "startLine": 104,
+        "startChar": 42,
+        "endLine": 104,
+        "endChar": 50
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cca6bb09_5e39c496",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2019-12-17T23:04:28Z",
+      "side": 1,
+      "message": "this was discussed in the paragraph above, probably you meant snoozing or pausing",
+      "range": {
+        "startLine": 109,
+        "startChar": 47,
+        "endLine": 109,
+        "endChar": 59
       },
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
