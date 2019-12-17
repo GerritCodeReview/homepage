@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "25a91fee_cb11ec5f",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1023872
+      },
+      "writtenOn": "2019-12-17T14:47:46Z",
+      "side": 1,
+      "message": "Do you plan on storing when an attention set was set for a given person via a REST endpoint? \n\nIf not consider the usecase generating plugins and or reports on average response time for changes.",
+      "range": {
+        "startLine": 13,
+        "startChar": 5,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
