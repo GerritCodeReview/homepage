@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "17ea3226_b75dadcc",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:41:36Z",
+      "side": 1,
+      "message": "Also: scalability, replication and multi-site consistency of the attention set storage.",
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c56eb2bd_34152c49",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2019-12-17T09:41:36Z",
+      "side": 1,
+      "message": "Agreed: this is a first-class review workflow concept, it can *expose* interfaces to other plugins, but the attention set should be part of Gerrit core.",
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ea6f58f4_1fddd287",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 15
