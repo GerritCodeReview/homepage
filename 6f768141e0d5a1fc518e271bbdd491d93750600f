@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b67a1b12_ac14eb70",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-12-18T14:36:52Z",
+      "side": 1,
+      "message": "Nicely written!",
+      "revId": "6f768141e0d5a1fc518e271bbdd491d93750600f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a86339a_ef68829e",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-12-18T14:36:52Z",
+      "side": 1,
+      "message": "I would store the \u0027feedback\u0027 part in a JSON file in the /meta ref - in the same way as we do for comments and robot comments. Scalability-wise, this is fine as long as we have to parse only files at HEAD, not from history (traversing Git history and walking just commits is fast even if there are many, but reading files for each revision would be very slow).",
+      "revId": "6f768141e0d5a1fc518e271bbdd491d93750600f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3559cf9e_6203015a",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-12-18T14:36:52Z",
+      "side": 1,
+      "message": "This seems like a good chance to break up the inheritance around \u0027Comment\u0027 and \u0027RobotComment\u0027. I don\u0027t think we have to flesh out that plan in detail in the design doc and rather think that agreeing on the general direction (splitting notorial/feedback; option to store n:m relations; where data is stored - commit message vs files) is enough.",
+      "revId": "6f768141e0d5a1fc518e271bbdd491d93750600f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "12e8a126_29cd8099",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-12-18T14:36:52Z",
+      "side": 1,
+      "message": "Please talk about the migration.\n\nI am assuming that we won\u0027t do any, and that any message up until now will be seen as \u0027notarial\u0027.",
+      "revId": "6f768141e0d5a1fc518e271bbdd491d93750600f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cef4c218_0eda9112",
+        "filename": "pages/design-docs/threaded-change-log/solution-threaded-log.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-12-18T14:36:52Z",
+      "side": 1,
+      "message": "We will need to adapt the \u0027all comments resolved\u0027 submit rule and potentially more related logic that thought that inline comments are the only form of comments (CommentValidator, etc.).",
+      "revId": "6f768141e0d5a1fc518e271bbdd491d93750600f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
