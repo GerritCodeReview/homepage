@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "9d1ca777_b726fc73",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-19T19:56:31Z",
+      "side": 1,
+      "message": "I think this is suboptimal and could lead to a bigger problem later when assignee is eventually being pushed to be removed.\n\nIt seems feasible (and I propose this is an alternative that should be considered and included in the design docs) to incrementally evolve assignee (and perhaps reviewed) into attention set.",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 22
+      },
+      "revId": "829afa8233a443b52995bdc9d4e994aa65e86bd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "673e64fc_a1c38c4d",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 17
@@ -18,6 +41,29 @@
         "startChar": 32,
         "endLine": 81,
         "endChar": 35
+      },
+      "revId": "829afa8233a443b52995bdc9d4e994aa65e86bd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f67a9d36_ade05f9e",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-19T19:56:31Z",
+      "side": 1,
+      "message": "I think this has been pointed out by others, but the arguments made in the sub-bullets here feel pretty weak. There\u0027s a lot of assumption around the intent of assignee and the \"not editable in replys / manually set/unset\" are both probably trivial to fix if someone wanted to.",
+      "range": {
+        "startLine": 104,
+        "startChar": 4,
+        "endLine": 104,
+        "endChar": 95
       },
       "revId": "829afa8233a443b52995bdc9d4e994aa65e86bd3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
