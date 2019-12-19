@@ -193,6 +193,30 @@
     },
     {
       "key": {
+        "uuid": "3f2c0914_fabde45b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-19T18:38:20Z",
+      "side": 1,
+      "message": "but that use case is currently covered, so you knowingly introduce a regression if you don\u0027t implement (some of) the tweaks i\u0027m suggesting.",
+      "parentUuid": "da147fd8_be1667bc",
+      "range": {
+        "startLine": 56,
+        "startChar": 93,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "db4f3f5b_247cee46",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 10

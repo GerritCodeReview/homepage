@@ -733,6 +733,30 @@
     },
     {
       "key": {
+        "uuid": "e5c578b9_d1d6bcf7",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-19T18:38:20Z",
+      "side": 1,
+      "message": "it\u0027s not only about conciseness, but also about removing the cognitive load of having to consider who may _not_ be included. \"all participants, that is ...\" would help.",
+      "parentUuid": "b1bb50fc_82c434ac",
+      "range": {
+        "startLine": 54,
+        "startChar": 5,
+        "endLine": 54,
+        "endChar": 10
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9a1aff80_9f9cd4b0",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -801,6 +825,30 @@
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "32689d1b_2578eda5",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-19T18:38:20Z",
+      "side": 1,
+      "message": "but now the sections from \"workflow\" and \"use cases\" contradict each other.",
+      "parentUuid": "18425634_cd021c4c",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 33
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
@@ -923,6 +971,30 @@
     },
     {
       "key": {
+        "uuid": "3e7a22cc_abd0c220",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-19T18:38:20Z",
+      "side": 1,
+      "message": "fair enough, but then you should make a note that this list is of exemplary nature with no claim to completeness.",
+      "parentUuid": "3b7bf889_3d841cdb",
+      "range": {
+        "startLine": 70,
+        "startChar": 42,
+        "endLine": 70,
+        "endChar": 47
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "68ccd817_3ecbf08b",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -1015,6 +1087,30 @@
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "97a04112_89887768",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-19T18:38:20Z",
+      "side": 1,
+      "message": "1. is currently under-specified, given that you\u0027re making a point of not sending emails except when a user is added to the attention set.\n2. is not helpful, because hardly anyone would remember adding someone from CC to the AS.\n3. is not useful unless you expect someone on CC to (re-)move themselves (to reviewer) as soon as they initially examined a CC notification, as otherwise there is no indication of new activity (as in, new CCs).\n\ni agree that the point of CC is making participation optional, but the level of notification still needs to be sufficient to make it actually _useful_. as it happens, this actually fits neatly into my ideas for two-level AS.",
+      "parentUuid": "51e4ba23_dbf2de87",
+      "range": {
+        "startLine": 73,
+        "startChar": 4,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {

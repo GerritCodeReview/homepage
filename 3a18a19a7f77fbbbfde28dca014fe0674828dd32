@@ -34,6 +34,24 @@
       "revId": "3a18a19a7f77fbbbfde28dca014fe0674828dd32",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f3fde54d_ee0c544f",
+        "filename": "pages/design-docs/attention-set/img-hovercard.png",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-19T18:38:20Z",
+      "side": 0,
+      "message": "1st seems fine.\n2nd is awkward, because you\u0027re still treating it as an entity rather than a state. \"mark as attended to\" or \"mark as not needing [my] attention\" or something like that.",
+      "parentUuid": "84515ed0_ae8d845c",
+      "revId": "3a18a19a7f77fbbbfde28dca014fe0674828dd32",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
