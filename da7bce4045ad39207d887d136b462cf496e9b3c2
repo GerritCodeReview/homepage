@@ -250,6 +250,29 @@
     },
     {
       "key": {
+        "uuid": "ce21778a_0a58249c",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-19T17:11:45Z",
+      "side": 1,
+      "message": "If you\u0027re not removing assignee, you probably want to use separate terms in this doc to refer to being in the attention set.",
+      "range": {
+        "startLine": 20,
+        "startChar": 32,
+        "endLine": 20,
+        "endChar": 60
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "5d2f82c0_60f41337",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -317,6 +340,24 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c9ea0919_3713e7fd",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-19T17:11:45Z",
+      "side": 1,
+      "message": "+1 for smaller changes",
+      "parentUuid": "eb925988_0e24a22a",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
@@ -579,6 +620,30 @@
     },
     {
       "key": {
+        "uuid": "364a1dd0_3e21d3dd",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-19T17:11:45Z",
+      "side": 1,
+      "message": "Hmm, yeah. What\u0027s the behavior for restored changes?",
+      "parentUuid": "dd234419_4d8d5a9d",
+      "range": {
+        "startLine": 66,
+        "startChar": 34,
+        "endLine": 66,
+        "endChar": 43
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8b763228_6694afd2",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -720,6 +785,30 @@
     },
     {
       "key": {
+        "uuid": "7a264d4c_d1959e28",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-19T17:11:45Z",
+      "side": 1,
+      "message": "My alarm clock calls it snooze :) I think the term applies well here.",
+      "parentUuid": "8af9fe56_02061204",
+      "range": {
+        "startLine": 104,
+        "startChar": 42,
+        "endLine": 104,
+        "endChar": 50
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "cca6bb09_5e39c496",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -799,6 +888,52 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3db98590_300f4efe",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-19T17:11:45Z",
+      "side": 1,
+      "message": "This reads strangely, but I agree it\u0027s hard to get it right. I think meant something like \u0027when your action is now required on a change (due to modification of that change\u0027s state)\u0027?",
+      "range": {
+        "startLine": 60,
+        "startChar": 54,
+        "endLine": 61,
+        "endChar": 26
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "73ca4a9d_ad249dcb",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2019-12-19T17:11:45Z",
+      "side": 1,
+      "message": "s/email//",
+      "range": {
+        "startLine": 63,
+        "startChar": 15,
+        "endLine": 63,
+        "endChar": 21
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
