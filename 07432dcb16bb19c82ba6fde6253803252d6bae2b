@@ -169,6 +169,30 @@
     },
     {
       "key": {
+        "uuid": "da147fd8_be1667bc",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "The use case \"as a user I want to make sure that my review cannot be bypassed\" is out of scope.",
+      "parentUuid": "10156a31_5d5be429",
+      "range": {
+        "startLine": 56,
+        "startChar": 93,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "db4f3f5b_247cee46",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 10

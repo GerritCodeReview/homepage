@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "a4f0e828_7668131a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 16
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a60a7b76_79a13516",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "25a91fee_cb11ec5f",
         "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
         "patchSetId": 16
@@ -138,6 +156,30 @@
     },
     {
       "key": {
+        "uuid": "21c9b273_b919760e",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8d5061b9_49646a58",
+      "range": {
+        "startLine": 13,
+        "startChar": 5,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "65b33044_c1dd180c",
         "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
         "patchSetId": 16
@@ -152,6 +194,24 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "686f653e_69770cae",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Yeah, let\u0027s remove that question, because we actually don\u0027t have plans to make this optional.",
+      "parentUuid": "65b33044_c1dd180c",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -172,6 +232,24 @@
     },
     {
       "key": {
+        "uuid": "48cb4439_81cadebf",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2df84188_15725047",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5d2f82c0_60f41337",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -189,6 +267,24 @@
     },
     {
       "key": {
+        "uuid": "eb7c6d93_6edcded3",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "I think we do have to have to provide a better answer to \"finding the right reviewer\" and that will be a focus in 2020. But I don\u0027t think that affects this solution much. There is nothing we can do better in this proposed workflow. If you have changes that somehow need to be picked up, then yes, you will have to find a solution for who has to do that. And only afterwards the attention set will kick in.",
+      "parentUuid": "5d2f82c0_60f41337",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eb925988_0e24a22a",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -203,6 +299,24 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b156b931_d193233b",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "In general I agree that we should only make minimal changes to the email notifications, but changing the attention set will generate emails, so this is new. And I would really like to remove \"patchset uploaded\" emails. Let\u0027s see whether we will get pushback on that.",
+      "parentUuid": "eb925988_0e24a22a",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -226,6 +340,30 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f490f7f0_4f831031",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "This is explained in the use-cases doc.",
+      "parentUuid": "419c344a_f8939435",
+      "range": {
+        "startLine": 49,
+        "startChar": 1,
+        "endLine": 49,
+        "endChar": 9
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -275,6 +413,54 @@
     },
     {
       "key": {
+        "uuid": "38a3d3c8_347b1773",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a6e73c9_86998de5",
+      "range": {
+        "startLine": 53,
+        "startChar": 73,
+        "endLine": 53,
+        "endChar": 80
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d24b2d97_560b4be1",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b84985f5_2943d6c2",
+      "range": {
+        "startLine": 53,
+        "startChar": 73,
+        "endLine": 53,
+        "endChar": 80
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9d73ba23_1878f5fd",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -295,6 +481,30 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1eb56ac2_0d0c9f3f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9d73ba23_1878f5fd",
+      "range": {
+        "startLine": 56,
+        "startChar": 22,
+        "endLine": 56,
+        "endChar": 23
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -321,6 +531,30 @@
     },
     {
       "key": {
+        "uuid": "0a1da569_11043cfd",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "You would still get an email. And both the user abandoning and also systems doing so could decide to remove everyone from the attention set. But I think it is the correct default.",
+      "parentUuid": "dd234419_4d8d5a9d",
+      "range": {
+        "startLine": 66,
+        "startChar": 34,
+        "endLine": 66,
+        "endChar": 43
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8b763228_6694afd2",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -341,6 +575,30 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "46e63443_0280ee07",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8b763228_6694afd2",
+      "range": {
+        "startLine": 75,
+        "startChar": 10,
+        "endLine": 75,
+        "endChar": 18
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -367,6 +625,30 @@
     },
     {
       "key": {
+        "uuid": "cf0b3336_07794bb8",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f716a7d9_9e8a5553",
+      "range": {
+        "startLine": 79,
+        "startChar": 3,
+        "endLine": 79,
+        "endChar": 4
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8af9fe56_02061204",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -387,6 +669,30 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "adff643c_2ef9aba9",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Yeah, might be better. Not sure yet. I have added \"pausing\" as an alternative term.",
+      "parentUuid": "8af9fe56_02061204",
+      "range": {
+        "startLine": 104,
+        "startChar": 42,
+        "endLine": 104,
+        "endChar": 50
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -413,6 +719,30 @@
     },
     {
       "key": {
+        "uuid": "6f1430c5_cd2aa5f7",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Good catch. Copy and paste error ...",
+      "parentUuid": "cca6bb09_5e39c496",
+      "range": {
+        "startLine": 109,
+        "startChar": 47,
+        "endLine": 109,
+        "endChar": 59
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d8bbdece_c44166f1",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 16
@@ -427,6 +757,24 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b5dc203b_4a5d99bd",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "Removed.",
+      "parentUuid": "d8bbdece_c44166f1",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {

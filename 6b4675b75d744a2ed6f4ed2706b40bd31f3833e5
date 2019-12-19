@@ -709,6 +709,30 @@
     },
     {
       "key": {
+        "uuid": "b1bb50fc_82c434ac",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "There is not established term that I am aware of, so I would prefer to be clear instead of concise here.",
+      "parentUuid": "69e0fad2_470d0ae3",
+      "range": {
+        "startLine": 54,
+        "startChar": 5,
+        "endLine": 54,
+        "endChar": 10
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a1aff80_9f9cd4b0",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -851,6 +875,30 @@
     },
     {
       "key": {
+        "uuid": "3b7bf889_3d841cdb",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "I have went back and forth on that based on comments, and I think it is good enough. We will encounter corner cases while implementing the logic for defaults, and we will have to refine them later. It won\u0027t help this design doc, if we try to be super precise about when owner just means owner and when it may also mean uploader.",
+      "parentUuid": "b50a9db6_09a48690",
+      "range": {
+        "startLine": 70,
+        "startChar": 42,
+        "endLine": 70,
+        "endChar": 47
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "68ccd817_3ecbf08b",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -919,6 +967,30 @@
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "51e4ba23_dbf2de87",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-19T12:26:36Z",
+      "side": 1,
+      "message": "CCs can learn about follow-ups 1. by getting emails, 2. by being added to the attention set manually or 3. by checking the CC section on the dashboard.\n\nI think not being notified aggressively and not having action required is the point of CC. If you want someone to be fully in the loop, then add them as reviewer. This choice can me made.",
+      "parentUuid": "a0301a83_d85edcd5",
+      "range": {
+        "startLine": 73,
+        "startChar": 4,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
