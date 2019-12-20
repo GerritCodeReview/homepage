@@ -900,6 +900,30 @@
     },
     {
       "key": {
+        "uuid": "f5e5eeee_9339b2e6",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "i added related comments to the current ps.",
+      "parentUuid": "c5366e3c_0525855d",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 33
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "383de828_96fd4e0c",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -1207,6 +1231,30 @@
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b9b45628_3e528bca",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "1. comments added.\n2. i wouldn\u0027t be so certain - it\u0027s an extra step, and it\u0027s quite possible to forget it. more pertinently, though, the owner might not even think of the cc\u0027d person in the first place, as that may be some random dude who joined by himself. yeah, i do that all the time, as you might have noticed.\n3. glad you agree, so what\u0027s the plan?",
+      "parentUuid": "d959de67_2441d65f",
+      "range": {
+        "startLine": 73,
+        "startChar": 4,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {

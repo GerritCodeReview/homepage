@@ -241,6 +241,30 @@
     },
     {
       "key": {
+        "uuid": "f50ada10_c71e00a5",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "there is some confusion related to that, but let\u0027s discuss that in the other threads.",
+      "parentUuid": "b3094058_218dfc05",
+      "range": {
+        "startLine": 56,
+        "startChar": 93,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "07432dcb16bb19c82ba6fde6253803252d6bae2b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "db4f3f5b_247cee46",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 10

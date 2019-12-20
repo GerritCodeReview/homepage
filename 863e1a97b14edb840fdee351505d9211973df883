@@ -25,6 +25,86 @@
     },
     {
       "key": {
+        "uuid": "a6af86cb_f192d276",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "i\u0027d drop that declaration - see below.",
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1740979b_17fb1a9c",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "that\u0027s almost tautological now. 😄\n\n(point being that it\u0027s not immediately obvious whether you mean the feature or a natural meaning. i\u0027d recommend consistently using \"attention set\" to describe the technical side, so \"changes not in your attention set\" in this case.)",
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c2231667_8abac8d3",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "nit: this sounds awkward in conjunction with \"only\". i\u0027d just drop the word.",
+      "range": {
+        "startLine": 42,
+        "startChar": 5,
+        "endLine": 42,
+        "endChar": 8
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "de5a2aeb_8056d36a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "regarding the discussion about notifications about ccs:\nthe context makes this sound exhaustive.\nif it\u0027s not meant to be, and this is merely about an *additional* notification, it should be clearly stated. in that case, it\u0027s also not necessary to mention the removal notification.\nbut i think the initial intention _was_ to make this exhaustive, to reduce the firehose of emails. doing a 180 requires re-thinking the implications from scratch.",
+      "range": {
+        "startLine": 45,
+        "startChar": 34,
+        "endLine": 46,
+        "endChar": 46
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4308a275_2f9bc156",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 18
@@ -116,6 +196,70 @@
       "revId": "863e1a97b14edb840fdee351505d9211973df883",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "24a04eae_bd43edbd",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "i disagree - as a maintainer, i often pick up changes of my own accord. losing the manually set indicator would be counterproductive.",
+      "parentUuid": "f190bc9f_a839591f",
+      "range": {
+        "startLine": 89,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 12
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6685144a_dfcd37b3",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "this also suggests that, overall, fewer mails are sent.",
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf73a413_bef6323f",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2019-12-20T19:07:19Z",
+      "side": 1,
+      "message": "... so at this point we come to a contradiction.",
+      "range": {
+        "startLine": 63,
+        "startChar": 39,
+        "endLine": 64,
+        "endChar": 100
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
