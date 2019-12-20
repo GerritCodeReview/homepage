@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "eccc3c3a_00595bc2",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "I have added an Alternatives Considered section below and explained why we are not \"replacing\" Assignee (which was my original proposal). If you want to propose an alternative solution for the ESC to consider, then you would have to upload a separate doc, which can be just a few lines describing the difference between my and your solution.",
+      "parentUuid": "9d1ca777_b726fc73",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 22
+      },
+      "revId": "829afa8233a443b52995bdc9d4e994aa65e86bd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "673e64fc_a1c38c4d",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 17
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "dd5d2f77_6449673e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "673e64fc_a1c38c4d",
+      "range": {
+        "startLine": 81,
+        "startChar": 32,
+        "endLine": 81,
+        "endChar": 35
+      },
+      "revId": "829afa8233a443b52995bdc9d4e994aa65e86bd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f67a9d36_ade05f9e",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 17
@@ -68,6 +116,30 @@
       "revId": "829afa8233a443b52995bdc9d4e994aa65e86bd3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "07f0a84a_9e744f0c",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Yeah, I also felt that the arguments are fairly weak and easy to overcome. That is why my initial proposal was to just enhance the Assignee feature. But I got pushback on that and it was explained to me that Assignee serves a separate use case (see first bullet), so I think it is fair to say that Assignee was not made for solving the \"Whose turn?\" use cases and to list the gap that would be needed to overcome.\n\nI acknowledge that this paragraph is not perfect. It could be written better. One of the reasons is that it has evolved from patchset to patchset is a bit patchy. :-) But at this point I also want to avoid a complete rewrite.",
+      "parentUuid": "f67a9d36_ade05f9e",
+      "range": {
+        "startLine": 104,
+        "startChar": 4,
+        "endLine": 104,
+        "endChar": 95
+      },
+      "revId": "829afa8233a443b52995bdc9d4e994aa65e86bd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }

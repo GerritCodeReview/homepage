@@ -518,6 +518,30 @@
     },
     {
       "key": {
+        "uuid": "725a120e_9b64b7a2",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Leaving as is for now. Feel free to suggest a follow-up change.",
+      "parentUuid": "73a8a0d3_05b55702",
+      "range": {
+        "startLine": 51,
+        "startChar": 12,
+        "endLine": 51,
+        "endChar": 30
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5352312d_5a8d28ef",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 15
@@ -553,6 +577,30 @@
       "side": 1,
       "message": "Removed the use case.\n\nThe idea was that the attention set information can be a huge signal boost for these kinds of analytics, because currently you don\u0027t know which percentage of the review time the owner is waiting on the reviewers or is required to act themself.",
       "parentUuid": "5352312d_5a8d28ef",
+      "range": {
+        "startLine": 53,
+        "startChar": 57,
+        "endLine": 53,
+        "endChar": 91
+      },
+      "revId": "0d7f6c8ea1534e6fd572d657c60c729473f7e319",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ef09cd6_246acf0c",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "I have brought this bullet point back, because Sam and Nasser were asking for it and I agree: Measuring code review latency and other metrics about how the review progresses is super vital for making product decisions or assessing code review health in your team. A solution should make it possible to derive that data, which we are currently desperately lacking.",
+      "parentUuid": "61953b07_09e963d1",
       "range": {
         "startLine": 53,
         "startChar": 57,

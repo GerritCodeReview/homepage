@@ -52,6 +52,24 @@
       "revId": "3a18a19a7f77fbbbfde28dca014fe0674828dd32",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "72803460_31759ca6",
+        "filename": "pages/design-docs/attention-set/img-hovercard.png",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 0,
+      "message": "Hmmm, I agree that the \"attention set\" wording is not perfect and we are actively looking for alternatives, but your proposal does not convince me either. Please let me know if you have other ideas. We will iterate on that while implementing the feature.",
+      "parentUuid": "f3fde54d_ee0c544f",
+      "revId": "3a18a19a7f77fbbbfde28dca014fe0674828dd32",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }

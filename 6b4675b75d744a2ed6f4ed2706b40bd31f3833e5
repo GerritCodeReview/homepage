@@ -757,6 +757,30 @@
     },
     {
       "key": {
+        "uuid": "d43e2129_840d69b5",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e5c578b9_d1d6bcf7",
+      "range": {
+        "startLine": 54,
+        "startChar": 5,
+        "endLine": 54,
+        "endChar": 10
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a1aff80_9f9cd4b0",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -849,6 +873,30 @@
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c5366e3c_0525855d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Can you point the contradiction? I could not find it.",
+      "parentUuid": "32689d1b_2578eda5",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 33
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -995,6 +1043,30 @@
     },
     {
       "key": {
+        "uuid": "4d89fe3f_2971d03f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "I have removed the general remark that owner can also be uploader, and tried to be specific everywhere in the doc. PTAL.",
+      "parentUuid": "3e7a22cc_abd0c220",
+      "range": {
+        "startLine": 70,
+        "startChar": 42,
+        "endLine": 70,
+        "endChar": 47
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "68ccd817_3ecbf08b",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13
@@ -1111,6 +1183,30 @@
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d959de67_2441d65f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "1. Please read the current state of the proposal again. We are only stopping to send emails for patchsets uploads and we are adding emails for attention set changes. Everything else is unchanged.\n2. If you care about someone to reply, then I guess you would.\n3. Yeah, checking the dashboard is indeed not helpful for \"is there something new for me as a CC?\".",
+      "parentUuid": "97a04112_89887768",
+      "range": {
+        "startLine": 73,
+        "startChar": 4,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -1369,6 +1465,30 @@
       "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b6ca41b_b66d52a5",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "I removed this because of Luca\u0027s comment on patchset 15 saying that this goes beyond the scope of the design. But since you are the second person saying that this is important and I agree, let me bring this back and explain it to Luca.",
+      "parentUuid": "ce448358_11b69504",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 55
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {

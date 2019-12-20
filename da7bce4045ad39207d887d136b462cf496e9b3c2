@@ -273,6 +273,30 @@
     },
     {
       "key": {
+        "uuid": "65d81e7e_1eeb56c7",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ce21778a_0a58249c",
+      "range": {
+        "startLine": 20,
+        "startChar": 32,
+        "endLine": 20,
+        "endChar": 60
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5d2f82c0_60f41337",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -358,6 +382,24 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cf82494e_3c7f2c7e",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "But we will add more emails for attention set events, so I think it is fine to remove ones that are obviously obsolete. If you think there is a value in getting \"patchset uploaded\" emails, then please help me understand that. :-)",
+      "parentUuid": "c9ea0919_3713e7fd",
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -644,6 +686,30 @@
     },
     {
       "key": {
+        "uuid": "5c407212_e6ad352c",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "A restored change behaves like a normal change.",
+      "parentUuid": "364a1dd0_3e21d3dd",
+      "range": {
+        "startLine": 66,
+        "startChar": 34,
+        "endLine": 66,
+        "endChar": 43
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8b763228_6694afd2",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -809,6 +875,30 @@
     },
     {
       "key": {
+        "uuid": "dd97c43a_096ec56d",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7a264d4c_d1959e28",
+      "range": {
+        "startLine": 104,
+        "startChar": 42,
+        "endLine": 104,
+        "endChar": 50
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cca6bb09_5e39c496",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 16
@@ -914,6 +1004,30 @@
     },
     {
       "key": {
+        "uuid": "c0b4f9e5_594ef519",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3db98590_300f4efe",
+      "range": {
+        "startLine": 60,
+        "startChar": 54,
+        "endLine": 61,
+        "endChar": 26
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "73ca4a9d_ad249dcb",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 16
@@ -934,6 +1048,30 @@
       "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab839766_a66cdefc",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T09:37:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "73ca4a9d_ad249dcb",
+      "range": {
+        "startLine": 63,
+        "startChar": 15,
+        "endLine": 63,
+        "endChar": 21
+      },
+      "revId": "da7bce4045ad39207d887d136b462cf496e9b3c2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
