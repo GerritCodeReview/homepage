@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "7c636553_bcc5d3cd",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-12-20T13:33:44Z",
+      "side": 1,
+      "message": "nit: I guess this should be \"extension points\"? Can be fixed in a follow-up change to not lose current +1 votes.",
+      "range": {
+        "startLine": 28,
+        "startChar": 35,
+        "endLine": 28,
+        "endChar": 44
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4308a275_2f9bc156",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 18
