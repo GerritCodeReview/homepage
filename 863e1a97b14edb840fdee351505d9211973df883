@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "99daa86d_7e7ac41f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T15:24:32Z",
+      "side": 1,
+      "message": "That was my original proposal, see Alternatives Considered. However, Sven Selberg could convince me that that would be too disruptive for companies like Axis that use Assignee as a priority signal.",
+      "parentUuid": "4308a275_2f9bc156",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 22
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f190bc9f_a839591f",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 18
@@ -59,6 +83,30 @@
       "writtenOn": "2019-12-20T10:59:46Z",
       "side": 1,
       "message": "I think Attention set - in a future iteration - has the potential to replace WiP. WiP was created so that users have a \u0027staging area\u0027 where no emails are sent out and CI can run. A change with an empty attention set is already very close to that and maybe we can iterate on the whole story to obsolete WiP but still provide the same value to users.",
+      "range": {
+        "startLine": 89,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 12
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "630897e5_ee3793f3",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2019-12-20T15:24:32Z",
+      "side": 1,
+      "message": "That is a good point. WIP could be equivalent to the attention set being empty. We would have to solve the use case of uploading a change for review without setting a specific reviewer. I think that should be doable by adding a placeholder group as reviewer in that case. But anyway, out of scope at the moment.",
+      "parentUuid": "f190bc9f_a839591f",
       "range": {
         "startLine": 89,
         "startChar": 0,
