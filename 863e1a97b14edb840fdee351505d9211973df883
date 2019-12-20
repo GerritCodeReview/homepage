@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4308a275_2f9bc156",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-12-20T10:59:46Z",
+      "side": 1,
+      "message": "I know that this has been discussed before, so there is no need to act on my comment here. Posting it anyway to have my opinion on this on the record.\n\nI am in favor of removing \u0027Assignee\u0027 when attention set is added. Attentions set is a more powerful concept that can be used to cater the current use cases of \u0027Assignee\u0027. One of the arguments in favor of assignee is \"there can only be a single one\". We could certainly provide configs or plugin endpoints to have that workflow work on top of attention set.",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 22
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f190bc9f_a839591f",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2019-12-20T10:59:46Z",
+      "side": 1,
+      "message": "I think Attention set - in a future iteration - has the potential to replace WiP. WiP was created so that users have a \u0027staging area\u0027 where no emails are sent out and CI can run. A change with an empty attention set is already very close to that and maybe we can iterate on the whole story to obsolete WiP but still provide the same value to users.",
+      "range": {
+        "startLine": 89,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 12
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
