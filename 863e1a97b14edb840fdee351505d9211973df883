@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "58fc6691_99698a9f",
+        "filename": "pages/design-docs/attention-set/solution-1-implementation.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2019-12-23T12:31:47Z",
+      "side": 1,
+      "message": "Done in:\n\n  https://gerrit-review.googlesource.com/c/homepage/+/249204",
+      "parentUuid": "7c636553_bcc5d3cd",
+      "range": {
+        "startLine": 28,
+        "startChar": 35,
+        "endLine": 28,
+        "endChar": 44
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a6af86cb_f192d276",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 18
