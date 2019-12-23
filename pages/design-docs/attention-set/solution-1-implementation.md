@@ -25,7 +25,7 @@ list of technical questions that will have to be answered:
 *   Will updates be atomic with other metadata changes (reviewer and cc changes)?
 *   What is the data structure for the attention set and its entries?
 *   How does the REST API look like for attention set related operations?
-*   Will there be dedicated plugin endpoints for the attention set?
+*   Will there be dedicated plugin extension points for the attention set?
 *   How is the attention set indexed and what are the supported search operators?
 *   How are hosts migrated from assignee/reviewed based workflow to being attention set based?
 *   Who should be allowed to change the attention set? Do we need another permission?
