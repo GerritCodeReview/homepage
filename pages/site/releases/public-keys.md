@@ -23,6 +23,7 @@ The following public keys are are available on the
 | Hugo Arès        | hugares@gmail.com               | 6884 7C78 8005 34A7 3386  86C9 C5D7 01B8 24EE 7037 |           |
 | Luca Milanesio   | luca.milanesio@gmail.com        | 4D87 E730 9713 C7D6 6B77  CFBF 7079 1290 7562 EA4B | rsa-3072  |
 |                  |                                 | 8882 AA37 B122 C819 2736  DBB6 E9A9 BDCD C015 06A0 | rsa-2048  |
+|                  |                                 | 9825 38F5 0438 DD7B 4813  C822 0B4E F7D5 A2B6 987E | rsa-4096  |
 | Masaya Suzuki    | masayasuzuki@google.com         | 17DE EE31 04AA 1FBD ABE4  D1F7 2489 35B0 B6B8 7F19 |           |
 | Patrick Hiesel   | hiesel@google.com               | 7789 759C D085 C90A 1823  63AB 710A 7242 BD5B 6C39 |           |
 | Saša Živkov      | sasa.zivkov@sap.com             | 024B 9991 1E26 0764 22A7  5AD4 4D52 61F9 26C1 290E |           |
