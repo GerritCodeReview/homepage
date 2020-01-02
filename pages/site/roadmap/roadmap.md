@@ -32,7 +32,6 @@ Target: Q2 2020
     on the 90th percentile and 5s on the 99th percentile.
   * Experimental support for filesystem-based RefTable: Speed improvements for repositories with a
     large number of refs.
-  * Introduction of Caffeine cache instead of Guava
   * Replace H2 persistence with other more performant backends
   * Improve Gerrit performance with mono-repos (tens of GBytes of size)
 * Better multi-master / multi-site support
