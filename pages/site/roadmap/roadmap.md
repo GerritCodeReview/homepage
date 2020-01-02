@@ -45,6 +45,7 @@ Target: Q2 2020
     * Get rid of html imports, everything plain javascript
   * Content-Security-Policy
   * TypeScript
+  * File Upload
 * Better UX
   * Attention Set (revising assignee and “bolding”)
   * Increased overview in Change Log
