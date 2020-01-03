@@ -13,3 +13,4 @@ toc: false
 * [Solution 1 - User Interface](/design-docs/attention-set-solution-1-user-interface.html)
 * [Solution 1 - Implementation](/design-docs/attention-set-solution-1-implementation.html)
 * [Solution 2 - Improving Assignee](/design-docs/attention-set-solution-2-improving-assignee.html)
+* [Conclusion](/design-docs/attention-set-conclusion.html)
