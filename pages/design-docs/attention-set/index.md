@@ -12,3 +12,4 @@ toc: false
 * [Solution 1 - Workflow](solution-1-workflow.md)
 * [Solution 1 - User Interface](solution-1-user-interface.md)
 * [Solution 1 - Implementation](solution-1-implementation.md)
+* [Solution 2 - Assignee and Reviewed Plugins](solution-2-assignee-and-reviewed-plugins.md)
