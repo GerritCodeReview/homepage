@@ -213,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "f9938119_e72e2941",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2020-01-06T14:03:40Z",
+      "side": 1,
+      "message": "i tend to disagree - if limiting the mails was indeed part of the plan (which is still my impression), then not doing so after all (and thus sending _even more_ mails in total) has implications for the usability of the feature, and needs to be given explicit consideration. whether you include it into the doc is up to you, but it\u0027s a TODO item nonetheless.",
+      "parentUuid": "71cac991_12c3a481",
+      "range": {
+        "startLine": 45,
+        "startChar": 34,
+        "endLine": 46,
+        "endChar": 46
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4308a275_2f9bc156",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 18
