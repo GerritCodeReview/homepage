@@ -30,7 +30,7 @@ substantially lacking, see [below](#status-quo).
     taking action.
 *   As an owner or co-author I want to make sure that my reviews are making good progress. When I am
     in doubt about that, I want to know if and when my reviewers are going to review my change.
-*   As a user I want to be notified by email if (and often only if) my attention is required.
+*   As a user I want to be notified by email if my attention is required.
 
 ## <a id="secondary">Secondary Use Cases
 
@@ -62,6 +62,9 @@ Knowing whether it is my turn to act on a change is very much tied to a real-tim
 system, because you want to know as soon as possible, when it is your turn to act. Gerrit currently
 sends notifications to users by email. While sending less spammy email notifications may be a
 nice-to-have side effect, the goal of this design is not to fix or improve notifications in general.
+
+Tracking changes that you are generally interested in without being a reviewer (e.g. as CC or
+starred changes) is a separate use case that we are not trying to actively address.
 
 ## <a id="acceptance">Acceptance Criteria
 
