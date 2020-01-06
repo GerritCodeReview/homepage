@@ -30,7 +30,7 @@ substantially lacking, see [below](#status-quo).
     taking action.
 *   As an owner or co-author I want to make sure that my reviews are making good progress. When I am
     in doubt about that, I want to know if and when my reviewers are going to review my change.
-*   As a user I want to be notified by email if (and often only if) my attention is required.
+*   As a user I want to be notified by email if my attention is required.
 
 ## <a id="secondary">Secondary Use Cases
 
