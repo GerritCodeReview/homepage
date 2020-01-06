@@ -1258,6 +1258,30 @@
     },
     {
       "key": {
+        "uuid": "228a879c_a2c0ace4",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-06T12:47:31Z",
+      "side": 1,
+      "message": "Re 3.: I have added a \"Non-Goal\" in https://gerrit-review.googlesource.com/c/homepage/+/249606. I think this is a separate (and not equivalently important) use case.",
+      "parentUuid": "b9b45628_3e528bca",
+      "range": {
+        "startLine": 73,
+        "startChar": 4,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "6b4675b75d744a2ed6f4ed2706b40bd31f3833e5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d82ef65f_f18f849f",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 13

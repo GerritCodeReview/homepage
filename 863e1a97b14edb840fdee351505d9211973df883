@@ -66,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "33997689_5d1758ef",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-06T12:47:31Z",
+      "side": 1,
+      "message": "At this point I think the design doc is polished enough to be readable. I don\u0027t think it is worth the time to go through further review rounds to improve the wording.",
+      "parentUuid": "a6af86cb_f192d276",
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1740979b_17fb1a9c",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 18
@@ -80,6 +98,24 @@
       "revId": "863e1a97b14edb840fdee351505d9211973df883",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "41209350_0841695a",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-06T12:47:31Z",
+      "side": 1,
+      "message": "At this point I think the design doc is polished enough to be readable. I don\u0027t think it is worth the time to go through further review rounds to improve the wording.",
+      "parentUuid": "1740979b_17fb1a9c",
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -106,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "9d412bfe_7eb65fab",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-06T12:47:31Z",
+      "side": 1,
+      "message": "Done in https://gerrit-review.googlesource.com/c/homepage/+/249606.",
+      "parentUuid": "c2231667_8abac8d3",
+      "range": {
+        "startLine": 42,
+        "startChar": 5,
+        "endLine": 42,
+        "endChar": 8
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "de5a2aeb_8056d36a",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 18
@@ -126,6 +186,30 @@
       "revId": "863e1a97b14edb840fdee351505d9211973df883",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "71cac991_12c3a481",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-06T12:47:31Z",
+      "side": 1,
+      "message": "Done in https://gerrit-review.googlesource.com/c/homepage/+/249606.\n\nI disagree about this being a 180 degree turnaround. And neither do I think that this required rethinking from scratch.",
+      "parentUuid": "de5a2aeb_8056d36a",
+      "range": {
+        "startLine": 45,
+        "startChar": 34,
+        "endLine": 46,
+        "endChar": 46
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -264,6 +348,24 @@
     },
     {
       "key": {
+        "uuid": "7277e48e_0e5d8e68",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-06T12:47:31Z",
+      "side": 1,
+      "message": "Done in https://gerrit-review.googlesource.com/c/homepage/+/249606.",
+      "parentUuid": "6685144a_dfcd37b3",
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bf73a413_bef6323f",
         "filename": "pages/design-docs/attention-set/use-cases.md",
         "patchSetId": 18
@@ -284,6 +386,30 @@
       "revId": "863e1a97b14edb840fdee351505d9211973df883",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7aeffc92_37087276",
+        "filename": "pages/design-docs/attention-set/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-06T12:47:31Z",
+      "side": 1,
+      "message": "Done in https://gerrit-review.googlesource.com/c/homepage/+/249606.",
+      "parentUuid": "bf73a413_bef6323f",
+      "range": {
+        "startLine": 63,
+        "startChar": 39,
+        "endLine": 64,
+        "endChar": 100
+      },
+      "revId": "863e1a97b14edb840fdee351505d9211973df883",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
