@@ -39,11 +39,11 @@ see "at a glance" whose turn it is on both the dashboard and the change pages.
 We define some simple [defaults](#defaults) for how the attention set should change for a few common
 actions. In the reply dialog users will have fine grained control over attention set changes.
 
-Only all review participants (owner, uploader, reviewers and CCs) can be in the attention set.
+Only review participants (owner, uploader, reviewers and CCs) can be in the attention set.
 
 Email notifications about uploaded patch sets will not be sent anymore (only to the owner, if
 someone else uploads a patchset). Reviewers will get emails when they are added to the attention
-set, or when they are removed from the review.
+set.
 
 We propose to drop the
 [Reviewed](https://gerrit-review.googlesource.com/Documentation/rest-api-changes.html#mark-as-reviewed)
