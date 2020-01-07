@@ -143,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "cd8920d9_0e3e1c07",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-01-07T10:40:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c5b52ea9_2cea5fa5",
+      "range": {
+        "startLine": 16,
+        "startChar": 3,
+        "endLine": 16,
+        "endChar": 20
+      },
+      "revId": "174505fb140021feecfd765225a4b8670b4d34f5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "aeac590d_0a96b562",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 3
