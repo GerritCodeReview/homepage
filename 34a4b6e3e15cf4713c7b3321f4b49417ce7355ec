@@ -16,6 +16,284 @@
       "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea71e373_55c1069a",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "Is the current Gerrit event system rich enough to support this?",
+      "range": {
+        "startLine": 12,
+        "startChar": 37,
+        "endLine": 12,
+        "endChar": 62
+      },
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "06a97597_aad0b5d5",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "A change could still be in unreviewed state for someone without a user being assigned to the change, right?\n\nCan I also mark a change reviewed, but still stay assigned?\n\nCan other users see my \"reviewed\" state?\n\nI think you are creating an unhealthy and confusing mix of two features here. If you would go into more detail about the possible states and events it would probably become obvious.\n\nIf you allow more than one user to be assigned, then the \"unreviewed\" state could be equivalent (i.e. redundant) to being assigned.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "afe97dea_74af54c8",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "Maybe it is easier to read this section if you say:\nSame as \"Defaults\" section of solution 1, but\nA. Make sure that only one user is assigned at the same time.\nB. Implement as a plugin.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "887efe11_c639837a",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "What happens when two reviewers are added at the same time? Who is assigned and why?",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "408f7010_0957e8c5",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "That rule seems a bit random.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5386067c_9f4a674c",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "Why has \"lowest oldest vote\" such a significance?",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f704c4dc_40f74b65",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "That comes from the fact that you are replacing/re-using the assignee feature, which I also initially proposed to do. But I was convinced that the current assignee feature has its own merits, so it should be kept.\n\nRe-using and making configurable is just confusing and lumping two features together that are meant for two separate use cases.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0843c32d_5a3c2af5",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "Which API is solution 1 breaking? The \"reviewed\" API? The proposal is to remove it, because of extremely low usage and high overlap. \"Breaking\" is a misleading phrase, if you refer to that.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4ff0a4be_02bb5b99",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "Whether you use an icon or just bold the user name is an orthogonal small UI issue that is unrelated to all the other elements of your solution.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c16b5a22_05013c53",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "Whether the icons are confusing is non obvious. :-) I believe they bring clarity.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "18d6ed29_97e00453",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "I don\u0027t understand this. Do you mean we just keep the bolding? Do you also propose to use bolding of other user names so that you can see who the change is currently assigned to, if it is not you?",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3feee39a_87906043",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "That is a bold statement. :-)\n\n\"bold\" typically means \"unread\", which is not what \"assigned\" means.\n\nWe have heard from users that they don\u0027t understand what bolding means in Gerrit and how to interact with it.\n\nSaying that bolding is \"very obvious and well understood\" and icons are \"confusing\" is just an opinion. Maybe emphasize that.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a375035_fa07dde3",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "That is why I am proposing to remove \"reviewed\" and to make clear that \"assignee\" is not an attention solution, but an escalation solution. Also I propose to turn \"assignee\" off by default, so for most hosts there will be only one attention solution.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e3b4217d_5699b7dc",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "That could also be seen as a con, because you are messing up \"assignee\" such that it becomes unusable for its intended context, and you are connecting the two in a confusing way.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c55dc9c2_b2e8ab8f",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "Code Review is a turn based system, and it is absolutely essential to know whose turn it is. Such a feature should not be optional. Configurability is not always a plus. It creates inconsistent experiences and a huge maintenance burden.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "09d2b0c7_fcf49f9a",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-07T15:45:12Z",
+      "side": 1,
+      "message": "The terminology is unrelated to the other proposed changes compared to my solution. I am happy to discuss this more since I am also not super happy with \"attention set\", but even after thinking about it a lot and asking various people I could not come up with something better.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
