@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "af2f5dc6_71f419cf",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2020-01-07T00:22:18Z",
+      "side": 1,
+      "message": "Interesting!\n\nI think there are two facets to this solution: the mechanism and the user experience. I\u0027ll focus on the UX facet because that fits my usual philosophy best: to start from what we want to help people do and then trace backward from there.\n\nThe UX described here is\n\n* use the Assignee field to determine whose turn it is to act next\n* use bold font in the dashboard to determine which changes are awaiting action\n* use explicit changes to the Assignee to manipulate the state of whose turn it is\n\nA strong advantage is continuity with the existing Gerrit UX. This doesn\u0027t introduce new sections in the change dashboard, new UI constructs for shifting attention, and so on. As a result, it should be straightforward for existing users to adapt to this.\n\nA secondary advantage is that this avoids diffusion of responsibility, since there is only one assignee.\n\nThe main disadvantages I see are\n\n* in multi-reviewer workflows, a single assignee can be too few. For example, if I am an author of a change to Gerrit requiring both Code-Review and Library-Compliance review, I would like both reviewers to get started right away. :)\n* it doesn\u0027t address the overwhelming-dashboard problem. I need to sift through all my incoming and outgoing changes to find the highlighted ones, instead of having a short \"todo\" list on top of changes awaiting my action that I can work through before looking at other incoming and outgoing changes.\n* the interaction between manual and automatic assignee changes is unclear. By contrast, in solution-1, manual changes to who a change is awaiting action by are associated with an explanation in the data model.\n\nA secondary disadvantage is that it takes over the assignee field which people had been using as a strong manual indication of \"I need this person\u0027s help\". I was convinced by the discussion surrounding https://gerrit-review.googlesource.com/c/homepage/+/245069/19#message-d327a4810a875bb0446483772597a9895a93c12d that it makes sense to keep the assignee feature as is on hosts that want it, so that people retain that capability for manual escalation without having a regression introduced by a new feature.",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
