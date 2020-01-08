@@ -101,6 +101,24 @@
     },
     {
       "key": {
+        "uuid": "e03b7d32_f253e1a1",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2020-01-08T16:00:33Z",
+      "side": 1,
+      "message": "\u003e A change could still be in unreviewed state for someone without a user being assigned to the change, right?\n\u003e \n\u003e Can I also mark a change reviewed, but still stay assigned?\n\u003e \n\u003e Can other users see my \"reviewed\" state?\n\u003e \n\u003e I think you are creating an unhealthy and confusing mix of two features here. If you would go into more detail about the possible states and events it would probably become obvious.\n\u003e \n\u003e If you allow more than one user to be assigned, then the \"unreviewed\" state could be equivalent (i.e. redundant) to being assigned.\n\nSince they seem more controversial (in both solution 1 \u0026 2) I have deferred any improvements to the reviewed state in solution 2.",
+      "parentUuid": "06a97597_aad0b5d5",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "afe97dea_74af54c8",
         "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
         "patchSetId": 1
