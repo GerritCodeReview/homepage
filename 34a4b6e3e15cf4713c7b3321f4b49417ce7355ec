@@ -487,6 +487,24 @@
     },
     {
       "key": {
+        "uuid": "53212419_5bc1abe0",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2020-01-08T16:53:43Z",
+      "side": 1,
+      "message": "Thanks. I have updated PS3 to drop any interference with the reviewed feature for now since it seems controversial (in both solution 1 \u0026 2). I agree with you all that it would be good to solve the trust issue with bolding. For now I don\u0027t think that solving it is essential for this use case, and having a good solution to this use case may convince everyone to just remove the bolding with less controversy later.",
+      "parentUuid": "a2f781fa_a962e38e",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2a375035_fa07dde3",
         "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
         "patchSetId": 1
@@ -572,6 +590,24 @@
       "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "813610ca_7a601be2",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2020-01-08T16:53:43Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e That could also be seen as a con, because you are messing up \"assignee\" such that it becomes unusable for its intended context, \n\u003e \u003e \n\u003e \u003e Could you elaborate on how specifically you believe this solution makes \"assignee\" unusable for its intended context so that I can potentially add it as a con?\n\u003e \n\u003e On our hosts we see about 6% of changes having an assignee at least once. That and anecdotal evidence from interviews suggest that assignee is a special and rather strong signal that only gets used in rather rare instances. It likely grabs extra attention because it is not used that often and teams can even agree on its semantics (which we know at least a few teams do). If we start using it for every change, this property is lost. This was also the use case Sven was refferring to in the discussion for solution 1 that convinced us to keep it around for those who need it.\n\nThanks, I\u0027ve added the following to PS3 to attempt to cover this:\n\n1. May interfere with current assignee use cases\n  a. This is less likely as long as assignee is still a single user.\n  b. If this is a case, then using a plugin allows this to not be the installed",
+      "parentUuid": "a4090d73_a46c718d",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
