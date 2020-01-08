@@ -451,6 +451,24 @@
     },
     {
       "key": {
+        "uuid": "a2f781fa_a962e38e",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2020-01-08T11:03:20Z",
+      "side": 1,
+      "message": "\u003e \u003e We have heard from users that they don\u0027t understand what bolding means in Gerrit and how to interact with it.\n\u003e \n\u003e I would interpret this as they don\u0027t understand why something is bold, but they likely understand that bold is trying to tell them that the changes are special in some way.\n\nMaybe, but they also report on giving up on the bolding entirely as it is just too noisy. So unless we completely revamp the bolding logic and then convince users to trust it again, this is likely not going to be helpful. As I understand your proposal, it would create even more events that cause bolding when we really want less. If I am reading this wrong, can you please expand on which events would cause bolding and how that is achieved through these plugins.",
+      "parentUuid": "df9070f8_412694d4",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2a375035_fa07dde3",
         "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
         "patchSetId": 1
@@ -518,6 +536,24 @@
       "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a4090d73_a46c718d",
+        "filename": "pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1074328
+      },
+      "writtenOn": "2020-01-08T11:03:20Z",
+      "side": 1,
+      "message": "\u003e \u003e That could also be seen as a con, because you are messing up \"assignee\" such that it becomes unusable for its intended context, \n\u003e \n\u003e Could you elaborate on how specifically you believe this solution makes \"assignee\" unusable for its intended context so that I can potentially add it as a con?\n\nOn our hosts we see about 6% of changes having an assignee at least once. That and anecdotal evidence from interviews suggest that assignee is a special and rather strong signal that only gets used in rather rare instances. It likely grabs extra attention because it is not used that often and teams can even agree on its semantics (which we know at least a few teams do). If we start using it for every change, this property is lost. This was also the use case Sven was refferring to in the discussion for solution 1 that convinced us to keep it around for those who need it.",
+      "parentUuid": "439be25d_792b819e",
+      "revId": "34a4b6e3e15cf4713c7b3321f4b49417ce7355ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
