@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3c94ebd6_a22fe353",
+        "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-09T14:38:44Z",
+      "side": 1,
+      "message": "If you allow multiple assignees (F3), then you are pretty close to my solution, only that you are replacing the assignee feature instead of creating something new. I was told and convinced by others that creating a separate feature is better, because then you can use the existing assignee feature for escalation, and you don\u0027t use the same feature/names for two things that work differently. But personally I don\u0027t have strong feelings about that. I would also be fine with replacing the assignee feature.",
+      "revId": "3f7056163a91b5112fea57aa58e87d2c3aaf1d27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8acfa48f_de91a9f7",
+        "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-01-09T14:38:44Z",
+      "side": 1,
+      "message": "I think limiting the attention to at most one reviewer is severely impacting review turn around time and efficiency. While your proposed workflow *can* sometimes be the right approach it does not match my experience that this is what you want 90% of the time. If you want two reviewers to have a look, then why would you prevent the author from assigning to both at the same time? A solution without multiple assignees is missing an important use case IMO.",
+      "revId": "3f7056163a91b5112fea57aa58e87d2c3aaf1d27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
