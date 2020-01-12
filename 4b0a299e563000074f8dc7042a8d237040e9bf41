@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0cc01e24_481242f7",
+        "filename": "_posts/2019-11-24-user-summit-sunnyvale-summary.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-01-12T08:35:05Z",
+      "side": 1,
+      "message": "We all know metrics are important to monitor the status of our systems and avoid our users to tell\nus Gerrit is not working before we realise it. Gerrit logs are an under-evaluated gold mine of metrics.\nIn this [presentation](https://docs.google.com/presentation/d/1EeJdCngQaVBxJPQaGC2DYtTS9gzM9II-uoi7DtPQkw0/edit?usp\u003dsharing)\nI showed my 5 favourites metrics which help me in my daily job as a Gerrit admin.",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 127,
+        "endChar": 4
+      },
+      "revId": "4b0a299e563000074f8dc7042a8d237040e9bf41",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
