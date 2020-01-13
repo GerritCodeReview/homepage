@@ -17,6 +17,10 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 
 Latest release: **[3.1.2](/3.1.html)**.
 
+## 3.2.0 (in development)
+
+[Release notes for Gerrit 3.2.0](/3.2.md)
+
 ## 3.1.0
 
 * Support for git protocol V2
