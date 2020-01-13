@@ -242,6 +242,30 @@
     },
     {
       "key": {
+        "uuid": "b1a79e4e_2ae4d702",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-01-13T13:30:37Z",
+      "side": 1,
+      "message": "OK, that makes sense to me. Thanks for explaining. I guess these details will show up in the solution doc later.",
+      "parentUuid": "97d2c91f_ae627bce",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 26,
+        "endChar": 63
+      },
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2f98af48_928500e0",
         "filename": "pages/design-docs/auth-extensions/use-cases.md",
         "patchSetId": 2
@@ -341,6 +365,24 @@
       "revId": "a408315b908c123886655307b6f98e2b69d121b8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b2af445c_b91ca7b5",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-01-13T13:30:37Z",
+      "side": 1,
+      "message": "OK, I would still like to have it mentioned here explicitly.\nTo me implementing the existing auth types based on the new extension point is proving us that the extension point interface is good and powerful enough to cover the use-cases that we support so far.",
+      "parentUuid": "6287bae2_fca0079e",
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
