@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "11ff0941_74237779",
+        "filename": "pages/design-docs/auth-extensions/solution-auth-extension.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-01-13T14:13:09Z",
+      "side": 1,
+      "message": "Would it better to have 2 sections here? One that describes how it\u0027s currently working (\u0027Background\u0027 section), and one that describes how it\u0027s envisioned to work in future (\u0027Overview\u0027 section)?",
+      "revId": "dbe1a4479b14eaeecc55ac5e3f20d1af44072ff4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d7d639c1_6bd364c0",
+        "filename": "pages/design-docs/auth-extensions/solution-auth-extension.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-01-13T14:13:09Z",
+      "side": 1,
+      "message": "Can we have a separate subsection to discuss how things are working when multiple auth plugins are installed/configured?\n\nIt\u0027s still unclear to me how that will work:\n\n1. Can one account be linked to multiple backends? E.g. can a user decide to login via OAuth or LDAP and be authenticated as the same account in both cases?\n2. If one account can be linked to multiple backends, there are multiple backends which provide the user data (potentially conflicting user data)? Which user data is Gerrit using then?\n3. If a user tries to login, how does Gerrit know from which plugin the login form should be shown?",
+      "revId": "dbe1a4479b14eaeecc55ac5e3f20d1af44072ff4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a31ea57_94ce04dc",
+        "filename": "pages/design-docs/auth-extensions/solution-auth-extension.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-01-13T14:13:09Z",
+      "side": 1,
+      "message": "Can you please explain in the Background section, what for AuthBackend is currently used and how it leads to a split-brain scenario?",
+      "revId": "dbe1a4479b14eaeecc55ac5e3f20d1af44072ff4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
