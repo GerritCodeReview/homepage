@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5211a21e_f2db502f",
+        "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T18:46:49Z",
+      "side": 1,
+      "message": "\u003e How do these 3 improvements satisfy the following primary use cases?\n\u003e \n\u003e 1) \"As a user I want to know at a glance which changes need my attention.\"\n\u003e I can see how this is true for the \"primary reviewer\" or \"current assignee\", but not for any other reviewer.\n\nOther reviewers would not have their attention needed. This is also addressed by Martin in his responses to Jonathan https://gerrit-review.googlesource.com/c/homepage/+/249712/1/pages/design-docs/attention-set/solution-2-assignee-and-reviewed-plugins.md#8\n\n\u003e \n\u003e 2) \"As a user I want to see if and why a certain change needs or does not need my or someone else’s attention.\"\n\u003e There seems to be no reasoning why a person is currently the assignee.\n\nI agree. Is this present in Ben\u0027s current solution? I can\u0027t find it there.\n\n\u003e \n\u003e 3) As an owner or co-author I want to make sure that my reviews are making good progress. When I am in doubt about that, I want to know if and when my reviewers are going to review my change.\n\u003e The \"if and when my reviewers\" part seems to be unsatisfied here as there is no indication of time.\n\nI agree. Is this present in Ben\u0027s current solution? I can\u0027t find it there.",
+      "parentUuid": "80be1c92_725cc612",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 96
+      },
+      "revId": "3f7056163a91b5112fea57aa58e87d2c3aaf1d27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3c94ebd6_a22fe353",
         "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
         "patchSetId": 3
