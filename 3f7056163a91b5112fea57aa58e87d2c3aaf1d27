@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "80be1c92_725cc612",
+        "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-17T11:26:45Z",
+      "side": 1,
+      "message": "How do these 3 improvements satisfy the following primary use cases?\n\n1) \"As a user I want to know at a glance which changes need my attention.\"\nI can see how this is true for the \"primary reviewer\" or \"current assignee\", but not for any other reviewer.\n\n2) \"As a user I want to see if and why a certain change needs or does not need my or someone else’s attention.\"\nThere seems to be no reasoning why a person is currently the assignee.\n\n3) As an owner or co-author I want to make sure that my reviews are making good progress. When I am in doubt about that, I want to know if and when my reviewers are going to review my change.\nThe \"if and when my reviewers\" part seems to be unsatisfied here as there is no indication of time.",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 96
+      },
+      "revId": "3f7056163a91b5112fea57aa58e87d2c3aaf1d27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3c94ebd6_a22fe353",
         "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
         "patchSetId": 3
@@ -37,6 +60,24 @@
     },
     {
       "key": {
+        "uuid": "f39b5716_ae6c6358",
+        "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-17T11:26:45Z",
+      "side": 1,
+      "message": "\"If you allow multiple assignees (F3), then you are pretty close to my solution\"\nThis is also the impression I got from reading both proposals. The first part of this proposal is an alternative to Ben\u0027s proposal in singular vs. manifold assignments. From here on, they are closer together. I\u0027ll try to specc\u0027 this out in the conclusion a bit more.\n\n[The following is my opinion as maintainer while other comments try to be objective in comparing what was presented in the two solutions]\n\n\"I was told and convinced by others that creating a separate feature is better, because then you can use the existing assignee feature for escalation\"\nI do have a preference towards making what people see in assignee today (it\u0027s an escalation path to regular reviewers) possible with attention set or simply removing this use-case from Gerrit-long term if the user group that currently uses it finds that \u0027attention set\u0027 is catering their needs. \n\nEssentially assignee is a singular assignment, attention set is a manifold assignment with additional logic. So technically it should be possible to have attention set cater assignee usages. One technical example where we already do this is \u0027reviewer\u0027 which is represented as a state (NONE,CC,REVIEWER). The same thinking could be applied to be in the attention set (NONE,ATTENTION,ESCALATION). The dashboard could show \"Escalated reviews\" at the top.",
+      "parentUuid": "2dd8cdba_13a7eaa2",
+      "revId": "3f7056163a91b5112fea57aa58e87d2c3aaf1d27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8acfa48f_de91a9f7",
         "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
         "patchSetId": 3
@@ -66,6 +107,29 @@
       "side": 1,
       "message": "this is actually an interesting problem. diffusion of responsibility is a very real phenomenon, and having a strict \"token passing\" mechanism is an effective way to address it from the technical side. however, that solution turns out to be counterproductive when the reviewers are actually eager to act, but just aren\u0027t available all the time - it artificially limits parallelization.\n\nat this point in time i think that going with AS and leaving assignee as a separate feature usable for escalation is probably the better idea.\ni\u0027ll also re-emphasize the need to visualize review activity in real time, which should take away some of the reluctance to act quickly out of concern about pointlessly duplicating other reviewers\u0027 work.",
       "parentUuid": "8acfa48f_de91a9f7",
+      "revId": "3f7056163a91b5112fea57aa58e87d2c3aaf1d27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "24638baa_6c5ce3cc",
+        "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-17T11:26:45Z",
+      "side": 1,
+      "message": "This seems to be a major difference to Ben\u0027s proposal because it makes the review flow be sequential if users rely on being \u0027assigned\u0027.",
+      "range": {
+        "startLine": 122,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 20
+      },
       "revId": "3f7056163a91b5112fea57aa58e87d2c3aaf1d27",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
