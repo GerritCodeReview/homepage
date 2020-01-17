@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f66e2196_6c119bf0",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "I think this is referring to the comments at https://gerrit-review.googlesource.com/c/249712/3/pages/design-docs/attention-set/solution-2-improving-assignee.md#25\n\nI just replied as I believe the solutions equally satisfy the use cases (as currently written).\n\nIf you\u0027re referring to other use cases you think are not addressed, can you specify those please?",
+      "range": {
+        "startLine": 38,
+        "startChar": 33,
+        "endLine": 38,
+        "endChar": 78
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b732502d_06c479e4",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "I believe Martin updated all references to plugin-based implementation to be optional in his solution. Did he miss some or could you please update this to reflect the current state of his proposal?",
+      "range": {
+        "startLine": 43,
+        "startChar": 26,
+        "endLine": 43,
+        "endChar": 38
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a20a953_b4af864f",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "These would still happen in a single Gerrit release, correct? So for everyone upgrading from 3.1, it\u0027s the same effort. I understand that may not be the case for Google, but I think that concern could be addressed on individual changes.\n\nAlso, does this apply to Martin\u0027s solution? It\u0027s not clear to me that his would require upgrading the index or NoteDb format. If it\u0027s different, can you move to the differences section please?",
+      "range": {
+        "startLine": 53,
+        "startChar": 16,
+        "endLine": 56,
+        "endChar": 25
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1ef6cc86_8f5386b3",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "I think you can remove this as a difference based on my comment above.",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 18
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4da3d686_3ca225e3",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "Can you please explain whose preference is this? I strongly favor reviewing iterative development and find that it often leads to a better end result. Giant code drops are my least favorite to review.",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 24
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b65090fb_a76a8602",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "Are there expected to be early consumers of APIs? Assignee already has a stable API, so is this applicable to Martin\u0027s solution?",
+      "range": {
+        "startLine": 70,
+        "startChar": 7,
+        "endLine": 70,
+        "endChar": 54
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d629d75c_0950196d",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "Can you point to that roadmap and those details please? What I see for implementation plan on Ben\u0027s proposal is https://gerrit-review.googlesource.com/c/homepage/+/245069/19/pages/design-docs/attention-set/solution-1-implementation.md and that\u0027s a list of (good) questions.\n\nIn contrast, it seems Martin\u0027s proposal has a specific feature list that would be implemented https://gerrit-review.googlesource.com/c/homepage/+/249712/3/pages/design-docs/attention-set/solution-2-improving-assignee.md\n\nPerhaps you meant to say favoring Martin\u0027s proposal?",
+      "range": {
+        "startLine": 72,
+        "startChar": 38,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "31defe1f_2c4046de",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "Should this be reflected in a Pros/Cons or other section in Ben\u0027s solution doc (similar to Martin\u0027s)?",
+      "range": {
+        "startLine": 81,
+        "startChar": 40,
+        "endLine": 82,
+        "endChar": 73
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5731b645_04d405bc",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-17T19:03:12Z",
+      "side": 1,
+      "message": "I understood the plan with Ben\u0027s proposal to be to just remove the reviewed flag. What migration are you referring to here?",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 84
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
