@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ad36aa54_60096482",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-20T00:52:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "349cc81e_b77f4a52",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 3
+      },
+      "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1ae872ea_4824459a",
         "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "02b2c572_c8dfd6a0",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-20T00:52:43Z",
+      "side": 1,
+      "message": "The older releases are still not buildable, i.e. if you check out one of the older tags.  It is only buildable from the tip of the branch.",
+      "parentUuid": "1ae872ea_4824459a",
+      "range": {
+        "startLine": 27,
+        "startChar": 65,
+        "endLine": 28,
+        "endChar": 92
+      },
+      "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "73402988_f8a59d55",
         "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
         "patchSetId": 2
@@ -62,6 +110,24 @@
       "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8b4e33c8_2c6a1cdf",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-20T00:52:43Z",
+      "side": 1,
+      "message": "It\u0027s not intended to be a separate paragraph in the rendered HTML.",
+      "parentUuid": "73402988_f8a59d55",
+      "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -85,6 +151,30 @@
       "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "582ec8cd_3c3fc6d2",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-20T00:52:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "62f47a82_383a8a56",
+      "range": {
+        "startLine": 31,
+        "startChar": 70,
+        "endLine": 31,
+        "endChar": 72
+      },
+      "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
