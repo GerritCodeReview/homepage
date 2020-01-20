@@ -21,7 +21,7 @@ Online, December 10, 12:30 - 13:30 CEST
 
 ### Next meeting
 
-The next meeting will be held on January 14, 12:30 CEST.
+The next meeting will be held on January 21, 12:30 CEST.
 
 ## Minutes
 
