@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "34a83582_41d6bb42",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-01-20T00:56:18Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "02b2c572_c8dfd6a0",
+      "range": {
+        "startLine": 27,
+        "startChar": 65,
+        "endLine": 28,
+        "endChar": 92
+      },
+      "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "73402988_f8a59d55",
         "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
         "patchSetId": 2
@@ -125,6 +149,24 @@
       "side": 1,
       "message": "It\u0027s not intended to be a separate paragraph in the rendered HTML.",
       "parentUuid": "73402988_f8a59d55",
+      "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "35732a00_7ecb8e3d",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-01-20T00:56:18Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8b4e33c8_2c6a1cdf",
       "revId": "107bb548c0d0d57f2ecb3623a2c3965c501624c6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
