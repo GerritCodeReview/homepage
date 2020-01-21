@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "d4bd9c45_a898798d",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-21T11:51:05Z",
+      "side": 1,
+      "message": "Should we differentiate here that 1. is proposed as core feature, while 2. is proposed as a plugin based solution?",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 0
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f66e2196_6c119bf0",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -179,6 +202,29 @@
         "startChar": 40,
         "endLine": 82,
         "endChar": 73
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4b3e9796_e48f965e",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-21T11:51:05Z",
+      "side": 1,
+      "message": "Its",
+      "range": {
+        "startLine": 86,
+        "startChar": 56,
+        "endLine": 86,
+        "endChar": 60
       },
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
