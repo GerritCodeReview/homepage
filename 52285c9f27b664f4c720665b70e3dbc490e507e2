@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "0316bf48_ea11dbf7",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d4bd9c45_a898798d",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 0
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f66e2196_6c119bf0",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -36,6 +60,30 @@
       "writtenOn": "2020-01-17T19:03:12Z",
       "side": 1,
       "message": "I think this is referring to the comments at https://gerrit-review.googlesource.com/c/249712/3/pages/design-docs/attention-set/solution-2-improving-assignee.md#25\n\nI just replied as I believe the solutions equally satisfy the use cases (as currently written).\n\nIf you\u0027re referring to other use cases you think are not addressed, can you specify those please?",
+      "range": {
+        "startLine": 38,
+        "startChar": 33,
+        "endLine": 38,
+        "endChar": 78
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ce17a41_100b89fd",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "I followed up on these and rephrased this a bit. I do feel like we could easily get lost in bike shedding words or phrases. From passing over Martin\u0027s proposal, my impression was that the initial iteration (single assignee) is different from Ben\u0027s proposal. \n\nAnother example from use cases is: \"As an owner or co-author I want to make sure that my reviews are making good progress. When I am in doubt about that, I want to know if and when my reviewers are going to review my change.\"\nThe use-case is written in plural, suggesting a multi-reviewer workflow (like other use-cases do as well). There is the concern of a single-reviewer workflow being much slower than a multi-reviewer workflow.\n\nIn the end state - as I wrote - I think Martin\u0027s solution would satisfy the use-cases in a similar way as Ben\u0027s solution does. But at the same time that means that there isn\u0027t all that much differences anymore.\n\nI originally tried to differentiate the proposal along the following dimensions:\n1) Single vs multi-user flow\n2) Core vs. plugin\n3) Incremental based on assignee vs stand-alone.\n\nI am parsing your arguments as follows:\n1) Martin would basically go into the direction of a single flow, but if the use-case dictates it, would incrementally adapt a multi-flow (so it\u0027s the same as Ben\u0027s).\n2) Martin\u0027s proposal now favors an implementation in core with plugins being option (so it\u0027s the same as Ben\u0027s)\nThe commit message still says: \"This solution is meant to highlight a more incremental and possibly a plugin based approach\" though.\n\nSo now I am having a hard time to see the factual differences in the end state (say three years from now).\n\nIf that was true (and please tell me if it\u0027s not), process would be the only major difference (apart from many smaller differences). So iterate on assignee vs write from scratch.",
+      "parentUuid": "f66e2196_6c119bf0",
       "range": {
         "startLine": 38,
         "startChar": 33,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "1dcb3249_e7dd8952",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "I\u0027ve updated this conclusion to mention that. Please see my comment on why that makes it even harder to tell apart the different proposals in their respective end state.",
+      "parentUuid": "b732502d_06c479e4",
+      "range": {
+        "startLine": 43,
+        "startChar": 26,
+        "endLine": 43,
+        "endChar": 38
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2a20a953_b4af864f",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -91,6 +163,30 @@
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5d187899_9802e6a7",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "This is not how I understood it. The text says:\n\n\u003e 2. Allows for a incremental feature development\n\u003e  a. Users see improvements right away\n\u003e  b. Approach can be adjusted easily if required\n\nAdjusting requires releases to get users to try an intermediary state and give feedback.",
+      "parentUuid": "2a20a953_b4af864f",
+      "range": {
+        "startLine": 53,
+        "startChar": 16,
+        "endLine": 56,
+        "endChar": 25
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "dce21c90_0327889f",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "1ef6cc86_8f5386b3",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 18
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4da3d686_3ca225e3",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -137,6 +257,30 @@
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ce3f50d_34a36af5",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "I think we have a different understanding of what \u0027iterative\u0027 here means. Parsing the text of Martin\u0027s proposal (see my comment above), iterative means releasing Gerrit in-between.\n\nI rewrote this to be more if we should iterate on an existing feature or put up a new one with the desire to deprecate the \u0027other\u0027.\n\nI totally stand by your side in that the changes we review should be small, so progress reviewed in a single change should be minimal and there should not be gigantic code drops.",
+      "parentUuid": "4da3d686_3ca225e3",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 24
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "d2cd0321_83cc0b3c",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "I rephrased this a bit. I think the point here is that iterating on the API of assignee has the danger of breaking it multiple times while creating a standalone API will allow for a single breakage at a single point in time.",
+      "parentUuid": "b65090fb_a76a8602",
+      "range": {
+        "startLine": 70,
+        "startChar": 7,
+        "endLine": 70,
+        "endChar": 54
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d629d75c_0950196d",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -183,6 +351,30 @@
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d82e2ac_4f30f07a",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "This certainly has the potential for being subjective to to the reader. What I initially meant was the promise to implement and the promise on a timeline (https://www.gerritcodereview.com/design-doc-attention-set-solution-1-implementation.html#implementation-plan-and-time-estimation).\n\nBen\u0027s proposal is composed of three docs (worflow, UI, implementation plan). Implementation plan is vague, the rest is of much more detail. Martin references some of that detail (e.g. by saying \"F4) Address many of the same \"Deferred Enhancements\" (Expectations, Snoozing...) from Solution 1\"). That is lacking detail in the other hand. One could argue that by referencing in other sections, you get more information/detail, but \"some of\" is a vague reference.\n\nI don\u0027t think this point is as important here and I am trying to be as objective as possible. I rephrased it to be about the implementation promise only. If you have an objective measure in mind to holistically compare the level of detail, please let me know and I\u0027ll try to work it in.",
+      "parentUuid": "d629d75c_0950196d",
+      "range": {
+        "startLine": 72,
+        "startChar": 38,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "8100095a_d8737dbc",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "It could but I think that having it stated in the conclusion is enough. We otherwise have the risk of going in circles, because the conclusion is also going through multiple rounds of reviews.",
+      "parentUuid": "31defe1f_2c4046de",
+      "range": {
+        "startLine": 81,
+        "startChar": 40,
+        "endLine": 82,
+        "endChar": 73
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4b3e9796_e48f965e",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -232,6 +448,30 @@
     },
     {
       "key": {
+        "uuid": "7640bf93_a724010f",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4b3e9796_e48f965e",
+      "range": {
+        "startLine": 86,
+        "startChar": 56,
+        "endLine": 86,
+        "endChar": 60
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5731b645_04d405bc",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -252,6 +492,30 @@
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1db5d781_d0901870",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:14:31Z",
+      "side": 1,
+      "message": "Clarified.",
+      "parentUuid": "5731b645_04d405bc",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 84
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
