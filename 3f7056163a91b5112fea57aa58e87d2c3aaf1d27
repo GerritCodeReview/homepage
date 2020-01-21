@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "886729ba_f1b9ffaf",
+        "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-21T14:21:49Z",
+      "side": 1,
+      "message": "1) Thanks for the pointer. A secondary use case says: \"As a change owner I want to set expectations about what I want from each reviewer.\"\nI did understand this as multi-reviewer workflow.\n\n2) From an offline discussion with Ben, I heard that there was a plan for this, but that is currently missing from the doc. You are right in suggesting that both proposals lack documented steps for fulfilling this use case. Thanks for clarifying!\n\n3) Ben\u0027s proposal addresses this as \"Snoozed/Paused\": https://www.gerritcodereview.com/design-doc-attention-set-solution-1-workflow.html#deferred-enhancement-snoozingpausing\nIt\u0027s listed as \"deferred enhancement\", so the objective answer to \"Is this present in Ben\u0027s current solution?\" must be \"No\". This is my fault actually, because Ben did include this in his initial proposal as core feature.\nI commented on this early on to gate it on maintainability/implementation complexity: https://gerrit-review.googlesource.com/c/homepage/+/245069/1/pages/design-docs/attention-set/solution-1-rules-conditions.md#52\nIt has a high chance of getting done in the initial implementation, but I didn\u0027t want there to be a promise for it. I will update the conclusion with a short statement about that fact to be 100% transparent.",
+      "parentUuid": "5211a21e_f2db502f",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 96
+      },
+      "revId": "3f7056163a91b5112fea57aa58e87d2c3aaf1d27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3c94ebd6_a22fe353",
         "filename": "pages/design-docs/attention-set/solution-2-improving-assignee.md",
         "patchSetId": 3
