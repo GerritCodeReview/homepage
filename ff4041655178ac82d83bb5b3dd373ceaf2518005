@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7b136af3_98de5ecb",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "What is \"dependence with optional reliance\"? I\u0027m not sure how to interpret that.",
+      "range": {
+        "startLine": 25,
+        "startChar": 68,
+        "endLine": 26,
+        "endChar": 11
+      },
+      "revId": "ff4041655178ac82d83bb5b3dd373ceaf2518005",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "245bf809_8374c62c",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "Again, there\u0027s no forcing of sequential action in either proposal",
+      "range": {
+        "startLine": 70,
+        "startChar": 64,
+        "endLine": 71,
+        "endChar": 14
+      },
+      "revId": "ff4041655178ac82d83bb5b3dd373ceaf2518005",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ad3680be_997fd69a",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "Does this mean Google would not implement Martin\u0027s solution if the ESC decided it was the better approach? I don\u0027t think that in itself is a problem, but I\u0027m concerned if it\u0027s being used as a criteria for the ESC to choose between solutions. My understanding of this process was to decide the most appropriate solution for Gerrit based on the community\u0027s needs. Who is willing to implement which shouldn\u0027t be a factor in that.",
+      "range": {
+        "startLine": 79,
+        "startChar": 52,
+        "endLine": 79,
+        "endChar": 74
+      },
+      "revId": "ff4041655178ac82d83bb5b3dd373ceaf2518005",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}

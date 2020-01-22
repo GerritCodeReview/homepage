@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "57be7c52_18032f74",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "\u003e I followed up on these and rephrased this a bit. I do feel like we could easily get lost in bike shedding words or phrases. From passing over Martin\u0027s proposal, my impression was that the initial iteration (single assignee) is different from Ben\u0027s proposal. \n\nAgreed.\n\n\u003e \n\u003e Another example from use cases is: \"As an owner or co-author I want to make sure that my reviews are making good progress. When I am in doubt about that, I want to know if and when my reviewers are going to review my change.\"\n\u003e The use-case is written in plural, suggesting a multi-reviewer workflow (like other use-cases do as well). There is the concern of a single-reviewer workflow being much slower than a multi-reviewer workflow.\n\u003e \n\nI think it was Ben who originally said \"code review is an inherently turn-based system\"?\n\nAs Martin clearly has stated in his solution, nothing there prevents a multi-reviewer workflow. I\u0027m a bit confused why this is being repeated so many times. There is a distinction between \"reviewer\" and \"person with attention\", and it seems that\u0027s being lost in these discussions. Can we please restore it?\n\n\u003e In the end state - as I wrote - I think Martin\u0027s solution would satisfy the use-cases in a similar way as Ben\u0027s solution does. But at the same time that means that there isn\u0027t all that much differences anymore.\n\u003e \n\u003e I originally tried to differentiate the proposal along the following dimensions:\n\u003e 1) Single vs multi-user flow\n\u003e 2) Core vs. plugin\n\u003e 3) Incremental based on assignee vs stand-alone.\n\u003e \n\u003e I am parsing your arguments as follows:\n\u003e 1) Martin would basically go into the direction of a single flow, but if the use-case dictates it, would incrementally adapt a multi-flow (so it\u0027s the same as Ben\u0027s).\n\u003e 2) Martin\u0027s proposal now favors an implementation in core with plugins being option (so it\u0027s the same as Ben\u0027s)\n\u003e The commit message still says: \"This solution is meant to highlight a more incremental and possibly a plugin based approach\" though.\n\u003e \n\u003e So now I am having a hard time to see the factual differences in the end state (say three years from now).\n\nI think if we always knew the right software to build that will still be what we need 3 years from now, we\u0027d be considered exceptionally good at our jobs. 😊\n\nMaybe the iterative approach taken with Martin\u0027s changes leads to exactly what Ben\u0027s solution is now. However, maybe it doesn\u0027t. If it doesn\u0027t, it\u0027s because we learned something new and improved it along the way. To me, that\u0027s going to be a better feature.\n\nWe all know Ben\u0027s solution is heavily influenced by an existing Google-internal solution, but Gerrit isn\u0027t that same internal tool. It may very well have workflows and features that don\u0027t (or didn\u0027t) exist in that tool. Jumping directly to that solution without being able to try out so many of the \"pros\" of the solution, but for much cheaper effort, seems to be doing a disservice to ourselves and our users.\n\n\u003e \n\u003e If that was true (and please tell me if it\u0027s not), process would be the only major difference (apart from many smaller differences). So iterate on assignee vs write from scratch.",
+      "parentUuid": "2ce17a41_100b89fd",
+      "range": {
+        "startLine": 38,
+        "startChar": 33,
+        "endLine": 38,
+        "endChar": 78
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b732502d_06c479e4",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -143,6 +167,30 @@
     },
     {
       "key": {
+        "uuid": "42ab30f3_2fc66bc2",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "I don\u0027t see an update to the wording in this section in PS7. Did you miss that or was it intentional?",
+      "parentUuid": "1dcb3249_e7dd8952",
+      "range": {
+        "startLine": 43,
+        "startChar": 26,
+        "endLine": 43,
+        "endChar": 38
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2a20a953_b4af864f",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -187,6 +235,30 @@
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8375ab4a_51192feb",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "Thanks to Google, we (the Gerrit devs) have a significant # of users running something close to master. I don\u0027t think stable releases are required to get benefit from incremental feature development.\n\nThat said, I do think this is an important difference in the solutions. Martin\u0027s solution ensures an always releasable tip, with each change providing incremental value. If the timeline for 3.2 rolls around and not everything is done, that\u0027s fine, it\u0027s still value to users. To me, that is the overwhelming positivity of incremental-value feature development.\n\nAlso, did you find anything in Martin\u0027s solution that indicates index or NoteDb schema changes are required?",
+      "parentUuid": "5d187899_9802e6a7",
+      "range": {
+        "startLine": 53,
+        "startChar": 16,
+        "endLine": 56,
+        "endChar": 25
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
@@ -284,6 +356,30 @@
     },
     {
       "key": {
+        "uuid": "b2857dba_dd33a7f8",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "As I just commented above, I also think iterative means each single change should provide value to a user (with rare exceptions).",
+      "parentUuid": "2ce3f50d_34a36af5",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 24
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b65090fb_a76a8602",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -328,6 +424,30 @@
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "101cee26_28becaa2",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "\u003e I rephrased this a bit. I think the point here is that iterating on the API of assignee has the danger of breaking it multiple times while creating a standalone API will allow for a single breakage at a single point in time.\n\nBut I don\u0027t think Martin\u0027s solution calls for iterating on the API, does it? So this is a non-point.",
+      "parentUuid": "d2cd0321_83cc0b3c",
+      "range": {
+        "startLine": 70,
+        "startChar": 7,
+        "endLine": 70,
+        "endChar": 54
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
@@ -378,6 +498,30 @@
     },
     {
       "key": {
+        "uuid": "31648ee2_d968e1e8",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "Understood. However, it\u0027s hard to believe a timeline for a big feature (like Ben\u0027s) without (and often even with) a detailed implementation plan.\n\nMartin\u0027s plan has specific items that immediately add value to users. Ben\u0027s needs large amounts of pre-work before users get anything. I think that is a core difference that should be captured (and yes, is possibly in the end the only difference).",
+      "parentUuid": "1d82e2ac_4f30f07a",
+      "range": {
+        "startLine": 72,
+        "startChar": 38,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "31defe1f_2c4046de",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -422,6 +566,30 @@
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a94654ae_fcd3500f",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-01-22T06:21:45Z",
+      "side": 1,
+      "message": "I think, as much as possible, conclusion docs should not contain any new \"facts\" about the proposed solutions. They should be a summary and objective arguments.",
+      "parentUuid": "8100095a_d8737dbc",
+      "range": {
+        "startLine": 81,
+        "startChar": 40,
+        "endLine": 82,
+        "endChar": 73
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     },
     {
       "key": {
