@@ -9,6 +9,11 @@ hide_navtoggle: true
 toc: true
 ---
 
+## Community Survey Results
+
+The results of last year's Community Survey have been
+[published](https://docs.google.com/presentation/d/e/2PACX-1vSFj7v00OS14bP64bFPsQbLIy8zP48oc9oyZNod3C7MCGyRDkCh9h64QPMiznevRNWwKRyKACSOy-Zf/pub?start=false&loop=false&delayms=3000).
+
 ## Backup Documentation
 
 Matthias Sohn (SAP) created a new documentation page with detailed
