@@ -1,7 +1,6 @@
 ---
 title: "Design Doc - Attention Set - Solution 1 - Implementation"
-sidebar: gerritdoc_sidebar
-permalink: design-doc-attention-set-solution-1-implementation.html
+permalink: design-docs/attention-set-solution-1-implementation.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false
@@ -10,9 +9,9 @@ folder: design-docs/attention-set
 
 *Please read these other parts of the solution before this doc:*
 
-*   [Use Cases](use-cases.md)
-*   [Workflow](solution-1-workflow.md)
-*   [User Interface](solution-1-user-interface.md)
+*   [Use Cases](/design-docs/attention-set-use-cases.html)
+*   [Workflow](/design-docs/attention-set-solution-1-workflow.html)
+*   [User Interface](/design-docs/attention-set-solution-1-user-interface.html)
 
 # Solution 1 - Implementation
 

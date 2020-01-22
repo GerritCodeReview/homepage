@@ -1,5 +1,6 @@
 ---
 title: "Solution - Distribute Replication Tasks via a Shared Filesystem - Scaling Multi-Master Replication"
+permalink: design-docs/scaling-multi-master-replication-solution-distribute-replication-tasks-via-shared-FS.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false

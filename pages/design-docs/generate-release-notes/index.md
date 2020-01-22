@@ -8,5 +8,5 @@ toc: false
 
 ## Design Doc - Generate Release Notes
 
-* [Use Cases](use-cases.md)
+* [Use Cases](/design-docs/generate-release-notes-use-cases.html)
 

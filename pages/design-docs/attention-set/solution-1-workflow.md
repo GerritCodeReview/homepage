@@ -1,7 +1,6 @@
 ---
 title: "Design Doc - Attention Set - Solution 1 - Workflow"
-sidebar: gerritdoc_sidebar
-permalink: design-doc-attention-set-solution-1-workflow.html
+permalink: design-docs/attention-set-solution-1-workflow.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false
@@ -10,7 +9,7 @@ folder: design-docs/attention-set
 
 # Solution 1 - Workflow
 
-*Please read [Use Cases](use-cases.md) before this doc.*
+*Please read [Use Cases](/design-docs/attention-set-use-cases.html) before this doc.*
 
 ## <a id="overview">Overview
 

@@ -1,5 +1,6 @@
 ---
 title: ""
+permalink: design-docs/revert-submit-conclusion.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false
@@ -7,7 +8,7 @@ toc: false
 
 # Conclusion
 
-The solution described in [Solution - solution - Gal initial solution](solution-Gal.md) 
+The solution described in [Solution - solution - Gal's initial solution](/design-docs/revert-submit-solution-gal.html) 
 was chosen for the following reasons:
 
 1. It is a simple solution that creates the necessary feature.

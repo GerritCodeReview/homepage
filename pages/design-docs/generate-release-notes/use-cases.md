@@ -1,5 +1,6 @@
 ---
 title: ""
+permalink: design-docs/generate-release-notes-use-cases.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false

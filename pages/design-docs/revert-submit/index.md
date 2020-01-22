@@ -8,6 +8,6 @@ toc: false
 
 ## Design Doc - Revert submit
 
-* [Use Cases](use-cases.md)
-* [Solution - solution - Gal initial solution](solution-Gal.md)
-* [Conclusion](conclusion.md)
+* [Use Cases](/design-docs/revert-submit-use-cases.html)
+* [Solution - solution - Gal's initial solution](/design-docs/revert-submit-solution-gal.html)
+* [Conclusion](/design-docs/revert-submit-conclusion.html)

@@ -1,5 +1,6 @@
 ---
 title: ""
+permalink: design-docs/revert-submit-use-cases.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false

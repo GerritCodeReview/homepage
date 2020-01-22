@@ -1,7 +1,6 @@
 ---
 title: "Design Doc - Attention Set - Use Cases"
-sidebar: gerritdoc_sidebar
-permalink: design-doc-attention-set-use-cases.html
+permalink: design-docs/attention-set-use-cases.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false

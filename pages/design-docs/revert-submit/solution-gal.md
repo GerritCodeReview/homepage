@@ -1,5 +1,6 @@
 ---
 title: ""
+permalink: design-docs/revert-submit-solution-gal.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false

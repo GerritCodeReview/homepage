@@ -1,5 +1,6 @@
 ---
 title: "Solution 2 - Improving Assignee"
+permalink: design-docs/attention-set-solution-2-improving-assignee.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false

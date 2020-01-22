@@ -1,5 +1,6 @@
 ---
 title: "Use Cases - Scaling Multi-Master Replication"
+permalink: design-docs/scaling-multi-master-replication-use-cases.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false

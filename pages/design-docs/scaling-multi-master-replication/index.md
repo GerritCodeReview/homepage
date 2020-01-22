@@ -8,5 +8,5 @@ toc: false
 
 ## Design Doc - Scaling Multi-Master Replication
 
-* [Use Cases](use-cases.md)
-* [Solution](solution-distribute-replication-tasks-via-shared-FS.md)
+* [Use Cases](/design-docs/scaling-multi-master-replication-use-cases.html)
+* [Solution](/design-docs/scaling-multi-master-replication-solution-distribute-replication-tasks-via-shared-FS.html)
