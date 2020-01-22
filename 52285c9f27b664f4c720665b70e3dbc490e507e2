@@ -191,6 +191,30 @@
     },
     {
       "key": {
+        "uuid": "08156857_dc3caaab",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-22T12:59:14Z",
+      "side": 1,
+      "message": "Honest mistake. Done.",
+      "parentUuid": "42ab30f3_2fc66bc2",
+      "range": {
+        "startLine": 43,
+        "startChar": 26,
+        "endLine": 43,
+        "endChar": 38
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2a20a953_b4af864f",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 6
@@ -259,6 +283,30 @@
       "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5de8f5d0_ee2eb80c",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-22T12:59:14Z",
+      "side": 1,
+      "message": "\u003e Also, did you find anything in Martin\u0027s solution that indicates index or NoteDb schema changes are required?\n\nNo, because it is vague about it. Going from 1-to-n assignees would require an index upgrade and iteration on the rules that deal with data types and how/when things surface on the dashboard would at least require another one.",
+      "parentUuid": "8375ab4a_51192feb",
+      "range": {
+        "startLine": 53,
+        "startChar": 16,
+        "endLine": 56,
+        "endChar": 25
+      },
+      "revId": "52285c9f27b664f4c720665b70e3dbc490e507e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {

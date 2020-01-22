@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6795023d_61a5914d",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-22T12:59:14Z",
+      "side": 1,
+      "message": "Done. That was a snafu.",
+      "parentUuid": "7b136af3_98de5ecb",
+      "range": {
+        "startLine": 25,
+        "startChar": 68,
+        "endLine": 26,
+        "endChar": 11
+      },
+      "revId": "ff4041655178ac82d83bb5b3dd373ceaf2518005",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "245bf809_8374c62c",
         "filename": "pages/design-docs/attention-set/conclusion.md",
         "patchSetId": 7
@@ -68,6 +92,30 @@
       "revId": "ff4041655178ac82d83bb5b3dd373ceaf2518005",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aadedbb3_753d00c6",
+        "filename": "pages/design-docs/attention-set/conclusion.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-01-22T12:59:14Z",
+      "side": 1,
+      "message": "Ben didn\u0027t comment on this yet. All I can do in a conclusion is comparing and there is only a statement about implementation up until now.",
+      "parentUuid": "ad3680be_997fd69a",
+      "range": {
+        "startLine": 79,
+        "startChar": 52,
+        "endLine": 79,
+        "endChar": 74
+      },
+      "revId": "ff4041655178ac82d83bb5b3dd373ceaf2518005",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
