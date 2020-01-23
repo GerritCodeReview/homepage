@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3beb414d_a4ec85ef",
+        "filename": "pages/design-docs/delete-groups/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-23T06:23:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d337310_68c1d5b9",
+      "range": {
+        "startLine": 1,
+        "startChar": 15,
+        "endLine": 1,
+        "endChar": 31
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1db107c6_9f7ddc0a",
         "filename": "pages/design-docs/delete-groups/solution-Gal.md",
         "patchSetId": 1
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "bad2f120_1b296317",
+        "filename": "pages/design-docs/delete-groups/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-23T06:23:43Z",
+      "side": 1,
+      "message": "Marking as resolved.",
+      "parentUuid": "1db107c6_9f7ddc0a",
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "36f1208d_edadd691",
         "filename": "pages/design-docs/delete-groups/solution-Gal.md",
         "patchSetId": 1
@@ -53,6 +95,30 @@
       "writtenOn": "2019-11-29T00:12:15Z",
       "side": 1,
       "message": "Why does implementing as a REST endpoint mean that we have to have the audit trail?",
+      "range": {
+        "startLine": 29,
+        "startChar": 41,
+        "endLine": 37,
+        "endChar": 0
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b3da34a1_72129ad7",
+        "filename": "pages/design-docs/delete-groups/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-23T06:23:43Z",
+      "side": 1,
+      "message": "This was answered by Alice in the cover comment, but I think that information should also be added here.",
+      "parentUuid": "36f1208d_edadd691",
       "range": {
         "startLine": 29,
         "startChar": 41,
@@ -82,6 +148,24 @@
     },
     {
       "key": {
+        "uuid": "590ddd5e_e455195d",
+        "filename": "pages/design-docs/delete-groups/solution-Gal.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-23T06:23:43Z",
+      "side": 1,
+      "message": "Making it a core plugin would require the audit trail, according to Alice\u0027s answer.",
+      "parentUuid": "4e52dd56_516fdc27",
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0f847234_b3114efc",
         "filename": "pages/design-docs/delete-groups/use-cases.md",
         "patchSetId": 1
@@ -102,6 +186,30 @@
       "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6e102f8b_e73f5b87",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-23T06:23:43Z",
+      "side": 1,
+      "message": "Marking as resolved. Track this with the other comment.",
+      "parentUuid": "0f847234_b3114efc",
+      "range": {
+        "startLine": 7,
+        "startChar": 57,
+        "endLine": 8,
+        "endChar": 14
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -152,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "47345a54_9999e751",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-23T06:23:43Z",
+      "side": 1,
+      "message": "Marking as resolved.",
+      "parentUuid": "d768afc5_7647547a",
+      "range": {
+        "startLine": 12,
+        "startChar": 12,
+        "endLine": 13,
+        "endChar": 38
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b885c06f_13bb32e7",
         "filename": "pages/design-docs/delete-groups/use-cases.md",
         "patchSetId": 1
@@ -195,6 +327,54 @@
       "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4aec0bf1_fb7eda20",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-23T06:23:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b885c06f_13bb32e7",
+      "range": {
+        "startLine": 15,
+        "startChar": 15,
+        "endLine": 15,
+        "endChar": 16
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4302270_47863240",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-23T06:23:43Z",
+      "side": 1,
+      "message": "Marking as resolved.",
+      "parentUuid": "9a83ea1b_ef3af67f",
+      "range": {
+        "startLine": 15,
+        "startChar": 21,
+        "endLine": 15,
+        "endChar": 77
+      },
+      "revId": "7d5699bebc2a25b81a2f1abad30f198276c86431",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
