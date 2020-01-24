@@ -28,6 +28,29 @@ the releases
 [3.0.5](http://gerrit-documentation.storage.googleapis.com/Documentation/3.0.5/backup.html),
 and [3.1.1](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.1/backup.html).
 
+
+## Tighter integration between Gerrit CI and the Checks plugin
+
+Thomas Draebing (SAP), David Ostrovsky and Luca Milanesio (GerritForge) have been working
+hard to improve the integration of the current [Gerrit CI](https://gerrit-ci.gerritforge.com)
+with the UI of the [Checks plugin](https://gerrit.googlesource.com/plugins/checks).
+
+That includes the ability to directly link to the build logs from the Gerrit change screen
+and the possibility to re-run the build from the Checks tab.
+
+Read the [full story on the repo-discuss mailing list](https://groups.google.com/d/topic/repo-discuss/cyGrURwY7eM/discussion).
+
+## Zuul integration with Gerrit is coming to Gerrit CI
+
+James E. Blair (RedHat) has been working hard to provide the automatic CI validation
+of Gerrit changes using [Zuul](https://zuul-ci.org) integrated with the [Checks plugin](https://gerrit.googlesource.com/plugins/checks)
+running on [Google Cloud](https://cloud.google.com).
+
+He is currently in the environment setup phase and very soon a parallel CI environment
+will be running and working side-by-side with the [Gerrit-CI](https://gerrit-ci.gerritforge.com).
+We are all looking forward to seeing Zuul running and taking over Jenkins for the Gerrit change
+validation in the next few months.
+
 ## HTTPS Required for Download from Maven Central
 
 [Effective January 15, 2020](https://support.sonatype.com/hc/en-us/articles/360041287334),
