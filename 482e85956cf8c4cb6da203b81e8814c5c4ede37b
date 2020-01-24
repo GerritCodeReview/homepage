@@ -1,0 +1,372 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3dd250c6_cf4256ec",
+        "filename": "pages/design-docs/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "I don\u0027t want to bikeshed but at some point we should consider to use a different term for this effort as the currently proposed solution wouldn\u0027t result in exactly a \u0027threaded Change Log\u0027 anymore (if I understood it correctly). I think the idea is rather to allow threaded comments/messages outside of files.",
+      "range": {
+        "startLine": 24,
+        "startChar": 3,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "24634be4_2fc3c611",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "Could it be that this overview is the summary of an earlier design? It doesn\u0027t seem to match what is proposed below. For instance, I understood from the rest of this that change messages won\u0027t get a reply_to field as instead the \u0027feedback part\u0027 will be a comment which has a reply_to field.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 27
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6fc7a026_a0d360b1",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "Will this just re-use the already existing fields of the Comment entity (and sub-entities) or are you proposing to add additional fields somewhere?",
+      "range": {
+        "startLine": 31,
+        "startChar": 9,
+        "endLine": 32,
+        "endChar": 9
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "92028e72_db42553c",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "Will they also be rendered like regular comments within the \u0027Change Log\u0027? Example:\n\n  _________________________________________________\n  |  User name\n  |  Patch Set 4:\n  |  (2 comments)\n  |\n  |  ----------------------------------------------\n  |  Patch set level\n  |      PS 4: This is a comment/message outside of a file.\n  |\n  |  a/file/path\n  |      Line 10: This is a line comment.\n  |_________________________________________________",
+      "range": {
+        "startLine": 35,
+        "startChar": 52,
+        "endLine": 37,
+        "endChar": 40
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d01c1e9_9196a401",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "robotcomments",
+      "range": {
+        "startLine": 44,
+        "startChar": 7,
+        "endLine": 44,
+        "endChar": 19
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d16cc38_0955018b",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "I agree, let\u0027s discuss this in more detail later with more concrete implementation ideas. Maybe, we can even re-use the existing \u0027Comment\u0027 NoteDb entity with new field-value combinations (e.g. no filename).",
+      "range": {
+        "startLine": 44,
+        "startChar": 22,
+        "endLine": 49,
+        "endChar": 10
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "57e5bca5_9962cce9",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "I agree.",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 54
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a65a8343_5a032c86",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "I like the idea that the frontend takes the \u0027feedback part\u0027 and converts it into a \u0027comment\u0027. Will we keep the \u0027message\u0027 field of ReviewInput [1] but simply not use/fill it from the UI?\n\n[1] https://gerrit-review.googlesource.com/Documentation/rest-api-changes.html#review-input",
+      "range": {
+        "startLine": 64,
+        "startChar": 3,
+        "endLine": 71,
+        "endChar": 7
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e2191532_0483c9ea",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "Sounds good.",
+      "range": {
+        "startLine": 73,
+        "startChar": 2,
+        "endLine": 74,
+        "endChar": 79
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "199a396e_8e380d5e",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "Do you mean \u0027submit rules\u0027?",
+      "range": {
+        "startLine": 76,
+        "startChar": 11,
+        "endLine": 76,
+        "endChar": 23
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d69c6a44_988baeb0",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "I think Patrick also meant other areas beyond submit rules (e.g. visualization in the \u0027Comment thread\u0027 which might currently require a file path being set). We should probably do a general sanity check that regular, existing features don\u0027t break with the new style of comments.",
+      "range": {
+        "startLine": 77,
+        "startChar": 57,
+        "endLine": 78,
+        "endChar": 20
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b25e8c0a_39792f2c",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "Sounds good.",
+      "range": {
+        "startLine": 81,
+        "startChar": 2,
+        "endLine": 83,
+        "endChar": 15
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "929d9694_1b9a61e5",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "I\u0027m wondering whether it makes sense to keep the \u0027Reply\u0027 button for the \u0027Change Log\u0027. Let me go into more details.\n\nCurrently, a \u0027Change Log\u0027 entry looks like this:\n\n  _________________________________________________\n  |  User name\n  |  Patch Set 4:\n  |  (1 comment)\n  |\n  |  | A quote of a previous text.\n  |  This is a reply to a previous message.\n  |\n  |  This is a new comment/message outside of a file.\n  |  ----------------------------------------------\n  |  a/file/path\n  |      Line 10: This is a line comment.\n  |_________________________________________________\n\nWith the proposed solution, I imagine/understood it to maybe look something like this (just a rough sketch):\n\n  _________________________________________________\n  |  User name\n  |  Patch Set 4:\n  |  (3 comments)\n  |\n  |  ----------------------------------------------\n  |  Patch set level\n  |      PS 4: This is a reply to a previous message.\n  |      PS 4: This is a new comment/message outside of a file.\n  |\n  |  a/file/path\n  |      Line 10: This is a line comment.\n  |_________________________________________________\n\nHaving a single \u0027Reply\u0027 button here, wouldn\u0027t allow to choose between the two different non-file comments. Instead, I would expect users to go to the \u0027Comment threads\u0027 view (via e.g. a link on \"PS 4\" to there) and to create draft comments as replies. There, users also have the option to create just a \u0027Reply\u0027 to a non-file comment or even use \u0027Quote\u0027 to include the previous text.",
+      "range": {
+        "startLine": 84,
+        "startChar": 4,
+        "endLine": 91,
+        "endChar": 32
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "96c892f8_729e6e2d",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "Sounds good.",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 70
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ddb09cc8_f89485f6",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "FYI: We have plans to allow robot comments outside of files. Hence, if the solution/implementation of this use case allows to add such robot comments in the end, that would be a welcome side-effect (but not a requirement). :-)",
+      "range": {
+        "startLine": 49,
+        "startChar": 68,
+        "endLine": 50,
+        "endChar": 42
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "281c9a02_308a3559",
+        "filename": "pages/design-docs/threaded-change-log/use-cases.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-01-24T19:22:18Z",
+      "side": 1,
+      "message": "Should we maybe extend it to \"There\u0027s a view on which a single change discussion ...\" so that a solution which doesn\u0027t involve changing the layout of the \u0027Change Log\u0027 (as e.g. the one currently suggested) can also meet this acceptance criteria?",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 50
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
