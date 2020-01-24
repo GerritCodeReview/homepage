@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "444ec9af_0f85ebfc",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-24T06:40:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b21fdd26_ad171744",
+      "revId": "941a3b27dc39b14b32ae1b8780fd1f47adab7a9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "653b7d50_d7ffa933",
         "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
         "patchSetId": 2
@@ -33,6 +51,24 @@
       "revId": "941a3b27dc39b14b32ae1b8780fd1f47adab7a9e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b14b56d2_305a6678",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-24T06:40:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "653b7d50_d7ffa933",
+      "revId": "941a3b27dc39b14b32ae1b8780fd1f47adab7a9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "849534dc_cf0b5f9a",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-24T06:40:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6d4144c4_a3bbe480",
+      "revId": "941a3b27dc39b14b32ae1b8780fd1f47adab7a9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ef35a2aa_57ee7baa",
         "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2020-01-24T06:30:06Z",
       "side": 1,
       "message": "IIUC, sub checks feature is required for that. Link to design proposal here for that feature?",
+      "revId": "941a3b27dc39b14b32ae1b8780fd1f47adab7a9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8fc1927b_bca142a1",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-24T06:40:11Z",
+      "side": 1,
+      "message": "Can we add this in a follow-up?",
+      "parentUuid": "ef35a2aa_57ee7baa",
       "revId": "941a3b27dc39b14b32ae1b8780fd1f47adab7a9e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
