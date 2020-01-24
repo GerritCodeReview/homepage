@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "49aa958f_801c57c2",
+        "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-01-24T03:26:58Z",
+      "side": 1,
+      "message": "Draebing",
+      "range": {
+        "startLine": 34,
+        "startChar": 7,
+        "endLine": 34,
+        "endChar": 14
+      },
+      "revId": "69166c0dfe281b519f05816f6ee9e452c94f0c16",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a10af7b1_c8d46db3",
         "filename": "_drafts/2020-01-31-gerrit-news-dec-jan-2020.md",
         "patchSetId": 1
