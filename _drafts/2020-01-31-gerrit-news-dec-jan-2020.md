@@ -64,3 +64,9 @@ This was fixed in [change 250502](https://gerrit-review.googlesource.com/c/gerri
 which is included in `stable-2.14`. To build Gerrit 2.14.x and 2.15.x it is now necessary
 to build from the tip of the `stable-2.14` and `stable-2.15` branches, or in an environment
 where the rules_closure dependency has already been downloaded before January 15.
+
+## Git Merge 2020
+
+Patrick Hiesel will
+[give a presentation about NoteDb](https://git-merge.com/#notedb-58-an-adventure-where-git-is-your-database)
+at the Git Merge 2020 conference in Los Angeles on March 4th.
