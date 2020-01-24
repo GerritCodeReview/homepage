@@ -14,6 +14,11 @@ toc: true
 The results of last year's Community Survey have been
 [published](https://docs.google.com/presentation/d/e/2PACX-1vSFj7v00OS14bP64bFPsQbLIy8zP48oc9oyZNod3C7MCGyRDkCh9h64QPMiznevRNWwKRyKACSOy-Zf/pub?start=false&loop=false&delayms=3000).
 
+## Gerrit Code Review for the Linux Kernel
+
+Gerrit Code Review is now being used for some projects of the
+Linux Kernel on [linux-review.googlesource.com](https://linux-review.googlesource.com/).
+
 ## Backup Documentation
 
 Matthias Sohn (SAP) created a new documentation page with detailed
