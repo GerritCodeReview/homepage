@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "70c867f5_1168a158",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2020-01-27T12:35:58Z",
+      "side": 1,
+      "message": "I\u0027d like to know the answer to this as well. We currently have some plans to create a new entity \"HumanComment\". This entity will basically be the same as the current \"Comment\", and the current Comment is going to be the same except some fields potentially reduced (fields that don\u0027t apply to \"RobotComment\".\nAnyway, I guess we don\u0027t really conflict since I am not changing the structure of \"Comment\" (for your case, essentially renaming it).\nLet me know if you think there is a conflict (specifically, if you plan to add new fields to \"Comment\").",
+      "parentUuid": "6fc7a026_a0d360b1",
+      "range": {
+        "startLine": 31,
+        "startChar": 9,
+        "endLine": 32,
+        "endChar": 9
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "92028e72_db42553c",
         "filename": "pages/design-docs/threaded-change-log/solution.md",
         "patchSetId": 10
