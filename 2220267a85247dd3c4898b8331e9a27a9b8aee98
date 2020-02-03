@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b0b6d75_8f2680d9",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 618,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-03T09:41:59Z",
+      "side": 1,
+      "message": "`BUILD` bazel",
+      "range": {
+        "startLine": 618,
+        "startChar": 30,
+        "endLine": 618,
+        "endChar": 43
+      },
+      "revId": "2220267a85247dd3c4898b8331e9a27a9b8aee98",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d10113d9_27cfdd8f",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-03T09:41:59Z",
+      "side": 1,
+      "message": "This should be in the \u0027* PolyGerrit UI Fixes\u0027 section as done in the previous release notes.",
+      "revId": "2220267a85247dd3c4898b8331e9a27a9b8aee98",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce908d98_bd111ae6",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-03T09:41:59Z",
+      "side": 1,
+      "message": "nit: empty char at EOL",
+      "range": {
+        "startLine": 671,
+        "startChar": 57,
+        "endLine": 671,
+        "endChar": 58
+      },
+      "revId": "2220267a85247dd3c4898b8331e9a27a9b8aee98",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
