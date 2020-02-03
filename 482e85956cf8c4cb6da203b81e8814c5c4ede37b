@@ -167,6 +167,30 @@
     },
     {
       "key": {
+        "uuid": "f6748169_bf46c5aa",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-02-03T15:21:18Z",
+      "side": 1,
+      "message": "Gal I don\u0027t believe we have a conflict here ;)",
+      "parentUuid": "446a3103_4c308b95",
+      "range": {
+        "startLine": 31,
+        "startChar": 9,
+        "endLine": 32,
+        "endChar": 9
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "92028e72_db42553c",
         "filename": "pages/design-docs/threaded-change-log/solution.md",
         "patchSetId": 10
