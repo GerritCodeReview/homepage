@@ -45,6 +45,54 @@
       "revId": "1dba9290d4b713ee3a77f685c687d1ea04735114",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a6dd382_187354c9",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2020-02-04T08:18:03Z",
+      "side": 1,
+      "message": "Done.\nBut this should also be documented in the specific bug fix release section as soons as 3.0.7 is released.",
+      "parentUuid": "65634a6c_ca01ae2d",
+      "range": {
+        "startLine": 84,
+        "startChar": 50,
+        "endLine": 84,
+        "endChar": 52
+      },
+      "revId": "1dba9290d4b713ee3a77f685c687d1ea04735114",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e0b082b8_6d28b1f8",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2020-02-04T08:18:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "993a6045_80110c83",
+      "range": {
+        "startLine": 84,
+        "startChar": 23,
+        "endLine": 84,
+        "endChar": 24
+      },
+      "revId": "1dba9290d4b713ee3a77f685c687d1ea04735114",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
