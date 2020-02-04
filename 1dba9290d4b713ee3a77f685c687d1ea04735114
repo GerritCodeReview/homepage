@@ -22,6 +22,29 @@
       "revId": "1dba9290d4b713ee3a77f685c687d1ea04735114",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "65634a6c_ca01ae2d",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-02-04T00:58:08Z",
+      "side": 1,
+      "message": "I think we should mention the specific release in which it is removed, i.e. 3.0.7",
+      "range": {
+        "startLine": 84,
+        "startChar": 50,
+        "endLine": 84,
+        "endChar": 52
+      },
+      "revId": "1dba9290d4b713ee3a77f685c687d1ea04735114",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
