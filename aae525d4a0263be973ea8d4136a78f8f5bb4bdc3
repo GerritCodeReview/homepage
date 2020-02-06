@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7445aa9e_5beb8711",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-06T09:43:57Z",
+      "side": 1,
+      "message": "enables deletion of groups",
+      "range": {
+        "startLine": 13,
+        "startChar": 52,
+        "endLine": 13,
+        "endChar": 70
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8638425_8bcad016",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-06T09:43:57Z",
+      "side": 1,
+      "message": "the following prerequisites are met",
+      "range": {
+        "startLine": 21,
+        "startChar": 41,
+        "endLine": 21,
+        "endChar": 55
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0e49c11e_ec8302dd",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-06T09:43:57Z",
+      "side": 1,
+      "message": "allow",
+      "range": {
+        "startLine": 25,
+        "startChar": 72,
+        "endLine": 25,
+        "endChar": 79
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e28c3cb_0a2fb791",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-06T09:43:57Z",
+      "side": 1,
+      "message": "I don\u0027t understand this",
+      "range": {
+        "startLine": 39,
+        "startChar": 11,
+        "endLine": 39,
+        "endChar": 56
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5985031f_396ac05e",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-06T09:43:57Z",
+      "side": 1,
+      "message": "why ?",
+      "range": {
+        "startLine": 16,
+        "startChar": 19,
+        "endLine": 16,
+        "endChar": 64
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3c882aef_5cdd23c7",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-06T09:43:57Z",
+      "side": 1,
+      "message": "I think it would be wrong to not write an audit log record for deletion of a group",
+      "range": {
+        "startLine": 15,
+        "startChar": 57,
+        "endLine": 16,
+        "endChar": 14
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7c74ee17_54c82605",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-06T09:43:57Z",
+      "side": 1,
+      "message": "your solution proposes to move groups to be deleted to refs/deletedGroups/ to mark them deleted, this doesn\u0027t look like complete deletion",
+      "range": {
+        "startLine": 21,
+        "startChar": 68,
+        "endLine": 22,
+        "endChar": 14
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
