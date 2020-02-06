@@ -1,5 +1,5 @@
 ---
-title: "Design Doc - Scaling Multi-Master Replication"
+title: ""
 permalink: design-docs/scaling-multi-master-replication.html
 hide_sidebar: true
 hide_navtoggle: true
