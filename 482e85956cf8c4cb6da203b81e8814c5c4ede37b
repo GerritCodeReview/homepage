@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "165c31b6_a0994058",
+        "filename": "pages/design-docs/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-02-07T17:02:14Z",
+      "side": 1,
+      "message": "Sounds good.",
+      "parentUuid": "a2ac8b71_5923474d",
+      "range": {
+        "startLine": 24,
+        "startChar": 3,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24634be4_2fc3c611",
         "filename": "pages/design-docs/threaded-change-log/solution.md",
         "patchSetId": 10
@@ -390,6 +414,30 @@
       "side": 1,
       "message": "Most likely yes. I was wondering if there is any value in having \u0027threads\u0027 created out of comments like \u0027Good job\u0027 or \u0027I like the idea\u0027 so that is the place where \u0027needs resolution\u0027 bit comes into play IOW bit set, UI converts feedback to \u0027comment\u0027 otherwise, treats it as it was before... does that resonate with you?",
       "parentUuid": "a65a8343_5a032c86",
+      "range": {
+        "startLine": 64,
+        "startChar": 3,
+        "endLine": 71,
+        "endChar": 7
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "974a7702_62e4ec90",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-02-07T17:02:14Z",
+      "side": 1,
+      "message": "Out of simplicity and consistency, I wouldn\u0027t make a difference between the unresolved flag being set or not. Users might be really be confused if something like the unresolved flag (which they learned by now that it behaves just like an always changeable flag on an entity) would then decide on which kind of \u0027comment\u0027 object (with different possible actions) they get afterwards. If we always create a \u0027comment\u0027 for the feedback part, we\u0027ll retain this behavior of the flag being just a flag.\n\nApart from that, I also see some additional value in using a \u0027comment\u0027 for the resolved feedback parts. For instance, other reviewers might want to chime in and additionally share their appreciation when somebody wrote \"Good job\" or \"I like the idea\". Furthermore, another reviewer might want to reply to a resolved feedback part like \"The change looks ready to go in.\" with e.g. \"Please wait, I just noticed bug X.\".",
+      "parentUuid": "6e0a0065_e8d92486",
       "range": {
         "startLine": 64,
         "startChar": 3,
