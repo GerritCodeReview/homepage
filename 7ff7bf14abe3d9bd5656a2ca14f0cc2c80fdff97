@@ -16,6 +16,40 @@
       "revId": "7ff7bf14abe3d9bd5656a2ca14f0cc2c80fdff97",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "183a55e9_e285faf6",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 399,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-07T06:15:18Z",
+      "side": 1,
+      "message": "Was there an issue associated?",
+      "revId": "7ff7bf14abe3d9bd5656a2ca14f0cc2c80fdff97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5aa803eb_06d3f8fd",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 424,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-07T06:15:18Z",
+      "side": 1,
+      "message": "Adding a link to the documentation (the point that contains the info) would be useful.",
+      "revId": "7ff7bf14abe3d9bd5656a2ca14f0cc2c80fdff97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
