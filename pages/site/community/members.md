@@ -21,7 +21,6 @@ Community Managers for the 2019 term are:
 | Marco Miller          | Ericsson               |
 | Matthias Sohn         | SAP                    |
 
-
 ## Engineering Steering Committee
 
 The Gerrit project has an Engineering Steering Committee (ESC) that
