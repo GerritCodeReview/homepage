@@ -22,6 +22,30 @@
       "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0154ab7_06c81b19",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-18T06:56:14Z",
+      "side": 1,
+      "message": "Please forgive me, I\u0027ve put the wrong comment on the wrong file :-(\nIt was meant for the 3.1 (not 3.0)",
+      "parentUuid": "0af8832a_c687f414",
+      "range": {
+        "startLine": 15,
+        "startChar": 13,
+        "endLine": 15,
+        "endChar": 37
+      },
+      "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
