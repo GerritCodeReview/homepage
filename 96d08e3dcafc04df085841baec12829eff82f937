@@ -22,6 +22,30 @@
       "revId": "96d08e3dcafc04df085841baec12829eff82f937",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c0025141_d3a17e19",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-18T08:02:42Z",
+      "side": 1,
+      "message": "Fixed with I78fdae9ff000e921",
+      "parentUuid": "c557ce0a_3a0172d2",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 3
+      },
+      "revId": "96d08e3dcafc04df085841baec12829eff82f937",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
