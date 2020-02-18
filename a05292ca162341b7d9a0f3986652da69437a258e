@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0af8832a_c687f414",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-18T06:55:08Z",
+      "side": 1,
+      "message": "Really? I upgraded to v3.0 without any init step, the only difference is in the indexes and those can be automatically upgraded during startup.",
+      "range": {
+        "startLine": 15,
+        "startChar": 13,
+        "endLine": 15,
+        "endChar": 37
+      },
+      "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
