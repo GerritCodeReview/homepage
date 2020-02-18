@@ -70,6 +70,30 @@
       "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e2427418_d6689c7e",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-18T07:37:02Z",
+      "side": 1,
+      "message": "\u003e On master there is Schema_182, that was added here: [1], to wipe out the zombie draft comment refs in NoteDb. Is that the migration that should be mentioned?\n\u003e \n\u003e * [1] https://gerrit-review.googlesource.com/c/gerrit/+/252282\n\nYes, but not in the 3.0.md but rather in 3.2.md",
+      "parentUuid": "d321985e_60190e69",
+      "range": {
+        "startLine": 15,
+        "startChar": 13,
+        "endLine": 15,
+        "endChar": 37
+      },
+      "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
