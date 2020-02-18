@@ -68,6 +68,22 @@ To build the site without staging it, type the following command:
 docker run -v $(pwd):/site bretfisher/jekyll-serve jekyll build
 ```
 
+## Updating the plugins page
+
+To update the `plugins.md` file and potentially `push` it for review, do something like this:
+
+```
+cd homepage/pages/site/plugins && \
+python3 plugins.py
+```
+
+That script assumes [pygerrit2 installed](https://github.com/dpursehouse/pygerrit2#installation)
+locally. After [building the site](#building-the-site), you can browse to that page, locally:
+
+```
+http://localhost:4000/plugins.html
+```
+
 ## Deploying the site
 
 **Note:** If this is your first time running Firebase on this machine, you need
