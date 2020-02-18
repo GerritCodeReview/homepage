@@ -31,6 +31,8 @@ topnav_dropdowns:
           external_url: https://gerrit.googlesource.com/gerrit/
         - title: Releases
           url: /releases-readme.html
+        - title: Plugins
+          url: /plugins.html
         - title: Roadmap
           url: /roadmap.html
         - title: Builds
