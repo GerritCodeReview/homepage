@@ -68,6 +68,27 @@ To build the site without staging it, type the following command:
 docker run -v $(pwd):/site bretfisher/jekyll-serve jekyll build
 ```
 
+## Updating the plugins page
+
+To update the `plugins.md` file and potentially `push` it for review,
+consider these commands:
+
+```
+pip3 install pygerrit2
+pip3 install requests
+cd homepage
+pushd pages/site/plugins
+python3 plugins.py
+popd
+docker-compose up
+(browse to) http://localhost:4000/plugins.html
+git status
+```
+
+The last command is meant to consider the likely updated `plugins.md` file,
+as a result of executing `plugins.py` above. That markdown file lends the
+browsed `plugins.html` page. The formatter for `plugins.py` is `autopep8`.
+
 ## Deploying the site
 
 **Note:** If this is your first time running Firebase on this machine, you need
