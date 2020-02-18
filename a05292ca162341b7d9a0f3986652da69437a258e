@@ -118,6 +118,30 @@
       "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd7a793c_d1feef1e",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-02-18T07:53:11Z",
+      "side": 1,
+      "message": "\u003e In release 3.0 there is one single schema migration, that I added in this CL: [1]:\n\u003e \n\u003e   \"Rebuild GPGP note map to build subkey to master key map\"\n\u003e \n\u003e So that it\u0027s correct to mention it here.\n\u003e \n\u003e [1] https://gerrit-review.googlesource.com/c/gerrit/+/207375\n\nOh yes, I missed that. We do not use GPG keys on GerritHub.io that\u0027s why I did not notice that. However, I clearly remember to NOT have executed the init when moving to v3.1 and the site went up smoothly. I need to reproduce the case because in theory we should fail at startup IF the schema is not the expected one, isn\u0027t it?",
+      "parentUuid": "dcffd67b_f3b9d715",
+      "range": {
+        "startLine": 15,
+        "startChar": 13,
+        "endLine": 15,
+        "endChar": 37
+      },
+      "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
