@@ -94,6 +94,30 @@
       "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dcffd67b_f3b9d715",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-02-18T07:49:39Z",
+      "side": 1,
+      "message": "In release 3.0 there is one single schema migration, that I added in this CL: [1]:\n\n  \"Rebuild GPGP note map to build subkey to master key map\"\n\nSo that it\u0027s correct to mention it here.\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/207375",
+      "parentUuid": "e2427418_d6689c7e",
+      "range": {
+        "startLine": 15,
+        "startChar": 13,
+        "endLine": 15,
+        "endChar": 37
+      },
+      "revId": "a05292ca162341b7d9a0f3986652da69437a258e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
