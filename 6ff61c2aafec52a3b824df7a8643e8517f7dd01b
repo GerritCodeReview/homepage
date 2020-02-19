@@ -22,6 +22,30 @@
       "revId": "6ff61c2aafec52a3b824df7a8643e8517f7dd01b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "133058f2_45cb1901",
+        "filename": "pages/site/plugins.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-19T15:25:47Z",
+      "side": 1,
+      "message": "\u003e I\u0027d leave out this word for now, if some are missing (currently this list is very short) you shouldn\u0027t state you list all of them\n\nThe list is short because this change is still local WIP on my part. I would like the page goal to remain as \"all\" known ones. There is a note below (lines 13-14) about that likely possibility of missing some.",
+      "parentUuid": "4f9cd19f_cad7549e",
+      "range": {
+        "startLine": 11,
+        "startChar": 19,
+        "endLine": 11,
+        "endChar": 22
+      },
+      "revId": "6ff61c2aafec52a3b824df7a8643e8517f7dd01b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
