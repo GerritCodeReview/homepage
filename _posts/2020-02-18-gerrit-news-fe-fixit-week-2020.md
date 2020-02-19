@@ -10,37 +10,37 @@ toc: true
 ---
 
 ## Fixit Week Summary
-In first week of February 2020 was Fixit Week for the frontend team. We focused
-on fixing all the little things that pile up and otherwise don't get attention.
-We were able to fix around 36 issues. Big thanks to all contributes who join us.
+In the first week of February 2020 the frontend team had a "Fixit Week".
+We focused on fixing all the little things that pile up and otherwise don't get attention.
+We were able to fix around 36 issues. Big thanks to all contributers who joined us.
 
 ## Fixit Highlights
-### Hovercard for blame annotation 
-[Change](https://gerrit-review.googlesource.com/c/gerrit/+/253121) 
-introduces new hovercard with commit message when hovering over blame annotation.
+### Hovercard for blame annotation
+[Change](https://gerrit-review.googlesource.com/c/gerrit/+/253121)
+introduces a new hovercard with commit message when hovering over the blame annotation.
 
 ![Blame Hover Card](/images/fixit-week-2020-blame-hovercard.png)
 
 
 ### Improving layout of label scores
 [Change](https://gerrit-review.googlesource.com/c/gerrit/+/253165)
-improves layout to table so the buttons are not so far away from label name.
+improves layout to the table so the buttons are not so far away from the label name.
 Also add a background-color on hover to highlight which label you are about to vote on.
 
 ![Label Scores](/images/fixit-week-2020-label-scores.png)
 
 ### Warn user in submit dialog about unresolved comments
 [Change](https://gerrit-review.googlesource.com/c/gerrit/+/253130)
-introduces new warning when submitting change with unresolved comments.
-It's not blocking submit, it's just the last notification about unresolved comments.
+introduces a new warning when submitting a change with unresolved comments.
+It doesn't block submit, just gives the last notification about unresolved comments.
 
 ![Warn about unresolved comments](/images/fixit-week-2020-unresolved.png)
 
-### Honor date format from preference when display dates
+### Honor date format from preferences when displaying dates
 [Change](https://gerrit-review.googlesource.com/c/gerrit/+/253116)
-fixes some places where we didn't honor date format that user set in user settings.
-For example if user set date format `3.Jun` instead of default `Jun 3` dashboard
-will be change as in screenshot below.
+fixes some places where we didn't honor the date format from the user's preferences.
+For example if user sets date format `3.Jun` instead of default `Jun 3` dashboard
+will be changed as in the screenshot below.
 
 
 ![Honor date format](/images/fixit-week-2020-dates.png)
