@@ -31,30 +31,28 @@ conveys your feedback on Gerrit.
 
 Please add new stories at the top of this list.
 
-<pre>
-  ---
+---
 
-  **[$2020-02-14] Gerrit at Google (Google)**
+**[$2020-02-14] Gerrit at Google (Google)**
 
-  ```
-    Google has an in-house deployment of Gerrit, serving hundreds of teams and
-    thousands of users. Our major customers are the Chrome and Android projects.
+```
+  Google has an in-house deployment of Gerrit, serving hundreds of teams and
+  thousands of users. Our major customers are the Chrome and Android projects.
 
-    The Android Open Source project uses Gerrit extensively for its platform
-    development. The rich ACL model allows the Android project to cooperate with
-    a wide range of hardware partners on a single project, while also observing
-    confidentiality agreements. The configurability of workflows lets the
-    Android team manage a complex release workflow across many devices and
-    platform versions.
+  The Android Open Source project uses Gerrit extensively for its platform
+  development. The rich ACL model allows the Android project to cooperate with
+  a wide range of hardware partners on a single project, while also observing
+  confidentiality agreements. The configurability of workflows lets the
+  Android team manage a complex release workflow across many devices and
+  platform versions.
 
-    The Chromium project uses Gerrit to work on among others the Chrome browser.
-    Our in-house deployment is optimized for performance, so we can offer
-    engineers a smooth workflow, despite the gargantuan size of the Chromium
-    code base.
-  ```
+  The Chromium project uses Gerrit to work on among others the Chrome browser.
+  Our in-house deployment is optimized for performance, so we can offer
+  engineers a smooth workflow, despite the gargantuan size of the Chromium
+  code base.
+```
 
-  ---
-</pre>
+---
 
 ### Story template
 
