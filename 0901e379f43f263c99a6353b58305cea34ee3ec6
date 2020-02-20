@@ -16,6 +16,24 @@
       "revId": "0901e379f43f263c99a6353b58305cea34ee3ec6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "60ee1c94_717dd278",
+        "filename": "pages/site/plugins.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-20T16:37:17Z",
+      "side": 1,
+      "message": "\u003e I think maintaining a table like this manually is not a sustainable solution.\n\u003e \n\u003e I\u0027d propose we build a script generating a table like this from gerrit REST API and data available on gerrit-ci. Then we could add a build job regenerating the page e.g. once a day. Or we enhance gitiles project display to do this dynamically.\n\u003e \n\u003e We can get a flat list of all plugins like this\n\u003e curl \"https://gerrit-review.googlesource.com/a/projects/?p\u003dplugins%2F\u0026format\u003dTEXT\" [1]\n\u003e \n\u003e The project description is stored in its project.config on the refs/meta/config branch, that\u0027s also feeding the description shown in gitiles [3].\n\u003e \n\u003e We can test existence of branches using the get branch REST API [4] or list all branches using [5].\n\u003e \n\u003e Using a query like [6] we can get all jenkins jobs and their last build timestamp and status, with a little pattern matching we can find the relevant jobs and match them with the list of plugins we got from Gerrit REST API\n\u003e \n\u003e WDYT ?\n\u003e \n\u003e [1] https://gerrit-review.googlesource.com/Documentation/rest-api-projects.html#suggest-projects\n\u003e [2] I have no access to refs/meta/config on googlesource\n\u003e [3] https://gerrit.googlesource.com/plugins/\n\u003e [4] https://gerrit-review.googlesource.com/Documentation/rest-api-projects.html#get-branch\n\u003e [5] https://gerrit-review.googlesource.com/Documentation/rest-api-projects.html#list-branches\n\u003e [6] https://gerrit-ci.gerritforge.com/api/json?pretty\u003dtrue\u0026tree\u003djobs[name,lastBuild[timestamp,result]]\n\u003e found in https://www.cloudbees.com/blog/taming-jenkins-json-api-depth-and-tree\n\nDefinitely. And as we discussed again together during today\u0027s CM meeting. -Thanks again @Matthias for having researched these pointers linked above. Our goal is to make this maintainable, accurate and complete in terms of the rendered CI-based information. This will also likely lend some amends to specific plugin config and documentation.\n\nSo far we\u0027ve been refining our requirements through this manual prototyping of that page, structure and all. Now I\u0027m starting to work on that automation detailed above. I will also inject my own survey references in it. More to come then. Meanwhile, I may happen to push some more manual patches, for the sake of my local WIP process.",
+      "parentUuid": "c3c9236f_e49781dc",
+      "revId": "0901e379f43f263c99a6353b58305cea34ee3ec6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
