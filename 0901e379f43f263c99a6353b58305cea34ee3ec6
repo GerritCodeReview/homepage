@@ -34,6 +34,24 @@
       "revId": "0901e379f43f263c99a6353b58305cea34ee3ec6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4fc3c4b1_14ad4697",
+        "filename": "pages/site/plugins.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-21T15:12:50Z",
+      "side": 1,
+      "message": "\u003e \u003e We can get a flat list of all plugins like this\n\u003e \u003e curl \"https://gerrit-review.googlesource.com/a/projects/?p\u003dplugins%2F\u0026format\u003dTEXT\" [1]\n\u003e \u003e \n\u003e \u003e The project description is stored in its project.config on the refs/meta/config branch, that\u0027s also feeding the description shown in gitiles [3].\n\u003e \u003e \n\u003e \u003e We can test existence of branches using the get branch REST API [4] or list all branches using [5].\n\u003e \u003e \n\u003e \u003e Using a query like [6] we can get all jenkins jobs and their last build timestamp and status, with a little pattern matching we can find the relevant jobs and match them with the list of plugins we got from Gerrit REST API\n\u003e \u003e \n\u003e \u003e [1] https://gerrit-review.googlesource.com/Documentation/rest-api-projects.html#suggest-projects\n\u003e \u003e [2] I have no access to refs/meta/config on googlesource\n\u003e \u003e [3] https://gerrit.googlesource.com/plugins/\n\u003e \u003e [4] https://gerrit-review.googlesource.com/Documentation/rest-api-projects.html#get-branch\n\u003e \u003e [5] https://gerrit-review.googlesource.com/Documentation/rest-api-projects.html#list-branches\n\u003e \u003e [6] https://gerrit-ci.gerritforge.com/api/json?pretty\u003dtrue\u0026tree\u003djobs[name,lastBuild[timestamp,result]]\n\u003e \u003e found in https://www.cloudbees.com/blog/taming-jenkins-json-api-depth-and-tree\n\nAnd [7] https://gerrit.googlesource.com/gerrit-ci-scripts/+/refs/heads/master/jenkins/\nmay be used to dynamically harvest the list of built plugins.\n\nAs for [8] https://gist.github.com/dpursehouse/66e1bd861efce4631ca1966b85ca0226,\nthis by David was used for ESC to initiate a plugins survey between 2018.11.30 and 2019.05.30 (last year).",
+      "parentUuid": "60ee1c94_717dd278",
+      "revId": "0901e379f43f263c99a6353b58305cea34ee3ec6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
