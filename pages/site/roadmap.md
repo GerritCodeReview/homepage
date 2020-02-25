@@ -50,23 +50,13 @@ Target: Q2 2020
   * Increased overview in Change Log
   * Comment and Patchset Navigation
   * Improved theming support: Spacing and Fonts
-* Plugin working group
-  * Defined processes and criteria
-  * Improved frontend plugin docs
 * Robot comments
   * Support preview/apply fix feature
   * Polish experience especially regarding robot comments posted on every patch set
 * Java 11
   * Officially supported for production use
-  * Switched default language level to Java 11
-* Look into better owner/reviewer support.
-  * Not set on whether plugin or core. Could also improve existing plugin further.
-  * Potential topics:
-    * Enforcing mandatory reviewers
-    * Finding appropriate reviewers
-    * Bypassing some/all submit requirements
 
-## Upcoming plugin improvements
+## Upcoming plugin improvements related to Gerrit 3.2
 * Replication plugin
   * Better multi-master support
   * Support for external replication queue
@@ -75,11 +65,17 @@ Target: Q2 2020
   * Support for sub-checks
   * Override status
   * Refine UI with regards to many checks
-* Quota plugin
-  * Simplify the plugin.
 * High-availability plugin
   * Support for global ref-db
   * Mention HA and multi-master setup in Gerrit documentation
+
+## Gerrit 3.3
+* Java 11
+  * Switch language level to Java 11
+
+## Upcoming plugin improvements related to Gerrit 3.3
+* Quota plugin
+  * Simplify the plugin.
 
 ## Distant future
 * Role-based access control
