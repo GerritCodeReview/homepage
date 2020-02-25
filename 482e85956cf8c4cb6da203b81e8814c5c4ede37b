@@ -450,6 +450,30 @@
     },
     {
       "key": {
+        "uuid": "1ee6bd02_d0270d52",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-02-25T22:32:35Z",
+      "side": 1,
+      "message": "My intention was to create flag with 3 states:\n* not subject of resolution (to preserve current behaviour for appreciation comments)\n* needs resolution\n* resolved\n\nBut we can keep it simple like for the inline comments and discuss addition of the \u0027not subject of resolution\u0027 state independently to all comments somewhere in future ;)",
+      "parentUuid": "974a7702_62e4ec90",
+      "range": {
+        "startLine": 64,
+        "startChar": 3,
+        "endLine": 71,
+        "endChar": 7
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e2191532_0483c9ea",
         "filename": "pages/design-docs/threaded-change-log/solution.md",
         "patchSetId": 10
