@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "93fb2903_e94e41d6",
+        "filename": "pages/design-docs/change-log-threaded-feedback/solution.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-02-26T17:11:59Z",
+      "side": 1,
+      "message": "I\u0027d suggest to rewrite this to \"human feedback that is stored ...\" as we agreed that both unresolved and resolved comments from persons should be stored as comment-like entities. For the notarial part at the end of the sentence, I\u0027d add the detail about the \"automatically generated descriptions\".",
+      "range": {
+        "startLine": 18,
+        "startChar": 45,
+        "endLine": 19,
+        "endChar": 41
+      },
+      "revId": "028ab86c2e4601db16f71525380972e0b6f19e66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "560def9e_25b613e3",
+        "filename": "pages/design-docs/change-log-threaded-feedback/solution.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-02-26T17:11:59Z",
+      "side": 1,
+      "message": "With the updated design, this part should be removed here, shouldn\u0027t it?",
+      "range": {
+        "startLine": 27,
+        "startChar": 77,
+        "endLine": 29,
+        "endChar": 20
+      },
+      "revId": "028ab86c2e4601db16f71525380972e0b6f19e66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1eff58ae_fcdf3179",
+        "filename": "pages/design-docs/change-log-threaded-feedback/use-cases.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-02-26T17:11:59Z",
+      "side": 1,
+      "message": "Let\u0027s react to user input/feedback on what they prefer for change messages and hence adjust this behavior during the implementation or shortly after launch if necessary.",
+      "range": {
+        "startLine": 36,
+        "startChar": 28,
+        "endLine": 37,
+        "endChar": 6
+      },
+      "revId": "028ab86c2e4601db16f71525380972e0b6f19e66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}

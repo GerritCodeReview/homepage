@@ -474,6 +474,30 @@
     },
     {
       "key": {
+        "uuid": "21fe382b_a94b5ba4",
+        "filename": "pages/design-docs/threaded-change-log/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-02-26T17:11:59Z",
+      "side": 1,
+      "message": "I like the idea to keep it simple now and to discuss the \"not subject of resolution\" state in the future. 😊",
+      "parentUuid": "1ee6bd02_d0270d52",
+      "range": {
+        "startLine": 64,
+        "startChar": 3,
+        "endLine": 71,
+        "endChar": 7
+      },
+      "revId": "482e85956cf8c4cb6da203b81e8814c5c4ede37b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e2191532_0483c9ea",
         "filename": "pages/design-docs/threaded-change-log/solution.md",
         "patchSetId": 10
