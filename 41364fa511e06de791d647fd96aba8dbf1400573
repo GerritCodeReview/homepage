@@ -1,0 +1,147 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "45912cf4_ce6c7317",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-26T23:01:41Z",
+      "side": 1,
+      "message": "remove this, the page lists also core plugins and I think that\u0027s exactly what it should do",
+      "range": {
+        "startLine": 11,
+        "startChar": 27,
+        "endLine": 11,
+        "endChar": 40
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c02094e8_c4f79140",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-26T23:01:41Z",
+      "side": 1,
+      "message": "I suggest we merge these two tables since then it\u0027s a lot easier to find the plugin you are looking for and find its status in the same go.",
+      "range": {
+        "startLine": 29,
+        "startChar": 4,
+        "endLine": 29,
+        "endChar": 62
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f734accc_2eb74a2a",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-26T23:01:41Z",
+      "side": 1,
+      "message": "this sounds strange, I\u0027d remote the word \"latter\"",
+      "range": {
+        "startLine": 34,
+        "startChar": 9,
+        "endLine": 34,
+        "endChar": 20
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0834f9c0_75f772ec",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-26T23:01:41Z",
+      "side": 1,
+      "message": "can we render a green checkmark for success, a red cross for failure and a dash for missing build, see e.g.\nhttps://meta.stackexchange.com/questions/314520/markdown-for-ticks-and-crosses\n\nI think that would be easier to parse",
+      "range": {
+        "startLine": 35,
+        "startChar": 64,
+        "endLine": 35,
+        "endChar": 86
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7671ca73_4f4411fb",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-26T23:01:41Z",
+      "side": 1,
+      "message": "I\u0027d render a checkmark for branch is available and a dash otherwise",
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d42fc119_e986c71f",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-26T23:01:41Z",
+      "side": 1,
+      "message": "as already said above I would prefer to merge the description column into the above table",
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cb7a8666_71a02d7e",
+        "filename": "pages/site/publishing-gerrit-docs.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-26T23:01:41Z",
+      "side": 1,
+      "message": "I also had to install the requests module\nI think it would help to give complete instructions so the reader doesn\u0027t need to jump to other pages for a quick start:\n\n $ pip3 install pygerrit2\n $ pip3 install requests\n $ cd homepage\n $ pushd pages/site/plugins\n $ python3 plugins.py\n $ popd\n $ docker-compose up\n $ open http://localhost:4000",
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
