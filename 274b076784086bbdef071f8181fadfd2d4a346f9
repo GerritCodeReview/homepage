@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3dcb89dd_adfa8c68",
+        "filename": "pages/site/plugins/template.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-26T20:32:07Z",
+      "side": 1,
+      "message": "Conflicted with the actual scripts plugin link.",
+      "range": {
+        "startLine": 21,
+        "startChar": 22,
+        "endLine": 21,
+        "endChar": 31
+      },
+      "revId": "274b076784086bbdef071f8181fadfd2d4a346f9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
