@@ -9,7 +9,7 @@ hide_navtoggle: true
 toc: true
 ---
 
-## Engineering Steering Committee Meeting, Febrruary 11, 2020
+## Engineering Steering Committee Meeting, February 11, 2020
 
 ### Attendees
 
