@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d1f75f40_fcccf29b",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-27T22:36:50Z",
+      "side": 1,
+      "message": "Changes (last 3 months)",
+      "range": {
+        "startLine": 12,
+        "startChar": 22,
+        "endLine": 12,
+        "endChar": 29
+      },
+      "revId": "5085016c3ae1c32e8260cbdd7cd33f318413ede4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "54d600fa_d3844511",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-27T22:36:50Z",
+      "side": 1,
+      "message": "define variable greencheckmark ?",
+      "range": {
+        "startLine": 46,
+        "startChar": 25,
+        "endLine": 46,
+        "endChar": 35
+      },
+      "revId": "5085016c3ae1c32e8260cbdd7cd33f318413ede4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b4001e73_09a8c984",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-27T22:36:50Z",
+      "side": 1,
+      "message": "define variable redcross ?",
+      "range": {
+        "startLine": 46,
+        "startChar": 64,
+        "endLine": 46,
+        "endChar": 74
+      },
+      "revId": "5085016c3ae1c32e8260cbdd7cd33f318413ede4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "94850a4c_3cabb95d",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-27T22:36:50Z",
+      "side": 1,
+      "message": "define variable checkmark ?",
+      "range": {
+        "startLine": 50,
+        "startChar": 22,
+        "endLine": 50,
+        "endChar": 30
+      },
+      "revId": "5085016c3ae1c32e8260cbdd7cd33f318413ede4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "995d43ac_68d30aa2",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-27T22:36:50Z",
+      "side": 1,
+      "message": "the hardcoded date would need to be updated continuously, I propose we use instead\n\n-age:3months\n\nto separate query parameters you can also use \u0027+\u0027 instead of blank:\n\n/q/project:%s+-age:3months\n\nhttps://gerrit-review.googlesource.com/Documentation/user-search.html#age",
+      "range": {
+        "startLine": 58,
+        "startChar": 46,
+        "endLine": 58,
+        "endChar": 62
+      },
+      "revId": "5085016c3ae1c32e8260cbdd7cd33f318413ede4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
