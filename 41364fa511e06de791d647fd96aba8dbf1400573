@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "d8980927_11fd45b2",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "Done. This was a remnant of an earlier version of this page.",
+      "parentUuid": "45912cf4_ce6c7317",
+      "range": {
+        "startLine": 11,
+        "startChar": 27,
+        "endLine": 11,
+        "endChar": 40
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c02094e8_c4f79140",
         "filename": "pages/site/plugins/plugins.md",
         "patchSetId": 10
@@ -45,6 +69,30 @@
       "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b8ea7092_60dddb7e",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "Done. I split the descriptions before reducing the size of column values. I forgot to try merging them back since. I split descriptions into their own table because the matrix used to be less readable. -But all merged back in the matrix now.\n\nI replaced NONE for descriptions with an empty square, as per below replies.",
+      "parentUuid": "c02094e8_c4f79140",
+      "range": {
+        "startLine": 29,
+        "startChar": 4,
+        "endLine": 29,
+        "endChar": 62
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "c82df549_5e228462",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "Done; agreed.",
+      "parentUuid": "f734accc_2eb74a2a",
+      "range": {
+        "startLine": 34,
+        "startChar": 9,
+        "endLine": 34,
+        "endChar": 20
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0834f9c0_75f772ec",
         "filename": "pages/site/plugins/plugins.md",
         "patchSetId": 10
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "5da652c4_03bf40a7",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "Done. Thanks for the pointer. I chose empty square over dash for missing builds, for readability.",
+      "parentUuid": "0834f9c0_75f772ec",
+      "range": {
+        "startLine": 35,
+        "startChar": 64,
+        "endLine": 35,
+        "endChar": 86
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7671ca73_4f4411fb",
         "filename": "pages/site/plugins/plugins.md",
         "patchSetId": 10
@@ -105,6 +201,47 @@
       "writtenOn": "2020-02-26T23:01:41Z",
       "side": 1,
       "message": "I\u0027d render a checkmark for branch is available and a dash otherwise",
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9c40940d_224b0bd5",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "Done, using empty square for unavailable branches. (As above for missing builds.)",
+      "parentUuid": "7671ca73_4f4411fb",
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e6382c4e_8a0c31b1",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "Replaced with empty squares, as above.",
+      "range": {
+        "startLine": 43,
+        "startChar": 5,
+        "endLine": 43,
+        "endChar": 8
+      },
       "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -128,6 +265,93 @@
     },
     {
       "key": {
+        "uuid": "7e68e481_5601f71d",
+        "filename": "pages/site/plugins/plugins.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "(Done.)",
+      "parentUuid": "d42fc119_e986c71f",
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "52fd4fac_bbdaca2e",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "I right-justified the branch support, now closer to its CI result companion.",
+      "range": {
+        "startLine": 71,
+        "startChar": 16,
+        "endLine": 72,
+        "endChar": 23
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3552987d_e001b9bc",
+        "filename": "pages/site/plugins/template.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "false now, as only 2 contents are left. This is also to help shorten this already long page, a bit.",
+      "range": {
+        "startLine": 6,
+        "startChar": 5,
+        "endLine": 6,
+        "endChar": 9
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f97b6ead_2eb0fc72",
+        "filename": "pages/site/plugins/template.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "Rephrased a bit.",
+      "range": {
+        "startLine": 24,
+        "startChar": 35,
+        "endLine": 24,
+        "endChar": 43
+      },
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "cb7a8666_71a02d7e",
         "filename": "pages/site/publishing-gerrit-docs.md",
         "patchSetId": 10
@@ -142,6 +366,24 @@
       "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "78937885_26db65d7",
+        "filename": "pages/site/publishing-gerrit-docs.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-02-27T18:39:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cb7a8666_71a02d7e",
+      "revId": "41364fa511e06de791d647fd96aba8dbf1400573",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
