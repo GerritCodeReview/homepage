@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "24972d9a_e672b01b",
+        "filename": "pages/design-docs/change-log-threaded-feedback/solution.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-02-27T06:10:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93fb2903_e94e41d6",
+      "range": {
+        "startLine": 18,
+        "startChar": 45,
+        "endLine": 19,
+        "endChar": 41
+      },
+      "revId": "028ab86c2e4601db16f71525380972e0b6f19e66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "560def9e_25b613e3",
         "filename": "pages/design-docs/change-log-threaded-feedback/solution.md",
         "patchSetId": 12
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "2037efc1_16c94018",
+        "filename": "pages/design-docs/change-log-threaded-feedback/solution.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-02-27T06:10:12Z",
+      "side": 1,
+      "message": "Right, missed that while I was preparing the update, thanks again for going over it :)",
+      "parentUuid": "560def9e_25b613e3",
+      "range": {
+        "startLine": 27,
+        "startChar": 77,
+        "endLine": 29,
+        "endChar": 20
+      },
+      "revId": "028ab86c2e4601db16f71525380972e0b6f19e66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1eff58ae_fcdf3179",
         "filename": "pages/design-docs/change-log-threaded-feedback/use-cases.md",
         "patchSetId": 12
@@ -59,6 +107,30 @@
       "writtenOn": "2020-02-26T17:11:59Z",
       "side": 1,
       "message": "Let\u0027s react to user input/feedback on what they prefer for change messages and hence adjust this behavior during the implementation or shortly after launch if necessary.",
+      "range": {
+        "startLine": 36,
+        "startChar": 28,
+        "endLine": 37,
+        "endChar": 6
+      },
+      "revId": "028ab86c2e4601db16f71525380972e0b6f19e66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a7e13c8c_3a889a0e",
+        "filename": "pages/design-docs/change-log-threaded-feedback/use-cases.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-02-27T06:10:12Z",
+      "side": 1,
+      "message": "Sounds like a plan - I have also added that to design that it will be our intention ;)",
+      "parentUuid": "1eff58ae_fcdf3179",
       "range": {
         "startLine": 36,
         "startChar": 28,
