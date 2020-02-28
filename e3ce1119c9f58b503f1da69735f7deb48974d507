@@ -143,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "62e069ec_279cc83e",
+        "filename": "pages/site/plugins/template.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-02-28T10:26:48Z",
+      "side": 1,
+      "message": "OK, I see now that it gets replaced by the python script.\n\nIt might be better long term to use a proper template processing library like Jinja2 rather than using a simple string replacement. This can be taken as a follow up though.",
+      "parentUuid": "040cf311_39daae75",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 24
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "67de7159_914e2c7b",
         "filename": "pages/site/publishing-gerrit-docs.md",
         "patchSetId": 12
