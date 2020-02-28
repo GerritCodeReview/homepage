@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d919f67b_36dfa277",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 12
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-02-28T08:17:44Z",
+      "side": 1,
+      "message": "this could be inlined into the initialization of query on the previous line",
+      "range": {
+        "startLine": 62,
+        "startChar": 4,
+        "endLine": 62,
+        "endChar": 29
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd9b1778_72dc955d",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 12
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-02-28T08:17:44Z",
+      "side": 1,
+      "message": "template and output are not closed. It would be better to open these as auto-closing resources using the pattern:\n\n with open(\"template.md\", \u0027r\u0027) as template:\n     with open(\"%s.md\" % page, \u0027w\u0027) as output:\n         for line in template:\n             ....",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 34
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "32bb3773_da97bb87",
+        "filename": "pages/site/plugins/template.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-02-28T08:17:44Z",
+      "side": 1,
+      "message": "Does this need a permalink?",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 24
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "67de7159_914e2c7b",
+        "filename": "pages/site/publishing-gerrit-docs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-02-28T08:17:44Z",
+      "side": 1,
+      "message": "We could consider using \u0027black\u0027 as the formatter",
+      "range": {
+        "startLine": 90,
+        "startChar": 29,
+        "endLine": 90,
+        "endChar": 74
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
