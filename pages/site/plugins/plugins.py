@@ -1,7 +1,6 @@
 import re
 import requests
 
-from shutil import copyfile
 from pygerrit2 import GerritRestAPI, HTTPBasicAuthFromNetrc
 
 url = "https://gerrit-review.googlesource.com"
@@ -13,7 +12,7 @@ header = "|Name|State|Changes (last 3 months)|Description"
 dashes = "|----|-----|-------|-----------"
 spacer = "|    |     |       |           "
 
-branches = ["master"] + ["stable-%s" % version for version in ["3.1", "3.0", "2.16",]]
+branches = ["master"] + ["stable-%s" % version for version in ["3.1", "3.0", "2.16"]]
 
 checkMark = "&#x2714;"
 unicodeSquare = "&#x20DE;"
@@ -77,7 +76,10 @@ with open("template.md", "r") as template:
             spacer += "|[%s]|" % branch
         output.write("\n%s|\n%s|\n%s|\n" % (header, dashes, spacer))
 
-        url = "https://gerrit-ci.gerritforge.com/api/json?pretty=true&tree=jobs[name,lastBuild[result]]"
+        url = (
+            "https://gerrit-ci.gerritforge.com/api/json?pretty=true&tree=jobs"
+            + "[name,lastBuild[result]]"
+        )
         builds = requests.get(url).json()
         links = "\n"
         for p in plugins:
