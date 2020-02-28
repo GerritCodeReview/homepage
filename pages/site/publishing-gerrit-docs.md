@@ -70,15 +70,24 @@ docker run -v $(pwd):/site bretfisher/jekyll-serve jekyll build
 
 ## Updating the plugins page
 
+Updating the `plugins.md` file requires to run the `plugins.py`
+script. The script depends on the `pygerrit2` library, which can
+be installed using the provided `pipenv` environment:
+
+```
+cd homepage
+pushd pages/site/plugins
+pipenv install --dev
+popd
+```
+
 To update the `plugins.md` file and potentially `push` it for review,
 consider these commands:
 
 ```
-pip3 install pygerrit2
-pip3 install requests
 cd homepage
 pushd pages/site/plugins
-python3 plugins.py
+pipenv run python plugins.py
 popd
 docker-compose up
 (browse to) http://localhost:4000/plugins.html
@@ -87,7 +96,20 @@ git status
 
 The last command is meant to consider the likely updated `plugins.md` file,
 as a result of executing `plugins.py` above. That markdown file lends the
-browsed `plugins.html` page. The formatter for `plugins.py` is `black`.
+browsed `plugins.html` page.
+
+If changes are made to the `plugins.py` script, check for coding errors and
+style violations with `flake8`, and format the code with `black`. Both of
+these tools are also provided in the pipenv environment.
+
+```
+cd homepage
+pushd pages/site/plugins
+pipenv run flake8 plugins.py
+pipenv run black plugins.py
+popd
+git status
+```
 
 ## Deploying the site
 
