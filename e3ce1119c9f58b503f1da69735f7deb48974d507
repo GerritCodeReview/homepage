@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "8c7248a5_4b203aa6",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 12
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-28T09:47:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d919f67b_36dfa277",
+      "range": {
+        "startLine": 62,
+        "startChar": 4,
+        "endLine": 62,
+        "endChar": 29
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bd9b1778_72dc955d",
         "filename": "pages/site/plugins/plugins.py",
         "patchSetId": 12
@@ -45,6 +69,30 @@
       "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "48b1ab51_d54454de",
+        "filename": "pages/site/plugins/plugins.py",
+        "patchSetId": 12
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-28T09:47:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bd9b1778_72dc955d",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 34
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "040cf311_39daae75",
+        "filename": "pages/site/plugins/template.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-28T09:47:42Z",
+      "side": 1,
+      "message": "yes, otherwise the permalink in plugins.md isn\u0027t generated",
+      "parentUuid": "32bb3773_da97bb87",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 24
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "67de7159_914e2c7b",
         "filename": "pages/site/publishing-gerrit-docs.md",
         "patchSetId": 12
@@ -91,6 +163,30 @@
       "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9c6fac1c_4bbb6ea4",
+        "filename": "pages/site/publishing-gerrit-docs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-02-28T09:47:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "67de7159_914e2c7b",
+      "range": {
+        "startLine": 90,
+        "startChar": 29,
+        "endLine": 90,
+        "endChar": 74
+      },
+      "revId": "e3ce1119c9f58b503f1da69735f7deb48974d507",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
