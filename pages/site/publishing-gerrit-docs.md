@@ -95,8 +95,14 @@ as a result of executing `plugins.py` above. That markdown file lends the
 browsed `plugins.html` page.
 
 If changes are made to the `plugins.py` script, check for coding errors and
-style violations with `flake8`, and format the code with `black`. Both of
-these tools are also provided in the pipenv environment.
+style violations with `flake8`, and format the code with `black`:
+
+```
+pipenv run flake8 tools/plugins.py
+pipenv run black tools/plugins.py
+```
+
+Both of these tools are also provided in the pipenv environment.
 
 ```
 cd homepage
