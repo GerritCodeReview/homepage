@@ -85,7 +85,7 @@ toc: false
 |[change-head]|&#x1F512;|0|[DEPRECATED] Shift what the HEAD symbolic-ref points to|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[change-labels]|&#x2705;|0|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[changemessage]|&#x2705;|38|This plugin allows to display a static info message on the change screen|&#x2714;|&#x2705;|&#x20DE;|&#x20DE;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|
-|[checks]|&#x2705;|55|This plugin provides a REST API and UI extensions for integrating CI systems with Gerrit|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
+|[checks]|&#x2705;|59|This plugin provides a REST API and UI extensions for integrating CI systems with Gerrit|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[cloud-notifications]|&#x2705;|0|A plugin to obtain push event notifications through Firebase Cloud Messaging (FCM)|&#x2714;|&#x274C;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[codemirror-editor]|&#x2705;|2|CodeMirror plugin for PolyGerrit|&#x2714;|&#x2705;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[commit-message-length-validator]|&#x2705;|0|Plugin to validate that commit messages conform to length limits|&#x2714;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
@@ -158,7 +158,7 @@ toc: false
 |[metrics-reporter-prometheus]|&#x2705;|8|This plugin exposes Gerrit metrics to Prometheus (https://prometheus.io/)|&#x2714;|&#x2705;|&#x20DE;|&#x2705;|&#x20DE;|&#x2705;|&#x2714;|&#x2705;|
 |[motd]|&#x2705;|0|Plugin that provides messages to users on fetch/pull/clone|&#x2714;|&#x2705;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[multi-master]|&#x2705;|1|Plugin(s) to enable Gerrrit multi-master operation|&#x2714;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
-|[multi-site]|&#x2705;|110|Multi-site support for Gerrit Code Review|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|
+|[multi-site]|&#x2705;|114|Multi-site support for Gerrit Code Review|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|
 |[oauth]|&#x2705;|57|OAuth2 provider plugin. Multiple providers are currently supported:|&#x2714;|&#x2705;|&#x20DE;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|
 |[out-of-the-box]|&#x2705;|0|Plugin to provide an out-of-the-box redirect for a fresh Gerrit install|&#x2714;|&#x2705;|&#x20DE;|&#x2705;|&#x20DE;|&#x2705;|&#x20DE;|&#x2705;|
 |[owners]|&#x2705;|11|Provides a Prolog predicate add_owner_approval/3 that appends label('Owner-Approval', need(_)) to a provided list|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|
@@ -177,7 +177,7 @@ toc: false
 |[reject-private-submit]|&#x2705;|0|Reject submission (merging) of private changes|&#x2714;|&#x274C;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[rename-project]|&#x2705;|45|A plugin which allows projects to be renamed from Gerrit via an SSH command|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|&#x2714;|&#x2705;|
 |[reparent]|&#x2705;|0|Plugin that provides a self-service for reparenting projects|&#x2714;|&#x274C;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
-|[replication]|&#x2705;|39|Copies to other servers using the Git protocol|&#x2714;|&#x20DE;|&#x2714;|&#x20DE;|&#x2714;|&#x20DE;|&#x2714;|&#x20DE;|
+|[replication]|&#x2705;|42|Copies to other servers using the Git protocol|&#x2714;|&#x20DE;|&#x2714;|&#x20DE;|&#x2714;|&#x20DE;|&#x2714;|&#x20DE;|
 |[replication-status]|&#x2705;|1|Record and display the repository's replication status without having to dig into the Gerrit replication_log|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[repository-usage]|&#x2705;|0|Searches repositories for submodules and manifest files and saves references to a database|&#x2714;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
 |[review-strategy]|&#x2705;|0|Provide configurations for custom Gerrit review strategies|&#x2714;|&#x274C;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|&#x20DE;|
