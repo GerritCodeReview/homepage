@@ -59,8 +59,8 @@ def getRecentChangesCount(pluginName):
 
 
 page = "plugins"
-with open("template.md", "r") as template:
-    with open("%s.md" % page, "w") as output:
+with open("tools/template.md", "r") as template:
+    with open("pages/site/plugins/%s.md" % page, "w") as output:
         for line in template:
             output.write(line.replace("template", page))
 

@@ -76,9 +76,7 @@ be installed using the provided `pipenv` environment:
 
 ```
 cd homepage
-pushd pages/site/plugins
 pipenv install --dev
-popd
 ```
 
 To update the `plugins.md` file and potentially `push` it for review,
@@ -86,9 +84,7 @@ consider these commands:
 
 ```
 cd homepage
-pushd pages/site/plugins
-pipenv run python plugins.py
-popd
+pipenv run python tools/plugins.py
 docker-compose up
 (browse to) http://localhost:4000/plugins.html
 git status
