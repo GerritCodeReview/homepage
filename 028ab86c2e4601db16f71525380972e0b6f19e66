@@ -120,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "344bca0f_1540733e",
+        "filename": "pages/design-docs/change-log-threaded-feedback/solution.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-03-02T15:12:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "802d4152_119f397f",
+      "range": {
+        "startLine": 27,
+        "startChar": 77,
+        "endLine": 29,
+        "endChar": 20
+      },
+      "revId": "028ab86c2e4601db16f71525380972e0b6f19e66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1eff58ae_fcdf3179",
         "filename": "pages/design-docs/change-log-threaded-feedback/use-cases.md",
         "patchSetId": 12
