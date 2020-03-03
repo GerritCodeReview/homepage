@@ -6,7 +6,12 @@ hide_navtoggle: true
 toc: true
 ---
 
-This topic describes how to publish updates to the Gerrit website.
+There is a build job "homepage" which automatically updates the plugin pages,
+generates the homepage and deploys the new version. It polls the homepage for
+new changes and is triggered whenever a change to the homepage repository's
+master branch was submitted.
+
+The remainder of this topic describes how to manually publish updates to the Gerrit website.
 
 ## Prerequisites
 
