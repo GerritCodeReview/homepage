@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0258a2d1_3128d272",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-04T00:13:16Z",
+      "side": 1,
+      "message": "It should be possible to access the REST API anonymously.  This might result in a slightly different result than authenticated access if some projects have visibility restrictions, however it will be consistent, compared to if it is invoked by users with different visibilities.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 44
+      },
+      "revId": "8b04dd0a5609a724af02aba833b5d61f25bcac52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
