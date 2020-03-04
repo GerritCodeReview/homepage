@@ -1,11 +1,10 @@
 import re
 import requests
 
-from pygerrit2 import GerritRestAPI, HTTPBasicAuthFromNetrc
+from pygerrit2 import GerritRestAPI
 
 url = "https://gerrit-review.googlesource.com"
-auth = HTTPBasicAuthFromNetrc(url=url)
-api = GerritRestAPI(url=url, auth=auth)
+api = GerritRestAPI(url=url)
 plugins = api.get("/projects/?p=plugins%2f&d")
 
 header = "|Name|State|Changes (last 3 months)|Description"
