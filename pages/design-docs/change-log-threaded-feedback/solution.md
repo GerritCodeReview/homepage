@@ -82,34 +82,35 @@ and is not guaranteed to deliver stable/valid results.
 ## <a id="implementation-plan"> Implementation Plan
 
 1. Rework general `REPLY` dialog so that notarial part is stored in
-  [ChangeMessage](https://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/entities/ChangeMessage.java)
-  entity and feedback part is stored in
-  [Comment](https://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/entities/Comment.java)
-  entity.
+   [ChangeMessage](https://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/entities/ChangeMessage.java)
+   entity and feedback part is stored in
+   [Comment](https://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/entities/Comment.java)
+   entity.
 
-  Extend corresponding endpoint to publish `Change Message` and `Comment` at
-  once.
+   Extend corresponding endpoint to publish `Change Message` and `Comment` at
+   once.
 
-  There is no plan to migrate existing messages to split them into notarial
-  and feedback part which practically means that they will be seen as notarial.
+   There is no plan to migrate existing messages to split them into notarial
+   and feedback part which practically means that they will be seen as
+   notarial.
 
-  Existing submit rules need to be revised and modified in case it is necessary
-  (e.g. `all comments resolved` is the one to be updated). It has to be assured
-  that file comments and feedback comments are displayed and handled properly
-  in `Comment Threads` tab with/without filters applied.
+   Existing submit rules need to be revised and modified in case it is
+   necessary (e.g. `all comments resolved` is the one to be updated). It has to
+   be assured that file comments and feedback comments are displayed and
+   handled properly in `Comment Threads` tab with/without filters applied.
 
-2. Modify UI so that:
-  * `Resolved` flag is visible and Reviewer can mark review feedback as one
-    that needs to be resolved (default) or mark it as resolved (for
-    appreciation).
-  * There is no longer the `REPLY` button in `Change Log` next to the notarial
-    entry related to review's feedback as it wouldn't allow to answer multiple
-    threads. Instead reply should be performed in the `Comment Threads` tab
-    (one could use link(s) presented in front of the message body - `PS 4` in
-    the example above) in the same manner it is done for file comments now.
-  * Multiple draft replies are published through general review feedback dialog
-    (the same way as inline comments are published).
-  * `Change Log` tab messages ordering is not impacted by this change.
+1. Modify UI so that:
+   * `Resolved` flag is visible and Reviewer can mark review feedback as one
+     that needs to be resolved (default) or mark it as resolved (for
+     appreciation).
+   * There is no longer the `REPLY` button in `Change Log` next to the notarial
+     entry related to review's feedback as it wouldn't allow to answer multiple
+     threads. Instead reply should be performed in the `Comment Threads` tab
+     (one could use link(s) presented in front of the message body - `PS 4` in
+     the example above) in the same manner it is done for file comments now.
+   * Multiple draft replies are published through general review feedback
+     dialog (the same way as inline comments are published).
+   * `Change Log` tab messages ordering is not impacted by this change.
 
 ## <a id="time-estimation"> Time Estimation
 
