@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cf2da7a1_52008ef7",
+        "filename": "pages/design-docs/change-log-threaded-feedback/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-07T13:16:11Z",
+      "side": 1,
+      "message": "Was this intentionally changed from \u00272\u0027 to \u00271\u0027?",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 2
+      },
+      "revId": "221be5689d37f78942c35cc81246650327440929",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
