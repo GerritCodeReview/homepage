@@ -22,6 +22,30 @@
       "revId": "221be5689d37f78942c35cc81246650327440929",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "51926def_c0d58459",
+        "filename": "pages/design-docs/change-log-threaded-feedback/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-03-09T09:23:21Z",
+      "side": 1,
+      "message": "yeap, MD formats numbering automatically when sections are correctly recognised (so that one doesn\u0027t have to renumber everything when new bullet point gets added somewhere at the beginning or in the middle), I should have done that like from the beginning",
+      "parentUuid": "cf2da7a1_52008ef7",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 2
+      },
+      "revId": "221be5689d37f78942c35cc81246650327440929",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
