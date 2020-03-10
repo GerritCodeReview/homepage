@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7e9028e3_e452c5f2",
+        "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-03-10T15:37:14Z",
+      "side": 1,
+      "message": "this is now automated and the deployment job polls for changes in the homepage repository every 10 minutes and in addition runs every midnight\nto ensure we update e.g. the plugins page at least once a day\n\nhttps://gerrit-review.googlesource.com/c/gerrit-ci-scripts/+/257634/6/jenkins/homepage.yaml",
+      "range": {
+        "startLine": 17,
+        "startChar": 46,
+        "endLine": 17,
+        "endChar": 86
+      },
+      "revId": "2bf765d86157aa7f4b2ad99c0c231ba8a01b6d82",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
