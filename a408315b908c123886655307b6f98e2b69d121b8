@@ -383,6 +383,24 @@
       "revId": "a408315b908c123886655307b6f98e2b69d121b8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dd3fb53a_16276d5b",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-03-10T14:20:27Z",
+      "side": 1,
+      "message": "Added it as a part of the \u0027Acceptance Criteria\u0027 section",
+      "parentUuid": "b2af445c_b91ca7b5",
+      "revId": "a408315b908c123886655307b6f98e2b69d121b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
