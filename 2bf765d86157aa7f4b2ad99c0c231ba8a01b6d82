@@ -22,6 +22,30 @@
       "revId": "2bf765d86157aa7f4b2ad99c0c231ba8a01b6d82",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a037b6f0_180f0306",
+        "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-10T15:47:24Z",
+      "side": 1,
+      "message": "\u003e this is now automated and the deployment job polls for changes in the homepage repository every 10 minutes and in addition runs every midnight\n\u003e to ensure we update e.g. the plugins page at least once a day\n\u003e \n\u003e https://gerrit-review.googlesource.com/c/gerrit-ci-scripts/+/257634/6/jenkins/homepage.yaml\n\nAwesome. I missed to update this text after the merges and announce; sorry. Done. And thanks for the clarification about the \u003cdaily frequency.",
+      "parentUuid": "7e9028e3_e452c5f2",
+      "range": {
+        "startLine": 17,
+        "startChar": 46,
+        "endLine": 17,
+        "endChar": 86
+      },
+      "revId": "2bf765d86157aa7f4b2ad99c0c231ba8a01b6d82",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
