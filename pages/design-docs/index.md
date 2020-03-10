@@ -21,7 +21,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Revert submit](design-docs/revert-submit.html) by Gal Paikin, approved 2019-09-09
 - [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html) by Martin Fick, proposed 2019-10-04
 - [Attention Set](design-docs/attention-set.html) by Ben Rohlfs, approved 2020-01-03
-- [Change Log: Threaded Feedback](design-docs/change-log-threaded-feedback.html) by Jacek Centkowski, proposed 2019-11-13
+- [Change Log: Threaded Feedback](design-docs/change-log-threaded-feedback.html) by Jacek Centkowski, approved 2020-03-25
 
 ## Reviews of Design Documents
 
