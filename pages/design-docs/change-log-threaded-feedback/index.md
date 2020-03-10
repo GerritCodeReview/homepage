@@ -10,3 +10,4 @@ toc: false
 
 * [Use Cases](/design-docs/change-log-threaded-feedback-use-cases.html)
 * [Solution - Threaded Feedback](/design-docs/change-log-threaded-feedback-solution.html)
+* [Conclusion](/design-docs/change-log-threaded-feedback-conclusion.html)
