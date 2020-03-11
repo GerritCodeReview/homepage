@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eff52d5b_d3b13d0d",
+        "filename": "_posts/2019-11-24-user-summit-sunnyvale-summary.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 346,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-03-11T12:21:14Z",
+      "side": 1,
+      "message": "which was",
+      "range": {
+        "startLine": 346,
+        "startChar": 41,
+        "endLine": 346,
+        "endChar": 44
+      },
+      "revId": "da177213b87ee121c848e7a794bbdad2cfee492f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "64e16cc5_5831e261",
+        "filename": "_posts/2019-11-24-user-summit-sunnyvale-summary.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 355,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-03-11T12:21:14Z",
+      "side": 1,
+      "message": "historically used a hard-coded resolution of 2.5s was the FAT filesystem storing timestamps with 2s resolution",
+      "range": {
+        "startLine": 355,
+        "startChar": 20,
+        "endLine": 355,
+        "endChar": 77
+      },
+      "revId": "da177213b87ee121c848e7a794bbdad2cfee492f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
