@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "c3e3d955_9f082db9",
+        "filename": "_posts/2019-11-24-user-summit-sunnyvale-summary.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-03-11T20:02:49Z",
+      "side": 1,
+      "message": "Should we also mention work done by Patrick Hiesel to make indexing of mergeability field optional and refactoring related area of code, including REST API. Patrick spent quite some time during the Hackathon for polishing his series and maintainers had a lot discussions around that topic and helped with review.\n\nShould we also mention switch from Guava cache to Ben Mannes Caffeine cache implementation: [1],[2] suggested by Matthias Sohn?\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/244612\n[2] https://gerrit-review.googlesource.com/c/gerrit/+/245012",
+      "revId": "df4cbfaba023031a8155a3d1a38b82eef4e0d957",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b50373c1_82110632",
         "filename": "_posts/2019-11-24-user-summit-sunnyvale-summary.md",
         "patchSetId": 17
