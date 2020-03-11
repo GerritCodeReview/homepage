@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e347b34_c44c529c",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-11T09:38:39Z",
+      "side": 1,
+      "message": "Could you give some context of what are the Events that the Gerrit multi-site is broadcasting over the network of masters?",
+      "range": {
+        "startLine": 11,
+        "startChar": 30,
+        "endLine": 11,
+        "endChar": 35
+      },
+      "revId": "b7ffc2a5b19ce21b6aa5aff314b25b1421af493e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "83c02c4a_a0f8f23a",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-11T09:38:39Z",
+      "side": 1,
+      "message": "Can you define what \u0027node\u0027 means here?",
+      "range": {
+        "startLine": 11,
+        "startChar": 22,
+        "endLine": 11,
+        "endChar": 26
+      },
+      "revId": "b7ffc2a5b19ce21b6aa5aff314b25b1421af493e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "de14399e_09495a2f",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-11T09:38:39Z",
+      "side": 1,
+      "message": "Can you give some context on why the source Gerrit master is important for the multi-site setup?",
+      "range": {
+        "startLine": 12,
+        "startChar": 18,
+        "endLine": 12,
+        "endChar": 56
+      },
+      "revId": "b7ffc2a5b19ce21b6aa5aff314b25b1421af493e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
