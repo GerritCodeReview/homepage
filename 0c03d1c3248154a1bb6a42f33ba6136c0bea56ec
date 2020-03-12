@@ -22,6 +22,30 @@
       "revId": "0c03d1c3248154a1bb6a42f33ba6136c0bea56ec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1b6113d0_59d5fca7",
+        "filename": "pages/design-docs/change-log-threaded-feedback/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-12T08:22:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "20425c12_cc6a9e6a",
+      "range": {
+        "startLine": 37,
+        "startChar": 37,
+        "endLine": 37,
+        "endChar": 67
+      },
+      "revId": "0c03d1c3248154a1bb6a42f33ba6136c0bea56ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
