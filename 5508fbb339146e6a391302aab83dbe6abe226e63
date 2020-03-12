@@ -1,0 +1,388 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3848de6d_a9efa0b4",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "The scope of multi-master/multi-site is clear. However, I believe you should tell why this concept that is currently in the multi-site plugin should be introduced in Gerrit core as well.\n\nWhat are the benefits of having it in core? What are the problems of NOT having it in core?",
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "488ae647_a1b3289f",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "server",
+      "range": {
+        "startLine": 27,
+        "startChar": 34,
+        "endLine": 27,
+        "endChar": 41
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6cbbd2dc_996bf555",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "Git repository belongs to",
+      "range": {
+        "startLine": 27,
+        "startChar": 44,
+        "endLine": 27,
+        "endChar": 66
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5ac42609_c14e5508",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "human-readable",
+      "range": {
+        "startLine": 28,
+        "startChar": 18,
+        "endLine": 28,
+        "endChar": 23
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8cb69623_d851d50a",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "Git repositories belonging to the same Gerrit Server",
+      "range": {
+        "startLine": 33,
+        "startChar": 15,
+        "endLine": 33,
+        "endChar": 50
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8003512e_de7f570c",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "with it",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 23
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5ee3da34_41476faf",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "You should explain that this is an anti-pattern: if you have two Gerrit masters A and B that do not have the same serverid, then ...",
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b9a4c98b_e55ca01b",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "... as a human-readable identification of the Gerrit instance.",
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c2f64436_cb58a50b",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "high-availability",
+      "range": {
+        "startLine": 50,
+        "startChar": 25,
+        "endLine": 50,
+        "endChar": 42
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f93ede9a_972928ac",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "that belong to the same cluster and share the same repositories.",
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "02ee1454_caeb8ac7",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "or another unique identifier of the Gerrit instance",
+      "range": {
+        "startLine": 54,
+        "startChar": 32,
+        "endLine": 54,
+        "endChar": 44
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ad9aa975_1ff3a04f",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "high-availability",
+      "range": {
+        "startLine": 60,
+        "startChar": 4,
+        "endLine": 60,
+        "endChar": 6
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e3c34e2_c81aa5fa",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "or another instance id",
+      "range": {
+        "startLine": 67,
+        "startChar": 64,
+        "endLine": 67,
+        "endChar": 76
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce2fe820_e679b325",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "... and going into an infinite loop of events.\n\nP.S. Worth mentioning the \"hack\" done in the high-availability plugin with the thread-local storage, symptom that the information is missing and would be useful there also.",
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "89b5da45_9e5d10fe",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "How the introduction of an instance-id in the event would allow that?",
+      "range": {
+        "startLine": 69,
+        "startChar": 13,
+        "endLine": 69,
+        "endChar": 20
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "539fefae_b10a40eb",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "Priority",
+      "range": {
+        "startLine": 70,
+        "startChar": 3,
+        "endLine": 70,
+        "endChar": 8
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9032b946_79ec1118",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "Troubleshooting",
+      "range": {
+        "startLine": 72,
+        "startChar": 3,
+        "endLine": 72,
+        "endChar": 12
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "55433aad_967f0bd2",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-12T13:50:58Z",
+      "side": 1,
+      "message": "These should be IMHO defined in the given-when-then form:\nhttps://en.wikipedia.org/wiki/Given-When-Then",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 27
+      },
+      "revId": "5508fbb339146e6a391302aab83dbe6abe226e63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
