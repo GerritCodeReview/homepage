@@ -70,6 +70,30 @@
       "revId": "0c03d1c3248154a1bb6a42f33ba6136c0bea56ec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "110fca56_cf60c812",
+        "filename": "pages/design-docs/change-log-threaded-feedback/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-03-13T13:47:30Z",
+      "side": 1,
+      "message": "\u003e Jacek, before you start making backend changes, please get into a conversation with Gal (paiking) and me. Gal got the task to think about how to represent robot comments which are not attached to a file. To ensure a consistent handling of human+robot comments in Gerrit, it would be good if could align our ideas.\n\nSure, thanks!",
+      "parentUuid": "10fcdabc_3973b5c1",
+      "range": {
+        "startLine": 37,
+        "startChar": 37,
+        "endLine": 37,
+        "endChar": 67
+      },
+      "revId": "0c03d1c3248154a1bb6a42f33ba6136c0bea56ec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
