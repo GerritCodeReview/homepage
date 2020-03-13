@@ -2,9 +2,11 @@ node("jekyll") {
     checkout scm
     stage("generate plugins page") {
         withEnv(['LC_ALL=C.UTF-8', 'LANG=C.UTF-8']) {
-            sh "echo '' > /home/jenkins/.netrc"
-            sh "pipenv install --dev"
-            sh "pipenv run python tools/plugins.py"
+            withCredentials([usernamePassword(credentialsId: "gerrit-review.googlesource.com", usernameVariable: "user", passwordVariable: "password")]) {
+                sh "echo '' > /home/jenkins/.netrc"
+                sh "pipenv install --dev"
+                sh "pipenv run python tools/plugins.py"
+            }
         }
     }
     stage("build homepage") {
