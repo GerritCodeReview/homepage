@@ -7,9 +7,9 @@ url = "https://gerrit-review.googlesource.com"
 api = GerritRestAPI(url=url)
 plugins = api.get("/projects/?p=plugins%2f&d")
 
-header = "|Name|State|Changes (last 3 months)|Description"
-dashes = "|----|-----|-------|-----------"
-spacer = "|    |     |       |           "
+header = "|Name|State|Changes (last 3 months)|Description|Maintainers"
+dashes = "|----|-----|-----------------------|-----------|-----------"
+spacer = "|    |     |                       |           |           "
 
 branches = ["master"] + ["stable-%s" % version for version in ["3.1", "3.0", "2.16"]]
 
@@ -57,6 +57,19 @@ def getRecentChangesCount(pluginName):
     return len(changes)
 
 
+def getOwnerNames(pluginName):
+    groups = api.get("/groups/?query=name:plugins-%s" % pluginName)
+    if len(groups) > 0:
+        ownerGroup = groups[0]
+        id = ownerGroup.get("id")
+        owners = api.get("/groups/%s/members/" % id)
+        names = [o.get("name") for o in owners]
+        names = ", ".join(names)
+    else:
+        names = ""
+    return names
+
+
 page = "plugins"
 with open("tools/template.md", "r") as template:
     with open("pages/site/plugins/%s.md" % page, "w") as output:
@@ -101,11 +114,14 @@ with open("tools/template.md", "r") as template:
             else:
                 description = unicodeSquare
 
-            line = "|[%s]|%s|%d|%s|%s|\n" % (
+            owners = getOwnerNames(name)
+
+            line = "|[%s]|%s|%d|%s|%s|%s|\n" % (
                 name,
                 state,
                 changes,
                 description,
+                owners,
                 availableBranches,
             )
             output.write(line)
