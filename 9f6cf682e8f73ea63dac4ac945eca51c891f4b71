@@ -73,6 +73,47 @@
     },
     {
       "key": {
+        "uuid": "ab26df39_8d703642",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-14T15:27:45Z",
+      "side": 1,
+      "message": "Beside Jenkins automation, we should also be able to run this script manually.",
+      "parentUuid": "b9ddac3b_aa553a5b",
+      "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "26f14d53_a17253ae",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-14T15:27:45Z",
+      "side": 1,
+      "message": "header \u003d \"|Name|State|Changes (last 3 months)|Description|Maintainers\"\ndashes \u003d \"|----|-----|-----------------------|-----------|-----------\"\nspacer \u003d \"|    |     |                       |           |           \"\n\n-For code readability purposes. The way this review comment renders, column alignment looks broken. But the source version of this comment shows that alignment I\u0027m proposing.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 40
+      },
+      "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b9805a54_65584e80",
         "filename": "tools/plugins.py",
         "patchSetId": 2
