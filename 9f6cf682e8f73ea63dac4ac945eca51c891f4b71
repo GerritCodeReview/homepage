@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "b9ddac3b_aa553a5b",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-14T09:47:33Z",
+      "side": 1,
+      "message": "Best to use the explicit credentials:\n\n  from pygerrit2 import GerritRestAPI, HTTPBasicAuth\n\n  auth \u003d HTTPBasicAuth(\u0027username\u0027, \u0027password\u0027)\n  rest \u003d GerritRestAPI(url\u003d\u0027http://review.example.net\u0027, auth\u003dauth)\n\nThen the Jenkinsfile will pass the username/password via the stored credentials mechanism.",
+      "parentUuid": "43f26d4e_8aa469ce",
+      "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b9805a54_65584e80",
         "filename": "tools/plugins.py",
         "patchSetId": 2
