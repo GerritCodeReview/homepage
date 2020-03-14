@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "43f26d4e_8aa469ce",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-14T09:40:02Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "95d39ba6_7b2e42d8",
+      "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b9805a54_65584e80",
         "filename": "tools/plugins.py",
         "patchSetId": 2
@@ -72,6 +90,30 @@
       "side": 1,
       "message": "no, the pygerrit library automatically adds /a/ when credentials are provided.",
       "parentUuid": "b9805a54_65584e80",
+      "range": {
+        "startLine": 61,
+        "startChar": 21,
+        "endLine": 61,
+        "endChar": 23
+      },
+      "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "14d2d068_1e16e004",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-14T09:40:02Z",
+      "side": 1,
+      "message": "But credentials are provided implicitly through the .netrc file, correct? So, if there is a matching .netrc *ALL* calls will be always authenticated, correct?",
+      "parentUuid": "a17e63a5_534b2224",
       "range": {
         "startLine": 61,
         "startChar": 21,
