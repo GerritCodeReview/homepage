@@ -7,7 +7,7 @@ from pygerrit2 import GerritRestAPI, HTTPBasicAuth
 
 
 def authenticate():
-    username = os.environ.get("user")
+    username = os.environ.get("username")
     password = os.environ.get("password")
     while not username:
         username = input("user: ")
