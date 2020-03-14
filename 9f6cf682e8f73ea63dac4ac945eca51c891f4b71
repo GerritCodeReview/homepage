@@ -147,6 +147,30 @@
       "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e36e9a41_0406a309",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-14T09:43:33Z",
+      "side": 1,
+      "message": "There was some discussion about this on one of the previous changes. I\u0027m going to update the library to allow explicitly setting anonymous, rather than having it automatically use netrc credentials.",
+      "parentUuid": "1842340b_8621aa11",
+      "range": {
+        "startLine": 61,
+        "startChar": 21,
+        "endLine": 61,
+        "endChar": 23
+      },
+      "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
