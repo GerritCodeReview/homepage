@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "95d39ba6_7b2e42d8",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-14T09:38:24Z",
+      "side": 1,
+      "message": "the pygerrit library automatically uses credentials from the calling user\u0027s .netrc file, if they are present, otherwise falls back to anonymous.",
+      "parentUuid": "2c594ca0_999915e4",
+      "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b9805a54_65584e80",
         "filename": "tools/plugins.py",
         "patchSetId": 2
@@ -30,6 +48,30 @@
       "writtenOn": "2020-03-14T09:31:36Z",
       "side": 1,
       "message": "Should this be /a/ for triggering an authenticated API call?",
+      "range": {
+        "startLine": 61,
+        "startChar": 21,
+        "endLine": 61,
+        "endChar": 23
+      },
+      "revId": "9f6cf682e8f73ea63dac4ac945eca51c891f4b71",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a17e63a5_534b2224",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-14T09:38:24Z",
+      "side": 1,
+      "message": "no, the pygerrit library automatically adds /a/ when credentials are provided.",
+      "parentUuid": "b9805a54_65584e80",
       "range": {
         "startLine": 61,
         "startChar": 21,
