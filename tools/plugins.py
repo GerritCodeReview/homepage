@@ -3,6 +3,7 @@ import os
 import re
 import requests
 
+from jinja2 import Template
 from pygerrit2 import GerritRestAPI, HTTPBasicAuth
 
 
@@ -85,61 +86,66 @@ def getOwnerNames(pluginName):
     return names
 
 
-page = "plugins"
-with open("tools/template.md", "r") as template:
-    with open("pages/site/plugins/%s.md" % page, "w") as output:
-        for line in template:
-            output.write(line.replace("template", page))
+data = {"permalink": "plugins"}
 
-        output.write("\n")
-        for b in branches:
-            output.write(
-                "[%s]: https://gerrit-ci.gerritforge.com/view/Plugins-%s/\n" % (b, b)
-            )
+template_path = os.path.join(
+    os.path.dirname(os.path.realpath(__file__)), "plugins.md.template"
+)
+template = Template(open(template_path).read())
+rendered_template = template.render(data=data)
 
-        for branch in branches:
-            header += "|Branch|CI"
-            dashes += "|-----:|--"
-            spacer += "|[%s]|" % branch
-        output.write("\n%s|\n%s|\n%s|\n" % (header, dashes, spacer))
+with open("pages/site/plugins/plugins.md", "w") as output:
+    output.writelines(rendered_template)
 
-        url = (
-            "https://gerrit-ci.gerritforge.com/api/json?pretty=true&tree=jobs"
-            + "[name,lastBuild[result]]"
+    output.write("\n")
+    for b in branches:
+        output.write(
+            "[%s]: https://gerrit-ci.gerritforge.com/view/Plugins-%s/\n" % (b, b)
         )
-        builds = requests.get(url).json()
-        links = "\n"
-        for p in plugins:
-            name = p[len("plugins/") :]
-            plugin = plugins[p]
 
-            if plugin["state"] == "ACTIVE":
-                state = greenCheckMark
-                changes = getRecentChangesCount(p)
-                availableBranches = getBranchResults(plugin["id"], name, builds)
-            else:
-                state = lock
-                changes = 0
-                availableBranches = "|".join(
-                    ["%s|%s" % (unicodeSquare, unicodeSquare) for b in branches]
-                )
+    for branch in branches:
+        header += "|Branch|CI"
+        dashes += "|-----:|--"
+        spacer += "|[%s]|" % branch
+    output.write("\n%s|\n%s|\n%s|\n" % (header, dashes, spacer))
 
-            if "description" in plugin:
-                description = plugin["description"].split("\n")[0].rstrip(r"\.")
-            else:
-                description = unicodeSquare
+    url = (
+        "https://gerrit-ci.gerritforge.com/api/json?pretty=true&tree=jobs"
+        + "[name,lastBuild[result]]"
+    )
+    builds = requests.get(url).json()
+    links = "\n"
+    for p in plugins:
+        name = p[len("plugins/") :]
+        plugin = plugins[p]
 
-            owners = getOwnerNames(name)
-
-            line = "|[%s]|%s|%d|%s|%s|%s|\n" % (
-                name,
-                state,
-                changes,
-                description,
-                owners,
-                availableBranches,
+        if plugin["state"] == "ACTIVE":
+            state = greenCheckMark
+            changes = getRecentChangesCount(p)
+            availableBranches = getBranchResults(plugin["id"], name, builds)
+        else:
+            state = lock
+            changes = 0
+            availableBranches = "|".join(
+                ["%s|%s" % (unicodeSquare, unicodeSquare) for b in branches]
             )
-            output.write(line)
-            links += "[%s]: https://gerrit.googlesource.com/plugins/%s\n" % (name, name)
 
-        output.write(links)
+        if "description" in plugin:
+            description = plugin["description"].split("\n")[0].rstrip(r"\.")
+        else:
+            description = unicodeSquare
+
+        owners = getOwnerNames(name)
+
+        line = "|[%s]|%s|%d|%s|%s|%s|\n" % (
+            name,
+            state,
+            changes,
+            description,
+            owners,
+            availableBranches,
+        )
+        output.write(line)
+        links += "[%s]: https://gerrit.googlesource.com/plugins/%s\n" % (name, name)
+
+    output.write(links)

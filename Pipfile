@@ -9,6 +9,7 @@ black = "*"
 
 [packages]
 pygerrit2 = "*"
+jinja2 = "*"
 
 [requires]
 python_version = "3.7"
