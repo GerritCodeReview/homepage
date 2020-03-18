@@ -8,45 +8,58 @@ toc: false
 
 ## About this page
 
-1. This page lists all the [plugins] known to the Gerrit project.
-   * -With their compatibility status across the [supported] version branches.
-   * The list includes the [core] plugins.
-   * Some plugins might be missing from this page.
-     * [Contributions] to add them are welcome, if needed.
+This page lists all the [plugins] known to the Gerrit project, with their compatibility
+status across the [supported] version branches. The list includes the [core] plugins.
 
-2. These plugins are made by different parties and maintained to varying degrees.
-   * Therefore, the Gerrit project does not guarantee their reliability.
-   * However many are reliable and valuable integrations across Gerrit deployments.
-   * There is a [parent] component for plugin-specific components/issues in Monorail.
+Some plugins might be missing from this page. [Contributions] to add them are welcome,
+if needed.
 
-3. There are build [ci-scripts] for every plugin.
-   * Each script builds that plugin against all the branches it supports.
-   * Some plugins don't have branches but still support them, through their `master` branch.
-   * That CI is the public service that offers the download of pre-built plugin jar files.
+## Maintenance of plugins
+
+These plugins are made by different parties and maintained to varying degrees, therefore
+the Gerrit project does not guarantee their reliability. However, many are reliable and
+valuable integrations across Gerrit deployments.
+
+There is a [parent] component for plugin-specific components/issues in Monorail.
+
+## Plugin builds
+
+There are build [ci-scripts] for most plugins. Each script builds that plugin against all
+the branches it supports.
+
+Some plugins don't have branches but still support them, through their `master` branch.
+
+That CI is the public service that offers the download of pre-built plugin jar files.
 
 ## Compatibility matrix
 
-1. Below, each plugin name has a link to that plugin's README page.
-   * A summary of the plugin description is shown (first sentence, or '&#x20DE;' if none).
-     * [Contributions] to provide descriptions or update existing ones are welcome.
-   * The last known plugin activity state (ACTIVE  shows as &#x2705;, READ_ONLY as &#x1F512;) and number of recent changes in the last 3 months is also shown.
+Below, each plugin name has a link to that plugin's README page. A summary of the plugin
+description is shown (first sentence, or '&#x20DE;' if none).
 
-2. Each branch name links to the corresponding CI jobs view, for the current build status.
-   * The last captured build result shows in the CI column next to that branch.
-   * Jenkins `SUCCESS` results show as &#x2705; -while `FAILURE` or else show as &#x274C;.
-   * Otherwise, '&#x20DE;' shows if CI doesn't build a specific plugin branch or version.
-     * [Contributions] to propose building those are also welcome if needed.
-     * Fixing the failing builds is of course as welcome, first and foremost.
-   * Plugin tests are currently not executed by the formal Gerrit project CI.
+[Contributions] to provide descriptions or update existing ones are welcome.
 
-3. Plugins either
-   * have a formal branch matching that Gerrit version (&#x2714;),
-   * or don't have that branch (&#x20DE;); again, versions may still build using `master`.
-   * '&#x20DE;' shows across for inactive plugins.
+The last known plugin activity state (ACTIVE shows as &#x2705;, READ_ONLY as &#x1F512;)
+and number of recent changes in the last 3 months is also shown.
 
-4. Plugins compatibility with each Gerrit version depends on their current CI build results.
-   * Those build results likely change over time; this matrix is their last snapshot.
-   * Every once in a while, this page then has to be updated, [manually] for now.
+Each branch name links to the corresponding CI jobs view, for the current build status.
+
+* The last captured build result shows in the CI column next to that branch.
+* Jenkins `SUCCESS` results show as &#x2705; while `FAILURE` or else show as &#x274C;.
+* Otherwise, '&#x20DE;' shows if CI doesn't build a specific plugin branch or version.
+   * [Contributions] to propose building those are also welcome if needed.
+   * Fixing the failing builds is of course as welcome, first and foremost.
+* Plugin tests are currently not executed by the formal Gerrit project CI.
+
+Plugins either
+
+* have a formal branch matching that Gerrit version (&#x2714;),
+* or don't have that branch (&#x20DE;); again, versions may still build using `master`.
+* '&#x20DE;' shows across for inactive plugins.
+
+Plugins compatibility with each Gerrit version depends on their current CI build results.
+
+* Those build results likely change over time; this matrix is their last snapshot.
+* Every once in a while, this page then has to be updated, [manually] for now.
 
 [Contributions]: https://gerrit-review.googlesource.com/Documentation/index.html#_about_gerrit
 [core]: https://gerrit-review.googlesource.com/Documentation/config-plugins.html#core-plugins
