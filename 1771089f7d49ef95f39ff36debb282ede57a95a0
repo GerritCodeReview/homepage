@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2fd63bdb_78cc31f8",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-18T22:57:08Z",
+      "side": 0,
+      "message": "This should be kept, but we should expand to mention that it works with 2.16.17 and later.\n\nWe should also mention recommendation to do the 2 stage migration if possible, as you mentioned in the change that fixes this issue.",
+      "revId": "1771089f7d49ef95f39ff36debb282ede57a95a0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
