@@ -58,8 +58,8 @@ Plugins either
 
 Plugins compatibility with each Gerrit version depends on their current CI build results.
 
-* Those build results likely change over time; this matrix is their last snapshot.
-* Every once in a while, this page then has to be updated, [manually] for now.
+The matrix was last updated on {{ data.updated }}.
+
 
 [Contributions]: https://gerrit-review.googlesource.com/Documentation/index.html#_about_gerrit
 [core]: https://gerrit-review.googlesource.com/Documentation/config-plugins.html#core-plugins
