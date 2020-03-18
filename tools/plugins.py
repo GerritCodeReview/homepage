@@ -6,6 +6,7 @@ import requests
 
 from jinja2 import Template
 from pygerrit2 import GerritRestAPI, HTTPBasicAuth, HTTPBasicAuthFromNetrc
+from tqdm import tqdm
 
 
 def authenticate():
@@ -132,7 +133,7 @@ with open("pages/site/plugins/plugins.md", "w") as output:
     )
     builds = requests.get(url).json()
     links = "\n"
-    for p in plugins:
+    for p in tqdm(plugins):
         name = p[len("plugins/") :]
         plugin = plugins[p]
 
