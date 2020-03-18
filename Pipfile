@@ -10,6 +10,7 @@ black = "*"
 [packages]
 pygerrit2 = "*"
 jinja2 = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.7"
