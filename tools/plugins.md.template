@@ -58,12 +58,12 @@ Plugins either
 
 Plugins compatibility with each Gerrit version depends on their current CI build results.
 
-* Those build results likely change over time; this matrix is their last snapshot.
-* Every once in a while, this page then has to be updated, [manually] for now.
+Those build results likely change over time; this matrix is their last snapshot.
+The matrix was last updated on {{ data.updated }}.
+
 
 [Contributions]: https://gerrit-review.googlesource.com/Documentation/index.html#_about_gerrit
 [core]: https://gerrit-review.googlesource.com/Documentation/config-plugins.html#core-plugins
-[manually]: https://www.gerritcodereview.com/publishing.html#updating-the-plugins-page
 [parent]: https://bugs.chromium.org/p/gerrit/issues/list?q=component%3Aplugins
 [plugins]: https://gerrit-review.googlesource.com/admin/repos/q/filter:plugins%252F
 [ci-scripts]: https://gerrit.googlesource.com/gerrit-ci-scripts/+/refs/heads/master/jenkins/
