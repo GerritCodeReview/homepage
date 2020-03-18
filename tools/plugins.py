@@ -1,10 +1,11 @@
+import argparse
 import getpass
 import os
 import re
 import requests
 
 from jinja2 import Template
-from pygerrit2 import GerritRestAPI, HTTPBasicAuth
+from pygerrit2 import GerritRestAPI, HTTPBasicAuth, HTTPBasicAuthFromNetrc
 
 
 def authenticate():
@@ -18,8 +19,24 @@ def authenticate():
     return auth
 
 
+parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+
+parser.add_argument(
+    "-n",
+    "--netrc",
+    dest="netrc",
+    action="store_true",
+    help="use credentials from .netrc",
+)
+options = parser.parse_args()
+
 url = "https://gerrit-review.googlesource.com"
-api = GerritRestAPI(url=url, auth=authenticate())
+if options.netrc:
+    auth = HTTPBasicAuthFromNetrc(url=url)
+else:
+    auth = authenticate()
+
+api = GerritRestAPI(url=url, auth=auth)
 
 plugins = api.get("/projects/?p=plugins%2f&d")
 
