@@ -3,6 +3,7 @@ import getpass
 import os
 import re
 import requests
+import time
 
 from jinja2 import Template
 from pygerrit2 import GerritRestAPI, HTTPBasicAuth, HTTPBasicAuthFromNetrc
@@ -104,7 +105,10 @@ def getOwnerNames(pluginName):
     return names
 
 
-data = {"permalink": "plugins"}
+data = {
+    "permalink": "plugins",
+    "updated": time.strftime("%A %d %B at %H:%M:%S %Z", time.gmtime()),
+}
 
 template_path = os.path.join(
     os.path.dirname(os.path.realpath(__file__)), "plugins.md.template"
