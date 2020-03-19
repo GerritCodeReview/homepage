@@ -45,6 +45,30 @@
       "revId": "b803e0bde4b764255f8164ae4854b7676587c3ed",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1595a832_189bd704",
+        "filename": "tools/plugins.md.template",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-19T13:32:15Z",
+      "side": 1,
+      "message": "\u003e Not true anymore. I\u0027m fine with either changing this to automatically/daily here or through a follow-up change. The below [manually] link at line 66 will need a matching amend.\n\nAddressed through the follow-up change.",
+      "parentUuid": "70520f6c_caf96a0f",
+      "range": {
+        "startLine": 62,
+        "startChar": 59,
+        "endLine": 62,
+        "endChar": 77
+      },
+      "revId": "b803e0bde4b764255f8164ae4854b7676587c3ed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
