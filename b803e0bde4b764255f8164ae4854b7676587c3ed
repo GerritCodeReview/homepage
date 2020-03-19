@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8cf23517_285a84fe",
+        "filename": "tools/plugins.md.template",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-19T13:27:50Z",
+      "side": 1,
+      "message": "ACTIVE shows",
+      "range": {
+        "startLine": 41,
+        "startChar": 38,
+        "endLine": 41,
+        "endChar": 51
+      },
+      "revId": "b803e0bde4b764255f8164ae4854b7676587c3ed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "70520f6c_caf96a0f",
+        "filename": "tools/plugins.md.template",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-19T13:27:50Z",
+      "side": 1,
+      "message": "Not true anymore. I\u0027m fine with either changing this to automatically/daily here or through a follow-up change. The below [manually] link at line 66 will need a matching amend.",
+      "range": {
+        "startLine": 62,
+        "startChar": 59,
+        "endLine": 62,
+        "endChar": 77
+      },
+      "revId": "b803e0bde4b764255f8164ae4854b7676587c3ed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
