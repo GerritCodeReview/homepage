@@ -59,7 +59,7 @@ Plugins either
 Plugins compatibility with each Gerrit version depends on their current CI build results.
 
 Those build results likely change over time; this matrix is their last snapshot.
-The matrix was last updated on {{ data.updated }}.
+The matrix was last updated on <strong>{{ data.updated }}</strong>.
 
 
 [Contributions]: https://gerrit-review.googlesource.com/Documentation/index.html#_about_gerrit
