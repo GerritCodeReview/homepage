@@ -22,6 +22,30 @@
       "revId": "5c0c5674a6bdbbc96abbe3f5a61eaf2b71ce9a99",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "695c4972_f7efb38e",
+        "filename": "tools/plugins.md.template",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-20T09:10:33Z",
+      "side": 1,
+      "message": "I\u0027ll take care of this in a follow-up.",
+      "parentUuid": "2151f831_fa75d924",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 49
+      },
+      "revId": "5c0c5674a6bdbbc96abbe3f5a61eaf2b71ce9a99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
