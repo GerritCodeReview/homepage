@@ -647,6 +647,30 @@
     },
     {
       "key": {
+        "uuid": "b38fb20f_2c40e12a",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-03-24T12:22:00Z",
+      "side": 1,
+      "message": "Yep I did check it. As far as I can tell additional fields should be ignored.\nIt uses the com.sonymobile.tools.gerrit.gerritevents.dto to serialise objects.",
+      "parentUuid": "c2f18ba7_a429db7f",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 57
+      },
+      "revId": "9d31c24dcc89f5dffe090a2951aeffaaa58b4400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "83d021eb_9acac600",
         "filename": "pages/design-docs/instance-id/solution.md",
         "patchSetId": 7
@@ -667,6 +691,30 @@
       "revId": "9d31c24dcc89f5dffe090a2951aeffaaa58b4400",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3331fe59_99a28f19",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-03-24T12:22:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "83d021eb_9acac600",
+      "range": {
+        "startLine": 38,
+        "startChar": 7,
+        "endLine": 39,
+        "endChar": 112
+      },
+      "revId": "9d31c24dcc89f5dffe090a2951aeffaaa58b4400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -822,6 +870,24 @@
       "writtenOn": "2020-03-23T23:48:12Z",
       "side": 1,
       "message": "What about the second requirement of the Gerrit event dispatcher to automatically recognise the self-generated events?\n\nAlso, what\u0027s the impact on the \"hack\" currently implemented in the high-availability plugin? Would this make it easier and simpler?",
+      "revId": "9d31c24dcc89f5dffe090a2951aeffaaa58b4400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b614dc4d_4cf680db",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-03-24T12:22:00Z",
+      "side": 1,
+      "message": "\u003e What about the second requirement of the Gerrit event dispatcher to automatically recognise the self-generated events?\n\u003e\n \nWhat exactly are you referring to?\n\n\u003e Also, what\u0027s the impact on the \"hack\" currently implemented in the high-availability plugin? Would this make it easier and simpler?\n\nAdded a comment about it",
+      "parentUuid": "6a784bf5_47e97af2",
       "revId": "9d31c24dcc89f5dffe090a2951aeffaaa58b4400",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
