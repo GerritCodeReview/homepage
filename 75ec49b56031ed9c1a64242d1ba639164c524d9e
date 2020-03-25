@@ -22,6 +22,52 @@
       "revId": "75ec49b56031ed9c1a64242d1ba639164c524d9e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9eabbe9a_20b4d82b",
+        "filename": "_posts/2020-03-25-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-03-25T08:23:28Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 184,
+        "startChar": 56,
+        "endLine": 184,
+        "endChar": 64
+      },
+      "revId": "75ec49b56031ed9c1a64242d1ba639164c524d9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6c8a78ac_4a31d1dc",
+        "filename": "_posts/2020-03-25-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-03-25T08:23:28Z",
+      "side": 1,
+      "message": "Setting it up is not the problem. I was more concerned about defining the format of the virtual Hackathon. That this is something to be defined by non-Google participants. Who would actually want to attend virtually? What do they want to get out of it? We should reach out to the ~20 non-Google attendees that typically come to a Hackathon and ask them what they would like to have instead.",
+      "range": {
+        "startLine": 203,
+        "startChar": 60,
+        "endLine": 204,
+        "endChar": 35
+      },
+      "revId": "75ec49b56031ed9c1a64242d1ba639164c524d9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
