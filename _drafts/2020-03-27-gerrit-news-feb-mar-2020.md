@@ -13,9 +13,13 @@ toc: true
 
 A [new page](https://www.gerritcodereview.com/plugins.html) that lists all Gerrit plugins has been
 added to the homepage. Beside listing the plugins known to the project, that page shows the current
-compatibility status of each plugin towards every supported Gerrit version. The page gets updated at
-least daily, which makes its CI build status for each plugin and version fairly current. The page is
-reachable from the Code top menu, selecting Plugins.
+compatibility status of each plugin towards every supported Gerrit version. The page gets updated
+at least daily, which makes its CI build status for each plugin and version fairly current.
+
+For each plugin, the known plugin maintainers are also listed. New plugin maintainer candidates are
+welcome, to help cover unmaintained plugins. Existing maintainer lists could also be augmented, or
+amended, based on maintainer or community feedback.
+
+This new page is reachable from the Code top menu, selecting Plugins.
 
 ## Item 2
-
