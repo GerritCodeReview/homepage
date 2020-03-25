@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d2da6537_cc22e3d8",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T19:36:08Z",
+      "side": 1,
+      "message": "Update these? Unless not willing to do that just yet (pending release).",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 86
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c4463921_f34bddcb",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T19:36:08Z",
+      "side": 1,
+      "message": "Same as above.",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 110
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f7d7bb47_e21bc35c",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T19:36:08Z",
+      "side": 1,
+      "message": "`NamedFluentLogger`.",
+      "range": {
+        "startLine": 258,
+        "startChar": 8,
+        "endLine": 258,
+        "endChar": 27
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4d453e6d_39213711",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T19:36:08Z",
+      "side": 1,
+      "message": "forked version.",
+      "range": {
+        "startLine": 279,
+        "startChar": 29,
+        "endLine": 279,
+        "endChar": 43
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6fc05404_8721ee25",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T19:36:08Z",
+      "side": 1,
+      "message": "search predicate.",
+      "range": {
+        "startLine": 339,
+        "startChar": 50,
+        "endLine": 339,
+        "endChar": 66
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "76b42db8_8398bc05",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 360,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T19:36:08Z",
+      "side": 1,
+      "message": "Plugin Fixes",
+      "range": {
+        "startLine": 360,
+        "startChar": 14,
+        "endLine": 360,
+        "endChar": 26
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
