@@ -46,6 +46,30 @@
       "revId": "895e759f2c6ba1d87b8a274ad8169c11e6880293",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e731b859_78fc8118",
+        "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-03-25T21:01:18Z",
+      "side": 1,
+      "message": "Amazing, looks really good now :-) Thanks again Marco for the plugins matrix.",
+      "parentUuid": "ab56d365_39f6d19f",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 51
+      },
+      "revId": "895e759f2c6ba1d87b8a274ad8169c11e6880293",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
