@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "0fc7b906_b9c6773d",
+        "filename": "_posts/2020-03-25-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-03-25T08:30:55Z",
+      "side": 1,
+      "message": "Typo: propagation?",
+      "range": {
+        "startLine": 54,
+        "startChar": 22,
+        "endLine": 54,
+        "endChar": 33
+      },
+      "revId": "75ec49b56031ed9c1a64242d1ba639164c524d9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b54082f0_71c109b2",
+        "filename": "_posts/2020-03-25-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-03-25T08:30:55Z",
+      "side": 1,
+      "message": "I rather meant some kind of standardized marker no matter whether that\u0027s a Java annotation or a special string in comments.",
+      "range": {
+        "startLine": 82,
+        "startChar": 16,
+        "endLine": 82,
+        "endChar": 39
+      },
+      "revId": "75ec49b56031ed9c1a64242d1ba639164c524d9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a90dae7e_b4591b8a",
         "filename": "_posts/2020-03-25-esc-minutes.md",
         "patchSetId": 1
@@ -18,6 +64,52 @@
         "startChar": 0,
         "endLine": 91,
         "endChar": 5
+      },
+      "revId": "75ec49b56031ed9c1a64242d1ba639164c524d9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "605ea923_ef80e48c",
+        "filename": "_posts/2020-03-25-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-03-25T08:30:55Z",
+      "side": 1,
+      "message": "Typo: concluded",
+      "range": {
+        "startLine": 138,
+        "startChar": 3,
+        "endLine": 138,
+        "endChar": 11
+      },
+      "revId": "75ec49b56031ed9c1a64242d1ba639164c524d9e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "71ce9825_40b2fff9",
+        "filename": "_posts/2020-03-25-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-03-25T08:30:55Z",
+      "side": 1,
+      "message": "That\u0027s a mixture of what Patrick and I said. I wouldn\u0027t want to claim his good points (e.g. change message texts in NoteDb) as mine.",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 161,
+        "endChar": 45
       },
       "revId": "75ec49b56031ed9c1a64242d1ba639164c524d9e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
