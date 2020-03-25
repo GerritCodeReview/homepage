@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "cb92761b_d56eb1d9",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "Yes, I\u0027ll update these in a separate commit.",
+      "parentUuid": "f75145f7_8eef6427",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 86
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c4463921_f34bddcb",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -69,6 +93,30 @@
       "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fdb2e77b_70416c7b",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c4463921_f34bddcb",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 110
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -95,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "e38aa259_8366b3d5",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7d7bb47_e21bc35c",
+      "range": {
+        "startLine": 258,
+        "startChar": 8,
+        "endLine": 258,
+        "endChar": 27
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4d453e6d_39213711",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -115,6 +187,30 @@
       "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b78f8531_ff40cd89",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d453e6d_39213711",
+      "range": {
+        "startLine": 279,
+        "startChar": 29,
+        "endLine": 279,
+        "endChar": 43
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -141,6 +237,30 @@
     },
     {
       "key": {
+        "uuid": "64c102f9_dc4fec00",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a80346a_4c4669d0",
+      "range": {
+        "startLine": 336,
+        "startChar": 0,
+        "endLine": 337,
+        "endChar": 61
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6fc05404_8721ee25",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -161,6 +281,30 @@
       "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9363240e_a8708858",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6fc05404_8721ee25",
+      "range": {
+        "startLine": 339,
+        "startChar": 50,
+        "endLine": 339,
+        "endChar": 66
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -187,6 +331,30 @@
     },
     {
       "key": {
+        "uuid": "2bba613e_3dbff7e4",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 360,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76b42db8_8398bc05",
+      "range": {
+        "startLine": 360,
+        "startChar": 14,
+        "endLine": 360,
+        "endChar": 26
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "65dc42e3_95030595",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -210,6 +378,30 @@
     },
     {
       "key": {
+        "uuid": "2fa303ce_30b350f0",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "65dc42e3_95030595",
+      "range": {
+        "startLine": 372,
+        "startChar": 0,
+        "endLine": 372,
+        "endChar": 57
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "62269c6a_bdb25ccd",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -230,6 +422,30 @@
       "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d75647c_c1d0158c",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 397,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-25T23:24:29Z",
+      "side": 1,
+      "message": "This is intentional. It\u0027s mentioned here because it\u0027s related to the reduction of log spam, and it\u0027s also explicitly mentioned in the breaking changes section.\n\nIt was also like this in the 2.16.17 release notes.",
+      "parentUuid": "62269c6a_bdb25ccd",
+      "range": {
+        "startLine": 397,
+        "startChar": 4,
+        "endLine": 397,
+        "endChar": 45
+      },
+      "revId": "cc6c9bdbccc90f46c8e3c377132f68bf46faf05e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
