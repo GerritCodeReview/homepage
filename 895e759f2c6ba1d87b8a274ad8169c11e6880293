@@ -70,6 +70,30 @@
       "revId": "895e759f2c6ba1d87b8a274ad8169c11e6880293",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5c57afc8_1241c4e5",
+        "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-03-25T21:10:06Z",
+      "side": 1,
+      "message": "there are still a number of plugins where no maintainers are listed, need to check if the name of their owner group follows the convention the generation assumes",
+      "parentUuid": "e731b859_78fc8118",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 51
+      },
+      "revId": "895e759f2c6ba1d87b8a274ad8169c11e6880293",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
