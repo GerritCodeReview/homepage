@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "bbc3df55_9708d26f",
+        "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T21:41:14Z",
+      "side": 1,
+      "message": "\u003e I believe it should also work with Gerrit v3.0 and v2.16, as it is based on the Git protocol and REST API.\n\nYes, however the framework currently only starts from stable-3.1 (then master). Downstream backports I suppose can be welcomed. I propose to leave this mention of 3.1 specifically for now, as it matches current reality. I\u0027m still adding a clarifying sentence about this now; done.",
+      "parentUuid": "ac066967_fabaaa2a",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 14
+      },
+      "revId": "7b9bc6cb5f5514bc5401cbef75bbf9332bd8b670",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1c79ff7a_c496b690",
         "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "69af2b2f_c7ee6f38",
+        "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1c79ff7a_c496b690",
+      "range": {
+        "startLine": 32,
+        "startChar": 4,
+        "endLine": 32,
+        "endChar": 15
+      },
+      "revId": "7b9bc6cb5f5514bc5401cbef75bbf9332bd8b670",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "22ba1ca8_c7f71f57",
         "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
         "patchSetId": 2
@@ -68,6 +116,30 @@
       "revId": "7b9bc6cb5f5514bc5401cbef75bbf9332bd8b670",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "de38cd1c_d6fc639e",
+        "filename": "_drafts/2020-03-27-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-03-25T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "22ba1ca8_c7f71f57",
+      "range": {
+        "startLine": 34,
+        "startChar": 48,
+        "endLine": 34,
+        "endChar": 58
+      },
+      "revId": "7b9bc6cb5f5514bc5401cbef75bbf9332bd8b670",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
