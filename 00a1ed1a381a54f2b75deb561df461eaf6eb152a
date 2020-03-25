@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2dd3ae11_500e3f4b",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1017568
+      },
+      "writtenOn": "2020-03-25T13:14:59Z",
+      "side": 1,
+      "message": "Gerrit Jenkins Trigger Plugin (optionally) uses the events-log plugin, in order to read \"missed\" events on reconnection.\n\nI am not sure how that plugin would support a multi-master scenario, but it may need to extra work as well, esp. to \u0027deduplicate\u0027 events (e.g. if a shared database is used) or to store the original instanceName in the database...",
+      "revId": "00a1ed1a381a54f2b75deb561df461eaf6eb152a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
