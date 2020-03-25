@@ -75,12 +75,12 @@ Those build results likely change over time; this matrix is their last snapshot.
 The matrix was last updated on <strong>{{ data.updated }}</strong>.
 
 
+[ci-scripts]: https://gerrit.googlesource.com/gerrit-ci-scripts/+/refs/heads/master/jenkins/
 [Contributions]: https://gerrit-review.googlesource.com/Documentation/index.html#_about_gerrit
 [core]: https://gerrit-review.googlesource.com/Documentation/config-plugins.html#core-plugins
-[parent]: https://bugs.chromium.org/p/gerrit/issues/list?q=component%3Aplugins
-[plugins]: https://gerrit-review.googlesource.com/admin/repos/q/filter:plugins%252F
-[ci-scripts]: https://gerrit.googlesource.com/gerrit-ci-scripts/+/refs/heads/master/jenkins/
-[supported]: https://www.gerritcodereview.com/support.html#supported-versions
 [mailing]: https://www.gerritcodereview.com/support.html#general-support
 [maintainers]: https://www.gerritcodereview.com/members.html#maintainers
 [ownership]: https://gerrit-review.googlesource.com/Documentation/config-plugins.html#development
+[parent]: https://bugs.chromium.org/p/gerrit/issues/list?q=component%3Aplugins
+[plugins]: https://gerrit-review.googlesource.com/admin/repos/q/filter:plugins%252F
+[supported]: https://www.gerritcodereview.com/support.html#supported-versions
