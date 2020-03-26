@@ -83,21 +83,17 @@ cd homepage
 pipenv install --dev
 ```
 
-To update the `plugins.md` file and potentially `push` it for review,
-consider these commands below. Running `plugins.py` may require using
-either one of its `-a` or `-n` options, depending on CI authentication.
+Running `plugins.py` may require using either one of its `-a` or `-n`
+options, depending on CI authentication:
 
 ```bash
 cd homepage
 pipenv run python tools/plugins.py
 docker-compose up
 (browse to) http://localhost:4000/plugins.html
-git status
 ```
 
-The last command is meant to consider the likely updated `plugins.md` file,
-as a result of executing `plugins.py` above. That markdown file lends the
-browsed `plugins.html` page.
+The resulting `plugins.md` file lends the browsed `plugins.html` page.
 
 If changes are made to the `plugins.py` script, check for coding errors and
 style violations with `flake8`, and format the code with `black`:
@@ -108,15 +104,6 @@ pipenv run black tools/plugins.py
 ```
 
 Both of these tools are also provided in the pipenv environment.
-
-```bash
-cd homepage
-pushd pages/site/plugins
-pipenv run flake8 plugins.py
-pipenv run black plugins.py
-popd
-git status
-```
 
 ## Deploying the site
 
