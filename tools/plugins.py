@@ -24,6 +24,9 @@ def authenticate():
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
 parser.add_argument(
+    "-a", "--anonymous", dest="anonymous", action="store_true", help="use anonymous",
+)
+parser.add_argument(
     "-n",
     "--netrc",
     dest="netrc",
@@ -33,12 +36,15 @@ parser.add_argument(
 options = parser.parse_args()
 
 url = "https://gerrit-review.googlesource.com"
-if options.netrc:
-    auth = HTTPBasicAuthFromNetrc(url=url)
-else:
-    auth = authenticate()
 
-api = GerritRestAPI(url=url, auth=auth)
+if options.anonymous:
+    api = GerritRestAPI(url=url)
+else:
+    if options.netrc:
+        auth = HTTPBasicAuthFromNetrc(url=url)
+    else:
+        auth = authenticate()
+    api = GerritRestAPI(url=url, auth=auth)
 
 plugins = api.get("/projects/?p=plugins%2f&d")
 
