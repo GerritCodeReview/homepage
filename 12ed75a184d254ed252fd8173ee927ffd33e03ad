@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "22a02f85_ec1b327f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-26T23:54:36Z",
+      "side": 1,
+      "message": "I\u0027ll release a new version.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 56
+      },
+      "revId": "12ed75a184d254ed252fd8173ee927ffd33e03ad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "76d58d02_0932513b",
         "filename": "tools/plugins.py",
         "patchSetId": 3
