@@ -6,7 +6,7 @@ import requests
 import time
 
 from jinja2 import Template
-from pygerrit2 import GerritRestAPI, HTTPBasicAuth, HTTPBasicAuthFromNetrc
+from pygerrit2 import GerritRestAPI, HTTPBasicAuth, HTTPBasicAuthFromNetrc, Anonymous
 from tqdm import tqdm
 
 
@@ -22,19 +22,29 @@ def authenticate():
 
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+group = parser.add_mutually_exclusive_group()
 
-parser.add_argument(
+group.add_argument(
     "-n",
     "--netrc",
     dest="netrc",
     action="store_true",
     help="use credentials from .netrc",
 )
+group.add_argument(
+    "-a",
+    "--anonymous",
+    dest="anonymous",
+    action="store_true",
+    help="use anonymous access, i.e. no credentials",
+)
 options = parser.parse_args()
 
 url = "https://gerrit-review.googlesource.com"
 if options.netrc:
     auth = HTTPBasicAuthFromNetrc(url=url)
+elif options.anonymous:
+    auth = Anonymous()
 else:
     auth = authenticate()
 

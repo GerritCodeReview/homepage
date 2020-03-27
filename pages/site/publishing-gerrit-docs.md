@@ -84,7 +84,8 @@ pipenv install --dev
 ```
 
 To update the `plugins.md` file and potentially `push` it for review,
-consider these commands:
+consider these commands below. Running `plugins.py` may require using
+either one of its `-a` or `-n` options, depending on CI authentication.
 
 ```bash
 cd homepage
