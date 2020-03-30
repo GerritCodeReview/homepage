@@ -9,6 +9,13 @@ hide_navtoggle: true
 toc: true
 ---
 
+## Cancellation of Spring Hackathon
+
+Due to the ongoing situation with COVID-19, there will be no Spring hackathon
+this year. We are looking into the possibility of doing a remote/virtual
+hackathon, and discussing plans for the release of Gerrit 3.2 which would have
+been done during the hackathon.
+
 ## New plugins home page
 
 A [new page](https://www.gerritcodereview.com/plugins.html) that lists all Gerrit plugins has been
@@ -46,3 +53,13 @@ functional scenarios were recently introduced for the
 [high-availability](https://gerrit.googlesource.com/plugins/high-availability/) and
 [multi-site](https://gerrit.googlesource.com/plugins/multi-site) plugins. It is currently likely
 that more will come, as internal e2e test suites become open-sourced (thus reusable) that way.
+
+## New 'Revert Submission' Feature
+
+Development of the 'Revert Submission' feature has completed, and it is now live
+on gerrit-review. See more about this feature in the
+[design document](https://www.gerritcodereview.com/design-docs/revert-submit.html).
+
+## Frontend framework changes
+
+Frontend development has moved from Bower to NPM, and from HTML to JS for imports.
