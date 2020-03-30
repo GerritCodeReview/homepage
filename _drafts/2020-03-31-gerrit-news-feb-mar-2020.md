@@ -32,13 +32,9 @@ This new page is reachable from the Code top menu, selecting Plugins.
 ## Emerging end-to-end test framework
 
 There is an [initial framework](https://gerrit-review.googlesource.com/Documentation/dev-e2e-tests.html)
-for Gerrit 3.1 and up, based on [Gatling](https://gatling.io/), to start implementing end-to-end
-(e2e) tests. Initially meant for load testing, the framework started to support functional e2e test
-scenarios, [reusing that stack](https://gatling.io/load-testing-continuous-integration/) further.
-
-Potential backports of the framework to
-[supported](https://www.gerritcodereview.com/support.html#supported-versions) downstream Gerrit
-versions could eventually be considered.
+based on [Gatling](https://gatling.io/), to start implementing end-to-end (e2e) tests. Initially
+meant for load testing, the framework started to support functional e2e test scenarios,
+[reusing that stack](https://gatling.io/load-testing-continuous-integration/) further.
 
 The [GerritForge](https://www.gerritforge.com) team, who originally
 [introduced the framework](https://gitenterprise.me/2019/12/20/stress-your-gerrit-with-gatling/)
