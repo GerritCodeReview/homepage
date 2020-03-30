@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ae7b7eb4_d165b776",
+        "filename": "_drafts/2020-03-31-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-03-30T16:22:40Z",
+      "side": 1,
+      "message": "Done as a follow-up change (I1d831279e).",
+      "parentUuid": "71024f4d_b4d26d89",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 4
+      },
+      "revId": "fd9a1779d4b76196e503f51c04a43672739fd718",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e0ac858f_449033a1",
         "filename": "_drafts/2020-03-31-gerrit-news-feb-mar-2020.md",
         "patchSetId": 2
