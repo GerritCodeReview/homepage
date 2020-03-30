@@ -62,7 +62,26 @@ on gerrit-review. See more about this feature in the
 
 ## New 'Preview/Apply Fix' Feature
 
-TODO.
+When posting robot comments, suggestions for a fix can be directly attached to it. This feature has
+been present in Gerrit for some years. However, those fixes weren't shown on Gerrit's UI. This has
+changed. Robot comments now have a `Show fix` button when at least one fix is available for them.
+
+![Robot Comment With Show Fix](/images/news-feb-march-2020-show-fix.png)
+
+The button opens a dialog indicating how the fix would modify the code.
+
+![Preview Fix Dialog](/images/news-feb-march-2020-preview-fix.png)
+
+If several fixes are present, users can switch between them and use `Apply fix` on the one they
+prefer. The code modifications will end up in a change edit which can be further adjusted before
+being published.
+
+## New 'Findings' Tab
+
+The `Findings` tab next to the `Files` section gives an overview of and quick access to all robot
+comments on a patch set. 
+
+![Findings Tab](/images/news-feb-march-2020-findings-tab.png) 
 
 ## Frontend framework changes
 
