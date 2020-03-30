@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "71024f4d_b4d26d89",
+        "filename": "_drafts/2020-03-31-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-30T11:55:37Z",
+      "side": 1,
+      "message": "Alice, can you add this?",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 4
+      },
+      "revId": "fd9a1779d4b76196e503f51c04a43672739fd718",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e0ac858f_449033a1",
         "filename": "_drafts/2020-03-31-gerrit-news-feb-mar-2020.md",
         "patchSetId": 2
@@ -25,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "08f0e2c5_3101b818",
+        "filename": "_drafts/2020-03-31-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-30T11:55:37Z",
+      "side": 1,
+      "message": "Yes, I was hoping someone from the frontend team would be able to expand on this topic a bit more",
+      "parentUuid": "e0ac858f_449033a1",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 82
+      },
+      "revId": "fd9a1779d4b76196e503f51c04a43672739fd718",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "329ce93d_70eed581",
         "filename": "_drafts/2020-03-31-gerrit-news-feb-mar-2020.md",
         "patchSetId": 2
@@ -36,6 +83,24 @@
       "writtenOn": "2020-03-30T10:40:45Z",
       "side": 1,
       "message": "I would also note, that Gerrit master reached important milestone: It can be run on JDK13 and JDK14. Of course it woulbe be a matter of cherry-picking of Google Guice 4.2.3 upgrade change: [1] to stable branches to make future 3.0.x and 3.1.y releases compatible with latest JDK releases.\n\n*  [1] https://gerrit-review.googlesource.com/c/gerrit/+/259694",
+      "revId": "fd9a1779d4b76196e503f51c04a43672739fd718",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a9886c44_9769e9f8",
+        "filename": "_drafts/2020-03-31-gerrit-news-feb-mar-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-03-30T11:55:37Z",
+      "side": 1,
+      "message": "Is that the only change that\u0027s needed?  If so, please go ahead and cherry pick it back to stable-3.0. Or I\u0027ll do it tomorrow if you don\u0027t have time today.",
+      "parentUuid": "329ce93d_70eed581",
       "revId": "fd9a1779d4b76196e503f51c04a43672739fd718",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
