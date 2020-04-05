@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "ea0f31ce_3805b5d6",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-04-05T06:59:34Z",
+      "side": 1,
+      "message": "Unrelated to this change, but should we also remove these columns? Both release lines are discontinued. Moreover at some point we would have to add columns for 3.2,3.3, ...",
+      "range": {
+        "startLine": 12,
+        "startChar": 26,
+        "endLine": 12,
+        "endChar": 42
+      },
+      "revId": "14de54ea1ff77b96f5be73ca507c93370af2554e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "5bbec795_d567ef2e",
         "filename": "pages/site/elasticsearch.md",
         "patchSetId": 1
