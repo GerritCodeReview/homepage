@@ -22,6 +22,30 @@
       "revId": "14de54ea1ff77b96f5be73ca507c93370af2554e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f2a95235_0fc9f191",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-05T00:46:50Z",
+      "side": 1,
+      "message": "If we move the core gerrit change to stable-2.16, this should be 2.16.18, 3.0.9 and 3.1.6\n\nAlso note per the previous line, we have discontinued support for 2.4.x in bugfix releases.",
+      "parentUuid": "5bbec795_d567ef2e",
+      "range": {
+        "startLine": 15,
+        "startChar": 96,
+        "endLine": 15,
+        "endChar": 99
+      },
+      "revId": "14de54ea1ff77b96f5be73ca507c93370af2554e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
