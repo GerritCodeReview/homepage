@@ -918,6 +918,24 @@
     },
     {
       "key": {
+        "uuid": "42e77d9f_1ad850b5",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-06T16:58:12Z",
+      "side": 1,
+      "message": "@luca which \"second requirement\" were you referring to ?",
+      "parentUuid": "b614dc4d_4cf680db",
+      "revId": "9d31c24dcc89f5dffe090a2951aeffaaa58b4400",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ed1799a3_584d54d5",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 7
