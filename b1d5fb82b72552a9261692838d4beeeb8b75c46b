@@ -22,6 +22,30 @@
       "revId": "b1d5fb82b72552a9261692838d4beeeb8b75c46b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5ce75d68_9ef07188",
+        "filename": "_posts/2020-04-07-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-08T08:03:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a1b16bb9_264a8ee1",
+      "range": {
+        "startLine": 55,
+        "startChar": 19,
+        "endLine": 55,
+        "endChar": 23
+      },
+      "revId": "b1d5fb82b72552a9261692838d4beeeb8b75c46b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
