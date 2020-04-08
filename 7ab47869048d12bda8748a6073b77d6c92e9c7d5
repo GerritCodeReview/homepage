@@ -22,6 +22,30 @@
       "revId": "7ab47869048d12bda8748a6073b77d6c92e9c7d5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "836255e3_d93ee277",
+        "filename": "_posts/2019-11-24-user-summit-sunnyvale-summary.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-08T21:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "451bc8ab_4ca648f2",
+      "range": {
+        "startLine": 5,
+        "startChar": 11,
+        "endLine": 5,
+        "endChar": 21
+      },
+      "revId": "7ab47869048d12bda8748a6073b77d6c92e9c7d5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
