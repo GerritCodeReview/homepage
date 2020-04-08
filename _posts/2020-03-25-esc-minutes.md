@@ -21,7 +21,7 @@ Online, March 25, 12:30 - 13:30 CEST
 
 ### Next meeting
 
-The next meeting will be held on April 8, 12:30 CEST.
+The next meeting will be held on April 7, 12:30 CEST.
 
 ## Minutes
 
