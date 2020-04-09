@@ -64,7 +64,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 [Release notes for Gerrit 2.16](/2.16.html)
 
-## 2.15
+## 2.15 (EOL)
 
 * New change workflows for changes not yet ready for full review (formerly
   Drafts).
@@ -84,7 +84,7 @@ removed and all metadata is now stored in git ("NoteDb").
 [Release notes for Gerrit 2.15](/2.15.html)
 
 
-## 2.14
+## 2.14 (EOL)
 
 * Changes can be assigned to specific users
 
@@ -102,7 +102,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 [Release notes for Gerrit 2.14](/2.14.html)
 
-## 2.13
+## 2.13 (EOL)
 
 * Support for Git LFS
 
@@ -114,7 +114,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 [Release notes for Gerrit 2.13](/2.13.html).
 
-## 2.12
+## 2.12 (EOL)
 
 * New change submission workflows: 'Submit Whole Topic' and 'Submitted Together'.
 
@@ -122,7 +122,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 [Release notes for Gerrit 2.12](/2.12.html).
 
-## 2.11
+## 2.11 (EOL)
 
 * [Issue 505](https://bugs.chromium.org/p/gerrit/issues/detail?id=505):
 Changes can be created and edited directly in the browser.
@@ -133,7 +133,7 @@ Changes can be created and edited directly in the browser.
 
 [Release notes for Gerrit 2.11](/2.11.html).
 
-## 2.10
+## 2.10 (EOL)
 
 * Support for externally loaded plugins.
 
@@ -141,7 +141,7 @@ Changes can be created and edited directly in the browser.
 
 [Release notes for Gerrit 2.10](/2.10.html).
 
-## 2.9
+## 2.9 (EOL)
 
 * The new change screen is now the default change screen.
 
