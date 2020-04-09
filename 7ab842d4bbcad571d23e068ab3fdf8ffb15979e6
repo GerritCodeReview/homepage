@@ -16,6 +16,202 @@
       "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "96d0736c_270c6a91",
+        "filename": "pages/design-docs/instance-id/alternative-solution-1.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "If you think about the replication plugin, we already have plugins generating events. What we don\u0027t have is a plugin that *filters* all events.\n\nWhilst I like the idea a lot (a pluggable event filter?) I believe it\u0027s beyond the scope of this design. The instance-id (or server-name) is something that should be provided by Gerrit and communicated in the event structure.\n\nHowever, Martin I believe yours it is definitely a nice idea for a new design proposal :-)",
+      "parentUuid": "e8c0c4be_368b8af4",
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "269317fb_c1d510a1",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "Can you elaborate more on *why* this is happening? For example, the Google\u0027s setup on gerrit-review.googlesource.com do not broadcast events anywhere and every master keeps the events in their local address space and consumed only internally.",
+      "range": {
+        "startLine": 17,
+        "startChar": 7,
+        "endLine": 17,
+        "endChar": 65
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b1d12ac8_981b5df7",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "I would say \"inconsistent\" more than \"unstable\".",
+      "range": {
+        "startLine": 27,
+        "startChar": 21,
+        "endLine": 27,
+        "endChar": 29
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ed042119_5a4eb6b5",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "Can you also mention other plugins that do not have the \"hack\", like the slack-integration (see [1]), what they end up doing? What is the problem? What\u0027s the solution?\n\n[1] https://gerrit.googlesource.com/plugins/slack-integration/",
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2bafb62_a8b445da",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "Should this be renamed \u0027clusterId\u0027 then? ServerId has been defined and misused in the past, because when there are multiple servers on the same or different locations, they *must* have the serverId, which means it is not really the id of the server, isn\u0027t it?\n\nId are values that identify a specific instance of a domain. If two Gerrit masters in a cluster must have the same server-id, that means the id is not really identifying one or the other master but rather the group of the two master together, hence is more a clusterId.",
+      "range": {
+        "startLine": 45,
+        "startChar": 56,
+        "endLine": 45,
+        "endChar": 64
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6da7b1aa_022c61c6",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "Can elaborate more on why this is an actual need of who is consuming the event?\nWhy a consumer of the event X (e.g. change uploaded) should know that this is coming from server-A and not from server-B?",
+      "range": {
+        "startLine": 59,
+        "startChar": 23,
+        "endLine": 59,
+        "endChar": 79
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a3bbdf2_90bcda02",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "Can you elaborate more on how the lack of instance-id in the event would generate infinite loops? Can you make an example?",
+      "range": {
+        "startLine": 75,
+        "startChar": 45,
+        "endLine": 75,
+        "endChar": 82
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "835f2dfa_f06e61b1",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "Why would you want to prioritise the messages coming from server-A vs. the ones coming from server-B?",
+      "range": {
+        "startLine": 78,
+        "startChar": 22,
+        "endLine": 78,
+        "endChar": 71
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d49ed8fe_e02e4156",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-09T21:48:28Z",
+      "side": 1,
+      "message": "Isn\u0027t this a bug of the slack-integration plugin? Could the plugin be fixed without introducing the instance-id? Why all the plugins in the cluster receive the event?",
+      "range": {
+        "startLine": 83,
+        "startChar": 56,
+        "endLine": 84,
+        "endChar": 54
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
