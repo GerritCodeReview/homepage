@@ -478,4 +478,6 @@ Thank you again to all the attendees of the Gerrit User Summit 2019 in Volvo - S
 and GerritForge Inc - California. Looking forward to another exciting year of innovation
 and development of the Gerrit Code Review platform and community.
 
-Luca Milanesio (Gerrit Maintainer, Release Manager, ESC member)
+Luca Milanesio (Gerrit Maintainer, Release Manager, ESC member) with contributions and
+reviews by David Pursehouse (CollabNet), Fabio Ponciroli (GerritForge), Matthias Sohn (SAP),
+David Ostrovsky, Gal Paikin (Google), Douglas Luedtke (Garmin), Nasser Grainawi (Qualcomm).
