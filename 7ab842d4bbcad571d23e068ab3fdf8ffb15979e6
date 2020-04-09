@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e8c0c4be_368b8af4",
+        "filename": "pages/design-docs/instance-id/alternative-solution-1.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-04-09T14:55:27Z",
+      "side": 1,
+      "message": "Have you considered the solution of letting plugins add their own PluginInfo sections to events the way that they currently can add PluginInfos to query data?  This would be benefitial in many ways beyond just this use case.",
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
