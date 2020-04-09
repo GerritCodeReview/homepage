@@ -64,8 +64,8 @@ two releases.
 
 ### Support for large repositories in Gerrit
 
-Luca Milanesio (GerritForge), Matthias Sohn (SAP) and Martin Fick have been discussing
-the issues associated with very large repositories:
+Luca Milanesio (GerritForge), Matthias Sohn (SAP) and Martin Fick (Qualcomm) have
+been discussing the issues associated with very large repositories:
 
 1. JVM heap utilisation and associated GC cycles
 
