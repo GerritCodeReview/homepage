@@ -30,6 +30,9 @@ The following table shows the current level of support for Gerrit releases:
 | 2.13     | EOL            |       |
 | pre 2.13 | EOL            |       |
 
+The same support status, as well as notes and documentation for every late Gerrit release is
+[detailed here](https://www.gerritcodereview.com/releases-readme.html).
+
 ## General Support
 
 [Repo Discuss][repo-discuss] should be your first stop when you

@@ -15,7 +15,8 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.1.4](/3.1.html)**.
+Latest release: **[3.1.4](/3.1.html)**. The support status of all late Gerrit versions is
+[summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
 ## 3.2.0 (in development)
 
@@ -82,7 +83,6 @@ removed and all metadata is now stored in git ("NoteDb").
   find the information they need.
 
 [Release notes for Gerrit 2.15](/2.15.html)
-
 
 ## 2.14 (EOL)
 
