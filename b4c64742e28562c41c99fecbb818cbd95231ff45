@@ -46,6 +46,30 @@
       "revId": "b4c64742e28562c41c99fecbb818cbd95231ff45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0b3efce3_fd07ff59",
+        "filename": "pages/site/releases/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-14T02:23:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "573fdea0_0ad079fa",
+      "range": {
+        "startLine": 18,
+        "startChar": 66,
+        "endLine": 18,
+        "endChar": 70
+      },
+      "revId": "b4c64742e28562c41c99fecbb818cbd95231ff45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
