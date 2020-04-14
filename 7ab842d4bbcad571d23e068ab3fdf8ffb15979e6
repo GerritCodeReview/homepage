@@ -60,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "9f22481c_83e34d52",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-14T18:43:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "269317fb_c1d510a1",
+      "range": {
+        "startLine": 17,
+        "startChar": 7,
+        "endLine": 17,
+        "endChar": 65
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b1d12ac8_981b5df7",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 11
@@ -83,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "d7c59c86_0a16cdc0",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-14T18:43:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b1d12ac8_981b5df7",
+      "range": {
+        "startLine": 27,
+        "startChar": 21,
+        "endLine": 27,
+        "endChar": 29
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ed042119_5a4eb6b5",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 11
@@ -100,6 +148,24 @@
     },
     {
       "key": {
+        "uuid": "a1e652d4_ae0e79ad",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-14T18:43:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ed042119_5a4eb6b5",
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a2bafb62_a8b445da",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 11
@@ -111,6 +177,30 @@
       "writtenOn": "2020-04-09T21:48:28Z",
       "side": 1,
       "message": "Should this be renamed \u0027clusterId\u0027 then? ServerId has been defined and misused in the past, because when there are multiple servers on the same or different locations, they *must* have the serverId, which means it is not really the id of the server, isn\u0027t it?\n\nId are values that identify a specific instance of a domain. If two Gerrit masters in a cluster must have the same server-id, that means the id is not really identifying one or the other master but rather the group of the two master together, hence is more a clusterId.",
+      "range": {
+        "startLine": 45,
+        "startChar": 56,
+        "endLine": 45,
+        "endChar": 64
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c4da18e1_d360c9ea",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-14T18:43:46Z",
+      "side": 1,
+      "message": "This is already a Gerrit parameter. I agree with you it should be renamed to clusterId.",
+      "parentUuid": "a2bafb62_a8b445da",
       "range": {
         "startLine": 45,
         "startChar": 56,
@@ -192,6 +282,30 @@
     },
     {
       "key": {
+        "uuid": "269e0e24_e354c839",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-14T18:43:46Z",
+      "side": 1,
+      "message": "I can\u0027t come up with a use case for this feature TBH 😄\n\nI thought it could be a by-product of introducing the instance Id and I just thought to mention it....just in case it could be useful for somebody.",
+      "parentUuid": "835f2dfa_f06e61b1",
+      "range": {
+        "startLine": 78,
+        "startChar": 22,
+        "endLine": 78,
+        "endChar": 71
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d49ed8fe_e02e4156",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 11
@@ -203,6 +317,30 @@
       "writtenOn": "2020-04-09T21:48:28Z",
       "side": 1,
       "message": "Isn\u0027t this a bug of the slack-integration plugin? Could the plugin be fixed without introducing the instance-id? Why all the plugins in the cluster receive the event?",
+      "range": {
+        "startLine": 83,
+        "startChar": 56,
+        "endLine": 84,
+        "endChar": 54
+      },
+      "revId": "7ab842d4bbcad571d23e068ab3fdf8ffb15979e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ff65f273_f3ae96d8",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-14T18:43:46Z",
+      "side": 1,
+      "message": "It probably is, but to fix it we would need to know where the event is coming from.\n\nCurrently the way other plugins circumvent this problem, for example the HA plugin, is by flagging events as \"forwarded\" in the thread local storage. \n\nThis way they are able to understand where the event was produced.\n\nThis is however a workaround rather than a solution as explained in the proposal.",
+      "parentUuid": "d49ed8fe_e02e4156",
       "range": {
         "startLine": 83,
         "startChar": 56,
