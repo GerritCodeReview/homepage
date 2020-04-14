@@ -22,6 +22,30 @@
       "revId": "5a692f2b62c92294e4d6857d3420a756d5ad35eb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "249b5eba_8a708d86",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-14T20:08:42Z",
+      "side": 1,
+      "message": "I believe that was explained at L10: \"Given a multi-master, single or multi-site, Gerrit setup\".",
+      "parentUuid": "5fb0aecc_14d2fd92",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 21
+      },
+      "revId": "5a692f2b62c92294e4d6857d3420a756d5ad35eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
