@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1e0f35ea_297b3555",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-15T10:20:35Z",
+      "side": 1,
+      "message": "I believe you need to also explain in which use-case this simulation is supposed to happen: index propagation in a multi-site setup, where nodes are propagating reindexing events using a pub/sub message broker.",
+      "range": {
+        "startLine": 89,
+        "startChar": 45,
+        "endLine": 89,
+        "endChar": 69
+      },
+      "revId": "dea8297babba121d6fe7f90d7126d7b64dce3a93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "09554395_89292221",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-15T10:20:35Z",
+      "side": 1,
+      "message": "Is this relevant?",
+      "range": {
+        "startLine": 93,
+        "startChar": 2,
+        "endLine": 93,
+        "endChar": 55
+      },
+      "revId": "dea8297babba121d6fe7f90d7126d7b64dce3a93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d55d4bdc_7361b886",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-15T10:20:35Z",
+      "side": 1,
+      "message": "That workaround works only in the high-availability plugin, but in multi-site we have the external envelope, right?",
+      "range": {
+        "startLine": 101,
+        "startChar": 32,
+        "endLine": 101,
+        "endChar": 71
+      },
+      "revId": "dea8297babba121d6fe7f90d7126d7b64dce3a93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
