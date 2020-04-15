@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3d877354_aad5d1c9",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-15T11:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e0f35ea_297b3555",
+      "range": {
+        "startLine": 89,
+        "startChar": 45,
+        "endLine": 89,
+        "endChar": 69
+      },
+      "revId": "dea8297babba121d6fe7f90d7126d7b64dce3a93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "09554395_89292221",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 14
@@ -36,6 +60,30 @@
       "writtenOn": "2020-04-15T10:20:35Z",
       "side": 1,
       "message": "Is this relevant?",
+      "range": {
+        "startLine": 93,
+        "startChar": 2,
+        "endLine": 93,
+        "endChar": 55
+      },
+      "revId": "dea8297babba121d6fe7f90d7126d7b64dce3a93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "15b59876_f2c45184",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-15T11:00:15Z",
+      "side": 1,
+      "message": "Maybe no...I just wanted to give the full picture of what is happening. Happy to remove if you think it is just misleading.",
+      "parentUuid": "09554395_89292221",
       "range": {
         "startLine": 93,
         "startChar": 2,
@@ -68,6 +116,30 @@
       "revId": "dea8297babba121d6fe7f90d7126d7b64dce3a93",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e964c4f2_d91d77d0",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-15T11:00:15Z",
+      "side": 1,
+      "message": "True, my bad 😐 Let me amend it.",
+      "parentUuid": "d55d4bdc_7361b886",
+      "range": {
+        "startLine": 101,
+        "startChar": 32,
+        "endLine": 101,
+        "endChar": 71
+      },
+      "revId": "dea8297babba121d6fe7f90d7126d7b64dce3a93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
