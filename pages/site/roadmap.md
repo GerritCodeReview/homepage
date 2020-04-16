@@ -55,6 +55,8 @@ Target: Q2 2020
   * Polish experience especially regarding robot comments posted on every patch set
 * Java 11
   * Officially supported for production use
+* ssh client
+  * migrate from jsch to mina-sshd, this is already supported by jgit since 5.2
 
 ## Upcoming plugin improvements related to Gerrit 3.2
 * Replication plugin
