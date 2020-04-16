@@ -55,6 +55,12 @@ Target: Q2 2020
   * Polish experience especially regarding robot comments posted on every patch set
 * Java 11
   * Officially supported for production use
+* ssh client
+  * Migrate from jsch to mina-sshd. This is already supported by jgit since 5.2.
+  See [this discussion](https://www.eclipse.org/lists/cross-project-issues-dev/msg16172.html)
+  about problems with jsch on the Eclipse cross projects list and
+  [jgit bug 520927](https://bugs.eclipse.org/bugs/show_bug.cgi?id=520927)
+  for the implementation in JGit.
 
 ## Upcoming plugin improvements related to Gerrit 3.2
 * Replication plugin
