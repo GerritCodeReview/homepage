@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "4cefc3ff_6f77712f",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-17T12:02:02Z",
+      "side": 1,
+      "message": "I believe it is misleading, as the replication plugin activity has no correlation to the events looping or propagation.",
+      "parentUuid": "15b59876_f2c45184",
+      "range": {
+        "startLine": 93,
+        "startChar": 2,
+        "endLine": 93,
+        "endChar": 55
+      },
+      "revId": "dea8297babba121d6fe7f90d7126d7b64dce3a93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d55d4bdc_7361b886",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 14
