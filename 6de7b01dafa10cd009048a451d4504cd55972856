@@ -39,6 +39,30 @@
       "revId": "6de7b01dafa10cd009048a451d4504cd55972856",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "383d67ec_d278d825",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-04-17T20:42:10Z",
+      "side": 1,
+      "message": "The change I mentioned is needed if you want to completely remove the jsch dependency. Currently this is not possible since the jsch dependency is in the main library org.eclipse.jgit itself. The change in review is moving the code which depends on jsch to a separate new jgit library so that it can be left out if mina-sshd is used or ssh is not used at all. For the first proposed phase where both ssh clients are included in Gerrit so that users can choose by configuration which one they want to use this change is not required.",
+      "parentUuid": "da7916eb_cdcb46df",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 12
+      },
+      "revId": "6de7b01dafa10cd009048a451d4504cd55972856",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
