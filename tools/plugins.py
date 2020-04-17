@@ -56,7 +56,7 @@ header = "|Name|State|Changes (last 3 months)|Description|Maintainers"
 dashes = "|----|-----|-----------------------|-----------|---"
 spacer = "|    |     |                       |           |   "
 
-branches = ["master"] + ["stable-%s" % version for version in ["3.1", "3.0", "2.16"]]
+branches = ["master"] + [f"stable-{version}" for version in ["3.1", "3.0", "2.16"]]
 
 checkMark = "&#x2714;"
 unicodeSquare = "&#x20DE;"
@@ -66,7 +66,7 @@ redCross = "&#x274C;"
 
 
 def getBranches(pluginId):
-    branchList = api.get("/projects/%s/branches/" % pluginId)
+    branchList = api.get(f"/projects/{pluginId}/branches/")
     pluginBranches = []
     for b in branchList:
         if b["ref"].startswith("refs/heads/"):
@@ -79,7 +79,7 @@ def getBranchResults(pluginId, pluginName, builds):
     pluginBranches = getBranches(pluginId)
     results = ""
     for branch in branches:
-        string = r"^plugin-%s[\w|-]*-%s$" % (pluginName, branch)
+        string = fr"^plugin-{pluginName}[\w|-]*-{branch}$"
         pattern = re.compile(string)
         result = unicodeSquare
 
@@ -92,13 +92,13 @@ def getBranchResults(pluginId, pluginName, builds):
         if branch in pluginBranches:
             result = checkMark + "|" + result
         else:
-            result = "%s|%s" % (unicodeSquare, result)
-        results = result if not results else "%s|%s" % (results, result)
+            result = f"{unicodeSquare}|{result}"
+        results = result if not results else f"{results}|{result}"
     return results
 
 
 def getRecentChangesCount(pluginName):
-    changes = api.get("/changes/?q=project:%s+-age:3months" % pluginName)
+    changes = api.get(f"/changes/?q=project:{pluginName}+-age:3months")
     return len(changes)
 
 
@@ -149,15 +149,13 @@ with open("pages/site/plugins/plugins.md", "w") as output:
 
     output.write("\n")
     for b in branches:
-        output.write(
-            "[%s]: https://gerrit-ci.gerritforge.com/view/Plugins-%s/\n" % (b, b)
-        )
+        output.write(f"[{b}]: https://gerrit-ci.gerritforge.com/view/Plugins-{b}/\n")
 
     for branch in branches:
         header += "|Branch|CI"
         dashes += "|-----:|--"
-        spacer += "|[%s]|" % branch
-    output.write("\n%s|\n%s|\n%s|\n" % (header, dashes, spacer))
+        spacer += f"|[{branch}]|"
+    output.write(f"\n{header}|\n{dashes}|\n{spacer}|\n")
 
     url = (
         "https://gerrit-ci.gerritforge.com/api/json?pretty=true&tree=jobs"
@@ -177,7 +175,7 @@ with open("pages/site/plugins/plugins.md", "w") as output:
             state = lock
             changes = 0
             availableBranches = "|".join(
-                ["%s|%s" % (unicodeSquare, unicodeSquare) for b in branches]
+                [f"{unicodeSquare}|{unicodeSquare}" for b in branches]
             )
 
         if "description" in plugin:
@@ -187,15 +185,10 @@ with open("pages/site/plugins/plugins.md", "w") as output:
 
         owners = getOwnerNames(name)
 
-        line = "|[%s]|%s|%d|%s|%s|%s|\n" % (
-            name,
-            state,
-            changes,
-            description,
-            owners,
-            availableBranches,
+        line = (
+            f"|[{name}]|{state}|{changes}|{description}|{owners}|{availableBranches}|\n"
         )
         output.write(line)
-        links += "[%s]: https://gerrit.googlesource.com/plugins/%s\n" % (name, name)
+        links += f"[{name}]: https://gerrit.googlesource.com/plugins/{name}\n"
 
     output.write(links)
