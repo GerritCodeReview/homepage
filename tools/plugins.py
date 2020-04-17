@@ -1,5 +1,6 @@
 import argparse
 import getpass
+import json
 import os
 import re
 import requests
@@ -101,17 +102,30 @@ def getRecentChangesCount(pluginName):
     changes = api.get("/changes/?q=project:%s+-age:3months" % pluginName)
     return len(changes)
 
+def getMetaData(pluginName):
+    path = requests.utils.quote(f"plugins/{pluginName}", safe="")
+    permissions = api.get(f"projects/{path}/access")
+    parent = permissions["inherits_from"]["name"]
+    try:
+        owner_group_ids = permissions["local"]["refs/*"]["permissions"]["owner"]["rules"].keys()
+    except KeyError:
+        owner_group_ids = list()
+    return parent, owner_group_ids
 
 def getOwnerNames(pluginName):
-    groups = api.get("/groups/?query=name:plugins-%s" % pluginName)
-    if len(groups) > 0:
-        ownerGroup = groups[0]
-        id = ownerGroup.get("id")
-        owners = api.get("/groups/%s/members/" % id)
-        names = [o.get("name") for o in owners]
-        names = ", ".join(names)
-    else:
-        names = ""
+    parent, group_ids = getMetaData(pluginName)
+    names = list()
+    if len(group_ids) > 0:
+        for id in group_ids:
+            try:
+                owners = api.get(f"/groups/{id}/members/")
+                names.extend([o.get("name") for o in owners])
+            except requests.HTTPError:
+                pass # can't read group
+    names = sorted(list(set(names)))
+    if parent == "Public-Plugins":
+        names.insert(0, "core maintainers")
+    names = ", ".join(names)
     return names
 
 
