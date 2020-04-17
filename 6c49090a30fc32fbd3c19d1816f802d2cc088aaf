@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "34863afc_06de4223",
+        "filename": "tools/plugins.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-04-17T21:44:50Z",
+      "side": 1,
+      "message": "yes, since Public-Plugins configures that core maintainers are owners of all plugins inheriting from this project:\nhttps://gerrit-review.googlesource.com/admin/repos/Public-Plugins,access",
+      "parentUuid": "2ab31f1e_748e64e9",
+      "revId": "6c49090a30fc32fbd3c19d1816f802d2cc088aaf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7905c8cb_586b3e61",
         "filename": "tools/plugins.py",
         "patchSetId": 5
@@ -39,6 +57,30 @@
       "revId": "6c49090a30fc32fbd3c19d1816f802d2cc088aaf",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c21a351e_4a299bb3",
+        "filename": "tools/plugins.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-04-17T21:44:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7905c8cb_586b3e61",
+      "range": {
+        "startLine": 131,
+        "startChar": 25,
+        "endLine": 131,
+        "endChar": 29
+      },
+      "revId": "6c49090a30fc32fbd3c19d1816f802d2cc088aaf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
