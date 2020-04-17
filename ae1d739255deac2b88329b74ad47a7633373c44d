@@ -22,6 +22,30 @@
       "revId": "ae1d739255deac2b88329b74ad47a7633373c44d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "657a7150_9b8d6a21",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-17T06:00:43Z",
+      "side": 1,
+      "message": "That\u0027s also the case with the previous workaround.  It only adds the older version as a download, but doesn\u0027t replace it, so the \"clone with commit-msg hook\" option still uses the new one.\n\nI\u0027ve reworded this a bit to make it clearer.",
+      "parentUuid": "12803eac_90819e16",
+      "range": {
+        "startLine": 236,
+        "startChar": 52,
+        "endLine": 236,
+        "endChar": 69
+      },
+      "revId": "ae1d739255deac2b88329b74ad47a7633373c44d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
