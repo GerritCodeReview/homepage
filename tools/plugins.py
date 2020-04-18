@@ -1,8 +1,10 @@
+from __future__ import print_function
 import argparse
 import getpass
 import os
 import re
 import requests
+import sys
 import time
 
 from jinja2 import Template
@@ -52,17 +54,17 @@ api = GerritRestAPI(url=url, auth=auth)
 
 plugins = api.get("/projects/?p=plugins%2f&d")
 
-header = "|Name|State|Changes (last 3 months)|Description|Maintainers"
-dashes = "|----|-----|-----------------------|-----------|---"
-spacer = "|    |     |                       |           |   "
+header = "|Name|State| Repo |Changes (last 3 months)|Description|Maintainers"
+dashes = "|----|-----|------|-----------------|-----------|---"
+spacer = "|    |     |      |                 |           |   "
 
 branches = ["master"] + [f"stable-{version}" for version in ["3.1", "3.0", "2.16"]]
 
 checkMark = "&#x2714;"
-unicodeSquare = "&#x20DE;"
 greenCheckMark = "&#x2705;"
 lock = "&#x1F512;"
 redCross = "&#x274C;"
+unicodeSquare = "&#x20DE;"
 
 
 def getBranches(pluginId):
@@ -133,6 +135,18 @@ def getOwnerNames(pluginName):
     return names
 
 
+def isProjectEmpty(pluginName):
+    gitiles_uri = f"https://gerrit.googlesource.com/{pluginName}"
+    try:
+        response = requests.get(gitiles_uri)
+        if response.status_code == 200:
+            if response.text.find("Empty Repository") > -1:
+                return True
+    except requests.HTTPError as e:
+        print(f"failed to browse {pluginName} in gitiles:\n{e}", file=sys.stderr)
+    return False
+
+
 data = {
     "permalink": "plugins",
     "updated": time.strftime("%A %d %B at %H:%M:%S %Z", time.gmtime()),
@@ -177,6 +191,10 @@ with open("pages/site/plugins/plugins.md", "w") as output:
             availableBranches = "|".join(
                 [f"{unicodeSquare}|{unicodeSquare}" for b in branches]
             )
+        if isProjectEmpty(p):
+            state += f"|{unicodeSquare}"
+        else:
+            state += f"|{checkMark}"
 
         if "description" in plugin:
             description = plugin["description"].split("\n")[0].rstrip(r"\.")
