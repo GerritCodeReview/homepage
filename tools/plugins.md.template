@@ -51,8 +51,14 @@ description is shown (first sentence, or '&#x20DE;' if none).
 
 [Contributions] to provide descriptions or update existing ones are welcome.
 
-The last known plugin activity state (ACTIVE shows as &#x2705;, READ_ONLY as &#x1F512;)
-and number of recent changes in the last 3 months is also shown.
+The last known plugin activity state is shown by the following icons
+
+| project   |           | repository  |          |
+|-----------|-----------|-------------|----------|
+| active    | &#x2705;  | has content | &#x2714; |
+| read-only | &#x1F512; | is empty    | &#x20DE; |
+
+and the number of recent changes in the last 3 months is also shown.
 
 Each branch name links to the corresponding CI jobs view, for the current build status.
 
