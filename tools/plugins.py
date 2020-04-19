@@ -54,9 +54,9 @@ api = GerritRestAPI(url=url, auth=auth)
 
 plugins = api.get("/projects/?p=plugins%2f&d")
 
-header = "|Name|State|Repo|Changes (last 3 months)|Description|Maintainers"
-dashes = "|----|-----|----|-----------------------|-----------|---"
-spacer = "|    |     |    |                       |           |   "
+header = "|Name|State|Repo|Changes (last 3 months/all)|Description|Maintainers"
+dashes = "|----|-----|----|---------------------------|-----------|---"
+spacer = "|    |     |    |                           |           |   "
 
 branches = ["master"] + [f"stable-{version}" for version in ["3.1", "3.0", "2.16"]]
 
@@ -97,6 +97,11 @@ def getBranchResults(pluginId, pluginName, builds):
             result = f"{unicodeSquare}|{result}"
         results = result if not results else f"{results}|{result}"
     return results
+
+
+def getAllChangesCount(pluginName):
+    changes = api.get(f"/changes/?q=project:{pluginName}")
+    return len(changes)
 
 
 def getRecentChangesCount(pluginName):
@@ -181,6 +186,7 @@ with open("pages/site/plugins/plugins.md", "w") as output:
         name = p[len("plugins/") :]
         plugin = plugins[p]
 
+        all = getAllChangesCount(p)
         if plugin["state"] == "ACTIVE":
             state = greenCheckMark
             changes = getRecentChangesCount(p)
@@ -203,9 +209,7 @@ with open("pages/site/plugins/plugins.md", "w") as output:
 
         owners = getOwnerNames(name)
 
-        line = (
-            f"|[{name}]|{state}|{changes}|{description}|{owners}|{availableBranches}|\n"
-        )
+        line = f"|[{name}]|{state}|{changes}/{all}|{description}|{owners}|{availableBranches}|\n"
         output.write(line)
         links += f"[{name}]: https://gerrit.googlesource.com/plugins/{name}\n"
 
