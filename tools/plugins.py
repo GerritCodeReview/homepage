@@ -297,7 +297,8 @@ with open("pages/site/plugins/plugins.md", "w") as output:
         output.write(
             f"|[{p.name}]"
             + f"|{render_state(p)}"
-            + f"|{p.recent_changes_count}/{p.all_changes_count}"
+            + f"|{p.recent_changes_count}"
+            + f"/[{p.all_changes_count}]({GERRIT}/q/project:plugins/{p.name})"
             + f"|{p.description}"
             + f"|{p.owner_names}"
             + f"|{render_branches(p)}"
