@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8eab1b27_5d963092",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-20T10:23:54Z",
+      "side": 1,
+      "message": "How about having the visualization-code here instead?\n\n    class BuildResult(Enum):\n       UNAVAILABLE \u003d \"unavailable\"\n       SUCCESSFUL \u003d \"successful\"\n       FAILED \u003d \"failed\"\n    \n       def visualize(self):\n                    if self \u003d\u003d BuildResult.SUCCESSFUL:\n                        return GREEN_CHECK_MARK\n                    elif self \u003d\u003d BuildResult.FAILED:\n                        return RED_CROSS\n                    else:\n                        return SQUARE\n    \n    \n    class PluginState(Enum):\n        ACTIVE \u003d \"active\"\n        READ_ONLY \u003d \"read-only\"\n    \n        def visualize(self):\n            if self \u003d\u003d PluginState.ACTIVE:\n                return GREEN_CHECK_MARK\n            else:\n                return LOCK",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 27
+      },
+      "revId": "b34774f3235018db3cb0a0572143fbd1d3110523",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "205314d5_ea2d28e6",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-20T10:23:54Z",
+      "side": 1,
+      "message": "Double assignment is not my favorite, what about just:\n\n    result \u003d (\n        BuildResult.SUCCESSFUL\n        if job[\"lastBuild\"][\"result\"] \u003d\u003d \"SUCCESS\"\n        else BuildResult.FAILED\n    )",
+      "range": {
+        "startLine": 149,
+        "startChar": 22,
+        "endLine": 154,
+        "endChar": 25
+      },
+      "revId": "b34774f3235018db3cb0a0572143fbd1d3110523",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "09bc1205_5f7eedfd",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-20T10:23:54Z",
+      "side": 1,
+      "message": "Not used.",
+      "range": {
+        "startLine": 180,
+        "startChar": 31,
+        "endLine": 180,
+        "endChar": 43
+      },
+      "revId": "b34774f3235018db3cb0a0572143fbd1d3110523",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2bcb4fb_fd2ab431",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-20T10:23:54Z",
+      "side": 1,
+      "message": "I would opt to do this in a separate method:\nl299 below:\n\n        + f\"|{render_state(p)}\"\n        + f\"|{render_empty(p)}\"",
+      "range": {
+        "startLine": 235,
+        "startChar": 0,
+        "endLine": 238,
+        "endChar": 33
+      },
+      "revId": "b34774f3235018db3cb0a0572143fbd1d3110523",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9887406f_3674070c",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-20T10:23:54Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be inside the \"if b.name \u003d\u003d branch_name:\"?",
+      "range": {
+        "startLine": 249,
+        "startChar": 16,
+        "endLine": 249,
+        "endChar": 42
+      },
+      "revId": "b34774f3235018db3cb0a0572143fbd1d3110523",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
