@@ -101,14 +101,61 @@ class Plugin:
 
 
 class Plugins:
-    """Data about Gerrit plugins"""
+    """Class to retrieve data about Gerrit plugins and render the plugins page"""
 
-    def __init__(self, options):
-        """Get data about all Gerrit plugins.
+    @staticmethod
+    def _parse_options():
+        parser = argparse.ArgumentParser(
+            formatter_class=argparse.ArgumentDefaultsHelpFormatter
+        )
+        group = parser.add_mutually_exclusive_group()
 
-        :param options: command line options
-        """
-        auth = self._authenticate(options)
+        group.add_argument(
+            "-n",
+            "--netrc",
+            dest="netrc",
+            action="store_true",
+            help="use credentials from .netrc",
+        )
+        group.add_argument(
+            "-a",
+            "--anonymous",
+            dest="anonymous",
+            action="store_true",
+            help="use anonymous access, i.e. no credentials",
+        )
+        return parser.parse_args()
+
+    @staticmethod
+    def _render_header():
+        header = "|Name|State|Repo|Changes (last 3 months/all)|Description|Maintainers"
+        dashes = "|----|-----|----|---------------------------|-----------|---"
+        spacer = "|    |     |    |                           |           |   "
+
+        links = "\n"
+        for b in BRANCHES:
+            header += "|Branch|CI"
+            dashes += "|-----:|--"
+            spacer += f"|[{b}]|"
+            links += f"[{b}]: {CI}/view/Plugins-{b}\n"
+
+        return (header, dashes, spacer, links)
+
+    @staticmethod
+    def _render_template():
+        data = {
+            "permalink": "plugins",
+            "updated": time.strftime("%A %d %B at %H:%M:%S %Z", time.gmtime()),
+        }
+
+        template_path = os.path.join(
+            os.path.dirname(os.path.realpath(__file__)), "plugins.md.template"
+        )
+        template = Template(open(template_path).read())
+        return template.render(data=data)
+
+    def __init__(self):
+        auth = self._authenticate(self._parse_options())
         self.api = GerritRestAPI(url=GERRIT, auth=auth)
         self.plugins = list()
         self._fetch_plugin_data()
@@ -251,71 +298,35 @@ class Plugins:
             print(f"Failed to browse {pluginName} in gitiles:\n{e}", file=sys.stderr)
         return False
 
-    @staticmethod
-    def render_header():
-        header = "|Name|State|Repo|Changes (last 3 months/all)|Description|Maintainers"
-        dashes = "|----|-----|----|---------------------------|-----------|---"
-        spacer = "|    |     |    |                           |           |   "
-        links = "\n"
-        for b in BRANCHES:
-            header += "|Branch|CI"
-            dashes += "|-----:|--"
-            spacer += f"|[{b}]|"
-            links += f"[{b}]: {CI}/view/Plugins-{b}\n"
+    def render_page(self, output):
+        output.writelines(self._render_template())
+        (header, dashes, spacer, links) = self._render_header()
 
-        return (header, dashes, spacer, links)
+        flags = (None, None)
+        for p in self.plugins:
+            if flags != (p.state, p.empty):
+                output.write(f"\n\n{header}|\n{dashes}|\n{spacer}|\n")
+            output.write(
+                f"|[{p.name}]"
+                + f"|{p.render_state()}"
+                + f"|{p.recent_changes_count}"
+                + f"/[{p.all_changes_count}]({GERRIT}/q/project:plugins/{p.name})"
+                + f"|{p.description}"
+                + f"|{p.owner_names}"
+                + f"|{p.render_branches()}"
+                + "|\n"
+            )
+            flags = (p.state, p.empty)
+            links += f"[{p.name}]: {GITILES}/plugins/{p.name}\n"
+
+        output.write(links)
 
 
-parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-group = parser.add_mutually_exclusive_group()
+def main():
+    plugins = Plugins()
+    with open("pages/site/plugins/plugins.md", "w") as output:
+        plugins.render_page(output)
 
-group.add_argument(
-    "-n",
-    "--netrc",
-    dest="netrc",
-    action="store_true",
-    help="use credentials from .netrc",
-)
-group.add_argument(
-    "-a",
-    "--anonymous",
-    dest="anonymous",
-    action="store_true",
-    help="use anonymous access, i.e. no credentials",
-)
-options = parser.parse_args()
 
-data = {
-    "permalink": "plugins",
-    "updated": time.strftime("%A %d %B at %H:%M:%S %Z", time.gmtime()),
-}
-
-template_path = os.path.join(
-    os.path.dirname(os.path.realpath(__file__)), "plugins.md.template"
-)
-template = Template(open(template_path).read())
-rendered_template = template.render(data=data)
-
-with open("pages/site/plugins/plugins.md", "w") as output:
-    output.writelines(rendered_template)
-
-    flags = (None, None)
-    plugins = Plugins(options)
-    (header, dashes, spacer, links) = plugins.render_header()
-    for p in plugins:
-        if flags != (p.state, p.empty):
-            output.write(f"\n\n{header}|\n{dashes}|\n{spacer}|\n")
-        output.write(
-            f"|[{p.name}]"
-            + f"|{p.render_state()}"
-            + f"|{p.recent_changes_count}"
-            + f"/[{p.all_changes_count}]({GERRIT}/q/project:plugins/{p.name})"
-            + f"|{p.description}"
-            + f"|{p.owner_names}"
-            + f"|{p.render_branches()}"
-            + "|\n"
-        )
-        flags = (p.state, p.empty)
-        links += f"[{p.name}]: {GITILES}/plugins/{p.name}\n"
-
-    output.write(links)
+if __name__ == "__main__":
+    main()
