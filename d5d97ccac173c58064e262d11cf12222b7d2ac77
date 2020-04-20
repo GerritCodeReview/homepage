@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eda48506_4f4ce3a7",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-20T12:50:45Z",
+      "side": 1,
+      "message": "nit: I would link to the documentation from one of the recent releases, so that the link is guaranteed to be stable.  If the file name anchor name changes on master, this link will break.",
+      "range": {
+        "startLine": 10,
+        "startChar": 32,
+        "endLine": 10,
+        "endChar": 123
+      },
+      "revId": "d5d97ccac173c58064e262d11cf12222b7d2ac77",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1bd0b03_269a94b8",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-20T12:50:45Z",
+      "side": 1,
+      "message": "store the the forwarded events in the thread local storage anymore.",
+      "range": {
+        "startLine": 52,
+        "startChar": 69,
+        "endLine": 53,
+        "endChar": 51
+      },
+      "revId": "d5d97ccac173c58064e262d11cf12222b7d2ac77",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
