@@ -7,7 +7,8 @@ import requests
 import sys
 import time
 from dataclasses import dataclass
-from enum import Enum
+from enum import Enum, IntEnum
+from operator import attrgetter
 from typing import List
 
 from jinja2 import Template
@@ -43,9 +44,9 @@ class BuildResult(Enum):
             return SQUARE
 
 
-class PluginState(Enum):
-    ACTIVE = "active"
-    READ_ONLY = "read-only"
+class PluginState(IntEnum):
+    ACTIVE = 1
+    READ_ONLY = 2
 
     def render(self):
         if self == PluginState.ACTIVE:
@@ -111,6 +112,7 @@ class Plugins:
         self.api = GerritRestAPI(url=GERRIT, auth=auth)
         self.plugins = list()
         self._fetch_plugin_data()
+        self.plugins = sorted(self.plugins, key=attrgetter("state", "empty"))
 
     def __iter__(self):
         return iter(self.plugins)
@@ -249,20 +251,18 @@ class Plugins:
             print(f"Failed to browse {pluginName} in gitiles:\n{e}", file=sys.stderr)
         return False
 
-    def render_header(self, output):
+    def render_header(self):
         header = "|Name|State|Repo|Changes (last 3 months/all)|Description|Maintainers"
         dashes = "|----|-----|----|---------------------------|-----------|---"
         spacer = "|    |     |    |                           |           |   "
-
-        output.write("\n")
+        links = "\n"
         for b in BRANCHES:
-            output.write(f"[{b}]: {CI}/view/Plugins-{b}/\n")
-
-        for branch in BRANCHES:
             header += "|Branch|CI"
             dashes += "|-----:|--"
-            spacer += f"|[{branch}]|"
-        output.write(f"\n{header}|\n{dashes}|\n{spacer}|\n")
+            spacer += f"|[{b}]|"
+            links += f"[{b}]: {CI}/view/Plugins-{b}\n"
+
+        return (header, dashes, spacer, links)
 
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -297,10 +297,13 @@ rendered_template = template.render(data=data)
 
 with open("pages/site/plugins/plugins.md", "w") as output:
     output.writelines(rendered_template)
+
+    flags = (None, None)
     plugins = Plugins(options)
-    plugins.render_header(output)
-    links = "\n"
+    (header, dashes, spacer, links) = plugins.render_header()
     for p in plugins:
+        if flags != (p.state, p.empty):
+            output.write(f"\n\n{header}|\n{dashes}|\n{spacer}|\n")
         output.write(
             f"|[{p.name}]"
             + f"|{p.render_state()}"
@@ -311,6 +314,7 @@ with open("pages/site/plugins/plugins.md", "w") as output:
             + f"|{p.render_branches()}"
             + "|\n"
         )
+        flags = (p.state, p.empty)
         links += f"[{p.name}]: {GITILES}/plugins/{p.name}\n"
 
     output.write(links)
