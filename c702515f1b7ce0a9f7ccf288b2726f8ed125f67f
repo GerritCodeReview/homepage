@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "786c85c5_b483a161",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-20T09:20:46Z",
+      "side": 1,
+      "message": "Just a question:\nWould it make sense to filter \"all-changes\" instead of making another REST call to retrieve a subset of these?",
+      "range": {
+        "startLine": 192,
+        "startChar": 22,
+        "endLine": 192,
+        "endChar": 46
+      },
+      "revId": "c702515f1b7ce0a9f7ccf288b2726f8ed125f67f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
