@@ -7,7 +7,8 @@ import requests
 import sys
 import time
 from dataclasses import dataclass
-from enum import Enum
+from enum import Enum, IntEnum
+from operator import attrgetter
 from typing import List
 
 from jinja2 import Template
@@ -27,9 +28,9 @@ class BuildResult(Enum):
     FAILED = "failed"
 
 
-class PluginState(Enum):
-    ACTIVE = "active"
-    READ_ONLY = "read-only"
+class PluginState(IntEnum):
+    ACTIVE = 1
+    READ_ONLY = 2
 
 
 @dataclass
@@ -224,7 +225,7 @@ def render_header(output):
         header += "|Branch|CI"
         dashes += "|-----:|--"
         spacer += f"|[{branch}]|"
-    output.write(f"\n{header}|\n{dashes}|\n{spacer}|\n")
+    return (header, dashes, spacer)
 
 
 def render_state(p: Plugin) -> str:
@@ -290,10 +291,15 @@ rendered_template = template.render(data=data)
 with open("pages/site/plugins/plugins.md", "w") as output:
     output.writelines(rendered_template)
 
-    render_header(output)
+    plugins = Plugins(options)
+    plugins = sorted(plugins.plugins, key=attrgetter('state', 'empty'))
 
     links = "\n"
-    for p in Plugins(options):
+    flags = (None, None)
+    (header, dashes, spacer) = render_header(output)
+    for p in plugins:
+        if flags != (p.state, p.empty):
+            output.write(f"\n{header}|\n{dashes}|\n{spacer}|\n")
         output.write(
             f"|[{p.name}]"
             + f"|{render_state(p)}"
@@ -304,6 +310,7 @@ with open("pages/site/plugins/plugins.md", "w") as output:
             + f"|{render_branches(p)}"
             + "|\n"
         )
+        flags = (p.state, p.empty)
         links += f"[{p.name}]: {GITILES}/plugins/{p.name}\n"
 
     output.write(links)
