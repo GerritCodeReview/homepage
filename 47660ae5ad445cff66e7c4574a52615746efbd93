@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0642224d_681a1914",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T19:00:35Z",
+      "side": 1,
+      "message": "Is this a single JVM process then?",
+      "range": {
+        "startLine": 12,
+        "startChar": 14,
+        "endLine": 12,
+        "endChar": 42
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3c18e484_f96139f6",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T19:00:35Z",
+      "side": 1,
+      "message": "Can you add a \u0027from\u0027 before the \u0027to\u0027 and specify master or replica? i.e. events are broadcasted from a master instance to all the (master and?) replica instances...",
+      "range": {
+        "startLine": 19,
+        "startChar": 69,
+        "endLine": 20,
+        "endChar": 2
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f93ed34_40bffc06",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T19:00:35Z",
+      "side": 1,
+      "message": "Not part of the \"problem\"? (this reads like the AC I think, maybe move it there?)",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 35
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "10a40fa2_7b000e85",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T19:00:35Z",
+      "side": 1,
+      "message": "This isn\u0027t true if using ElasticSearch or another cluster index solution, correct? I don\u0027t think I\u0027d be \"solving\" your problem if I suggested you use that, so maybe adjust the examples here to ones which don\u0027t already have a solution?",
+      "range": {
+        "startLine": 41,
+        "startChar": 49,
+        "endLine": 41,
+        "endChar": 87
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "33c97dfe_fb182be2",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T19:00:35Z",
+      "side": 1,
+      "message": "I don\u0027t think you present enough data to back up this claim. replication is plugin, yet I don\u0027t think we\u0027ve ever had a concern with \"inconsistent\" replication architectures.",
+      "range": {
+        "startLine": 52,
+        "startChar": 65,
+        "endLine": 53,
+        "endChar": 34
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5b3e6830_f9bc7635",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T19:00:35Z",
+      "side": 1,
+      "message": "I would pick one of these that is the \"biggest\" problem (probably the \"Avoid Loops\" one), and make it the problem on line 17. Right now you have a generic problem and it feels like trying to fit each of these to the problem instead of the other way around. It\u0027d be fine to keep the others as \"related use cases\", but currently it seems you\u0027re insisting these use cases all have the same problem/solution, but that feels artificial. Of course we\u0027d want to consider many use cases when looking at possible solutions, but top priority is to clearly solve at least one problem. The AC then would be worded as what would be required to have solved that single biggest problem.",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 23
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4bb82498_9741f7ae",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T19:00:35Z",
+      "side": 1,
+      "message": "I think this is still too specific to a solution. I think your text on lines 25/26 above make a much better AC.",
+      "range": {
+        "startLine": 84,
+        "startChar": 2,
+        "endLine": 84,
+        "endChar": 24
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
