@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "6daa86ae_319e758d",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T21:05:58Z",
+      "side": 1,
+      "message": "I believe this is a multi-master setup, not a master-slave. So no replicas, all masters.",
+      "parentUuid": "3c18e484_f96139f6",
+      "range": {
+        "startLine": 19,
+        "startChar": 69,
+        "endLine": 20,
+        "endChar": 2
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0f93ed34_40bffc06",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
@@ -59,6 +83,30 @@
       "writtenOn": "2020-04-21T19:00:35Z",
       "side": 1,
       "message": "Not part of the \"problem\"? (this reads like the AC I think, maybe move it there?)",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 35
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "392b70fd_53868e5a",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T21:05:58Z",
+      "side": 1,
+      "message": "I believe this is the problem that this design wants to address.",
+      "parentUuid": "0f93ed34_40bffc06",
       "range": {
         "startLine": 25,
         "startChar": 0,
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "aff09092_8c4f557a",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T21:05:58Z",
+      "side": 1,
+      "message": "ElasticSearch is a single-site indexing solution, it doesn\u0027t work for multi-site. The design is not about multi-site though, the indexing solution is not relevant to the problem. Possibly this section is redundant? It was an example, but from Nasser\u0027s comments I believe it could be misleading? @Nasser what do you think?",
+      "parentUuid": "10a40fa2_7b000e85",
+      "range": {
+        "startLine": 41,
+        "startChar": 49,
+        "endLine": 41,
+        "endChar": 87
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "33c97dfe_fb182be2",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
@@ -105,6 +177,30 @@
       "writtenOn": "2020-04-21T19:00:35Z",
       "side": 1,
       "message": "I don\u0027t think you present enough data to back up this claim. replication is plugin, yet I don\u0027t think we\u0027ve ever had a concern with \"inconsistent\" replication architectures.",
+      "range": {
+        "startLine": 52,
+        "startChar": 65,
+        "endLine": 53,
+        "endChar": 34
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c1eeb967_130d85f5",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T21:05:58Z",
+      "side": 1,
+      "message": "+1 on removing the \"inconsistent\" word here.",
+      "parentUuid": "33c97dfe_fb182be2",
       "range": {
         "startLine": 52,
         "startChar": 65,
@@ -140,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "8091d016_c2a8eaa5",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T21:05:58Z",
+      "side": 1,
+      "message": "+1 these are \"related use-cases\" and not the primary one, which instead is described in the acceptance criteria.",
+      "parentUuid": "5b3e6830_f9bc7635",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 23
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4bb82498_9741f7ae",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
@@ -151,6 +271,30 @@
       "writtenOn": "2020-04-21T19:00:35Z",
       "side": 1,
       "message": "I think this is still too specific to a solution. I think your text on lines 25/26 above make a much better AC.",
+      "range": {
+        "startLine": 84,
+        "startChar": 2,
+        "endLine": 84,
+        "endChar": 24
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fcfd5967_bfe78fd1",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T21:05:58Z",
+      "side": 1,
+      "message": "I believe this is the problem that the design wants to takle: understanding who is the sender of an event generated by Gerrit.",
+      "parentUuid": "4bb82498_9741f7ae",
       "range": {
         "startLine": 84,
         "startChar": 2,
