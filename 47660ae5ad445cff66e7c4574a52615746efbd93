@@ -167,6 +167,30 @@
     },
     {
       "key": {
+        "uuid": "16c621fa_0289910e",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T22:01:36Z",
+      "side": 1,
+      "message": "\u003e \u003e It sounds like there are/were admins complaining \"Why is the multi-site/HA plugin constantly triggering reindex for my changes?!?\"\n\nI believe that mislead also Patrick, looking at his comments on the indexing stale checker.\n2 people already mislead by the example means \u003d\u003e it is not very relevant to the discussion and should be removed IMHO.\n\nP.S. Actually the reindexing of the same change won\u0027t be a problem after all, because it is an idempotent operation and there is the staleness checker anyway.",
+      "parentUuid": "ddae1329_856727ca",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 35
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "10a40fa2_7b000e85",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
