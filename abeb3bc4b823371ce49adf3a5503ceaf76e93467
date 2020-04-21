@@ -2,6 +2,138 @@
   "comments": [
     {
       "key": {
+        "uuid": "1c3a76d2_4d6d9bde",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T15:58:14Z",
+      "side": 1,
+      "message": "Why (just) these events specifically?",
+      "range": {
+        "startLine": 16,
+        "startChar": 33,
+        "endLine": 16,
+        "endChar": 78
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e6945841_8a15e0a1",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T15:58:14Z",
+      "side": 1,
+      "message": "Reading all of the above, I don\u0027t see a \"problem\". i.e. when I do X, I expect Y, but I get Z. There are specific use cases below, that maybe are trying to cover this type of statement, but I would expect this at the very beginning of the use cases doc.\n\nWe need to agree on problem(s) before jumping into solutions.  This section above has statements like \"we need to\", \"it is not possible\", and \"is using a hack\". I\u0027d like to see those all qualified with specifics. Why do we need to? Why is it not possible? What is the hack and why do you consider it a hack? If you don\u0027t think providing those details will improve this doc, then I\u0027d argue you should remove those statements.",
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e445c2b8_46f5ebe3",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T15:58:14Z",
+      "side": 1,
+      "message": "This reads like a solution. Move to a solution doc?",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 0
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4ba4f171_859024c0",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T15:58:14Z",
+      "side": 1,
+      "message": "This also reads like a solution. Please describe the problems here and leave solutions for the solution doc(s).",
+      "range": {
+        "startLine": 79,
+        "startChar": 49,
+        "endLine": 80,
+        "endChar": 34
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6228faed_601de7dc",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T15:58:14Z",
+      "side": 1,
+      "message": "What\u0027s a \"topic\" in this context? I assume this isn\u0027t a Gerrit topic?",
+      "range": {
+        "startLine": 84,
+        "startChar": 65,
+        "endLine": 84,
+        "endChar": 71
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e56242e8_29d1f7ab",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T15:58:14Z",
+      "side": 1,
+      "message": "Is \"change 1000\" the same as \"change C1\"?",
+      "range": {
+        "startLine": 95,
+        "startChar": 26,
+        "endLine": 95,
+        "endChar": 37
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "80ab8d9b_09ede5fd",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 18
@@ -13,6 +145,29 @@
       "writtenOn": "2020-04-21T13:21:12Z",
       "side": 1,
       "message": "Is this a problem that your instances are suffering from?\n\nIf so, instead of telling the receiver who sent the event, could we make operations have a cheap pre-flight check that would make the sender disregard it\u0027s own event?\n\nIn your indexing example, when receiving an indexing event, the receiver could use the staleness checker to see if it actually has work to do. In case the sender sees their own event, that becomes a relatively cheap no-op.",
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "994d5465_2e00a899",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-21T15:58:14Z",
+      "side": 1,
+      "message": "This AC seems to limit to one specific solution. It\u0027s hard to say what a good generic AC would be, because as I point out above, there doesn\u0027t seem to be a generic problem stated. Perhaps something like: \"Gerrit (core?) should provide a way of adding information to events that can help consumers identify an initial source of the event\"?",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 66
+      },
       "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
