@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c9a11285_1d7a5695",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-21T07:28:21Z",
+      "side": 1,
+      "message": "@staticmethod\nself is never used",
+      "range": {
+        "startLine": 116,
+        "startChar": 8,
+        "endLine": 116,
+        "endChar": 28
+      },
+      "revId": "7ceda9ec5e71c1fc4a946b8a3facada8ee96e9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8ef1bda8_b7c20ec1",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-21T07:28:21Z",
+      "side": 1,
+      "message": "@staticmethod\nnot used",
+      "range": {
+        "startLine": 272,
+        "startChar": 23,
+        "endLine": 272,
+        "endChar": 35
+      },
+      "revId": "7ceda9ec5e71c1fc4a946b8a3facada8ee96e9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9fa11e8d_b373c9f4",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-21T07:28:21Z",
+      "side": 1,
+      "message": "@staticmethod",
+      "range": {
+        "startLine": 286,
+        "startChar": 3,
+        "endLine": 286,
+        "endChar": 31
+      },
+      "revId": "7ceda9ec5e71c1fc4a946b8a3facada8ee96e9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
