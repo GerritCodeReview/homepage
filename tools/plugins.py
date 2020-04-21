@@ -55,12 +55,24 @@ class PluginState(IntEnum):
             return LOCK
 
 
-@dataclass
 class Branch:
     """Branch of a plugin repository"""
 
     name: str
     build: BuildResult
+    present: bool
+
+    def __init__(self, name, build, present=True):
+        self.name = name
+        self.build = build
+        self.present = present
+
+    @classmethod
+    def missing(cls, name):
+        return cls(name, BuildResult.UNAVAILABLE, False)
+
+    def render(self):
+        return f"{CHECK_MARK if self.present else SQUARE}|{self.build.render()}"
 
 
 @dataclass
@@ -85,19 +97,7 @@ class Plugin:
         return f"{self.state.render()}|{self._render_empty()}"
 
     def render_branches(self) -> str:
-        results = ""
-        for branch_name in BRANCHES:
-            branch_exists = SQUARE
-            build_state = SQUARE
-            if self.branches:
-                for b in self.branches:
-                    if b.name == branch_name:
-                        branch_exists = CHECK_MARK
-                        build_state = b.build.render()
-                        break
-            result = f"{branch_exists}|{build_state}"
-            results = result if not results else f"{results}|{result}"
-        return results
+        return "|".join([b.render() for b in self.branches])
 
 
 class Plugins:
@@ -181,7 +181,7 @@ class Plugins:
             else:
                 state = PluginState.READ_ONLY
                 changes = 0
-                branches = None
+                branches = [Branch.missing(branch) for branch in BRANCHES]
 
             description = (
                 plugin["description"].split("\n")[0].rstrip(r"\.")
@@ -249,6 +249,8 @@ class Plugins:
                         )
                         break
                 branches.append(Branch(branch, result))
+            else:
+                branches.append(Branch.missing(branch))
         return branches
 
     def _get_all_changes_count(self, pluginName):
