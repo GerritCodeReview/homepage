@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "a7abd8a2_82f3cb09",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-21T18:15:10Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "98d30f2c_e68786d1",
+      "range": {
+        "startLine": 16,
+        "startChar": 33,
+        "endLine": 16,
+        "endChar": 78
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e6945841_8a15e0a1",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 18
@@ -78,6 +102,24 @@
       "side": 1,
       "message": "\u003e We need to agree on problem(s) before jumping into solutions. \n\n+1 the problem is not clearly stated but is \"hidden in the discussion\". However, the context is useful to understand the scenario. I would keep it but then put a clear specification of the problem.",
       "parentUuid": "e6945841_8a15e0a1",
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d6c5f7f_8ce5033e",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-21T18:15:10Z",
+      "side": 1,
+      "message": "I moved around the first two sections, renamed them and tried to avoid conclusions at this point.",
+      "parentUuid": "7ab3959d_5f7c06e6",
       "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -131,6 +173,30 @@
     },
     {
       "key": {
+        "uuid": "79ef46ac_8c6d5798",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-21T18:15:10Z",
+      "side": 1,
+      "message": "I renamed the title and removed the \"implementation\" allusion.\n\nHopefully it should be clearer what the problem is. Let me know what do you think.",
+      "parentUuid": "c74dd344_b9cc32e7",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 0
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4ba4f171_859024c0",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 18
@@ -142,6 +208,30 @@
       "writtenOn": "2020-04-21T15:58:14Z",
       "side": 1,
       "message": "This also reads like a solution. Please describe the problems here and leave solutions for the solution doc(s).",
+      "range": {
+        "startLine": 79,
+        "startChar": 49,
+        "endLine": 80,
+        "endChar": 34
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c264ea09_a9ac5cf6",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-21T18:15:10Z",
+      "side": 1,
+      "message": "removed",
+      "parentUuid": "4ba4f171_859024c0",
       "range": {
         "startLine": 79,
         "startChar": 49,
@@ -201,6 +291,30 @@
     },
     {
       "key": {
+        "uuid": "8c1aca74_e1f12222",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-21T18:15:10Z",
+      "side": 1,
+      "message": "I have added a glossy at the beginning to avoid ambiguity. Let me know if I am missing anything.",
+      "parentUuid": "dd7b3aa5_e26b6458",
+      "range": {
+        "startLine": 84,
+        "startChar": 65,
+        "endLine": 84,
+        "endChar": 71
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e56242e8_29d1f7ab",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 18
@@ -221,6 +335,30 @@
       "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1fcb3300_9ac1f4d0",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-21T18:15:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e56242e8_29d1f7ab",
+      "range": {
+        "startLine": 95,
+        "startChar": 26,
+        "endLine": 95,
+        "endChar": 37
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -294,6 +432,30 @@
       "side": 1,
       "message": "\u003e This AC seems to limit to one specific solution.\n\n+1 the \"instanceId\u0027 is *one* solution, not the problem. It cannot be mentioned in the acceptance criteria, otherwise it becomes obvious that only the \"instanceId\" solution would solve that problem.",
       "parentUuid": "994d5465_2e00a899",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 66
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "11ddaf9a_057d8797",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-21T18:15:10Z",
+      "side": 1,
+      "message": "Reworded the AC to avoid references to the solution",
+      "parentUuid": "7b375534_4c2da60a",
       "range": {
         "startLine": 119,
         "startChar": 0,
