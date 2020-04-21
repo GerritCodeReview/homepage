@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "abf044b5_810a2cf4",
+        "filename": "tools/plugins.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-04-21T07:21:55Z",
+      "side": 1,
+      "message": "@staticmethod\nself is never used.",
+      "range": {
+        "startLine": 254,
+        "startChar": 4,
+        "endLine": 254,
+        "endChar": 28
+      },
+      "revId": "012dafba77ea0c366411a087092dd4fedf839eff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
