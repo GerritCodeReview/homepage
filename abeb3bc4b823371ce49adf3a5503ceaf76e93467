@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "98d30f2c_e68786d1",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T16:27:27Z",
+      "side": 1,
+      "message": "+1, I would just remove the list and say \"events\" :-)",
+      "parentUuid": "1c3a76d2_4d6d9bde",
+      "range": {
+        "startLine": 16,
+        "startChar": 33,
+        "endLine": 16,
+        "endChar": 78
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e6945841_8a15e0a1",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 18
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "7ab3959d_5f7c06e6",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T16:27:27Z",
+      "side": 1,
+      "message": "\u003e We need to agree on problem(s) before jumping into solutions. \n\n+1 the problem is not clearly stated but is \"hidden in the discussion\". However, the context is useful to understand the scenario. I would keep it but then put a clear specification of the problem.",
+      "parentUuid": "e6945841_8a15e0a1",
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e445c2b8_46f5ebe3",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 18
@@ -53,6 +95,30 @@
       "writtenOn": "2020-04-21T15:58:14Z",
       "side": 1,
       "message": "This reads like a solution. Move to a solution doc?",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 0
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c74dd344_b9cc32e7",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T16:27:27Z",
+      "side": 1,
+      "message": "\u003e This reads like a solution. Move to a solution doc?\n\nYes, but only from \"Making the instanceName ...\". The problem of understanding where an event comes from is not part of the solution. The \"instanceName\" is part of the solution.",
+      "parentUuid": "e445c2b8_46f5ebe3",
       "range": {
         "startLine": 64,
         "startChar": 0,
@@ -111,6 +177,30 @@
     },
     {
       "key": {
+        "uuid": "dd7b3aa5_e26b6458",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T16:27:27Z",
+      "side": 1,
+      "message": "+1, the document needs a general glossary of terms. Otherwise words can be ambiguous. \"topic\" in Gerrit has nothing to do with \"topic\" in a event broker.",
+      "parentUuid": "6228faed_601de7dc",
+      "range": {
+        "startLine": 84,
+        "startChar": 65,
+        "endLine": 84,
+        "endChar": 71
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e56242e8_29d1f7ab",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 18
@@ -151,6 +241,24 @@
     },
     {
       "key": {
+        "uuid": "b315ad71_1d66841a",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T16:27:27Z",
+      "side": 1,
+      "message": "\u003e In your indexing example, when receiving an indexing event, the receiver could use the staleness checker to see if it actually has work to do. In case the sender sees their own event, that becomes a relatively cheap no-op.\n\nYep, but there are many other events flying around (cached, replication, etc...) and instead of a case-by-case mitigation (e.g. staleness checker) it would be best to have a generalised solution.",
+      "parentUuid": "80ab8d9b_09ede5fd",
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "994d5465_2e00a899",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 18
@@ -162,6 +270,30 @@
       "writtenOn": "2020-04-21T15:58:14Z",
       "side": 1,
       "message": "This AC seems to limit to one specific solution. It\u0027s hard to say what a good generic AC would be, because as I point out above, there doesn\u0027t seem to be a generic problem stated. Perhaps something like: \"Gerrit (core?) should provide a way of adding information to events that can help consumers identify an initial source of the event\"?",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 66
+      },
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b375534_4c2da60a",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T16:27:27Z",
+      "side": 1,
+      "message": "\u003e This AC seems to limit to one specific solution.\n\n+1 the \"instanceId\u0027 is *one* solution, not the problem. It cannot be mentioned in the acceptance criteria, otherwise it becomes obvious that only the \"instanceId\" solution would solve that problem.",
+      "parentUuid": "994d5465_2e00a899",
       "range": {
         "startLine": 119,
         "startChar": 0,
