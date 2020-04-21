@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "80ab8d9b_09ede5fd",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-04-21T13:21:12Z",
+      "side": 1,
+      "message": "Is this a problem that your instances are suffering from?\n\nIf so, instead of telling the receiver who sent the event, could we make operations have a cheap pre-flight check that would make the sender disregard it\u0027s own event?\n\nIn your indexing example, when receiving an indexing event, the receiver could use the staleness checker to see if it actually has work to do. In case the sender sees their own event, that becomes a relatively cheap no-op.",
+      "revId": "abeb3bc4b823371ce49adf3a5503ceaf76e93467",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
