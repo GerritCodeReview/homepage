@@ -143,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "ddae1329_856727ca",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T21:53:01Z",
+      "side": 1,
+      "message": "\u003e AFAIK, no user is currently complaining \"I wish I had instance source information in my events!\"\n\nThis is what Ponch is targeting. If that is not a cause of concern of your users, it means that the problem is not relevant to your user-base, which is absolutely fine.\n\n\u003e It sounds like there are/were admins complaining \"Why is the multi-site/HA plugin constantly triggering reindex for my changes?!?\"\n\nThat is not the focus of this design, but if you have such complains you are free to write a separate design about that. I would not hijack Ponch\u0027s design for other complains or problems.",
+      "parentUuid": "364e2f8c_08d8a54b",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 35
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "10a40fa2_7b000e85",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
@@ -367,6 +391,30 @@
       "side": 1,
       "message": "I think focusing on that specifically is a solution in search of a problem.\n\nWhat would you consider the AC if the problem was just the Avoid Loops case above? Probably something like: \"Gerrit must provide a way to help ensure re-broadcast/propagated events do not result in an infinite loop\", or if you look even more specifically at the avoiding loops during reindex example, \"Gerrit must provide a way to help ensure an event only triggers a single index action per instance\". That leaves open all kinds of solutions, any of which would be suitable because they solve this problem. Some solutions may be better than others because they also help solve related problems. But then that\u0027s a discussion we can have when evaluating solutions as the use case is good enough to judge fitness for all of them.",
       "parentUuid": "fcfd5967_bfe78fd1",
+      "range": {
+        "startLine": 84,
+        "startChar": 2,
+        "endLine": 84,
+        "endChar": 24
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f08fbad4_6b349d34",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-21T21:53:01Z",
+      "side": 1,
+      "message": "From your comments I believe the looping / re-broadcasting, which was an example of the consequences, have been misleading. @Ponch can you remove that part as well?",
+      "parentUuid": "b905ae90_4bc08502",
       "range": {
         "startLine": 84,
         "startChar": 2,
