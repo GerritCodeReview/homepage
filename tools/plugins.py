@@ -72,7 +72,7 @@ class Branch:
         return cls(name, BuildResult.UNAVAILABLE, False)
 
     def render(self):
-        return f"{CHECK_MARK if self.present else SQUARE}|{self.build.render()}"
+        return CHECK_MARK if self.present else SQUARE
 
 
 @dataclass
@@ -90,14 +90,8 @@ class Plugin:
     recent_changes_count: int
     branches: List[Branch]
 
-    def _render_empty(self):
+    def render_empty(self):
         return SQUARE if self.empty else CHECK_MARK
-
-    def render_state(self) -> str:
-        return f"{self.state.render()}|{self._render_empty()}"
-
-    def render_branches(self) -> str:
-        return "|".join([b.render() for b in self.branches])
 
 
 class Plugins:
@@ -322,14 +316,17 @@ class Plugins:
             if flags != (p.state, p.empty):
                 output.write(f"\n\n### {self._get_matrix_header(p.state, p.empty)}")
                 output.write(f"\n\n{header}|\n{dashes}|\n{spacer}|\n")
+            branches = "|".join(
+                [f"{b.render()}|{b.build.render()}" for b in p.branches]
+            )
             output.write(
                 f"|[{p.name}]"
-                + f"|{p.render_state()}"
+                + f"|{p.state.render()}|{p.render_empty()}"
                 + f"|{p.recent_changes_count}"
                 + f"/[{p.all_changes_count}]({GERRIT}/q/project:plugins/{p.name})"
                 + f"|{p.description}"
                 + f"|{p.owner_names}"
-                + f"|{p.render_branches()}"
+                + f"|{branches}"
                 + "|\n"
             )
             flags = (p.state, p.empty)
