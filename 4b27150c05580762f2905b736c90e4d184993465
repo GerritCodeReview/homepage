@@ -81,6 +81,24 @@
       "revId": "4b27150c05580762f2905b736c90e4d184993465",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c133f46f_2d9dd183",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:44:57Z",
+      "side": 1,
+      "message": "+1 to Matthias comments: we would never be able to dismiss v2.16 completely, because it is a mandatory step for everyone migrating from ReviewDb.",
+      "parentUuid": "98036efc_e5cabc45",
+      "revId": "4b27150c05580762f2905b736c90e4d184993465",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
