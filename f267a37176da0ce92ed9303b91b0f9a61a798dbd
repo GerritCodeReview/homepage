@@ -1,0 +1,280 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4a51d85_884a670f",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "Missing word: to",
+      "range": {
+        "startLine": 43,
+        "startChar": 31,
+        "endLine": 43,
+        "endChar": 32
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "57062296_556641e8",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "Missing words: how to include it",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 8
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c1016ee1_beba3070",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "This sounds a bit strange. I know what you mean but it might be better to write \"Dave Borowitz\u0027s contributions were just adaptations, ...\" to avoid misunderstandings.",
+      "range": {
+        "startLine": 62,
+        "startChar": 6,
+        "endLine": 62,
+        "endChar": 41
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b4ed600f_f63afe99",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "Missing word(s): like?",
+      "range": {
+        "startLine": 64,
+        "startChar": 47,
+        "endLine": 64,
+        "endChar": 48
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6e28479f_956c01ca",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "That\u0027s saying a bit more than we covered in the meeting. We never discussed whether the feature set for automatic reviewer addition was sufficient. We only said that the current feature set seemed like a nice addition for Gerrit.",
+      "range": {
+        "startLine": 65,
+        "startChar": 4,
+        "endLine": 65,
+        "endChar": 43
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "926b7692_922f0cfc",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "The implicit \"suggesting reviewers\" functionality actually was an aspect for criticism.",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 65,
+        "endChar": 58
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cc2d69ae_28ebffbc",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "FYI: The complete assessment is in https://bugs.chromium.org/p/gerrit/issues/detail?id\u003d12614. It also mentions additional aspects we didn\u0027t cover during the meeting as I only noticed them later.",
+      "range": {
+        "startLine": 65,
+        "startChar": 70,
+        "endLine": 66,
+        "endChar": 61
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6bbbbc54_97121df4",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "To be precise, the plugin already has some options for WIP and private changes. They just don\u0027t seem reasonable and the general behavior for WIP/private changes would need to be changed.",
+      "range": {
+        "startLine": 66,
+        "startChar": 68,
+        "endLine": 68,
+        "endChar": 26
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "46cd414c_6872f1ba",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "I rather understood our conclusion to mean that the found issues need to be fixed first, which would be blockers. We were just generally in favor of adding the plugin but not in the current state.",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 54
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "063cc4e9_d017fa28",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "This sounds strange with the rest of the sentence. I would just write \"We\" here.",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 11
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c00e476c_ce4914ed",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "Do we really want to list all items here? Wouldn\u0027t it be sufficient to have the roadmap-adjustment change (in the future) which shows how the roadmap is changed?",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 35
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "963fd4cc_aa6210bc",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-22T16:20:53Z",
+      "side": 1,
+      "message": "Different order: this can",
+      "range": {
+        "startLine": 122,
+        "startChar": 49,
+        "endLine": 122,
+        "endChar": 57
+      },
+      "revId": "f267a37176da0ce92ed9303b91b0f9a61a798dbd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
