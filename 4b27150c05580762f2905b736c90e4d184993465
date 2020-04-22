@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1df0e6b0_f21f1086",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-22T06:43:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0b5fb46d_b4a9ce39",
+      "range": {
+        "startLine": 43,
+        "startChar": 55,
+        "endLine": 43,
+        "endChar": 60
+      },
+      "revId": "4b27150c05580762f2905b736c90e4d184993465",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "41d9de81_767c2337",
         "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
         "patchSetId": 2
@@ -36,6 +60,24 @@
       "writtenOn": "2020-04-22T06:40:32Z",
       "side": 1,
       "message": "2.16 will still be important for everyone who wants to upgrade to 3.x due to notedb migration.\nHence I think potential problems in this migration should still be fixed.",
+      "revId": "4b27150c05580762f2905b736c90e4d184993465",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "98036efc_e5cabc45",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-22T06:43:06Z",
+      "side": 1,
+      "message": "I think we can make exceptions for serious issues, and I would consider migration failure a serious issue.",
+      "parentUuid": "41d9de81_767c2337",
       "revId": "4b27150c05580762f2905b736c90e4d184993465",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
