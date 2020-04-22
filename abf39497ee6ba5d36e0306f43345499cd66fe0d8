@@ -22,6 +22,30 @@
       "revId": "abf39497ee6ba5d36e0306f43345499cd66fe0d8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "74a7d700_1506df43",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-04-22T11:07:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4b27ff83_ed2052ae",
+      "range": {
+        "startLine": 93,
+        "startChar": 8,
+        "endLine": 93,
+        "endChar": 21
+      },
+      "revId": "abf39497ee6ba5d36e0306f43345499cd66fe0d8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
