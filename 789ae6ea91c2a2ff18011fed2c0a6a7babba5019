@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a35fb9b4_1038d967",
+        "filename": "_posts/2020-04-22-gerrit-news.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-22T23:58:20Z",
+      "side": 1,
+      "message": "This should have had a different title; this is not a project news issue but just an announcement of the CM work",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 49
+      },
+      "revId": "789ae6ea91c2a2ff18011fed2c0a6a7babba5019",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
