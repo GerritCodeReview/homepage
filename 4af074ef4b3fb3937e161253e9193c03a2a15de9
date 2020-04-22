@@ -22,6 +22,30 @@
       "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e9619429_30b37abd",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T16:11:32Z",
+      "side": 1,
+      "message": "Nasser, I believe Ponch has addressed all the points raised. If the problem that Ponch is willing to address is not something that your plugins need or are facing, I believe it\u0027s fine.\n\nIf the problem that Ponch is addressing is something that you feel as a problem, then please continue to provide feedback.\n\nEveryone\u0027s use-cases are different.",
+      "parentUuid": "d85dc8ec_70cb4a31",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 16
+      },
+      "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
