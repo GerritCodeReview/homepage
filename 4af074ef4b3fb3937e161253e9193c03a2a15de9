@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d85dc8ec_70cb4a31",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-22T15:52:07Z",
+      "side": 1,
+      "message": "At the risk of sounding repetitive, this sounds like a problem that is only a problem if some other problem exists. Why, as a plugin developer, do you need to determine from which instance an event comes from? \u003c--- To me, that\u0027s the problem. Not being able to determine the source will never be a problem if you don\u0027t have a use case for using that information. You\u0027ve pretty much said exactly that in a previous patch set (I think it was in your Background section).\n\nFrom my understanding so far, there is a new problem that exists specifically when using the high-availability or multi-site plugins. I thought it was one of the problems you now moved to the \"by products\" section, but from your latest comments, I think you disagree with that.\n\nI know this may seem pedantic, but maybe I can give some context. As a plugin developer, there are all kinds of things I can\u0027t do. I wouldn\u0027t expect Gerrit core to help me do those things unless it helped me solve some specific problem. For example, once upon a time, plugins couldn\u0027t add data to query output. Then there was a specific problem where a plugin had access to some information about a change that Core didn\u0027t have, and a user wanted to get that information with a single command. Thus, Core was enhanced to provide plugins a way to add that data. Same idea for plugin provided search operators and pretty much every other plugin extension. We wouldn\u0027t want to add extensions/features unless there was a specific need, otherwise we risk bloat.\n\nI don\u0027t think some generic plugin developer has a problem with event source. I think you are developing some plugin (multi-site?) and encountered a specific problem. What is that specific problem?",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 16
+      },
+      "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
