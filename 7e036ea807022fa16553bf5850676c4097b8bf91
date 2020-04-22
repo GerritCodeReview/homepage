@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "65ff6444_d5620ebf",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-04-22T06:51:42Z",
+      "side": 1,
+      "message": "likely",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 7
+      },
+      "revId": "7e036ea807022fa16553bf5850676c4097b8bf91",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f5cdeca3_30227ee5",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-04-22T06:51:42Z",
+      "side": 1,
+      "message": "Migration to Polymer 3 is done including HTML imports removal (just not for all plugins yet).\n\nYes, TypeScript is postponed. Also postponed:\n- Attention Set\n- Comment and Patchset Navigation",
+      "revId": "7e036ea807022fa16553bf5850676c4097b8bf91",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
