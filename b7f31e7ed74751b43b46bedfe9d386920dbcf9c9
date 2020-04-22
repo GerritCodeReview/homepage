@@ -1,0 +1,251 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "747850af_591e025d",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "manually checking, with chances of misses and mistakes",
+      "range": {
+        "startLine": 34,
+        "startChar": 46,
+        "endLine": 34,
+        "endChar": 65
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c6a8f934_9ee19161",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "allocate their time.\n\nAlso for the other members of the community, allocate some time to test the RCs, report and troubleshoot issues.",
+      "range": {
+        "startLine": 43,
+        "startChar": 3,
+        "endLine": 43,
+        "endChar": 21
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d143d2b_a96d17e6",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "This would be required by all members of the community, on a best-effort basis",
+      "range": {
+        "startLine": 49,
+        "startChar": 2,
+        "endLine": 49,
+        "endChar": 43
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "510d0334_6b6c8430",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "There are major changes in-progress on the JGit side: I believe that at least one member (Matthias or anyone else from the JGit community) would be necessary.",
+      "range": {
+        "startLine": 53,
+        "startChar": 16,
+        "endLine": 53,
+        "endChar": 28
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5905177c_aae8b9f2",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "the #gerrit-32-release Slack channel",
+      "range": {
+        "startLine": 55,
+        "startChar": 39,
+        "endLine": 55,
+        "endChar": 44
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7cf8b127_926927e8",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "https://gerritcodereview.slack.com/archives/C0128RZFSR3",
+      "range": {
+        "startLine": 55,
+        "startChar": 46,
+        "endLine": 55,
+        "endChar": 81
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ac0aca6_7729a8bf",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "Gatling e2e test framework for Git",
+      "range": {
+        "startLine": 61,
+        "startChar": 19,
+        "endLine": 61,
+        "endChar": 37
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d947045b_0ca76411",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "test",
+      "range": {
+        "startLine": 61,
+        "startChar": 66,
+        "endLine": 61,
+        "endChar": 72
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "13b23b49_d3e44eff",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "GerritForge and Ericsson",
+      "range": {
+        "startLine": 61,
+        "startChar": 51,
+        "endLine": 61,
+        "endChar": 62
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "713ef887_01bcb4b1",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "on a production-like setup on AWS automatically provisioned using the [aws-gerrit](https://gerrit.googlesource.com/aws-gerrit) templates.",
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91c1674b_643b5386",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T08:43:49Z",
+      "side": 1,
+      "message": "Apart from the migration to NoteDb",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 18
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
