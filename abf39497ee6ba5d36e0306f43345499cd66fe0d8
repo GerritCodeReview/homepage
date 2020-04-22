@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b27ff83_ed2052ae",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-04-22T11:06:37Z",
+      "side": 1,
+      "message": "this should now be no longer private since it\u0027s called from another class so I\u0027d remove the leading underscore",
+      "range": {
+        "startLine": 93,
+        "startChar": 8,
+        "endLine": 93,
+        "endChar": 21
+      },
+      "revId": "abf39497ee6ba5d36e0306f43345499cd66fe0d8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
