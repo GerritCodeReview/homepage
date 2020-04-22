@@ -154,6 +154,19 @@ class Plugins:
         template = Template(open(template_path).read())
         return template.render(data=data)
 
+    @staticmethod
+    def _get_matrix_header(state, is_empty):
+        if state == PluginState.ACTIVE:
+            if is_empty:
+                return "Not Started"
+            else:
+                return "Active"
+        else:
+            if is_empty:
+                return "Deprecated, not started"
+            else:
+                return "Decrecated"
+
     def __init__(self):
         auth = self._authenticate(self._parse_options())
         self.api = GerritRestAPI(url=GERRIT, auth=auth)
@@ -307,6 +320,7 @@ class Plugins:
         flags = (None, None)
         for p in self.plugins:
             if flags != (p.state, p.empty):
+                output.write(f"\n\n### {self._get_matrix_header(p.state, p.empty)}")
                 output.write(f"\n\n{header}|\n{dashes}|\n{spacer}|\n")
             output.write(
                 f"|[{p.name}]"
