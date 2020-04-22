@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "f54d36bc_e425a329",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-22T23:55:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c85fe5e_0efecd0d",
+      "range": {
+        "startLine": 66,
+        "startChar": 19,
+        "endLine": 66,
+        "endChar": 45
+      },
+      "revId": "fe166b3965ba487c50da9af88a68de86df2d8a9a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b2d364ed_05b3634e",
         "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
         "patchSetId": 6
@@ -45,6 +69,30 @@
       "revId": "fe166b3965ba487c50da9af88a68de86df2d8a9a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fc1f8ed2_783fff0e",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-22T23:55:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2d364ed_05b3634e",
+      "range": {
+        "startLine": 73,
+        "startChar": 59,
+        "endLine": 73,
+        "endChar": 100
+      },
+      "revId": "fe166b3965ba487c50da9af88a68de86df2d8a9a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
