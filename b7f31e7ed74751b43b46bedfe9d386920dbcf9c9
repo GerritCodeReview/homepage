@@ -214,6 +214,30 @@
     },
     {
       "key": {
+        "uuid": "4054f30c_48103799",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-22T11:30:24Z",
+      "side": 1,
+      "message": "I assume this refers to the jsch related changes.",
+      "parentUuid": "e1d9d95d_d3616648",
+      "range": {
+        "startLine": 53,
+        "startChar": 16,
+        "endLine": 53,
+        "endChar": 28
+      },
+      "revId": "b7f31e7ed74751b43b46bedfe9d386920dbcf9c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5905177c_aae8b9f2",
         "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
         "patchSetId": 4
