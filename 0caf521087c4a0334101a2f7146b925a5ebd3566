@@ -22,6 +22,30 @@
       "revId": "0caf521087c4a0334101a2f7146b925a5ebd3566",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "853cf0c7_778163fc",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-22T10:37:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df944d51_7c03aaa4",
+      "range": {
+        "startLine": 55,
+        "startChar": 60,
+        "endLine": 55,
+        "endChar": 73
+      },
+      "revId": "0caf521087c4a0334101a2f7146b925a5ebd3566",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
