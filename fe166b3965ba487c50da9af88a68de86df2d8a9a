@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5c85fe5e_0efecd0d",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-04-22T18:30:19Z",
+      "side": 1,
+      "message": "Would link to [1], as where to find it is not trivial yet.\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-e2e-tests.html",
+      "range": {
+        "startLine": 66,
+        "startChar": 19,
+        "endLine": 66,
+        "endChar": 45
+      },
+      "revId": "fe166b3965ba487c50da9af88a68de86df2d8a9a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b2d364ed_05b3634e",
+        "filename": "_posts/2020-04-22-gerrit-3.2-release-plan.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-04-22T18:30:19Z",
+      "side": 1,
+      "message": "This is a manual redirect to [2] https://www.gerritcodereview.com/support.html#supported-versions, so would replace with that link ([2]).",
+      "range": {
+        "startLine": 73,
+        "startChar": 59,
+        "endLine": 73,
+        "endChar": 100
+      },
+      "revId": "fe166b3965ba487c50da9af88a68de86df2d8a9a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
