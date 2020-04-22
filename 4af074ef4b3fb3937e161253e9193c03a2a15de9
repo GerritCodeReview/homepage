@@ -94,6 +94,30 @@
       "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "83f1c4b2_b5681724",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-22T16:56:20Z",
+      "side": 1,
+      "message": "\u003e In the background is clearly described. Of course @Ponch cannot give you all the details of the implementation of all the plugins mentioned, but feel free to read the code and see how they fit together.\n\nHow is that code relevant to the question of WHY?\n\nThe only hint I can find in the background that is perhaps WHY and not WHAT is this line: \"Currently any plugin uses its own way of deducing the origin of an event.\" Is the problem that different plugins are forced to do this on their own and therefore we may end up duplicating development effort? That would make sense to me, as it\u0027s repeated on the line right below this one as well: \"Each plugin implements its own strategy to understand the source of an event.\" If you made that the problem statement, I think this discussion would be over. But that assumes I\u0027m guessing correctly. The reason I\u0027m looking for clarification is because I don\u0027t want to guess what problem you\u0027re trying to solve.\n\nI thought I was/am being helpful in my comments. It\u0027s frustrating that when I get to asking why, the response is to try and shut me down. What\u0027s wrong with asking for why something is a problem? If we can\u0027t explain WHY, perhaps it\u0027s not the problem, and that could be a major issue with any design. Solving the wrong problem is a huge waste of time (with rippling effects).\n\n\u003e \n\u003e In your current Gerrit release you are running at Qualcomm possibly it really doesn\u0027t make any difference and therefore you could live without it. This is absolutely fine, let\u0027s now hijack @Ponch proposal.\n\nI think it is likely relevant, at least to our plans. I\u0027m not at all trying to hijack. I\u0027m expecting real problems presented in design docs, not hypothetical ones.\n\n\u003e \n\u003e Let\u0027s bear in mind the reason WHY we have a design process: discussion. The discussion has a beginning and an end: it cannot last forever.\n\nI think that\u0027s an oversimplification. We don\u0027t do design docs just for discussion sake. At the very least we expect to gain quality too. But I agree there must be an end. I didn\u0027t expect the discussion to even last this long. I thought PS22 was going to have a clear and specific problem statement that easily justifies itself. I thought that based on the other content of the doc which I thought had the problem statement hidden somewhere within (words I think you, Luca, used).",
+      "parentUuid": "5bc2843a_d6b57d4b",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 16
+      },
+      "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
