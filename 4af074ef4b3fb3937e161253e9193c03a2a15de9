@@ -46,6 +46,30 @@
       "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "485c58bd_5d3bb09b",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-22T16:23:22Z",
+      "side": 1,
+      "message": "\u003e Nasser, I believe Ponch has addressed all the points raised.\n\nI think we\u0027re still lacking an answer to \"Why, as a plugin developer, do you need to determine from which instance an event comes from?\"\n\nIf we look at best practices for good commit messages, they include WHAT and WHY. I think it\u0027s reasonable to apply the same expectations to design docs. This doc describes WHAT very well: \"I cannot determine from which instances events are coming from\". I do not see an explanation for WHY that matters.",
+      "parentUuid": "e9619429_30b37abd",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 16
+      },
+      "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
