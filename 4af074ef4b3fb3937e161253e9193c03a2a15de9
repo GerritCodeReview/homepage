@@ -70,6 +70,30 @@
       "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5bc2843a_d6b57d4b",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-22T16:29:58Z",
+      "side": 1,
+      "message": "In the background is clearly described. Of course @Ponch cannot give you all the details of the implementation of all the plugins mentioned, but feel free to read the code and see how they fit together.\n\nIn your current Gerrit release you are running at Qualcomm possibly it really doesn\u0027t make any difference and therefore you could live without it. This is absolutely fine, let\u0027s now hijack @Ponch proposal.\n\nLet\u0027s bear in mind the reason WHY we have a design process: discussion. The discussion has a beginning and an end: it cannot last forever.\nThanks again for your time reviewing Ponch proposal, shall we move on.",
+      "parentUuid": "485c58bd_5d3bb09b",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 16
+      },
+      "revId": "4af074ef4b3fb3937e161253e9193c03a2a15de9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
