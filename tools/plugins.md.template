@@ -80,6 +80,7 @@ Plugins compatibility with each Gerrit version depends on their current CI build
 Those build results likely change over time; this matrix is their last snapshot.
 The matrix was last updated on <strong>{{ data.updated }}</strong>.
 
+# Plugin Matrix
 
 [ci-scripts]: https://gerrit.googlesource.com/gerrit-ci-scripts/+/refs/heads/master/jenkins/
 [Contributions]: https://gerrit-review.googlesource.com/Documentation/dev-community.html#how-to-contribute
