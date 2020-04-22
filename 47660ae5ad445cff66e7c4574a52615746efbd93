@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "48eeb38e_b96bde89",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-22T11:15:33Z",
+      "side": 1,
+      "message": "yep, amended",
+      "parentUuid": "0642224d_681a1914",
+      "range": {
+        "startLine": 12,
+        "startChar": 14,
+        "endLine": 12,
+        "endChar": 42
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3c18e484_f96139f6",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
@@ -60,6 +84,30 @@
       "side": 1,
       "message": "I believe this is a multi-master setup, not a master-slave. So no replicas, all masters.",
       "parentUuid": "3c18e484_f96139f6",
+      "range": {
+        "startLine": 19,
+        "startChar": 69,
+        "endLine": 20,
+        "endChar": 2
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a8921ed_6f118e68",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-22T11:15:33Z",
+      "side": 1,
+      "message": "Correct we are assuming they are all master as. I have reworded the sentence.",
+      "parentUuid": "6daa86ae_319e758d",
       "range": {
         "startLine": 19,
         "startChar": 69,
@@ -215,6 +263,30 @@
     },
     {
       "key": {
+        "uuid": "6611feb9_b641aea3",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-22T11:15:33Z",
+      "side": 1,
+      "message": "I tried to narrow down the issue. Probably the misunderstanding was about the \"intended user\" this problem is for.\n\nIt is more a problem for plugin developers than admins.",
+      "parentUuid": "44e63999_df3d9d76",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 35
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "10a40fa2_7b000e85",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
@@ -286,6 +358,30 @@
     },
     {
       "key": {
+        "uuid": "403d6702_60005e3e",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-22T11:15:33Z",
+      "side": 1,
+      "message": "I removed the indexes reference since it was drawing away attention from the main problem. As mentioned in another comment the \"avoid loops\" will be a by-product once the problem will be fixed, not only for reindexing, but for any kind of event.\n\nIn general I removed all the reference to indexing and index events from the doc since I think I just created more confusion than clarity mentioning them 😕",
+      "parentUuid": "cee69129_99b7290f",
+      "range": {
+        "startLine": 41,
+        "startChar": 49,
+        "endLine": 41,
+        "endChar": 87
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "33c97dfe_fb182be2",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
@@ -333,6 +429,30 @@
     },
     {
       "key": {
+        "uuid": "c202410f_c885dba1",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-22T11:15:33Z",
+      "side": 1,
+      "message": "sure..will do",
+      "parentUuid": "c1eeb967_130d85f5",
+      "range": {
+        "startLine": 52,
+        "startChar": 65,
+        "endLine": 53,
+        "endChar": 34
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "5b3e6830_f9bc7635",
         "filename": "pages/design-docs/instance-id/use-cases.md",
         "patchSetId": 21
@@ -368,6 +488,30 @@
       "side": 1,
       "message": "+1 these are \"related use-cases\" and not the primary one, which instead is described in the acceptance criteria.",
       "parentUuid": "5b3e6830_f9bc7635",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 23
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fed78c80_61a80835",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-22T11:15:33Z",
+      "side": 1,
+      "message": "I moved those in a separate \"by-product section\". I agree they just created confusion :/",
+      "parentUuid": "8091d016_c2a8eaa5",
       "range": {
         "startLine": 57,
         "startChar": 0,
@@ -463,6 +607,30 @@
       "side": 1,
       "message": "From your comments I believe the looping / re-broadcasting, which was an example of the consequences, have been misleading. @Ponch can you remove that part as well?",
       "parentUuid": "b905ae90_4bc08502",
+      "range": {
+        "startLine": 84,
+        "startChar": 2,
+        "endLine": 84,
+        "endChar": 24
+      },
+      "revId": "47660ae5ad445cff66e7c4574a52615746efbd93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e3023210_d22ee9de",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-04-22T11:15:33Z",
+      "side": 1,
+      "message": "I re-named the previous misleading \"use-cases\" section. More than use cases are by-product of knowing the origin of an Event.\n\nHopefully the next patches will make more sense.",
+      "parentUuid": "f08fbad4_6b349d34",
       "range": {
         "startLine": 84,
         "startChar": 2,
