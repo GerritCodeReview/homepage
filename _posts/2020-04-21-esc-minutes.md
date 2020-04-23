@@ -66,7 +66,7 @@ it looks like the functionality makes sense and the current feature set seems
 like a nice addition to Gerrit. For the complete assessment, see the
 [Issue 12614](https://bugs.chromium.org/p/gerrit/issues/detail?id=12614).
 The current implementation and user-journeys need some refinement (e.g. The
-automatic addition of reviewers don't seem reasonable and the general behavior
+suggestion of reviewers don't seem reasonable and the general behavior
 for WIP/private changes would need to be changed).
 From the look&feel perspective, there are minor issues with padding and the
 style can be improved. However, the issues are not a
