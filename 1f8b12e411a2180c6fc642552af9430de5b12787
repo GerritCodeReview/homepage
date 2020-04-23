@@ -22,6 +22,30 @@
       "revId": "1f8b12e411a2180c6fc642552af9430de5b12787",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "87ea5a7e_c8735c10",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-23T08:21:48Z",
+      "side": 1,
+      "message": "Fixed in https://gerrit-review.googlesource.com/c/homepage/+/264000",
+      "parentUuid": "e853d40a_332e0e6f",
+      "range": {
+        "startLine": 68,
+        "startChar": 72,
+        "endLine": 69,
+        "endChar": 53
+      },
+      "revId": "1f8b12e411a2180c6fc642552af9430de5b12787",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
