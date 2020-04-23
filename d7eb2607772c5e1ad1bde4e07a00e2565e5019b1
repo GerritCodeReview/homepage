@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "84c4e1ee_9ef70c12",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2020-04-23T12:26:59Z",
+      "side": 1,
+      "message": "I suppose this can be under new features, moved, thanks!",
+      "parentUuid": "8c0b52d8_59c3b727",
+      "revId": "d7eb2607772c5e1ad1bde4e07a00e2565e5019b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "65d0c144_90ca179d",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2020-04-23T11:33:31Z",
       "side": 1,
       "message": "Does the Polymer 3 upgrade require any changes in plugins?  I.e. should something be mentioned here under Breaking Changes?",
+      "revId": "d7eb2607772c5e1ad1bde4e07a00e2565e5019b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a9a231bc_82168120",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2020-04-23T12:26:59Z",
+      "side": 1,
+      "message": "No, i don\u0027t think so.",
+      "parentUuid": "65d0c144_90ca179d",
       "revId": "d7eb2607772c5e1ad1bde4e07a00e2565e5019b1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
