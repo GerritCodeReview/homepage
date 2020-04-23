@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e853d40a_332e0e6f",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-04-23T07:35:23Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this have been \"The suggestion of reviewers doesn\u0027t seem reasonable\"? Otherwise, the notes contradict themselves.\n\nShould I create a follow-up change for this?",
+      "range": {
+        "startLine": 68,
+        "startChar": 72,
+        "endLine": 69,
+        "endChar": 53
+      },
+      "revId": "1f8b12e411a2180c6fc642552af9430de5b12787",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
