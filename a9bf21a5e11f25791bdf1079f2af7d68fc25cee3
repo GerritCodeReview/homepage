@@ -46,6 +46,30 @@
       "revId": "a9bf21a5e11f25791bdf1079f2af7d68fc25cee3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "28d4cc46_0d9b643e",
+        "filename": "_posts/2020-04-21-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-23T08:26:16Z",
+      "side": 1,
+      "message": "Alice actually noticed the mistake, I just posted the fix.",
+      "parentUuid": "4674f3ee_a0c0a302",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 10
+      },
+      "revId": "a9bf21a5e11f25791bdf1079f2af7d68fc25cee3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
