@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5595a468_0f5cb5cb",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-04-23T00:37:44Z",
+      "side": 1,
+      "message": "Nasser, will it resolve your question if we reword this to something like \"Gerrit should provide a way to add the initial source of the event into events, so that plugin developers don\u0027t need to duplicate development effort to identify it\"?",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 41
+      },
+      "revId": "01e201f2076d88e482516c822e5d7c2bc164a708",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
