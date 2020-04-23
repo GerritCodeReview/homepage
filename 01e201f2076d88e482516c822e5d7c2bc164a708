@@ -22,6 +22,30 @@
       "revId": "01e201f2076d88e482516c822e5d7c2bc164a708",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "29f1b453_3283712a",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-04-23T03:31:21Z",
+      "side": 1,
+      "message": "It probably helps. Right now, if I were trying to pick a solution for this, I\u0027d have a hard time. How would I pick any of these as the correct way to identify the initial source: using some kind of \"canonical service instance\", a geographical site, a specific IP, a DNS name, kubernetes pod name, AWS instance id?\n\nI think the problem (and then the AC) need to help clarify which of those would actually help solve the problem being experienced.",
+      "parentUuid": "5595a468_0f5cb5cb",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 41
+      },
+      "revId": "01e201f2076d88e482516c822e5d7c2bc164a708",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
