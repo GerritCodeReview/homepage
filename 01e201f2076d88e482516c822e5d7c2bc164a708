@@ -46,6 +46,30 @@
       "revId": "01e201f2076d88e482516c822e5d7c2bc164a708",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91af835c_59c02d06",
+        "filename": "pages/design-docs/instance-id/use-cases.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-23T12:04:40Z",
+      "side": 1,
+      "message": "\u003e I think the problem (and then the AC) need to help clarify which of those would actually help solve the problem being experienced.\n\nI believe Ponch included four possibly answers to the *WHY* the source is needed:\n1. Avoid loops\n2. Priority routing\n3. Troubleshooting\n4. Preventing duplications\n\nThere could be of course many more uses of the \"sender\" field of a message produced in a distributed system.\n\nI wouldn\u0027t hijack Ponch\u0027s work by adding possible solutions (geographical site, a specific IP, a DNS name, kubernetes pod name, AWS instance id) to the definition of the problem.\n\nAs I mentioned, if you do see any of the 4x *WHY* as valid or meaningful for your Gerrit setup and use-case, that\u0027s fine, we have possibly different problems and different challenges to tackle in our Gerrit setups.\n\nWe are running a plain-vanilla Gerrit v3.1.4 in multi-site, and we are facing this and many other challenges. That\u0027s why Ponch came up with this design proposal for the Gerrit community.\n\nI believe we should try to help and encourage people like Ponch coming up with designs and proposals. We want more designs, more ideas, more contributions for the community to thrive, isn\u0027t it?",
+      "parentUuid": "29f1b453_3283712a",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 41
+      },
+      "revId": "01e201f2076d88e482516c822e5d7c2bc164a708",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
