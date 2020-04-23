@@ -11,6 +11,6 @@ toc: true
 
 ## Community Management work done
 
-See the [dedicated news post](https://www.gerritcodereview.com/2020-04-22-gerrit-news.html).
+See the [dedicated news post](https://www.gerritcodereview.com/2020-04-22-community-managers-report.html).
 
 ## Item 2

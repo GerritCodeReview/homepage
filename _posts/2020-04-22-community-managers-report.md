@@ -1,9 +1,9 @@
 ---
-title: "Gerrit Project News #9: April 22nd, 2020"
+title: "Gerrit Community Managers Report"
 tags: news
 keywords: news
 permalink: 2020-04-22-gerrit-news.html
-summary: "Gerrit project news for April 22nd, 2020."
+summary: "Report of progress made by the Community Managers in this year"
 hide_sidebar: true
 hide_navtoggle: true
 toc: true
