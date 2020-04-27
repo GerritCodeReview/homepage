@@ -21,7 +21,7 @@ CI = "https://gerrit-ci.gerritforge.com"
 GERRIT = "https://gerrit-review.googlesource.com"
 GITILES = "https://gerrit.googlesource.com"
 
-CHECK_MARK = "&#x2714;"
+BRANCH_MARK = "&#x2325;"
 GREEN_CHECK_MARK = "&#x2705;"
 LOCK = "&#x1F512;"
 RED_CROSS = "&#x274C;"
@@ -72,7 +72,7 @@ class Branch:
         return cls(name, BuildResult.UNAVAILABLE, False)
 
     def render(self):
-        return CHECK_MARK if self.present else SQUARE
+        return BRANCH_MARK if self.present else SQUARE
 
 
 @dataclass
@@ -91,7 +91,7 @@ class Plugin:
     branches: List[Branch]
 
     def render_empty(self):
-        return SQUARE if self.empty else CHECK_MARK
+        return SQUARE if self.empty else BRANCH_MARK
 
 
 class Plugins:

@@ -53,10 +53,10 @@ description is shown (first sentence, or '&#x20DE;' if none).
 
 The last known plugin activity state is shown by the following icons
 
-| project   |           | repository  |          |
-|-----------|-----------|-------------|----------|
-| active    | &#x2705;  | has content | &#x2714; |
-| read-only | &#x1F512; | is empty    | &#x20DE; |
+| project   |           | repository |          |
+|-----------|-----------|------------|----------|
+| active    | &#x2705;  | has branch | &#x2325; |
+| read-only | &#x1F512; | no branch  | &#x20DE; |
 
 and the number of recent changes in the last 3 months is also shown.
 
