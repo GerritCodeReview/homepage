@@ -243,20 +243,19 @@ class Plugins:
         pluginBranches = self._get_branches(pluginId)
         branches = list()
         for branch in BRANCHES:
-            if branch in pluginBranches:
-                string = fr"^plugin-{pluginName}[\w|-]*-{branch}$"
-                pattern = re.compile(string)
-                result = BuildResult.UNAVAILABLE
-                for job in builds["jobs"]:
-                    if pattern.match(job["name"]):
-                        result = (
-                            BuildResult.SUCCESSFUL
-                            if job["lastBuild"]["result"] == "SUCCESS"
-                            else BuildResult.FAILED
-                        )
-                        break
-                branches.append(Branch(branch, result))
-            else:
+            string = fr"^plugin-{pluginName}-[a-z|-]*{branch}$"
+            pattern = re.compile(string)
+            result = BuildResult.UNAVAILABLE
+            for job in builds["jobs"]:
+                if pattern.match(job["name"]):
+                    result = (
+                        BuildResult.SUCCESSFUL
+                        if job["lastBuild"] and job["lastBuild"]["result"] == "SUCCESS"
+                        else BuildResult.FAILED
+                    )
+                    branches.append(Branch(branch, result, branch in pluginBranches))
+                    break
+            if result == BuildResult.UNAVAILABLE:
                 branches.append(Branch.missing(branch))
         return branches
 
