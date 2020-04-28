@@ -254,10 +254,10 @@ class Plugins:
                             if job["lastBuild"]["result"] == "SUCCESS"
                             else BuildResult.FAILED
                         )
+                        branches.append(Branch(branch, result))
                         break
-                branches.append(Branch(branch, result))
-            else:
-                branches.append(Branch.missing(branch))
+                if result == BuildResult.UNAVAILABLE:
+                    branches.append(Branch.missing(branch))
         return branches
 
     def _get_all_changes_count(self, pluginName):
