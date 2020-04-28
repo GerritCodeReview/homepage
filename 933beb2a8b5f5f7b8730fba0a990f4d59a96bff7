@@ -1,0 +1,193 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e8a2667_c89dc930",
+        "filename": "pages/design-docs/instance-id/alternative-solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "Where?",
+      "range": {
+        "startLine": 19,
+        "startChar": 14,
+        "endLine": 19,
+        "endChar": 24
+      },
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "74486fb2_8012ca30",
+        "filename": "pages/design-docs/instance-id/alternative-solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "Is",
+      "range": {
+        "startLine": 29,
+        "startChar": 15,
+        "endLine": 29,
+        "endChar": 17
+      },
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d5769962_10998a13",
+        "filename": "pages/design-docs/instance-id/alternative-solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "For example, it is",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 18
+      },
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecae7782_eeee1c52",
+        "filename": "pages/design-docs/instance-id/alternative-solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "Also, it could not necessarily be relevant for the end users receiving it in their inbox.",
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "efcd3104_041a355e",
+        "filename": "pages/design-docs/instance-id/alternative-solution-1.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "Can you also put a chapter in this solution checking *IF* it would satisfy or not the acceptance criteria?",
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf86addc_7d48027c",
+        "filename": "pages/design-docs/instance-id/alternative-solution-2.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "This is already a show-stopper to me: it is notoriously difficult to make a plugin to plugin dependency system. It *could be done* but would make the build a lot more complex and with complex linking of the plugins into the /lib directory, so that the base plugin can be loaded *before* the dependant one.\n\nAlso, it would generate a different JSON payload for the stream events, depending if you have or not the plugin to enrich them.",
+      "range": {
+        "startLine": 19,
+        "startChar": 2,
+        "endLine": 20,
+        "endChar": 59
+      },
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd18efed_3330efea",
+        "filename": "pages/design-docs/instance-id/alternative-solution-2.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "complicated pattern",
+      "range": {
+        "startLine": 30,
+        "startChar": 55,
+        "endLine": 30,
+        "endChar": 74
+      },
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4b48f1d1_519ce85a",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "You should also mention a migration from the old schema to the new schema.",
+      "range": {
+        "startLine": 51,
+        "startChar": 16,
+        "endLine": 51,
+        "endChar": 26
+      },
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7941dc32_b41a8934",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-28T22:10:07Z",
+      "side": 1,
+      "message": "You should also mention how this solution satisfy the acceptance criteria.",
+      "revId": "933beb2a8b5f5f7b8730fba0a990f4d59a96bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
