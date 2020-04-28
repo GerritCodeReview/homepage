@@ -16,7 +16,9 @@ from pygerrit2 import Anonymous, GerritRestAPI, HTTPBasicAuth, HTTPBasicAuthFrom
 from tqdm import tqdm
 
 
-BRANCHES = ["master"] + [f"stable-{version}" for version in ["3.2", "3.1", "3.0", "2.16"]]
+BRANCHES = ["master"] + [
+    f"stable-{version}" for version in ["3.2", "3.1", "3.0", "2.16"]
+]
 CI = "https://gerrit-ci.gerritforge.com"
 GERRIT = "https://gerrit-review.googlesource.com"
 GITILES = "https://gerrit.googlesource.com"
