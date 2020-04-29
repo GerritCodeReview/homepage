@@ -84,6 +84,30 @@
     },
     {
       "key": {
+        "uuid": "f9e89f2e_95bf1979",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-29T11:00:12Z",
+      "side": 1,
+      "message": "Can you clarify *IF* this part will or will not part of the solution?",
+      "parentUuid": "7a632497_5001ee1e",
+      "range": {
+        "startLine": 72,
+        "startChar": 47,
+        "endLine": 72,
+        "endChar": 57
+      },
+      "revId": "002115deadbdf737bc6aa0668ab5732075fccdbb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1de40a49_7ab2d54e",
         "filename": "pages/design-docs/instance-id/solution.md",
         "patchSetId": 7
@@ -160,6 +184,24 @@
       "side": 1,
       "message": "yep..it is kind of the dual of he first one. In this case if we are the instance production  an event we want to do something in the other case we want a noops.",
       "parentUuid": "b787f3b6_30da12cf",
+      "revId": "002115deadbdf737bc6aa0668ab5732075fccdbb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1411089_5d68d99b",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-29T11:00:12Z",
+      "side": 1,
+      "message": "Cool, it would be best to add this statement and clarify the similarities and differences between this and the first by-product.",
+      "parentUuid": "c91b5bc4_cd9d62b3",
       "revId": "002115deadbdf737bc6aa0668ab5732075fccdbb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
