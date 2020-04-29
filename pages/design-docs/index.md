@@ -19,7 +19,7 @@ documents can be found in Gerrit by using the link inside each doc.
 
 - [Generate Release Notes](design-docs/generate-release-notes.html) by Edwin Kempin, proposed 2019-10-04
 - [Revert submit](design-docs/revert-submit.html) by Gal Paikin, approved 2019-09-09
-- [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html) by Martin Fick, proposed 2019-10-04
+- [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html) by Martin Fick, approved 2019-11-12
 - [Attention Set](design-docs/attention-set.html) by Ben Rohlfs, approved 2020-01-03
 - [Change Log: Threaded Feedback](design-docs/change-log-threaded-feedback.html) by Jacek Centkowski, approved 2020-03-25
 
