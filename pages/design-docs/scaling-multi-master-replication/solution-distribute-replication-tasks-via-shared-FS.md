@@ -48,7 +48,9 @@ gitReferenceUpdatedListener.Event which the replication plugin is listening for.
 
 Example:
 
+```
     Event Fired by Gerrit for -> (project="All-Projects", ref="ref/meta/config")
+```
 
 ##### iii) The replication plugin receives that project/ref based event
 
@@ -64,6 +66,7 @@ replication config.
 
 Example:
 
+```
     url = git://destination-A:9417/${name}.git
       -> push git://destination-A:9417/All-Projects.git refs/meta/config
     url = git://destination-B:9417/${name}.git
@@ -74,19 +77,22 @@ Example:
       -> push git://destination-D:9417/All-Projects.git refs/meta/config
     url = git://destination-E:9417/${name}.git
       -> push git://destination-E:9417/All-Projects.git refs/meta/config
+```
 
 ##### v) Persist the specific URI/ref based tasks to the filesystem
 
 Each task is persisted in a json file named after the SHA1 of the json under
-<site_dir>/data/replication/ref-updates/waiting
+$GERRIT_SITE/data/replication/ref-updates/waiting
 
 Example:
 
-    <site_dir>/data/replication/ref-updates/waiting/a564cbd....json
-    <site_dir>/data/replication/ref-updates/waiting/77adf32....json
-    <site_dir>/data/replication/ref-updates/waiting/07fd222....json
-    <site_dir>/data/replication/ref-updates/waiting/57bf2d2....json
-    <site_dir>/data/replication/ref-updates/waiting/bbff33d....json
+```
+    $GERRIT_SITE/data/replication/ref-updates/waiting/a564cbd....json
+    $GERRIT_SITE/data/replication/ref-updates/waiting/77adf32....json
+    $GERRIT_SITE/data/replication/ref-updates/waiting/07fd222....json
+    $GERRIT_SITE/data/replication/ref-updates/waiting/57bf2d2....json
+    $GERRIT_SITE/data/replication/ref-updates/waiting/bbff33d....json
+```
 
 ##### vi) Scheduled tasks to be run after a configurable replication delay
 
@@ -103,6 +109,7 @@ URI which may still be waiting to run.
 
 Example:
 
+```
     waiting
       -> push git://destination-E:9417/All-Projects.git refs/dashboards/mydash
 
@@ -111,6 +118,7 @@ Example:
 
     consolidated
       -> push git://destination-E:9417/All-Projects.git refs/dashboards/mydash refs/meta/config
+```
 
 ##### ix) Push refs
 
@@ -121,8 +129,10 @@ pushed with a single git push
 
 Example:
 
-    <site_dir>/data/replication/ref-updates/waiting/bbff33d....json
-      -> <site_dir>/data/replication/ref-updates/running/bbff33d....json
+```
+    $GERRIT_SITE/data/replication/ref-updates/waiting/bbff33d....json
+      -> $GERRIT_SITE/data/replication/ref-updates/running/bbff33d....json
+```
 
 ##### xi A) Push Fails
 
@@ -148,8 +158,10 @@ another directory to write the file prevents the partially written file from app
 
 Example:
 
-    <site_dir>/data/replication/ref-updates/building/tmp001232asf.json
-      -> <site_dir>/data/replication/ref-updates/waiting/a564cbd....json
+```
+    $GERRIT_SITE/data/replication/ref-updates/building/tmp001232asf.json
+      -> $GERRIT_SITE/data/replication/ref-updates/waiting/a564cbd....json
+```
 
 To avoid resetting timestamps which will be used in step 3, do not overwrite already existing files
 in the "waiting" directory.
@@ -178,15 +190,19 @@ Example:
 
   Lock dir:
 
-    <site_dir>/data/replication/ref-updates/running/23baf46.../   (SHA1 of URI)
+```
+    $GERRIT_SITE/data/replication/ref-updates/running/23baf46.../   (SHA1 of URI)
+```
 
   Two ref updates for the same URI:
 
-    <site_dir>/data/replication/ref-updates/waiting/a564cbd....json
-      -> <site_dir>/data/replication/ref-updates/running/23baf46.../a564cbd....json
+```
+    $GERRIT_SITE/data/replication/ref-updates/waiting/a564cbd....json
+      -> $GERRIT_SITE/data/replication/ref-updates/running/23baf46.../a564cbd....json
 
-    <site_dir>/data/replication/ref-updates/waiting/052b7ca....json
-      -> <site_dir>/data/replication/ref-updates/running/23baf46.../052b7ca....json
+    $GERRIT_SITE/data/replication/ref-updates/waiting/052b7ca....json
+      -> $GERRIT_SITE/data/replication/ref-updates/running/23baf46.../052b7ca....json
+```
 
 
 ### 3) Periodically add all persisted tasks to the replication queue
@@ -317,6 +333,7 @@ examples, this can be achieved by keeping the total concurrent per project count
 limit) per node.  This requires adding 15 more nodes for a total of 16 nodes each configured like
 this:
 
+```
     [remote "All"]
       url = git://destination-A:9417/${name}.git
       url = git://destination-B:9417/${name}.git
@@ -329,6 +346,7 @@ this:
       url = git://destination-I:9417/${name}.git
       url = git://destination-J:9417/${name}.git
       threads = 5
+```
 
 This give a total of 16 * 5 = 80 threads which should allow 8 threads per destination total. This
 solution does not make very good use of the available resources on each node, and every destination
@@ -341,6 +359,7 @@ simple idea is to keep the original node as is and to add the new destinations t
 
 Node 2:
 
+```
     [remote "F"]
       url = git://destination-F:9417/${name}.git
       threads = 8
@@ -361,6 +380,7 @@ Node 2:
       url = git://destination-J:9417/${name}.git
       threads = 8
       ...
+```
 
 This solution is harder to administer and it suffers from the loss of HA with respect to
 replication destinations.
