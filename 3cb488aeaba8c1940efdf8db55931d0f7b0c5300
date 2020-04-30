@@ -46,6 +46,30 @@
       "revId": "3cb488aeaba8c1940efdf8db55931d0f7b0c5300",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "88012dfb_db80f4fd",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-04-30T22:00:27Z",
+      "side": 1,
+      "message": "Sure, also as final tidy up before releasing.",
+      "parentUuid": "eaa70a99_cb2a5445",
+      "range": {
+        "startLine": 649,
+        "startChar": 0,
+        "endLine": 654,
+        "endChar": 58
+      },
+      "revId": "3cb488aeaba8c1940efdf8db55931d0f7b0c5300",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
