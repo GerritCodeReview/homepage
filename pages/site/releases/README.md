@@ -20,6 +20,10 @@ Latest release: **[3.1.4](/3.1.html)**. The support status of all recent Gerrit 
 
 ## 3.2.0 (in development)
 
+* Polymer 3
+
+* File Uploads in frontend
+
 [Release notes for Gerrit 3.2.0](/3.2.html)
 
 ## 3.1.0
