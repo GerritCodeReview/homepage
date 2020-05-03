@@ -22,6 +22,30 @@
       "revId": "a2502661d6a240c121d0b324db1b9dcf18aee881",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8cf8b07_cde2f1e2",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-03T11:21:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02905a9d_3e1fc77b",
+      "range": {
+        "startLine": 45,
+        "startChar": 11,
+        "endLine": 45,
+        "endChar": 15
+      },
+      "revId": "a2502661d6a240c121d0b324db1b9dcf18aee881",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
