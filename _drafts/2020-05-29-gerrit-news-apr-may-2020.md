@@ -13,4 +13,13 @@ toc: true
 
 See the [dedicated news post](https://www.gerritcodereview.com/2020-04-22-community-managers-report.html).
 
-## Item 2
+## Cherry-picking topics
+
+By using the same cherry-pick button on a change with a topic, it is
+now possible to cherry-pick the entire topic. All that's required to
+cherry-pick an entire topic is to specify the destination branch.
+
+The limitations in this versions are the requirements to pick only
+one destination branch to all changes in the topic, and that it is
+not possible to cherry-pick a topic that has multiple changes in the
+same repository and branch.
