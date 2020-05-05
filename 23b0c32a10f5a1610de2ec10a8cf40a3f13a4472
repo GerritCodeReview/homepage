@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bd46b839_e2512053",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-05T01:11:56Z",
+      "side": 1,
+      "message": "Mention how this is enabled?  Link to the documentation?",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 79
+      },
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "00fc7c76_31b0d0c4",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-05T01:11:56Z",
+      "side": 1,
+      "message": "Mention that to deny reverts, admins should remove this permission?",
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "70f31e50_95e60672",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-05T01:11:56Z",
+      "side": 1,
+      "message": "nit: list them in alphabetical order",
+      "range": {
+        "startLine": 168,
+        "startChar": 0,
+        "endLine": 178,
+        "endChar": 28
+      },
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
