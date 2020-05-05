@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "c22b227e_62f8afe0",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-05T05:08:37Z",
+      "side": 1,
+      "message": "I cannot reproduce this issue.",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 0
+      },
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "bd46b839_e2512053",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 7
@@ -13,6 +36,30 @@
       "writtenOn": "2020-05-05T01:11:56Z",
       "side": 1,
       "message": "Mention how this is enabled?  Link to the documentation?",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 79
+      },
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4c0a5bd8_45e654fd",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-05T05:08:37Z",
+      "side": 1,
+      "message": "This change is still a WIP, and it cannot be merged, because stable-3.2 has outdated JGit version: 5.7 but we need master.",
+      "parentUuid": "bd46b839_e2512053",
       "range": {
         "startLine": 66,
         "startChar": 0,
