@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "77e858fd_0eb65253",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-05-05T20:18:28Z",
+      "side": 1,
+      "message": "Mention this also in that other upcoming release\u0027s notes? This would be so that 3.1.5 consumers would also be told about this potential capability (of more easily upgrading from it to 3.2).",
+      "range": {
+        "startLine": 10,
+        "startChar": 8,
+        "endLine": 10,
+        "endChar": 19
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d60071a_e967e6e1",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-05-05T20:18:28Z",
+      "side": 1,
+      "message": "Would wrap this line here, for editing purposes.",
+      "range": {
+        "startLine": 65,
+        "startChar": 125,
+        "endLine": 65,
+        "endChar": 126
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1ccd7b48_4b77ce88",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-05-05T20:18:28Z",
+      "side": 1,
+      "message": "(Same here.)",
+      "range": {
+        "startLine": 69,
+        "startChar": 147,
+        "endLine": 69,
+        "endChar": 148
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d5ba891_2d1f52f0",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-05-05T20:18:28Z",
+      "side": 1,
+      "message": "both `gerrit.config`-s(?)",
+      "range": {
+        "startLine": 74,
+        "startChar": 44,
+        "endLine": 74,
+        "endChar": 59
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95534f06_82871c5c",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-05-05T20:18:28Z",
+      "side": 1,
+      "message": "Would mention the need to confirm that the second node properly handles traffic during that time, and is healthy prior.",
+      "range": {
+        "startLine": 75,
+        "startChar": 3,
+        "endLine": 75,
+        "endChar": 42
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4270802a_113d6a31",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-05-05T20:18:28Z",
+      "side": 1,
+      "message": "healthy and serving traffic again",
+      "range": {
+        "startLine": 76,
+        "startChar": 44,
+        "endLine": 76,
+        "endChar": 51
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4b288d79_79d8047c",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-05-05T20:18:28Z",
+      "side": 1,
+      "message": "6. Confirm the second Gerrit node as eventually healthy\n7. Remove (typo) `gerrit.rollingUpgrade` from (both?) `gerrit.config`-s?",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 9
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0e09cc85_2a57a83f",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-05-05T20:18:28Z",
+      "side": 1,
+      "message": "testing reveals, rather?",
+      "range": {
+        "startLine": 81,
+        "startChar": 54,
+        "endLine": 81,
+        "endChar": 75
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
