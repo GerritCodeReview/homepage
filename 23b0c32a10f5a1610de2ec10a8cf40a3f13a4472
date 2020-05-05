@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "bb1c4c88_44bc0715",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-05T20:40:38Z",
+      "side": 1,
+      "message": "I\u0027ve added the steps to reproduce the issue at:\nhttps://bugs.chromium.org/p/gerrit/issues/detail?id\u003d12639\n\nCan you try to see if you can reproduce it by running the steps?\nCan we follow-up the actions on that ticket in the issue tracker?",
+      "parentUuid": "f09ae761_bdc67bd1",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 0
+      },
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bd46b839_e2512053",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 7
@@ -216,6 +240,30 @@
     },
     {
       "key": {
+        "uuid": "9a0fd2be_1756a392",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-05T20:40:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "69ad3e6a_e080fd3c",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 79
+      },
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "00fc7c76_31b0d0c4",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 7
@@ -230,6 +278,24 @@
       "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f3b081ab_6d3318d4",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-05T20:40:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "00fc7c76_31b0d0c4",
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
