@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "1fc8c8e8_341fdd10",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-05-05T06:44:16Z",
+      "side": 1,
+      "message": "why don\u0027t we update JGit ?",
+      "parentUuid": "4c0a5bd8_45e654fd",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 79
+      },
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "00fc7c76_31b0d0c4",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 7
