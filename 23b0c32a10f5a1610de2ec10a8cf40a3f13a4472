@@ -144,6 +144,30 @@
     },
     {
       "key": {
+        "uuid": "23a58a7f_fe70895f",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-05T10:36:12Z",
+      "side": 1,
+      "message": "It is there:\n\n  fd3778b93 - Update to org.apache.sshd 2.4.0\n\nI left a comment in this line in the commit message.\n\nNevertheless, I would remove this topic here, and consider to add it later, and only in case if that change will be included in 3.2 release. There is always a possibility that this would be ready only in next release. It\u0027s done when it\u0027s done.",
+      "parentUuid": "e8276f81_709a74d9",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 79
+      },
+      "revId": "23b0c32a10f5a1610de2ec10a8cf40a3f13a4472",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "00fc7c76_31b0d0c4",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 7
