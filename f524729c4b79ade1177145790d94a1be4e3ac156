@@ -93,6 +93,30 @@
       "revId": "f524729c4b79ade1177145790d94a1be4e3ac156",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a8298afa_5ccaff86",
+        "filename": "_posts/2020-05-06-change-log-experiment.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-05-06T13:18:26Z",
+      "side": 1,
+      "message": "Sure, that sounds good. I actually wrote the original comment because I think this line here is confusing for people. Even if we directly activate the feature, users might be confused because they haven\u0027t seen comment threads in the Change Log at all and this line claims that they have shown up on the latest reply. I would either remove this item or clarify it further.",
+      "parentUuid": "88a7cc3c_75a62e4e",
+      "range": {
+        "startLine": 30,
+        "startChar": 2,
+        "endLine": 30,
+        "endChar": 22
+      },
+      "revId": "f524729c4b79ade1177145790d94a1be4e3ac156",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
