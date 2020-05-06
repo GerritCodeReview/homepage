@@ -27,8 +27,10 @@ for example a CI system posts on patchsets 3, 4, 5, 6, 7, and a Linter posts on
 patchsets 3, 5, 6, then the CI messages are only shown on ps 7, and the Linter
 messages are only shown on ps 6.
 
-- Full comment threads are shown in expanded entries instead of just the latest
-reply.
+- Full comment threads are shown in expanded entries instead of just the
+individual comment. For example a "Done." reply is shown in the context of the
+comment that it is referring to. This is similar to how comment threads are
+shown in the diff views and on the Comment Threads tab.
 
 - The additional filters/expanders "show all x messages" and "show x more" are
 removed, because the default filtered view is assumed to be short enough, such
