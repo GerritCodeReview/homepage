@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "494d695a_2fda15b5",
+        "filename": "_posts/2020-05-06-change-log-experiment.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-05-06T12:21:02Z",
+      "side": 1,
+      "message": "Of course. :-)",
+      "parentUuid": "ed2d6048_c04a2fa4",
+      "range": {
+        "startLine": 25,
+        "startChar": 65,
+        "endLine": 25,
+        "endChar": 73
+      },
+      "revId": "b07244c788c4817186fde7271af5deefbe88c45c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1f71f2_d30c8007",
         "filename": "_posts/2020-05-06-change-log-experiment.md",
         "patchSetId": 1
