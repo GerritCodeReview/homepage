@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "fd114d8f_2ab36a82",
+        "filename": "_posts/2020-05-06-change-log-experiment.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-05-06T12:42:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63786e63_e1e7ffa3",
+      "range": {
+        "startLine": 24,
+        "startChar": 25,
+        "endLine": 24,
+        "endChar": 32
+      },
+      "revId": "f524729c4b79ade1177145790d94a1be4e3ac156",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3b2a8734_ebd4c4aa",
         "filename": "_posts/2020-05-06-change-log-experiment.md",
         "patchSetId": 3
@@ -45,6 +69,30 @@
       "revId": "f524729c4b79ade1177145790d94a1be4e3ac156",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "88a7cc3c_75a62e4e",
+        "filename": "_posts/2020-05-06-change-log-experiment.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-05-06T12:42:41Z",
+      "side": 1,
+      "message": "We have made it part of the experiment, because it is also affecting the Change Log. I guess we could have made two experiments for it, but I think one bigger experiment is nicer.\n\nSo yes, it is activated when the experiment hits you. At this moment the experiment is enabled for 0% of user in canary and 0% in prod. So the also way to actually see the experiment is to explicitly enable it by URL:\n?experiment\u003dUiFeature__cleaner_changelog\n\nBut I was planning to ramp up canary quickly to 100% once this doc is submitted and we have verified that the result looks as expected.\n\nSounds good?",
+      "parentUuid": "3b2a8734_ebd4c4aa",
+      "range": {
+        "startLine": 30,
+        "startChar": 2,
+        "endLine": 30,
+        "endChar": 22
+      },
+      "revId": "f524729c4b79ade1177145790d94a1be4e3ac156",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
