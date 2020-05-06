@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "9c374901_2f0af91f",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-05-06T20:51:16Z",
+      "side": 1,
+      "message": "Ok. You mention troubleshooting as a use case below, so I wasn\u0027t sure if there were more places for this to be inserted for that use case to be supported.",
+      "parentUuid": "f2b07a1a_c3841011",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 15
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "02c2d77d_5b7e3656",
         "filename": "pages/design-docs/instance-id/solution.md",
         "patchSetId": 13
@@ -178,6 +202,30 @@
       "side": 1,
       "message": "Yes, if the plugin needs to use that information. That\u0027s the case of the multi-site plugin for example. It will need some changes to simplify the current logic and to start using the new field.",
       "parentUuid": "9ed92108_d1a24049",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 37,
+        "endChar": 33
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5448d9b9_cd65336b",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-05-06T20:51:16Z",
+      "side": 1,
+      "message": "What if I\u0027m just some user who is reading stream-events, do I need to do anything special? Does this break me?",
+      "parentUuid": "fc210711_3ff3986a",
       "range": {
         "startLine": 37,
         "startChar": 2,
