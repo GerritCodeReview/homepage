@@ -12,3 +12,4 @@ toc: false
 * [Proposed solution](/design-docs/instance-id-solution.html)
 * [Alternative Solution - 1](/design-docs/instance-id-alternative-solution-1.html)
 * [Alternative Solution - 2](/design-docs/instance-id-alternative-solution-2.html)
+* [Conclusion](/design-docs/instance-id-conclusion.html)
