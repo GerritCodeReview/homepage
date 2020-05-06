@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "73fbc654_e2075d67",
+        "filename": "pages/design-docs/instance-id/alternative-solution-2.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-05-06T20:34:02Z",
+      "side": 1,
+      "message": "Ops .. done :)",
+      "parentUuid": "2ee24c1a_12e4de61",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 84
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fd4d2c4b_d963f978",
         "filename": "pages/design-docs/instance-id/solution.md",
         "patchSetId": 13
@@ -36,6 +60,30 @@
       "writtenOn": "2020-05-06T15:58:46Z",
       "side": 1,
       "message": "Will instanceId only be added to events? Are there any other APIs that should include instanceId in their responses?",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 15
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f2b07a1a_c3841011",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-05-06T20:34:02Z",
+      "side": 1,
+      "message": "I can\u0027t think of any API that might want to expose it.",
+      "parentUuid": "fd4d2c4b_d963f978",
       "range": {
         "startLine": 27,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "d62e7dc2_f6131027",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-05-06T20:34:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02c2d77d_5b7e3656",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 3
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ed92108_d1a24049",
         "filename": "pages/design-docs/instance-id/solution.md",
         "patchSetId": 13
@@ -82,6 +154,30 @@
       "writtenOn": "2020-05-06T15:58:46Z",
       "side": 1,
       "message": "Will any external consumers (non-plugins, like the jenkins trigger or just some user looking at stream events today) need to be modified to understand the value of the new instanceId field?",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 37,
+        "endChar": 33
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fc210711_3ff3986a",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-05-06T20:34:02Z",
+      "side": 1,
+      "message": "Yes, if the plugin needs to use that information. That\u0027s the case of the multi-site plugin for example. It will need some changes to simplify the current logic and to start using the new field.",
+      "parentUuid": "9ed92108_d1a24049",
       "range": {
         "startLine": 37,
         "startChar": 2,
