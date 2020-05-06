@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ee24c1a_12e4de61",
+        "filename": "pages/design-docs/instance-id/alternative-solution-2.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-05-06T15:58:46Z",
+      "side": 1,
+      "message": "Not relevant to this solution? (I think this should be on alternative-solution-1?)",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 84
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fd4d2c4b_d963f978",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-05-06T15:58:46Z",
+      "side": 1,
+      "message": "Will instanceId only be added to events? Are there any other APIs that should include instanceId in their responses?",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 15
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "02c2d77d_5b7e3656",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-05-06T15:58:46Z",
+      "side": 1,
+      "message": "s/his/This/",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 3
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9ed92108_d1a24049",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-05-06T15:58:46Z",
+      "side": 1,
+      "message": "Will any external consumers (non-plugins, like the jenkins trigger or just some user looking at stream events today) need to be modified to understand the value of the new instanceId field?",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 37,
+        "endChar": 33
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
