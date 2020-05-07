@@ -259,6 +259,30 @@
       "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a9e67565_0494cba1",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-05-07T18:01:29Z",
+      "side": 1,
+      "message": "That\u0027s optional per-server, not optional for the user initiating the connection. I was specifically referring to users of the SSH \u0027gerrit stream-events\u0027 command, not plugins. Are they impacted?",
+      "parentUuid": "9a9d1e1f_13b72475",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 37,
+        "endChar": 33
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
