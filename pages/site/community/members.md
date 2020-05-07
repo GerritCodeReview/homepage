@@ -55,7 +55,6 @@ Current maintainers are:
 | David Pursehouse      | CollabNet (formerly Sony)  |
 | Edwin Kempin          | Google (formerly SAP)      |
 | Han-Wen Nienhuys      | Google                     |
-| Hugo Arès             | Kaloom (formerly Ericsson) |
 | Luca Milanesio        | GerritForge                |
 | Marco Miller          | Ericsson                   |
 | Martin Fick           | Qualcomm                   |
@@ -71,6 +70,7 @@ Current maintainers are:
 |-----------------------|----------------------------|
 | Andrew Bonventre      | Google                     |
 | Becky Siegel          | Google                     |
+| Hugo Arès             | Kaloom (formerly Ericsson) |
 | Kasper Nilsson        | Google                     |
 | Logan Hanks           | Google                     |
 | Shawn Pearce          | Google                     |
