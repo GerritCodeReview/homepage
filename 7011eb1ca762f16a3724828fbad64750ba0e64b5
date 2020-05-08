@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3e7f3b08_ecd28263",
+        "filename": "pages/design-docs/instance-id/conclusion.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-05-08T07:26:34Z",
+      "side": 1,
+      "message": "6) There might be better fitting alternatives that require much more engineering work in both design and implementation. However, the proposed solution is much simpler and solves a problem immediately. (see https://gerrit-review.googlesource.com/Documentation/dev-contributing.html#_complexity and https://gerrit-review.googlesource.com/Documentation/dev-contributing.html#_impact)\n\n7) The solution was proposed and implementation guaranteed by a long-standing community member (Gerrit Forge) who can be trusted with implementation and benefits from the solution. (see https://gerrit-review.googlesource.com/Documentation/dev-contributing.html#_community and https://gerrit-review.googlesource.com/Documentation/dev-contributing.html#_commitment)",
+      "revId": "7011eb1ca762f16a3724828fbad64750ba0e64b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
