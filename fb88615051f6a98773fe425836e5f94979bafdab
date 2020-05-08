@@ -283,6 +283,30 @@
       "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a364c5eb_d79b6304",
+        "filename": "pages/design-docs/instance-id/solution.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-05-08T08:51:36Z",
+      "side": 1,
+      "message": "I see...sorry I misunderstood. If the instanceId has been set in the gerrit.config you will have it in the payload, for example:\n\n{\n  \"submitter\": {\n    \"name\": \"Administrator\",\n    \"email\": \"admin@example.com\",\n    \"username\": \"admin\"\n  },\n  \"refUpdate\": {\n    \"oldRev\": \"a69fc95c7aad5ad41c618d31548b8af835d2959a\",\n    \"newRev\": \"31da6556d638a74e5370b62f83e8007f94abb7c6\",\n    \"refName\": \"refs/changes/01/1/meta\",\n    \"project\": \"test\"\n  },\n  \"type\": \"ref-updated\",\n  \"eventCreatedOn\": 1588849085,\n  \"instanceId\": \"myInstanceId\"\n}\n\nIf the instanceId hasn\u0027t been set the payload will remain the same.",
+      "parentUuid": "a9e67565_0494cba1",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 37,
+        "endChar": 33
+      },
+      "revId": "fb88615051f6a98773fe425836e5f94979bafdab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
