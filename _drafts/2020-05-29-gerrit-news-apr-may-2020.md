@@ -23,3 +23,12 @@ The limitations in this versions are the requirements to pick only
 one destination branch to all changes in the topic, and that it is
 not possible to cherry-pick a topic that has multiple changes in the
 same repository and branch.
+
+## ESC and CM elections
+
+The Engineering Steering Committee and Community Managers elections
+[have been completed](https://groups.google.com/d/msg/repo-discuss/zHCT2IowQng/huv-6NsbAgAJ).
+These were to elect members for the non-Google positions. The Google
+positions were also confirmed alongside. The resulting elected and
+Google positions, for both ESC and Community Managers, remain the
+[same as the previous mandates](https://www.gerritcodereview.com/members.html).
