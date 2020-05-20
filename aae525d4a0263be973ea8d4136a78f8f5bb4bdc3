@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "a9441d8e_bec4855e",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-20T05:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7445aa9e_5beb8711",
+      "range": {
+        "startLine": 13,
+        "startChar": 52,
+        "endLine": 13,
+        "endChar": 70
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c8638425_8bcad016",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fe069f42_bfefb72d",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-20T05:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8638425_8bcad016",
+      "range": {
+        "startLine": 21,
+        "startChar": 41,
+        "endLine": 21,
+        "endChar": 55
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "773744db_e2bd863f",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-20T05:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e49c11e_ec8302dd",
+      "range": {
+        "startLine": 25,
+        "startChar": 72,
+        "endLine": 25,
+        "endChar": 79
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3e28c3cb_0a2fb791",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 2
@@ -91,6 +163,30 @@
       "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3c75be83_7e003308",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-20T05:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3e28c3cb_0a2fb791",
+      "range": {
+        "startLine": 39,
+        "startChar": 11,
+        "endLine": 39,
+        "endChar": 56
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -160,6 +256,30 @@
       "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8103af63_f698c83a",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-20T05:50:59Z",
+      "side": 1,
+      "message": "This was one of the alternative solutions considered, not part of the actually proposed solution.",
+      "parentUuid": "7c74ee17_54c82605",
+      "range": {
+        "startLine": 21,
+        "startChar": 68,
+        "endLine": 22,
+        "endChar": 14
+      },
+      "revId": "aae525d4a0263be973ea8d4136a78f8f5bb4bdc3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
