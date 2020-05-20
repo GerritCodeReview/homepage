@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d120db49_88d05932",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-20T06:09:14Z",
+      "side": 1,
+      "message": "This can link to the published design document on the homepage.",
+      "range": {
+        "startLine": 106,
+        "startChar": 17,
+        "endLine": 106,
+        "endChar": 79
+      },
+      "revId": "b219685d6e1fa3cad8e3b8504d940c08e8c90fe4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e04eb1e2_41414be5",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-20T06:09:14Z",
+      "side": 1,
+      "message": "I don\u0027t think we need to link to all these individual issues; they are all essentially the same feature.\n\nInstead we could link to the documentation that describes the new settings etc.",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 0
+      },
+      "revId": "b219685d6e1fa3cad8e3b8504d940c08e8c90fe4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
