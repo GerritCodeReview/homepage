@@ -23,7 +23,7 @@ maintainers for every maintained plugin.
 
 There is a [parent] component for plugin-specific components/issues in Monorail.
 
-Community members are welcome to propose themselves as plugin maintainers. This can be
+Community members are welcome to propose themselves as [plugin maintainers]. This can be
 done through the support [mailing] list:
 
 1. Volunteering can be done for either plugins with no maintainers or plugins with just
@@ -90,4 +90,5 @@ The matrix was last updated on <strong>{{ data.updated }}</strong>.
 [ownership]: https://gerrit-review.googlesource.com/Documentation/config-plugins.html#development
 [parent]: https://bugs.chromium.org/p/gerrit/issues/list?q=component%3Aplugins
 [plugins]: https://gerrit-review.googlesource.com/admin/repos/q/filter:plugins%252F
+[plugin maintainers]: #plugin-maintainers
 [supported]: https://www.gerritcodereview.com/support.html#supported-versions
