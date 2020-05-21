@@ -6,12 +6,14 @@ import re
 import requests
 import sys
 import time
+from collections import defaultdict
 from dataclasses import dataclass
 from enum import Enum, IntEnum
 from operator import attrgetter
 from typing import List
 
 from jinja2 import Template
+from natsort import natsorted
 from pygerrit2 import Anonymous, GerritRestAPI, HTTPBasicAuth, HTTPBasicAuthFromNetrc
 from tqdm import tqdm
 
@@ -167,6 +169,7 @@ class Plugins:
         auth = self._authenticate(self._parse_options())
         self.api = GerritRestAPI(url=GERRIT, auth=auth)
         self.plugins = list()
+        self.maintainers = defaultdict(list)
         self._fetch_plugin_data()
         self.plugins = sorted(self.plugins, key=attrgetter("state", "empty"))
 
@@ -199,13 +202,14 @@ class Plugins:
             )
 
             parent, owner_group_ids = self._get_meta_data(name)
+            maintainers, maintainers_csv = self._get_owner_names(parent, owner_group_ids)
             self.plugins.append(
                 Plugin(
                     name=name,
                     parent=parent,
                     state=state,
                     owner_group_ids=owner_group_ids,
-                    owner_names=self._get_owner_names(parent, owner_group_ids),
+                    owner_names=maintainers_csv,
                     empty=self._is_project_empty(p),
                     description=description,
                     all_changes_count=self._get_all_changes_count(p),
@@ -213,6 +217,8 @@ class Plugins:
                     branches=branches,
                 )
             )
+            for m in maintainers:
+                self.maintainers[m].append(name)
 
     def _authenticate(self, options):
         if options.netrc:
@@ -294,8 +300,8 @@ class Plugins:
         names = sorted(list(names))
         if parent == "Public-Plugins":
             names.insert(0, "Core maintainers")
-        names = ", ".join(names)
-        return names
+        csv = ", ".join(names)
+        return names, csv
 
     def _is_project_empty(self, pluginName):
         gitiles_uri = f"{GITILES}/{pluginName}"
@@ -307,6 +313,19 @@ class Plugins:
         except requests.HTTPError as e:
             print(f"Failed to browse {pluginName} in gitiles:\n{e}", file=sys.stderr)
         return False
+
+    @staticmethod
+    def _name_sorter(word):
+        pattern = re.compile("[\W]+")
+        return word != "Core maintainers", pattern.sub("", word)
+
+    def _render_maintainers(self, output):
+        header = "|Maintainer|Plugins|"
+        dashes = "|----------|-------|"
+        output.write(f"\n\n## Plugin Maintainers")
+        output.write(f"\n\n{header}|\n{dashes}|\n")
+        for m in sorted(self.maintainers, key=Plugins._name_sorter):
+            output.write(f"|{m}|{', '.join(sorted(self.maintainers[m], key=Plugins._name_sorter))}|\n")
 
     def render_page(self, output):
         output.writelines(self._render_template())
@@ -334,6 +353,7 @@ class Plugins:
             links += f"[{p.name}]: {GITILES}/plugins/{p.name}\n"
 
         output.write(links)
+        self._render_maintainers(output)
 
 
 def main():
