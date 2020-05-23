@@ -123,6 +123,24 @@
       "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0822143b_0ced1171",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-23T10:05:46Z",
+      "side": 1,
+      "message": "Agreed, I would go even further and say that Gerrit should not even start and throw: com.google.inject.ProvisionException. Will upload a fix in a moment.",
+      "parentUuid": "28937cdd_555ae982",
+      "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
