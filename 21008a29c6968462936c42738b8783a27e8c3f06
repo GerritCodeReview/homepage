@@ -52,6 +52,24 @@
       "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d4f6f988_ccddb091",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-23T07:19:06Z",
+      "side": 1,
+      "message": "That was included in v2.16, so it affects all 2.16.x releases.",
+      "parentUuid": "0167d96d_df8e3185",
+      "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
