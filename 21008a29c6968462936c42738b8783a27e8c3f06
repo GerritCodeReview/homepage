@@ -34,6 +34,24 @@
       "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0167d96d_df8e3185",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-23T07:06:40Z",
+      "side": 1,
+      "message": "I suspect this change: [1]. Will try to reproduce. Should we update the commit message and reference the offending change that introduced behavioral change and also exactly name the affected releases? \n\n* [1] https://gerrit-review.googlesource.com/c/gerrit/+/129881",
+      "parentUuid": "cc73ed0e_31cd8977",
+      "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
