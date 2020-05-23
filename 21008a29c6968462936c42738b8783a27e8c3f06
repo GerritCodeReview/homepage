@@ -16,6 +16,24 @@
       "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cc73ed0e_31cd8977",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-23T06:15:36Z",
+      "side": 1,
+      "message": "I\u0027d need to look deeper into it to find where/when it was changed.  I only remember that I had run into the same issue that Elijah reports on the mailing list, and that\u0027s why I did this change and the following ones:\n\nhttps://gerrit-review.googlesource.com/c/gerrit/+/220220",
+      "parentUuid": "4cb3a7bf_c9ce04f8",
+      "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
