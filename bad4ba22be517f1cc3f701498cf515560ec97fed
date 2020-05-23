@@ -16,6 +16,24 @@
       "revId": "bad4ba22be517f1cc3f701498cf515560ec97fed",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "826c98ba_d15d4ac7",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 764,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-23T05:53:20Z",
+      "side": 1,
+      "message": "Done in https://gerrit-review.googlesource.com/c/homepage/+/268607 along with a couple of other updates.",
+      "parentUuid": "74fc82b4_f9401979",
+      "revId": "bad4ba22be517f1cc3f701498cf515560ec97fed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
