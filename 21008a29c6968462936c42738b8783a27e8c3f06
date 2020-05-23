@@ -159,6 +159,24 @@
       "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ad728cb_90c6e3e8",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-23T11:23:03Z",
+      "side": 1,
+      "message": "We could also go in the direction you mentioned: any parsing error of the gerrit.config should fail the Gerrit startup. However, that is going to be a change in behaviour from what was doing before.\n\nI would opt for supporting the absence of the zero padding on the time and creating a stderr_log and stdout_log in v2.16.\n\nFor v3.2.0 (brand new release) I am very happy to fail to start Gerrit in case of any configuration-related issues: better not to start and telling the Gerrit admin that something is wrong in the config,, agreed 100%.",
+      "parentUuid": "309ad533_2ca4c581",
+      "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
