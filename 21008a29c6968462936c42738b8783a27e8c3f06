@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4cb3a7bf_c9ce04f8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-23T06:12:28Z",
+      "side": 1,
+      "message": "It would be nice to link to the corresponding change in JGit, that changed this behavior, or what was actually changed compare to earlier Gerrit releases?",
+      "revId": "21008a29c6968462936c42738b8783a27e8c3f06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
