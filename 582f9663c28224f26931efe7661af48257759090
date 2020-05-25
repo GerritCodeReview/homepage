@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6fbc491e_2f340032",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-25T05:20:52Z",
+      "side": 1,
+      "message": "It\u0027s the same in all recent release notes; I\u0027ll upload a separate change that fixes them all.",
+      "parentUuid": "4a7533d9_83e8a539",
+      "range": {
+        "startLine": 409,
+        "startChar": 39,
+        "endLine": 409,
+        "endChar": 46
+      },
+      "revId": "582f9663c28224f26931efe7661af48257759090",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c6343bd9_cdcc1f1a",
         "filename": "pages/site/releases/3.1.md",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2020-05-25T05:15:04Z",
       "side": 1,
       "message": "Is the PAPE abbreviation of: ?\n\n[1] https://ldapwiki.com/wiki/PAPE",
+      "range": {
+        "startLine": 420,
+        "startChar": 22,
+        "endLine": 420,
+        "endChar": 26
+      },
+      "revId": "582f9663c28224f26931efe7661af48257759090",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a831d579_aa0f74a7",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 420,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-05-25T05:20:52Z",
+      "side": 1,
+      "message": "Probably. I just copied it from the code.",
+      "parentUuid": "c6343bd9_cdcc1f1a",
       "range": {
         "startLine": 420,
         "startChar": 22,
