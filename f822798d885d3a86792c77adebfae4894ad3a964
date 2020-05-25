@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c3be1f1b_d4cf1226",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-25T23:31:28Z",
+      "side": 1,
+      "message": "True, let me add this.",
+      "parentUuid": "77e858fd_0eb65253",
+      "range": {
+        "startLine": 10,
+        "startChar": 8,
+        "endLine": 10,
+        "endChar": 19
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8d60071a_e967e6e1",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -210,6 +234,30 @@
       "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1f6b94a5_9f5e469c",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-25T23:31:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e3459d56_e39a7e91",
+      "range": {
+        "startLine": 75,
+        "startChar": 3,
+        "endLine": 75,
+        "endChar": 42
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
