@@ -141,6 +141,29 @@
       "revId": "582f9663c28224f26931efe7661af48257759090",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9482350f_cf8528f9",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 420,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-25T05:34:59Z",
+      "side": 1,
+      "message": "Why LDAP?! It is OpenId related.",
+      "range": {
+        "startLine": 420,
+        "startChar": 55,
+        "endLine": 420,
+        "endChar": 59
+      },
+      "revId": "582f9663c28224f26931efe7661af48257759090",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
