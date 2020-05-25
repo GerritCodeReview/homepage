@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "68442296_f7f47a1b",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 420,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-25T05:51:05Z",
+      "side": 1,
+      "message": "Wrong case: OpenID. In: [1] it is spelled correctly.\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/268813/1",
+      "range": {
+        "startLine": 420,
+        "startChar": 55,
+        "endLine": 420,
+        "endChar": 61
+      },
+      "revId": "8bc2912f15b06139bc5cea2d52da00ca57596440",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
