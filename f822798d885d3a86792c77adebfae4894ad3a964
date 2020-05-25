@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "534afe38_12a7bc68",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-25T23:24:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8d60071a_e967e6e1",
+      "range": {
+        "startLine": 65,
+        "startChar": 125,
+        "endLine": 65,
+        "endChar": 126
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1ccd7b48_4b77ce88",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -68,6 +92,30 @@
       "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7f27f2ff_c9d376c3",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-25T23:24:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ccd7b48_4b77ce88",
+      "range": {
+        "startLine": 69,
+        "startChar": 147,
+        "endLine": 69,
+        "endChar": 148
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "9a59b619_1bc517d1",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-25T23:24:44Z",
+      "side": 1,
+      "message": "I would prefer to specify \"of all nodes\" so that is clearer.",
+      "parentUuid": "9d5ba891_2d1f52f0",
+      "range": {
+        "startLine": 74,
+        "startChar": 44,
+        "endLine": 74,
+        "endChar": 59
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "95534f06_82871c5c",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -105,6 +177,30 @@
       "writtenOn": "2020-05-05T20:18:28Z",
       "side": 1,
       "message": "Would mention the need to confirm that the second node properly handles traffic during that time, and is healthy prior.",
+      "range": {
+        "startLine": 75,
+        "startChar": 3,
+        "endLine": 75,
+        "endChar": 42
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e3459d56_e39a7e91",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-25T23:24:44Z",
+      "side": 1,
+      "message": "True, will define the pre-requisites to start the sequence.",
+      "parentUuid": "95534f06_82871c5c",
       "range": {
         "startLine": 75,
         "startChar": 3,
@@ -163,6 +259,30 @@
     },
     {
       "key": {
+        "uuid": "a94326ea_bbae6b19",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-25T23:24:44Z",
+      "side": 1,
+      "message": "Will specify that is for both Gerrit masters.",
+      "parentUuid": "4b288d79_79d8047c",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 9
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0e09cc85_2a57a83f",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -183,6 +303,30 @@
       "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d30a83da_52c9a8f0",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-05-25T23:24:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e09cc85_2a57a83f",
+      "range": {
+        "startLine": 81,
+        "startChar": 54,
+        "endLine": 81,
+        "endChar": 75
+      },
+      "revId": "f822798d885d3a86792c77adebfae4894ad3a964",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
