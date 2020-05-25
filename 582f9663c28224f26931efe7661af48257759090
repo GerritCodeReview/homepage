@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4a7533d9_83e8a539",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-25T05:15:04Z",
+      "side": 1,
+      "message": "Lowcase, this is inconsistent with the line 404 where this option is named: `--ownedby`.",
+      "range": {
+        "startLine": 409,
+        "startChar": 39,
+        "endLine": 409,
+        "endChar": 46
+      },
+      "revId": "582f9663c28224f26931efe7661af48257759090",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c6343bd9_cdcc1f1a",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 420,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-05-25T05:15:04Z",
+      "side": 1,
+      "message": "Is the PAPE abbreviation of: ?\n\n[1] https://ldapwiki.com/wiki/PAPE",
+      "range": {
+        "startLine": 420,
+        "startChar": 22,
+        "endLine": 420,
+        "endChar": 26
+      },
+      "revId": "582f9663c28224f26931efe7661af48257759090",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
