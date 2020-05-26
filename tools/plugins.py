@@ -299,8 +299,6 @@ class Plugins:
                 # can't read group
                 pass
         names = sorted(list(names))
-        if parent == "Public-Plugins":
-            names.insert(0, "Core maintainers")
         csv = ", ".join(names)
         return names, csv
 

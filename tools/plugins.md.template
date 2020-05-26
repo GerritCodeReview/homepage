@@ -35,6 +35,9 @@ done through the support [mailing] list:
    Both the initial (new maintainer) proposal and verdict are shared transparently thus
    professionally that way.
 
+When there are no direct plugins maintainers, the Gerrit maintainers have the permissions
+to review and merge changes. However, regular maintenance of such plugins is not guaranteed.
+
 ## Plugin builds
 
 There are build [ci-scripts] for most plugins. Each script builds that plugin against all
