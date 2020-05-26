@@ -299,8 +299,6 @@ class Plugins:
                 # can't read group
                 pass
         names = sorted(list(names))
-        if parent == "Public-Plugins":
-            names.insert(0, "Core maintainers")
         csv = ", ".join(names)
         return names, csv
 
@@ -318,7 +316,7 @@ class Plugins:
     @staticmethod
     def _name_sorter(word):
         pattern = re.compile(r"[\W]+")
-        return word != "Core maintainers", pattern.sub("", word)
+        return pattern.sub("", word)
 
     def _render_maintainers(self, output):
         header = "|Maintainer|Plugins|"
