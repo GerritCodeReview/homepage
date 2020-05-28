@@ -24,6 +24,10 @@ CI = "https://gerrit-ci.gerritforge.com"
 GERRIT = "https://gerrit-review.googlesource.com"
 GITILES = "https://gerrit.googlesource.com"
 
+CORE_MAINTAINERS_EMAIL = "gerritcodereview-maintainers@googlegroups.com"
+CORE_MAINTAINERS_ID = "google:AI2Pq9rwJtXWrKQ9Q62CcHSid7ngIF2hCfJ4bSpVquX_P2z5kFM6v9s"
+CORE_MAINTAINERS_NAME = "Core maintainers"
+
 BRANCH_MARK = "&#x2325;"
 GREEN_CHECK_MARK = "&#x2705;"
 LOCK = "&#x1F512;"
@@ -95,6 +99,18 @@ class Plugin:
 
     def render_empty(self):
         return SQUARE if self.empty else BRANCH_MARK
+
+
+@dataclass(frozen=True)
+class Account:
+    """Gerrit account"""
+
+    id: str
+    name: str
+    email: str
+
+    def render_identity(self):
+        return f"{self.name} <{self.email}>"
 
 
 class Plugins:
@@ -291,16 +307,25 @@ class Plugins:
 
     def _get_owner_names(self, parent, owner_group_ids):
         names = set()
+        accounts = set()
         for id in owner_group_ids:
             try:
-                owners = self.api.get(f"/groups/{id}/members/")
-                names = names | {o.get("name") for o in owners}
+                if id == CORE_MAINTAINERS_ID:
+                    names = names | {CORE_MAINTAINERS_NAME}
+                else:
+                    owners = self.api.get(f"/groups/{id}/members/")
+                    names = names | {o.get("name") for o in owners}
+                    a = {
+                        Account(o.get("_account_id"), o.get("name"), o.get("email"))
+                        for o in owners
+                    }
+                    accounts.update(a)
             except requests.HTTPError:
                 # can't read group
                 pass
         names = sorted(list(names))
         csv = ", ".join(names)
-        return names, csv
+        return accounts, csv
 
     def _is_project_empty(self, pluginName):
         gitiles_uri = f"{GITILES}/{pluginName}"
@@ -313,20 +338,20 @@ class Plugins:
             print(f"Failed to browse {pluginName} in gitiles:\n{e}", file=sys.stderr)
         return False
 
-    @staticmethod
-    def _name_sorter(word):
-        pattern = re.compile(r"[\W]+")
-        return pattern.sub("", word)
-
     def _render_maintainers(self, output):
         header = "|Maintainer|Plugins|"
         dashes = "|----------|-------|"
         output.write("\n\n## Plugin Maintainers")
         output.write(f"\n\n{header}|\n{dashes}|\n")
-        for m in sorted(self.maintainers, key=Plugins._name_sorter):
-            output.write(
-                f"|{m}|{', '.join(sorted(self.maintainers[m], key=Plugins._name_sorter))}|\n"
-            )
+        for m in sorted(self.maintainers, key=attrgetter("name")):
+            output.write(f"|{m.name}|{', '.join(sorted(self.maintainers.get(m)))}|\n")
+
+    def render_maintainers_email(self, output):
+        output.write(f"\nAll {len(self.maintainers)} plugin maintainers:\n")
+        for m in sorted(self.maintainers, key=attrgetter("name")):
+            if m.name == CORE_MAINTAINERS_NAME:
+                continue
+            output.write(f"{m.render_identity()}\n")
 
     def render_page(self, output):
         output.writelines(self._render_template())
@@ -361,6 +386,7 @@ def main():
     plugins = Plugins()
     with open("pages/site/plugins/plugins.md", "w") as output:
         plugins.render_page(output)
+    plugins.render_maintainers_email(sys.stdout)
 
 
 if __name__ == "__main__":
