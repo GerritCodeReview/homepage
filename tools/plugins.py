@@ -24,6 +24,9 @@ CI = "https://gerrit-ci.gerritforge.com"
 GERRIT = "https://gerrit-review.googlesource.com"
 GITILES = "https://gerrit.googlesource.com"
 
+CORE_MAINTAINERS_ID = "google:AI2Pq9rwJtXWrKQ9Q62CcHSid7ngIF2hCfJ4bSpVquX_P2z5kFM6v9s"
+CORE_MAINTAINERS_NAME = "Core maintainers"
+
 BRANCH_MARK = "&#x2325;"
 GREEN_CHECK_MARK = "&#x2705;"
 LOCK = "&#x1F512;"
@@ -293,8 +296,11 @@ class Plugins:
         names = set()
         for id in owner_group_ids:
             try:
-                owners = self.api.get(f"/groups/{id}/members/")
-                names = names | {o.get("name") for o in owners}
+                if id == CORE_MAINTAINERS_ID:
+                    names = names | {CORE_MAINTAINERS_NAME}
+                else:
+                    owners = self.api.get(f"/groups/{id}/members/")
+                    names = names | {o.get("name") for o in owners}
             except requests.HTTPError:
                 # can't read group
                 pass
@@ -316,7 +322,7 @@ class Plugins:
     @staticmethod
     def _name_sorter(word):
         pattern = re.compile(r"[\W]+")
-        return pattern.sub("", word)
+        return word != CORE_MAINTAINERS_NAME, pattern.sub("", word)
 
     def _render_maintainers(self, output):
         header = "|Maintainer|Plugins|"
