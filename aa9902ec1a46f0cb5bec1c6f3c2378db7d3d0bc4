@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "adcec6a8_f025e3b9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-06-01T15:35:49Z",
+      "side": 1,
+      "message": "EOL",
+      "range": {
+        "startLine": 7,
+        "startChar": 38,
+        "endLine": 7,
+        "endChar": 42
+      },
+      "revId": "aa9902ec1a46f0cb5bec1c6f3c2378db7d3d0bc4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f4964ab_2c247e87",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-06-01T15:35:49Z",
+      "side": 1,
+      "message": "announced",
+      "range": {
+        "startLine": 9,
+        "startChar": 3,
+        "endLine": 9,
+        "endChar": 11
+      },
+      "revId": "aa9902ec1a46f0cb5bec1c6f3c2378db7d3d0bc4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cef9dcae_876b0379",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-06-01T15:35:49Z",
+      "side": 1,
+      "message": "2020-04-22-gerrit-3.2-release-plan.html#end-of-life-for-gerrit-216x",
+      "range": {
+        "startLine": 28,
+        "startChar": 87,
+        "endLine": 28,
+        "endChar": 126
+      },
+      "revId": "aa9902ec1a46f0cb5bec1c6f3c2378db7d3d0bc4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
