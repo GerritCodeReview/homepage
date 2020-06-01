@@ -15,14 +15,14 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.1.5](/3.1.html)**. The support status of all recent Gerrit versions is
+Latest release: **[3.2.0](/3.2.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
 ## 3.3.0 (in development)
 
 [Release notes for Gerrit 3.3.0](/3.3.html)
 
-## 3.2.0 (in development)
+## 3.2.0
 
 * Polymer 3
 
