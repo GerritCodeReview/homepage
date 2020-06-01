@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "16ec2051_56e4fbd7",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 325,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-01T09:59:06Z",
+      "side": 1,
+      "message": "nit: wrap long line",
+      "range": {
+        "startLine": 325,
+        "startChar": 76,
+        "endLine": 325,
+        "endChar": 101
+      },
+      "revId": "3faf7bf748371e5f06fd33053c0c4f68be81d342",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "72028a3e_5f80b654",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-01T09:59:06Z",
+      "side": 1,
+      "message": "nit: wrap long line",
+      "range": {
+        "startLine": 334,
+        "startChar": 78,
+        "endLine": 334,
+        "endChar": 100
+      },
+      "revId": "3faf7bf748371e5f06fd33053c0c4f68be81d342",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
