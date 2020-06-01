@@ -113,16 +113,16 @@ together.
 </tr>
 </table>
 
-Schedule [git gc](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.4/config-gerrit.html#gc)
+Schedule [git gc](https://gerrit-documentation.storage.googleapis.com/Documentation/3.2.0/config-gerrit.html#gc)
 over all managed repositories and
-[replicate](https://gerrit.googlesource.com/plugins/replication/+doc/v3.1.4/src/main/resources/Documentation/config.md)
+[replicate](https://gerrit.googlesource.com/plugins/replication/+doc/v3.2.0/src/main/resources/Documentation/config.md)
 to geographical mirrors for latency reduction and backup servers for hot
 spare redundancy.
 
 ## Extensible through plugins
 
 Gerrit Code Review can be extended and further customized by installing
-[server-side plugins](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.4/config-plugins.html).
+[server-side plugins](https://gerrit-documentation.storage.googleapis.com/Documentation/3.2.0/config-plugins.html).
 Source code for additional plugins can be found through the
 [project listing](https://gerrit.googlesource.com/plugins/).
 
