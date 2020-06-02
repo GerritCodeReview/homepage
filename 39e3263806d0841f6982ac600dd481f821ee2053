@@ -22,6 +22,30 @@
       "revId": "39e3263806d0841f6982ac600dd481f821ee2053",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "db45aaba_751ec647",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-06-02T13:11:52Z",
+      "side": 1,
+      "message": "this doesn\u0027t work since core maintainers are not an internal group but hard-coded",
+      "parentUuid": "8c832c7d_c325d25f",
+      "range": {
+        "startLine": 327,
+        "startChar": 24,
+        "endLine": 327,
+        "endChar": 29
+      },
+      "revId": "39e3263806d0841f6982ac600dd481f821ee2053",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
