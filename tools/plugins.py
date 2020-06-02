@@ -7,8 +7,10 @@ import requests
 import sys
 import time
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from enum import Enum, IntEnum
+from functools import partial
 from operator import attrgetter
 from typing import List
 
@@ -184,57 +186,65 @@ class Plugins:
         self.api = GerritRestAPI(url=GERRIT, auth=auth)
         self.plugins = list()
         self.maintainers = defaultdict(list)
-        self._fetch_plugin_data()
+        self._create_plugins()
         self.plugins = sorted(self.plugins, key=attrgetter("state", "empty"))
 
     def __iter__(self):
         return iter(self.plugins)
 
-    def _fetch_plugin_data(self):
-        """Fetch plugin data from Gerrit"""
+    def _create_plugin(self, plugin_list: dict, builds, p):
+        """Create a plugin by fetching it's data from Gerrit"""
+        name = p[len("plugins/") :]
+        plugin = plugin_list[p]
+
+        if plugin["state"] == "ACTIVE":
+            state = PluginState.ACTIVE
+            changes = self._get_recent_changes_count(p)
+            branches = self._get_branch_results(plugin["id"], name, builds)
+        else:
+            state = PluginState.READ_ONLY
+            changes = 0
+            branches = [Branch.missing(branch) for branch in BRANCHES]
+
+        description = (
+            plugin["description"].split("\n")[0].rstrip(r"\.")
+            if "description" in plugin
+            else ""
+        )
+
+        parent, owner_group_ids = self._get_meta_data(name)
+        maintainers, maintainers_csv = self._get_owner_names(
+            parent, name, owner_group_ids
+        )
+        plugin = Plugin(
+            name=name,
+            parent=parent,
+            state=state,
+            owner_group_ids=owner_group_ids,
+            owner_names=maintainers_csv,
+            empty=self._is_project_empty(p),
+            description=description,
+            all_changes_count=self._get_all_changes_count(p),
+            recent_changes_count=changes,
+            branches=branches,
+        )
+        return plugin, maintainers
+
+    def _create_plugins(self):
+        """Create plugins by fetching plugin data from Gerrit"""
         plugin_list = self.api.get("/projects/?p=plugins%2f&d")
         builds = requests.get(
             f"{CI}/api/json?pretty=true&tree=jobs[name,lastBuild[result]]"
         ).json()
-        for p in tqdm(plugin_list):
-            name = p[len("plugins/") :]
-            plugin = plugin_list[p]
-
-            if plugin["state"] == "ACTIVE":
-                state = PluginState.ACTIVE
-                changes = self._get_recent_changes_count(p)
-                branches = self._get_branch_results(plugin["id"], name, builds)
-            else:
-                state = PluginState.READ_ONLY
-                changes = 0
-                branches = [Branch.missing(branch) for branch in BRANCHES]
-
-            description = (
-                plugin["description"].split("\n")[0].rstrip(r"\.")
-                if "description" in plugin
-                else ""
+        creator = partial(self._create_plugin, plugin_list, builds)
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            results = list(
+                tqdm(executor.map(creator, plugin_list), total=len(plugin_list))
             )
-
-            parent, owner_group_ids = self._get_meta_data(name)
-            maintainers, maintainers_csv = self._get_owner_names(
-                parent, name, owner_group_ids
-            )
-            self.plugins.append(
-                Plugin(
-                    name=name,
-                    parent=parent,
-                    state=state,
-                    owner_group_ids=owner_group_ids,
-                    owner_names=maintainers_csv,
-                    empty=self._is_project_empty(p),
-                    description=description,
-                    all_changes_count=self._get_all_changes_count(p),
-                    recent_changes_count=changes,
-                    branches=branches,
-                )
-            )
-            for m in maintainers:
-                self.maintainers[m].append(name)
+            for (plugin, maintainers) in results:
+                self.plugins.append(plugin)
+                for m in maintainers:
+                    self.maintainers[m].append(plugin.name)
 
     def _authenticate(self, options):
         if options.netrc:
