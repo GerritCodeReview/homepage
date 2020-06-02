@@ -24,6 +24,27 @@ one destination branch to all changes in the topic, and that it is
 not possible to cherry-pick a topic that has multiple changes in the
 same repository and branch.
 
+## Comments tab moved
+
+We have renamed the "Comment Threads" tab to "Comments" and moved it
+from next to "Change Log" to next to "Files".
+
+![comments tab moved](/images/news-apr-may-2020-comments-tab.png)
+
+## File status chips
+
+We now have Added`(A),`Renamed`(R),`Copied`(C),`Deleted`(D),
+`Unchanged`(U),`Rewritten`(W) chips after the file name on our file
+list. We do not show "Modified" status anymore.
+
+![File chips](/images/news-apr-may-2020-file-mods.png)
+
+## Mark as active
+
+We have a new `Mark as Active` button as a one-click action for changing
+the state from `WIP` to `Active`. It is located where the `Submit`
+button is.
+
 ## ESC and CM elections
 
 The Engineering Steering Committee and Community Managers elections
