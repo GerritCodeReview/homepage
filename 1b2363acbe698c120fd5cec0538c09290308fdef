@@ -22,6 +22,30 @@
       "revId": "1b2363acbe698c120fd5cec0538c09290308fdef",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e5ab609f_7268e67c",
+        "filename": "tools/plugins.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-06-02T19:09:35Z",
+      "side": 1,
+      "message": "\u003e Should this become a console message instead?\n\nDone in follow-up.",
+      "parentUuid": "d11cd7c8_97189d4f",
+      "range": {
+        "startLine": 321,
+        "startChar": 20,
+        "endLine": 321,
+        "endChar": 38
+      },
+      "revId": "1b2363acbe698c120fd5cec0538c09290308fdef",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
