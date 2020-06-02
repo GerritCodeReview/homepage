@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8c832c7d_c325d25f",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-06-02T12:25:13Z",
+      "side": 1,
+      "message": "Could you skip the \u0027names\u0027 set?\n\n    {a.name for a in maintainers}",
+      "range": {
+        "startLine": 327,
+        "startChar": 24,
+        "endLine": 327,
+        "endChar": 29
+      },
+      "revId": "39e3263806d0841f6982ac600dd481f821ee2053",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
