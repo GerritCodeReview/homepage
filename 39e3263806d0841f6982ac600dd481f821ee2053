@@ -46,6 +46,30 @@
       "revId": "39e3263806d0841f6982ac600dd481f821ee2053",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "36c868e7_b364f05c",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-06-02T14:17:38Z",
+      "side": 1,
+      "message": "What about:\n\n    none_gerrit_groups \u003d set()\n\n    if id \u003d\u003d CORE_MAINTAINERS_ID:\n      none_gerrit_groups.add(CORE_MAINTAINERS_NAME)\n\n    names \u003d sorted({a.name for a in maintainers}) | none_gerrit_groups",
+      "parentUuid": "db45aaba_751ec647",
+      "range": {
+        "startLine": 327,
+        "startChar": 24,
+        "endLine": 327,
+        "endChar": 29
+      },
+      "revId": "39e3263806d0841f6982ac600dd481f821ee2053",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
