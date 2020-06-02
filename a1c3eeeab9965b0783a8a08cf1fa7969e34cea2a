@@ -25,6 +25,53 @@
     },
     {
       "key": {
+        "uuid": "40f0febe_a4049661",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-02T00:06:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "095432c0_da9450fb",
+      "range": {
+        "startLine": 308,
+        "startChar": 131,
+        "endLine": 308,
+        "endChar": 145
+      },
+      "revId": "a1c3eeeab9965b0783a8a08cf1fa7969e34cea2a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e88efa2e_d09a703b",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-02T00:06:22Z",
+      "side": 1,
+      "message": "To be moved to v3.1.6",
+      "range": {
+        "startLine": 308,
+        "startChar": 0,
+        "endLine": 309,
+        "endChar": 19
+      },
+      "revId": "a1c3eeeab9965b0783a8a08cf1fa7969e34cea2a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0a1ef5ba_2f75e6f3",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 6
