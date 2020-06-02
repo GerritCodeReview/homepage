@@ -307,7 +307,20 @@ class Plugins:
     def _get_owner_names(self, parent, owner_group_ids):
         names = set()
         accounts = set()
+        all_owner_group_ids = set(owner_group_ids)
+        # add subgroups if any
         for id in owner_group_ids:
+            if id == CORE_MAINTAINERS_ID:
+                continue
+            else:
+                try:
+                    subgroups = self.api.get(f"/groups/{id}/groups")
+                    for s in subgroups:
+                        all_owner_group_ids.add(s.get("id"))
+                except requests.HTTPError:
+                    # can't read group
+                    pass
+        for id in all_owner_group_ids:
             try:
                 if id == CORE_MAINTAINERS_ID:
                     names = names | {CORE_MAINTAINERS_NAME}
