@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "15e8fa77_97903177",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-06-02T13:12:22Z",
+      "side": 1,
+      "message": "you are right I missed one case when the owner group itself is public and a subgroup isn\u0027t.\nAll the cases I found had a private owner group. Fixed now by Edwin.",
+      "parentUuid": "b0b3f988_1cca720e",
+      "range": {
+        "startLine": 322,
+        "startChar": 40,
+        "endLine": 322,
+        "endChar": 60
+      },
+      "revId": "34476724fcc03798deac97350d1d28b539959a4f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b82529e4_724a98b6",
         "filename": "tools/plugins.py",
         "patchSetId": 1
@@ -39,6 +63,24 @@
       "revId": "34476724fcc03798deac97350d1d28b539959a4f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1b9af123_97226411",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-06-02T13:12:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b82529e4_724a98b6",
+      "revId": "34476724fcc03798deac97350d1d28b539959a4f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
