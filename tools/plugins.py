@@ -177,7 +177,7 @@ class Plugins:
             if is_empty:
                 return "Deprecated, not started"
             else:
-                return "Decrecated"
+                return "Deprecated"
 
     def __init__(self):
         auth = self._authenticate(self._parse_options())
