@@ -218,7 +218,7 @@ class Plugins:
 
             parent, owner_group_ids = self._get_meta_data(name)
             maintainers, maintainers_csv = self._get_owner_names(
-                parent, owner_group_ids
+                parent, name, owner_group_ids
             )
             self.plugins.append(
                 Plugin(
@@ -305,7 +305,7 @@ class Plugins:
             owner_group_ids = list()
         return parent, owner_group_ids
 
-    def _get_owner_names(self, parent, owner_group_ids):
+    def _get_owner_names(self, parent, name, owner_group_ids):
         names = set()
         accounts = set()
         all_owner_group_ids = set(owner_group_ids)
@@ -319,7 +319,7 @@ class Plugins:
                     for s in subgroups:
                         all_owner_group_ids.add(s.get("id"))
                 except requests.HTTPError:
-                    # can't read group
+                    # can't read group, will be logged below
                     pass
         for id in all_owner_group_ids:
             try:
@@ -335,7 +335,7 @@ class Plugins:
                     accounts.update(a)
             except requests.HTTPError:
                 # can't read group
-                pass
+                print(f"Failed to read owner group {id} of plugin {name}")
         names = sorted(list(names))
         csv = ", ".join(names)
         return accounts, csv
