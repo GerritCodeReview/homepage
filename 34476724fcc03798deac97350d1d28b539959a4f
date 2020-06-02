@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "b0b3f988_1cca720e",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-06-02T12:36:48Z",
+      "side": 1,
+      "message": "Will it? How?\nIIUC if the call to groups/{id}/groups fail it won\u0027t amend the group-ids of the sub-groups to the all_owner_group_ids set and those will not be processed below.",
+      "range": {
+        "startLine": 322,
+        "startChar": 40,
+        "endLine": 322,
+        "endChar": 60
+      },
+      "revId": "34476724fcc03798deac97350d1d28b539959a4f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b82529e4_724a98b6",
         "filename": "tools/plugins.py",
         "patchSetId": 1
