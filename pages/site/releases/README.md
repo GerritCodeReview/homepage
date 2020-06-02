@@ -57,7 +57,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 [Release notes for Gerrit 3.0.0](/3.0.html)
 
-## 2.16 (EOL)
+## 2.16 (EOL - with exceptions)
 
 * GWT UI is deprecated, and PolyGerrit is now the default UI.
 
