@@ -124,6 +124,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "04fbef04_93f7a3c1",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-06-03T19:15:46Z",
+      "side": 1,
+      "message": "\u003e Hmm, I don\u0027t quite understand what you mean here, how did the community decide this? I have seen the announcements, but I don\u0027t know how and who made this decision if it wasn\u0027t the ESC?\n\n\"Release Plan for Gerrit 3.2\" document was initiated by the ESC, and then this change was uploaded for review: [1], that the majority of maintainers have approved. Having said that, I agree with you: there is currently no way to migrate from earlier versions of gerrit and jump directly to 3.0 and bypass 2.16. So that the gerrit users, who are still on older gerrit releases, would benefit from extended Gerrit support for 2.16 release line. Like for example OpenStack (2.13.12 | https://review.opendev.org) and Eclipse Foundation (2.14.20 | https://git.eclipse.org/r). \n\n\u003e \u003e If you believe we should keep on supporting v2.16, you are free to start a discussion and propose a change to the current support policy.\n\n\u003e Great, how would I do that, mailing list?\n\nI think what would help is a commitment from your side to continue to conduct fix releases for 2.16 release line. You are one of the Gerrit maintainers. Nobody can stop you from conducting gerrit releases 2.16.21+ with fixes for gerrit core and gerrit plugins.\n\n* [1] https://gerrit-review.googlesource.com/c/homepage/+/263874",
+      "parentUuid": "1c98f64a_b2b60994",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
