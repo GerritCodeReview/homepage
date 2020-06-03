@@ -178,6 +178,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b27b70f7_430ff0c1",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-03T19:50:35Z",
+      "side": 1,
+      "message": "\u003e  If I feel a 2.16 release is needed (and possibly if others request one) I am willing to make one.\n\nThat\u0027s absolutely fine as an exception should any serious bug emerge. Or are you proposing from now on a LTS release based on v2.16 with regular patch-releases? For how many years? Can you please comment on the support policy? (this change wasn\u0027t about support policy, we are bit overloading it with out of context comments)\n\n\u003e  I do think it would be friendlier to those on the mailing list the less anyone replies \"your release is EOL\".\n\nI know it is not nice to tell people to migrate, when they are reporting issues on Gerrit v2.8. Anyway, this is an OpenSource project where people do not pay anything for the software, support or anything else. There must be limits to what people can ask and pretend in return.\n\nAlso, even if you raise a problem on Java 1.3 to Oracle, I believe they would have to answer something similar to \"I am sorry, you need to upgrade\".",
+      "parentUuid": "36151d48_c4ccfef6",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
