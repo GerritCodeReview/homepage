@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a6843bd_5bc8460d",
+        "filename": "_posts/2020-05-29-gerrit-news-apr-may-2020.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-03T09:47:12Z",
+      "side": 1,
+      "message": "Is this something that is included in v3.2? If yes, can you include this into the release notes?",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 42
+      },
+      "revId": "47cf3e488217fee0e6618ecee1017c0978809190",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
