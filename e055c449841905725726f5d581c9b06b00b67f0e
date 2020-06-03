@@ -214,6 +214,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "700bd86b_581b7357",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-03T20:52:39Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e  If I feel a 2.16 release is needed (and possibly if others request one) I am willing to make one.\n\u003e \u003e \n\u003e \u003e That\u0027s absolutely fine as an exception should any serious bug emerge. Or are you proposing from now on a LTS release based on v2.16 with regular patch-releases? For how many years? Can you please comment on the support policy? (this change wasn\u0027t about support policy, we are bit overloading it with out of context comments)\n\u003e \n\u003e I did not start by asking for a change in support, but I am getting contradictory requests. I said that I plan to make fixes to 2.16 and then I get this reply:\n\u003e \n\u003e \u003e Gerrit v2.16 is EOL, so it is unlikely that we will do more releases.\n\nunlikely \u003d low probability\n\n\u003e That made it sound like I needed to ask for the policy to change to be able to make 2.16 releases. But then I get replies saying that:\n\u003e \n\u003e \u003e But you as individual you can actively support any release you would like to support.\n\u003e \n\u003e which is where I started...\n\u003e \n\u003e \u003e The 2 releases support policy was defined in Change-Id: Idb7a3c39da0a96.\n\u003e \u003e (P.S. You gave +2 to that change as well 😊)\n\u003e \n\u003e I don\u0027t believe I\u0027ve ever seen that change, and I don\u0027t see myself as a reviewer on it either.\n\nNot voting is a decision as well. DavidO voted +2 on it (you was referred to him).\n\n\u003e If you think I should raise a change to alter the official support model, I can do that, but I don\u0027t want to waste anybody\u0027s time if it\u0027s just going to get rejected.\n\nIn a free community we should always try to change, without fear of being rejected. Also one rejection doesn\u0027t mean veto. I always tell my Team about the story of DavidO\u0027s inline edit (rejected 2 times and then approved) or the OAuth plugin (100s of patch-sets for months, then rejected and then proposed again and merged).",
+      "parentUuid": "bcb1162a_a7622b26",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
