@@ -28,6 +28,17 @@ The following table shows the compatibility of Gerrit Code Review with Elasticse
 | 7.6.x                 | 2.16.17 | 3.0.8 | 3.1.4 | 3.2.0 |                                                  |
 | 7.7.x                 | 2.16.19 | 3.0.9 | 3.1.5 | 3.2.0 |                                                  |
 
+This second table below shows the known reliability of Gerrit with Elasticsearch.
+
+* This is not a guarantee but rather meant as supplemental information.
+* This information may not be comprehensive or necessarily up-to-date.
+* This table is expected to grow over time, based on community feedback.
+* These versions were used in production, thus would be less experimental than the above:
+
+| Elasticsearch Version | 2.16.x | 3.0.x | 3.1.x | 3.2.x |
+|-----------------------|--------|-------|-------|-------|
+| 6.3.2                 | 2.16.7 |       |       |       |
+
 Indices created in Elasticsearch 5.x or earlier will need to be reindexed with
 Elasticsearch 6.x in order to be readable by Elasticsearch 7.x. See
 [breaking changes in Elasticsearch 7.0](https://www.elastic.co/guide/en/elasticsearch/reference/7.0/breaking-changes-7.0.html)
