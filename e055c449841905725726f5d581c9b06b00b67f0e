@@ -142,6 +142,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b2254804_617a2968",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-06-03T19:42:32Z",
+      "side": 1,
+      "message": "\u003e Having said that, I agree with you: there is currently no way to migrate from earlier versions of gerrit and jump directly to 3.0 and bypass 2.16. So that the gerrit users, who are still on older gerrit releases, would benefit from extended Gerrit support for 2.16 release line.\n\nOr an improved migration path that allows them to bypass running 2.16.\n\n\u003e \u003e \u003e If you believe we should keep on supporting v2.16, you are free to start a discussion and propose a change to the current support policy.\n\u003e \n\u003e \u003e Great, how would I do that, mailing list?\n\u003e \n\u003e I think what would help is a commitment from your side to continue to conduct fix releases for 2.16 release line. You are one of the Gerrit maintainers. Nobody can stop you from conducting gerrit releases 2.16.21+ with fixes for gerrit core and gerrit plugins.\n\nI am willing upload fixes to 2.16 when I make them. I am also willing to help merge those (and possibly more) changes from 2.16 forward. If I feel a 2.16 release is needed (and possibly if others request one) I am willing to make one. What I would like to request (and think that most already gladly do) from other maintainers is at a minimum non-rejection of those forward merges when I or others make them simply because they come from an older release such as 2.16. If others want to help in not calling 2.16 EOL, that would be nice too, but I don\u0027t know what the really means aside from a formality? I do think it would be friendlier to those on the mailing list the less anyone replies \"your release is EOL\".",
+      "parentUuid": "04fbef04_93f7a3c1",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
