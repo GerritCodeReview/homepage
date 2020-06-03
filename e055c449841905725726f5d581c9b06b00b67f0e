@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b93c1fb4_baac773a",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-06-03T16:43:00Z",
+      "side": 1,
+      "message": "This support will not work without at least the following bug fixes: https://gerrit-review.googlesource.com/c/plugins/replication/+/258956 and https://gerrit-review.googlesource.com/c/plugins/replication/+/265572",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
