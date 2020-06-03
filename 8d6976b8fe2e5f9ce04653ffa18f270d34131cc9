@@ -46,6 +46,30 @@
       "revId": "8d6976b8fe2e5f9ce04653ffa18f270d34131cc9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "20519c35_966ef970",
+        "filename": "index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-06-03T21:19:50Z",
+      "side": 1,
+      "message": "Sure. \n\nI think that we have a bit of a conundrum. While I don\u0027t really want to support more than 2 releases, it seems that telling users to upgrade when they might not currently have a viable upgrade path feels wrong. 2.16 seems to be a release that people still need to be able to run in production when upgrading from older releases, so dropping support for it feels problematic. I think this was recognized be saying that exceptions will be made for major 2.16 bugs, however that still feels too weak until such time that 2.16 is no longer needed to upgrade. Another way to see this, is that 2.16 effectively has a show stopper bug (it cannot be bypassed without running it). Thus continuing to make releases with regular fixes is one way (albeit not the best way) to fix the show-stopper bug, until it is fixed permanently by making it possible to bypass running the release.",
+      "parentUuid": "72918bdf_4b8db678",
+      "range": {
+        "startLine": 131,
+        "startChar": 61,
+        "endLine": 132,
+        "endChar": 21
+      },
+      "revId": "8d6976b8fe2e5f9ce04653ffa18f270d34131cc9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
