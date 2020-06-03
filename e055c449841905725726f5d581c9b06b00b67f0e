@@ -16,6 +16,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b1a9799_fdffb27d",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-03T16:46:56Z",
+      "side": 1,
+      "message": "\u003e This support will not work without at least the following bug fixes: https://gerrit-review.googlesource.com/c/plugins/replication/+/258956 and https://gerrit-review.googlesource.com/c/plugins/replication/+/265572\n\nCan you move both fixes onto the stable-3.2 branch? Are you planning to continue stabilising the feature in v3.2.0? If yes, we can still mention it as experimental and make it better. Otherwise, we would just drop the entry in the release notes and move the feature to v3.3 (master).",
+      "parentUuid": "b93c1fb4_baac773a",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
