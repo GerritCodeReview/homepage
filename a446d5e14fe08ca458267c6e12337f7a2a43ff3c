@@ -16,6 +16,24 @@
       "revId": "a446d5e14fe08ca458267c6e12337f7a2a43ff3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c26ab1f6_a4d5b0d9",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-06-03T16:24:18Z",
+      "side": 1,
+      "message": "\u003e This is based on the community feedback?\nYes, as per the Issue 11938\u0027s thread.\n\n\u003e Why 7.x.y versions are not marked as reliable for 3.x.y Gerrit releases columns,\nBecause we got no such feedback yet about this from the community; cf. Issue 11938 (thread).\n\n\u003e and what must happen, to mark specific ES version in specific Gerrit version as reliable?\nStated above through lines 33-36, mostly by lines 35 and 36.\n-Or so I propose; what do you think?",
+      "parentUuid": "616f68db_1c19da09",
+      "revId": "a446d5e14fe08ca458267c6e12337f7a2a43ff3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
