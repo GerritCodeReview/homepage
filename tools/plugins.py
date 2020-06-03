@@ -305,7 +305,6 @@ class Plugins:
         return parent, owner_group_ids
 
     def _get_owner_names(self, parent, name, owner_group_ids):
-        names = set()
         accounts = set()
         external_groups = set()
         all_owner_group_ids = set(owner_group_ids)
@@ -338,8 +337,7 @@ class Plugins:
                 print(
                     f"Failed to read owner group {id} of plugin {name}", file=sys.stderr
                 )
-        names = sorted({a.name for a in accounts} | external_groups)
-        csv = ", ".join(names)
+        csv = ", ".join(sorted({a.name for a in accounts} | external_groups))
         return accounts, csv
 
     def _is_project_empty(self, pluginName):
