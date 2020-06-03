@@ -34,6 +34,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "23df125b_6684bfc3",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-06-03T17:21:00Z",
+      "side": 1,
+      "message": "\u003e \u003e This support will not work without at least the following bug fixes: https://gerrit-review.googlesource.com/c/plugins/replication/+/258956 and https://gerrit-review.googlesource.com/c/plugins/replication/+/265572\n\u003e \n\u003e Can you move both fixes onto the stable-3.2 branch? \n\nI think the fixes would be better merged where they were introduced. I will gladly help with the merge commits to bring them forward.\n\n\u003eAre you planning to continue stabilising the feature in v3.2.0? If yes, we can still mention it as experimental and make it better. Otherwise, we would just drop the entry in the release notes and move the feature to v3.3 (master).\n\nI do plan to continue stabilizing the replication plugin in general (which includes this feature). While it is taking longer than I hoped, and I cannot give any time guarantees (there are more latent bugs unrelated to this feature than I expected), I can tell you that I have been working primarily on stabilizing the replication plugin for a while now (over a month), and I plan to continue to do so until we deploy and use all the parts of this feature and the plugin as a whole and this feature work well enough at scale. I would like to help document how to use the new feature, however, I cannot advise that anyone even try the feature until both of those are fixed as they are \"show-stoppers\" for the feature.\n\nSince I believe the community can benefit from fixes on older versions, I plan to make fixes as far back as 2.16 whenever I can. This feature tends to highlight bugs in the plugin. The first bug above is a bug in the plugin that is dissastrous to the feature, the second one is a bug in the feature itself.",
+      "parentUuid": "7b1a9799_fdffb27d",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
