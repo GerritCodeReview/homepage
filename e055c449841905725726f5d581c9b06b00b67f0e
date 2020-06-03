@@ -106,6 +106,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1c98f64a_b2b60994",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-06-03T18:31:37Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e Gerrit v2.16 is EOL, so it is unlikely that we will do more releases.\n\u003e \u003e \n\u003e \u003e I understand that the ESC has decided this.\n\u003e \n\u003e s/ESC/Community\n\nHmm, I don\u0027t quite understand what you mean here, how did the community decide this? I have seen the announcements, but I don\u0027t know how and who made this decision if it wasn\u0027t the ESC?\n\n\u003e If you believe we should keep on supporting v2.16, you are free to start a discussion and propose a change to the current support policy.\n\nGreat, how would I do that, mailing list?\n\n\u003e \u003e It is not clear to me that I currently have an option to not run 2.16 while migrating from older releases forward, so I am willing to help land some fixes in 2.16 and merge then forward.\n\u003e \n\u003e Sure, nobody is saying \"you can\u0027t run 2.16\" \n\nThat isn\u0027t what I am saying, what I meant was that I believe I am required to run 2.16 in order to migrate from a version older than 2.16 to a currently supported version. Is there an official option that everyone can use to skip running 2.16 in these cases?\n\n\u003e The Community isn\u0027t committed to release them or support them though. \n\nI don\u0027t think the community ever commits to anything, maybe you mean \"maintainers\" instead of \"community\"?\n\n\u003e But you as individual you can actively support any release you would like to support.\n\n+1",
+      "parentUuid": "45e1f3de_45c8d46e",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
