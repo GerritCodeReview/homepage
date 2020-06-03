@@ -22,6 +22,30 @@
       "revId": "47cf3e488217fee0e6618ecee1017c0978809190",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "22b488b5_332d2c7f",
+        "filename": "_posts/2020-05-29-gerrit-news-apr-may-2020.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-06-03T10:14:20Z",
+      "side": 1,
+      "message": "Yes, this is implemented with change https://gerrit-review.googlesource.com/c/gerrit/+/260424/6, which is included in stable-3.2. \n\nShould I file a bug in https://bugs.chromium.org/ and add it to the bug fixes section in the release notes?",
+      "parentUuid": "3a6843bd_5bc8460d",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 42
+      },
+      "revId": "47cf3e488217fee0e6618ecee1017c0978809190",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
