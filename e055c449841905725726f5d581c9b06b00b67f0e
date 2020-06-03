@@ -70,6 +70,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "57e6d9ad_4035377d",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-06-03T17:39:55Z",
+      "side": 1,
+      "message": "\u003e Make sense, let\u0027s park this change for now, until we have some basic functionality working.\n\nOK\n\n\u003e \u003e Since I believe the community can benefit from fixes on older versions, I plan to make fixes as far back as 2.16 whenever I can. \n\u003e \n\u003e Gerrit v2.16 is EOL, so it is unlikely that we will do more releases.\n\nI understand that the ESC has decided this. It is not clear to me that I currently have an option to not run 2.16 while migrating from older releases forward, so I am willing to help land some fixes in 2.16 and merge then forward.\n\n\u003e \u003e This feature tends to highlight bugs in the plugin.\n\u003e \n\u003e I believe that was really useful and many of them have been fixed. Feel to submit more fixes as soon as you find them, reporting them on the issue tracker and then in the code. We are more than happy to review and test them :-)\n\nGreat, will do. Here are more:\n\nhttps://gerrit-review.googlesource.com/c/plugins/replication/+/265192\nhttps://gerrit-review.googlesource.com/c/plugins/replication/+/267812\nhttps://gerrit-review.googlesource.com/c/plugins/replication/+/268612",
+      "parentUuid": "b8f7501e_7259076f",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
