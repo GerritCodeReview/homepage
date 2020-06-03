@@ -24,6 +24,21 @@ one destination branch to all changes in the topic, and that it is
 not possible to cherry-pick a topic that has multiple changes in the
 same repository and branch.
 
+## Serializing the External Groups Cache
+
+Gerrit can be linked to external user directories like LDAP,
+providing Gerrit with external users and groups. External groups can
+be added to Gerrit to restrict access to refs and repos and are
+mainly used for permissions evaluation.
+
+We implemented a significant performance improvement by serializing
+the external groups in-memory cache for faster lookups. We used the
+common serialization infrastructure used by other caches. This has an
+impact on Gerrit setups that require frequent server restarts, i.e.
+for warming up caches. For Google hosted Gerrit sites, the cache
+loading time for all lookup requests was reduced from a few hundreds
+of minutes to less than 3 minutes per day.
+
 ## Comments tab moved
 
 We have renamed the "Comment Threads" tab to "Comments" and moved it
