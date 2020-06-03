@@ -88,6 +88,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "45e1f3de_45c8d46e",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-03T18:13:42Z",
+      "side": 1,
+      "message": "\u003e \u003e Make sense, let\u0027s park this change for now, until we have some basic functionality working.\n\u003e \n\u003e OK\n\u003e \n\u003e \u003e \u003e Since I believe the community can benefit from fixes on older versions, I plan to make fixes as far back as 2.16 whenever I can. \n\u003e \u003e \n\u003e \u003e Gerrit v2.16 is EOL, so it is unlikely that we will do more releases.\n\u003e \n\u003e I understand that the ESC has decided this.\n\ns/ESC/Community\n\nIf you believe we should keep on supporting v2.16, you are free to start a discussion and propose a change to the current support policy.\n\n\u003e It is not clear to me that I currently have an option to not run 2.16 while migrating from older releases forward, so I am willing to help land some fixes in 2.16 and merge then forward.\n\nSure, nobody is saying \"you can\u0027t run 2.16\" and also you can fix as many bugs you would like in any release that is EOL. The Community isn\u0027t committed to release them or support them though. But you as individual you can actively support any release you would like to support.\n\n\u003e Great, will do. Here are more:\n\u003e \n\u003e https://gerrit-review.googlesource.com/c/plugins/replication/+/265192\n\u003e https://gerrit-review.googlesource.com/c/plugins/replication/+/267812\n\u003e https://gerrit-review.googlesource.com/c/plugins/replication/+/268612\n\n+1",
+      "parentUuid": "57e6d9ad_4035377d",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
