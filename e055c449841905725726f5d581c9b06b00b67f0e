@@ -196,6 +196,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bcb1162a_a7622b26",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-06-03T20:28:21Z",
+      "side": 1,
+      "message": "\u003e \u003e  If I feel a 2.16 release is needed (and possibly if others request one) I am willing to make one.\n\u003e \n\u003e That\u0027s absolutely fine as an exception should any serious bug emerge. Or are you proposing from now on a LTS release based on v2.16 with regular patch-releases? For how many years? Can you please comment on the support policy? (this change wasn\u0027t about support policy, we are bit overloading it with out of context comments)\n\nI did not start by asking for a change in support, but I am getting contradictory requests. I said that I plan to make fixes to 2.16 and then I get this reply:\n\n\u003e Gerrit v2.16 is EOL, so it is unlikely that we will do more releases.\n\nThat made it sound like I needed to ask for the policy to change to be able to make 2.16 releases. But then I get replies saying that:\n\n\u003e But you as individual you can actively support any release you would like to support.\n\nwhich is where I started...\n\n\u003e The 2 releases support policy was defined in Change-Id: Idb7a3c39da0a96.\n\u003e (P.S. You gave +2 to that change as well 😊)\n\nI don\u0027t believe I\u0027ve ever seen that change, and I don\u0027t see myself as a reviewer on it either.\n\nIf you think I should raise a change to alter the official support model, I can do that, but I don\u0027t want to waste anybody\u0027s time if it\u0027s just going to get rejected.",
+      "parentUuid": "b27b70f7_430ff0c1",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
