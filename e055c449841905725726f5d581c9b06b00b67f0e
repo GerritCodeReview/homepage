@@ -160,6 +160,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "36151d48_c4ccfef6",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-03T19:43:10Z",
+      "side": 1,
+      "message": "\u003e \u003e Hmm, I don\u0027t quite understand what you mean here, how did the community decide this? I have seen the announcements, but I don\u0027t know how and who made this decision if it wasn\u0027t the ESC?\n\nThe 2 releases support policy was defined in Change-Id: Idb7a3c39da0a96.\n(P.S. You gave +2 to that change as well 😊)\n\n\u003e \"Release Plan for Gerrit 3.2\" document was initiated by the ESC, and then this change was uploaded for review: [1], that the majority of maintainers have approved.\n\nYes, it wasn\u0027t any different than any other release we did since the introduction of the 2 releases policy.\n\n\u003e Having said that, I agree with you: there is currently no way to migrate from earlier versions of gerrit and jump directly to 3.0 and bypass 2.16. So that the gerrit users, who are still on older gerrit releases, would benefit from extended Gerrit support for 2.16 release line. Like for example OpenStack (2.13.12 | https://review.opendev.org) and Eclipse Foundation (2.14.20 | https://git.eclipse.org/r). \n\nSure, that\u0027s why the v2.16 has exceptions, especially as intermediate step for migrating upwards.\n\n\u003e \u003e \u003e If you believe we should keep on supporting v2.16, you are free to start a discussion and propose a change to the current support policy.\n\u003e \n\u003e \u003e Great, how would I do that, mailing list?\n\nJust changing the policy and submit the change for review to the community, as we do for everything :-)\n\nAlso the ESC meetings have public minutes where everyone can object what is decided and challenge anything we decide.\n\nP.S. With Shawn it wasn\u0027t any different, he was the ESC+CM altogether in a single person :-) I recall him making decisions and we all followed him for good. Making a questionable decision is a lot better than making no decisions at all.\n\n\u003e \n\u003e * [1] https://gerrit-review.googlesource.com/c/homepage/+/263874",
+      "parentUuid": "04fbef04_93f7a3c1",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
