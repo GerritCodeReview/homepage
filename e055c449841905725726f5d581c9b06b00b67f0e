@@ -232,6 +232,24 @@
       "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f483af70_ad93b4c4",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T00:02:16Z",
+      "side": 1,
+      "message": "This isn\u0027t really the right place to discuss the EOL policy, but the main reason for introducing it was to reduce the workload of reviewing fixes on the stable branches, merging up through the newer release branches, writing release notes, and making new releases.  Given that the majority of recent releases have been driven by only 2 of the maintainers, having more than 3 active supported releases is simply too much work.",
+      "parentUuid": "700bd86b_581b7357",
+      "revId": "e055c449841905725726f5d581c9b06b00b67f0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
