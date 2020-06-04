@@ -110,9 +110,6 @@ class Account:
     name: str
     email: str
 
-    def render_identity(self):
-        return f"{self.name} <{self.email}>"
-
 
 class Plugins:
     """Class to retrieve data about Gerrit plugins and render the plugins page"""
@@ -253,7 +250,7 @@ class Plugins:
             for (plugin, maintainers) in results:
                 self.plugins.append(plugin)
                 for m in maintainers:
-                    self.maintainers[m].append(plugin.name)
+                    self.maintainers[m.name].append((m, plugin.name))
 
     def _authenticate(self):
         if self.options.netrc:
@@ -375,15 +372,22 @@ class Plugins:
         dashes = "|----------|-------|"
         output.write("\n\n## Plugin Maintainers")
         output.write(f"\n\n{header}|\n{dashes}|\n")
-        for m in sorted(self.maintainers, key=attrgetter("name")):
-            output.write(f"|{m.name}|{', '.join(sorted(self.maintainers.get(m)))}|\n")
+        for m in sorted(self.maintainers):
+            plugins = set()
+            for (_, p) in self.maintainers.get(m):
+                plugins.add(p)
+            output.write(f"|{m}|{', '.join(sorted(plugins))}|\n")
 
     def render_maintainers_email(self, output):
         output.write(f"\nAll {len(self.maintainers)} plugin maintainers:\n")
-        for m in sorted(self.maintainers, key=attrgetter("name")):
-            if m.name == CORE_MAINTAINERS_NAME:
+        for m in sorted(self.maintainers):
+            if m == CORE_MAINTAINERS_NAME:
                 continue
-            output.write(f"{m.render_identity()}\n")
+            emails = set()
+            output.write(f"{m}: ")
+            for (accounts, _) in self.maintainers.get(m):
+                emails.add(accounts.email)
+            output.write(f"{', '.join(sorted(emails))}\n")
 
     def render_page(self, output):
         output.writelines(self._render_template())
