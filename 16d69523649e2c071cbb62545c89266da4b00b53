@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3c14c896_4150878d",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "limits",
+      "range": {
+        "startLine": 126,
+        "startChar": 67,
+        "endLine": 126,
+        "endChar": 74
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cad4cfd8_fed900c3",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "There seem to be some words missing from this sentence.  Suggestion:\n\n\"The number of comments per change are limited to 5000, and their size to 16k.\"\n\nIt would also be useful to mention the rationale for the introduction of this limit.",
+      "range": {
+        "startLine": 126,
+        "startChar": 2,
+        "endLine": 126,
+        "endChar": 61
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e54c53b1_a4f8bef4",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "Add links to the documentation of these in 3.1?",
+      "range": {
+        "startLine": 144,
+        "startChar": 0,
+        "endLine": 144,
+        "endChar": 88
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "167202e8_f97d0863",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "The settings",
+      "range": {
+        "startLine": 144,
+        "startChar": 0,
+        "endLine": 144,
+        "endChar": 17
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "459baf37_585e2268",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "no longer used and may be removed from gerrit.config.",
+      "range": {
+        "startLine": 145,
+        "startChar": 4,
+        "endLine": 145,
+        "endChar": 21
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "88cba2a2_32a70695",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "caches",
+      "range": {
+        "startLine": 166,
+        "startChar": 29,
+        "endLine": 166,
+        "endChar": 34
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ef26e8c4_0b69729c",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "in",
+      "range": {
+        "startLine": 166,
+        "startChar": 78,
+        "endLine": 166,
+        "endChar": 80
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b82b92f_18cf78e6",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "Is it only from All-Projects?  In that case it should be specifically mention that it\u0027s the change id sequence.  \n\nThe accounts and groups sequences come from All-Users.git",
+      "range": {
+        "startLine": 201,
+        "startChar": 64,
+        "endLine": 201,
+        "endChar": 80
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "26cb2dc4_38071789",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "in the change info returned from REST APIs?",
+      "range": {
+        "startLine": 213,
+        "startChar": 46,
+        "endLine": 213,
+        "endChar": 74
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2b66a8fb_adc23da8",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 513,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-04T23:49:21Z",
+      "side": 1,
+      "message": "Replace the term `slave` with `replica`",
+      "range": {
+        "startLine": 513,
+        "startChar": 1,
+        "endLine": 513,
+        "endChar": 39
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
