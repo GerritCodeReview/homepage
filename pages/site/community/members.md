@@ -58,9 +58,11 @@ Current maintainers are:
 | Luca Milanesio        | GerritForge                |
 | Marco Miller          | Ericsson                   |
 | Martin Fick           | Qualcomm                   |
+| Matthias Sohn         | SAP                        |
 | Ole Rehmsen           | Google                     |
 | Patrick Hiesel        | Google                     |
 | Saša Živkov           | SAP                        |
+| Sven Selberg          | Axis                       |
 | Tao Zhou              | Google                     |
 | Viktar Donich         | Google                     |
 
