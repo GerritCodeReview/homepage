@@ -75,10 +75,6 @@ Target: Q2 2020
   * Support for global ref-db
   * Mention HA and multi-master setup in Gerrit documentation
 
-## Gerrit 3.3
-* Java 11
-  * Switch language level to Java 11
-
 ## Upcoming plugin improvements related to Gerrit 3.3
 * Quota plugin
   * Simplify the plugin.
