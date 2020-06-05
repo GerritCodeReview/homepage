@@ -22,6 +22,30 @@
       "revId": "77ec50038fb6451cd9b44b64e3b80b45427c0b78",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e714e29d_bcc78e8a",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-06-05T16:33:37Z",
+      "side": 0,
+      "message": "Nope.\n\nI think you are confusing support running gerrit on JDK release X, with bumping Java language level to major java byte version Y. Those are two completely different things.\n\nAccording to Java release schedule: [1].\n\n* Java SE 8 (LTS) March 2014\n* Java SE 11 (LTS) September 2018\n* Java SE 14 March 2020\n* Java SE 15 September 2020\n* Java SE 16 March 2021\n* Java SE 17 (LTS) September 2021\n* ...\n\nIf gerrit stakeholders are in position to bump Java language level at some point in the future, it could be Java 11 or 17 or, ... In fact we don\u0027t know today. That why we do this time the other way around. First gerrit stakeholders agreed and approved a change on master, that does something like that: [2], and then (and only then) we adjust Java language level in our roadmap (binding) for the upcoming release. That way we wouldn\u0027t need to revert it again and again, as was done recently in: [3] and in this CL.\n\n[1] https://en.wikipedia.org/wiki/Java_version_history\n[2] https://gerrit-review.googlesource.com/c/gerrit/+/264535\n[3] https://gerrit-review.googlesource.com/c/homepage/+/256505",
+      "parentUuid": "1247953d_6c55fad2",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 36
+      },
+      "revId": "77ec50038fb6451cd9b44b64e3b80b45427c0b78",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
