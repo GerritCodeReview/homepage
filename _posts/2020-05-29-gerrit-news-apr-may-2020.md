@@ -1,5 +1,5 @@
 ---
-title: "Gerrit Project News #10: April-May 2020"
+title: "Gerrit Project News #9: April-May 2020"
 tags: news
 keywords: news
 permalink: 2020-05-29-gerrit-news-apr-may-2020.html
