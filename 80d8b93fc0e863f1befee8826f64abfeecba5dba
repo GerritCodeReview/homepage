@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9701b6ce_453ee837",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "I\u0027ll address in a separate change.",
+      "parentUuid": "d041af7e_c8dc92d4",
+      "range": {
+        "startLine": 118,
+        "startChar": 16,
+        "endLine": 118,
+        "endChar": 24
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ae44951a_3c55d4a6",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 3
@@ -45,6 +69,30 @@
       "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "19e8ae91_5dad8c2a",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae44951a_3c55d4a6",
+      "range": {
+        "startLine": 340,
+        "startChar": 46,
+        "endLine": 340,
+        "endChar": 56
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9dd47e88_4fc085cd",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8a614b0f_f36e37d7",
+      "range": {
+        "startLine": 345,
+        "startChar": 35,
+        "endLine": 345,
+        "endChar": 37
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6bc111e2_dabe7ebe",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 3
@@ -82,6 +154,30 @@
       "writtenOn": "2020-06-04T23:39:40Z",
       "side": 1,
       "message": "this should be mentioned as a separate new feature",
+      "range": {
+        "startLine": 347,
+        "startChar": 33,
+        "endLine": 347,
+        "endChar": 54
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ace3dde_312581fc",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "The revert permission is already mentioned as a separate feature. Possibly are these details redundant here? (these are just copy\u0026paste from the docs)",
+      "parentUuid": "6bc111e2_dabe7ebe",
       "range": {
         "startLine": 347,
         "startChar": 33,
@@ -140,6 +236,54 @@
     },
     {
       "key": {
+        "uuid": "01d36869_6a4d1f12",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fd1a8b99_6c353fd3",
+      "range": {
+        "startLine": 350,
+        "startChar": 70,
+        "endLine": 350,
+        "endChar": 77
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96c9ece9_aacac2d8",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "I could not find it, do you have any links?",
+      "parentUuid": "de54d3b4_d165bb55",
+      "range": {
+        "startLine": 350,
+        "startChar": 90,
+        "endLine": 350,
+        "endChar": 100
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d9714e21_8a5b39d2",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 3
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "ab7aa827_da2313fe",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 358,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9714e21_8a5b39d2",
+      "range": {
+        "startLine": 358,
+        "startChar": 13,
+        "endLine": 358,
+        "endChar": 20
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "34cf3d33_77dfb61d",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 3
@@ -174,6 +342,30 @@
       "writtenOn": "2020-06-04T23:39:40Z",
       "side": 1,
       "message": "I\u0027m not sure what \"all API\" means here.",
+      "range": {
+        "startLine": 360,
+        "startChar": 36,
+        "endLine": 360,
+        "endChar": 44
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d5a5ac8_805e9380",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 360,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "REST-API",
+      "parentUuid": "34cf3d33_77dfb61d",
       "range": {
         "startLine": 360,
         "startChar": 36,
@@ -206,6 +398,30 @@
       "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f72f0ffa_397851ab",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T21:10:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f704bded_1c6483d7",
+      "range": {
+        "startLine": 371,
+        "startChar": 83,
+        "endLine": 372,
+        "endChar": 10
+      },
+      "revId": "80d8b93fc0e863f1befee8826f64abfeecba5dba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
