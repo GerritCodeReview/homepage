@@ -48,6 +48,54 @@
     },
     {
       "key": {
+        "uuid": "b587d905_66c746f0",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "\u003e There seem to be some words missing from this sentence.  Suggestion:\n\u003e \n\u003e \"The number of comments per change are limited to 5000, and their size to 16k.\"\n\nDone.\n\n\u003e It would also be useful to mention the rationale for the introduction of this limit.\n\nSetting limits is always a good thing. The associated change did not include any rationale for the change though.",
+      "parentUuid": "cad4cfd8_fed900c3",
+      "range": {
+        "startLine": 126,
+        "startChar": 2,
+        "endLine": 126,
+        "endChar": 61
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "63c327c4_2fdf9df7",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3c14c896_4150878d",
+      "range": {
+        "startLine": 126,
+        "startChar": 67,
+        "endLine": 126,
+        "endChar": 74
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e54c53b1_a4f8bef4",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -94,6 +142,54 @@
     },
     {
       "key": {
+        "uuid": "cc2f3e53_a0ea38c5",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e54c53b1_a4f8bef4",
+      "range": {
+        "startLine": 144,
+        "startChar": 0,
+        "endLine": 144,
+        "endChar": 88
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6eabfd17_18ae68ab",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "167202e8_f97d0863",
+      "range": {
+        "startLine": 144,
+        "startChar": 0,
+        "endLine": 144,
+        "endChar": 17
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "459baf37_585e2268",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -114,6 +210,30 @@
       "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "74e91f7e_ef5982ac",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "459baf37_585e2268",
+      "range": {
+        "startLine": 145,
+        "startChar": 4,
+        "endLine": 145,
+        "endChar": 21
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -163,6 +283,54 @@
     },
     {
       "key": {
+        "uuid": "6acb4b6a_dce06060",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef26e8c4_0b69729c",
+      "range": {
+        "startLine": 166,
+        "startChar": 78,
+        "endLine": 166,
+        "endChar": 80
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "705511b4_e6051fbd",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88cba2a2_32a70695",
+      "range": {
+        "startLine": 166,
+        "startChar": 29,
+        "endLine": 166,
+        "endChar": 34
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7b82b92f_18cf78e6",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -183,6 +351,30 @@
       "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0d858f4c_8412885b",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done, added All-Users.git as well.",
+      "parentUuid": "7b82b92f_18cf78e6",
+      "range": {
+        "startLine": 201,
+        "startChar": 64,
+        "endLine": 201,
+        "endChar": 80
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "d545d235_7c3bc7c5",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "26cb2dc4_38071789",
+      "range": {
+        "startLine": 213,
+        "startChar": 46,
+        "endLine": 213,
+        "endChar": 74
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2b66a8fb_adc23da8",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -229,6 +445,30 @@
       "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fd0a25ef_c7706e63",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 513,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-06T20:52:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2b66a8fb_adc23da8",
+      "range": {
+        "startLine": 513,
+        "startChar": 1,
+        "endLine": 513,
+        "endChar": 39
+      },
+      "revId": "16d69523649e2c071cbb62545c89266da4b00b53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
