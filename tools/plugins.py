@@ -139,9 +139,9 @@ class Plugins:
             "-t",
             "--threads",
             dest="threads",
-            default=2,
+            default=1,
             type=int,
-            help="number of threads fetching data from Gerrit concurrently",
+            help="number of threads to fetch data from Gerrit concurrently",
         )
         return parser.parse_args()
 
