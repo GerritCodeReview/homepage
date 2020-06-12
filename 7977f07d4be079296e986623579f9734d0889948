@@ -141,6 +141,30 @@
       "revId": "7977f07d4be079296e986623579f9734d0889948",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6dfedfd_4de1dca1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-06-12T13:35:44Z",
+      "side": 1,
+      "message": "Oh, yes I/we can amend the list from that view indeed. Thanks for the reminder.",
+      "parentUuid": "4e952b33_9e102929",
+      "range": {
+        "startLine": 14,
+        "startChar": 31,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "7977f07d4be079296e986623579f9734d0889948",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
