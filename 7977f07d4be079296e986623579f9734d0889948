@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "87c31eaa_8f9232d3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-06-12T09:11:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b513a3ad_7452065d",
+      "range": {
+        "startLine": 11,
+        "startChar": 21,
+        "endLine": 11,
+        "endChar": 35
+      },
+      "revId": "7977f07d4be079296e986623579f9734d0889948",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fd7e260e_a6185d6b",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "7977f07d4be079296e986623579f9734d0889948",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ac7c5d25_65b6b78c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-06-12T09:11:20Z",
+      "side": 1,
+      "message": "No, Hugo and Shawn were still listed as members. I have removed them now.",
+      "parentUuid": "fd7e260e_a6185d6b",
+      "range": {
+        "startLine": 14,
+        "startChar": 31,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "7977f07d4be079296e986623579f9734d0889948",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
