@@ -117,6 +117,30 @@
       "revId": "7977f07d4be079296e986623579f9734d0889948",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e952b33_9e102929",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-06-12T13:15:52Z",
+      "side": 1,
+      "message": "All maintainers are Owner of the group, so I thought everyone could do this.\nhttps://groups.google.com/g/gerritcodereview-maintainers/members",
+      "parentUuid": "447915a5_6ccde74d",
+      "range": {
+        "startLine": 14,
+        "startChar": 31,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "7977f07d4be079296e986623579f9734d0889948",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
