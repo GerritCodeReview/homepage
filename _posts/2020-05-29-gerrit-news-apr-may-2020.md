@@ -48,8 +48,8 @@ from next to "Change Log" to next to "Files".
 
 ## File status chips
 
-We now have Added`(A),`Renamed`(R),`Copied`(C),`Deleted`(D),
-`Unchanged`(U),`Rewritten`(W) chips after the file name on our file
+We now have Added`(A)`, Renamed`(R)`, Copied`(C)`, Deleted`(D)`,
+Unchanged`(U)`, Rewritten`(W)` chips after the file name on our file
 list. We do not show "Modified" status anymore.
 
 ![File chips](/images/news-apr-may-2020-file-mods.png)
