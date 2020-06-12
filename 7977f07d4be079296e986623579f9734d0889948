@@ -93,6 +93,30 @@
       "revId": "7977f07d4be079296e986623579f9734d0889948",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "447915a5_6ccde74d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-06-12T13:06:50Z",
+      "side": 1,
+      "message": "Is it normal that some maintainers like me don\u0027t have the necessary access to amend that group? Could be that only Googlers can, maybe similarly with other groups.",
+      "parentUuid": "ac7c5d25_65b6b78c",
+      "range": {
+        "startLine": 14,
+        "startChar": 31,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "7977f07d4be079296e986623579f9734d0889948",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
