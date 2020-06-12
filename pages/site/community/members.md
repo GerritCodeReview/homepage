@@ -50,7 +50,6 @@ Current maintainers are:
 |-----------------------|----------------------------|
 | Alice Kober-Sotzek    | Google                     |
 | Ben Rohlfs            | Google                     |
-| Dave Borowitz         | Google                     |
 | David Ostrovsky       | Independent                |
 | David Pursehouse      | CollabNet (formerly Sony)  |
 | Edwin Kempin          | Google (formerly SAP)      |
@@ -70,6 +69,7 @@ Current maintainers are:
 |-----------------------|----------------------------|
 | Andrew Bonventre      | Google                     |
 | Becky Siegel          | Google                     |
+| Dave Borowitz         | Google                     |
 | Hugo Arès             | Kaloom (formerly Ericsson) |
 | Kasper Nilsson        | Google                     |
 | Logan Hanks           | Google                     |
