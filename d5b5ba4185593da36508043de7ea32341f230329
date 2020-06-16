@@ -22,6 +22,30 @@
       "revId": "d5b5ba4185593da36508043de7ea32341f230329",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0794f5f0_bc10ee99",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-06-16T23:29:53Z",
+      "side": 1,
+      "message": "\u003e Has a fix for this been submitted?\n\nWe are close to the merge, running the final validation now.\n\n\u003e Also we should mention the gerrit.canLoadInIFrame which existed for the GWT UI but was not implemented for PG.\n\nAck.",
+      "parentUuid": "ed742d7c_b4536677",
+      "range": {
+        "startLine": 205,
+        "startChar": 2,
+        "endLine": 207,
+        "endChar": 79
+      },
+      "revId": "d5b5ba4185593da36508043de7ea32341f230329",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
