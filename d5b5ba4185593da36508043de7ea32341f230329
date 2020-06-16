@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ed742d7c_b4536677",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-06-16T23:24:49Z",
+      "side": 1,
+      "message": "Has a fix for this been submitted?\n\nAlso we should mention the gerrit.canLoadInIFrame which existed for the GWT UI but was not implemented for PG.",
+      "range": {
+        "startLine": 205,
+        "startChar": 2,
+        "endLine": 207,
+        "endChar": 79
+      },
+      "revId": "d5b5ba4185593da36508043de7ea32341f230329",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
