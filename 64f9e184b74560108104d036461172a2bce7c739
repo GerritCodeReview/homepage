@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "0beeb146_b14ce7aa",
+        "filename": "pages/site/elasticsearch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-06-25T21:13:28Z",
+      "side": 1,
+      "message": "In fact, this note is fine as is I think, as it starts from 7.0 and ends up linking to it (below). One should be able to easily refer to it also in the context of 7.1 and up. Otherwise repeating it would clutter the table.",
+      "parentUuid": "71339aa2_d8038a1b",
+      "range": {
+        "startLine": 22,
+        "startChar": 61,
+        "endLine": 22,
+        "endChar": 90
+      },
+      "revId": "64f9e184b74560108104d036461172a2bce7c739",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "76cee403_7270ab64",
         "filename": "pages/site/elasticsearch.md",
         "patchSetId": 1
