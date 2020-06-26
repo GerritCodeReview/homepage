@@ -17,6 +17,7 @@ documents can be found in Gerrit by using the link inside each doc.
 
 ## List of Design Documents
 
+- [WIP workflow](https://gerrit-review.googlesource.com/c/homepage/+/106892/2/docs/WipProposal.md) by Logan Hanks, proposed 2017-12-05
 - [Generate Release Notes](design-docs/generate-release-notes.html) by Edwin Kempin, proposed 2019-10-04
 - [Revert submit](design-docs/revert-submit.html) by Gal Paikin, approved 2019-09-09
 - [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html) by Martin Fick, approved 2019-11-12
