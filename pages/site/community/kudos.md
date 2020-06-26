@@ -36,6 +36,24 @@ Note: Please add new kudos at the top of this list.
 
 ---
 
+**[2020-06-26] To: Marco Miller (Ericsson) and Matthias Sohn (SAP)**
+
+```
+  For Gerrit as an open source project it is essential to have a healthy open
+  source community. To address the needs of the open source community better we
+  have established the role of a community manager [1] one year ago. I want to
+  thank Marco and Matthias for taking up this role and filling it with life. It
+  is a pleasure to work with you as community manager and I'm amazed by the
+  things that we have achieved together [2].
+```
+
+[1] <https://gerrit-review.googlesource.com/Documentation/dev-roles.html#community-manager>
+[2] <https://groups.google.com/g/repo-discuss/c/OJYszErJwT4/m/YG9ymoL9DQAJ>
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2019-08-07] To: David Pursehouse (CollabNet)**
 
 ```
