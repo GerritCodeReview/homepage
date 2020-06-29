@@ -36,6 +36,26 @@ Note: Please add new kudos at the top of this list.
 
 ---
 
+**[2020-06-29] To: Christian Aistleitner (quelltextlich e.U., Wikimedia)**
+
+```
+  Often Gerrit administrators are worried about upgrading their Gerrit
+  instances, especially if the upgrade is across multiple Gerrit versions and if
+  it includes the migration to NoteDb. To overcome this, it's important that
+  community members give feedback on performed upgrades and issues that they hit
+  during the migration. Christian just shared a summary of the Gerrit upgrade
+  that was done at Wikimedia, including a list of things to watch out during
+  such an upgrade. Thank you Christian for sharing these insights and even more
+  for contributing back fixes for the issues that you faced, making the upgrade
+  smoother for others.
+```
+
+[1] <https://groups.google.com/g/repo-discuss/c/G5wucKJg9Ag/m/pLin-i3mBgAJ>
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2020-06-26] To: Marco Miller (Ericsson) and Matthias Sohn (SAP)**
 
 ```
