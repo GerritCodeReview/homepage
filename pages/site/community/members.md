@@ -33,7 +33,7 @@ Members of the ESC for the 2020 term are:
 |-----------------------|------------------------|
 | Alice Kober-Sotzek    | Google                 |
 | Ben Rohlfs            | Google                 |
-| David Pursehouse      | CollabNet              |
+| David Pursehouse      | Independent            |
 | Luca Milanesio        | GerritForge            |
 | Patrick Hiesel        | Google                 |
 
@@ -46,24 +46,24 @@ to the
 
 Current maintainers are:
 
-| Name                  | Affiliation                |
-|-----------------------|----------------------------|
-| Alice Kober-Sotzek    | Google                     |
-| Ben Rohlfs            | Google                     |
-| David Ostrovsky       | Independent                |
-| David Pursehouse      | CollabNet (formerly Sony)  |
-| Edwin Kempin          | Google (formerly SAP)      |
-| Han-Wen Nienhuys      | Google                     |
-| Luca Milanesio        | GerritForge                |
-| Marco Miller          | Ericsson                   |
-| Martin Fick           | Qualcomm                   |
-| Matthias Sohn         | SAP                        |
-| Ole Rehmsen           | Google                     |
-| Patrick Hiesel        | Google                     |
-| Saša Živkov           | SAP                        |
-| Sven Selberg          | Axis                       |
-| Tao Zhou              | Google                     |
-| Viktar Donich         | Google                     |
+| Name                  | Affiliation                             |
+|-----------------------|-----------------------------------------|
+| Alice Kober-Sotzek    | Google                                  |
+| Ben Rohlfs            | Google                                  |
+| David Ostrovsky       | Independent                             |
+| David Pursehouse      | Independent (formerly Sony, CollabNet)  |
+| Edwin Kempin          | Google (formerly SAP)                   |
+| Han-Wen Nienhuys      | Google                                  |
+| Luca Milanesio        | GerritForge                             |
+| Marco Miller          | Ericsson                                |
+| Martin Fick           | Qualcomm                                |
+| Matthias Sohn         | SAP                                     |
+| Ole Rehmsen           | Google                                  |
+| Patrick Hiesel        | Google                                  |
+| Saša Živkov           | SAP                                     |
+| Sven Selberg          | Axis                                    |
+| Tao Zhou              | Google                                  |
+| Viktar Donich         | Google                                  |
 
 ## Former maintainers
 
