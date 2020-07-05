@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "2e07bc76_46ca72d2",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-05T13:44:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "77f408f4_c2912aee",
+      "revId": "67f38ce5fb74d31fadec783ad8b270efe491b283",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "30081cdc_c4234b3a",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 1
@@ -39,6 +57,30 @@
       "revId": "67f38ce5fb74d31fadec783ad8b270efe491b283",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "349c7423_99d33682",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-05T13:44:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30081cdc_c4234b3a",
+      "range": {
+        "startLine": 150,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 7
+      },
+      "revId": "67f38ce5fb74d31fadec783ad8b270efe491b283",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
