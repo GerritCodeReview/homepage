@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4dbd835e_c0b2e1fc",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-06T18:37:34Z",
+      "side": 1,
+      "message": "Note to the reviewers: This is how we announced new permission in other places. However, this time I have to reference future release: 3.0.12 in that case, that wasn\u0027t released yet. So that once published, this link would be broken. Can we do that? Alternative 1 would be to only submit this change after 3.0.12 is published.",
+      "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
