@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f41ee55_17c95bf8",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1071857
+      },
+      "writtenOn": "2020-07-06T06:22:56Z",
+      "side": 1,
+      "message": "I had to re-read this. It is a very long sentence. Perhaps split it up into two sentences?\n\nex.\nThis allows for granting the \"Toggle Work In Progress state\" permission to arbitrary users.\nThis permission controls who is able to flip the Work In Progress bit in addition to the three\ndifferent groups that can do so already: change owner, server administrator and project owners.",
+      "revId": "43a70b0fc9f8e67551189b992a75bec1fc267364",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
