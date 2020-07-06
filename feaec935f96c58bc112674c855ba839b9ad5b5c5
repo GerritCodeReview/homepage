@@ -51,6 +51,24 @@
       "revId": "feaec935f96c58bc112674c855ba839b9ad5b5c5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "86e026bb_d17fa631",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-07-06T17:52:56Z",
+      "side": 1,
+      "message": "Or locally first; see [1] https://www.gerritcodereview.com/publishing.html#building-the-site",
+      "parentUuid": "607a6770_0e295303",
+      "revId": "feaec935f96c58bc112674c855ba839b9ad5b5c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
