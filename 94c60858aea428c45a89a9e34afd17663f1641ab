@@ -16,6 +16,24 @@
       "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8143de6f_f9ac3f88",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-07T07:19:24Z",
+      "side": 1,
+      "message": "I think it\u0027s OK to submit it like this, assuming we\u0027re going to release 3.0.12 soon and the \u0027broken\u0027 link won\u0027t be live on the site for too long.\n\nAlternatively, you can remove this link, and then do a follow up change to add it back, after the release has been done.",
+      "parentUuid": "4dbd835e_c0b2e1fc",
+      "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
