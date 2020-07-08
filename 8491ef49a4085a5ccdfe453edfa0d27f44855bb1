@@ -16,6 +16,75 @@
       "revId": "8491ef49a4085a5ccdfe453edfa0d27f44855bb1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfac7f1b_375fb8b7",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-08T13:21:26Z",
+      "side": 1,
+      "message": "Helm Charts for K8s",
+      "range": {
+        "startLine": 35,
+        "startChar": 54,
+        "endLine": 35,
+        "endChar": 74
+      },
+      "revId": "8491ef49a4085a5ccdfe453edfa0d27f44855bb1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "577191be_59d66ff1",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-08T13:21:26Z",
+      "side": 1,
+      "message": "Remove \u0027against older releases\u0027\n(the secure pipeline is intended for all security fixes, regardless of the new/old release).",
+      "range": {
+        "startLine": 36,
+        "startChar": 51,
+        "endLine": 36,
+        "endChar": 73
+      },
+      "revId": "8491ef49a4085a5ccdfe453edfa0d27f44855bb1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d2029970_2644ea09",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-08T13:21:26Z",
+      "side": 1,
+      "message": "A series of fixes have been merged",
+      "range": {
+        "startLine": 48,
+        "startChar": 8,
+        "endLine": 48,
+        "endChar": 14
+      },
+      "revId": "8491ef49a4085a5ccdfe453edfa0d27f44855bb1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
