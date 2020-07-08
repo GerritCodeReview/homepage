@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be0fd54c_7c71a780",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-08T08:49:48Z",
+      "side": 1,
+      "message": "I wonder if we should re-do the template/layout for these posts?  There are too many places where the date needs to be changed.",
+      "revId": "da24e86c535ca65426d18c0f50cba5c7b0fcb89a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "23a153f0_f529fcc2",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-08T08:49:48Z",
+      "side": 1,
+      "message": "Wrong permalink",
+      "range": {
+        "startLine": 5,
+        "startChar": 11,
+        "endLine": 5,
+        "endChar": 21
+      },
+      "revId": "da24e86c535ca65426d18c0f50cba5c7b0fcb89a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "234a4bf6_f7ef72fa",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-08T08:49:48Z",
+      "side": 1,
+      "message": "July 7th",
+      "range": {
+        "startLine": 6,
+        "startChar": 47,
+        "endLine": 6,
+        "endChar": 55
+      },
+      "revId": "da24e86c535ca65426d18c0f50cba5c7b0fcb89a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fd2d7389_64b9848c",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-08T08:49:48Z",
+      "side": 1,
+      "message": "July",
+      "range": {
+        "startLine": 12,
+        "startChar": 43,
+        "endLine": 12,
+        "endChar": 47
+      },
+      "revId": "da24e86c535ca65426d18c0f50cba5c7b0fcb89a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "29276c14_fd757852",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-08T08:49:48Z",
+      "side": 1,
+      "message": "13:00?",
+      "range": {
+        "startLine": 20,
+        "startChar": 24,
+        "endLine": 20,
+        "endChar": 30
+      },
+      "revId": "da24e86c535ca65426d18c0f50cba5c7b0fcb89a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "09603de3_c4f339b5",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-08T08:49:48Z",
+      "side": 1,
+      "message": "July",
+      "range": {
+        "startLine": 30,
+        "startChar": 56,
+        "endLine": 30,
+        "endChar": 60
+      },
+      "revId": "da24e86c535ca65426d18c0f50cba5c7b0fcb89a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6398cdef_e469d3f7",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-08T08:49:48Z",
+      "side": 1,
+      "message": "nit: trailing space",
+      "range": {
+        "startLine": 64,
+        "startChar": 6,
+        "endLine": 64,
+        "endChar": 7
+      },
+      "revId": "da24e86c535ca65426d18c0f50cba5c7b0fcb89a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ebf5946_1da5c0a3",
+        "filename": "_posts/2020-07-07-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2020-07-08T08:49:48Z",
+      "side": 1,
+      "message": "ESC\u0027s",
+      "range": {
+        "startLine": 69,
+        "startChar": 4,
+        "endLine": 69,
+        "endChar": 8
+      },
+      "revId": "da24e86c535ca65426d18c0f50cba5c7b0fcb89a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
