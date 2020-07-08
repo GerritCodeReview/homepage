@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc5b66dc_8a960a88",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 685,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-08T17:39:08Z",
+      "side": 1,
+      "message": "So, I am reading the above and asking how it is helpful to know, that the last 3 released versions are broken? Thanks for telling me, now what? Shouldn\u0027t this also include suggestions what to do?\n\nWe could give three suggestions:\n\n* 1. Looking at the offending CL: [1], it was only included starting from v2.16.19. So, one advice would be to downgrade Gerrit to v2.16.18.\n* 2. In the same time, we should mention, that on the tip of the stable-2.16 branch the problem was fixed, so there are two options: build gerrit itself or download the most recent release.war from the CI.\n* 3. Wait with the upgrade from earlier releases, until new 2.16.22 is conducted, in the next days or weeks?\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/268055",
+      "revId": "b7c128aaa1be4de54f195a820d3a6ba2f7070317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
