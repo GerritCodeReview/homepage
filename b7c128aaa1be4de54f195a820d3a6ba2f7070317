@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "abbd66fa_169f360f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2020-07-09T06:18:25Z",
+      "side": 1,
+      "message": "This should be fixed with this change:\nhttps://gerrit-review.googlesource.com/c/gerrit/+/271967",
+      "revId": "b7c128aaa1be4de54f195a820d3a6ba2f7070317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dc5b66dc_8a960a88",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
