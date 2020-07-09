@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "aebc0615_97fda2ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-09T07:20:42Z",
+      "side": 1,
+      "message": "The change isn\u0027t released yet, so I\u0027m not sure is helpful yet.\nOnce released, we can mention that \"is fixed in release X.Y.Z\"",
+      "parentUuid": "abbd66fa_169f360f",
+      "revId": "b7c128aaa1be4de54f195a820d3a6ba2f7070317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dc5b66dc_8a960a88",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
@@ -48,6 +66,24 @@
       "side": 1,
       "message": "The issue is annoying, but not completely breaking. Trying the operation again, it will work after a few tries. So a downgrade is probably overkill.",
       "parentUuid": "dc5b66dc_8a960a88",
+      "revId": "b7c128aaa1be4de54f195a820d3a6ba2f7070317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0111201b_e09c2c5c",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 685,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-09T07:20:42Z",
+      "side": 1,
+      "message": "\u003e 1. Looking at the offending CL: [1], it was only included starting from v2.16.19. So, one advice would be to downgrade Gerrit to v2.16.18.\n\nYes, but only if you find the issue annoying. Honestly, lots of people upgraded and did not even notice the problem. It appears only if you add files during the in-line edit.\n\n\u003e 2. In the same time, we should mention, that on the tip of the stable-2.16 branch the problem was fixed, so there are two options: build gerrit itself or download the most recent release.war from the CI.\n\nThe \"tip of the stable-2.16\" isn\u0027t a release and is subject to change also. Are you sure that isn\u0027t going to break again on the \"tip of a branch\"? We can only mention immutable artifacts here, such as tags and releases.\n\n\u003e 3. Wait with the upgrade from earlier releases, until new 2.16.22 is conducted, in the next days or weeks?\n\nYes, that is what the reader in a nutshell should do: if you really care about that feature, stay on v2.16.18 OR wait.\n\nWDYT?",
+      "parentUuid": "59ff31b8_4a9bbaf1",
       "revId": "b7c128aaa1be4de54f195a820d3a6ba2f7070317",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
