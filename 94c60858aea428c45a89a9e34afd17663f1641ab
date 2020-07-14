@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "07c611ba_81835ebe",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-14T08:31:36Z",
+      "side": 1,
+      "message": "nit: can this be aligned with the format of the other issues link, just for the sake of consistenty?",
+      "range": {
+        "startLine": 127,
+        "startChar": 16,
+        "endLine": 127,
+        "endChar": 46
+      },
+      "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4dbd835e_c0b2e1fc",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 6
@@ -34,6 +57,29 @@
       "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "01ad7b7f_a51c48fa",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-14T08:31:36Z",
+      "side": 1,
+      "message": "This should be mentioned in the release notes of 3.0.12, as a documentation update.",
+      "range": {
+        "startLine": 135,
+        "startChar": 2,
+        "endLine": 135,
+        "endChar": 78
+      },
+      "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
