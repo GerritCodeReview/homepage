@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e2b17669_ccab9347",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-14T08:57:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "07c611ba_81835ebe",
+      "range": {
+        "startLine": 127,
+        "startChar": 16,
+        "endLine": 127,
+        "endChar": 46
+      },
+      "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4dbd835e_c0b2e1fc",
         "filename": "pages/site/releases/3.0.md",
         "patchSetId": 6
@@ -80,6 +104,30 @@
       "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bc596f08_eb0c99d6",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-14T08:57:13Z",
+      "side": 1,
+      "message": "I followed the example from line 151 below, whre another new feature also listed in the main section, even though it was documented only in 3.0.3.",
+      "parentUuid": "01ad7b7f_a51c48fa",
+      "range": {
+        "startLine": 135,
+        "startChar": 2,
+        "endLine": 135,
+        "endChar": 78
+      },
+      "revId": "94c60858aea428c45a89a9e34afd17663f1641ab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
