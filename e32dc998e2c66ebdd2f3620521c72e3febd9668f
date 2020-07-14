@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f765ef93_6981729f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-14T11:29:50Z",
+      "side": 1,
+      "message": "Because this references a not-yet-released version (3.0.12), we should wait for the release to submit this.\n\nI am planning to release by end of this week.",
+      "revId": "e32dc998e2c66ebdd2f3620521c72e3febd9668f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
