@@ -123,6 +123,24 @@
       "revId": "b7c128aaa1be4de54f195a820d3a6ba2f7070317",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "de2537d8_474f040e",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 685,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2020-07-15T07:09:55Z",
+      "side": 1,
+      "message": "Yes, I also thought that another release would not be of high prio. But I think we should at least mention that the issue was fixed after the last release and that users can fix it by updating to the tip of the branch.",
+      "parentUuid": "50a7a8f1_aa3967c8",
+      "revId": "b7c128aaa1be4de54f195a820d3a6ba2f7070317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
