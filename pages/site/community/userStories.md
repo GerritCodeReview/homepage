@@ -33,6 +33,26 @@ Please add new stories at the top of this list.
 
 ---
 
+  **[2020-07-15] Eclipse Foundation**
+
+  ```
+  The Eclipse Foundation's in-house Gerrit instance, in service since early
+  2012, has been the code review and development tool of choice for many
+  world-famous Open Source projects, including the Eclipse IDE and the Eclipse
+  C/C++ IDE.
+
+  The Eclipse Sysadmins love Gerrit for its robustness and stability. Eclipse
+  projects love Gerrit for its ease of use, features, and the fact it is well
+  suited for their development process and workflows. It integrates well with
+  CI/CD systems such as Jenkins, allowing for a quick feedback loop between 
+  developers and contributors and the build and test systems.
+
+  Gerrit's extensibility has allowed the Eclipse Foundation to rely on Gerrit
+  to validate incoming code contributions against Contributor Agreements and
+  Signed-off-by footers, essential for the stellar Intellectual Property and
+  provenance tracking we are known for.
+  ``
+
 **[2020-02-14] Gerrit at Google (Google)**
 
 ```
