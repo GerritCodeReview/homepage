@@ -52,13 +52,13 @@ Current maintainers are:
 | Ben Rohlfs            | Google                                  |
 | David Ostrovsky       | Independent                             |
 | David Pursehouse      | Independent (formerly Sony, CollabNet)  |
+| Dmitrii Filippov      | Google                                  |
 | Edwin Kempin          | Google (formerly SAP)                   |
 | Han-Wen Nienhuys      | Google                                  |
 | Luca Milanesio        | GerritForge                             |
 | Marco Miller          | Ericsson                                |
 | Martin Fick           | Qualcomm                                |
 | Matthias Sohn         | SAP                                     |
-| Ole Rehmsen           | Google                                  |
 | Patrick Hiesel        | Google                                  |
 | Saša Živkov           | SAP                                     |
 | Sven Selberg          | Axis                                    |
@@ -75,5 +75,6 @@ Current maintainers are:
 | Hugo Arès             | Kaloom (formerly Ericsson) |
 | Kasper Nilsson        | Google                     |
 | Logan Hanks           | Google                     |
+| Ole Rehmsen           | Google                     |
 | Shawn Pearce          | Google                     |
 | Wyatt Allen           | Google                     |
