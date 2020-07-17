@@ -22,6 +22,30 @@
       "revId": "8d82fee95658d5260e72c7d00d0bc270454eae7a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "36f413be_cf404a8e",
+        "filename": "pages/site/community/kudos.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-07-17T10:12:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9637dae_9916280a",
+      "range": {
+        "startLine": 47,
+        "startChar": 22,
+        "endLine": 47,
+        "endChar": 27
+      },
+      "revId": "8d82fee95658d5260e72c7d00d0bc270454eae7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
