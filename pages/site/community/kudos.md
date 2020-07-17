@@ -36,6 +36,25 @@ Note: Please add new kudos at the top of this list.
 
 ---
 
+**[2020-07-17] To: Saša Živkov (SAP)**
+
+```
+  Thank you Saša for always helping people out when they struggle with Prolog
+  submit rules. Being able to configure when a change should be submittable is
+  important for many teams, but when this requires writing Prolog submit rules
+  people often struggle because they are not much familiar with Prolog. When
+  this happens, Saša is always there to help. This unblocks teams setting up
+  their workflows and saves them quite some frustration debugging Prolog. Saša
+  also wrote the Prolog cookbook in the Gerrit documentation [1] which continues
+  to be a great source for everyone starting with Prolog submit rules.
+```
+
+[1] https://gerrit-review.googlesource.com/Documentation/prolog-cookbook.html
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2020-06-29] To: Christian Aistleitner (quelltextlich e.U., Wikimedia)**
 
 ```
