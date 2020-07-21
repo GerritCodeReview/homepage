@@ -37,6 +37,23 @@
     },
     {
       "key": {
+        "uuid": "97de2246_0917d41c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-21T17:33:25Z",
+      "side": 1,
+      "message": "We should just document that this issue is fixed in 2.16.22.",
+      "revId": "b7c128aaa1be4de54f195a820d3a6ba2f7070317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dc5b66dc_8a960a88",
         "filename": "pages/site/releases/2.16.md",
         "patchSetId": 1
