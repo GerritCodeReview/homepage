@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5996c4d8_904938f2",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 653,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-07-21T18:38:18Z",
+      "side": 1,
+      "message": "add a link to the corresponding CVE https://nvd.nist.gov/vuln/detail/CVE-2019-17638 ?",
+      "revId": "005be1b48cf73a8eeb366fa7e56fb630a54dfb66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d10b957_8ab9dc13",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 661,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-07-21T18:38:18Z",
+      "side": 1,
+      "message": "s/with/using/",
+      "range": {
+        "startLine": 661,
+        "startChar": 41,
+        "endLine": 661,
+        "endChar": 45
+      },
+      "revId": "005be1b48cf73a8eeb366fa7e56fb630a54dfb66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
