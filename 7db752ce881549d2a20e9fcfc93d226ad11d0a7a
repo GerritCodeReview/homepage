@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ad3b98b7_020c820c",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2020-07-23T13:35:48Z",
+      "side": 1,
+      "message": "Only in the JSON logs. The text logs, which are still written by default, contained the latency.\nMaybe it is clearer like this:\n\n  The latency field was missing in the entries of JSON-formatted http logs.",
+      "revId": "7db752ce881549d2a20e9fcfc93d226ad11d0a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
