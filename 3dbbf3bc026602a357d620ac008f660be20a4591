@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7baf73a6_dbe2f5d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-23T21:12:43Z",
+      "side": 1,
+      "message": "I would recommend to wait for the v3.1.8 release to merge this change, otherwise the v3.1.8 links would be broken.",
+      "revId": "3dbbf3bc026602a357d620ac008f660be20a4591",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
