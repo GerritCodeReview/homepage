@@ -16,6 +16,41 @@
       "revId": "e32dc998e2c66ebdd2f3620521c72e3febd9668f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d3fbc9ed_ac0a666a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-23T05:37:28Z",
+      "side": 1,
+      "message": "Verified, though one link is broken for ca. one day, that\u0027s fine.",
+      "revId": "e32dc998e2c66ebdd2f3620521c72e3febd9668f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2a33f90f_e3a3106a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-23T05:37:28Z",
+      "side": 1,
+      "message": "Work on releasing 3.0.12 today, so that it\u0027s fine to submit now.",
+      "parentUuid": "f765ef93_6981729f",
+      "revId": "e32dc998e2c66ebdd2f3620521c72e3febd9668f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
