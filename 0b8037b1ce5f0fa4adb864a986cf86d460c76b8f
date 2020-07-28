@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "d36035bc_20bff35a",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-07-28T19:16:38Z",
+      "side": 1,
+      "message": "Should JGit upgrade be mentioned somewhere down the lines?",
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3fbe3bad_b8bf0265",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
