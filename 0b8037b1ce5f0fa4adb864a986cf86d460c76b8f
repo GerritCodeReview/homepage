@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ac6cb004_ddf02b50",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-28T06:50:08Z",
+      "side": 1,
+      "message": "This is a minor patch release, and the plan was not to make dozen changes for two bug fixes, so only this change.",
+      "parentUuid": "3fbe3bad_b8bf0265",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 110
+      },
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "573b50ff_5dc14f6b",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -59,6 +83,24 @@
       "writtenOn": "2020-07-28T06:25:38Z",
       "side": 1,
       "message": "I see many more issues included in the v3.2.2..HEAD git log:\n10385\n12779\n12813\n12846\n12934\n12940\n12952\n12959\n12986\n12988\n12994\n13054\n13080\n13166\n\nAlso, we should add in the release notes all the fixes made in plugins, the one with most changes was the replication plugin.\n\nIt can be addressed in a series of follow-up changes.",
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "74829e01_e2777e10",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-28T06:50:08Z",
+      "side": 1,
+      "message": "But all those bug fixes were already included in 2.16/3.0./3.1 releases. Normally we don\u0027t repeat them. Same applies for replications plugin.",
+      "parentUuid": "b86d1f96_e19fad77",
       "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
