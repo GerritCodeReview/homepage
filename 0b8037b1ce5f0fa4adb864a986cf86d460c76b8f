@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fbe3bad_b8bf0265",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-28T06:25:38Z",
+      "side": 1,
+      "message": "We typically put the link to the release notes when they are complete and the version is out. Best to take this links out of this change and allow the release notes to be completed.\n\nWe can merge this change *without* the links and add more follow-ups with the additional changes / fixes / improvements introduced in a separate change.\n\nWDYT?",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 110
+      },
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "573b50ff_5dc14f6b",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 616,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-28T06:25:38Z",
+      "side": 1,
+      "message": "PolyGerrit",
+      "range": {
+        "startLine": 616,
+        "startChar": 2,
+        "endLine": 616,
+        "endChar": 5
+      },
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b86d1f96_e19fad77",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-28T06:25:38Z",
+      "side": 1,
+      "message": "I see many more issues included in the v3.2.2..HEAD git log:\n10385\n12779\n12813\n12846\n12934\n12940\n12952\n12959\n12986\n12988\n12994\n13054\n13080\n13166\n\nAlso, we should add in the release notes all the fixes made in plugins, the one with most changes was the replication plugin.\n\nIt can be addressed in a series of follow-up changes.",
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
