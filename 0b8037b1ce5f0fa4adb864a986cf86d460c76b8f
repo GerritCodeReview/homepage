@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "7eb4932d_e043dde6",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-28T06:53:20Z",
+      "side": 1,
+      "message": "\u003e This is a minor patch release, and the plan was not to make dozen changes for two bug fixes, so only this change.\n\nSure, but with v2.16 still active, many more changes have been pulled in as a result of the merge.",
+      "parentUuid": "ac6cb004_ddf02b50",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 110
+      },
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "573b50ff_5dc14f6b",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -101,6 +125,24 @@
       "side": 1,
       "message": "But all those bug fixes were already included in 2.16/3.0./3.1 releases. Normally we don\u0027t repeat them. Same applies for replications plugin.",
       "parentUuid": "b86d1f96_e19fad77",
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "38508a31_3fc92229",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-28T06:53:20Z",
+      "side": 1,
+      "message": "\u003e But all those bug fixes were already included in 2.16/3.0./3.1 releases. Normally we don\u0027t repeat them. Same applies for replications plugin.\n\ns/don\u0027t/do\n\nWe do include all the changes introduced between two patch-releases, even if they are a result of a merge, including core plugins.",
+      "parentUuid": "74829e01_e2777e10",
       "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
