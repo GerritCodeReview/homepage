@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7cc2a803_381f0b48",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-28T21:30:29Z",
+      "side": 1,
+      "message": "I believe it\u0027s good enough for merging. If you just add the \"(in development)\" as suggested, we can then just remove the parens when the release is out.",
+      "revId": "822bc2d48fcb98c67e4d4ee75cd73dd62d6e1a68",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "966bc07b_fb3c11ee",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-28T21:30:29Z",
+      "side": 1,
+      "message": "3 (in development)",
+      "range": {
+        "startLine": 596,
+        "startChar": 8,
+        "endLine": 596,
+        "endChar": 9
+      },
+      "revId": "822bc2d48fcb98c67e4d4ee75cd73dd62d6e1a68",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
