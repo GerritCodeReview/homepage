@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "bf567780_a788c0c3",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-28T21:28:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c18b54d8_88ffd36c",
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fbe3bad_b8bf0265",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -131,6 +149,30 @@
     },
     {
       "key": {
+        "uuid": "9376f4ef_76595faa",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 616,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-28T21:28:55Z",
+      "side": 1,
+      "message": "Usually, we don\u0027t differentiate between backend and front end issues in minor releases?",
+      "parentUuid": "573b50ff_5dc14f6b",
+      "range": {
+        "startLine": 616,
+        "startChar": 2,
+        "endLine": 616,
+        "endChar": 5
+      },
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b86d1f96_e19fad77",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -178,6 +220,24 @@
       "side": 1,
       "message": "\u003e But all those bug fixes were already included in 2.16/3.0./3.1 releases. Normally we don\u0027t repeat them. Same applies for replications plugin.\n\ns/don\u0027t/do\n\nWe do include all the changes introduced between two patch-releases, even if they are a result of a merge, including core plugins.",
       "parentUuid": "74829e01_e2777e10",
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b9cbc30f_97a585c5",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-07-28T21:28:55Z",
+      "side": 1,
+      "message": "Added all issues, that you have referenced.",
+      "parentUuid": "38508a31_3fc92229",
       "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
