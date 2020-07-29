@@ -126,6 +126,30 @@
     },
     {
       "key": {
+        "uuid": "47921c7a_970f63ea",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-29T06:29:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7eb4932d_e043dde6",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 110
+      },
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "573b50ff_5dc14f6b",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 2
@@ -170,6 +194,30 @@
       "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d25347b3_7ddd976d",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 616,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-29T06:29:27Z",
+      "side": 1,
+      "message": "Are you sure? See https://www.gerritcodereview.com/3.2.html#322.\n\nIt\u0027s a minor thing though, we can merge the release notes as-is and address this later.",
+      "parentUuid": "9376f4ef_76595faa",
+      "range": {
+        "startLine": 616,
+        "startChar": 2,
+        "endLine": 616,
+        "endChar": 5
+      },
+      "revId": "0b8037b1ce5f0fa4adb864a986cf86d460c76b8f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
