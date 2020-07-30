@@ -33,6 +33,24 @@
       "revId": "e64312fb007f92bf19f70881934d86a13bded612",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "58f7824b_a300a0b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-07-30T15:49:03Z",
+      "side": 1,
+      "message": "\u003e Thanks, Marco.\n\nSure, anytime. Release notes I think should be updated as related code changes happen. -So the RM doesn\u0027t always have all the updates burden on his/her shoulders. This also helps diminishing big-bangs right before releases.",
+      "parentUuid": "5de5db55_3b4b0252",
+      "revId": "e64312fb007f92bf19f70881934d86a13bded612",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
