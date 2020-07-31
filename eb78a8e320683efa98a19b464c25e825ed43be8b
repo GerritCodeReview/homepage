@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cfa58e74_e12604e7",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-31T12:26:57Z",
+      "side": 1,
+      "message": "This hasn\u0027t been historically the way that the CI was detecting changes, but the Gerrit stream-events were introduced for that purpose.\n\nWhy don\u0027t you change it: \"The CI systems discovers new changes or patch-sets through stream-events or query changes that needs verification\"? That would reflect more the current discovery mechanism.",
+      "range": {
+        "startLine": 25,
+        "startChar": 89,
+        "endLine": 26,
+        "endChar": 49
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "30b49653_d5a2c701",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-31T12:26:57Z",
+      "side": 1,
+      "message": "s/simple/small ?\n\nA simple deployment but with lots of repos would easily fall into the labels overload issues.",
+      "range": {
+        "startLine": 36,
+        "startChar": 24,
+        "endLine": 36,
+        "endChar": 30
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "be9e9d4f_c4d515ac",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-31T12:26:57Z",
+      "side": 1,
+      "message": "This isn\u0027t an issue anymore today: all feedback (including voting and messages) can be tagged and is automatically hidden by default.",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 93
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "17b5924e_3d1bcd3c",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-31T12:26:57Z",
+      "side": 1,
+      "message": "Could you possibly group the googlesource.com specifics together? The ceiling of one write per second is not affecting the open-source codebase. It needs to be taken into consideration, of course, but it is not relevant for anyone else except Google.\n\nWe cannot also find any clue of that limitation in the Gerrit code-base.\n\nHaving those points into a separate section would help considering those aspects, bearing in mind that we won\u0027t find any clue into Gerrit code.",
+      "range": {
+        "startLine": 64,
+        "startChar": 16,
+        "endLine": 65,
+        "endChar": 8
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea6f3898_c8c71159",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-07-31T12:26:57Z",
+      "side": 1,
+      "message": "at Google is a bit redundant here: the practice of copy\u0026paste is global :-)\nEveryone copy\u0026paste from the cookbook.",
+      "range": {
+        "startLine": 71,
+        "startChar": 67,
+        "endLine": 71,
+        "endChar": 77
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
