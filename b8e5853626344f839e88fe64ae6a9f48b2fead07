@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "836f0ccd_b03e24d3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2020-08-04T19:02:06Z",
+      "side": 1,
+      "message": "I had difficulty parsing this sentence. \"Revamping the homepage layout is out of scope for this change\", perhaps?",
+      "range": {
+        "startLine": 14,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 26
+      },
+      "revId": "b8e5853626344f839e88fe64ae6a9f48b2fead07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
