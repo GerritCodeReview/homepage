@@ -1,0 +1,153 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ec1e987e_90a5a04d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T08:08:57Z",
+      "side": 1,
+      "message": "David asked me to take another look some time ago. So, here it is. I added some comments. If this design is still relevant, please follow up with them so that we can get this submitted. If the design is not relevant anymore, let\u0027s drop it.",
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e61a1a55_8ff5c319",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T08:08:57Z",
+      "side": 1,
+      "message": "In the file name and elsewhere: It would be better to name solutions by their base idea and not by using a person\u0027s name.",
+      "range": {
+        "startLine": 3,
+        "startChar": 37,
+        "endLine": 3,
+        "endChar": 49
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2d26743_a64d6fce",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T08:08:57Z",
+      "side": 1,
+      "message": "SGTM if this is just a plugin (and not a core plugin).",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 67
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b2f6c8e_cf5c8784",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T08:08:57Z",
+      "side": 1,
+      "message": "What about groups which\n* are mentioned in ACLs?\n* are a sub-group of another group?",
+      "range": {
+        "startLine": 21,
+        "startChar": 41,
+        "endLine": 21,
+        "endChar": 76
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "62392e00_2335123b",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T08:08:57Z",
+      "side": 1,
+      "message": "We currently don\u0027t have a way to restore groups, do we?",
+      "range": {
+        "startLine": 50,
+        "startChar": 68,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d35da83c_0c084af0",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T08:08:57Z",
+      "side": 1,
+      "message": "Another con: Before this plugin could become a core plugin, it would need to be adjusted to also support the audited variant of group deletions.",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 3
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4560b3bf_a2ad4aba",
+        "filename": "pages/design-docs/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T08:08:57Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we make a distinction between designs for core Gerrit and plugins so that others are not confused?",
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
