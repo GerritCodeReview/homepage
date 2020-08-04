@@ -52,6 +52,24 @@
       "revId": "e64312fb007f92bf19f70881934d86a13bded612",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df895950_db60ee17",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-04T08:42:01Z",
+      "side": 0,
+      "message": "\u003e I\u0027m not insisting, just asking :) \n\u003e \n\u003e I just think that the roadmap is intended to be consumed by users that maintain a Gerrit instance and that are interested in which features they can expect in the future. \n\nThat was my initial proposal of an \"open roadmap\", where the users are the main drivers of the future of Gerrit, including a public voting and, optionally, a sponsoring mechanism.\n\nHowever, that did not happen and we have now a roadmap document that is getting amended and is mainly driven by the maintainers, with the input of the community.\n\n\u003e Those users are normally not deeply involved in the community to know what\u0027s ongoing. If as such a user I was waiting for a feature that was mentioned in the roadmap and that now disappeared.\n\nWe can simply put a sentence saying: \"with regards to the roadmap of the released version, please look at the relevant release notes\".\n\nKeeping a copy of the release notes with the features included in the roadmap looks redundant IMHO.",
+      "parentUuid": "196039f3_6a5de956",
+      "revId": "e64312fb007f92bf19f70881934d86a13bded612",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
