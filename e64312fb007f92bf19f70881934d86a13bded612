@@ -70,6 +70,24 @@
       "revId": "e64312fb007f92bf19f70881934d86a13bded612",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4f9f28a7_88e909ea",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T09:29:15Z",
+      "side": 0,
+      "message": "I added a sentence about the release notes to the commit message.\n\nShould we maybe add a link on the roadmap page which points to the release notes? Do you think that would be helpful?",
+      "parentUuid": "df895950_db60ee17",
+      "revId": "e64312fb007f92bf19f70881934d86a13bded612",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
