@@ -20,66 +20,37 @@ wishes you want someone else of the community to work on!
 If someone would like to be involved when a specific topic is tackled, please
 [reach out to the ESC](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.0/dev-roles.html#steering-committee-member).
 
-## Gerrit 3.2
-Target: Q2 2020
+## Gerrit 3.3
+Target: Q4 2020
 
-* Allow group deletion
 * Pluggable authentication backend
 * Performance improvements
-  * Latency improvements for ‘git push’
-  * Latency improvements for critical user journeys on the Web UI: View dashboards as well as change
-    and diff screens. Write comments and post a review. All of these actions should complete in 2s
-    on the 90th percentile and 5s on the 99th percentile.
-  * Experimental support for filesystem-based RefTable: Speed improvements for repositories with a
-    large number of refs.
   * Replace H2 persistence with other more performant backends
   * Improve Gerrit performance with mono-repos (tens of GBytes of size)
-* Better multi-master / multi-site support
-  * Support for pluggable global ref-db (JGit or Gerrit)
-  * Zookeeper-based global ref-db
-* Frontend infrastructure
-  * Polymer 3
-    * Class based components
-    * Migrate from bower to npm and simplify the BUILD process
-    * Get rid of html imports, everything plain javascript
-  * Content-Security-Policy
-  * TypeScript
-  * File Upload
 * Better UX
   * Attention Set (revising assignee and “bolding”)
   * Increased overview in Change Log
+  * Porting unresolved comments to the latest patchset
+  * Showing comment context (file content or diff) along with comment widget in ChangeLog and
+    Comment Threads tab
   * Comment and Patchset Navigation
-  * Improved theming support: Spacing and Fonts
-* Robot comments
-  * Support preview/apply fix feature
-  * Polish experience especially regarding robot comments posted on every patch set
-* Java 11
-  * Officially supported for production use
-* ssh client
-  * Migrate from jsch to mina-sshd. This is already supported by jgit since 5.2.
-  See [this discussion](https://www.eclipse.org/lists/cross-project-issues-dev/msg16172.html)
-  about problems with jsch on the Eclipse cross projects list and
-  [jgit bug 520927](https://bugs.eclipse.org/bugs/show_bug.cgi?id=520927)
-  for the implementation in JGit.
-
-## Upcoming plugin improvements related to Gerrit 3.2
-* Replication plugin
-  * Better multi-master support
-  * Support for external replication queue
-  * Message-broker based replication queue
-* Checks plugin
-  * Support for sub-checks
-  * Override status
-  * Refine UI with regards to many checks
-* High-availability plugin
-  * Support for global ref-db
-  * Mention HA and multi-master setup in Gerrit documentation
-
-## Gerrit 3.3
-* Java 11
+  * SubmitRules v2
+* Infrastructure
+  * TypeScript
+  * Content-Security-Policy
+  * Rework diff caches
+  * Clean up project cache to allow to persist it
+  * Persist project cache
   * Switch language level to Java 11
 
 ## Upcoming plugin improvements related to Gerrit 3.3
+* New plugin: Allow group deletion
+* Replication plugin
+  * Support for external replication queue
+  * Message-broker based replication queue
+* High-availability plugin
+  * Support for global ref-db
+  * Mention HA and multi-master setup in Gerrit documentation
 * Quota plugin
   * Simplify the plugin.
 
@@ -88,8 +59,4 @@ Target: Q2 2020
 * Evaluate other web frameworks as potential replacements for Polymer
 * Rework event infrastructure
 * Pushing of server events into the frontend
-* Clean up project cache to allow to persist it
-* Persist project cache
-* Persist account cache
-* Rework diff caches
 * Protobuf for REST API entities
