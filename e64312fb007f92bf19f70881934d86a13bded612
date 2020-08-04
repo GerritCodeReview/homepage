@@ -106,6 +106,24 @@
       "revId": "e64312fb007f92bf19f70881934d86a13bded612",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5b853816_a5cad48a",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T11:35:37Z",
+      "side": 0,
+      "message": "I agree that users might want to see this. I still think that the current format is not ideal for this as it would require a lot of manual tracking. Using the commit message of this change also wouldn\u0027t be a satisfying solution. The users you mentioned are unlikely to go to this Gerrit change. If we had a note saying what was dropped and why, it should be on the homepage in my opinion. Or alternatively, completely in an issue tracker.",
+      "parentUuid": "929175b3_dfaf63bc",
+      "revId": "e64312fb007f92bf19f70881934d86a13bded612",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }

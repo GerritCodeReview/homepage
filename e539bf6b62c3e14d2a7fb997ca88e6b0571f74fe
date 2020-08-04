@@ -22,6 +22,30 @@
       "revId": "e539bf6b62c3e14d2a7fb997ca88e6b0571f74fe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ff9444d3_51dc934e",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-04T11:35:37Z",
+      "side": 1,
+      "message": "Good catch. I don\u0027t think we\u0027ve already established which alternative term we\u0027re going to use in the future. I reformulated this bit to the best of my knowledge.",
+      "parentUuid": "4d24dc83_59842c9b",
+      "range": {
+        "startLine": 53,
+        "startChar": 25,
+        "endLine": 53,
+        "endChar": 31
+      },
+      "revId": "e539bf6b62c3e14d2a7fb997ca88e6b0571f74fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
