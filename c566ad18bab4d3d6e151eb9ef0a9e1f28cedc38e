@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "173c1d27_1bf7add9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2020-08-04T12:28:34Z",
+      "side": 1,
+      "message": "Feel free to take over then :)",
+      "parentUuid": "464c9d0f_eab3bfc8",
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e61a1a55_8ff5c319",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 4
