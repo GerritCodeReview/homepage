@@ -88,6 +88,24 @@
       "revId": "e64312fb007f92bf19f70881934d86a13bded612",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "929175b3_dfaf63bc",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-08-04T09:38:12Z",
+      "side": 0,
+      "message": "Thanks, that\u0027s a bit better, but I think the more interesting case is where something is dropped that is not part of the release. E.g. was it dropped because we decided against it or was it dropped because noone has time to work on it. E.g. let\u0027s say I was really looking forward to a feature that is dropped now, can I make it happen if I\u0027m willing to invest time into it?",
+      "parentUuid": "4f9f28a7_88e909ea",
+      "revId": "e64312fb007f92bf19f70881934d86a13bded612",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
