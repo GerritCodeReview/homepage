@@ -34,6 +34,24 @@
       "revId": "e64312fb007f92bf19f70881934d86a13bded612",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "196039f3_6a5de956",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-08-04T08:30:21Z",
+      "side": 0,
+      "message": "I\u0027m not insisting, just asking :) \n\nI just think that the roadmap is intended to be consumed by users that maintain a Gerrit instance and that are interested in which features they can expect in the future. Those users are normally not deeply involved in the community to know what\u0027s ongoing. If as such a user I was waiting for a feature that was mentioned in the roadmap and that now disappeared, I would wonder what happened to it and it\u0027s not easy to figure out (e.g. I, working full time on this project, couldn\u0027t tell for all the points without spending time on research).\n\nIt\u0027s still good to have this level of a roadmap, but it\u0027s usefulness seems limited.",
+      "parentUuid": "4283efb4_21e97968",
+      "revId": "e64312fb007f92bf19f70881934d86a13bded612",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
