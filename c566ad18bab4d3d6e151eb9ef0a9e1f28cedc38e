@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "8a40e8fa_a55ac1cb",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-05T13:49:31Z",
+      "side": 1,
+      "message": "\u0027solution-gal\u0027 was renamed to \u0027solution-plugin\u0027",
+      "parentUuid": "e61a1a55_8ff5c319",
+      "range": {
+        "startLine": 3,
+        "startChar": 37,
+        "endLine": 3,
+        "endChar": 49
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a2d26743_a64d6fce",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 4
@@ -142,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "4e14cfed_9d98e9b6",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-05T13:49:31Z",
+      "side": 1,
+      "message": "Added to the list of prerequisites, thanks for pointing that out!",
+      "parentUuid": "8b2f6c8e_cf5c8784",
+      "range": {
+        "startLine": 21,
+        "startChar": 41,
+        "endLine": 21,
+        "endChar": 76
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "62392e00_2335123b",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 4
@@ -165,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "09e070ad_5d9a56c9",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-05T13:49:31Z",
+      "side": 1,
+      "message": "Nope we don\u0027t. Should that be a part of this design?",
+      "parentUuid": "62392e00_2335123b",
+      "range": {
+        "startLine": 50,
+        "startChar": 68,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d35da83c_0c084af0",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 4
@@ -176,6 +248,30 @@
       "writtenOn": "2020-08-04T08:08:57Z",
       "side": 1,
       "message": "Another con: Before this plugin could become a core plugin, it would need to be adjusted to also support the audited variant of group deletions.",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 3
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e7544a0e_7d7c2d80",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-05T13:49:31Z",
+      "side": 1,
+      "message": "Added as a con",
+      "parentUuid": "d35da83c_0c084af0",
       "range": {
         "startLine": 53,
         "startChar": 0,
