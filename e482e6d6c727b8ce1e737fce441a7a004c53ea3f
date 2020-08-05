@@ -16,6 +16,24 @@
       "revId": "e482e6d6c727b8ce1e737fce441a7a004c53ea3f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb634da5_ac6c53b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2020-08-05T09:39:38Z",
+      "side": 1,
+      "message": "Yes. SEe https://b.corp.google.com/issues/162401303\n\nOne was uploaded with HTTPS, one with SSO.",
+      "parentUuid": "b31bbf75_6597c778",
+      "revId": "e482e6d6c727b8ce1e737fce441a7a004c53ea3f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
