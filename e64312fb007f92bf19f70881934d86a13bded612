@@ -124,6 +124,24 @@
       "revId": "e64312fb007f92bf19f70881934d86a13bded612",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fe2ce3d2_77134b73",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-06T09:02:24Z",
+      "side": 0,
+      "message": "As written above, I think that any additional details should be on the homepage and not within the metadata of this Gerrit change. Hence, I\u0027m submitting this now. We can make further improvements to the homepage in separate changes in the future.",
+      "parentUuid": "5b853816_a5cad48a",
+      "revId": "e64312fb007f92bf19f70881934d86a13bded612",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
