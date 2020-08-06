@@ -237,6 +237,30 @@
     },
     {
       "key": {
+        "uuid": "a80b88b3_a25b14ce",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-06T08:06:36Z",
+      "side": 1,
+      "message": "No, I was just confused what this part of the sentence should mean. If we don\u0027t have the functionality, there\u0027s also no way to break it.",
+      "parentUuid": "09e070ad_5d9a56c9",
+      "range": {
+        "startLine": 50,
+        "startChar": 68,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d35da83c_0c084af0",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 4
