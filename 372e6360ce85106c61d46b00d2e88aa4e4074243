@@ -34,6 +34,24 @@
       "revId": "372e6360ce85106c61d46b00d2e88aa4e4074243",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cdb219a9_5f339788",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-11T08:04:35Z",
+      "side": 1,
+      "message": "\u003e For the new content that was added here, where did it come from? It\u0027s a bit strange to just see new things pop up here.\n\nThe idea is that anybody who is working on something in Gerrit can suggest to add their items here. Other interested people can then reach out to get involved early on (see below).\nThe roadmap is not a promise. It\u0027s just a loose list of plans for transparency reasons.\n\n\u003e I read the other thread about things dropping off, but I think I have similar concerns about items being added. How would I, as a member of the community, know who is expected to be working on the items below? (for example if I wanted to discuss ideas more with them)\n\nWhy not simply reach out via the mailing list, express your interest, and ask who intends to work on it? Thus, others can get involved too and fruitful discussions can hopefully happen early on.",
+      "parentUuid": "7b49fb3f_d24eaab3",
+      "revId": "372e6360ce85106c61d46b00d2e88aa4e4074243",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
