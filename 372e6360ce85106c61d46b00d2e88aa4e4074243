@@ -70,6 +70,24 @@
       "revId": "372e6360ce85106c61d46b00d2e88aa4e4074243",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5604e296_43632e63",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-12T07:42:45Z",
+      "side": 1,
+      "message": "\u003e That\u0027s probably what I\u0027ll do, but I try not to assume that everyone reads every mail on the list, seems we could do better since as you note above, specific people add things here. I guess I can always use blame and include those people who added the relevant line(s) here to the To: list in my email, but in this case I\u0027d be emailing you (Alice) about the replication and HA plugins, which I don\u0027t think are ones you\u0027re doing work for. Probably only an issue for an update like this which seems to have resulted from some other conversation?\n\nThat came from our ESC meetings. From time to time, we go over the roadmap and adjust it according to our knowledge.\nWe also have notes on who to ask for each item when it comes to updating the roadmap. I just didn\u0027t want to put this detail on the website as people might interpret more into names next to items than actually intended.",
+      "parentUuid": "f2d5e5e5_8eda2e2a",
+      "revId": "372e6360ce85106c61d46b00d2e88aa4e4074243",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
