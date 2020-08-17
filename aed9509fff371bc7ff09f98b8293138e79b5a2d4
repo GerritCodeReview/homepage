@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "04f3d8c7_f424d5a7",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-08-17T16:02:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "061feec6_c4b7f4f3",
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c75f3ec4_3387609b",
         "filename": "pages/design-docs/delete-groups/solution-plugin.md",
         "patchSetId": 5
@@ -148,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "1ccfc563_9b32d836",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-08-17T16:02:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a645795_5715600c",
+      "range": {
+        "startLine": 39,
+        "startChar": 3,
+        "endLine": 39,
+        "endChar": 28
+      },
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "45b6533d_fbf70eee",
         "filename": "pages/design-docs/delete-groups/solution-plugin.md",
         "patchSetId": 5
@@ -195,6 +237,30 @@
     },
     {
       "key": {
+        "uuid": "bcdc7302_fa5a7994",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-08-17T16:02:53Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4dfb6624_0d5d156d",
+      "range": {
+        "startLine": 52,
+        "startChar": 64,
+        "endLine": 53,
+        "endChar": 22
+      },
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a1f82b9a_c2ed347c",
         "filename": "pages/design-docs/delete-groups/use-cases.md",
         "patchSetId": 5
@@ -206,6 +272,30 @@
       "writtenOn": "2020-08-17T07:41:44Z",
       "side": 1,
       "message": "Why that ?\nMaybe that\u0027s not planned for the initial version of the new plugin but it doesn\u0027t sound like this should be excluded. It was mentioned in the discussion that one prerequisite for this plugin to become a core plugin in the future would be that it would have to write an entry to the audit log when a group is deleted.",
+      "range": {
+        "startLine": 15,
+        "startChar": 57,
+        "endLine": 16,
+        "endChar": 64
+      },
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a7639ea_bc697cd6",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-08-17T16:02:53Z",
+      "side": 1,
+      "message": "looks like you missed this question ?",
+      "parentUuid": "a1f82b9a_c2ed347c",
       "range": {
         "startLine": 15,
         "startChar": 57,
