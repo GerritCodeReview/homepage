@@ -37,6 +37,23 @@
     },
     {
       "key": {
+        "uuid": "061feec6_c4b7f4f3",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-17T13:15:36Z",
+      "side": 1,
+      "message": "Turn remaining indexes into \u00271.\u0027 so that rendering takes care of the numbering and maintenance is easier",
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c75f3ec4_3387609b",
         "filename": "pages/design-docs/delete-groups/solution-plugin.md",
         "patchSetId": 5
@@ -57,6 +74,30 @@
       "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6367e1fc_fd40ef47",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-17T13:15:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c75f3ec4_3387609b",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 57
+      },
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -83,6 +124,30 @@
     },
     {
       "key": {
+        "uuid": "9a645795_5715600c",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-17T13:15:36Z",
+      "side": 1,
+      "message": "It is an `alternatives considered` section hence it doesn\u0027t matter but I have fixed it anyway ;)",
+      "parentUuid": "d069ffc2_b334c698",
+      "range": {
+        "startLine": 39,
+        "startChar": 3,
+        "endLine": 39,
+        "endChar": 28
+      },
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "45b6533d_fbf70eee",
         "filename": "pages/design-docs/delete-groups/solution-plugin.md",
         "patchSetId": 5
@@ -94,6 +159,30 @@
       "writtenOn": "2020-08-17T07:41:44Z",
       "side": 1,
       "message": "You wrote above that deleted groups are moved to refs/deleted-groups, do you plan to also provide the reverse operation to undelete a group which was moved to refs/deleted-groups ?",
+      "range": {
+        "startLine": 52,
+        "startChar": 64,
+        "endLine": 53,
+        "endChar": 22
+      },
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4dfb6624_0d5d156d",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-17T13:15:36Z",
+      "side": 1,
+      "message": "That is the part of the \u0027Alternatives considered\u0027 which is not the case for the proposed solution IOW there is no backup planned to be added.",
+      "parentUuid": "45b6533d_fbf70eee",
       "range": {
         "startLine": 52,
         "startChar": 64,

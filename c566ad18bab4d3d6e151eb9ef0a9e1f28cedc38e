@@ -309,6 +309,30 @@
     },
     {
       "key": {
+        "uuid": "0fef5e3e_3180c133",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-17T13:15:36Z",
+      "side": 1,
+      "message": "I have rebased it over the current master and will verify if everything works in docker based setup and give +1. Would be great if you could write the conclusion. Thanks in advance.",
+      "parentUuid": "cc7d01b4_b671401c",
+      "range": {
+        "startLine": 50,
+        "startChar": 68,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d35da83c_0c084af0",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 4
