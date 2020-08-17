@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b13f1fff_0f1f7740",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-17T13:16:52Z",
+      "side": 1,
+      "message": "Changes:\n1. rebased over the current master\n2. answered all comments from Matthias (only one was reflected as a change)\n3. verified with local docker-compose setup that it works",
+      "revId": "60171383b08501123eb13894a1fdded823ad140c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
