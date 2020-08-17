@@ -285,6 +285,30 @@
     },
     {
       "key": {
+        "uuid": "cc7d01b4_b671401c",
+        "filename": "pages/design-docs/delete-groups/solution-gal.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-17T07:08:57Z",
+      "side": 1,
+      "message": "Well, somebody would need to do the verification and set the \"Verified\" flag. ;-)\nApart from that, I would be fine with merging this design doc. I wasn\u0027t sure whether we\u0027d need a conclusion in this case as the consensus is to not adapt core Gerrit but introduce a plugin. I can also write one if you want to get the state from \"proposed\" to \"approved\" on the pages/design-docs/index.md page.",
+      "parentUuid": "547f5358_3e69b86e",
+      "range": {
+        "startLine": 50,
+        "startChar": 68,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "c566ad18bab4d3d6e151eb9ef0a9e1f28cedc38e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d35da83c_0c084af0",
         "filename": "pages/design-docs/delete-groups/solution-gal.md",
         "patchSetId": 4
