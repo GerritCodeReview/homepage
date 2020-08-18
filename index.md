@@ -50,7 +50,7 @@ toc: false
                 </div>
                 <div class="panel-body">
                     <h4>Manage workflows</h4>
-                    <p>with deeply integrated and delagatable access controls.
+                    <p>with deeply integrated and delegatable access controls.
                     </p>
                     <a href="https://gerrit-review.googlesource.com/Documentation/project-configuration.html"
                        class="btn btn-primary">Learn More</a>
