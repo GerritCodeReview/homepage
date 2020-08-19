@@ -353,6 +353,30 @@
       "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ba78512_008e9dca",
+        "filename": "pages/design-docs/delete-groups/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-19T13:10:16Z",
+      "side": 1,
+      "message": "Can it be concluded as complete?",
+      "parentUuid": "00331fec_ee0e469f",
+      "range": {
+        "startLine": 15,
+        "startChar": 57,
+        "endLine": 16,
+        "endChar": 64
+      },
+      "revId": "aed9509fff371bc7ff09f98b8293138e79b5a2d4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
