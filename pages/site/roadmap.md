@@ -67,6 +67,12 @@ Target: Q4 2020
 * Quota plugin
   * Simplify the plugin.
 
+## Upgrades from 2.7 to latest stable release
+* Be able to upgrade a huge site (Qualcomm) from 2.7 to latest stable release
+  in less than 24 hours
+  * Improve NoteDb offline migration speed (current timing is 24+ hours for Qualcomm)
+  * Improve upgrade speed for specifically slow schemas
+
 ## Distant future
 * Role-based access control
 * Evaluate other web frameworks as potential replacements for Polymer
