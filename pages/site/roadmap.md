@@ -45,12 +45,24 @@ Target: Q4 2020
   * Switch language level to Java 11
 * High Availability
   * Support for race-free zero-downtime pruning of git packed objects
+* Plugin Development
+  * Bulk interface for PluginDefinedInfos in ChangeAttributeFactory
+  * Allow plugins to provide is: operands
 
 ## Upcoming plugin improvements related to Gerrit 3.3
 * New plugin: Allow group deletion
 * Replication plugin
   * Support for external replication queue
   * Message-broker based replication queue
+  * Improve unit testing
+  * Make persistent events safely recoverable
+  * Prevent pending events from significantly delaying server startup
+  * Recover events on time basis instead of startup
+  * Do not push to the same destination from more than one primary at a time
+    (URI locks)
+  * Shift the burden of firing pending events onto the specific
+    replication threads for each event's remote
+  * Distribute tasks to other nodes via a shared filesystem
 * High-availability plugin
   * Support for global ref-db
   * Mention HA and setup for multiple primary hosts in Gerrit documentation
