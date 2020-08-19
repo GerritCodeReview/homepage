@@ -35,6 +35,7 @@ Target: Q4 2020
     Comment Threads tab
   * Comment and Patchset Navigation
   * SubmitRules v2
+  * Per-label configuration to copy scores onto successfully cherry-picked changes
 * Infrastructure
   * TypeScript
   * Content-Security-Policy
