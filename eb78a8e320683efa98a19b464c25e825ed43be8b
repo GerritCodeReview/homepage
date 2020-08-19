@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "2d0c7523_959e7b4f",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-19T12:38:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cfa58e74_e12604e7",
+      "range": {
+        "startLine": 25,
+        "startChar": 89,
+        "endLine": 26,
+        "endChar": 49
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "30b49653_d5a2c701",
         "filename": "pages/design-docs/ci-reboot/use-cases.md",
         "patchSetId": 6
@@ -45,6 +69,30 @@
       "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "235e3050_a968ee80",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-19T12:38:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30b49653_d5a2c701",
+      "range": {
+        "startLine": 36,
+        "startChar": 24,
+        "endLine": 36,
+        "endChar": 30
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9a781875_bdcad3d4",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-19T12:38:44Z",
+      "side": 1,
+      "message": "Removed.",
+      "parentUuid": "be9e9d4f_c4d515ac",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 93
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "17b5924e_3d1bcd3c",
         "filename": "pages/design-docs/ci-reboot/use-cases.md",
         "patchSetId": 6
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "3d7c2805_cc82f66a",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-19T12:38:44Z",
+      "side": 1,
+      "message": "Removed the entire \"Congestion\" section. It is indeed not helpful to discuss it here.",
+      "parentUuid": "17b5924e_3d1bcd3c",
+      "range": {
+        "startLine": 64,
+        "startChar": 16,
+        "endLine": 65,
+        "endChar": 8
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ea6f3898_c8c71159",
         "filename": "pages/design-docs/ci-reboot/use-cases.md",
         "patchSetId": 6
@@ -114,6 +210,30 @@
       "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1bf2376_3ab849fd",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-19T12:38:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ea6f3898_c8c71159",
+      "range": {
+        "startLine": 71,
+        "startChar": 67,
+        "endLine": 71,
+        "endChar": 77
+      },
+      "revId": "eb78a8e320683efa98a19b464c25e825ed43be8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
