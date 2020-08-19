@@ -73,3 +73,4 @@ Target: Q4 2020
 * Rework event infrastructure
 * Pushing of server events into the frontend
 * Protobuf for REST API entities
+* Support for race-free zero-downtime pruning of git packed objects
