@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1c14eeba_effaf6fb",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-19T20:06:13Z",
+      "side": 1,
+      "message": "Are you planning to finalise the implementation of the replication clustering?\n(planned for v3.2 but unfinished)\n\nSee the approved design document at:\nhttps://www.gerritcodereview.com/design-docs/scaling-multi-master-replication.html\n\nI believe it should be feasible, what do you think?",
+      "revId": "831915e3952266a2fa4196087c970639a99be2b0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
