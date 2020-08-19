@@ -43,6 +43,8 @@ Target: Q4 2020
   * Clean up project cache to allow to persist it
   * Persist project cache
   * Switch language level to Java 11
+* High Availability
+  * Support for race-free zero-downtime pruning of git packed objects
 
 ## Upcoming plugin improvements related to Gerrit 3.3
 * New plugin: Allow group deletion
