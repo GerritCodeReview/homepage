@@ -16,6 +16,47 @@
       "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7d04b050_44ce8d32",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-19T19:17:12Z",
+      "side": 1,
+      "message": "Sorry, I haven\u0027t really looked at this at all and this week is full of performance reviews for me. Has all the latest feedback from the Google doc and the various meetings with folks already been incorporated into this?",
+      "parentUuid": "e19bd642_2d8a99a7",
+      "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1687d0b1_7ee4dc79",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-19T19:17:12Z",
+      "side": 1,
+      "message": "This has ~300 more words than that Google doc. How is it a \"summary\"?",
+      "range": {
+        "startLine": 14,
+        "startChar": 17,
+        "endLine": 14,
+        "endChar": 40
+      },
+      "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
