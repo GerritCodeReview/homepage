@@ -16,6 +16,24 @@
       "revId": "ca3ae3888f69e83e049ad0f47251480cea96f7af",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e026ab9b_f8890114",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2020-08-20T08:54:49Z",
+      "side": 1,
+      "message": "This feature sounds a little bit like the \u0027move change\u0027, which IIRC generates confusion among our users because it\u0027s unclear what label votes get carried along when a move happens. (We have disabled it by default inside google.)\n\nDo we emit an event for cherry-pick? If so, could this be a plugin?",
+      "parentUuid": "fc7227b4_900f0b0e",
+      "revId": "ca3ae3888f69e83e049ad0f47251480cea96f7af",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
