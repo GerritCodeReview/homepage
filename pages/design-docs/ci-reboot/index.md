@@ -10,3 +10,4 @@ toc: false
 
 * [Use Cases](/design-docs/ci-reboot-use-cases.html)
 * [Solution: CI Results Tab](/design-docs/ci-reboot-solution-ci-results-tab.html)
+* [Solution: Composable Submit Requirements](/design-docs/ci-reboot-composable-submit-requirements-solution.html)
