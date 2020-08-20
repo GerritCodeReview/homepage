@@ -94,6 +94,30 @@
       "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "df3b221b_61cb6730",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-20T18:10:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "66d39d0c_e1aafbd2",
+      "range": {
+        "startLine": 73,
+        "startChar": 27,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
