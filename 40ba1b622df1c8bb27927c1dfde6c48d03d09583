@@ -118,6 +118,30 @@
       "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "53da1d11_664f316d",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-20T21:47:42Z",
+      "side": 1,
+      "message": "\u003e Is this item related to v3.3? Are you planning to introduce a NoteDb migration in v3.3?\n\n\u003e\u003e Yes and no. It\u0027s related to \u003e 2.16 since migration is needed to get to any of those versions. If you have a suggestion for a better section heading, please provide one.\n\nI am unsure about the section, because:\n- roadmap covers v3.3 and beyond\n- v2.16 is EOL\n- v3.0, v3.1 and v3.2 will have only maintenance releases\n\nWhat would you suggest?\n(please leave the resolve flag unset, as this discussion isn\u0027t resolved yet I believe)",
+      "parentUuid": "df3b221b_61cb6730",
+      "range": {
+        "startLine": 73,
+        "startChar": 27,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
