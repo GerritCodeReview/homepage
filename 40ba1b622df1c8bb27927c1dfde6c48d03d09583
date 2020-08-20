@@ -70,6 +70,30 @@
       "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "66d39d0c_e1aafbd2",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-20T18:09:59Z",
+      "side": 1,
+      "message": "\u003e did you try my series https://gerrit-review.googlesource.com/c/gerrit/+/278938 ?\n\nWe have an item in this sprint to try it! Thank you for pushing it, we\u0027re hoping that really improves things.\n\n\u003e Is this item related to v3.3? Are you planning to introduce a NoteDb migration in v3.3?\n\nYes and no. It\u0027s related to \u003e 2.16 since migration is needed to get to any of those versions. If you have a suggestion for a better section heading, please provide one.",
+      "parentUuid": "f09ef908_b43c317f",
+      "range": {
+        "startLine": 73,
+        "startChar": 27,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
