@@ -142,6 +142,30 @@
       "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bcc2be71_b666315a",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-20T22:02:34Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e Is this item related to v3.3? Are you planning to introduce a NoteDb migration in v3.3?\n\u003e \u003e \n\u003e \u003e Yes and no. It\u0027s related to \u003e 2.16 since migration is needed to get to any of those versions. If you have a suggestion for a better section heading, please provide one.\n\u003e \n\u003e I am unsure about the section, because:\n\u003e - roadmap covers v3.3 and beyond\n\nRoadmap to me covers \"new features\". I agree typically that\u0027s going to be for the next minor Gerrit version, but sometimes it\u0027s something further out (thus the \"Distant future\" section) and sometimes it\u0027s a feature for an already released version.\n\n\u003e - v2.16 is EOL\n\n2.16 has an explicit exception for migration. That\u0027s exactly what\u0027s being added here.\n\n\u003e \n\u003e What would you suggest?\n\nI suggest this change 😊\n\n\u003e (please leave the resolve flag unset, as this discussion isn\u0027t resolved yet I believe)\n\nSorry, I clicked Done for Martin\u0027s comment and forgot to uncheck Resolved.",
+      "parentUuid": "53da1d11_664f316d",
+      "range": {
+        "startLine": 73,
+        "startChar": 27,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
