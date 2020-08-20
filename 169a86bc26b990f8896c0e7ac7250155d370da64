@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "47c5c744_10a473d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-20T07:28:54Z",
+      "side": 1,
+      "message": "Added my review feedback on the replication plugin features for v3.3",
+      "parentUuid": "7cb5530e_cfb2374c",
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3ea46784_a49fde21",
         "filename": "pages/site/roadmap.md",
         "patchSetId": 4
@@ -36,6 +54,86 @@
         "endLine": 48,
         "endChar": 41
       },
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "08d57abc_5497d221",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-20T07:28:54Z",
+      "side": 1,
+      "message": "This is not a functional improvement and we do not also include unit-tests additions in the release notes either.",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 24
+      },
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b671475c_7e92dca3",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-20T07:28:54Z",
+      "side": 1,
+      "message": "It would be best to have an feature request or an issue raised on this, as this headline is not self-explanatory, at least at first read.",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 45
+      },
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dd205e23_aab99cfd",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-20T07:28:54Z",
+      "side": 1,
+      "message": "This has been done already in v2.16",
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b79f2e0e_09c1e4cc",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-20T07:28:54Z",
+      "side": 1,
+      "message": "I believe this is the introduction of the chain-scheduler, correct?",
       "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
