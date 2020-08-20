@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7cb5530e_cfb2374c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-20T07:09:11Z",
+      "side": 1,
+      "message": "Voting only +1 because I am not firm on the details of the replication plugin, so I can\u0027t speak to the planned improvements.",
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ea46784_a49fde21",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-20T07:09:11Z",
+      "side": 1,
+      "message": "Sounds interesting and is actually well aligned with something we want to do for submit requirements (I\u0027ll upload the design doc I am working on right now this week). Maybe we can join forces here :-)",
+      "range": {
+        "startLine": 48,
+        "startChar": 2,
+        "endLine": 48,
+        "endChar": 41
+      },
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
