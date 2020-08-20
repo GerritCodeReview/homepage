@@ -34,6 +34,24 @@
       "revId": "ca3ae3888f69e83e049ad0f47251480cea96f7af",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2f65a2d9_678357ea",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-20T23:24:14Z",
+      "side": 1,
+      "message": "@Patrick, thanks for that info! We\u0027ve haven\u0027t dug into how to do this in core yet (we did consider the same plugin-based approach Han-Wen\u0027s suggests).\n\n\u003e This feature sounds a little bit like the \u0027move change\u0027, which IIRC generates confusion among our users because it\u0027s unclear what label votes get carried along when a move happens. (We have disabled it by default inside google.)\n\nDo they have that same confusion for trivial rebases? I think this is much more similar to that behavior-wise.\n\nAlso as a note on move, it\u0027s a feature many others seem to like, so I\u0027d be interested in understanding the Google concerns more. Maybe move could actually be improved on top of this new flag so that it\u0027s label behavior is more understandable?\n\n\u003e \n\u003e Do we emit an event for cherry-pick? If so, could this be a plugin?\n\nI think it triggers a Patchset Created event [1], so you have to filter those down to just cherry-picks. If we include \u0027cherry-pick-of\u0027 in the change [2] attribute, I think that could be used in a plugin. This is a request that has shown up on the list more than once and a feature we\u0027ve had internally for 5+ years now that our users consider a must-have.\n\n[1] https://gerrit-review.googlesource.com/Documentation/cmd-stream-events.html#_patchset_created\n[2] https://gerrit-review.googlesource.com/Documentation/json.html#change",
+      "parentUuid": "e026ab9b_f8890114",
+      "revId": "ca3ae3888f69e83e049ad0f47251480cea96f7af",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
