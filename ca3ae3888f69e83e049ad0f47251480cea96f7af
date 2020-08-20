@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fc7227b4_900f0b0e",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-20T07:02:55Z",
+      "side": 1,
+      "message": "The implementation of this will be an outlier to existing copyScoreOn* implementations because as of now we only copy votes forward to new patch sets on the same change. Implementation-wise, copying is actually a misnomer currently, because we\u0027re inferring the votes and caching the result. (see ApprovalInference).\n\nA configuration like that will likely entail reworking this part to stop inferring \"copied\" labels at runtime and instead really copy them forward when a new patch set is uploaded or a change gets cherry picked. I was eyeballing this last year when working on performance, because on it\u0027s own it wasn\u0027t worth it. This is something we could reconsider if you want to implement this behavior.",
+      "revId": "ca3ae3888f69e83e049ad0f47251480cea96f7af",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
