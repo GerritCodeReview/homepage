@@ -34,6 +34,24 @@
       "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2c502de3_a3185eba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-21T11:27:14Z",
+      "side": 1,
+      "message": "FWICT from the document the new SubmitPredicate interface should be very similar to the SubmitRule interface and replace the latter.\n\nAs an example (with the risk of me having misunderstood things completely):\n\nWe have a plugin that allows users to choose whether a tag should be created when the change i merged and how the tag should be incremented based on an already existing tag.\n\nCurrently you can configure the plugin to disallow submit if no selection has been done, this is currently implemented through a MergeValidator.\nSince our CI system needs to now if the change is submitable we will rewrite it as a SubmitRule.\nWhat we will have then (hopefully) is a plugin that you can configure so that a selection is required for submit, and this is reflected in ChangeInfo.submitable\n\n    [auto-tagger \"master\"]\n       required \u003d true\n        \nWhen this solution is implemented is this still true or will we have to keep the submit-requirements for this plugin in a separate configuration?",
+      "parentUuid": "ca836038_119c6a1f",
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
