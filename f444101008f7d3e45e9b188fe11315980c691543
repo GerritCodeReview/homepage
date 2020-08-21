@@ -22,6 +22,30 @@
       "revId": "f444101008f7d3e45e9b188fe11315980c691543",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4594730e_a366c96a",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-21T12:11:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "29790016_a60bd85d",
+      "range": {
+        "startLine": 99,
+        "startChar": 73,
+        "endLine": 99,
+        "endChar": 74
+      },
+      "revId": "f444101008f7d3e45e9b188fe11315980c691543",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
