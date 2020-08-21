@@ -32,8 +32,9 @@ turn. More specifically:
 *   As an owner I can expect reviewers to take timely action, if they are in the attention set.
 
 We are establishing the attention set as a first class citizen of the review process by building a
-[User Interface](solution-1-user-interface.md) that emphasizes its importance and allows users to
-see "at a glance" whose turn it is on both the dashboard and the change pages.
+[User Interface](/design-docs/attention-set-solution-1-user-interface.html) that emphasizes its
+importance and allows users to see "at a glance" whose turn it is on both the dashboard and the
+change pages.
 
 We define some simple [defaults](#defaults) for how the attention set should change for a few common
 actions. In the reply dialog users will have fine grained control over attention set changes.
