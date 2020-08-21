@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cedc2b2a_35338e45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-21T09:43:34Z",
+      "side": 1,
+      "message": "I don\u0027t quite understand the connection between SubmitPredicate and SubmitRequirement.\nIs it that \"a SubmitPredicate is a SubmitRequirement\" or \"a SubmitRequirement evaluates a SubmitPredicate\" or something entirely different?",
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
