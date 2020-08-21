@@ -52,6 +52,24 @@
       "revId": "ca3ae3888f69e83e049ad0f47251480cea96f7af",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6e41d103_0f36534d",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2020-08-21T14:24:55Z",
+      "side": 1,
+      "message": "\u003e @Patrick, thanks for that info! We\u0027ve haven\u0027t dug into how to do this in core yet (we did consider the same plugin-based approach Han-Wen\u0027s suggests).\n\u003e \n\u003e \u003e This feature sounds a little bit like the \u0027move change\u0027, which IIRC generates confusion among our users because it\u0027s unclear what label votes get carried along when a move happens. (We have disabled it by default inside google.)\n\nI think you are talking about turning off move, not the label transference part of move?\n\nIn the case of copying labels for cherry-pick there would be no need to turn off cherry-pick to avoid it, you could avoid configuring the label copying if you don\u0027t want it. Would that address your concern?",
+      "parentUuid": "2f65a2d9_678357ea",
+      "revId": "ca3ae3888f69e83e049ad0f47251480cea96f7af",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
