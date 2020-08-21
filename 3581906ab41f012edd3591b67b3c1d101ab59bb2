@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b52f27eb_915df5ab",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-21T23:46:26Z",
+      "side": 1,
+      "message": "Can you elaborate more on the schemas that are taking most of the time in your upgrade path and you are planning to tackle?\n\nBear in mind that the last schema migration is the one for v2.16/ReviewDb: starting from v2.16/NoteDb onwards there isn\u0027t a DB schema anymore. The migration is almost seamless and with zero downtime.\n\nI am thus guessing that the improvements are going to be targeting the v2.16/ReviewDb schema migration, or do you have something else in mind?",
+      "range": {
+        "startLine": 74,
+        "startChar": 30,
+        "endLine": 74,
+        "endChar": 55
+      },
+      "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}

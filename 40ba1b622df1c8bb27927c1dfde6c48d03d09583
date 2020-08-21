@@ -310,6 +310,30 @@
       "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b65ebfb2_2a90bda0",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-21T23:46:26Z",
+      "side": 1,
+      "message": "Yes, the comment was on L73, then the version is confirmed to be v2.16. It would be useful to specify that somehow.\n\nExample:\n* v2.16.x: Improve NoteDb offline migration speed (current timing is 24+ hours for Qualcomm)",
+      "parentUuid": "d442222e_db5067f6",
+      "range": {
+        "startLine": 73,
+        "startChar": 27,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
