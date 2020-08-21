@@ -91,6 +91,24 @@
     },
     {
       "key": {
+        "uuid": "9db63075_a8314254",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-21T13:37:08Z",
+      "side": 1,
+      "message": "\u003e So implementing SubmitPredicate is enough, no further configuration is needed?\n\nYou would implement a \"TagSelectionPredicate implements SubmitPredicate\" and configure a submit rule (in project.config or via the UI) that has:\n\nname: Tag selection made\ndescription: This requirement makes sure that a choice was made as to which Git tag should be created when this change gets submitted. Please make a choice using the \u0027Tag\u0027 dropdown on the top right.\napplicable_condition: branch:master (or whenever you want this to apply at all, can also just be empty which means \u0027is:true\u0027)\nblocking: has:tag-selection\n\nDepending on how you store the selection that is made in the drop down you have on the change screen, you might even be getting away without implementing a custom SubmitPredicate. For example, if you were to store the selection as a git footer, you could say \u0027has-footer:\u003cregex\u003e\u0027. But in this case, implementing the logic as a custom predicate sounds like a clean and simple solution to me and it means you are free to adapt this to your current workflow.\n\nYour specific case would already work today with the SubmitRules interface and work in this new world as well. In this specific case, the new world has the advantage that some of the configs (e.g. when to apply) can move to the applicable condition and override condition instead of requiring you to implement that as well (though, you could, if you wanted).",
+      "parentUuid": "969d062f_1fec04b6",
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d25d2245_e4cebdcd",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
