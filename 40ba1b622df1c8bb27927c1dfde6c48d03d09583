@@ -238,6 +238,30 @@
       "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8f9a973a_1f90badc",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-21T15:08:13Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e What about adding a new section called \"Upcoming v2.16 improvements\".\n\u003e \u003e \u003e So it won\u0027t be misunderstood as a feature for v3.3\n\u003e \u003e \n\u003e \u003e I\u0027m not entirely opposed to that, but it seems misleading if I\u0027m fixing a schema upgrade in 2.15 or 3.1 and both of those are in scope. Is there really a significant risk of misunderstanding? I think the first bullet makes it pretty clear what this is about.\n\u003e \n\u003e I do believe that is pretty clear to you. However, we publish the roadmap to tell everyone else what they should expect in the next forthcoming new version of Gerrit.\n\u003e \n\u003e Best to be super-clear and mention that the point isn\u0027t about v3.3 but rather on v2.16 conversion to NoteDb. Making our roadmap clearer would benefit also ourselves.\n\nre: \"on v2.16 conversion to NoteDb\", not sure what I\u0027m leaving out in these messages, but I\u0027ve tried to be clear this is *not* limited to 2.16. It is (as the text in the change says) \"from 2.7 to latest stable release\". I can update that in the header for this section since you seem concerned about people thinking this is a 3.3 feature.",
+      "parentUuid": "88d63744_47552573",
+      "range": {
+        "startLine": 73,
+        "startChar": 27,
+        "endLine": 73,
+        "endChar": 37
+      },
+      "revId": "40ba1b622df1c8bb27927c1dfde6c48d03d09583",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
