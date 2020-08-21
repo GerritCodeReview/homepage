@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "969d062f_1fec04b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-21T13:24:19Z",
+      "side": 1,
+      "message": "\u003e \u003e FWICT from the document the new SubmitPredicate interface should be very similar to the SubmitRule interface and replace the latter.\n\u003e \n\u003e Exactly.\n\nSo implementing SubmitPredicate is enough, no further configuration is needed?\n\n\u003e \n\u003e Interesting use case. How does the selection work and what exactly is a tag? (git rag? hashtag? commit footer?)\n\nthe gist of it:\n\nSets a git tag on the merge-result (or latest-patchset for the non-tip changes of a merged stack).\nConfigurable per branch which pattern the tag should have and a drop-down on the change-screen that shows the different selections and what the resulting tag would be:\n{} is an integer placeholder\n\n    [auto-tagger \"master\"]\n      pattern \u003d R{}.{}.{}\n\nCurrent \"highest\" tag matching pattern: R3.4.6\nSelections:\n- No selection (Default)\n- No tag\n- R{}.{}.{x} -\u003e R3.4.7\n- R{}.{x}.{} -\u003e R3.5.0\n- R{x}.{}.{} -\u003e R4.0.0\n\nSome projects have the requirement that a selection must be made before merge (\"No Tag\" being a valid selection), hence my interest.",
+      "parentUuid": "80877cc5_645b8c03",
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d25d2245_e4cebdcd",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
