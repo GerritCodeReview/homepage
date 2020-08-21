@@ -16,6 +16,24 @@
       "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ca836038_119c6a1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-21T10:42:57Z",
+      "side": 1,
+      "message": "A SubmitRequirement is the entity that has a name, description and three queries (applicable, blocking, override).\n\nEach query is made out of submit predicates and boolean operators (NOT branch:master).\n\nHappy to reword this to make it more clear.",
+      "parentUuid": "cedc2b2a_35338e45",
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
