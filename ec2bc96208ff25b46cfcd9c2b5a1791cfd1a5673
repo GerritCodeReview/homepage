@@ -34,6 +34,24 @@
       "revId": "ec2bc96208ff25b46cfcd9c2b5a1791cfd1a5673",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "470a155c_77dac576",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-08-24T21:26:31Z",
+      "side": 1,
+      "message": "Yes, and you may refer to [1] for the instructions.\n\n[1] https://www.gerritcodereview.com/publishing.html#building-the-site",
+      "parentUuid": "0a6a3745_fae25185",
+      "revId": "ec2bc96208ff25b46cfcd9c2b5a1791cfd1a5673",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
