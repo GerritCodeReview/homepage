@@ -522,6 +522,30 @@
     },
     {
       "key": {
+        "uuid": "cbba4cc8_274f6331",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-24T15:06:00Z",
+      "side": 1,
+      "message": "I think this is what it means, but to confirm, does this no nesting support mean we can\u0027t do things like what the task plugin does with \u0027subtasks\u0027? https://gerrit.googlesource.com/plugins/task/+/refs/heads/master/src/main/resources/Documentation/task.md",
+      "parentUuid": "da17af06_eb7ab6a8",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6291f7f0_ce0b0ce4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
@@ -581,6 +605,30 @@
       "side": 1,
       "message": "\u003e It would be:\n\u003e \n\u003e blocking: NOT is:all-comments-resolved\n\nMy point was that it seems like you (same as I) instinctively interpreted this as a required condition not a blocking condition.\n\u003e \n\u003e I don\u0027t have strong feelings about the naming here, it just has to be consistent. You might be right in that we\u0027d rather expect that when the query evaluates to \u0027true\u0027 that makes the change submittable. That matches override (if true then overridden, hence submittable).\n\u003e \n\u003e Maybe we should change override to overridden so that this reads consistently:\n\u003e applicable (if): branch:master\n\u003e fulfilled (if): is:all-comments-resolved\n\nI don\u0027t have any strong opinions about the exact names, an implicit if/when works for me if making them explicit is too chatty (IMO it\u0027s really easy to understand, but either way works).\n\n    applicable_when \u003d branch:master\n    fulfilled_when \u003d label:Code-Review+2\n    overridden_when \u003d has:superpowers \n\n\u003e \n\u003e I think that\u0027d be more natural also when expressing single label votes:\n\u003e \n\u003e fulfilled: label:Code-Review+2",
       "parentUuid": "b52f4d90_809cb3b2",
+      "range": {
+        "startLine": 76,
+        "startChar": 2,
+        "endLine": 76,
+        "endChar": 28
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f73b5a06_0a0cc82b",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-24T15:06:00Z",
+      "side": 1,
+      "message": "If we want to steal a bit of naming from the task plugin, you could look at what it uses. It already has \u0027applicable\u0027, but then allows for \u0027pass\u0027, \u0027fail\u0027, and \u0027in-progress\u0027 queries to be defined: https://gerrit.googlesource.com/plugins/task/+/refs/heads/master/src/main/resources/Documentation/task.md\n\nIt also has the concept of \"hints\", which are used as a user explanation for the state (i.e. why is it failing or what\u0027s next for something ready).",
+      "parentUuid": "96f08bc8_ea77a709",
       "range": {
         "startLine": 76,
         "startChar": 2,
