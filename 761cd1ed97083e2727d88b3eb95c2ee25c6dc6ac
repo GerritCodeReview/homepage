@@ -289,6 +289,30 @@
     },
     {
       "key": {
+        "uuid": "a6d2d2af_08107a57",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-24T09:05:33Z",
+      "side": 1,
+      "message": "I think I was misunderstanding. It should be:\n\n    applicable \u003d branch: master OR branch:stable-3.2\n    blocking \u003d NOT has:my-requirement",
+      "parentUuid": "bbb509cd_483eccae",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67294e9f_5d532c60",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
