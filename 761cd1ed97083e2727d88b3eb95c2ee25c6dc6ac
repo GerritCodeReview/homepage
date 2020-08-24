@@ -378,6 +378,53 @@
     },
     {
       "key": {
+        "uuid": "ce8ce322_489368ea",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-24T09:54:17Z",
+      "side": 1,
+      "message": "\u003e \n\u003e Which I think is obvious given how queries work, but I wanted to call it out anyway.\n\nThat\u0027s what confused me, I didn\u0027t understand the limitations in context of the implicit limitation \"It needs to be a valid query\" 😊",
+      "parentUuid": "36913351_42087a14",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6291f7f0_ce0b0ce4",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-24T09:54:17Z",
+      "side": 1,
+      "message": "Would \u0027required_condition\u0027 be more natural?\n\n    // Query, that if it evaluates to false will block submission.\n\nI think the term \u0027blocking\u0027 is at odds with the name SubmitRequirement which plays a trick on the mind.\nI had to think for a couple of seconds extra to get it right and your own example code in reply below:\n\n    applicable: branch:master\n    blocking: is:all-comments-resolved\n\nBlock submit if all comments are resolved?",
+      "range": {
+        "startLine": 76,
+        "startChar": 2,
+        "endLine": 76,
+        "endChar": 28
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67294e9f_5d532c60",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
