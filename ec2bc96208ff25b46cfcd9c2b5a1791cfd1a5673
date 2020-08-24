@@ -16,6 +16,24 @@
       "revId": "ec2bc96208ff25b46cfcd9c2b5a1791cfd1a5673",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0a6a3745_fae25185",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-08-24T07:12:33Z",
+      "side": 1,
+      "message": "Someone has to generate the homepage locally and then sets the label vote if the page looks as expected.",
+      "parentUuid": "7d4e365f_1e126b91",
+      "revId": "ec2bc96208ff25b46cfcd9c2b5a1791cfd1a5673",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
