@@ -62,6 +62,52 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b4b14baa_815158a6",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-24T09:44:20Z",
+      "side": 1,
+      "message": "nit: what character is that? empty space? it also in lines #75, #100, ...",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 2
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bdb2f323_6309658f",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-24T09:44:20Z",
+      "side": 1,
+      "message": "nit: optional?",
+      "range": {
+        "startLine": 99,
+        "startChar": 8,
+        "endLine": 99,
+        "endChar": 14
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
