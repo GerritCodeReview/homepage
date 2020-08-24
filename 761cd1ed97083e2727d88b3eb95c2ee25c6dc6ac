@@ -546,6 +546,30 @@
     },
     {
       "key": {
+        "uuid": "fa527028_27674408",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T15:16:26Z",
+      "side": 1,
+      "message": "Correct. Though, this part of the doc talks about the query language and if I understand correctly, you are asking if a submit requirement can have sub-requirements?\n\nThe answer to the latter question is, that it can\u0027t in that you can\u0027t aggregate n requirements to a larger requirement and have that be presented on the UI in a nested fashion. The idea here is instead of build on top of what Ben proposed over in [1] where you show many CI runs on the change page and Gerrit backend only knows about a subset of these runs and that subset is used in submit requirements to gate submitting changes.\n\nThat said, while we don\u0027t exactly support nesting, we do support composition, so you can do things like\n\nlabel:Task1+1 AND label:task2+1\n\nOr you just let the tasks plugin handle this with a SubmitPredicate it exposes\n\nname: All CI tasks finished successfully\napplicable: branch:master OR branch:stable:2.16\nfulfilled: is:all-subtasks-finished_tasksPluginName\noverride: label:Verified+2\n\nThis would make the requirement block only on certain branches and overrideable with +2 votes on a label (the config and override is what you\u0027d get for free now in your plugin without writing code). The plugin could handle the main condition with respect to the states of it\u0027s tasks and sub tasks.\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/279248",
+      "parentUuid": "cbba4cc8_274f6331",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6291f7f0_ce0b0ce4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
