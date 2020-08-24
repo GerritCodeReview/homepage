@@ -570,6 +570,30 @@
     },
     {
       "key": {
+        "uuid": "151c4b85_cd781631",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-24T15:44:19Z",
+      "side": 1,
+      "message": "\u003e Correct. Though, this part of the doc talks about the query language and if I understand correctly, you are asking if a submit requirement can have sub-requirements?\n\u003e \n\nYes, I think I am, sorry for confusing that.\n\n\u003e Or you just let the tasks plugin handle this with a SubmitPredicate it exposes\n\u003e \n\u003e name: All CI tasks finished successfully\n\u003e applicable: branch:master OR branch:stable:2.16\n\u003e fulfilled: is:all-subtasks-finished_tasksPluginName\n\u003e override: label:Verified+2\n\u003e \n\u003e This would make the requirement block only on certain branches and overrideable with +2 votes on a label (the config and override is what you\u0027d get for free now in your plugin without writing code). The plugin could handle the main condition with respect to the states of it\u0027s tasks and sub tasks.\n\nIf I\u0027m understanding correctly and you need to hand-write that requirement, then I\u0027m not crazy about the duplication of applicable and fulfilled. Would there be no way to expose the rules from the task plugin more natively/transparently?",
+      "parentUuid": "fa527028_27674408",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6291f7f0_ce0b0ce4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
