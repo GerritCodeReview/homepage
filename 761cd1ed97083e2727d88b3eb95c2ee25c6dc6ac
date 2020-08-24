@@ -569,6 +569,30 @@
     },
     {
       "key": {
+        "uuid": "96f08bc8_ea77a709",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-24T13:55:33Z",
+      "side": 1,
+      "message": "\u003e It would be:\n\u003e \n\u003e blocking: NOT is:all-comments-resolved\n\nMy point was that it seems like you (same as I) instinctively interpreted this as a required condition not a blocking condition.\n\u003e \n\u003e I don\u0027t have strong feelings about the naming here, it just has to be consistent. You might be right in that we\u0027d rather expect that when the query evaluates to \u0027true\u0027 that makes the change submittable. That matches override (if true then overridden, hence submittable).\n\u003e \n\u003e Maybe we should change override to overridden so that this reads consistently:\n\u003e applicable (if): branch:master\n\u003e fulfilled (if): is:all-comments-resolved\n\nI don\u0027t have any strong opinions about the exact names, an implicit if/when works for me if making them explicit is too chatty (IMO it\u0027s really easy to understand, but either way works).\n\n    applicable_when \u003d branch:master\n    fulfilled_when \u003d label:Code-Review+2\n    overridden_when \u003d has:superpowers \n\n\u003e \n\u003e I think that\u0027d be more natural also when expressing single label votes:\n\u003e \n\u003e fulfilled: label:Code-Review+2",
+      "parentUuid": "b52f4d90_809cb3b2",
+      "range": {
+        "startLine": 76,
+        "startChar": 2,
+        "endLine": 76,
+        "endChar": 28
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67294e9f_5d532c60",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
