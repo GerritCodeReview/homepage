@@ -22,6 +22,30 @@
       "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c771c9ed_c519a92d",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-24T22:18:20Z",
+      "side": 1,
+      "message": "I think in our trial run, 2.13 and 2.15 schemas took the longest.\n\nI won\u0027t know them all until we\u0027re done. I\u0027ll make sure you\u0027re on any changes we upload for review.\n\nI think if you have more questions, we can discuss on the list?",
+      "parentUuid": "b52f27eb_915df5ab",
+      "range": {
+        "startLine": 74,
+        "startChar": 30,
+        "endLine": 74,
+        "endChar": 55
+      },
+      "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
