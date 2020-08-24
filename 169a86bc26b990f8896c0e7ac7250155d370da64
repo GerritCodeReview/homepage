@@ -131,6 +131,30 @@
     },
     {
       "key": {
+        "uuid": "88af91a8_275496f2",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-24T22:10:34Z",
+      "side": 1,
+      "message": "It\u0027s real effort. Does it hurt to have it on the roadmap? I would think a substantial improvement in testing would deserve to go into the release notes. This is also not the only non-functional item listed in this doc.",
+      "parentUuid": "08d57abc_5497d221",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 24
+      },
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b671475c_7e92dca3",
         "filename": "pages/site/roadmap.md",
         "patchSetId": 4
@@ -142,6 +166,30 @@
       "writtenOn": "2020-08-20T07:28:54Z",
       "side": 1,
       "message": "It would be best to have an feature request or an issue raised on this, as this headline is not self-explanatory, at least at first read.",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 45
+      },
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b2a39c89_91227c80",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-24T22:10:34Z",
+      "side": 1,
+      "message": "That comment could apply to many items in this file. Seems like an unreasonable double standard. I don\u0027t see a bug listed to any other item here.\n\nAnd there was a bug raised two months ago.",
+      "parentUuid": "b671475c_7e92dca3",
       "range": {
         "startLine": 56,
         "startChar": 0,
@@ -171,6 +219,24 @@
     },
     {
       "key": {
+        "uuid": "6e112754_475cbe3e",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-24T22:10:34Z",
+      "side": 1,
+      "message": "This is the ChainedScheduler. I could re-word to include \"... without using an additional thread\"?",
+      "parentUuid": "dd205e23_aab99cfd",
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b79f2e0e_09c1e4cc",
         "filename": "pages/site/roadmap.md",
         "patchSetId": 4
@@ -182,6 +248,24 @@
       "writtenOn": "2020-08-20T07:28:54Z",
       "side": 1,
       "message": "I believe this is the introduction of the chain-scheduler, correct?",
+      "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ff9ca136_9fac388f",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-08-24T22:10:34Z",
+      "side": 1,
+      "message": "Nope, see above.",
+      "parentUuid": "b79f2e0e_09c1e4cc",
       "revId": "169a86bc26b990f8896c0e7ac7250155d370da64",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
