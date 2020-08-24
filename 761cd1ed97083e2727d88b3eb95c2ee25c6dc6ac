@@ -265,6 +265,30 @@
     },
     {
       "key": {
+        "uuid": "bbb509cd_483eccae",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-08-24T08:50:00Z",
+      "side": 1,
+      "message": "Maybe it could be supported with predefined SubmitRequirements (e.g. OR and AND) so that we could ditch the whole prolog altogether ;) another option (IIUIC) would be to cover the whole condition in SubmitRequest...",
+      "parentUuid": "60d861cb_6da8669d",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67294e9f_5d532c60",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
