@@ -214,6 +214,30 @@
     },
     {
       "key": {
+        "uuid": "c6d29367_d968895a",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "caa35549_6dcae3a1",
+      "range": {
+        "startLine": 54,
+        "startChar": 58,
+        "endLine": 54,
+        "endChar": 69
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4a4de119_34dd0ab9",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
@@ -234,6 +258,30 @@
       "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4889e086_97f39f7b",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a4de119_34dd0ab9",
+      "range": {
+        "startLine": 57,
+        "startChar": 36,
+        "endLine": 57,
+        "endChar": 52
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -260,6 +308,30 @@
     },
     {
       "key": {
+        "uuid": "5dbc8b06_2c690bb6",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c5fb45b_b6a96650",
+      "range": {
+        "startLine": 58,
+        "startChar": 36,
+        "endLine": 58,
+        "endChar": 52
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d25d2245_e4cebdcd",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
@@ -280,6 +352,30 @@
       "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6c248fad_8a019a60",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d25d2245_e4cebdcd",
+      "range": {
+        "startLine": 62,
+        "startChar": 25,
+        "endLine": 62,
+        "endChar": 28
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -402,6 +498,30 @@
     },
     {
       "key": {
+        "uuid": "da17af06_eb7ab6a8",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ce8ce322_489368ea",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6291f7f0_ce0b0ce4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
@@ -413,6 +533,30 @@
       "writtenOn": "2020-08-24T09:54:17Z",
       "side": 1,
       "message": "Would \u0027required_condition\u0027 be more natural?\n\n    // Query, that if it evaluates to false will block submission.\n\nI think the term \u0027blocking\u0027 is at odds with the name SubmitRequirement which plays a trick on the mind.\nI had to think for a couple of seconds extra to get it right and your own example code in reply below:\n\n    applicable: branch:master\n    blocking: is:all-comments-resolved\n\nBlock submit if all comments are resolved?",
+      "range": {
+        "startLine": 76,
+        "startChar": 2,
+        "endLine": 76,
+        "endChar": 28
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b52f4d90_809cb3b2",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": "It would be:\n\nblocking: NOT is:all-comments-resolved\n\nI don\u0027t have strong feelings about the naming here, it just has to be consistent. You might be right in that we\u0027d rather expect that when the query evaluates to \u0027true\u0027 that makes the change submittable. That matches override (if true then overridden, hence submittable).\n\nMaybe we should change override to overridden so that this reads consistently:\napplicable (if): branch:master\nfulfilled (if): is:all-comments-resolved\n\nI think that\u0027d be more natural also when expressing single label votes:\n\nfulfilled: label:Code-Review+2",
+      "parentUuid": "6291f7f0_ce0b0ce4",
       "range": {
         "startLine": 76,
         "startChar": 2,
@@ -448,6 +592,30 @@
     },
     {
       "key": {
+        "uuid": "f652e3da_ec087bc2",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": ":-)",
+      "parentUuid": "67294e9f_5d532c60",
+      "range": {
+        "startLine": 93,
+        "startChar": 33,
+        "endLine": 94,
+        "endChar": 33
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e35abb3f_fc4dfcf9",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
@@ -471,6 +639,30 @@
     },
     {
       "key": {
+        "uuid": "744806a9_4786842c",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e35abb3f_fc4dfcf9",
+      "range": {
+        "startLine": 101,
+        "startChar": 1,
+        "endLine": 101,
+        "endChar": 13
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a46383a0_5a69c905",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
@@ -491,6 +683,30 @@
       "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eff76b57_1b375ce2",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T13:10:53Z",
+      "side": 1,
+      "message": "In this example, it\u0027s a label function (actually, an already existing one), so it\u0027s core functionality.\n\nI added an example for a plugin predicate as well.",
+      "parentUuid": "a46383a0_5a69c905",
+      "range": {
+        "startLine": 120,
+        "startChar": 21,
+        "endLine": 120,
+        "endChar": 35
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
