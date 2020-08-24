@@ -127,6 +127,23 @@
     },
     {
       "key": {
+        "uuid": "e0633665_5b8452c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T09:26:54Z",
+      "side": 1,
+      "message": "Thanks for the comments so far, I\u0027ll upload a new revision today to factor them in!",
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2d06023b_829b9d7f",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
@@ -147,6 +164,30 @@
       "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "915bcea1_c922470b",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T09:26:54Z",
+      "side": 1,
+      "message": "Correct (true for labels only, though. Some SRs are completely independent of labels and yet they need full, custom configuration on their own)",
+      "parentUuid": "2d06023b_829b9d7f",
+      "range": {
+        "startLine": 29,
+        "startChar": 44,
+        "endLine": 29,
+        "endChar": 71
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -313,6 +354,30 @@
     },
     {
       "key": {
+        "uuid": "36913351_42087a14",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T09:26:54Z",
+      "side": 1,
+      "message": "This is supported (both of your comments). The second one is more in the spirit of this design :-)\n\nWhat is not supported is:\n\nvar myVariable \u003d 123\nbranch:myVariable\n\n(variables)\n\nand\n\npredicate1(predicate2, predicate3)\n\n(nesting)\n\nWhich I think is obvious given how queries work, but I wanted to call it out anyway.",
+      "parentUuid": "60d861cb_6da8669d",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67294e9f_5d532c60",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
@@ -393,6 +458,30 @@
       "writtenOn": "2020-08-21T14:31:26Z",
       "side": 1,
       "message": "not really - one of the Prolog benefits is a possibility to determine if given Rule applies to the change or not e.g. Require Lawyers group member to give +1 only when licence files are modified, etc...",
+      "range": {
+        "startLine": 226,
+        "startChar": 33,
+        "endLine": 227,
+        "endChar": 34
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecf31f5d_30b6e6d4",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-24T09:26:54Z",
+      "side": 1,
+      "message": "You could do that in a single query if you\u0027re OK giving up the state distinction of \"passing vs not applicable\".\n\nSo:\n\napplicable: branch:master\nblocking: is:all-comments-resolved\n\ncould translate to:\n\nblocking: (NOT branch:master) OR is:all-comments-resolved\n\nBut it would make the UX worse as I think the user doesn\u0027t really care about irrelevant requirements and would rather not have them mentioned as \"passing\".",
+      "parentUuid": "3375acc4_35a9d39a",
       "range": {
         "startLine": 226,
         "startChar": 33,
