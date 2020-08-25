@@ -46,6 +46,30 @@
       "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e1742de_7c4b2c45",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-25T21:32:51Z",
+      "side": 1,
+      "message": "\u003e I think in our trial run, 2.13 and 2.15 schemas took the longest.\n\nv2.13 and v2.15 are EOL: we *could* make extra releases but there are no plans at the moment. Also v2.13 was built with Buck and we don\u0027t have an environment for building it anymore.\n\n\u003e I won\u0027t know them all until we\u0027re done. I\u0027ll make sure you\u0027re on any changes we upload for review.\n\u003e \n\u003e I think if you have more questions, we can discuss on the list?\n\nSure, would be best for you to present your proposals for new improvements on Gerrit \u003c 2.16 at the next forthcoming ESC? If we need to start building and supporting EOL releases, we would need more than my opinion on the table :-)",
+      "parentUuid": "c771c9ed_c519a92d",
+      "range": {
+        "startLine": 74,
+        "startChar": 30,
+        "endLine": 74,
+        "endChar": 55
+      },
+      "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
