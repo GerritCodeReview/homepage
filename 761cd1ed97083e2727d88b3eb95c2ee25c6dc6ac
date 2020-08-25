@@ -594,6 +594,30 @@
     },
     {
       "key": {
+        "uuid": "498a80c7_5a5d7274",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-25T12:48:09Z",
+      "side": 1,
+      "message": "\u003e Would there be no way to expose the rules from the task plugin more natively/transparently?\n\nIf the tasks plugin has setup routines for enabling it on new projects, it could configure submit requirements on these projects in there.\n\nWe could make SubmitRequirement a plugin interface of it\u0027s own - next to the already planned SubmitPredicate (used in my example above as is:all-subtasks-finished_tasksPluginName) so that instead of this config you could directly operate on the top layer with a plugin, but I am not such a big fan of that because it doesn\u0027t allow for any more use cases than SubmitPredicate already does (i.e. it doesn\u0027t make the system more pluggable, while it makes it more complex).\n\nIf you want calls for all conditions to be handled exclusively by a plugin, you could do:\n\nname: All CI tasks finished successfully\napplicable: is:applicable_tasksPlugin\nfulfilled: is:blocking_tasksPlugin\noverride: is:override_tasksPlugin",
+      "parentUuid": "151c4b85_cd781631",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6291f7f0_ce0b0ce4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
