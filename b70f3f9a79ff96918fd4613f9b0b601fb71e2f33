@@ -88,6 +88,52 @@
     },
     {
       "key": {
+        "uuid": "b9d1dae7_937c3fbc",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-25T07:36:03Z",
+      "side": 1,
+      "message": "nit:\nan",
+      "range": {
+        "startLine": 82,
+        "startChar": 44,
+        "endLine": 82,
+        "endChar": 45
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fb7412a5_68fb048f",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-25T07:36:03Z",
+      "side": 1,
+      "message": "From above I had the impression that there could be several plugins.\n\n\u003e The data for the Runs tab is exclusively provided by plugins.\n\nBut this paragraph suggests that there will only ever be one plugin that provides Runs.\nIf not, how would we sort Runs provided by two separate plugins?",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 86,
+        "endChar": 58
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "bdb2f323_6309658f",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -104,6 +150,29 @@
         "startChar": 8,
         "endLine": 99,
         "endChar": 14
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b35bb62_698328e3",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-25T07:36:03Z",
+      "side": 1,
+      "message": "I\u0027m missing a \u0027SUCCESSFUL\u0027 category.\nFWICT \u0027INFO\u0027 is the closest thing, but IMM \u0027INFO\u0027 means \"there\u0027s something you might want to know about\" i.e. could be interpreted to be used for something like \u0027waiting-for-resource\u0027: a job has started but is currently waiting for a device to run tests on.\n\n    RUNNABLE -\u003e RUNNING -\u003e INFO -\u003e RUNNING -\u003e INFO\n\nI don\u0027t see the point of INFO, what is the \u0027INFO\u0027 category supposed to relay to the user?\nReplace INFO with SUCCESSFUL?\n\n    RUNNABLE -\u003e RUNNING -\u003e RUNNING+summary -\u003e RUNNING -\u003e SUCCESSFUL",
+      "range": {
+        "startLine": 107,
+        "startChar": 21,
+        "endLine": 107,
+        "endChar": 43
       },
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
