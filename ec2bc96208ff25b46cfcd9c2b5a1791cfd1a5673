@@ -70,6 +70,24 @@
       "revId": "ec2bc96208ff25b46cfcd9c2b5a1791cfd1a5673",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3ebdc03f_a50afb5f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-08-25T05:58:12Z",
+      "side": 1,
+      "message": "It seems we have a dedicated \u0027homepage-authors\u0027 group [1] for this (not sure why, just learned about it now). I\u0027ve added you to this group now, so that you should be able to vote V+1 now.\n\n[1] https://gerrit-review.googlesource.com/admin/groups/8722348dbcd6b6892c55077576433bee3a25c2c4,members",
+      "parentUuid": "61405d8c_b3f240b3",
+      "revId": "ec2bc96208ff25b46cfcd9c2b5a1791cfd1a5673",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
