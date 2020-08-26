@@ -1,0 +1,262 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cba0815e_f2339bd3",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "lightweight (one word)",
+      "range": {
+        "startLine": 33,
+        "startChar": 65,
+        "endLine": 33,
+        "endChar": 77
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf51524a_6d260720",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "Is this explicitly targeting the Prolog rules composition complexity?\nYou are planning to NOT allow that anymore?\nCan you make an explicit example of what it was possible before and won\u0027t be possible anymore?",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 70
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7aa0a0ea_56d08605",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "fulfilled doesn\u0027t really match IMHO with the description you are giving. I would rather use \u0027mandatory\u0027 or \u0027required\u0027",
+      "range": {
+        "startLine": 78,
+        "startChar": 9,
+        "endLine": 78,
+        "endChar": 18
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b97a3d35_fea370a4",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "This looks very good to me: I always found confusing that at times the requirement was specified by a Prolog rule and, by default, by the label function. Making one single place where the submittability gets calculated allow to have less doubts of its execution and evaluation.",
+      "range": {
+        "startLine": 115,
+        "startChar": 19,
+        "endLine": 116,
+        "endChar": 16
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "63c6edca_e76c5490",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "This is cool ! I always found it very strange that we needed to re-evaluate submit rules so many times. Also, if the Prolog changes, what\u0027s the point of re-evaluating existing merged changes?",
+      "range": {
+        "startLine": 140,
+        "startChar": 23,
+        "endLine": 141,
+        "endChar": 51
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b22a6296_c9debd83",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "Are you planning to still store its result in the index though?",
+      "range": {
+        "startLine": 143,
+        "startChar": 0,
+        "endLine": 144,
+        "endChar": 20
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4974c6e1_ec38aa3e",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "What about the \"extra information\" that plugins were able to provide before?\n\nE.g. Owners plugin: the list of people that are entitled to be the \"owners\u0027 reviewers\" of some of the files of a change.",
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce235476_52b3898a",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "Would a SSH command interaction still be available?\nCurrently you could develop a Prolog rule only by interacting over SSH, without having to do point-and-click on the GUI.",
+      "range": {
+        "startLine": 198,
+        "startChar": 36,
+        "endLine": 199,
+        "endChar": 20
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ffc9608_9568906a",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "We do need to make sure that the new migrated rules will be 100% functionally equivalent to the existing ones, to prevent bad surprises..\n\nWhat about reindexing? Would we keep the current submit record in the index or would we need to re-evaluate all the rules of all changes?",
+      "range": {
+        "startLine": 211,
+        "startChar": 47,
+        "endLine": 213,
+        "endChar": 20
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a68934c9_d151f76e",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "I am missing:\n\n4) Projects that use Prolog with plugin-provided additional predicates. What is the plans for those?",
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6276d9f3_08740af0",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "What about the SSH interface to develop and test Prolog rules on Gerrit?",
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ad03c74d_fc30c2c5",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T22:45:12Z",
+      "side": 1,
+      "message": "Are we targeting then Gerrit v3.4?\nWould part of this be in Gerrit v3.3?",
+      "range": {
+        "startLine": 246,
+        "startChar": 44,
+        "endLine": 246,
+        "endChar": 64
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
