@@ -15,12 +15,11 @@ Gerrit, we would like to know about your use case, so that we are aware of it
 when we evolve Gerrit further. If you use Gerrit, we kindly ask you to share
 your usage below.
 
-### How to share your story?
+### How to share your story
 
-Upload a change to the
-[homepage](https://gerrit-review.googlesource.com/admin/repos/homepage) project
-that adds your story to this page. If you don't know how to do this, just send
-an email to the [repo-discuss](https://groups.google.com/forum/#!forum/repo-discuss)
+Upload a change to the [homepage](https://gerrit-review.googlesource.com/admin/repos/homepage)
+project that adds your story to this page. If you don't know how to do this, just
+send an email to the [repo-discuss](https://groups.google.com/forum/#!forum/repo-discuss)
 mailing list that has a subject starting with '[story]' and a Gerrit maintainer
 will take care to upload it for you.
 
@@ -33,7 +32,7 @@ Please add new stories at the top of this list.
 
 ---
 
-  **[2020-07-15] Eclipse Foundation**
+**[2020-07-15] Eclipse Foundation**
 
 ```
   The Eclipse Foundation's in-house Gerrit instance, in service since early

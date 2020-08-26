@@ -22,7 +22,7 @@ behavior (e.g. doing lots of reviews, actively helping users on the mailing
 list, caring about releases, organizing community events, maintaining plugins
 etc.).
 
-### How to add kudos?
+### How to add kudos
 
 Upload a change to the [homepage](https://gerrit-review.googlesource.com/admin/repos/homepage)
 project that adds the kudos to this page. If you don't know how to do this, just
@@ -32,7 +32,7 @@ will take care to upload the kudos for you.
 
 ### List of kudos
 
-Note: Please add new kudos at the top of this list.
+Please add new kudos at the top of this list.
 
 ---
 
@@ -49,7 +49,7 @@ Note: Please add new kudos at the top of this list.
   to be a great source for everyone starting with Prolog submit rules.
 ```
 
-[1] https://gerrit-review.googlesource.com/Documentation/prolog-cookbook.html
+[1] <https://gerrit-review.googlesource.com/Documentation/prolog-cookbook.html>
 
 From: Edwin Kempin (Google)
 
@@ -86,7 +86,7 @@ From: Edwin Kempin (Google)
   things that we have achieved together [2].
 ```
 
-[1] <https://gerrit-review.googlesource.com/Documentation/dev-roles.html#community-manager>
+[1] <https://gerrit-review.googlesource.com/Documentation/dev-roles.html#community-manager><br>
 [2] <https://groups.google.com/g/repo-discuss/c/OJYszErJwT4/m/YG9ymoL9DQAJ>
 
 From: Edwin Kempin (Google)
