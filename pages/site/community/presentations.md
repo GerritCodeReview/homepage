@@ -10,6 +10,7 @@ toc: false
 
 Community members willing to learn about Gerrit may find useful resources on this single page.
 The listed presentations can be tutorials, slides, videos, channels or other relevant formats.
+There are [tutorials also in the Gerrit documentation](https://gerrit-review.googlesource.com/Documentation/index.html#_tutorials).
 
 ### How to add presentations
 
