@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "ab3bda84_fb2858ca",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "I was not expecting any change to the attention-set design :-O",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "70e03e4f_ebb4c51c",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 2
@@ -65,6 +82,121 @@
     },
     {
       "key": {
+        "uuid": "f3659256_4b2f79e7",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "Why not preserving the current \"Checks\" tab name?",
+      "range": {
+        "startLine": 22,
+        "startChar": 37,
+        "endLine": 22,
+        "endChar": 41
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aeb2165c_c5faf5c8",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "Would this be a latency issue on the page? Are we planning for a placeholder in case of slowness for the data to come through?",
+      "range": {
+        "startLine": 30,
+        "startChar": 26,
+        "endLine": 30,
+        "endChar": 64
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7da6aaaa_db149db7",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "nit: space at EOL",
+      "range": {
+        "startLine": 31,
+        "startChar": 82,
+        "endLine": 31,
+        "endChar": 84
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3b269304_9b4ff4f2",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "How are we planning to manage authentication? Would the browser need to be authenticated against the CI system? How do we manage in the login experience in that case?\n\nExample: Jenkins and Gerrit, both authenticated via LDAP.\n\nUser John has a session with Gerrit but not with Jenkins (yet). When he navigates to the Runs tab, the REST-API to the Jenkins backend would fail. How can he see the Jenkins login experience inside Gerrit?\n\nWhat if John doesn\u0027t have access to Jenkins or has a different login to it?",
+      "range": {
+        "startLine": 49,
+        "startChar": 71,
+        "endLine": 50,
+        "endChar": 3
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8401c308_e33c3184",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "The login workflow is inherently complex and, depending on the organisation, could involve MFAs. More than an API it should be an i-frame or similar.\n\nBest would be to have a Gerrit service-account on the backend that is responsible to call the CI system\u0027s APIs, rather than the browser. But that is a topic for discussion, of course.",
+      "range": {
+        "startLine": 57,
+        "startChar": 4,
+        "endLine": 57,
+        "endChar": 65
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b4b14baa_815158a6",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -82,6 +214,23 @@
         "endLine": 59,
         "endChar": 2
       },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a3e675e2_c737bc16",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "Fully agree with all those points: also the UX needs to be consistent, tested and smooth.",
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
@@ -134,6 +283,29 @@
     },
     {
       "key": {
+        "uuid": "c17f0eea_57b51b6a",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "Are you planning to put restrictions on this number? E.g. 0-based, monotonic, etc.",
+      "range": {
+        "startLine": 97,
+        "startChar": 2,
+        "endLine": 97,
+        "endChar": 17
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "bdb2f323_6309658f",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -174,6 +346,63 @@
         "endLine": 107,
         "endChar": 43
       },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "00783f99_a158d2c5",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "I am missing:\n- SUCCESSFUL\n- CANCELLED\n- ABORTED\n- STALE\n- QUEUED",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6070eef6_33971dcf",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "A CI Run can post multiple labels as result. Especially in Jenkins, a Run can be a pipeline with multiple steps:\n- Code lint\n- Compile\n- Unit test\n- Integration test\n\nEach one of the stages could send different labels with the associated values",
+      "range": {
+        "startLine": 151,
+        "startChar": 2,
+        "endLine": 151,
+        "endChar": 16
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a272f9ce_7a883a7a",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:02:42Z",
+      "side": 1,
+      "message": "You typically have:\n- scheduledTimestamp\n- startedTimestamp\n- finishedTimestamp\n\nEven if the build hasn\u0027t started yet, it would be useful to know that has been scheduled but not started yet.",
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
