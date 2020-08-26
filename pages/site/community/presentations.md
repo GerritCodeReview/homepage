@@ -42,6 +42,32 @@ From: Marco Miller (Ericsson)
 
 ---
 
+**[2020-04-08] Summit & Hackathon 2019 in Sunnyvale**
+
+```
+  This is the summary of the Gerrit User Summit & Hackathon 2019 in Sunnyvale [1],
+  with links to the available presentations.
+```
+
+[1] <a href="https://www.gerritcodereview.com/2020-04-08-user-summit-sunnyvale-summary.html">Summary of the Gerrit User Summit & Hackathon 2019 in Sunnyvale</a>
+
+From: Luca Milanesio with contributors (Gerrit)
+
+---
+
+**[2019-09-11] Summit 2019 in Gothenburg**
+
+```
+  This is the summary of the Gerrit User Summit 2019 in Gothenburg [1],
+  with links to the available presentations.
+```
+
+[1] <a href="https://www.gerritcodereview.com/2019-09-11-user-summit-gothenburg-summary.html">Summary of the Gerrit User Summit 2019 in Gothenburg</a>
+
+From: Luca Milanesio (GerritForge)
+
+---
+
 **[2019-01-14] Concepts and Workflows**
 
 ```
