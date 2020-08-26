@@ -94,6 +94,30 @@
       "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "616947e3_c45bc868",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T21:35:20Z",
+      "side": 1,
+      "message": "Why not mentioning that you are planning to improve the \"2.13 and 2.15 schemas upgrades\" in the 2.16.x release? That would represent your feedback so far on this comment thread. v2.16.x contains all the schema migrations from v2.7 up to v2.16, so if you would improve v2.13 and v2.15 migration code it could be released as part of the v2.16.x.\n\nWDYT?",
+      "parentUuid": "6cf07163_18421852",
+      "range": {
+        "startLine": 74,
+        "startChar": 30,
+        "endLine": 74,
+        "endChar": 55
+      },
+      "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
