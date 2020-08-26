@@ -142,6 +142,30 @@
       "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ebf37449_392c5311",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-26T23:08:48Z",
+      "side": 1,
+      "message": "\u003e \u003e Why not mentioning that you are planning to improve the \"2.13 and 2.15 schemas upgrades\" in the 2.16.x release? That would represent your feedback so far on this comment thread. v2.16.x contains all the schema migrations from v2.7 up to v2.16, so if you would improve v2.13 and v2.15 migration code it could be released as part of the v2.16.x.\n\u003e \u003e \n\u003e \u003e WDYT?\n\u003e \n\u003e This is frustrating Luca. I don\u0027t feel like my replies are being read. You\u0027re suggesting I do something I\u0027ve already said I don\u0027t want to do and I provided reasons why.\n\nI would then suggest to take this L74 bullet point offline into a separate change: once you will have more clarity on what is the problem and where is going to be addressed, we can put it back into the roadmap.\n\nI am just concerned that the reader won\u0027t have any idea of what is coming as outcome of this bullet point and where to expect the improvement. The roadmap is not for us, but for all the members of the community for knowing what to expect in the next forthcoming months.\n\nIs that a viable alternative for you? If not, can you suggest something else?",
+      "parentUuid": "c46d4f88_0d1b0845",
+      "range": {
+        "startLine": 74,
+        "startChar": 30,
+        "endLine": 74,
+        "endChar": 55
+      },
+      "revId": "3581906ab41f012edd3591b67b3c1d101ab59bb2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
