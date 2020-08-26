@@ -25,6 +25,22 @@ Please add new presentations at the top of this list.
 
 ---
 
+**[2020-08-26] End-to-end Tests**
+
+```
+  This presentation [1,2] introduces the emerging framework component,
+  how to start using it from Gerrit core and plugins. This current
+  framework was based on the original work done by GerritForge [3].
+```
+
+[1] <a href="https://docs.google.com/presentation/d/1xZShuNKHmqeKAtfLzxwllQWze9P18i2nHbTzX_lQ9r4/edit?usp=sharing">gerrit/e2e-tests: functional meets load</a><br>
+[2] <a href="https://drive.google.com/file/d/19YvJbPHDmwmMVcaehI1ot6xVdoQY0QxY/view?usp=sharing">gerrit/e2e-tests Recording</a><br>
+[3] <a href="https://gitenterprise.me/2019/12/20/stress-your-gerrit-with-gatling/">Stress your Gerrit with Gatling</a>
+
+From: Marco Miller (Ericsson)
+
+---
+
 **[2019-01-14] Concepts and Workflows**
 
 ```
