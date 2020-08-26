@@ -642,6 +642,30 @@
     },
     {
       "key": {
+        "uuid": "efeb62e8_a1b430f2",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-08-26T13:02:49Z",
+      "side": 1,
+      "message": "\u003e it could be a major benefit to having all submit requirements expressed in the same way.\n\n+1. I arrived at the same conclusion. \n\n\u003e The plugins shouldn\u0027t then concern themselves with whether they block submit or not, they only express some states through a SubmitPredicate.\n\nI could not have expressed this better :-). I think we should document this guidance so that plugin owners know how to best write predicates.\n\nPlugin owners can also write more than a single plugin to express their logic. For example:\n\nis:all-mandatory-tasks-succeeded AND is:no-optional-task-failed\n\n(expressing that optional tasks don\u0027t have to be completed but they must not have failed).",
+      "parentUuid": "5de75e18_07b0fc2f",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6291f7f0_ce0b0ce4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
