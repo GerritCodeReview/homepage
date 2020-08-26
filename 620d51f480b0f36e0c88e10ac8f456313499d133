@@ -39,6 +39,30 @@
       "revId": "620d51f480b0f36e0c88e10ac8f456313499d133",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ae8f5df9_28b99f0a",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-08-26T20:58:44Z",
+      "side": 1,
+      "message": "Added a link to its Documentation.\n\nAdding another link to it in Monorail here I think would be overkill. The slides already mention the latter anyway (slide 10, Backlog link).",
+      "parentUuid": "8231f8a7_efc390e4",
+      "range": {
+        "startLine": 31,
+        "startChar": 37,
+        "endLine": 31,
+        "endChar": 69
+      },
+      "revId": "620d51f480b0f36e0c88e10ac8f456313499d133",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
