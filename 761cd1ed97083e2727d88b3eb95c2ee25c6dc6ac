@@ -618,6 +618,30 @@
     },
     {
       "key": {
+        "uuid": "5de75e18_07b0fc2f",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-26T07:47:16Z",
+      "side": 1,
+      "message": "\u003e \u003e Would there be no way to expose the rules from the task plugin more natively/transparently?\n\u003e \n\u003e If the tasks plugin has setup routines for enabling it on new projects, it could configure submit requirements on these projects in there.\n\u003e \n\u003e We could make SubmitRequirement a plugin interface of it\u0027s own - next to the already planned SubmitPredicate (used in my example above as is:all-subtasks-finished_tasksPluginName) so that instead of this config you could directly operate on the top layer with a plugin, but I am not such a big fan of that because it doesn\u0027t allow for any more use cases than SubmitPredicate already does (i.e. it doesn\u0027t make the system more pluggable, while it makes it more complex).\n\nThis was also my initial thought also but when contemplating it I came to the conclusion (that you\u0027ve probably reached already) that it could be a major benefit to having all submit requirements expressed in the same way.\n\nThe benefit is that it\u0027s apparent what blocks submit, you don\u0027t \"hide\" this logic in plugins.\n(This is off course only partially true since you still hide the lower-level SubmitPredicate logic in the plugins.)\n\nThe plugins shouldn\u0027t then concern themselves with whether they block submit or not, they only express some states through a SubmitPredicate.\n\nIn my example:\n\n    has:tag-selection\n\nin task plugin:\n\n    is:all-tasks-completed\n\n\nI cannot speak to whether you give away too much flexibility in the task plugin to do it this way but for my example I don\u0027t see any major issues.\n\n\u003e \n\u003e If you want calls for all conditions to be handled exclusively by a plugin, you could do:\n\u003e \n\u003e name: All CI tasks finished successfully\n\u003e applicable: is:applicable_tasksPlugin\n\u003e fulfilled: is:blocking_tasksPlugin\n\u003e override: is:override_tasksPlugin",
+      "parentUuid": "498a80c7_5a5d7274",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6291f7f0_ce0b0ce4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
