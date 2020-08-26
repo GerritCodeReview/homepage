@@ -666,6 +666,30 @@
     },
     {
       "key": {
+        "uuid": "fe543db0_c18f5d06",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-26T13:10:18Z",
+      "side": 1,
+      "message": "\u003e Plugin owners can also write more than a single plugin to express their logic.\n\nDid you mean to say \"Plugins can provide more than one implementation of SubmitPredicate\"?",
+      "parentUuid": "efeb62e8_a1b430f2",
+      "range": {
+        "startLine": 65,
+        "startChar": 44,
+        "endLine": 66,
+        "endChar": 12
+      },
+      "revId": "761cd1ed97083e2727d88b3eb95c2ee25c6dc6ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6291f7f0_ce0b0ce4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 1
