@@ -174,6 +174,30 @@
     },
     {
       "key": {
+        "uuid": "79e68024_e59c859f",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-27T08:45:54Z",
+      "side": 1,
+      "message": "From my understanding:\nThe CI-data-provider plugin is authenticated with f.i. Jenkins and can collect build status/results.\nIf the company/organization wants to hide some build-results/statuses from all but a select group it\u0027s up to their implementation(s) of the CI-data-provider plugin.",
+      "parentUuid": "3b269304_9b4ff4f2",
+      "range": {
+        "startLine": 49,
+        "startChar": 71,
+        "endLine": 50,
+        "endChar": 3
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8401c308_e33c3184",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -369,6 +393,24 @@
     },
     {
       "key": {
+        "uuid": "f5156a47_15f149fb",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-27T08:45:54Z",
+      "side": 1,
+      "message": "I believe the meaning is to solve the \"flavors\" with the \"summary\" field.\nSomething like:\n\n\u003e I am missing:\n\u003e - SUCCESSFUL\n\u003e - CANCELLED\n\nINFO+summary\n\n\u003e - ABORTED\n\nINFO+summary\n\n\u003e - STALE\n\nWARNING+summary\n\n\u003e - QUEUED\n\nRUNNABLE+summary",
+      "parentUuid": "00783f99_a158d2c5",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6070eef6_33971dcf",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -403,6 +445,24 @@
       "writtenOn": "2020-08-26T23:02:42Z",
       "side": 1,
       "message": "You typically have:\n- scheduledTimestamp\n- startedTimestamp\n- finishedTimestamp\n\nEven if the build hasn\u0027t started yet, it would be useful to know that has been scheduled but not started yet.",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "17ad92f8_fd62fb5a",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-27T08:45:54Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "a272f9ce_7a883a7a",
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
