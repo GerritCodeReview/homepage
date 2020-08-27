@@ -271,6 +271,24 @@
     },
     {
       "key": {
+        "uuid": "569214bb_08b38b8f",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-27T08:45:55Z",
+      "side": 1,
+      "message": "\u003e I added this to future work. We\u0027d love to implement \"actions\" that plugin owners can expose and that turn into a button + follow up screen/menu on the unfulfilled actions.\n\u003e \n\u003e This isn\u0027t possible today, so I wouldn\u0027t consider it a blocker, rather something we can do in the second iteration.\n\u003e \n\u003e To be precise, today, you could expose a random string from Prolog that gets shown as a missing label, but this isn\u0027t a forum for showing a list of potential owners for example.\n\nWe do actually use that feature now in the owners plugin, see [1]. If we lose that possibility, then we won\u0027t be able to use the new rules from the owners plugin. Knowing *who* is responsible for approving the changes on one file is a core feature, otherwise you would never know who are you waiting for a change to be approved.\n\nHow would we suppose that use-case?\n\n[1] https://gerrit.googlesource.com/plugins/owners/+/refs/heads/master/owners/src/main/resources/Documentation/config.md#example-5-owners-details-on-a-per_file-basis",
+      "parentUuid": "694f6962_0fd17b55",
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce235476_52b3898a",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 2
@@ -306,6 +324,30 @@
       "side": 1,
       "message": "There\u0027ll certainly be a REST endpoint which we could also wrap in an SSH command if desired. Since we don\u0027t use SSH at Google, this would need to be a community contribution, but I think it\u0027s not a lot of effort.",
       "parentUuid": "ce235476_52b3898a",
+      "range": {
+        "startLine": 198,
+        "startChar": 36,
+        "endLine": 199,
+        "endChar": 20
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6ee6eafb_275d3ebb",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-27T08:45:55Z",
+      "side": 1,
+      "message": "Ah, gotcha. REST also would work, as long as it is in a usable form.",
+      "parentUuid": "c49774c4_8c00ba8f",
       "range": {
         "startLine": 198,
         "startChar": 36,
@@ -432,6 +474,24 @@
       "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "afbb0844_c0d7d114",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-08-27T08:45:55Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "246aca6c_9ff91795",
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
