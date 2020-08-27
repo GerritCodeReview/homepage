@@ -143,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "6e8f3f3e_ae5e2d65",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-08-27T08:56:14Z",
+      "side": 1,
+      "message": "IMO in the context of the SubmitRequirement the term fulfilled makes more sense then required|mandatory.\n\n    (The SubmitRequirement is) applicable (when):\n    (The SubmitRequirement is) overridden (when):\n    \n    (The SubmitRequirement is) fulfilled (when):\n\ncompared to:\n\n    (For the SubmitRequirement to be fulfilled this state is) required:\n    (For the SubmitRequirement to be fulfilled this state is) mandatory:",
+      "parentUuid": "4c53e576_66cc60b8",
+      "range": {
+        "startLine": 78,
+        "startChar": 9,
+        "endLine": 78,
+        "endChar": 18
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b97a3d35_fea370a4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 2
