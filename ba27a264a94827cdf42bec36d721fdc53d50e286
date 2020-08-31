@@ -16,6 +16,52 @@
       "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "94f90fc7_97d69c76",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1079742
+      },
+      "writtenOn": "2020-08-31T14:07:17Z",
+      "side": 1,
+      "message": "So COMPLETED will group runs that have successfully completed (all test passed) whereas all other runs that are completed but not successful will show under: ERROR, WARNING or INFO. \n\nIf so, what text could we use to make it clear that all runs passed? \"Successfully completed\" or \"Passed\" maybe?",
+      "range": {
+        "startLine": 115,
+        "startChar": 5,
+        "endLine": 115,
+        "endChar": 14
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "066381f5_17eb811d",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1079742
+      },
+      "writtenOn": "2020-08-31T14:07:17Z",
+      "side": 1,
+      "message": "nit: contain",
+      "range": {
+        "startLine": 117,
+        "startChar": 31,
+        "endLine": 117,
+        "endChar": 32
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
