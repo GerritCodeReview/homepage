@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9bb79a16_73a03a30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Thanks! :-)",
+      "parentUuid": "1c6726d7_25632776",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ab3bda84_fb2858ca",
         "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
         "patchSetId": 2
@@ -33,6 +51,24 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "31bd9251_b8e85854",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab3bda84_fb2858ca",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -59,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "230c9201_e7fe928c",
+        "filename": "pages/design-docs/attention-set/solution-1-workflow.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70e03e4f_ebb4c51c",
+      "range": {
+        "startLine": 35,
+        "startChar": 18,
+        "endLine": 35,
+        "endChar": 44
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f9944601_1b481bd1",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -82,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "56e3284e_ebfc3f84",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "This will be fixed when the change is actually submitted and served through the homepage.",
+      "parentUuid": "f9944601_1b481bd1",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 19
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f3659256_4b2f79e7",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -93,6 +177,30 @@
       "writtenOn": "2020-08-26T23:02:42Z",
       "side": 1,
       "message": "Why not preserving the current \"Checks\" tab name?",
+      "range": {
+        "startLine": 22,
+        "startChar": 37,
+        "endLine": 22,
+        "endChar": 41
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ee6c0dad_77484e56",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Good point. Will talk to a few people and collect their votes. Keeping unresolved for now.",
+      "parentUuid": "f3659256_4b2f79e7",
       "range": {
         "startLine": 22,
         "startChar": 37,
@@ -128,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "e6f6afe5_044922fa",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "As discussed during our meeting: If a data provider is registered, then we will show a placeholder/loading-indicator until data is loaded.",
+      "parentUuid": "aeb2165c_c5faf5c8",
+      "range": {
+        "startLine": 30,
+        "startChar": 26,
+        "endLine": 30,
+        "endChar": 64
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7da6aaaa_db149db7",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -148,6 +280,30 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aa25e31f_b823ac28",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7da6aaaa_db149db7",
+      "range": {
+        "startLine": 31,
+        "startChar": 82,
+        "endLine": 31,
+        "endChar": 84
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -198,6 +354,30 @@
     },
     {
       "key": {
+        "uuid": "d4002662_7e789b20",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "That is what I meant with \"API will also include methods for managing the login workflow\" below. Yes. We need a decent UX for telling the user that they also have to log into Jenkins.",
+      "parentUuid": "79e68024_e59c859f",
+      "range": {
+        "startLine": 49,
+        "startChar": 71,
+        "endLine": 50,
+        "endChar": 3
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8401c308_e33c3184",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -218,6 +398,30 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95f76668_40300627",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Noted. And added two sentences.",
+      "parentUuid": "8401c308_e33c3184",
+      "range": {
+        "startLine": 57,
+        "startChar": 4,
+        "endLine": 57,
+        "endChar": 65
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -244,6 +448,30 @@
     },
     {
       "key": {
+        "uuid": "c1812b6e_b3c357e3",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Whitespace. Removed.",
+      "parentUuid": "b4b14baa_815158a6",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 2
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a3e675e2_c737bc16",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -258,6 +486,24 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cc1045d8_8081eebb",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a3e675e2_c737bc16",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -284,6 +530,30 @@
     },
     {
       "key": {
+        "uuid": "d867f998_e32eecd2",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9d1dae7_937c3fbc",
+      "range": {
+        "startLine": 82,
+        "startChar": 44,
+        "endLine": 82,
+        "endChar": 45
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fb7412a5_68fb048f",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -304,6 +574,30 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a6a0fd99_d863b864",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Added an explanation.",
+      "parentUuid": "fb7412a5_68fb048f",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 86,
+        "endChar": 58
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -330,6 +624,30 @@
     },
     {
       "key": {
+        "uuid": "ed17131c_1af128f0",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "We only need this for comparison. Added a clarification: Lower number means older run.",
+      "parentUuid": "c17f0eea_57b51b6a",
+      "range": {
+        "startLine": 97,
+        "startChar": 2,
+        "endLine": 97,
+        "endChar": 17
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bdb2f323_6309658f",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -353,6 +671,30 @@
     },
     {
       "key": {
+        "uuid": "49dc8f6b_9e6d2855",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bdb2f323_6309658f",
+      "range": {
+        "startLine": 99,
+        "startChar": 8,
+        "endLine": 99,
+        "endChar": 14
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7b35bb62_698328e3",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -373,6 +715,30 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f8c1bd1a_623e7896",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "SUCCESSFUL is difficult, because some analyzers do not have the notion of success or failure, they just have a neutral outcome. Not all runs are tests.\n\nYou probably want COMPLETED.\n\nThe idea of INFO was indeed to collect all the results that are not actually interesting to the user beyond stuff that was (successfully) completed. So INFO should subsume COMPLETED, but it was targeted to be more generic.\n\nThinking about it more we should maybe also have COMPLETED, so you have a differentiation between (hundreds) of successful runs and some with sometimes interesting analysis results, e.g. change of binary size.\n\nAdding COMPLETED also makes the system a bit more symmetricL Three categories more focused on RUNS and three categories more focused on RESULTS.\n\nPTAL",
+      "parentUuid": "7b35bb62_698328e3",
+      "range": {
+        "startLine": 107,
+        "startChar": 21,
+        "endLine": 107,
+        "endChar": 43
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -411,6 +777,24 @@
     },
     {
       "key": {
+        "uuid": "52cbda11_317eac72",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "As Sven said.\n\nYou would also want to use tags for something like STALE or CANCELLED. Then these values stand out more and can be filtered by etc.\n\nThe category is for top level grouping and more centered around \"when and why does the user look at the run\" instead of \"what state it the run in\".\n\nAdded some more words.",
+      "parentUuid": "f5156a47_15f149fb",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6070eef6_33971dcf",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
@@ -431,6 +815,30 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a0bd985_0b317676",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "One run can have multiple results. And each result can be modeled as its own \"run\" entity. Maybe we should rename \"Run\" to \"Check\" or to \"RunOrResult\"?\n\nSo if the CI systems votes on multiple labels, then maybe it should also (at least eventually) post multiple results and associate each result with one label.\n\nThat said, it might be true that we will eventually hit a usecase that warrants changing `label` to `label[]` here. But let\u0027s try to start simple and not be too speculative.",
+      "parentUuid": "6070eef6_33971dcf",
+      "range": {
+        "startLine": 151,
+        "startChar": 2,
+        "endLine": 151,
+        "endChar": 16
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
@@ -466,6 +874,24 @@
       "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "750ffcbd_aa1cbff5",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-08-31T12:47:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "17ad92f8_fd62fb5a",
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
