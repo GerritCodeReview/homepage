@@ -89,6 +89,30 @@
     },
     {
       "key": {
+        "uuid": "fda67063_60bf2859",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-01T14:18:30Z",
+      "side": 1,
+      "message": "TLDR; Runs that don\u0027t provide additional info shouldn\u0027t be in the INFO category\n\nFrom discussions with Ben I suggested that there\u0027s a need for a category for Runs that completed successfully but had no additional info to provide i.e. the least interesting category for the user.\nThis to make it easy for a user to find/identify a Run that actually provide some additional info (and would fall under INFO category).\n\nIf Runs that don\u0027t provide any additional info also end up in the INFO category a user would be forced to look at all successfully completed runs, every time, in order to find out if any of them provide additional info.\n\nCompleted and successful Runs would fall under one of the categories (COMPLETED|INFO|WARNING).\nUnsuccessful Runs will fall under ERROR category.",
+      "parentUuid": "94f90fc7_97d69c76",
+      "range": {
+        "startLine": 115,
+        "startChar": 5,
+        "endLine": 115,
+        "endChar": 14
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "066381f5_17eb811d",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
