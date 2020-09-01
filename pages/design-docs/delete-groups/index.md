@@ -10,3 +10,4 @@ toc: false
 
 * [Use Cases](/design-docs/delete-groups-use-cases.html)
 * [Solution - Plugin](/design-docs/delete-groups-solution-plugin.html)
+* [Conclusion](/design-docs/delete-groups-conclusion.html)
