@@ -182,6 +182,30 @@
     },
     {
       "key": {
+        "uuid": "d643a8b4_56e7968a",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-01T14:37:45Z",
+      "side": 1,
+      "message": "Wouldn\u0027t a tag suffice?\n\nnegative signal from CI:\n  category: Error\n  tags: []\n\nlack of signal from CI:\n  category: Error\n  tags: [\"infra-failure\"]",
+      "parentUuid": "8ada197c_cfbd6a70",
+      "range": {
+        "startLine": 131,
+        "startChar": 2,
+        "endLine": 131,
+        "endChar": 20
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7efa7f74_f0d9e741",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
