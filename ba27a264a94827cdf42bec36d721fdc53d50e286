@@ -19,6 +19,29 @@
     },
     {
       "key": {
+        "uuid": "56c4b95f_d2d42df6",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-01T09:32:31Z",
+      "side": 1,
+      "message": "FYI:\nThis is how we would like to use it.\nThe data-provider-plugin has access to a service-account that is a Jenkins user and accesses CI data that way.\nIt would be beneficial if the user-login UI-parts were optional when/if needed.",
+      "range": {
+        "startLine": 60,
+        "startChar": 66,
+        "endLine": 61,
+        "endChar": 87
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "94f90fc7_97d69c76",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
