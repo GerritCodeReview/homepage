@@ -23,18 +23,15 @@ If someone would like to be involved when a specific topic is tackled, please
 ## Gerrit 3.3
 Target: Q4 2020
 
-* Pluggable authentication backend
 * Performance improvements
   * Replace H2 persistence with other more performant backends
   * Improve Gerrit performance with mono-repos (tens of GBytes of size)
-* Better UX
+* UX
   * Attention Set (revising assignee and “bolding”)
   * Increased overview in Change Log
   * Porting unresolved comments to the latest patchset
   * Showing comment context (file content or diff) along with comment widget in ChangeLog and
     Comment Threads tab
-  * Comment and Patchset Navigation
-  * SubmitRules v2
   * Per-label configuration to copy scores onto successfully cherry-picked changes
 * Infrastructure
   * TypeScript
@@ -64,14 +61,19 @@ Target: Q4 2020
 * High-availability plugin
   * Support for global ref-db
   * Mention HA and setup for multiple primary hosts in Gerrit documentation
-* Quota plugin
-  * Simplify the plugin.
 
 ## Upgrades from 2.7 to latest stable release
 * Be able to upgrade a huge site (Qualcomm) from 2.7 to latest stable release
   in less than 24 hours
   * 2.16.x: Improve NoteDb offline migration speed (current timing is 24+ hours for Qualcomm)
   * Improve upgrade speed for specifically slow schemas
+
+## Gerrit 3.4
+Target: Q2 2021
+
+* UX
+  * Composable SubmitRules
+  * CI Results Tab / Frontend plugin
 
 ## Distant future
 * Role-based access control
@@ -80,3 +82,6 @@ Target: Q4 2020
 * Pushing of server events into the frontend
 * Protobuf for REST API entities
 * Support for race-free zero-downtime pruning of git packed objects
+* Pluggable authentication backend
+* Quota plugin
+  * Simplify the plugin.
