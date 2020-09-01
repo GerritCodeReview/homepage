@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "a5764c64_4a3e20c5",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-01T09:33:47Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "56c4b95f_d2d42df6",
+      "range": {
+        "startLine": 60,
+        "startChar": 66,
+        "endLine": 61,
+        "endChar": 87
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "94f90fc7_97d69c76",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
