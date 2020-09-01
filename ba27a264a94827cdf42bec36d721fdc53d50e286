@@ -133,6 +133,69 @@
       "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ffa77621_6f45c05e",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1002560
+      },
+      "writtenOn": "2020-09-01T14:23:11Z",
+      "side": 1,
+      "message": "Oh god you have a trailing white space.\n\u003c/james_bond_looking_through_binoculars\u003e",
+      "range": {
+        "startLine": 127,
+        "startChar": 78,
+        "endLine": 127,
+        "endChar": 79
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8ada197c_cfbd6a70",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1002560
+      },
+      "writtenOn": "2020-09-01T14:23:11Z",
+      "side": 1,
+      "message": "Would you be open to something like INTERNAL_FAILURE? In our projects we explicitly surface internal failure and infrastructure failures to the users. We\u0027re only reliable to so many nines, and things happen. We do retries but eventually it\u0027s important to backoff in partial degradation mode, and we need to surface that to the user, so they know that the check did not in fact run properly.\n\nTo us it\u0027s important to distinguish between ERROR (a negative signal for the CL) and INFRA_FAILURE (lack of signal for the CL).",
+      "range": {
+        "startLine": 131,
+        "startChar": 2,
+        "endLine": 131,
+        "endChar": 20
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7efa7f74_f0d9e741",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1002560
+      },
+      "writtenOn": "2020-09-01T14:23:11Z",
+      "side": 1,
+      "message": "I\u0027d like to propose an additional field \"estimatedFinishTimestamp?: Date;\".\n\nI\u0027m fine with adding this in a follow up, writing this here for posterity. As such I\u0027m marking it immediately as Resolved.\n\nRationale:\n\n- A run may be pending for a while. The duration it\u0027s pending is a function on the instantaneous workload on the CI and the scheduling algorithm used by the workload scheduler (LIFO vs FIFO, priorities, etc). Only the scheduler can estimate the pending duration.\n\n- A task may have a quantifiable expected duration based on historical data. The expected duration may be bimodal (early exit versus full run). As such, a simple mechanism like taking the median or average runtime in the past day is likely not sufficient and a light but still deeper analysis has to be done.\n\n- The expected finish time is the sum of the pending time and the expected \"long duration\". We want to present a worst case to to users, and \"surprise the user\" with better efficiency than the advertized worst case. Only the CI scheduler has enough data, an holistic view of the system to make such estimation.\n\n- The expected finish time may be updated over time, as new information arrives to the CI Run scheduler. Maybe the check finished early (e.g. we skip tests for markdown-only CLs). Maybe the number of available workers abruptly lowered, or on the reverse an SREs killed hung tasks, freeing up resources.\n\n- At the presentation layer, we don\u0027t need to present every single ETA for each Run by default, only the worse value (most far ahead in the future). This can be as simple as: \"Checks are expected to be done in XX minute\", here XX is \"estimatedFinishTimestamp-now()\". This gives a hint to the user about instantaneous workload (pending duration) and set expectations (I have time to make coffee vs I have time to go to lunch vs let\u0027s check again tomorrow 🤷).\n\n- Using timestamps instead of relative time in seconds makes the data resilient in skews in information propagation.\n\n- Since the UX may make an active a choice on how to present the data, it needs to be structured (vs just a string in summary).",
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
