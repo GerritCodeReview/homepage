@@ -19,6 +19,46 @@
     },
     {
       "key": {
+        "uuid": "05ca2360_793e0438",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-09-02T11:48:32Z",
+      "side": 1,
+      "message": "Thanks, Patrick!",
+      "revId": "85083bf0af970abf0285a42988a861c84a69ae6f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "076221c3_b4511fa8",
+        "filename": "_posts/2020-09-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-09-02T11:48:32Z",
+      "side": 1,
+      "message": "October 6\n\n(We typically meet in the first week of the month.)",
+      "range": {
+        "startLine": 24,
+        "startChar": 33,
+        "endLine": 24,
+        "endChar": 45
+      },
+      "revId": "85083bf0af970abf0285a42988a861c84a69ae6f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2ee659ab_e1e4cd1d",
         "filename": "_posts/2020-09-01-esc-minutes.md",
         "patchSetId": 1
