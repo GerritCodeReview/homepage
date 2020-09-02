@@ -79,6 +79,30 @@
       "revId": "bd06401af57ff084a83822589400ea88978f5b70",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a259266f_c5f4b540",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-02T14:26:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "67b04d6b_79bc2f98",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 67
+      },
+      "revId": "bd06401af57ff084a83822589400ea88978f5b70",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
