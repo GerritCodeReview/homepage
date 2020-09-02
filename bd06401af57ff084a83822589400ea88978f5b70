@@ -59,6 +59,30 @@
     },
     {
       "key": {
+        "uuid": "b1b52052_1db6c16d",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-09-02T15:25:10Z",
+      "side": 1,
+      "message": "Good point. We\u0027re too dependent on some other factors and Oct 5 would likely be too soon for us.",
+      "parentUuid": "0a6b2ee0_93d70bc3",
+      "range": {
+        "startLine": 16,
+        "startChar": 14,
+        "endLine": 16,
+        "endChar": 54
+      },
+      "revId": "bd06401af57ff084a83822589400ea88978f5b70",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67b04d6b_79bc2f98",
         "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
         "patchSetId": 1
