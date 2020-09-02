@@ -16,6 +16,69 @@
       "revId": "bd06401af57ff084a83822589400ea88978f5b70",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3b638795_12ac210e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-02T14:11:45Z",
+      "side": 1,
+      "message": "Thanks for writing this, Luca.",
+      "revId": "bd06401af57ff084a83822589400ea88978f5b70",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0a6b2ee0_93d70bc3",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-02T14:11:45Z",
+      "side": 1,
+      "message": "I think we can\u0027t make this deadline internally as our javac upgrade won\u0027t be done by then. Alice, do you know more here?",
+      "range": {
+        "startLine": 16,
+        "startChar": 14,
+        "endLine": 16,
+        "endChar": 54
+      },
+      "revId": "bd06401af57ff084a83822589400ea88978f5b70",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "67b04d6b_79bc2f98",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-02T14:11:45Z",
+      "side": 1,
+      "message": "Maybe clarify that we discourage new features being developed on stable?",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 67
+      },
+      "revId": "bd06401af57ff084a83822589400ea88978f5b70",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
