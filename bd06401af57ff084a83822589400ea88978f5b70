@@ -83,6 +83,30 @@
     },
     {
       "key": {
+        "uuid": "69bacac0_3c83a608",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-02T21:40:04Z",
+      "side": 1,
+      "message": "What if we just remove the L18 (Remove Java 8 validation for new changes on master) so that the master branch will continue to be \"Java 8 compatible\"?\nThen, as soon as you guys can do the switch, we\u0027ll remove the Java 8 validation.\n\nWe have been promising to switch to Java 11 for a very long time and I believe we should keep the promise and have Gerrit v3.3 released with language level set to Java 11.\n\nThe compromise of keeping on verifying for Java 8 on master would make sure that your builds will continue to work.\n\nWDYT?",
+      "parentUuid": "b1b52052_1db6c16d",
+      "range": {
+        "startLine": 16,
+        "startChar": 14,
+        "endLine": 16,
+        "endChar": 54
+      },
+      "revId": "bd06401af57ff084a83822589400ea88978f5b70",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67b04d6b_79bc2f98",
         "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
         "patchSetId": 1
