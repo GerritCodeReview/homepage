@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6489c783_7ffe2e27",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-02T08:21:02Z",
+      "side": 1,
+      "message": "Thanks, Patrick, for writing this up :-)",
+      "revId": "85083bf0af970abf0285a42988a861c84a69ae6f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ee659ab_e1e4cd1d",
+        "filename": "_posts/2020-09-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-02T08:21:02Z",
+      "side": 1,
+      "message": "+ Luca would also reach out other maintainers that would be willing to help with the release.",
+      "revId": "85083bf0af970abf0285a42988a861c84a69ae6f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c10d09b_58fd2943",
+        "filename": "_posts/2020-09-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-02T08:21:02Z",
+      "side": 1,
+      "message": "### Gerrit events\n\nLuca raised the priority of the redesign of the Gerrit events, which is not in any of the next release plans. GerritForge is willing to drive the effort, assuming that there is consensus in supporting the initiative by Google and other companies contributing to Gerrit.\n\nAlice, who initially raised the issue during the Hackathon 2019 in Munich, is not currently planning to make progress, but will handover its notes to Luca so that the effort can be carried over for making it an official proposal.",
+      "revId": "85083bf0af970abf0285a42988a861c84a69ae6f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
