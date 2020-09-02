@@ -36,6 +36,24 @@ Please add new kudos at the top of this list.
 
 ---
 
+**[2020-09-02] To: Saša Živkov (SAP)**
+
+```
+  Thanks again Saša for having helped significantly on these replication reviews
+  [1] below. Once again, you were able to patiently help and iterate through a
+  challenging yet relevant review then. You are among the Gerrit reviewers who
+  show professional review comments, both technically and socially speaking.
+  Your calm approach to a review and the attitude that follows are humble and
+  exemplary. So thank you for your thorough, supportive and helpful review(s).
+  You made a difference again for [1], which needed a keen stir such as yours.
+```
+
+[1] <a href="https://gerrit-review.googlesource.com/c/plugins/replication/+/267812">Don't wait for pending events to process on startup</a>
+
+From: Marco Miller (Ericsson)
+
+---
+
 **[2020-07-17] To: Saša Živkov (SAP)**
 
 ```
