@@ -190,6 +190,30 @@
       "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "528e0c5e_2652cd00",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-03T22:25:47Z",
+      "side": 1,
+      "message": "There are two options how to preserve the ability to validate against Java 8:\n\n1. Keep both Java 8 and Java 11 builds (as we have today), but just swap the primary with the secondary, making Java 11 the primary one.\n2. Build on Java 11 only but with the flags you mentioned.\n\nThe 1. is easier and less risky IMHO, but I believe DavidO proposed already a change on 2.\n\nWe can decide which one to approach as we execute the plan, as both would achieve the same results. The 2. is less expensive in terms of resources utilisation, as we need to make the build only once.",
+      "parentUuid": "aeee783e_a9c4c003",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 11
+      },
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
