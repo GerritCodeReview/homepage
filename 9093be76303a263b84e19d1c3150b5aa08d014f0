@@ -118,6 +118,30 @@
       "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3393f7e3_faf419df",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-09-03T21:49:16Z",
+      "side": 1,
+      "message": "Can we make this more explicit and specify which values for javac options -bootclasspath [1] -source [2] -target [3] will be used ?\n\nThe current description looks like it\u0027s aiming for:\n* use javac 11 or higher\n* -bootclasspath \u003cpath to jdk 8\u003e\n* -source 8\n* -target 11\n\nIf bootclasspath and source version aren\u0027t set to 8 we cannot guarantee that 3.3 can be recompiled for java 8.\n\n[1] https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9__GUID-38BC1737-2F22-4288-8DC9-933C37D471AB\n[2] https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9__GUID-B4EE2436-E146-428D-A3CB-E0DAE27BA5B7\n[3] https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9__GUID-89CBDEA1-9FF4-4EA0-AB7D-B418FA2C3DE9",
+      "parentUuid": "79379c42_5cd7285d",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 11
+      },
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
