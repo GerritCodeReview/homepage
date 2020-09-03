@@ -70,6 +70,30 @@
       "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8c41220e_f480c789",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-09-03T20:01:00Z",
+      "side": 1,
+      "message": "Ok, thanks for confirming that I understood it correctly. The confusing part to me was when/if Java 8 is no longer supported and on which branches/releases.\n\nIs it really one last chance? If Google isn\u0027t ready for Java 11+ by 3.4, would we drop Java 8 support? When was Java 11 support first available, 3.2?\n\nFor amendments, maybe s/that means the gerrit.war won\u0027t be able to start on Java 8/that means the prebuilt gerrit.war available on \u003cdownload site\u003e won\u0027t be able to start on Java 8/. And then clarify \"Java 8 will continue to be supported in parallel to Java 11 on v3.3\" and \"There is no change to Java 8 support on 3.1.x and 3.2.x\". Then maybe: \"At some point, hopefully before v3.4, the master branch will drop support for Java 8 (based on Google\u0027s transition timeline)\". (assuming the last bit is true)",
+      "parentUuid": "c995eb69_2eea6c4a",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 11
+      },
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
