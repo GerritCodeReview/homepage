@@ -24,7 +24,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Scaling Multi-Master Replication](design-docs/scaling-multi-master-replication.html) by Martin Fick, approved 2019-11-12
 - [Attention Set](design-docs/attention-set.html) by Ben Rohlfs, approved 2020-01-03
 - [Change Log: Threaded Feedback](design-docs/change-log-threaded-feedback.html) by Jacek Centkowski, approved 2020-03-25
-- [Instance Id](design-docs/instance-id/index.html) by Fabio Ponciroli, approved 2020-05-05
+- [Instance Id](design-docs/instance-id.html) by Fabio Ponciroli, approved 2020-05-05
 - [Deletion of Groups](design-docs/delete-groups.html) by Gal Paikin / Jacek Centkowski, approved as plugin 2020-09-01
 
 ## Reviews of Design Documents
