@@ -94,6 +94,30 @@
       "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "79379c42_5cd7285d",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-03T20:55:15Z",
+      "side": 1,
+      "message": "\u003e Ok, thanks for confirming that I understood it correctly. The confusing part to me was when/if Java 8 is no longer supported and on which branches/releases.\n\nIn theory, the plan was to drop the support for Java 8 on master. In practice, that is planned but *cannot be done* as yet. I would leave to Patrick/Alice to comment on when the master validation for Java 8 can be dropped, as I do not have visibility on Google\u0027s plans.\n\n\u003e Is it really one last chance? If Google isn\u0027t ready for Java 11+ by 3.4, would we drop Java 8 support? When was Java 11 support first available, 3.2?\n\n@Patrick/@Alice?\n\n\u003e For amendments, maybe s/that means the gerrit.war won\u0027t be able to start on Java 8/that means the prebuilt gerrit.war available on \u003cdownload site\u003e won\u0027t be able to start on Java 8/. \n\nAck.\n\n\u003e And then clarify \"Java 8 will continue to be supported in parallel to Java 11 on v3.3\"\n\nYes and no: we will keep on validating that the code compiles and builds on Java 8, so that *IF* a company wants to continue to use Java 8, they will be able to do it.\n\nHowever, they should not expect the community to make releases v3.3.x with Java 8 language level anymore.\nIn practical terms, the message is: Gerrit v3.3 goes to Java 11 and is released for Java 11 language level only.\n\nWe won\u0027t make two releases (v3.3-java8 and v3.3-java11), at least this is the plan.\n\n\u003e and \"There is no change to Java 8 support on 3.1.x and 3.2.x\".\n\nmaybe \"There is no change to Java 8 support on all existing stable branches?\"\n\n\u003e Then maybe: \"At some point, hopefully before v3.4, the master branch will drop support for Java 8 (based on Google\u0027s transition timeline)\". (assuming the last bit is true)\n\nI would leave @Patrick/@Alice to comment on this and amend accordingly, as I cannot make any commitment on behalf of Google :-)",
+      "parentUuid": "8c41220e_f480c789",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 11
+      },
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
