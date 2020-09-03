@@ -131,6 +131,30 @@
     },
     {
       "key": {
+        "uuid": "36f9d89e_50d5d110",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-03T07:17:12Z",
+      "side": 1,
+      "message": "Done, I have also added a chapter of Java 8 vs. Java 11, to clarify the strategy.",
+      "parentUuid": "12940773_a5f9cbf9",
+      "range": {
+        "startLine": 16,
+        "startChar": 14,
+        "endLine": 16,
+        "endChar": 54
+      },
+      "revId": "bd06401af57ff084a83822589400ea88978f5b70",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "67b04d6b_79bc2f98",
         "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
         "patchSetId": 1
