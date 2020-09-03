@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "88641ce3_991a1da0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-09-03T15:47:01Z",
+      "side": 1,
+      "message": "Thanks for this change! -A few comments. Renders well locally, but waiting for these to be addressed prior to scoring the Verified.",
+      "revId": "728c00574d6dc2abcda08bb9bf226b6d5c6ab317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ae48037a_9e143db8",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-09-03T15:47:01Z",
+      "side": 1,
+      "message": "Nov 6, rather? As the 7th is a Saturday, so unsure if fully available on that day. For 3.2, we did it the next Monday [1].\n\n[1] http://localhost:4000/2020-04-22-gerrit-3.2-release-plan.html",
+      "range": {
+        "startLine": 23,
+        "startChar": 2,
+        "endLine": 23,
+        "endChar": 7
+      },
+      "revId": "728c00574d6dc2abcda08bb9bf226b6d5c6ab317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5392e308_01e42b3c",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-09-03T15:47:01Z",
+      "side": 1,
+      "message": "The development of new features is strongly discouraged",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 58
+      },
+      "revId": "728c00574d6dc2abcda08bb9bf226b6d5c6ab317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d3f0d952_2a7fcb6d",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-09-03T15:47:01Z",
+      "side": 1,
+      "message": "release:",
+      "range": {
+        "startLine": 49,
+        "startChar": 53,
+        "endLine": 49,
+        "endChar": 60
+      },
+      "revId": "728c00574d6dc2abcda08bb9bf226b6d5c6ab317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "548324e3_81b7da63",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-09-03T15:47:01Z",
+      "side": 1,
+      "message": "Links to the archived #gerrit-32-release channel, so not the upcoming 33 one.",
+      "range": {
+        "startLine": 64,
+        "startChar": 58,
+        "endLine": 64,
+        "endChar": 79
+      },
+      "revId": "728c00574d6dc2abcda08bb9bf226b6d5c6ab317",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
