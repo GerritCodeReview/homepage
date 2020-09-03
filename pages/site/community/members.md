@@ -55,6 +55,7 @@ Current maintainers are:
 | Dmitrii Filippov      | Google                                  |
 | Edwin Kempin          | Google (formerly SAP)                   |
 | Han-Wen Nienhuys      | Google                                  |
+| Joerg Zieren          | Google                                  |
 | Luca Milanesio        | GerritForge                             |
 | Marco Miller          | Ericsson                                |
 | Martin Fick           | Qualcomm                                |
@@ -63,7 +64,6 @@ Current maintainers are:
 | Saša Živkov           | SAP                                     |
 | Sven Selberg          | Axis                                    |
 | Tao Zhou              | Google                                  |
-| Viktar Donich         | Google                                  |
 
 ## Former maintainers
 
@@ -77,4 +77,5 @@ Current maintainers are:
 | Logan Hanks           | Google                     |
 | Ole Rehmsen           | Google                     |
 | Shawn Pearce          | Google                     |
+| Viktar Donich         | Google                     |
 | Wyatt Allen           | Google                     |
