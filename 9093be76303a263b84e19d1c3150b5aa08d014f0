@@ -214,6 +214,30 @@
       "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "038b2e99_b5c1cfae",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-09-03T23:50:18Z",
+      "side": 1,
+      "message": "I do think users/admins are more likely to migrate to Java 11 if that\u0027s all the prebuilt war supports. I also think we should be prepared for pushback on that approach (i.e. lots of \"help\" questions on the list) and perhaps consider offering a Java 8 version side-by-side for 3.3. I don\u0027t know if we have the capability, but we could even track #s of downloads of each.\n\n\u003e maybe \"There is no change to Java 8 support on all existing stable branches?\"\n\nSure!\n\n\u003e I would leave @Patrick/@Alice to comment on this and amend accordingly, as I cannot make any commitment on behalf of Google :-)\n\nAck.",
+      "parentUuid": "528e0c5e_2652cd00",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 11
+      },
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
