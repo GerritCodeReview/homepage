@@ -107,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "12940773_a5f9cbf9",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-03T07:06:59Z",
+      "side": 1,
+      "message": "SGTM as long as master is buildable with Java 8\n\nThanks!",
+      "parentUuid": "69bacac0_3c83a608",
+      "range": {
+        "startLine": 16,
+        "startChar": 14,
+        "endLine": 16,
+        "endChar": 54
+      },
+      "revId": "bd06401af57ff084a83822589400ea88978f5b70",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67b04d6b_79bc2f98",
         "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
         "patchSetId": 1
