@@ -46,6 +46,30 @@
       "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c995eb69_2eea6c4a",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-03T19:34:11Z",
+      "side": 1,
+      "message": "/you have more change/you have one last chance\n\nThat means, in v3.4, we are fully entitled to remove Java 8 support, as we gave two major releases (v3.2 and v3.3) with support for both JVMs (Java 8 and Java 11) and people would have had enough time to make their changes.\n\nP.S. As a \"last resort option\", everyone has the possibility to run Gerrit on Docker, removing the Java version problem altogether.",
+      "parentUuid": "3c1c69cb_b3f2fb2e",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 11
+      },
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
