@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "388cc330_bbc8c4b4",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-09-03T18:59:32Z",
+      "side": 1,
+      "message": "This has a confusing message (to me). It sounds like we\u0027re trying to make Java 11 the default, but will continue to support Java 8 on 3.3 and master for the foreseeable future (since we don\u0027t have a timeline for Google or other company migration to Java 11?)?",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 11
+      },
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
