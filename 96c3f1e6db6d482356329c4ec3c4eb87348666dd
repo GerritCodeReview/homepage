@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff4d7ef4_ee0c8e05",
+        "filename": "_posts/2020-09-04-gerrit-3.3-release-plan.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-04T10:27:23Z",
+      "side": 1,
+      "message": "In my example I was going for \u0027bold\u0027 not \u0027recursive\u0027 but I got mardownly confused.\n\n    __NOTE: This ... code-base!__",
+      "range": {
+        "startLine": 99,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 1
+      },
+      "revId": "96c3f1e6db6d482356329c4ec3c4eb87348666dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
