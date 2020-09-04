@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "07368442_ddaa0279",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-04T07:02:14Z",
+      "side": 1,
+      "message": "Would something like this be more clear?\n\n    ## Java\n    \n    ### Java 11 official language level\n    \n    Gerrit v3.3.x official releases will have Java 11 language level, this means \n    that the officially released gerrit.war won\u0027t start on Java 8.\n    \n    ### Java 8 compatibility\n    \n    *NOTE:This will be the last version with a Java 8 compatible code-base!*\n    \n    Although the official releases will be with Java 11 language level the\n    code-base of stable-3.3 will be validated against both Java 8 and Java 11,\n    thus it will still be possible to build stable-3.3 with Java 8.\n    \n    We are aware that a number of companies still rely on Java 8, we have \n    therefore opted to keep the code-base of stable-3.3 Java 8 compatible.\n    We will however, at some time prior to the release of v3.4, drop Java 8 \n    compatibility on the master branch.",
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "388cc330_bbc8c4b4",
         "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
         "patchSetId": 5
