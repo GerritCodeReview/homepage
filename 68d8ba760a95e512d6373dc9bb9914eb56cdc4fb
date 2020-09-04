@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "274dd27c_cba099f8",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-09-04T08:27:00Z",
+      "side": 1,
+      "message": "AFAICT it is `--index` see here https://gerrit.googlesource.com/gerrit/+/refs/heads/stable-3.2/java/com/google/gerrit/pgm/Reindex.java",
+      "range": {
+        "startLine": 61,
+        "startChar": 31,
+        "endLine": 61,
+        "endChar": 37
+      },
+      "revId": "68d8ba760a95e512d6373dc9bb9914eb56cdc4fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
