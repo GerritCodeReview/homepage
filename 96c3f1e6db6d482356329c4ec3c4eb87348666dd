@@ -22,6 +22,30 @@
       "revId": "96c3f1e6db6d482356329c4ec3c4eb87348666dd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5793878f_447dd027",
+        "filename": "_posts/2020-09-04-gerrit-3.3-release-plan.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-04T10:28:59Z",
+      "side": 1,
+      "message": "To really emphasize the future Java 8 incompatibility.",
+      "parentUuid": "ff4d7ef4_ee0c8e05",
+      "range": {
+        "startLine": 99,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 1
+      },
+      "revId": "96c3f1e6db6d482356329c4ec3c4eb87348666dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
