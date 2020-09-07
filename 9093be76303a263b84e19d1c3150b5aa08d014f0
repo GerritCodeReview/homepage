@@ -91,6 +91,24 @@
     },
     {
       "key": {
+        "uuid": "7533a7c8_8ac77f3e",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-07T11:01:28Z",
+      "side": 1,
+      "message": "Thanks for the answer @Alice, I\u0027ve amended the text to reflect what is our plan. Plans are not guarantees, but intentions.",
+      "parentUuid": "74fcad66_11774bce",
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "388cc330_bbc8c4b4",
         "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
         "patchSetId": 5
@@ -327,6 +345,30 @@
       "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7559b46d_f79f8c29",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-07T11:01:28Z",
+      "side": 1,
+      "message": "Alice already clarified in a separate comment thread. Marking this one as resolved.",
+      "parentUuid": "038b2e99_b5c1cfae",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 11
+      },
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
