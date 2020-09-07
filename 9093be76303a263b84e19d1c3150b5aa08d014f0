@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "b0dfac77_2030e69b",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-07T09:23:05Z",
+      "side": 1,
+      "message": "If it\u0027s unlikely to be fulfilled we should remove the statement, but IMO this is more \"stating our intentions\" rather than a contract. Also the cry-wolf ramifications shouldn\u0027t be too severe.\n\nAlice, Patrick:\nIs there a preliminary date when Google should be able to migrate to Java 11?",
+      "parentUuid": "0ac979fe_2f3b7461",
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "388cc330_bbc8c4b4",
         "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
         "patchSetId": 5
