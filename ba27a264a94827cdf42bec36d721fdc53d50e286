@@ -130,6 +130,30 @@
     },
     {
       "key": {
+        "uuid": "ae761a4b_cf1128dd",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-09-07T12:37:27Z",
+      "side": 1,
+      "message": "A check can be COMPLETED and also yield an ERROR.\n\nCOMPLETED is just the \"run\" related status and ERROR is a \"result\".",
+      "parentUuid": "fda67063_60bf2859",
+      "range": {
+        "startLine": 115,
+        "startChar": 5,
+        "endLine": 115,
+        "endChar": 14
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "066381f5_17eb811d",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
@@ -153,6 +177,30 @@
     },
     {
       "key": {
+        "uuid": "472b9d4d_0d6ded96",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-09-07T12:37:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "066381f5_17eb811d",
+      "range": {
+        "startLine": 117,
+        "startChar": 31,
+        "endLine": 117,
+        "endChar": 32
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffa77621_6f45c05e",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
@@ -173,6 +221,30 @@
       "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2394ea5d_6e2abeaa",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-09-07T12:37:27Z",
+      "side": 1,
+      "message": "Yeah, I have invested some time in trying to figure out how to configure an IntelliJ save action for md files. But failed.\n\nA sed bash alias to the rescue ...",
+      "parentUuid": "ffa77621_6f45c05e",
+      "range": {
+        "startLine": 127,
+        "startChar": 78,
+        "endLine": 127,
+        "endChar": 79
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {

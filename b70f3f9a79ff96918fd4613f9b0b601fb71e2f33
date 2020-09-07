@@ -213,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "b1d97b9b_0b8305bf",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-09-07T12:37:27Z",
+      "side": 1,
+      "message": "Changed the naming from Run to Check.",
+      "parentUuid": "ee6c0dad_77484e56",
+      "range": {
+        "startLine": 22,
+        "startChar": 37,
+        "endLine": 22,
+        "endChar": 41
+      },
+      "revId": "b70f3f9a79ff96918fd4613f9b0b601fb71e2f33",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "aeb2165c_c5faf5c8",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
