@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "74fcad66_11774bce",
+        "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1030912
+      },
+      "writtenOn": "2020-09-07T10:25:59Z",
+      "side": 1,
+      "message": "\u003e Alice, Patrick:\n\u003e Is there a preliminary date when Google should be able to migrate to Java 11?\n\nInternally, we have a preliminary date but it\u0027s been in flux in the last half year. Knowing the current progress, I think it\u0027s likely that we can drop Java 8 in Gerrit 3.4 but I can\u0027t give out any guarantees.",
+      "parentUuid": "b0dfac77_2030e69b",
+      "revId": "9093be76303a263b84e19d1c3150b5aa08d014f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "388cc330_bbc8c4b4",
         "filename": "_posts/2020-09-02-gerrit-3.3-release-plan.md",
         "patchSetId": 5
