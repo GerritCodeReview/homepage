@@ -70,6 +70,30 @@
       "revId": "a3f7bd3242364be6cc5d4acba8d93f72cddf4790",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "598589e5_4945f60c",
+        "filename": "_posts/2020-09-04-gerrit-3.3-release-plan.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-07T12:14:23Z",
+      "side": 1,
+      "message": "\u003e It doesn\u0027t look like the change was applied.\n\nApologies, forgot to push. Can you re-check?",
+      "parentUuid": "361fe34d_3ddc2f87",
+      "range": {
+        "startLine": 107,
+        "startChar": 3,
+        "endLine": 107,
+        "endChar": 7
+      },
+      "revId": "a3f7bd3242364be6cc5d4acba8d93f72cddf4790",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
