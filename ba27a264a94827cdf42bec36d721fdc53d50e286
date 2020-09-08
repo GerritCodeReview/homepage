@@ -178,6 +178,30 @@
     },
     {
       "key": {
+        "uuid": "f42db6c2_9102a021",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-09-08T07:49:25Z",
+      "side": 1,
+      "message": "When you analysis run completes with an error, then you have two options:\n\n1. Issue just an ERROR check.\n\n2. Issue two Check objects: A COMPLETED one and an ERROR one.\n\nI think I would prefer the second options, but I don\u0027t want to be too opinionated right now. Ultimately the data provider can make that choice.\n\nBut it is important to note that COMPLETED is a neutral status. It does not mean SUCCESS or PASSED. That would be something different.\n\nI do realize that with allowing option (2.) we may have to weaken the uniqueness requirement of the name (\"The name must be unique. There can’t be two checks with the same change/ps/attempt/name.\") And we may at some point even want to link COMPLETED runs to their results in some way. But I would prefer to iterate on that based on user feedback and seeing this in action for a while.",
+      "parentUuid": "f6091907_cbd4d7a5",
+      "range": {
+        "startLine": 115,
+        "startChar": 5,
+        "endLine": 115,
+        "endChar": 14
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "066381f5_17eb811d",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
