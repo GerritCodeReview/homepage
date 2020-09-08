@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "613e30ba_2ba27c55",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-09-08T14:40:18Z",
+      "side": 1,
+      "message": "Reviewed the background and proposed solution docs, also the images. Did not find any Google internal info.",
+      "revId": "76e05ef4badfff619646776912e7f2e72a6e42b0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a0e2f06a_895a0857",
+        "filename": "pages/design-docs/reworked-event-system/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-09-08T14:40:18Z",
+      "side": 1,
+      "message": "send",
+      "range": {
+        "startLine": 16,
+        "startChar": 17,
+        "endLine": 16,
+        "endChar": 21
+      },
+      "revId": "76e05ef4badfff619646776912e7f2e72a6e42b0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
