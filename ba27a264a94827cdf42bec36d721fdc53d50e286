@@ -154,6 +154,30 @@
     },
     {
       "key": {
+        "uuid": "f6091907_cbd4d7a5",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-08T07:25:37Z",
+      "side": 1,
+      "message": "\u003e A check can be COMPLETED and also yield an ERROR.\n\u003e \n\u003e COMPLETED is just the \"run\" related status and ERROR is a \"result\".\n\nYour comment is confusing me. A check can only have one category right? So a check cannot have COMPLETED and ERROR!?\nDid you mean to say that a check may complete successfully but the result is that f.i. the code is formatted incorrectly which would place it in the ERROR category.\nIIUC the \"category\" COMPLETED is something like \"No new is good news\", \"All is well, nothing to see here\"",
+      "parentUuid": "ae761a4b_cf1128dd",
+      "range": {
+        "startLine": 115,
+        "startChar": 5,
+        "endLine": 115,
+        "endChar": 14
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "066381f5_17eb811d",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
