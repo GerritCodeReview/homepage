@@ -202,6 +202,30 @@
     },
     {
       "key": {
+        "uuid": "2b1fcd7a_b4d2f558",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-08T08:16:14Z",
+      "side": 1,
+      "message": "Personally I don\u0027t see the benefit from having two check objects, one to track whether the job behind the check failed or not and one to track whether the check itself failed.\nTo me the, extra, COMPLETED check in this use-case adds complexity but very little (if any) value.\nIf the check or job fails someone will need to investigate it regardless of what went wrong. It would be better to differentiate between a failed job and a failed check by using tags.\nBut that\u0027s just my 5 cents.\n\nMy initial idea with a No-News status was that it was for checks that reported success (i.e. all is well, nothing to add) or checks that opted not to report anything. If you feel that the term COMPLETED is confusing and every completed job should have a COMPLETED check perhaps the solution is to rename it?\n\nNO_INFO?",
+      "parentUuid": "f42db6c2_9102a021",
+      "range": {
+        "startLine": 115,
+        "startChar": 5,
+        "endLine": 115,
+        "endChar": 14
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "066381f5_17eb811d",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
