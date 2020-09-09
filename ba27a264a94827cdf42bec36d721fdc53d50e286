@@ -226,6 +226,30 @@
     },
     {
       "key": {
+        "uuid": "b38fa941_dde8ac22",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-09T07:23:55Z",
+      "side": 1,
+      "message": "FWIW after having slept on it \u0027NO_INFO\u0027 is starting to grow on me. Especially given your definition of a category:\n\n\"treat the API and the categories as direct UI commands for how to visualize the runs\"\n\nJust to clarify, this isn\u0027t something I feel strongly about really, specially since you can practically do what you wish with your run-data-provider, like enforce uniqueness.\nMy main fear is that it complicates the implementation without much benefit.",
+      "parentUuid": "2b1fcd7a_b4d2f558",
+      "range": {
+        "startLine": 115,
+        "startChar": 5,
+        "endLine": 115,
+        "endChar": 14
+      },
+      "revId": "ba27a264a94827cdf42bec36d721fdc53d50e286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "066381f5_17eb811d",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 4
