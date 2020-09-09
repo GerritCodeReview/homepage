@@ -73,6 +73,30 @@
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7742318e_0e4a40b5",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-09-09T06:34:23Z",
+      "side": 1,
+      "message": "That really depends on how important the run is for the change to be reviewed and submitted. If it is a nice-to-have run that is not at all important, then what you suggest can be appropriate. But the user will most likely not look at the list of COMPLETED runs, so you would accept this INFRA_ERROR never being seen at all.\n\nIf you think that the INFRA_ERROR must be seen, then make it a WARNING. If it is blocking submission, then make it an ERROR.\n\nGenerally treat the API and the categories as direct UI commands for how to visualize the runs and results. The semantic meaning of the check and its status is not important, you just want to define how attention grabbing you want to be.",
+      "parentUuid": "00cf63a1_e3a6be45",
+      "range": {
+        "startLine": 115,
+        "startChar": 5,
+        "endLine": 115,
+        "endChar": 14
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
