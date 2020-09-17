@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "97aa80e0_0486d32d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-17T08:23:11Z",
+      "side": 1,
+      "message": "Thanks, Sven, for contributing to the upcoming v3.3 release notes :-)",
+      "revId": "7562df5968c4657ee9721ad3e7eae5e4e72eeadd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3e1df658_f14568bf",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-17T08:23:11Z",
+      "side": 1,
+      "message": "This is a breaking change \"somehow\", if existing Gerrit admins were crunching the logs in v3.2 or earlier version.\n\nShould this be moved to L21?",
+      "revId": "7562df5968c4657ee9721ad3e7eae5e4e72eeadd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7df160fc_9aace4bc",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-17T08:23:11Z",
+      "side": 1,
+      "message": "nit: empty line",
+      "revId": "7562df5968c4657ee9721ad3e7eae5e4e72eeadd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
