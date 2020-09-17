@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fe1df2e7_96d49207",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-17T09:51:34Z",
+      "side": 1,
+      "message": "That\u0027s odd!\nI pressed \"Verified\" and the \"Submit\" button appeared but it was disabled with the help text \"Needs Verified\". I reloaded the change but it was still disabled.\nFirst when I emptied the cache and did a hard reload the \"Submit\" button was enabled.\nMight have been some multi-masters-catching-up-with-each-other delay...",
+      "revId": "3f8f0ae4a8f75f0689fafb3de1f60bac838d1f86",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
