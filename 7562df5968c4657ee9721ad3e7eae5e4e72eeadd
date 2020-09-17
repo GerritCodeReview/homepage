@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "902aa154_852d63f6",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-17T09:26:45Z",
+      "side": 1,
+      "message": "You are correct!\n\nI took the liberty of changing the format of \"Breaking Changes\" a little. I\u0027ve always found the straight list format unnecessarily hard to read:\n\n    * [Issue 123]: text text text\n\nIMO it should be easily readable like:\n\n    * [The thing that broke]:\n\n      More detailed explanation and issue link.\n\nHere are some screen-shots:\n\n* The old way: https://imgur.com/a/vDNxU8E\n* This patchset: https://imgur.com/a/26EntON\n\nWDYT",
+      "parentUuid": "3e1df658_f14568bf",
+      "revId": "7562df5968c4657ee9721ad3e7eae5e4e72eeadd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7df160fc_9aace4bc",
         "filename": "pages/site/releases/3.3.md",
         "patchSetId": 1
@@ -50,6 +68,24 @@
       "revId": "7562df5968c4657ee9721ad3e7eae5e4e72eeadd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "77d03f51_8ad799b7",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2020-09-17T09:26:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7df160fc_9aace4bc",
+      "revId": "7562df5968c4657ee9721ad3e7eae5e4e72eeadd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
