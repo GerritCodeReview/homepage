@@ -162,6 +162,30 @@
     },
     {
       "key": {
+        "uuid": "1bff3b74_d2ffcd9e",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T08:44:55Z",
+      "side": 1,
+      "message": "stepping back further, I am not sure hierarchy change/patchset/attempt/check fits Chrome\u0027s use case.\nToday we have change/patchset/check/attempt (where check is a LUCI builder) so checks can run independently from each other, and each one may have multiple attempts.\n\nBelow I wrote about \"CQ attempts\", but those attempts are orthogonal to check attempts:\n  1. A developer sets Commit-Queue label to +2\n  2. CQ creates a CQ attempt\n  3. CQ attempt, for each required LUCI builder\n     3.1 Check if there is any green build for the builder\n     3.2 If not, schedules a new build\n  4. If, after builds finished, some required builder still doesn\u0027t \n     have all builds green, then the CQ attempt fails\n\nhere you can see the CQ attempts are independent of builder attempts.\n\nIf the hierarchy in this model was change/patchset/check/attempt, then we\u0027d map builder to a check, but wouldn\u0027t try to map CQ attempts to any of this.",
+      "parentUuid": "3fafe4f3_e46188ff",
+      "range": {
+        "startLine": 102,
+        "startChar": 2,
+        "endLine": 102,
+        "endChar": 9
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "09eea5d3_b26402b9",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 6
