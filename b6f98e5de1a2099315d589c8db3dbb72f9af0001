@@ -53,6 +53,161 @@
     },
     {
       "key": {
+        "uuid": "64528704_a980ce6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "These testing UX proposals might provide some context / domain model of Chrome:\n- go/chrome-test-ux-2021\n- go/cros-bugatti\n",
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ebf4263_7f72fdde",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "/\n\nsame below",
+      "range": {
+        "startLine": 14,
+        "startChar": 42,
+        "endLine": 14,
+        "endChar": 43
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6b339ef3_ff8dcdd3",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "/pages/design-docs/\n\nsame below",
+      "range": {
+        "startLine": 14,
+        "startChar": 20,
+        "endLine": 14,
+        "endChar": 21
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9891100f_71b53573",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 62,
+        "startChar": 20,
+        "endLine": 62,
+        "endChar": 27
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3fafe4f3_e46188ff",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "would it be OK if we used Unix timestamp as attempt number?\n\nThis model seems to assume there is one sequence of attempts per CL, and that it is easy to generate monotonically inceasing attempt numbers. Chrome OS runs checks on *sets* of interdependent CLs. It is possible for a given CL to belong to different sets at different times (e.g. initially a single-CL set, and then join another existing set, which already had attempts)",
+      "range": {
+        "startLine": 102,
+        "startChar": 2,
+        "endLine": 102,
+        "endChar": 9
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "09eea5d3_b26402b9",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "I am not sure I understand how RUNNABLE fits into the \"attempts\" model.\n\nSuppose initially there are no attempts (brand new CL). What attempt do I specify to display a runnable check? Note that \"attempt\" is not optional. Do I fake an attempt #0?\n\nSuppose there is an existing attempt, and there are a couple of RUNNABLEs. When I run the first one, does it create a new attempt? if not, then it is attempt of what? When I run the second runnable, does it create an even newer attempt?\n\nsee more questions about \"attempt\" aspect below.",
+      "range": {
+        "startLine": 113,
+        "startChar": 5,
+        "endLine": 113,
+        "endChar": 13
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d03ff83c_86a3b73c",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "how is this going to look like?\n\nBrowser has 431 runnable builders: https://screencast.googleplex.com/cast/NTA0ODQ5MzAwNzY5OTk2OHw5ZTgzMGFlMS00ZA\n(taken on https://chromium-review.googlesource.com/c/chromium/src/+/2417754)\n\nwe\u0027d need regexp filtering like in the screencast.",
+      "range": {
+        "startLine": 113,
+        "startChar": 49,
+        "endLine": 113,
+        "endChar": 81
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "00cf63a1_e3a6be45",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 6
@@ -121,6 +276,144 @@
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "55337adc_80d1c229",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "suppose a builder failed, and I retry it. Does it \"move\" to Runnable and previous results are no longer accessible to me?\n\nsuppose I know an exact builder I want to run. Do I have to hunt for it in each category?",
+      "range": {
+        "startLine": 134,
+        "startChar": 5,
+        "endLine": 134,
+        "endChar": 28
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "481f02fc_addd5d0d",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "i find the term \"attempt\" slightly ambiguous in this doc. Above it is used with hierarchy change/ps/attempt/check, but in this sentence it is .../check/attempt?\n\nFWIW both are relevant to Chrome:\n1) There are typically multiple \"CQ Attempts\". These are attempt to land CL. Developers says \"check my CL\" and CQ launches tests and reports results back.\n2) Within a CQ attempt, a given build or test can have multiple attempts. For example, if a test failed, we rerun it to see if it is flaky.",
+      "range": {
+        "startLine": 136,
+        "startChar": 14,
+        "endLine": 136,
+        "endChar": 40
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "21269480_4c071e4c",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "How does UI group attempts?",
+      "range": {
+        "startLine": 136,
+        "startChar": 66,
+        "endLine": 137,
+        "endChar": 20
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "495f2563_42d667cc",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "Is \"test case\" an appropriate level of granularity for a Check? \nGiven that names must be unique and first 30 chars should be enough for the developer to identify what failed, I think this means either\n1) test failures shouldn\u0027t be reported as Checks. Given that Chromium has ~400k tests, the names tend to be long\ne.g. \"ninja://chrome/android:chrome_public_test_apk/org.chromium.chrome.browser.autofill.AutofillUpstreamTest#testSaveCardInfoBarWithEmptyMonth\"\n\n2) OR we\u0027d need to intelligently put test name in the beginning, e.g.\n\n\"AutofillUpstreamTest#testSaveCardInfoBarWithEmptyMonth as in \nninja://chrome/android:chrome_public_test_apk/org.chromium.chrome.browser.autofill.AutofillUpstreamTest#testSaveCardInfoBarWithEmptyMonth\"",
+      "range": {
+        "startLine": 150,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 6
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "53739841_0de16e09",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "Markdown is great for human to author, but is hard for computers to generate correctly and generically. I tried and regretted it: crbug.com/1063398. Can we have HTML?",
+      "range": {
+        "startLine": 168,
+        "startChar": 54,
+        "endLine": 168,
+        "endChar": 70
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "054ec8db_e703cc79",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T07:52:41Z",
+      "side": 1,
+      "message": "why necessarily at most one? why not string[]?",
+      "range": {
+        "startLine": 174,
+        "startChar": 10,
+        "endLine": 174,
+        "endChar": 16
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
