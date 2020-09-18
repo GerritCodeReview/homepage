@@ -186,6 +186,30 @@
     },
     {
       "key": {
+        "uuid": "db8e2dcd_e39edadd",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T08:54:47Z",
+      "side": 1,
+      "message": "ah, I think `change/ps/attempt/name` below tripped me.\nAbove I see `The UI will focus on just the latest attempt per check`, so it sounds like the hierarchy is `change/ps/name/attempt` after all.",
+      "parentUuid": "1bff3b74_d2ffcd9e",
+      "range": {
+        "startLine": 102,
+        "startChar": 2,
+        "endLine": 102,
+        "endChar": 9
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "09eea5d3_b26402b9",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 6
@@ -225,6 +249,30 @@
         "startChar": 49,
         "endLine": 113,
         "endChar": 81
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2baa1c5a_fcce473e",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T08:54:47Z",
+      "side": 1,
+      "message": "after resolving the confusion with hierarchy, the second paragraph no longer applies.",
+      "parentUuid": "09eea5d3_b26402b9",
+      "range": {
+        "startLine": 113,
+        "startChar": 5,
+        "endLine": 113,
+        "endChar": 13
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
@@ -326,6 +374,29 @@
     },
     {
       "key": {
+        "uuid": "22118af6_788956e1",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T08:54:47Z",
+      "side": 1,
+      "message": "see above, this tripped me. I perceived this as hierarchy. Consider `change/ps/name/attempt`.",
+      "range": {
+        "startLine": 134,
+        "startChar": 70,
+        "endLine": 134,
+        "endChar": 92
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "481f02fc_addd5d0d",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 6
@@ -346,6 +417,30 @@
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2f9e6080_04a1f46e",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-09-18T08:54:47Z",
+      "side": 1,
+      "message": "resolving after realizing the confusion",
+      "parentUuid": "481f02fc_addd5d0d",
+      "range": {
+        "startLine": 136,
+        "startChar": 14,
+        "endLine": 136,
+        "endChar": 40
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {
