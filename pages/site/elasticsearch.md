@@ -17,7 +17,7 @@ The following table shows the compatibility of Gerrit Code Review with Elasticse
 | 6.4.x                 | 2.16       | 3.0.0  | 3.1.0 |       | Support discontinued in 2.16.18, 3.0.9 and 3.1.5 |
 | 6.5.x                 | 2.16.1     | 3.0.0  | 3.1.0 |       | Support discontinued in 2.16.19, 3.0.9 and 3.1.5 |
 | 6.6.x                 | 2.16.5     | 3.0.0  | 3.1.0 | 3.2.0 | Support discontinued in 3.0.13, 3.1.9 and 3.2.4  |
-| 6.7.x                 | 2.16.8     | 3.0.0  | 3.1.0 | 3.2.0 |                                                  |
+| 6.7.x                 | 2.16.8     | 3.0.0  | 3.1.0 | 3.2.0 | Support discontinued in 3.0.13, 3.1.9 and 3.2.4  |
 | 6.8.x                 | 2.16.11    | 3.0.2  | 3.1.0 | 3.2.0 |                                                  |
 | 7.0.x                 | 2.16.8     | 3.0.0  | 3.1.0 | 3.2.0 | See note below about upgrades                    |
 | 7.1.x                 | 2.16.9     | 3.0.1  | 3.1.0 | 3.2.0 |                                                  |
