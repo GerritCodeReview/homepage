@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be85c6c8_3a2a04a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-09-28T20:45:52Z",
+      "side": 1,
+      "message": "As per my new co-release manager role, alongside Luca and David, I\u0027m starting to prepare 3.0.13. I\u0027d like to release it sometime this week, once I\u0027m familiar enough with the process; dry-run WIP. Luca gave me the initial training last Friday (thanks again!). I already started on the necessary setup.\n\nWe were thinking of this week for 3.0.13 because next week will be about starting the 3.3 work [1]. Working on 3.0.13 for me is the dry-run I need to warm up for 3.3 next. Also, once 3.3 gets out, the plan is to make 3.0 EOL, as we know [2].\n\nSo this 3.0.13 is likely to be the last 3.0 minor release, unless of course more is needed for security or major stability purposes (as usual). Now, 2.16 is already on that track not only for security but also db migration issues.\n\nLet\u0027s use this change (review) as our thread towards finishing preparing the 3.0.13 content, then. Please chime in or add some more reviewers if need be. I\u0027m starting to try the release machine out now and tomorrow, but will get back to you here before pushing anything definitive. I\u0027ll be sharing heads-up and updates, herein. Thanks for your support.\n\n[1] https://www.gerritcodereview.com/2020-09-07-gerrit-3.3-release-plan.html#high-level-release-plan\n[2] https://www.gerritcodereview.com/2020-09-07-gerrit-3.3-release-plan.html#end-of-life-for-gerrit-30x\n",
+      "revId": "01803a21af32c51fe52faa3a803719e296a7355f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
