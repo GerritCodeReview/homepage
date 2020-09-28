@@ -12,6 +12,9 @@ Community members willing to learn about Gerrit may find useful resources on thi
 The listed presentations can be tutorials, slides, videos, channels or other relevant formats.
 There are [tutorials also in the Gerrit documentation](https://gerrit-review.googlesource.com/Documentation/index.html#_tutorials).
 
+[GerritForge](https://www.gerritforge.com) also publishes the recordings of the talks of the
+Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritforgetv).
+
 ### How to add presentations
 
 Upload a change to the [homepage](https://gerrit-review.googlesource.com/admin/repos/homepage)
