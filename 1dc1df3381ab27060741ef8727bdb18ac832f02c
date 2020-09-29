@@ -167,6 +167,30 @@
     },
     {
       "key": {
+        "uuid": "84652073_d750793f",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-29T12:07:36Z",
+      "side": 1,
+      "message": "SGTM and already what the doc has.",
+      "parentUuid": "6e8f3f3e_ae5e2d65",
+      "range": {
+        "startLine": 78,
+        "startChar": 9,
+        "endLine": 78,
+        "endChar": 18
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b97a3d35_fea370a4",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 2
@@ -313,6 +337,24 @@
     },
     {
       "key": {
+        "uuid": "77c9e28a_2729deef",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-29T12:07:36Z",
+      "side": 1,
+      "message": "Oh I see. We won\u0027t break this use case. I haven\u0027t thought deeply about if it\u0027s best to collect extra information from SubmitPredicates (a simple string) or have a dedicated interface for allowing plugins to provide this kind of information.\n\nEdwin is working on a new owners plugin, so I am sure he has thoughts on this. For now I hope it\u0027s OK to just state that we are committed to supporting this use case even with the new design.",
+      "parentUuid": "569214bb_08b38b8f",
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce235476_52b3898a",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 2
@@ -384,6 +426,30 @@
     },
     {
       "key": {
+        "uuid": "acc0bd64_b6ab578b",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-29T12:07:36Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6ee6eafb_275d3ebb",
+      "range": {
+        "startLine": 198,
+        "startChar": 36,
+        "endLine": 199,
+        "endChar": 20
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2ffc9608_9568906a",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 2
@@ -431,6 +497,30 @@
     },
     {
       "key": {
+        "uuid": "dd4ba72f_13751a8e",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-29T12:07:36Z",
+      "side": 1,
+      "message": "resolved",
+      "parentUuid": "77f00ea2_c53f6ff5",
+      "range": {
+        "startLine": 211,
+        "startChar": 47,
+        "endLine": 213,
+        "endChar": 20
+      },
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a68934c9_d151f76e",
         "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
         "patchSetId": 2
@@ -463,6 +553,24 @@
       "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0f94e404_c5aa3af1",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-29T12:07:36Z",
+      "side": 1,
+      "message": "resolved",
+      "parentUuid": "85d7dc1b_96995855",
+      "revId": "1dc1df3381ab27060741ef8727bdb18ac832f02c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     },
     {
       "key": {

@@ -16,6 +16,29 @@
       "revId": "582993e73c204725ab2aa70035b69ba65d1d53dc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ad182d9_92ad90a1",
+        "filename": "pages/design-docs/ci-reboot/solution-composable-submit-requirements.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-09-29T12:07:36Z",
+      "side": 1,
+      "message": "label:Code-Review+2 AND NOT label:Code-Review-2",
+      "range": {
+        "startLine": 117,
+        "startChar": 24,
+        "endLine": 117,
+        "endChar": 65
+      },
+      "revId": "582993e73c204725ab2aa70035b69ba65d1d53dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
