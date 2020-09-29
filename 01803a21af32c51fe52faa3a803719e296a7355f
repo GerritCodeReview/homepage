@@ -50,6 +50,69 @@
       "revId": "01803a21af32c51fe52faa3a803719e296a7355f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "73851226_e50a7d86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-29T21:27:56Z",
+      "side": 1,
+      "message": "TODO: We should also then add as a follow-up the list of changes introduced by the merge of the latest stable-2.16. It can be addressed later on, before the release.",
+      "revId": "01803a21af32c51fe52faa3a803719e296a7355f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffa97c0d_e3ab8120",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-29T21:27:56Z",
+      "side": 1,
+      "message": "It would be best to keep this links updates into its own change, so that it can be submitted just before the announcement.\n\nThe content of the release notes (in development) can be in the meantime reviewed and merged separately.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 76
+      },
+      "revId": "01803a21af32c51fe52faa3a803719e296a7355f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "193e4611_b0fa4a80",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-09-29T21:27:56Z",
+      "side": 1,
+      "message": "Same as above.",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 0
+      },
+      "revId": "01803a21af32c51fe52faa3a803719e296a7355f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
