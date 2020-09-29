@@ -33,6 +33,23 @@
       "revId": "01803a21af32c51fe52faa3a803719e296a7355f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a4c165d_5e955710",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-09-29T21:17:09Z",
+      "side": 1,
+      "message": "Thanks for the CRs so far. Today I pushed a series currently headed with I95e2fc28. The latter is not ready yet, given replication tests flakiness or failures blocking the release prep, coming from downstream stable-2.16 according to Luca; WIP. Meanwhile I continue dry-running the release process from my own end; nothing definitive yet.",
+      "revId": "01803a21af32c51fe52faa3a803719e296a7355f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
