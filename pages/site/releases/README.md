@@ -20,6 +20,10 @@ Latest release: **[3.2.0](/3.2.html)**. The support status of all recent Gerrit 
 
 ## 3.3.0 (in development)
 
+* New logs timestamp format
+
+* Attention Set
+
 [Release notes for Gerrit 3.3.0](/3.3.html)
 
 ## 3.2.0
