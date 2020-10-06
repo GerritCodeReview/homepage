@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9e4177d_f7577aa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-06T19:57:36Z",
+      "side": 1,
+      "message": "This would be the change for us to add our initial 3.3.0-rc0 notes in. I expect this change to not live for too long, as I\u0027m about to do that release between now and tomorrow [1]. Nevertheless, similar changes would follow, based on [1]\u0027s schedule or so, for rcN (N \u003e 0). You may add other reviewers if need be. Thanks.\n\n[1] https://www.gerritcodereview.com/2020-09-07-gerrit-3.3-release-plan.html#high-level-release-plan",
+      "revId": "34c342ba9823eb0e5de8db05e3ecf2e9156719ad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
