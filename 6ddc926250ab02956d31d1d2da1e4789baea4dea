@@ -16,6 +16,46 @@
       "message": "(Renders fine locally.)",
       "revId": "6ddc926250ab02956d31d1d2da1e4789baea4dea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7319efc3_f24d601f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-07T16:14:46Z",
+      "side": 1,
+      "message": "Just a super-mini nit :-)",
+      "revId": "6ddc926250ab02956d31d1d2da1e4789baea4dea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "365b7959_55b92ade",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-07T16:14:46Z",
+      "side": 1,
+      "message": "This is redundant, as everything is in NoteDb nowadays ;-)",
+      "range": {
+        "startLine": 28,
+        "startChar": 24,
+        "endLine": 28,
+        "endChar": 34
+      },
+      "revId": "6ddc926250ab02956d31d1d2da1e4789baea4dea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
