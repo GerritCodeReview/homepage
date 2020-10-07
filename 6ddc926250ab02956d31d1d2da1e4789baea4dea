@@ -56,6 +56,30 @@
       },
       "revId": "6ddc926250ab02956d31d1d2da1e4789baea4dea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5da0fd75_31404251",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-07T17:19:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "365b7959_55b92ade",
+      "range": {
+        "startLine": 28,
+        "startChar": 24,
+        "endLine": 28,
+        "endChar": 34
+      },
+      "revId": "6ddc926250ab02956d31d1d2da1e4789baea4dea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
