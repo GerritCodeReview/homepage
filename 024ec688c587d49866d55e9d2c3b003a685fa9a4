@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "77f295da_667ed881",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-09T16:12:43Z",
+      "side": 1,
+      "message": "Thanks for the early review @Luca. I\u0027ll look into your comments soon. I\u0027m planning to revisit this WIP series anyway. Meanwhile, feel free to push patches and/or more related changes, at will; no pressure.",
+      "revId": "024ec688c587d49866d55e9d2c3b003a685fa9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0a8c5106_83d1da07",
