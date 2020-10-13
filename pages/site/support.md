@@ -6,6 +6,11 @@ hide_navtoggle: true
 toc: false
 ---
 
+## Quick Links
+
+* [Mailing list][repo-discuss]
+* [Issue tracker][issue-tracking]
+
 ## Supported Versions
 
 The Gerrit open-source community actively supports the last 2 releases
