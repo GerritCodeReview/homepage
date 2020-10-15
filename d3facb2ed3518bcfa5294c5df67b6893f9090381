@@ -22,6 +22,30 @@
       },
       "revId": "d3facb2ed3518bcfa5294c5df67b6893f9090381",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d45428dc_101503d0",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-15T20:37:41Z",
+      "side": 1,
+      "message": "Done. Not sure about the \u0027primary\u0027 term either, but still better than \u0027master\u0027; thanks.",
+      "parentUuid": "a2bb382c_106f440d",
+      "range": {
+        "startLine": 161,
+        "startChar": 2,
+        "endLine": 161,
+        "endChar": 14
+      },
+      "revId": "d3facb2ed3518bcfa5294c5df67b6893f9090381",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
