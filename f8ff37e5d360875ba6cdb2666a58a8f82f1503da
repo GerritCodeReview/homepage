@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c41ab65_d445461d",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-15T20:12:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02ea2d41_0d764075",
+      "range": {
+        "startLine": 169,
+        "startChar": 0,
+        "endLine": 170,
+        "endChar": 31
+      },
+      "revId": "f8ff37e5d360875ba6cdb2666a58a8f82f1503da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2efa4c50_0c8744b6",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1467b197_ae5b1cdc",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-15T20:12:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2efa4c50_0c8744b6",
+      "range": {
+        "startLine": 174,
+        "startChar": 0,
+        "endLine": 178,
+        "endChar": 33
+      },
+      "revId": "f8ff37e5d360875ba6cdb2666a58a8f82f1503da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ff8d39a_324a06d7",
@@ -60,6 +108,24 @@
       "writtenOn": "2020-10-12T20:55:25Z",
       "side": 1,
       "message": "I can only find some of these change between v3.2.3 and stable-3.3:\n\nreplication ((v3.3.0-rc0))]$ git lo v3.2.0..HEAD --no-merges\n* bc47d23 - (HEAD, tag: v3.3.0-rc0) Adjust to changes in Gerrit core (6 days ago)\u003cPatrick Hiesel\u003e\n* 293ee35 - Use a stream based approach to walk directories (7 days ago)\u003cMartin Fick\u003e\n* 6d0b12c - Make the shouldReplicateNewProject test more reliable (2 weeks ago)\u003cMartin Fick\u003e\n| * 4eb0b9c - Remove disableDeleteForTesting flag (11 days ago)\u003cNasser Grainawi\u003e\n| * b947f25 - ReplicationFanoutIT: Fix invalid replicationDelay setting (11 days ago)\u003cNasser Grainawi\u003e\n| * 2c0929c - (fixFormat) ReplicationTaskStorage: fix format by adding conversion (8 days ago)\u003cMatthias Sohn\u003e\n| * 98606ed - Use an Optional\u003cReplicateRefUpdate\u003e in list() (3 weeks ago)\u003cMartin Fick\u003e\n* fef0ec1 - Fix synopsis in replication start cmd documentation (7 weeks ago)\u003cKaushik Lingarkar\u003e\n* 3c76478 - Don\u0027t wait for pending events to process on startup (9 weeks ago)\u003cSaša Živkov\u003e\n| * 1b171d4 - ReplicationTasksStorage: Remove synchronized from list* methods (6 weeks ago)\u003cNasser Grainawi\u003e\n| * 3915cf6 - TasksStorage: Add unit tests for reset() and resetAll() (6 weeks ago)\u003cKaushik Lingarkar\u003e\n| * e52cdea - TasksStorage: Add canStartDifferentUris unit test (6 weeks ago)\u003cKaushik Lingarkar\u003e\n| | * 6c72d4e - ReplicationIT: Use streams to simplify (6 weeks ago)\u003cNasser Grainawi\u003e\n| | * a7a6a2d - ReplicationIT: Use PushOne.ALL_REFS constant (6 weeks ago)\u003cNasser Grainawi\u003e\n| | * f69a542 - ReplicationTasksStorageTest: Add a test for start() (6 weeks ago)\u003cNasser Grainawi\u003e\n| |/\n| * 956fbbc - ReplicationTasksStorage: Remove test-only list* methods (6 weeks ago)\u003cNasser Grainawi\u003e\n| * f3ba97e - TaskStorage: Fix assertContainsExactly (8 weeks ago)\u003cKaushik Lingarkar\u003e\n| * ded076b - TaskStorage: Rename unit tests with \u0027persist\u0027 in their names (8 weeks ago)\u003cKaushik Lingarkar\u003e\n| * 6dcaefe - ReplicateRefUpdate: Drop awkward constructor (9 weeks ago)\u003cNasser Grainawi\u003e\n| * 1fc1b6a - TasksStorage: Replace delete() with start()+finish() in tests (9 weeks ago)\u003cNasser Grainawi\u003e\n| * d3cb4ca - ReplicationTasksStorage.Task: Add unit tests (2 months ago)\u003cNasser Grainawi\u003e\n* 05042b1 - ReplicationTasksStorage: Add unit tests (3 months ago)\u003cNasser Grainawi\u003e\n| * 9a07d19 - Adjust to changes in Gerrit core (3 months ago)\u003cPatrick Hiesel\u003e\n| * 9d4d19a - Adjust to changes in Gerrit core (3 months ago)\u003cPatrick Hiesel\u003e\n* 9f679b0 - (tag: v2.16.22) Fix naming for delay for draining the replication event queue (3 months ago)\u003cNasser Grainawi\u003e\n* 58778e1 - Improve readability of shouldFirePendingOnlyToStoredUri test (3 months ago)\u003cLuca Milanesio\u003e\n* f0fb23c - Fix flakiness in ReplicationIT for pending events firing (3 months ago)\u003cLuca Milanesio\u003e\n* 739be77 - Only fire the specified pending event URI (4 months ago)\u003cMartin Fick\u003e\n| * 09ea614 - Revert \"Get a URI lock before running tasks.\" (4 months ago)\u003cMartin Fick\u003e\n| * 2eced65 - ReplicationIT: Enable task deletion when testing delete branch (4 months ago)\u003cDavid Pursehouse\u003e\n| * 727d62d - ReplicationIT: Test that branch deletion is replicated (4 months ago)\u003cDavid Pursehouse\u003e\n* 815d1f5 - (tag: v2.16.21) Make SecureCredentialsFactory public (5 months ago)\u003cAntonio Barone\u003e\n* 5019d29 - ReplicationConfig: Add missing JavaDoc (4 months ago)\u003cDavid Pursehouse\u003e\n* 6686698 - Add method to push changes directly to given replica (4 months ago)\u003cDariusz Luksza\u003e\n* 0252040 - Fix issue with URI lock release after replication task cancellation (4 months ago)\u003cMarcin Czech\u003e",
+      "revId": "f8ff37e5d360875ba6cdb2666a58a8f82f1503da",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c8a347f_09ddc619",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-15T20:12:17Z",
+      "side": 1,
+      "message": "Updated the list based on release_noter\u0027s latest output, which comes from the downstream base change. That base change is still WIP currently, to potentially trim further.",
+      "parentUuid": "0ff8d39a_324a06d7",
       "revId": "f8ff37e5d360875ba6cdb2666a58a8f82f1503da",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
