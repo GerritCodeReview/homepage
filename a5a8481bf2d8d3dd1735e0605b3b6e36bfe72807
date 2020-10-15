@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e1879445_b07e55c8",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T22:00:52Z",
+      "side": 1,
+      "message": "Inconsistent format: we do first the issue and then the description.",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 76
+      },
+      "revId": "a5a8481bf2d8d3dd1735e0605b3b6e36bfe72807",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "634eb557_e3bf72d3",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T22:00:52Z",
+      "side": 1,
+      "message": "Not relevant for the release notes.",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 18
+      },
+      "revId": "a5a8481bf2d8d3dd1735e0605b3b6e36bfe72807",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ca87cee_01117272",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T22:00:52Z",
+      "side": 1,
+      "message": "Implementation details, shouldn\u0027t be here.",
+      "range": {
+        "startLine": 115,
+        "startChar": 0,
+        "endLine": 115,
+        "endChar": 33
+      },
+      "revId": "a5a8481bf2d8d3dd1735e0605b3b6e36bfe72807",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9575e8a_6288eec7",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T22:00:52Z",
+      "side": 1,
+      "message": "What is the relevance to the Gerrit admin? Can you describe it in a \"user-centric\" way?",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 119,
+        "endChar": 49
+      },
+      "revId": "a5a8481bf2d8d3dd1735e0605b3b6e36bfe72807",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a771e9f0_0dec4e54",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T22:00:52Z",
+      "side": 1,
+      "message": "Internal implementation details: it shouldn\u0027t be part of the release notes.",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 49
+      },
+      "revId": "a5a8481bf2d8d3dd1735e0605b3b6e36bfe72807",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4fc7ac71_29736825",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T22:00:52Z",
+      "side": 1,
+      "message": "Inconsistent format: we do first the issue and then the description.",
+      "range": {
+        "startLine": 131,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 76
+      },
+      "revId": "a5a8481bf2d8d3dd1735e0605b3b6e36bfe72807",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d25ef26_325d9f60",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T22:00:52Z",
+      "side": 1,
+      "message": "Inconsistent format (see above)",
+      "range": {
+        "startLine": 137,
+        "startChar": 0,
+        "endLine": 138,
+        "endChar": 76
+      },
+      "revId": "a5a8481bf2d8d3dd1735e0605b3b6e36bfe72807",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
