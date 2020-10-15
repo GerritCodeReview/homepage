@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79ee8f6d_afb83216",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T21:52:43Z",
+      "side": 1,
+      "message": "I believe this is taken from commits and inserted in the release notes.\nWhilst this is good in general, it lacks the \"post-processing\" of filtering out all the internal code changes that have no relevance for the end-user.\n\nAre you sure to continue on the overall approach?\n\nI would rather stick to:\n- Extracting the list of issues\n- Giving context and form of the new feature\n- Check the differences between v3.2.3 and v3.3 on the Documentation and API changes.",
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c74e3b52_8d5861ae",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T21:52:43Z",
+      "side": 1,
+      "message": "Why removing the capitalisation? (here and the others below)",
+      "range": {
+        "startLine": 13,
+        "startChar": 3,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94b148ec_3098e29e",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T21:52:43Z",
+      "side": 1,
+      "message": "Gerrit v3.2 was Polymer 3 already, or am I missing something? @Ben?",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 44
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f409fe3_0220764e",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T21:52:43Z",
+      "side": 1,
+      "message": "We typically put the issue link first and then have the description. Here and all the other below.",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 76
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bbe11bfa_ef16ffd1",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T21:52:43Z",
+      "side": 1,
+      "message": "This isn\u0027t a feature or anything relevant for the Gerrit admin or user.",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 42
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8477246_ce916940",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T21:52:43Z",
+      "side": 1,
+      "message": "Those are not features or anything relevant for the Gerrit admin or user.",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 33
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c616e15a_d867db1d",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T21:52:43Z",
+      "side": 1,
+      "message": "This was already present in Gerrit v3.2, it isn\u0027t a new feature.",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 35
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16696b10_24413a41",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-15T21:52:43Z",
+      "side": 1,
+      "message": "What is the end-user implication of that?",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 49
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
