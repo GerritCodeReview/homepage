@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "750e9f1c_01c3322c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-15T22:22:55Z",
+      "side": 1,
+      "message": "\u003e I believe this is taken from commits and inserted in the release notes.\n\u003e Whilst this is good in general, it lacks the \"post-processing\" of filtering out all the internal code changes that have no relevance for the end-user.\n\u003e \n\u003e Are you sure to continue on the overall approach?\n\u003e \n\u003e I would rather stick to:\n\u003e - Extracting the list of issues\n\u003e - Giving context and form of the new feature\n\u003e - Check the differences between v3.2.3 and v3.3 on the Documentation and API changes.\n\nThis change is still a WIP, for the manual (post release_noter script) review parts, which do need human amends, yes. This is as expected while using that script indeed.\n\nThe script remains handy I think so we don\u0027t drop noteworthy changes. You may have a look at it. I added you as co-reviewer for release_noter\u0027s latest changes, there. Thanks.",
+      "parentUuid": "79ee8f6d_afb83216",
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c74e3b52_8d5861ae",
