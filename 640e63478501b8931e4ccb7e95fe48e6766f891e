@@ -59,6 +59,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "095bcccf_3fa3fa5a",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-16T19:37:21Z",
+      "side": 1,
+      "message": "This comes from [1], which includes the last sentence [2]:\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/284556/4//COMMIT_MSG\n[2] Soften the generated section titles by using lowercase more in them.",
+      "parentUuid": "c74e3b52_8d5861ae",
+      "range": {
+        "startLine": 13,
+        "startChar": 3,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "94b148ec_3098e29e",
@@ -72,6 +96,30 @@
       "writtenOn": "2020-10-15T21:52:43Z",
       "side": 1,
       "message": "Gerrit v3.2 was Polymer 3 already, or am I missing something? @Ben?",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 44
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a840fae_b1831cd2",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-16T19:37:21Z",
+      "side": 1,
+      "message": "This is due to script\u0027s open Issue 13517. However this wrong part and other ones were removed through [3] already.\n\n[3] https://gerrit-review.googlesource.com/c/homepage/+/284096/7/pages/site/releases/3.3.md",
+      "parentUuid": "94b148ec_3098e29e",
       "range": {
         "startLine": 63,
         "startChar": 0,
@@ -107,6 +155,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4272bee7_46bb4f1e",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-16T19:37:21Z",
+      "side": 1,
+      "message": "Yes. This is being fixed through [4], which I still have to apply here; WIP.\n\n[4] https://gerrit-review.googlesource.com/c/gerrit/+/284636/2/tools/release_noter/release_noter.py",
+      "parentUuid": "4f409fe3_0220764e",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 76
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bbe11bfa_ef16ffd1",
         "filename": "pages/site/releases/3.3.md",
         "patchSetId": 4
@@ -118,6 +190,30 @@
       "writtenOn": "2020-10-15T21:52:43Z",
       "side": 1,
       "message": "This isn\u0027t a feature or anything relevant for the Gerrit admin or user.",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 42
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4df5838d_df234877",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-16T19:37:21Z",
+      "side": 1,
+      "message": "True. Removed through [5], will apply here soon.\n\n[5] https://gerrit-review.googlesource.com/c/gerrit/+/284977/2/tools/release_noter/release_noter.py",
+      "parentUuid": "bbe11bfa_ef16ffd1",
       "range": {
         "startLine": 88,
         "startChar": 0,
@@ -151,6 +247,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "619589f9_c040da80",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-16T19:37:21Z",
+      "side": 1,
+      "message": "This is due to script\u0027s open Issue 13517. However this wrong part and other ones were removed through [3] already.\n\n[3] https://gerrit-review.googlesource.com/c/homepage/+/284096/7/pages/site/releases/3.3.md",
+      "parentUuid": "f8477246_ce916940",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 33
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c616e15a_d867db1d",
@@ -174,6 +294,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d48e34c_e4021c9d",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-16T19:37:21Z",
+      "side": 1,
+      "message": "Same as above.",
+      "parentUuid": "c616e15a_d867db1d",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 35
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "16696b10_24413a41",
@@ -187,6 +331,30 @@
       "writtenOn": "2020-10-15T21:52:43Z",
       "side": 1,
       "message": "What is the end-user implication of that?",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 49
+      },
+      "revId": "640e63478501b8931e4ccb7e95fe48e6766f891e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11366c8e_70f40815",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-16T19:37:21Z",
+      "side": 1,
+      "message": "None. Removed already, through [3].\n\n[3] https://gerrit-review.googlesource.com/c/homepage/+/284096/7/pages/site/releases/3.3.md",
+      "parentUuid": "16696b10_24413a41",
       "range": {
         "startLine": 100,
         "startChar": 0,
