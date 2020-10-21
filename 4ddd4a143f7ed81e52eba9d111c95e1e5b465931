@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e12c6841_21e39c2a",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-10-21T21:25:27Z",
+      "side": 1,
+      "message": "Worth adding a ### Deprecated section for the plugin API deprecated in 280758: Allow plugins to provide bulk PluginDefinedInfos in query results | https://gerrit-review.googlesource.com/c/gerrit/+/280758 ? If not in its own section, that API change should go in here somewhere.",
+      "revId": "4ddd4a143f7ed81e52eba9d111c95e1e5b465931",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
