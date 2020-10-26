@@ -45,6 +45,30 @@
       },
       "revId": "6a751c43e58666c812f640ba3772601beb2acfe8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8672e4dd_86bdfc48",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2020-10-26T22:11:56Z",
+      "side": 1,
+      "message": "Hehe, I had it that way, but then I figured the period after the ) would be confusing. If you\u0027re going to upload another PS for other improvements go ahead and change it, or I can if you\u0027d like.",
+      "parentUuid": "f5c42218_d6baa335",
+      "range": {
+        "startLine": 50,
+        "startChar": 160,
+        "endLine": 50,
+        "endChar": 161
+      },
+      "revId": "6a751c43e58666c812f640ba3772601beb2acfe8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
