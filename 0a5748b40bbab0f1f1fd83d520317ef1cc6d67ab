@@ -34,6 +34,24 @@
       "parentUuid": "d5241eb3_532367e5",
       "revId": "0a5748b40bbab0f1f1fd83d520317ef1cc6d67ab",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9b21bad_91594dbe",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-26T22:24:50Z",
+      "side": 1,
+      "message": "This can be amended once changed in stable-3.3 soon (cf. Luca). Meanwhile, we can merge this currently fitting change if @Luca agrees; CR?",
+      "parentUuid": "6ace24f8_6a04724e",
+      "revId": "0a5748b40bbab0f1f1fd83d520317ef1cc6d67ab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
