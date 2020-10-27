@@ -22,6 +22,30 @@
       },
       "revId": "9a6cc497c7018c091cca553e9edac04ed058c8aa",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e57577c6_fa7a57da",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-10-27T15:17:25Z",
+      "side": 1,
+      "message": "Done \u003d\u003e change now abandoned. Attention set notes may soon be amended for other purposes anyway.",
+      "parentUuid": "a359afc3_af784ba9",
+      "range": {
+        "startLine": 50,
+        "startChar": 2,
+        "endLine": 50,
+        "endChar": 32
+      },
+      "revId": "9a6cc497c7018c091cca553e9edac04ed058c8aa",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
