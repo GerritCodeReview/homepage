@@ -1,6 +1,7 @@
 {
   "comments": [
     {
+      "unresolved": false,
       "key": {
         "uuid": "1d61326a_5718c447",
         "filename": "/PATCHSET_LEVEL",
@@ -14,10 +15,10 @@
       "side": 1,
       "message": "Renders locally.",
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "1e6d586e_2b030868",
         "filename": "/PATCHSET_LEVEL",
@@ -31,10 +32,10 @@
       "side": 1,
       "message": "Thank you for a great design Ben!",
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "fdaaaae6_685d44ed",
         "filename": "/PATCHSET_LEVEL",
@@ -48,10 +49,10 @@
       "side": 1,
       "message": "Forking the current discussion so starting ",
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "64528704_a980ce6a",
         "filename": "/PATCHSET_LEVEL",
@@ -65,10 +66,27 @@
       "side": 1,
       "message": "These testing UX proposals might provide some context / domain model of Chrome:\n- go/chrome-test-ux-2021\n- go/cros-bugatti\n",
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee114c0e_6cccbcbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "Sorry for the late reply.\n\nAddressed comments with a new change: https://gerrit-review.googlesource.com/c/homepage/+/286239",
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "2ebf4263_7f72fdde",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -88,10 +106,10 @@
         "endChar": 43
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "6b339ef3_ff8dcdd3",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -111,10 +129,58 @@
         "endChar": 21
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a10abd8_74936ec2",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "The links at https://www.gerritcodereview.com/design-docs/ci-reboot-solution-ci-results-tab.html seem to work fine. We are using some kind of generator and apparently that is how it has to look like.",
+      "parentUuid": "2ebf4263_7f72fdde",
+      "range": {
+        "startLine": 14,
+        "startChar": 42,
+        "endLine": 14,
+        "endChar": 43
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f7eaa25_ef1b5d54",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "see above",
+      "parentUuid": "6b339ef3_ff8dcdd3",
+      "range": {
+        "startLine": 14,
+        "startChar": 20,
+        "endLine": 14,
+        "endChar": 21
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "9891100f_71b53573",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -134,10 +200,34 @@
         "endChar": 27
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b55a8961_145c5a78",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9891100f_71b53573",
+      "range": {
+        "startLine": 62,
+        "startChar": 20,
+        "endLine": 62,
+        "endChar": 27
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "3fafe4f3_e46188ff",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -157,10 +247,10 @@
         "endChar": 9
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "1bff3b74_d2ffcd9e",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -181,10 +271,10 @@
         "endChar": 9
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "db8e2dcd_e39edadd",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -205,10 +295,10 @@
         "endChar": 9
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "09eea5d3_b26402b9",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -228,10 +318,10 @@
         "endChar": 13
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "d03ff83c_86a3b73c",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -251,10 +341,10 @@
         "endChar": 81
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "2baa1c5a_fcce473e",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -275,10 +365,58 @@
         "endChar": 13
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a92f7c65_a54903a9",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "Thanks for bringing this to our attention. We will consider this case when designing the mocks. One option is a filter widget. Another option is that you (the plugin author) can bring up custom dialogs associated with custom buttons.",
+      "parentUuid": "d03ff83c_86a3b73c",
+      "range": {
+        "startLine": 113,
+        "startChar": 49,
+        "endLine": 113,
+        "endChar": 81
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88fe2987_bbbf4423",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "Clarified in https://gerrit-review.googlesource.com/c/homepage/+/286239.",
+      "parentUuid": "2baa1c5a_fcce473e",
+      "range": {
+        "startLine": 113,
+        "startChar": 5,
+        "endLine": 113,
+        "endChar": 13
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "00cf63a1_e3a6be45",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -298,10 +436,10 @@
         "endChar": 14
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "7742318e_0e4a40b5",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -322,10 +460,10 @@
         "endChar": 14
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "e9ae7609_bbb2496a",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -346,10 +484,10 @@
         "endChar": 14
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "55337adc_80d1c229",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -369,10 +507,10 @@
         "endChar": 28
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "22118af6_788956e1",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -392,10 +530,58 @@
         "endChar": 92
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "54699c83_dba1b6ca",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "Previous results will be *accessible*, but only by drilling into earlier attempts. By default only the latest attempt is shown, so clicking \"(re-)run\" will normally make the associated results disappear.\n\nFor hunting we will provide filtering options if necessary.",
+      "parentUuid": "55337adc_80d1c229",
+      "range": {
+        "startLine": 134,
+        "startChar": 5,
+        "endLine": 134,
+        "endChar": 28
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e2a9008_0e4689b9",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "22118af6_788956e1",
+      "range": {
+        "startLine": 134,
+        "startChar": 70,
+        "endLine": 134,
+        "endChar": 92
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "481f02fc_addd5d0d",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -415,10 +601,10 @@
         "endChar": 40
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "2f9e6080_04a1f46e",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -439,10 +625,10 @@
         "endChar": 40
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "21269480_4c071e4c",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -462,10 +648,34 @@
         "endChar": 20
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0255d538_27e8bab4",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "We will work on that and discuss that with you while iterating on the wireframes and mocks. We have not finalized that yet.",
+      "parentUuid": "21269480_4c071e4c",
+      "range": {
+        "startLine": 136,
+        "startChar": 66,
+        "endLine": 137,
+        "endChar": 20
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "495f2563_42d667cc",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -485,10 +695,34 @@
         "endChar": 6
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d3398a6_e48b0b5b",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "I have clarified this a bit in https://gerrit-review.googlesource.com/c/homepage/+/286239.\n\nFor results this would probably go into the result category (80 chars). I think mostly test case is too fine grained. I would rather go for test suite or build target or some such. I think CI providers will have to play around with that a bit and ultimately it is their own choice what they think is best for their users. I think it is definitely useful that one run can have multiple results and anything beyond 100 results is probably not helpful for the user. But again, this API will not impose anything on the CI provider. You can be as fine or coarse grained as you want. :-)",
+      "parentUuid": "495f2563_42d667cc",
+      "range": {
+        "startLine": 150,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 6
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "53739841_0de16e09",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -508,10 +742,34 @@
         "endChar": 70
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "82d1a245_31e27bfd",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "53739841_0de16e09",
+      "range": {
+        "startLine": 168,
+        "startChar": 54,
+        "endLine": 168,
+        "endChar": 70
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "054ec8db_e703cc79",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
@@ -531,8 +789,31 @@
         "endChar": 16
       },
       "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18b15325_24f9ca14",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-10-29T17:23:25Z",
+      "side": 1,
+      "message": "We are trying to start as simple as possible and only become more generic if needed.\n\nCan you provide an example of a CI result that influence multiple Gerrit labels?",
+      "parentUuid": "054ec8db_e703cc79",
+      "range": {
+        "startLine": 174,
+        "startChar": 10,
+        "endLine": 174,
+        "endChar": 16
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
