@@ -48,8 +48,8 @@ and the new summary. They are drafts and not finalized designs.
 
 Plugins will be able to register themselves as CI data providers using the frontend plugin
 API. When they have done that they will be notified during Change Page load about the change number
-and the latest patchset number, and are requested to return an array of Checks, see
-[data model](#data-model) section below.
+and the latest patchset number, and are requested to return an array of CheckRuns and CheckResults,
+see [data model](#data-model) section below.
 
 The data provider will be polled for updates, if a polling interval was set during registration.
 Updates can also be pushed.
@@ -59,7 +59,7 @@ establish authentication and authorization. If APIs prove to be insufficient, th
 other means such as iframes and external links. Note that it is also possible to avoid making
 direct HTTP calls to other systems from the data provider plugin. Instead the data provider could
 make calls to its backend plugin code and make calls to the CI system from the backend. Even
-storing the CI data withing Gerrit by a plugin would be an option.
+storing the CI data within Gerrit by a plugin would be an option.
 
 
 ## <a id="ext"> Extensibility
@@ -81,42 +81,91 @@ The CI Results Tab will be developed as a core feature and not as a plugin itsel
 
 ## <a id="data-model"> Data Model for Checks
 
-The "Check" is the central entity that is passed in from data providers and shows up as rows in the
-table on the proposed "Checks" tab. While this design doc intentionally glosses over some details,
-we believe that it is vitally important to get an agreement on the data model for a Check, so this
-is modeled here at a very detailed level, so that it is possible to check whether existing
+"CheckRun" and "CheckResult" are the central entities that are passed in from data providers.
+While this design doc intentionally glosses over some details,
+we believe that it is vitally important to get an agreement on the data model for runs and results,
+so this is modeled here at a very detailed level, so that it is possible to check whether existing
 integrations can be converted to the new model.
 
-The UI will respect the order of the returned list of Checks, so plugins can control which Checks
-appear first and thus make up for the absence of a priority field in the data model. If multiple
-plugins provide data, then the results from earlier installed plugins are shown first.
+The UI will respect the order of the returned lists of runs and results, so plugins can control
+which Checks appear first and thus make up for the absence of a priority field in the data model.
+If multiple plugins provide data, then the results from earlier installed plugins are shown first.
 
 ```
-interface Check {
+interface CheckRun {
+  // Gerrit requests check runs and results from the plugin by change number and patchset number.
+  // So these two properties can as well be left empty when returning results to the Gerrit UI.
   change: number;
-  // Typically only Checks for the latest patchset are requested and presented. Older checks
-  // are only available on request, e.g. by switching to another patchset in a dropdown.
+  // Typically only runs for the latest patchset are requested and presented. Older runs and their
+  // results are only available on request, e.g. by switching to another patchset in a dropdown.
   patchset: number;
-  // The UI will focus on just the latest attempt per check. Former attempts are accessible,
-  // but initially collapsed/hidden. Lower number means older attempt.
+  // The UI will focus on just the latest attempt per run. Former attempts are accessible,
+  // but initially collapsed/hidden. Lower number means older attempt. Every run has its own attempt
+  // numbering, so attempt 3 of run A is not directly related to attempt 3 of run B.
+  // RUNNABLE runs must use 0 as attempt.
+  // COMPLETED and RUNNING runs must use an attempt number >0.
   attempt: number;
 
   // An optional opaque identifier not used by Gerrit directly, but might be used by plugin
   // extensions and callbacks.
   externalId?: string;
 
-  // These categories are not chosen for being semantically cohesive, but for providing
-  // one and only one top-level grouping mechanism. It allows the user to focus on exactly
-  // the group of checks that are currently relevant to them.
-  //
-  // (3 more "run" related categories)
-  // RUNNABLE:  Not run (yet). Mostly useful for checks that the user can trigger (see action).
+  // RUNNABLE:  Not run (yet). Mostly useful for runs that the user can trigger (see actions).
   // RUNNING:   Subsumes "scheduled".
-  // COMPLETED: If your check has completed without any interesting results (e.g. all tests passed),
-  //            then this category is for you. It will be mostly hidden (i.e. collapsed) from the
-  //            user and can contain hundreds of completed checks.
+  // COMPLETED: The attempt of the run has finished. Does not indicate at all whether the
+  //            run was successful or not. Outcomes can and should be modeled using the
+  //            CheckResult entity.
+  category: Category;
+
+  // The name of the run that is not specific to this change or attempt. Must be unique.
+  // There can’t be two runs with the same change/ps/name/attempt combination.
+  // Multiple attempts of the same run must have the same name.
   //
-  // (3 more "result" related categories)
+  // It should be expected that this string is cut off at ~30 chars in the UI. The
+  // full name will then be shown in a tooltip.
+  name: string;
+
+  // Optional short description of the run status. This is a plain string without styling or
+  // formatting options. It will only be shown as a tooltip or in a hovercard.
+  //
+  // Examples:
+  // 40 tests running, 30 completed: 0 failing so far.
+  // Scheduled 5 minutes ago, not running yet.
+  status?: string;
+
+  // Optional description of the run. Only shown as a tooltip or in a hovercard.
+  description?: string;
+  // Optional link to an external page with more detailed information about this run.
+  link?: Url;
+
+  // Callbacks to the CI plugin. Must be implemented individually by each plugin.
+  // The only supported actions for runs are currently:
+  // "Run" for RUNNABLE and COMPLETED runs.
+  // "Cancel" for RUNNING runs.
+  // TBD: Define the details of how callbacks are called. Passing an ID to a predefined
+  // API method? Or are actual javascript functions being passed and called?
+  actions: Action[]; // name ("Run" or "Cancel") + callbackId
+
+  scheduledTimestamp?: Date;
+  startedTimestamp?: Date;
+  finishedTimestamp?: Date;
+}
+
+interface CheckResult {
+  // Reference to the run that this result belongs to. Each run can have 0-n results. Each result
+  // can be associated with 0-1 runs.
+  // Referencing a check run is recommended, but optional. Results can also be reported on their
+  // own. Then a unique 'checkName' must be provided, so either 'checkRunName' or 'checkName' must
+  // be set. 
+  checkRunName?: string;
+  checkRunAttempt?: number;
+  // The length constraint is identical to the 'name' of CheckRun: ~30 chars.
+  checkName?: string;
+
+  // An optional opaque identifier not used by Gerrit directly, but might be used by plugin
+  // extensions and callbacks.
+  externalId?: string;
+
   // INFO:    The user will typically not bother to look into this category, only for looking up
   //          something that they are searching for. Can be used for reporting secondary metrics
   //          and analysis, or a wider range of artifacts produced by the CI system.
@@ -127,53 +176,33 @@ interface Check {
   //          problem. Errors will be visualized very prominently to the user.
   //
   // The ‘tags’ field below can be used for further categorization, e.g. for distinguishing
-  // SCHEDULED vs RUNNING, or FAILED vs TIMED_OUT.
+  // FAILED vs TIMED_OUT.
   category: Category;
 
-  // Description of the check that is not specific to this change or attempt.
-  // The name must be unique. There can’t be two checks with the same change/ps/attempt/name
-  // combination.
-  // Multiple attempts of the same check must have the same name, if the UI should group
-  // these attempts.
-  //
-  // It should be expected that this string might be cut off at ~30 chars in the UI. The
-  // full name will then be shown in a tooltip.
-  // This is a plain string without styling or formatting options.
-  // May optionally include the name of a CI system or platform as a prefix.
-  // The name of a WARNING or ERROR result might be finer grained than a RUNNING or
-  // RUNNABLE name, e.g. a test suite could be reported as 1 RUNNING check, but then later
-  // be broken down into multiple WARNINGs when the check is completed.
-  //
-  // Examples:
-  // Presubmit: Python Linter
-  // End to end tests on x86/linux platform
-  name: string;
-
-  // Short description of the check status or result.
+  // Short description of the check result.
   //
   // It should be expected that this string might be cut off at ~80 chars in the UI. The
   // full description will then be shown in a tooltip.
-  // This is plain string without styling or formatting options.
+  // This is a plain string without styling or formatting options.
   //
   // Examples:
   // MessageConverterTest failed with: 'kermit' expected, but got 'ernie'.
-  // 40 tests running, 30 completed: 0 failing so far.
   // Binary size of javascript bundle has increased by 27%.
   summary: string;
 
-  // Exhaustive optional message describing the check status or result.
+  // Exhaustive optional message describing the check result.
   // Will be initially collapsed. Might potentially be very long, e.g. a log of MB size.
   // The UI is not limiting this. CI data providers are responsible for not killing the
   // browser. :-)
-  // TBD: Decide on a technology for text formatting. Markdown flavor?
+  // TBD: Decide on a technology for text formatting. Markdown or HTML?
   message?: string;
 
-  // Optional reference to a label that this check influences. Allows the user to understand
-  // and navigate the relationship between CI results and submit requirements, see also
-  // https://gerrit-review.googlesource.com/c/homepage/+/279176.
+  // Optional reference to a Gerrit label (e.g. "Verified") that this result influences.
+  // Allows the user to understand and navigate the relationship between CI results and
+  // submit requirements, see also https://gerrit-review.googlesource.com/c/homepage/+/279176.
   label?: string;
 
-  // Tags allow a CI System to further categorize a Check, e.g. making a list of checks
+  // Tags allow a CI System to further categorize a result, e.g. making a list of results
   // filterable by the end-user.
   // The name is free-form, but there will be a predefined set of colors to choose from.
   // There will also be a list of common names and recommended colors, such that the most
@@ -187,8 +216,7 @@ interface Check {
   tags: Tag[]; // name + tooltip + color
 
   // Links provide an opportunity for the end-user to easily access details and build
-  // artifacts. Links are different from Actions in that clicking a link should not change
-  // the state of a Check.
+  // artifacts.
   // Links are displayed by an icon+tooltip only. They don’t have a name, making them
   // clearly distinguishable from tags and actions.
   // There will be a fixed set of icons to choose from.
@@ -202,19 +230,15 @@ interface Check {
   links: Link[]; // url + tooltip + icon
 
   // Callbacks to the CI plugin. Must be implemented individually by each plugin.
-  // Actions are rendered as buttons. If there are more than two actions per check, then
+  // Actions are rendered as buttons. If there are more than two actions per result, then
   // further actions are put into an overflow menu. Sort order is defined by the data
   // provider.
   // TBD: Define the details of how callbacks are called. Passing an ID to a predefined
   // API method? Or are actual javascript functions being passed and called?
   //
   // Examples (please provide more, if you can think of any):
-  // Run, Re-run, Cancel, Acknowledge/Dismiss, Delete,
-  // Report a bug, Report as not useful, Make blocking, Downgrade severity.
+  // Acknowledge/Dismiss, Delete, Report a bug, Report as not useful, Make blocking,
+  // Downgrade severity.
   actions: Action[]; // name + callbackId + tooltip
-
-  scheduledTimestamp?: Date;
-  startedTimestamp?: Date;
-  finishedTimestamp?: Date;
 }
 ```
