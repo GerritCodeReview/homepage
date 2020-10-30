@@ -722,6 +722,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a75a9e8_69d68057",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T08:39:42Z",
+      "side": 1,
+      "message": "I see Gerrit CI Reboot as an opportunity to have most of CUJs covered without leaving Gerrit UI (without going to LUCI UI), and viewing test results is a big part of it (the other one is viewing compilation errors). \n\nAn individual test result contains failure details (stack trace) and artifacts (CheckResult.links), so CheckResult per test case or per test case result would be great.\n\nIf we try to batch multiple test cases into one CheckResult, then it might be hard to map artifact links to test cases. I have asked more about this in the mocks.",
+      "parentUuid": "1d3398a6_e48b0b5b",
+      "range": {
+        "startLine": 150,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 6
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53739841_0de16e09",
@@ -806,6 +830,30 @@
       "side": 1,
       "message": "We are trying to start as simple as possible and only become more generic if needed.\n\nCan you provide an example of a CI result that influence multiple Gerrit labels?",
       "parentUuid": "054ec8db_e703cc79",
+      "range": {
+        "startLine": 174,
+        "startChar": 10,
+        "endLine": 174,
+        "endChar": 16
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5e43ff5_0a8b66fa",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T08:39:42Z",
+      "side": 1,
+      "message": "i don\u0027t have a concrete example\n\nstarting simple generally sgtm, but if we start with `string`, then we wouldn\u0027t be able to extend it to `string[]` because it would be a breaking change.",
+      "parentUuid": "18b15325_24f9ca14",
       "range": {
         "startLine": 174,
         "startChar": 10,
