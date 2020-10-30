@@ -1,0 +1,222 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc3f33cb_9cbd582a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "sending out some initial thoughts, but perhaps this domain model will end up being driven by mocks, so I suppose agreeing on mocks is the first step.",
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "871aff47_5ab1037b",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "now that we have two entities, I think it would help to clearly define *what* is CheckRun/CheckResult, so that the difference between them is crisp.\n\nAn interface-level comment for each?",
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da39caf5_cd75a447",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "since change and patchset \"can as well be left empty\", should they be \n\n  change?: number;\n  patchset?: number;\n\n?",
+      "range": {
+        "startLine": 98,
+        "startChar": 2,
+        "endLine": 98,
+        "endChar": 8
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc7d2760_a3af3d56",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "question:\n\nBuildbucket plugin displays results of all patchsets \"equivalent\" to the currently selected one. https://chromium.googlesource.com/infra/gerrit-plugins/buildbucket/+/refs/heads/master/src/main/resources/static/cr-buildbucket-view.js#454\n\nwould you expect the plugin to implement this logic, and annotate [results of equivalent patchsets] as if they are for the requested patchset?",
+      "range": {
+        "startLine": 99,
+        "startChar": 33,
+        "endLine": 99,
+        "endChar": 39
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cfe1ef7_f58fcdb0",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "distinction between collapsed and hidden might end up important for Chrome, because hiding previous attempts would be quite different from the current behavior: we might uncover some usage patterns https://xkcd.com/1172/",
+      "range": {
+        "startLine": 103,
+        "startChar": 19,
+        "endLine": 103,
+        "endChar": 35
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d065bac6_3fc65af0",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "nit: this will require plugin code to populate dummy 0 for all runnables. Was the following considered?\n\n  // RUNNABLE runs must use undefined as attempt.\n  // COMPLETED and RUNNING runs must use an attempt number \u003e\u003d0.\n  attempt?: number;",
+      "range": {
+        "startLine": 105,
+        "startChar": 2,
+        "endLine": 106,
+        "endChar": 62
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c41cd2b_e27a2824",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "it is somewhat surprising for category to change over time (RUNNING -\u003e COMPLETED). Categories are usually permanent and NOT_RUN/RUNNING/COMPLETED sound more like a \"status\".\n\nnit: pedantically, a CheckRun is runnable even after it completed, since we can rerun it.",
+      "range": {
+        "startLine": 118,
+        "startChar": 2,
+        "endLine": 118,
+        "endChar": 10
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5c40604_64f16cfe",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "what are the use cases?",
+      "range": {
+        "startLine": 157,
+        "startChar": 59,
+        "endLine": 158,
+        "endChar": 8
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3a8c2a0_2032110b",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "are check names in different namespace than checkRun names?\n\nthis field kind of alludes that there is a third ephemeral entity called \"Check\", although it isn\u0027t defined anywhere, so this is a bit confusing.\n\ni wonder if it would be simpler to not have checkName, but also allow referring to non-existent checkRunName. But then again, it depends on the use case.",
+      "range": {
+        "startLine": 163,
+        "startChar": 2,
+        "endLine": 163,
+        "endChar": 11
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c82270be_9b26981f",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-10-30T07:57:58Z",
+      "side": 1,
+      "message": "CheckRun and CheckResults use the same enum, but the members (in comments) do not intersect. Should they use two distinct enums?",
+      "range": {
+        "startLine": 180,
+        "startChar": 12,
+        "endLine": 180,
+        "endChar": 20
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
