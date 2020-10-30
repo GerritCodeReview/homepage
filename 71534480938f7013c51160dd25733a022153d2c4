@@ -58,6 +58,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "24bff667_1fe53a71",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 665,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-30T21:15:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28637f88_a8fb1176",
+      "range": {
+        "startLine": 665,
+        "startChar": 2,
+        "endLine": 665,
+        "endChar": 21
+      },
+      "revId": "71534480938f7013c51160dd25733a022153d2c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8d12a0a9_211a0fe9",
@@ -81,6 +105,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "026344aa_4aa416c4",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 670,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-30T21:15:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8d12a0a9_211a0fe9",
+      "range": {
+        "startLine": 670,
+        "startChar": 10,
+        "endLine": 670,
+        "endChar": 59
+      },
+      "revId": "71534480938f7013c51160dd25733a022153d2c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "24d8aa87_9e780262",
@@ -94,6 +142,30 @@
       "writtenOn": "2020-10-30T17:05:31Z",
       "side": 1,
       "message": "Upper-case if willing to be consistent?",
+      "range": {
+        "startLine": 672,
+        "startChar": 16,
+        "endLine": 672,
+        "endChar": 23
+      },
+      "revId": "71534480938f7013c51160dd25733a022153d2c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "512e54b3_649d1d9a",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-10-30T21:15:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24d8aa87_9e780262",
       "range": {
         "startLine": 672,
         "startChar": 16,
