@@ -746,6 +746,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "16d0cf76_5dadea5e",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:12:40Z",
+      "side": 1,
+      "message": "I think we will have to be versatile here, because every Gerrit installation and every CI system will be a bit different. For some testcase~result will make sense, for others testsuite~result is the better choice. We would like to support both.",
+      "parentUuid": "0a75a9e8_69d68057",
+      "range": {
+        "startLine": 150,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 6
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53739841_0de16e09",
@@ -854,6 +878,30 @@
       "side": 1,
       "message": "i don\u0027t have a concrete example\n\nstarting simple generally sgtm, but if we start with `string`, then we wouldn\u0027t be able to extend it to `string[]` because it would be a breaking change.",
       "parentUuid": "18b15325_24f9ca14",
+      "range": {
+        "startLine": 174,
+        "startChar": 10,
+        "endLine": 174,
+        "endChar": 16
+      },
+      "revId": "b6f98e5de1a2099315d589c8db3dbb72f9af0001",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74a9f724_cc52e1a4",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:12:40Z",
+      "side": 1,
+      "message": "Ack.\n\nA potential workaround could be to just report multiple identical results that refer to different labels. Given that this is speculative I am currently in favor of keeping it simple and accepting that we may need this hacky workaround at some point.",
+      "parentUuid": "f5e43ff5_0a8b66fa",
       "range": {
         "startLine": 174,
         "startChar": 10,
