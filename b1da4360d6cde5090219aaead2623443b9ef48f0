@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "aded821a_52c6d31e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50221c59_9e22c292",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 62
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "bc3f33cb_9cbd582a",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 1
@@ -58,6 +82,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "67305dbd_1525dbf2",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "871aff47_5ab1037b",
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "da39caf5_cd75a447",
@@ -71,6 +113,30 @@
       "writtenOn": "2020-10-30T07:57:58Z",
       "side": 1,
       "message": "since change and patchset \"can as well be left empty\", should they be \n\n  change?: number;\n  patchset?: number;\n\n?",
+      "range": {
+        "startLine": 98,
+        "startChar": 2,
+        "endLine": 98,
+        "endChar": 8
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49ee50dc_f56cc73f",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da39caf5_cd75a447",
       "range": {
         "startLine": 98,
         "startChar": 2,
@@ -106,6 +172,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "f95c46ef_ded3dcf9",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "At the moment yes, I would think that this is up to data providers. Added a TBD. Thanks for the comment.",
+      "parentUuid": "bc7d2760_a3af3d56",
+      "range": {
+        "startLine": 99,
+        "startChar": 33,
+        "endLine": 99,
+        "endChar": 39
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "2cfe1ef7_f58fcdb0",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 1
@@ -117,6 +207,30 @@
       "writtenOn": "2020-10-30T07:57:58Z",
       "side": 1,
       "message": "distinction between collapsed and hidden might end up important for Chrome, because hiding previous attempts would be quite different from the current behavior: we might uncover some usage patterns https://xkcd.com/1172/",
+      "range": {
+        "startLine": 103,
+        "startChar": 19,
+        "endLine": 103,
+        "endChar": 35
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c2e26f5_7374d7b7",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Added another TBD about optionally providing aggregate information regarding former attempts. I am acknowledging the requirement, but deferring to another iteration.",
+      "parentUuid": "2cfe1ef7_f58fcdb0",
       "range": {
         "startLine": 103,
         "startChar": 19,
@@ -150,6 +264,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5051e3c4_ac6d0a7c",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Good point. Done.",
+      "parentUuid": "d065bac6_3fc65af0",
+      "range": {
+        "startLine": 105,
+        "startChar": 2,
+        "endLine": 106,
+        "endChar": 62
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7c41cd2b_e27a2824",
@@ -163,6 +301,30 @@
       "writtenOn": "2020-10-30T07:57:58Z",
       "side": 1,
       "message": "it is somewhat surprising for category to change over time (RUNNING -\u003e COMPLETED). Categories are usually permanent and NOT_RUN/RUNNING/COMPLETED sound more like a \"status\".\n\nnit: pedantically, a CheckRun is runnable even after it completed, since we can rerun it.",
+      "range": {
+        "startLine": 118,
+        "startChar": 2,
+        "endLine": 118,
+        "endChar": 10
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a518bd63_2c7756a3",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7c41cd2b_e27a2824",
       "range": {
         "startLine": 118,
         "startChar": 2,
@@ -196,6 +358,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2c61616_1e3f3ed3",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b5c40604_64f16cfe",
+      "range": {
+        "startLine": 157,
+        "startChar": 59,
+        "endLine": 158,
+        "endChar": 8
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f3a8c2a0_2032110b",
@@ -219,6 +405,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dba8fd89_63c3804e",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3a8c2a0_2032110b",
+      "range": {
+        "startLine": 163,
+        "startChar": 2,
+        "endLine": 163,
+        "endChar": 11
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c82270be_9b26981f",
@@ -232,6 +442,30 @@
       "writtenOn": "2020-10-30T07:57:58Z",
       "side": 1,
       "message": "CheckRun and CheckResults use the same enum, but the members (in comments) do not intersect. Should they use two distinct enums?",
+      "range": {
+        "startLine": 180,
+        "startChar": 12,
+        "endLine": 180,
+        "endChar": 20
+      },
+      "revId": "b1da4360d6cde5090219aaead2623443b9ef48f0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53a25aa8_89db294b",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-02T14:07:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c82270be_9b26981f",
       "range": {
         "startLine": 180,
         "startChar": 12,
