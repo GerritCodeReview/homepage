@@ -16,6 +16,29 @@
       "message": "Thanks for the comments. Please have another look!",
       "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93eade39_812df675",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2020-11-02T15:31:41Z",
+      "side": 1,
+      "message": "there is already a status field above in l. 130",
+      "range": {
+        "startLine": 146,
+        "startChar": 2,
+        "endLine": 146,
+        "endChar": 8
+      },
+      "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
