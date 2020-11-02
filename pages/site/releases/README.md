@@ -20,6 +20,8 @@ Latest release: **[3.2.0](/3.2.html)**. The support status of all recent Gerrit 
 
 ## 3.3.0 (in development)
 
+* Java 11 by default for Gerrit
+
 * New logs timestamp format
 
 * Attention Set
