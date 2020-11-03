@@ -39,6 +39,52 @@
       },
       "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "211a2624_8cbb4dd3",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1089918
+      },
+      "writtenOn": "2020-11-03T21:27:14Z",
+      "side": 1,
+      "message": "There are many run-level \"actions\" that we currently support that are not covered by Run/Cancel like \"Retry on Tip-of-tree\" (API call) and \"Re-run specific builds/tests\" (link to dashboard).\n\nWe added the notion of Resource (https://source.corp.google.com/piper///depot/google3/google/internal/android/engprod/proto/treetop/v1/treetop.proto;l\u003d254?q\u003dtreetop.proto\u0026sq\u003dpackage:piper%20file:%2F%2Fdepot%2Fgoogle3%20-file:google3%2Fexperimental) in the service provider proto to accommodate different data types.",
+      "range": {
+        "startLine": 159,
+        "startChar": 2,
+        "endLine": 159,
+        "endChar": 19
+      },
+      "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03dcb60b_41e41c66",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1089918
+      },
+      "writtenOn": "2020-11-03T21:27:14Z",
+      "side": 1,
+      "message": "Will there be customizable preset filters to prioritize showing certain results on first view? (as well as indicators on how many results/what types of results are hidden from view)",
+      "range": {
+        "startLine": 223,
+        "startChar": 2,
+        "endLine": 223,
+        "endChar": 13
+      },
+      "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
