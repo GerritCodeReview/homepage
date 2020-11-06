@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "64889284_a34562a2",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1016062
+      },
+      "writtenOn": "2020-11-06T17:07:52Z",
+      "side": 1,
+      "message": "in a conversation with ajp@, it became apparent that we interpreted this proposal differently. I imagined that there will be a single function implemented by provider that returns a collection of runs, and a collection of results. Whereas, he imagined two functions, one to display runs/results like in mocks, and one for the \"run\" dialog.\n\ncould you also include the interface that providers must implement?",
+      "range": {
+        "startLine": 101,
+        "startChar": 10,
+        "endLine": 101,
+        "endChar": 18
+      },
+      "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "93eade39_812df675",
         "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
         "patchSetId": 2
