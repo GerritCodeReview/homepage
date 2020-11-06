@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "001aa7b2_665e7a0c",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-06T20:41:26Z",
+      "side": 1,
+      "message": "I was thinking that Gerrit requests runs and results at the same time from the CI data provider. A run dialog would just be based on those return values, as well.\n\nI would like to not go into more detail here. I will soon move on to actually implementing the API. Then we can discuss those details more.",
+      "parentUuid": "64889284_a34562a2",
+      "range": {
+        "startLine": 101,
+        "startChar": 10,
+        "endLine": 101,
+        "endChar": 18
+      },
+      "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93eade39_812df675",
@@ -54,6 +78,30 @@
       "writtenOn": "2020-11-02T15:31:41Z",
       "side": 1,
       "message": "there is already a status field above in l. 130",
+      "range": {
+        "startLine": 146,
+        "startChar": 2,
+        "endLine": 146,
+        "endChar": 8
+      },
+      "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e23ed24_4a6e8cc5",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-06T20:41:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93eade39_812df675",
       "range": {
         "startLine": 146,
         "startChar": 2,
@@ -87,6 +135,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab7191ea_cad4c1a3",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-06T20:41:26Z",
+      "side": 1,
+      "message": "Changed to allow multiple actions, also other than just \"run\" and \"cancel\".\n\nFYI We are allowing multiple actions and links for results, see below.",
+      "parentUuid": "211a2624_8cbb4dd3",
+      "range": {
+        "startLine": 159,
+        "startChar": 2,
+        "endLine": 159,
+        "endChar": 19
+      },
+      "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "03dcb60b_41e41c66",
@@ -100,6 +172,30 @@
       "writtenOn": "2020-11-03T21:27:14Z",
       "side": 1,
       "message": "Will there be customizable preset filters to prioritize showing certain results on first view? (as well as indicators on how many results/what types of results are hidden from view)",
+      "range": {
+        "startLine": 223,
+        "startChar": 2,
+        "endLine": 223,
+        "endChar": 13
+      },
+      "revId": "0fd13e60bcf2eb8ea3f9d7c6eb24d7dadd2ce841",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78cd85eb_194d5756",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-06T20:41:26Z",
+      "side": 1,
+      "message": "The primary driver for importance is the category. We would never hide an error in favor of showing a warning. Does that make sense?\n\nWe believe that the tab gives room for showing a lot of results with the errors first. So we have not prioritized filters at the moment, but they could certainly be added later. We would like to understand exactly the use cases and scenarios for which filters are needed.\n\nIf you have something in mind where the current data model and the current wireframes will not work, then an example would be very helpful.",
+      "parentUuid": "03dcb60b_41e41c66",
       "range": {
         "startLine": 223,
         "startChar": 2,
