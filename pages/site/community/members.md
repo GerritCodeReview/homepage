@@ -60,6 +60,7 @@ Current maintainers are:
 | Marco Miller          | Ericsson                                |
 | Martin Fick           | Qualcomm                                |
 | Matthias Sohn         | SAP                                     |
+| Nasser Grainawi       | Qualcomm                                |
 | Patrick Hiesel        | Google                                  |
 | Saša Živkov           | SAP                                     |
 | Sven Selberg          | Axis                                    |
