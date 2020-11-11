@@ -110,6 +110,30 @@
       },
       "revId": "97147a53ad0fb154b1bcc42a72c0f3b541a89379",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97a4d977_b8ee003f",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-11T22:36:20Z",
+      "side": 1,
+      "message": "Ack.",
+      "parentUuid": "503188b4_eddc96dd",
+      "range": {
+        "startLine": 830,
+        "startChar": 16,
+        "endLine": 830,
+        "endChar": 23
+      },
+      "revId": "97147a53ad0fb154b1bcc42a72c0f3b541a89379",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
