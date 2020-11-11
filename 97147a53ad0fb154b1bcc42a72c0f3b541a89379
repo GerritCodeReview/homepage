@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52ac8ee0_12d2159c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-11T21:43:19Z",
+      "side": 1,
+      "message": "Minor comments.",
+      "revId": "97147a53ad0fb154b1bcc42a72c0f3b541a89379",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "181c9f4a_9ebcde4b",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 451,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-11T21:43:19Z",
+      "side": 1,
+      "message": "ability to move changes\n-or-\nability of moving changes",
+      "range": {
+        "startLine": 451,
+        "startChar": 32,
+        "endLine": 451,
+        "endChar": 51
+      },
+      "revId": "97147a53ad0fb154b1bcc42a72c0f3b541a89379",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f90d9654_ff99cad0",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-11T21:43:19Z",
+      "side": 1,
+      "message": "I\u0027d rather leave this one lower-case, for consistency with its local siblings (e.g., line 820 above).",
+      "range": {
+        "startLine": 830,
+        "startChar": 16,
+        "endLine": 830,
+        "endChar": 23
+      },
+      "revId": "97147a53ad0fb154b1bcc42a72c0f3b541a89379",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
