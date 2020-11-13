@@ -31,11 +31,11 @@ Members of the ESC for the 2020 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
-| Alice Kober-Sotzek    | Google                 |
 | Ben Rohlfs            | Google                 |
-| David Pursehouse      | Independent            |
+| Han-Wen Nienhuys      | Google                 |
 | Luca Milanesio        | GerritForge            |
 | Patrick Hiesel        | Google                 |
+| Saša Živkov           | SAP                    |
 
 ## Maintainers
 
