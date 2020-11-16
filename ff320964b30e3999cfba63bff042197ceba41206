@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3068838f_59fe384d",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1079742
+      },
+      "writtenOn": "2020-11-16T15:00:26Z",
+      "side": 1,
+      "message": "I want to callout that in the mocks we call it \"Stop\" because users will need to get out of the selection mode of runs by clicking on \"Cancel\". This is related to UX writing and can be defined later.",
+      "range": {
+        "startLine": 155,
+        "startChar": 6,
+        "endLine": 155,
+        "endChar": 13
+      },
+      "revId": "ff320964b30e3999cfba63bff042197ceba41206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f96eba5_92460f43",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1079742
+      },
+      "writtenOn": "2020-11-16T15:00:26Z",
+      "side": 1,
+      "message": "I suggest we call it Submit requirement as users are not familiar with the term \u0027Label\u0027.",
+      "range": {
+        "startLine": 207,
+        "startChar": 36,
+        "endLine": 207,
+        "endChar": 41
+      },
+      "revId": "ff320964b30e3999cfba63bff042197ceba41206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9cfd078d_1a70119a",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1079742
+      },
+      "writtenOn": "2020-11-16T15:00:26Z",
+      "side": 1,
+      "message": "Referring back to our discussion in our sync today, we could call them Check results and Checks runs when referring to these entities in the UI (for example, in the hovercard) and also in this design doc.",
+      "range": {
+        "startLine": 208,
+        "startChar": 73,
+        "endLine": 208,
+        "endChar": 83
+      },
+      "revId": "ff320964b30e3999cfba63bff042197ceba41206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4bc95f0_5c6349d2",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1079742
+      },
+      "writtenOn": "2020-11-16T15:00:26Z",
+      "side": 1,
+      "message": "We could add a category name to these tags in the filter dropdown selection so that it is more easily parseable for users.",
+      "range": {
+        "startLine": 219,
+        "startChar": 2,
+        "endLine": 222,
+        "endChar": 33
+      },
+      "revId": "ff320964b30e3999cfba63bff042197ceba41206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
