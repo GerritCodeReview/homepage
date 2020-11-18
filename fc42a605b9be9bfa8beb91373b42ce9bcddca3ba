@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2087a2dc_cec257ca",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-18T22:18:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca7a0028_71660102",
+      "range": {
+        "startLine": 452,
+        "startChar": 2,
+        "endLine": 452,
+        "endChar": 50
+      },
+      "revId": "fc42a605b9be9bfa8beb91373b42ce9bcddca3ba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ce1d3e4c_043b562f",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5068c459_d5c9f7d1",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-18T22:18:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ce1d3e4c_043b562f",
+      "range": {
+        "startLine": 473,
+        "startChar": 5,
+        "endLine": 473,
+        "endChar": 16
+      },
+      "revId": "fc42a605b9be9bfa8beb91373b42ce9bcddca3ba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3400b895_0a4d9b7a",
@@ -60,6 +108,30 @@
       "writtenOn": "2020-11-18T22:07:52Z",
       "side": 1,
       "message": "nit: I would just say \"release has been withdrawn\"",
+      "range": {
+        "startLine": 500,
+        "startChar": 5,
+        "endLine": 500,
+        "endChar": 44
+      },
+      "revId": "fc42a605b9be9bfa8beb91373b42ce9bcddca3ba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e35d1b35_557c888c",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-18T22:18:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3400b895_0a4d9b7a",
       "range": {
         "startLine": 500,
         "startChar": 5,
