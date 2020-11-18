@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca7a0028_71660102",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-18T22:07:52Z",
+      "side": 1,
+      "message": "This is actually part of the Issue 13621",
+      "range": {
+        "startLine": 452,
+        "startChar": 2,
+        "endLine": 452,
+        "endChar": 50
+      },
+      "revId": "fc42a605b9be9bfa8beb91373b42ce9bcddca3ba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3400b895_0a4d9b7a",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-18T22:07:52Z",
+      "side": 1,
+      "message": "nit: I would just say \"release has been withdrawn\"",
+      "range": {
+        "startLine": 500,
+        "startChar": 5,
+        "endLine": 500,
+        "endChar": 44
+      },
+      "revId": "fc42a605b9be9bfa8beb91373b42ce9bcddca3ba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
