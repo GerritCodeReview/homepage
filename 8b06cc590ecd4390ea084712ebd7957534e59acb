@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "126fa7e7_11d4ae05",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-18T23:59:04Z",
+      "side": 1,
+      "message": "is this term documented anywhere ?\nmaybe better use notedb ref to avoid confusion with relational database which isn\u0027t used anymore ?",
+      "range": {
+        "startLine": 232,
+        "startChar": 55,
+        "endLine": 232,
+        "endChar": 67
+      },
+      "revId": "8b06cc590ecd4390ea084712ebd7957534e59acb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b1491c4_d3809847",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-18T23:59:04Z",
+      "side": 1,
+      "message": "he ?",
+      "range": {
+        "startLine": 240,
+        "startChar": 56,
+        "endLine": 240,
+        "endChar": 60
+      },
+      "revId": "8b06cc590ecd4390ea084712ebd7957534e59acb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b096b9a2_88cfcd9e",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-18T23:59:04Z",
+      "side": 1,
+      "message": "what do you want to say with that ?\n\n... because it allows public read access to data for which access should be restricted",
+      "range": {
+        "startLine": 251,
+        "startChar": 4,
+        "endLine": 251,
+        "endChar": 23
+      },
+      "revId": "8b06cc590ecd4390ea084712ebd7957534e59acb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ee08024_8fe32a55",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-18T23:59:04Z",
+      "side": 1,
+      "message": "what\u0027s that ?",
+      "range": {
+        "startLine": 254,
+        "startChar": 6,
+        "endLine": 254,
+        "endChar": 9
+      },
+      "revId": "8b06cc590ecd4390ea084712ebd7957534e59acb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fddeb8e8_2bd6ff2c",
+        "filename": "pages/site/releases/3.0.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-18T23:59:04Z",
+      "side": 1,
+      "message": "move this up next to draft comments ?",
+      "revId": "8b06cc590ecd4390ea084712ebd7957534e59acb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
