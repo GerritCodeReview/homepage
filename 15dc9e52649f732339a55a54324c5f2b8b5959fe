@@ -52,6 +52,24 @@
       "parentUuid": "0dd0bc96_372414db",
       "revId": "15dc9e52649f732339a55a54324c5f2b8b5959fe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65cdf843_22c15d5c",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 606,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-11-19T21:21:49Z",
+      "side": 1,
+      "message": "\u003e v3.2.5 was built with Java 11 but should have been built with Java 8.\n\nOne could build with Bazel with Java 11 and produce non corrupted JDK 8 artifact, but then --javabase\u003d/path/to/JDK8 option should be used.\n\nBottom line is just to build with Java 8. On Linux, I use: update-alternatives --config javac:\n\n  # update-alternatives --config javac\n  There are 2 choices for the alternative javac (providing /usr/bin/javac).\n  Selection    Path                                         Priority   Status\n------------------------------------------------------------\n  0            /usr/lib64/jvm/java-11-openjdk/bin/javac      2105      auto mode\n* 1            /usr/lib64/jvm/java-1.8.0-openjdk/bin/javac   1805      manual mode",
+      "parentUuid": "7299ec89_611d6d92",
+      "revId": "15dc9e52649f732339a55a54324c5f2b8b5959fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
