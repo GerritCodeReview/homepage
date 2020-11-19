@@ -70,6 +70,24 @@
       "parentUuid": "7299ec89_611d6d92",
       "revId": "15dc9e52649f732339a55a54324c5f2b8b5959fe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f129a2ef_31b4d0ec",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 606,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-19T21:24:20Z",
+      "side": 1,
+      "message": "So, the issue is that the Java 8 isn\u0027t the default Java alternative on the box? Without JAVA_HOME Bazel relies on that instead of the system PATH?\n\nLet me try that, good catch.",
+      "parentUuid": "65cdf843_22c15d5c",
+      "revId": "15dc9e52649f732339a55a54324c5f2b8b5959fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
