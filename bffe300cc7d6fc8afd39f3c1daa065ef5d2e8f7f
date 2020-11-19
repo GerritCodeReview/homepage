@@ -16,6 +16,23 @@
       "message": "Note that the CVE will be published in the next days and is currently showing a \"Not found\" page.",
       "revId": "bffe300cc7d6fc8afd39f3c1daa065ef5d2e8f7f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6609789d_9bfd3fe9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-19T20:35:29Z",
+      "side": 1,
+      "message": "Should also be mentioned on the 2.14.md release notes.",
+      "revId": "bffe300cc7d6fc8afd39f3c1daa065ef5d2e8f7f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
