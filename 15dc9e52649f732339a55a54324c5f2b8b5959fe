@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "405ebcef_c12446d4",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 606,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-11-19T21:06:52Z",
+      "side": 1,
+      "message": "Should we mention that the problem was caused by build build environment problem, pointing JAVA_HOME to JDK 11? And that\u0027s why there is no any code change to remedy the problem?",
+      "revId": "15dc9e52649f732339a55a54324c5f2b8b5959fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
