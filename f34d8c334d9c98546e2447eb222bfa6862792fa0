@@ -98,6 +98,24 @@
       "parentUuid": "ce5fd058_f4bed298",
       "revId": "f34d8c334d9c98546e2447eb222bfa6862792fa0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18de552d_03c20da3",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-19T20:30:29Z",
+      "side": 1,
+      "message": "\u003e That came across my mind. I thought it\u0027s OK to include some sections here that could as well be added in the release notes. Which sections do you think we can remove from the news?\n\nOnly the details or information that is already (or should be put) in the release notes. Then the news here may only provide newsworthy highlights for such topics, technically detailed in those notes rather. I didn\u0027t check which items should move that way though, but I can do it soon or you can, in the meantime.\n\n\u003e Should we also include a section about updates to the ESC?\n\nThere are already recent \"Gerrit ESC Meeting Minutes\" under [3] below. October 19\u0027s being the latest one. If you refer to the actual ESC composition [4], then yes I think this could be mentioned here (the recent changes). ESC reviewers in this change may comment on this too.\n\n[3] https://www.gerritcodereview.com/news.html\n[4] https://www.gerritcodereview.com/members.html#engineering-steering-committee\n\nMore news may come, about today\u0027s ending Summit we had all together, and potentially the recent changes to core maintainers [5]. That can be done in follow-up changes though, incrementally.\n\n[5] https://www.gerritcodereview.com/members.html#maintainers",
+      "parentUuid": "c47e92ca_87956cee",
+      "revId": "f34d8c334d9c98546e2447eb222bfa6862792fa0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
