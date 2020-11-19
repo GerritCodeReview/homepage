@@ -48,6 +48,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "44ba91e1_b81a6145",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-19T13:47:39Z",
+      "side": 1,
+      "message": "I originally missed the Issue as it was missing from the commit message. I should have remembered it though from the recent threads. Thanks for having added it.",
+      "parentUuid": "2087a2dc_cec257ca",
+      "range": {
+        "startLine": 452,
+        "startChar": 2,
+        "endLine": 452,
+        "endChar": 50
+      },
+      "revId": "fc42a605b9be9bfa8beb91373b42ce9bcddca3ba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ce1d3e4c_043b562f",
@@ -132,6 +156,30 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "3400b895_0a4d9b7a",
+      "range": {
+        "startLine": 500,
+        "startChar": 5,
+        "endLine": 500,
+        "endChar": 44
+      },
+      "revId": "fc42a605b9be9bfa8beb91373b42ce9bcddca3ba",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d466043_2d7ce6a3",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-19T13:47:39Z",
+      "side": 1,
+      "message": "Better like this, yes; thanks.",
+      "parentUuid": "e35d1b35_557c888c",
       "range": {
         "startLine": 500,
         "startChar": 5,
