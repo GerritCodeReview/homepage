@@ -16,6 +16,24 @@
       "message": "Some of the downstream text adjustments were not carried over here for these 2.16.25 notes.",
       "revId": "6aa1af02140628b20aacf796f09068892c20448f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3916e372_ef57e121",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 685,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-19T14:32:39Z",
+      "side": 1,
+      "message": "Fixed in [1] https://gerrit-review.googlesource.com/c/homepage/+/289062",
+      "parentUuid": "ebe1f967_6f53a174",
+      "revId": "6aa1af02140628b20aacf796f09068892c20448f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
