@@ -29,6 +29,18 @@ Please add new presentations at the top of this list.
 
 ---
 
+**[2020-11-20] Virtual Contributor Summit 2020**
+
+```
+  The Gerrit community had a virtual 2-days event with various talks and
+  discussions. The presentation slides and notes are available from the
+  agenda [1].
+```
+
+[1] <a href="https://docs.google.com/document/d/1WauJfNxracjBK3PxuVnwNIppESGMBtZwxMYjxxeDN6M">Agenda of the Cirtual Contributor Summit 2020</a>
+
+---
+
 **[2020-08-26] End-to-end tests**
 
 ```
