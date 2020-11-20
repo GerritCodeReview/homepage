@@ -22,6 +22,30 @@
       },
       "revId": "fe4bf2f4f5f98ccce471455f212da51f54e0928c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38f9b52f_4430df3d",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2020-11-20T15:49:10Z",
+      "side": 1,
+      "message": "Sure I can add a bullet point in the highlight section.\nThere is a \"New features\" section, should it also not go in there?",
+      "parentUuid": "0e7ce30e_20fe2251",
+      "range": {
+        "startLine": 359,
+        "startChar": 0,
+        "endLine": 361,
+        "endChar": 0
+      },
+      "revId": "fe4bf2f4f5f98ccce471455f212da51f54e0928c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
