@@ -116,6 +116,24 @@
       "parentUuid": "c47e92ca_87956cee",
       "revId": "f34d8c334d9c98546e2447eb222bfa6862792fa0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "797b9d88_9f946cce",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Thanks. Yes, some of the sections here are included in the previous release notes (e.g. the accounts cache, the projects cache and the default Java 11),  but I\u0027d rather prefer to keep them as the information I added here is less technical, and nice \u0026 worthy to be included IMO.\n\nYes, I meant the actual ESC composition. I added a new section about that.\n\nEdwin added a follow up for the project news https://gerrit-review.googlesource.com/c/homepage/+/289203/1.",
+      "parentUuid": "18de552d_03c20da3",
+      "revId": "f34d8c334d9c98546e2447eb222bfa6862792fa0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

@@ -52,6 +52,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e6306d9_e439a297",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2dc7208_e28a44cf",
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "527f3284_ff3321cc",
@@ -65,6 +83,30 @@
       "writtenOn": "2020-11-20T08:31:59Z",
       "side": 1,
       "message": "misses",
+      "range": {
+        "startLine": 34,
+        "startChar": 6,
+        "endLine": 34,
+        "endChar": 10
+      },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49a4b090_f550a682",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "527f3284_ff3321cc",
       "range": {
         "startLine": 34,
         "startChar": 6,
@@ -98,6 +140,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9e8c784_766af34b",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Thanks for catching. Done.",
+      "parentUuid": "1f82379e_8570583b",
+      "range": {
+        "startLine": 51,
+        "startChar": 66,
+        "endLine": 51,
+        "endChar": 76
+      },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5c13a9d1_a9213772",
@@ -111,6 +177,30 @@
       "writtenOn": "2020-11-20T08:49:26Z",
       "side": 1,
       "message": "this repeats the previous two sections, is this repetition intended ?",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 33
+      },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "021fb57e_70d0bedf",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Yes. \n\nThe \"are improvements to the comments user experience in Gerrit\" is a bit repetitive so I got rid of it.",
+      "parentUuid": "5c13a9d1_a9213772",
       "range": {
         "startLine": 72,
         "startChar": 0,
@@ -144,6 +234,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a154831e_1cff4ce6",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6c99831_2a2e0baf",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 5
+      },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b5513fd_063bf080",
@@ -157,6 +271,24 @@
       "writtenOn": "2020-11-20T08:59:02Z",
       "side": 1,
       "message": "+ cache-chroniclemap plugin [1] which is very relevant because it would allow better performance and stability on the persistent caches, which are referred to in the accounts and projects enhancements.\n\n[1] https://gerrit.googlesource.com/modules/cache-chroniclemap/",
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7e48a19_2cf6e8f1",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Thanks for mentioning this. Done",
+      "parentUuid": "3b5513fd_063bf080",
       "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -184,6 +316,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a9e3b6e_3b2933c8",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f20352a3_6bc1754f",
+      "range": {
+        "startLine": 114,
+        "startChar": 11,
+        "endLine": 114,
+        "endChar": 22
+      },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "79a6b0c2_7d07d285",
@@ -197,6 +353,24 @@
       "writtenOn": "2020-11-20T08:59:02Z",
       "side": 1,
       "message": "+ mention that Java 8 is still supported but requires a rebuild of Gerrit.",
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52291221_300ff0e1",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "79a6b0c2_7d07d285",
       "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -250,6 +424,24 @@
       "side": 1,
       "message": "Ack",
       "parentUuid": "a67019e9_f98374b0",
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b5b7e49_d9044493",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-11-20T10:25:21Z",
+      "side": 1,
+      "message": "Thanks Edwin for adding it.",
+      "parentUuid": "cd25698b_e13c5118",
       "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
