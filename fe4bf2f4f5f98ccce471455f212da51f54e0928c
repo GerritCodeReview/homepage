@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e7ce30e_20fe2251",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-20T14:43:11Z",
+      "side": 1,
+      "message": "This is a new feature and should go up in the section of the highlights. Also, you could point to the ChronicleMap as one of the persistent cache implementation that would need that setting, which is also a new feature available from v3.3",
+      "range": {
+        "startLine": 359,
+        "startChar": 0,
+        "endLine": 361,
+        "endChar": 0
+      },
+      "revId": "fe4bf2f4f5f98ccce471455f212da51f54e0928c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
