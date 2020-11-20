@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "51251a5e_d64b9a1a",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2020-11-20T16:31:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4cd76118_46b9ab4a",
+      "revId": "a4e7df006436285284705372575643396965c34e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "80c82cb7_8caabae6",
@@ -35,6 +53,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac2527db_835e92ef",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2020-11-20T16:31:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80c82cb7_8caabae6",
+      "revId": "a4e7df006436285284705372575643396965c34e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "036f0b0f_190ad235",
@@ -48,6 +84,30 @@
       "writtenOn": "2020-11-20T16:15:52Z",
       "side": 1,
       "message": "E.g.",
+      "range": {
+        "startLine": 81,
+        "startChar": 2,
+        "endLine": 81,
+        "endChar": 40
+      },
+      "revId": "a4e7df006436285284705372575643396965c34e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bd88798_3fa5a27b",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2020-11-20T16:31:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "036f0b0f_190ad235",
       "range": {
         "startLine": 81,
         "startChar": 2,
@@ -81,6 +141,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "58f94a0c_57c48769",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2020-11-20T16:31:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "23cd1150_ee3db8e5",
+      "range": {
+        "startLine": 82,
+        "startChar": 34,
+        "endLine": 82,
+        "endChar": 37
+      },
+      "revId": "a4e7df006436285284705372575643396965c34e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dcc07992_15f40bc9",
@@ -94,6 +178,24 @@
       "writtenOn": "2020-11-20T16:15:52Z",
       "side": 1,
       "message": "+ the number of open files needs raising",
+      "revId": "a4e7df006436285284705372575643396965c34e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b84aacbf_5b392276",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2020-11-20T16:31:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dcc07992_15f40bc9",
       "revId": "a4e7df006436285284705372575643396965c34e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
