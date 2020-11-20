@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "399cfaa1_d310fe03",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 718,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-20T09:15:31Z",
+      "side": 1,
+      "message": "New documentation for GC section\n\nit\u0027s not a new section but only the documentation in the Gerrit docs is new",
+      "range": {
+        "startLine": 718,
+        "startChar": 4,
+        "endLine": 718,
+        "endChar": 18
+      },
+      "revId": "c13bbd56f787d323b26f98f901a2310f1704af0f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05ca0ea9_cc38d640",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 721,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-20T09:15:31Z",
+      "side": 1,
+      "message": "New documentation for Receive section",
+      "range": {
+        "startLine": 721,
+        "startChar": 4,
+        "endLine": 721,
+        "endChar": 23
+      },
+      "revId": "c13bbd56f787d323b26f98f901a2310f1704af0f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
