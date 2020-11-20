@@ -62,6 +62,75 @@
       },
       "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c13a9d1_a9213772",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-20T08:49:26Z",
+      "side": 1,
+      "message": "this repeats the previous two sections, is this repetition intended ?",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 33
+      },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6c99831_2a2e0baf",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-20T08:49:26Z",
+      "side": 1,
+      "message": "allows",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 5
+      },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f20352a3_6bc1754f",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2020-11-20T08:49:26Z",
+      "side": 1,
+      "message": "Language Level\n\nJava 11 was already supported before",
+      "range": {
+        "startLine": 114,
+        "startChar": 11,
+        "endLine": 114,
+        "endChar": 22
+      },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
