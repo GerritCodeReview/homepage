@@ -74,7 +74,7 @@ are saying in the “Reply” dialog becomes a threaded conversation with an
 ## Coming Next
 
 Upcoming features for comments will soon be available in the user interface.
-This includes ported comments, comment context and others. 
+This includes ported comments, comment context and others.
 
 # UI Enhancements
 
@@ -137,3 +137,12 @@ still supported and can be used by doing a rebuild for Gerrit.
 Gerrit’s Javascript codebase was recently migrated to Typescript. This would
 allow for a lot of new benefits including class and module support, static type
 checking and clear library API definition, among others.
+
+# Community
+
+## Virtual Contributor Summit 2020
+
+The Gerrit community had a virtual 2-days event with various talks and
+discussions. The presentation slides and notes are available from the
+[agenda](https://docs.google.com/document/d/1WauJfNxracjBK3PxuVnwNIppESGMBtZwxMYjxxeDN6M).
+
