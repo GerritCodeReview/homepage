@@ -18,6 +18,40 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6654a57_a6d8dfe9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-20T08:59:02Z",
+      "side": 1,
+      "message": "Thanks, Youssef, for writing this up.",
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2dc7208_e28a44cf",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-20T08:59:02Z",
+      "side": 1,
+      "message": "It would be useful to mention that is included in the next forthcoming v3.3 release.",
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "527f3284_ff3321cc",
@@ -112,6 +146,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3b5513fd_063bf080",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-20T08:59:02Z",
+      "side": 1,
+      "message": "+ cache-chroniclemap plugin [1] which is very relevant because it would allow better performance and stability on the persistent caches, which are referred to in the accounts and projects enhancements.\n\n[1] https://gerrit.googlesource.com/modules/cache-chroniclemap/",
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f20352a3_6bc1754f",
         "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
         "patchSetId": 2
@@ -129,6 +180,40 @@
         "endLine": 114,
         "endChar": 22
       },
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79a6b0c2_7d07d285",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-20T08:59:02Z",
+      "side": 1,
+      "message": "+ mention that Java 8 is still supported but requires a rebuild of Gerrit.",
+      "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f75a5f9_f21611d5",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-20T08:59:02Z",
+      "side": 1,
+      "message": "+ Virtual Gerrit User Summit",
       "revId": "0c680866e94cea139f7b40994156ae6383e73f97",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
