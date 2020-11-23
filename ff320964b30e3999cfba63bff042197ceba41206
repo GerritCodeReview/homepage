@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8244d6a_b0e20063",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-23T09:00:59Z",
+      "side": 1,
+      "message": "Ack. I think for the API \"cancel\" is still fine.",
+      "parentUuid": "3068838f_59fe384d",
+      "range": {
+        "startLine": 155,
+        "startChar": 6,
+        "endLine": 155,
+        "endChar": 13
+      },
+      "revId": "ff320964b30e3999cfba63bff042197ceba41206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3f96eba5_92460f43",
@@ -37,6 +61,30 @@
       "writtenOn": "2020-11-16T15:00:26Z",
       "side": 1,
       "message": "I suggest we call it Submit requirement as users are not familiar with the term \u0027Label\u0027.",
+      "range": {
+        "startLine": 207,
+        "startChar": 36,
+        "endLine": 207,
+        "endChar": 41
+      },
+      "revId": "ff320964b30e3999cfba63bff042197ceba41206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e313a60_9d635838",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-23T09:00:59Z",
+      "side": 1,
+      "message": "In the UI we can try to show submit requirements. The CI system also knows about labels, so I think using label is adequate in the API, but we will have to translate that to submit requirements in our code.",
+      "parentUuid": "3f96eba5_92460f43",
       "range": {
         "startLine": 207,
         "startChar": 36,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a5ed438_d876e47e",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-23T09:00:59Z",
+      "side": 1,
+      "message": "Done in https://gerrit-review.googlesource.com/c/gerrit/+/289435.",
+      "parentUuid": "9cfd078d_1a70119a",
+      "range": {
+        "startLine": 208,
+        "startChar": 73,
+        "endLine": 208,
+        "endChar": 83
+      },
+      "revId": "ff320964b30e3999cfba63bff042197ceba41206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c4bc95f0_5c6349d2",
@@ -83,6 +155,30 @@
       "writtenOn": "2020-11-16T15:00:26Z",
       "side": 1,
       "message": "We could add a category name to these tags in the filter dropdown selection so that it is more easily parseable for users.",
+      "range": {
+        "startLine": 219,
+        "startChar": 2,
+        "endLine": 222,
+        "endChar": 33
+      },
+      "revId": "ff320964b30e3999cfba63bff042197ceba41206",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afedcbba_7150c8c0",
+        "filename": "pages/design-docs/ci-reboot/solution-ci-results-tab.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1013302
+      },
+      "writtenOn": "2020-11-23T09:00:59Z",
+      "side": 1,
+      "message": "As discussed, I would postpone this until we have a clearer picture of actual usage of tags.",
+      "parentUuid": "c4bc95f0_5c6349d2",
       "range": {
         "startLine": 219,
         "startChar": 2,
