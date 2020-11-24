@@ -93,6 +93,30 @@
       },
       "revId": "73c39d678d9ede143bdb3dc47900b8ad8623a300",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69731e67_02d49d0d",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T20:32:24Z",
+      "side": 1,
+      "message": "Ah, yes, he did; removed from here (duplicated).",
+      "parentUuid": "3c2c9250_749b7ffd",
+      "range": {
+        "startLine": 442,
+        "startChar": 0,
+        "endLine": 454,
+        "endChar": 0
+      },
+      "revId": "73c39d678d9ede143bdb3dc47900b8ad8623a300",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
