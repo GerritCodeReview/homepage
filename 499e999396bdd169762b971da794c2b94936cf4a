@@ -1,0 +1,158 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81eaa070_8bb553c2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T15:43:34Z",
+      "side": 1,
+      "message": "3.2.5(.1)",
+      "range": {
+        "startLine": 10,
+        "startChar": 29,
+        "endLine": 10,
+        "endChar": 34
+      },
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ba25c17_9621ed65",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T15:43:34Z",
+      "side": 1,
+      "message": "We also ported one of those security commits manually.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 17
+      },
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ac381d1_19e4dfa1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T15:43:34Z",
+      "side": 1,
+      "message": "Thanks for this init, Luca.",
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf671052_5d79aa4c",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T15:43:34Z",
+      "side": 1,
+      "message": "Line 380 below is a sub-section of the above line-317 one. So this added section here would need to move up, say, right before line 60 (or 69 maybe).",
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a9336a5_adcf3592",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T15:43:34Z",
+      "side": 1,
+      "message": "Missing a 2-spaces indent, also for consistency with other issues listed herein. This means to maybe also add such indentation to the below, issue-specific paragraphs.",
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97f15c8e_661fc5fa",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T15:43:34Z",
+      "side": 1,
+      "message": "3.3.0",
+      "range": {
+        "startLine": 356,
+        "startChar": 89,
+        "endLine": 356,
+        "endChar": 94
+      },
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc7110e0_40bbb8ac",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T15:43:34Z",
+      "side": 1,
+      "message": "CVE ID Not Found, here and above, when browsing this link. Might be related to what Patrick was saying I think, about taking some time to see it published.",
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23088754_7c4f475a",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T15:43:34Z",
+      "side": 1,
+      "message": "Same as above for the indentations, here and potentially below.",
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
