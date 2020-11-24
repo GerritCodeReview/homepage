@@ -81,6 +81,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d38e06a_c4d8edfb",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T18:15:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf671052_5d79aa4c",
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0a9336a5_adcf3592",
@@ -98,6 +116,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "72b4bb5e_e452a18b",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T18:15:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a9336a5_adcf3592",
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "97f15c8e_661fc5fa",
@@ -111,6 +147,30 @@
       "writtenOn": "2020-11-24T15:43:34Z",
       "side": 1,
       "message": "3.3.0",
+      "range": {
+        "startLine": 356,
+        "startChar": 89,
+        "endLine": 356,
+        "endChar": 94
+      },
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8dbe7976_b38c60b1",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T18:15:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "97f15c8e_661fc5fa",
       "range": {
         "startLine": 356,
         "startChar": 89,
@@ -151,6 +211,24 @@
       "writtenOn": "2020-11-24T15:43:34Z",
       "side": 1,
       "message": "Same as above for the indentations, here and potentially below.",
+      "revId": "499e999396bdd169762b971da794c2b94936cf4a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e34e4389_e9c92ea7",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-24T18:15:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "23088754_7c4f475a",
       "revId": "499e999396bdd169762b971da794c2b94936cf4a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
