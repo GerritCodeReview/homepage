@@ -51,6 +51,24 @@
       "message": "This doesn\u0027t require any reindex, right? Shall we add it to the note?",
       "revId": "27a45b9bfa189a2b68d93ea8120dd79deab451d6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b06d822c_8f154c48",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-27T13:54:32Z",
+      "side": 1,
+      "message": "We do not typically indicate the indexing schema updates. We can start, of course, from v3.3. Let me address that in a follow-up change.",
+      "parentUuid": "76066d68_87850454",
+      "revId": "27a45b9bfa189a2b68d93ea8120dd79deab451d6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
