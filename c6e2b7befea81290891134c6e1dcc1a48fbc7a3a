@@ -16,6 +16,23 @@
       "message": "NOTE for the reviewers: This extra section is NOT for suggesting that Gerrit v3.3 is unstable and you may need to downgrade.\n\nEvery large organisation needs to perform upgrades with a so called \u0027cutover plan\u0027, where there is a section called \u0027rollback\u0027. Nobody wants to rollback, but, if needed, you need to have a plan for it.\n\nBy adding this extra section to the release notes we can help the Gerrit admin in his planning exercise.",
       "revId": "c6e2b7befea81290891134c6e1dcc1a48fbc7a3a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06776619_66b40906",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2020-11-27T13:10:03Z",
+      "side": 1,
+      "message": "👍",
+      "revId": "c6e2b7befea81290891134c6e1dcc1a48fbc7a3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
