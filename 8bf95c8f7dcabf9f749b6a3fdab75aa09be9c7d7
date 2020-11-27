@@ -16,6 +16,23 @@
       "message": "Approval I think should depend on this procedure\u0027s Verification score.",
       "revId": "8bf95c8f7dcabf9f749b6a3fdab75aa09be9c7d7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d013e677_02fffc0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-27T17:29:01Z",
+      "side": 1,
+      "message": "I followed the instructions and I was able to downgrade a Gerrit v3.3.0-rc7 back to a v3.2.5.1",
+      "revId": "8bf95c8f7dcabf9f749b6a3fdab75aa09be9c7d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
