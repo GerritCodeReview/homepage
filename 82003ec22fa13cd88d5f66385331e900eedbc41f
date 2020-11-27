@@ -22,6 +22,30 @@
       },
       "revId": "82003ec22fa13cd88d5f66385331e900eedbc41f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c5f1252_8ce566fc",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-27T17:06:05Z",
+      "side": 1,
+      "message": "Done it seems.",
+      "parentUuid": "defb8c6c_f1893aa7",
+      "range": {
+        "startLine": 80,
+        "startChar": 12,
+        "endLine": 80,
+        "endChar": 38
+      },
+      "revId": "82003ec22fa13cd88d5f66385331e900eedbc41f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
