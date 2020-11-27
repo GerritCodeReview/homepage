@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5dce6332_a3ce1f1c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-27T17:06:53Z",
+      "side": 1,
+      "message": "Sorry, depends on how you read it ;)",
+      "parentUuid": "2502febf_a8759057",
+      "range": {
+        "startLine": 7,
+        "startChar": 11,
+        "endLine": 7,
+        "endChar": 33
+      },
+      "revId": "c6e2b7befea81290891134c6e1dcc1a48fbc7a3a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8bf7d79e_3cedffad",
