@@ -33,6 +33,52 @@
       "message": "I followed the instructions and I was able to downgrade a Gerrit v3.3.0-rc7 back to a v3.2.5.1",
       "revId": "8bf95c8f7dcabf9f749b6a3fdab75aa09be9c7d7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78c3da3c_5490c123",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-11-28T11:44:49Z",
+      "side": 1,
+      "message": "Also provide porcelain commands for that?\n\n  # show current gerrit schema version\n  $ git cat-file -p $(git show-ref refs/meta/version | cut -f1 -d\" \")\n  # change gerrit schema version\n  $ git update-ref refs/meta/version $(echo 183 | git hash-object -w --stdin)",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 61
+      },
+      "revId": "8bf95c8f7dcabf9f749b6a3fdab75aa09be9c7d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7db9daa_35fc4f69",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-11-28T11:44:49Z",
+      "side": 1,
+      "message": "Strictly speaking, the above two actions are not needed to downgrade gerrit version from 3.3 to 3.2, because the version bump is zero-downtime compatible.\n\nSo instead of messing around with All-Projects and All-Users repositories, experimental zero-downtime option can be activated:\n\n  $ git config --file $site_path/etc/gerrit.config gerrit.experimentalRollingUpgrade true\n\nI just tried these steps:\n\n1. install and start gerrit gerrit-3.3.0-rc7. version 3.3.0-rc7 is reported\n2. stop gerrit\n3. set gerrit.experimentalRollingUpgrade to true in gerrit.config\n4. run init command for gerrit-3.2.5.1 and replace all plugins\n5. start gerrit. version 3.2.5.1 is reported.\n\nThe only scary message is this exception in step 4:\n\n  Couldn\u0027t upgrade schema. Expected if slave and read-only database\nERROR com.google.gerrit.pgm.init.BaseInit : Couldn\u0027t upgrade schema. Expected if slave and read-only database\ncom.google.gerrit.exceptions.StorageException: Cannot downgrade NoteDb schema from version 184 to 183\n\tat com.google.gerrit.server.schema.NoteDbSchemaUpdater.requiredUpgrades(NoteDbSchemaUpdater.java:170)\n\tat com.google.gerrit.server.schema.NoteDbSchemaUpdater.update(NoteDbSchemaUpdater.java:91)\n\tat com.google.gerrit.pgm.init.BaseInit$SiteRun.upgradeSchema(BaseInit.java:361)\n\tat com.google.gerrit.pgm.init.BaseInit.run(BaseInit.java:122)\n\tat com.google.gerrit.pgm.util.AbstractProgram.main(AbstractProgram.java:61)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat com.google.gerrit.launcher.GerritLauncher.invokeProgram(GerritLauncher.java:224)\n\tat com.google.gerrit.launcher.GerritLauncher.mainImpl(GerritLauncher.java:120)\n\tat com.google.gerrit.launcher.GerritLauncher.main(GerritLauncher.java:65)\n\tat Main.main(Main.java:28)\n\nWe could improve that scenario though. One option would be to pass --downgrade option. Then we would check, that the downgrade is actually supported from current gerrit version X to Y (if not, exit with error without doing anything) and if yes run init but not attempt to downgrade the schema. Another option is to check for gerrit.experimentalRollingUpgrade and not attempt schema version downgrade in that case.",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 90
+      },
+      "revId": "8bf95c8f7dcabf9f749b6a3fdab75aa09be9c7d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
