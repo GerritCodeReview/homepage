@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e99ef9e0_e5f1a555",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-30T15:36:47Z",
+      "side": 1,
+      "message": "By reading this in the release notes, I would think I should disable it to avoid additional load, it could misinterpreted.\n\nI believe it is best to just remove the remark, as it is explained already in details in the init phase.",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 17
+      },
+      "revId": "f702149ef4cb010f7fc077e9a6e837ba9e51e949",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
