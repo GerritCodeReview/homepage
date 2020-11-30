@@ -46,6 +46,30 @@
       },
       "revId": "75e370c4b34a01564a8675eeb4c6504d1d24e47f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab251afd_d415c6de",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-30T19:41:23Z",
+      "side": 1,
+      "message": "It wasn\u0027t a strong opinion, we can still align the styling later. LGTM.",
+      "parentUuid": "958bdaa1_ecb3331c",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 23
+      },
+      "revId": "75e370c4b34a01564a8675eeb4c6504d1d24e47f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
