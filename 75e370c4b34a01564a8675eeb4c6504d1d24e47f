@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14a0731c_1b829bb5",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-11-30T18:16:30Z",
+      "side": 1,
+      "message": "We do typically include then in the generic backend fixes. Also, the issues linked are reported as Gerrit issues and, from a user\u0027s perspective, JGit is included as part of Gerrit anyway.",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 23
+      },
+      "revId": "75e370c4b34a01564a8675eeb4c6504d1d24e47f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
