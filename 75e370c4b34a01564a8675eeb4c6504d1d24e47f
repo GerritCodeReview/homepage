@@ -22,6 +22,30 @@
       },
       "revId": "75e370c4b34a01564a8675eeb4c6504d1d24e47f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "958bdaa1_ecb3331c",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-11-30T18:25:20Z",
+      "side": 1,
+      "message": "\u003e We do typically include then in the generic backend fixes. Also, the issues linked are reported as Gerrit issues and, from a user\u0027s perspective, JGit is included as part of Gerrit anyway.\n\nI restored the jgit section that we had before this change. I updated its information though, still. Can you check again and let me know more precisely which parts you\u0027d like to amend and how? Thanks.",
+      "parentUuid": "14a0731c_1b829bb5",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 23
+      },
+      "revId": "75e370c4b34a01564a8675eeb4c6504d1d24e47f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
