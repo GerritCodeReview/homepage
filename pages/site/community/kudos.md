@@ -36,6 +36,27 @@ Please add new kudos at the top of this list.
 
 ---
 
+**[2020-12-01] To: Matthias Sohn (SAP), Luca Milanesio (GerritForge) and Patrick Hiesel (Google)**
+
+```
+  Thanks to Matthias for his prompt work again recently on stabilizing JGit for
+  Gerrit 3.3 as well as downstream versions; [1]. Thanks to Luca for having
+  actively supported that effort, along with his testing and releasing efforts
+  around the recent security fixes [2]. This was overall teamwork, however both
+  of them community colleagues walked quite a few extra miles to get this fixed.
+  Thanks to Patrick for his leading work on [3] and his crucial support for [2];
+  Google team's involvement remained essential here once again. Your hard work,
+  guys and everyone around you, allowed us all to end up releasing Gerrit 3.3.0!
+```
+
+[1] <a href="https://bugs.chromium.org/p/gerrit/issues/detail?id=13544">Ensure that GC#deleteOrphans respects pack lock</a><br>
+[2] <a href="https://www.gerritcodereview.com/3.3.html#security-fixes">Work around Gitiles bug on All-Users visibility</a><br>
+[3] <a href="https://www.gerritcodereview.com/3.3.html#security-fixes">Make PermissionBackend#ForRef authoritative</a>
+
+From: Marco Miller (Ericsson)
+
+---
+
 **[2020-09-02] To: Saša Živkov (SAP)**
 
 ```
