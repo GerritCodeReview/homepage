@@ -15,10 +15,10 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.2.0](/3.2.html)**. The support status of all recent Gerrit versions is
+Latest release: **[3.3.0](/3.3.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
-## 3.3.0 (in development)
+## 3.3.0
 
 * Java 11 by default for Gerrit
 
