@@ -15,10 +15,10 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.3.0](/3.3.html)**. The support status of all recent Gerrit versions is
+Latest release: **[3.3](/3.3.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
-## 3.3.0
+## 3.3
 
 * Java 11 by default for Gerrit
 
@@ -26,17 +26,17 @@ Latest release: **[3.3.0](/3.3.html)**. The support status of all recent Gerrit 
 
 * Attention Set
 
-[Release notes for Gerrit 3.3.0](/3.3.html)
+[Release notes for Gerrit 3.3](/3.3.html)
 
-## 3.2.0
+## 3.2
 
 * Polymer 3
 
 * File Uploads in frontend
 
-[Release notes for Gerrit 3.2.0](/3.2.html)
+[Release notes for Gerrit 3.2](/3.2.html)
 
-## 3.1.0
+## 3.1
 
 * Support for git protocol V2
 
@@ -46,9 +46,9 @@ Latest release: **[3.3.0](/3.3.html)**. The support status of all recent Gerrit 
 
 * Performance logging and tracing
 
-[Release notes for Gerrit 3.1.0](/3.1.html)
+[Release notes for Gerrit 3.1](/3.1.html)
 
-## 3.0.0 (EOL)
+## 3.0 (EOL)
 
 * The GWT UI is removed and PolyGerrit is now the only UI.
 
@@ -61,7 +61,7 @@ removed and all metadata is now stored in git ("NoteDb").
 
 * New core plugins: `delete-project`, `gitiles`, `plugin-manager` and `webhooks`.
 
-[Release notes for Gerrit 3.0.0](/3.0.html)
+[Release notes for Gerrit 3.0](/3.0.html)
 
 ## 2.16 (EOL - with exceptions)
 
