@@ -48,7 +48,7 @@ Latest release: **[3.3.0](/3.3.html)**. The support status of all recent Gerrit 
 
 [Release notes for Gerrit 3.1.0](/3.1.html)
 
-## 3.0.0
+## 3.0.0 (EOL)
 
 * The GWT UI is removed and PolyGerrit is now the only UI.
 
