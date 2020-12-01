@@ -16,6 +16,24 @@
       "message": "Needs to be rebased.",
       "revId": "334136cc55f5a581f2bde723f85df97327d3128f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6383653c_81fad9c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1091982
+      },
+      "writtenOn": "2020-12-01T09:31:13Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "afa7ee1e_2e3fc73e",
+      "revId": "334136cc55f5a581f2bde723f85df97327d3128f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
