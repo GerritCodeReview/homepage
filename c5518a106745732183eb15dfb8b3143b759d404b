@@ -87,6 +87,30 @@
       },
       "revId": "c5518a106745732183eb15dfb8b3143b759d404b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "353b791f_ebbbc78f",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-12-02T15:10:23Z",
+      "side": 1,
+      "message": "Now waiting for [2] to complete and update the page online. I\u0027ll be able to post my repo-discuss reply once [2] gets completed.\n\n[2] https://gerrit-ci.gerritforge.com/job/homepage/620/console",
+      "parentUuid": "3224d298_8208a27d",
+      "range": {
+        "startLine": 125,
+        "startChar": 64,
+        "endLine": 126,
+        "endChar": 27
+      },
+      "revId": "c5518a106745732183eb15dfb8b3143b759d404b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
