@@ -1,0 +1,170 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ec0d0fa_902677a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-02T14:02:48Z",
+      "side": 1,
+      "message": "Thanks, Patrick, for writing this up.",
+      "revId": "53c6839849ff3c45122f2d531a0715ad0adcb7eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e53f46b_7380ccf3",
+        "filename": "_posts/2020-12-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-02T14:02:48Z",
+      "side": 1,
+      "message": "+ and Marcin Czech will engage in helping with the exercise.",
+      "revId": "53c6839849ff3c45122f2d531a0715ad0adcb7eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd95c699_de10b9d5",
+        "filename": "_posts/2020-12-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-02T14:02:48Z",
+      "side": 1,
+      "message": "+ at Google",
+      "range": {
+        "startLine": 55,
+        "startChar": 26,
+        "endLine": 55,
+        "endChar": 38
+      },
+      "revId": "53c6839849ff3c45122f2d531a0715ad0adcb7eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f45d1b9_7c7b6ab6",
+        "filename": "_posts/2020-12-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-02T14:02:48Z",
+      "side": 1,
+      "message": "GerritForge does the same with issues related to GerritHub.io and on non-EOL branches on a best-effort basis for the whole community.",
+      "revId": "53c6839849ff3c45122f2d531a0715ad0adcb7eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13089a5e_326ae332",
+        "filename": "_posts/2020-12-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-02T14:02:48Z",
+      "side": 1,
+      "message": "guaranteed",
+      "range": {
+        "startLine": 59,
+        "startChar": 72,
+        "endLine": 59,
+        "endChar": 78
+      },
+      "revId": "53c6839849ff3c45122f2d531a0715ad0adcb7eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c33c20cf_76ceac16",
+        "filename": "_posts/2020-12-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-02T14:02:48Z",
+      "side": 1,
+      "message": "and on EOL releases",
+      "range": {
+        "startLine": 60,
+        "startChar": 3,
+        "endLine": 60,
+        "endChar": 5
+      },
+      "revId": "53c6839849ff3c45122f2d531a0715ad0adcb7eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5c3a01f_a691f758",
+        "filename": "_posts/2020-12-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-02T14:02:48Z",
+      "side": 1,
+      "message": "+ Luca will engage with Matthias for a more systematic E2E test of JGit master changes with Gerrit on a regular basis.",
+      "range": {
+        "startLine": 75,
+        "startChar": 82,
+        "endLine": 75,
+        "endChar": 83
+      },
+      "revId": "53c6839849ff3c45122f2d531a0715ad0adcb7eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "971de10c_7cc0304e",
+        "filename": "_posts/2020-12-01-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-02T14:02:48Z",
+      "side": 1,
+      "message": "by Jacek or anyone else from Digital.ai.",
+      "range": {
+        "startLine": 98,
+        "startChar": 75,
+        "endLine": 98,
+        "endChar": 76
+      },
+      "revId": "53c6839849ff3c45122f2d531a0715ad0adcb7eb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
