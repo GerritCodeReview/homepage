@@ -39,6 +39,30 @@
       },
       "revId": "c5518a106745732183eb15dfb8b3143b759d404b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89d85a07_9c9f1c81",
+        "filename": "_drafts/2020-11-18-gerrit-news-jun-nov-2020.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-12-02T14:45:48Z",
+      "side": 1,
+      "message": "Fixed in [1]. Thanks for flagging this David. Once merged, I\u0027m planning to reply to my related repo-discuss post to highlight this addition.\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/290582",
+      "parentUuid": "1a87f368_20d22040",
+      "range": {
+        "startLine": 125,
+        "startChar": 64,
+        "endLine": 126,
+        "endChar": 27
+      },
+      "revId": "c5518a106745732183eb15dfb8b3143b759d404b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
