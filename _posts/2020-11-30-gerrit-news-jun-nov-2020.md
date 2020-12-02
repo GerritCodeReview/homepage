@@ -122,9 +122,17 @@ how to build and use the new module is available
 
 ## Project Members and ESC
 
-The Engineering steering committee had changed in October 2020: Han-Wen Nienhuys
-replaced Alice Kober-Sotzek for the Google affiliation. More information about
-the project members
+The Engineering steering committee had changed in October 2020:
+
+* Han-Wen Nienhuys replaced Alice Kober-Sotzek for the Google affiliation.
+* Saša Živkov replaced David Pursehouse for the non-Google affiliation.
+
+We would like to thank Alice and David once again for their uniquely significant
+contibutions to Gerrit. They will be missed. Yet we are happy to welcome Han-Wen
+and Saša for these new roles alongside their lasting maintainer ones. Thanks for
+joining our ESC!
+
+More information about the project members
 [here](https://gerritcodereview.com/members.html#engineering-steering-committee).
 
 ## Default Java 11 Language Level
