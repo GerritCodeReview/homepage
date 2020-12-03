@@ -71,6 +71,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6c9e686_8a0d6f50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-12-03T21:28:51Z",
+      "side": 1,
+      "message": "[3], to be more precise- https://www.gerritcodereview.com/publishing.html#updating-the-plugins-page",
+      "parentUuid": "58d42c39_d37e7b4b",
+      "revId": "08c49800d356a982e5f0757b6d275d51e895692b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "921b3c0a_e328e83c",
