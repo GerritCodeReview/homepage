@@ -33,6 +33,65 @@
       "message": "Ideally, the test setup should be documented somewhere?",
       "revId": "08c49800d356a982e5f0757b6d275d51e895692b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a490788c_30ce36b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-12-03T21:27:36Z",
+      "side": 1,
+      "message": "[1], yes. And once merged, [2] does that again and publishes it all.\n\n[2] https://gerrit-ci.gerritforge.com/job/homepage/",
+      "parentUuid": "181b8c0e_50c24043",
+      "revId": "08c49800d356a982e5f0757b6d275d51e895692b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "58d42c39_d37e7b4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-12-03T21:27:36Z",
+      "side": 1,
+      "message": "[1] https://www.gerritcodereview.com/publishing.html",
+      "parentUuid": "f7bc32fd_cff4a83f",
+      "revId": "08c49800d356a982e5f0757b6d275d51e895692b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "921b3c0a_e328e83c",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-12-03T21:27:36Z",
+      "side": 1,
+      "message": "Remove as well? Otherwise, we cannot logically remove 3.0 I think, even if 2.16 is maintained out of db migration necessities.",
+      "range": {
+        "startLine": 23,
+        "startChar": 59,
+        "endLine": 23,
+        "endChar": 67
+      },
+      "revId": "08c49800d356a982e5f0757b6d275d51e895692b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
