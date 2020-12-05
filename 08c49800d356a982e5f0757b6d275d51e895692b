@@ -158,6 +158,30 @@
       },
       "revId": "08c49800d356a982e5f0757b6d275d51e895692b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3c17dbd_30cab858",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2020-12-05T12:48:30Z",
+      "side": 1,
+      "message": "I updated the commit message about the 3.0 removal while still keeping 2.16.",
+      "parentUuid": "cff58e78_8a1eff5c",
+      "range": {
+        "startLine": 23,
+        "startChar": 59,
+        "endLine": 23,
+        "endChar": 67
+      },
+      "revId": "08c49800d356a982e5f0757b6d275d51e895692b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
