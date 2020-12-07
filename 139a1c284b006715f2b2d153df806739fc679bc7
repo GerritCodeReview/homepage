@@ -16,6 +16,24 @@
       "message": "Can someone please give me a hint regarding what we are supposed to put in repository config files in order to enable this feature for a particular group?\n\nI suspect that we need to add it to [access \"refs/heads/*\"] section but I have no idea what it is supposed to be the key value.\n\nBased on what I seen so far key names do not have spaces and most of them seam to follow a java naming convention but even after the togle was documented via this change, the key value still seams undocumented.\n\nDocumentation still states \"Toggle Work In Progress state\". thanks",
       "revId": "139a1c284b006715f2b2d153df806739fc679bc7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b51985c_56ecc65f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-07T15:38:35Z",
+      "side": 1,
+      "message": "Check this CL: [1], where I activated this ACL on libreoffice instance. You want something like this:\n\n    toggleWipState \u003d \u003cgroup to grant permission for\u003e\n\n\n[1] https://gerrit.libreoffice.org/c/Dev-ACL-Template/+/99302",
+      "parentUuid": "ae59f8cc_2b97d7ec",
+      "revId": "139a1c284b006715f2b2d153df806739fc679bc7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
