@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae59f8cc_2b97d7ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039113
+      },
+      "writtenOn": "2020-12-07T15:32:30Z",
+      "side": 1,
+      "message": "Can someone please give me a hint regarding what we are supposed to put in repository config files in order to enable this feature for a particular group?\n\nI suspect that we need to add it to [access \"refs/heads/*\"] section but I have no idea what it is supposed to be the key value.\n\nBased on what I seen so far key names do not have spaces and most of them seam to follow a java naming convention but even after the togle was documented via this change, the key value still seams undocumented.\n\nDocumentation still states \"Toggle Work In Progress state\". thanks",
+      "revId": "139a1c284b006715f2b2d153df806739fc679bc7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
