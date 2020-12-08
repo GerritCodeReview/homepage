@@ -48,6 +48,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e466c80_1ac3e2a1",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-12-08T07:03:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "638e0c1f_ad481df6",
+      "range": {
+        "startLine": 320,
+        "startChar": 4,
+        "endLine": 322,
+        "endChar": 15
+      },
+      "revId": "8e7990c622c3b1bb4d48db9cf1e327d91e2632a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7f8d339e_f9956d05",
@@ -95,6 +119,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "04b31e05_4a1832b7",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 613,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-12-08T07:03:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd541fc5_2d0dd336",
+      "range": {
+        "startLine": 610,
+        "startChar": 4,
+        "endLine": 613,
+        "endChar": 0
+      },
+      "revId": "8e7990c622c3b1bb4d48db9cf1e327d91e2632a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6129976f_09e49162",
@@ -132,6 +180,30 @@
       "side": 1,
       "message": "I intentionally tried to sub-indent this paragraph or item, under the above line 496 one. It rendered well locally, but are you seeing otherwise?",
       "parentUuid": "6129976f_09e49162",
+      "range": {
+        "startLine": 501,
+        "startChar": 4,
+        "endLine": 503,
+        "endChar": 15
+      },
+      "revId": "8e7990c622c3b1bb4d48db9cf1e327d91e2632a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c5d6cf3_5105b6a1",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 503,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2020-12-08T07:03:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a83cb2b_3e40bfc9",
       "range": {
         "startLine": 501,
         "startChar": 4,
