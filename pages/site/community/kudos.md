@@ -36,6 +36,26 @@ Please add new kudos at the top of this list.
 
 ---
 
+**[2020-12-09] To: David Ostrovsky**
+
+```
+  I was struggling with generating a test coverage report for the code-owners
+  plugin and posted a question about this on repo-discuss [1].
+  David picked up the investigation right away. He did not only reproduce and
+  analyze the issue, but also filed an issue for the Bazel team [2] and uploaded
+  a change [3] for the code-owners plugin that makes meassuring the test
+  coverage work. In addition, David also pointed me to an easier command to
+  generate the test coverage data. Thank you David, this was awesome!
+```
+
+[1] <https://groups.google.com/g/repo-discuss/c/lXbtvictx78/m/zf167oiFBgAJ>
+[2] <https://github.com/bazelbuild/bazel/issues/12636>
+[3] <https://gerrit-review.googlesource.com/c/plugins/code-owners/+/290908>
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2020-12-01] To: Matthias Sohn (SAP), Luca Milanesio (GerritForge) and Patrick Hiesel (Google)**
 
 ```
