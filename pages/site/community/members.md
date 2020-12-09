@@ -54,17 +54,18 @@ Current maintainers are:
 | David Pursehouse      | Independent (formerly Sony, CollabNet)  |
 | Dmitrii Filippov      | Google                                  |
 | Edwin Kempin          | Google (formerly SAP)                   |
+| Gal Paikin            | Google                                  |
 | Han-Wen Nienhuys      | Google                                  |
 | Joerg Zieren          | Google                                  |
 | Luca Milanesio        | GerritForge                             |
 | Marco Miller          | Ericsson                                |
 | Martin Fick           | Qualcomm                                |
 | Matthias Sohn         | SAP                                     |
+| Milutin Kristofic     | Google                                  |
 | Nasser Grainawi       | Qualcomm                                |
 | Patrick Hiesel        | Google                                  |
 | Saša Živkov           | SAP                                     |
 | Sven Selberg          | Axis                                    |
-| Tao Zhou              | Google                                  |
 
 ## Former maintainers
 
