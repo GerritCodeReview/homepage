@@ -56,6 +56,7 @@ Current maintainers are:
 | Edwin Kempin          | Google (formerly SAP)                   |
 | Gal Paikin            | Google                                  |
 | Han-Wen Nienhuys      | Google                                  |
+| Jacek Centkowski      | Digital.ai                              |
 | Joerg Zieren          | Google                                  |
 | Luca Milanesio        | GerritForge                             |
 | Marco Miller          | Ericsson                                |
