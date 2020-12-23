@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e23f35a_f40a224b",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-23T22:04:13Z",
+      "side": 1,
+      "message": "The fix is also included in stable-3.0 branch: [1], but we mention it here, because we are not going to conduct new 3.0 fix release because it\u0027s EOL?\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/286906",
+      "revId": "9da2e4f9a1e825e8070f60400cf97f8c1f7fb738",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44ca904b_036dd870",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-23T22:04:13Z",
+      "side": 1,
+      "message": "Include in ``?",
+      "range": {
+        "startLine": 331,
+        "startChar": 5,
+        "endLine": 331,
+        "endChar": 29
+      },
+      "revId": "9da2e4f9a1e825e8070f60400cf97f8c1f7fb738",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "547469e3_e8b32ef8",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-23T22:04:13Z",
+      "side": 1,
+      "message": "And here?",
+      "range": {
+        "startLine": 331,
+        "startChar": 34,
+        "endLine": 331,
+        "endChar": 53
+      },
+      "revId": "9da2e4f9a1e825e8070f60400cf97f8c1f7fb738",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7395390a_bd14c61b",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-23T22:04:13Z",
+      "side": 1,
+      "message": "unconditionally",
+      "range": {
+        "startLine": 344,
+        "startChar": 9,
+        "endLine": 344,
+        "endChar": 23
+      },
+      "revId": "9da2e4f9a1e825e8070f60400cf97f8c1f7fb738",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
