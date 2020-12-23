@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1b713ba_672b6529",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-23T14:38:57Z",
+      "side": 1,
+      "message": "This link doesn\u0027t work?\n\n  https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#events.payload.listChangeOptions\n\nmay be just: Section event, this works:\n\n  https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#event",
+      "range": {
+        "startLine": 511,
+        "startChar": 147,
+        "endLine": 511,
+        "endChar": 194
+      },
+      "revId": "602dd57d97c8980e70837bdb8a8e65ee74322518",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1da794a3_687ab726",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 513,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-23T14:38:57Z",
+      "side": 1,
+      "message": "Mention that this option is enabled per default?",
+      "revId": "602dd57d97c8980e70837bdb8a8e65ee74322518",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
