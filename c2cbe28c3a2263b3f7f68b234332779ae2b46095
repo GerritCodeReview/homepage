@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f94b88dc_3065e3fa",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-12-23T09:04:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec66f559_f0ee4d86",
+      "range": {
+        "startLine": 198,
+        "startChar": 2,
+        "endLine": 198,
+        "endChar": 20
+      },
+      "revId": "c2cbe28c3a2263b3f7f68b234332779ae2b46095",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6022f13c_60abc748",
@@ -84,6 +108,54 @@
       "writtenOn": "2020-12-22T20:54:19Z",
       "side": 1,
       "message": "Link target doesn\u0027t exist, perhaps due to not having rolled out yet. That said, can this say something to save some readers from having to follow the link (e.g. something like \u0027as a disabled key in the [experiments section of gerrit.config](...)\u0027)?",
+      "range": {
+        "startLine": 202,
+        "startChar": 3,
+        "endLine": 202,
+        "endChar": 7
+      },
+      "revId": "c2cbe28c3a2263b3f7f68b234332779ae2b46095",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1b901cc_5b86dcd5",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-12-23T09:04:08Z",
+      "side": 1,
+      "message": "Done.\n\nWe are trying not to create code like that because we\u0027d need to maintain it indefinitely.",
+      "parentUuid": "49ecb721_1267c481",
+      "range": {
+        "startLine": 202,
+        "startChar": 8,
+        "endLine": 202,
+        "endChar": 9
+      },
+      "revId": "c2cbe28c3a2263b3f7f68b234332779ae2b46095",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5c976df_fb3c7cf5",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-12-23T09:04:08Z",
+      "side": 1,
+      "message": "Yep, rollout :-)\n\nDone.",
+      "parentUuid": "0fc57452_7b9fae3f",
       "range": {
         "startLine": 202,
         "startChar": 3,
