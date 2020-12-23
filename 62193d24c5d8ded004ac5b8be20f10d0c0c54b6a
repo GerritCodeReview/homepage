@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e05e8b1_925d9365",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-23T15:06:47Z",
+      "side": 1,
+      "message": "Link to the commit?",
+      "range": {
+        "startLine": 329,
+        "startChar": 4,
+        "endLine": 329,
+        "endChar": 58
+      },
+      "revId": "62193d24c5d8ded004ac5b8be20f10d0c0c54b6a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26eb4265_eef5d63f",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-23T15:06:47Z",
+      "side": 1,
+      "message": "introduced",
+      "range": {
+        "startLine": 329,
+        "startChar": 59,
+        "endLine": 329,
+        "endChar": 69
+      },
+      "revId": "62193d24c5d8ded004ac5b8be20f10d0c0c54b6a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e05411a7_a0358d6c",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-23T15:06:47Z",
+      "side": 1,
+      "message": "+ (e.g. plugins)",
+      "range": {
+        "startLine": 330,
+        "startChar": 33,
+        "endLine": 330,
+        "endChar": 34
+      },
+      "revId": "62193d24c5d8ded004ac5b8be20f10d0c0c54b6a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10a9d6a9_a48539e3",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-23T15:06:47Z",
+      "side": 1,
+      "message": "The replication plugin wasn\u0027t broken but the All-Users.git repositories did not get any of the user\u0027s refs replicated to the slaves.\n\nAlso mention that after upgrade, it is require to trigger a forced replication of the All-Users.git repository manually.",
+      "range": {
+        "startLine": 331,
+        "startChar": 21,
+        "endLine": 331,
+        "endChar": 70
+      },
+      "revId": "62193d24c5d8ded004ac5b8be20f10d0c0c54b6a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
