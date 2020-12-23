@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9249fa5c_ff6430d0",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-23T13:41:51Z",
+      "side": 1,
+      "message": "But this is not implemented: CommentAddedEvent doesn\u0027t expose patch set level comments, so there is nothing to parse yet.",
+      "range": {
+        "startLine": 204,
+        "startChar": 12,
+        "endLine": 205,
+        "endChar": 10
+      },
+      "revId": "ce958fd48ff3762b17aeb127f8c7ae042ecd3154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
