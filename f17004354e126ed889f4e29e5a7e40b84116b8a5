@@ -20,6 +20,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f7b98685_bda3de8b",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-12-23T14:34:13Z",
+      "side": 1,
+      "message": "nit: two words",
+      "range": {
+        "startLine": 209,
+        "startChar": 8,
+        "endLine": 209,
+        "endChar": 9
+      },
+      "revId": "f17004354e126ed889f4e29e5a7e40b84116b8a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84c9225a_b5ecc6ca",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2020-12-23T14:34:13Z",
+      "side": 1,
+      "message": "nit: \"Gerrit exposes\"",
+      "range": {
+        "startLine": 210,
+        "startChar": 40,
+        "endLine": 210,
+        "endChar": 46
+      },
+      "revId": "f17004354e126ed889f4e29e5a7e40b84116b8a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "276d9d1e_5390f417",
         "filename": "pages/site/releases/3.3.md",
         "patchSetId": 1
