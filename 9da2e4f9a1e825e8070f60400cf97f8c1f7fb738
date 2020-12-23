@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7421e709_83ac023e",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-23T22:26:02Z",
+      "side": 1,
+      "message": "We actually include *ALL* changes introduced, even if they are the result of a merge with an earlier branch.\n\nWhen we\u0027ll release 3.0.x, we\u0027ll just copy that information on the relevant 3.0.x release notes.",
+      "parentUuid": "6e23f35a_f40a224b",
+      "revId": "9da2e4f9a1e825e8070f60400cf97f8c1f7fb738",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "44ca904b_036dd870",
@@ -64,6 +82,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1521848_836c14cb",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-23T22:26:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "547469e3_e8b32ef8",
+      "range": {
+        "startLine": 331,
+        "startChar": 34,
+        "endLine": 331,
+        "endChar": 53
+      },
+      "revId": "9da2e4f9a1e825e8070f60400cf97f8c1f7fb738",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e98022e7_f4148ed5",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-23T22:26:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "44ca904b_036dd870",
+      "range": {
+        "startLine": 331,
+        "startChar": 5,
+        "endLine": 331,
+        "endChar": 29
+      },
+      "revId": "9da2e4f9a1e825e8070f60400cf97f8c1f7fb738",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7395390a_bd14c61b",
@@ -77,6 +143,30 @@
       "writtenOn": "2020-12-23T22:04:13Z",
       "side": 1,
       "message": "unconditionally",
+      "range": {
+        "startLine": 344,
+        "startChar": 9,
+        "endLine": 344,
+        "endChar": 23
+      },
+      "revId": "9da2e4f9a1e825e8070f60400cf97f8c1f7fb738",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ae2ba12_de861f03",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2020-12-23T22:26:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7395390a_bd14c61b",
       "range": {
         "startLine": 344,
         "startChar": 9,
