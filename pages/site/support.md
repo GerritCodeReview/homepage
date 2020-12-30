@@ -98,6 +98,80 @@ depending on the severity of the issue raised.
 > **NOTE**: Bug reports about existing features are typically classified between P0 and P3,
 > feature requests are classified between P2 and P4.
 
+There are companies that are very active in developing and supporting the Gerrit Code Review
+core and the associated plugins: see below a short non-exhaustive list of companies and their
+published support policies.
+
+### [GerritForge](http://www.gerritforge.com)
+
+GerritForge is [UK-based Private Limited Company](https://find-and-update.company-information.service.gov.uk/company/06895373)
+with a passion for Open-Source and is fully committed to providing *all of its source code contributions*
+and know-how to the community, including bug-fixes, features, plugins, help and support.
+
+GerritForge has been active in the Gerrit Code Review community
+[since GitTogether 2011](https://opensource.googleblog.com/2011/12/gittogether-2011.html),
+has contributed [thousands of changes](https://analytics.gerrithub.io/kibana/s/gerritcodereview/goto/1102029a35bbff8b89187b8aa31a22b4)
+to the Gerrit platform and has been organizing the Gerrit User Summits and Hackathons
+since the [Longon Hackathon 2013](https://gerritforge.com/events.html).
+
+### Community support policy
+
+GerritForge provides free Community Support (CS) for the Gerrit community using two channels:
+1. [Repo-discuss mailing list](https://groups.google.com/g/repo-discuss)
+2. [Gerrit issue-tracker](https://bugs.chromium.org/p/gerrit)
+
+The channels are monitored daily, 8:00-23:00 GMT (working days, excluding UK+EU Bank Holidays).
+The target response time is aligned with the general Gerrit Support SLO.
+
+**NOTE**: GerritForge does not answer to private e-mails or Slack channel direct messages,
+because the aim of community support is to spread the knowledge with the whole community.
+
+All Gerrit non-EOL releases are actively supported and GerritForge is happy to contribute bug-fixes
+on [gerrit-review.googlesource.com](https://gerrit-review.googlesource.com) and provide
+the [CI/CD pipeline](https://gerrit-ci.gerritforge.com) for building the packaged artifacts for
+download.
+
+GerritForge keeps an archive of EOL plugins builds on the
+[CI/CD archive site](https://archive-ci.gerritforge.com/), available for download but not actively
+maintained or supported.
+
+Gerrit EOL releaes *may be* also supported on a good-will basis, if the problem can be also reproduced
+and still relevant on a non-EOL version.
+
+Problems and fixes associated with EOL releases, no more relevant for non-EOL releases, fall within
+the scope fo the GerritForge's Enterprise support.
+
+### Enterprise support policy
+
+Enterprise Support (ES) is reserved for GerritForge customers and is provided using three main channels:
+1. [GerritForge Support portal](https://www.gerritforge.com/support)
+2. [GerritForge Support e-mail](mailto:support@gerritforge.com)
+3. [Global phone numbers or Video-conference](https://www.gerritforge.com/contact.html)
+
+The channels are monitored on a 24/7 basis, 365 days a year. The response time is guaranteed by the
+[support contract terms and conditions](https://www.gerritforge.com/20191007.GerritEnterpriseSupport.TermsAndConditions.GerritForge.pdf)
+while the resolution time depends on the problem.
+
+See below the guaranteed response time SLA at a glance (Silver, Gold or Platinum support contracts):
+
+| Severity | Description                                                    | Silver | Gold  | Platinum
+|----------|----------------------------------------------------------------|---------------------------
+| P1       | Emergency: complete outage or loss of service or functionality | 24 h   | 8 h   | 4 h
+| P2       | Urgent: reduced service or functionality, security, integrity  | 5 wd   | 24 h  | 8 h
+| P3       | Non-urgent: Software or procedural problems                    | 30 wd  | 5 wd  | 24 h
+| P4       | Everything else                                                | -      | 30 wd | 5 wd
+
+**LEGEND**: `wd`=working days (UK Calendar), `h`=hours.
+
+### Supported plugins
+
+[GerritForge team members](https://analytics.gerrithub.io/kibana/s/gerritcodereview/goto/1102029a35bbff8b89187b8aa31a22b4)
+have developed a number of
+[plugins over the past 10 years](https://www.gerritcodereview.com/plugins.html) and are happy to support
+them.
+
+The support for plugins follows the same CS and ES support policies adopted for Gerrit Code Review.
+
 ## Bugs
 
 If the issue/question you posted on Repo Discuss is considered a bug
