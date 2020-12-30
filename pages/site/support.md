@@ -98,6 +98,97 @@ depending on the severity of the issue raised.
 > **NOTE**: Bug reports about existing features are typically classified between P0 and P3,
 > feature requests are classified between P2 and P4.
 
+There are companies that are very active in developing and supporting Gerrit
+Code Review core and the associated plugins: see below a short non-exhaustive
+list of companies and their published support policies.
+
+### [GerritForge](http://www.gerritforge.com)
+
+GerritForge is [UK-based Private Limited Company](https://find-and-update.company-information.service.gov.uk/company/06895373)
+with a passion for Open-Source and is fully committed to providing *all of its
+source code contributions* and know-how to the community, including bug-fixes,
+features, plugins, help and support.
+
+GerritForge has been active in the Gerrit Code Review community
+since [GitTogether 2011](https://opensource.googleblog.com/2011/12/gittogether-2011.html),
+has contributed [thousands of changes](https://analytics.gerrithub.io/kibana/s/gerritcodereview/goto/1102029a35bbff8b89187b8aa31a22b4)
+to the Gerrit platform and has been organizing the Gerrit User Summits and
+Hackathons since the [London Hackathon 2013](https://gerritforge.com/events.html).
+
+GerritForge offers [**Enterprise Support (ES)**](#enterprise-support) to its
+customers and [**Community Support (CS)**](#community-support) to the whole
+Gerrit community; see below the SLO and SLA associated with its services.
+
+### Community Support
+
+GerritForge provides free Community Support (CS) for the Gerrit community using
+two channels:
+1. [Repo-discuss mailing list](https://groups.google.com/g/repo-discuss)
+2. [Gerrit issue-tracker](https://bugs.chromium.org/p/gerrit)
+
+GerritForge monitors the channels *on UK and EU working days, 8:00-23:00 GMT*,
+and occasionally over week-ends and bank holidays.
+Although a response is not guaranteed for community support, we aim to
+meet the general [Gerrit Support SLO](#response-time-and-slo).
+
+> **NOTE**: GerritForge does not answer to private e-mails or Slack direct messages
+> under the CS umbrella, because the aim is to spread the knowledge with the whole community.
+
+All Gerrit **non-EOL releases are actively supported** and GerritForge **is happy,
+but not committed,** to directly fix the issue. GerritForge also hosts the
+[CI/CD pipeline](https://gerrit-ci.gerritforge.com) for building the packaged
+artifacts for download.
+
+GerritForge keeps an archive of EOL plugins builds on the
+[CI/CD archive site](https://archive-ci.gerritforge.com/).
+The plugins artifacts are available for download but not necessarily maintained
+or supported.
+
+Gerrit **EOL releases may also be supported**, but not necessarily fixed, on a
+good-will basis, but only if the problem can be **still relevant** on a non-EOL
+version. All other problems and fixes associated with EOL releases fall within
+the scope of the GerritForge's [Enterprise support](#enterprise-support).
+
+### Enterprise Support
+
+Enterprise Support (ES) is available to GerritForge customers [for a fee](http://gerritforge.com/pricing.html)
+using three main channels:
+1. [ES portal](https://gerritforge.com/support)
+2. [ES e-mail](mailto:support@gerritforge.com)
+3. [Phone or Skype](https://gerritforge.com/contact.html)
+
+The channels are monitored on a **24/7 basis, 365 days a year**.
+The response time is guaranteed by the
+[support contract terms and conditions](https://www.gerritforge.com/20191007.GerritEnterpriseSupport.TermsAndConditions.GerritForge.pdf);
+the resolution time depends on the nature and complexity of the problem.
+
+GerritForge provides fixes for Gerrit Code Review or its plugins included in the
+ES contract for **both EOL and non-EOL Gerrit installation (v2.8 or later)** as
+downloadable artifacts on the [ES portal](https://www.gerritforge.com/support).
+All the source code associated with the fixes are contributed to
+[gerrit-review.googlesource.com](https://gerrit-review.googlesource.com) for the
+benefit of the whole Gerrit community.
+
+See below the guaranteed response time SLA at a glance (Silver, Gold or Platinum
+support services):
+
+| Severity | Description                                                    | Silver Support  | Gold Support    | Platinum Support
+|----------|----------------------------------------------------------------|-----------------|-----------------|-----------------
+| P1       | Emergency: complete outage or loss of service or functionality | 24 hours        | 8 hours         | 4 hours
+| P2       | Urgent: reduced service or functionality, security, integrity  | 5 working days  | 24 hours        | 8 hours
+| P3       | Non-urgent: Software or procedural problems                    | 30 working days | 5 working days  | 24 hours
+| P4       | Everything else                                                | best effort     | 30 working days | 5 working days
+
+### Supported plugins
+
+[GerritForge team members](https://analytics.gerrithub.io/kibana/s/gerritcodereview/goto/1102029a35bbff8b89187b8aa31a22b4)
+have developed a number of
+[plugins over the past 10 years](/plugins.html) and are happy to support
+them.
+
+The support for plugins follows the same [CS](#community-support) and [ES](#enterprise-support)
+policies adopted for Gerrit Code Review.
+
 ## Bugs
 
 If the issue/question you posted on Repo Discuss is considered a bug
