@@ -16,6 +16,52 @@
       "message": "See the GerritForge\u0027s support policies, as agreed during the last ESC meeting.",
       "revId": "537aea4620b5e9a5ccdd8417ec02055036a0b859",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c6570fd_9e3085f3",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-31T10:47:31Z",
+      "side": 1,
+      "message": "releases",
+      "range": {
+        "startLine": 143,
+        "startChar": 13,
+        "endLine": 143,
+        "endChar": 20
+      },
+      "revId": "537aea4620b5e9a5ccdd8417ec02055036a0b859",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c88e4be2_fea3c726",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2020-12-31T10:47:31Z",
+      "side": 1,
+      "message": "supported but not fixed?",
+      "range": {
+        "startLine": 143,
+        "startChar": 45,
+        "endLine": 143,
+        "endChar": 60
+      },
+      "revId": "537aea4620b5e9a5ccdd8417ec02055036a0b859",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
