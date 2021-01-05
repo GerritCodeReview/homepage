@@ -18,6 +18,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f219c086_83415556",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-01-05T14:47:23Z",
+      "side": 1,
+      "message": "Thanks for the review, see my feedback below.",
+      "revId": "8d8427316d0bfb25dee809be3d59fe2962b0f5b9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2fa146ec_16656b7e",
@@ -43,6 +60,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2a3b123e_08f2dd50",
+        "filename": "pages/site/support.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-01-05T14:47:23Z",
+      "side": 1,
+      "message": "How would you suggest to amend the phrasing to make it sound like a commitment?\n\nP.S. \"monitoring\" does not involve \"acting\". We may monitor the channel, see 100 items but not action all of them, because we do provide SLA for Community Support, but just SLO.",
+      "parentUuid": "2fa146ec_16656b7e",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 78
+      },
+      "revId": "8d8427316d0bfb25dee809be3d59fe2962b0f5b9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7068d68e_60fb7cba",
         "filename": "pages/site/support.md",
         "patchSetId": 5
@@ -54,6 +95,30 @@
       "writtenOn": "2021-01-05T08:07:51Z",
       "side": 1,
       "message": "Does this anchor exist?",
+      "range": {
+        "startLine": 131,
+        "startChar": 74,
+        "endLine": 131,
+        "endChar": 98
+      },
+      "revId": "8d8427316d0bfb25dee809be3d59fe2962b0f5b9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "156180b7_88bdc801",
+        "filename": "pages/site/support.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-01-05T14:47:23Z",
+      "side": 1,
+      "message": "It should exist:\nhttps://www.gerritcodereview.com/support.html#response-time-and-slo",
+      "parentUuid": "7068d68e_60fb7cba",
       "range": {
         "startLine": 131,
         "startChar": 74,
