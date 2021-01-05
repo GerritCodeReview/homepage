@@ -84,6 +84,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "62cc4cf2_b24cf0b2",
+        "filename": "pages/site/support.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2021-01-05T14:59:09Z",
+      "side": 1,
+      "message": "I\u0027d just be explicit about it:\n\nGerritForge monitors the channels *on UK and EU working days, 8:00-23:00 GMT*, [...]. A response is not guaranteed, nor is there any guarantee on response time for community support.",
+      "parentUuid": "2a3b123e_08f2dd50",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 78
+      },
+      "revId": "8d8427316d0bfb25dee809be3d59fe2962b0f5b9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7068d68e_60fb7cba",
         "filename": "pages/site/support.md",
         "patchSetId": 5
