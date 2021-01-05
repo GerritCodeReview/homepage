@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2f3d4d1c_271de2f0",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2021-01-05T08:03:28Z",
+      "side": 1,
+      "message": "We did not deploy docs since we merged the other changes, so the link (if valid in principle) will work in the next days.",
+      "parentUuid": "a1b713ba_672b6529",
+      "range": {
+        "startLine": 511,
+        "startChar": 147,
+        "endLine": 511,
+        "endChar": 194
+      },
+      "revId": "602dd57d97c8980e70837bdb8a8e65ee74322518",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1da794a3_687ab726",
         "filename": "pages/site/releases/3.3.md",
         "patchSetId": 3
