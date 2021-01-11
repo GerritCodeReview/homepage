@@ -69,6 +69,30 @@
       },
       "revId": "865cb2c4419aed0a77c2607d37dc9d3986af80f2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdd25685_7749199e",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2021-01-11T18:18:38Z",
+      "side": 1,
+      "message": "I agree with Ossi\u0027s point here --- what we run is exactly the code from upstream (except in temporary unusual cases e.g. when needed to gradually handle an API change), so the wording here is a bit confusing for someone wondering what they get when they use Gerrit from gerrit.googlesource.com/gerrit.\n\nSaying \"The storage backend is very different between googlesource.com and other deployments\" instead of \"The Gerrit backend is very different between googlesource and upstream flavors\" might be enough to make it less confusing.\n\nAnother aspect (usually more relevant!) is that googlesource.com runs the latest code from \"master\" and bug reporters tend to be using older released code. But I think the point above about storage backend does an okay enough job of making the point.",
+      "parentUuid": "8deb72b0_e5a6c002",
+      "range": {
+        "startLine": 121,
+        "startChar": 25,
+        "endLine": 122,
+        "endChar": 37
+      },
+      "revId": "865cb2c4419aed0a77c2607d37dc9d3986af80f2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
