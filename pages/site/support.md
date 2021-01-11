@@ -176,32 +176,12 @@ the scope of the GerritForge's [Enterprise support](#enterprise-support).
 ### Enterprise Support
 
 Enterprise Support (ES) is available to GerritForge customers [for a fee](http://gerritforge.com/pricing.html)
-using three main channels:
-1. [ES portal](https://gerritforge.com/support)
-2. [ES e-mail](mailto:support@gerritforge.com)
-3. [Phone or Skype](https://gerritforge.com/contact.html)
+using dedicated channels, monitored on a **24/7 basis, 365 days a year**.
 
-The channels are monitored on a **24/7 basis, 365 days a year**.
-The response time is guaranteed by the
-[support contract terms and conditions](https://www.gerritforge.com/20191007.GerritEnterpriseSupport.TermsAndConditions.GerritForge.pdf);
-the resolution time depends on the nature and complexity of the problem.
+The response time is guaranteed by a strict SLA specified in the
+[support contract terms and conditions](https://www.gerritforge.com/20191007.GerritEnterpriseSupport.TermsAndConditions.GerritForge.pdf).
 
-GerritForge provides fixes for Gerrit Code Review or its plugins included in the
-ES contract for **both EOL and non-EOL Gerrit installation (v2.8 or later)** as
-downloadable artifacts on the [ES portal](https://www.gerritforge.com/support).
-All the source code associated with the fixes are contributed to
-[gerrit-review.googlesource.com](https://gerrit-review.googlesource.com) for the
-benefit of the whole Gerrit community.
-
-See below the guaranteed response time SLA at a glance (Silver, Gold or Platinum
-support services):
-
-| Severity | Description                                                    | Silver Support  | Gold Support    | Platinum Support
-|----------|----------------------------------------------------------------|-----------------|-----------------|-----------------
-| P1       | Emergency: complete outage or loss of service or functionality | 24 hours        | 8 hours         | 4 hours
-| P2       | Urgent: reduced service or functionality, security, integrity  | 5 working days  | 24 hours        | 8 hours
-| P3       | Non-urgent: Software or procedural problems                    | 30 working days | 5 working days  | 24 hours
-| P4       | Everything else                                                | best effort     | 30 working days | 5 working days
+See more details on the [GerritForge Enterprise Support web-site](https://www.gerritforge.com/support).
 
 ### Supported plugins
 
