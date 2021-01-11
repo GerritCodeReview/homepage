@@ -34,6 +34,24 @@
       "parentUuid": "245b9432_115c21cc",
       "revId": "5f05a6c36912d11f2b1363c255f565375805c4be",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1616ce08_19879b6c",
+        "filename": "pages/site/support.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-01-11T14:24:21Z",
+      "side": 1,
+      "message": "yes, or something like\n\n\"Gerritforge offers a Enterprise Support for [a fee], with guaranteed guaranteed response times and\ncommitment to provide a solution and a fix. See [T\u0026C link] for details\"",
+      "parentUuid": "b944a4f1_e4a95de0",
+      "revId": "5f05a6c36912d11f2b1363c255f565375805c4be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
