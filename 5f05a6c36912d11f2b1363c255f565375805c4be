@@ -52,6 +52,24 @@
       "parentUuid": "b944a4f1_e4a95de0",
       "revId": "5f05a6c36912d11f2b1363c255f565375805c4be",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a146c4e4_c2a4d3b8",
+        "filename": "pages/site/support.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-01-11T15:45:44Z",
+      "side": 1,
+      "message": "Addressed with Change-Id: Iec117e9ae.\n\nThanks for the feedback.",
+      "parentUuid": "1616ce08_19879b6c",
+      "revId": "5f05a6c36912d11f2b1363c255f565375805c4be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
