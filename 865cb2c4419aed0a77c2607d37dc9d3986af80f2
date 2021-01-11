@@ -45,6 +45,30 @@
       },
       "revId": "865cb2c4419aed0a77c2607d37dc9d3986af80f2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8deb72b0_e5a6c002",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-01-11T18:02:48Z",
+      "side": 1,
+      "message": "\u003e what exactly do you mean by \"upstream flavors\"? deployed where? only inside google? the context of that section is not entirely clear, imo.\n\u003e and doesn\u0027t this sentence kinda contradict what you said at the the summit when i specifically asked about that? i\u0027m aware that you have a different storage backend, but \"gerrit backend\" entails a lot more than that.\n\ndo you have a suggested wording? I\u0027m trying to get across that we don\u0027t have the time and often lack expertise to analyze bugs that do not reproduce on googlesource.com.",
+      "parentUuid": "35b44f24_96d64766",
+      "range": {
+        "startLine": 121,
+        "startChar": 25,
+        "endLine": 122,
+        "endChar": 37
+      },
+      "revId": "865cb2c4419aed0a77c2607d37dc9d3986af80f2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
