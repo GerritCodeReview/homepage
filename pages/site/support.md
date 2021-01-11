@@ -102,6 +102,30 @@ There are companies that are very active in developing and supporting Gerrit
 Code Review core and the associated plugins: see below a short non-exhaustive
 list of companies and their published support policies.
 
+
+### [Google](https://www.google.com)
+
+The Gerrit team at Google runs its own Gerrit deployment under the
+`googlesource.com` domain. This deployment is in service of Google
+projects that have external visibility or external partners. As the
+deployment is based on the latest development release of Gerrit, this
+is where we focus our triage and support efforts. In particular:
+
+*  When filing a bug through the "report bug" link on
+   googlesource.com, we add `host-googlesource` label to filed
+   bugs. The frontend is shared between the googlesource and upstream
+   product, hence the frontend team at Google has a daily triage round to
+   look at all frontend/UI bugs
+
+*  The backend team at Google has a daily triage for bugs with the
+   `googlesource` label. The Gerrit backend is very different between
+   googlesource and upstream flavors, so we do not have the expertise,
+   nor bandwidth to analyze functional bugs that do not reproduce on
+   `googlesource.com`.
+
+*  We look at all security bugs as a matter of policy.
+
+
 ### [GerritForge](http://www.gerritforge.com)
 
 GerritForge is [UK-based Private Limited Company](https://find-and-update.company-information.service.gov.uk/company/06895373)
