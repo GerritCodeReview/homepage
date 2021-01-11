@@ -16,6 +16,24 @@
       "message": "wouldn\u0027t this be better suited to a page on the gerritforge site? That would make the difference between the gerrit open source community and parties that offer commercial contracts more clear.",
       "revId": "5f05a6c36912d11f2b1363c255f565375805c4be",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b944a4f1_e4a95de0",
+        "filename": "pages/site/support.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-01-11T13:47:04Z",
+      "side": 1,
+      "message": "I believe the request from the community was to have:\n- guaranteed response times, based on the priority of the problem\n- commitment to provide a solution and a fix\n\nThe two above points are covered by the Enterprise Support, which is provided by GerritForge for a fee, as discussed during the last ESC.\n\nI agree with you that the details can be left to the GerritForge web-site, without having to duplicate them here.\n\nWhat do you think about:\n- Reducing the entire paragraph to just L154-163\n- Link to GerritForge web site for more details\n\nDoes the above make sense to you?",
+      "parentUuid": "245b9432_115c21cc",
+      "revId": "5f05a6c36912d11f2b1363c255f565375805c4be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
