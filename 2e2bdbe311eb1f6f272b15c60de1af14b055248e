@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c612ab9_32b3f8dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2021-01-12T20:16:04Z",
+      "side": 1,
+      "message": "some nits.\n\ni *think* this is better, but at this point i\u0027m not objective any more, because the prior explanations were enough to make me get the gist.\n\nit\u0027s a weird situation that google disclaims responsibility for rather central components of gerrit, given that it effectively controls the project.\n\nspeaking of responsibilities, is there a chart of current code owners? i expected something on or linked from the maintainer list, but didn\u0027t find anything.",
+      "revId": "2e2bdbe311eb1f6f272b15c60de1af14b055248e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88b7546b_4ee2774a",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2021-01-12T20:16:04Z",
+      "side": 1,
+      "message": "+s\n\nbut i\u0027d actually say \"due to this\".",
+      "range": {
+        "startLine": 117,
+        "startChar": 4,
+        "endLine": 117,
+        "endChar": 5
+      },
+      "revId": "2e2bdbe311eb1f6f272b15c60de1af14b055248e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d02c5c76_8433dd15",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2021-01-12T20:16:04Z",
+      "side": 1,
+      "message": "i think that was supposed to be a period.",
+      "range": {
+        "startLine": 118,
+        "startChar": 13,
+        "endLine": 118,
+        "endChar": 14
+      },
+      "revId": "2e2bdbe311eb1f6f272b15c60de1af14b055248e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db47e3bd_8333e81b",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2021-01-12T20:16:04Z",
+      "side": 1,
+      "message": "+the",
+      "range": {
+        "startLine": 121,
+        "startChar": 6,
+        "endLine": 121,
+        "endChar": 7
+      },
+      "revId": "2e2bdbe311eb1f6f272b15c60de1af14b055248e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
