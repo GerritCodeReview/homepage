@@ -93,6 +93,30 @@
       },
       "revId": "865cb2c4419aed0a77c2607d37dc9d3986af80f2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e47c3da_e4c56467",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-01-12T18:49:40Z",
+      "side": 1,
+      "message": "how\u0027s this: https://gerrit-review.googlesource.com/c/homepage/+/293543 ?",
+      "parentUuid": "fdd25685_7749199e",
+      "range": {
+        "startLine": 121,
+        "startChar": 25,
+        "endLine": 122,
+        "endChar": 37
+      },
+      "revId": "865cb2c4419aed0a77c2607d37dc9d3986af80f2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
