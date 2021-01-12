@@ -107,21 +107,24 @@ list of companies and their published support policies.
 
 The Gerrit team at Google runs its own Gerrit deployment under the
 `googlesource.com` domain. This deployment is in service of Google
-projects that have external visibility or external partners. As the
-deployment is based on the latest development release of Gerrit, this
-is where we focus our triage and support efforts. In particular:
+projects that have external visibility or external partners.  The
+deployment is based on the latest development commit of Gerrit.
 
-*  When filing a bug through the "report bug" link on
-   googlesource.com, we add `host-googlesource` label to filed
-   bugs. The frontend is shared between the googlesource and upstream
-   product, hence the frontend team at Google has a daily triage round to
-   look at all frontend/UI bugs
+Gerrit at `googlesource.com` shares its business logic with the
+publicly available gerrit code, but has important differences in
+low-level backend details, such as account handling, search index, and
+the git storage. It also lacks SSH support.
 
-*  The backend team at Google has a daily triage for bugs with the
-   `googlesource` label. The Gerrit backend is very different between
-   googlesource and upstream flavors, so we do not have the expertise,
-   nor bandwidth to analyze functional bugs that do not reproduce on
-   `googlesource.com`.
+When filing a bug through the "report bug" link on googlesource.com,
+we add `host-googlesource` label to filed bugs.
+
+*  The frontend team at Google has a daily triage round to look at all
+   frontend/UI bugs.
+
+*  The backend team does a daily triage on bugs that have the
+   `host-googlesource` label. As detailed above, we lack expertise 
+   to analyze bugs on other installation, so they are addressed on a
+   best-effort basis.
 
 *  We look at all security bugs as a matter of policy.
 
