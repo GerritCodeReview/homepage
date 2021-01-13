@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "582ab133_285610bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-01-13T11:46:48Z",
+      "side": 1,
+      "message": "\u003e it\u0027s a weird situation that google disclaims responsibility for rather central components of gerrit, given that it effectively controls the project.\n\nthis is not disclaiming responsibility per se. We are setting expectations around response time for bug reports. We are still interested in fixing bugs beyond what is stated here, but it is hard to give promises, because it depends on the nature of the problem.\n\nAs a practical examples: we don\u0027t use LDAP authentication, and we have never touched its code, so we can\u0027t vouch for it. As another example,  we actually do have some expertise around git storage that uses the local file system, and have fixed bugs in the past.\n\n\u003e speaking of responsibilities, is there a chart of current code owners?\n\nno. your best is the \u0027blame\u0027 button.",
+      "parentUuid": "1c612ab9_32b3f8dd",
+      "revId": "2e2bdbe311eb1f6f272b15c60de1af14b055248e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "88b7546b_4ee2774a",
@@ -48,6 +66,30 @@
       "writtenOn": "2021-01-12T20:16:04Z",
       "side": 1,
       "message": "+s\n\nbut i\u0027d actually say \"due to this\".",
+      "range": {
+        "startLine": 117,
+        "startChar": 4,
+        "endLine": 117,
+        "endChar": 5
+      },
+      "revId": "2e2bdbe311eb1f6f272b15c60de1af14b055248e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37c99ed1_ac603d78",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-01-13T11:46:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88b7546b_4ee2774a",
       "range": {
         "startLine": 117,
         "startChar": 4,
@@ -81,6 +123,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0f6df14_648d4cb3",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-01-13T11:46:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d02c5c76_8433dd15",
+      "range": {
+        "startLine": 118,
+        "startChar": 13,
+        "endLine": 118,
+        "endChar": 14
+      },
+      "revId": "2e2bdbe311eb1f6f272b15c60de1af14b055248e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "db47e3bd_8333e81b",
@@ -94,6 +160,30 @@
       "writtenOn": "2021-01-12T20:16:04Z",
       "side": 1,
       "message": "+the",
+      "range": {
+        "startLine": 121,
+        "startChar": 6,
+        "endLine": 121,
+        "endChar": 7
+      },
+      "revId": "2e2bdbe311eb1f6f272b15c60de1af14b055248e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6177af1f_c6cb2cf0",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-01-13T11:46:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "db47e3bd_8333e81b",
       "range": {
         "startLine": 121,
         "startChar": 6,
