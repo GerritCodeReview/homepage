@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "946a53ee_56ef9728",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-01T18:48:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "495d40f0_209f2ddb",
+      "range": {
+        "startLine": 452,
+        "startChar": 3,
+        "endLine": 452,
+        "endChar": 76
+      },
+      "revId": "3f874686c7faa129aad25c92474bba34b6cc30c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e6e1c74a_669b877d",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-01-29T13:10:53Z",
       "side": 1,
       "message": "wasn\u0027t able to verify the CVE link as it is not public yet, someone who has an access should do that ;)",
+      "range": {
+        "startLine": 453,
+        "startChar": 21,
+        "endLine": 453,
+        "endChar": 68
+      },
+      "revId": "3f874686c7faa129aad25c92474bba34b6cc30c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "889d4d86_e58b3342",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 453,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-01T18:48:28Z",
+      "side": 1,
+      "message": "It should be available in neat future.",
+      "parentUuid": "e6e1c74a_669b877d",
       "range": {
         "startLine": 453,
         "startChar": 21,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e4a56e1_adef881c",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-01T18:48:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "078ed927_d70c32d9",
+      "range": {
+        "startLine": 454,
+        "startChar": 41,
+        "endLine": 454,
+        "endChar": 49
+      },
+      "revId": "3f874686c7faa129aad25c92474bba34b6cc30c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c4773f08_48ab4322",
@@ -93,6 +165,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "50056ca7_e35facda",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 457,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-01T18:48:28Z",
+      "side": 1,
+      "message": "Not applicable.",
+      "parentUuid": "c4773f08_48ab4322",
+      "range": {
+        "startLine": 457,
+        "startChar": 72,
+        "endLine": 457,
+        "endChar": 80
+      },
+      "revId": "3f874686c7faa129aad25c92474bba34b6cc30c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "337519aa_9ec25503",
@@ -106,6 +202,30 @@
       "writtenOn": "2021-01-29T13:10:53Z",
       "side": 1,
       "message": "and once again \u0027Git-over-HTTP\u0027",
+      "range": {
+        "startLine": 471,
+        "startChar": 33,
+        "endLine": 471,
+        "endChar": 41
+      },
+      "revId": "3f874686c7faa129aad25c92474bba34b6cc30c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75c3e4e8_8540750c",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 471,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-01T18:48:28Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "337519aa_9ec25503",
       "range": {
         "startLine": 471,
         "startChar": 33,
