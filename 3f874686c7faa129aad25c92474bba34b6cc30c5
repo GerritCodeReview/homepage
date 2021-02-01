@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "495d40f0_209f2ddb",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-02-01T13:28:52Z",
+      "side": 1,
+      "message": "I think this explanation goes into too much detail; isn\u0027t this aimed at admins? I\u0027d write something like,\n\n \"fixed memory leak in Git-over-HTTP requests. This problem could be used in a unauthenticated DoS attack.\"",
+      "range": {
+        "startLine": 452,
+        "startChar": 3,
+        "endLine": 452,
+        "endChar": 76
+      },
+      "revId": "3f874686c7faa129aad25c92474bba34b6cc30c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e6e1c74a_669b877d",
         "filename": "pages/site/releases/2.15.md",
         "patchSetId": 1
