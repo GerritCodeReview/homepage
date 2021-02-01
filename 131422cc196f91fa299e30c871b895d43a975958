@@ -22,6 +22,30 @@
       },
       "revId": "131422cc196f91fa299e30c871b895d43a975958",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12048cec_264c5d73",
+        "filename": "pages/site/releases/2.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-01T19:39:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd806bfb_c30d21b6",
+      "range": {
+        "startLine": 456,
+        "startChar": 31,
+        "endLine": 456,
+        "endChar": 33
+      },
+      "revId": "131422cc196f91fa299e30c871b895d43a975958",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
