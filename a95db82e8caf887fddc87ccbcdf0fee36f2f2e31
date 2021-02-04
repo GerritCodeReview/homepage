@@ -33,6 +33,24 @@
       "message": "Will you take care to document this new rule in the Gerrit docs?\nE.g. in the contribution section [1]?\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-community.html#how-to-contribute",
       "revId": "a95db82e8caf887fddc87ccbcdf0fee36f2f2e31",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc7fed76_8f3b3504",
+        "filename": "_posts/2021-02-02-esc-minutes.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-02-04T15:34:50Z",
+      "side": 1,
+      "message": "https://gerrit-review.googlesource.com/c/gerrit/+/295942",
+      "parentUuid": "51f707d4_4faf94f7",
+      "revId": "a95db82e8caf887fddc87ccbcdf0fee36f2f2e31",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
