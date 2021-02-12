@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "0b7dcdea_78cd2adf",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1083042
+      },
+      "writtenOn": "2021-02-12T14:07:11Z",
+      "side": 1,
+      "message": "Oops, wrong clipboard contents. Done.",
+      "parentUuid": "bbb04c09_6c101e5b",
+      "range": {
+        "startLine": 9,
+        "startChar": 5,
+        "endLine": 9,
+        "endChar": 62
+      },
+      "revId": "c66ca235500ea63f59c2f113d14f7d6cb62b5195",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "ed5b00d0_73442df2",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 1
@@ -72,6 +96,30 @@
       "writtenOn": "2021-02-11T17:40:39Z",
       "side": 1,
       "message": "this would go in 3.4, no?",
+      "range": {
+        "startLine": 511,
+        "startChar": 17,
+        "endLine": 511,
+        "endChar": 18
+      },
+      "revId": "c66ca235500ea63f59c2f113d14f7d6cb62b5195",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fd15fd8_40adf1a8",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 1083042
+      },
+      "writtenOn": "2021-02-12T14:07:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6568e8a6_ae638937",
       "range": {
         "startLine": 511,
         "startChar": 17,
