@@ -22,6 +22,30 @@
       },
       "revId": "c9e41cc0a5b202172e42154766aecc02b90a6da6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edd2d3fe_e39656df",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 650,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-02-12T22:24:13Z",
+      "side": 1,
+      "message": "I know, we discussed with David but in v2.16 we still use the \u0027slave\u0027 term everywhere. I am concerned that using a different term would be confusing in that release. WDYT?",
+      "parentUuid": "98a3fd11_60b021e4",
+      "range": {
+        "startLine": 650,
+        "startChar": 51,
+        "endLine": 650,
+        "endChar": 56
+      },
+      "revId": "c9e41cc0a5b202172e42154766aecc02b90a6da6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
