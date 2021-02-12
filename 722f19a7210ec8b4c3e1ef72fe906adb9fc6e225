@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f476b6e4_2f12b544",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011842
+      },
+      "writtenOn": "2021-02-12T17:05:00Z",
+      "side": 1,
+      "message": "https://gerrit-review.googlesource.com/c/gerrit/+/264179 appears to be about an implementation detail of counting modified files --- can this commit message (or, better yet, the release notes themselves) say a little more about the change in semantics?",
+      "revId": "722f19a7210ec8b4c3e1ef72fe906adb9fc6e225",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "756a5304_01db03ca",
         "filename": "pages/site/releases/3.4.md",
         "patchSetId": 6
