@@ -46,6 +46,30 @@
       },
       "revId": "c9e41cc0a5b202172e42154766aecc02b90a6da6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bde10a8_765ca7ca",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 650,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-12T22:27:21Z",
+      "side": 1,
+      "message": "Yep, keep it consistent for now.",
+      "parentUuid": "edd2d3fe_e39656df",
+      "range": {
+        "startLine": 650,
+        "startChar": 51,
+        "endLine": 650,
+        "endChar": 56
+      },
+      "revId": "c9e41cc0a5b202172e42154766aecc02b90a6da6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
