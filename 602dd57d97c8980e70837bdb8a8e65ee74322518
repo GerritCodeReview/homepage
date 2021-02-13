@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6e1d16d_098d0ce6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-13T07:31:24Z",
+      "side": 1,
+      "message": "Needs to be rebased. It\u0027s also typo in current documentation:\n\n  https://gerrit-documentation.storage.googleapis.com/Documentation/3.3.2/config-gerrit.html#event.comment-added.publishPatchSetLevelComment\n\n\"[\" bracket char:\n\n  [event.comment-added.publishPatchSetLevelComment",
+      "revId": "602dd57d97c8980e70837bdb8a8e65ee74322518",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a1b713ba_672b6529",
@@ -43,6 +60,53 @@
         "startChar": 147,
         "endLine": 511,
         "endChar": 194
+      },
+      "revId": "602dd57d97c8980e70837bdb8a8e65ee74322518",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37f66324_c89d9c7c",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-13T07:31:24Z",
+      "side": 1,
+      "message": "Evidently, this link:\n\n  https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#events.payload.listChangeOptions\n\nis wrong. It should be:\n\n  https://gerrit-documentation.storage.googleapis.com/Documentation/3.3.2/config-gerrit.html#event.comment-added.publishPatchSetLevelComment",
+      "parentUuid": "2f3d4d1c_271de2f0",
+      "range": {
+        "startLine": 511,
+        "startChar": 147,
+        "endLine": 511,
+        "endChar": 194
+      },
+      "revId": "602dd57d97c8980e70837bdb8a8e65ee74322518",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d65544ac_9f3bd786",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-02-13T07:31:24Z",
+      "side": 1,
+      "message": "3.3.2",
+      "range": {
+        "startLine": 511,
+        "startChar": 122,
+        "endLine": 511,
+        "endChar": 127
       },
       "revId": "602dd57d97c8980e70837bdb8a8e65ee74322518",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
