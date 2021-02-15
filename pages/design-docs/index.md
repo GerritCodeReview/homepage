@@ -26,6 +26,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Change Log: Threaded Feedback](design-docs/change-log-threaded-feedback.html) by Jacek Centkowski, approved 2020-03-25
 - [Instance Id](design-docs/instance-id.html) by Fabio Ponciroli, approved 2020-05-05
 - [Deletion of Groups](design-docs/delete-groups.html) by Gal Paikin / Jacek Centkowski, approved as plugin 2020-09-01
+- [Interplugin Communication](design-docs/inter-plugin-communication.html) by Nasser Grainawi, proposed 2021-02-23
 
 ## Reviews of Design Documents
 
