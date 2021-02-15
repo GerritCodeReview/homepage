@@ -15,14 +15,6 @@ There are [tutorials also in the Gerrit documentation](https://gerrit-review.goo
 [GerritForge](https://www.gerritforge.com) also publishes the recordings of the talks of the
 Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritforgetv).
 
-### How to add presentations
-
-Upload a change to the [homepage](https://gerrit-review.googlesource.com/admin/repos/homepage)
-project that adds the presentation to this page. If you don't know how to do this, just
-send an email to the [repo-discuss](https://groups.google.com/forum/#!forum/repo-discuss)
-mailing list that has a subject starting with '[presentation]' and a Gerrit maintainer
-will take care to upload the presentation for you.
-
 ### List of presentations
 
 Please add new presentations at the top of this list.
@@ -96,7 +88,13 @@ From: Luca Milanesio (GerritForge)
 
 From: Edwin Kempin (Google)
 
----
+### <a id="howToAddPresentations">How to add presentations
+
+Upload a change to the [homepage](https://gerrit-review.googlesource.com/admin/repos/homepage)
+project that adds the presentation to this page. If you don't know how to do this, just
+send an email to the [repo-discuss](https://groups.google.com/forum/#!forum/repo-discuss)
+mailing list that has a subject starting with '[presentation]' and a Gerrit maintainer
+will take care to upload the presentation for you.
 
 ### Template
 
