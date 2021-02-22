@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9ca0b97_68371c8f",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-22T18:30:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd09d2e8_ab587c17",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 9
+      },
+      "revId": "81c9e61a1b868cb71d0338740a2eb067cdcd88d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "372144fd_f8973ada",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-02-18T16:50:29Z",
       "side": 1,
       "message": "Needs translation",
+      "range": {
+        "startLine": 63,
+        "startChar": 29,
+        "endLine": 63,
+        "endChar": 46
+      },
+      "revId": "81c9e61a1b868cb71d0338740a2eb067cdcd88d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "996f1389_b0bed8c1",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-22T18:30:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "372144fd_f8973ada",
       "range": {
         "startLine": 63,
         "startChar": 29,

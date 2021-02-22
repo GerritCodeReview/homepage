@@ -22,6 +22,30 @@
       },
       "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62e32756_b10cb185",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-22T18:30:32Z",
+      "side": 1,
+      "message": "This is the use case, not the solution, so as of this doc, there are no call chains.\n\nI can think of several different ways the call chains could work depending on the solution.",
+      "parentUuid": "77aa7ec8_3cfaf469",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 61
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
