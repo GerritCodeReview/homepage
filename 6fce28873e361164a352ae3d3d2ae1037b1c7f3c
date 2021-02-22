@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77aa7ec8_3cfaf469",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-02-22T17:28:07Z",
+      "side": 1,
+      "message": "this may be obvious to you, but could you make explicit how the call chains work? Does #1 call #3 or does #3 call #1 ? #1 and #2 are independent, right?",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 61
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
