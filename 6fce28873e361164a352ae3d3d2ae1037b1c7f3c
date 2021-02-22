@@ -70,6 +70,29 @@
       },
       "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1308d5ed_ed9cefc9",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-02-22T19:18:12Z",
+      "side": 1,
+      "message": "what does that mean? \n\nSome of your proposals were using classloader mechanics to get access to data types of the providing plugin. However, that means that at compile time, the consuming plugin will have to have access to the jar of the providing plugin (and the srcjar so you can read its javadoc). Does that fall under \"regular development\" ?\n\nYou said in earlier discussions that you wanted to plugins to be developed separately. How does it work when one of the plugins providing functionality changes its API, and is reloaded? Is it desirable for the server + plugins to be in a broken state as a result?\n\nI am hypothesizing that your primary desires are\n\n* run the same gerrit server across different deployments (do all your deployments have the same set of plugins?)\n* run the vanilla gerrit (i.e. no libmodule) ? \n* run the gerrit server with 24x7 uptime (ie. should use dynamic loading of the plugins to iterate on their functionality without server restarts.)\n\nbut I could be mistaken.",
+      "range": {
+        "startLine": 61,
+        "startChar": 63,
+        "endLine": 62,
+        "endChar": 11
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
