@@ -76,7 +76,7 @@ concepts and workflows and are meant for self-studying how Git and Gerrit work.
 
 From: Edwin Kempin (Google)
 
-### <a id="howToAddPresentations">How to add presentations
+### How to add presentations
 
 Upload a change to the [homepage](https://gerrit-review.googlesource.com/admin/repos/homepage)
 project that adds the presentation to this page. If you don't know how to do this, just
