@@ -21,6 +21,8 @@ topnav_dropdowns:
           url: /members.html
         - title: Contributing
           external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.3.2/dev-community.html#how-to-contribute
+        - title: Fixing a bug
+          url: /bug-fixing.html
         - title: Presentations
           url: /presentations.html
         - title: Kudos
