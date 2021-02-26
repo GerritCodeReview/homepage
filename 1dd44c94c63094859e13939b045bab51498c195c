@@ -67,6 +67,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5096462c_9e60df95",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "I think it\u0027s common enough that bugs are fixed in later versions that it\u0027s worth suggesting someone look there first before creating their own fix.\n\nYou can add a small warning here that not all changes from master would be applicable or a good fit for older stable branches, but we can leave the rest to code review.",
+      "parentUuid": "c6f07f40_79d699c1",
+      "range": {
+        "startLine": 40,
+        "startChar": 82,
+        "endLine": 41,
+        "endChar": 3
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d910d459_d31fb3d2",
         "filename": "pages/site/community/bug-fixing.md",
         "patchSetId": 3

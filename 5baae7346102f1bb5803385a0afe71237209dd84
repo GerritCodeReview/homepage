@@ -1,0 +1,193 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a0af384_f1b11827",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "Thanks Sven, this is a great improvement!",
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4cb33f6_c3e559b5",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "nit: need",
+      "range": {
+        "startLine": 12,
+        "startChar": 87,
+        "endLine": 12,
+        "endChar": 92
+      },
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8965cbba_93661a6f",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "Suggest considering bugs in Accepted state first?",
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fde2b094_952e0b22",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "maybe spell this out instead of abbreviate? Or just omit this? I think it reads fine without it.",
+      "range": {
+        "startLine": 34,
+        "startChar": 19,
+        "endLine": 34,
+        "endChar": 23
+      },
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2faca306_fdcb2089",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "Maybe end the sentence with \"... each supported branch to see if the issue reproduces on that branch.\"",
+      "range": {
+        "startLine": 35,
+        "startChar": 10,
+        "endLine": 35,
+        "endChar": 18
+      },
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1512f9a5_83ac2eec",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "suggest Slack too?",
+      "range": {
+        "startLine": 46,
+        "startChar": 102,
+        "endLine": 46,
+        "endChar": 103
+      },
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d5669ee_d2e33db4",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "Is it better to link to the GH walkthrough or the standard one https://gerrit-review.googlesource.com/Documentation/intro-gerrit-walkthrough.html#_creating_the_review ?",
+      "range": {
+        "startLine": 66,
+        "startChar": 48,
+        "endLine": 66,
+        "endChar": 151
+      },
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98b64c41_0a20b51d",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "Will this always already exist?",
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea9cc251_e555e60d",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T15:25:50Z",
+      "side": 1,
+      "message": "Link to security issues: https://gerrit-review.googlesource.com/Documentation/dev-processes.html#security-issues since we have special steps for those.",
+      "range": {
+        "startLine": 85,
+        "startChar": 16,
+        "endLine": 85,
+        "endChar": 31
+      },
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
