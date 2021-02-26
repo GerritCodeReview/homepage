@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4257f803_976ff2f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T19:51:32Z",
+      "side": 1,
+      "message": "\u003e Thanks. I think I understood the current setup and background and the problem you are trying to solve.\n\nGreat!\n\n\u003e I intentionally didn\u0027t comment on the background because I don\u0027t want to side-track this design doc with comments a la \"but if you rewrite your whole process, this would be so much easier\".\n\nI appreciate that 😊\nPlease do feel free to ask anything you think would help clarify the problem.",
+      "parentUuid": "db124919_7e6ced8a",
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "922dad1e_5dddcf4a",
