@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc917a95_dd51df22",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-02-26T11:17:23Z",
+      "side": 1,
+      "message": "No worries.\nMy plan was announce the review on the maintainer list so that everyone that wants to have a say get\u0027s to do that, but I thought I\u0027d let you the community masters to give it a sanity check first.\nTo me it makes little sense to claim that this is the bug-fix workflow we don\u0027t agree that it is. 😊",
+      "parentUuid": "5b7e53d8_3869e5bb",
+      "revId": "a62d2c85b99f1afe86fb6f703828bbdef455549f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2033d93f_1792f1ed",
@@ -41,6 +59,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd246490_dffbe657",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-02-26T11:17:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2033d93f_1792f1ed",
+      "range": {
+        "startLine": 25,
+        "startChar": 53,
+        "endLine": 25,
+        "endChar": 55
+      },
+      "revId": "a62d2c85b99f1afe86fb6f703828bbdef455549f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f1e2bad7_e4add9c8",
@@ -54,6 +96,30 @@
       "writtenOn": "2021-02-26T11:05:06Z",
       "side": 1,
       "message": "nit: is",
+      "range": {
+        "startLine": 27,
+        "startChar": 9,
+        "endLine": 27,
+        "endChar": 12
+      },
+      "revId": "a62d2c85b99f1afe86fb6f703828bbdef455549f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "422c668f_c4dcc499",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-02-26T11:17:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f1e2bad7_e4add9c8",
       "range": {
         "startLine": 27,
         "startChar": 9,
