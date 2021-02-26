@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b2b30d5_d98e20fe",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2021-02-26T13:00:48Z",
+      "side": 1,
+      "message": "nit: You are",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 5
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "623926c7_a16d8017",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2021-02-26T13:00:48Z",
+      "side": 1,
+      "message": "\u0027merged up\u0027?",
+      "range": {
+        "startLine": 69,
+        "startChar": 31,
+        "endLine": 69,
+        "endChar": 42
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4977a94_9b03cd4f",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2021-02-26T13:00:48Z",
+      "side": 1,
+      "message": "should we mention the bug in the release notes?",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
