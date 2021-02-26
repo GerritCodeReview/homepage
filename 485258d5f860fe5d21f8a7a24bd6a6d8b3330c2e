@@ -16,6 +16,24 @@
       "message": "What\u0027s wrong with this anchor here?\nHow do we link directly to this section if it is removed?",
       "revId": "485258d5f860fe5d21f8a7a24bd6a6d8b3330c2e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7d6baf5_191b5b45",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2021-02-26T13:07:06Z",
+      "side": 0,
+      "message": "\u003e What\u0027s wrong with this anchor here?\n\nIt differs from the other ones in this file. I don\u0027t see why it should, or how special it is, compared to the other sections.\n\n\u003e How do we link directly to this section if it is removed?\n\nThe same way as for the other sections, here through [1] below. Every markdown section gets an automatically generated and browsable anchor link, AFAIK. But am I missing something?\n\n[1] http://localhost:4000/presentations.html#how-to-add-presentations",
+      "parentUuid": "63965ce2_de2d2ae2",
+      "revId": "485258d5f860fe5d21f8a7a24bd6a6d8b3330c2e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
