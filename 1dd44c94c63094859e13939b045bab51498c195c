@@ -1,6 +1,69 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b45bc789_05b19fb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-02-26T13:13:52Z",
+      "side": 1,
+      "message": "Thanks, Sven.",
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c11f280b_7d252585",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-02-26T13:13:52Z",
+      "side": 1,
+      "message": "+ if that would not introduce any breaking changes on the stable branch. Otherwise you may need to implement a different fix rather than cherry picking the existing solution on master.\n\nIt has happened that a cherry-pick from master was the wrong solution to the problem, because together with the solution brought incompatible changes, for instance, on the dependencies, which are fine for master but not good for a stable branch.",
+      "range": {
+        "startLine": 40,
+        "startChar": 82,
+        "endLine": 41,
+        "endChar": 3
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d910d459_d31fb3d2",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-02-26T13:13:52Z",
+      "side": 1,
+      "message": "Issue",
+      "range": {
+        "startLine": 58,
+        "startChar": 5,
+        "endLine": 58,
+        "endChar": 10
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9b2b30d5_d98e20fe",
@@ -60,6 +123,30 @@
       "writtenOn": "2021-02-26T13:00:48Z",
       "side": 1,
       "message": "should we mention the bug in the release notes?",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3674abf_a56d03d4",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-02-26T13:13:52Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "c4977a94_9b03cd4f",
       "range": {
         "startLine": 72,
         "startChar": 0,
