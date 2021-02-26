@@ -52,6 +52,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ee0b051_01fdb8ca",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T19:50:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "922dad1e_5dddcf4a",
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d43d2b8b_5e9a4e18",
@@ -69,6 +87,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "93757ae5_985bea05",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T19:50:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d43d2b8b_5e9a4e18",
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ede47630_9b6fb37c",
@@ -82,6 +118,30 @@
       "writtenOn": "2021-02-23T17:07:02Z",
       "side": 1,
       "message": "Start use case with:\nWe want to port/move the code from our Gerrit core fork to plugins and use a plugin design that has clean layering.\n\n1) What are the responsibilities of each plugin?\nGoal: Provide as open source as much functionality as possible (separated into different plugins by logical boundaries).\n\nDepends-on plugin:\nHas the ability to read \u0026 parse a change comment and output it to users as dependency information. Has the ability to write change comments with dependency information. Listens for cherry-pick events and propagates dependency information from source to destination changes.\n\nIncludes the ability to resolve (by reading/parsing and adding change comments) logical change dependencies into concrete change dependencies based on sets of deliverables.\n\n\"proprietary deliverables\" plugin:\nShould be the only plugin that knows what the sets of deliverables are based on proprietary data sources.\n\nmanifest plugin:\nReads/writes git-repo style manifest XML files.\n\nCan convert a manifest reference (specified as project+branch+file) into the specific Gerrit projects and branches listed as projects in that manifest.\n\n2) How do the plugins work when others are not present? (all plugins continue providing functionality when others are not there)\nWithout either manifest or \"proprietary deliverables\" plugins, depends-on continues to parse comments and can output dependency info as query attributes; continues to copy dependencies (add comments) on propagated changes. Refuses to remove logical dependencies when resolving propagated dependencies when given an incomplete deliverables set (i.e. if the \"proprietary deliverables\" plugin isn\u0027t present to provide the full deliverables set).\n\n\"proprietary deliverables\" plugin continues to output query attributes, provide search operators, etc if \u0027depends-on\u0027 plugin isn\u0027t available. A subset of those attributes and operators are available if the manifest plugin isn\u0027t available.\n\nmanifest plugin continues to provide search operators when depends-on and/or \"proprietary deliverables\" plugins aren\u0027t available.\n\nThis info might need to be re-org\u0027ed into different sections? Not sure what\u0027s applicable to use case vs background vs AC.",
+      "range": {
+        "startLine": 46,
+        "startChar": 64,
+        "endLine": 47,
+        "endChar": 42
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5455f28_e42b519b",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T19:50:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ede47630_9b6fb37c",
       "range": {
         "startLine": 46,
         "startChar": 64,
@@ -187,6 +247,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "265e489b_cab122b3",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T19:50:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3418d856_40153642",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 61
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1308d5ed_ed9cefc9",
@@ -272,6 +356,30 @@
       "side": 1,
       "message": "Not answering Patrick\u0027s questions yet because I want to get this published sooner 😊 I\u0027ll try to get them later today.\n\n\u003e what does that mean? \n\nSorry, yes, this is too vague. Thanks for asking about it. It mostly means doing things that are outlined in the plugin dev doc: https://gerrit-review.googlesource.com/Documentation/dev-plugins.html\n\n\u003e \n\u003e Some of your proposals were using classloader mechanics to get access to data types of the providing plugin. However, that means that at compile time, the consuming plugin will have to have access to the jar of the providing plugin (and the srcjar so you can read its javadoc). Does that fall under \"regular development\" ?\n\nI don\u0027t think it strictly means access to the jar, but yes, we do mean regular includes a plugin having access to a subset of another plugin\u0027s signatures during development/compilation. I think that\u0027s usually accomplished by having access to 1) at least a subset of the source or 2) a subset of the classfiles (probably in a jar). This is similar to the plugin having access to these same things from Gerrit itself.\n\nJust as Gerrit\u0027s build produces a WAR today and plugin devs can develop against the gerrit-*-api.jar(s), we would expect plugins to produce JARs for install and potentially a subset jar for other plugins to develop against.\n\n\u003e \n\u003e You said in earlier discussions that you wanted to plugins to be developed separately. How does it work when one of the plugins providing functionality changes its API, and is reloaded? Is it desirable for the server + plugins to be in a broken state as a result?\n\nIt is not desirable for it to be in a broken state. A well developed plugin would treat a situation where the API it needs is no longer compatible the same way it would if the other plugin wasn\u0027t loaded. It should have the same behavior as if the consuming plugin got a 404 from a REST API call to another plugin.\n\n\u003e \n\u003e I am hypothesizing that your primary desires are\n\u003e \n\u003e * run the same gerrit server across different deployments (do all your deployments have the same set of plugins?)\n\nOur deployments do not have the same set of plugins. The set of plugins is determined by the customer that deployment serves and the operations team supporting it. We have designed it so that some plugins can provide partial functionality when a supporting plugin is not present in that deployment. Our batch and manifest plugins can work together (you can record batch branches into a manifest file or use the revisions from a manifest file as the base for a batch branch), but they also both work independently when the other isn\u0027t present (hiding functionality that relies on the unavailable plugin).\n\n\u003e * run the vanilla gerrit (i.e. no libmodule) ? \n\nCorrect.\n\n\u003e * run the gerrit server with 24x7 uptime (ie. should use dynamic loading of the plugins to iterate on their functionality without server restarts.)\n\nActually keeping a gerrit server process running 24x7 is not a very high priority. It would be nice to have.\n\nRelated to this, we would expect that if we fix a bug in one plugin, we need to only deploy a new version of that plugin (unless the fix requires an interface change). This also means in the case of a bug, we would not need to rebuild the non-buggy plugins (potentially they\u0027re plugins we never build but only consume from gerritforge ci, etc).\n\nAdditionally, there are more things we\u0027d like to be able to do between plugins. I\u0027m not sure this is the best place to capture it, but I figure it\u0027s relevant to the overall conversation.\n\n* Leverage a cache from another plugin\n  * manifest plugin caches manifest file content and the proprietary plugin can expose search attributes that use it\n  * manifest plugin caches manifest file content, provides switches to the \u0027propagator\u0027 plugin (which is a layer on top of cherry-pick), and those switches are called from a propagator command using the manifest caches\n* Load order between plugins should not matter",
       "parentUuid": "1308d5ed_ed9cefc9",
+      "range": {
+        "startLine": 61,
+        "startChar": 63,
+        "endLine": 62,
+        "endChar": 11
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6348a062_300de2ab",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T19:50:26Z",
+      "side": 1,
+      "message": "\u003e Does it mean that I can write (integration) tests? (I hope so)?\n\nUnit tests, yes, for sure (you\u0027d probably be mocking the API you depend on).\n\nWhat exactly do you mean by integration tests?\n\n* If you have a running Gerrit server for your integration tests, you\u0027d need any plugins you depend on APIs from deployed on that running server, but I think that\u0027s obvious behavior.\n\n* If you mean something like Gerrit\u0027s acceptance tests, those don\u0027t actually load plugins today, so I think it wouldn\u0027t \"just work\". Maybe some Guice magic could do it though?\n\n\u003e Develop any plugin or solution in isolation given just this plugin/solution and core Gerrit?\n\nI want to make sure I answer this well. What does \"in isolation\" mean here? I would expect that if you\u0027re developing a plugin (A) that requires an API from another plugin (B), you\u0027d need B deployed on your Gerrit server to see the functionality working.",
+      "parentUuid": "a687692f_726eaf89",
       "range": {
         "startLine": 61,
         "startChar": 63,
