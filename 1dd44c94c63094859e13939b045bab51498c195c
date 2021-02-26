@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c6f07f40_79d699c1",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-02-26T14:02:41Z",
+      "side": 1,
+      "message": "Yes your absolutely right.\nI had the implicit code-review in mind which \"should\" pick up on these type of issues but it doesn\u0027t always work.\nLooking if it\u0027s fixed on master is maybe more a way to try and find a solution than part of the actual workflow.\n\nShould we remove this step all together?",
+      "parentUuid": "c11f280b_7d252585",
+      "range": {
+        "startLine": 40,
+        "startChar": 82,
+        "endLine": 41,
+        "endChar": 3
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d910d459_d31fb3d2",
         "filename": "pages/site/community/bug-fixing.md",
         "patchSetId": 3
@@ -54,6 +78,30 @@
       "writtenOn": "2021-02-26T13:13:52Z",
       "side": 1,
       "message": "Issue",
+      "range": {
+        "startLine": 58,
+        "startChar": 5,
+        "endLine": 58,
+        "endChar": 10
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96b24a8d_2d352441",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-02-26T14:02:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d910d459_d31fb3d2",
       "range": {
         "startLine": 58,
         "startChar": 5,
@@ -87,6 +135,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c11961a_0e2c5531",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-02-26T14:02:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b2b30d5_d98e20fe",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 5
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "623926c7_a16d8017",
@@ -100,6 +172,30 @@
       "writtenOn": "2021-02-26T13:00:48Z",
       "side": 1,
       "message": "\u0027merged up\u0027?",
+      "range": {
+        "startLine": 69,
+        "startChar": 31,
+        "endLine": 69,
+        "endChar": 42
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ac0fc97_ad2932c2",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-02-26T14:02:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "623926c7_a16d8017",
       "range": {
         "startLine": 69,
         "startChar": 31,
@@ -147,6 +243,30 @@
       "side": 1,
       "message": "+1",
       "parentUuid": "c4977a94_9b03cd4f",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 80
+      },
+      "revId": "1dd44c94c63094859e13939b045bab51498c195c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bfb82af1_5045812f",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-02-26T14:02:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b3674abf_a56d03d4",
       "range": {
         "startLine": 72,
         "startChar": 0,
