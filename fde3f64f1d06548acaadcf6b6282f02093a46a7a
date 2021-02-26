@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa74ce1f_08f94ce2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T22:34:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a7417d1_9dc7738d",
+      "range": {
+        "startLine": 7,
+        "startChar": 43,
+        "endLine": 7,
+        "endChar": 48
+      },
+      "revId": "fde3f64f1d06548acaadcf6b6282f02093a46a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f1296299_667870eb",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-02-26T21:32:16Z",
       "side": 1,
       "message": "Move before \"potentially\"?",
+      "range": {
+        "startLine": 123,
+        "startChar": 2,
+        "endLine": 123,
+        "endChar": 9
+      },
+      "revId": "fde3f64f1d06548acaadcf6b6282f02093a46a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0aed00e5_755597bd",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T22:34:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f1296299_667870eb",
       "range": {
         "startLine": 123,
         "startChar": 2,
@@ -64,6 +112,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5e3d28f_8e6266b6",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T22:34:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa51bb60_0a075abc",
+      "revId": "fde3f64f1d06548acaadcf6b6282f02093a46a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b220af21_ba43bd9f",
@@ -77,6 +143,24 @@
       "writtenOn": "2021-02-26T21:32:16Z",
       "side": 1,
       "message": "Maybe add the fact that proprietary plugin caches pointers to manifests and other deliverables and these can be used when resolving depends-ons?",
+      "revId": "fde3f64f1d06548acaadcf6b6282f02093a46a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20c2d003_45bff443",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-02-26T22:34:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b220af21_ba43bd9f",
       "revId": "fde3f64f1d06548acaadcf6b6282f02093a46a7a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
