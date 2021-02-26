@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1296299_667870eb",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2021-02-26T21:32:16Z",
+      "side": 1,
+      "message": "Move before \"potentially\"?",
+      "range": {
+        "startLine": 123,
+        "startChar": 2,
+        "endLine": 123,
+        "endChar": 9
+      },
+      "revId": "fde3f64f1d06548acaadcf6b6282f02093a46a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa51bb60_0a075abc",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2021-02-26T21:32:16Z",
+      "side": 1,
+      "message": "Maybe expand upon this to explain that reloading any plugin in the stack (say for a bug fix) should continue to work and all new operations, even from other plugins, after the reload will exercise the newly reloaded plugin code (with the bug fix).",
+      "revId": "fde3f64f1d06548acaadcf6b6282f02093a46a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b220af21_ba43bd9f",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1010013
+      },
+      "writtenOn": "2021-02-26T21:32:16Z",
+      "side": 1,
+      "message": "Maybe add the fact that proprietary plugin caches pointers to manifests and other deliverables and these can be used when resolving depends-ons?",
+      "revId": "fde3f64f1d06548acaadcf6b6282f02093a46a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
