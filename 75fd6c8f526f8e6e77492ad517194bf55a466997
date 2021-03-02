@@ -43,6 +43,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c3579a16_27342b0a",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-02T23:55:45Z",
+      "side": 1,
+      "message": "extend to e2e testing week?",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 14
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "35dc1f16_359eee0f",
         "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
         "patchSetId": 2
@@ -83,6 +106,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "312bf3c6_b7113daa",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-02T23:55:45Z",
+      "side": 1,
+      "message": "Are there known gaps in the e2e tests that should be filled prior to 3.4?",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7c8d834b_b9de76aa",
         "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
         "patchSetId": 2
@@ -100,6 +140,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e74093b9_7d912a67",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-02T23:55:45Z",
+      "side": 1,
+      "message": "I didn\u0027t see this mentioned from SAP. Where was that?\n\nI had suggested for 3.3 releasing both Java8 and 11 binaries and tracking downloads to see what Java 11 adoption looks like. Feasible?",
+      "parentUuid": "7c8d834b_b9de76aa",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "440f1a70_abcdf54c",
         "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
         "patchSetId": 2
@@ -111,6 +169,30 @@
       "writtenOn": "2021-03-02T23:04:26Z",
       "side": 1,
       "message": "We said that already with v3.3 ... and we are now telling the community that v3.4 will be the last one. Really? Can we have some commitment from Google and SAP? Otherwise it would be best to avoid mentioning this note for now, until we can have commitments on abandoning Java 8.",
+      "range": {
+        "startLine": 94,
+        "startChar": 7,
+        "endLine": 94,
+        "endChar": 72
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "631b6713_d2ea8438",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-02T23:55:45Z",
+      "side": 1,
+      "message": "+1\n\nI do think it\u0027s worth reviewing the comments from 3.3 [1] to try and make sure we\u0027re sending a consistent message to users/admins.\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/280483/5/_posts/2020-09-02-gerrit-3.3-release-plan.md#91",
+      "parentUuid": "440f1a70_abcdf54c",
       "range": {
         "startLine": 94,
         "startChar": 7,
