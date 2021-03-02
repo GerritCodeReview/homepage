@@ -1,0 +1,124 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e95d6c4f_2cac2199",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-02T23:04:26Z",
+      "side": 1,
+      "message": "Thanks, David for writing this up.",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b638cfe_bcb5c5ba",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-02T23:04:26Z",
+      "side": 1,
+      "message": "has made unlikely to have a face-to-face Gerrit Maintainers\u0027 Hackathon in the spring of 2021",
+      "range": {
+        "startLine": 44,
+        "startChar": 61,
+        "endLine": 45,
+        "endChar": 43
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35dc1f16_359eee0f",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-02T23:04:26Z",
+      "side": 1,
+      "message": "+ in the EU and USA time-zones",
+      "range": {
+        "startLine": 59,
+        "startChar": 15,
+        "endLine": 59,
+        "endChar": 37
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3d4f575_30ac49d0",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-02T23:04:26Z",
+      "side": 1,
+      "message": "+ The Gerrit-CI has also an automated aws-gerrit pipeline [1] that will pointed to the stable-3.4 branch and run on.a daily basis.\n\n[1] https://gerrit-ci.gerritforge.com/job/gatling-gerrit-test/",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c8d834b_b9de76aa",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-02T23:04:26Z",
+      "side": 1,
+      "message": "TODO: to be discussed at the next ESC if we continue with this policy or not, based on the recent need from SAP as well to have pre-built Java 8 binaries.",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "440f1a70_abcdf54c",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-02T23:04:26Z",
+      "side": 1,
+      "message": "We said that already with v3.3 ... and we are now telling the community that v3.4 will be the last one. Really? Can we have some commitment from Google and SAP? Otherwise it would be best to avoid mentioning this note for now, until we can have commitments on abandoning Java 8.",
+      "range": {
+        "startLine": 94,
+        "startChar": 7,
+        "endLine": 94,
+        "endChar": 72
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
