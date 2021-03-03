@@ -181,6 +181,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6ff2b23_2c44d4f1",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-03T21:40:35Z",
+      "side": 1,
+      "message": "I believe it would be useful to have that as an effort all throughout the execution of the v3.4 release plan execution.\nI am marking this thread as resolved, at least for now.\n\nFeel free to reopen it if you feel we have more to discuss on the planning phase on this point.",
+      "parentUuid": "c939cc93_12d97a6c",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7c8d834b_b9de76aa",
