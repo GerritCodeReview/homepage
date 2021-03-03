@@ -66,6 +66,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7153fc12_4361960f",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-03T00:35:18Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "c3579a16_27342b0a",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 14
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "35dc1f16_359eee0f",
         "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
         "patchSetId": 2
@@ -123,6 +147,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "16d83c4c_9936e586",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-03T00:35:18Z",
+      "side": 1,
+      "message": "The entire space of E2E test-cases are almost endless: if you are aware of some important ones we missed, you are more than welcome to contribute them :-)",
+      "parentUuid": "312bf3c6_b7113daa",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7c8d834b_b9de76aa",
         "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
         "patchSetId": 2
@@ -152,6 +194,24 @@
       "side": 1,
       "message": "I didn\u0027t see this mentioned from SAP. Where was that?\n\nI had suggested for 3.3 releasing both Java8 and 11 binaries and tracking downloads to see what Java 11 adoption looks like. Feasible?",
       "parentUuid": "7c8d834b_b9de76aa",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ecac6cc_cd2cb5e2",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-03T00:35:18Z",
+      "side": 1,
+      "message": "Everything is feasible, of course. The problem is who is going to be the beneficiary and what\u0027s the cost and complexity involved.\n\nSAP recently reached out directly to me for having the HA-plugin on v3.3 for Java 8, which lead me to think they are unable to move to Java 11 yet.\n\nI am collecting some numbers to understand how many companies are still using Java 8 with Gerrit v3.3.",
+      "parentUuid": "e74093b9_7d912a67",
       "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
