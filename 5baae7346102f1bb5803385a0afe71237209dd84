@@ -288,6 +288,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ede80e4_97e4dd04",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-03T05:10:46Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "673257f5_6cd2a383",
+      "range": {
+        "startLine": 66,
+        "startChar": 48,
+        "endLine": 66,
+        "endChar": 151
+      },
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "98b64c41_0a20b51d",
@@ -319,6 +343,24 @@
       "side": 1,
       "message": "In theory, not taking the human factor into account, yes for all branches except master since it doesn\u0027t have any \"versions\".",
       "parentUuid": "98b64c41_0a20b51d",
+      "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8d44a1d_81c57da5",
+        "filename": "pages/site/community/bug-fixing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-03T05:10:46Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8362962d_0ed3a1b9",
       "revId": "5baae7346102f1bb5803385a0afe71237209dd84",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
