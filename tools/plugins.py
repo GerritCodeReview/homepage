@@ -386,7 +386,8 @@ class Plugins:
             emails = set()
             output.write(f"{m}: ")
             for (accounts, _) in self.maintainers.get(m):
-                emails.add(accounts.email)
+                if accounts.email:
+                    emails.add(accounts.email)
             output.write(f"{', '.join(sorted(emails))}\n")
 
     def render_page(self, output):
