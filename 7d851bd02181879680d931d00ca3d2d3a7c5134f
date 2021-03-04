@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "578a3754_e87d6bc7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-04T17:01:49Z",
+      "side": 1,
+      "message": "I have verified that with this fix, the list of plugins gets regenerated as expected.",
+      "revId": "7d851bd02181879680d931d00ca3d2d3a7c5134f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
