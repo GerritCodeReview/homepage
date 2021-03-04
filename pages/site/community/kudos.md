@@ -36,6 +36,16 @@ Please add new kudos at the top of this list.
 
 ---
 
+**[2021-03-03] To: David Ostrovsky**
+```
+Thanks for your latest work on the RBE Build/Test [1]. We are seeing a
+significant improvement in the Gerrit CI speed because of this.
+```
+
+[1] <https://gerrit-review.googlesource.com/c/gerrit/+/297503>
+
+From: Dhruv Srivastava (Google)
+
 **[2020-12-09] To: David Ostrovsky**
 
 ```
