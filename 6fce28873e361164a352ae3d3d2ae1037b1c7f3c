@@ -406,6 +406,30 @@
       },
       "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "116e0399_1845e7ca",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2021-03-05T09:41:59Z",
+      "side": 1,
+      "message": "Thanks Nasser, if you answers could make it into the doc, that\u0027d be great.\n\n\u003e What exactly do you mean by integration tests?\n\nA plugin can write *IT.java tests today (Gerrit acceptance tests). They bring up the Gerrit server in-mem and test against it with the plugin loaded. That works because Gerrit+single plugin is all you need. (note that you can bring up non-core plugins in acceptance tests, the code owners plugin is a good example. it has ITs of its own).\n\nIt\u0027s nice, because it runs in a single JVM, from within your IDE if you want and it\u0027s pretty close to the real system.\n\nIf you\u0027d want the same for x-plugin dependencies, you\u0027d need a mock or fake (not real then, your suggestion A) for the API calls that you depend on or better a test that brings up both plugins (your suggestion B).\n\nCould we tweak our acceptance tests so that when you checkout two plugins they are both loaded in tests and you can test x-plugin calls? (maybe that works out of the box today, I did not check).",
+      "parentUuid": "6348a062_300de2ab",
+      "range": {
+        "startLine": 61,
+        "startChar": 63,
+        "endLine": 62,
+        "endChar": 11
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
