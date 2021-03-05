@@ -430,6 +430,30 @@
       },
       "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27f6edaa_b2099592",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-05T16:03:47Z",
+      "side": 1,
+      "message": "\u003e Thanks Nasser, if you answers could make it into the doc, that\u0027d be great.\n\nI think PS7 has everything that I wasn\u0027t waiting for clarification on.\n\n\u003e \n\u003e \u003e What exactly do you mean by integration tests?\n\u003e \n\u003e A plugin can write *IT.java tests today (Gerrit acceptance tests). They bring up the Gerrit server in-mem and test against it with the plugin loaded. That works because Gerrit+single plugin is all you need. (note that you can bring up non-core plugins in acceptance tests, the code owners plugin is a good example. it has ITs of its own).\n\nThe IT tests don\u0027t quite do that. They bring up a server, but they directly load the module of the plugin, not install it via the PluginLoader. I think that distinction is important here.\n\n\u003e \n\u003e It\u0027s nice, because it runs in a single JVM, from within your IDE if you want and it\u0027s pretty close to the real system.\n\u003e \n\u003e If you\u0027d want the same for x-plugin dependencies, you\u0027d need a mock or fake (not real then, your suggestion A) for the API calls that you depend on or better a test that brings up both plugins (your suggestion B).\n\nMy A and B were two different environments. In A) I was saying if you were developing tests like the e2e framework ones that run against a real running Gerrit server, then you would load the real plugin you depend on along with your plugin you\u0027re developing. That kind of environment has pros \u0026 cons vs the IT-style environment (which we can discuss on the side if you\u0027re interested), but internally we actually do a fair amount of test development that runs \u0027externally\u0027 (to Gerrit) against a Gerrit server. For an example of this you can see https://gerrit-review.googlesource.com/c/plugins/task/+/297722. It would be straightforward to extend a test environment like that to multiple plugins.\n\nFor B) I was talking about IT/acceptance-test style tests and yes, I don\u0027t expect those \"just work\". It would be nice if they did/could work.\n\n\u003e \n\u003e Could we tweak our acceptance tests so that when you checkout two plugins they are both loaded in tests and you can test x-plugin calls? (maybe that works out of the box today, I did not check).\n\nAFAIK, it doesn\u0027t work yet and I don\u0027t think it would for the reason above about not using PluginLoader.\n\nI think it should be possible, but I think I\u0027d need advice/help from someone like David O or someone else who knows Guice and the IT framework better than I do to figure out how. I think the most direct path would be some kind of way of pointing to the Module of the other plugin and loading it too. But maybe we want to look fresh at the IT framework and see if we should/could load plugins via PluginLoader.\n\nUltimately this section is about the use case. Today these 3 plugins (and our core fork code) don\u0027t have acceptance tests. We do have some of those \"external\" tests and we\u0027d be able to use that setup to continue writing tests where we need multiple plugins loaded. I think for us the ability to write ITs for these plugins that leverage the functionality from the others would be nice to have, but not required.",
+      "parentUuid": "116e0399_1845e7ca",
+      "range": {
+        "startLine": 61,
+        "startChar": 63,
+        "endLine": 62,
+        "endChar": 11
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
