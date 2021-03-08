@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "511b772b_4522bf4c",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-08T16:42:45Z",
+      "side": 1,
+      "message": "This is problematic IMHO: you could have a genuine bug and fail because you used the wrong version of the API. Then you manage this as assumption that the other plugin would not exist, which would be very prone to errors.",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 74
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "29c1fea2_10585319",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
