@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8055114a_8f3b8770",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-03-08T15:48:56Z",
+      "side": 1,
+      "message": "Thanks for the in-depth description of your needs.\n",
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29c1fea2_10585319",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-03-08T15:48:56Z",
+      "side": 1,
+      "message": "do you see a use-case where the cooperation of the plugins is decided after the plugin is released? In other words: you would be able to tell that a plugin is a Consumer of an API (because gerrit has to somehow hook it up to the provider), but is there a use-case for having plugins be a cross-plugin API provider without this being planned?",
+      "range": {
+        "startLine": 113,
+        "startChar": 21,
+        "endLine": 116,
+        "endChar": 51
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad291cb9_1857e136",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-03-08T15:48:56Z",
+      "side": 1,
+      "message": "wouldn\u0027t this be implicit? If a plugin exposes an API, you could have a \n\n Object getCachedData(Object key) \n\nas part of the API.\n\n(possibly with concrete types, instead, if that is part of the implementation).",
+      "range": {
+        "startLine": 137,
+        "startChar": 2,
+        "endLine": 137,
+        "endChar": 38
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6ca74d5_0da14f26",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-03-08T15:48:56Z",
+      "side": 1,
+      "message": "Doesn\u0027t this also mean that plugins would interfere with each other through their dependencies?\n\nI mean: \n\n* Let\u0027s say plugin Consumer depends on classes from plugin Provider through this mechanism.\n\n* If Consumer depends on some base library (eg. for XML parsing) at version L, and Provider happens to require the same library, but at version L\u0027, will it be possible for both of them to have their own private version of the library (which I think is possible today), or do you have to make a choice?",
+      "range": {
+        "startLine": 162,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 69
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
