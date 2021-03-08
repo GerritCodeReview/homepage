@@ -43,6 +43,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fe0844aa_25c42407",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-08T16:19:19Z",
+      "side": 1,
+      "message": "libModules doesn\u0027t require a custom-build of Gerrit: it is a functionality of vanilla Gerrit.",
+      "range": {
+        "startLine": 118,
+        "startChar": 29,
+        "endLine": 118,
+        "endChar": 42
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ad291cb9_1857e136",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
