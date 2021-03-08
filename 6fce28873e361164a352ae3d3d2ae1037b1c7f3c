@@ -454,6 +454,30 @@
       },
       "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcf92726_d5647944",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2021-03-08T14:00:40Z",
+      "side": 1,
+      "message": "\u003e The IT tests don\u0027t quite do that. They bring up a server, but they directly load the module of the plugin, not install it via the PluginLoader. I think that distinction is important here.\n\nAh, right! So the difference is that in production, the plugin is loaded from the jar, requiring all this classloader dance while in the test it\u0027s already baked into the binary.\n\n\u003e https://gerrit-review.googlesource.com/c/plugins/task/+/297722\n\nThanks for the pointer.\n\n\u003e I think for us the ability to write ITs for these plugins that leverage the functionality from the others would be nice to have, but not required.\n\nI see. Thanks.",
+      "parentUuid": "27f6edaa_b2099592",
+      "range": {
+        "startLine": 61,
+        "startChar": 63,
+        "endLine": 62,
+        "endChar": 11
+      },
+      "revId": "6fce28873e361164a352ae3d3d2ae1037b1c7f3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
