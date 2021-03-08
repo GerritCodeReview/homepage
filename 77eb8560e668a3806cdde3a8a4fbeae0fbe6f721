@@ -66,6 +66,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c9d4f2d1_1e023013",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-08T16:32:03Z",
+      "side": 1,
+      "message": "How would the consumers of the plugin would be able to detect the interface change?",
+      "range": {
+        "startLine": 121,
+        "startChar": 10,
+        "endLine": 121,
+        "endChar": 53
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95277c4c_fde9e9d0",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-08T16:32:03Z",
+      "side": 1,
+      "message": "That makes sense if you fix a bug in the implementation and I agree it is a good thing.\n\nWhat happens if change the API? It *may* work or it *may* break, you just don\u0027t know. Are you suggesting that we just will allow the plugins to break and accept the fact?",
+      "range": {
+        "startLine": 127,
+        "startChar": 74,
+        "endLine": 128,
+        "endChar": 45
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ad291cb9_1857e136",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
