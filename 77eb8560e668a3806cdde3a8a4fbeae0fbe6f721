@@ -112,6 +112,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ebe190f4_0c9f113a",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-08T16:50:15Z",
+      "side": 1,
+      "message": "That depends on what you mean by \"work\": at L110 you are proposing to return 404s when plugins are not getting the interface they expect, which is not exactly a working environment IMHO.",
+      "range": {
+        "startLine": 126,
+        "startChar": 60,
+        "endLine": 127,
+        "endChar": 10
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "95277c4c_fde9e9d0",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
