@@ -35,6 +35,138 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "553945a5_8bc5a9f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "I had another careful read of the use-case and yes, it makes sense to me.\nI find it very useful and, for the depends-on plugin, it should be a core functionality IMHO because I would love to have Gerrit exposing *one way* to define the dependency of changes across repositories.",
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c3a01ba_00350990",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "It looks like you\u0027re reimplementing Zuul :-)\nHave you thought involving James and see if what they have in place can help solving your use-case?",
+      "range": {
+        "startLine": 19,
+        "startChar": 39,
+        "endLine": 20,
+        "endChar": 58
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04551f6a_26d96e02",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "This already exists in Zuul: it would make sense to talk to them and try to put something together that would support the \u0027Depends-On\u0027 for both.\n\nAlso, Gerrit core could also be a good candidate, as x-repo dependencies aren\u0027t currently implemented and they are mostly needed by everyone.\n\nAt the moment Gerrit has the concept of \u0027single-repo\u0027 change dependency (the chain of dependencies on the top-right of the change screen) and the \u0027x-repo\u0027 topic grouping ... but not a \u0027x-repo\u0027 change dependency.\n\nThat\u0027s a core feature IMHO: everyone needs that and it would be best to have a single flavour of that, instead of the Zuul-flavour, the Qualcomm-flavour, the Foo.com-flavour ...",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 12
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ae92f63_c25fc502",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "That is *really cool*, I\u0027d like that :-)",
+      "range": {
+        "startLine": 63,
+        "startChar": 28,
+        "endLine": 64,
+        "endChar": 62
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4376aed2_b0197804",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "Can you make an example of query attribute? What does it represent?",
+      "range": {
+        "startLine": 90,
+        "startChar": 47,
+        "endLine": 90,
+        "endChar": 63
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad94a573_b4a54065",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "Output where?",
+      "range": {
+        "startLine": 98,
+        "startChar": 17,
+        "endLine": 98,
+        "endChar": 40
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "511b772b_4522bf4c",
@@ -176,6 +308,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a82e815a_66ca4619",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "What about the operations happened *before* the plugin is loaded?\n\nExample: \nT0: Only the depends-on plugin is loaded, it listens to the cherry-pick event and copy the dependencies. They are unexpanded though because the PD plugin that was doing the expansion isn\u0027t there.\nT1: The PD plugin is loaded and it will connect to the depends-on plugin for expanding the dependencies for new cherry-picks.\n\nIf I cherry-pick a change A between T0 and T1 and another B after T1, the two expansions will be different.\n\nHow do I \"retrofit\" the expansion to A as well?\nWho has this responsibility? The depends-on plugin? The PD plugin? Both?",
+      "range": {
+        "startLine": 127,
+        "startChar": 16,
+        "endLine": 127,
+        "endChar": 47
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "95277c4c_fde9e9d0",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
@@ -192,6 +347,29 @@
         "startChar": 74,
         "endLine": 128,
         "endChar": 45
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59051d03_c82af7b0",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "Are you saying that this mechanism won\u0027t take into consideration high-availability and immutability requirements?\n\nHow a Gerrit admin can detect that the system isn\u0027t fully working because:\n- one of the plugins needed isn\u0027t loaded, and then the depends-on aren\u0027t expanded as they should\n- one of the plugin has been reloaded but has broken the API and therefore has a waterfall effect on other plugins not fully working?",
+      "range": {
+        "startLine": 130,
+        "startChar": 34,
+        "endLine": 130,
+        "endChar": 73
       },
       "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -222,6 +400,76 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6c3e5aef_9ad1679b",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "We are saying that all the three plugins should be able to be loaded and reloaded independently. Also, they should be albe to still work even if the others are broken or unloaded.\n\nIf I have plugin A that leverages the cache of plugin B (hence has an injection of that in one of its instances), how can B be unloaded without breaking A?\nHow can B be downloaded at all if one of its instances have been injected into A?",
+      "parentUuid": "ad291cb9_1857e136",
+      "range": {
+        "startLine": 137,
+        "startChar": 2,
+        "endLine": 137,
+        "endChar": 38
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e24a6f1_c9266a28",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "But if PD-plugin contains an injected instance of a manifest cache of the manifest-plugin, if you unload the manifest-plugin what the cache is pointing to?",
+      "range": {
+        "startLine": 139,
+        "startChar": 24,
+        "endLine": 139,
+        "endChar": 40
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ccc63f07_f698d458",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "No, this isn\u0027t required at all. It *could be useful* to read the code in absence of good documentation, but actually having a well defined API and a stable contract it would be a lot better than just reading the source code.",
+      "range": {
+        "startLine": 156,
+        "startChar": 63,
+        "endLine": 157,
+        "endChar": 13
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b6ca74d5_0da14f26",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
@@ -238,6 +486,29 @@
         "startChar": 0,
         "endLine": 164,
         "endChar": 69
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bfb7d41_1ee09941",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:18:10Z",
+      "side": 1,
+      "message": "The hot-swapping isn\u0027t a mandatory requirement for a plugin, that\u0027s the reason why each plugin *declare* the reload method that is supported (see [1]):\n\n1. restart (the plugin is first removed and then added again)\n2. reload (the plugin is \"hot-swapped\")\n\nSaša has later defined also the \"mandatory plugins\" that cannot be unloaded at all, even if they would support either 1. or 2. or both of them.\n\nI have then introduced *years ago* the ability for plugins to be loaded as part of the base Gerrit injectors (sysInjector first and more recently the dbInjector and batchInjector), allowing plugins to replace core modules (e.g. cache-chroniclemap) or adding extra Dynamic* entities to allow x-plugin communication.\n\nAll of that is part of the \"normal plugin development\" and would already enable your use-case IMHO.\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-plugins.html#reload_method",
+      "range": {
+        "startLine": 165,
+        "startChar": 2,
+        "endLine": 166,
+        "endChar": 7
       },
       "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
