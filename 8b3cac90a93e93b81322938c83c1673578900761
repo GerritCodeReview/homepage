@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c53a1ba0_b3c9c97c",
+        "filename": "_posts/2021-03-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:25:03Z",
+      "side": 1,
+      "message": "Yep, added a link to it.",
+      "parentUuid": "46441261_3fea1bbc",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 0
+      },
+      "revId": "8b3cac90a93e93b81322938c83c1673578900761",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d00597c8_9a95089e",
@@ -54,6 +78,30 @@
       "writtenOn": "2021-03-09T17:59:13Z",
       "side": 1,
       "message": "this too",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 66
+      },
+      "revId": "8b3cac90a93e93b81322938c83c1673578900761",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1fdd52b_a4fcdb35",
+        "filename": "_posts/2021-03-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:25:03Z",
+      "side": 1,
+      "message": "True this is redundant and can be omitted.\nLet me add instead the decision, which included me to announce on the mailing list that we are dropping its support and \"wait for the waves\".",
+      "parentUuid": "d00597c8_9a95089e",
       "range": {
         "startLine": 69,
         "startChar": 0,
@@ -87,6 +135,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "03ad1da6_599d4d8b",
+        "filename": "_posts/2021-03-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:25:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "db5ef28c_d379fdce",
+      "range": {
+        "startLine": 93,
+        "startChar": 2,
+        "endLine": 93,
+        "endChar": 33
+      },
+      "revId": "8b3cac90a93e93b81322938c83c1673578900761",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bfb24624_c92ebe1c",
@@ -100,6 +172,30 @@
       "writtenOn": "2021-03-09T17:59:13Z",
       "side": 1,
       "message": "we forgot to take an AI to update this in our docs.",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 65
+      },
+      "revId": "8b3cac90a93e93b81322938c83c1673578900761",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b89d508_a61e6120",
+        "filename": "_posts/2021-03-09-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-09T21:25:03Z",
+      "side": 1,
+      "message": "True, who wants to do that?",
+      "parentUuid": "bfb24624_c92ebe1c",
       "range": {
         "startLine": 94,
         "startChar": 0,
