@@ -71,6 +71,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "74b61afc_0fa6c4b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "👍",
+      "parentUuid": "17880ac0_0f031cfe",
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9c3a01ba_00350990",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
@@ -106,6 +124,30 @@
       "side": 1,
       "message": "\u003e It looks like you\u0027re reimplementing Zuul :-)\n\nThat would imply that Zuul came first ;-)\n\n\u003e Have you thought involving James and see if what they have in place can help solving your use-case?\n\nWe\u0027ve shared thoughts on the list with James before and Zuul has different goals. It wants to be an all-in-one tool that isn\u0027t dependent on a single VCS. We want to provide functionality for CI systems that want to write less code when they interact with Gerrit. Our goal would be for Zuul to use this just as easily as someone creating a new CI system or someone developing a custom Jenkins workflow. That doesn\u0027t fit well with Zuul though because then it would still need to maintain code to handle dependencies for other VCSes.\n\nIt\u0027s also not our goal to rewrite the CI systems we already have. We want to get off our fork and making our customers (who maintain/develop those CI systems) change will only slow that down. Sometimes it\u0027s unavoidable, but we want to minimize it.",
       "parentUuid": "9c3a01ba_00350990",
+      "range": {
+        "startLine": 19,
+        "startChar": 39,
+        "endLine": 20,
+        "endChar": 58
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da364861_ae991c5e",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "\u003e \u003e It looks like you\u0027re reimplementing Zuul :-)\n\u003e \n\u003e That would imply that Zuul came first ;-)\n\u003e \n\u003e \u003e Have you thought involving James and see if what they have in place can help solving your use-case?\n\u003e \n\u003e We\u0027ve shared thoughts on the list with James before and Zuul has different goals. It wants to be an all-in-one tool that isn\u0027t dependent on a single VCS. We want to provide functionality for CI systems that want to write less code when they interact with Gerrit. Our goal would be for Zuul to use this just as easily as someone creating a new CI system or someone developing a custom Jenkins workflow. That doesn\u0027t fit well with Zuul though because then it would still need to maintain code to handle dependencies for other VCSes.\n\u003e \n\u003e It\u0027s also not our goal to rewrite the CI systems we already have. We want to get off our fork and making our customers (who maintain/develop those CI systems) change will only slow that down. Sometimes it\u0027s unavoidable, but we want to minimize it.\n\nFair enough: good that you guys thought about it.",
+      "parentUuid": "3fd30d0d_2dc6ce1f",
       "range": {
         "startLine": 19,
         "startChar": 39,
@@ -163,6 +205,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "abba1601_f38af4ae",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "SGTM 👍 possibly breaking this down in smaller targets would help getting it through the door.",
+      "parentUuid": "2a630c44_1f52103c",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 12
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9ae92f63_c25fc502",
@@ -200,6 +266,30 @@
       "side": 1,
       "message": "Made possible by 245318: Add \u0027CherryPickOf\u0027 field for a change | https://gerrit-review.googlesource.com/c/gerrit/+/245318",
       "parentUuid": "9ae92f63_c25fc502",
+      "range": {
+        "startLine": 63,
+        "startChar": 28,
+        "endLine": 64,
+        "endChar": 62
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e490a5b9_19e1931a",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "Like it a lot !",
+      "parentUuid": "b97c3331_753a6401",
       "range": {
         "startLine": 63,
         "startChar": 28,
@@ -257,6 +347,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4a22405_a4a1b247",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "67740912_fb5701f9",
+      "range": {
+        "startLine": 90,
+        "startChar": 47,
+        "endLine": 90,
+        "endChar": 63
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ad94a573_b4a54065",
@@ -304,6 +418,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf17acb5_24780b3b",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "Ack, can you add it to the document? So that is clear where it goes to?\nThanks for clarifying.",
+      "parentUuid": "723597c2_7b795a2d",
+      "range": {
+        "startLine": 98,
+        "startChar": 17,
+        "endLine": 98,
+        "endChar": 40
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "511b772b_4522bf4c",
@@ -341,6 +479,30 @@
       "side": 1,
       "message": "\u003e [snip] \"and fail\"\n\nWhere do you see this described as failing? The point here is that it\u0027s graceful.",
       "parentUuid": "511b772b_4522bf4c",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 74
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f4af9b7_e7d38d94",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "Yes, let me rephrase: you could have a \"graceful behaviour\" that isn\u0027t working (a 404 isn\u0027t a success code) and may be left unnoticed. Having plugins loaded with a version mismatch impacts the overall functionality: the Gerrit admin should be called and, in extreme cases, also shutdown the instance.\n\nA \"graceful\" behaviour isn\u0027t always good :-(",
+      "parentUuid": "6369adf0_b3fd36a3",
       "range": {
         "startLine": 108,
         "startChar": 0,
@@ -539,6 +701,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "91aec5c8_b5e3a09a",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "Ah, that looks more reasonable. Why then requiring a graceful failure in case of version incompatibilities? Don\u0027t you prefer to have a more evident failure?\n\nI am always shocked when I read people in the mailing list reporting strange errors on plugins, and then realising that they were running a *totally incompatible version* for days !!!! I would rather prefer a loud blow :-) so that I don\u0027t say to my people \"yeah, migration done, go !\".",
+      "parentUuid": "2d5e9830_1037a717",
+      "range": {
+        "startLine": 127,
+        "startChar": 74,
+        "endLine": 128,
+        "endChar": 45
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "59051d03_c82af7b0",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
@@ -574,6 +760,30 @@
       "side": 1,
       "message": "\u003e Are you saying that this mechanism won\u0027t take into consideration high-availability and immutability requirements?\n\nNo, not saying that at all.\n\n\u003e \n\u003e How a Gerrit admin can detect that the system isn\u0027t fully working because:\n\u003e - one of the plugins needed isn\u0027t loaded, and then the depends-on aren\u0027t expanded as they should\n\u003e - one of the plugin has been reloaded but has broken the API and therefore has a waterfall effect on other plugins not fully working?\n\nThose are good questions that a solution should address. How should that get included in the use case doc?",
       "parentUuid": "59051d03_c82af7b0",
+      "range": {
+        "startLine": 130,
+        "startChar": 34,
+        "endLine": 130,
+        "endChar": 73
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf894dfc_f5df5597",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "Every use-case has a section for the failure scenarios: just put them \"what to do when things go wrong\" chapter?",
+      "parentUuid": "74fc9ea1_d5949ce2",
       "range": {
         "startLine": 130,
         "startChar": 34,
@@ -668,6 +878,30 @@
       "side": 1,
       "message": "Let\u0027s first note that this is an example to highlight something tangentially related to the use case, not a complete solution. Let\u0027s save most discussion around implementation for solutions.\n\nIn this case, the PDs-plugin functionality that relies on that cache would be disabled for any requests that occur while the manifest plugin is unloaded.",
       "parentUuid": "6e24a6f1_c9266a28",
+      "range": {
+        "startLine": 139,
+        "startChar": 24,
+        "endLine": 139,
+        "endChar": 40
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "730ed8bf_343bb9f8",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-10T20:43:36Z",
+      "side": 1,
+      "message": "\u003e Let\u0027s first note that this is an example to highlight something tangentially related to the use case, not a complete solution. Let\u0027s save most discussion around implementation for solutions.\n\u003e \n\u003e In this case, the PDs-plugin functionality that relies on that cache would be disabled for any requests that occur while the manifest plugin is unloaded.\n\nThat\u0027s an interesting problem to solve: how to detect that the classes of the object you are pointing to (the cache is injected and referenced by the plugin\u0027s instances) have been unloaded.\n\nI agree to keep them as use-cases, because I do not have idea how to achieve that in Java, would need to dig deeper.",
+      "parentUuid": "0b1204be_704200c9",
       "range": {
         "startLine": 139,
         "startChar": 24,
