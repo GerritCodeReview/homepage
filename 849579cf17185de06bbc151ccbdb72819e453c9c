@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6a3fb57_991a1002",
+        "filename": "_posts/2021-03-09-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-03-10T09:00:09Z",
+      "side": 1,
+      "message": "Google\n\nnote that the protobuf events is obviated with our new notification strategy. \n\nwe still have an intent to move the API types (*Info, *Input) to protobuf.",
+      "range": {
+        "startLine": 187,
+        "startChar": 29,
+        "endLine": 187,
+        "endChar": 36
+      },
+      "revId": "849579cf17185de06bbc151ccbdb72819e453c9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
