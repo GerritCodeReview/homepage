@@ -54,6 +54,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "17880ac0_0f031cfe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "Publishing some responses I have so that the conversation can continue. I\u0027ll try to reply to everything tomorrow.",
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9c3a01ba_00350990",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
@@ -65,6 +82,30 @@
       "writtenOn": "2021-03-09T21:18:10Z",
       "side": 1,
       "message": "It looks like you\u0027re reimplementing Zuul :-)\nHave you thought involving James and see if what they have in place can help solving your use-case?",
+      "range": {
+        "startLine": 19,
+        "startChar": 39,
+        "endLine": 20,
+        "endChar": 58
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fd30d0d_2dc6ce1f",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "\u003e It looks like you\u0027re reimplementing Zuul :-)\n\nThat would imply that Zuul came first ;-)\n\n\u003e Have you thought involving James and see if what they have in place can help solving your use-case?\n\nWe\u0027ve shared thoughts on the list with James before and Zuul has different goals. It wants to be an all-in-one tool that isn\u0027t dependent on a single VCS. We want to provide functionality for CI systems that want to write less code when they interact with Gerrit. Our goal would be for Zuul to use this just as easily as someone creating a new CI system or someone developing a custom Jenkins workflow. That doesn\u0027t fit well with Zuul though because then it would still need to maintain code to handle dependencies for other VCSes.\n\nIt\u0027s also not our goal to rewrite the CI systems we already have. We want to get off our fork and making our customers (who maintain/develop those CI systems) change will only slow that down. Sometimes it\u0027s unavoidable, but we want to minimize it.",
+      "parentUuid": "9c3a01ba_00350990",
       "range": {
         "startLine": 19,
         "startChar": 39,
@@ -98,6 +139,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a630c44_1f52103c",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "\u003e This already exists in Zuul: it would make sense to talk to them and try to put something together that would support the \u0027Depends-On\u0027 for both.\n\nSee above.\n\n\u003e \n\u003e Also, Gerrit core could also be a good candidate, as x-repo dependencies aren\u0027t currently implemented and they are mostly needed by everyone.\n\nI still this starting this in the depends-on plugin would be the right path. We could make it a core plugin if most installations end up wanting it.\n\n\u003e \n\u003e At the moment Gerrit has the concept of \u0027single-repo\u0027 change dependency (the chain of dependencies on the top-right of the change screen) and the \u0027x-repo\u0027 topic grouping ... but not a \u0027x-repo\u0027 change dependency.\n\u003e \n\u003e That\u0027s a core feature IMHO: everyone needs that and it would be best to have a single flavour of that, instead of the Zuul-flavour, the Qualcomm-flavour, the Foo.com-flavour ...\n\nI think getting the depends-on plugin out there and available is a good start to that path. I\u0027ll work on prioritizing that 😊",
+      "parentUuid": "04551f6a_26d96e02",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 12
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9ae92f63_c25fc502",
@@ -111,6 +176,30 @@
       "writtenOn": "2021-03-09T21:18:10Z",
       "side": 1,
       "message": "That is *really cool*, I\u0027d like that :-)",
+      "range": {
+        "startLine": 63,
+        "startChar": 28,
+        "endLine": 64,
+        "endChar": 62
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b97c3331_753a6401",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "Made possible by 245318: Add \u0027CherryPickOf\u0027 field for a change | https://gerrit-review.googlesource.com/c/gerrit/+/245318",
+      "parentUuid": "9ae92f63_c25fc502",
       "range": {
         "startLine": 63,
         "startChar": 28,
@@ -146,6 +235,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "67740912_fb5701f9",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "The output is just a parsed form of the Depends-on comment.\n\nSo for example, if you had a comment on your change like this:\n\n Depends-on: 123, 456\n\nYou would get something like this in the change query output (when you include the --depends-on flag):\n\n {\n    ...\n    \"plugins\" : [\n       {\n          \"name\" : \"depends-on\",\n          \"dependencies\" : [\n             123,\n             456\n          ]\n       }\n    ],\n    ...\n }",
+      "parentUuid": "4376aed2_b0197804",
+      "range": {
+        "startLine": 90,
+        "startChar": 47,
+        "endLine": 90,
+        "endChar": 63
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ad94a573_b4a54065",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
@@ -169,6 +282,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "723597c2_7b795a2d",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "In the respective APIs results, see https://gerrit-review.googlesource.com/Documentation/dev-plugins.html#query_attributes",
+      "parentUuid": "ad94a573_b4a54065",
+      "range": {
+        "startLine": 98,
+        "startChar": 17,
+        "endLine": 98,
+        "endChar": 40
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "511b772b_4522bf4c",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
@@ -180,6 +317,30 @@
       "writtenOn": "2021-03-08T16:42:45Z",
       "side": 1,
       "message": "This is problematic IMHO: you could have a genuine bug and fail because you used the wrong version of the API. Then you manage this as assumption that the other plugin would not exist, which would be very prone to errors.",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 74
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6369adf0_b3fd36a3",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "\u003e [snip] \"and fail\"\n\nWhere do you see this described as failing? The point here is that it\u0027s graceful.",
+      "parentUuid": "511b772b_4522bf4c",
       "range": {
         "startLine": 108,
         "startChar": 0,
@@ -354,6 +515,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d5e9830_1037a717",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "\u003e What happens if change the API? It *may* work or it *may* break, you just don\u0027t know. Are you suggesting that we just will allow the plugins to break and accept the fact?\n\nI would always recommend using a non production server to test deployments prior to production. I\u0027m not Gustaf ;-) (remember http://www.quickmeme.com/img/2e/2e639765de8370ccc4b625c65b587c7267f92fd5a3c063bd049ce500974ce119.jpg from first hackathon?)",
+      "parentUuid": "95277c4c_fde9e9d0",
+      "range": {
+        "startLine": 127,
+        "startChar": 74,
+        "endLine": 128,
+        "endChar": 45
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "59051d03_c82af7b0",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
@@ -365,6 +550,30 @@
       "writtenOn": "2021-03-09T21:18:10Z",
       "side": 1,
       "message": "Are you saying that this mechanism won\u0027t take into consideration high-availability and immutability requirements?\n\nHow a Gerrit admin can detect that the system isn\u0027t fully working because:\n- one of the plugins needed isn\u0027t loaded, and then the depends-on aren\u0027t expanded as they should\n- one of the plugin has been reloaded but has broken the API and therefore has a waterfall effect on other plugins not fully working?",
+      "range": {
+        "startLine": 130,
+        "startChar": 34,
+        "endLine": 130,
+        "endChar": 73
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74fc9ea1_d5949ce2",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "\u003e Are you saying that this mechanism won\u0027t take into consideration high-availability and immutability requirements?\n\nNo, not saying that at all.\n\n\u003e \n\u003e How a Gerrit admin can detect that the system isn\u0027t fully working because:\n\u003e - one of the plugins needed isn\u0027t loaded, and then the depends-on aren\u0027t expanded as they should\n\u003e - one of the plugin has been reloaded but has broken the API and therefore has a waterfall effect on other plugins not fully working?\n\nThose are good questions that a solution should address. How should that get included in the use case doc?",
+      "parentUuid": "59051d03_c82af7b0",
       "range": {
         "startLine": 130,
         "startChar": 34,
@@ -435,6 +644,30 @@
       "writtenOn": "2021-03-09T21:18:10Z",
       "side": 1,
       "message": "But if PD-plugin contains an injected instance of a manifest cache of the manifest-plugin, if you unload the manifest-plugin what the cache is pointing to?",
+      "range": {
+        "startLine": 139,
+        "startChar": 24,
+        "endLine": 139,
+        "endChar": 40
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b1204be_704200c9",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-10T00:34:25Z",
+      "side": 1,
+      "message": "Let\u0027s first note that this is an example to highlight something tangentially related to the use case, not a complete solution. Let\u0027s save most discussion around implementation for solutions.\n\nIn this case, the PDs-plugin functionality that relies on that cache would be disabled for any requests that occur while the manifest plugin is unloaded.",
+      "parentUuid": "6e24a6f1_c9266a28",
       "range": {
         "startLine": 139,
         "startChar": 24,
