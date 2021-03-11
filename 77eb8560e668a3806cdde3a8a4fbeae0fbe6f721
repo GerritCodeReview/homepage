@@ -513,6 +513,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "066a5f00_31ca6b64",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "\u003e Yes, let me rephrase: you could have a \"graceful behaviour\" that isn\u0027t working (a 404 isn\u0027t a success code) and may be left unnoticed. Having plugins loaded with a version mismatch impacts the overall functionality: the Gerrit admin should be called and, in extreme cases, also shutdown the instance.\n\u003e \n\u003e A \"graceful\" behaviour isn\u0027t always good :-(\n\nVery true, neither is catastrophic failure. The use case request here is to have the ability to either handle the failure gracefully or not on a case by case basis.\n\nError handling very much depends on the specific type of failure. If I cannot connect to LDAP on startup, then I probably want startup to fail. If I cannot write to the git repos temporarily, then I probably want writes to fail, but not reads. If I cannot access my email server for a few seconds to send a comment, I don\u0027t want everything to fail catastrophically, nor to prevent changes from being uploaded. In order to make this policy appropriate, local error handling is generally needed. Just as it is important to be able to catch exceptions in java at times, it should be possible for plugin devs to determine what is the right thing to do when things fail. Catastrophic failure should not be the only option.\n\nFor this use case, propagated depends-on comment resolution is secondary to running the server, to reporting already resolved (or original) depends-ons comments to CI systems, and to almost all other things that these plugins can do. So if there is a critical fix needed for an important piece of functionality and this happens to break a less important piece of functionality, I still want to be able to deploy that fix. I certainly would be happy to know about the incompatibility in other ways though, warnings would probably be preferred in this case.",
+      "parentUuid": "4f4af9b7_e7d38d94",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 74
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "29c1fea2_10585319",
@@ -526,6 +550,30 @@
       "writtenOn": "2021-03-08T15:48:56Z",
       "side": 1,
       "message": "do you see a use-case where the cooperation of the plugins is decided after the plugin is released? In other words: you would be able to tell that a plugin is a Consumer of an API (because gerrit has to somehow hook it up to the provider), but is there a use-case for having plugins be a cross-plugin API provider without this being planned?",
+      "range": {
+        "startLine": 113,
+        "startChar": 21,
+        "endLine": 116,
+        "endChar": 51
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0f3d3ec_66d66d70",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "Yes, if I understand this question right.\n\nFor example in another use case, not the one in this doc, for years now I have wanted the task plugin to be configurable at runtime, via its config file, to point a task factory to methods in other plugins that provide valuable data that could be used to generate task lists. Deliverables in particular tend to make good tasks since it can be important that a change meet different, per deliverable, criteria for each deliverable it is destined for. We want to avoid having to define for every change what its deliverables are, so using a PD plugin to do that would be great. To achieve this I want to be able to wire the task plugin to read from 2 of our PD plugins, yet I didn\u0027t want the PD plugins or the task plugin to even need to be designed at compile time to work together! To be fair, I certainly don\u0027t mind having to alter the PD plugins to know that they are exposing this data to the task plugin, or just in general for any consumer, but there is a nice allure to being able to wire upstream plugins developed by other people who don\u0027t even know about the task plugin up to it via config only! Taking this one step further, I think it would be very powerful if \"scripting\" plugins could wire together other plugins without this haven been planned by the other plugins.",
+      "parentUuid": "29c1fea2_10585319",
       "range": {
         "startLine": 113,
         "startChar": 21,
@@ -606,6 +654,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "34c24f4c_b0e4f494",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "\u003e Thinking aloud: because things may change at runtime dynamically, this system should be able to understand what \"version\" of the API is currently loaded and what version of the implementation is loaded (or not loaded yet?) and understand that the invocation isn\u0027t possible and return a 404.\n\u003e \n\u003e That is *one* possible solution, but I am wondering if all that \"dynamic behaviour\" is really needed?\n\nImagine a plugin that talks to one specific customer\u0027s bug tracker. If that customer upgrades their bugtracker and it becomes incompatible with your plugin, would you want the gerrit server to not be able to be restarted and provide service to all your other customers? \n\nWe do not believe that all services are equal. We want the plugin environment to acknowledge that and to allow this to be reflected in its designs. We have plugins that do treat some external services as mandatory, for example some of our PD plugins will not load if they cannot access their external DB since we view that as catastrophic for the plugin (and likely a miss-configuration). So we understand why mandatory can be a feature, I hope that you can understand why sometimes mandatory is not the desired thing, and that you will trust our doc when we say that we want some things to be graceful.",
+      "parentUuid": "8f33e635_78ac617b",
+      "range": {
+        "startLine": 121,
+        "startChar": 10,
+        "endLine": 121,
+        "endChar": 53
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ebe190f4_0c9f113a",
@@ -647,6 +719,54 @@
         "startChar": 16,
         "endLine": 127,
         "endChar": 47
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf237d49_65f26ea2",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "\u003e What about the operations happened *before* the plugin is loaded?\n\nGood question.\n\n\u003e Example: \n\u003e T0: Only the depends-on plugin is loaded, it listens to the cherry-pick event and copy the dependencies. They are unexpanded though because the PD plugin that was doing the expansion isn\u0027t there.\n\u003e T1: The PD plugin is loaded and it will connect to the depends-on plugin for expanding the dependencies for new cherry-picks.\n\u003e \n\u003e If I cherry-pick a change A between T0 and T1 and another B after T1, the two expansions will be different.\n\u003e \n\u003e How do I \"retrofit\" the expansion to A as well?\n\u003e Who has this responsibility? The depends-on plugin? The PD plugin? Both?\n\nResolution/Expansion is on ongoing process as the needed changes on the other deliverables may not have been cherry-picked themselves yet at the time the dependent change is cherry-picked. Thus if an resolution/expansion is missed it is something that can happen again later in time. In fact, we don\u0027t currently perform resolution/expansion (converting change-ids to change-numbers) on cherry-picks! We only convert the other way around on cherry-picks (change-numbers to change-ids), this does not require any PD resolution. We expect resolution/expansion to happen later. Currently our CI systems triggers resolution/expansion (it has the responsibility to do this, not the plugins since it needs the data) every time they are looking for dependencies. If other users/systems need the data, they can trigger resolution/expansion too; we probably will want the task plugin to trigger this soon so that it can always display the latest resolutions when viewing dependencies on a change page.",
+      "parentUuid": "a82e815a_66ca4619",
+      "range": {
+        "startLine": 127,
+        "startChar": 16,
+        "endLine": 127,
+        "endChar": 47
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "239e468b_89a64566",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "\u003e That depends on what you mean by \"work\": at L110 you are proposing to return 404s when plugins are not getting the interface they expect, which is not exactly a working environment IMHO.\n\nI think you miss-read L110, we are proposing that plugins deal with \"not getting the interface they expect\" as if they received 404s from an external service, not that they themselves return 404s (although in some cases, that would be appropriate).",
+      "parentUuid": "ebe190f4_0c9f113a",
+      "range": {
+        "startLine": 126,
+        "startChar": 60,
+        "endLine": 127,
+        "endChar": 10
       },
       "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -713,6 +833,30 @@
       "side": 1,
       "message": "Ah, that looks more reasonable. Why then requiring a graceful failure in case of version incompatibilities? Don\u0027t you prefer to have a more evident failure?\n\nI am always shocked when I read people in the mailing list reporting strange errors on plugins, and then realising that they were running a *totally incompatible version* for days !!!! I would rather prefer a loud blow :-) so that I don\u0027t say to my people \"yeah, migration done, go !\".",
       "parentUuid": "2d5e9830_1037a717",
+      "range": {
+        "startLine": 127,
+        "startChar": 74,
+        "endLine": 128,
+        "endChar": 45
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b566358_4a00712f",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "\u003e Why then requiring a graceful failure in case of version incompatibilities? Don\u0027t you prefer to have a more evident failure?\n\nThis issue has been addressed in several other replies.",
+      "parentUuid": "91aec5c8_b5e3a09a",
       "range": {
         "startLine": 127,
         "startChar": 74,
@@ -841,6 +985,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3ec4a70_f3e39e33",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "\u003e wouldn\u0027t this be implicit?\n\nUnfortunately, I don\u0027t think this is implicit. There are ways to wire plugins together where cache sharing is not possible. In the current code base we have plugins that extend other plugins via switches and they cannot even share their own caches because they only have access to the classes in their plugin via a delegatingCL and that means they don\u0027t share the same instances or even class definitions and certainly not the same guice bindings as their own plugin.\n\n\u003e If I have plugin A that leverages the cache of plugin B (hence has an injection of that in one of its instances), how can B be unloaded without breaking A? How can B be downloaded at all if one of its instances have been injected into A?\n\nThose are good questions (and an assumed solution?) that we expect a solution to address.",
+      "parentUuid": "6c3e5aef_9ad1679b",
+      "range": {
+        "startLine": 137,
+        "startChar": 2,
+        "endLine": 137,
+        "endChar": 38
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6e24a6f1_c9266a28",
@@ -912,6 +1080,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "264a5a28_6761c54a",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "\u003e That\u0027s an interesting problem to solve: how to detect that the classes of the object you are pointing to (the cache is injected and referenced by the plugin\u0027s instances) have been unloaded.\n\nThis use case is not suggesting that other plugins need to detect that any of its references to caches or other objects are from a plugin that has been unloaded. We don\u0027t need that use case here as most operations that we want to support are request based. We envision that our plugins would be designed to not hold references to objects in other plugins beyond the duration of the request so that any resources, such as references to caches, objects, and class definitions, would no longer be held after the request completes.",
+      "parentUuid": "730ed8bf_343bb9f8",
+      "range": {
+        "startLine": 139,
+        "startChar": 24,
+        "endLine": 139,
+        "endChar": 40
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ccc63f07_f698d458",
@@ -925,6 +1117,30 @@
       "writtenOn": "2021-03-09T21:18:10Z",
       "side": 1,
       "message": "No, this isn\u0027t required at all. It *could be useful* to read the code in absence of good documentation, but actually having a well defined API and a stable contract it would be a lot better than just reading the source code.",
+      "range": {
+        "startLine": 156,
+        "startChar": 63,
+        "endLine": 157,
+        "endChar": 13
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3b6fe6c_d96460f0",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "\u003e No, this isn\u0027t required at all.\n\nYou seem to be objecting to something here, but it is unclear what, can you clarify? There is no mention of the word \"required\" or implication of a requirement in this paragraph.\n\nI believe you are describing a limitation when developing to non native APIs (RPCs), or reflection APIs, and we do not see this as desirable. We desire the ability to have normal compile time API development. This desire is not an argument for or against having good API documentation.",
+      "parentUuid": "ccc63f07_f698d458",
       "range": {
         "startLine": 156,
         "startChar": 63,
@@ -958,6 +1174,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6cd31c8_afe32779",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "I don\u0027t know that this can be answered without a specific solution in mind.  I don\u0027t believe that we specifically care about this for this use case. I don\u0027t really know how IDEs work, but I envision ways to make this at least possible for runtime (via classloader exclusions).",
+      "parentUuid": "b6ca74d5_0da14f26",
+      "range": {
+        "startLine": 162,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 69
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8bfb7d41_1ee09941",
@@ -971,6 +1211,30 @@
       "writtenOn": "2021-03-09T21:18:10Z",
       "side": 1,
       "message": "The hot-swapping isn\u0027t a mandatory requirement for a plugin, that\u0027s the reason why each plugin *declare* the reload method that is supported (see [1]):\n\n1. restart (the plugin is first removed and then added again)\n2. reload (the plugin is \"hot-swapped\")\n\nSaša has later defined also the \"mandatory plugins\" that cannot be unloaded at all, even if they would support either 1. or 2. or both of them.\n\nI have then introduced *years ago* the ability for plugins to be loaded as part of the base Gerrit injectors (sysInjector first and more recently the dbInjector and batchInjector), allowing plugins to replace core modules (e.g. cache-chroniclemap) or adding extra Dynamic* entities to allow x-plugin communication.\n\nAll of that is part of the \"normal plugin development\" and would already enable your use-case IMHO.\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-plugins.html#reload_method",
+      "range": {
+        "startLine": 165,
+        "startChar": 2,
+        "endLine": 166,
+        "endChar": 7
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66cbff4c_c33ec931",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-11T22:28:28Z",
+      "side": 1,
+      "message": "This section is describing what we see as normal to avoid any miss-conceptions about what we mean. We think the dynamic nature of plugins is normal, and we think that what you are describing is clearly an exceptional (but still a very valid) use of plugins, and I hope that you can be open to this perspective. I believe that DynamicMaps, Sets, Items, and the plugin (re)loading mechanisms were specifically designed to handle these use cases as normal from the start. The dynamic use case was designed long before the \"mandatory\" feature was added. The overwhelming majority of plugins operate without the use of \"mandatory\".\n\nWe see the need to use \"mandatory\" to resolve any use case other than \"I don\u0027t WANT my server to start without these plugins\" as failures in the plugin environment to meet plugin needs. I see it as unfortunate (yet justifiable as you do interesting and valuable things with plugins) that for you \"mandatory\", and \"lib\", may have indeed become \"normal\" ways of developing plugins. We don\u0027t want them to become normal for us! If this is indeed normal for you, then I believe that this is the strongest evidence that Gerrit needs more functionality to let plugins get back to being able to provide features without losing the original intended dynamic nature of plugins.",
+      "parentUuid": "8bfb7d41_1ee09941",
       "range": {
         "startLine": 165,
         "startChar": 2,
