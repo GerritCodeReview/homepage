@@ -58,6 +58,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1df9ecc_806e6d71",
+        "filename": "_posts/2021-03-09-esc-minutes.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-11T09:46:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cac17eca_7b822e8f",
+      "range": {
+        "startLine": 189,
+        "startChar": 49,
+        "endLine": 189,
+        "endChar": 57
+      },
+      "revId": "e36afe018fc1077e9634c9b71a8045b27f0952de",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "05c85887_313fcf5b",
@@ -71,6 +95,30 @@
       "writtenOn": "2021-03-11T09:35:09Z",
       "side": 1,
       "message": "just for some background: this was mainly delayed by qcom wanting more justification for this migration but also b/c we need to prototype all field types that we have to make sure they translate well.",
+      "range": {
+        "startLine": 190,
+        "startChar": 2,
+        "endLine": 190,
+        "endChar": 83
+      },
+      "revId": "e36afe018fc1077e9634c9b71a8045b27f0952de",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63ec3fce_b33811a3",
+        "filename": "_posts/2021-03-09-esc-minutes.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-11T09:46:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05c85887_313fcf5b",
       "range": {
         "startLine": 190,
         "startChar": 2,
