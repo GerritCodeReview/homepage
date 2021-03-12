@@ -20,31 +20,13 @@ wishes you want someone else of the community to work on!
 If someone would like to be involved when a specific topic is tackled, please
 [reach out to the ESC](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.0/dev-roles.html#steering-committee-member).
 
-## Gerrit 3.3
-Target: Q4 2020
+## Gerrit 3.4
+Target: Q2 2021
 
-* Performance improvements
-  * Replace H2 persistence with other more performant backends
-  * Improve Gerrit performance with mono-repos (tens of GBytes of size)
 * UX
-  * Attention Set (revising assignee and “bolding”)
-  * Increased overview in Change Log
-  * Porting unresolved comments to the latest patchset
-  * Showing comment context (file content or diff) along with comment widget in ChangeLog and
-    Comment Threads tab
-  * Per-label configuration to copy scores onto successfully cherry-picked changes
-* Infrastructure
-  * TypeScript
-  * Content-Security-Policy
-  * Rework diff caches
-  * Clean up project cache to allow to persist it
-  * Persist project cache
-  * Switch language level to Java 11
-* Plugin Development
-  * Bulk interface for PluginDefinedInfos in ChangeAttributeFactory
-  * Allow plugins to provide is: operands
+  * CI Results Tab / Frontend plugin
 
-## Upcoming plugin improvements related to Gerrit 3.3
+## Upcoming plugin improvements related to Gerrit 3.4
 * New plugin: Allow group deletion
 * Replication plugin
   * Support for external replication queue
@@ -59,7 +41,6 @@ Target: Q4 2020
     replication threads for each event's remote
   * Distribute tasks to other nodes via a shared filesystem
 * High-availability plugin
-  * Support for global ref-db
   * Mention HA and setup for multiple primary hosts in Gerrit documentation
 
 ## Upgrades from 2.7 to latest stable release
@@ -68,12 +49,12 @@ Target: Q4 2020
   * 2.16.x: Improve NoteDb offline migration speed (current timing is 24+ hours for Qualcomm)
   * Improve upgrade speed for specifically slow schemas
 
-## Gerrit 3.4
-Target: Q2 2021
+## Gerrit 3.5
+Target: Q4 2021
 
 * UX
   * Composable SubmitRules
-  * CI Results Tab / Frontend plugin
+* Switch language level to Java 11
 
 ## Distant future
 * Role-based access control
