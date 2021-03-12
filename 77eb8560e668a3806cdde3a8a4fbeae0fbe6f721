@@ -537,6 +537,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee9f10e6_2d421a25",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-12T10:20:34Z",
+      "side": 1,
+      "message": "\u003e \u003e Yes, let me rephrase: you could have a \"graceful behaviour\" that isn\u0027t working (a 404 isn\u0027t a success code) and may be left unnoticed. Having plugins loaded with a version mismatch impacts the overall functionality: the Gerrit admin should be called and, in extreme cases, also shutdown the instance.\n\u003e \u003e \n\u003e \u003e A \"graceful\" behaviour isn\u0027t always good :-(\n\u003e \n\u003e Very true, neither is catastrophic failure. The use case request here is to have the ability to either handle the failure gracefully or not on a case by case basis.\n\nYes, an \"evident failure\" that may (or may not) make Gerrit partly malfunctioning.\nCan you include a sentence on that?\n\n\u003e Error handling very much depends on the specific type of failure. If I cannot connect to LDAP on startup, then I probably want startup to fail. If I cannot write to the git repos temporarily, then I probably want writes to fail, but not reads. If I cannot access my email server for a few seconds to send a comment, I don\u0027t want everything to fail catastrophically, nor to prevent changes from being uploaded. In order to make this policy appropriate, local error handling is generally needed. Just as it is important to be able to catch exceptions in java at times, it should be possible for plugin devs to determine what is the right thing to do when things fail. Catastrophic failure should not be the only option.\n\n\u003e For this use case, propagated depends-on comment resolution is secondary to running the server, to reporting already resolved (or original) depends-ons comments to CI systems, and to almost all other things that these plugins can do. So if there is a critical fix needed for an important piece of functionality and this happens to break a less important piece of functionality, I still want to be able to deploy that fix. I certainly would be happy to know about the incompatibility in other ways though, warnings would probably be preferred in this case.\n\nYes, correct. The design document is on the generic x-plugin communication, where this use-case is one example. There are other examples (e.g. multi-site setup with x-plugin communication) where the failure of communication between plugins may cause the corruption of the repositories, where the problem needs to be raised a lot louder :-)",
+      "parentUuid": "066a5f00_31ca6b64",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 74
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "29c1fea2_10585319",
