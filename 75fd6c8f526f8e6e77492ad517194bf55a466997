@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e77a582_08536dd9",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-15T21:40:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0b638cfe_bcb5c5ba",
+      "range": {
+        "startLine": 44,
+        "startChar": 61,
+        "endLine": 45,
+        "endChar": 43
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c3579a16_27342b0a",
@@ -88,6 +112,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cab48fb7_85562899",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-15T21:40:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7153fc12_4361960f",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 14
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "35dc1f16_359eee0f",
@@ -111,6 +159,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6318044c_4a1dc8bb",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-15T21:40:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35dc1f16_359eee0f",
+      "range": {
+        "startLine": 59,
+        "startChar": 15,
+        "endLine": 59,
+        "endChar": 37
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e3d4f575_30ac49d0",
@@ -124,6 +196,24 @@
       "writtenOn": "2021-03-02T23:04:26Z",
       "side": 1,
       "message": "+ The Gerrit-CI has also an automated aws-gerrit pipeline [1] that will pointed to the stable-3.4 branch and run on.a daily basis.\n\n[1] https://gerrit-ci.gerritforge.com/job/gatling-gerrit-test/",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84f29aaa_5f11379f",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-15T21:40:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e3d4f575_30ac49d0",
       "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -288,6 +378,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2c07928_6cbc2837",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-15T21:40:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "00f11c20_d7c30d3a",
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "440f1a70_abcdf54c",
@@ -325,6 +433,30 @@
       "side": 1,
       "message": "+1\n\nI do think it\u0027s worth reviewing the comments from 3.3 [1] to try and make sure we\u0027re sending a consistent message to users/admins.\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/280483/5/_posts/2020-09-02-gerrit-3.3-release-plan.md#91",
       "parentUuid": "440f1a70_abcdf54c",
+      "range": {
+        "startLine": 94,
+        "startChar": 7,
+        "endLine": 94,
+        "endChar": 72
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1303d5d_2e737f83",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-15T21:40:39Z",
+      "side": 1,
+      "message": "We\u0027ve got a commitment to stop supporting Java 8 by the end of 2021.",
+      "parentUuid": "631b6713_d2ea8438",
       "range": {
         "startLine": 94,
         "startChar": 7,
