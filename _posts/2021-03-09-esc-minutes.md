@@ -27,12 +27,14 @@ Apr 06, 2021 - 11:00 - 12:00 CET
 
 ### Gerrit events rewrite and GCloud pub/sub notifications
 
-  Han-Wen has proposed [Change-Id: Ia54acb37](https://gerrit-review.googlesource.com/c/gerrit/+/296326)
-  which represents the beginning of the initiative of having Gerrit
-  notes exported as events. The
-  [previous design in review posted by Alice](https://gerrit-review.googlesource.com/c/homepage/+/280925)
-  has been abandoned because largely outdated compared to the current
-  status on Gerrit master.
+Han-Wen has proposed [Change-Id: Ia54acb37](https://gerrit-review.googlesource.com/c/gerrit/+/296326)
+which represents the beginning of the initiative of having Gerrit
+events available over the REST API. The
+[previous design in review posted by Alice](https://gerrit-review.googlesource.com/c/homepage/+/280925)
+has been abandoned because largely outdated compared to the current
+status on Gerrit master.
+
+Luca and GerritForge will drive a redesign targeting Gerrit v3.5.
 
 ### Patch-set comment experiment in Gerrit v3.3
 
