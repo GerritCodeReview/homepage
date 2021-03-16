@@ -22,6 +22,30 @@
       },
       "revId": "07151c7202e37c52597bf7b1740c3780405af60c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad63453f_a09b8ed3",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-16T23:07:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b599492a_85bd39cd",
+      "range": {
+        "startLine": 5,
+        "startChar": 11,
+        "endLine": 5,
+        "endChar": 21
+      },
+      "revId": "07151c7202e37c52597bf7b1740c3780405af60c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
