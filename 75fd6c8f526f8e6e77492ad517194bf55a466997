@@ -465,6 +465,30 @@
       },
       "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39cb5500_08b0ef6f",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-16T14:13:31Z",
+      "side": 1,
+      "message": "Wouldn\u0027t that make 3.5 the last version with java 8?",
+      "parentUuid": "a1303d5d_2e737f83",
+      "range": {
+        "startLine": 94,
+        "startChar": 7,
+        "endLine": 94,
+        "endChar": 72
+      },
+      "revId": "75fd6c8f526f8e6e77492ad517194bf55a466997",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

@@ -16,6 +16,52 @@
       "message": "Leaving this open for another 24h to give everyone the opportunity of making some final comments before merge.",
       "revId": "2c47c39c5529398cab968528be47ff7f6b48e9d0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8996c9ae_9400f3c4",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-16T14:13:31Z",
+      "side": 1,
+      "message": "s/./ /",
+      "range": {
+        "startLine": 76,
+        "startChar": 53,
+        "endLine": 76,
+        "endChar": 54
+      },
+      "revId": "2c47c39c5529398cab968528be47ff7f6b48e9d0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ae62138_ed00199c",
+        "filename": "_posts/2021-03-10-gerrit-3.4-release-plan.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-03-16T14:13:31Z",
+      "side": 1,
+      "message": "Where did these stats come from? The only download available for 3.3 is Java 11: https://www.gerritcodereview.com/3.3.html",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 49
+      },
+      "revId": "2c47c39c5529398cab968528be47ff7f6b48e9d0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
