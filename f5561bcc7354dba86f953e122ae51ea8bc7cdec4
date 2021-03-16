@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0de7787_0d64369d",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-16T00:38:33Z",
+      "side": 1,
+      "message": "We\u0027ll try but not sure we\u0027ll make it.",
+      "parentUuid": "849c4d0e_dd17e276",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 42
+      },
+      "revId": "f5561bcc7354dba86f953e122ae51ea8bc7cdec4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1740feb7_ba43fd70",
@@ -54,6 +78,30 @@
       "writtenOn": "2021-03-15T19:59:43Z",
       "side": 1,
       "message": "Move these to 3.5",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 41,
+        "endChar": 47
+      },
+      "revId": "f5561bcc7354dba86f953e122ae51ea8bc7cdec4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0111ab7_9fa6361f",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-16T00:38:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1740feb7_ba43fd70",
       "range": {
         "startLine": 37,
         "startChar": 2,
@@ -87,6 +135,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb35f02b_49a57195",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-16T00:38:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f1d5c7b1_0becdbc2",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 45
+      },
+      "revId": "f5561bcc7354dba86f953e122ae51ea8bc7cdec4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a75f8864_8b69b434",
@@ -110,6 +182,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da66ba3f_680eddd8",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-16T00:38:33Z",
+      "side": 1,
+      "message": "Not yet, as mentioned in the ESC meeting notes.",
+      "parentUuid": "a75f8864_8b69b434",
+      "range": {
+        "startLine": 64,
+        "startChar": 2,
+        "endLine": 64,
+        "endChar": 32
+      },
+      "revId": "f5561bcc7354dba86f953e122ae51ea8bc7cdec4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9a48e8c5_2101133b",
@@ -123,6 +219,24 @@
       "writtenOn": "2021-03-15T19:59:43Z",
       "side": 1,
       "message": "Move to 3.4. This will be in 3.4 based on https://git.eclipse.org/r/c/jgit/jgit/+/122288\n\nDocumentation needs to be added to Gerrit for admins to explain how to use it.",
+      "revId": "f5561bcc7354dba86f953e122ae51ea8bc7cdec4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f982ec9_0b0e4038",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-16T00:38:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a48e8c5_2101133b",
       "revId": "f5561bcc7354dba86f953e122ae51ea8bc7cdec4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
