@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "03778f3b_8f6f5a87",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "I think when migrating from a case-sensitive to a case-insensitive configuration a cleanup of existing duplicates should be done:\n- remove duplicate externalIds used for authentication\n- or replace them by a different non-duplicate externalId",
+      "parentUuid": "9f5377ee_6deaecf6",
+      "range": {
+        "startLine": 16,
+        "startChar": 67,
+        "endLine": 16,
+        "endChar": 77
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d3ecda99_07251e18",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 1
@@ -65,6 +89,29 @@
         "startChar": 2,
         "endLine": 22,
         "endChar": 15
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0dd9ffe_54f3fad2",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "accounts themselves must not be deleted, instead we can either delete or replace duplicate externalIds",
+      "range": {
+        "startLine": 24,
+        "startChar": 20,
+        "endLine": 24,
+        "endChar": 36
       },
       "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -141,6 +188,99 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "327ad24c_f1edbd24",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "see my comments in use-cases\n\nI think also externalIds in \"external\" scheme used for e.g. oauth and saml should be handled in the same way",
+      "parentUuid": "fb14de68_28213e35",
+      "range": {
+        "startLine": 26,
+        "startChar": 25,
+        "endLine": 26,
+        "endChar": 48
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1469cf6_4768642c",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "externalId",
+      "range": {
+        "startLine": 37,
+        "startChar": 60,
+        "endLine": 37,
+        "endChar": 68
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ec0a1d3_ed5f7df7",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "deactivated or their externalIds renamed",
+      "range": {
+        "startLine": 58,
+        "startChar": 46,
+        "endLine": 58,
+        "endChar": 53
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b847c79c_6a9a9771",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "keep",
+      "range": {
+        "startLine": 60,
+        "startChar": 52,
+        "endLine": 60,
+        "endChar": 57
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6a858901_5f9ce519",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 1
@@ -157,6 +297,121 @@
         "startChar": 63,
         "endLine": 65,
         "endChar": 47
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "adf134c1_f2ea54ac",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "deactivate or rename externalIds",
+      "range": {
+        "startLine": 66,
+        "startChar": 14,
+        "endLine": 66,
+        "endChar": 20
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "153fe0e2_01482921",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "new case-insensitive way to compute SHA1 hashes",
+      "range": {
+        "startLine": 68,
+        "startChar": 33,
+        "endLine": 68,
+        "endChar": 48
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8cab4b1f_946cf201",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "I think that\u0027s all implemented in the same method ExternalId.Key.sha1() [1]\n\nhttps://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/server/account/externalids/ExternalId.java#175",
+      "range": {
+        "startLine": 69,
+        "startChar": 63,
+        "endLine": 70,
+        "endChar": 37
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "521212cb_c6b97307",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "of",
+      "range": {
+        "startLine": 14,
+        "startChar": 17,
+        "endLine": 14,
+        "endChar": 19
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29df267b_0c1aab82",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "externalIds ? \n\nGerrit uses (generic) user names in different externalId schemes which are used for different authentication systems. \n\nCurrently the following externalId types are involved in authentication: gerrit, external, username\n\n## ExternalId schemes\n\nclass ExternalId defines the following externalId schemes [1]:\n\n- `gerrit`   (LDAP, is the javadoc in ExternalId correct ?) \n- `username` (authentication REST and git endpoints)\n- `external` (external authentication e.g. oauth, saml)\n- `gpgkey`   (gpg keys)\n- `mailto`   (email addresses)\n- `uuid`     (randomly created identities constructed by a UUID)\n\nRelevant for authentication are the schemes `gerrit`, `username`, `external`.\n\nMaybe we should also list all authentication types supported by Gerrit\n\n[1] https://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/server/account/externalids/ExternalId.java#114",
+      "range": {
+        "startLine": 14,
+        "startChar": 26,
+        "endLine": 14,
+        "endChar": 34
       },
       "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -187,6 +442,63 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5101fd18_04d74825",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "a first version is available here:\nhttps://gerrit-review.googlesource.com/c/gerrit/+/300308",
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3dc31814_eb9ff7bb",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "Edwin said accounts should not be deleted since they are referenced from other objects in notedb hence account deletion could lead to exceptions.\nInstead externalIds could be deleted or replaced.\n\nThe following API methods are already available via REST:\n- set username [1]\n- delete account external ids [2]\n\n[1] https://gerrit-review.googlesource.com/Documentation/rest-api-accounts.html#set-username\n[2] https://gerrit-review.googlesource.com/Documentation/rest-api-accounts.html#delete-account-external-ids",
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81a161df_3eec8c70",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "user name, currently one or multiple out of externalId types username, gerrit or external",
+      "range": {
+        "startLine": 35,
+        "startChar": 41,
+        "endLine": 35,
+        "endChar": 49
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "38302f19_948258d1",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 1
@@ -198,6 +510,75 @@
       "writtenOn": "2021-03-19T09:26:23Z",
       "side": 1,
       "message": "Except some of those identified as duplicates?",
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee49f222_7bdf3855",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "externalIds used as user names",
+      "range": {
+        "startLine": 46,
+        "startChar": 25,
+        "endLine": 46,
+        "endChar": 34
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "277cf6f0_20ec8e0d",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "remove this",
+      "range": {
+        "startLine": 51,
+        "startChar": 72,
+        "endLine": 51,
+        "endChar": 74
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6a270ad_1f549964",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "provider",
+      "range": {
+        "startLine": 56,
+        "startChar": 13,
+        "endLine": 56,
+        "endChar": 20
+      },
       "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -358,6 +739,29 @@
         "startChar": 0,
         "endLine": 80,
         "endChar": 18
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6965f80_65f61451",
+        "filename": "pages/design-docs/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-19T17:43:26Z",
+      "side": 1,
+      "message": "design-docs",
+      "range": {
+        "startLine": 29,
+        "startChar": 39,
+        "endLine": 29,
+        "endChar": 51
       },
       "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
