@@ -1,0 +1,366 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f5377ee_6deaecf6",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "Will such cases only be prohibited at the account creation time? Or does this mean that if we (still) have a duplicated account (johndoe and JohnDoe) then neither of them will be able to authenticate?",
+      "range": {
+        "startLine": 16,
+        "startChar": 67,
+        "endLine": 16,
+        "endChar": 77
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3ecda99_07251e18",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "Remove parentheses",
+      "range": {
+        "startLine": 22,
+        "startChar": 63,
+        "endLine": 22,
+        "endChar": 64
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f94b4105_25227a1b",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "A tool\n\nThis document doesn\u0027t need to assume that this will be a bash script",
+      "range": {
+        "startLine": 22,
+        "startChar": 2,
+        "endLine": 22,
+        "endChar": 15
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84d83ee4_f641a1d9",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "accounts externalIDs",
+      "range": {
+        "startLine": 24,
+        "startChar": 27,
+        "endLine": 25,
+        "endChar": 26
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e420c50c_41d657fd",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "accounts externalIDs\n\nAlso add a paragraph explaining the reasons not to delete the complete account but only its external IDs",
+      "range": {
+        "startLine": 24,
+        "startChar": 27,
+        "endLine": 25,
+        "endChar": 26
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb14de68_28213e35",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "are there external IDs which do not contains the username?",
+      "range": {
+        "startLine": 26,
+        "startChar": 25,
+        "endLine": 26,
+        "endChar": 48
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a858901_5f9ce519",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "Mention that this can be rolled out before the full implementation",
+      "range": {
+        "startLine": 64,
+        "startChar": 63,
+        "endLine": 65,
+        "endChar": 47
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "554b208e_6c8dd87a",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "administrators?",
+      "range": {
+        "startLine": 25,
+        "startChar": 55,
+        "endLine": 25,
+        "endChar": 60
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38302f19_948258d1",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "Except some of those identified as duplicates?",
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "daedc967_3307469a",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "the SSH create-account command",
+      "range": {
+        "startLine": 60,
+        "startChar": 52,
+        "endLine": 60,
+        "endChar": 63
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1c80a5e_ec63ac50",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "(created vis the serviceuser plugin)",
+      "range": {
+        "startLine": 61,
+        "startChar": 16,
+        "endLine": 61,
+        "endChar": 36
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05f2ee85_47e0cad0",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "This setting blocks",
+      "range": {
+        "startLine": 73,
+        "startChar": 28,
+        "endLine": 73,
+        "endChar": 53
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5de84521_1b9f3696",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "Here we should have one example which helps reader to follow easier.",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 57
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cef7b77b_047ad638",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "Where would that option be added?",
+      "range": {
+        "startLine": 74,
+        "startChar": 58,
+        "endLine": 75,
+        "endChar": 65
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e708861c_1e1b78ff",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "would",
+      "range": {
+        "startLine": 76,
+        "startChar": 31,
+        "endLine": 76,
+        "endChar": 34
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92f0ba02_bce6099a",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-03-19T09:26:23Z",
+      "side": 1,
+      "message": "As said in a previous comment: we need a couple of concrete examples.",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 18
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
