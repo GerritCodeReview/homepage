@@ -702,6 +702,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "46051beb_fad9ca8a",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-19T22:07:50Z",
+      "side": 1,
+      "message": "\u003e \u003e Thinking aloud: because things may change at runtime dynamically, this system should be able to understand what \"version\" of the API is currently loaded and what version of the implementation is loaded (or not loaded yet?) and understand that the invocation isn\u0027t possible and return a 404.\n\u003e \u003e \n\u003e \u003e That is *one* possible solution, but I am wondering if all that \"dynamic behaviour\" is really needed?\n\u003e \n\u003e Imagine a plugin that talks to one specific customer\u0027s bug tracker. If that customer upgrades their bugtracker and it becomes incompatible with your plugin, would you want the gerrit server to not be able to be restarted and provide service to all your other customers? \n\nThe answer is always \"it depends on the use-case\" :-)\nThere are situations were, as you said, the integration with the bug-tracker is a \"nice to have\" but isn\u0027t functional to the development workflow. In that case, you may want just to keep Gerrit up and have the plugin unloaded.\nThere are other situations where the integration with the bug-tracker is a mandatory requirement from a compliance perspective: in that case, Gerrit won\u0027t be useful until the integration is restored.\n\nThat\u0027s the reason why Saša introduced the concept of \"mandatory\" plugins, which is a configuration setting that allows to define which plugin is mandatory and which one isn\u0027t.\n\n\u003e We do not believe that all services are equal. We want the plugin environment to acknowledge that and to allow this to be reflected in its designs. We have plugins that do treat some external services as mandatory, for example some of our PD plugins will not load if they cannot access their external DB since we view that as catastrophic for the plugin (and likely a miss-configuration). So we understand why mandatory can be a feature, I hope that you can understand why sometimes mandatory is not the desired thing, and that you will trust our doc when we say that we want some things to be graceful.\n\nSure, I am not saying that all plugins should be mandatory: I agree with you on that point.",
+      "parentUuid": "34c24f4c_b0e4f494",
+      "range": {
+        "startLine": 121,
+        "startChar": 10,
+        "endLine": 121,
+        "endChar": 53
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ebe190f4_0c9f113a",
@@ -1165,6 +1189,30 @@
       "side": 1,
       "message": "\u003e No, this isn\u0027t required at all.\n\nYou seem to be objecting to something here, but it is unclear what, can you clarify? There is no mention of the word \"required\" or implication of a requirement in this paragraph.\n\nI believe you are describing a limitation when developing to non native APIs (RPCs), or reflection APIs, and we do not see this as desirable. We desire the ability to have normal compile time API development. This desire is not an argument for or against having good API documentation.",
       "parentUuid": "ccc63f07_f698d458",
+      "range": {
+        "startLine": 156,
+        "startChar": 63,
+        "endLine": 157,
+        "endChar": 13
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d81f6a69_6a5111f0",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-19T22:07:50Z",
+      "side": 1,
+      "message": "\u003e \u003e No, this isn\u0027t required at all.\n\u003e \n\u003e You seem to be objecting to something here, but it is unclear what, can you clarify?\n\nMy comment was more on what is a \"Regular Plugin Development\". Lots of time when you develop a plugin and you need to use an API from a dependency or another component, you have access to:\n- API definition\n- API documentation\n\nYou do not need to have access to the JAR file (or the source file) of any part of its implementation.",
+      "parentUuid": "c3b6fe6c_d96460f0",
       "range": {
         "startLine": 156,
         "startChar": 63,
