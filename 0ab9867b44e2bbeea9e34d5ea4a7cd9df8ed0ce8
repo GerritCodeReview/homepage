@@ -48,6 +48,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "26773848_c9780be2",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "03778f3b_8f6f5a87",
+      "range": {
+        "startLine": 16,
+        "startChar": 67,
+        "endLine": 16,
+        "endChar": 77
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d3ecda99_07251e18",
@@ -94,6 +118,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0446209e_b3a3268f",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d3ecda99_07251e18",
+      "range": {
+        "startLine": 22,
+        "startChar": 63,
+        "endLine": 22,
+        "endChar": 64
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04b958fb_edf33d6e",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f94b4105_25227a1b",
+      "range": {
+        "startLine": 22,
+        "startChar": 2,
+        "endLine": 22,
+        "endChar": 15
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b0dd9ffe_54f3fad2",
@@ -107,6 +179,30 @@
       "writtenOn": "2021-03-19T17:43:26Z",
       "side": 1,
       "message": "accounts themselves must not be deleted, instead we can either delete or replace duplicate externalIds",
+      "range": {
+        "startLine": 24,
+        "startChar": 20,
+        "endLine": 24,
+        "endChar": 36
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5ffa8bc_faa52be3",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b0dd9ffe_54f3fad2",
       "range": {
         "startLine": 24,
         "startChar": 20,
@@ -153,6 +249,54 @@
       "writtenOn": "2021-03-19T09:26:23Z",
       "side": 1,
       "message": "accounts externalIDs\n\nAlso add a paragraph explaining the reasons not to delete the complete account but only its external IDs",
+      "range": {
+        "startLine": 24,
+        "startChar": 27,
+        "endLine": 25,
+        "endChar": 26
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b757d75_ae16572b",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "84d83ee4_f641a1d9",
+      "range": {
+        "startLine": 24,
+        "startChar": 27,
+        "endLine": 25,
+        "endChar": 26
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "805ce3a6_03459bee",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e420c50c_41d657fd",
       "range": {
         "startLine": 24,
         "startChar": 27,
@@ -212,6 +356,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "087250a0_ff94d924",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "As far as I understand the `external` scheme might contain the username, but does not need to. It could just contain the oauth token.",
+      "parentUuid": "327ad24c_f1edbd24",
+      "range": {
+        "startLine": 26,
+        "startChar": 25,
+        "endLine": 26,
+        "endChar": 48
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a1469cf6_4768642c",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 1
@@ -223,6 +391,30 @@
       "writtenOn": "2021-03-19T17:43:26Z",
       "side": 1,
       "message": "externalId",
+      "range": {
+        "startLine": 37,
+        "startChar": 60,
+        "endLine": 37,
+        "endChar": 68
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aecf5079_6b6344b2",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a1469cf6_4768642c",
       "range": {
         "startLine": 37,
         "startChar": 60,
@@ -256,6 +448,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6226b52e_5d34a1dd",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ec0a1d3_ed5f7df7",
+      "range": {
+        "startLine": 58,
+        "startChar": 46,
+        "endLine": 58,
+        "endChar": 53
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b847c79c_6a9a9771",
@@ -269,6 +485,30 @@
       "writtenOn": "2021-03-19T17:43:26Z",
       "side": 1,
       "message": "keep",
+      "range": {
+        "startLine": 60,
+        "startChar": 52,
+        "endLine": 60,
+        "endChar": 57
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9154b34_051bbb33",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b847c79c_6a9a9771",
       "range": {
         "startLine": 60,
         "startChar": 52,
@@ -302,6 +542,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cd8a066_c7f3a6b4",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a858901_5f9ce519",
+      "range": {
+        "startLine": 64,
+        "startChar": 63,
+        "endLine": 65,
+        "endChar": 47
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "adf134c1_f2ea54ac",
@@ -315,6 +579,30 @@
       "writtenOn": "2021-03-19T17:43:26Z",
       "side": 1,
       "message": "deactivate or rename externalIds",
+      "range": {
+        "startLine": 66,
+        "startChar": 14,
+        "endLine": 66,
+        "endChar": 20
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcd7412a_cf9fd1ce",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "adf134c1_f2ea54ac",
       "range": {
         "startLine": 66,
         "startChar": 14,
@@ -348,6 +636,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "689bc36f_a08ee03f",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "153fe0e2_01482921",
+      "range": {
+        "startLine": 68,
+        "startChar": 33,
+        "endLine": 68,
+        "endChar": 48
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8cab4b1f_946cf201",
@@ -361,6 +673,30 @@
       "writtenOn": "2021-03-19T17:43:26Z",
       "side": 1,
       "message": "I think that\u0027s all implemented in the same method ExternalId.Key.sha1() [1]\n\nhttps://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/server/account/externalids/ExternalId.java#175",
+      "range": {
+        "startLine": 69,
+        "startChar": 63,
+        "endLine": 70,
+        "endChar": 37
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4823eb91_d9976c9b",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8cab4b1f_946cf201",
       "range": {
         "startLine": 69,
         "startChar": 63,
@@ -417,6 +753,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "89de1c34_dfd7e2dc",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "29df267b_0c1aab82",
+      "range": {
+        "startLine": 14,
+        "startChar": 26,
+        "endLine": 14,
+        "endChar": 34
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc63cfc0_12baba28",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done\nImproved readability",
+      "parentUuid": "521212cb_c6b97307",
+      "range": {
+        "startLine": 14,
+        "startChar": 17,
+        "endLine": 14,
+        "endChar": 19
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "554b208e_6c8dd87a",
@@ -430,6 +814,30 @@
       "writtenOn": "2021-03-19T09:26:23Z",
       "side": 1,
       "message": "administrators?",
+      "range": {
+        "startLine": 25,
+        "startChar": 55,
+        "endLine": 25,
+        "endChar": 60
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61859484_eb07eee6",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "In this case I meant for example the following scenario: A user looks at comments. There may be comments by a CI with user jenkins or Jenkins. It will be unnecessarily hard for a user to find out which CI posted the comment or why two users were used at all.",
+      "parentUuid": "554b208e_6c8dd87a",
       "range": {
         "startLine": 25,
         "startChar": 55,
@@ -457,6 +865,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d822ebbf_b6fa5efa",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5101fd18_04d74825",
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3dc31814_eb9ff7bb",
@@ -470,6 +896,24 @@
       "writtenOn": "2021-03-19T17:43:26Z",
       "side": 1,
       "message": "Edwin said accounts should not be deleted since they are referenced from other objects in notedb hence account deletion could lead to exceptions.\nInstead externalIds could be deleted or replaced.\n\nThe following API methods are already available via REST:\n- set username [1]\n- delete account external ids [2]\n\n[1] https://gerrit-review.googlesource.com/Documentation/rest-api-accounts.html#set-username\n[2] https://gerrit-review.googlesource.com/Documentation/rest-api-accounts.html#delete-account-external-ids",
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a47943a_9af7e101",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3dc31814_eb9ff7bb",
       "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -499,6 +943,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1b6f69a1_d99ba150",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "I am not sure what you mean",
+      "parentUuid": "81a161df_3eec8c70",
+      "range": {
+        "startLine": 35,
+        "startChar": 41,
+        "endLine": 35,
+        "endChar": 49
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "38302f19_948258d1",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 1
@@ -510,6 +978,24 @@
       "writtenOn": "2021-03-19T09:26:23Z",
       "side": 1,
       "message": "Except some of those identified as duplicates?",
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9694c025_69faa02a",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38302f19_948258d1",
       "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -527,6 +1013,30 @@
       "writtenOn": "2021-03-19T17:43:26Z",
       "side": 1,
       "message": "externalIds used as user names",
+      "range": {
+        "startLine": 46,
+        "startChar": 25,
+        "endLine": 46,
+        "endChar": 34
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "858837b9_c72e6820",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "I think at this point the internals of how usernames are used within Gerrit do not matter.",
+      "parentUuid": "ee49f222_7bdf3855",
       "range": {
         "startLine": 46,
         "startChar": 25,
@@ -560,6 +1070,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e82b43bc_f710998c",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "277cf6f0_20ec8e0d",
+      "range": {
+        "startLine": 51,
+        "startChar": 72,
+        "endLine": 51,
+        "endChar": 74
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d6a270ad_1f549964",
@@ -573,6 +1107,30 @@
       "writtenOn": "2021-03-19T17:43:26Z",
       "side": 1,
       "message": "provider",
+      "range": {
+        "startLine": 56,
+        "startChar": 13,
+        "endLine": 56,
+        "endChar": 20
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b4a4c7d_fa6ca3d7",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6a270ad_1f549964",
       "range": {
         "startLine": 56,
         "startChar": 13,
@@ -606,6 +1164,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a6361c4_4b668230",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "daedc967_3307469a",
+      "range": {
+        "startLine": 60,
+        "startChar": 52,
+        "endLine": 60,
+        "endChar": 63
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1c80a5e_ec63ac50",
@@ -619,6 +1201,30 @@
       "writtenOn": "2021-03-19T09:26:23Z",
       "side": 1,
       "message": "(created vis the serviceuser plugin)",
+      "range": {
+        "startLine": 61,
+        "startChar": 16,
+        "endLine": 61,
+        "endChar": 36
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89b7ed6d_d44fa27b",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1c80a5e_ec63ac50",
       "range": {
         "startLine": 61,
         "startChar": 16,
@@ -652,6 +1258,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "be0d07f2_04827aa3",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05f2ee85_47e0cad0",
+      "range": {
+        "startLine": 73,
+        "startChar": 28,
+        "endLine": 73,
+        "endChar": 53
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5de84521_1b9f3696",
@@ -665,6 +1295,30 @@
       "writtenOn": "2021-03-19T09:26:23Z",
       "side": 1,
       "message": "Here we should have one example which helps reader to follow easier.",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 57
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d2917e1_db881ff3",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5de84521_1b9f3696",
       "range": {
         "startLine": 74,
         "startChar": 0,
@@ -698,6 +1352,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b12b6abf_bcd17aa6",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cef7b77b_047ad638",
+      "range": {
+        "startLine": 74,
+        "startChar": 58,
+        "endLine": 75,
+        "endChar": 65
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e708861c_1e1b78ff",
@@ -721,6 +1399,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c5883cb_7ed6b5a0",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e708861c_1e1b78ff",
+      "range": {
+        "startLine": 76,
+        "startChar": 31,
+        "endLine": 76,
+        "endChar": 34
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "92f0ba02_bce6099a",
@@ -734,6 +1436,30 @@
       "writtenOn": "2021-03-19T09:26:23Z",
       "side": 1,
       "message": "As said in a previous comment: we need a couple of concrete examples.",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 18
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76bb4331_5ba72167",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T09:48:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92f0ba02_bce6099a",
       "range": {
         "startLine": 80,
         "startChar": 0,
