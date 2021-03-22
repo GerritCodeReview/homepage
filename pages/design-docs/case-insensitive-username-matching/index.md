@@ -9,5 +9,5 @@ toc: false
 # Design Doc - Case Insensitive Username Matching
 
 * [Use Cases](/design-docs/case-insensitive-username-matching-use-cases.html)
-<!-- * [Solution - Threaded Feedback](/design-docs/case-insensitive-username-matching-solution.html) -->
+* [Solution - Threaded Feedback](/design-docs/case-insensitive-username-matching-solution.html)
 <!-- * [Conclusion](/design-docs/case-insensitive-username-matching-conclusion.html) -->
