@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f55c96be_9ed10904",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2fa46c8a_90f09607",
+      "range": {
+        "startLine": 30,
+        "startChar": 2,
+        "endLine": 30,
+        "endChar": 46
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6db736d0_fd34cc15",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-03-22T11:34:15Z",
       "side": 1,
       "message": "That is too wide, can you narrow it down to your use-case?",
+      "range": {
+        "startLine": 35,
+        "startChar": 36,
+        "endLine": 35,
+        "endChar": 66
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88cb2b95_3d0c8bb8",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6db736d0_fd34cc15",
       "range": {
         "startLine": 35,
         "startChar": 36,
@@ -93,6 +141,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8bd9e05_da548c45",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "I used the definition section to define what I mean by duplicated usernames/accounts to avoid clunky sentences, but that was probably not a good idea, since the term is quite overloaded.\nI guess, prohibiting usernames different in capitalization should be optional, but implied if case insensitive username matching is enabled.",
+      "parentUuid": "8e4e5a1d_a1947e5a",
+      "range": {
+        "startLine": 45,
+        "startChar": 15,
+        "endLine": 45,
+        "endChar": 69
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0223b8b0_c13e59e0",
@@ -106,6 +178,30 @@
       "writtenOn": "2021-03-22T11:34:15Z",
       "side": 1,
       "message": "I would say also \"and facilitated by Gerrit tools\"",
+      "range": {
+        "startLine": 50,
+        "startChar": 51,
+        "endLine": 50,
+        "endChar": 80
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "712e5504_dab6b03c",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0223b8b0_c13e59e0",
       "range": {
         "startLine": 50,
         "startChar": 51,
@@ -141,6 +237,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8424a573_3651960d",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "Yes, we should. Should we keep the old behaviour as a default or make case insensitive username matching the default?",
+      "parentUuid": "f374159d_e94bfd12",
+      "range": {
+        "startLine": 52,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9276462e_196a7c39",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -152,6 +272,30 @@
       "writtenOn": "2021-03-22T11:34:15Z",
       "side": 1,
       "message": "That is configurable on the account\u0027s preferences. By default I believe is First + Last name, not username.",
+      "range": {
+        "startLine": 53,
+        "startChar": 2,
+        "endLine": 53,
+        "endChar": 15
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbc7afa6_3beac476",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "Good to know. However for technical users which do not have a first and last name it is the username to my observation.",
+      "parentUuid": "9276462e_196a7c39",
       "range": {
         "startLine": 53,
         "startChar": 2,
@@ -185,6 +329,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "514b4438_d2ee9aa4",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e0fa7a1b_a4b52b8d",
+      "range": {
+        "startLine": 58,
+        "startChar": 71,
+        "endLine": 59,
+        "endChar": 20
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bbb0709b_5b6e28ff",
@@ -208,6 +376,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8c63360_0258c50e",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bbb0709b_5b6e28ff",
+      "range": {
+        "startLine": 67,
+        "startChar": 43,
+        "endLine": 69,
+        "endChar": 44
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "91c002c5_17c63c31",
@@ -221,6 +413,30 @@
       "writtenOn": "2021-03-22T11:34:15Z",
       "side": 1,
       "message": "Those are both the same account type, isn\u0027t it? The serviceuser-plugin internally creates accounts in the same way you would create them using the create-account command.\n\nIf they are two different account types, can you elaborate on the differences?",
+      "range": {
+        "startLine": 77,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 52
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "946edbbb_a749cbe6",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "They are the same. The only difference is that there is additional metadata stored by the serviceuser plugin (serviceuser.db in the refs/meta/config branch of the All-Projects repo). However, for the sake of this discussion they are the same.",
+      "parentUuid": "91c002c5_17c63c31",
       "range": {
         "startLine": 77,
         "startChar": 0,
@@ -256,6 +472,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5165bccc_244316e8",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "There two or maybe more different scenarios:\n1) one account in LDAP and one created as internal account (I think that was done by admins before our LDAP provider allowed technical users)\n2) one account created with the serviceuser plugin and one using the REST API/SSH command",
+      "parentUuid": "86df5fd5_d6a5ea62",
+      "range": {
+        "startLine": 84,
+        "startChar": 55,
+        "endLine": 85,
+        "endChar": 10
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "648cb191_d74fe569",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -279,6 +519,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "36ed2c35_48f124bb",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "I am not sure why this combination was chosen, since this was before my time at SAP.\nHowever, how would a user be able to use the REST API case insensitively in this case? The described case only allows lowercase usernames to be used there.",
+      "parentUuid": "648cb191_d74fe569",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 105,
+        "endChar": 38
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3a7eb186_baf1c91c",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -290,6 +554,30 @@
       "writtenOn": "2021-03-22T11:34:15Z",
       "side": 1,
       "message": "I am all in favour of this, but let\u0027s see if anyone else have case-sensitive usernames in Gerrit.",
+      "range": {
+        "startLine": 186,
+        "startChar": 31,
+        "endLine": 186,
+        "endChar": 69
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d42ad09_84c00628",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-22T14:36:46Z",
+      "side": 1,
+      "message": "Do you have additional usecases/scenarios that would be worth mentioning here? It would be nice to not only base this on our specific needs.",
+      "parentUuid": "3a7eb186_baf1c91c",
       "range": {
         "startLine": 186,
         "startChar": 31,
