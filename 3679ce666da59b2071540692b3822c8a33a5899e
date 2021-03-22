@@ -118,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "870e560f_47eb7a82",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-22T20:58:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "33717690_88bee5b8",
+      "range": {
+        "startLine": 40,
+        "startChar": 11,
+        "endLine": 40,
+        "endChar": 30
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8e4e5a1d_a1947e5a",
@@ -155,6 +179,30 @@
       "side": 1,
       "message": "I used the definition section to define what I mean by duplicated usernames/accounts to avoid clunky sentences, but that was probably not a good idea, since the term is quite overloaded.\nI guess, prohibiting usernames different in capitalization should be optional, but implied if case insensitive username matching is enabled.",
       "parentUuid": "8e4e5a1d_a1947e5a",
+      "range": {
+        "startLine": 45,
+        "startChar": 15,
+        "endLine": 45,
+        "endChar": 69
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba714096_a65b4e78",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-22T20:58:22Z",
+      "side": 1,
+      "message": "Thanks, much clearer now 👍",
+      "parentUuid": "e8bd9e05_da548c45",
       "range": {
         "startLine": 45,
         "startChar": 15,
@@ -249,6 +297,30 @@
       "side": 1,
       "message": "Yes, we should. Should we keep the old behaviour as a default or make case insensitive username matching the default?",
       "parentUuid": "f374159d_e94bfd12",
+      "range": {
+        "startLine": 52,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70e67523_c87fa9af",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-22T20:58:22Z",
+      "side": 1,
+      "message": "I believe for too long we had conservative incorrect defaults in Gerrit which lead to this and many other problems.\n\nI believe in v3.4 we should make this new behaviour the default. If anyone wants to have case-sensitive accounts, they can switch that off.",
+      "parentUuid": "8424a573_3651960d",
       "range": {
         "startLine": 52,
         "startChar": 55,
@@ -400,6 +472,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c71fff1b_7843a384",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-22T20:58:22Z",
+      "side": 1,
+      "message": "Yes, much better, thanks.",
+      "parentUuid": "a8c63360_0258c50e",
+      "range": {
+        "startLine": 67,
+        "startChar": 43,
+        "endLine": 69,
+        "endChar": 44
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "91c002c5_17c63c31",
@@ -496,6 +592,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "045d0669_a3af47a2",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-22T20:58:22Z",
+      "side": 1,
+      "message": "Oh yes, but you fixed the bug at 2) right?",
+      "parentUuid": "5165bccc_244316e8",
+      "range": {
+        "startLine": 84,
+        "startChar": 55,
+        "endLine": 85,
+        "endChar": 10
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "648cb191_d74fe569",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -543,6 +663,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "38bf6734_d7403158",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-22T20:58:22Z",
+      "side": 1,
+      "message": "That\u0027s the problem: the GUI calls the REST-API ! It is very messy to have a lowercase username for the GUI but a mixed-case username for the REST-API.\n\nI believe all that flexibility created this very complicated scenario. We should aim to make it simpler in the future.",
+      "parentUuid": "36ed2c35_48f124bb",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 105,
+        "endChar": 38
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3a7eb186_baf1c91c",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -578,6 +722,30 @@
       "side": 1,
       "message": "Do you have additional usecases/scenarios that would be worth mentioning here? It would be nice to not only base this on our specific needs.",
       "parentUuid": "3a7eb186_baf1c91c",
+      "range": {
+        "startLine": 186,
+        "startChar": 31,
+        "endLine": 186,
+        "endChar": 69
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d75ac8c_2e9c42c9",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-22T20:58:22Z",
+      "side": 1,
+      "message": "I would actually *love* to have a username renaming use-case taken into consideration as well, but I am fearing we will be making this design document too big :-(",
+      "parentUuid": "7d42ad09_84c00628",
       "range": {
         "startLine": 186,
         "startChar": 31,
