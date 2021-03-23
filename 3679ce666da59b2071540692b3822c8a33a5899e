@@ -616,6 +616,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "13e463ba_1770a54a",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-23T00:14:07Z",
+      "side": 1,
+      "message": "the",
+      "range": {
+        "startLine": 91,
+        "startChar": 63,
+        "endLine": 91,
+        "endChar": 66
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "648cb191_d74fe569",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -746,6 +769,30 @@
       "side": 1,
       "message": "I would actually *love* to have a username renaming use-case taken into consideration as well, but I am fearing we will be making this design document too big :-(",
       "parentUuid": "7d42ad09_84c00628",
+      "range": {
+        "startLine": 186,
+        "startChar": 31,
+        "endLine": 186,
+        "endChar": 69
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b20e06c_a3247038",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-03-23T00:14:07Z",
+      "side": 1,
+      "message": "do you mean renaming the username externalId and gerrit externalId or something else ?",
+      "parentUuid": "5d75ac8c_2e9c42c9",
       "range": {
         "startLine": 186,
         "startChar": 31,
