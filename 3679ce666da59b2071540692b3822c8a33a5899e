@@ -333,6 +333,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "06af0c52_4611cc5c",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-23T08:56:52Z",
+      "side": 1,
+      "message": "If we make it the default, the question is how we do the emigration of the account data, if the approach Edwin suggested is accepted. The current idea of Matthias, Sasa and me was to provide the migration as a separate (pgm) tool. Since the migration likely can\u0027t be performed online, this would be the least intrusive way. At the very least we would have to document the breaking change. Maybe we could even add a check for accounts that would stop working in the init-tool.",
+      "parentUuid": "70e67523_c87fa9af",
+      "range": {
+        "startLine": 52,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9276462e_196a7c39",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -616,6 +640,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "589e474c_006eec14",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-23T08:56:52Z",
+      "side": 1,
+      "message": "Yes, I have a change here: https://gerrit-review.googlesource.com/c/gerrit/+/300214\n\nHowever, this does not help with existing accounts.",
+      "parentUuid": "045d0669_a3af47a2",
+      "range": {
+        "startLine": 84,
+        "startChar": 55,
+        "endLine": 85,
+        "endChar": 10
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "13e463ba_1770a54a",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -627,6 +675,30 @@
       "writtenOn": "2021-03-23T00:14:07Z",
       "side": 1,
       "message": "the",
+      "range": {
+        "startLine": 91,
+        "startChar": 63,
+        "endLine": 91,
+        "endChar": 66
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11067656_6f5cbf04",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-23T08:56:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13e463ba_1770a54a",
       "range": {
         "startLine": 91,
         "startChar": 63,
@@ -698,6 +770,30 @@
       "side": 1,
       "message": "That\u0027s the problem: the GUI calls the REST-API ! It is very messy to have a lowercase username for the GUI but a mixed-case username for the REST-API.\n\nI believe all that flexibility created this very complicated scenario. We should aim to make it simpler in the future.",
       "parentUuid": "36ed2c35_48f124bb",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 105,
+        "endChar": 38
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc9f59b8_ae7b1761",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-03-23T08:56:52Z",
+      "side": 1,
+      "message": "Definitely. I think it would be valid to just keep auth.userNameToLowerCase and respect it everywhere. ldap.localUsernameToLowerCase could be deprecated then. Having a single option that is used everywhere would make things simpler. However, here we discuss adding yet another option. Flexibility has its merits, but also makes things harder. Having a single way of storing usernames would make things a lot easier, at least after everybody has adopted that.",
+      "parentUuid": "38bf6734_d7403158",
       "range": {
         "startLine": 104,
         "startChar": 0,
