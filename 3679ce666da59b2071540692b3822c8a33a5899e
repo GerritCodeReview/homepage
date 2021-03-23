@@ -357,6 +357,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1b2971dc_1a47473b",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-23T11:29:55Z",
+      "side": 1,
+      "message": "I believe there could be a \"toleration mode\" where we *block* the creation of new duplicates and tolerate the existing ones.",
+      "parentUuid": "06af0c52_4611cc5c",
+      "range": {
+        "startLine": 52,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9276462e_196a7c39",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -664,6 +688,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0dc5ac56_a547753c",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-23T11:29:55Z",
+      "side": 1,
+      "message": "Yep, agreed.",
+      "parentUuid": "589e474c_006eec14",
+      "range": {
+        "startLine": 84,
+        "startChar": 55,
+        "endLine": 85,
+        "endChar": 10
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "13e463ba_1770a54a",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -794,6 +842,30 @@
       "side": 1,
       "message": "Definitely. I think it would be valid to just keep auth.userNameToLowerCase and respect it everywhere. ldap.localUsernameToLowerCase could be deprecated then. Having a single option that is used everywhere would make things simpler. However, here we discuss adding yet another option. Flexibility has its merits, but also makes things harder. Having a single way of storing usernames would make things a lot easier, at least after everybody has adopted that.",
       "parentUuid": "38bf6734_d7403158",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 105,
+        "endChar": 38
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bf43c55_f86bda9a",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-03-23T11:29:55Z",
+      "side": 1,
+      "message": "That __flexibility__ sounds like a bug to me: I do not see a reason for having it. But let\u0027s see what people thinks.",
+      "parentUuid": "cc9f59b8_ae7b1761",
       "range": {
         "startLine": 104,
         "startChar": 0,
