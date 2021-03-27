@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b179b0f7_380bbf66",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-27T22:20:29Z",
+      "side": 1,
+      "message": "* Add the ability for a plugin to specify another plugin as a mandatory dependency also? i.e. The plugin will not load unless the dependency plugin is loaded. The dependent plugin will be unloaded if the dependency plugin is unloaded. The dependency plugin may be reloaded without interrupting the service of the dependent plugin.",
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "52f1082e_5b3be111",
         "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
         "patchSetId": 1
