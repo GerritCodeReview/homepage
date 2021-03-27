@@ -9,3 +9,4 @@ toc: false
 ## Design Doc - Inter Plugin Communication
 
 * [Use Cases](/design-docs/inter-plugin-communication-use-cases.html)
+* [Solution](/design-docs/inter-plugin-communication-solution-plugin-bundling.html)
