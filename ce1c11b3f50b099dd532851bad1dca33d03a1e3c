@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "764c6cf3_70aad321",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-29T16:58:02Z",
+      "side": 1,
+      "message": "8) Type safety concerns. Being able to share types in a way that is \"verified\" at compile time. Avoiding downcasts.",
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "273877e4_57bef785",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-29T16:58:02Z",
+      "side": 1,
+      "message": "## IDE\n\n1) Being able to develop IPCs using eclipse or other IDEs.",
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
