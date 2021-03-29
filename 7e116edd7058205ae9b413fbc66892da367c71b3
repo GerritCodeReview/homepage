@@ -1,6 +1,92 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a03d710_628a67ff",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-03-29T09:33:51Z",
+      "side": 1,
+      "message": "Does this mean that a child plugin must have at least two parent plugins?",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 64
+      },
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39a78372_6730e957",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-03-29T09:33:51Z",
+      "side": 1,
+      "message": "Won\u0027t this introduce complex dependency problems also?\n\n    Child-Plugin-A dependes-on Parent-Plugin-A (\u003ev2.3 \u003cv4.0) Parent-Plugin-B (v3.*)\n    Child-Plugin-B dependes-on Parent-Plugin-A (\u003ev2.*) Parent-Plugin-B (v2.*)",
+      "range": {
+        "startLine": 11,
+        "startChar": 40,
+        "endLine": 11,
+        "endChar": 56
+      },
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd000cd1_a31d76fc",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-03-29T09:33:51Z",
+      "side": 1,
+      "message": "Must they be build with maven?",
+      "range": {
+        "startLine": 16,
+        "startChar": 74,
+        "endLine": 16,
+        "endChar": 77
+      },
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34dd69d8_c4e386b8",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-03-29T09:33:51Z",
+      "side": 1,
+      "message": "Would it be enough to simply state that \"If a child plugin is mandatory, all its parents also [become|are considered|should be considered] mandatory\"",
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f06de5a9_4ad83c2a",
