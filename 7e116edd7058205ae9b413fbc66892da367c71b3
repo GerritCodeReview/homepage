@@ -49,6 +49,54 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "06b70598_6c86ee4a",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-30T15:00:27Z",
+      "side": 1,
+      "message": "\u003e Does this mean that a child plugin must have at least two parent plugins?\n\nYes, in this PS. The reasoning was that child plugins were only ever needed when mixing classloaders, to mix, you need at least 2. The next PS changes the model though significantly to support \"chaining\" of API calls to other plugins.",
+      "parentUuid": "9a03d710_628a67ff",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 64
+      },
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e198b82_422fdf8f",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-30T15:00:27Z",
+      "side": 1,
+      "message": "\u003e Won\u0027t this introduce complex dependency problems also?\n\nNo because these problems already exist. :(",
+      "parentUuid": "39a78372_6730e957",
+      "range": {
+        "startLine": 11,
+        "startChar": 40,
+        "endLine": 11,
+        "endChar": 56
+      },
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "cd000cd1_a31d76fc",
         "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
         "patchSetId": 1
@@ -60,6 +108,30 @@
       "writtenOn": "2021-03-29T09:33:51Z",
       "side": 1,
       "message": "Must they be build with maven?",
+      "range": {
+        "startLine": 16,
+        "startChar": 74,
+        "endLine": 16,
+        "endChar": 77
+      },
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b8cf074_026d50ab",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-30T15:00:27Z",
+      "side": 1,
+      "message": "\u003e Must they be build with maven?\n\nNo, the parens were intended to mean \"like pom entries\" because I don\u0027t know the best term for that, do you?",
+      "parentUuid": "cd000cd1_a31d76fc",
       "range": {
         "startLine": 16,
         "startChar": 74,
@@ -87,6 +159,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a63f12fa_632e491f",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-30T15:00:27Z",
+      "side": 1,
+      "message": "\u003e Would it be enough to simply state that \"If a child plugin is mandatory, all its parents also [become|are considered|should be considered] mandatory\"\n\nI think describing behavior is important to prevent confusion.",
+      "parentUuid": "34dd69d8_c4e386b8",
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f06de5a9_4ad83c2a",
@@ -100,6 +190,24 @@
       "writtenOn": "2021-03-27T21:49:11Z",
       "side": 1,
       "message": "The plugins should also not be allowed to be unloaded.",
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6085e3aa_4112843b",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-30T15:00:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f06de5a9_4ad83c2a",
       "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
