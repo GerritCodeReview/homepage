@@ -144,6 +144,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "9e2dcb14_64d1a805",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-03-31T08:17:41Z",
+      "side": 1,
+      "message": "No, not really. pom entries is quite broad.\nUsing the Bazel term for what you intend perhaps, manifest entries?",
+      "parentUuid": "2b8cf074_026d50ab",
+      "range": {
+        "startLine": 16,
+        "startChar": 74,
+        "endLine": 16,
+        "endChar": 77
+      },
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "34dd69d8_c4e386b8",
         "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
         "patchSetId": 1
