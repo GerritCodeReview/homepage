@@ -3,6 +3,80 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "eeae79f9_b8b15e14",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-31T23:39:46Z",
+      "side": 1,
+      "message": "Based on the minimum external and internal needs of the service.",
+      "range": {
+        "startLine": 9,
+        "startChar": 1,
+        "endLine": 9,
+        "endChar": 21
+      },
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3033c5ec_dd93fbc3",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-31T23:39:46Z",
+      "side": 1,
+      "message": "- When a request is made, or when a scheduled event will run.",
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4858ff7a_ef709e38",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-31T23:39:46Z",
+      "side": 1,
+      "message": "This concept should likely be split into multiple pieces, and maybe DynamicXs is a better word for these, because \"insertion points\" probably only describes the \"consumer\" piece of these. DynamicXs have:\n\n1) definers:  DynamicMapOf()\n\n2) consumers: @Inject DynamicMap\u003cT\u003e map;  T t \u003d map.get(\"plugin-A\");\n\n3) producers: bind(T).to(TImpl.class)",
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cf226b3_acd97f01",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-31T23:39:46Z",
+      "side": 1,
+      "message": "If using DynamicXs to define APIs, then \"Closed DynamicX Producer bindings: the ability of the definer of DynamicXs to limit which plugins can provide implementations.\" \n\ni.e. A plugin doing DynamicMapOf(T) may want the ability to be able to be the only plugin able to then do: bind(T).to(TImpl.class)",
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "764c6cf3_70aad321",
         "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
         "patchSetId": 1
@@ -20,6 +94,47 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bfd72e83_be24988a",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-31T23:39:46Z",
+      "side": 1,
+      "message": "9) Non-checked class reference concerns. Example: the current plugin Modules are referenced from the jar MANIFEST file properties without any checking that the properties point to real class name and aren\u0027t miss-spelled.",
+      "parentUuid": "764c6cf3_70aad321",
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "820e7d2f_d18f4121",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-31T23:39:46Z",
+      "side": 1,
+      "message": "s/all dependencies being/the dependencies of other services/",
+      "range": {
+        "startLine": 62,
+        "startChar": 72,
+        "endLine": 62,
+        "endChar": 75
+      },
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "273877e4_57bef785",
         "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
         "patchSetId": 1
@@ -31,6 +146,24 @@
       "writtenOn": "2021-03-29T16:58:02Z",
       "side": 1,
       "message": "## IDE\n\n1) Being able to develop IPCs using eclipse or other IDEs.",
+      "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f9d70a7_18c6c95f",
+        "filename": "pages/design-docs/inter-plugin-communication/IPC-Concepts.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-03-31T23:39:46Z",
+      "side": 1,
+      "message": "## Administration Perspectives\n\n1) Requiring Filesystem access to install jars, or edit config files.\n\n2) Managing plugin load ordering:\n a) at Gerrit startup\n b) manually at runtime using the apis\n\n3) Managing plugin installations:\n a) Knowing which plugins are needed to get a specific service\n b) Having to install only the expected plugins needed for a specific service\n c) Avoiding plugin jar file proliferation via aggregation, i.e. not having a separate jar to manage for each service in a plugin that needs to be independent.",
+      "parentUuid": "273877e4_57bef785",
       "revId": "ce1c11b3f50b099dd532851bad1dca33d03a1e3c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
