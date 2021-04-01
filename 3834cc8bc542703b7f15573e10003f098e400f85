@@ -22,6 +22,30 @@
       },
       "revId": "3834cc8bc542703b7f15573e10003f098e400f85",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13eb6fbb_6e87e2b0",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 538,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-01T15:16:28Z",
+      "side": 1,
+      "message": "Done in https://gerrit-review.googlesource.com/c/homepage/+/301962",
+      "parentUuid": "2af4ee49_b800dee2",
+      "range": {
+        "startLine": 538,
+        "startChar": 8,
+        "endLine": 538,
+        "endChar": 16
+      },
+      "revId": "3834cc8bc542703b7f15573e10003f098e400f85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
