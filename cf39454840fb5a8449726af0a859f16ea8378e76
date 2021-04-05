@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e3b78ca5_a08e4273",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-05T20:38:53Z",
+      "side": 1,
+      "message": "I think \"worked around\" is what you\u0027re looking for.",
+      "parentUuid": "277ba695_56b286fd",
+      "range": {
+        "startLine": 19,
+        "startChar": 48,
+        "endLine": 19,
+        "endChar": 58
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4711c8a8_da3a3768",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -140,6 +164,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "21e80db1_6c9f5bec",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-05T20:38:53Z",
+      "side": 1,
+      "message": "This seems like an overly broad statement. If you delete fields from the event that the integration relies upon, we would very much expect it to break, correct? Can you narrow this to (a) more specific use case(s)?",
+      "range": {
+        "startLine": 45,
+        "startChar": 20,
+        "endLine": 46,
+        "endChar": 16
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "475a3db4_c634bb01",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -180,6 +227,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d305fd51_11927732",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-05T20:38:53Z",
+      "side": 1,
+      "message": "This doesn\u0027t describe a problem or use case that isn\u0027t already solved. I think you can are hinting at a problem (maybe those integrations are fragile?), but I have to guess currently.",
+      "range": {
+        "startLine": 48,
+        "startChar": 3,
+        "endLine": 49,
+        "endChar": 50
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1e3e961a_fbd1701e",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -196,6 +266,29 @@
         "startChar": 44,
         "endLine": 51,
         "endChar": 51
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43c1fbe9_b429aa0d",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-05T20:38:53Z",
+      "side": 1,
+      "message": "Can you describe the use cases where this kind of manual coding is happening currently? (or if none exist yet, where you think it would be needed)",
+      "range": {
+        "startLine": 52,
+        "startChar": 53,
+        "endLine": 52,
+        "endChar": 86
       },
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -237,6 +330,30 @@
       "writtenOn": "2021-04-05T19:34:06Z",
       "side": 1,
       "message": "Some of the criteria here seem to be dictating a solution (having a schema). It is best to word ACs as behavior you want to be able to support instead of implementations that you want. Otherwise the solution might provide the implementation that you specified and still not provide the behavior that you are seeking.",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58f32486_4167491d",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-05T20:38:53Z",
+      "side": 1,
+      "message": "What defines a well-known standard?",
+      "parentUuid": "61c2171b_36ac49bd",
+      "range": {
+        "startLine": 56,
+        "startChar": 33,
+        "endLine": 56,
+        "endChar": 42
+      },
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
