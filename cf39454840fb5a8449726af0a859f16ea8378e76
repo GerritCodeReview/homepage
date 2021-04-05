@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bc9774ab_bc1d82b4",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "I think what you are describing is the desire to write software that supports more than one older schema at a time, as supporting future schemas is unlikely without upgrading your users.",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "277ba695_56b286fd",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -20,6 +37,40 @@
         "endLine": 19,
         "endChar": 58
       },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4711c8a8_da3a3768",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "This is a strange thing to put in this doc, as it seems unrelated to everything else and is not mentioned as a use case to improve?",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9c45ade_2db8ab7f",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "I don\u0027t think this is fundamental to that use case. I believe the use cases in this section are all specific to the rolling upgrades use case? I think that MP is perhaps fundamental to rolling upgrades, but the other way around is not true.",
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -72,6 +123,86 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "656c29b3_594bb998",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "This sounds like an AC, not a use case.",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "475a3db4_c634bb01",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "Sounds like a solution",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7de067de_0d4b9f25",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "Can you give an example of what this means to you, because I suspect \"easy\" means different things to different people?",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e3e961a_fbd1701e",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "Here is an example of where you are specifying a solution as a use case, yet that use case is NOT inherently met by that solution \"having events schema\". If you want to support code generation, then I think it should be in your AC (but not \"schema\").",
+      "range": {
+        "startLine": 51,
+        "startChar": 44,
+        "endLine": 51,
+        "endChar": 51
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "61c2171b_36ac49bd",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -95,6 +226,40 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "81ff6217_ef6e281b",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "Some of the criteria here seem to be dictating a solution (having a schema). It is best to word ACs as behavior you want to be able to support instead of implementations that you want. Otherwise the solution might provide the implementation that you specified and still not provide the behavior that you are seeking.",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6767385c_974c4704",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "Forward compatibility is unlikely to be achievable 100%, so you may want to specify what sorts of changes you expect to be forward compatible.\n\nYou probably want to specify how far back you expect backward compatibility to go, i.e. I don\u0027t suspect you will support Gerrit 2.7?",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a1deebf9_65b92a62",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -106,6 +271,30 @@
       "writtenOn": "2021-04-03T01:42:28Z",
       "side": 1,
       "message": "reasons",
+      "range": {
+        "startLine": 59,
+        "startChar": 54,
+        "endLine": 59,
+        "endChar": 60
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "729d433c_b1879574",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T19:34:06Z",
+      "side": 1,
+      "message": "This and the bullet below seems to assume a solution with two streams?",
+      "parentUuid": "a1deebf9_65b92a62",
       "range": {
         "startLine": 59,
         "startChar": 54,
