@@ -460,6 +460,24 @@
       "message": "+ The format should be independent from the transport, allowing the same format to be reused across different channels:\n- SSH stream events\n- Webhooks\n- Other pub-sub events broker (e.g. RabbitMQ, Kafka, Kinesis, GCloud, others)",
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "093949fe_f3034f94",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-05T22:46:49Z",
+      "side": 1,
+      "message": "\u003e + The format should be independent from the transport, allowing the same format to be reused across different channels:\n\u003e - SSH stream events\n\u003e - Webhooks\n\u003e - Other pub-sub events broker (e.g. RabbitMQ, Kafka, Kinesis, GCloud, others)\n\nI am glad that the use case is limited to events, as this helps focus things. I do think it would also make sense to suggest that it would be good if any solution provided to make rolling upgrades easier could also apply to other Gerrit interfaces such as the RestAPIs.",
+      "parentUuid": "70b5e056_0ae16c68",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
