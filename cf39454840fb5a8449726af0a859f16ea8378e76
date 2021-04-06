@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0b485e9c_bb353f3a",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "Yes, this is about using protobuf as a serialisation framework for Gerrit Events(not only for stream events). I didn\u0027t want to mention the solution in this part of the proposal.\n\n\u003e In general, we don\u0027t want to rename fields or change their types, not because this makes rolling upgrades harder, but because it breaks all clients that connect to the server. We already try to not break them by making changes in a backward compatible way.\n\nThe idea is that for existing clients we want to keep the same JSON format. But new clients could use ProtoBuf. Even with protobuf we have to be careful with schema changes but it will give us much more flexibility comparing to pure JSON. \n\nhttps://developers.google.com/protocol-buffers/docs/proto3#updating\n\nI understand that removing fields is controversial because all clients need to be able to handle this situation( they will get default value instead of the real one). But fields renaming should be fine. Protobuf uses field id instead of the field name so rename operation is safe.",
+      "parentUuid": "8b8961e3_2882ee67",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 76
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "277ba695_56b286fd",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -101,6 +125,30 @@
       "writtenOn": "2021-04-06T07:57:29Z",
       "side": 1,
       "message": "+1",
+      "parentUuid": "e3b78ca5_a08e4273",
+      "range": {
+        "startLine": 19,
+        "startChar": 48,
+        "endLine": 19,
+        "endChar": 58
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a19a9c1c_82080c41",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "e3b78ca5_a08e4273",
       "range": {
         "startLine": 19,
@@ -172,6 +220,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "15578f93_f5c6839c",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "Exactly, I wanted to point out that current solution is verbose and can caused and issue for large setups",
+      "parentUuid": "0df68e5d_3d083415",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -207,6 +273,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bcacd2c5_a5345713",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "Yes, the compatibility is the main use-case. HA and MS are the simplest use-cases to describe what we want to achieve",
+      "parentUuid": "55ad5d46_e825daa7",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7b5b3b52_6c538f2e",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -218,6 +302,30 @@
       "writtenOn": "2021-04-04T09:54:29Z",
       "side": 1,
       "message": "nit: s/As a by product/As a product/ ?",
+      "range": {
+        "startLine": 40,
+        "startChar": 17,
+        "endLine": 40,
+        "endChar": 33
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e942eb6_9d9306ab",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "https://en.wikipedia.org/wiki/By-product",
+      "parentUuid": "7b5b3b52_6c538f2e",
       "range": {
         "startLine": 40,
         "startChar": 17,
@@ -241,6 +349,30 @@
       "writtenOn": "2021-04-04T09:54:29Z",
       "side": 1,
       "message": "nit: two whitespaces",
+      "range": {
+        "startLine": 42,
+        "startChar": 45,
+        "endLine": 42,
+        "endChar": 47
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27a9ad15_397c0210",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "400a228e_f9fceb89",
       "range": {
         "startLine": 42,
         "startChar": 45,
@@ -356,6 +488,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "332a68d3_7a7a1daa",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "Currently each client has to implement it\u0027s own domain classes when deserializing Gerrit Events. With events schema this code can be generated. If you check the most popular schema evolution frameworks(ProtoBuf, Avro, Thrift) they all supports that. For example ProtoBuf can generate domain classes from the schema for:\nC++, Java (including JavaNano, a dialect intended for low-resource environments), Python, Go, Ruby, Objective-C, C#, JavaScript, Ballerina, C, Dart, Elixir, Erlang, Haskell, Perl, PHP, R, Rust, Scala, Swift, Julia and Nim.\n\nI didn\u0027t want to give more details to avoid suggesting the solution.",
+      "parentUuid": "7de067de_0d4b9f25",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1e3e961a_fbd1701e",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -390,6 +540,30 @@
       "writtenOn": "2021-04-05T20:38:53Z",
       "side": 1,
       "message": "Can you describe the use cases where this kind of manual coding is happening currently? (or if none exist yet, where you think it would be needed)",
+      "range": {
+        "startLine": 52,
+        "startChar": 53,
+        "endLine": 52,
+        "endChar": 86
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b398c258_98c369fb",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "For example if you check https://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/server/events/EventGsonProvider.java it has few type adapters like EventDeserializer. So if someone wants to deserialize the event he needs to be aware of that custom logic.",
+      "parentUuid": "43c1fbe9_b429aa0d",
       "range": {
         "startLine": 52,
         "startChar": 53,
@@ -464,6 +638,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bfe0cfc_00a3cfb2",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "58f32486_4167491d",
+      "range": {
+        "startLine": 56,
+        "startChar": 33,
+        "endLine": 56,
+        "endChar": 42
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6767385c_974c4704",
@@ -477,6 +675,24 @@
       "writtenOn": "2021-04-05T19:34:06Z",
       "side": 1,
       "message": "Forward compatibility is unlikely to be achievable 100%, so you may want to specify what sorts of changes you expect to be forward compatible.\n\nYou probably want to specify how far back you expect backward compatibility to go, i.e. I don\u0027t suspect you will support Gerrit 2.7?",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c75aca5_53a9f5cf",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "\u003e You probably want to specify how far back you expect backward compatibility to go, i.e. I don\u0027t suspect you will support Gerrit 2.7?\n\nThis is a new functionality so I believe it should be added on the master branch and be included in the next release.\n\n\u003e Forward compatibility is unlikely to be achievable 100%, so you may want to specify what sorts of changes you expect to be forward compatible.\n\nI don\u0027t want to discuss solution or technology here but if you look on the market standard technologies for schema evolution like ProtoBuf, Avro or Thrift they support almost the same backward/forward compatibility. Good comparison can be found here: https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html",
+      "parentUuid": "6767385c_974c4704",
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -551,6 +767,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c467378_811845c6",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e576ec0d_2dddc947",
+      "range": {
+        "startLine": 60,
+        "startChar": 36,
+        "endLine": 61,
+        "endChar": 23
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "70b5e056_0ae16c68",
@@ -582,6 +822,24 @@
       "side": 1,
       "message": "\u003e + The format should be independent from the transport, allowing the same format to be reused across different channels:\n\u003e - SSH stream events\n\u003e - Webhooks\n\u003e - Other pub-sub events broker (e.g. RabbitMQ, Kafka, Kinesis, GCloud, others)\n\nI am glad that the use case is limited to events, as this helps focus things. I do think it would also make sense to suggest that it would be good if any solution provided to make rolling upgrades easier could also apply to other Gerrit interfaces such as the RestAPIs.",
       "parentUuid": "70b5e056_0ae16c68",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "576c891f_50e7c522",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-06T13:07:40Z",
+      "side": 1,
+      "message": "I agree with @Luca  this design doc is not focusing on the events stream but it\u0027s trying to provide generic format for all channels.",
+      "parentUuid": "093949fe_f3034f94",
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
