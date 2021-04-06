@@ -67,6 +67,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "055e0be8_87de4177",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-06T17:09:38Z",
+      "side": 1,
+      "message": "\u003e Even with protobuf we have to be careful with schema changes but it will give us much more flexibility comparing to pure JSON. \n\nif you start supporting both protobuf *and* json separately, that will double the amount of machinery that we have to maintain. Also, there is a risk that the JSON and PB API will start to diverge in subtle ways. This is what you want (\"flexibility\"), but this is confusing to users, and also causes extra work (documentation!) Is that really what we want? \n\nWhen we were at Google thinking about protobufs, the plan was to use protobuf internally, and then generate JSON from the internal protobuf representation. This provides \n\n* language bindings\n* immutable java data structures\n\nbut it constrains the protobuf data type, because it has to move exactly in concert with the JSON types.",
+      "parentUuid": "0b485e9c_bb353f3a",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 76
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "277ba695_56b286fd",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
