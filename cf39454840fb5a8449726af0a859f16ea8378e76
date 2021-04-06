@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8b8961e3_2882ee67",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-06T10:20:57Z",
+      "side": 1,
+      "message": "Luca told me this was related to the idea to use protobuf in the event-stream.\n\nWhile I am generally supportive of that idea, I think it wouldn\u0027t address the problems you are citing.\n\nIn general, we don\u0027t want to rename fields or change their types, not because this makes rolling upgrades harder, but because it breaks all clients that connect to the server. We already try to not break them by making changes in a backward compatible way.\n\nWith protobuf, you get\n\n* cross-language bindings\n* immutable Java datastructures (assuming we\u0027re not using nanoproto)\n* performant binary serialization\n* unknown fields that survive (de)serialization\n* decoupling of binary format and data-structures (allowing renames, and switching between singular and repeated fields)\n\nthese are valuable properties, but I don\u0027t see how these relate this the problem you\u0027re trying to solve.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 76
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "277ba695_56b286fd",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -84,6 +107,29 @@
         "startChar": 48,
         "endLine": 19,
         "endChar": 58
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da38c911_08cc7d08",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-06T10:20:57Z",
+      "side": 1,
+      "message": "Are you sure that this is really the problem? You\u0027re implying that the size of the JSON payloads saturates the SSH connection, which on my laptop does ~50M/sec. You can send a lot of JSON in 50 mbyte / second.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 83
       },
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
