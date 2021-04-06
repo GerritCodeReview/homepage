@@ -67,6 +67,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3f0fa7ed_81dce679",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-06T07:57:29Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "e3b78ca5_a08e4273",
+      "range": {
+        "startLine": 19,
+        "startChar": 48,
+        "endLine": 19,
+        "endChar": 58
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4711c8a8_da3a3768",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -84,6 +108,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0df68e5d_3d083415",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-06T07:57:29Z",
+      "side": 1,
+      "message": "I believe Marcin mentions the reduction of the payload size, do you find this a strange requirement?",
+      "parentUuid": "4711c8a8_da3a3768",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -95,6 +137,24 @@
       "writtenOn": "2021-04-05T19:34:06Z",
       "side": 1,
       "message": "I don\u0027t think this is fundamental to that use case. I believe the use cases in this section are all specific to the rolling upgrades use case? I think that MP is perhaps fundamental to rolling upgrades, but the other way around is not true.",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55ad5d46_e825daa7",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-06T07:57:29Z",
+      "side": 1,
+      "message": "I believe the compatibility is the major use-case, whilst the HA and MS are secondary effects or can be seen as a reason why we need a defined schema and associated compatibility definition and check.",
+      "parentUuid": "a9c45ade_2db8ab7f",
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
