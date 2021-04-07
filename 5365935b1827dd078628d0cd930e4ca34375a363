@@ -18,6 +18,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d39e67a7_35332e4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-07T21:33:35Z",
+      "side": 1,
+      "message": "LGTM, the slowdown on 3.4.0-rc0 seems a false alarm.",
+      "revId": "5365935b1827dd078628d0cd930e4ca34375a363",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0430d3ff_84824e8f",
@@ -34,6 +51,29 @@
       "range": {
         "startLine": 52,
         "startChar": 38,
+        "endLine": 52,
+        "endChar": 66
+      },
+      "revId": "5365935b1827dd078628d0cd930e4ca34375a363",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "202cf3b8_88b427ed",
+        "filename": "_posts/2021-04-07-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-07T21:33:35Z",
+      "side": 1,
+      "message": "It looks like it was a one-off: the latest tests are showing normal performance. We\u0027ll keep monitoring it.",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
         "endLine": 52,
         "endChar": 66
       },
