@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fa5c39d_864c715b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-07T10:44:43Z",
+      "side": 1,
+      "message": "one nit; but looks OK for me.",
+      "revId": "5365935b1827dd078628d0cd930e4ca34375a363",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0430d3ff_84824e8f",
