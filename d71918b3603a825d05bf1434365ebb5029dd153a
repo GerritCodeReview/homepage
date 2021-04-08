@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "cc1663aa_d28daa77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-04-08T14:31:39Z",
+      "side": 1,
+      "message": "this change should be linked from the global index of design proposals, see e.g.\nhttps://gerrit-review.googlesource.com/c/homepage/+/302082/2/pages/design-docs/index.md",
+      "revId": "d71918b3603a825d05bf1434365ebb5029dd153a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "8ed47e1a_e09348db",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 4
