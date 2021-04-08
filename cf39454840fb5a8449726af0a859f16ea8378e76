@@ -262,6 +262,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1afb3850_a8596ef6",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-08T20:21:08Z",
+      "side": 1,
+      "message": "Probably we are either trying to tackle 2 different issues, i.e.: events forward/backward compatibility and events payload dimension, or maybe we need to clarify the reduction of the \"payload size\" might be a by-product of addressing the main issue.",
+      "parentUuid": "15578f93_f5c6839c",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -460,6 +478,30 @@
       "writtenOn": "2021-04-05T19:34:06Z",
       "side": 1,
       "message": "Sounds like a solution",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae21ce04_85fee543",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-08T20:21:08Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "475a3db4_c634bb01",
       "range": {
         "startLine": 48,
         "startChar": 34,
