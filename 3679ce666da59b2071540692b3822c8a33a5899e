@@ -710,6 +710,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5161cedd_1d99f04f",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-04-08T21:15:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0dc5ac56_a547753c",
+      "range": {
+        "startLine": 84,
+        "startChar": 55,
+        "endLine": 85,
+        "endChar": 10
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "13e463ba_1770a54a",
@@ -961,6 +985,30 @@
       "side": 1,
       "message": "do you mean renaming the username externalId and gerrit externalId or something else ?",
       "parentUuid": "5d75ac8c_2e9c42c9",
+      "range": {
+        "startLine": 186,
+        "startChar": 31,
+        "endLine": 186,
+        "endChar": 69
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b15bed5_0e0fb9c5",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-04-08T21:15:09Z",
+      "side": 1,
+      "message": "I think renaming should be out of scope here, could be done in another iteration",
+      "parentUuid": "3b20e06c_a3247038",
       "range": {
         "startLine": 186,
         "startChar": 31,

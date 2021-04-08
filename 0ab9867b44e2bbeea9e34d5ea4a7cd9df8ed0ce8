@@ -965,6 +965,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a0f5f3c_4c287cef",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-04-08T21:15:09Z",
+      "side": 1,
+      "message": "I wanted to disambiguate user names and the scheme called username, I think the rewritten sentence in PS 5 resolves the ambiguity",
+      "parentUuid": "1b6f69a1_d99ba150",
+      "range": {
+        "startLine": 35,
+        "startChar": 41,
+        "endLine": 35,
+        "endChar": 49
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "38302f19_948258d1",
@@ -1037,6 +1061,30 @@
       "side": 1,
       "message": "I think at this point the internals of how usernames are used within Gerrit do not matter.",
       "parentUuid": "ee49f222_7bdf3855",
+      "range": {
+        "startLine": 46,
+        "startChar": 25,
+        "endLine": 46,
+        "endChar": 34
+      },
+      "revId": "0ab9867b44e2bbeea9e34d5ea4a7cd9df8ed0ce8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "58ca8d86_0218bf4e",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-04-08T21:15:09Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "858837b9_c72e6820",
       "range": {
         "startLine": 46,
         "startChar": 25,
