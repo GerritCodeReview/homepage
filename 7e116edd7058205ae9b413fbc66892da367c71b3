@@ -168,6 +168,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "36cb2b71_b37632cc",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-09T17:46:12Z",
+      "side": 1,
+      "message": "Yes, they are literally entries in the MANIFEST file in the jar, so I think your suggestion is good, thanks.",
+      "parentUuid": "9e2dcb14_64d1a805",
+      "range": {
+        "startLine": 16,
+        "startChar": 74,
+        "endLine": 16,
+        "endChar": 77
+      },
+      "revId": "7e116edd7058205ae9b413fbc66892da367c71b3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "34dd69d8_c4e386b8",
         "filename": "pages/design-docs/inter-plugin-communication/solution-child-plugins.md",
         "patchSetId": 1
