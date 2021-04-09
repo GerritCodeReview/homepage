@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3afed4ef_f382c15b",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-09T19:51:33Z",
+      "side": 1,
+      "message": "Consider making this more compiler verification friendly (then today even) by introducing a single class to point to like this:\n\n public interface Modules {\n   Set\u003cModule\u003e getModules();\n }\n\nWith such a class, it would require only a single entry point to get right for a bundle instead of one for each Module type. Another alternative would be to come up with more structured interfaces like:\n\n public interface PluginModules {\n   Module getSysModule();\n   HttpModule getHttpModule();\n   SshModule getSshModule(); // Type checked!\n }\n\n public interface PluginModules {\n   Map\u003cString, PluginModules\u003e getPluginModuleByPluginName();\n }\n\nwhich would make it more obvious which Modules belong to which plugin, and it would also prevent more than one Module of each type (Sys, Http, Ssh) from being defined for the same plugin.",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b101413_a9dd3bb6",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-09T19:51:33Z",
+      "side": 1,
+      "message": "Extra new line",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
