@@ -91,6 +91,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c7efa2f6_80128b1b",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-04-09T08:31:48Z",
+      "side": 1,
+      "message": "My premises (which might be faulty) is that:\n1. protobuf basically handle two things:\n   * Specification\n   * Serialization/Deserialization\n2. protbuf supports automatic generation of documentation (?)\n3. Event structure is specified with protobuf, Gerrit core only uses protobuf for serialization/deserialization.\n4. The event-structure is ~constant within stable branches.\n\nIf this is correct (which it might as well isn\u0027t) shouldn\u0027t it be a matter of:\n* Define all event types with protobuf .\n* Core Gerrit only deals with protobuf for serialization.\n* As part of generating Documentation we generate documentation of the \"event-structure\" as well.\n\n* Plugins (f.i. rabbitmq, kafka) may serialize the events to JSON instead of protobuf if they so choose.\n* Plugins that expose the events as JSON could opt to generate JSON-versions of the event documentation themselves (perhaps a generate-json-events-documentation plugin that they all inherit from).\n* For backwards compatibility a \"ssh-stream-events\" plugin that serializes the events to JSON should do the trick.\n\nWith a clear protobuf specification we should be able to more-or-less do a diff between f.i. 3.7 and 3.8 to get a clear picture of what changed between the major versions.",
+      "parentUuid": "055e0be8_87de4177",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 76
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "277ba695_56b286fd",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
