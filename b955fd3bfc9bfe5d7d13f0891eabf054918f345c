@@ -22,6 +22,30 @@
       },
       "revId": "b955fd3bfc9bfe5d7d13f0891eabf054918f345c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ed12950_0a3954e4",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-10T02:51:21Z",
+      "side": 1,
+      "message": "Serialization is a \"solution\" whilst having a well-defined \"contract\" is the \"requirement\".\nValid question, but it should be asked on the solution design document.",
+      "parentUuid": "15f620c8_b41a8a51",
+      "range": {
+        "startLine": 18,
+        "startChar": 15,
+        "endLine": 18,
+        "endChar": 65
+      },
+      "revId": "b955fd3bfc9bfe5d7d13f0891eabf054918f345c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

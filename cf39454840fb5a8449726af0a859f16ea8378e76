@@ -304,6 +304,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "70e436c8_ba655efa",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-10T02:51:21Z",
+      "side": 1,
+      "message": "Not really IMHO, they are linked together though:\n\n*IF* you move to a binary format, then you *HAVE TO* introduce a schema, otherwise you don\u0027t know how to deserialise the data.\n\nP.S. Bear in mind that with the current JSON format, the majority of the payload is clutter. We could have 60-70% payload reduction IMHO.",
+      "parentUuid": "1afb3850_a8596ef6",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -526,6 +544,30 @@
       "side": 1,
       "message": "+1",
       "parentUuid": "475a3db4_c634bb01",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bde6f45_5212921f",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-10T02:51:21Z",
+      "side": 1,
+      "message": "Why not replacing \"schema\" with \"contract\" instead?",
+      "parentUuid": "ae21ce04_85fee543",
       "range": {
         "startLine": 48,
         "startChar": 34,
