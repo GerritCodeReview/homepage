@@ -322,6 +322,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6253124d_32a69a98",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-12T10:44:26Z",
+      "side": 1,
+      "message": "\u003e P.S. Bear in mind that with the current JSON format, the majority of the payload is clutter. We could have 60-70% payload reduction IMHO.\n\nmy question still stands. How is the payload size at all relevant? If you care about size reduction, the fastest way to address this is enabling zlib compression on the SSH connection.\n\n```\n$ curl \u0027https://gerrit-review.googlesource.com/changes/301923?o\u003dLABELS\u0026o\u003dALL_REVISIONS\u0027 \u003e txt\n\n$ ls -l txt\n-rw-r----- 1 hanwen primarygroup 2015 Apr 12 12:43 txt\n\n$ gzip txt\n\n$ ls -l txt.gz \n-rw-r----- 1 hanwen primarygroup 811 Apr 12 12:43 txt.gz\n```",
+      "parentUuid": "70e436c8_ba655efa",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
