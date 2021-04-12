@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2792335_18a393f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T11:41:36Z",
+      "side": 1,
+      "message": "I agree, we should think twice before discarding OSGi.\n\nWe did consider OSGi and discarded it 10 years ago, however, having seen Qualcomm’s new requirements today, we should consider that option again IMHO as Saša suggested.",
+      "parentUuid": "05a617e4_a29b3f77",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3afed4ef_f382c15b",
