@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e97d4829_1765c46e",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-04-12T17:51:19Z",
+      "side": 1,
+      "message": "Removed. Done.",
+      "parentUuid": "f23632f3_c661e2bc",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 19
+      },
+      "revId": "47c388c32d3b3a5bec2e67cbda655bdf91677366",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "934cd716_fb1aa846",
@@ -37,6 +61,24 @@
       "writtenOn": "2021-04-12T15:50:42Z",
       "side": 1,
       "message": "We should probably specifically call out that this JGit bump includes [1]:\n\n 616764183 Restore preserved packs during missing object seeks\n\nwhich (when configured) will make repacking with Gerrit less racy by ensuring a pruned object is still available for some amount of time after repacking finishes.\n\nI have a TODO for myself to add some docs on stable-3.4 for how to make use of this feature.\n\n[1] https://git.eclipse.org/r/c/jgit/jgit/+/122288",
+      "revId": "47c388c32d3b3a5bec2e67cbda655bdf91677366",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60b2a0f5_c2976ec7",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-04-12T17:51:19Z",
+      "side": 1,
+      "message": "Added this information. Done.",
+      "parentUuid": "934cd716_fb1aa846",
       "revId": "47c388c32d3b3a5bec2e67cbda655bdf91677366",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
