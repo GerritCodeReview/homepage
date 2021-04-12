@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "05a617e4_a29b3f77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-04-12T11:12:21Z",
+      "side": 1,
+      "message": "My opinions is that the IPC story is going towards designing and developing a general purpose plugin\nmanagement system. In that sense, my opinion is that we must at least consider usage of well known\ncomponent management system(s) like OSGi and have really good arguments why are we not picking one\nof those but decide to design and develop from scratch.\n\nSome useful OSGi links:\n\nOSGi (started 1999)\nstandard: http://docs.osgi.org/specification/\nmoved to OSGi working group of Eclipse Foundation\n\ndynamic module system:\n\n* bundle: module, can come and go at runtime, dependencies declared in Manifest.mf http://docs.osgi.org/specification/osgi.core/8.0.0/framework.module.html#d0e1760\n\n*dependencies: bundle based or package based (preferred), optional dependencies\nhttp://docs.osgi.org/specification/osgi.core/8.0.0/framework.module.html#framework.module.dependencies\n\n* fragment: optional enhancement of a host bundle, uses bundle classloader\nhttp://docs.osgi.org/specification/osgi.core/8.0.0/framework.module.html#framework.module.fragmentbundles\n\n* service: interface and 1..multiple implementations\nhttp://docs.osgi.org/specification/osgi.core/8.0.0/framework.service.html\n\n* declarative service\nhttp://docs.osgi.org/specification/osgi.cmpn/8.0.0/service.component.html\n\n* service registry\nhttp://docs.osgi.org/specification/osgi.core/8.0.0/framework.service.html#framework.service.registeringservices\n\n\n3 mature implementations\n\n* Eclipse Equinox: https://www.eclipse.org/equinox/  (reference implementation of the standard)\n* Apache Felix: https://felix.apache.org/\n* Knopflerfish: https://www.knopflerfish.org/",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3afed4ef_f382c15b",
