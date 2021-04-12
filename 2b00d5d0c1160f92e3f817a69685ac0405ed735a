@@ -1,0 +1,257 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ae68672_732403a4",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "Git/HTTP is already possible today, whilst Git/SSH isn\u0027t as the SSH keys are stored in Gerrit rather than in an external system. Would be better to explicitly state that.",
+      "range": {
+        "startLine": 13,
+        "startChar": 59,
+        "endLine": 14,
+        "endChar": 15
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "370e84e8_a0f0b6a0",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "Are you talking about 2FA here?",
+      "range": {
+        "startLine": 16,
+        "startChar": 28,
+        "endLine": 16,
+        "endChar": 39
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c971da6_add4ef7a",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "This is actually available through a non-core plugin.",
+      "range": {
+        "startLine": 19,
+        "startChar": 59,
+        "endLine": 19,
+        "endChar": 64
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4142b071_20017829",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "Can you mention any 3rd party authentication system that isn\u0027t supporting one of the protocols that Gerrit support today?\n- LDAP\n- HTTP header\n- OpenID\n- OAuth 2.0\n- SAML\n- Java EE Container-based\n- Kerberos\n\nWhat are the additional one that we are missing?",
+      "range": {
+        "startLine": 21,
+        "startChar": 27,
+        "endLine": 21,
+        "endChar": 69
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea1439b9_3b4b7cdf",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "AFAIK LDAP, OAuth, SAML do it already. Which ones are the auth backends that won\u0027t allow that?",
+      "range": {
+        "startLine": 26,
+        "startChar": 40,
+        "endLine": 27,
+        "endChar": 53
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2a38c1d_533f1fab",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "AFAIK this is already the way it works today.",
+      "range": {
+        "startLine": 29,
+        "startChar": 38,
+        "endLine": 30,
+        "endChar": 26
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "095b9258_524f3ffd",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "Is this 2FA or account federation?",
+      "range": {
+        "startLine": 31,
+        "startChar": 34,
+        "endLine": 32,
+        "endChar": 28
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e51c9e5_f1f94219",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "This should be made more explicit though: from what you say, the purpose is more a refactoring of existing authentication systems rather than writing new ones?",
+      "range": {
+        "startLine": 35,
+        "startChar": 16,
+        "endLine": 36,
+        "endChar": 67
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "177fb2da_28428518",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "This is already possible today, as SAML and OAuth plugins shows.",
+      "range": {
+        "startLine": 39,
+        "startChar": 36,
+        "endLine": 40,
+        "endChar": 9
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "516c4714_8530e66c",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "This doesn\u0027t look like an acceptance criteria though: why not simply saying \"no regressions are introduced on any existing authentication system\" ?",
+      "range": {
+        "startLine": 41,
+        "startChar": 22,
+        "endLine": 43,
+        "endChar": 12
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f467ee1c_cb7a226e",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-12T23:56:58Z",
+      "side": 1,
+      "message": "Whilst this is useful, it does not showcase how this new AuthBackend can be used to implement an authentication backend that isn\u0027t one of the ones supported in Gerrit today.",
+      "range": {
+        "startLine": 67,
+        "startChar": 43,
+        "endLine": 68,
+        "endChar": 43
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
