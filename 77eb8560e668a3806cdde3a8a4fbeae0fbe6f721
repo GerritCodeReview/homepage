@@ -104,6 +104,42 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7adf339_1cde2194",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-13T17:00:58Z",
+      "side": 1,
+      "message": "I think I just published the last updates and all comments are addressed.",
+      "parentUuid": "c1eeb341_811242bb",
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "166134cb_918f2cad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-13T17:00:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "74b61afc_0fa6c4b8",
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9c3a01ba_00350990",
@@ -648,6 +684,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4088a2ed_efbfc51f",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-13T17:00:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fe0844aa_25c42407",
+      "range": {
+        "startLine": 118,
+        "startChar": 29,
+        "endLine": 118,
+        "endChar": 42
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c9d4f2d1_1e023013",
@@ -993,6 +1053,30 @@
       "side": 1,
       "message": "Every use-case has a section for the failure scenarios: just put them \"what to do when things go wrong\" chapter?",
       "parentUuid": "74fc9ea1_d5949ce2",
+      "range": {
+        "startLine": 130,
+        "startChar": 34,
+        "endLine": 130,
+        "endChar": 73
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "207067f8_5371c80a",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-13T17:00:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf894dfc_f5df5597",
       "range": {
         "startLine": 130,
         "startChar": 34,
