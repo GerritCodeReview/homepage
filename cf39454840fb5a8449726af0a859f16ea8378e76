@@ -358,6 +358,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9440793e_68479834",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-13T09:49:37Z",
+      "side": 1,
+      "message": "\u003e Data structures are binary in memory, ..\n\n(I know how protobuf works)\n\n\u003e Moving to a more efficient, self-describing and safer binary encoding, would allow more speed, less latency and less system overhead.\n\nMy experience is that rewriting code for performance reasons should always start from measurements. If you don\u0027t know how fast/slow it is today, you won\u0027t know if the improvement is worthwhile. How much time does a typical Gerrit server spend in GSON ?\n\n\u003e P.S. I believe that\u0027s the same reason why companies like Google moved to Protobufs in GRPC and BigData processing moved to Avro encoding rather than sticking with JSON.\n\nProtocol buffers were created in Oct 2000, long before JSON existed. From the Google perspective, there isn\u0027t a \"move from JSON to protobuf\". \n\nOriginally, protobuf provided a mechanism to upgrade services without downtime, because the client and server can ignore unknown fields. This is a benefit that Marcin hints at, but it\u0027s something that JSON also provides.",
+      "parentUuid": "ea549ab8_fc7cac4a",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
