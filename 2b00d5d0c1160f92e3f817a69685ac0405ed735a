@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ade3e929_8e0feced",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2021-04-13T17:49:39Z",
+      "side": 1,
+      "message": "Thanks all for the feedback!\nI believe that the idea behind writing yet another auth backend became pretty outdated since it was originally conceived and today we have the following options to integrate (thanks Luca for enumerating all of them ;):\n* HTTP header\n* LDAP\n* OAuth2\n* OpenID\n* SAML\n* container-based\n* Kerberos\n\nIMHO there is no longer a need to spend time on designing it and we should rather discourage people from trying to do that :)\nHaving said that I still believe that the following issues could/should be addressed:\n1. review existing code to get rid off parts that are not in use/cannot be used (e.g. CUSTOM_EXTENSION)\n2. identify 3rd party dependencies (like openid, oauth etc.) could/should be moved to the lib modules (core lib modules available in the war) so that Gerrit core doesn\u0027t have to carry all of them\n\nTo sum it up: I\u0027m leaning towards addressing auth improvements rather through issue tracker (small steps evolution/clean up) than introducing the design that is no longer relevant.",
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b6014365_969259cb",
@@ -153,6 +170,30 @@
       "writtenOn": "2021-04-12T23:56:58Z",
       "side": 1,
       "message": "Can you mention any 3rd party authentication system that isn\u0027t supporting one of the protocols that Gerrit support today?\n- LDAP\n- HTTP header\n- OpenID\n- OAuth 2.0\n- SAML\n- Java EE Container-based\n- Kerberos\n\nWhat are the additional one that we are missing?",
+      "range": {
+        "startLine": 21,
+        "startChar": 27,
+        "endLine": 21,
+        "endChar": 69
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9926260e_fe94dc55",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2021-04-13T17:49:39Z",
+      "side": 1,
+      "message": "I meant the 3rd proprietary system that exists already (and is neither of those ;)) and is responsible for user auth so that Gerrit could be integrated with.",
+      "parentUuid": "4142b071_20017829",
       "range": {
         "startLine": 21,
         "startChar": 27,
