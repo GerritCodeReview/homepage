@@ -340,6 +340,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ea549ab8_fc7cac4a",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-13T01:05:26Z",
+      "side": 1,
+      "message": "Data structures are binary in memory, then you expand them in memory as JSON, creating lots of object in the JVM Heap, for then compressing them again in memory to send them to the wire and make then small again. Yes, the current systems works, slowly and ineffectively.\n\nMoving to a more efficient, self-describing and safer binary encoding, would allow more speed, less latency and less system overhead.\n\nI believe it should be fairly easy then, at the solution stage, to demonstrate this.\n\nP.S. I believe that\u0027s the same reason why companies like Google moved to Protobufs in GRPC and BigData processing moved to Avro encoding rather than sticking with JSON.\n\nYes, that needs to be made more explicit in the use-cases and requirements, I agree.",
+      "parentUuid": "6253124d_32a69a98",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
