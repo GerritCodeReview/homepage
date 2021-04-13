@@ -3,6 +3,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b6014365_969259cb",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-13T08:01:15Z",
+      "side": 1,
+      "message": "Might be worth moving the background section here so the reader will have context straight away",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e2483a0_f955ec6c",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-13T08:01:15Z",
+      "side": 1,
+      "message": "What about expressing the user cases in a \"AS...GIVEN...WHEN...THEN\" form?",
+      "range": {
+        "startLine": 11,
+        "startChar": 28,
+        "endLine": 11,
+        "endChar": 37
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5ae68672_732403a4",
         "filename": "pages/design-docs/auth-extensions/use-cases.md",
         "patchSetId": 5
@@ -60,6 +106,30 @@
       "writtenOn": "2021-04-12T23:56:58Z",
       "side": 1,
       "message": "This is actually available through a non-core plugin.",
+      "range": {
+        "startLine": 19,
+        "startChar": 59,
+        "endLine": 19,
+        "endChar": 64
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cca795fd_c9eed3f7",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-13T08:01:15Z",
+      "side": 1,
+      "message": "Since the auth types are not that many, can we explicitly mention them and clarify which one are offered by Gerrit core and which one from plugins (core,non-core)?",
+      "parentUuid": "4c971da6_add4ef7a",
       "range": {
         "startLine": 19,
         "startChar": 59,
@@ -233,6 +303,98 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7aacf453_0788fc8b",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-13T08:01:15Z",
+      "side": 1,
+      "message": "I found useful to add a Glossary section at the beginning, i.e.: https://gerrit.googlesource.com/homepage/+/refs/heads/master/pages/design-docs/instance-id/use-cases.md#glossary",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 2
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf97a443_693e10ca",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-13T08:01:15Z",
+      "side": 1,
+      "message": "might be worth listing them in here to give a quick overview of what is currently available?",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 4
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f267267c_d7afd8a5",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-13T08:01:15Z",
+      "side": 1,
+      "message": "Can you briefly explain what CUSTOM_EXTENSION is?",
+      "range": {
+        "startLine": 56,
+        "startChar": 11,
+        "endLine": 56,
+        "endChar": 27
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dc50a1f_b963d726",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-13T08:01:15Z",
+      "side": 1,
+      "message": "What you are saying is that the CUSTOM_EXTENSION allows you to handle the auth and some account properties, but that data has to stay in Gerrit and cannot be exported to the a 3rd party system? Did I get it right?",
+      "range": {
+        "startLine": 59,
+        "startChar": 54,
+        "endLine": 62,
+        "endChar": 7
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f467ee1c_cb7a226e",
         "filename": "pages/design-docs/auth-extensions/use-cases.md",
         "patchSetId": 5
@@ -244,6 +406,30 @@
       "writtenOn": "2021-04-12T23:56:58Z",
       "side": 1,
       "message": "Whilst this is useful, it does not showcase how this new AuthBackend can be used to implement an authentication backend that isn\u0027t one of the ones supported in Gerrit today.",
+      "range": {
+        "startLine": 67,
+        "startChar": 43,
+        "endLine": 68,
+        "endChar": 43
+      },
+      "revId": "2b00d5d0c1160f92e3f817a69685ac0405ed735a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "166c1cad_d869c905",
+        "filename": "pages/design-docs/auth-extensions/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2021-04-13T08:01:15Z",
+      "side": 1,
+      "message": "I agree, I think it might be useful to clearly state what it is possible to achieve at the moment with the AuthBackend and what are the limitations.",
+      "parentUuid": "f467ee1c_cb7a226e",
       "range": {
         "startLine": 67,
         "startChar": 43,
