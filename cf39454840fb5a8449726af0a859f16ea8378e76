@@ -376,6 +376,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8f7ad99b_38bb643d",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-13T16:22:43Z",
+      "side": 1,
+      "message": "It would be best to stay focused on the purpose of this document, which is defining the use-cases. Protobufs are part of the solution, therefore it is premature to discuss them here.\n\nIf the performance / memory footprint is part of the requirements, yes, I agree it needs to be accompanied with numbers.",
+      "parentUuid": "9440793e_68479834",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
