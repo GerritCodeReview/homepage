@@ -1326,6 +1326,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9ee32d58_2beef703",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-14T00:53:02Z",
+      "side": 1,
+      "message": "I still see that you need to have access to \"at least a subset of the source\" whilst my comment was that you don\u0027t need the source code at all, you just need to have access to the interface of the API you\u0027re calling.\n\nAny feedback?",
+      "parentUuid": "d81f6a69_6a5111f0",
+      "range": {
+        "startLine": 156,
+        "startChar": 63,
+        "endLine": 157,
+        "endChar": 13
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b6ca74d5_0da14f26",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
