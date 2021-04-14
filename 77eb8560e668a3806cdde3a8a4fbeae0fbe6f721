@@ -614,6 +614,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "47729b84_dd671b6c",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-14T02:37:17Z",
+      "side": 1,
+      "message": "\u003e Yes, correct. The design document is on the generic x-plugin communication, where this use-case is one example. There are other examples (e.g. multi-site setup with x-plugin communication) where the failure of communication between plugins may cause the corruption of the repositories, where the problem needs to be raised a lot louder :-)\n\nTo clarify, this DD is about this specific use case, and is NOT trying to address other use cases. We have mentioned several other use cases in other places, and our proposed solutions might help solve other use cases also. Because I believe that that \"generic x-plugin communication\", involves some very different use cases that may require very different solution, I am not proposing that a common solution is required for all of these use cases, and I certainly hope that we are willing to evaluate solutions that only solve this use case and not expect the solution to be able to solve all the possible \"x-plugin communication\" use cases that could possibly exist as that might be impossible.\n\nIf you have other use cases that you think are essential for a solution to this use case to also address, then I suggest you write another DD for those, building upon this one if you find it to be useful. Or you could write a solution that solves this use case and other use cases as well (as I did), but I do not want to burden this doc with more than what is needed for this use case as I feel that this is hurtful in clarifying whether a solution actually meets the criteria for this use case or not. I intend to keep the scope limited on purpose, and I hope that you can please keep this in mind when reviewing this doc, and when offering solutions to this use case.",
+      "parentUuid": "ee9f10e6_2d421a25",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 74
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "29c1fea2_10585319",
@@ -1362,6 +1386,30 @@
       "side": 1,
       "message": "Sorry I didn\u0027t reply specifically to that point. I would consider the interface a subset of the source.",
       "parentUuid": "9ee32d58_2beef703",
+      "range": {
+        "startLine": 156,
+        "startChar": 63,
+        "endLine": 157,
+        "endChar": 13
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1b88e33_2e8b912a",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-04-14T02:37:17Z",
+      "side": 1,
+      "message": "\u003e I still see that you need to have access to \"at least a subset of the source\n\nI don\u0027t see that mentioned anywhere as a need or requirement, I see it mentioned as \"that\u0027s commonly accomplished by\". Can explain your concern?",
+      "parentUuid": "3359efa8_d657da3a",
       "range": {
         "startLine": 156,
         "startChar": 63,
