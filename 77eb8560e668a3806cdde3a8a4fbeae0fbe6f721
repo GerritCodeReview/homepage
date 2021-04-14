@@ -1446,6 +1446,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "650d42aa_2492b9fd",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-14T21:52:06Z",
+      "side": 1,
+      "message": "\u003e Hope that clarifies my concern.\n\nUnfortunately I\u0027m still confused (possibly more so than before). Based on the [1] you shared, a SPI is still source. From that page: \"An interface or abstract class that acts as a proxy or an endpoint to the service.\" Maybe that\u0027s something other than what you were considering source, but my definition would include that.\n\nAt the end of the day, for this use case of ours, what is described in this doc is what we want met. As Martin said, there are other avenues available to you if you want to pursue other use cases.\n\n\u003e \n\u003e [1] https://www.baeldung.com/java-spi",
+      "parentUuid": "f0a2422e_25c25a72",
+      "range": {
+        "startLine": 156,
+        "startChar": 63,
+        "endLine": 157,
+        "endChar": 13
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b6ca74d5_0da14f26",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
