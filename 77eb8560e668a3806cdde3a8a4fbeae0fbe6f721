@@ -1494,6 +1494,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "932fc5d2_1331a0f0",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-14T23:23:15Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e Hope that clarifies my concern.\n\u003e \u003e \n\u003e \u003e Unfortunately I\u0027m still confused (possibly more so than before). Based on the [1] you shared, a SPI is still source.\n\u003e \n\u003e Yes, an Interface can be defined in Java, typically in a public package that is visible to its consumer; however, it could be also defined in some meta-language (e.g. OpenAPI or anything else) that generates a Java proxy and also the associated  documentation of its contract.\n\nThat still results in source code (even if it\u0027s auto-generated).\n\n\u003e \n\u003e \u003e From that page: \"An interface or abstract class that acts as a proxy or an endpoint to the service.\" Maybe that\u0027s something other than what you were considering source, but my definition would include that.\n\u003e \n\u003e Sure, I was proposing to use a more widely recognised pattern than just saying \"you have a subset of the source\" which may or may not imply that you are using an SPI.\n\nI still think subset of the source is accurate and appropriate here.\n\n\u003e \n\u003e \u003e At the end of the day, for this use case of ours, what is described in this doc is what we want met. As Martin said, there are other avenues available to you if you want to pursue other use cases.\n\u003e \n\u003e When defining a new feature in Gerrit core, I believe we want to address a general need that is interesting for the whole community of Gerrit users. Using a widely recognised pattern for IPC in Java is typically a good idea in my experience, because allows more people to understand it and use it.\n\u003e \n\u003e IMHO your use-cases are compatible with a SPI design, as you are also using a generic interface definition in the example provided. However, feel free to disagree on that, we may have just different perspectives on the same problem.\n\nI completely agree on *solutions* addressing needs for the Gerrit community (but most especially for the use case they aim to solve). Explaining why a given solution is a good fit for Gerrit is the responsibility of that solution, not the use case.\n\nThe use case doc needs to describe the use case for at least one member of the community. I believe this use case does so. Please let me know if you find that it does not.",
+      "parentUuid": "12bf2d19_16ea5439",
+      "range": {
+        "startLine": 156,
+        "startChar": 63,
+        "endLine": 157,
+        "endChar": 13
+      },
+      "revId": "77eb8560e668a3806cdde3a8a4fbeae0fbe6f721",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b6ca74d5_0da14f26",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 7
