@@ -118,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "495a9773_b9f012af",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-04-15T09:33:48Z",
+      "side": 1,
+      "message": "\u003e I tried to remove comment access (I got some spam through the comments), but apparently I revoked access altogether. Fixed now.\n\nThanks!\n\n\u003e Perhaps it\u0027s best to transplant the original strategy doc into a .md doc here though.\n\n+1.",
+      "parentUuid": "031bcc3d_487d887f",
+      "range": {
+        "startLine": 13,
+        "startChar": 18,
+        "endLine": 13,
+        "endChar": 103
+      },
+      "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1687d0b1_7ee4dc79",
