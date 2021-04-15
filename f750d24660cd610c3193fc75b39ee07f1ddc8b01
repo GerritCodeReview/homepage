@@ -1,6 +1,7 @@
 {
   "comments": [
     {
+      "unresolved": false,
       "key": {
         "uuid": "e19bd642_2d8a99a7",
         "filename": "/PATCHSET_LEVEL",
@@ -14,10 +15,10 @@
       "side": 1,
       "message": "I would like to submit this today or tomorrow. Patrick and I are planning to add two design proposal docs to this folder later this week. :-)",
       "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "7d04b050_44ce8d32",
         "filename": "/PATCHSET_LEVEL",
@@ -32,10 +33,10 @@
       "message": "Sorry, I haven\u0027t really looked at this at all and this week is full of performance reviews for me. Has all the latest feedback from the Google doc and the various meetings with folks already been incorporated into this?",
       "parentUuid": "e19bd642_2d8a99a7",
       "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "21af267e_6f9345ec",
         "filename": "/PATCHSET_LEVEL",
@@ -50,10 +51,10 @@
       "message": "Yes, I think the use cases of what people want are well covered. If we have missed anything let me know! Would be very interested.\n\nEven after submission we are happy to add/change use cases.\n\nYou can also upload own suggestions for modifications of the use case doc.",
       "parentUuid": "7d04b050_44ce8d32",
       "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "eaa12ce5_4927bc2f",
         "filename": "/PATCHSET_LEVEL",
@@ -67,10 +68,33 @@
       "side": 1,
       "message": "I am submitting this, but everyone feel free to still leave comments or upload modifications!",
       "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "6dccecb9_ef0bbdae",
+        "filename": "pages/design-docs/ci-reboot/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-04-15T09:23:12Z",
+      "side": 1,
+      "message": "I cannot access this document any more. Should it be accessible or should we remove this reference?",
+      "range": {
+        "startLine": 13,
+        "startChar": 18,
+        "endLine": 13,
+        "endChar": 103
+      },
+      "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "1687d0b1_7ee4dc79",
         "filename": "pages/design-docs/ci-reboot/use-cases.md",
@@ -90,10 +114,10 @@
         "endChar": 40
       },
       "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "03a998b5_ee0ad2c4",
         "filename": "pages/design-docs/ci-reboot/use-cases.md",
@@ -114,8 +138,7 @@
         "endChar": 40
       },
       "revId": "f750d24660cd610c3193fc75b39ee07f1ddc8b01",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
