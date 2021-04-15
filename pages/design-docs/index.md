@@ -25,6 +25,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Attention Set](design-docs/attention-set.html) by Ben Rohlfs, approved 2020-01-03
 - [Change Log: Threaded Feedback](design-docs/change-log-threaded-feedback.html) by Jacek Centkowski, approved 2020-03-25
 - [Instance Id](design-docs/instance-id.html) by Fabio Ponciroli, approved 2020-05-05
+- [Checks UI - CI Reboot](design-docs/ci-reboot.html) by Ben Rohlfs, approved 2020-08-20
 - [Deletion of Groups](design-docs/delete-groups.html) by Gal Paikin / Jacek Centkowski, approved as plugin 2020-09-01
 
 ## Reviews of Design Documents
