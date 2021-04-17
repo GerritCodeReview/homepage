@@ -34,6 +34,23 @@
       "parentUuid": "44458148_010e3497",
       "revId": "dca21386a876a2271e2ebaa46d24b2b68f630466",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90d23aff_3935dd23",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-17T02:28:44Z",
+      "side": 1,
+      "message": "optional: can we also include the downgrade path?",
+      "revId": "dca21386a876a2271e2ebaa46d24b2b68f630466",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
