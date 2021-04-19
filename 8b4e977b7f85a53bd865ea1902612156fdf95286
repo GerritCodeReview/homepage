@@ -46,6 +46,30 @@
       },
       "revId": "8b4e977b7f85a53bd865ea1902612156fdf95286",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64246090_dfe09a34",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-19T21:04:38Z",
+      "side": 1,
+      "message": "\u003e Schema version in 3.3.x and 3.4.x is the same, see line: 36:\n\u003e \n\u003e   This release doesn\u0027t contain schema changes.\n\u003e \n\u003e What this command would do, is install new release.war version with different plugin versions. As the consequence, change index schema version would change and need to be reindexed.\n\nAh, true.",
+      "parentUuid": "b3ce7cfe_1694460b",
+      "range": {
+        "startLine": 82,
+        "startChar": 3,
+        "endLine": 82,
+        "endChar": 25
+      },
+      "revId": "8b4e977b7f85a53bd865ea1902612156fdf95286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
