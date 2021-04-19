@@ -70,6 +70,30 @@
       },
       "revId": "8b4e977b7f85a53bd865ea1902612156fdf95286",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b18a5d94_2c9ee04b",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-04-19T21:07:59Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "64246090_dfe09a34",
+      "range": {
+        "startLine": 82,
+        "startChar": 3,
+        "endLine": 82,
+        "endChar": 25
+      },
+      "revId": "8b4e977b7f85a53bd865ea1902612156fdf95286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
