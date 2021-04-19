@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e66e146d_49ad81c5",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-19T21:01:19Z",
+      "side": 1,
+      "message": "Are you sure this would downgrade the schema version number?",
+      "range": {
+        "startLine": 82,
+        "startChar": 3,
+        "endLine": 82,
+        "endChar": 25
+      },
+      "revId": "8b4e977b7f85a53bd865ea1902612156fdf95286",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
