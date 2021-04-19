@@ -51,6 +51,24 @@
       "message": "optional: can we also include the downgrade path?",
       "revId": "dca21386a876a2271e2ebaa46d24b2b68f630466",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84fe0526_5ceb43be",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-04-19T14:01:14Z",
+      "side": 1,
+      "message": "I also added Zero-downtime upgrade and Downgrade sections. Done.",
+      "parentUuid": "90d23aff_3935dd23",
+      "revId": "dca21386a876a2271e2ebaa46d24b2b68f630466",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
