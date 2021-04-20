@@ -27,6 +27,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Instance Id](design-docs/instance-id.html) by Fabio Ponciroli, approved 2020-05-05
 - [Checks UI - CI Reboot](design-docs/ci-reboot.html) by Ben Rohlfs, approved 2020-08-20
 - [Deletion of Groups](design-docs/delete-groups.html) by Gal Paikin / Jacek Centkowski, approved as plugin 2020-09-01
+- [Consistency on Demand](design-docs/consistency-on-demand.html) by Gal Paikin 
 
 ## Reviews of Design Documents
 
