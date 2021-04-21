@@ -114,6 +114,30 @@
       },
       "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fb65055_7a4ff0ea",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-21T09:25:31Z",
+      "side": 1,
+      "message": "We can list them in detail under alternatives.",
+      "parentUuid": "c10f1b77_2ccd586c",
+      "range": {
+        "startLine": 54,
+        "startChar": 47,
+        "endLine": 54,
+        "endChar": 68
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
