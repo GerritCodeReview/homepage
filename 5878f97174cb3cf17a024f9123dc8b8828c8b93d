@@ -95,6 +95,138 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "358c6aa9_216cf1f1",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-21T14:55:32Z",
+      "side": 1,
+      "message": "These are both worded as solutions (\"provide\", \"handle\"). Can you describe the use cases please?",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 73
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5b66252_dfb92c9c",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-21T14:55:32Z",
+      "side": 1,
+      "message": "I\u0027m poking a few specific spots below, but in general this flow seems to assume a lot of reader knowledge about how the multi-primary setup is configured. I think that information should be provided in this doc otherwise it\u0027s going to be very confusing to readers with different multi-primary configurations.\n\nI also think this may be specific to a multi-site setup (probably needs replication between primaries), not multi-primary (probably does not need replication between primaries).",
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "951e37a4_92a22ac3",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-21T14:55:32Z",
+      "side": 1,
+      "message": "You just created it in #1, so do you mean here \"fails if B is not yet known to the primary which receives this command\"?",
+      "range": {
+        "startLine": 34,
+        "startChar": 46,
+        "endLine": 34,
+        "endChar": 77
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "326807ea_326c53fb",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-21T14:55:32Z",
+      "side": 1,
+      "message": "Did you mean s/apply/set/ [1]?\n\n[1] https://gerrit-review.googlesource.com/Documentation/rest-api-changes.html#set-topic",
+      "range": {
+        "startLine": 35,
+        "startChar": 3,
+        "endLine": 35,
+        "endChar": 16
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f507f76_7bab0424",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-21T14:55:32Z",
+      "side": 1,
+      "message": "Why would voting on a change fail if they don\u0027t have a topic?",
+      "range": {
+        "startLine": 37,
+        "startChar": 10,
+        "endLine": 37,
+        "endChar": 42
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f6dc115_acf3374d",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-21T14:55:32Z",
+      "side": 1,
+      "message": "Does this refer to a specific primary\u0027s index or something else?",
+      "range": {
+        "startLine": 41,
+        "startChar": 14,
+        "endLine": 41,
+        "endChar": 23
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c10f1b77_2ccd586c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 1
