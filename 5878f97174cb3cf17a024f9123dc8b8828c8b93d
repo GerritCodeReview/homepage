@@ -68,6 +68,52 @@
       },
       "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8136bae6_68759bc0",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-21T09:21:17Z",
+      "side": 1,
+      "message": "nit: handle reliably",
+      "range": {
+        "startLine": 13,
+        "startChar": 3,
+        "endLine": 13,
+        "endChar": 18
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c10f1b77_2ccd586c",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-21T09:21:17Z",
+      "side": 1,
+      "message": "Can you share more details about the \u0027Consistency-On-Demand\u0027 at Google? It would be beneficial for the discussion of this design document.",
+      "range": {
+        "startLine": 54,
+        "startChar": 47,
+        "endLine": 54,
+        "endChar": 68
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
