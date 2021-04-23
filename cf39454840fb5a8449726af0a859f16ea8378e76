@@ -115,6 +115,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1cd8019d_df898fd0",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-23T06:03:41Z",
+      "side": 1,
+      "message": "All those are valid points to discuss but I believe this discussion should happen in the solution part. We are focusing on protobuf and going into the implementation details but the purpose of this document is to define the use-cases.",
+      "parentUuid": "c7efa2f6_80128b1b",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 76
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "277ba695_56b286fd",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -394,6 +418,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1fe020d3_42d83b0c",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-23T06:03:41Z",
+      "side": 1,
+      "message": "I agree it should be measured but in my opinion this comparison should be done in a solution phase. The size reduction is kind of a side effect of using more efficient serialisation/deserialisation method. I\u0027ve mentioned it here because I thought that it would be worth to point out that aspect as well. But again main focus is on providing the contract.",
+      "parentUuid": "8f7ad99b_38bb643d",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -652,6 +694,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "229aad24_87cc0045",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-23T06:03:41Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "4bde6f45_5212921f",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7de067de_0d4b9f25",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -792,6 +858,30 @@
       "side": 1,
       "message": "Ok. Is Gerrit duplicating that logic in multiple areas? Are any applications other than Gerrit doing that? If no to both, I\u0027m still confused as to what the \"problem\" is that you\u0027re expressing here.",
       "parentUuid": "b398c258_98c369fb",
+      "range": {
+        "startLine": 52,
+        "startChar": 53,
+        "endLine": 52,
+        "endChar": 86
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0d4effd_a2db153a",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-04-23T06:03:41Z",
+      "side": 1,
+      "message": "In my opinion every client which is consuming stream events must be aware of this custom logic. Problem is that this logic is not documented anywhere. Plus every client needs to implement it.",
+      "parentUuid": "a3afc03c_08defc6b",
       "range": {
         "startLine": 52,
         "startChar": 53,
