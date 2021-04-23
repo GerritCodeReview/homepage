@@ -36,6 +36,22 @@ Please add new kudos at the top of this list.
 
 ---
 
+**[2021-04-23] To: David Ostrovsky**
+```
+Thanks for fixing the standalone build for PolyGerrit plugins
+on stable-3.4 [1], even though it was not specific to any of your
+projects or plugins. You have been demonstrating now again, and
+consistently for many years, the real spirit of a vibrant open-source
+community: when you see a problem anywhere, you ask yourself how can
+you fix it rather than waiting for others to address it for you.
+We are very delighted to have you as long-running maintainer
+of the Gerrit Code Review project.
+```
+
+[1] <https://gerrit-review.googlesource.com/c/bazlets/+/304117>
+
+From: Luca Milanesio (GerritForge)
+
 **[2021-03-03] To: David Ostrovsky**
 ```
 Thanks for your latest work on the RBE Build/Test [1]. We are seeing a
