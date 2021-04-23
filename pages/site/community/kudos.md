@@ -36,6 +36,40 @@ Please add new kudos at the top of this list.
 
 ---
 
+From: Luca Milanesio (GerritForge)
+
+**[2021-04-23] To: David Ostrovsky**
+```
+Thanks for fixing the standalone build for PolyGerrit plugins
+on stable-3.4 [1], even though it was not specific to any of your
+projects or plugins. You have been demonstrating now again, and
+consistently for many years, the real spirit of a vibrant open-source
+community: when you see a problem anywhere, you ask yourself how can
+you fix it rather than waiting for others to address it for you.
+We are very delighted to have you as long-running maintainer
+of the Gerrit Code Review project.
+```
+
+[1] <https://gerrit-review.googlesource.com/c/bazlets/+/304117>
+
+From: Dhruv Srivastava (Google)
+
+**[2020-12-09] To: David Ostrovsky**
+
+```
+  I was struggling with generating a test coverage report for the code-owners
+  plugin and posted a question about this on repo-discuss [1].
+  David picked up the investigation right away. He did not only reproduce and
+  analyze the issue, but also filed an issue for the Bazel team [2] and uploaded
+  a change [3] for the code-owners plugin that makes meassuring the test
+  coverage work. In addition, David also pointed me to an easier command to
+  generate the test coverage data. Thank you David, this was awesome!
+```
+
+[1] <https://groups.google.com/g/repo-discuss/c/lXbtvictx78/m/zf167oiFBgAJ>
+[2] <https://github.com/bazelbuild/bazel/issues/12636>
+[3] <https://gerrit-review.googlesource.com/c/plugins/code-owners/+/290908>
+
 **[2021-03-03] To: David Ostrovsky**
 ```
 Thanks for your latest work on the RBE Build/Test [1]. We are seeing a
