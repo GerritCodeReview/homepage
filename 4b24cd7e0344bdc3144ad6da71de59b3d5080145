@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc386512_a49e3133",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:47:58Z",
+      "side": 1,
+      "message": "is",
+      "range": {
+        "startLine": 21,
+        "startChar": 19,
+        "endLine": 21,
+        "endChar": 26
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7409519e_23444789",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:47:58Z",
+      "side": 1,
+      "message": "are not",
+      "range": {
+        "startLine": 23,
+        "startChar": 30,
+        "endLine": 23,
+        "endChar": 41
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "246960e6_27cd0337",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:47:58Z",
+      "side": 1,
+      "message": "are",
+      "range": {
+        "startLine": 25,
+        "startChar": 11,
+        "endLine": 25,
+        "endChar": 19
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46cc0a40_f9d7e6a7",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:47:58Z",
+      "side": 1,
+      "message": "preserving the original case.",
+      "range": {
+        "startLine": 25,
+        "startChar": 27,
+        "endLine": 25,
+        "endChar": 42
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8358dae3_d92203d8",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:47:58Z",
+      "side": 1,
+      "message": "I am missing the part associated to the sandbox branches: how would they behave?\nIf I have a sandbox branch called \u0027MyUserName\u0027 and login as \u0027myusername\u0027, is the sandbox branch matched? What about all the other case-related sandbox branches?",
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64343d9a_66f58a17",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:47:58Z",
+      "side": 1,
+      "message": "Is there any option to perform this migration in zero-downtime?",
+      "range": {
+        "startLine": 55,
+        "startChar": 67,
+        "endLine": 56,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fdd4663_7ee1e20b",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:47:58Z",
+      "side": 1,
+      "message": "I believe it has been decided to go for v3.4, can we specify the release here?",
+      "range": {
+        "startLine": 91,
+        "startChar": 3,
+        "endLine": 91,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbe51e89_df2fa69a",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:47:58Z",
+      "side": 1,
+      "message": "The implementation is nearly complete in stable-3.4.",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 3
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
