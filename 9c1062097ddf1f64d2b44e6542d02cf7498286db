@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8688128f_647188ff",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T02:26:52Z",
+      "side": 1,
+      "message": "I would also mention that migrating from case-sensitive (default) to case-insensitive requires a downtime and cannot be performed online.",
+      "revId": "9c1062097ddf1f64d2b44e6542d02cf7498286db",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
