@@ -478,6 +478,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "efe59d07_1f66d8ea",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-24T15:30:09Z",
+      "side": 1,
+      "message": "I think this part of the discussion is unresolved. Comment from Han-Wen above:\n\n\u003e My experience is that rewriting code for performance reasons should always start from measurements. If you don\u0027t know how fast/slow it is today, you won\u0027t know if the improvement is worthwhile. \n\nDo we have any measurements that show a current problem? That is 100% applicable to the use case and independent of any solution.",
+      "parentUuid": "5836c860_484c06ea",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -748,6 +766,30 @@
       "side": 1,
       "message": "done",
       "parentUuid": "4bde6f45_5212921f",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08db296e_e7c6d354",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-24T15:30:09Z",
+      "side": 1,
+      "message": "I don\u0027t think that wording change is sufficient to make this less of a solution. It does not describe a use case this is currently (un/poorly)satisfied.",
+      "parentUuid": "229aad24_87cc0045",
       "range": {
         "startLine": 48,
         "startChar": 34,
@@ -1184,6 +1226,30 @@
       "side": 1,
       "message": "The \"contract\" wording resolves the issue raised.",
       "parentUuid": "729d433c_b1879574",
+      "range": {
+        "startLine": 59,
+        "startChar": 54,
+        "endLine": 59,
+        "endChar": 60
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60b2e6d3_dfe0ba13",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-24T15:30:09Z",
+      "side": 1,
+      "message": "I don\u0027t believe changing to \u0027contract\u0027 resolves Martin\u0027s expressed concern. He specifically says \"a solution with two streams\" and nothing about schema.",
+      "parentUuid": "2e9ba976_0d906d51",
       "range": {
         "startLine": 59,
         "startChar": 54,
