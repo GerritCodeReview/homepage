@@ -137,6 +137,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec915a0c_2400d47d",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T00:45:45Z",
+      "side": 1,
+      "message": "+1, marking this as resolved and feel free to raise it on the solution change.",
+      "parentUuid": "1cd8019d_df898fd0",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 76
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "277ba695_56b286fd",
@@ -430,6 +454,24 @@
       "side": 1,
       "message": "I agree it should be measured but in my opinion this comparison should be done in a solution phase. The size reduction is kind of a side effect of using more efficient serialisation/deserialisation method. I\u0027ve mentioned it here because I thought that it would be worth to point out that aspect as well. But again main focus is on providing the contract.",
       "parentUuid": "8f7ad99b_38bb643d",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5836c860_484c06ea",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T00:45:45Z",
+      "side": 1,
+      "message": "True, here you are just referring that the current solution (JSON format) is verbose, which is undeniable.\n\nMarking this as resolved, feel free to raise it again on the solution document.",
+      "parentUuid": "1fe020d3_42d83b0c",
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -797,6 +839,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "80b8138f_0553b38b",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T00:45:45Z",
+      "side": 1,
+      "message": "I believe contract resolves the issue raised.",
+      "parentUuid": "1e3e961a_fbd1701e",
+      "range": {
+        "startLine": 51,
+        "startChar": 44,
+        "endLine": 51,
+        "endChar": 51
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "43c1fbe9_b429aa0d",
@@ -882,6 +948,30 @@
       "side": 1,
       "message": "In my opinion every client which is consuming stream events must be aware of this custom logic. Problem is that this logic is not documented anywhere. Plus every client needs to implement it.",
       "parentUuid": "a3afc03c_08defc6b",
+      "range": {
+        "startLine": 52,
+        "startChar": 53,
+        "endLine": 52,
+        "endChar": 86
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef28912b_64e5ef98",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T00:45:45Z",
+      "side": 1,
+      "message": "See for instance a duplication in the Jenkins plugin:\nhttps://github.com/sonyxperiadev/gerrit-events/tree/master/src/main/java/com/sonymobile/tools/gerrit/gerritevents/dto/events",
+      "parentUuid": "b0d4effd_a2db153a",
       "range": {
         "startLine": 52,
         "startChar": 53,
@@ -1017,6 +1107,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e8a979f1_b94dde4c",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T00:45:45Z",
+      "side": 1,
+      "message": "@Marcin are you going to address Martin\u0027s comment on the limit of the applicability of the forward/backward contract compatibility?",
+      "parentUuid": "3c75aca5_53a9f5cf",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a1deebf9_65b92a62",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -1052,6 +1160,30 @@
       "side": 1,
       "message": "This and the bullet below seems to assume a solution with two streams?",
       "parentUuid": "a1deebf9_65b92a62",
+      "range": {
+        "startLine": 59,
+        "startChar": 54,
+        "endLine": 59,
+        "endChar": 60
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e9ba976_0d906d51",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T00:45:45Z",
+      "side": 1,
+      "message": "The \"contract\" wording resolves the issue raised.",
+      "parentUuid": "729d433c_b1879574",
       "range": {
         "startLine": 59,
         "startChar": 54,
@@ -1158,6 +1290,24 @@
       "side": 1,
       "message": "I agree with @Luca  this design doc is not focusing on the events stream but it\u0027s trying to provide generic format for all channels.",
       "parentUuid": "093949fe_f3034f94",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b00ad934_8d8b980c",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T00:45:45Z",
+      "side": 1,
+      "message": "I fully agree with Martin, nevertheless I also agree with Marcin in keeping the scope limited for this step.\n\n@Marcin would it make sense to address Martin\u0027s comment by adding a \"future work\" section?",
+      "parentUuid": "576c891f_50e7c522",
       "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
