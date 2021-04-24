@@ -381,6 +381,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "50131928_c34dcb0d",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:50:59Z",
+      "side": 1,
+      "message": "Ping?",
+      "parentUuid": "1b2971dc_1a47473b",
+      "range": {
+        "startLine": 52,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9276462e_196a7c39",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
@@ -1009,6 +1033,30 @@
       "side": 1,
       "message": "I think renaming should be out of scope here, could be done in another iteration",
       "parentUuid": "3b20e06c_a3247038",
+      "range": {
+        "startLine": 186,
+        "startChar": 31,
+        "endLine": 186,
+        "endChar": 69
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cab40458_9ce45554",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-24T01:50:59Z",
+      "side": 1,
+      "message": "Agreed, let\u0027s not extend the scope.",
+      "parentUuid": "0b15bed5_0e0fb9c5",
       "range": {
         "startLine": 186,
         "startChar": 31,
