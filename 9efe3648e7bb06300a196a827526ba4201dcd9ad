@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0094df4_bb94e677",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-26T08:57:59Z",
+      "side": 1,
+      "message": "that doesn\u0027t compute? *With* contract verification, we would limit the ability to evolve, because the verification would *forbid* some changes to be made.",
+      "range": {
+        "startLine": 14,
+        "startChar": 70,
+        "endLine": 15,
+        "endChar": 81
+      },
+      "revId": "9efe3648e7bb06300a196a827526ba4201dcd9ad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
