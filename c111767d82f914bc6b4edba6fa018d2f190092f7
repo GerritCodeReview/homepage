@@ -16,6 +16,23 @@
       "message": "verified that release notes render properly",
       "revId": "c111767d82f914bc6b4edba6fa018d2f190092f7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2af293b0_22b4fbd4",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-26T12:07:39Z",
+      "side": 1,
+      "message": "This has changed in the latest patchset. Now AuthRequest.Factory has to be injected instead of AuthRequestFactory. Also, AuthRequest(ExternalId) is now private. Instead AuthRequest.Factory#create(ExternalId) should be used.",
+      "revId": "c111767d82f914bc6b4edba6fa018d2f190092f7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
