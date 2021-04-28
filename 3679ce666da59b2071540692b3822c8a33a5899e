@@ -405,6 +405,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2dd3038b_5fe1afa0",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T06:14:50Z",
+      "side": 1,
+      "message": "How would you propose to do that?\nDuring the migration of the note IDs we would have to skip all those that are duplicates, thus we would have to identify them before, since not for all duplicates there will be one that already is all lowercase. Then we would have to skip these in the migration.\nThen if the toleration mode is enabled, when looking up the external ID in notedb, Gerrit would first look for the SHA-1 sum of the provided username with its original capitalization and fall back to looking up the SHA-1 sum of the all lowercase username.\nDuring account creation the note ID will then always already be created from the all lowercase username, effectively making it case insensitive. If already usernames exist with other capitalization which are tolerated duplicates, account creation will fail with DuplicateKeyException.\nThis would then require to migrate users after one of the duplicates was removed to case insensitivity.\n\nWhile this seems not to be too hard to do, I think that adds quite some complexity and might be  confusing for those users that have duplicated usernames. WDYT?\n\nIf this feature is wanted, I could add it in a separate change on top of my current changes.",
+      "parentUuid": "50131928_c34dcb0d",
+      "range": {
+        "startLine": 52,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9276462e_196a7c39",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
