@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "219101cc_6146d988",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-28T09:13:16Z",
+      "side": 1,
+      "message": "the state (in a datacenter) is consistent, but loadbalancing sends multiple requests to different datacenters, leading to an inconsistent view for clients.",
+      "range": {
+        "startLine": 12,
+        "startChar": 13,
+        "endLine": 12,
+        "endChar": 18
+      },
+      "revId": "5feb0108f222dfc73521dda3297433015ca532a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45646b57_16cc69eb",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-28T09:13:16Z",
+      "side": 1,
+      "message": "potential corrupt releases is why we are addressing this, but there might be other reasons why clients want to see a consistent view of Gerrit.",
+      "range": {
+        "startLine": 12,
+        "startChar": 45,
+        "endLine": 12,
+        "endChar": 53
+      },
+      "revId": "5feb0108f222dfc73521dda3297433015ca532a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8560d98_efc6cfee",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-28T09:13:16Z",
+      "side": 1,
+      "message": "At Google, ..",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 9
+      },
+      "revId": "5feb0108f222dfc73521dda3297433015ca532a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "821d08d0_2bad4831",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-28T09:13:16Z",
+      "side": 1,
+      "message": "replication is to a datacenter or to an instance. If you want to use \u0027to\u0027 you have introduce datacenters in your description.\n\nperhaps add a general desciprtion of multimaster setup, at the top eg.\n\nIn multi-master setup, there is an odd number of instances (data centers). They have a globally distributed ref database. A git update (such as a NoteDb update effected by Gerrit) proceeds if a majority of datacenters have all the object data, and agree to the update. A slow datacenter may not able to particate in the transaction, and will serve out-of-date results until the background replication catches up.\n\nIncoming traffic flows through a load balancing HTTP proxy which assigns an incoming request to any datacenter, including one that might be behind.\n\nThe index may be replicated separately across datacenters, so its state cannot be relied on.",
+      "range": {
+        "startLine": 42,
+        "startChar": 2,
+        "endLine": 42,
+        "endChar": 6
+      },
+      "revId": "5feb0108f222dfc73521dda3297433015ca532a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
