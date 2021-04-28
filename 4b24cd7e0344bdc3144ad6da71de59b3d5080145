@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "de446a26_3a5e0235",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T07:53:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc386512_a49e3133",
+      "range": {
+        "startLine": 21,
+        "startChar": 19,
+        "endLine": 21,
+        "endChar": 26
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7409519e_23444789",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-04-24T01:47:58Z",
       "side": 1,
       "message": "are not",
+      "range": {
+        "startLine": 23,
+        "startChar": 30,
+        "endLine": 23,
+        "endChar": 41
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1af8dca_899bd9a3",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T07:53:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7409519e_23444789",
       "range": {
         "startLine": 23,
         "startChar": 30,
@@ -93,6 +141,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba78dab1_77f2eb35",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T07:53:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46cc0a40_f9d7e6a7",
+      "range": {
+        "startLine": 25,
+        "startChar": 27,
+        "endLine": 25,
+        "endChar": 42
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b297c1e_585ee203",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T07:53:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "246960e6_27cd0337",
+      "range": {
+        "startLine": 25,
+        "startChar": 11,
+        "endLine": 25,
+        "endChar": 19
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8358dae3_d92203d8",
@@ -112,6 +208,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2e66c22d_83a34f91",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T07:53:00Z",
+      "side": 1,
+      "message": "Let me test this.\nSince the username\u0027s case is preserved, it shouldn\u0027t change anything. However, the branch names would not be case insensitive, but use the username used to create the account.",
+      "parentUuid": "8358dae3_d92203d8",
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64343d9a_66f58a17",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 6
@@ -123,6 +237,30 @@
       "writtenOn": "2021-04-24T01:47:58Z",
       "side": 1,
       "message": "Is there any option to perform this migration in zero-downtime?",
+      "range": {
+        "startLine": 55,
+        "startChar": 67,
+        "endLine": 56,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1471a84a_8c44c210",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T07:53:00Z",
+      "side": 1,
+      "message": "No, not as it is implemented right now. Although this might be possible.\n\nIdea 1: Do the migration as a onetime event\n- Admin triggers migration (REST/SSH?)\n- Migration will run in the background\n- The migration will activate case insensitivity by committing the changed noteIDs in a single commit and switching auth.userNamesCaseInsensitive to true. These actions should not have a large delay and thus would likely not disrupt any user. However, we would have to make sure that the option is applied without restarting Gerrit.\n- Account reindexing is not strictly required, since the changed note ID should just lead to marking the index entry as stale and reindexing the account on the fly.\n\nIdea 2: Migration is done on the fly during user authentication\n- If a user logs in, authentication is done with the unmigrated note ID, if this note ID doesn\u0027t match the new case insensitive form, it will be migrated. From that time onwards, the user can authenticate case insensitively.\n- This maybe confusing for users and leads to a mix of data, some case sensitive, some case insensitive.\n\nI would prefer idea 1. However, the \"duplicated\" usernames might be an issue here. We would need the toleration mode discussed for the use-case document. Or they would have to be taken care of before starting the migration.",
+      "parentUuid": "64343d9a_66f58a17",
       "range": {
         "startLine": 55,
         "startChar": 67,
@@ -156,6 +294,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cefbfe4_bcd1cb89",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T07:53:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0fdd4663_7ee1e20b",
+      "range": {
+        "startLine": 91,
+        "startChar": 3,
+        "endLine": 91,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cbe51e89_df2fa69a",
@@ -169,6 +331,30 @@
       "writtenOn": "2021-04-24T01:47:58Z",
       "side": 1,
       "message": "The implementation is nearly complete in stable-3.4.",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 3
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c4ed2d7_b74fe739",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-28T07:53:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cbe51e89_df2fa69a",
       "range": {
         "startLine": 96,
         "startChar": 0,
