@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d066b5c3_e587fee4",
+        "filename": "pages/design-docs/consistency-on-demand/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab344050_721d9d83",
+      "range": {
+        "startLine": 9,
+        "startChar": 14,
+        "endLine": 9,
+        "endChar": 33
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ddbba4ca_98defd42",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9ca6cb2_7994f812",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ddbba4ca_98defd42",
+      "range": {
+        "startLine": 9,
+        "startChar": 21,
+        "endLine": 9,
+        "endChar": 30
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7b73b382_b60e174e",
@@ -60,6 +108,30 @@
       "writtenOn": "2021-04-21T07:26:57Z",
       "side": 1,
       "message": "... does not cause an inconsistent state that could lead to corrupt releases.",
+      "range": {
+        "startLine": 12,
+        "startChar": 51,
+        "endLine": 12,
+        "endChar": 59
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a42de5fc_e8eec539",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7b73b382_b60e174e",
       "range": {
         "startLine": 12,
         "startChar": 51,
@@ -116,6 +188,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "49fe3e3a_920c0c92",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8136bae6_68759bc0",
+      "range": {
+        "startLine": 13,
+        "startChar": 3,
+        "endLine": 13,
+        "endChar": 18
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16886406_b743a15d",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "Done, I rephrased and omitted the solution from the sentence as much as I could.",
+      "parentUuid": "358c6aa9_216cf1f1",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 73
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e5b66252_dfb92c9c",
@@ -135,6 +255,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2fa86cfc_23b0fd32",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "I\u0027ve added a sentence mentioning this is meant for systems with multi-master setup, does it make sense now?",
+      "parentUuid": "e5b66252_dfb92c9c",
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "951e37a4_92a22ac3",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 1
@@ -146,6 +284,30 @@
       "writtenOn": "2021-04-21T14:55:32Z",
       "side": 1,
       "message": "You just created it in #1, so do you mean here \"fails if B is not yet known to the primary which receives this command\"?",
+      "range": {
+        "startLine": 34,
+        "startChar": 46,
+        "endLine": 34,
+        "endChar": 77
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b83c6414_bd034011",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "Done, rephrased to mention replication.",
+      "parentUuid": "951e37a4_92a22ac3",
       "range": {
         "startLine": 34,
         "startChar": 46,
@@ -179,6 +341,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "44707ecd_15c732fd",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "326807ea_326c53fb",
+      "range": {
+        "startLine": 35,
+        "startChar": 3,
+        "endLine": 35,
+        "endChar": 16
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f507f76_7bab0424",
@@ -202,6 +388,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "93c95103_04aa1a11",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "good point, done.",
+      "parentUuid": "1f507f76_7bab0424",
+      "range": {
+        "startLine": 37,
+        "startChar": 10,
+        "endLine": 37,
+        "endChar": 42
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6f6dc115_acf3374d",
@@ -215,6 +425,30 @@
       "writtenOn": "2021-04-21T14:55:32Z",
       "side": 1,
       "message": "Does this refer to a specific primary\u0027s index or something else?",
+      "range": {
+        "startLine": 41,
+        "startChar": 14,
+        "endLine": 41,
+        "endChar": 23
+      },
+      "revId": "5878f97174cb3cf17a024f9123dc8b8828c8b93d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3b3b610_116471e9",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-04-28T08:13:24Z",
+      "side": 1,
+      "message": "this refers to the ChangeIndex.",
+      "parentUuid": "6f6dc115_acf3374d",
       "range": {
         "startLine": 41,
         "startChar": 14,
