@@ -496,6 +496,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2099723e_54a73726",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-28T23:25:42Z",
+      "side": 1,
+      "message": "True, the measurements and data is missing.",
+      "parentUuid": "efe59d07_1f66d8ea",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a9c45ade_2db8ab7f",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -790,6 +808,30 @@
       "side": 1,
       "message": "I don\u0027t think that wording change is sufficient to make this less of a solution. It does not describe a use case this is currently (un/poorly)satisfied.",
       "parentUuid": "229aad24_87cc0045",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "374e9ffd_aa862349",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-28T23:25:42Z",
+      "side": 1,
+      "message": "What about replacing \"contract\" with \"specification\"? Or is there any other wording that you would like here?",
+      "parentUuid": "08db296e_e7c6d354",
       "range": {
         "startLine": 48,
         "startChar": 34,
