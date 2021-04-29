@@ -3,6 +3,144 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6f158ba4_9ac7114c",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-29T01:08:07Z",
+      "side": 1,
+      "message": "multi-site",
+      "range": {
+        "startLine": 11,
+        "startChar": 3,
+        "endLine": 11,
+        "endChar": 15
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ca4d8eb_67072935",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-29T01:08:07Z",
+      "side": 1,
+      "message": "Multi-site",
+      "range": {
+        "startLine": 24,
+        "startChar": 17,
+        "endLine": 24,
+        "endChar": 29
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e0a1e0e_96f9f2df",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-29T01:08:07Z",
+      "side": 1,
+      "message": "What is a multi-primary? To me the wording doesn\u0027t make so much sense.\nEither primary-replica or HA-cluster ... did we define multi-primary anywhere?",
+      "range": {
+        "startLine": 24,
+        "startChar": 39,
+        "endLine": 24,
+        "endChar": 52
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "272d47fd_f551ce89",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-29T01:08:07Z",
+      "side": 1,
+      "message": "multi-site",
+      "range": {
+        "startLine": 25,
+        "startChar": 59,
+        "endLine": 25,
+        "endChar": 71
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1ea865c_d23351e2",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-29T01:08:07Z",
+      "side": 1,
+      "message": "Really hours? If one data-centre is behind by a few hours, I would rather consider to shut it down or marking it unhealthy.",
+      "range": {
+        "startLine": 26,
+        "startChar": 46,
+        "endLine": 26,
+        "endChar": 55
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "349aff7c_ec6bebcb",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-29T01:08:07Z",
+      "side": 1,
+      "message": "A \"globally inconsistent\" view, because from a local data-centre perspective it should be still be consistent, or not?",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 33
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "330394d8_b121c537",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
