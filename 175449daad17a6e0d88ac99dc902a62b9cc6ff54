@@ -26,6 +26,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "62cd5cd9_a92bd849",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "Is this all generic to any multi-site setup (like what you\u0027d have using https://gerrit.googlesource.com/plugins/multi-site) or specific to Google\u0027s setup? If the latter, that should noted up front here \"In Google\u0027s multi-site setup\".",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 21
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d99d4f6_ebebf2dc",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "created?",
+      "range": {
+        "startLine": 13,
+        "startChar": 7,
+        "endLine": 13,
+        "endChar": 15
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3ca4d8eb_67072935",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -142,6 +188,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0931f724_101e6db2",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "I guess it is needed in the glossary. 😊\n\nSee my answer in https://gerrit-review.googlesource.com/c/homepage/+/303793/comment/2e0a1e0e_96f9f2df/",
+      "parentUuid": "d3da4636_eccf446d",
+      "range": {
+        "startLine": 24,
+        "startChar": 17,
+        "endLine": 24,
+        "endChar": 29
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "176d8d72_884d1774",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "A \"primary\" is the new preferred team vs a \"master\". So multi-primary replaces multi-master as a cluster of primaries cooperating in a single site (I think there\u0027s a glossary doc now in Gerrit, so I\u0027ll add this). Multi-site is the further extension of that where you have multiple sites each with a multi-primary cluster.",
+      "parentUuid": "2e0a1e0e_96f9f2df",
+      "range": {
+        "startLine": 24,
+        "startChar": 39,
+        "endLine": 24,
+        "endChar": 52
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "272d47fd_f551ce89",
@@ -229,6 +323,103 @@
         "startChar": 14,
         "endLine": 29,
         "endChar": 17
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e1fbf0ca_0ed57111",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "Could this be worded as: \"Replication lag causes corrupt automated releases because it presents an inconsistent state to the automation client\" ?\n\nAlso, can you describe how exactly replication lag and/or inconsistent state corrupts releases? Probably needs to start with describing what is a corrupt release. Or is this the Background section? That didn\u0027t look like a release flow to me, so maybe I\u0027m just confused.",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3672f66_60380f8c",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "What are the common replication lag symptoms? Can they be added as sub-bullets here?",
+      "range": {
+        "startLine": 35,
+        "startChar": 41,
+        "endLine": 35,
+        "endChar": 72
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2743a4e0_b8d59d41",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "There\u0027s no aim to improve Gerrit software for this use case?",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34881362_25569fc8",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "Are you trying to list atomic operations on each line? If so, I think creating a branch in two different repos is non-atomic, so use two lines here?",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46e585ef_9816d9b0",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:58:44Z",
+      "side": 1,
+      "message": "What does \"currently used\" mean here? Can you have an index that\u0027s not used?",
+      "range": {
+        "startLine": 66,
+        "startChar": 18,
+        "endLine": 66,
+        "endChar": 32
       },
       "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
