@@ -70,6 +70,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "784385f1_fbaf30c8",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-04-29T08:20:23Z",
+      "side": 1,
+      "message": "fwiw, Edwin has always described googlesource.com as a \"multi-master\". The precise setup is described in l.11-22",
+      "parentUuid": "3ca4d8eb_67072935",
+      "range": {
+        "startLine": 24,
+        "startChar": 17,
+        "endLine": 24,
+        "endChar": 29
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "272d47fd_f551ce89",
