@@ -22,6 +22,29 @@
       },
       "revId": "9efe3648e7bb06300a196a827526ba4201dcd9ad",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8607b57_79417ddb",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-29T15:57:49Z",
+      "side": 1,
+      "message": "repeated \"select selects\"",
+      "range": {
+        "startLine": 60,
+        "startChar": 43,
+        "endLine": 60,
+        "endChar": 57
+      },
+      "revId": "9efe3648e7bb06300a196a827526ba4201dcd9ad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
