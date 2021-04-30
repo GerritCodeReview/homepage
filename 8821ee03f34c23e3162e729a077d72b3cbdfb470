@@ -51,6 +51,24 @@
       "message": "Shall we block this with a Verified -2 (or remove the +2) to prevent it to be merged by mistake?\nIt is actually NOT verified against any current Gerrit v3.4.0-RCs isn\u0027t it?",
       "revId": "8821ee03f34c23e3162e729a077d72b3cbdfb470",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16c5ad4b_f587143f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-30T11:03:50Z",
+      "side": 1,
+      "message": "Yes, let\u0027s put V-1. Can you do it? I don\u0027t have the rights to do so.",
+      "parentUuid": "10e0feaf_cfc8d0a6",
+      "revId": "8821ee03f34c23e3162e729a077d72b3cbdfb470",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
