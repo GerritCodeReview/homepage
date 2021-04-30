@@ -964,6 +964,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5fb418e2_690ff5ee",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-04-30T20:03:20Z",
+      "side": 1,
+      "message": "\u003e @Marcin the question that @Nasser is asking a very important one: of *ALL these problems* which are the ones we want to tackle with this design document?\n\nTo be clear, that\u0027s not what I asked and I don\u0027t think the answer to that question would help move this forward. I said:\n\n\u003e @Marcin, what situation do you have that you want solved?\n\nSo, not what generic problem exists for Marcin, but what is Marcin trying to do such that he is encountering one of the pain points Sven laid out. Example: \"I\u0027m creating a new tool that will use Gerrit REST APIs\", \"I\u0027m updating existing software that uses events to support more Gerrit versions than it previously did\", or any number of other things. But something specific Marcin is doing (you know, a use case).",
+      "parentUuid": "ec8405fb_4e476a03",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7de067de_0d4b9f25",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
