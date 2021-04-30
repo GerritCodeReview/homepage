@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0bce690_43b6f0be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-30T00:56:40Z",
+      "side": 1,
+      "message": "+1 (for me at least) means \"I like the change and I believe it should go forward, but I am not convinced is ready yet to be merged and I (or other reviewers) am willing to give you constructive feedback to improve it\".",
+      "parentUuid": "d1a96fc9_74b070c8",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6f158ba4_9ac7114c",
@@ -267,6 +285,30 @@
       "side": 1,
       "message": "Done in https://gerrit-review.googlesource.com/c/gerrit/+/304642",
       "parentUuid": "176d8d72_884d1774",
+      "range": {
+        "startLine": 24,
+        "startChar": 39,
+        "endLine": 24,
+        "endChar": 52
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26f1f538_2dfcd80b",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-30T00:56:40Z",
+      "side": 1,
+      "message": "Ack, shall we keep this comment open until Change 304642 is merged?",
+      "parentUuid": "34dd3f3a_2d2bd3c3",
       "range": {
         "startLine": 24,
         "startChar": 39,
