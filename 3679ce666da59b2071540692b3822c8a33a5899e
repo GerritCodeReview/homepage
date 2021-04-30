@@ -453,6 +453,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "658bc173_57e631cd",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-04-30T10:45:18Z",
+      "side": 1,
+      "message": "Achieving zero downtime is definitely something that we should achieve. Do we need the toleration mode though or only online migration? Deletion of duplicate accounts can and has to be done online. We do it by setting the account inactive and then delete all external IDs.\nNevertheless, I will spend some time next week to work on online migration. I think this should anyway go into a separate change.",
+      "parentUuid": "d97291b5_60b152c9",
+      "range": {
+        "startLine": 52,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9276462e_196a7c39",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
