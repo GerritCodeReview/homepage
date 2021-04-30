@@ -940,6 +940,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ec8405fb_4e476a03",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-30T18:17:01Z",
+      "side": 1,
+      "message": "@Sven, with regards to [1] (gerrit-events) library, it isn\u0027t a *mere* copy\u0026paste but a *logical* copy\u0026paste of Gerrit events [4]: that is equally dangerous because they would go out of sync easily.\n\nOne of the problems that we *always* face when migrating Gerrit is the compatibility with other systems that rely on stream events: the gerrit-trigger-plugin is typically the major offender (without being guilty of course).\n\nEither we just delegate the responsibility of this to the 3rd party tool (gerrit-events, gerrit-code-review-plugin, Gerrit Java API, you-name-it) OR we tackle the problem once and for all in Gerrit, which is basically what Marcin has volunteered to do.\n\n@Marcin the question that @Nasser is asking a very important one: of *ALL these problems* which are the ones we want to tackle with this design document?\n\n[4] https://github.com/sonyxperiadev/gerrit-events/tree/master/src/main/java/com/sonymobile/tools/gerrit/gerritevents/dto/events",
+      "parentUuid": "251793b8_97053fc0",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7de067de_0d4b9f25",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
