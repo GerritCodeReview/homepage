@@ -892,6 +892,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2094fffb_a523a296",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-04-30T07:47:09Z",
+      "side": 1,
+      "message": "\u003e The problem is not breaking \"unknowingly\" I believe.\n\u003e \n\u003e If you look at two examples:\n\u003e - Gerrit Trigger Plugin\n\u003e - Gerrit Java API\n\u003e \n\u003e Both are copy\u0026pasting code from the Gerrit code-base into their plugins, which is very very dangerous.\nThat\u0027s not true, at least for the Gerrit Trigger plugin, there is no copy/paste:ing of Gerrit code in that plugin.\nIt uses the gerrit-events[1] lib that in turn uses documented Gerrit API:s (REST and Events[3]). Same as (I believe) f.i. Gerrit Code Review plugin does.\n\nMore generally problem-statements I would use:\n\n* Firstly, one of the issues with the current set-up is that, since stream-events was initially the only event producer available the events are documented as if they are only a part of the stream-events command. That reality have changed and the current situation is that we have an event structure that is exposed by various sources (stream-events, events-* plugins, ...). The event documentation should be more \"centralized\" to reflect this no matter what the future looks like.\n\n* Secondly, another issue is that Gerrit doesn\u0027t offer any \"event-handling-lib\", hence the need for others to create one [1] (or probably several). If we want to make it easier to consume events we should provide such a lib (I believe one of the solutions discussed in the comments has mechanism for providing something similar).\n\n* Thirdly (that have been raised before) the event entities and the REST entities are not the same although they represent the same thing. Aligning these would cut \"a lot\" of overhead (hard to measure but I believe it to be true).\n\n* Fourthly documentation of events and REST entities needs to be maintained manually. If we could specify these in a way that would make automatic rendering of the documentation we would also cut down on unnecessary work.\n\n* Fifthly it would be helpful if said events/REST was specified (in the code) in such a way that you could easily see what has changed when making a new release simply by doing a git diff between current and previous version. \n\n* Sixthly we have the issue that the event-structure have been patched over and over and it is (IMO) rather difficult to get a sense of what it looks like in it\u0027s current state. Basically it\u0027s due for an overhaul.\n\n[1] https://github.com/sonyxperiadev/gerrit-events\n[2] https://gerrit-review.googlesource.com/Documentation/rest-api.html\n[3] https://gerrit-review.googlesource.com/Documentation/cmd-stream-events.html\n\u003e \n\u003e Having a clear specification and a standard way to validating it is the main goal I believe.\n\u003e \n\u003e @Marcin can you comment if my understanding is correct?",
+      "parentUuid": "4589a931_04932833",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7de067de_0d4b9f25",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
