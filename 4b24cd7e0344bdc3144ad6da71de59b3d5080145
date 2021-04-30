@@ -226,6 +226,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9393ac1e_d06987d0",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-30T00:40:42Z",
+      "side": 1,
+      "message": "Yes, exactly. We can do as much as we can for case-insensitive matching, but the sandbox branches are evaluated by Git which *IS* case-sensitive.\n\nI believe we should clearly explain that limitation, which could be non-trivial.\nThe user needs to check what was the initial capitalisation used when the account was registered the first time and use *the same one* in the sandbox branches.",
+      "parentUuid": "2e66c22d_83a34f91",
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64343d9a_66f58a17",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 6
@@ -261,6 +279,30 @@
       "side": 1,
       "message": "No, not as it is implemented right now. Although this might be possible.\n\nIdea 1: Do the migration as a onetime event\n- Admin triggers migration (REST/SSH?)\n- Migration will run in the background\n- The migration will activate case insensitivity by committing the changed noteIDs in a single commit and switching auth.userNamesCaseInsensitive to true. These actions should not have a large delay and thus would likely not disrupt any user. However, we would have to make sure that the option is applied without restarting Gerrit.\n- Account reindexing is not strictly required, since the changed note ID should just lead to marking the index entry as stale and reindexing the account on the fly.\n\nIdea 2: Migration is done on the fly during user authentication\n- If a user logs in, authentication is done with the unmigrated note ID, if this note ID doesn\u0027t match the new case insensitive form, it will be migrated. From that time onwards, the user can authenticate case insensitively.\n- This maybe confusing for users and leads to a mix of data, some case sensitive, some case insensitive.\n\nI would prefer idea 1. However, the \"duplicated\" usernames might be an issue here. We would need the toleration mode discussed for the use-case document. Or they would have to be taken care of before starting the migration.",
       "parentUuid": "64343d9a_66f58a17",
+      "range": {
+        "startLine": 55,
+        "startChar": 67,
+        "endLine": 56,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92d6c243_eb5ed669",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-30T00:40:42Z",
+      "side": 1,
+      "message": "The idea 1 would work only when the number of accounts is somehow limited. But if you think about a case like the Eclipse Foundation, with hundreds of thousands of accounts, the option 1 could be not feasible.\n\nThat\u0027s why I proposed the \"toleration mode\" for allowing a smooth online migration.",
+      "parentUuid": "1471a84a_8c44c210",
       "range": {
         "startLine": 55,
         "startChar": 67,
