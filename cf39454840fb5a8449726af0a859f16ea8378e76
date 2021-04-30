@@ -868,6 +868,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4589a931_04932833",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-30T00:53:49Z",
+      "side": 1,
+      "message": "The problem is not breaking \"unknowingly\" I believe.\n\nIf you look at two examples:\n- Gerrit Trigger Plugin\n- Gerrit Java API\n\nBoth are copy\u0026pasting code from the Gerrit code-base into their plugins, which is very very dangerous.\n\nHaving a clear specification and a standard way to validating it is the main goal I believe.\n\n@Marcin can you comment if my understanding is correct?",
+      "parentUuid": "bdd04af2_22cb2f67",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 56
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7de067de_0d4b9f25",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
