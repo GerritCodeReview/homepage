@@ -429,6 +429,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d97291b5_60b152c9",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-04-30T00:36:45Z",
+      "side": 1,
+      "message": "You are right, it would introduce some complexity.\nI was proposing the \"toleration mode\" for finding a way to allow an HA setup to convert its accounts without interruption, that\u0027s why the toleration mode would help IMHO.\n\nIn our setup, we never had a downtime for upgrades for *years* so far, and we would not like to start having it now.",
+      "parentUuid": "2dd3038b_5fe1afa0",
+      "range": {
+        "startLine": 52,
+        "startChar": 55,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "3679ce666da59b2071540692b3822c8a33a5899e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9276462e_196a7c39",
         "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
         "patchSetId": 3
