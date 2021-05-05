@@ -244,6 +244,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "29c9931c_c1b9dc29",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-05-05T08:00:49Z",
+      "side": 1,
+      "message": "I verified, that this is indeed the case. A user `TestUser` can have the sandbox branch `refs/heads/sandbox/TestUser/foo`, but after switching on case insensitive usernames, `refs/heads/sandbox/testuser/foo` won\u0027t work, but `refs/heads/sandbox/TestUser/foo` continues to work. I think however, that this is acceptable. The username with its original capitalization is still displayed in the user preferences and everywhere else where the username is displayed and should thus be easily discoverable. This behaviour also guarantees that existing sandbox branches continue to work.\nI also added some further documentation in the implementing change to make this clear.",
+      "parentUuid": "9393ac1e_d06987d0",
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64343d9a_66f58a17",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 6
