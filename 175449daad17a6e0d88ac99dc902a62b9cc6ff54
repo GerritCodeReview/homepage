@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5a3735b3_9b5a895e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-05T20:52:53Z",
+      "side": 1,
+      "message": "Thanks Luca! Han-Wen/Patrick, does that match your usage?",
+      "parentUuid": "f0bce690_43b6f0be",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6f158ba4_9ac7114c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -326,6 +344,30 @@
       "side": 1,
       "message": "Ack, shall we keep this comment open until Change 304642 is merged?",
       "parentUuid": "34dd3f3a_2d2bd3c3",
+      "range": {
+        "startLine": 24,
+        "startChar": 39,
+        "endLine": 24,
+        "endChar": 52
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8533155a_2b4ef0b1",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-05T20:52:53Z",
+      "side": 1,
+      "message": "Sure.",
+      "parentUuid": "26f1f538_2dfcd80b",
       "range": {
         "startLine": 24,
         "startChar": 39,
