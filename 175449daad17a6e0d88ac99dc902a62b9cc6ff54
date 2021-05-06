@@ -73,6 +73,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ec7527fc_d4a9595e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2021-05-06T13:26:03Z",
+      "side": 1,
+      "message": "My +1 means \"I have read the use case and support it.\" It also matches the use case we have at Google. Thanks for checking back!\n\nMy +1 is not a +2 because there are open comments and it seems the discussion has not yet wrapped up.",
+      "parentUuid": "5a3735b3_9b5a895e",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6f158ba4_9ac7114c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -414,6 +432,30 @@
       "writtenOn": "2021-04-29T01:08:07Z",
       "side": 1,
       "message": "Really hours? If one data-centre is behind by a few hours, I would rather consider to shut it down or marking it unhealthy.",
+      "range": {
+        "startLine": 26,
+        "startChar": 46,
+        "endLine": 26,
+        "endChar": 55
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5c8e051_93ed6e12",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2021-05-06T13:26:03Z",
+      "side": 1,
+      "message": "I\u0027d also rather say \"seconds, sometimes minutes\".",
+      "parentUuid": "d1ea865c_d23351e2",
       "range": {
         "startLine": 26,
         "startChar": 46,
