@@ -357,6 +357,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e55405ee_488b3c9e",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-08T00:46:00Z",
+      "side": 1,
+      "message": "That would be nice: DavidO did something similar for the OAuth plugin and we could brainstorm some solution together.",
+      "parentUuid": "b65bb998_a8d1318d",
+      "range": {
+        "startLine": 55,
+        "startChar": 67,
+        "endLine": 56,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0fdd4663_7ee1e20b",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 6
