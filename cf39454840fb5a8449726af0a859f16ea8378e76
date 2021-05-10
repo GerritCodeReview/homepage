@@ -565,6 +565,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2410c437_5a5911e7",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-10T07:58:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bcacd2c5_a5345713",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7b5b3b52_6c538f2e",
@@ -1046,6 +1064,48 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "043be1db_92a4050a",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-10T07:58:32Z",
+      "side": 1,
+      "message": "Solved in Real life use cases section https://gerrit-review.googlesource.com/c/homepage/+/302082/4/pages/design-docs/events-compatibility/use-cases.md#54",
+      "parentUuid": "d305fd51_11927732",
+      "range": {
+        "startLine": 48,
+        "startChar": 3,
+        "endLine": 49,
+        "endChar": 50
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37cef9c8_ce3b1834",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-10T07:58:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "332a68d3_7a7a1daa",
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1e3e961a_fbd1701e",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 1
@@ -1248,6 +1308,30 @@
       "side": 1,
       "message": "Ok. Can you use that as a specific use case then? Or do you have another case where *you* need to manually implement it?\n\nMy reasoning here is simple, I\u0027m much more compelled by your actual needs vs hypothetical ones. So if you say right now: \"I\u0027m creating tool X and I don\u0027t want to manually reproduce the custom logic in EventGsonProvider, but I need my tool to understand it\" that is a VERY clear use case that I can evaluate solutions for. If you don\u0027t have that specific of a use case, I don\u0027t think this design doc should move forward.",
       "parentUuid": "ef28912b_64e5ef98",
+      "range": {
+        "startLine": 52,
+        "startChar": 53,
+        "endLine": 52,
+        "endChar": 86
+      },
+      "revId": "cf39454840fb5a8449726af0a859f16ea8378e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b314479f_543f3837",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-10T07:58:32Z",
+      "side": 1,
+      "message": "I\u0027ve added Real Life use cases section https://gerrit-review.googlesource.com/c/homepage/+/302082/4/pages/design-docs/events-compatibility/use-cases.md#54",
+      "parentUuid": "0d363b5d_33bfe4a6",
       "range": {
         "startLine": 52,
         "startChar": 53,
