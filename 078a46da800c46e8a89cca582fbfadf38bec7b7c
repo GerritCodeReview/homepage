@@ -36,6 +36,115 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9961b4c5_4be302a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Bunch of style/grammar nits, but overall the solution makes sense to me and seems reasonable to implement.",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4fe2bac8_62fab23e",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "lifecycles",
+      "range": {
+        "startLine": 24,
+        "startChar": 15,
+        "endLine": 24,
+        "endChar": 25
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2edc0459_41561daf",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "What does \"handle\" mean here? Reference? Container?",
+      "range": {
+        "startLine": 39,
+        "startChar": 15,
+        "endLine": 39,
+        "endChar": 25
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b28eab6a_a9cf24c9",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "mismatches",
+      "range": {
+        "startLine": 72,
+        "startChar": 53,
+        "endLine": 72,
+        "endChar": 65
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75d21469_39f62ee5",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Ssh",
+      "range": {
+        "startLine": 92,
+        "startChar": 12,
+        "endLine": 92,
+        "endChar": 15
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3afed4ef_f382c15b",
@@ -49,6 +158,356 @@
       "writtenOn": "2021-04-09T19:51:33Z",
       "side": 1,
       "message": "Consider making this more compiler verification friendly (then today even) by introducing a single class to point to like this:\n\n public interface Modules {\n   Set\u003cModule\u003e getModules();\n }\n\nWith such a class, it would require only a single entry point to get right for a bundle instead of one for each Module type. Another alternative would be to come up with more structured interfaces like:\n\n public interface PluginModules {\n   Module getSysModule();\n   HttpModule getHttpModule();\n   SshModule getSshModule(); // Type checked!\n }\n\n public interface PluginModules {\n   Map\u003cString, PluginModules\u003e getPluginModuleByPluginName();\n }\n\nwhich would make it more obvious which Modules belong to which plugin, and it would also prevent more than one Module of each type (Sys, Http, Ssh) from being defined for the same plugin.",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aec5d4b2_52fed4f4",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "line wrapped too early?",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "425ec51f_e4517e65",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Did you mean \"the Module\"? Actually, this can probably be cleaned up a bit in other places too. Sometimes you say \u0027plugin\u0027 and sometimes you say \u0027Module\u0027 and it\u0027s not always clear where they\u0027re intended to be different concepts.",
+      "range": {
+        "startLine": 161,
+        "startChar": 51,
+        "endLine": 161,
+        "endChar": 57
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "485c40f4_5bf6b057",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "s/make //\n\nand then on the next line\n\ns/also declare/also declares/",
+      "range": {
+        "startLine": 165,
+        "startChar": 35,
+        "endLine": 165,
+        "endChar": 40
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ea1aad8_b0bf9478",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "This is the first time \"child plugin\" is mentioned in the doc. Is this defined as any Module using @ParentPlugin? Maybe include that up near line 162?",
+      "range": {
+        "startLine": 186,
+        "startChar": 56,
+        "endLine": 186,
+        "endChar": 69
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4665c803_0ee533e4",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Should this be plural or singular?",
+      "range": {
+        "startLine": 201,
+        "startChar": 32,
+        "endLine": 201,
+        "endChar": 49
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1e408ea_44ee7cbc",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "s/a one/one/",
+      "range": {
+        "startLine": 203,
+        "startChar": 31,
+        "endLine": 203,
+        "endChar": 36
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35bf6f1f_94cc1c3a",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "s/prevents/prevent/",
+      "range": {
+        "startLine": 205,
+        "startChar": 63,
+        "endLine": 205,
+        "endChar": 71
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a72d991_2001739b",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Does it really prevent it, or just fail on load if another plugin has already defined and registered it?",
+      "range": {
+        "startLine": 206,
+        "startChar": 0,
+        "endLine": 206,
+        "endChar": 63
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9aa04f90_99de75ec",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "enforced",
+      "range": {
+        "startLine": 229,
+        "startChar": 35,
+        "endLine": 229,
+        "endChar": 42
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1e9f0c5_a1b3da93",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Looks like this may be an ellipsis unicode character vs three literal \u0027...\u0027",
+      "range": {
+        "startLine": 261,
+        "startChar": 89,
+        "endLine": 261,
+        "endChar": 90
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65922b6b_ce182405",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 319,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Parse?",
+      "range": {
+        "startLine": 319,
+        "startChar": 15,
+        "endLine": 319,
+        "endChar": 19
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67e668ee_f3b891a6",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "s/Branch.NameKey/BranchNameKey/ (below too)",
+      "range": {
+        "startLine": 348,
+        "startChar": 11,
+        "endLine": 348,
+        "endChar": 25
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c6025d9_77347160",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 505,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Mostly seems discussed in the Overview. Maybe a short summary here?",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b2d6fd2_d862112e",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 506,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "Add OSGi and compile time dependencies here?",
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "472bfd40_c2f4c395",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 512,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "extra space",
+      "range": {
+        "startLine": 512,
+        "startChar": 44,
+        "endLine": 512,
+        "endChar": 45
+      },
+      "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50ad7719_7b0bab87",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-10T18:36:19Z",
+      "side": 1,
+      "message": "s/acsingle/a single/",
+      "range": {
+        "startLine": 521,
+        "startChar": 37,
+        "endLine": 521,
+        "endChar": 45
+      },
       "revId": "078a46da800c46e8a89cca582fbfadf38bec7b7c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
