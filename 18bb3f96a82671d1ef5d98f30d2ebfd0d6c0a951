@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dbb5ea8d_2bea524c",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-11T13:45:04Z",
+      "side": 1,
+      "message": "This doesn\u0027t read correctly? Should it be: \"and Dynamic types from other plugins.\"",
+      "range": {
+        "startLine": 187,
+        "startChar": 21,
+        "endLine": 187,
+        "endChar": 23
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20c6e374_18ed28cc",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-11T13:45:04Z",
+      "side": 1,
+      "message": "Missing left side ` ?",
+      "range": {
+        "startLine": 326,
+        "startChar": 68,
+        "endLine": 326,
+        "endChar": 77
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
