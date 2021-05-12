@@ -3,6 +3,485 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2146d0b5_186f03d3",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "in which phases is this bundling relevant ? during deployment ?",
+      "range": {
+        "startLine": 16,
+        "startChar": 20,
+        "endLine": 16,
+        "endChar": 26
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8888564f_dcdddc79",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "what are chaining abilities ?",
+      "range": {
+        "startLine": 21,
+        "startChar": 13,
+        "endLine": 21,
+        "endChar": 31
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e7116d3_098ccd86",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "how is a service declared ?",
+      "range": {
+        "startLine": 23,
+        "startChar": 39,
+        "endLine": 23,
+        "endChar": 59
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "950ab41c_1c11f757",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "what is intra plugin sharing ?",
+      "range": {
+        "startLine": 34,
+        "startChar": 51,
+        "endLine": 34,
+        "endChar": 71
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75515067_074ad310",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "you didn\u0027t yet explain what a bundle is",
+      "range": {
+        "startLine": 46,
+        "startChar": 8,
+        "endLine": 46,
+        "endChar": 14
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fdc634e_da2d7411",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "s/arrise/arise/",
+      "range": {
+        "startLine": 50,
+        "startChar": 47,
+        "endLine": 50,
+        "endChar": 53
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "809a9dd8_e292767d",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "how would service discovery work ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d380d63f_b6f98b33",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "this sounds like OSGi declarative services to me",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c3883a6_22d241dd",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "how does a service \n- declare which other services it needs \n- which services are available\n- get notified when a service becomes available/unavailable\n\nwhy is this tied to deploying them in a bundle ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60f9cd7c_3229d543",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "in which phases plugins are split ?\ndesign-time / deploy-time / run-time ?\nwill split plugins live in one repository or multiple ?\nCoping with many plugin repositories at design-time is already a burden if there are many of them.\n\nDid you consider to use the Java module system [1] to do such separation and visibility control ? We are now on Java 11, which has JPMS enabling more control on visibility and dependencies.\n\n[1] https://www.oracle.com/corporate/features/understanding-java-9-modules.html",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58b1681a_8c15c82a",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "only at deploy-time or also at design-time ?",
+      "range": {
+        "startLine": 82,
+        "startChar": 44,
+        "endLine": 82,
+        "endChar": 64
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f6a543a_8bb1cd62",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "I don\u0027t understand this sentence",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "015ad8d4_48c186db",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "what is the relationship between modules and plugins ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "059d8628_e9836251",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "can we separate declaring the name of a bundle and its visibility ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4670191_ac3b6e63",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "what\u0027s the relationship between plugin dependencies, module dependencies and classloader hierarchy ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7dead36d_47f2cf3a",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "isn\u0027t plugin lifecycle already dynamic ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1088ec5e_60e46794",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "does this imply that there will be no MANIFEST anymore ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ac4ed63_02ddbe56",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "In OSGi using bundle dependencies is considered a bad practice since it hard-codes that the using component knows the name of the bundle it depends on. Instead dependencies are usually declared on either packages exported by another bundle or on interfaces of declarative services. This ensures the using bundle doesn\u0027t need to be adapted if the used bundle is\n- refactored, e.g. split into multiple bundles\n- another implementation of the same service interface is available at runtime than the one used at design-time. E.g. multi-site plugin requires an event broker providing an implementation of an event-broker API, but it doesn\u0027t care which implementation (kafka, pub-sub etc.) it finds at runtime.",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da160a88_a0703cdc",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "what is a dynamic plugin vs. a static plugin ?",
+      "range": {
+        "startLine": 121,
+        "startChar": 16,
+        "endLine": 121,
+        "endChar": 31
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f036afd0_0e70c581",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "is this similar to OSGi fragments which can add, typically optional, classes to their host bundle ? Note that OSGi fragments use their host bundle\u0027s class loader, i.e. they don\u0027t have a separate class loader. Classes in a fragment can depend on / use classes from their host bundle but not vice versa, since fragments can be optional.",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ce4f895_1ce5ae01",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "can\u0027t conflicts be avoided by ensuring each plugin uses a different package namespace ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0c3bc2d_bfc4e31c",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "I don\u0027t understand this sentence",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f58eb28_b37091c5",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "inherit in which sense ?",
+      "range": {
+        "startLine": 152,
+        "startChar": 54,
+        "endLine": 152,
+        "endChar": 61
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "380f162c_c21d6dd7",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "Does this mean public plugins expose all their classes/types ?\nIn OSGi a bundle declares in its manifest which packages are public, x-friend (public to a list of named other bundles) or private. Similarly in JPMS a module\ndeclares which classes are exposed to whom",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c84c3832_06147457",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "why isn\u0027t classloader hierarchy derived from declared plugin dependencies (RequirePlugin) ? If this is declared separately it seems this could lead to conflicting requirements from parent and dependency declarations.\n\nAFAIK in OSGi and JPMS dependencies of a bundle/module are declared to other bundles/modules/packages and the corresponding classloader hierarchy is deduced from these dependencies.",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dbb5ea8d_2bea524c",
         "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
         "patchSetId": 4
@@ -26,6 +505,63 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1e5375d5_e54d5912",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "how will other plugins know that a given plugin appeared/disappeared ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4701c419_59d0648e",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "it\u0027s pretty confusing to have an example with a depends-on plugin to illustrate how dependency management between Gerrit plugins could be implemented",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03351bab_06a8adde",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "use an example package name instead of ... ?",
+      "range": {
+        "startLine": 291,
+        "startChar": 10,
+        "endLine": 291,
+        "endChar": 16
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "20c6e374_18ed28cc",
         "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
         "patchSetId": 4
@@ -42,6 +578,80 @@
         "startChar": 68,
         "endLine": 326,
         "endChar": 77
+      },
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c07bb8b8_daef4317",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "It seems strange that the nature of a plugin is declared by adding annotations on some nested class.",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebdbf9ed_387285b4",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "can\u0027t this be deduced from class loader dependencies declared via parents or vice versa ?",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa50be4e_70463419",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 528,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "We always deploy plugins bundled in Gerrit core\u0027s war file to ensure the state we run is tracked in git and can be reproduced and are rather looking towards deploying multiple instances of Gerrit in different containers behind a load balancer to ensure availability.",
+      "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b7c08e6_58a7b2ae",
+        "filename": "pages/design-docs/inter-plugin-communication/solution-plugin-bundling.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 556,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T12:11:19Z",
+      "side": 1,
+      "message": "restricting what ?",
+      "range": {
+        "startLine": 556,
+        "startChar": 47,
+        "endLine": 556,
+        "endChar": 58
       },
       "revId": "18bb3f96a82671d1ef5d98f30d2ebfd0d6c0a951",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
