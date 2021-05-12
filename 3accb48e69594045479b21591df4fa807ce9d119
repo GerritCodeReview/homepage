@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1765a36b_102ae467",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T07:39:58Z",
+      "side": 1,
+      "message": "could you explicitly describe what are the missing features of the currently existing Gerrit plugin framework which are required to implement the use cases described above ?\n\ne.g.\n\n- plugin cannot use classes/interfaces of another plugin at compile-time\n- plugin cannot load classes/interfaces from another plugin at runtime\n- plugin framework does not provide generic mechanism for checking if all plugins needed by a given plugin to be started are available at runtime\n...",
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7767a4d2_73a19415",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T07:39:58Z",
+      "side": 1,
+      "message": "criteria for what ?",
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd07f7e5_3490eb75",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T07:39:58Z",
+      "side": 1,
+      "message": "I don\u0027t understand what\u0027s the purpose of the propagator plugin which wasn\u0027t mentioned above",
+      "range": {
+        "startLine": 147,
+        "startChar": 0,
+        "endLine": 148,
+        "endChar": 77
+      },
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47a6783d_70b03da3",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-12T07:39:58Z",
+      "side": 1,
+      "message": "I think the phases to consider are compilation/deployment/runtime",
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
