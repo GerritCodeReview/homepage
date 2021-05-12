@@ -18,6 +18,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "81752342_83487913",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-12T23:08:18Z",
+      "side": 1,
+      "message": "This continues to feel like a solution in search of a problem. Until this doc expresses a clear problem faced by the author and that the author wants solved, I\u0027m going to be opposed to it. I\u0027m happy to meet and discuss my concerns further if they\u0027re not clear.",
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4beb482a_9f96c70f",
@@ -31,6 +48,29 @@
       "writtenOn": "2021-05-12T23:07:03Z",
       "side": 1,
       "message": "What is the difference between the \"real life\" use-cases here and the use-cases defined at L25?",
+      "range": {
+        "startLine": 54,
+        "startChar": 3,
+        "endLine": 54,
+        "endChar": 22
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed5b0d05_66b6769e",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-12T23:08:18Z",
+      "side": 1,
+      "message": "I\u0027m confused by this section title. When do we ever try to solve \"not real\" use cases?\n\nI also can\u0027t obviously see how the below items are related to each other? Several seem to be closed bugs too, so which are the ones showing the problem you have now?",
       "range": {
         "startLine": 54,
         "startChar": 3,
