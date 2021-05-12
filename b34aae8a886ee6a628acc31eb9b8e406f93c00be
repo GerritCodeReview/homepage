@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4abfa9cb_1ed55072",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-12T23:07:03Z",
+      "side": 1,
+      "message": "Thanks @Marcin for adding the use-cases, however, I do believe they would need to be more verbose and explain the context, what you are expecting to happen and what would be the result and benefits of the use-case.",
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4beb482a_9f96c70f",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-12T23:07:03Z",
+      "side": 1,
+      "message": "What is the difference between the \"real life\" use-cases here and the use-cases defined at L25?",
+      "range": {
+        "startLine": 54,
+        "startChar": 3,
+        "endLine": 54,
+        "endChar": 22
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b356ce0_da0bd5d1",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-12T23:07:03Z",
+      "side": 1,
+      "message": "Those are issues we encountered in the past, not really the use-cases.\nCan you express the actual use-cases that you can deduct from those issues?",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 110
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c908fa5_eca8d12b",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-12T23:07:03Z",
+      "side": 1,
+      "message": "This is what happens today in the Java plugin: can you elaborate the use-case that you would like to implement?",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 13
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcce2a24_9e3346f7",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-12T23:07:03Z",
+      "side": 1,
+      "message": "Can you specify what would be the use-case in simple terms?\nHow that would be better than the current process?",
+      "range": {
+        "startLine": 71,
+        "startChar": 250,
+        "endLine": 72,
+        "endChar": 13
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
