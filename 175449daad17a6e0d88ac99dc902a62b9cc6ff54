@@ -160,6 +160,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "798c102b_844c2ab1",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "participate",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 9
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a315a43f_d8029e64",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "Can you clarify this a bit, where the replication lag is coming from exactly? Dave Borowitz explained us how multi-primary/pull replication works at googlesource.com:\n\n1. Client performs git push operation\n2. Europe data center is processing this transaction\n3. In the process, it asks other data centers to pull this SHA1\n4. Another data center, say US East Coast, should pull this SHA1\n\nSo, the problem is that #4 is done asynchronously?",
+      "range": {
+        "startLine": 14,
+        "startChar": 38,
+        "endLine": 16,
+        "endChar": 34
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3ca4d8eb_67072935",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -468,6 +514,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "91b3ea94_3a4753f5",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "It\u0027s not clear to me why it would be minutes, not to mention hours? The observation for Gerrit CI located in Canada, is that it\u0027s failing to fetch SHA1 that I pushed to data center located in the EU in ca. 25% of cases. We are talking about seconds here: re-triggering the build verification only few seconds later after the failure always solves the problem.",
+      "parentUuid": "b5c8e051_93ed6e12",
+      "range": {
+        "startLine": 26,
+        "startChar": 46,
+        "endLine": 26,
+        "endChar": 55
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "349aff7c_ec6bebcb",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -531,6 +601,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fce1900a_76125f8a",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "\u003e an inconsistent state that could lead to corrupt releases.\n\nI don\u0027t follow. If I don\u0027t have a SHA1 and the fetch operation is failing, I can\u0027t build. I will definitely not end up with corrupt release. In fact I will fail to produce any release, and that\u0027s a good thing.",
+      "parentUuid": "e1fbf0ca_0ed57111",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b3672f66_60380f8c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -554,6 +642,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "093f540f_a27e664d",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "\u003e What are the common replication lag symptoms?\n\nAnother data center is trying to fetch the SHA1 and is failing.",
+      "parentUuid": "b3672f66_60380f8c",
+      "range": {
+        "startLine": 35,
+        "startChar": 41,
+        "endLine": 35,
+        "endChar": 72
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2743a4e0_b8d59d41",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -565,6 +677,52 @@
       "writtenOn": "2021-04-29T15:58:44Z",
       "side": 1,
       "message": "There\u0027s no aim to improve Gerrit software for this use case?",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d7def4e5_0b7904c5",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "Failures are really good in this context: I want to fail ASAP. One thing I must avoid: produce broken final artifact. This statement is also a contradiction with statement on line 34:\n\n  \"Replication lag causes corrupt automated releases because it presents an inconsistent state to the automation client\"",
+      "range": {
+        "startLine": 52,
+        "startChar": 20,
+        "endLine": 52,
+        "endChar": 40
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c27eb98a_dd58ce68",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "How this sequence proposal is related to the issue with Gerrit CI, located in Canada that is failing to fetch SHA1 from the change that I pushed to data center located in the EU? If it wouldn\u0027t solve it, can you add a new section in this document to outline your suggestion how to address the Gerrit CI specific use case:\n\nProblem:\n\n* 1. install gerrit on googlesource.com with checks plugin\n* 2. have two data center: EU and US East Coast\n* 3. push a CL to EU data center (GEO location of the developer: Munich, Germany)\n* 4. checks plugins is reporting pending checks\n* 5. CI job is triggered and is trying to fetch the SHA1 for the pending check from the US East Coast data center (GEO location of the CI: Toronto, Canada)\n* 6. It will fail approximately in 25% of cases (with SHA1 unknown error).\n\nSolution: [...] (hopefully not wait and retry loop on the CI side?)",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 32
+      },
       "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -604,6 +762,52 @@
         "startChar": 18,
         "endLine": 66,
         "endChar": 32
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f30dbbe7_eb43993e",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "Is this the bottom line, of \"Consistency on Demand\" design document:\n\n  It\u0027s impossible to solve: \"Go and implement wait and retry loop on the CI side\".\n\n?\n\nGerrit CI is using checks plugin. Why the pending-checks REST endpoint: [1] in checks plugin is telling CI located in Canada, that there are some pending checks for specific change waiting to be built, but when the CI it\u0027s trying to fetch that SHA1 it\u0027s failing? See this efforts to synchronize gerrit primary/replica with ref-replicated event in Jenkins gerrit-trigger plugin: [2],[3],[4], to off-load clones to replicas. The CI would only try to fetch from the replicas if CI got ref-replicated event.\n\nIOW, couldn\u0027t we make pending-checks REST endpoint outcome a bit smarter, and only return pending checks for specific change waiting to be built, iff the SHA1 is already available (and if it is not available, just not report the pending checks for that change, but report it in next pending-checks POLL request round)? Wouldn\u0027t this be a trivial change in checks plugin, instead of telling Gerrit users: \"Go and implement wait and retry loop on the CI side\"?\n\n[1] https://gerrit.googlesource.com/plugins/checks/+/refs/heads/master/resources/Documentation/rest-api-pending-checks.md\n[2] https://gerrit-review.googlesource.com/c/plugins/replication/+/51200\n[3] https://gerrit-review.googlesource.com/c/plugins/replication/+/50920\n[4] https://github.com/jenkinsci/gerrit-trigger-plugin/commit/18afecf11282a66e6c1b94d387e6048d52a17735",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 65
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "325e3469_7af423d4",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-13T04:47:14Z",
+      "side": 1,
+      "message": "The failure is always due to replication lag. At least on gerrit-review. If I re-trigger the failed build job only seconds after the failure, it would always succeed.",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 46
       },
       "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
