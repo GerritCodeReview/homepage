@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f9d52f73_76586c3a",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-13T14:00:26Z",
+      "side": 1,
+      "message": "I agree this would be interesting to see summarized. Let me try to add it.",
+      "parentUuid": "1765a36b_102ae467",
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7767a4d2_73a19415",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 8
@@ -31,6 +49,24 @@
       "writtenOn": "2021-05-12T07:39:58Z",
       "side": 1,
       "message": "criteria for what ?",
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d59b421_8fcf47c4",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-13T14:00:26Z",
+      "side": 1,
+      "message": "For the solution. This is a standard use case doc section: https://gerrit.googlesource.com/gerrit/+/refs/heads/master/Documentation/dev-design-doc-use-cases-template.md",
+      "parentUuid": "7767a4d2_73a19415",
       "revId": "3accb48e69594045479b21591df4fa807ce9d119",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -60,6 +96,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "54659c79_dafbf3ed",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-13T14:00:26Z",
+      "side": 1,
+      "message": "It\u0027s an internal plugin we have that provides some behavior on top of cherry pick.\n\nIt\u0027s not part of the use case itself, which is why it only shows up in this \"Nice to haves\" section. I added it as another example of where cache sharing across plugins would be useful beyond the use case documented here.",
+      "parentUuid": "cd07f7e5_3490eb75",
+      "range": {
+        "startLine": 147,
+        "startChar": 0,
+        "endLine": 148,
+        "endChar": 77
+      },
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "47a6783d_70b03da3",
         "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
         "patchSetId": 8
@@ -71,6 +131,24 @@
       "writtenOn": "2021-05-12T07:39:58Z",
       "side": 1,
       "message": "I think the phases to consider are compilation/deployment/runtime",
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6fe10ee_7bdad06f",
+        "filename": "pages/design-docs/inter-plugin-communication/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-05-13T14:00:26Z",
+      "side": 1,
+      "message": "In general, yes. This \"Regular Plugin Development\" section was added to specifically address what was available during compilation.",
+      "parentUuid": "47a6783d_70b03da3",
       "revId": "3accb48e69594045479b21591df4fa807ce9d119",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
