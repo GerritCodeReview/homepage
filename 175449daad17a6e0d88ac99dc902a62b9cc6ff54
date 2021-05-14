@@ -619,6 +619,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "31872c49_97e4d94e",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-14T00:41:07Z",
+      "side": 1,
+      "message": "I believe Google uses the global-refdb like GerritHub.io, which allows to detect the inconsistencies and returning a \"lock-failure\" and avoiding to end up into a corrupted state.",
+      "parentUuid": "fce1900a_76125f8a",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b3672f66_60380f8c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -654,6 +672,30 @@
       "side": 1,
       "message": "\u003e What are the common replication lag symptoms?\n\nAnother data center is trying to fetch the SHA1 and is failing.",
       "parentUuid": "b3672f66_60380f8c",
+      "range": {
+        "startLine": 35,
+        "startChar": 41,
+        "endLine": 35,
+        "endChar": 72
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "258c0293_8390dc64",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-14T00:41:07Z",
+      "side": 1,
+      "message": "Some numbers on the % of incidence would be needed. Are we talking about a rare scenario or something that is happening on a regular basis?\n\nWhy the geo-based routing won\u0027t help here?\n\nOn GerritHub.io a replication lag isn\u0027t an issue because we assure a local site consistency: even if you see a \"picture of the past\" it is locally consistent and it will eventually catch-up.\n\nWe also measure the replication lag with a specific metric (plugins_multi_site_multi_site_subscriber_subscriber_replication_status_sec_behind) so that can be reported and alarmed on.",
+      "parentUuid": "093f540f_a27e664d",
       "range": {
         "startLine": 35,
         "startChar": 41,
