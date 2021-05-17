@@ -89,6 +89,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4dd3addc_6ea2a5e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-17T08:32:32Z",
+      "side": 1,
+      "message": "another update here: discussed with customers internally and it looks like we\u0027re going to try to solve a different problem with a different solution. Due to vacations I will not be very active, but if anyone wants a comment to any comment in this design, please ask me specifically.\n\nIf we go with the problem/solution we currently have in mind, I think a design doc is not necessary since it\u0027s just a small improvement: Every REST endpoint will have list of changed refs in the response header (this will let users call Gerrit less and be prone to replication lags less, so the problem in this design still exists but we\u0027re not really solving it).",
+      "parentUuid": "df24b22f_8394e103",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6f158ba4_9ac7114c",
