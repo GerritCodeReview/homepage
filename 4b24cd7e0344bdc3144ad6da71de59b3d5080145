@@ -381,6 +381,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "90806866_7a3d062d",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-05-17T14:10:40Z",
+      "side": 1,
+      "message": "I tested running this migration on a copy of the Eclipse All-Users repository.\nIt took 09:57min to migrate their 298609 accounts on my MacBook.",
+      "parentUuid": "e55405ee_488b3c9e",
+      "range": {
+        "startLine": 55,
+        "startChar": 67,
+        "endLine": 56,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0fdd4663_7ee1e20b",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 6
