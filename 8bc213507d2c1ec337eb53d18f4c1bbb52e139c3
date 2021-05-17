@@ -34,6 +34,23 @@
       "parentUuid": "490b130c_9fbb709b",
       "revId": "8bc213507d2c1ec337eb53d18f4c1bbb52e139c3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee6d338e_b1678d84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-17T15:03:38Z",
+      "side": 1,
+      "message": "Let\u0027s wait for the release to be finalised before merging this.",
+      "revId": "8bc213507d2c1ec337eb53d18f4c1bbb52e139c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
