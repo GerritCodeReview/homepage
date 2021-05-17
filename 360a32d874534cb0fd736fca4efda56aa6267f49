@@ -22,6 +22,30 @@
       },
       "revId": "360a32d874534cb0fd736fca4efda56aa6267f49",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "175b6682_217511eb",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 673,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-17T12:07:02Z",
+      "side": 1,
+      "message": "Or, alternatively we could do the same as on 3.1.15 release notes:\n\n3.2.10\n\n* [Issue 14553](https://crbug.com/gerrit/14553):\n  Gerrit REST-API fails when using /a/ prefix and cookies\n\n3.2.9\n\n[all the other fixes]",
+      "parentUuid": "b71f7032_d0ebd95e",
+      "range": {
+        "startLine": 658,
+        "startChar": 0,
+        "endLine": 673,
+        "endChar": 21
+      },
+      "revId": "360a32d874534cb0fd736fca4efda56aa6267f49",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
