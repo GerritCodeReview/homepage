@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e91c69ec_01948957",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-17T22:29:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "331c21f7_2a05b62e",
+      "range": {
+        "startLine": 89,
+        "startChar": 31,
+        "endLine": 89,
+        "endChar": 35
+      },
+      "revId": "b3bf7443c5e7c36f15098e9c0cf09a4e4793af14",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c2dffbad_13d470cc",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-05-14T14:11:18Z",
       "side": 1,
       "message": "Link to the documentation?",
+      "range": {
+        "startLine": 95,
+        "startChar": 2,
+        "endLine": 95,
+        "endChar": 39
+      },
+      "revId": "b3bf7443c5e7c36f15098e9c0cf09a4e4793af14",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8edf988_315ec10b",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-17T22:29:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2dffbad_13d470cc",
       "range": {
         "startLine": 95,
         "startChar": 2,
