@@ -16,6 +16,24 @@
       "message": "But I guess that we should wait for the release, right? ;)",
       "revId": "8bc213507d2c1ec337eb53d18f4c1bbb52e139c3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f4b0934_2553b1fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-17T11:59:20Z",
+      "side": 1,
+      "message": "Right! We are also waiting for this fix actually: change 306518.",
+      "parentUuid": "490b130c_9fbb709b",
+      "revId": "8bc213507d2c1ec337eb53d18f4c1bbb52e139c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
