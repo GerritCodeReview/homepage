@@ -260,6 +260,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7631ffd3_c96c6243",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-05-18T11:27:51Z",
+      "side": 1,
+      "message": "Marking it as resolved",
+      "parentUuid": "29c9931c_c1b9dc29",
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "64343d9a_66f58a17",
@@ -393,6 +411,30 @@
       "side": 1,
       "message": "I tested running this migration on a copy of the Eclipse All-Users repository.\nIt took 09:57min to migrate their 298609 accounts on my MacBook.",
       "parentUuid": "e55405ee_488b3c9e",
+      "range": {
+        "startLine": 55,
+        "startChar": 67,
+        "endLine": 56,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6863e336_f52e6fc2",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-05-18T11:27:51Z",
+      "side": 1,
+      "message": "I started playing around with the online migration a bit. Doing the data migration online is not a big issue, since it is just the creation of a single commit. This commit has to be done in concert with the configuration change. IMHO opinion that does not have to be atomic, since having a few requests fail in the milliseconds that takes during this one-time event should be alright. However, teh configuration would have to be reloaded while online. However, the AuthConfig object used to get the configuration, is not yet reloaded with the GerritServerConfig. This would have to be implemented beforehand. Unfortunately, I lack the time to do that soon.",
+      "parentUuid": "90806866_7a3d062d",
       "range": {
         "startLine": 55,
         "startChar": 67,

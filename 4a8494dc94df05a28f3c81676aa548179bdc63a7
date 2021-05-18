@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "767f3b43_c853a863",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-05-18T11:27:51Z",
+      "side": 1,
+      "message": "This is what davido suggested to do. Let us bring the discussion from the change to the design doc. Considering the pros and cons WDYT?",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 73
+      },
+      "revId": "4a8494dc94df05a28f3c81676aa548179bdc63a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
