@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb347735_1023f500",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-19T12:13:35Z",
+      "side": 1,
+      "message": "Thanks.",
+      "revId": "4fc9dab71301e433cc9af4cdbfed42042135b268",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb91aa82_31e2de74",
+        "filename": "pages/site/support.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2021-05-19T12:13:35Z",
+      "side": 1,
+      "message": "Not related to this change, but when change 306703 is merged, we should extend this exception and mention that PolyGerrit verification is deactivated.",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 178
+      },
+      "revId": "4fc9dab71301e433cc9af4cdbfed42042135b268",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
