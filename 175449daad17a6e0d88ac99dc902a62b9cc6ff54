@@ -655,6 +655,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "100b2645_c4a48d7c",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-05-19T15:39:53Z",
+      "side": 1,
+      "message": "the problem is not Gerrit getting into a corrupted state, but the customer creating  a broken build.\n\nFor example, if you have a script that does\n \n    1 create bugfix change for branch stable-3.4\n    2 submit bugfix change\n    3 build release from branch stable-3.4 \n\nif step 3 doesn\u0027t observe the result of step 2, you\u0027ll build a release that doesn\u0027t have the bugfix.",
+      "parentUuid": "31872c49_97e4d94e",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b3672f66_60380f8c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -726,6 +744,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b83f5888_dd1be423",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-05-19T15:39:53Z",
+      "side": 1,
+      "message": "\u003e Are we talking about a rare scenario or something that is happening on a regular basis?\n\nit\u0027s a rare scenario, but for a reliable release, you want to be sure it never happens.\n\n\u003e Why the geo-based routing won\u0027t help here?\n\nDue to datacenter (un)availability and overload, geo-routing might still route you away from your \u0027favorite\u0027 cell.",
+      "parentUuid": "258c0293_8390dc64",
+      "range": {
+        "startLine": 35,
+        "startChar": 41,
+        "endLine": 35,
+        "endChar": 72
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2743a4e0_b8d59d41",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
@@ -777,6 +819,30 @@
       "writtenOn": "2021-05-13T04:47:14Z",
       "side": 1,
       "message": "How this sequence proposal is related to the issue with Gerrit CI, located in Canada that is failing to fetch SHA1 from the change that I pushed to data center located in the EU? If it wouldn\u0027t solve it, can you add a new section in this document to outline your suggestion how to address the Gerrit CI specific use case:\n\nProblem:\n\n* 1. install gerrit on googlesource.com with checks plugin\n* 2. have two data center: EU and US East Coast\n* 3. push a CL to EU data center (GEO location of the developer: Munich, Germany)\n* 4. checks plugins is reporting pending checks\n* 5. CI job is triggered and is trying to fetch the SHA1 for the pending check from the US East Coast data center (GEO location of the CI: Toronto, Canada)\n* 6. It will fail approximately in 25% of cases (with SHA1 unknown error).\n\nSolution: [...] (hopefully not wait and retry loop on the CI side?)",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 32
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb57c695_ee52188f",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-05-19T15:39:53Z",
+      "side": 1,
+      "message": "this proposal is unrelated to the Gerrit CI problems. The Gerrit CI script should download changes using a refs/changes/xx/xxxx/y ref, and wait and retry if it doesn\u0027t exist.",
+      "parentUuid": "c27eb98a_dd58ce68",
       "range": {
         "startLine": 54,
         "startChar": 0,
