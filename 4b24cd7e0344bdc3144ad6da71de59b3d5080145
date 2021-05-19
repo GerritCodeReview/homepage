@@ -471,6 +471,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "424553a2_601cba76",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-05-19T06:15:54Z",
+      "side": 1,
+      "message": "I haven\u0027t. The Gerrit instances in the HA-setup share their repositories on the filesystem, correct? In that case, it would not work without downtime, since the migration is essentially a commit in All-Users.git and a config change, which is required to adapt to it. Thus, I see the following issues:\n- What happens, if an external ID that has to be migrated is created during the migration? Repeating migration cycles also migrating the IDs that were created in the meantime would help. Or the block of creating new accounts for the duration of the migration. Since account creation is a relatively rare event, this should not disrupt too many users, since the migration does not take very long.\n- When the migrated external ID note IDs are committed, the users with migrated accounts will only be able to authenticate after the configuration was changed. This would cause a downtime for those users for the duration, the updated node starts and the outdated node shuts down. Depending on how many usernames contain uppercase letters, this might be a larger or smaller disruption.",
+      "parentUuid": "18470fe7_7e944f4a",
+      "range": {
+        "startLine": 55,
+        "startChar": 67,
+        "endLine": 56,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0fdd4663_7ee1e20b",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 6
