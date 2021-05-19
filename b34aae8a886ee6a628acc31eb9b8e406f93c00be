@@ -130,6 +130,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "10924a79_1e0009b5",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-19T01:07:24Z",
+      "side": 1,
+      "message": "I agree, but that should be explicitly stated.\nAlso, I believe the intention is to avoid to let other people to interpret the contract with the events and having to write manually all the marshaller/unmarshaller, which would be error-prune.\n\n@Marcin if our thoughts are correct, can you state them explicitly here?",
+      "parentUuid": "ee1949a0_a576a341",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 110
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b8c4f2ba_6c86f31e",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 5
