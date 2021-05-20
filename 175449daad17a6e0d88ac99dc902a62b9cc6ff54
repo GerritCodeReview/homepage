@@ -691,6 +691,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b393337d_7b6c0763",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-05-20T09:06:20Z",
+      "side": 1,
+      "message": "\u003e \"build release from branch stable-3.4 *ONLY IF* that has the bugfix at point 2\"\n\ncorrect.",
+      "parentUuid": "ca4c98b0_770742e0",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b3672f66_60380f8c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
