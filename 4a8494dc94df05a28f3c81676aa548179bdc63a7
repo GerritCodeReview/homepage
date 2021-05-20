@@ -46,6 +46,30 @@
       },
       "revId": "4a8494dc94df05a28f3c81676aa548179bdc63a7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9322e16a_5e55012f",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-05-20T11:13:33Z",
+      "side": 1,
+      "message": "I am only aware of SimpleSamlPHP to be case sensitive, since I used it for some testing recently. However, I am certainly no expert in authentication systems and do not know a lot of them.\nA survey might be a solution. It would also provide some additional feedback on this feature.",
+      "parentUuid": "2cfd7700_09ec0885",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 73
+      },
+      "revId": "4a8494dc94df05a28f3c81676aa548179bdc63a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

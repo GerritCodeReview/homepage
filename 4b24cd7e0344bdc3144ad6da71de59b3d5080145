@@ -519,6 +519,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1cf66bc4_87101f1e",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-05-20T11:13:33Z",
+      "side": 1,
+      "message": "Invalidating their session would not recreate the external ID note and thus adapt the sha-sum used for the note ID, which would have to be migrated.\nThe issue here is, that there is a timeframe where the data (External ID notes in notedb) and the configuration (`auth.userNameCaseInsensitive`) are not in sync. This is because one (offline) node already migrated the data, while the online node still has `auth.userNameCaseInsensitive\u003dfalse`. If during that time a user wants to authenticate, Gerrit will complain, that the external ID has the wrong SHA-sum or does not exist at all and will throw an error. This is resolved, when all nodes have `auth.userNameCaseInsensitive\u003dtrue` applied after the data was migrated. This would currently require a restart for the configuration to take effect.",
+      "parentUuid": "66ae5b18_c091edb5",
+      "range": {
+        "startLine": 55,
+        "startChar": 67,
+        "endLine": 56,
+        "endChar": 37
+      },
+      "revId": "4b24cd7e0344bdc3144ad6da71de59b3d5080145",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0fdd4663_7ee1e20b",
         "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
         "patchSetId": 6
