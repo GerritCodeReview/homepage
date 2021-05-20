@@ -709,6 +709,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "11b36228_b9adfb5c",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-20T11:09:55Z",
+      "side": 1,
+      "message": "+1 that is very useful.\n\nShould then \"corrupt releases\" be changed to \"incomplete releases, because they may have missed not yet replicated commits\"?\n\nWDYT?",
+      "parentUuid": "b393337d_7b6c0763",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b3672f66_60380f8c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
