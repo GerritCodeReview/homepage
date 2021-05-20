@@ -673,6 +673,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ca4c98b0_770742e0",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-20T00:11:49Z",
+      "side": 1,
+      "message": "Gotcha, so basically with a consistency on demand field you would say in 3:\n\"build release from branch stable-3.4 *ONLY IF* that has the bugfix at point 2\"\n\nIs that correct?\n\nI believe it is a good idea.",
+      "parentUuid": "100b2645_c4a48d7c",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b3672f66_60380f8c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
