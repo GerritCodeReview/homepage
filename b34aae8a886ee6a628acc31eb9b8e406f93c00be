@@ -81,6 +81,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "48a56ff7_e0c6baaf",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-21T11:42:25Z",
+      "side": 1,
+      "message": "real life were a real issues which could be solved with the proposal. But I agree it was misleading that\u0027s why I combined that with Use-cases",
+      "parentUuid": "4beb482a_9f96c70f",
+      "range": {
+        "startLine": 54,
+        "startChar": 3,
+        "endLine": 54,
+        "endChar": 22
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00a002d0_f76c2b8b",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-21T11:42:25Z",
+      "side": 1,
+      "message": "I moved the examples to the use-cases section. Now it should be more clear which example belongs to which use case",
+      "parentUuid": "ed5b0d05_66b6769e",
+      "range": {
+        "startLine": 54,
+        "startChar": 3,
+        "endLine": 54,
+        "endChar": 22
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4b356ce0_da0bd5d1",
@@ -152,6 +200,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ea1364f_3958b0aa",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-21T11:42:25Z",
+      "side": 1,
+      "message": "Exactly that was my intention. I moved examples into the use-cases section and added comments what is the current problem and how I would like to address it",
+      "parentUuid": "10924a79_1e0009b5",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 110
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b8c4f2ba_6c86f31e",
@@ -165,6 +237,30 @@
       "writtenOn": "2021-05-18T09:45:33Z",
       "side": 1,
       "message": "it\u0027s unfortunate that something broke here, but the change has nothing to do with events?",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 106
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5416dc17_f447eaeb",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-21T11:42:25Z",
+      "side": 1,
+      "message": "This example covers similar situation as the previous one so there is no point to keep it but it was related. This design doc is not just about the stream events but general serialisation/deserialisation of events. We had issue with deserialising of the REST json payload which was a serialised event.",
+      "parentUuid": "b8c4f2ba_6c86f31e",
       "range": {
         "startLine": 60,
         "startChar": 0,
@@ -200,6 +296,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5b63fc06_dfc47ee5",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-21T11:42:25Z",
+      "side": 1,
+      "message": "The issue here was different. Because we have custom deserialisation code the use case with \u0027/\u0027 in the project name was not handled properly which cause a P1 issue. This could be avoided with having a common serialisation/deserialisation mechanism",
+      "parentUuid": "7f3bcc52_9a031d3b",
+      "range": {
+        "startLine": 64,
+        "startChar": 123,
+        "endLine": 64,
+        "endChar": 128
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0c908fa5_eca8d12b",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 5
@@ -211,6 +331,30 @@
       "writtenOn": "2021-05-12T23:07:03Z",
       "side": 1,
       "message": "This is what happens today in the Java plugin: can you elaborate the use-case that you would like to implement?",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 13
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4deee75_7c7b6cd3",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-21T11:42:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c908fa5_eca8d12b",
       "range": {
         "startLine": 67,
         "startChar": 0,
@@ -234,6 +378,30 @@
       "writtenOn": "2021-05-12T23:07:03Z",
       "side": 1,
       "message": "Can you specify what would be the use-case in simple terms?\nHow that would be better than the current process?",
+      "range": {
+        "startLine": 71,
+        "startChar": 250,
+        "endLine": 72,
+        "endChar": 13
+      },
+      "revId": "b34aae8a886ee6a628acc31eb9b8e406f93c00be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f96f645f_ca703765",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-21T11:42:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fcce2a24_9e3346f7",
       "range": {
         "startLine": 71,
         "startChar": 250,
