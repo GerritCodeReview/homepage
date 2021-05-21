@@ -18,7 +18,7 @@ create a change and select the ESC members as reviewers. Don’t use this channe
 wishes you want someone else of the community to work on!
 
 If someone would like to be involved when a specific topic is tackled, please
-[reach out to the ESC](https://gerrit-documentation.storage.googleapis.com/Documentation/3.1.0/dev-roles.html#steering-committee-member).
+[reach out to the ESC](https://gerrit-documentation.storage.googleapis.com/Documentation/3.4.0/dev-roles.html#steering-committee-member).
 
 ## Gerrit 3.4
 Target: Q2 2021

@@ -15,10 +15,16 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.3](/3.3.html)**. The support status of all recent Gerrit versions is
+Latest release: **[3.4](/3.4.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
-## 3.4.0 (in development)
+## 3.4.0
+
+* Checks UI
+
+* Unresolved Comments ported to latest patchset
+
+* JCraft JSch client library is disabled per default
 
 [Release notes for Gerrit 3.4.0](/3.4.html)
 
@@ -40,7 +46,7 @@ Latest release: **[3.3](/3.3.html)**. The support status of all recent Gerrit ve
 
 [Release notes for Gerrit 3.2](/3.2.html)
 
-## 3.1
+## 3.1 (EOL)
 
 * Support for git protocol V2
 
