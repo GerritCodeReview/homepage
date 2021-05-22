@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7428ae08_2107501a",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-22T01:12:52Z",
+      "side": 1,
+      "message": "I believe what Marcin means is: \"without contract verification, we are always scared of making *any* change, including the ones that could be potentially be allowed and wouldn\u0027t break compatibility\".\n\n@Marcin did I get your thinking on that?",
+      "parentUuid": "b0094df4_bb94e677",
+      "range": {
+        "startLine": 14,
+        "startChar": 70,
+        "endLine": 15,
+        "endChar": 81
+      },
+      "revId": "9efe3648e7bb06300a196a827526ba4201dcd9ad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c8607b57_79417ddb",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 3
