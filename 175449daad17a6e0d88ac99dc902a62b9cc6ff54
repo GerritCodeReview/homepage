@@ -745,6 +745,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "61941398_a37b6be8",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-05-22T00:58:22Z",
+      "side": 1,
+      "message": "Gotcha, can this be included in the use-case? The scenario when a release contains multiple repositories that can be potentially coming from different nodes, some of them potentially behind.",
+      "parentUuid": "b0373c78_03787860",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b3672f66_60380f8c",
         "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
         "patchSetId": 4
