@@ -89,6 +89,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "78a7acb3_f559a60b",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-24T20:37:07Z",
+      "side": 1,
+      "message": "If we take this example {project,ref} renaming project to projectName   {projectName,ref} should not break the downstream system. Also changing the type, adding new field or making project field part of the subtype",
+      "parentUuid": "50688959_3cc82413",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 55
+      },
+      "revId": "dc5d4462d8d2c58cce8b09595d4541576b8f44a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8dd313b0_43763e02",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 6
@@ -100,6 +124,30 @@
       "writtenOn": "2021-05-22T01:12:52Z",
       "side": 1,
       "message": "By reading the description, I would call this use-case as \"automatic code-generator\" for the marshaller.",
+      "range": {
+        "startLine": 63,
+        "startChar": 3,
+        "endLine": 63,
+        "endChar": 31
+      },
+      "revId": "dc5d4462d8d2c58cce8b09595d4541576b8f44a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23344cf2_f671ad3f",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-24T20:37:07Z",
+      "side": 1,
+      "message": "They are quite similar I wanted to point out that we have two use-cases for code generation. One internal and one for third party code. I will merge them both",
+      "parentUuid": "8dd313b0_43763e02",
       "range": {
         "startLine": 63,
         "startChar": 3,
@@ -123,6 +171,30 @@
       "writtenOn": "2021-05-22T01:12:52Z",
       "side": 1,
       "message": "This looks the same as 3.",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 28
+      },
+      "revId": "dc5d4462d8d2c58cce8b09595d4541576b8f44a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a54b3baf_0a90c7f1",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-24T20:37:07Z",
+      "side": 1,
+      "message": "Same as above. I will merge them both",
+      "parentUuid": "8c50fd9c_deb914ee",
       "range": {
         "startLine": 72,
         "startChar": 0,

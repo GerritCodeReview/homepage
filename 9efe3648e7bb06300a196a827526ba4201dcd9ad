@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e200727a_ec397474",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2021-05-24T20:37:07Z",
+      "side": 1,
+      "message": "@Luca exactly! Having a clear contract and clear rules how we can evolve schema(event if they bring some limitations as long as they are well documented) allows us to do modification with confidence that we would not break other parts of the system. Without those rules and contract verification we are never sure if we not break something. For Gerrit Core itself it can be verified during the build but the problem is how to verify third party code or compatibility between versions",
+      "parentUuid": "7428ae08_2107501a",
+      "range": {
+        "startLine": 14,
+        "startChar": 70,
+        "endLine": 15,
+        "endChar": 81
+      },
+      "revId": "9efe3648e7bb06300a196a827526ba4201dcd9ad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c8607b57_79417ddb",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 3
