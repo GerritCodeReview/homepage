@@ -13,13 +13,19 @@ and focus on the health of the community. For details about the role of
 community managers, refer to the
 [description here](https://gerrit-review.googlesource.com/Documentation/dev-roles.html#community-manager).
 
-Community Managers for the 2020 term are:
+Community Managers for the 2021-2022 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
 | Edwin Kempin          | Google                 |
-| Marco Miller          | Ericsson               |
 | Matthias Sohn         | SAP                    |
+| Nasser Grainawi       | Qualcomm               |
+
+### Former community managers
+
+| Name                  | Affiliation            |
+|-----------------------|------------------------|
+| Marco Miller          | Ericsson               |
 
 ## Engineering Steering Committee
 
@@ -27,15 +33,23 @@ The Gerrit project has an Engineering Steering Committee (ESC) that
 governs the project. For details about the role of the ESC, refer to the
 [description here](https://gerrit-review.googlesource.com/Documentation/dev-processes.html#steering-committee).
 
-Members of the ESC for the 2020 term are:
+Members of the ESC for the 2021-2022 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
-| Ben Rohlfs            | Google                 |
+| Albert Cui            | Google                 |
 | Han-Wen Nienhuys      | Google                 |
 | Luca Milanesio        | GerritForge            |
 | Patrick Hiesel        | Google                 |
 | Saša Živkov           | SAP                    |
+
+### Former ESC members
+
+| Name                  | Affiliation                            |
+|-----------------------|----------------------------------------|
+| Alice Kober-Sotzek    | Google                                 |
+| Ben Rohlfs            | Google                                 |
+| David Pursehouse      | Independent (formerly Sony, CollabNet) |
 
 ## Maintainers
 
@@ -68,7 +82,7 @@ Current maintainers are:
 | Saša Živkov           | SAP                                     |
 | Sven Selberg          | Axis                                    |
 
-## Former maintainers
+### Former maintainers
 
 | Name                  | Affiliation                |
 |-----------------------|----------------------------|
