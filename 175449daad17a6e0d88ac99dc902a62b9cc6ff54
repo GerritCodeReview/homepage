@@ -107,6 +107,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d3ae9db_c21054a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "Created this change:\nhttps://gerrit-review.googlesource.com/c/gerrit/+/308167\n\nThis relatively simple change doesn\u0027t require a design review IMO, and it comes instead of this entire design.\n\nI\u0027m answering a few comments here and then abandoning this design, since it\u0027s no longer needed for us and we will not pursue to implement it now. It\u0027s possible that later on it will be still be relevant, so we\u0027ll just restore that design at that point. I can answer to the rest of the comments at that point, but if there is anything specific you\u0027d like me to comment, please let me know.",
+      "parentUuid": "4dd3addc_6ea2a5e0",
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6f158ba4_9ac7114c",
@@ -153,6 +171,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "565b1efc_834a3bdd",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "based on reading the plugin documentation, it looks like what I said here is mostly correct about that plugin as well as Google\u0027s. I\u0027ll replace \"odd\" with \"multiple\" since I see that the multi-site plugin can have 2 instances as well.",
+      "parentUuid": "62cd5cd9_a92bd849",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 21
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "492dcca2_2350a609",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f158ba4_9ac7114c",
+      "range": {
+        "startLine": 11,
+        "startChar": 3,
+        "endLine": 11,
+        "endChar": 15
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8d99d4f6_ebebf2dc",
@@ -166,6 +232,30 @@
       "writtenOn": "2021-04-29T15:58:44Z",
       "side": 1,
       "message": "created?",
+      "range": {
+        "startLine": 13,
+        "startChar": 7,
+        "endLine": 13,
+        "endChar": 15
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "778be174_39d67775",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8d99d4f6_ebebf2dc",
       "range": {
         "startLine": 13,
         "startChar": 7,
@@ -199,6 +289,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0c8aec3_30c37f2a",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "798c102b_844c2ab1",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 9
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a315a43f_d8029e64",
@@ -212,6 +326,30 @@
       "writtenOn": "2021-05-13T04:47:14Z",
       "side": 1,
       "message": "Can you clarify this a bit, where the replication lag is coming from exactly? Dave Borowitz explained us how multi-primary/pull replication works at googlesource.com:\n\n1. Client performs git push operation\n2. Europe data center is processing this transaction\n3. In the process, it asks other data centers to pull this SHA1\n4. Another data center, say US East Coast, should pull this SHA1\n\nSo, the problem is that #4 is done asynchronously?",
+      "range": {
+        "startLine": 14,
+        "startChar": 38,
+        "endLine": 16,
+        "endChar": 34
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1e064ae_0d39f34b",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "1. Client performs git push operation. ref has SHA-1 \u0027A\u0027.\n2. Europe data center is processing this transaction\n3. ref now has SHA-1 \u0027B\u0027 in Europe. Replication starts happening and should get to all other cells (e.g US).\n4. US gets asked for the ref, but US still thinks the ref SHA-1 is \u0027A\u0027.\n5. a few seconds later the SHA-1 gets updated to \u0027B\u0027 - too late.\n\nI hope this makes sense :-)",
+      "parentUuid": "a315a43f_d8029e64",
       "range": {
         "startLine": 14,
         "startChar": 38,
@@ -483,6 +621,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8053b59b_5d374e97",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "272d47fd_f551ce89",
+      "range": {
+        "startLine": 25,
+        "startChar": 59,
+        "endLine": 25,
+        "endChar": 71
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d1ea865c_d23351e2",
@@ -577,6 +739,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1575929_4e2b7f87",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "349aff7c_ec6bebcb",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 33
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "330394d8_b121c537",
@@ -590,6 +776,30 @@
       "writtenOn": "2021-04-28T09:34:24Z",
       "side": 1,
       "message": "may be\n\nnon-existent or nonexistent",
+      "range": {
+        "startLine": 29,
+        "startChar": 14,
+        "endLine": 29,
+        "endChar": 17
+      },
+      "revId": "175449daad17a6e0d88ac99dc902a62b9cc6ff54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9df87cd4_3fafdda4",
+        "filename": "pages/design-docs/consistency-on-demand/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1085183
+      },
+      "writtenOn": "2021-05-31T13:06:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "330394d8_b121c537",
       "range": {
         "startLine": 29,
         "startChar": 14,
