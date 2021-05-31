@@ -3,6 +3,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0cafbefc_0678c1ea",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-05-31T15:59:38Z",
+      "side": 1,
+      "message": "I don\u0027t understand. Didn\u0027t this change break all consumers of the StreamEvents in single-node setups as well? What does this have to do with multiple-primary  setup?",
+      "range": {
+        "startLine": 33,
+        "startChar": 82,
+        "endLine": 34,
+        "endChar": 84
+      },
+      "revId": "2683f2679962a24184463b565f42baf7410c22ef",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bf55ce6_610966b4",
+        "filename": "pages/design-docs/events-compatibility/use-cases.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-05-31T15:59:38Z",
+      "side": 1,
+      "message": "it took me a while to digest this. I think what you\u0027re saying is:\n\nGerrit only has code for serializing to JSON; clients have to implement deserialization by themselves, which is error-prone.\n\ndid I get that right?",
+      "range": {
+        "startLine": 53,
+        "startChar": 88,
+        "endLine": 53,
+        "endChar": 145
+      },
+      "revId": "2683f2679962a24184463b565f42baf7410c22ef",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e733295c_ff311946",
         "filename": "pages/design-docs/events-compatibility/use-cases.md",
         "patchSetId": 7
