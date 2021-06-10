@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0aa56ae0_5a4c583b",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-06-10T07:54:58Z",
+      "side": 1,
+      "message": "This can be put side-by-side at L126",
+      "range": {
+        "startLine": 137,
+        "startChar": 10,
+        "endLine": 137,
+        "endChar": 55
+      },
+      "revId": "5cfa1cc74f2244cb4fa71445f2917e0d4836fc9a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc486909_afde6822",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-06-10T07:54:58Z",
+      "side": 1,
+      "message": "Can you just add this statement at L125, where we already mention that weak algorithm are disabled by default?",
+      "range": {
+        "startLine": 136,
+        "startChar": 68,
+        "endLine": 137,
+        "endChar": 4
+      },
+      "revId": "5cfa1cc74f2244cb4fa71445f2917e0d4836fc9a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08b36af6_5c9c5393",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-06-10T07:54:58Z",
+      "side": 1,
+      "message": "Move this to a Gerrit 3.4.1 (in development) section.",
+      "range": {
+        "startLine": 139,
+        "startChar": 0,
+        "endLine": 140,
+        "endChar": 61
+      },
+      "revId": "5cfa1cc74f2244cb4fa71445f2917e0d4836fc9a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
