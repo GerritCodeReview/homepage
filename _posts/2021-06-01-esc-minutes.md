@@ -48,8 +48,8 @@ validation active for the stable-2.16 branch. However, that is not sustainable
 in the longer term because of the burden of supporting deprecated and obsolete
 machinery.
 
-The ESC consensus is that the community support for Gerrit v2.16 will end when
-v3.5 is released. Existing v2.x users can continue to use the published
+The ESC consensus is that the special [EOL status of Gerrit v2.16](2020-04-22-gerrit-3.2-release-plan.html#end-of-life-for-gerrit-216x.html)
+will end when v3.5 is released. Existing v2.x users can continue to use the published
 artifacts and the associated plugins on the [GerritForge's archive](https://archive-ci.gerritforge.com).
 
 The move is going to be largely publicised on the mailing list so that all
