@@ -21,6 +21,14 @@ Please add new presentations at the top of this list.
 
 ---
 
+**[2021-06-10] Virtual Contributor Summit 2021**
+
+The Gerrit community had a virtual 2-days event with various talks and
+discussions. The presentation slides and notes are available from the
+[agenda](https://docs.google.com/document/d/1BOc17jyCXZYHb8seWSgdMOAh6_XeGoHDVCaJ10OTM20).
+
+---
+
 **[2020-11-20] Virtual Contributor Summit 2020**
 
 The Gerrit community had a virtual 2-days event with various talks and
