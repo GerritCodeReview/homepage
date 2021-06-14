@@ -36,6 +36,32 @@ Please add new kudos at the top of this list.
 
 ---
 
+**[2021-06-14] To: Ben Rohlfs (Google), Delphine Carlson (Google), Dhruv Srivastava (Google), Gal Paikin (Google), Han-Wen Nienhuys (Google), Kaushik Lingarkar (Qualcomm), Luca Milanesio (GerritForge), Marija Savtchouk (Google), Matthias Sohn (SAP), Milutin Kristofic (Google), Saša Živkov (SAP), Youssef Elghareeb (Google)**
+```
+Thank you for taking time to prepare and do a talk at the virtual Gerrit
+Contributor Summit [1]. For the Gerrit community it's very important to share
+knowledge and experiences. Doing a talk fosters the community collaboration and
+allows us all to learn from each other.
+```
+
+[1] <https://docs.google.com/document/d/1BOc17jyCXZYHb8seWSgdMOAh6_XeGoHDVCaJ10OTM20>
+
+From: Edwin Kempin (Google)
+
+---
+
+**[2021-06-14] To: Matthias Sohn (SAP)**
+```
+Thank you Matthias for co-organizing the virtual Gerrit Contributor Summit [1]
+together with me.
+```
+
+[1] <https://docs.google.com/document/d/1BOc17jyCXZYHb8seWSgdMOAh6_XeGoHDVCaJ10OTM20>
+
+From: Edwin Kempin (Google)
+
+---
+
 **[2021-04-23] To: David Ostrovsky**
 ```
 Thanks for fixing the standalone build of the PolyGerrit plugins
