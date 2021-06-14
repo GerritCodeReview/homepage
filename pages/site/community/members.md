@@ -81,6 +81,7 @@ Current maintainers are:
 | Patrick Hiesel        | Google                                  |
 | Saša Živkov           | SAP                                     |
 | Sven Selberg          | Axis                                    |
+| Youssef Elghareeb     | Google                                  |
 
 ### Former maintainers
 
