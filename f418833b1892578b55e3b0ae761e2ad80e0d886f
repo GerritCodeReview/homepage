@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f30d36e0_48fc50a4",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1491,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-06-30T10:23:57Z",
+      "side": 1,
+      "message": "the following bugs are mentioned in the log since v3.4.0 but are not listed here:\n\nBug: Issue 14577\nChange-Id: I55e3f32761f0eb484c3b8c3799fd0a6568976017\n\nBug: Issue 14639\nChange-Id: I9332c9a665144c0956e2d5e5675313aebef352f1\n\nBug: Issue 14646\nChange-Id: Ic49bfe5a5919474aba8859f3a843e5a39c6a2794\n\nBug: Issue 14649\nChange-Id: I325f3908b1fce0cd757dd6814081fc8c45330d19\n\nBug: Issue 14668\nChange-Id: I64b2cba238442993a7051a1ea1226d8388e1ac43",
+      "revId": "f418833b1892578b55e3b0ae761e2ad80e0d886f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b90f6cf_824d3031",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1493,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-06-30T10:23:57Z",
+      "side": 1,
+      "message": "this needs another update of jgit, pushed an update to the tip of stable-5.12: https://gerrit-review.googlesource.com/c/gerrit/+/310764",
+      "revId": "f418833b1892578b55e3b0ae761e2ad80e0d886f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
