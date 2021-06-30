@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e286ad40_cee6f354",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-06-30T07:26:55Z",
+      "side": 1,
+      "message": "Bug",
+      "range": {
+        "startLine": 515,
+        "startChar": 2,
+        "endLine": 515,
+        "endChar": 5
+      },
+      "revId": "b98e7853c69bbdf04dac29313847fa3215130bc8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a01e944a_d24e0e97",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-06-30T07:26:55Z",
+      "side": 1,
+      "message": "2 fixes merged up from 2.14:\n\n* 7a8b421f0b - (origin/stable-2.14) Fix to not throw NPE while accessing draft refs (5 weeks ago)\u003cPrudhvi Akhil Alahari\u003e\n* 4f04fab5e7 - EqualsLabelPredicate: Fix bug that prevents matching owner votes (5 weeks ago)\u003cPrudhvi Akhil Alahari\u003e",
+      "revId": "b98e7853c69bbdf04dac29313847fa3215130bc8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd12d359_9200f69e",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 560,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-06-30T07:26:55Z",
+      "side": 1,
+      "message": "5c8b686571 - Update highlightjs version to 10.7.2 (7 days ago)\u003cPaladox none\u003e",
+      "revId": "b98e7853c69bbdf04dac29313847fa3215130bc8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
