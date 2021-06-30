@@ -33,6 +33,24 @@
       "message": "this needs another update of jgit, pushed an update to the tip of stable-5.12: https://gerrit-review.googlesource.com/c/gerrit/+/310764",
       "revId": "f418833b1892578b55e3b0ae761e2ad80e0d886f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "818c724e_82ff2382",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1493,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-06-30T11:13:43Z",
+      "side": 1,
+      "message": "submitted this jgit update\n\nnoteworthy improvements for gerrit in this jgit update:\n\nthese two improve performance from O(nˆ2) to O(n):\n- 8bc166b00 BatchRefUpdate: Skip saving conflicting ref names and\n            prefixes in memory\n- 303dd019d Optimize RefDirectory.isNameConflicting()\n\nthis fix reduces number of open file handles jgit needs in all scenarios where lock files are created (e.g. ref updates):\n- 003862722 LockFile: create OutputStream only when needed",
+      "parentUuid": "9b90f6cf_824d3031",
+      "revId": "f418833b1892578b55e3b0ae761e2ad80e0d886f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
