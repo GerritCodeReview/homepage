@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a66c39f4_8ba290da",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 616,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-06-30T07:21:13Z",
+      "side": 1,
+      "message": "Bug :-)",
+      "range": {
+        "startLine": 616,
+        "startChar": 2,
+        "endLine": 616,
+        "endChar": 5
+      },
+      "revId": "30d60f1f58d19e13349bdfd8514dc93c3c5761f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01a07dc1_166b33c4",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 648,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-06-30T07:21:13Z",
+      "side": 1,
+      "message": "what about these 2 fixes merged up from stable-2.14:\n\n* 7a8b421f0b - (origin/stable-2.14) Fix to not throw NPE while accessing draft refs (5 weeks ago)\u003cPrudhvi Akhil Alahari\u003e\n* 4f04fab5e7 - EqualsLabelPredicate: Fix bug that prevents matching owner votes (5 weeks ago)\u003cPrudhvi Akhil Alahari\u003e",
+      "revId": "30d60f1f58d19e13349bdfd8514dc93c3c5761f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
