@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cc5d7d1f_2ef497a0",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 616,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-07-01T20:20:46Z",
+      "side": 1,
+      "message": "The problem of writing the release notes at 1:40 AM 😭\nThanks for spotting this out 😊",
+      "parentUuid": "a66c39f4_8ba290da",
+      "range": {
+        "startLine": 616,
+        "startChar": 2,
+        "endLine": 616,
+        "endChar": 5
+      },
+      "revId": "30d60f1f58d19e13349bdfd8514dc93c3c5761f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "01a07dc1_166b33c4",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 1
@@ -37,6 +61,24 @@
       "writtenOn": "2021-06-30T07:21:13Z",
       "side": 1,
       "message": "what about these 2 fixes merged up from stable-2.14:\n\n* 7a8b421f0b - (origin/stable-2.14) Fix to not throw NPE while accessing draft refs (5 weeks ago)\u003cPrudhvi Akhil Alahari\u003e\n* 4f04fab5e7 - EqualsLabelPredicate: Fix bug that prevents matching owner votes (5 weeks ago)\u003cPrudhvi Akhil Alahari\u003e",
+      "revId": "30d60f1f58d19e13349bdfd8514dc93c3c5761f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a3659b6_1d62b92e",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 648,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-07-01T20:20:46Z",
+      "side": 1,
+      "message": "\u003e what about these 2 fixes merged up from stable-2.14:\n\u003e \n\u003e * 7a8b421f0b - (origin/stable-2.14) Fix to not throw NPE while accessing draft refs (5 weeks ago)\u003cPrudhvi Akhil Alahari\u003e\n\nI could not find any issue for that linked in the commit message. I\u0027ll just refer to the change URL.\n\n\u003e * 4f04fab5e7 - EqualsLabelPredicate: Fix bug that prevents matching owner votes (5 weeks ago)\u003cPrudhvi Akhil Alahari\u003e\n\nSame as above: no issue to refer to. I\u0027ll link the change URL.",
+      "parentUuid": "01a07dc1_166b33c4",
       "revId": "30d60f1f58d19e13349bdfd8514dc93c3c5761f1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
