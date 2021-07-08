@@ -63,16 +63,25 @@ for Git and AOSP.
 ## The Rietveld fork
 
 Gerrit Code Review started as a simple set of patches to Rietveld, and
-was originally built to service AOSP.  This quickly turned into a fork
-as we added access control features that Guido van Rossum did not want
-to see complicating the Rietveld code base.  As the functionality and
-code were starting to become drastically different, a different name
-was needed.  Gerrit calls back to the original namesake of Rietveld,
-[Gerrit Rietveld](http://en.wikipedia.org/wiki/Gerrit_Rietveld), a
-Dutch architect.
+was originally built to service AOSP. This quickly turned into a fork
+as Rietveld was a technology demo of the AppEngine platform, and
+access control features would complicate the Rietveld code base. As
+the functionality and code were starting to become drastically
+different, a different name was needed. Gerrit calls back to the
+original namesake of Rietveld, [Gerrit
+Rietveld](http://en.wikipedia.org/wiki/Gerrit_Rietveld), a Dutch
+architect.
 
 ## Gerrit 2.x rewrite
 
 Gerrit 2.x is a complete rewrite of the Gerrit fork, changing the
 implementation from Python on Google App Engine, to Java on a J2EE
 servlet container and a SQL database.
+
+
+## Gerrit 3.x rewrite
+
+Since Gerrit 3.x
+[NoteDb](https://gerrit-review.googlesource.com/Documentation/note-db.html)
+replaced the SQL database and all metadata is now stored in Git. The
+user interface migrated away from GWT to Polymer.
