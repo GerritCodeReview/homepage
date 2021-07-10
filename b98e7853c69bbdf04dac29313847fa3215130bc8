@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdcfb178_4267e2f5",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-07-10T00:20:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e286ad40_cee6f354",
+      "range": {
+        "startLine": 515,
+        "startChar": 2,
+        "endLine": 515,
+        "endChar": 5
+      },
+      "revId": "b98e7853c69bbdf04dac29313847fa3215130bc8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a01e944a_d24e0e97",
@@ -41,6 +65,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ba48cc5_1f7c4b2a",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-07-10T00:20:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a01e944a_d24e0e97",
+      "revId": "b98e7853c69bbdf04dac29313847fa3215130bc8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fd12d359_9200f69e",
@@ -54,6 +96,24 @@
       "writtenOn": "2021-06-30T07:26:55Z",
       "side": 1,
       "message": "5c8b686571 - Update highlightjs version to 10.7.2 (7 days ago)\u003cPaladox none\u003e",
+      "revId": "b98e7853c69bbdf04dac29313847fa3215130bc8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed0e6333_a5945555",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 560,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-07-10T00:20:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fd12d359_9200f69e",
       "revId": "b98e7853c69bbdf04dac29313847fa3215130bc8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
