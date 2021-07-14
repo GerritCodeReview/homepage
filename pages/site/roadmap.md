@@ -23,7 +23,7 @@ If someone would like to be involved when a specific topic is tackled, please
 ## Gerrit 3.5
 Target: Q4 2021
 
-See [Google 2021 Q3 OKRs](google-okrs.md).
+See [Google 2021 Q3 OKRs](google-okrs.html).
 
 ## Gerrit 3.4
 Target: Q2 2021
