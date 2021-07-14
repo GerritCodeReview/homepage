@@ -6,8 +6,6 @@ hide_navtoggle: true
 toc: false
 ---
 
-# Google quarterly objectives
-
 Google plans work per-quarter, using the OKR (Objective/Key-Result) framework.
 
 # Q3 2021
