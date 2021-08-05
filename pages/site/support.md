@@ -78,8 +78,8 @@ You could also check the questions tagged with "gerrit" on
 Gerrit Code Review is an open-source project, which means that the people
 that are using the tool are invited to cooperate and join for contributing
 to its development and support.
-Opening new issues, triaging existing ones and helping to resolve them are
-ways of contributing to the project.
+Opening new issues, [triaging](#bug-triaging) existing ones and helping to resolve
+them are ways of contributing to the project.
 
 There **is not a formal support contract** amongst the members of the
 community, therefore there **IS NO guaranteed Service Level Agreement**
@@ -88,6 +88,7 @@ define our [SLO (Service Level Objectives)](https://landing.google.com/sre/sre-b
 However, amongst ourselves, we are aiming to achieve the following response times,
 depending on the severity of the issue raised.
 
+<a id="priorities">Priorities:
 | Severity | Description                                                 | Target response time
 |----------|-------------------------------------------------------------|---------------------
 | P0       | Major functionality broken that renders a feature unusable  | 1 working day
@@ -212,6 +213,36 @@ The Gerrit project has adopted a
 [feature request model][feature-request] where you are asked to
 submit your feature request together with some valid, general,
 use-cases.
+
+## Bug Triaging
+
+All incoming issues should be triaged to decide on their
+[priority](#priorities). The priority should be based on the severity, the
+frequency and the risk of the issue.
+
+Besides finding the right priority we also aim to clarify the issue so it is
+well understandable what the problem is.
+
+The triage is not meant to investigate the cause of bugs or assign issues.
+
+Triaging should include the following steps:
+
+1. Determine the right [priority](#priorities).
+2. Mark feature requests as `Type-Feature`.
+3. Check that the component is correctly set, and update it if necessary.
+4. If necessary, update the issue summary to be clear.
+5. Set label `Security` if it's a security or privacy issue.
+6. Close incomplete issues as `Incomplete`.
+7. Close spam issues as `Invalid`, flag them as spam and then delete them.
+8. Check if the issue has been reported before and close it as `Duplicate` if
+   possible.
+9. Check if reproduction steps are present and clear. If not, ask the reporter
+   to provide them and set the status to `AwaitingInformation`.
+10. Set the status to `Accepted` and add the label `Triaged-Yes` when the
+    triaging is done.
+
+Triaging incoming issues is a community effort and is done on a best effort
+basis (also see [above](#response-time-and-slo)).
 
 [feature-request]: https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose
 [issue-tracking]: /issues.html
