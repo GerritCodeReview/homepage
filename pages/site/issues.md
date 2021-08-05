@@ -31,13 +31,17 @@ Closed states resolve an issue:
 
 ## Priority
 
-| Priority          | Response     | Resolution     |
-|-------------------|--------------|----------------|
-| [Priority-0][p0]  |              | "soon"         |
-| [Priority-1][p1]  |              |                |
-| [Priority-2][p2]  | 3 months     | best effort    |
-| [Priority-3][p3]  | 6 months     | best effort    |
-| [Priority-4][p4]  | 12 months    | best effort    |
+| Priority          | Target Response Time | Resolution     |
+|-------------------|----------------------|----------------|
+| [Priority-0][p0]  | 1 working day        | "soon"         |
+| [Priority-1][p1]  | 5 working days       |                |
+| [Priority-2][p2]  | 30 working days      | best effort    |
+| [Priority-3][p3]  | -                    | best effort    |
+| [Priority-4][p4]  | -                    | best effort    |
+
+As explained on the [support](support.html#response-time-and-slo) page the
+Gerrit community aims to achieve the target response times that are documented
+above, but there **IS NO guaranteed Service Level Agreement**.
 
 ### Priority-0
 - Critical issue causing failures in production.
