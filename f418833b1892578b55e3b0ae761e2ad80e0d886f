@@ -36,6 +36,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e059c5b7_75dac776",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-08-18T19:45:46Z",
+      "side": 1,
+      "message": "I am abandoning this change: the plan for v3.4.1 has been super-seeded by other plans.",
+      "parentUuid": "bcb02a81_aa009f06",
+      "revId": "f418833b1892578b55e3b0ae761e2ad80e0d886f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f30d36e0_48fc50a4",
