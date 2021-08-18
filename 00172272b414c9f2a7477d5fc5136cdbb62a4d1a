@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78f349ef_6f24df87",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-08-18T21:57:04Z",
+      "side": 1,
+      "message": "use past tense to make clear this was the behavior without the fix\n\nwere",
+      "range": {
+        "startLine": 330,
+        "startChar": 46,
+        "endLine": 330,
+        "endChar": 49
+      },
+      "revId": "00172272b414c9f2a7477d5fc5136cdbb62a4d1a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ebda65f_df75703e",
+        "filename": "pages/site/releases/3.1.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-08-18T21:57:04Z",
+      "side": 1,
+      "message": "have exposed",
+      "range": {
+        "startLine": 332,
+        "startChar": 25,
+        "endLine": 332,
+        "endChar": 31
+      },
+      "revId": "00172272b414c9f2a7477d5fc5136cdbb62a4d1a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
