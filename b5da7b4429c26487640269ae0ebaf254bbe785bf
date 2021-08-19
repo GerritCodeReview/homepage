@@ -16,6 +16,24 @@
       "message": "I am still missing the change related to Gitiles. Do you have any pointer?",
       "revId": "b5da7b4429c26487640269ae0ebaf254bbe785bf",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e038323_b6f7d369",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2021-08-19T12:18:46Z",
+      "side": 1,
+      "message": "Yes: https://gerrit-review.googlesource.com/c/plugins/gitiles-security-fixes/+/312222\n\nhttps://bugs.chromium.org/p/gerrit/issues/detail?id\u003d7282\u0026q\u003dsecurity\u0026can\u003d2",
+      "parentUuid": "52898b71_6df18172",
+      "revId": "b5da7b4429c26487640269ae0ebaf254bbe785bf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
