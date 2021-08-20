@@ -18,7 +18,7 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 Latest release: **[3.4](/3.4.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
-## 3.4.0
+## 3.4
 
 * Checks UI
 
@@ -26,7 +26,7 @@ Latest release: **[3.4](/3.4.html)**. The support status of all recent Gerrit ve
 
 * JCraft JSch client library is disabled per default
 
-[Release notes for Gerrit 3.4.0](/3.4.html)
+[Release notes for Gerrit 3.4](/3.4.html)
 
 ## 3.3
 
