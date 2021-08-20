@@ -22,6 +22,30 @@
       },
       "revId": "7d5ce0ddc6dc2dc29992dca32d78769f3a9cd1c1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ead1566e_22280770",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1536,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-08-20T20:07:47Z",
+      "side": 1,
+      "message": "\u003e Is this relevant?\n\nNot sure. I\u0027ve reported it only because it was suggested by @Matthias in the previous version of the release notes of v3.4.1 (without the security fix).\n\nLet me get rid of it and see if @Matthias has anything against. Will move the attention-set to him as well.",
+      "parentUuid": "890e824c_5506c447",
+      "range": {
+        "startLine": 1535,
+        "startChar": 0,
+        "endLine": 1536,
+        "endChar": 39
+      },
+      "revId": "7d5ce0ddc6dc2dc29992dca32d78769f3a9cd1c1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
