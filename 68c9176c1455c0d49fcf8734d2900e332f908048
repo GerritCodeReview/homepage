@@ -46,6 +46,30 @@
       },
       "revId": "68c9176c1455c0d49fcf8734d2900e332f908048",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64be9237_1b4d27bf",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-08-20T20:07:27Z",
+      "side": 1,
+      "message": "Not sure it is relevant though because it was an issue on the stable branch but never shown in a released version of Gerrit I believe.",
+      "parentUuid": "c6827232_d75d2174",
+      "range": {
+        "startLine": 663,
+        "startChar": 0,
+        "endLine": 663,
+        "endChar": 10
+      },
+      "revId": "68c9176c1455c0d49fcf8734d2900e332f908048",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
