@@ -22,6 +22,30 @@
       },
       "revId": "0a4119cf60ef05ba588ddce3de071a93522dc03d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e55a5ad9_5e449110",
+        "filename": "pages/design-docs/case-insensitive-username-matching/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2021-09-03T11:25:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "513acfbc_8f40ee7f",
+      "range": {
+        "startLine": 40,
+        "startChar": 2,
+        "endLine": 41,
+        "endChar": 32
+      },
+      "revId": "0a4119cf60ef05ba588ddce3de071a93522dc03d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
