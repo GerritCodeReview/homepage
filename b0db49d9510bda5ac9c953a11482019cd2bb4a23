@@ -16,6 +16,24 @@
       "message": "is the missing field also set to \u0027-\u0027 for the json log ?",
       "revId": "b0db49d9510bda5ac9c953a11482019cd2bb4a23",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96c848b8_63e5c719",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2021-09-07T18:41:11Z",
+      "side": 1,
+      "message": "Nope, for json log the missing field is just not set, this is the same behavior as all other fields.",
+      "parentUuid": "ba45d42b_679b07e4",
+      "revId": "b0db49d9510bda5ac9c953a11482019cd2bb4a23",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
