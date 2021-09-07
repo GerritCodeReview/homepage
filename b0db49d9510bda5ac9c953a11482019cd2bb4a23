@@ -34,6 +34,24 @@
       "parentUuid": "ba45d42b_679b07e4",
       "revId": "b0db49d9510bda5ac9c953a11482019cd2bb4a23",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2e8d065_6be56769",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-09-07T21:05:58Z",
+      "side": 1,
+      "message": "then I wouldn\u0027t say the field has 3 possible values but 2 and that the text log shows \u0027-\u0027 for missing fields to provide an unambiguous mapping of log fields to the respective values in log records",
+      "parentUuid": "96c848b8_63e5c719",
+      "revId": "b0db49d9510bda5ac9c953a11482019cd2bb4a23",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
