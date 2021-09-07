@@ -62,6 +62,23 @@
       },
       "revId": "5f701a9c012ac6946178446c9e2f3f6cf0ea2ddc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f24975a2_776875aa",
+        "filename": "_posts/2021-09-07-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-09-07T11:19:01Z",
+      "side": 1,
+      "message": "Luca proposed that we make case-insensitive usernames the default for new installations",
+      "revId": "5f701a9c012ac6946178446c9e2f3f6cf0ea2ddc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
