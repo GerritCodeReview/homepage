@@ -49,6 +49,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "13f7e805_baae86f6",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-09-08T08:40:54Z",
+      "side": 1,
+      "message": "USA will be tricky. Chris is in USA, but might not be available by the time the release comes by. WE have others with the +1 power LC, but they aren\u0027t very familiar with the constraints.",
+      "range": {
+        "startLine": 61,
+        "startChar": 52,
+        "endLine": 61,
+        "endChar": 55
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "be8ba0a0_1b81c934",
         "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
         "patchSetId": 1
