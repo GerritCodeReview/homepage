@@ -49,6 +49,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1367b737_573acb89",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-09-08T15:56:45Z",
+      "side": 1,
+      "message": "Should we try coordinating in a dedicated slack channel again? If yes, mention here?",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "13f7e805_baae86f6",
         "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
         "patchSetId": 1
@@ -134,6 +151,29 @@
         "startChar": 9,
         "endLine": 88,
         "endChar": 14
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b32895af_3ac219fa",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-09-08T15:56:45Z",
+      "side": 1,
+      "message": "While this is true, as discussed extensively in [1], I don\u0027t believe it\u0027s the only option available to existing users. Users are still free to request support on the mailing list as usual and in fact, the only thing different about 2.16 support is (quoting Luca\u0027s last reply from [2]): \"... that the v2.16 will not be built on the CI or released anymore.\"\n\nI know Qualcomm plans over the next 3-6 months to keep uploading fixes on stable-2.16 for schema updates that don\u0027t perform well for us and it\u0027s possible we\u0027ll make another release for those fixes if we think they\u0027re significant enough that other community members should be using them (they likely are for any sizeable site).\n\nI really don\u0027t want to discourage users from seeking help getting past 2.16. We\u0027ve seen this is a tricky upgrade for a lot of sites and I don\u0027t think it\u0027s a good position for us as a community to marginalize that. I would appreciate a slight reword here to:\n\n Existing users having issues with the migration to Gerrit v2.16 can request\n [support](https://www.gerritcodereview.com/support.html#general-support)\n on the mailing list as usual and it\u0027s possible community members will be able to\n assist them. If users need further or dedicated support, they can request it\n through any vendor that provides [Enterprise Support](https://www.gerritcodereview.com/support.html#enterprise-support).\n\n[1] https://groups.google.com/g/repo-discuss/c/uL-sPJyHz9M/m/cW0XGFAcAAAJ\n[2] https://groups.google.com/g/repo-discuss/c/uL-sPJyHz9M/m/UXW4UjkVAAAJ",
+      "range": {
+        "startLine": 99,
+        "startChar": 9,
+        "endLine": 99,
+        "endChar": 41
       },
       "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
