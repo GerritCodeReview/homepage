@@ -16,6 +16,29 @@
       "message": "Blocking this with -2, to prevent merging before v3.5.0.",
       "revId": "a621f53056b31a96722774dfd4020248bc79435e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0aae1f1d_f9cbefb0",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-09-08T22:30:06Z",
+      "side": 1,
+      "message": "should be \"gerrit-v2_16-support\"",
+      "range": {
+        "startLine": 35,
+        "startChar": 33,
+        "endLine": 35,
+        "endChar": 52
+      },
+      "revId": "a621f53056b31a96722774dfd4020248bc79435e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
