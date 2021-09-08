@@ -89,6 +89,7 @@ However, amongst ourselves, we are aiming to achieve the following response time
 depending on the severity of the issue raised.
 
 <a id="priorities">Priorities:
+
 | Severity | Description                                                 | Target response time
 |----------|-------------------------------------------------------------|---------------------
 | P0       | Major functionality broken that renders a feature unusable  | 1 working day
