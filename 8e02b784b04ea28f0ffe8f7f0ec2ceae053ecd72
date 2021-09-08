@@ -522,6 +522,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "db6d390d_90c4abb5",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T20:29:36Z",
+      "side": 1,
+      "message": "Done with Change-Id: I4f7a8a1d2: I\u0027ve included your wording for discussion.",
+      "parentUuid": "dfce5f31_d8d6826b",
+      "range": {
+        "startLine": 99,
+        "startChar": 9,
+        "endLine": 99,
+        "endChar": 41
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f3627963_214ca266",
