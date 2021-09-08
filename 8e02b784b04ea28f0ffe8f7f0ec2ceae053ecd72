@@ -3,6 +3,40 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "fdc332ae_858b9031",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-09-08T16:11:59Z",
+      "side": 1,
+      "message": "for putting this together! Mostly some minor nits.",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54f92a7c_568e538c",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-09-08T16:11:59Z",
+      "side": 1,
+      "message": "Nit: weird wrapping",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "155b5bd4_2ff26a89",
         "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
         "patchSetId": 1
@@ -26,6 +60,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0b8d0a4e_2dfcf4be",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-09-08T16:11:59Z",
+      "side": 1,
+      "message": "Does this mean we develop on the branch or that we manually cherrypick the changes ourselves before pushing them onto the stable branch?",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "242a6f8a_3f3c8d54",
         "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
         "patchSetId": 1
@@ -43,6 +94,23 @@
         "endLine": 51,
         "endChar": 41
       },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c744bd0a_98b79df6",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-09-08T16:11:59Z",
+      "side": 1,
+      "message": "Nit: Capitalize and punctuate?",
       "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -83,6 +151,23 @@
         "endLine": 61,
         "endChar": 55
       },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "371e1804_fa6528ad",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-09-08T16:11:59Z",
+      "side": 1,
+      "message": "Nit: weird wrapping",
       "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -175,6 +260,40 @@
         "endLine": 99,
         "endChar": 41
       },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3627963_214ca266",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-09-08T16:11:59Z",
+      "side": 1,
+      "message": "Nit: weird wrapping.",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06f305ed_517e3974",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-09-08T16:11:59Z",
+      "side": 1,
+      "message": "Nit: Weird wrapping",
       "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
