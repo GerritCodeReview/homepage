@@ -37,6 +37,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "eb14b289_12e366be",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "54f92a7c_568e538c",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "155b5bd4_2ff26a89",
         "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
         "patchSetId": 1
@@ -75,6 +93,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8278b86a_a1d30998",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "We develop new features on master, and fix the bugs in the stable-3.5. There are, of course, exceptions sometimes.",
+      "parentUuid": "0b8d0a4e_2dfcf4be",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "242a6f8a_3f3c8d54",
@@ -88,6 +124,30 @@
       "writtenOn": "2021-09-08T07:27:15Z",
       "side": 1,
       "message": "November?",
+      "range": {
+        "startLine": 51,
+        "startChar": 38,
+        "endLine": 51,
+        "endChar": 41
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9d045b5_3b114f4e",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "242a6f8a_3f3c8d54",
       "range": {
         "startLine": 51,
         "startChar": 38,
@@ -115,6 +175,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d59d432_295e2400",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c744bd0a_98b79df6",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1367b737_573acb89",
@@ -128,6 +206,24 @@
       "writtenOn": "2021-09-08T15:56:45Z",
       "side": 1,
       "message": "Should we try coordinating in a dedicated slack channel again? If yes, mention here?",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "674c5528_bdd03c1a",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Good idea, I\u0027ll create and mention here. Thanks for the suggestion.",
+      "parentUuid": "1367b737_573acb89",
       "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -155,6 +251,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a584626d_d2f11e66",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Will remove the USA for LCs.",
+      "parentUuid": "13f7e805_baae86f6",
+      "range": {
+        "startLine": 61,
+        "startChar": 52,
+        "endLine": 61,
+        "endChar": 55
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "371e1804_fa6528ad",
@@ -172,6 +292,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ecd9a45_4440333d",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "371e1804_fa6528ad",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "be8ba0a0_1b81c934",
@@ -185,6 +323,30 @@
       "writtenOn": "2021-09-08T07:27:15Z",
       "side": 1,
       "message": "3.2.x",
+      "range": {
+        "startLine": 83,
+        "startChar": 24,
+        "endLine": 83,
+        "endChar": 29
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b1f2b9a_36923fda",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "be8ba0a0_1b81c934",
       "range": {
         "startLine": 83,
         "startChar": 24,
@@ -218,6 +380,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f15166ce_a1c5ad44",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "157d7ed0_06649b98",
+      "range": {
+        "startLine": 86,
+        "startChar": 12,
+        "endLine": 86,
+        "endChar": 27
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5753fe0c_b47f1e2d",
@@ -231,6 +417,30 @@
       "writtenOn": "2021-09-08T07:27:15Z",
       "side": 1,
       "message": "3.2.x",
+      "range": {
+        "startLine": 88,
+        "startChar": 9,
+        "endLine": 88,
+        "endChar": 14
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f0a2b1d_20d90614",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5753fe0c_b47f1e2d",
       "range": {
         "startLine": 88,
         "startChar": 9,
@@ -264,6 +474,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfce5f31_d8d6826b",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "I would remove L98-L99 as this document is really about releasing Gerrit v3.5.0. The topic of supporting EOL releases, including v2.16, is a very important one indeed and deserves more space and discussion about it.",
+      "parentUuid": "b32895af_3ac219fa",
+      "range": {
+        "startLine": 99,
+        "startChar": 9,
+        "endLine": 99,
+        "endChar": 41
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f3627963_214ca266",
@@ -281,6 +515,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d707de8_85d296e3",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3627963_214ca266",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "06f305ed_517e3974",
@@ -294,6 +546,24 @@
       "writtenOn": "2021-09-08T16:11:59Z",
       "side": 1,
       "message": "Nit: Weird wrapping",
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0424851a_ae7f8eaa",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T19:18:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06f305ed_517e3974",
       "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
