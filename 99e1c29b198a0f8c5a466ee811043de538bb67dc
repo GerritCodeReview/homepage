@@ -70,6 +70,24 @@
       "parentUuid": "af8ed64f_de4c8ece",
       "revId": "99e1c29b198a0f8c5a466ee811043de538bb67dc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b748858b_1562f72e",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-09-08T21:08:26Z",
+      "side": 1,
+      "message": "then I would rephrase this as\n\nGerrit v3.5.x does not support Java 8 ...",
+      "parentUuid": "d767d2a6_9628a875",
+      "revId": "99e1c29b198a0f8c5a466ee811043de538bb67dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
