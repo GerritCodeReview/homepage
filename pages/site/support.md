@@ -32,7 +32,7 @@ The following table shows the current level of support for Gerrit releases:
 | 3.2      | Active         |       |
 | 3.1      | EOL            | [EOL since May 19, 2021](https://www.gerritcodereview.com/2021-03-16-gerrit-3.4-release-plan.html#end-of-life-for-gerrit-31x) |
 | 3.0      | EOL            | [EOL since December 1st, 2020](https://www.gerritcodereview.com/2020-09-07-gerrit-3.3-release-plan.html#end-of-life-for-gerrit-30x) |
-| 2.16     | EOL            | [EOL (with exceptions) since June 1st, 2020](https://www.gerritcodereview.com/2020-04-22-gerrit-3.2-release-plan.html#end-of-life-for-gerrit-216x) |
+| 2.16     | EOL with [Support](#gerrit-v216-support) | [EOL since June 1st, 2020](https://www.gerritcodereview.com/2020-04-22-gerrit-3.2-release-plan.html#end-of-life-for-gerrit-216x) |
 | 2.15     | EOL            | [EOL since November 15th, 2019](https://www.gerritcodereview.com/2019-11-15-gerrit-2.15-eol.html) |
 | 2.14     | EOL            | [EOL since May 31st, 2019](https://www.gerritcodereview.com/2019-05-31-gerrit-end-of-life-update.html) |
 | 2.13     | EOL            |       |
@@ -72,6 +72,12 @@ a request for it.
 
 You could also check the questions tagged with "gerrit" on
 [Stack Overflow][stack-overflow].
+
+### Gerrit v2.16 Support
+
+Existing users having issues with the migration to Gerrit v2.16 can still
+use the General Support on the mailing list as usual and it's possible
+that community members will be able to assist them.
 
 ## Response time and [SLO](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/)
 
