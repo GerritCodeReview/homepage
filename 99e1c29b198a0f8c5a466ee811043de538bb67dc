@@ -16,6 +16,42 @@
       "message": "does this imply that 3.5.x can\u0027t be compiled on Java 8 ?",
       "revId": "99e1c29b198a0f8c5a466ee811043de538bb67dc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f042ae1_76ec7d93",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T20:46:47Z",
+      "side": 1,
+      "message": "We are dropping the validation on Java 8 with Change-Id: I934ea4302, that means that anyone can make a Java 11 source code change in master and get it verified and merged.\n\nThe short answer is then: it *may* contain Java 11-specific code.",
+      "parentUuid": "698df87d_d0fd8d38",
+      "revId": "99e1c29b198a0f8c5a466ee811043de538bb67dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af8ed64f_de4c8ece",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T20:46:47Z",
+      "side": 1,
+      "message": "We are dropping the validation on Java 8 with Change-Id: I934ea4302, that means that anyone can make a Java 11 source code change in master and get it verified and merged.\n\nThe short answer is then: it *may* contain Java 11-specific code.",
+      "parentUuid": "698df87d_d0fd8d38",
+      "revId": "99e1c29b198a0f8c5a466ee811043de538bb67dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
