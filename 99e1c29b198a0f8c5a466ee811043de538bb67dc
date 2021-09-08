@@ -52,6 +52,24 @@
       "parentUuid": "698df87d_d0fd8d38",
       "revId": "99e1c29b198a0f8c5a466ee811043de538bb67dc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d767d2a6_9628a875",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T20:47:59Z",
+      "side": 1,
+      "message": "This should not come as a surprise, as we promised that back in May https://www.gerritcodereview.com/2021-03-16-gerrit-3.4-release-plan.html#java-8-compatibility",
+      "parentUuid": "af8ed64f_de4c8ece",
+      "revId": "99e1c29b198a0f8c5a466ee811043de538bb67dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
