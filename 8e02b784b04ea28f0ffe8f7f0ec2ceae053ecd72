@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "155b5bd4_2ff26a89",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-09-08T07:27:15Z",
+      "side": 1,
+      "message": "nit:\"very rarely accepted\"?",
+      "range": {
+        "startLine": 32,
+        "startChar": 35,
+        "endLine": 32,
+        "endChar": 55
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "242a6f8a_3f3c8d54",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-09-08T07:27:15Z",
+      "side": 1,
+      "message": "November?",
+      "range": {
+        "startLine": 51,
+        "startChar": 38,
+        "endLine": 51,
+        "endChar": 41
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be8ba0a0_1b81c934",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-09-08T07:27:15Z",
+      "side": 1,
+      "message": "3.2.x",
+      "range": {
+        "startLine": 83,
+        "startChar": 24,
+        "endLine": 83,
+        "endChar": 29
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "157d7ed0_06649b98",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-09-08T07:27:15Z",
+      "side": 1,
+      "message": "3.4.x and 3.3.x",
+      "range": {
+        "startLine": 86,
+        "startChar": 12,
+        "endLine": 86,
+        "endChar": 27
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5753fe0c_b47f1e2d",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2021-09-08T07:27:15Z",
+      "side": 1,
+      "message": "3.2.x",
+      "range": {
+        "startLine": 88,
+        "startChar": 9,
+        "endLine": 88,
+        "endChar": 14
+      },
+      "revId": "8e02b784b04ea28f0ffe8f7f0ec2ceae053ecd72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
