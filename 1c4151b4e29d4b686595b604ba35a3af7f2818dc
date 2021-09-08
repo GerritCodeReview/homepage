@@ -16,6 +16,24 @@
       "message": "Nit: weird wrapping.",
       "revId": "1c4151b4e29d4b686595b604ba35a3af7f2818dc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ac0d98a_6ff26d23",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T23:11:43Z",
+      "side": 1,
+      "message": "Why do you believe is weird? It looks correct to me.",
+      "parentUuid": "7c2c860d_2237b0b2",
+      "revId": "1c4151b4e29d4b686595b604ba35a3af7f2818dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
