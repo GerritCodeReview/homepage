@@ -16,6 +16,24 @@
       "message": "Can you also reference the new section you added below? Also, if you want, you could leave the \"with exceptions\" bit for now and then merge this. The new section below is true today.",
       "revId": "488a844147b21660ee8ea06376f4d1b9621ba54f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f933c4bf_13220515",
+        "filename": "pages/site/support.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-08T21:52:49Z",
+      "side": 1,
+      "message": "Done. The new section is up for discussion (hence the RFC). Today v2.16 is officially supported for NoteDb migrations and we also do CI and releases ... and also fixes when needed.",
+      "parentUuid": "d5ae5280_3265e58a",
+      "revId": "488a844147b21660ee8ea06376f4d1b9621ba54f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
