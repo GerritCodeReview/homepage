@@ -16,6 +16,69 @@
       "message": "@Marco would you check before I merge?",
       "revId": "330b9d8614165e11f400daccc9302e4956316c5a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "791dd1cb_953bf6dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2021-09-09T13:35:54Z",
+      "side": 1,
+      "message": "CR-1 just to highlight these few left-over typos.",
+      "revId": "330b9d8614165e11f400daccc9302e4956316c5a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0654337c_774eac71",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2021-09-09T13:35:54Z",
+      "side": 1,
+      "message": "09-07",
+      "range": {
+        "startLine": 5,
+        "startChar": 16,
+        "endLine": 5,
+        "endChar": 21
+      },
+      "revId": "330b9d8614165e11f400daccc9302e4956316c5a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ae18f6d_e42a6074",
+        "filename": "_posts/2021-09-07-gerrit-3.5-release-plan.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1012732
+      },
+      "writtenOn": "2021-09-09T13:35:54Z",
+      "side": 1,
+      "message": "will be pointed",
+      "range": {
+        "startLine": 85,
+        "startChar": 5,
+        "endLine": 85,
+        "endChar": 17
+      },
+      "revId": "330b9d8614165e11f400daccc9302e4956316c5a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
