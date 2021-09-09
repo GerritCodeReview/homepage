@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "64dc07c0_11c3042f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-09-09T15:22:02Z",
+      "side": 1,
+      "message": "Perhaps s/would be still willing/may be available/ ?",
+      "parentUuid": "551ac3d0_faaa91ee",
+      "range": {
+        "startLine": 12,
+        "startChar": 19,
+        "endLine": 12,
+        "endChar": 35
+      },
+      "revId": "a621f53056b31a96722774dfd4020248bc79435e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "49f79c62_8f8e10f6",
