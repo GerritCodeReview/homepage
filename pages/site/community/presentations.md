@@ -50,6 +50,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 * [UI Updates - Checks, Comment Context, Change Summary](https://docs.google.com/presentation/d/1LCqvHV9v8pZfsq6xzXjGx5Dzq0kLiEtNdjygdPUtBLA/view) (2021)
 * [Change Page Cleanups](https://docs.google.com/presentation/d/1FQar_fN2CS1WlvPobBT6djo9pgKwCe321wDEWC4uRR4/) (2021)
+* [Gerrit UX History](https://docs.google.com/presentation/d/1Y4-Ph6lb2eB8B0fZ2haJ1DlCw1ix48F-MfbdStGfyOI/view) (2021)
 * [Evolving the change screen](https://docs.google.com/presentation/d/1oBNWKzaRjSQ3k_pc1aYcKH5VKP3SKDW7z1FLik_cBaE/view) (2020)
 * [PolyGerrit UX: Findings from research/experience on the new GUI](https://docs.google.com/presentation/d/17q-ygGioZi_5DITLyELa8oaOr22e15AHy8cq6XTZ0nY/view) (2017)
 * [An Update on PolyGerrit](https://storage.googleapis.com/gerrit-talks/summit/2016/polygerrit.pdf) (2016)
