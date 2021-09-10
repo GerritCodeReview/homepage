@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb9d4e98_517df57d",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2021-09-10T06:54:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d94a9f53_5846edfe",
+      "range": {
+        "startLine": 60,
+        "startChar": 35,
+        "endLine": 60,
+        "endChar": 40
+      },
+      "revId": "8038be7f095602f01224faebcbf51e37751eab8d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "23cd4eb3_230e7ebf",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-09-09T15:42:36Z",
       "side": 1,
       "message": "These might be more of features? If deployment is strictly \"interesting/new ways of deploying Gerrit\", I think these fit better into Features, but they\u0027re both improvements on existing features (replication, caching), so maybe not?",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 99
+      },
+      "revId": "8038be7f095602f01224faebcbf51e37751eab8d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7de0bb1_88412d91",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2021-09-10T06:54:19Z",
+      "side": 1,
+      "message": "Thanks, I moved them up to the features section.\n\nDone.",
+      "parentUuid": "23cd4eb3_230e7ebf",
       "range": {
         "startLine": 75,
         "startChar": 0,
