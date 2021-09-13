@@ -212,14 +212,8 @@ will take care to upload the presentation for you.
 
 ### Template
 
+Put the new entry under the most appropriate section of this page and use the following format:
+
 <pre>
-  ---
-
-  **[$yyyy-MM-dd] Topic**
-
-  $presentations-text
-
-  From: $sender-name ($sender-company)
-
-  ---
+* [topic](url) (year)
 </pre>
