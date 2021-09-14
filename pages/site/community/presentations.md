@@ -34,7 +34,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Release Highlights
 
-* [What's new in Gerrit 3.3?](https://drive.google.com/file/d/13T7CiQG54CZ7P6iqMYsFIV4P4dOV78iN/view) (2020)
+* [What's new in Gerrit 3.2/3.3?](https://drive.google.com/file/d/13T7CiQG54CZ7P6iqMYsFIV4P4dOV78iN/view) (2020)
 * [What's new in Gerrit 3.0?](https://www.slideshare.net/lucamilanesio/whats-new-in-gerrit-code-review-30) (2019)
 * [What's new in Gerrit 2.14.x and 2.15?](https://storage.cloud.google.com/gerrit-talks/summit/2018/whats-new-in-2.14-and-2.15-gus-2018.pdf) (2018)
 * [Gerrit 2.16, 3.0, and beyond](https://storage.googleapis.com/gerrit-talks/summit/2018/Gerrit-2.16-3.0-and-Beyond.pdf) (2018)
