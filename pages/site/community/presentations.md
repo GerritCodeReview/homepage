@@ -157,6 +157,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Community
 
+* [Survey: mandatory case-insensitive handling of usernames](https://docs.google.com/presentation/d/1b68PfdGP4YvlYhAVN4CNlfFT5zmbJEN4IiTVUijEvSo/view) (2021)
 * [Gerrit Bug Triaging & Issue Management - Hackthon Discussion](https://docs.google.com/presentation/d/13Xeu-7-e3iVYtKTBws2_nWAl_PWwo8HK-w5V77QyC1c/view) (2021)
 * [Why are some organizations moving away from Gerrit?](https://docs.google.com/presentation/d/1R57-WcvlnuS5J85pLFyCt1Ytc-syeYhCzkfc-6j3AXw) (2020)
 * [Discuss user stories](https://docs.google.com/presentation/d/1Zm7qDiEYb9CtjdYgjve8guUFuW19Mj7rFrYnJUMYXq8/view) (2020)
