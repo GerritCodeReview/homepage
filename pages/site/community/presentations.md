@@ -60,6 +60,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## User stories
 
+* [Gerrit migrations step by step](https://www.slideshare.net/lucamilanesio/gerrit-code-review-migrations-stepbystep) (2019)
 * [Gerrit at Google: Multi-master, Multi-tenant](https://docs.google.com/presentation/d/1pZkXbrhcUZxO-1TEUJgBvOiJJiYWwtHOw8fegsjvCnc) (2017)
 * [Gerrit at OpenStack](https://storage.googleapis.com/gerrit-talks/summit/2016/keep-the-conversation-flowing.pdf) (2016)
 * [Git at Google](https://storage.googleapis.com/gerrit-talks/summit/2015/Git-at-Google.pdf) (2015)
