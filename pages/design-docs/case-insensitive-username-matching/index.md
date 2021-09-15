@@ -10,4 +10,4 @@ toc: false
 
 * [Use Cases](/design-docs/case-insensitive-username-matching-use-cases.html)
 * [Solution - Threaded Feedback](/design-docs/case-insensitive-username-matching-solution.html)
-<!-- * [Conclusion](/design-docs/case-insensitive-username-matching-conclusion.html) -->
+* [Conclusion](/design-docs/case-insensitive-username-matching-conclusion.html)
