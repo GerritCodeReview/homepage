@@ -85,6 +85,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 ## Upgrades
 
 * [Discuss upgrade complexity](https://docs.google.com/presentation/d/1JbXnXFmKfqurcbt8uic3QIjnwHyIrleI_D2FHtE0u94) (2020)
+* [Gerrit migrations step by step](https://www.slideshare.net/lucamilanesio/gerrit-code-review-migrations-stepbystep) (2019)
 * [Upgrading to Gerrit 2.15: a real-life story on GerritHub.io](https://www.slideshare.net/lucamilanesio/gerrithub-a-true-gerrit-migration-story-to-v215) (2018)
 * [Zero-downtime Gerrit upgrades](http://www.slideshare.net/lucamilanesio/zerodowntime-gerrit-code-review-upgrades) (2016)
 
