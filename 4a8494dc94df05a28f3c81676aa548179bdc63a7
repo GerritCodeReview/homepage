@@ -94,6 +94,30 @@
       },
       "revId": "4a8494dc94df05a28f3c81676aa548179bdc63a7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4343b59f_76d8e5ea",
+        "filename": "pages/design-docs/case-insensitive-username-matching/solution.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-09-15T08:25:49Z",
+      "side": 1,
+      "message": "Shall this paragraph be removed and rewritten? After the survey was done it was decided that we keep this configurable",
+      "parentUuid": "1d286e1a_f374e20f",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 73
+      },
+      "revId": "4a8494dc94df05a28f3c81676aa548179bdc63a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
