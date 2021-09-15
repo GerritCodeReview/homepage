@@ -198,6 +198,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [So what's up with the repo tool and submodules?](https://storage.googleapis.com/gerrit-talks/summit/2016/bye-bye-repo.pdf) (2016)
 * [GerritHub.io - present, past, future](http://www.slideshare.net/lucamilanesio/gerrithubio-present-past-future) (2015)
 * [Gerrit Code Review with GitHub plugin](https://www.slideshare.net/lucamilanesio/gerrit-codereviewgit-hubplugin) (2014)
+* [E2E testing with Gatling](https://docs.google.com/presentation/d/1dEVO5uNNt0ZpSNwS3H4O4A6Tz5gchMg9L8JhHrG6l6E) (2019)
+  * [Video](https://www.youtube.com/watch?v=61Tbrh1stks) (2019)
 
 ## Other
 
