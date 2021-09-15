@@ -102,6 +102,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [CI Reboot Wireframes Discussion](https://docs.google.com/presentation/d/1UT7LU6Kzd-WhNvwtEuvARzaiJ8mkdX3rDnbtavCZTp8/view) (2021)
 * [End-to-end tests](https://docs.google.com/presentation/d/1xZShuNKHmqeKAtfLzxwllQWze9P18i2nHbTzX_lQ9r4/view#slide=id.p) (2020)
   * [Video](https://drive.google.com/file/d/19YvJbPHDmwmMVcaehI1ot6xVdoQY0QxY/view) (2020)
+* [E2E testing with Gatling - framework overview](https://docs.google.com/presentation/d/1dEVO5uNNt0ZpSNwS3H4O4A6Tz5gchMg9L8JhHrG6l6E) (2019)
+  * [Video](https://www.youtube.com/watch?v=61Tbrh1stks) (2019)
 * [Checks plugin](https://storage.googleapis.com/gerrit-talks/summit/2019/checks-us2019-preso.pdf) (2019)
 * [Bazel new and noteworthy](https://ostrovsky.org/gerrit/bazel-new-and-noteworthy/bazel-new-and-noteworthy.html) (2018)
 * [Gerrit CI: How to keep logs forever on Jenkins](https://www.slideshare.net/lucamilanesio/how-to-keep-jenkins-logs-forever-without-performance-issues) (2017)
