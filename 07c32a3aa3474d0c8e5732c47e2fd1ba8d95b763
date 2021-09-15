@@ -16,6 +16,24 @@
       "message": "Maybe this is more suitable in the Upgrade section?",
       "revId": "07c32a3aa3474d0c8e5732c47e2fd1ba8d95b763",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b6210d1_98a8b7c5",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-09-15T08:26:24Z",
+      "side": 1,
+      "message": "Good idea, let me move it.",
+      "parentUuid": "eddeb02f_dfc60b46",
+      "revId": "07c32a3aa3474d0c8e5732c47e2fd1ba8d95b763",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
