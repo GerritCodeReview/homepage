@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ec6e851_a45286e7",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 615,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2021-09-20T20:10:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "45b20f40_f45ba5e1",
+      "range": {
+        "startLine": 615,
+        "startChar": 2,
+        "endLine": 615,
+        "endChar": 11
+      },
+      "revId": "c1d8801789d28278aaa90319bd4c06602ba8ce9d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fc6652b9_5842eaee",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-09-20T19:49:53Z",
       "side": 1,
       "message": "Can you provide a pointer to the documentation instead of this section? The release notes have a headline and a short description + pointers when needed.",
+      "range": {
+        "startLine": 628,
+        "startChar": 0,
+        "endLine": 636,
+        "endChar": 78
+      },
+      "revId": "c1d8801789d28278aaa90319bd4c06602ba8ce9d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03798770_bf12f171",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 636,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2021-09-20T20:10:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc6652b9_5842eaee",
       "range": {
         "startLine": 628,
         "startChar": 0,
