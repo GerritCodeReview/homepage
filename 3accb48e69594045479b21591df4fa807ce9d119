@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f61b26d_3d8dc9c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2021-10-06T14:27:36Z",
+      "side": 1,
+      "message": "For now we are hacking our way around not having an in core solution, i.e. we are grabbing references to objects in other plugins via leaks in Gerrit core and accessing APIs on them that way. This is similar to our proposal to allow plugins to register an API that can be accessed via reflection from other plugins, but less official and more hacky since we rely on leaks. We would still like to have an official way to do this, and hope to work with the community on such a thing at some point. However as we currently have a solution that is likely good enough to get us off our fork, we probably won\u0027t have much time to push a core solution forward until our efforts to get off our fork wind down.",
+      "parentUuid": "a30c24c8_74c7692a",
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1765a36b_102ae467",
