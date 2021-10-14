@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a1b263e_1927672e",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1453,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-10-14T18:15:22Z",
+      "side": 1,
+      "message": "Add 316802: Introduce \"--reindex-threads\" option | https://gerrit-review.googlesource.com/c/gerrit/+/316802",
+      "revId": "842b97fb84b8e84705655066b29056a5a9f49130",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82d2f0cd_512d76ac",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1478,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-10-14T18:15:22Z",
+      "side": 1,
+      "message": "Opening the Gerrit change for this seems to be broken, but mention:\n\n commit 0cdfd5cecf1c2493f48dbbd930ac0817b9b79839\n Author: Thomas Dräbing \u003cthomas.draebing@sap.com\u003e\n Date:   Mon Aug 9 10:36:40 2021 +0200\n \n     Fix disabling of plugin project config option in UI\n \n     Plugins can provide their own project configuration options. The\n     ProjectConfigEntry class is used for that purpose and also allows\n     to declare an option editable or not by overriding the isEditable()\n     method. However, this was not applied in the UI. The field in the\n     form was still enabled. An error was only raised, when trying to\n     save the change.\n \n     Change-Id: Iad6153087f19cf758adb661489dda0efeddb5423\n\nAlso mention https://gerrit-review.googlesource.com/c/gerrit/+/320979 as a Dependency Update if that is merged before 3.4.2.",
+      "revId": "842b97fb84b8e84705655066b29056a5a9f49130",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
