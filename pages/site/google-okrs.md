@@ -8,6 +8,43 @@ toc: false
 
 Google plans work per-quarter, using the OKR (Objective/Key-Result) framework.
 
+# Q4 2021
+
+## O: Gerrit users' data and code are well protected and secure
+
+### KR: Resolve data protection/security work in flight from Q3
+
+Gerrit a data migration has clean all traces of personal data (name, email) in review metadata.
+
+### KR: Redesign consent experience on *.googlesource.com
+
+A redesigned consent screen is shown to new users on *.googlesource.com.
+
+### KR: Work towards ensuring all code on *.googlesource.com was reviewed
+
+Besides ensuring non-author review happened, this work goes towards providing
+attestations and provenance.
+
+### KR: Redesign project and permission configuration
+
+Sketch out a better way to (centrally) manage hosts with a large number of repositories.
+
+## O: Increase system stability and reduce latency of critical user journeys
+
+### KR: Migrate to Caffeine for all caches
+
+This is now possbile since we moved off of the old diff cache.
+
+## O: Improve Gerrit customer satisfaction from X% to Y%
+
+### KR: Roll out composable submit requirements
+
+Use them fully on gerrit, android and chromium-review.
+
+### KR: Multi-change review: Implement MVP
+
+Provide a page for reviewing multiple changes ("topics"), providing among others batch actions and maybe diffs across projects/changes.
+
 # Q3 2021
 
 ## O: Gerrit users' data and code are well protected and secure
