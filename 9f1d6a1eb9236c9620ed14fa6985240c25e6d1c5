@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b83fbb65_714f52b3",
+        "filename": "pages/site/google-okrs.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-10-25T12:11:33Z",
+      "side": 1,
+      "message": "order word",
+      "range": {
+        "startLine": 17,
+        "startChar": 6,
+        "endLine": 17,
+        "endChar": 33
+      },
+      "revId": "9f1d6a1eb9236c9620ed14fa6985240c25e6d1c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e680fc22_e60a541b",
+        "filename": "pages/site/google-okrs.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-10-25T12:11:33Z",
+      "side": 1,
+      "message": "this isn\u0027t useful for upstream; drop?",
+      "range": {
+        "startLine": 21,
+        "startChar": 72,
+        "endLine": 26,
+        "endChar": 28
+      },
+      "revId": "9f1d6a1eb9236c9620ed14fa6985240c25e6d1c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8169a611_498a5828",
+        "filename": "pages/site/google-okrs.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-10-25T12:11:33Z",
+      "side": 1,
+      "message": "this too. Maybe we could have a separate FYI section that details what internal efforts we\u0027re busy with, but I don\u0027t think we own upstream that amount of transparency.\n\nMaybe we could mention Edwin\u0027s planned work for direct pushes, part of which likely will be performance improvements.",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 88
+      },
+      "revId": "9f1d6a1eb9236c9620ed14fa6985240c25e6d1c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
