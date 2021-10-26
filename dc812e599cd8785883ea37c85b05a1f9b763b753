@@ -1,99 +1,21 @@
 {
-  "comments": [],
-  "submitRequirementResults": [
+  "comments": [
     {
-      "submitRequirement": {
-        "name": "Code-Review",
-        "description": {
-          "value": "At least one maximum vote for label \u0027Code-Review\u0027 is required"
-        },
-        "applicabilityExpression": {},
-        "submittabilityExpression": {
-          "expressionString": "label:Code-Review\u003dMAX,user\u003dnon_uploader AND -label:Code-Review\u003dMIN"
-        },
-        "overrideExpression": {},
-        "allowOverrideInChildProjects": true
+      "unresolved": true,
+      "key": {
+        "uuid": "b343391e_e74e6a94",
+        "filename": "pages/site/google-okrs.md",
+        "patchSetId": 1
       },
-      "applicabilityExpressionResult": {},
-      "submittabilityExpressionResult": {
-        "expression": {
-          "expressionString": "label:Code-Review\u003dMAX,user\u003dnon_uploader AND -label:Code-Review\u003dMIN"
-        },
-        "status": "PASS",
-        "errorMessage": {},
-        "passingAtoms": [
-          "label:Code-Review\u003dMAX,user\u003dnon_uploader"
-        ],
-        "failingAtoms": [
-          "label:Code-Review\u003dMIN"
-        ]
+      "lineNbr": 11,
+      "author": {
+        "id": 1002666
       },
-      "overrideExpressionResult": {},
-      "patchSetCommitId": {
-        "w1": -595513767,
-        "w2": -1663535016,
-        "w3": -2081802296,
-        "w4": 1527095801,
-        "w5": -1218201773
-      },
-      "legacy": {
-        "value": false
-      }
-    },
-    {
-      "submitRequirement": {
-        "name": "Verified",
-        "description": {
-          "value": "CI result status for build and tests is passing"
-        },
-        "applicabilityExpression": {
-          "value": {
-            "expressionString": "-branch:refs/meta/config"
-          }
-        },
-        "submittabilityExpression": {
-          "expressionString": "label:Verified\u003dMAX AND -label:Verified\u003dMIN"
-        },
-        "overrideExpression": {},
-        "allowOverrideInChildProjects": true
-      },
-      "applicabilityExpressionResult": {
-        "value": {
-          "expression": {
-            "expressionString": "-branch:refs/meta/config"
-          },
-          "status": "PASS",
-          "errorMessage": {},
-          "passingAtoms": [],
-          "failingAtoms": [
-            "branch:refs/meta/config"
-          ]
-        }
-      },
-      "submittabilityExpressionResult": {
-        "expression": {
-          "expressionString": "label:Verified\u003dMAX AND -label:Verified\u003dMIN"
-        },
-        "status": "PASS",
-        "errorMessage": {},
-        "passingAtoms": [
-          "label:Verified\u003dMAX"
-        ],
-        "failingAtoms": [
-          "label:Verified\u003dMIN"
-        ]
-      },
-      "overrideExpressionResult": {},
-      "patchSetCommitId": {
-        "w1": -595513767,
-        "w2": -1663535016,
-        "w3": -2081802296,
-        "w4": 1527095801,
-        "w5": -1218201773
-      },
-      "legacy": {
-        "value": false
-      }
+      "writtenOn": "2021-10-26T17:20:04Z",
+      "side": 1,
+      "message": "Han-Wen had mentioned some possible SLSA work coming up, is any of that in Q4?",
+      "revId": "dc812e599cd8785883ea37c85b05a1f9b763b753",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
