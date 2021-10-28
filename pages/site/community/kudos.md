@@ -36,6 +36,24 @@ Please add new kudos at the top of this list.
 
 ---
 
+**[$2021-10-28] To: David Ostrovsky**
+
+```
+Thank you David for contributing the javamelody plugin [1] back in 2013 [2].
+Also a big thanks to all the contributors to the plugin since then.
+This plugin is an amazingly useful tool that makes the life of a Gerrit admin,
+and developer, so much easier.
+```
+
+[1] https://gerrit.googlesource.com/plugins/javamelody
+[2] https://gerrit-review.googlesource.com/c/plugins/javamelody/+/52748
+
+From: Sven Selberg (Axis Communications AB)
+
+---
+
+---
+
 **[2021-06-14] To: Ben Rohlfs (Google), Delphine Carlson (Google), Dhruv Srivastava (Google), Gal Paikin (Google), Han-Wen Nienhuys (Google), Kaushik Lingarkar (Qualcomm), Luca Milanesio (GerritForge), Marija Savtchouk (Google), Matthias Sohn (SAP), Milutin Kristofic (Google), Saša Živkov (SAP), Youssef Elghareeb (Google)**
 ```
 Thank you for taking time to prepare and do a talk at the virtual Gerrit
