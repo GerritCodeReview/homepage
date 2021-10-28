@@ -62,12 +62,13 @@ Current maintainers are:
 
 | Name                  | Affiliation                             |
 |-----------------------|-----------------------------------------|
-| Alice Kober-Sotzek    | Google                                  |
 | Ben Rohlfs            | Google                                  |
+| Chris Poucet          | Google                                  |
 | David Ostrovsky       | Independent                             |
 | David Pursehouse      | Independent (formerly Sony, CollabNet)  |
 | Dmitrii Filippov      | Google                                  |
 | Edwin Kempin          | Google (formerly SAP)                   |
+| Frank Borden          | Google                                  |
 | Gal Paikin            | Google                                  |
 | Han-Wen Nienhuys      | Google                                  |
 | Jacek Centkowski      | Independent (formerly Digital.ai)       |
@@ -87,6 +88,7 @@ Current maintainers are:
 
 | Name                  | Affiliation                |
 |-----------------------|----------------------------|
+| Alice Kober-Sotzek    | Google                     |
 | Andrew Bonventre      | Google                     |
 | Becky Siegel          | Google                     |
 | Dave Borowitz         | Google                     |
