@@ -16,6 +16,29 @@
       "message": "This shouldn\u0027t be merged until https://gerrit-review.googlesource.com/c/gerrit/+/312302 is merged and rolled up into the various branches.",
       "revId": "2bc75335e585510387e84e3d567177a40c69bc50",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1da0d767_89e0caf0",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1432,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-10-30T22:25:07Z",
+      "side": 1,
+      "message": "This is included in v3.4.1, not the base v3.4.0. It should be moved in the section below IMHO.",
+      "range": {
+        "startLine": 1432,
+        "startChar": 0,
+        "endLine": 1432,
+        "endChar": 15
+      },
+      "revId": "2bc75335e585510387e84e3d567177a40c69bc50",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
