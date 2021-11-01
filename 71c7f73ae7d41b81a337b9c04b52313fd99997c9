@@ -16,6 +16,24 @@
       "message": "Already on line 1477.",
       "revId": "71c7f73ae7d41b81a337b9c04b52313fd99997c9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10f94eb8_67e7dbe7",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1562,
+      "author": {
+        "id": 1011217
+      },
+      "writtenOn": "2021-11-01T18:05:32Z",
+      "side": 1,
+      "message": "Ok looks like Luca added it there at some point. I can abandon this change in that case?",
+      "parentUuid": "5266aef4_ce60a5e2",
+      "revId": "71c7f73ae7d41b81a337b9c04b52313fd99997c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
