@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "10205c08_6d3badc1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1105741
+      },
+      "writtenOn": "2021-11-02T20:21:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "191127d5_95f23652",
+      "revId": "531039d05dbcc4d5fdf4f8f7439d4056ccb6dd11",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ae9612d_89d5f885",
@@ -31,6 +49,30 @@
       "writtenOn": "2021-11-02T20:13:17Z",
       "side": 1,
       "message": "Maybe keep just this text? I don\u0027t think we need to include the command for init or the other text above. For example, in 2.11, this is the text:\n\n WARNING: Upgrading to 2.11.x requires the server be first upgraded to 2.8 (or 2.9)\n and then to 2.11.x. If you are upgrading from 2.8.x or later, you may ignore this\n warning and upgrade directly to 2.11.x.\n\nThought for later: Once we release a new 2.16.28 with the optimizations that were merged recently, we should probably add a bit more to the last bullet (or maybe another below it) to note the improvements made in that version. For example, if we used text like 2.11 has, instead of \"you may ignore this warning ...\", we\u0027d want to say something like \"you should upgrade directly to 2.11.99 to leverage schema upgrade optimizations\".",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 49
+      },
+      "revId": "531039d05dbcc4d5fdf4f8f7439d4056ccb6dd11",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da2c23ea_92d9b060",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1105741
+      },
+      "writtenOn": "2021-11-02T20:21:23Z",
+      "side": 1,
+      "message": "Ack. Done.",
+      "parentUuid": "0ae9612d_89d5f885",
       "range": {
         "startLine": 92,
         "startChar": 0,
