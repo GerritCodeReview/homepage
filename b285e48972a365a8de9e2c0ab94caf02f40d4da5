@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e7a2f19b_40973e2e",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-02T20:40:09Z",
+      "side": 1,
+      "message": "If you\u0027re going to keep this, you\u0027ll want to keep it more like it was before.\n\n When a gerrit site older than 2.11 is migrated to 2.16...\n \nBut I don\u0027t think you need this sentence at all. The paragraph below explains it fine on its own. In fact, maybe we want to make this section even smaller by redirecting to the overall schema changes:\n\n ### Known problem with schema upgrade\n\n See the [schema changes](#schema-changes) section for more information.\n\nand then putting this little preface there:\n\n ### Schema Changes\n\n 2.16.16 and earlier only support upgrading from 2.15.x. Use 2.16.17+ to\n upgrade directly from 2.11.x or newer. Using the latest 2.16.x version is\n recommended.\n\n This release contains schema changes. To upgrade:",
+      "range": {
+        "startLine": 83,
+        "startChar": 5,
+        "endLine": 83,
+        "endChar": 24
+      },
+      "revId": "b285e48972a365a8de9e2c0ab94caf02f40d4da5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
