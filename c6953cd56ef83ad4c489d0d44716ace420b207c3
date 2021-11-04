@@ -84,6 +84,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5a8cf844_c777e6ec",
+        "filename": "_posts/2021-11-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2021-11-04T09:17:42Z",
+      "side": 1,
+      "message": "ARAIK, the proposed removal is also related to the licensing issues with the ElasticSearch (client) which recently changed its license. Maybe someone who knows\nthe topic better can put more info here.",
+      "parentUuid": "79bc5e10_0bc9aecf",
+      "revId": "c6953cd56ef83ad4c489d0d44716ace420b207c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64146f0a_79823f88",
         "filename": "_posts/2021-11-03-esc-minutes.md",
         "patchSetId": 1
