@@ -138,6 +138,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "028e56a1_9379f3ff",
+        "filename": "_posts/2021-11-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-11-04T16:01:13Z",
+      "side": 1,
+      "message": "\u003e Is the suggestion then that ElasticSearch support be moved to a plugin? Maybe we need a maintainers discussion?\n\nit would be a libmodule (because you can\u0027t do index implementations in a plugin), but yes.\n\n\u003e Maybe we need a maintainers discussion?\n\nwe had a discussion here, https://groups.google.com/g/repo-discuss/c/iF61Or0QAWw/m/ktyHaIgGAQAJ, but we never saw much interest from anyone to invest time, hence this proposal.",
+      "parentUuid": "fa96e281_b4934cab",
+      "revId": "c6953cd56ef83ad4c489d0d44716ace420b207c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64146f0a_79823f88",
         "filename": "_posts/2021-11-03-esc-minutes.md",
         "patchSetId": 1
