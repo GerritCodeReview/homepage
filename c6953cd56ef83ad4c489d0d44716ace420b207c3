@@ -100,6 +100,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b3613b4_a793c91f",
+        "filename": "_posts/2021-11-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-11-04T09:27:02Z",
+      "side": 1,
+      "message": "IIRC, the client code continues to be available under Apache so it\u0027s not a licensing issue per se. However it is unmaintained, we are not aware of any production use.\n\nIf qualcomm starts using it (maybe the Amazon fork?), it would be a first production use. We\u0027d need at least another user for there to be an argument that it should be in core.",
+      "parentUuid": "5a8cf844_c777e6ec",
+      "revId": "c6953cd56ef83ad4c489d0d44716ace420b207c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "64146f0a_79823f88",
