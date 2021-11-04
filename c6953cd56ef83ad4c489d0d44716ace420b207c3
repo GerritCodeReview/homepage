@@ -120,6 +120,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fa96e281_b4934cab",
+        "filename": "_posts/2021-11-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-04T15:44:39Z",
+      "side": 1,
+      "message": "\u003e IIRC, the client code continues to be available under Apache so it\u0027s not a licensing issue per se. However it is unmaintained, we are not aware of any production use.\n\nI\u0027m not aware of any prod use either and that\u0027s a significant factor we\u0027re considering.\n\n\u003e \n\u003e If qualcomm starts using it (maybe the Amazon fork?), it would be a first production use.\n\nES 7.10 and earlier are still the old license and Gerrit only supports up to 7.8.1 currently, so we\u0027d probably start with that. Beyond 7.10, yes, we\u0027d probably look at the Amazon fork or whatever else the community thought was a good option.\n\n\u003e We\u0027d need at least another user for there to be an argument that it should be in core.\n\nIs the suggestion then that ElasticSearch support be moved to a plugin? Maybe we need a maintainers discussion?\n\nJust to share a bit more here, one consideration we have for the index backend is which will give us the most accurate search results with many writes in a multi-primary setup. We haven\u0027t really started the analysis there, but from the little bit we\u0027ve looked at with ES vs HA-plugin, ES seems to allow for better support.",
+      "parentUuid": "6b3613b4_a793c91f",
+      "revId": "c6953cd56ef83ad4c489d0d44716ace420b207c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64146f0a_79823f88",
         "filename": "_posts/2021-11-03-esc-minutes.md",
         "patchSetId": 1
