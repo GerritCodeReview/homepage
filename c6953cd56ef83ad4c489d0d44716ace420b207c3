@@ -192,6 +192,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3161457c_aa4cbb2f",
+        "filename": "_posts/2021-11-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-08T18:20:08Z",
+      "side": 1,
+      "message": "\u003e \u003e What\u0027s the time investment needed? i.e. what\u0027s the work required to continue supporting ES?\n\u003e \n\u003e I guess that nobody knows without actually trying to do it :-)\n\nBut it\u0027s not broken now, correct?\n\nIt seems the concern is that it will \"break\" (incompatible license) when ES7.10 is EOL? Reading [1], I don\u0027t think that\u0027s actually a problem for (non-test code in) Gerrit as we use the low-level java REST API jar as a dependency (org.elasticsearch.client:elasticsearch-rest-client) and that will continue to be Apache v2.\n\nThat said, I don\u0027t know if anyone will want to run ES7.11+ with the license change, so we could look at trying to \"support\" OpenSearch as was discussed in that thread. I don\u0027t actually know what \"support\" looks like, but I would guess it\u0027s mostly updating [2] and bumping that es-rest-client dependency to the version noted in [3].\n\n[1] https://www.elastic.co/pricing/faq/licensing#im-using-elasticsearch-via-apis-how-does-this-change-affect-me\n\n[2] https://gerrit.googlesource.com/gerrit/+/master/javatests/com/google/gerrit/elasticsearch/ElasticContainer.java\n\n[3] https://opensearch.org/docs/latest/clients/index/#legacy-clients\n\n\u003e \n\u003e How do we proceed from here?\n\nSince we just created stable-3.5, now is our usual time to review versions of dependencies [4]. I think we need a discussion with maintainers so we can build a shared understanding of the problem and then propose solutions.\n\n[4] https://gerrit-review.googlesource.com/Documentation/dev-processes.html#upgrading-libraries",
+      "parentUuid": "8b29f9c4_63809e81",
+      "revId": "c6953cd56ef83ad4c489d0d44716ace420b207c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64146f0a_79823f88",
         "filename": "_posts/2021-11-03-esc-minutes.md",
         "patchSetId": 1
