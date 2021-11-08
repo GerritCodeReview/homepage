@@ -20,6 +20,11 @@ wishes you want someone else of the community to work on!
 If someone would like to be involved when a specific topic is tackled, please
 [reach out to the ESC](https://gerrit-documentation.storage.googleapis.com/Documentation/3.4.1/dev-roles.html#steering-committee-member).
 
+## Gerrit 3.6
+Target: Q2 2022
+
+See [Google 2021 Q4 OKRs](google-okrs.html).
+
 ## Gerrit 3.5
 Target: Q4 2021
 
@@ -48,13 +53,3 @@ See [Google 2021 Q3 OKRs](google-okrs.html).
   in less than 24 hours
   * 2.16.x: Improve NoteDb offline migration speed (current timing is 24+ hours for Qualcomm)
   * Improve upgrade speed for specifically slow schemas
-
-## Distant future
-* Role-based access control
-* Evaluate other web frameworks as potential replacements for Polymer
-* Rework event infrastructure
-* Pushing of server events into the frontend
-* Protobuf for REST API entities
-* Pluggable authentication backend
-* Quota plugin
-  * Simplify the plugin.

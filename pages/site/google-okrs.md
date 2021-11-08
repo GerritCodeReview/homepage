@@ -33,7 +33,8 @@ bypassing. If so, we want to root cause slowness and fix it if possible.
 
 ### KR: Roll out composable submit requirements
 
-Use them fully on gerrit, android and chromium-review.
+Use them fully on gerrit-review.googlesource.com,
+android-review.googlesource.com and chromium-review.googlesource.com.
 
 ### KR: Multi-change review: Implement MVP
 
