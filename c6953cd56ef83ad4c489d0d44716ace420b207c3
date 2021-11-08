@@ -228,6 +228,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f7d901e0_11b2eb33",
+        "filename": "_posts/2021-11-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-08T20:58:44Z",
+      "side": 1,
+      "message": "\u003e The current ES client libraries have also broken the HTTP client dependencies making them inconsistent (see [5]).\n\nI think that\u0027s fixable, but doesn\u0027t seem related to this discussion?\n\n\u003e \n\u003e We have been looking for volunteers for maintaining it since February and, so far, nobody committed to it.\n\nI disagree with the \"have been looking for volunteers\" part of this statement. Where was this request made?\n\n\u003e \n\u003e I would suggest to:\n\u003e - merge this change to document what *has been* decided\n\nI have nothing against merging this change. It\u0027s just notes of the discussion.\n\nI do have concerns with the process followed to reach this decision. Project governance is clear that decisions like this are expected to be made with a consensus among maintainers except in exceptional situations. I don\u0027t believe that happened.\n\n\u003e - have a discussion (after the merge of this) on who wants to keep on maintaining ES support\n\nSure.\n\n\u003e \n\u003e [5] https://gerrit-review.googlesource.com/c/gerrit/+/321528\n\u003e [6] https://www.gerritcodereview.com/2021-02-02-esc-minutes.html#elasticsearch-moved-to-sspl",
+      "parentUuid": "367fc944_9422399b",
+      "revId": "c6953cd56ef83ad4c489d0d44716ace420b207c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64146f0a_79823f88",
         "filename": "_posts/2021-11-03-esc-minutes.md",
         "patchSetId": 1
