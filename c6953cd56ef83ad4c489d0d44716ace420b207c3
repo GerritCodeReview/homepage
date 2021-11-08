@@ -210,6 +210,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "367fc944_9422399b",
+        "filename": "_posts/2021-11-03-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-08T19:20:10Z",
+      "side": 1,
+      "message": "The current ES client libraries have also broken the HTTP client dependencies making them inconsistent (see [5]).\n\nWe have been looking for volunteers for maintaining it since February and, so far, nobody committed to it.\n\nI would suggest to:\n- merge this change to document what *has been* decided\n- have a discussion (after the merge of this) on who wants to keep on maintaining ES support\n\n[5] https://gerrit-review.googlesource.com/c/gerrit/+/321528\n[6] https://www.gerritcodereview.com/2021-02-02-esc-minutes.html#elasticsearch-moved-to-sspl",
+      "parentUuid": "3161457c_aa4cbb2f",
+      "revId": "c6953cd56ef83ad4c489d0d44716ace420b207c3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64146f0a_79823f88",
         "filename": "_posts/2021-11-03-esc-minutes.md",
         "patchSetId": 1
