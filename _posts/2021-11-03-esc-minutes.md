@@ -2,7 +2,7 @@
 title: "Gerrit ESC Meeting Minutes"
 tags: esc
 keywords: esc minutes
-permalink: 2021-10-06-esc-minutes.html
+permalink: 2021-11-03-esc-minutes.html
 summary: "Minutes from the ESC meeting held on Nov 3, 2021"
 hide_sidebar: true
 hide_navtoggle: true
