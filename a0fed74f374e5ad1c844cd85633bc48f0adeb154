@@ -16,6 +16,481 @@
       "message": "This is now complete, @Matthias can you check the JGit parts? @Ben can you check the PolyGerrit parts? @Nasser can you check the backend parts?\n\nThanks a lot guys for the help and feedback, much appreciated ! 🙏",
       "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48486934_fa82590d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "I didn\u0027t review the more detailed bits at the bottom (UI and lower) but I can come back and look more at that later.",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9800656_a6c70d49",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "\u0027authenticated\u0027?",
+      "range": {
+        "startLine": 22,
+        "startChar": 14,
+        "endLine": 22,
+        "endChar": 28
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0168a274_1545d914",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "nit: I think either 1) remove \u0027only\u0027, or 2) replace \u0027but\u0027 with \u0027and\u0027.",
+      "range": {
+        "startLine": 46,
+        "startChar": 26,
+        "endLine": 46,
+        "endChar": 30
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e3f9de0_bd5ddf26",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "I think this is still experimental and unsupported on 3.5. Googlers?",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 13
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10c4bf6b_40bd3e58",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "This reads strangely. I can\u0027t tell what the new functionality is.",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 74
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad81fe1a_8ca96a5a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "mention new label:user\u003dnon_uploader ?",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20377e86_d3719459",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "We should explain what \u0027n\u0027 is here.",
+      "range": {
+        "startLine": 109,
+        "startChar": 46,
+        "endLine": 109,
+        "endChar": 49
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40fbdf64_11a1aba6",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "nit: , the GUI\n\nBut what error message? There\u0027s no context given for that. Maybe don’t mention it?",
+      "range": {
+        "startLine": 110,
+        "startChar": 17,
+        "endLine": 110,
+        "endChar": 18
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b29bd74f_4992b8cc",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "There\u0027s also reindex perf improvements that will merge up from 3.2/3.3/3.4",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd7647b0_036c08cc",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "nit: Java",
+      "range": {
+        "startLine": 117,
+        "startChar": 4,
+        "endLine": 117,
+        "endChar": 8
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd42d716_d3139cfa",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "You mention index changes in here too, so that should probably be in the title.",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d5b6cfe_1d9b46d3",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "Since \u0027init\u0027 almost always works across versions like this anyway, is it worth mentioning?",
+      "range": {
+        "startLine": 124,
+        "startChar": 65,
+        "endLine": 125,
+        "endChar": 58
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11abdd96_af4f81d2",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "optional only when upgrading from 3.4?",
+      "range": {
+        "startLine": 131,
+        "startChar": 43,
+        "endLine": 131,
+        "endChar": 51
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "daad86a6_3c4a3216",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "\u0027Gerrit v3.5.x supports\u0027?",
+      "range": {
+        "startLine": 139,
+        "startChar": 6,
+        "endLine": 139,
+        "endChar": 7
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a89ad13d_285e2cef",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "Should this just say \u0027using any API\u0027?",
+      "range": {
+        "startLine": 146,
+        "startChar": 30,
+        "endLine": 146,
+        "endChar": 46
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "477e8325_15c03e32",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "\u0027running\u0027?",
+      "range": {
+        "startLine": 150,
+        "startChar": 23,
+        "endLine": 150,
+        "endChar": 34
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "665607c8_150f5c29",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "What are secondary servers?",
+      "range": {
+        "startLine": 158,
+        "startChar": 37,
+        "endLine": 158,
+        "endChar": 46
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5bc62bf_4638633b",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "\u0027all\u0027?",
+      "range": {
+        "startLine": 165,
+        "startChar": 12,
+        "endLine": 165,
+        "endChar": 13
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "783a3472_f5c2acbd",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "Are there other homepage references to ES that should be updated now too?",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "461a12bf_2f1956b4",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "should be in breaking changes?",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "adf7b050_61d4029b",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "also breaking?",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12ab8afd_cbb01f9a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "There\u0027s other new APIs there were added, like \u0027commits:in\u0027. Let\u0027s re-check after we get stable branches merged up?",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e096b561_cda462c5",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-14T23:47:38Z",
+      "side": 1,
+      "message": "gitiles itself had changes too, those should get listed as plugin changes",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
