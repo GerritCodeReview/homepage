@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5226a852_7eb42aae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-14T17:45:24Z",
+      "side": 1,
+      "message": "This is now complete, @Matthias can you check the JGit parts? @Ben can you check the PolyGerrit parts? @Nasser can you check the backend parts?\n\nThanks a lot guys for the help and feedback, much appreciated ! 🙏",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
