@@ -387,6 +387,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ed060b1c_59cfb2c7",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2021-11-15T08:16:18Z",
+      "side": 1,
+      "message": "Does this means that we are officially supporting downgrades now?\nIf not, should this documented somewhere outside of the release notes and explicitly state that this is not officially supported?",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 23
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f5bc62bf_4638633b",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
