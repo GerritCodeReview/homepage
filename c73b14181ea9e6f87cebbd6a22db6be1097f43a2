@@ -16,6 +16,23 @@
       "message": "@Ben apologies I removed your +1 by mistake, my bad 😞",
       "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a260927_05425fb9",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011722
+      },
+      "writtenOn": "2021-11-16T20:44:25Z",
+      "side": 1,
+      "message": "Did composable submit requirements not make it into the 3.5 release?\n\n[0] https://gerrit-review.googlesource.com/c/homepage/+/279176",
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
