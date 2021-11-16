@@ -836,6 +836,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "406a6dde_2701466d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2021-11-16T13:03:46Z",
+      "side": 1,
+      "message": "Thanks, that would be good.\n\nJust out of curiosity, is someone verifying that these downgrades work, I assume we don\u0027t cover this by tests?",
+      "parentUuid": "42c53ee7_79b8de3f",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 23
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f5bc62bf_4638633b",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
