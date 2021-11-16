@@ -882,6 +882,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "636aae8c_80010682",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T14:01:28Z",
+      "side": 1,
+      "message": "the release managers do the upgrade / downgrade testing, limited to time we have and help we receive in doing that :-)\n\nif there are no schema changes, we assume that data is compatible and therefore downgrade is possible, but we double check just in case :-)",
+      "parentUuid": "406a6dde_2701466d",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 23
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f5bc62bf_4638633b",
