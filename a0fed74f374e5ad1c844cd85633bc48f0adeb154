@@ -154,6 +154,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fe54f9d8_2e4c12b1",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-11-16T12:56:42Z",
+      "side": 1,
+      "message": "Yes, this will only be part of 3.6 as it\u0027s still behind an experiment flag.",
+      "parentUuid": "5e3f9de0_bd5ddf26",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 13
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "10c4bf6b_40bd3e58",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
