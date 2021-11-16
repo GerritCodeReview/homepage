@@ -33,6 +33,259 @@
       "message": "Did composable submit requirements not make it into the 3.5 release?\n\n[0] https://gerrit-review.googlesource.com/c/homepage/+/279176",
       "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9c8705d_e8c93e50",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "Gerrit matches",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 18
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3930a87e_cba5494f",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "change",
+      "range": {
+        "startLine": 76,
+        "startChar": 8,
+        "endLine": 76,
+        "endChar": 15
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c6497b8_27163b5e",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "with the",
+      "range": {
+        "startLine": 82,
+        "startChar": 28,
+        "endLine": 82,
+        "endChar": 32
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3792aa93_45ab00cf",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "can now be searched",
+      "range": {
+        "startLine": 90,
+        "startChar": 22,
+        "endLine": 90,
+        "endChar": 38
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a343217_7279aea9",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "change predicates",
+      "range": {
+        "startLine": 95,
+        "startChar": 34,
+        "endLine": 95,
+        "endChar": 54
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "adf1e112_7306e1d3",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "matches any",
+      "range": {
+        "startLine": 95,
+        "startChar": 59,
+        "endLine": 95,
+        "endChar": 77
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "187676a8_c34c13d8",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "a computation of complexity\n\nI think n is the number of open changes for the project the change belongs to",
+      "range": {
+        "startLine": 108,
+        "startChar": 9,
+        "endLine": 108,
+        "endChar": 43
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c17aa11_b2cc8c07",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "I would leave out \"potentially\": ... you can upgrade ...",
+      "range": {
+        "startLine": 124,
+        "startChar": 5,
+        "endLine": 124,
+        "endChar": 32
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70b98b48_348c7f9c",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "change",
+      "range": {
+        "startLine": 126,
+        "startChar": 4,
+        "endLine": 126,
+        "endChar": 11
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8059665c_68b1e9e5",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "change",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 127,
+        "endChar": 7
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e68d7af5_d2ccd912",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-16T23:12:51Z",
+      "side": 1,
+      "message": "have",
+      "range": {
+        "startLine": 298,
+        "startChar": 57,
+        "endLine": 298,
+        "endChar": 60
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
