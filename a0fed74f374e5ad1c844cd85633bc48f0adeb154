@@ -178,6 +178,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "873bb496_e21a33be",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:59:33Z",
+      "side": 1,
+      "message": "Should we mention that is experimental? Or just remove it?",
+      "parentUuid": "fe54f9d8_2e4c12b1",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 13
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "10c4bf6b_40bd3e58",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
@@ -728,6 +752,30 @@
       "side": 1,
       "message": "Hmm, OK. Wasn\u0027t aware that this has been agreed on.",
       "parentUuid": "e29360c1_45bab1a2",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 23
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42c53ee7_79b8de3f",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:59:33Z",
+      "side": 1,
+      "message": "\u003e Hmm, OK. Wasn\u0027t aware that this has been agreed on.\n\nNot all version upgrades allow downgrading, some of them do others don\u0027t.\nv3.2 \u003d\u003e v3.3, v3.3 \u003d\u003e v3.4 and v3.4 \u003d\u003e v3.5 do allow downgrading (-1 version) but in general that may not be true for other versions.\n\nShould we possibly include a statement on that?",
+      "parentUuid": "805e1054_a0f5f7dc",
       "range": {
         "startLine": 160,
         "startChar": 0,
