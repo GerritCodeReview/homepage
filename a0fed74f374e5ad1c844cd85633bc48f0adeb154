@@ -81,6 +81,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3236847c_e58effc5",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0168a274_1545d914",
+      "range": {
+        "startLine": 46,
+        "startChar": 26,
+        "endLine": 46,
+        "endChar": 30
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e3f9de0_bd5ddf26",
@@ -106,6 +130,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7afd65a3_2459d9c6",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "@Ben or @Christophe?",
+      "parentUuid": "5e3f9de0_bd5ddf26",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 13
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "10c4bf6b_40bd3e58",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
@@ -117,6 +165,30 @@
       "writtenOn": "2021-11-14T23:47:38Z",
       "side": 1,
       "message": "This reads strangely. I can\u0027t tell what the new functionality is.",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 74
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d5d2f09_8a959922",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "From the documentation:\n\"has:attention\nTrue if the change has attention by the current user.\"\n\nHow would you rephrase it?",
+      "parentUuid": "10c4bf6b_40bd3e58",
       "range": {
         "startLine": 91,
         "startChar": 0,
@@ -169,6 +241,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f5fa2207_86c649a5",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "@Matthias? I believe this feature was developed by your Team?",
+      "parentUuid": "20377e86_d3719459",
+      "range": {
+        "startLine": 109,
+        "startChar": 46,
+        "endLine": 109,
+        "endChar": 49
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "40fbdf64_11a1aba6",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
@@ -180,6 +276,30 @@
       "writtenOn": "2021-11-14T23:47:38Z",
       "side": 1,
       "message": "nit: , the GUI\n\nBut what error message? There\u0027s no context given for that. Maybe don’t mention it?",
+      "range": {
+        "startLine": 110,
+        "startChar": 17,
+        "endLine": 110,
+        "endChar": 18
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7496297f_580f90bb",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "will just removed that part, done.",
+      "parentUuid": "40fbdf64_11a1aba6",
       "range": {
         "startLine": 110,
         "startChar": 17,
@@ -293,6 +413,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6d3cb51_0f1f951a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "Also from v3.3 the online reindex would work. Done.",
+      "parentUuid": "11abdd96_af4f81d2",
+      "range": {
+        "startLine": 131,
+        "startChar": 43,
+        "endLine": 131,
+        "endChar": 51
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "daad86a6_3c4a3216",
@@ -362,6 +506,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "02d523a7_1beab28d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "477e8325_15c03e32",
+      "range": {
+        "startLine": 150,
+        "startChar": 23,
+        "endLine": 150,
+        "endChar": 34
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "665607c8_150f5c29",
@@ -375,6 +543,30 @@
       "writtenOn": "2021-11-14T23:47:38Z",
       "side": 1,
       "message": "What are secondary servers?",
+      "range": {
+        "startLine": 158,
+        "startChar": 37,
+        "endLine": 158,
+        "endChar": 46
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da4750d4_01f1f73d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "Will just mention \"other\" Gerrit servers. Done.",
+      "parentUuid": "665607c8_150f5c29",
       "range": {
         "startLine": 158,
         "startChar": 37,
@@ -408,6 +600,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e29360c1_45bab1a2",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "We officially supported downgrade for two releases (see [1] and [2]).\n\n[1] https://www.gerritcodereview.com/3.3.html#downgrade\n[2] https://www.gerritcodereview.com/3.4.html#downgrade",
+      "parentUuid": "ed060b1c_59cfb2c7",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 23
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f5bc62bf_4638633b",
@@ -421,6 +637,30 @@
       "writtenOn": "2021-11-14T23:47:38Z",
       "side": 1,
       "message": "\u0027all\u0027?",
+      "range": {
+        "startLine": 165,
+        "startChar": 12,
+        "endLine": 165,
+        "endChar": 13
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "064d55aa_589412cd",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5bc62bf_4638633b",
       "range": {
         "startLine": 165,
         "startChar": 12,
@@ -450,6 +690,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0d133eb1_93dd93f8",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "True, I will address that in a separate change.",
+      "parentUuid": "783a3472_f5c2acbd",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "461a12bf_2f1956b4",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
@@ -461,6 +719,24 @@
       "writtenOn": "2021-11-14T23:47:38Z",
       "side": 1,
       "message": "should be in breaking changes?",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a321c325_338363f2",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "461a12bf_2f1956b4",
       "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -482,6 +758,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f654185_44bfc30a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "adf7b050_61d4029b",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "12ab8afd_cbb01f9a",
@@ -499,6 +793,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b8232d1_53e301a6",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "Yes, this is just an initial draft which doesn\u0027t contain yet the full list of API changes.",
+      "parentUuid": "12ab8afd_cbb01f9a",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e096b561_cda462c5",
@@ -512,6 +824,24 @@
       "writtenOn": "2021-11-14T23:47:38Z",
       "side": 1,
       "message": "gitiles itself had changes too, those should get listed as plugin changes",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcb5b510_b8b55df3",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-16T12:50:54Z",
+      "side": 1,
+      "message": "I checked but did not find any user-relevant change: can you list the changes you believe should be mentioned here?",
+      "parentUuid": "e096b561_cda462c5",
       "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
