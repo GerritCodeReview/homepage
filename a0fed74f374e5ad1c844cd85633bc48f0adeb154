@@ -202,6 +202,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f1063d12_4aa3be27",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1139611
+      },
+      "writtenOn": "2021-11-16T13:01:28Z",
+      "side": 1,
+      "message": "I would remove it for now and just announce it in the next release?",
+      "parentUuid": "873bb496_e21a33be",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 13
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "10c4bf6b_40bd3e58",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
