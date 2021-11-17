@@ -1420,6 +1420,24 @@
       "parentUuid": "6c64c237_1b13a1d6",
       "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96644427_a96110da",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T23:39:47Z",
+      "side": 1,
+      "message": "I went through all the changes (one by one manually) and included all the ones that have a user impact. The others are code modifications without a user impact.\n\nThis should be then final 😊",
+      "parentUuid": "2ed9e693_c3f0068c",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
