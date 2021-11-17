@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "be36a7ef_cc743095",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Exactly, they aren\u0027t ready yet and they will be complete for v3.6.",
+      "parentUuid": "2a260927_05425fb9",
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d9c8705d_e8c93e50",
@@ -48,6 +66,30 @@
       "writtenOn": "2021-11-16T23:12:51Z",
       "side": 1,
       "message": "Gerrit matches",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 18
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08ce95a6_25fe9ed3",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9c8705d_e8c93e50",
       "range": {
         "startLine": 68,
         "startChar": 0,
@@ -81,6 +123,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6496d3f_8b39874a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3930a87e_cba5494f",
+      "range": {
+        "startLine": 76,
+        "startChar": 8,
+        "endLine": 76,
+        "endChar": 15
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7c6497b8_27163b5e",
@@ -104,6 +170,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbe9556a_7632136e",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7c6497b8_27163b5e",
+      "range": {
+        "startLine": 82,
+        "startChar": 28,
+        "endLine": 82,
+        "endChar": 32
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3792aa93_45ab00cf",
@@ -117,6 +207,30 @@
       "writtenOn": "2021-11-16T23:12:51Z",
       "side": 1,
       "message": "can now be searched",
+      "range": {
+        "startLine": 90,
+        "startChar": 22,
+        "endLine": 90,
+        "endChar": 38
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5daf5ab8_f68e3517",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3792aa93_45ab00cf",
       "range": {
         "startLine": 90,
         "startChar": 22,
@@ -173,6 +287,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "352654f1_029f5bde",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a343217_7279aea9",
+      "range": {
+        "startLine": 95,
+        "startChar": 34,
+        "endLine": 95,
+        "endChar": 54
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1b8b8d4_565f89f2",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "adf1e112_7306e1d3",
+      "range": {
+        "startLine": 95,
+        "startChar": 59,
+        "endLine": 95,
+        "endChar": 77
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "187676a8_c34c13d8",
@@ -186,6 +348,30 @@
       "writtenOn": "2021-11-16T23:12:51Z",
       "side": 1,
       "message": "a computation of complexity\n\nI think n is the number of open changes for the project the change belongs to",
+      "range": {
+        "startLine": 108,
+        "startChar": 9,
+        "endLine": 108,
+        "endChar": 43
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ef19485_40f2a816",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "187676a8_c34c13d8",
       "range": {
         "startLine": 108,
         "startChar": 9,
@@ -219,6 +405,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ff8962e_9376a81f",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c17aa11_b2cc8c07",
+      "range": {
+        "startLine": 124,
+        "startChar": 5,
+        "endLine": 124,
+        "endChar": 32
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "70b98b48_348c7f9c",
@@ -232,6 +442,30 @@
       "writtenOn": "2021-11-16T23:12:51Z",
       "side": 1,
       "message": "change",
+      "range": {
+        "startLine": 126,
+        "startChar": 4,
+        "endLine": 126,
+        "endChar": 11
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0408a13f_e970650b",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "The name of the index is \u0027changes\u0027, I\u0027ll put it in backticks to make it explicit.",
+      "parentUuid": "70b98b48_348c7f9c",
       "range": {
         "startLine": 126,
         "startChar": 4,
@@ -265,6 +499,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "87ae8584_8c410920",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "removed as it obvious that is referring to the same index of the previous sentence.",
+      "parentUuid": "8059665c_68b1e9e5",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 127,
+        "endChar": 7
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e68d7af5_d2ccd912",
@@ -278,6 +536,30 @@
       "writtenOn": "2021-11-16T23:12:51Z",
       "side": 1,
       "message": "have",
+      "range": {
+        "startLine": 298,
+        "startChar": 57,
+        "endLine": 298,
+        "endChar": 60
+      },
+      "revId": "c73b14181ea9e6f87cebbd6a22db6be1097f43a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cb5b47a_3de47ea7",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e68d7af5_d2ccd912",
       "range": {
         "startLine": 298,
         "startChar": 57,

@@ -343,6 +343,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "204778c7_8a21a255",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "81160b1a_47fea050",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 74
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ad81fe1a_8ca96a5a",
@@ -415,6 +439,30 @@
       "side": 1,
       "message": "@Matthias? I believe this feature was developed by your Team?",
       "parentUuid": "20377e86_d3719459",
+      "range": {
+        "startLine": 109,
+        "startChar": 46,
+        "endLine": 109,
+        "endChar": 49
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbc17740_a57d56d1",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T01:26:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5fa2207_86c649a5",
       "range": {
         "startLine": 109,
         "startChar": 46,
