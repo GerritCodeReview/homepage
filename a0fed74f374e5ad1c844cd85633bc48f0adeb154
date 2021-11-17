@@ -726,6 +726,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e37e0092_564ceb03",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T22:22:04Z",
+      "side": 1,
+      "message": "We typically include the upgrade instructions from the previous version to the next one.\n\nThis v3.5.0 is an exception because is the first version where there have not been schema changes for *two releases* 😊 so I thought it would be useful to mention that.\n\nBut I agree with you that it could be confusing. Let me remove it for now.",
+      "parentUuid": "3c70628a_443f4740",
+      "range": {
+        "startLine": 124,
+        "startChar": 65,
+        "endLine": 125,
+        "endChar": 58
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "11abdd96_af4f81d2",
@@ -1340,6 +1364,24 @@
       "side": 1,
       "message": "I don\u0027t know the impact of these really, so you could list them, or point to Change If79abff9de7e:\n\n    5764066 Redirect gitiles url using Repo\u0027s branch redirect config when format type is default (not provided in gitiles url).\n    2c2494b Fix straggling FQN template call.\n    fbe16e8 Support branch redirect in Gitiles\n    b592dbe Add support for rendering webp image files\n    5eb9439 Set correct target url for symlinks\n    b86eda9 Drop u-pre\u0027s font-weight",
       "parentUuid": "fcb5b510_b8b55df3",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4e05ae2_e919b222",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T22:22:04Z",
+      "side": 1,
+      "message": "True, some of them can be impacting the user. Let me dig into them.",
+      "parentUuid": "930c38eb_d413b45e",
       "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
