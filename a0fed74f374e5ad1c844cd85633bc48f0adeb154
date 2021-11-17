@@ -557,6 +557,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "588615c6_aa894f33",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-17T17:37:18Z",
+      "side": 1,
+      "message": "Sure! I\u0027ll leave unresolved until I actually push that change so I don\u0027t forget :)",
+      "parentUuid": "599d72be_eb667e94",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bd7647b0_036c08cc",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 6
@@ -674,6 +692,30 @@
       "side": 1,
       "message": "How would you mention it?",
       "parentUuid": "8d5b6cfe_1d9b46d3",
+      "range": {
+        "startLine": 124,
+        "startChar": 65,
+        "endLine": 125,
+        "endChar": 58
+      },
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c70628a_443f4740",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-17T17:37:18Z",
+      "side": 1,
+      "message": "My comment was too vague, sorry. I meant I would not mention at all.\n\nIf I had to mention something, I\u0027m really not sure what it would be. What\u0027s the intent of this message? i.e. what would an admin/user do differently because of it?",
+      "parentUuid": "426ba39d_d3619d9c",
       "range": {
         "startLine": 124,
         "startChar": 65,
@@ -1280,6 +1322,24 @@
       "side": 1,
       "message": "I checked but did not find any user-relevant change: can you list the changes you believe should be mentioned here?",
       "parentUuid": "e096b561_cda462c5",
+      "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "930c38eb_d413b45e",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-17T17:37:18Z",
+      "side": 1,
+      "message": "I don\u0027t know the impact of these really, so you could list them, or point to Change If79abff9de7e:\n\n    5764066 Redirect gitiles url using Repo\u0027s branch redirect config when format type is default (not provided in gitiles url).\n    2c2494b Fix straggling FQN template call.\n    fbe16e8 Support branch redirect in Gitiles\n    b592dbe Add support for rendering webp image files\n    5eb9439 Set correct target url for symlinks\n    b86eda9 Drop u-pre\u0027s font-weight",
+      "parentUuid": "fcb5b510_b8b55df3",
       "revId": "a0fed74f374e5ad1c844cd85633bc48f0adeb154",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }

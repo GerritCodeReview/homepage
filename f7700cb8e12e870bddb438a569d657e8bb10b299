@@ -33,6 +33,52 @@
       "message": "Thanks everyone for the fixes and feedback, much appreciated 👍 🙏",
       "revId": "f7700cb8e12e870bddb438a569d657e8bb10b299",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be9df7ee_2a1f48d0",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-17T17:37:18Z",
+      "side": 1,
+      "message": "typo: to",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 2
+      },
+      "revId": "f7700cb8e12e870bddb438a569d657e8bb10b299",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "555776a1_7bf4fd4a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-17T17:37:18Z",
+      "side": 1,
+      "message": "nit: docs call this \u0027offline\u0027 always",
+      "range": {
+        "startLine": 131,
+        "startChar": 7,
+        "endLine": 131,
+        "endChar": 15
+      },
+      "revId": "f7700cb8e12e870bddb438a569d657e8bb10b299",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
