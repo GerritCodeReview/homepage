@@ -33,6 +33,24 @@
       "message": "Opening the Gerrit change for this seems to be broken, but mention:\n\n commit 0cdfd5cecf1c2493f48dbbd930ac0817b9b79839\n Author: Thomas Dräbing \u003cthomas.draebing@sap.com\u003e\n Date:   Mon Aug 9 10:36:40 2021 +0200\n \n     Fix disabling of plugin project config option in UI\n \n     Plugins can provide their own project configuration options. The\n     ProjectConfigEntry class is used for that purpose and also allows\n     to declare an option editable or not by overriding the isEditable()\n     method. However, this was not applied in the UI. The field in the\n     form was still enabled. An error was only raised, when trying to\n     save the change.\n \n     Change-Id: Iad6153087f19cf758adb661489dda0efeddb5423\n\nAlso mention https://gerrit-review.googlesource.com/c/gerrit/+/320979 as a Dependency Update if that is merged before 3.4.2.",
       "revId": "842b97fb84b8e84705655066b29056a5a9f49130",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a2d67a3_f7528115",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1478,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-17T22:11:55Z",
+      "side": 1,
+      "message": "That will be possibly included also in:\n- v3.2.14\n- v3.3.8",
+      "parentUuid": "82d2f0cd_512d76ac",
+      "revId": "842b97fb84b8e84705655066b29056a5a9f49130",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
