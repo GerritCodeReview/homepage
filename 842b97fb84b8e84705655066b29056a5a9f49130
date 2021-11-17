@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0f53a40e_d967ab61",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1453,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-17T22:35:10Z",
+      "side": 1,
+      "message": "And there\u0027s a bunch of other reindex improvements added in https://gerrit-review.googlesource.com/q/hashtag:reindex-optimizations+status:merged and a few more that will finish in the next day or so https://gerrit-review.googlesource.com/q/hashtag:reindex-optimizations+status:open",
+      "parentUuid": "5a1b263e_1927672e",
+      "revId": "842b97fb84b8e84705655066b29056a5a9f49130",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "82d2f0cd_512d76ac",
         "filename": "pages/site/releases/3.4.md",
         "patchSetId": 1
@@ -49,6 +67,24 @@
       "side": 1,
       "message": "That will be possibly included also in:\n- v3.2.14\n- v3.3.8",
       "parentUuid": "82d2f0cd_512d76ac",
+      "revId": "842b97fb84b8e84705655066b29056a5a9f49130",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aca3de44_e1f8394e",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1478,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-17T22:35:10Z",
+      "side": 1,
+      "message": "+1. We still list it here too though, correct?",
+      "parentUuid": "1a2d67a3_f7528115",
       "revId": "842b97fb84b8e84705655066b29056a5a9f49130",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
