@@ -25,16 +25,10 @@ Target: Q2 2022
 
 See [Google 2021 Q4 OKRs](google-okrs.html).
 
-## Gerrit 3.5
-Target: Q4 2021
-
-See [Google 2021 Q3 OKRs](google-okrs.html).
-
 * UX
   * Composable SubmitRules
-* Switch language level to Java 11
 
-## Upcoming plugin improvements related to Gerrit 3.5
+## Upcoming plugin improvements related to Gerrit 3.6
 * New plugin: Allow group deletion
 * Replication plugin
   * Recover events on time basis instead of startup
