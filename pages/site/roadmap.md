@@ -48,7 +48,15 @@ See [Google 2021 Q3 OKRs](google-okrs.html).
   * Mention HA and setup for multiple primary hosts in Gerrit documentation
 
 ## Upgrades from 2.7 to latest stable release
-* Be able to upgrade a huge site (Qualcomm) from 2.7 to latest stable release
-  in less than 24 hours
-  * 2.16.x: Improve NoteDb offline migration speed (current timing is 24+ hours for Qualcomm)
-  * Improve upgrade speed for specifically slow schemas
+* Be able to upgrade a huge site
+  ([Qualcomm](https://groups.google.com/g/repo-discuss/c/WVwvngCkRMs/)) from 2.7
+  to latest stable release in less than 4 hours
+  * [Improve](https://gerrit-review.googlesource.com/q/hashtag:notedb-migration-optimizations)
+    NoteDb offline migration speed (current timing is ~2.5 hours for Qualcomm)
+    * Additional improvements planned through Q1 2022
+  * [Improve](https://gerrit-review.googlesource.com/q/hashtag:schema-optimizations)
+    schema upgrade speed (current timing is ~3 hours for Qualcomm)
+    * Additional improvements planned through Q1 2022
+  * [Improve](https://gerrit-review.googlesource.com/q/hashtag:reindex-optimizations)
+    offline reindex speed (current timing is ~2 hours for Qualcomm)
+    * Additional improvements planned through Q1 2022
