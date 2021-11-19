@@ -49,6 +49,16 @@ See [Google 2021 Q3 OKRs](google-okrs.html).
 
 ## Upgrades from 2.7 to latest stable release
 * Be able to upgrade a huge site (Qualcomm) from 2.7 to latest stable release
-  in less than 24 hours
-  * 2.16.x: Improve NoteDb offline migration speed (current timing is 24+ hours for Qualcomm)
-  * Improve upgrade speed for specifically slow schemas
+  in less than 4 hours
+  * Improve NoteDb offline migration speed (current timing is ~2.5 hours for Qualcomm)
+    * Significant
+      [improvements completed](https://gerrit-review.googlesource.com/q/hashtag:notedb-migration-optimizations).
+    * Additional improvements planned through Q1 2022
+  * Improve schema upgrade speed (current timing is ~3 hours for Qualcomm)
+    * Significant
+      [improvements completed](https://gerrit-review.googlesource.com/q/hashtag:schema-optimizations).
+    * Additional improvements planned through Q1 2022
+  * Improve offline reindex speed (current timing is ~2 hours for Qualcomm)
+    * Significant
+      [improvements completed](https://gerrit-review.googlesource.com/q/hashtag:reindex-optimizations).
+    * Additional improvements planned through Q1 2022
