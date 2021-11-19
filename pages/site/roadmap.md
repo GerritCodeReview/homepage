@@ -33,7 +33,6 @@ See [Google 2021 Q3 OKRs](google-okrs.html).
 * UX
   * Composable SubmitRules
 * Switch language level to Java 11
-* Support for race-free zero-downtime pruning of git packed objects
 
 ## Upcoming plugin improvements related to Gerrit 3.5
 * New plugin: Allow group deletion
