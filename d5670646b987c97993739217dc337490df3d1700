@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa881361_371f9412",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2021-11-20T00:01:13Z",
+      "side": 1,
+      "message": "i had serious trouble to parse this correctly. maybe say \"Update improvement plans for upgrading huge sites\" instead.",
+      "revId": "d5670646b987c97993739217dc337490df3d1700",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8befbe8b_78cde0cd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2021-11-20T00:01:13Z",
+      "side": 1,
+      "message": "gerrit tells me that the lines are too long, and i\u0027m inclined to believe it (limit is 72, not 80). ^^",
+      "revId": "d5670646b987c97993739217dc337490df3d1700",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eab7a0ff_2c35425e",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2021-11-20T00:01:13Z",
+      "side": 1,
+      "message": "does that belong into a roadmap, though? i see that you need it as an \"anchor\" for the next item, but maybe there is a more clever way to link it.",
+      "range": {
+        "startLine": 54,
+        "startChar": 1,
+        "endLine": 55,
+        "endChar": 112
+      },
+      "revId": "d5670646b987c97993739217dc337490df3d1700",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
