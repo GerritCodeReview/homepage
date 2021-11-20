@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "53810249_13b8e6fd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-20T00:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa881361_371f9412",
+      "revId": "d5670646b987c97993739217dc337490df3d1700",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8befbe8b_78cde0cd",
@@ -35,6 +53,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2a684a3_9f03104b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-20T00:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8befbe8b_78cde0cd",
+      "revId": "d5670646b987c97993739217dc337490df3d1700",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eab7a0ff_2c35425e",
@@ -48,6 +84,30 @@
       "writtenOn": "2021-11-20T00:01:13Z",
       "side": 1,
       "message": "does that belong into a roadmap, though? i see that you need it as an \"anchor\" for the next item, but maybe there is a more clever way to link it.",
+      "range": {
+        "startLine": 54,
+        "startChar": 1,
+        "endLine": 55,
+        "endChar": 112
+      },
+      "revId": "d5670646b987c97993739217dc337490df3d1700",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07a07ebb_8d7e1974",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-20T00:20:41Z",
+      "side": 1,
+      "message": "Yeah, I wanted to point to progress that has happened so that people wouldn\u0027t think this is just \"someday maybe\". I made an attempt at updating that condensed this. PTAL?",
+      "parentUuid": "eab7a0ff_2c35425e",
       "range": {
         "startLine": 54,
         "startChar": 1,
