@@ -39,6 +39,30 @@
       },
       "revId": "f1da5324229a2b52a7147edb80266266bb0a98fa",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7ca193e_40ff9cd2",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 710,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-21T22:27:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2aead44_314b3ec4",
+      "range": {
+        "startLine": 710,
+        "startChar": 75,
+        "endLine": 710,
+        "endChar": 76
+      },
+      "revId": "f1da5324229a2b52a7147edb80266266bb0a98fa",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
