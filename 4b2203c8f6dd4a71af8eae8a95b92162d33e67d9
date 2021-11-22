@@ -16,6 +16,24 @@
       "message": "that\u0027s not a description matching the summary. ;)\n\nyou can split this into two atomic changes, or use a non-descript summary like \"roadmap tweaks\".",
       "revId": "4b2203c8f6dd4a71af8eae8a95b92162d33e67d9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14aced11_fea24a43",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-11-22T11:13:10Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4dfc1b95_803ac392",
+      "revId": "4b2203c8f6dd4a71af8eae8a95b92162d33e67d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
