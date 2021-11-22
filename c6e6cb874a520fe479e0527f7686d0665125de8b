@@ -132,6 +132,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a3e3b3f8_6b9b1c16",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1105741
+      },
+      "writtenOn": "2021-11-22T21:43:09Z",
+      "side": 1,
+      "message": "Flushes now happen only based on ramBufferSize(default 16Mb) and maxBufferedDocs settings. Without this change flushes happen on every index call.\n\n\nhttps://gerrit-review.googlesource.com/c/gerrit/+/322296/6/Documentation/config-gerrit.txt#3133",
+      "parentUuid": "58ab8092_dba36278",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fc95e656_b0117892",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 1
@@ -161,6 +179,24 @@
       "side": 1,
       "message": "@Nasser? @Adithya?",
       "parentUuid": "fc95e656_b0117892",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38b79045_7ccecdb9",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1105741
+      },
+      "writtenOn": "2021-11-22T21:43:09Z",
+      "side": 1,
+      "message": "Even though auto flushing is disabled, flushes still happen if you dont configure your index to be big enough based on the 16Mb default ram buffer size. If we use updateDocument(). ramBufferSize limit is reached early since its accounting the size of something to be deleted but in reality there is nothing to delete since we deleted the entire index at the beginning. \n\nSo if you don\u0027t configure you ramBufferSize to be big enough it would reduce the the # of flushes. If you have big enough ramBufferSize, this would be more of a correctness change.",
+      "parentUuid": "921477b7_f5ccb294",
       "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
