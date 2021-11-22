@@ -239,6 +239,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "01130e3a_7dee8243",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1105741
+      },
+      "writtenOn": "2021-11-22T21:57:16Z",
+      "side": 1,
+      "message": "Sorry many typos.\n\nIf ramBufferSize is NOT configured to be big enough, we would basically reduce the number of flushes even further with this change that are happening during reindex cmd. Since, we are not doing early flushes now.\n\nIf ramBufferSize is big enough and the above change is included, With or without this change, we would only have single flush per index at the end of reindex command. But using insertDocument() instead of updateDocument()is more of a correct thing to do, since we know that our index is empty.",
+      "parentUuid": "c8f718e5_bf3304b3",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f05fcbd1_eac47fcb",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 1
