@@ -1,0 +1,176 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a089277_cb366924",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 622,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-22T09:38:09Z",
+      "side": 1,
+      "message": "statistics",
+      "range": {
+        "startLine": 622,
+        "startChar": 16,
+        "endLine": 622,
+        "endChar": 21
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9760c75_df185533",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 630,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-22T09:38:09Z",
+      "side": 1,
+      "message": "Reindexing",
+      "range": {
+        "startLine": 630,
+        "startChar": 2,
+        "endLine": 630,
+        "endChar": 10
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75b17fed_e6a94f42",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-22T09:38:09Z",
+      "side": 1,
+      "message": "does this imply that some lucene buffer needs to be large enough to make this work or does Lucene or Gerrit handle this automatically ?",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc95e656_b0117892",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-22T09:38:09Z",
+      "side": 1,
+      "message": "this is hard to understand without context, add details ?\n\n\"Since offline reindexing starts off by deleting the index, it\u0027s better\nto call IndexWriter.addDocument() while adding documents to the new\nindex instead of IndexWriter.updateDocument(). This avoids deletes\nfrom the index during lucene flushes.\"\n\nBut what does this mean with the change above disabling Lucene auto flushing ?",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f05fcbd1_eac47fcb",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 657,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-22T09:38:09Z",
+      "side": 1,
+      "message": "Fix GC action not shown in project commands",
+      "range": {
+        "startLine": 657,
+        "startChar": 2,
+        "endLine": 657,
+        "endChar": 47
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e37e8e85_8d5ab417",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-22T09:38:09Z",
+      "side": 1,
+      "message": "for",
+      "range": {
+        "startLine": 660,
+        "startChar": 33,
+        "endLine": 660,
+        "endChar": 37
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "157e0e37_522b6629",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-22T09:38:09Z",
+      "side": 1,
+      "message": "\u0027/\u0027",
+      "range": {
+        "startLine": 660,
+        "startChar": 54,
+        "endLine": 660,
+        "endChar": 55
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf53d7c3_5d3fbd5d",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-11-22T09:38:09Z",
+      "side": 1,
+      "message": "Ensure that user without edit permission can\u0027t change plugin configuration",
+      "range": {
+        "startLine": 663,
+        "startChar": 2,
+        "endLine": 663,
+        "endChar": 66
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
