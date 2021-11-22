@@ -150,6 +150,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "59338954_b076c1b2",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T21:48:15Z",
+      "side": 1,
+      "message": "Thanks, I\u0027ll add those details.",
+      "parentUuid": "a3e3b3f8_6b9b1c16",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fc95e656_b0117892",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 1
@@ -197,6 +215,24 @@
       "side": 1,
       "message": "Even though auto flushing is disabled, flushes still happen if you dont configure your index to be big enough based on the 16Mb default ram buffer size. If we use updateDocument(). ramBufferSize limit is reached early since its accounting the size of something to be deleted but in reality there is nothing to delete since we deleted the entire index at the beginning. \n\nSo if you don\u0027t configure you ramBufferSize to be big enough it would reduce the the # of flushes. If you have big enough ramBufferSize, this would be more of a correctness change.",
       "parentUuid": "921477b7_f5ccb294",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8f718e5_bf3304b3",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T21:48:15Z",
+      "side": 1,
+      "message": "\u003e Even though auto flushing is disabled, flushes still happen if you dont configure your index to be big enough based on the 16Mb default ram buffer size. If we use updateDocument(). ramBufferSize limit is reached early since its accounting the size of something to be deleted but in reality there is nothing to delete since we deleted the entire index at the beginning. \n\nThanks, I\u0027ll add those details.\n\n\u003e So if you don\u0027t configure you ramBufferSize to be big enough it would reduce the the # of flushes. If you have big enough ramBufferSize, this would be more of a correctness change.\n\nI am not sure I understand the above statements: could you rephrase them differently?",
+      "parentUuid": "38b79045_7ccecdb9",
       "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
