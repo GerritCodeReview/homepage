@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d07f7376_3f59d31c",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 622,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T09:43:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a089277_cb366924",
+      "range": {
+        "startLine": 622,
+        "startChar": 16,
+        "endLine": 622,
+        "endChar": 21
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c9760c75_df185533",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-11-22T09:38:09Z",
       "side": 1,
       "message": "Reindexing",
+      "range": {
+        "startLine": 630,
+        "startChar": 2,
+        "endLine": 630,
+        "endChar": 10
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "913cc2c9_e490393e",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 630,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T09:43:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9760c75_df185533",
       "range": {
         "startLine": 630,
         "startChar": 2,
@@ -66,6 +114,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "58ab8092_dba36278",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T09:43:18Z",
+      "side": 1,
+      "message": "@Nasser? @Adithya?",
+      "parentUuid": "75b17fed_e6a94f42",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fc95e656_b0117892",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 1
@@ -83,6 +149,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "921477b7_f5ccb294",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T09:43:18Z",
+      "side": 1,
+      "message": "@Nasser? @Adithya?",
+      "parentUuid": "fc95e656_b0117892",
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f05fcbd1_eac47fcb",
         "filename": "pages/site/releases/3.2.md",
         "patchSetId": 1
@@ -94,6 +178,30 @@
       "writtenOn": "2021-11-22T09:38:09Z",
       "side": 1,
       "message": "Fix GC action not shown in project commands",
+      "range": {
+        "startLine": 657,
+        "startChar": 2,
+        "endLine": 657,
+        "endChar": 47
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7627ca56_0dabc637",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 657,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T09:43:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f05fcbd1_eac47fcb",
       "range": {
         "startLine": 657,
         "startChar": 2,
@@ -150,6 +258,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c6b0fe2_d0118215",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T09:43:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "157e0e37_522b6629",
+      "range": {
+        "startLine": 660,
+        "startChar": 54,
+        "endLine": 660,
+        "endChar": 55
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48b2b8d0_79df4e37",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T09:43:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e37e8e85_8d5ab417",
+      "range": {
+        "startLine": 660,
+        "startChar": 33,
+        "endLine": 660,
+        "endChar": 37
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bf53d7c3_5d3fbd5d",
@@ -163,6 +319,30 @@
       "writtenOn": "2021-11-22T09:38:09Z",
       "side": 1,
       "message": "Ensure that user without edit permission can\u0027t change plugin configuration",
+      "range": {
+        "startLine": 663,
+        "startChar": 2,
+        "endLine": 663,
+        "endChar": 66
+      },
+      "revId": "c6e6cb874a520fe479e0527f7686d0665125de8b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d380e251_063a84f1",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T09:43:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf53d7c3_5d3fbd5d",
       "range": {
         "startLine": 663,
         "startChar": 2,
