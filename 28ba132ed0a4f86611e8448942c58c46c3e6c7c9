@@ -16,6 +16,24 @@
       "message": "These can be added too.\n\nhttps://gerrit-review.googlesource.com/c/gerrit/+/321635\nhttps://gerrit-review.googlesource.com/c/gerrit/+/319997",
       "revId": "28ba132ed0a4f86611e8448942c58c46c3e6c7c9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "767c36d5_3f22d36f",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 762,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-22T21:31:40Z",
+      "side": 1,
+      "message": "Thanks @Adithya, can you add them as a follow-up change?",
+      "parentUuid": "35c169f5_5daaa8cf",
+      "revId": "28ba132ed0a4f86611e8448942c58c46c3e6c7c9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
