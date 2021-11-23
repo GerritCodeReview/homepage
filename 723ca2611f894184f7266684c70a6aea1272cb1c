@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e44d060a_22202750",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-23T21:22:30Z",
+      "side": 1,
+      "message": "Thanks for contributing it, just a minor nit.",
+      "revId": "723ca2611f894184f7266684c70a6aea1272cb1c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9fd10800_1031dd83",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-23T21:22:30Z",
+      "side": 1,
+      "message": "nit: add \u0027:\u0027 at the end of L730",
+      "revId": "723ca2611f894184f7266684c70a6aea1272cb1c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
