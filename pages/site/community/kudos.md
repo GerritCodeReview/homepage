@@ -36,6 +36,21 @@ Please add new kudos at the top of this list.
 
 ---
 
+**[$2021-11-23] To: Patrick Mulhall (aka Paladox)**
+
+```
+Thank you Patrick for your continued work on Lit migration and TS migration for
+Gerrit FE.  Thanks to your efforts we have now migrated over 20% of all
+components to Lit.
+A big thank you for all your contributions!
+```
+
+From: Chris Poucet (Google)
+
+---
+
+---
+
 **[$2021-10-28] To: David Ostrovsky**
 
 ```
