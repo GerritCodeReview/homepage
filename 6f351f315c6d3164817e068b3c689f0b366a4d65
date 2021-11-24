@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c2d179f_f22d12b8",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 636,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-24T01:14:40Z",
+      "side": 1,
+      "message": "this repeats the line above?",
+      "range": {
+        "startLine": 635,
+        "startChar": 4,
+        "endLine": 636,
+        "endChar": 26
+      },
+      "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7611f4cc_dd26a765",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-24T01:14:40Z",
+      "side": 1,
+      "message": "Not a perf change? Should go in bugfixes probably.",
+      "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a8784f4_3a50b188",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 699,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-24T01:14:40Z",
+      "side": 1,
+      "message": "also add bugfixes:\n\n* 316702: ListAccess: Fix incorrect behavior when group appears twice for same rule | https://gerrit-review.googlesource.com/c/gerrit/+/316702\n\n\n* 314962: Fix DynamicOptions to invoke listeners registered to BeanParseListener | https://gerrit-review.googlesource.com/c/gerrit/+/314962\n\n* 323255: AllChangesIndexer: skip creating slices for projects with no changes | https://gerrit-review.googlesource.com/c/gerrit/+/323255\n\n* 323635: Fix disabling repo configs if you do not have permissions to edit | https://gerrit-review.googlesource.com/c/gerrit/+/323635\n\nFeatures:\n\n* 308610: Update jgit to 5.1.16.202106041830-r | https://gerrit-review.googlesource.com/c/gerrit/+/308610",
+      "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
