@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bbffc62_97a8bbb1",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 636,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-25T00:24:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c2d179f_f22d12b8",
+      "range": {
+        "startLine": 635,
+        "startChar": 4,
+        "endLine": 636,
+        "endChar": 26
+      },
+      "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7611f4cc_dd26a765",
@@ -41,6 +65,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d90be5a_1e61695d",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-25T00:24:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7611f4cc_dd26a765",
+      "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3a8784f4_3a50b188",
@@ -54,6 +96,24 @@
       "writtenOn": "2021-11-24T01:14:40Z",
       "side": 1,
       "message": "also add bugfixes:\n\n* 316702: ListAccess: Fix incorrect behavior when group appears twice for same rule | https://gerrit-review.googlesource.com/c/gerrit/+/316702\n\n\n* 314962: Fix DynamicOptions to invoke listeners registered to BeanParseListener | https://gerrit-review.googlesource.com/c/gerrit/+/314962\n\n* 323255: AllChangesIndexer: skip creating slices for projects with no changes | https://gerrit-review.googlesource.com/c/gerrit/+/323255\n\n* 323635: Fix disabling repo configs if you do not have permissions to edit | https://gerrit-review.googlesource.com/c/gerrit/+/323635\n\nFeatures:\n\n* 308610: Update jgit to 5.1.16.202106041830-r | https://gerrit-review.googlesource.com/c/gerrit/+/308610",
+      "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c0aed88_55f431bf",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 699,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-25T00:24:20Z",
+      "side": 1,
+      "message": "\u003e also add bugfixes:\n\u003e \n\u003e * 316702: ListAccess: Fix incorrect behavior when group appears twice for same rule | https://gerrit-review.googlesource.com/c/gerrit/+/316702\n\nDone.\n\n\u003e * 314962: Fix DynamicOptions to invoke listeners registered to BeanParseListener | https://gerrit-review.googlesource.com/c/gerrit/+/314962\n\nDone.\n\n\u003e * 323255: AllChangesIndexer: skip creating slices for projects with no changes | https://gerrit-review.googlesource.com/c/gerrit/+/323255\n\nI checked the change but I could not find any user-visible change in terms of functionality or performance.\nHow would you explain what the Gerrit admin should expect as change. in Gerrit\nbehaviour or performance?\n\n\u003e * 323635: Fix disabling repo configs if you do not have permissions to edit | https://gerrit-review.googlesource.com/c/gerrit/+/323635\n\nIt is already included in L688.\n\n\u003e Features:\n\u003e \n\u003e * 308610: Update jgit to 5.1.16.202106041830-r | https://gerrit-review.googlesource.com/c/gerrit/+/308610\n\nTrue, it was also missing in v2.16.24 release notes. Added to both.",
+      "parentUuid": "3a8784f4_3a50b188",
       "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
