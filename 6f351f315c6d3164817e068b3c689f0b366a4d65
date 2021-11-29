@@ -134,6 +134,24 @@
       "parentUuid": "8c0aed88_55f431bf",
       "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "681f272e_9d5754b6",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 699,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-29T20:36:01Z",
+      "side": 1,
+      "message": "\u003e \u003e 323255: AllChangesIndexer: skip creating slices for projects with no changes | https://gerrit-review.googlesource.com/c/gerrit/+/323255\n\u003e I checked the change but I could not find any user-visible change in terms of functionality or performance.\n\u003e How would you explain what the Gerrit admin should expect as change. in Gerrit behaviour or performance?\n\n\"Empty slices are no longer included in the slice count\"?",
+      "parentUuid": "09f95a7e_6ccff5b5",
+      "revId": "6f351f315c6d3164817e068b3c689f0b366a4d65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
