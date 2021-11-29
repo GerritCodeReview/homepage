@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf17c722_7c7832b2",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-29T20:59:23Z",
+      "side": 1,
+      "message": "It\u0027s both, because it\u0027s partially complete. The specific bullet below it for Qualcomm is not done.\n\nThe 2.16 release notes have updates as well [1], but this way the links will show any not-yet-released items too.\n\n[1] 324466: Add Gerrit 2.16.28 release notes | https://gerrit-review.googlesource.com/c/homepage/+/324466",
+      "parentUuid": "fd08583c_a867d698",
+      "range": {
+        "startLine": 50,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 45
+      },
+      "revId": "c9a9a8c3c134d146bb4a0564d7698028f1dc2f09",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "60ca7d88_7e95160c",
@@ -54,6 +78,30 @@
       "writtenOn": "2021-11-22T10:46:38Z",
       "side": 1,
       "message": "s/current/Nov 2021/ here and below.",
+      "range": {
+        "startLine": 55,
+        "startChar": 36,
+        "endLine": 55,
+        "endChar": 43
+      },
+      "revId": "c9a9a8c3c134d146bb4a0564d7698028f1dc2f09",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "850866f5_b7da5b9b",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-29T20:59:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "60ca7d88_7e95160c",
       "range": {
         "startLine": 55,
         "startChar": 36,
