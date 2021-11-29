@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "83387eb8_7e95bab3",
+        "filename": "pages/site/releases/2.16.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 769,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-29T20:44:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ea76c788_2132a4fd",
+      "revId": "24db23a3d44f8d282637e6c5aa15ee0253c4965b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "22bf39df_faffa8f1",
@@ -31,6 +49,30 @@
       "writtenOn": "2021-11-29T20:36:01Z",
       "side": 1,
       "message": "Simplify to only this?\n\n Avoiding the duplicate work brings down the reindex time from 45 mins to 15 mins\n for a test-site with 160k changes across 4 repos on NFS.",
+      "range": {
+        "startLine": 635,
+        "startChar": 4,
+        "endLine": 635,
+        "endChar": 47
+      },
+      "revId": "24db23a3d44f8d282637e6c5aa15ee0253c4965b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "535b706d_64fa75f4",
+        "filename": "pages/site/releases/3.2.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 635,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-11-29T20:44:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "22bf39df_faffa8f1",
       "range": {
         "startLine": 635,
         "startChar": 4,
