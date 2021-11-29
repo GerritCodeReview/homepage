@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81b6c290_6ac1b65b",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1536,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-11-29T22:35:23Z",
+      "side": 1,
+      "message": "Also has /access fix like https://gerrit-review.googlesource.com/c/homepage/+/324467/11/pages/site/releases/3.2.md#676\n\nand DynamicOptions fix like https://gerrit-review.googlesource.com/c/homepage/+/324467/11/pages/site/releases/3.2.md#709\n\nMaybe needs other updates since PS9 of that change? https://gerrit-review.googlesource.com/c/homepage/+/324467/9..12/pages/site/releases/3.2.md",
+      "revId": "e2c9820dbc926458e693f409469fc63a99f46bb0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
