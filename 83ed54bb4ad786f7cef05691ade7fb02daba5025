@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55fe89aa_7716e9a9",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-12-01T23:45:06Z",
+      "side": 1,
+      "message": "nit: Missing space between \u0027.\u0027 and \u0027T\u0027 (all files).",
+      "range": {
+        "startLine": 202,
+        "startChar": 69,
+        "endLine": 202,
+        "endChar": 71
+      },
+      "revId": "83ed54bb4ad786f7cef05691ade7fb02daba5025",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
