@@ -46,6 +46,30 @@
       },
       "revId": "f05635712bf0e88a2b60beada94e1658d3516818",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bfaa6d77_9731e7fb",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 528,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-12-01T20:04:39Z",
+      "side": 1,
+      "message": "Done. Should we also mention the reason behind the change? I believe that the extra reindexing() calls were negatively impacting the performance as they were made multiple times even when unneeded.",
+      "parentUuid": "d28c5ad7_b67ab9c4",
+      "range": {
+        "startLine": 524,
+        "startChar": 0,
+        "endLine": 528,
+        "endChar": 81
+      },
+      "revId": "f05635712bf0e88a2b60beada94e1658d3516818",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
