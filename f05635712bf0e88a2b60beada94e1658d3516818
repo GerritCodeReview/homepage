@@ -118,6 +118,30 @@
       },
       "revId": "f05635712bf0e88a2b60beada94e1658d3516818",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad248a46_edfa9ece",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 528,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2021-12-01T23:02:51Z",
+      "side": 1,
+      "message": "+1. Updated:\n\n * [Change 323855](https://gerrit-review.googlesource.com/323855) [Change 324115](https://gerrit-review.googlesource.com/324115):\n  ProjectCache#evict no longer triggers a reindex\n\n    During offline project reindexing evict() was triggering a duplicate reindex\n    on the project when we only wanted to evict the project cache entry. This same\n    issue occurred with the HA plugin and could be/been present in other plugins.\n\n    If you have relied on a reindex being done on evict() you need to use\n    evictAndReindex() instead. This behavior is now consistent with other evict()\n    methods in Gerrit.",
+      "parentUuid": "3d1bec61_1ad4b843",
+      "range": {
+        "startLine": 524,
+        "startChar": 0,
+        "endLine": 528,
+        "endChar": 81
+      },
+      "revId": "f05635712bf0e88a2b60beada94e1658d3516818",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
