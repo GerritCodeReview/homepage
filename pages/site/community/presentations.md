@@ -22,7 +22,9 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 * [Attention Set](https://docs.google.com/presentation/d/1Vx8dW570M8hnP9HJb8nIc6JIV9s1667TW9JpB0l0uSA/view) (2020)
 * [Code Owners](https://docs.google.com/presentation/d/1DupBnGr3apIx-jzxi9cHzSgkI-2c1ouGu1teQ4khSfc/view) (2020)
-  * [Demo](https://docs.google.com/presentation/d/15qfneQSY-TOrQ9sCSLfIZuR34IV7p2K9nxvTeaVBQ4w/view) (2021)
+  * [Demo](https://docs.google.com/presentation/d/1ExJz_PJHUVmMYy6bG7ADjBEYEeU1nUpeME3upqx-U1c/view) (Dec 2021)
+  * [Video](https://www.youtube.com/watch?v=p6kbDEipjCY&list=PLySCWiWz9cNsDYPSZPzS_Tb1sw01sIfnD&index=4) (Dec 2021)
+  * [Demo](https://docs.google.com/presentation/d/15qfneQSY-TOrQ9sCSLfIZuR34IV7p2K9nxvTeaVBQ4w/view) (Jun 2021)
 * [Diff Cache Redesign](https://docs.google.com/presentation/d/1XeqQJOQVIZ1bsjUlLpxsF8Uz8B9kUmArXKG41WHmm6U/view) (2020)
 * [Gitiles source browser](https://sites.google.com/site/gerritsummit2012/program/Sunday-Gitiles.pdf) (2012)
 * [Pluggable Caches](https://drive.google.com/file/d/1egSyShDek0qQ8SYUGWzezE1CQkBjLcp0/view) (2020)
