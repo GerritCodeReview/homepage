@@ -68,9 +68,9 @@ toc: false
                 <div class="panel-body">
                     <h4>Download</h4>
                     <p>Our latest release is:<br>
-                    <b><a href="3.4.html#342">3.4.2</a></b>
+                    <b><a href="3.5.html">3.5.0.1</a></b>
                     </p>
-                    <a href="https://gerrit-releases.storage.googleapis.com/gerrit-3.4.2.war" class="btn btn-primary">Download</a>
+                    <a href="https://gerrit-releases.storage.googleapis.com/gerrit-3.5.0.1.war" class="btn btn-primary">Download</a>
                 </div>
             </div>
         </div>
@@ -113,16 +113,16 @@ together.
 </tr>
 </table>
 
-Schedule [git gc](https://gerrit-documentation.storage.googleapis.com/Documentation/3.4.2/config-gerrit.html#gc)
+Schedule [git gc](https://gerrit-documentation.storage.googleapis.com/Documentation/3.5.0.1/config-gerrit.html#gc)
 over all managed repositories and
-[replicate](https://gerrit.googlesource.com/plugins/replication/+doc/v3.4.2/src/main/resources/Documentation/config.md)
+[replicate](https://gerrit.googlesource.com/plugins/replication/+doc/v3.5.0.1/src/main/resources/Documentation/config.md)
 to geographical mirrors for latency reduction and backup servers for hot
 spare redundancy.
 
 ## Extensible through plugins
 
 Gerrit Code Review can be extended and further customized by installing
-[server-side plugins](https://gerrit-documentation.storage.googleapis.com/Documentation/3.4.2/config-plugins.html).
+[server-side plugins](https://gerrit-documentation.storage.googleapis.com/Documentation/3.5.0.1/config-plugins.html).
 Source code for additional plugins can be found through the
 [project listing](https://gerrit.googlesource.com/plugins/).
 
