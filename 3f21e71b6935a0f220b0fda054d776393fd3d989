@@ -16,6 +16,23 @@
       "message": "Finally, Gerrit v3.5.0.1 is out !",
       "revId": "3f21e71b6935a0f220b0fda054d776393fd3d989",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ca0561e_05e1069d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2021-12-07T11:10:06Z",
+      "side": 1,
+      "message": "why 3.5.0.1 and not 3.5.0 ?",
+      "revId": "3f21e71b6935a0f220b0fda054d776393fd3d989",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
