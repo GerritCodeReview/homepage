@@ -85,6 +85,24 @@
       "message": "I hit the same issue earlier when deploying a jgit release to maven central without testing the staging repository on https://oss.sonatype.org/.\n\nNow I always build a test project [1] locally to verify the staging repo on https://oss.sonatype.org/ before releasing it.\n\n[1] https://github.com/msohn/jgit-build-test\n",
       "revId": "3f21e71b6935a0f220b0fda054d776393fd3d989",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e97d3d57_1e652d9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-12-07T14:48:19Z",
+      "side": 1,
+      "message": "It was all my fault, not really a problem with process: I saw the issue and instead of dropping the staging repository I released it 😂",
+      "parentUuid": "7e77292d_f6493049",
+      "revId": "3f21e71b6935a0f220b0fda054d776393fd3d989",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
