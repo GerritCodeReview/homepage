@@ -27,6 +27,7 @@ The following table shows the current level of support for Gerrit releases:
 
 | Version  | Support Status | Notes |
 |----------|----------------|-------|
+| 3.5      | Active         |       |
 | 3.4      | Active         |       |
 | 3.3      | Active         |       |
 | 3.2      | Active         |       |
