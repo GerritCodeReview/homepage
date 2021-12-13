@@ -16,6 +16,29 @@
       "message": "Thanks Luca!",
       "revId": "d0d282c3be3296cc3602b3a4b036292b0755830f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5084de5a_e0e25cce",
+        "filename": "_posts/2021-12-13-log4j-statement.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2021-12-13T13:08:34Z",
+      "side": 1,
+      "message": "might also want to say something about the other CVE affecting log4j 1.x",
+      "range": {
+        "startLine": 13,
+        "startChar": 20,
+        "endLine": 13,
+        "endChar": 28
+      },
+      "revId": "d0d282c3be3296cc3602b3a4b036292b0755830f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
