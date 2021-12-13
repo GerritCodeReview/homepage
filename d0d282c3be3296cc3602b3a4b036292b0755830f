@@ -39,6 +39,30 @@
       },
       "revId": "d0d282c3be3296cc3602b3a4b036292b0755830f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d03ffa5c_d26213d5",
+        "filename": "_posts/2021-12-13-log4j-statement.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2021-12-13T13:44:20Z",
+      "side": 1,
+      "message": "This change was about CVE-2021-44228. There are in total 3 vulnerabilities mentioned in [1]. Would you suggest to extend this page to all Log4J vulnerabilities?\n\nP.S. Bear in mind that the other vulnerabilities were exploitable only if you had specific log4j properties and not with the Gerrit-produced configs.\n\n[1] https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-37215/Apache-Log4j.html",
+      "parentUuid": "5084de5a_e0e25cce",
+      "range": {
+        "startLine": 13,
+        "startChar": 20,
+        "endLine": 13,
+        "endChar": 28
+      },
+      "revId": "d0d282c3be3296cc3602b3a4b036292b0755830f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
