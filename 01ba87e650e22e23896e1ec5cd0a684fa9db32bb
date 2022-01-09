@@ -1,6 +1,24 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d492d14_ba4a9147",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1144211
+      },
+      "writtenOn": "2022-01-09T15:51:10Z",
+      "side": 1,
+      "message": "freefire píxeles en los video juego cencivilidad de una pc",
+      "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
       "key": {
         "uuid": "e4abf9b4_3a77f7eb",
         "filename": "docs/WipProposal.md",
@@ -14,10 +32,10 @@
       "side": 1,
       "message": "I don\u0027t think that by now this list is complete, and for the target audience it\u0027s not that important, why we end up implementing all those features. If you prefer keep it or even update the list, can we move it to the end of this document, so to say provide it as a reference.",
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "63643236_9abf3186",
         "filename": "docs/WipProposal.md",
@@ -37,10 +55,10 @@
         "endChar": 82
       },
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "7c1f74e2_8a11d6c5",
         "filename": "docs/WipProposal.md",
@@ -54,10 +72,10 @@
       "side": 1,
       "message": "Current migration process also supports setting WIP state to true for draft changes (default is setting draft changes to private changes).",
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "f32ef966_b94a9856",
         "filename": "docs/WipProposal.md",
@@ -71,10 +89,10 @@
       "side": 1,
       "message": "Should we mark not yet implemented features here?",
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "ce91d74e_9fe0e4f6",
         "filename": "docs/WipProposal.md",
@@ -88,10 +106,10 @@
       "side": 1,
       "message": "This section needs to be updated. Should the downgraded notifications be also mentioned?",
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "406b93fa_58b0d81a",
         "filename": "docs/WipProposal.md",
@@ -111,10 +129,10 @@
         "endChar": 57
       },
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "1f22e995_808c0443",
         "filename": "docs/WipProposal.md",
@@ -134,10 +152,10 @@
         "endChar": 20
       },
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "53153466_569bc02a",
         "filename": "docs/WipProposal.md",
@@ -151,10 +169,10 @@
       "side": 1,
       "message": "is:started should be explain here.",
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "cbefb7fd_f4fb63db",
         "filename": "docs/WipProposal.md",
@@ -168,8 +186,7 @@
       "side": 1,
       "message": "Not sure this is needed, but still, the default should be higing the WIP changes.",
       "revId": "01ba87e650e22e23896e1ec5cd0a684fa9db32bb",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
