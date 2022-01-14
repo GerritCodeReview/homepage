@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cb574b3_ac820370",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-01-14T10:21:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6af22716_afa06602",
+      "range": {
+        "startLine": 58,
+        "startChar": 44,
+        "endLine": 58,
+        "endChar": 55
+      },
+      "revId": "ebd850db6829ab83ff29ccc3183cfb45743f8b1e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0a4c1076_90d00cf0",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-01-14T10:09:14Z",
       "side": 1,
       "message": "singular?",
+      "range": {
+        "startLine": 60,
+        "startChar": 60,
+        "endLine": 60,
+        "endChar": 71
+      },
+      "revId": "ebd850db6829ab83ff29ccc3183cfb45743f8b1e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d26df7b8_04de20e6",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-01-14T10:21:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a4c1076_90d00cf0",
       "range": {
         "startLine": 60,
         "startChar": 60,
