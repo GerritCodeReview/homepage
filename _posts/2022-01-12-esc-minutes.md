@@ -49,7 +49,7 @@ The consensus is to define a policy for updating JGit pointer on a regular basis
 as follows: Gerrit/master updates its submodule to JGit/master regularly. After
 two weeks of tests by Google (using the JGit fork) and GerritForge (using the
 JGit vanilla), the update is performed on the non-EOL stable branches, assuming
-that there are no breaking JGit API changes stable branches that are in EOL
+that there are no breaking JGit API changes. Stable branches that are in EOL
 will not have any regular JGit updates
 
 ## Delay in Gerrit releases due to the review of release notes
