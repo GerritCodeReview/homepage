@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd0e0756_c75418d2",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-01-21T07:57:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3f2b961_0fc0c62e",
+      "range": {
+        "startLine": 29,
+        "startChar": 50,
+        "endLine": 29,
+        "endChar": 55
+      },
+      "revId": "9d705d198e40db84a045d27506ca5c5e2166244c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "188f6a73_154eee6a",
@@ -54,6 +78,30 @@
       "writtenOn": "2022-01-20T21:59:33Z",
       "side": 1,
       "message": "Not actually shell? Looks like rouge supports \u0027ini\u0027, which is gitconfig. Also, this led me down (the very distracting) path of discovering all the syntax highlighting for the site isn\u0027t working. I\u0027m uploading a fix now.",
+      "range": {
+        "startLine": 31,
+        "startChar": 5,
+        "endLine": 31,
+        "endChar": 7
+      },
+      "revId": "9d705d198e40db84a045d27506ca5c5e2166244c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "014e839b_16d68b50",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-01-21T07:57:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "188f6a73_154eee6a",
       "range": {
         "startLine": 31,
         "startChar": 5,
