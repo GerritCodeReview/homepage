@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0daa257c_283cf36d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-01-21T00:48:24Z",
+      "side": 1,
+      "message": "Confirmed syntax highlighting works now. I did not check a lot else to make sure this didn\u0027t break something else.",
+      "revId": "b2185e67ec8bafbc2eddbc522f28f477013a7ed9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
