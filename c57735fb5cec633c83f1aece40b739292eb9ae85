@@ -63,6 +63,30 @@
       },
       "revId": "c57735fb5cec633c83f1aece40b739292eb9ae85",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fc23aca_7fe80b86",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-01-21T14:55:50Z",
+      "side": 1,
+      "message": "\u003e I\u0027m guessing this means reverting the index files to a backup taken before the upgrade?  I\u0027ll propose a new change\n\nNope: when you upgrade, Gerrit keeps the old indexes as well. Just look at your $GERRIT_SITE/index/ and you\u0027ll notice many directories starting with \u0027changes_\u0027.\n\nJust edit the gerrit_index.config and make the previous changes index version as active and the latest version as inactive.\n\nThen, you would need to reindex all changes created or updated between the time of the upgrade and the time of the downgrade.",
+      "parentUuid": "ffc8c2c5_5c87586d",
+      "range": {
+        "startLine": 89,
+        "startChar": 3,
+        "endLine": 93,
+        "endChar": 3
+      },
+      "revId": "c57735fb5cec633c83f1aece40b739292eb9ae85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
