@@ -39,6 +39,30 @@
       },
       "revId": "c57735fb5cec633c83f1aece40b739292eb9ae85",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffc8c2c5_5c87586d",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1026270
+      },
+      "writtenOn": "2022-01-21T05:08:13Z",
+      "side": 1,
+      "message": "I\u0027m guessing this means reverting the index files to a backup taken before the upgrade?  I\u0027ll propose a new change",
+      "parentUuid": "a846f5e2_bdce24be",
+      "range": {
+        "startLine": 89,
+        "startChar": 3,
+        "endLine": 93,
+        "endChar": 3
+      },
+      "revId": "c57735fb5cec633c83f1aece40b739292eb9ae85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
