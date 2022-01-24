@@ -87,6 +87,30 @@
       },
       "revId": "c57735fb5cec633c83f1aece40b739292eb9ae85",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15b6f357_78d6c1c9",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1026270
+      },
+      "writtenOn": "2022-01-24T04:53:43Z",
+      "side": 1,
+      "message": "Oh this is great info!  I\u0027ll put that in -- hopefully I have the right idea?\n\nI guess you just mean online reindexing with the reverted version -- I\u0027m not aware there\u0027s any way to index from a particular point in time?",
+      "parentUuid": "8fc23aca_7fe80b86",
+      "range": {
+        "startLine": 89,
+        "startChar": 3,
+        "endLine": 93,
+        "endChar": 3
+      },
+      "revId": "c57735fb5cec633c83f1aece40b739292eb9ae85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
