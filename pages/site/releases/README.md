@@ -50,7 +50,7 @@ Latest release: **[3.5](/3.5.html)**. The support status of all recent Gerrit ve
 
 [Release notes for Gerrit 3.3](/3.3.html)
 
-## 3.2
+## 3.2 (EOL)
 
 * Polymer 3
 
