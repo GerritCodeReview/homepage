@@ -15,8 +15,20 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.4](/3.4.html)**. The support status of all recent Gerrit versions is
+Latest release: **[3.5](/3.5.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
+
+## 3.5
+
+* Java 8 support dropped
+
+* Case-insensitive usernames
+
+* Request cancellation and execution deadlines
+
+* Performance improvements
+
+[Release notes for Gerrit 3.5](/3.5.html)
 
 ## 3.4
 
@@ -38,7 +50,7 @@ Latest release: **[3.4](/3.4.html)**. The support status of all recent Gerrit ve
 
 [Release notes for Gerrit 3.3](/3.3.html)
 
-## 3.2
+## 3.2 (EOL)
 
 * Polymer 3
 

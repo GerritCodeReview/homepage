@@ -27,12 +27,13 @@ The following table shows the current level of support for Gerrit releases:
 
 | Version  | Support Status | Notes |
 |----------|----------------|-------|
+| 3.5      | Active         |       |
 | 3.4      | Active         |       |
 | 3.3      | Active         |       |
-| 3.2      | Active         |       |
+| 3.2      | EOL            | [EOL since Dec 7, 2021](https://www.gerritcodereview.com/2021-09-07-gerrit-3.5-release-plan.html#end-of-life-for-gerrit-32x) |
 | 3.1      | EOL            | [EOL since May 19, 2021](https://www.gerritcodereview.com/2021-03-16-gerrit-3.4-release-plan.html#end-of-life-for-gerrit-31x) |
 | 3.0      | EOL            | [EOL since December 1st, 2020](https://www.gerritcodereview.com/2020-09-07-gerrit-3.3-release-plan.html#end-of-life-for-gerrit-30x) |
-| 2.16     | EOL            | [EOL (with exceptions) since June 1st, 2020](https://www.gerritcodereview.com/2020-04-22-gerrit-3.2-release-plan.html#end-of-life-for-gerrit-216x) |
+| 2.16     | EOL with [Support](#gerrit-v216-support) | [EOL since June 1st, 2020](https://www.gerritcodereview.com/2020-04-22-gerrit-3.2-release-plan.html#end-of-life-for-gerrit-216x) |
 | 2.15     | EOL            | [EOL since November 15th, 2019](https://www.gerritcodereview.com/2019-11-15-gerrit-2.15-eol.html) |
 | 2.14     | EOL            | [EOL since May 31st, 2019](https://www.gerritcodereview.com/2019-05-31-gerrit-end-of-life-update.html) |
 | 2.13     | EOL            |       |
@@ -72,6 +73,58 @@ a request for it.
 
 You could also check the questions tagged with "gerrit" on
 [Stack Overflow][stack-overflow].
+
+### Gerrit v2.16 Support
+
+Existing users having issues with the migration to/through Gerrit v2.16 can
+still use the [General Support](#generalsupport) on the mailing list as usual
+and it's possible that community members will be able to assist them.
+
+## Bugs
+
+If the issue/question you posted on Repo Discuss is considered a bug
+the community will ask you to create an issue for tracking it.
+Bugs are reported to the [issue tracker][issue-tracking].
+The issue tracker is not always the best place to initially request
+new features, as the main focus for those consuming it is fixing
+bugs.
+
+## New Features
+
+The Gerrit project has adopted a
+[feature request model][feature-request] where you are asked to
+submit your feature request together with some valid, general,
+use-cases.
+
+## Bug Triaging
+
+All incoming issues should be triaged to decide on their
+[priority](#priorities). The priority should be based on the severity, the
+frequency and the risk of the issue.
+
+Besides finding the right priority we also aim to clarify the issue so it is
+well understandable what the problem is.
+
+The triage is not meant to investigate the cause of bugs or assign issues.
+
+Triaging should include the following steps:
+
+1. Determine the right [priority](#priorities).
+2. Mark feature requests as `Type-Feature`.
+3. Check that the component is correctly set, and update it if necessary.
+4. If necessary, update the issue summary to be clear.
+5. Set label `Security` if it's a security or privacy issue.
+6. Close incomplete issues as `Incomplete`.
+7. Close spam issues as `Invalid`, flag them as spam and then delete them.
+8. Check if the issue has been reported before and close it as `Duplicate` if
+   possible.
+9. Check if reproduction steps are present and clear. If not, ask the reporter
+   to provide them and set the status to `AwaitingInformation`.
+10. Set the status to `Accepted` and add the label `Triaged-Yes` when the
+    triaging is done.
+
+Triaging incoming issues is a community effort and is done on a best effort
+basis (also see [below](#response-time-and-slo)).
 
 ## Response time and [SLO](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/)
 
@@ -198,52 +251,6 @@ them.
 
 The support for plugins follows the same [CS](#community-support) and [ES](#enterprise-support)
 policies adopted for Gerrit Code Review.
-
-## Bugs
-
-If the issue/question you posted on Repo Discuss is considered a bug
-the community will ask you to create an issue for tracking it.
-Bugs are reported to the [issue tracker][issue-tracking].
-The issue tracker is not always the best place to initially request
-new features, as the main focus for those consuming it is fixing
-bugs.
-
-## New Features
-
-The Gerrit project has adopted a
-[feature request model][feature-request] where you are asked to
-submit your feature request together with some valid, general,
-use-cases.
-
-## Bug Triaging
-
-All incoming issues should be triaged to decide on their
-[priority](#priorities). The priority should be based on the severity, the
-frequency and the risk of the issue.
-
-Besides finding the right priority we also aim to clarify the issue so it is
-well understandable what the problem is.
-
-The triage is not meant to investigate the cause of bugs or assign issues.
-
-Triaging should include the following steps:
-
-1. Determine the right [priority](#priorities).
-2. Mark feature requests as `Type-Feature`.
-3. Check that the component is correctly set, and update it if necessary.
-4. If necessary, update the issue summary to be clear.
-5. Set label `Security` if it's a security or privacy issue.
-6. Close incomplete issues as `Incomplete`.
-7. Close spam issues as `Invalid`, flag them as spam and then delete them.
-8. Check if the issue has been reported before and close it as `Duplicate` if
-   possible.
-9. Check if reproduction steps are present and clear. If not, ask the reporter
-   to provide them and set the status to `AwaitingInformation`.
-10. Set the status to `Accepted` and add the label `Triaged-Yes` when the
-    triaging is done.
-
-Triaging incoming issues is a community effort and is done on a best effort
-basis (also see [above](#response-time-and-slo)).
 
 [feature-request]: https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose
 [issue-tracking]: /issues.html

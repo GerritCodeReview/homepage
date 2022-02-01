@@ -22,7 +22,9 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 * [Attention Set](https://docs.google.com/presentation/d/1Vx8dW570M8hnP9HJb8nIc6JIV9s1667TW9JpB0l0uSA/view) (2020)
 * [Code Owners](https://docs.google.com/presentation/d/1DupBnGr3apIx-jzxi9cHzSgkI-2c1ouGu1teQ4khSfc/view) (2020)
-  * [Demo](https://docs.google.com/presentation/d/15qfneQSY-TOrQ9sCSLfIZuR34IV7p2K9nxvTeaVBQ4w/view) (2021)
+  * [Demo](https://docs.google.com/presentation/d/1ExJz_PJHUVmMYy6bG7ADjBEYEeU1nUpeME3upqx-U1c/view) (Dec 2021)
+  * [Video](https://www.youtube.com/watch?v=p6kbDEipjCY&list=PLySCWiWz9cNsDYPSZPzS_Tb1sw01sIfnD&index=4) (Dec 2021)
+  * [Demo](https://docs.google.com/presentation/d/15qfneQSY-TOrQ9sCSLfIZuR34IV7p2K9nxvTeaVBQ4w/view) (Jun 2021)
 * [Diff Cache Redesign](https://docs.google.com/presentation/d/1XeqQJOQVIZ1bsjUlLpxsF8Uz8B9kUmArXKG41WHmm6U/view) (2020)
 * [Gitiles source browser](https://sites.google.com/site/gerritsummit2012/program/Sunday-Gitiles.pdf) (2012)
 * [Pluggable Caches](https://drive.google.com/file/d/1egSyShDek0qQ8SYUGWzezE1CQkBjLcp0/view) (2020)
@@ -35,6 +37,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 ## Release Highlights
 
 * [What's new in Gerrit 3.2/3.3?](https://drive.google.com/file/d/13T7CiQG54CZ7P6iqMYsFIV4P4dOV78iN/view) (2020)
+* [What's new in Gerrit 3.1 and beyond](https://www.slideshare.net/lucamilanesio/whats-new-in-gerrit-code-review-v31-and-beyond) (2019)
 * [What's new in Gerrit 3.0?](https://www.slideshare.net/lucamilanesio/whats-new-in-gerrit-code-review-30) (2019)
 * [What's new in Gerrit 2.14.x and 2.15?](https://storage.cloud.google.com/gerrit-talks/summit/2018/whats-new-in-2.14-and-2.15-gus-2018.pdf) (2018)
 * [Gerrit 2.16, 3.0, and beyond](https://storage.googleapis.com/gerrit-talks/summit/2018/Gerrit-2.16-3.0-and-Beyond.pdf) (2018)
@@ -85,6 +88,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 ## Upgrades
 
 * [Discuss upgrade complexity](https://docs.google.com/presentation/d/1JbXnXFmKfqurcbt8uic3QIjnwHyIrleI_D2FHtE0u94) (2020)
+* [Gerrit migrations step by step](https://www.slideshare.net/lucamilanesio/gerrit-code-review-migrations-stepbystep) (2019)
 * [Upgrading to Gerrit 2.15: a real-life story on GerritHub.io](https://www.slideshare.net/lucamilanesio/gerrithub-a-true-gerrit-migration-story-to-v215) (2018)
 * [Zero-downtime Gerrit upgrades](http://www.slideshare.net/lucamilanesio/zerodowntime-gerrit-code-review-upgrades) (2016)
 
@@ -114,6 +118,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Analytics
 
+* [Gerrit Analytics applied to the Android project](https://www.slideshare.net/lucamilanesio/gerrit-analytics-applied-to-android-source-code) (2019)
 * [Show me your dashboard](https://docs.google.com/presentation/d/1EeJdCngQaVBxJPQaGC2DYtTS9gzM9II-uoi7DtPQkw0/view) (2019)
 * [DevOps Analytics - Uncover the value of Gerrit Pipeline](https://www.slideshare.net/lucamilanesio/gerrit-devops-analytics-uncover-the-value-of-cicd-pipeline) (2018)
 * [Mining Gerrit Data to Study Contentious Reviews and Community Evolution](https://speakerdeck.com/shanemcintosh/mining-gerrit-reviews-for-contentious-reviews-and-community-evolution) (2017)
