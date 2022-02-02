@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e60a55ec_5db686f1",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 435,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2022-02-02T19:57:36Z",
+      "side": 1,
+      "message": "Ah cool! good catch",
+      "parentUuid": "9b459099_b9214e65",
+      "revId": "5c50e89846ebf24272acd312acda5ae7ecd46e39",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b3b786df_ee6e6e4e",
@@ -31,6 +49,30 @@
       "writtenOn": "2022-02-02T19:37:09Z",
       "side": 1,
       "message": "typo: increase\n\nProbably good to qualify as \"10X increase in the number of metrics collected\"?",
+      "range": {
+        "startLine": 443,
+        "startChar": 20,
+        "endLine": 443,
+        "endChar": 27
+      },
+      "revId": "5c50e89846ebf24272acd312acda5ae7ecd46e39",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a25db1e8_dca7c98b",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2022-02-02T19:57:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b3b786df_ee6e6e4e",
       "range": {
         "startLine": 443,
         "startChar": 20,
