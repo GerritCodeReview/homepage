@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b459099_b9214e65",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 435,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-02-02T19:37:09Z",
+      "side": 1,
+      "message": "I think we usually have an \u0027(in development)\u0027 suffix like in Change I18a6fc698.",
+      "revId": "5c50e89846ebf24272acd312acda5ae7ecd46e39",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3b786df_ee6e6e4e",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-02-02T19:37:09Z",
+      "side": 1,
+      "message": "typo: increase\n\nProbably good to qualify as \"10X increase in the number of metrics collected\"?",
+      "range": {
+        "startLine": 443,
+        "startChar": 20,
+        "endLine": 443,
+        "endChar": 27
+      },
+      "revId": "5c50e89846ebf24272acd312acda5ae7ecd46e39",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
