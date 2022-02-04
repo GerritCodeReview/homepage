@@ -35,6 +35,15 @@ will take care to upload the kudos for you.
 Please add new kudos at the top of this list.
 
 ---
+**[2022-02-04] To: Andrew Allen**
+
+> Thank you Andrew for moderating the last Gerrit community meeting and taking
+> [extensive notes](https://docs.google.com/document/d/1QmrIsyBx52Sk_qWwrcci0hI_SlUWMGiwT8Kp05_ioBw/edit#bookmark=id.iz2bxqpw215h).
+> Very much appreciated!
+
+From: Edwin Kempin (Google)
+
+---
 
 **[2021-11-24] To: Patrick Mulhall (aka Paladox)**
 
