@@ -16,58 +16,23 @@
       "message": "I completely agree, thank you Andrew!",
       "revId": "980bb8b161a24a1ef0df3a07e1fad870483eab85",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
-    }
-  ],
-  "submitRequirementResults": [
-    {
-      "submitRequirement": {
-        "name": "Code-Review",
-        "description": {
-          "value": "Submit requirement for the \u0027Code-Review\u0027 label"
-        },
-        "applicabilityExpression": {},
-        "submittabilityExpression": {
-          "expressionString": "label:Code-Review\u003dMAX AND -label:Code-Review\u003dMIN"
-        },
-        "overrideExpression": {},
-        "allowOverrideInChildProjects": true
-      },
-      "applicabilityExpressionResult": {},
-      "submittabilityExpressionResult": {"expression":{"expressionString":"label:Code-Review=MAX AND -label:Code-Review=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Code-Review=MAX"],"failingAtoms":["label:Code-Review=MIN"]},
-      "overrideExpressionResult": {},
-      "patchSetCommitId": "980bb8b161a24a1ef0df3a07e1fad870483eab85",
-      "legacy": {
-        "value": false
-      },
-      "forced": {}
     },
     {
-      "submitRequirement": {
-        "name": "Verified",
-        "description": {
-          "value": "CI result status for build and tests is passing"
-        },
-        "applicabilityExpression": {
-          "value": {
-            "expressionString": "-branch:refs/meta/config"
-          }
-        },
-        "submittabilityExpression": {
-          "expressionString": "label:Verified\u003dMAX AND -label:Verified\u003dMIN"
-        },
-        "overrideExpression": {},
-        "allowOverrideInChildProjects": true
+      "unresolved": false,
+      "key": {
+        "uuid": "142ee754_786b2af9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
       },
-      "applicabilityExpressionResult": {
-        "value": {"expression":{"expressionString":"-branch:refs/meta/config"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["branch:refs/meta/config"]}
+      "lineNbr": 0,
+      "author": {
+        "id": 1011722
       },
-      "submittabilityExpressionResult": {"expression":{"expressionString":"label:Verified=MAX AND -label:Verified=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Verified=MAX"],"failingAtoms":["label:Verified=MIN"]},
-      "overrideExpressionResult": {},
-      "patchSetCommitId": "980bb8b161a24a1ef0df3a07e1fad870483eab85",
-      "legacy": {
-        "value": false
-      },
-      "forced": {}
+      "writtenOn": "2022-02-04T18:24:56Z",
+      "side": 1,
+      "message": "Thanks everyone!",
+      "revId": "980bb8b161a24a1ef0df3a07e1fad870483eab85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
