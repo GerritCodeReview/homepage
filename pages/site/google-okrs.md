@@ -8,6 +8,40 @@ toc: false
 
 Google plans work per-quarter, using the OKR (Objective/Key-Result) framework.
 
+# Q1 2022
+
+## O: Increase system stability and reduce latency of critical user journeys
+
+### KR: Remove per-user state (drafts, stars) from the change index,
+    improving write latencies
+
+
+### KR: Speed up median diff rendering latency for views with many files
+
+Use multiple fidelity modes and webworkers to speed up "expand all
+diffs" and "large file with many diffs" use cases.
+
+## O: Improve Gerrit customer satisfaction from X% to Y%
+
+### KR: Roll out composable submit requirements
+
+Use them fully on gerrit-review.googlesource.com,
+android-review.googlesource.com and chromium-review.googlesource.com.
+
+### KR: Multi-change review: Prototype and validate a new experience
+    for managing and reviewing multiple, grouped changes
+
+### KR: Reduce P50 code review start latency
+
+Design browser-based push notifications to reduce review latency. Let
+reviewers suggest rather than make edits, leading to less lost
+approvals.
+
+### KR: Addressing top Gerrit pain points
+
+Fix JGit and CGit merge discrepancies.
+
+
 # Q4 2021
 
 ## O: Gerrit users' data and code are well protected and secure
@@ -40,6 +74,18 @@ android-review.googlesource.com and chromium-review.googlesource.com.
 
 Provide a page for reviewing multiple changes ("topics"), providing among others
 batch actions and maybe diffs across projects/changes.
+
+## O: Reduce toil, increase developer velocity, and improve developer happiness
+
+### KR: Migrate 33% of remaining frontend components to Lit, remove
+     all of Polymer, and get rid of or re-implement all mixins
+
+###  KR: Migrate frontend to client models and dependency injection.
+
+client models will centralize state-management, making the UI more
+dependable. Dependency injection avoids global variables, enabling
+multiple changes on a single page
+
 
 # Q3 2021
 
