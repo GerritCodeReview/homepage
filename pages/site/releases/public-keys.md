@@ -34,4 +34,4 @@ The following public keys are available on the
 | Nasser Grainawi  | nasser@codeaurora.org           | 7C29 4522 4865 1030 FD26  7410 CEF6 54C8 5EEF 0AF1 |              |
 | Patrick Hiesel   | hiesel@google.com               | 7789 759C D085 C90A 1823  63AB 710A 7242 BD5B 6C39 |              |
 | Saša Živkov      | sasa.zivkov@sap.com             | 024B 9991 1E26 0764 22A7  5AD4 4D52 61F9 26C1 290E |              |
-| Sven Selberg     | sven.selberg@gmail.com          | 0EC0 7F25 A4A4 682E D921  73EA CDB3 D41F B574 B3B3 | rsa-3072     |
+| Sven Selberg     | sven.selberg@gmail.com          | E92E C585 9ABA 1323 51B2  D2FA 21FB 7850 FE7F 7B44 | rsa-3072     |
