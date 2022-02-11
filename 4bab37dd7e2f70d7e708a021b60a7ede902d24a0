@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a93b937_07638e45",
+        "filename": "_posts/2022-02-09-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-02-11T19:24:36Z",
+      "side": 1,
+      "message": "I guess that Java 11 remains the official target version. The code *should work* also on Java 8 and requires a local custom build. We won\u0027t build or release on Java 8 though.",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 23
+      },
+      "revId": "4bab37dd7e2f70d7e708a021b60a7ede902d24a0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c459bab_0b366329",
+        "filename": "_posts/2022-02-09-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-02-11T19:24:36Z",
+      "side": 1,
+      "message": "+ from master to stable-3.6 during the release stabilisation period.",
+      "revId": "4bab37dd7e2f70d7e708a021b60a7ede902d24a0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3f7d3c6_dea5a180",
+        "filename": "_posts/2022-02-09-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-02-11T19:24:36Z",
+      "side": 1,
+      "message": "I don\u0027t believe anyone was against it: so I guess it is implicitly approved?",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 23
+      },
+      "revId": "4bab37dd7e2f70d7e708a021b60a7ede902d24a0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "359773bd_bd1b6851",
+        "filename": "_posts/2022-02-09-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-02-11T19:24:36Z",
+      "side": 1,
+      "message": "+ adding a note \"cannot be currently disclosed until confirmed\".",
+      "range": {
+        "startLine": 83,
+        "startChar": 17,
+        "endLine": 83,
+        "endChar": 38
+      },
+      "revId": "4bab37dd7e2f70d7e708a021b60a7ede902d24a0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
