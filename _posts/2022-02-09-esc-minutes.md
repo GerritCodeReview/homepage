@@ -23,7 +23,7 @@ As discussed, adding a Submit Requirement for the `Release-Notes:` footer.
 
 ## Dropping Java 8 for v3.3/v3.4?
 
-Java 8 is only for custom builds; we won't add Java 8 language
+Java 8 is only for custom builds; we won't add Java 11 language
 features to the stable branch.
 
 Decision: Java 11 is the official version. Java 8 should work, but
