@@ -16,6 +16,41 @@
       "message": "Adding Sven, would you be able to help with the Gerrit v3.6 release?",
       "revId": "bdeb019815e982c388fc4b31a47086700e066b69",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1d9fea5_bd848cf2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-02-18T08:29:07Z",
+      "side": 1,
+      "message": "I should be able to dedicate some of my time to the v3.6 release work.",
+      "parentUuid": "a31ae0ab_100cb1ba",
+      "revId": "bdeb019815e982c388fc4b31a47086700e066b69",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91263466_faadf635",
+        "filename": "_posts/2022-01-24-gerrit-3.6-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-02-18T08:29:07Z",
+      "side": 1,
+      "message": "2022-01-24-gerrit-3.6-release-plan.md\nFilename seems \"outdated\", shouldn\u0027t it be a more recent timestamp?",
+      "revId": "bdeb019815e982c388fc4b31a47086700e066b69",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
