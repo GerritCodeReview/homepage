@@ -36,6 +36,41 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e95505ca_ba9aea1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-02-18T11:48:24Z",
+      "side": 1,
+      "message": "Thanks, Sven, much appreciated. Would you be able to travel to London for the Hackathon before the release? We can help with the costs associated.",
+      "parentUuid": "f1d9fea5_bd848cf2",
+      "revId": "bdeb019815e982c388fc4b31a47086700e066b69",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c316172e_09688c62",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-02-18T11:48:24Z",
+      "side": 1,
+      "message": "Saša, Han-Wen, Chris: are we good with the Gerrit v3.6 release plan? Can we commit to it?",
+      "revId": "bdeb019815e982c388fc4b31a47086700e066b69",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "91263466_faadf635",
@@ -49,6 +84,24 @@
       "writtenOn": "2022-02-18T08:29:07Z",
       "side": 1,
       "message": "2022-01-24-gerrit-3.6-release-plan.md\nFilename seems \"outdated\", shouldn\u0027t it be a more recent timestamp?",
+      "revId": "bdeb019815e982c388fc4b31a47086700e066b69",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "797d013c_4d080fff",
+        "filename": "_posts/2022-01-24-gerrit-3.6-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-02-18T11:48:24Z",
+      "side": 1,
+      "message": "Yep, let me update it.",
+      "parentUuid": "91263466_faadf635",
       "revId": "bdeb019815e982c388fc4b31a47086700e066b69",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
