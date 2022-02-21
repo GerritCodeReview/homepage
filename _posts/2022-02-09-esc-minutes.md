@@ -46,7 +46,7 @@ An escalation route was documented by Edwin.
 
 OpenID is deprecated, we should support OAuth out of the box to
 provide a good experience for standalone usage. The current maintainer
-(David O) is also Gerrit Maintainer, and is used by GerritForge for
+(David O) is also Gerrit Maintainer. It is used by GerritForge for
 Gerrithub.
 
 Corporate deployments tend to use SAML rather than OAuth.
