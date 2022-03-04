@@ -26,6 +26,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1c70ca8b_03fa2102",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-04T14:53:28Z",
+      "side": 1,
+      "message": "it might be useful to diff against the merge base (common ancestor) of both commits.",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 56
+      },
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "72cf2b08_33483bed",
         "filename": "pages/design-docs/push-reviews/solution-google.md",
         "patchSetId": 2
