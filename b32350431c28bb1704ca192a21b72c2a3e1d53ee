@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8b27b18_7a40e813",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-04T14:43:44Z",
+      "side": 1,
+      "message": "up for discussion; maybe the permission should be on the \u0027merge\u0027 button?",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 34
+      },
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72cf2b08_33483bed",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-04T14:43:44Z",
+      "side": 1,
+      "message": "it might be useful to have in pseudo files with a way to view {commits added, commits removed}, similar to MERGE_LIST.",
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6056e28a_14f00a0d",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-04T14:43:44Z",
+      "side": 1,
+      "message": "Do we want to allow re-upload a second PS for the push-review change?",
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
