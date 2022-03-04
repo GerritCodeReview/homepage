@@ -94,8 +94,6 @@ As an administrator I would like ...
   the repository, removing commits that have leaked data).
 * Support code review for submodule subscription updates.
 * Support GitHub-like pull requests.
-* Support code review for branch creations (but push reviews may help
-  implementing a workflow for this, see [below](how-to-review-branch-creations))
 * Support code review for branch deletions.
 * Support code review for branch renames.
 
@@ -105,9 +103,9 @@ Supporting the following use-cases is out of scope for this design, but we see
 them as nice-to-have. The implementation of push reviews should try covering
 these use cases if they can be achieved with low additonal effort.
 
-* Allow to create branches by push reviews so that branch creations can be
-  reviewed (this would remove the workaround for reviewing branch creations that
-  is described [below ](#how-to-review-branch-creation)).
+* Support code review for branch creations (implementing push reviews enables a
+  [workaround](#how-to-review-branch-creations) for this, but it is desired that
+  it is not needed to create the branch with an empty initial commit first).
 * Improve working with direct updates that bypass code review:
     * Make open changes show a conflict when a non-fast-forward update has been
       pushed that removed the base commit of the change from the history of the
