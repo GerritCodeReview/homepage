@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a686e4e_ecaeebf7",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-04T11:07:20Z",
+      "side": 1,
+      "message": "this one is a bit controversial, because you\u0027d typically want the file to be completely gone, which goes against having a review.\n\nThe most common use case I know of is having patches on top of an upstream branch. The patches have to be rebased all the time, which is a non-FF.",
+      "range": {
+        "startLine": 47,
+        "startChar": 42,
+        "endLine": 48,
+        "endChar": 68
+      },
+      "revId": "a914063ae2ec78f620e315f1d1a15de4027ad1dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53b96bd3_bd1c0395",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-04T11:07:20Z",
+      "side": 1,
+      "message": "* The previous state of the branch is recorded for audit in the code review.",
+      "revId": "a914063ae2ec78f620e315f1d1a15de4027ad1dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
