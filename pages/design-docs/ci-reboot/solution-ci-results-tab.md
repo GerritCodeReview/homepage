@@ -34,7 +34,7 @@ We will also add 1-3 lines of summary information below the commit message about
 Checks tab.
 
 
-## <a id="overview"> Wireframes
+## <a id="wireframes"> Wireframes
 
 To get a better understanding of the proposed design we have drafted wireframes for the new tab
 and the new summary. They are drafts and not finalized designs.
