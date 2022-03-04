@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "54b44ed7_c2664d4e",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-04T15:07:40Z",
+      "side": 1,
+      "message": "Yes, this sounds actually better to me. Updated it here and in the use-cases doc (predecessor change).",
+      "parentUuid": "c8b27b18_7a40e813",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 34
+      },
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1c70ca8b_03fa2102",
@@ -77,6 +101,42 @@
       "writtenOn": "2022-03-04T14:43:44Z",
       "side": 1,
       "message": "Do we want to allow re-upload a second PS for the push-review change?",
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71dd27c1_beed55aa",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-04T15:07:40Z",
+      "side": 1,
+      "message": "Interesting idea. I guess doing this should be possible. Are we concerned that the list of added/removed commits gets too large when a really long history is completely rewritten?",
+      "parentUuid": "72cf2b08_33483bed",
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65734fcd_3c2800d6",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-04T15:07:40Z",
+      "side": 1,
+      "message": "Yes, I think allowing this would be nice.\nThe question is how the Change-Id should be specified in this case (since we cannot add it in the commit message of the pushed commit without changing its SHA1). Maybe it can be the value of the push-review option. Added this idea here.",
+      "parentUuid": "6056e28a_14f00a0d",
       "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
