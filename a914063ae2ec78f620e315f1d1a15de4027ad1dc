@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bbc0f694_e8004a16",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-04T11:26:36Z",
+      "side": 1,
+      "message": "\u003e this one is a bit controversial, because you\u0027d typically want the file to be \n\u003e completely gone, which goes against having a review.\n\nI\u0027m not sure I\u0027m following. If you want to remove a large file from the history of the repository you would use \u0027git filter-branch\u0027 to remove it from all commits that touched this file. Then you would push the new history to replace the existing branch history (non-fast-forward update). Reviewing this non-fast-forward update, that shows you the diff of the new tip against the old tip, makes sense since from the diff you can see that the large file was removed and no other files were touched. So I think this use-case makes sense?\n\nFWIW I didn\u0027t see this use case at Google, but I know that in the past this was the number one reason at SAP for using \u0027git filter-branch\u0027 and non-fast-forward updates. I included it so that they can relate better to this design. \n\n\n\u003e The most common use case I know of is having patches on top of an upstream\n\u003e branch. The patches have to be rebased all the time, which is a non-FF.\n\nRight. I\u0027ll it add.",
+      "parentUuid": "7a686e4e_ecaeebf7",
+      "range": {
+        "startLine": 47,
+        "startChar": 42,
+        "endLine": 48,
+        "endChar": 68
+      },
+      "revId": "a914063ae2ec78f620e315f1d1a15de4027ad1dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "53b96bd3_bd1c0395",
         "filename": "pages/design-docs/push-reviews/use-cases.md",
         "patchSetId": 1
@@ -37,6 +61,24 @@
       "writtenOn": "2022-03-04T11:07:20Z",
       "side": 1,
       "message": "* The previous state of the branch is recorded for audit in the code review.",
+      "revId": "a914063ae2ec78f620e315f1d1a15de4027ad1dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "169b0d30_c4cc8719",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-04T11:26:36Z",
+      "side": 1,
+      "message": "Thanks, that\u0027s a good addition. Will add it.",
+      "parentUuid": "53b96bd3_bd1c0395",
       "revId": "a914063ae2ec78f620e315f1d1a15de4027ad1dc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
