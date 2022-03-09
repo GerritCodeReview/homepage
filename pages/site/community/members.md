@@ -60,29 +60,31 @@ to the
 
 Current maintainers are:
 
-| Name                  | Affiliation                             |
-|-----------------------|-----------------------------------------|
-| Ben Rohlfs            | Google                                  |
-| Chris Poucet          | Google                                  |
-| David Ostrovsky       | Independent                             |
-| David Pursehouse      | Independent (formerly Sony, CollabNet)  |
-| Dmitrii Filippov      | Google                                  |
-| Edwin Kempin          | Google (formerly SAP)                   |
-| Frank Borden          | Google                                  |
-| Gal Paikin            | Google                                  |
-| Han-Wen Nienhuys      | Google                                  |
-| Jacek Centkowski      | Independent (formerly Digital.ai)       |
-| Joerg Zieren          | Google                                  |
-| Luca Milanesio        | GerritForge                             |
-| Marco Miller          | Ericsson                                |
-| Martin Fick           | Qualcomm                                |
-| Matthias Sohn         | SAP                                     |
-| Milutin Kristofic     | Google                                  |
-| Nasser Grainawi       | Qualcomm                                |
-| Patrick Hiesel        | Google                                  |
-| Saša Živkov           | SAP                                     |
-| Sven Selberg          | Axis                                    |
-| Youssef Elghareeb     | Google                                  |
+| Name                       | Affiliation                             |
+|----------------------------|-----------------------------------------|
+| Ben Rohlfs                 | Google                                  |
+| Chris Poucet               | Google                                  |
+| David Ostrovsky            | Independent                             |
+| David Pursehouse           | Independent (formerly Sony, CollabNet)  |
+| Dmitrii Filippov           | Google                                  |
+| Edwin Kempin               | Google (formerly SAP)                   |
+| Frank Borden               | Google                                  |
+| Gal Paikin                 | Google                                  |
+| Han-Wen Nienhuys           | Google                                  |
+| Jacek Centkowski           | Independent (formerly Digital.ai)       |
+| Joerg Zieren               | Google                                  |
+| Luca Milanesio             | GerritForge                             |
+| Marco Miller               | Ericsson                                |
+| Martin Fick                | Qualcomm                                |
+| Matthias Sohn              | SAP                                     |
+| Milutin Kristofic          | Google                                  |
+| Nasser Grainawi            | Qualcomm                                |
+| Patrick Hiesel             | Google                                  |
+| Patrick Mulhall (Paladox)  | Independent                             |
+| Saša Živkov                | SAP                                     |
+| Sven Selberg               | Axis                                    |
+| Thomas Dräbing             | SAP                                     |
+| Youssef Elghareeb          | Google                                  |
 
 ### Former maintainers
 
