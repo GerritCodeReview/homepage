@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92131a54_a52afa13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-03-09T23:14:29Z",
+      "side": 1,
+      "message": "@Edwin the \u0027no-limit\u0027 option for the anonymous REST API is removed in v3.3.10. All Gerrit setups in the world are at risk of DoS at the moment because of the \u0027no-limit\u0027 option that can be given to any changes query.\n\nDo you believe we should also fix it on EOL releases? I am thinking about large Gerrit v3.2.x that are public to the internet.",
+      "revId": "26c80f8d7a53b421eb8927bb4aec3c3bf8ddae35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
