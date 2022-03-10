@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b625d1c7_8485f405",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 554,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-03-10T12:19:16Z",
+      "side": 1,
+      "message": "this is pretty generic, how about this:\n\nFix java.util.IllegalFormatArgumentIndexException on Java 17 in MergeUtil#mergeWithConflicts",
+      "revId": "0ad4374c9a439bbb620d27b51067bd9e2df1621e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
