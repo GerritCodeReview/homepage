@@ -16,6 +16,24 @@
       "message": "this is pretty generic, how about this:\n\nFix java.util.IllegalFormatArgumentIndexException on Java 17 in MergeUtil#mergeWithConflicts",
       "revId": "0ad4374c9a439bbb620d27b51067bd9e2df1621e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c76ed36f_272d90b8",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 554,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-03-11T08:59:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b625d1c7_8485f405",
+      "revId": "0ad4374c9a439bbb620d27b51067bd9e2df1621e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
