@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bc5d7ba6_4406cded",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T14:21:56Z",
+      "side": 1,
+      "message": "Yes, probably we want some sort of protection against abuse, but we haven\u0027t thought much about this yet (e.g. we could require a special permission for being able to upload push-reviews).",
+      "parentUuid": "03f06f80_a3f3894d",
+      "range": {
+        "startLine": 64,
+        "startChar": 23,
+        "endLine": 65,
+        "endChar": 8
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cca7af83_6082a7d6",
         "filename": "pages/design-docs/push-reviews/use-cases.md",
         "patchSetId": 5
@@ -77,6 +101,48 @@
       "writtenOn": "2022-03-16T13:54:55Z",
       "side": 1,
       "message": "this severely limits the usefulness of the feature. apart from the get-rid-of-huge-blobs case you already removed, getting rid of commits that _really_ shouldn\u0027t have been submitted in the first place also requires actually erasing history.\n\nso instead, i would suggest that you make that optional: it would be a checkbox on the review (whose state would have to be approved). changes without history preservation would be self-destructive: upon submission, the patchsets would be cleared (tbd: what about orphaned comments?).",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "882e2eed_b5be7f1c",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T14:21:56Z",
+      "side": 1,
+      "message": "The audit log should record that the branch was updated from old SHA1 to new SHA1. Since the old SHA1 references all the past history that\u0027s implicitly included.\nI\u0027m not familiar with the ref-protection plugin, is it this what it\u0027s doing?",
+      "parentUuid": "cca7af83_6082a7d6",
+      "range": {
+        "startLine": 70,
+        "startChar": 15,
+        "endLine": 70,
+        "endChar": 34
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "612ffeb4_89befd57",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T14:21:56Z",
+      "side": 1,
+      "message": "Thanks, that\u0027s useful feedback!\n\n\u003e this severely limits the usefulness of the feature.\n\u003e apart from the get-rid-of-huge-blobs case you already removed,\n\u003e getting rid of commits that _really_ shouldn\u0027t have been\n\u003e submitted in the first place also requires actually erasing history.\n\nYes. However these are not primary use cases for us and we will likely not want to cover those with the initial version.\n\nI agree that in general these use-cases are interesting for the community and that they could be covered by making the audit logging optional. I would propose to look into this as a follow-up project.\n\n\u003e it would be a checkbox on the review (whose state would have to be approved). \n\u003e changes without history preservation would be self-destructive: upon submission,\n\nThis sounds like ideas how to implement this, but at this point we are only defining the use-cases and are not looking into the solution yet (that\u0027s the follow-up change).",
+      "parentUuid": "9c5223cc_cff6ecd4",
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
