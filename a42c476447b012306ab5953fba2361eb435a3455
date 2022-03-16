@@ -202,6 +202,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1ce690ac_2fce22f4",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-03-16T14:56:31Z",
+      "side": 1,
+      "message": "No, creating the merge commit on the client side would probably add overhead for the user.\n\nI was thinking about if downloading the merge commit created on the server would buy us anything on the client side.",
+      "parentUuid": "b5fcb45b_02b6b7b2",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "846c6e55_e7eafee0",
         "filename": "pages/design-docs/push-reviews/solution-google.md",
         "patchSetId": 4
@@ -237,6 +255,30 @@
       "side": 1,
       "message": "Our idea was that the client pushes without --force since the push only creates a change and doesn\u0027t apply the non-fast-forward update. The non-fast-forward update is only applied on submit, so the submitter should be required to have force push permissions in order to submit (that\u0027s the point above in l. 38, but it should say \u0027Force Push\u0027 permission instead of \u0027Push\u0027 permission there, fixed it in the new patch set).",
       "parentUuid": "846c6e55_e7eafee0",
+      "range": {
+        "startLine": 43,
+        "startChar": 41,
+        "endLine": 43,
+        "endChar": 80
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26640db7_ce101d3b",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-03-16T14:56:31Z",
+      "side": 1,
+      "message": "I think that non-fast-forward push should still be the exception. Making it look like an innocent fast-forward push on client side looks like a slippery slope.",
+      "parentUuid": "8035fb34_f242762d",
       "range": {
         "startLine": 43,
         "startChar": 41,
