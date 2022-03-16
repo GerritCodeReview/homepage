@@ -62,6 +62,23 @@
       },
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c5223cc_cff6ecd4",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2022-03-16T13:54:55Z",
+      "side": 1,
+      "message": "this severely limits the usefulness of the feature. apart from the get-rid-of-huge-blobs case you already removed, getting rid of commits that _really_ shouldn\u0027t have been submitted in the first place also requires actually erasing history.\n\nso instead, i would suggest that you make that optional: it would be a checkbox on the review (whose state would have to be approved). changes without history preservation would be self-destructive: upon submission, the patchsets would be cleared (tbd: what about orphaned comments?).",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
