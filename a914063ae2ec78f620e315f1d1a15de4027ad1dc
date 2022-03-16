@@ -96,6 +96,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e50df5e_958bfdf5",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-16T12:16:58Z",
+      "side": 1,
+      "message": "I think you often want to remove the file to reduce the size of the repository, but if it\u0027s kept somewhere (see audit below), we have to schlepp it around.",
+      "parentUuid": "bbc0f694_e8004a16",
+      "range": {
+        "startLine": 47,
+        "startChar": 42,
+        "endLine": 48,
+        "endChar": 68
+      },
+      "revId": "a914063ae2ec78f620e315f1d1a15de4027ad1dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53b96bd3_bd1c0395",
