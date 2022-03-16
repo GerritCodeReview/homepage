@@ -118,6 +118,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4692db7e_49cbd9e9",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-16T16:21:28Z",
+      "side": 1,
+      "message": "caveats:\n\nIf you do that, the wire protocol will say \"success\", but the update wasn\u0027t applied. This will cause confusion if you have scripts run against the server, eg.\n\n```\n  git push origin -f HEAD:bla\n  git checkout foo \u0026\u0026 git pull origin bla\n```\n\nwill silently start producing different results.",
+      "parentUuid": "8f5631a5_9e9b4df6",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "12a8ca83_be48997b",
