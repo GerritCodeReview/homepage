@@ -34,6 +34,86 @@
       "parentUuid": "bcde93f0_1c27a9c7",
       "revId": "a42c476447b012306ab5953fba2361eb435a3455",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60769e28_32cf152d",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-03-16T13:13:14Z",
+      "side": 1,
+      "message": "maybe it would make sense to add a project level option allowing to configure a project to implicitly assume the push-review option for all direct pushes even if the client does not specify the push-review option",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12a8ca83_be48997b",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-03-16T13:13:14Z",
+      "side": 1,
+      "message": "a merge commit which is used to record the push review and that has",
+      "range": {
+        "startLine": 24,
+        "startChar": 6,
+        "endLine": 24,
+        "endChar": 29
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c99da8b_4f16f86a",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-03-16T13:13:14Z",
+      "side": 1,
+      "message": "did you consider to also have a client side representation of such merge commits ?",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "846c6e55_e7eafee0",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-03-16T13:13:14Z",
+      "side": 1,
+      "message": "I assume the client still has to use the push --force option for any non-fast-forward updates",
+      "range": {
+        "startLine": 43,
+        "startChar": 41,
+        "endLine": 43,
+        "endChar": 80
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
