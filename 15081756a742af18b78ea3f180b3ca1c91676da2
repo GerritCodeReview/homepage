@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "daaf920d_40336224",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T12:04:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "293f715d_b25d6de9",
+      "range": {
+        "startLine": 15,
+        "startChar": 31,
+        "endLine": 15,
+        "endChar": 38
+      },
+      "revId": "15081756a742af18b78ea3f180b3ca1c91676da2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d9aa2e83_6d6d52ca",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-03-07T09:07:53Z",
       "side": 1,
       "message": "might not be clear what upstream means.\n\nmaybe be verbose and say: a branch I mirror in from another (open-source) project",
+      "range": {
+        "startLine": 46,
+        "startChar": 49,
+        "endLine": 46,
+        "endChar": 57
+      },
+      "revId": "15081756a742af18b78ea3f180b3ca1c91676da2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4eccf98_5884ff1d",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T12:04:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9aa2e83_6d6d52ca",
       "range": {
         "startLine": 46,
         "startChar": 49,

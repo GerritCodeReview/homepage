@@ -72,6 +72,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d95dc2bb_a9f33cfa",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T12:04:08Z",
+      "side": 1,
+      "message": "\u003e So I think this use-case makes sense?\n\nLooking at this again, I think I see your concern with this use-case.\nWhile this removes the large file from the history of the branches that the user is fetching, it doesn\u0027t remove the large file from the remote repository, since the commit that contains the large file is still referenced from the audit log and hence not garbage collected. So the use of push reviews is limited here. In this case I prefer to drop this use case. Done.",
+      "parentUuid": "47fd9bc5_611a067a",
+      "range": {
+        "startLine": 47,
+        "startChar": 42,
+        "endLine": 48,
+        "endChar": 68
+      },
+      "revId": "a914063ae2ec78f620e315f1d1a15de4027ad1dc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53b96bd3_bd1c0395",
