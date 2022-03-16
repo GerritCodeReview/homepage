@@ -395,6 +395,24 @@
       "parentUuid": "92161139_b9c1e46b",
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6b4b5a2_35abe4c7",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T20:26:17Z",
+      "side": 1,
+      "message": "\u003e The point here is that after the target branch has been updated, people (ie. auditors, engineers) can still inspect how the branch was changed, using the same UI that reviewers used to approve the update. That requires storing the old state of the branch.\n\nThat makes sense. Without this, the review change itself doesn\u0027t put any guarantees on preserving the old state, since to the change that state is basically just a \"Base revision\". Thanks for explaining it more.\n\nIt\u0027s a slight difference, but understanding this better now, I do think you want s/recorded/preserved/ since those are often different things.",
+      "parentUuid": "525577eb_8797be13",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
