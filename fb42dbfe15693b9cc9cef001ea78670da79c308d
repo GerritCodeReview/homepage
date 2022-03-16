@@ -20,6 +20,132 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "67fff80e_21844b56",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "nit: I think Gerrit typically calls this the \u0027destination\u0027 branch? (below too)",
+      "range": {
+        "startLine": 15,
+        "startChar": 17,
+        "endLine": 15,
+        "endChar": 23
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8674749c_68af97d0",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "We also can\u0027t review fast forward updates without creating extra commits using \u0027merge --no-ff\u0027 (which I guess means they\u0027re not fast-forwards anymore). Note that here too?",
+      "range": {
+        "startLine": 21,
+        "startChar": 14,
+        "endLine": 21,
+        "endChar": 38
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf4793bc_faa3e74c",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "nit: s/resets/sets/ ?",
+      "range": {
+        "startLine": 25,
+        "startChar": 74,
+        "endLine": 25,
+        "endChar": 80
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65575952_2a34e04a",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "What about creation of a new branch via push?",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6c53b28_a1eafb44",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "Add a reference to https://slsa.dev/spec/v0.1/requirements#two-person-reviewed ?",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00797c88_f7e4d115",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "Can you tie \u0027import\u0027 to git commands? For example, one way to import that would *not* be an interesting use case for this doc would be:\n\n cd my-repo/partner-drops\n tar xf partner-drop.tgz\n git add . \u0026\u0026 git commit -m \u0027Partner drop from YY-MM-DD\u0027\n git push origin HEAD:refs/for/...",
+      "range": {
+        "startLine": 51,
+        "startChar": 2,
+        "endLine": 52,
+        "endChar": 14
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "03f06f80_a3f3894d",
         "filename": "pages/design-docs/push-reviews/use-cases.md",
         "patchSetId": 5
@@ -84,6 +210,53 @@
         "startChar": 23,
         "endLine": 65,
         "endChar": 8
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95422869_55473a29",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "If we think a \"large diff\" scenario is more likely with these use cases (and I think it is), maybe add an acceptance criteria related to handling large diffs in an acceptable way?",
+      "parentUuid": "bc5d7ba6_4406cded",
+      "range": {
+        "startLine": 64,
+        "startChar": 23,
+        "endLine": 65,
+        "endChar": 8
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f9c4c25_efd89334",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "Always? or optionally?",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 45
       },
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -185,6 +358,23 @@
       "side": 1,
       "message": "\u003e apart from the get-rid-of-huge-blobs case you already removed, getting rid of commits that _really_ shouldn\u0027t have been submitted in the first place also requires actually erasing history.\n\nWe have to persist data (huge blobs etc.) that went into the build of previous artifacts, so we can afterwards prove how binaries were made. So we explicitly don\u0027t want erase history at all.",
       "parentUuid": "612ffeb4_89befd57",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92161139_b9c1e46b",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-16T16:51:40Z",
+      "side": 1,
+      "message": "I\u0027m not opposed to this feature in general, but this feels like a separate feature from the rest of this doc. We already have reflogs to track updates to refs. If there\u0027s a desire to improve on a reflog, I think it deserves its own use case doc and design proposals.",
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
