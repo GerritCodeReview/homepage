@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c19661ef_28bf1107",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T13:43:19Z",
+      "side": 1,
+      "message": "Yes. Updated the text.",
+      "parentUuid": "eb0bbb82_a78fd590",
+      "range": {
+        "startLine": 28,
+        "startChar": 55,
+        "endLine": 29,
+        "endChar": 6
+      },
+      "revId": "23cfe3f423246a517d4d9a464c3ef911d6882cec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "db42971c_851f9939",
@@ -49,6 +73,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "469a5be3_28ba50ea",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T13:43:19Z",
+      "side": 1,
+      "message": "If the change was uploaded before the reset and the change was not rebased yet, you would still see the file diff against the state of the file before the reset (since the old branch head is the base commit of the change). However that change would not be submittable due to the conflict with the new branch head. On rebase of the change you would need to resolve that conflict, e.g. revert the changes to that file (or newly add the whole file which makes no sense given the use-case).\n\nAn interesting question related to this is what happens if you locally have a successor commit of the old branch head and you push this commit for review after the reset. I think this could create new changes for all commits which have been removed from the branch history by the reset. Maybe we would need to ban the old branch head to prevent this from happening?",
+      "parentUuid": "db42971c_851f9939",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 42
+      },
+      "revId": "23cfe3f423246a517d4d9a464c3ef911d6882cec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a194ef17_e3c7a30a",
         "filename": "pages/design-docs/push-reviews/use-cases.md",
         "patchSetId": 4
@@ -60,6 +108,30 @@
       "writtenOn": "2022-03-16T12:56:05Z",
       "side": 1,
       "message": "git filter-branch is not recommended anymore [1].\nIt\u0027s recommended to use git filter-repo instead [2].\n\n[1] https://git-scm.com/docs/git-filter-branch\n[2] https://github.com/newren/git-filter-repo/",
+      "range": {
+        "startLine": 55,
+        "startChar": 20,
+        "endLine": 55,
+        "endChar": 37
+      },
+      "revId": "23cfe3f423246a517d4d9a464c3ef911d6882cec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "928fbda9_63f0e4c7",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T13:43:19Z",
+      "side": 1,
+      "message": "Thanks. Updated this.",
+      "parentUuid": "a194ef17_e3c7a30a",
       "range": {
         "startLine": 55,
         "startChar": 20,
