@@ -71,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "95e60eb3_2bd4e1bc",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T12:04:41Z",
+      "side": 1,
+      "message": "Sounds indeed useful, although I have no concrete use-case in mind yet. Added it as an optional point.\n\nI wonder if this is something orthogonal, e.g. would this be something that is interesting to offer for merge changes in general (not only for the newly envisioned push-review changes)?",
+      "parentUuid": "1c70ca8b_03fa2102",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 56
+      },
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "72cf2b08_33483bed",
@@ -155,6 +179,24 @@
       "side": 1,
       "message": "for our use-cases, probably not.",
       "parentUuid": "71dd27c1_beed55aa",
+      "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0385090e_c76be1dd",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T12:04:41Z",
+      "side": 1,
+      "message": "OK. Added an optional point for this.",
+      "parentUuid": "39679ac9_89ae5cd0",
       "revId": "b32350431c28bb1704ca192a21b72c2a3e1d53ee",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
