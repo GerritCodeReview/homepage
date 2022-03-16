@@ -67,6 +67,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4b5029c1_2a4e69b9",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-16T16:13:05Z",
+      "side": 1,
+      "message": "correct. We have a limit on the max number of files in a diff. I think that would kick in here as well.",
+      "parentUuid": "bc5d7ba6_4406cded",
+      "range": {
+        "startLine": 64,
+        "startChar": 23,
+        "endLine": 65,
+        "endChar": 8
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cca7af83_6082a7d6",
         "filename": "pages/design-docs/push-reviews/use-cases.md",
         "patchSetId": 5
@@ -143,6 +167,24 @@
       "side": 1,
       "message": "Thanks, that\u0027s useful feedback!\n\n\u003e this severely limits the usefulness of the feature.\n\u003e apart from the get-rid-of-huge-blobs case you already removed,\n\u003e getting rid of commits that _really_ shouldn\u0027t have been\n\u003e submitted in the first place also requires actually erasing history.\n\nYes. However these are not primary use cases for us and we will likely not want to cover those with the initial version.\n\nI agree that in general these use-cases are interesting for the community and that they could be covered by making the audit logging optional. I would propose to look into this as a follow-up project.\n\n\u003e it would be a checkbox on the review (whose state would have to be approved). \n\u003e changes without history preservation would be self-destructive: upon submission,\n\nThis sounds like ideas how to implement this, but at this point we are only defining the use-cases and are not looking into the solution yet (that\u0027s the follow-up change).",
       "parentUuid": "9c5223cc_cff6ecd4",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04093d01_b93d8c32",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-16T16:13:05Z",
+      "side": 1,
+      "message": "\u003e apart from the get-rid-of-huge-blobs case you already removed, getting rid of commits that _really_ shouldn\u0027t have been submitted in the first place also requires actually erasing history.\n\nWe have to persist data (huge blobs etc.) that went into the build of previous artifacts, so we can afterwards prove how binaries were made. So we explicitly don\u0027t want erase history at all.",
+      "parentUuid": "612ffeb4_89befd57",
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
