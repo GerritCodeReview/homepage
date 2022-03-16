@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "59310266_269221cc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T14:07:09Z",
+      "side": 1,
+      "message": "Do you making Han-Wen the commit author?\nNot sure if this make sense since I wrote the doc?",
+      "parentUuid": "28384125_6c1100ef",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 31
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "bcde93f0_1c27a9c7",
@@ -76,6 +100,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f5631a5_9e9b4df6",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T14:07:09Z",
+      "side": 1,
+      "message": "Thanks for the suggestion. Yes, this makes sense to me, added it as an optional point.",
+      "parentUuid": "60769e28_32cf152d",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "12a8ca83_be48997b",
@@ -118,6 +160,48 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b5fcb45b_02b6b7b2",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T14:07:09Z",
+      "side": 1,
+      "message": "No, we didn\u0027t consider this yet. Do you mean letting the client create this merge commit and then push it to Gerrit (so that we do not need to create this merge commit automagically in Gerrit)?",
+      "parentUuid": "7c99da8b_4f16f86a",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "142ded72_25ae0a70",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T14:07:09Z",
+      "side": 1,
+      "message": "Thanks. Done.",
+      "parentUuid": "12a8ca83_be48997b",
+      "range": {
+        "startLine": 24,
+        "startChar": 6,
+        "endLine": 24,
+        "endChar": 29
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "846c6e55_e7eafee0",
         "filename": "pages/design-docs/push-reviews/solution-google.md",
         "patchSetId": 4
@@ -129,6 +213,30 @@
       "writtenOn": "2022-03-16T13:13:14Z",
       "side": 1,
       "message": "I assume the client still has to use the push --force option for any non-fast-forward updates",
+      "range": {
+        "startLine": 43,
+        "startChar": 41,
+        "endLine": 43,
+        "endChar": 80
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8035fb34_f242762d",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-16T14:07:09Z",
+      "side": 1,
+      "message": "Our idea was that the client pushes without --force since the push only creates a change and doesn\u0027t apply the non-fast-forward update. The non-fast-forward update is only applied on submit, so the submitter should be required to have force push permissions in order to submit (that\u0027s the point above in l. 38, but it should say \u0027Force Push\u0027 permission instead of \u0027Push\u0027 permission there, fixed it in the new patch set).",
+      "parentUuid": "846c6e55_e7eafee0",
       "range": {
         "startLine": 43,
         "startChar": 41,
