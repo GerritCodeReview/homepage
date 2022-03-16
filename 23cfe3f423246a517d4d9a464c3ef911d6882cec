@@ -26,6 +26,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "db42971c_851f9939",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2022-03-16T13:05:06Z",
+      "side": 1,
+      "message": "What would happen, if I would look at a change in the UI that changes a file in this subfolder that does not exist anymore after the reset of the branch?",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 42
+      },
+      "revId": "23cfe3f423246a517d4d9a464c3ef911d6882cec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a194ef17_e3c7a30a",
         "filename": "pages/design-docs/push-reviews/use-cases.md",
         "patchSetId": 4
