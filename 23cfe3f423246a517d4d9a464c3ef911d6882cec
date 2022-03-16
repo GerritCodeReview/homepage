@@ -97,6 +97,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e3a69cb0_d3ad14e0",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2022-03-16T14:18:40Z",
+      "side": 1,
+      "message": "I was rather referring to already submitted changes. But I was able to figure it out myself. Since the diff will be created from the patchset commit to the parent commit, which will both be rewritten, the change will basically also be rewritten. However, this would require that somebody who rewrites the history does so as well for everything under refs/changes/*, at least to include earlier (non-merged) patchsets as well.\n\n\u003e An interesting question related to this is what happens if you locally have a successor commit of the old branch head and you push this commit for review after the reset. I think this could create new changes for all commits which have been removed from the branch history by the reset. Maybe we would need to ban the old branch head to prevent this from happening?\n\nYes, I would believe that this would create a set of changes. This also brings up that all previous patchsets of the commit that was merged would need to be deleted as well. How would somebody do that exactly? WOuld such a thing still be part of the push-review?\n\nI am not sure, if blocking only the old branch head would work. What if a client was on an older branch state, which might still contain removed commits, and pushes for review?",
+      "parentUuid": "469a5be3_28ba50ea",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 42
+      },
+      "revId": "23cfe3f423246a517d4d9a464c3ef911d6882cec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a194ef17_e3c7a30a",
         "filename": "pages/design-docs/push-reviews/use-cases.md",
         "patchSetId": 4
