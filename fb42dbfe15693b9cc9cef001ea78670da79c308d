@@ -377,6 +377,24 @@
       "message": "I\u0027m not opposed to this feature in general, but this feels like a separate feature from the rest of this doc. We already have reflogs to track updates to refs. If there\u0027s a desire to improve on a reflog, I think it deserves its own use case doc and design proposals.",
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "525577eb_8797be13",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-03-16T19:30:36Z",
+      "side": 1,
+      "message": "The point here is that after the target branch has been updated, people (ie. auditors, engineers) can still inspect how the branch was changed, using the same UI that reviewers used to approve the update. That requires storing the old state of the branch.\n\nYou could do this with reflogs, but we have no UI to inspect reflogs, the reflogs have different visibility, and typically involve some sort of admin action to surface to -say- an external auditor.",
+      "parentUuid": "92161139_b9c1e46b",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
