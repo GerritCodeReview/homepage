@@ -143,6 +143,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a92b4fbc_0da14a21",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "\u003e I was rather referring to already submitted changes. But I was able to\n\u003e figure it out myself. Since the diff will be created from the patchset\n\u003e commit to the parent commit, which will both be rewritten, the change will \n\u003e basically also be rewritten.\n\nNo, the parent commits of merged changes stay intact and will not be rewritten. What\u0027s rewritten is the history of the target branch so that the branch no longer contains the parent commits, but the parent commits are not removed from the repository so that the merged changes still have them as their base. So the merged changes and also any old patch sets will just stay as they are.\n\n\u003e I am not sure, if blocking only the old branch head would work.\n\u003e What if a client was on an older branch state, which might still\n\u003e contain removed commits, and pushes for review?\n\nRight. Only blocking the old branch head is not sufficient for the reason you mention. I\u0027ve added an acceptance criteria to cover this now (how to implement this will be part of the proposed solutions). \n\n\u003e I had to see the link to git filter-repo to understand that the intent\n\u003e of this use case is to rewrite the history of this repo/branch to\n\u003e retroactively split up the repo. Could you make that clearer?\n\nI rephrased this and hope it\u0027s clearer now. Also made \u0027git filter-repo\u0027 below a link to the documentation to make the lookup easier.",
+      "parentUuid": "a67b6b92_6beb1693",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 42
+      },
+      "revId": "23cfe3f423246a517d4d9a464c3ef911d6882cec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a194ef17_e3c7a30a",

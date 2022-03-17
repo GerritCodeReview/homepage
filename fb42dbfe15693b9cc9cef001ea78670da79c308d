@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "574aec89_adb1f1d8",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "I think we use \u0027target branch\u0027 and \u0027destination branch\u0027 synonymously. \u0027target branch\\|targetBranch\u0027 has 265 occurrences in our codebase, \u0027destination branch\\|destinationBranch\u0027 has 208 occurrences. FWIW I prefer \u0027target branch\u0027 since it\u0027s shorter, hence leaving this as it is.",
+      "parentUuid": "67fff80e_21844b56",
+      "range": {
+        "startLine": 15,
+        "startChar": 17,
+        "endLine": 15,
+        "endChar": 23
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8674749c_68af97d0",
@@ -54,6 +78,30 @@
       "writtenOn": "2022-03-16T16:51:40Z",
       "side": 1,
       "message": "We also can\u0027t review fast forward updates without creating extra commits using \u0027merge --no-ff\u0027 (which I guess means they\u0027re not fast-forwards anymore). Note that here too?",
+      "range": {
+        "startLine": 21,
+        "startChar": 14,
+        "endLine": 21,
+        "endChar": 38
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ade1198_ed284cbf",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Right. Updated the text.",
+      "parentUuid": "8674749c_68af97d0",
       "range": {
         "startLine": 21,
         "startChar": 14,
@@ -87,6 +135,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a4d3737_bdd798d7",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf4793bc_faa3e74c",
+      "range": {
+        "startLine": 25,
+        "startChar": 74,
+        "endLine": 25,
+        "endChar": 80
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "65575952_2a34e04a",
@@ -100,6 +172,24 @@
       "writtenOn": "2022-03-16T16:51:40Z",
       "side": 1,
       "message": "What about creation of a new branch via push?",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d50deb06_6c944dc8",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "From looking at requests to our systems branch creations are currently often handled like this:\n\n1. Create the branch with an initial empty commit (direct push)\n2. Create a merge change that merges the desired content into the new branch (Create Change REST endpoint using MergeInput)\n\u003d\u003e by creating a merge change the population of the new branch can be reviewed\n   \nDoing 1. should be possible without needing to do a direct push. My plan is to add a new option to the Create Branch REST endpoint so that it can create a new branch on an initial empty commit (orthogonal feature to this design).\n\nIf we have this you could use a push-review for 2. to populate the new branch with a specific SHA1 and review the push-review change.\n\nI added a section below to include this idea.",
+      "parentUuid": "65575952_2a34e04a",
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -121,6 +211,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b60a452_1bfa971a",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Nice. We are basically working on improving our compliance to a Google-version of SLSA. This design is part of these efforts.\n\nDone.",
+      "parentUuid": "f6c53b28_a1eafb44",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "00797c88_f7e4d115",
@@ -134,6 +242,30 @@
       "writtenOn": "2022-03-16T16:51:40Z",
       "side": 1,
       "message": "Can you tie \u0027import\u0027 to git commands? For example, one way to import that would *not* be an interesting use case for this doc would be:\n\n cd my-repo/partner-drops\n tar xf partner-drop.tgz\n git add . \u0026\u0026 git commit -m \u0027Partner drop from YY-MM-DD\u0027\n git push origin HEAD:refs/for/...",
+      "range": {
+        "startLine": 51,
+        "startChar": 2,
+        "endLine": 52,
+        "endChar": 14
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6870e079_a81a461b",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Right. I rephrased this and hope it\u0027s better now?",
+      "parentUuid": "00797c88_f7e4d115",
       "range": {
         "startLine": 51,
         "startChar": 2,
@@ -239,6 +371,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7f54ede_cf8bfe38",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95422869_55473a29",
+      "range": {
+        "startLine": 64,
+        "startChar": 23,
+        "endLine": 65,
+        "endChar": 8
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8f9c4c25_efd89334",
@@ -252,6 +408,30 @@
       "writtenOn": "2022-03-16T16:51:40Z",
       "side": 1,
       "message": "Always? or optionally?",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 45
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93f249fe_db6fadcf",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Only if the submission results in a non-fast-forward update of the destination branch. Added this condition here.",
+      "parentUuid": "8f9c4c25_efd89334",
       "range": {
         "startLine": 66,
         "startChar": 0,
@@ -411,6 +591,66 @@
       "side": 1,
       "message": "\u003e The point here is that after the target branch has been updated, people (ie. auditors, engineers) can still inspect how the branch was changed, using the same UI that reviewers used to approve the update. That requires storing the old state of the branch.\n\nThat makes sense. Without this, the review change itself doesn\u0027t put any guarantees on preserving the old state, since to the change that state is basically just a \"Base revision\". Thanks for explaining it more.\n\nIt\u0027s a slight difference, but understanding this better now, I do think you want s/recorded/preserved/ since those are often different things.",
       "parentUuid": "525577eb_8797be13",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b3dfcce_9c3351d2",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Right, added this explicitly as an use case now.\n\nAlso added a Non-Goals section to clarify which use cases we do not want to cover for now.",
+      "parentUuid": "04093d01_b93d8c32",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35bbd7c6_c4b2f25c",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Thanks, I rephrased this to make this clearer and also added a dedicated use-case for this.",
+      "parentUuid": "b6b4b5a2_35abe4c7",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "889766af_8dde7874",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-17T14:21:55Z",
+      "side": 1,
+      "message": "Actually this is about enabling users to inspect retroactively how the branch was changed (see discussion between Nasser and Han-Wen below). I improved the phrasing to make this clearer.",
+      "parentUuid": "882e2eed_b5be7f1c",
+      "range": {
+        "startLine": 70,
+        "startChar": 15,
+        "endLine": 70,
+        "endChar": 34
+      },
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
