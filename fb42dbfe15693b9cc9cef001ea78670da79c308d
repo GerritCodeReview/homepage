@@ -65,6 +65,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "698319f4_7b2d8d12",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-17T19:08:46Z",
+      "side": 1,
+      "message": "Ack.",
+      "parentUuid": "574aec89_adb1f1d8",
+      "range": {
+        "startLine": 15,
+        "startChar": 17,
+        "endLine": 15,
+        "endChar": 23
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8674749c_68af97d0",
@@ -194,6 +218,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bfc77741_c54bc776",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-17T19:08:46Z",
+      "side": 1,
+      "message": "Ack.",
+      "parentUuid": "d50deb06_6c944dc8",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f6c53b28_a1eafb44",
@@ -225,6 +267,24 @@
       "side": 1,
       "message": "Nice. We are basically working on improving our compliance to a Google-version of SLSA. This design is part of these efforts.\n\nDone.",
       "parentUuid": "f6c53b28_a1eafb44",
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c78783b1_5b81d7ed",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-17T19:08:46Z",
+      "side": 1,
+      "message": "I assumed it was something like that 😊",
+      "parentUuid": "6b60a452_1bfa971a",
       "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -266,6 +326,30 @@
       "side": 1,
       "message": "Right. I rephrased this and hope it\u0027s better now?",
       "parentUuid": "00797c88_f7e4d115",
+      "range": {
+        "startLine": 51,
+        "startChar": 2,
+        "endLine": 52,
+        "endChar": 14
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a7c3e6b_42719eac",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-17T19:08:46Z",
+      "side": 1,
+      "message": "It is, thanks!",
+      "parentUuid": "6870e079_a81a461b",
       "range": {
         "startLine": 51,
         "startChar": 2,
@@ -432,6 +516,30 @@
       "side": 1,
       "message": "Only if the submission results in a non-fast-forward update of the destination branch. Added this condition here.",
       "parentUuid": "8f9c4c25_efd89334",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 45
+      },
+      "revId": "fb42dbfe15693b9cc9cef001ea78670da79c308d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e2b056e_5f64f557",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-17T19:08:46Z",
+      "side": 1,
+      "message": "Ack.",
+      "parentUuid": "93f249fe_db6fadcf",
       "range": {
         "startLine": 66,
         "startChar": 0,

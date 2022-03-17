@@ -16,6 +16,75 @@
       "message": "Thanks everyone for all the great input so far. Much appreciated!",
       "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04611345_273a29f0",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-17T19:08:46Z",
+      "side": 1,
+      "message": "It can also be done now through the Create Branch REST endpoint, assuming an empty initial commit already exists in the repo and is visible to the calling user.",
+      "range": {
+        "startLine": 95,
+        "startChar": 30,
+        "endLine": 95,
+        "endChar": 41
+      },
+      "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e27d3bd_16e8ff67",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-17T19:08:46Z",
+      "side": 1,
+      "message": "This probably (overly?) limits branch rewrites. Is that the intent?",
+      "range": {
+        "startLine": 106,
+        "startChar": 61,
+        "endLine": 107,
+        "endChar": 39
+      },
+      "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "141df2dd_b9d789d5",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-17T19:08:46Z",
+      "side": 1,
+      "message": "Do these already happen for direct updates? If not, it\u0027d be great to have that first.",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 123,
+        "endChar": 36
+      },
+      "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
