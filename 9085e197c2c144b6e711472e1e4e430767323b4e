@@ -98,6 +98,24 @@
       "message": "This had a \"skip\" on it, but I think that was a mistake. This was a regression in 3.5.0.1 that\u0027s fixed now:\n\n * [Change 330579](https://gerrit-review.googlesource.com/c/gerrit/+/330579):\n Restore transition support for cache-automerge refs which point to a tree",
       "revId": "9085e197c2c144b6e711472e1e4e430767323b4e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdf4308f_0117450b",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-03-18T17:33:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "10fd4094_9486d1f3",
+      "revId": "9085e197c2c144b6e711472e1e4e430767323b4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
