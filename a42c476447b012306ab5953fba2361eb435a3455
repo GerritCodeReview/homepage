@@ -48,6 +48,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d62d10a_9e49f24a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "\u003e Not sure if this make sense since I wrote the doc?\n\nI think either way is fine. Git community would probably leave Edwin the author and use a footer line for this kind of use case (there are many that have been used in git, this one looks most relevant):\n\n Proposed-by: Han-Wen Nienhuys \u003chanwen@google.com\u003e",
+      "parentUuid": "59310266_269221cc",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 31
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "bcde93f0_1c27a9c7",
@@ -256,6 +280,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9ec92403_3eebf9fd",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "\u003e I was thinking about if downloading the merge commit created on the server would buy us anything on the client side.\n\nI think any verification of the change should use the commit that\u0027s going to be set on submit, so the merge commit isn\u0027t especially interesting to download. That said, how is a CI system expected to discover that info?",
+      "parentUuid": "1ce690ac_2fce22f4",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "846c6e55_e7eafee0",
         "filename": "pages/design-docs/push-reviews/solution-google.md",
         "patchSetId": 4
@@ -315,6 +357,30 @@
       "side": 1,
       "message": "I think that non-fast-forward push should still be the exception. Making it look like an innocent fast-forward push on client side looks like a slippery slope.",
       "parentUuid": "8035fb34_f242762d",
+      "range": {
+        "startLine": 43,
+        "startChar": 41,
+        "endLine": 43,
+        "endChar": 80
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d642e0e4_025c06e9",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "\u003e I think that non-fast-forward push should still be the exception. Making it look like an innocent fast-forward push on client side looks like a slippery slope.\n\nI agree with Matthias here. I also think it benefits us to make this look/feel like a direct push still.",
+      "parentUuid": "26640db7_ce101d3b",
       "range": {
         "startLine": 43,
         "startChar": 41,

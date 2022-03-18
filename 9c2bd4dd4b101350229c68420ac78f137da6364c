@@ -36,6 +36,103 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "84a59047_eb820283",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "+1 for the general direction of the solution. Some questions inline, but nothing especially concerning. I do want to make sure there\u0027s a good story/plan around how CI systems interact with these changes.",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48c0a63a_fb1af44c",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "duplicate \u0027the\u0027?",
+      "range": {
+        "startLine": 13,
+        "startChar": 72,
+        "endLine": 13,
+        "endChar": 75
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c27c2b9_59e376b4",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "Would it be better to use this section to provide a high-level summary of the design? Just linking to the use case doc doesn\u0027t seem to add a lot of value (but I do like having the links).\nI\u0027m thinking something like:\n\n Address the [problems] and [use cases] through a new `push-review` push option\n which creates a change for a push to a real (non-magic/non-symbolic) ref. These\n \"push-review changes\" have a distinguishing attribute but are otherwise reviewable\n like any other Gerrit change. Submitting this change sets the target branch to the\n pushed commit.\n\nWriting that I also realized symbolic refs aren\u0027t discussed anywhere yet. Do they need the special treatment I invented above? Or just handled already by what direct updates currently support?",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ded2144_e219741e",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "Remove based on Han-Wen/Matthias updates on PS4 comment? I don\u0027t think there\u0027s a good workaround for that issue.",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed123efd_afec0628",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "Does this mean the PS commit-id is the merge commit and not the pushed commit?",
+      "range": {
+        "startLine": 31,
+        "startChar": 6,
+        "endLine": 31,
+        "endChar": 35
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b0cd8220_4595a23e",
@@ -49,6 +146,92 @@
       "writtenOn": "2022-03-16T14:56:31Z",
       "side": 1,
       "message": "I think the force flag on the push permission should only be required if it\u0027s a non-fast-forward update",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "252c136a_4aefb2b7",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "s/resets/(re)sets/ or just s/resets/sets/\n\nsame on the next line",
+      "range": {
+        "startLine": 44,
+        "startChar": 16,
+        "endLine": 44,
+        "endChar": 22
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3098c42_5e242813",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "Is it expected that the push-review change shows a Merge Conflict if the target branch has been updated?",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87ab4cab_faf955d3",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "nit: s/sets/set/",
+      "range": {
+        "startLine": 53,
+        "startChar": 35,
+        "endLine": 53,
+        "endChar": 39
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92cd3103_c37f4bca",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:55:53Z",
+      "side": 1,
+      "message": "nit: s/commmits/commits/",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 57,
+        "endChar": 20
+      },
       "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
