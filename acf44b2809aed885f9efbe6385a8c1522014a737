@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f5bd14d_1c3ae8dd",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T15:35:14Z",
+      "side": 1,
+      "message": "Thinking about the broader picture of a two-person reviewed requirement, I think there\u0027s another important gerrit-specific use case missing, but I think it\u0027s a non-goal in this context. Submodule subscriptions effectively do direct updates and bypass review. A simple solution to that might be to enhance that feature to support creating changes instead of doing direct updates.\n\nSince submodule subscriptions are independent of branch push permissions (as in, I can remove branch push perms and submodule subscriptions continue functioning), I think it\u0027s a non-goal. For that two-person reviewed requirement, it would need a solution.",
+      "revId": "acf44b2809aed885f9efbe6385a8c1522014a737",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
