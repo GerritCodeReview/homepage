@@ -22,6 +22,52 @@
       },
       "revId": "38aa953b56a2368e8e5c65704071e8a7f503e85b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88b0deef_a4bf1cd1",
+        "filename": "_posts/2021-12-13-log4j-statement.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-03-18T17:43:23Z",
+      "side": 1,
+      "message": "v3.5.0.1 only.",
+      "range": {
+        "startLine": 12,
+        "startChar": 7,
+        "endLine": 12,
+        "endChar": 11
+      },
+      "revId": "38aa953b56a2368e8e5c65704071e8a7f503e85b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92169c51_feae8831",
+        "filename": "_posts/2021-12-13-log4j-statement.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-03-18T17:43:23Z",
+      "side": 1,
+      "message": "This should stay v3.5.0.1",
+      "range": {
+        "startLine": 20,
+        "startChar": 118,
+        "endLine": 20,
+        "endChar": 123
+      },
+      "revId": "38aa953b56a2368e8e5c65704071e8a7f503e85b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
