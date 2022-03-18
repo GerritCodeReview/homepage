@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e5a21ec_301137f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T16:53:26Z",
+      "side": 1,
+      "message": "Update the other files referencing 3.5.0.1 too?",
+      "revId": "9085e197c2c144b6e711472e1e4e430767323b4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bf85214_0adedc39",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 470,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T16:53:26Z",
+      "side": 1,
+      "message": "Extra indent space here?",
+      "range": {
+        "startLine": 470,
+        "startChar": 4,
+        "endLine": 470,
+        "endChar": 5
+      },
+      "revId": "9085e197c2c144b6e711472e1e4e430767323b4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10fd4094_9486d1f3",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-03-18T16:53:26Z",
+      "side": 1,
+      "message": "This had a \"skip\" on it, but I think that was a mistake. This was a regression in 3.5.0.1 that\u0027s fixed now:\n\n * [Change 330579](https://gerrit-review.googlesource.com/c/gerrit/+/330579):\n Restore transition support for cache-automerge refs which point to a tree",
+      "revId": "9085e197c2c144b6e711472e1e4e430767323b4e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
