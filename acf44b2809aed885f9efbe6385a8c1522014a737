@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d4c2650_d64653d2",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-03-18T22:58:45Z",
+      "side": 1,
+      "message": "It might be worth clarifying (even if you don\u0027t plan to support them all) that there are at least 5 unreviewable update types:\n\n 1) Branch Creation (ref creation + FF from 0)\n 2) Branch FF\n 3) Branch Rewind\n 4) Branch Rewriting (Rewind + FF)\n 5) Branch Deletion (Rewind to 0 + ref deletion)\nDifferentiating these could help point out the desire to potentially need different permissions for FF and rewind, and that rewrites should probably require both?\n\nFootnote: to have feature parity with git, a 6th one might be nice to have someday:\n  6) Branch renaming  (this is not equivalent to a create + delete since git actually renames the reflog when this happens which helps to preserve the history of the ref).",
+      "revId": "acf44b2809aed885f9efbe6385a8c1522014a737",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8f5bd14d_1c3ae8dd",
         "filename": "pages/design-docs/push-reviews/use-cases.md",
         "patchSetId": 8
@@ -14,6 +31,80 @@
       "writtenOn": "2022-03-18T15:35:14Z",
       "side": 1,
       "message": "Thinking about the broader picture of a two-person reviewed requirement, I think there\u0027s another important gerrit-specific use case missing, but I think it\u0027s a non-goal in this context. Submodule subscriptions effectively do direct updates and bypass review. A simple solution to that might be to enhance that feature to support creating changes instead of doing direct updates.\n\nSince submodule subscriptions are independent of branch push permissions (as in, I can remove branch push perms and submodule subscriptions continue functioning), I think it\u0027s a non-goal. For that two-person reviewed requirement, it would need a solution.",
+      "revId": "acf44b2809aed885f9efbe6385a8c1522014a737",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59ef39b9_7513fe1b",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-03-18T22:58:45Z",
+      "side": 1,
+      "message": "I would favor just making #2 work alone instead.",
+      "revId": "acf44b2809aed885f9efbe6385a8c1522014a737",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba6d5436_089e3604",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-03-18T22:58:45Z",
+      "side": 1,
+      "message": "By \"the head of the target branch\" do you specifically mean \"the head at upload time of the review of the target branch\"?",
+      "revId": "acf44b2809aed885f9efbe6385a8c1522014a737",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f88d4cc4_19659af4",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-03-18T22:58:45Z",
+      "side": 1,
+      "message": "I would think that it might also be desirable to need special permissions to submit any FF with more than one commit in it as most current users of Gerrit\u0027s workflow do not expect this to be allowed.",
+      "revId": "acf44b2809aed885f9efbe6385a8c1522014a737",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec955e17_5fe775e5",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-03-18T22:58:45Z",
+      "side": 1,
+      "message": "Even when the changes are based on commits still in the branch?",
+      "range": {
+        "startLine": 125,
+        "startChar": 2,
+        "endLine": 125,
+        "endChar": 11
+      },
       "revId": "acf44b2809aed885f9efbe6385a8c1522014a737",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
