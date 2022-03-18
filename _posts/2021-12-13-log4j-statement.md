@@ -9,8 +9,10 @@ hide_navtoggle: true
 toc: true
 ---
 
-Gerrit v3.5 uses [log4j 1.2.17](https://gerrit.googlesource.com/gerrit/+/refs/heads/stable-3.5/WORKSPACE#278),
+Gerrit v3.5.0.1 uses [log4j 1.2.17](https://gerrit.googlesource.com/gerrit/+/refs/heads/stable-3.5/WORKSPACE#278),
 this means it's not affected by the [Log4J v2 vulnerability CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228).
+
+Gerrit v3.5.1 does not use log4j but adopted [reload4j](https://reload4j.qos.ch/) instead.
 
 Log4j 1.2.17 is affected by [CVE-2019-17571](https://nvd.nist.gov/vuln/detail/CVE-2019-17571)
 and [CVE-2020-9488](https://nvd.nist.gov/vuln/detail/CVE-2020-9488) however,
