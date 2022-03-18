@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7aecdcb_985db5e5",
+        "filename": "_posts/2021-12-13-log4j-statement.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-03-18T17:41:39Z",
+      "side": 1,
+      "message": "we are using `19` in `3.5.1` so we could mention that",
+      "range": {
+        "startLine": 12,
+        "startChar": 28,
+        "endLine": 12,
+        "endChar": 30
+      },
+      "revId": "38aa953b56a2368e8e5c65704071e8a7f503e85b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
