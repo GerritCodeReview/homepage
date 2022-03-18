@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd52813d_a5eb328b",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-18T10:47:35Z",
+      "side": 1,
+      "message": "Right, I didn\u0027t think about this special case. Added a note about it.",
+      "parentUuid": "04611345_273a29f0",
+      "range": {
+        "startLine": 95,
+        "startChar": 30,
+        "endLine": 95,
+        "endChar": 41
+      },
+      "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8e27d3bd_16e8ff67",
@@ -64,6 +88,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "02f28282_0b7ad310",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-18T10:47:35Z",
+      "side": 1,
+      "message": "No, this is just to acknowledge that Gerrit does not scale indefinitely and there is some upper limit for the number of file diffs in a change that Gerrit can handle.This point is to ensure that pushes are rejected when this limit is exceeded, rather then allowing the push and then letting Gerrit fail at a later point in time.\n\nFWIW I think this may already be covered by the existing change.maxFiles setting [1] (default 100.000). So it will be up to the administrator to define which number is \u0027unreasonable\u0027.\n\nE.g. we want to prevent that a malicious user could create a push review for a commit that contains millions of random files in order to cause failures in Gerrit.\n\nI tried to make this intend clearer. Please let me know if you have a better idea how to phrase this.\n\n[1] https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#change.maxFiles",
+      "parentUuid": "8e27d3bd_16e8ff67",
+      "range": {
+        "startLine": 106,
+        "startChar": 61,
+        "endLine": 107,
+        "endChar": 39
+      },
+      "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "141df2dd_b9d789d5",
@@ -77,6 +125,30 @@
       "writtenOn": "2022-03-17T19:08:46Z",
       "side": 1,
       "message": "Do these already happen for direct updates? If not, it\u0027d be great to have that first.",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 123,
+        "endChar": 36
+      },
+      "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8ed1a01_26f8eec5",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-18T10:47:35Z",
+      "side": 1,
+      "message": "\u003e Do these already happen for direct updates?\n\nNo, I don\u0027t think so.\n\n\u003e Open changes show a conflict when a non-fast-forward push review has been submitted.\n\nI quickly tested this, and it seems the open change still returns submittable \u003d true after a direct non-fast-forward update was done that removed the base commit from the target branch history, but I got a failure when trying to submit the change.\n\n\u003e Uploads of commits that are based on commits ...\n\nI\u0027m pretty sure that these uploads are not rejected, unless the administrator takes care to ban the commits [1] that have been removed from the branch history manually (FWIW I think this use-case is the reason why banning commits is possible).\n\n[1] https://gerrit-review.googlesource.com/Documentation/rest-api-projects.html#ban-commit\n\n\u003e If not, it\u0027d be great to have that first.\n\nWe don\u0027t intent to invest into fixing this for direct updates since our goal is to disable direct updates so that this can no longer happen. But it\u0027s not unlikely that there will be some improvements here as result of implementing this for push reviews.",
+      "parentUuid": "141df2dd_b9d789d5",
       "range": {
         "startLine": 117,
         "startChar": 0,
