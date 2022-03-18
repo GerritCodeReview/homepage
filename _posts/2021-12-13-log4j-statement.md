@@ -17,6 +17,6 @@ and [CVE-2020-9488](https://nvd.nist.gov/vuln/detail/CVE-2020-9488) however,
 both of them require a specific log4j configuration that Gerrit does not use out
 of the box.
 
-Should you have used a [custom log4j configuration](https://gerrit-documentation.storage.googleapis.com/Documentation/3.5.0.1/config-gerrit.html#container.javaOptions)
+Should you have used a [custom log4j configuration](https://gerrit-documentation.storage.googleapis.com/Documentation/3.5.1/config-gerrit.html#container.javaOptions)
 you should also check that your configuration is not impacted by the above
 vulnerabilities and look at the associated mitigation actions.
