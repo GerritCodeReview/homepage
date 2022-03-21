@@ -316,6 +316,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "78a1edb6_625335b1",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-03-21T21:46:23Z",
+      "side": 1,
+      "message": "\u003e \u003e I think any verification of the change should use the commit that\u0027s going to be \n\u003e \u003e set on submit\n\u003e \n\u003e Why is this important? The merge commit has exactly the same content as the commit that\u0027s going to be set on submit. A CI system is only verifying the content, so for the CI it shouldn\u0027t matter which of the commits it gets?\n\nOur CI system verify exact commits, and also expect to potentially batch those commits in with other changes, how would it go about doing that?\n\nWhich brings up another question, how could someone upload a change that depends on a push review? I am thinking about an upstream vendor update to a branch that would be reviewed as a \"push review\", which needs some follow on changes to make it work with internal code. A CI system would likely want to verify the two changes and submit them together. How could they do that? i.e. That isn\u0027t listed as a use case you are trying to support, but it seems pretty important, perhaps it should be?",
+      "parentUuid": "7b5dd084_76971486",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "846c6e55_e7eafee0",
         "filename": "pages/design-docs/push-reviews/solution-google.md",
         "patchSetId": 4
