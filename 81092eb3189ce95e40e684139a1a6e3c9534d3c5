@@ -205,6 +205,30 @@
       },
       "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de164d18_7b3a6a04",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T11:05:48Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e Open changes show a conflict when a non-fast-forward push review has been\n\u003e \u003e \u003e submitted.\n\u003e \u003e I quickly tested this, and it seems the open change still returns submittable \u003d\n\u003e \u003e true after a direct non-fast-forward update was done that removed the base commit \n\u003e \u003e from the target branch history, but I got a failure when trying to submit the \n\u003e \u003e change.\n\u003e I guess different values for [2] might change that \u0027submittable \u003d true\u0027 behavior?\n\u003e \n\u003e [2] https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#change.mergeabilityComputationBehavior\n\nI don\u0027t think this setting makes any difference here as this setting only controls when changes are reindexed to update the submittability flag in the change index data, but in my test I retrieved change details for a single change which should always compute submittability newly and not rely on the potentially stale index data.\n\n\u003e Makes sense. Hmm, but ban-commit applies to the whole repo. I\u0027m interpreting\n\u003e the acceptance criteria for the new behavior to be specific to only the\n\u003e updated branch. Is that correct?\n\nOh right, thanks for bringing this up. I agree this should be branch-specific which ban commit is currently not. Slightly rephrased this to make this clear.\n\n\u003e I understand. I think there\u0027s some low-hanging fruit (like perhaps\n\u003e improving ban-commit to have a branch-specific mode ^). I also expect\n\u003e there are plenty of Gerrit setups that will continue using direct updates,\n\u003e so it\u0027d be nice to improve those non-goal use cases too. We need a \"Nice\n\u003e to Have Use Cases\" section 😊\n\nGood idea to add such a section. Done.",
+      "parentUuid": "8da39cde_9aef6035",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 123,
+        "endChar": 36
+      },
+      "revId": "81092eb3189ce95e40e684139a1a6e3c9534d3c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
