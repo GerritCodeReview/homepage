@@ -83,6 +83,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "883e7262_9ab2c53f",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2022-03-21T14:20:57Z",
+      "side": 1,
+      "message": "that seems internally inconsistent. either it\u0027s a non-goal or it\u0027s nice-to-have (\u003d\u003d optional goal).",
+      "parentUuid": "224ef46b_8a81762f",
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e2d48029_58725243",
@@ -155,6 +173,30 @@
       "side": 1,
       "message": "Why do you think it\u0027s terrible for regular branch creations?\nWhich workflow do you suggest for creating regular branches with review instead?\n\nFWIW we do have teams that use this workflow for regular branch creations, since they want to review the population of the new branch, even if the initial content is already part of the repository (and has been potentially reviewed before). I\u0027m not aware of any complains about this.",
       "parentUuid": "cd23aa82_92533b42",
+      "range": {
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 33
+      },
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd1058ca_31afe13e",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2022-03-21T14:20:57Z",
+      "side": 1,
+      "message": "firstly, actually creating the placeholder branch would be still an unreviewed action.\nsecondly, regular branching has an empty diff. but replacing the placeholder with the actual contents is a \"monster\" diff.\nso this idea just makes no sense to me as something one would actually want (as opposed to being the best thing one could get so far).\n\niirc, reviewing root commits (\u003d\u003d imports) is already supposed to work; that\u0027s the default case for fresh repos (which have a dangling master ref in plain git). so all that it would take to support imports is to add a commit option to override the existence check of the target branch, provided the user has the ref creation privilege.\n\nreviewing \"pure\" ref operations appears fundamentally inapplicable, as no patch sets are associated with these. you\u0027d need to introduce an entirely new type of object to represent them. this is an (often criticized) inherent property of git - it\u0027s impossible to reliably reconstruct branch history once the reflogs expire.",
+      "parentUuid": "293f213b_7ef554f8",
       "range": {
         "startLine": 114,
         "startChar": 0,
