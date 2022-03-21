@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "72136d12_30f58407",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T12:29:00Z",
+      "side": 1,
+      "message": "Right, it should be \"see also\" or \"also, see\".\n\nDone.",
+      "parentUuid": "52d185b2_8ec7b9d5",
+      "range": {
+        "startLine": 52,
+        "startChar": 42,
+        "endLine": 52,
+        "endChar": 50
+      },
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "296b0f9b_7c1fbfc2",
@@ -37,6 +61,24 @@
       "writtenOn": "2022-03-21T11:32:41Z",
       "side": 1,
       "message": "why have it here in the first place when it\u0027s kinda contradicted below?",
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "224ef46b_8a81762f",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T12:29:00Z",
+      "side": 1,
+      "message": "Listing this here makes it clear that a solution does not need to cover this use case.\n\nBelow it\u0027s saying that covering this use case is nice to have (since we think it\u0027s maybe low effort) and we also describe a workaround how branch creations can still be reviewed when no dedicated support for this is implemented. So I don\u0027t think this is a contradiction.",
+      "parentUuid": "296b0f9b_7c1fbfc2",
       "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -58,6 +100,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a32f0f3_bc35185f",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T12:29:00Z",
+      "side": 1,
+      "message": "Fair enough. Added more details.",
+      "parentUuid": "e2d48029_58725243",
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cd23aa82_92533b42",
@@ -71,6 +131,30 @@
       "writtenOn": "2022-03-21T11:32:41Z",
       "side": 1,
       "message": "this covers the rather rare case of branch creations \"ex nihilo\", i.e., imports. it would be rather terrible for \"regular\" branching. i suggest making the text reflect that.",
+      "range": {
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 33
+      },
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "293f213b_7ef554f8",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T12:29:00Z",
+      "side": 1,
+      "message": "Why do you think it\u0027s terrible for regular branch creations?\nWhich workflow do you suggest for creating regular branches with review instead?\n\nFWIW we do have teams that use this workflow for regular branch creations, since they want to review the population of the new branch, even if the initial content is already part of the repository (and has been potentially reviewed before). I\u0027m not aware of any complains about this.",
+      "parentUuid": "cd23aa82_92533b42",
       "range": {
         "startLine": 114,
         "startChar": 0,
