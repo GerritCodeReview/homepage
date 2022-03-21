@@ -37,7 +37,7 @@ Members of the ESC for the 2021-2022 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
-| Albert Cui            | Google                 |
+| Chris Poucet          | Google                 |
 | Han-Wen Nienhuys      | Google                 |
 | Luca Milanesio        | GerritForge            |
 | Patrick Hiesel        | Google                 |
@@ -47,6 +47,7 @@ Members of the ESC for the 2021-2022 term are:
 
 | Name                  | Affiliation                            |
 |-----------------------|----------------------------------------|
+| Albert Cui            | Google                 |
 | Alice Kober-Sotzek    | Google                                 |
 | Ben Rohlfs            | Google                                 |
 | David Pursehouse      | Independent (formerly Sony, CollabNet) |
