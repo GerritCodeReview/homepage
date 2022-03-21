@@ -298,6 +298,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7b5dd084_76971486",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T13:48:38Z",
+      "side": 1,
+      "message": "\u003e I think any verification of the change should use the commit that\u0027s going to be \n\u003e set on submit\n\nWhy is this important? The merge commit has exactly the same content as the commit that\u0027s going to be set on submit. A CI system is only verifying the content, so for the CI it shouldn\u0027t matter which of the commits it gets?",
+      "parentUuid": "9ec92403_3eebf9fd",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "846c6e55_e7eafee0",
         "filename": "pages/design-docs/push-reviews/solution-google.md",
         "patchSetId": 4
@@ -381,6 +399,30 @@
       "side": 1,
       "message": "\u003e I think that non-fast-forward push should still be the exception. Making it look like an innocent fast-forward push on client side looks like a slippery slope.\n\nI agree with Matthias here. I also think it benefits us to make this look/feel like a direct push still.",
       "parentUuid": "26640db7_ce101d3b",
+      "range": {
+        "startLine": 43,
+        "startChar": 41,
+        "endLine": 43,
+        "endChar": 80
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b77284c_744fc82f",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T13:48:38Z",
+      "side": 1,
+      "message": "Thanks, makes sense to me. Will update this with the next patch set.",
+      "parentUuid": "d642e0e4_025c06e9",
       "range": {
         "startLine": 43,
         "startChar": 41,
