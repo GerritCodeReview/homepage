@@ -101,6 +101,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5b0aa68_e4f7da94",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T15:28:08Z",
+      "side": 1,
+      "message": "I see, it makes sense now. Thanks for clarifying.\n\nI\u0027m dropping it here then.",
+      "parentUuid": "883e7262_9ab2c53f",
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e2d48029_58725243",
@@ -197,6 +215,30 @@
       "side": 1,
       "message": "firstly, actually creating the placeholder branch would be still an unreviewed action.\nsecondly, regular branching has an empty diff. but replacing the placeholder with the actual contents is a \"monster\" diff.\nso this idea just makes no sense to me as something one would actually want (as opposed to being the best thing one could get so far).\n\niirc, reviewing root commits (\u003d\u003d imports) is already supposed to work; that\u0027s the default case for fresh repos (which have a dangling master ref in plain git). so all that it would take to support imports is to add a commit option to override the existence check of the target branch, provided the user has the ref creation privilege.\n\nreviewing \"pure\" ref operations appears fundamentally inapplicable, as no patch sets are associated with these. you\u0027d need to introduce an entirely new type of object to represent them. this is an (often criticized) inherent property of git - it\u0027s impossible to reliably reconstruct branch history once the reflogs expire.",
       "parentUuid": "293f213b_7ef554f8",
+      "range": {
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 33
+      },
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "297191c0_b8e4fc6e",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-21T15:28:08Z",
+      "side": 1,
+      "message": "\u003e firstly, actually creating the placeholder branch would be still an\n\u003e unreviewed action.\n\nYes, this is why I call this a workaround and why we have it as a nice-to-have use case to make this unnecessary.\n\n\u003e secondly, regular branching has an empty diff. but replacing the\n\u003e placeholder with the actual contents is a \"monster\" diff.\n\u003e so this idea just makes no sense to me as something one would actually want (as\n\u003e opposed to being the best thing one could get so far).\n\nYes, the assumption here is that you want to review the commit with is used to populate the branch. If you don\u0027t want to do this, you can still use the Create Branch REST API or direct push as before. But not sure this needs to be mentioned here, since this section is about explicitly about reviewing the branch creation.\n\n\u003e iirc, reviewing root commits (\u003d\u003d imports) is already supposed to work;\n\u003e that\u0027s the default case for fresh repos (which have a dangling master ref in \n\u003e plain git). so all that it would take to support imports is to add a commit\n\u003e option to override the existence check of the target branch, provided the\n\u003e user has the ref creation privilege.\n\nYes, there is special casing for this for the master branch (if no branch exists in the repo yet). I agree it would be nice to loosen this restriction so that you can use it for branch creations in general, but as you say this would only help for creating branches on root commit (and thus not help with reviewing branch creations in general). This seems to be unrelated to the push review use cases what this document is about and hence I wouldn\u0027t mention it here.\n\n\u003e reviewing \"pure\" ref operations appears fundamentally inapplicable, as no patch\n\u003e sets are associated with these. you\u0027d need to introduce an entirely new type of\n\u003e object to represent them. this is an (often criticized) inherent property of git\n\u003e - it\u0027s impossible to reliably reconstruct branch history once the reflogs expire.\n\nYes, that\u0027s why these pure ref operations are out of scope for this design. Push reviews are not meant to make those reviewable.\n\nI\u0027m still unsure which changes to this section you would like to see?",
+      "parentUuid": "cd1058ca_31afe13e",
       "range": {
         "startLine": 114,
         "startChar": 0,
