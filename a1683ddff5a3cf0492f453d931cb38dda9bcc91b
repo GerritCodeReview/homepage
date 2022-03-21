@@ -247,6 +247,30 @@
       },
       "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6725e62e_28f03200",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2022-03-21T16:11:40Z",
+      "side": 1,
+      "message": "\u003e Yes, the assumption here is that you want to review the commit with is used to populate the branch.\n\nare such reviews actually a thing? i mean, reviewing the status quo from scratch at branch creation time seems implausible for all but the smallest repos.\n\ni can imagine using that for a general audit instead of just linking to a code browser, because it allows inline comments (which would have to be resolved in separate changes, which somewhat limits the usefulness of such a workflow). but then i wouldn\u0027t frame that as branch creation, but rather as a snapshot, as the change would be subsequently abandoned. also, one doesn\u0027t need a new feature for that, as one can actually upload an import commit without history (create a parent-less commit from HEAD\u0027s tree) for review on the branch that is being reviewed itself.\n\n\u003e [...] as you say this would only help for creating branches on root commit (and thus not help with reviewing branch creations in general). This seems to be unrelated to the push review use cases what this document is about and hence I wouldn\u0027t mention it here.\n\ni\u0027d explicitly cite it as a non-goal, with explanation.\n\n\u003e I\u0027m still unsure which changes to this section you would like to see?\n\ni\u0027m not sure. i hope it will be obvious once we\u0027re clear on the cases that really make sense.",
+      "parentUuid": "297191c0_b8e4fc6e",
+      "range": {
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 33
+      },
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
