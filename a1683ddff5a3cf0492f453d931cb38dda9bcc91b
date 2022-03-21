@@ -271,6 +271,30 @@
       },
       "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd12606f_a60652dd",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-03-21T16:44:41Z",
+      "side": 1,
+      "message": "\u003e i\u0027m not sure. i hope it will be obvious once we\u0027re clear on the cases that really make sense.\n\nI agree, the current suggestion for a branch creation workflow feels a bit like an adoption of an existing practice which may not make sense or be desirable in many cases.\n\nDespite my original suggestion that there are 6 use cases where the first one is branch creation by FFding from commitId 0, I think that was a slight miss-charaterization of most branch creations, and I think Oswald\u0027s point about monster diffs might be a reflection of this?\n\nI believe there are at least 4 different branch creation workflows that most of us are familiar with. The one I mention above as #1 \"1. branch creation (ref creation + fast-forward from zero to the initial commit)\" should actually be seen as a very special (rarer) case of branch creation, and it should be actually be seen as \"New History creation\", like the sprouting of a tree from a seed, not the branching of an existing tree, because it is only generally used when an entirely new history is to be introduced. \n\nMost of the time, a branch creation is afterall a \"branch\" (like a branch of an existing tree) in history. That means that most branches actually consist of: a ref created by copying an existing branch. This is how we create stable branches in Gerrit. But sometimes people want to create a \"retro\" branch, i.e. they want to start from a common ancestor of an existing branch when there is history on the current branch that they don\u0027t want (perhaps a major rewrite). The retro branches can be seen as branch copying followed by a rewind.\n\nLastly, when importing a branch from another repository, this is likely a case similar of someone else having branched earlier in history, and then adding more commits. This looks like copying of an existing ref, rewinding of that ref to a common merge base, and finally a fast forward to add other commits.\n\nI think that the seeing branch creation as also having these 3 other branch creation workflows make potential review of them more useful (and less a monster diff) than seeing them as artificially beginning with the empty commit. \n\nI would summarize common branch creation workflows so far as:\n\n a. new history creation (ref creation + fast-forward from zero to some commit, usually the initial commit)\n b. branching (copying an existing ref)\n c. \"retro\" branching (copying an existing ref + rewind)\n d. importing a branch (copying an existing ref + rewind + FF)\n \nAre there others?",
+      "parentUuid": "6725e62e_28f03200",
+      "range": {
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 33
+      },
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
