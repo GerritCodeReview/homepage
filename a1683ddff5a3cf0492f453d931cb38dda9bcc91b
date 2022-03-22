@@ -295,6 +295,30 @@
       },
       "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2ba917d_7b9d530a",
+        "filename": "pages/design-docs/push-reviews/use-cases.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-03-22T07:51:53Z",
+      "side": 1,
+      "message": "\u003e are such reviews actually a thing? \n\nSure you can question this use case, but we have teams doing this, so yes such reviews actually do exist.\n\n\u003e a. new history creation (ref creation + fast-forward from zero to some commit, usually the initial commit)\n\u003e b. branching (copying an existing ref)\n\u003e c. \"retro\" branching (copying an existing ref + rewind)\n\u003e d. importing a branch (copying an existing ref + rewind + FF)\n\nThanks, it\u0027s useful to look at branch creation in these categories, but I\u0027m not sure if they differ much if the use-case is to review the contents of the new branch on branch creation.\n\nThis section was intended to give users an idea how push reviews could be used to review the contents of new branches on creation. I see that this is adding more confusion than it helps. Making branch creations reviewable is still a non-goal for this design, so including information about different branch creation use-cases and discussing solutions that are not related to push reviews, seems not to belong into this document here. Hence I\u0027m rather dropping this whole section. I do find this discussion very interesting, and I\u0027m sure at some point, in another design, we want to add support for reviewing branch creations (and probably other ref operations), we should resume this discussion then.",
+      "parentUuid": "cd12606f_a60652dd",
+      "range": {
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 33
+      },
+      "revId": "a1683ddff5a3cf0492f453d931cb38dda9bcc91b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
