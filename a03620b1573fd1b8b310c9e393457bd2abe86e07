@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c0894eb_743e1fcf",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1456,
+      "author": {
+        "id": 1011217
+      },
+      "writtenOn": "2022-03-29T20:54:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bda976ca_00adc463",
+      "range": {
+        "startLine": 1456,
+        "startChar": 5,
+        "endLine": 1456,
+        "endChar": 18
+      },
+      "revId": "a03620b1573fd1b8b310c9e393457bd2abe86e07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c7dd7fd5_b03f802d",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-03-29T20:49:38Z",
       "side": 1,
       "message": "Is this now a duplicate of the one at L1456?",
+      "range": {
+        "startLine": 1492,
+        "startChar": 0,
+        "endLine": 1493,
+        "endChar": 46
+      },
+      "revId": "a03620b1573fd1b8b310c9e393457bd2abe86e07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cacee8b_71b032cf",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1493,
+      "author": {
+        "id": 1011217
+      },
+      "writtenOn": "2022-03-29T20:54:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c7dd7fd5_b03f802d",
       "range": {
         "startLine": 1492,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b31a6e0_ea10c86e",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 451,
+      "author": {
+        "id": 1011217
+      },
+      "writtenOn": "2022-03-29T20:54:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0bcd51d4_1af203a2",
+      "range": {
+        "startLine": 451,
+        "startChar": 5,
+        "endLine": 451,
+        "endChar": 18
+      },
+      "revId": "a03620b1573fd1b8b310c9e393457bd2abe86e07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "049cae33_df45e47a",
@@ -83,6 +155,30 @@
       "writtenOn": "2022-03-29T20:49:38Z",
       "side": 1,
       "message": "Is this now a duplicate of the one at L451?",
+      "range": {
+        "startLine": 498,
+        "startChar": 0,
+        "endLine": 499,
+        "endChar": 46
+      },
+      "revId": "a03620b1573fd1b8b310c9e393457bd2abe86e07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e27644f6_8996c2d1",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 1011217
+      },
+      "writtenOn": "2022-03-29T20:54:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "049cae33_df45e47a",
       "range": {
         "startLine": 498,
         "startChar": 0,
