@@ -74,6 +74,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "ed0b99ea_eaa6c728",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9d62d10a_9e49f24a",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 31
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "bcde93f0_1c27a9c7",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 4
@@ -332,6 +356,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6632476_50c9bc2f",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Thanks, I agree this is an important finding, but I think it\u0027s an inherent consequence of this design, which uses merge commits to represent push reviews. \n\nI think supporting this would require a different approach that doesn\u0027t use merge commits to represent push reviews. A different approach may be added as another solution doc. For this design I added these points as cons in a new Pros \u0026 Cons section below.",
+      "parentUuid": "78a1edb6_625335b1",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "846c6e55_e7eafee0",
@@ -441,6 +483,30 @@
       "side": 1,
       "message": "Thanks, makes sense to me. Will update this with the next patch set.",
       "parentUuid": "d642e0e4_025c06e9",
+      "range": {
+        "startLine": 43,
+        "startChar": 41,
+        "endLine": 43,
+        "endChar": 80
+      },
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4123550d_3d8530c1",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Thinking about this again. I\u0027m not sure that we want to require setting the --force flag when pushing a commit with this push-review option. Reason: This would mean that users need the force push permission in order to push push-reviews. That would make it impossible to allow users to push push reviews and at the same time disallow them to do direct updates. Added this to the new Alternatives Considered section.",
+      "parentUuid": "6b77284c_744fc82f",
       "range": {
         "startLine": 43,
         "startChar": 41,

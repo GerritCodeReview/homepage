@@ -76,6 +76,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "82ac4f8a_4c1201c6",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "48c0a63a_fb1af44c",
+      "range": {
+        "startLine": 13,
+        "startChar": 72,
+        "endLine": 13,
+        "endChar": 75
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1c27c2b9_59e376b4",
@@ -89,6 +113,24 @@
       "writtenOn": "2022-03-18T15:55:53Z",
       "side": 1,
       "message": "Would it be better to use this section to provide a high-level summary of the design? Just linking to the use case doc doesn\u0027t seem to add a lot of value (but I do like having the links).\nI\u0027m thinking something like:\n\n Address the [problems] and [use cases] through a new `push-review` push option\n which creates a change for a push to a real (non-magic/non-symbolic) ref. These\n \"push-review changes\" have a distinguishing attribute but are otherwise reviewable\n like any other Gerrit change. Submitting this change sets the target branch to the\n pushed commit.\n\nWriting that I also realized symbolic refs aren\u0027t discussed anywhere yet. Do they need the special treatment I invented above? Or just handled already by what direct updates currently support?",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f76217ba_96af76e4",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Thanks for proposing this high-level summary. I\u0027ve included it, but rephrased it slightly. The main idea of this design is to make pushes reviewable by representing them as a merge commit. I think it\u0027s important to mention this in the summary.\n\n\u003e Writing that I also realized symbolic refs aren\u0027t discussed anywhere yet.\n\u003e Do they need the special treatment I invented above? Or just handled\n\u003e already by what direct updates currently support?\n\nAt the moment I can\u0027t think of any special treatment that we would need for symbolic refs. Please let me know if you find anything that wouldn\u0027t work for them with this design.",
+      "parentUuid": "1c27c2b9_59e376b4",
       "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -124,6 +166,24 @@
       "side": 1,
       "message": "Yes, I agree. I\u0027ll probably move it into an Alternatives Considered section to track that we discussed this and why we decided against this.",
       "parentUuid": "1ded2144_e219741e",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5571565c_c9b645c6",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "dd8f6dc8_5031dc62",
       "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -175,6 +235,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9969555d_46fafbd1",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Added this to a pros \u0026 cons section below.",
+      "parentUuid": "f36b3a00_d7590bfc",
+      "range": {
+        "startLine": 31,
+        "startChar": 6,
+        "endLine": 31,
+        "endChar": 35
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eabe4dc2_4670bb32",
@@ -210,6 +294,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a541550a_143bc4c4",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "The AutoMerge is created by merging the 2 parent commits, so I think it doesn\u0027t help that the second parent has the same tree as the merge commit.\n\nAnyway, this sounds like an optimisation that we are not sure yet, whether it will be needed. I added this idea in the Alternatives Considered section as something we may want to do later.",
+      "parentUuid": "db7f2f97_132f6c4b",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b0cd8220_4595a23e",
@@ -227,6 +329,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5eaa07b8_b9c0e2db",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "No, according to the acceptance criteria in the use-cases doc we also need to require a special permission if it\u0027s a fast-forward update that adds more than 1 commit to the history of the target branch. Instead of special casing the case where it\u0027s a fast-forward that adds a single commit and not require the force push permission in this case, we keep things simple and just always the require force push permission for submitting push review changes. Made this clearer and added the reasoning here.",
+      "parentUuid": "b0cd8220_4595a23e",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "252c136a_4aefb2b7",
@@ -240,6 +360,30 @@
       "writtenOn": "2022-03-18T15:55:53Z",
       "side": 1,
       "message": "s/resets/(re)sets/ or just s/resets/sets/\n\nsame on the next line",
+      "range": {
+        "startLine": 44,
+        "startChar": 16,
+        "endLine": 44,
+        "endChar": 22
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "156cf0aa_acec4267",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "252c136a_4aefb2b7",
       "range": {
         "startLine": 44,
         "startChar": 16,
@@ -285,6 +429,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5d96f88_81dde296",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Included this explanation.",
+      "parentUuid": "75201b9e_10358052",
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "87ab4cab_faf955d3",
@@ -308,6 +470,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "10840e21_711cc81e",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "87ab4cab_faf955d3",
+      "range": {
+        "startLine": 53,
+        "startChar": 35,
+        "endLine": 53,
+        "endChar": 39
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "92cd3103_c37f4bca",
@@ -321,6 +507,30 @@
       "writtenOn": "2022-03-18T15:55:53Z",
       "side": 1,
       "message": "nit: s/commmits/commits/",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 57,
+        "endChar": 20
+      },
+      "revId": "9c2bd4dd4b101350229c68420ac78f137da6364c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2c49627_804b0ffa",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T11:27:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92cd3103_c37f4bca",
       "range": {
         "startLine": 57,
         "startChar": 12,
