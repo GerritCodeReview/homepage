@@ -1,12 +1,12 @@
 ---
-title: "Design Doc - Push Reviews: Solution proposed by Google"
-permalink: design-docs/push-reviews-solution-google.html
+title: "Design Doc - Push Reviews: Solution 1 proposed by Google"
+permalink: design-docs/push-reviews-solution-google-1.html
 hide_sidebar: true
 hide_navtoggle: true
 toc: false
 ---
 
-# Solution proposed by Google
+# Solution 1 proposed by Google
 
 ## <a id="objective"> Objective
 
