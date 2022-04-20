@@ -374,6 +374,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9fad91a1_2f1f3ce0",
+        "filename": "pages/design-docs/push-reviews/solution-google.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-20T12:58:16Z",
+      "side": 1,
+      "message": "I\u0027ve added another (adapted) solution that I think addresses these concerns. Please have a look at https://gerrit-review.googlesource.com/c/homepage/+/335395",
+      "parentUuid": "f6632476_50c9bc2f",
+      "revId": "a42c476447b012306ab5953fba2361eb435a3455",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "846c6e55_e7eafee0",
