@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0984957e_e8cb9205",
+        "filename": "pages/design-docs/push-reviews/solution-google-2.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2022-04-21T09:44:52Z",
+      "side": 1,
+      "message": "if the api is high-level enough, then this should be easy to hide: in principle, you just need to change the (hypothetical) getBase() method to prefer returning the explicitly stored commit before falling back to a revwalk. am i missing something?",
+      "revId": "3f8aa14e4e6618ceac5bf1b1d0c79bc5233b9fb4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
