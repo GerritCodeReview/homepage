@@ -54,6 +54,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e6f3f02c_96fd336c",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2022-04-26T12:38:06Z",
+      "side": 1,
+      "message": "Isn\u0027t it 5.1.0 in the meantime?\nAlso see line 148",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9f215f0c_829c95d9",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 1
@@ -65,6 +82,23 @@
       "writtenOn": "2022-04-26T12:18:25Z",
       "side": 1,
       "message": "what is this ?",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "889d169a_18b28376",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2022-04-26T12:38:06Z",
+      "side": 1,
+      "message": "This does not tell me what fix was done here.",
       "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
