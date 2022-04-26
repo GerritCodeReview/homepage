@@ -123,6 +123,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2082ae6e_c3a31411",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-04-26T14:46:40Z",
+      "side": 1,
+      "message": "I guess Chris intended to include this commit\u0027s commit message subject in the release notes but the code used to generate release notes isn\u0027t aware of this idea and includes the text \"Include\" literally instead of resolving it to that commit\u0027s subject",
+      "parentUuid": "fc386aa3_33faffa9",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "889d169a_18b28376",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 1
