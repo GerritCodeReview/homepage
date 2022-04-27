@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6df08271_3137e8d2",
+        "filename": "pages/design-docs/push-reviews/solution-google-2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-04-27T11:42:19Z",
+      "side": 1,
+      "message": "I think this is going to create a lot of headaches. If the commit to be pushed is a Gerrit commit with a \"Change-Id: Iabc\" footer, there will be confusion whether the push review has change ID \"Iabc\" or not; this confusion will be with the users, but there is also a lot of potential for the code base to make faulty assumptions about the link between the PS commit and the thing that is to be reviewed.\n\nThat means we\u0027ll need to have a separate commit to hold the Change-Id and commit message for the push review (as opposed to commit that will be the new tip).\n\nThat said, having a /base ref will put us on track to implement Pull-Requests, so it\u0027s probably less hacky than having a merge commit be subject of the review.\n\nnot sure if /base is a good name. We already have the %base\u003d push option which means something different.",
+      "range": {
+        "startLine": 27,
+        "startChar": 1,
+        "endLine": 27,
+        "endChar": 33
+      },
+      "revId": "ff2bbaca0f5c830c533b573bd2d5f0eedfe1f71c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bea10c87_24527325",
         "filename": "pages/design-docs/push-reviews/solution-google-2.md",
         "patchSetId": 3
@@ -150,6 +173,30 @@
       "writtenOn": "2022-04-27T11:13:56Z",
       "side": 1,
       "message": "Updated this solution in [1] with what we have discussed here.\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/335919",
+      "parentUuid": "e3a1095b_42fbf7df",
+      "range": {
+        "startLine": 67,
+        "startChar": 13,
+        "endLine": 67,
+        "endChar": 18
+      },
+      "revId": "ff2bbaca0f5c830c533b573bd2d5f0eedfe1f71c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4aae6d7c_1e388534",
+        "filename": "pages/design-docs/push-reviews/solution-google-2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-04-27T11:42:19Z",
+      "side": 1,
+      "message": "\u003e With the new refs/changes/\u003csharded-change-id\u003e/base ref the base commit would not be stored in the change metadata then.\n\nThat\u0027s better. \n\nIt\u0027s probably more on the way to getting proper pull-request support than proposal 1.",
       "parentUuid": "e3a1095b_42fbf7df",
       "range": {
         "startLine": 67,
