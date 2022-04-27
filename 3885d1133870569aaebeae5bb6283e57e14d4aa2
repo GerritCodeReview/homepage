@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "caa0499b_77160cae",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2022-04-27T22:12:29Z",
+      "side": 1,
+      "message": "i have the impression that you guys fell into a \"status quo trap\", basically assuming that this new kind of change would be presented like a regular change for the head commit. but that makes no sense at all, as this is fundamentally different - ref updates are not commits, for better or worse. so there are no commit messages that could cause confusion - the change needs a separate description, presumably with a summary of the dropped and added commits (i suppose one could linkify these commits to gitiles/cgit/etc. in the UI).\n\nthe merge-based solution would be easier, as it would have an actual reviewable commit with a log message, presumably resembling git merge --log. but with some abstractions, the ref-update can be presented just like a merge commit, so this isn\u0027t a deal-breaker. however, i suppose it would be easier to actually go with solution 1, except that in some strategic places the 2nd parent would be returned instead of the merge commit (presumably, this would also require abstractions, with separate apis for different uses).",
+      "revId": "3885d1133870569aaebeae5bb6283e57e14d4aa2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4469e6b_a139c1e3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1013267
+      },
+      "writtenOn": "2022-04-27T22:12:29Z",
+      "side": 1,
+      "message": "+o",
+      "range": {
+        "startLine": 16,
+        "startChar": 33,
+        "endLine": 16,
+        "endChar": 34
+      },
+      "revId": "3885d1133870569aaebeae5bb6283e57e14d4aa2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
