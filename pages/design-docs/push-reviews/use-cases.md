@@ -40,8 +40,8 @@ the branch to exactly the commit that was pushed by the user:
 
 IOW a direct update can be a fast-forward update (the commit that was pushed is
 a successor of the head of the target branch, aka 'git push
-<SHA1>:refs/heads/<branch>') but also a non-fast-forward update (reset to an
-arbitrary commit, aka 'git push -f <SHA1>:refs/heads/<branch>').
+\<SHA1\>:refs/heads/\<branch\>') but also a non-fast-forward update (reset to an
+arbitrary commit, aka 'git push -f \<SHA1\>:refs/heads/\<branch\>').
 
 ## <a id="problem-statement">Problem Statement</a>
 
