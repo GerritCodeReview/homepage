@@ -60,6 +60,14 @@ All the rest is the same as with
 still add a new submit strategy that (re)sets the target branch to the pushed
 commit that is applied when a push review change is submitted.
 
+### <a id="unsolved-issues"> Unsolved Issues
+
+* Creating a push review for a commit that contains a Change-Id in the commit
+  message (e.g. when doing a branch rewind) likely causes confusion to users &
+  tooling, because the Change-Id in the commit message doesn't match the
+  Change-Id of the push review change.
+
+
 ### <a id="pros-and-cons"> Pros & Cons
 
 A quick summary of the pros and cons of this solution.
