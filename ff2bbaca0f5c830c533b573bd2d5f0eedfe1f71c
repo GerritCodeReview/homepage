@@ -16,6 +16,29 @@
       "message": "Submitting this, as I think the solution is well-enough described, including the pros \u0026 cons. Submitting this doesn\u0027t mean that this solution is accepted and will be implemented (the conclusion is done via the conclusion.md doc that\u0027s yet to be added, see [1]). Also further iterative improvements to this solution are possible.\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html",
       "revId": "ff2bbaca0f5c830c533b573bd2d5f0eedfe1f71c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bea10c87_24527325",
+        "filename": "pages/design-docs/push-reviews/solution-google-2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-04-27T08:50:28Z",
+      "side": 1,
+      "message": "This solution is not feasible. If you store the old SHA1 in the metadata, then after submitting the change (ie. effecting the ref update), the old SHA1 is no longer reachable through the normal refs. This means that the old data will not be fetchable, and it will be pruned/garbage collected on the next GC run.",
+      "range": {
+        "startLine": 67,
+        "startChar": 13,
+        "endLine": 67,
+        "endChar": 18
+      },
+      "revId": "ff2bbaca0f5c830c533b573bd2d5f0eedfe1f71c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
