@@ -87,6 +87,30 @@
       },
       "revId": "ff2bbaca0f5c830c533b573bd2d5f0eedfe1f71c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21c2a856_d09e8856",
+        "filename": "pages/design-docs/push-reviews/solution-google-2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-04-27T10:06:15Z",
+      "side": 1,
+      "message": "\u003eIsn\u0027t this the same with the other solution? Also there the branch is (re)set to the exact commit that was pushed and hence the old SHA1 is no longer reachable from the branch history.\n\nThe patchset refs will keep the old commits reachable.\n\n\u003eWhat if instead we store the old SHA1 in a new refs/changes/\u003csharded-change-id\u003e/base ref?\n\nThat could work, but it makes the storage scheme more complicated. If you do this, do you still keep the SHA1 in the metadata, and if so will it need to be synchronized? If not, under which circumstance do we need to read the extra ref?\n\n\u003eI don\u0027t think this will happen since the old SHA1 is still referenced from the reflog which prevents GC.\n\nreflogs commonly have a limited lifetime.",
+      "parentUuid": "57b2b980_4fb5dc43",
+      "range": {
+        "startLine": 67,
+        "startChar": 13,
+        "endLine": 67,
+        "endChar": 18
+      },
+      "revId": "ff2bbaca0f5c830c533b573bd2d5f0eedfe1f71c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
