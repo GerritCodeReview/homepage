@@ -111,6 +111,30 @@
       },
       "revId": "ff2bbaca0f5c830c533b573bd2d5f0eedfe1f71c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3a1095b_42fbf7df",
+        "filename": "pages/design-docs/push-reviews/solution-google-2.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-04-27T10:20:14Z",
+      "side": 1,
+      "message": "\u003e That could work, but it makes the storage scheme more complicated. \n\nYes, this would need to be mentioned in the \"cons\" section and could be a reason to discard this solution.\n\n\u003e If you do this, do you still keep the SHA1 in the metadata, and\n\u003e if so will it need to be synchronized? If not, under which circumstance\n\u003e do we need to read the extra ref?\n\nWith the new refs/changes/\u003csharded-change-id\u003e/base ref the base commit would not be stored in the change metadata then. We would need to read the extra ref whenever the change meta ref is read. For performance reasons we may want to have a flag in the change metadata to identify a change as a push review, so that we need to look for base ref only for push review changes (and not all changes).",
+      "parentUuid": "21c2a856_d09e8856",
+      "range": {
+        "startLine": 67,
+        "startChar": 13,
+        "endLine": 67,
+        "endChar": 18
+      },
+      "revId": "ff2bbaca0f5c830c533b573bd2d5f0eedfe1f71c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
