@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2a25ced7_1019626b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-04-27T07:03:55Z",
+      "side": 1,
+      "message": "Just unresolving the comment for visibility.",
+      "parentUuid": "4ff68440_94be8016",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "efafd892_abf8fd6d",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 1
