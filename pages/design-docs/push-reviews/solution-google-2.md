@@ -25,7 +25,21 @@ with the following differences:
 
 * Pushing with the `push-review` option creates a normal change that has the
   pushed commit as the patch set and that stores the head of the target branch
-  at upload time as base commit in a new change metadata field.
+  at upload time as base commit in a new
+  `refs/changes/\<sharded-change-ID\>/base` meta ref.
+* Creating a ref for the base commit is necessary so that this commit is
+  guarenteed to be still referenced from a ref after the push review change is
+  submitted. Submitting a push review change may remove the base commit from the
+  history of the target branch, and without the new
+  `refs/changes/\<sharded-change-ID\>/base` meta ref it may become unreachable
+  in this case, so that it would be garbage-collected at some point. This would
+  break the acceptance criteria that requires the old SHA1 to stay available for
+  auditing purposes.
+* The new `refs/changes/\<sharded-change-ID\>/base` meta ref that stores the
+  base commit is read whenever the change meta ref is read. For perfomance
+  reasons we may store a flag in the change metadata to identify push review
+  changes so that the `refs/changes/\<sharded-change-ID\>/base` meta ref only
+  needs to be read for push review changes, and not for all changes.
 * When the list of changed files is computed the stored base commit is used as
   the base for the comparison (`FileInfoJsonImpl` calls
   `DiffOperations#listModifiedFiles` with `oldCommit` = stored base commit if
@@ -70,10 +84,15 @@ Pros:
   push is about (the shown commit message is the one of the pushed commit which
   cannot be altered as this would change the SHA1).
 * Higher effort than implementing solution 1:
+    * We must implement support for a new change meta ref which is expected to
+      be a signifacant amount of extra work.
     * The UI must implement a special visualization for push review changes.
     * We need special casing when computing the file list and file diffs. The
       implementation looks quite straight-forward, but we need good test
       coverage for the new logic.
+* Inventing a new change meta ref makes the storage scheme more complicated:
+  The additional complexity means that the code gets more difficult to read and
+  maintain and makes future extensions more difficult.
 * All code that computes the list of changed files (via `DiffOperations`) must
   be aware of push reviews (including plugins, e.g. the `code-owners` plugin).
   It might be difficult to find all relevant places and make sure that new code
