@@ -9,13 +9,13 @@ folder: design-docs/push-reviews
 
 # Push Reviews - Use Cases
 
-## <a id="objective">Objective
+## <a id="objective">Objective</a>
 
 Enable code review for [direct updates](#direct-updates) (pushes that
 update/reset the target branch directly to the pushed commit, including
 non-fast-foward updates).
 
-## <a id="background">Background
+## <a id="background">Background</a>
 
 Gerrit's primary purpose is to support reviewing code changes, but there are
 some updates that currently cannot be reviewed:
@@ -29,7 +29,7 @@ some updates that currently cannot be reviewed:
    actually renames the reflog when this happens which helps to preserve the
    history of the ref)
 
-### <a id="direct-updates">Direct Updates
+### <a id="direct-updates">Direct Updates</a>
 
 The term 'direct update' is understood to mean an update of a branch that sets
 the branch to exactly the commit that was pushed by the user:
@@ -43,7 +43,7 @@ a successor of the head of the target branch, aka 'git push
 <SHA1>:refs/heads/<branch>') but also a non-fast-forward update (reset to an
 arbitrary commit, aka 'git push -f <SHA1>:refs/heads/<branch>').
 
-## <a id="problem-statement">Problem Statement
+## <a id="problem-statement">Problem Statement</a>
 
 Having valid use-cases ([see below](#use-cases)) that require doing direct
 updates with bypassing code review is a security problem because it means that
@@ -56,7 +56,7 @@ requirement](https://slsa.dev/spec/v0.1/requirements#two-person-reviewed)).
 Also during normal operations being able to review direct updates increases
 safety, since reviews make erroneous updates less likely.
 
-## <a id="use-cases">Use Cases
+## <a id="use-cases">Use Cases</a>
 
 As a project owner I would like ...
 
@@ -87,7 +87,7 @@ As an administrator I would like ...
   artifact is preserved, so that any time it can be proved how binaries were
   made.
 
-## <a id="non-goals">Non-Goals
+## <a id="non-goals">Non-Goals</a>
 
 * Support code review for updates that completely eliminate commits from the
   repository by erasing history (e.g. removing large files from the history of
@@ -98,7 +98,7 @@ As an administrator I would like ...
 * Support code review for branch deletions.
 * Support code review for branch renames.
 
-### <a id="nice-to-have-use-cases">Nice-to-have Use Cases
+### <a id="nice-to-have-use-cases">Nice-to-have Use Cases</a>
 
 Supporting the following use-cases is out of scope for this design, but we see
 them as nice-to-have. The implementation of push reviews should try covering
@@ -114,7 +114,7 @@ these use cases if they can be achieved with low additonal effort.
       to prevent that changes are accidentally created for all commits that have
       been removed from the history of the target branch).
 
-## <a id="acceptance-criteria">Acceptance Criteria
+## <a id="acceptance-criteria">Acceptance Criteria</a>
 
 Reviewing [direct updates](#direct-updates) is possible:
 
