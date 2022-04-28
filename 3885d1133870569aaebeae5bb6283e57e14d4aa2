@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1f7a1c6b_f87726c7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-04-28T09:08:51Z",
+      "side": 1,
+      "message": "\u003e the change needs a separate description\n\nwhere would you store that description? How would the description be eligible for review? I think this is basically arguing for having a separate commit (with commit message) to represent the ref update, which kind of puts us back to solution 1.",
+      "parentUuid": "caa0499b_77160cae",
+      "revId": "3885d1133870569aaebeae5bb6283e57e14d4aa2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a4469e6b_a139c1e3",
         "filename": "/COMMIT_MSG",
         "patchSetId": 1
