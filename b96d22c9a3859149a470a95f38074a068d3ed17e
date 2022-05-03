@@ -3,6 +3,98 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b149405e_02e14a99",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-05-03T10:36:35Z",
+      "side": 1,
+      "message": "End with a dot",
+      "range": {
+        "startLine": 25,
+        "startChar": 26,
+        "endLine": 25,
+        "endChar": 27
+      },
+      "revId": "b96d22c9a3859149a470a95f38074a068d3ed17e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da972c01_cfb22a03",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-05-03T10:36:35Z",
+      "side": 1,
+      "message": "remove\nEnd with a dot.",
+      "range": {
+        "startLine": 27,
+        "startChar": 33,
+        "endLine": 27,
+        "endChar": 34
+      },
+      "revId": "b96d22c9a3859149a470a95f38074a068d3ed17e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1213de7a_0d2e055a",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-05-03T10:36:35Z",
+      "side": 1,
+      "message": "will",
+      "range": {
+        "startLine": 29,
+        "startChar": 36,
+        "endLine": 29,
+        "endChar": 41
+      },
+      "revId": "b96d22c9a3859149a470a95f38074a068d3ed17e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4414bf3f_1ad78658",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-05-03T10:36:35Z",
+      "side": 1,
+      "message": "Remove, already stated.",
+      "range": {
+        "startLine": 117,
+        "startChar": 2,
+        "endLine": 118,
+        "endChar": 22
+      },
+      "revId": "b96d22c9a3859149a470a95f38074a068d3ed17e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "61834135_b4be2508",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 6
@@ -14,6 +106,29 @@
       "writtenOn": "2022-05-03T09:54:31Z",
       "side": 1,
       "message": "@Matthias can you add a short list of the most noteworthy changes since 5.13 that Gerrit admins should be aware of? Follow-up change?",
+      "revId": "b96d22c9a3859149a470a95f38074a068d3ed17e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fadc0d1e_94af4dba",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-05-03T10:36:35Z",
+      "side": 1,
+      "message": "Make the computing of the diff cache thread-safe.\nThe computation previously failed with a zlib exception that was logged as if the  packfile was corrupt even though it wasn\u0027t.",
+      "range": {
+        "startLine": 224,
+        "startChar": 2,
+        "endLine": 224,
+        "endChar": 52
+      },
       "revId": "b96d22c9a3859149a470a95f38074a068d3ed17e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
