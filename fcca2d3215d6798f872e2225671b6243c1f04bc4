@@ -43,6 +43,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "23bf41bc_5d13e1e1",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T09:31:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "912283f1_a4900e5f",
+      "range": {
+        "startLine": 25,
+        "startChar": 14,
+        "endLine": 25,
+        "endChar": 119
+      },
+      "revId": "fcca2d3215d6798f872e2225671b6243c1f04bc4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "863bf35c_43123bd5",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 3
@@ -110,6 +134,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1888e442_06f1c7df",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T09:31:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e7344803_9427181c",
+      "range": {
+        "startLine": 99,
+        "startChar": 25,
+        "endLine": 99,
+        "endChar": 33
+      },
+      "revId": "fcca2d3215d6798f872e2225671b6243c1f04bc4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1454fba4_b5de84bc",
@@ -133,6 +181,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bab0d758_52f19398",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T09:31:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1454fba4_b5de84bc",
+      "range": {
+        "startLine": 106,
+        "startChar": 84,
+        "endLine": 106,
+        "endChar": 97
+      },
+      "revId": "fcca2d3215d6798f872e2225671b6243c1f04bc4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9140ce07_c76c55c4",
@@ -146,6 +218,30 @@
       "writtenOn": "2022-05-03T08:01:53Z",
       "side": 1,
       "message": "suggestion: \"must be rebuilt to use the new library or declare the older Apache Commons Lang v2 as an explicit dependency.\"",
+      "range": {
+        "startLine": 107,
+        "startChar": 2,
+        "endLine": 107,
+        "endChar": 39
+      },
+      "revId": "fcca2d3215d6798f872e2225671b6243c1f04bc4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39c8f9dd_75887905",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T09:31:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9140ce07_c76c55c4",
       "range": {
         "startLine": 107,
         "startChar": 2,
