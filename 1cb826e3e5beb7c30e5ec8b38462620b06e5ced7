@@ -36,6 +36,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7748ccf_cfdd9585",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:12:43Z",
+      "side": 1,
+      "message": "Added the link to the change associated with the entry.",
+      "parentUuid": "2a25ced7_1019626b",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "efafd892_abf8fd6d",
@@ -137,6 +155,24 @@
       "side": 1,
       "message": "This is incorrect: d73b7cdeb belongs to stable-6.1.\nUpdated the submodule to v6.1.0.202203080745-r (Change-Id: I4903d44b3a)",
       "parentUuid": "a1217351_41c74849",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9baf9552_b47f67e1",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40f9dc73_1a3736b7",
       "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -247,6 +283,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "76d292a9_6695e29f",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5040b5b5_c913c212",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "889d169a_18b28376",
@@ -296,6 +350,24 @@
       "side": 1,
       "message": "I\u0027ll edit something based on Change-Id: I4da04fe3656.",
       "parentUuid": "bf24214e_4470ad5f",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c4b30b6_c8038965",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:12:43Z",
+      "side": 1,
+      "message": "Actually the problem never appeared in any release, the fix is therefore not relevant in the release notes.",
+      "parentUuid": "93c6bc67_5f2a8d4f",
       "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
