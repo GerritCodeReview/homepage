@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1d40b5f1_a70aaabe",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:09:30Z",
+      "side": 1,
+      "message": "\u003e this contradicts the sentence in line 23\n\nThe schema hasn\u0027t changed (All-Projects.git:refs/meta/version) but the index version has been bumped.",
+      "parentUuid": "efafd892_abf8fd6d",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "322cec61_9fa1b093",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "writtenOn": "2022-04-26T12:18:25Z",
       "side": 1,
       "message": "does this affect plugin developers or what does it break ?",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "487b9015_a0692cb7",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:09:30Z",
+      "side": 1,
+      "message": "Any plugin (Java or other scripting) that rely on Apache Commons would require code changes.",
+      "parentUuid": "322cec61_9fa1b093",
       "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -89,6 +125,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "40f9dc73_1a3736b7",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:09:30Z",
+      "side": 1,
+      "message": "This is incorrect: d73b7cdeb belongs to stable-6.1.\nUpdated the submodule to v6.1.0.202203080745-r (Change-Id: I4903d44b3a)",
+      "parentUuid": "a1217351_41c74849",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e6f3f02c_96fd336c",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 1
@@ -100,6 +154,24 @@
       "writtenOn": "2022-04-26T12:38:06Z",
       "side": 1,
       "message": "Isn\u0027t it 5.1.0 in the meantime?\nAlso see line 148",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eae55c1e_75217389",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:09:30Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e6f3f02c_96fd336c",
       "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -159,6 +231,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5040b5b5_c913c212",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:09:30Z",
+      "side": 1,
+      "message": "Yeah, that\u0027s difficult for me to expand the headline \"Include\" and the get the corresponding change. I\u0027ll edit something based on Change-Id: I660a644e.",
+      "parentUuid": "2082ae6e_c3a31411",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "889d169a_18b28376",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 1
@@ -188,6 +278,24 @@
       "side": 1,
       "message": "https://gerrit-review.googlesource.com/c/gerrit/+/330199",
       "parentUuid": "889d169a_18b28376",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93c6bc67_5f2a8d4f",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T00:09:30Z",
+      "side": 1,
+      "message": "I\u0027ll edit something based on Change-Id: I4da04fe3656.",
+      "parentUuid": "bf24214e_4470ad5f",
       "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
