@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7312bebf_e3661b99",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T12:35:52Z",
+      "side": 1,
+      "message": "R",
+      "range": {
+        "startLine": 185,
+        "startChar": 2,
+        "endLine": 185,
+        "endChar": 3
+      },
+      "revId": "771be4f0e485bd3767d6d188d69209fa4af529a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e39b5e7a_09aec17f",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T12:35:52Z",
+      "side": 1,
+      "message": "M",
+      "range": {
+        "startLine": 189,
+        "startChar": 2,
+        "endLine": 189,
+        "endChar": 3
+      },
+      "revId": "771be4f0e485bd3767d6d188d69209fa4af529a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f0e36cb_67a323d6",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-03T12:35:52Z",
+      "side": 1,
+      "message": "Are these relevant for Gerrit?",
+      "range": {
+        "startLine": 214,
+        "startChar": 0,
+        "endLine": 215,
+        "endChar": 47
+      },
+      "revId": "771be4f0e485bd3767d6d188d69209fa4af529a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
