@@ -54,6 +54,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "af3f3806_50a6e389",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-05-03T08:01:53Z",
+      "side": 1,
+      "message": "Do you have a script that parses Release-Notes footers? I meant that in that script you know which commit the footer belongs to and can auto-generate a link to the commit either the change on gerrit-review, commit in gitiles (on gerrit-reveiw, github or on https://cs.opensource.google/gerrit/gerrit/gerrit.",
+      "parentUuid": "e7748ccf_cfdd9585",
+      "revId": "1cb826e3e5beb7c30e5ec8b38462620b06e5ced7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "efafd892_abf8fd6d",
