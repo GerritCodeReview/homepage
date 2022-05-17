@@ -250,6 +250,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0f815151_08580105",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-05-17T16:42:19Z",
+      "side": 1,
+      "message": "This is correct, and why there is \"recovery\" built into the plugin on startup (as described below on lines 173-174). That being said, these locks do not currently exist, the URI lock part was reverted because there were some latent bugs in the replication storage which caused some tasks to never be cleaned up (resulting in \"permanent\" locks blocking replication until manually cleaned up). Several of those bugs have been fixed by now, so this might not be an issue anymore if someone wanted to revisit whether this would be feasible (and/or desirable) again. However, in the meantime we implemented a simpler and more resilient non-locking approach to avoid duplicate work across primaries with this change https://gerrit-review.googlesource.com/c/plugins/replication/+/290465 and I suspect that locks are not really desirable anymore, I think this new approach is actually better.\n\nWith the new approach it is still possible for tasks in the running dir to become stale if a node goes down (and it may make sense to still implement some sort of time based recovery on these on top of the current \"startup\" based approach). The major advantage of this non locking approach over the locking approach is that the stale tasks will not block future replication tasks to the same URI, or even to the same ref! In theory their scope only covers the specific instances of events which went stale, unlike a lock which covers the entire URI and all future instances of events to that URI. This design drastically reduces the impact of any bugs (or other factors) which don\u0027t cleanup/manage the storage properly. By reducing the \"strictness\" of trying to avoid duplicating work, it trades off some potential extra work (when things go wrong) for more system reliability. This seems to work well so far as a very good tradeoff.",
+      "parentUuid": "354daf90_71926498",
+      "range": {
+        "startLine": 166,
+        "startChar": 17,
+        "endLine": 166,
+        "endChar": 57
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3a7ea737_dd3e5d07",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
         "patchSetId": 3

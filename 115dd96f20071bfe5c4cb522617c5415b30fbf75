@@ -22,6 +22,30 @@
       },
       "revId": "115dd96f20071bfe5c4cb522617c5415b30fbf75",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3779b750_13f4911d",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2022-05-17T16:42:19Z",
+      "side": 1,
+      "message": "This provision is here because the original design did not provide a way to make these distinguishable. The design could be improved for this but I didn\u0027t want to complicate things that much. This was the simplest approach, and it suffers from sometimes deleting non stale locks (particularly with multiple primaries), but that was seen as not too disruptive at least (it could result in some extra work). Another alternative or additional provision would have been to look at the directory modification timestamps and to recover any locks older than a certain threshold. So although URI locks are no longer in the code base, this might still be a valuable thing to do.",
+      "parentUuid": "36c01247_5094d784",
+      "range": {
+        "startLine": 173,
+        "startChar": 0,
+        "endLine": 174,
+        "endChar": 33
+      },
+      "revId": "115dd96f20071bfe5c4cb522617c5415b30fbf75",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
