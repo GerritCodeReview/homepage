@@ -1,6 +1,7 @@
 {
   "comments": [
     {
+      "unresolved": true,
       "key": {
         "uuid": "5680d8ad_a4d9721d",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -20,10 +21,10 @@
         "endChar": 13
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "9cb24790_b57c74c9",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -44,10 +45,10 @@
         "endChar": 13
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "919425a5_ac92d2cd",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -67,10 +68,10 @@
         "endChar": 29
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "9a58479a_75919cae",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -91,10 +92,10 @@
         "endChar": 29
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "8bca2d1a_139d9992",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -114,10 +115,10 @@
         "endChar": 35
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "f7a05cf5_c5d3d2dd",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -131,10 +132,10 @@
       "side": 1,
       "message": "maybe already waiting tasks should be collected in a waiting/\u003csha1 of destination URI\u003e/ folder\nthen a node starting to process replication for a given destination can pick up all tasks for the same destination by moving all the tasks for a given destination\nfrom the waiting/\u003cdestination sha1\u003e/ to the corresponding running/\u003cdestination sha1\u003e/ folder and doesn\u0027t need to read the other tasks to find out which have the same destination",
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "471fbd53_394af8d2",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -149,10 +150,10 @@
       "message": "I considered this approach, however I found several issues with it. To start with, it\u0027s more complicated on the creation side since you have to create the directory inside the waiting directory independently of moving tasks into it, thus leaving a gap with empty URI directories that could leave stale empty directories around. A more serious creation side problem is that while moving new task files into the waiting URI directory from one thread/host, another one could move the URI directory to the running directory. This concurrency means that the new task file may appear unnoticed in the running URI directory AFTER the URI push is already underway. At first glance most people think the scenario I just described is not possible, however from my experience I have seen this surprising behavior on local and NFS filesystems, moves into directories being moved themselves can complete after the destination directory\u0027s move completes! And finally this would cause a problem on the abort side since once the URI directory has been moved to the running directory, if a new waiting directory for the same URI is created with new task files in it, it will become harder to abort the running URI directory since it would no longer be moveable back to the waiting directory. Instead you would have to move the individual task files from the running URI directory back to the waiting URI directory. this last process now potentially becomes difficult to track since as you empty the running directory other threads may be attempting to move the waiting URI directory ontop of the running URI directory, and they can succeed as soon as the directory becomes empty. This becomes harder to reason about and essentially moves the problem you were trying to avoid from the running transition to the abort transition. I believe the simplification sought out ends up being lost.",
       "parentUuid": "f7a05cf5_c5d3d2dd",
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "8444029d_5d4d7563",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -173,10 +174,10 @@
         "endChar": 35
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "d2635fc8_81e26446",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -196,10 +197,10 @@
         "endChar": 57
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "f67930bb_7a099cf9",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -220,10 +221,34 @@
         "endChar": 57
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "354daf90_71926498",
+        "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2022-05-17T10:35:42Z",
+      "side": 1,
+      "message": "Can we get a stale URI lock that will prevent replicating to the URI forever (until the lock dir gets manually deleted)? If the unlocking fails (for some reason) from the plugin instance owning the lock then how will this lock dir eventually get deleted? Other plugin instances will keep assuming that the URI lock is taken by another plugin instance and thus no one will replicate to the locked URI.",
+      "parentUuid": "f67930bb_7a099cf9",
+      "range": {
+        "startLine": 166,
+        "startChar": 17,
+        "endLine": 166,
+        "endChar": 57
+      },
+      "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
       "key": {
         "uuid": "3a7ea737_dd3e5d07",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -243,10 +268,10 @@
         "endChar": 35
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": true
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "b1f30662_f4d8297a",
         "filename": "pages/design-docs/scaling-multi-master-replication/solution-distribute-replication-tasks-via-shared-FS.md",
@@ -267,8 +292,7 @@
         "endChar": 35
       },
       "revId": "58c6dc20983fc2835805b8577a0ceda176b11b07",
-      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
-      "unresolved": false
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
