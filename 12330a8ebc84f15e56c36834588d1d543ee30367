@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "88923fdc_3feb3ec7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-22T16:53:02Z",
+      "side": 1,
+      "message": "Thanks @leopold for the review, comments addressed in Change-Id: I37e44c4bd.",
+      "revId": "12330a8ebc84f15e56c36834588d1d543ee30367",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6a101725_1fc94186",
@@ -14,6 +31,30 @@
       "writtenOn": "2022-05-22T10:43:47Z",
       "side": 1,
       "message": "This seems to contradict the linked change 330203, which says there\u0027s going to be some backwards compatibility. Which is true?",
+      "range": {
+        "startLine": 43,
+        "startChar": 104,
+        "endLine": 44,
+        "endChar": 28
+      },
+      "revId": "12330a8ebc84f15e56c36834588d1d543ee30367",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6669e3bf_060036d2",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-22T16:53:02Z",
+      "side": 1,
+      "message": "Well, the statement is taken from Change 330203, so it does not contradict what it says. The change also says \u0027Note that this change also marks the operator\n`label:\u003clabel-name\u003e\u003d\u003cstatus\u003e` as deprecated since users should not rely\non it anymore\u0027.\n\nThe will also just match the old-style submit rules that were not relying on submit records for existing changes.",
+      "parentUuid": "6a101725_1fc94186",
       "range": {
         "startLine": 43,
         "startChar": 104,
@@ -49,6 +90,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fe862ad0_7448bc29",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-22T16:53:02Z",
+      "side": 1,
+      "message": "Let me fix this as a follow-up.",
+      "parentUuid": "c4c57062_7ae8e950",
+      "range": {
+        "startLine": 137,
+        "startChar": 57,
+        "endLine": 137,
+        "endChar": 58
+      },
+      "revId": "12330a8ebc84f15e56c36834588d1d543ee30367",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fc56eb50_d3ddefcc",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 7
@@ -60,6 +125,30 @@
       "writtenOn": "2022-05-22T10:43:47Z",
       "side": 1,
       "message": "Is this true? Looking at the change, this enables Markdown highlighting in diffs, not comments. Or am I missing something?",
+      "range": {
+        "startLine": 138,
+        "startChar": 37,
+        "endLine": 138,
+        "endChar": 48
+      },
+      "revId": "12330a8ebc84f15e56c36834588d1d543ee30367",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2fde674_d2b7c07c",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-22T16:53:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc56eb50_d3ddefcc",
       "range": {
         "startLine": 138,
         "startChar": 37,
