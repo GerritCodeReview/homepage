@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1995d1ea_fcf8e49f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2022-05-23T05:59:31Z",
+      "side": 1,
+      "message": "Done, can you vote CRVW+2 now? 😊",
+      "parentUuid": "5409418e_b5897c0a",
+      "revId": "db46b4a916c9e6da75350656fd36cb375dd1f714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e075057f_c47e46d0",
@@ -48,6 +66,24 @@
       "writtenOn": "2022-05-20T13:10:07Z",
       "side": 1,
       "message": "The missing changes were merged on master and cherry-picked to stable-3.6 branch: [1].\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/337574",
+      "revId": "db46b4a916c9e6da75350656fd36cb375dd1f714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9931bc2_d9b8d5e6",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2022-05-23T05:59:31Z",
+      "side": 1,
+      "message": "The whole series was merged on stable-3.6.",
+      "parentUuid": "e075057f_c47e46d0",
       "revId": "db46b4a916c9e6da75350656fd36cb375dd1f714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
