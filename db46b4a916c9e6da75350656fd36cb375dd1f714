@@ -86,6 +86,24 @@
       "parentUuid": "e075057f_c47e46d0",
       "revId": "db46b4a916c9e6da75350656fd36cb375dd1f714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be33f7d0_7a452f24",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-05-25T12:52:48Z",
+      "side": 1,
+      "message": "What does that exactly mean for Gerrit admins? Can they run Gerrit on Java 17? Have we run any tests on that? (build validation? E2E?) Do we support them running it in production with Java 17?",
+      "parentUuid": "d9931bc2_d9b8d5e6",
+      "revId": "db46b4a916c9e6da75350656fd36cb375dd1f714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
