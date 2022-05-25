@@ -104,6 +104,24 @@
       "parentUuid": "d9931bc2_d9b8d5e6",
       "revId": "db46b4a916c9e6da75350656fd36cb375dd1f714",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "175201dd_f9cb23e6",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2022-05-25T13:40:51Z",
+      "side": 1,
+      "message": "\u003e Can they run Gerrit on Java 17? Have we run any tests on that? (build validation? E2E?) Do we support them running it in production with Java 17?\n\nYes to all of this.\n\nThe last issue 15504 was fixed with Jacek\u0027s generic Optional (de-)serializer in change 337574.\n\nWe were running sporadically all tests on JDK 17 in context of change 327739, that bumped java to major byte code version 61 (Java 17) per default.\n\nThe only missing bit is to finalize the review for new CI-Job to build with Java 17 and run all tests. Unfortunately the review for change 330027 (Add new verification job for JDK 17) was staled. All what the JDJ 17 build job should do differently is to pass these parameters:\n\n```\n  bazel test \\\n      --java_language_version\u003d17 \\\n      --java_runtime_version\u003dremotejdk_17 \\\n      --tool_java_language_version\u003d17 \\\n      --tool_java_runtime_version\u003dremotejdk_17\n```",
+      "parentUuid": "be33f7d0_7a452f24",
+      "revId": "db46b4a916c9e6da75350656fd36cb375dd1f714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
