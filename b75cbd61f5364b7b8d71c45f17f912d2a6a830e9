@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6364346e_a3f70958",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-05-30T08:08:54Z",
+      "side": 1,
+      "message": "sorry for the nitpicks - but I want to be precise and explicit about what happened here.",
+      "revId": "b75cbd61f5364b7b8d71c45f17f912d2a6a830e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dba094ef_bbaafc6e",
+        "filename": "_posts/2022-05-11-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-05-30T08:08:54Z",
+      "side": 1,
+      "message": "NoteDb change metadata",
+      "range": {
+        "startLine": 52,
+        "startChar": 61,
+        "endLine": 52,
+        "endChar": 67
+      },
+      "revId": "b75cbd61f5364b7b8d71c45f17f912d2a6a830e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02ae8291_d834083c",
+        "filename": "_posts/2022-05-11-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-05-30T08:08:54Z",
+      "side": 1,
+      "message": "can you add \"e-mail and name\"",
+      "range": {
+        "startLine": 52,
+        "startChar": 24,
+        "endLine": 52,
+        "endChar": 35
+      },
+      "revId": "b75cbd61f5364b7b8d71c45f17f912d2a6a830e9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
