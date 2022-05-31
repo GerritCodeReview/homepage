@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa3d47d9_a0f77bcb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-05-31T09:20:31Z",
+      "side": 1,
+      "message": "can you re-upload to hide the discussion?",
+      "revId": "f67f714e133c6c0369adf4f1f171fb07d6ee18ce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "427a652b_5254d499",
+        "filename": "_posts/2022-05-11-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2022-05-31T09:20:31Z",
+      "side": 1,
+      "message": "\"user data (e-mail and name)\"\n\n(to avoid ppl interpreting as {user data, email, name}.",
+      "range": {
+        "startLine": 52,
+        "startChar": 35,
+        "endLine": 52,
+        "endChar": 51
+      },
+      "revId": "f67f714e133c6c0369adf4f1f171fb07d6ee18ce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
