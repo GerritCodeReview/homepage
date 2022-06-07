@@ -15,8 +15,20 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.5](/3.5.html)**. The support status of all recent Gerrit versions is
+Latest release: **[3.6](/3.6.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
+
+## 3.6
+
+* Deprecation of Prolog for submit rules and introduction of Submit Requirements
+
+* Removal of support for CentOS
+
+* Review labels copied and used from the latest patch-set
+
+* Performance improvements
+
+[Release notes for Gerrit 3.6](/3.6.html)
 
 ## 3.5
 
