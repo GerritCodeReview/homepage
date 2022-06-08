@@ -54,6 +54,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ea2ac3e_31be6cb1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-06-08T11:13:54Z",
+      "side": 1,
+      "message": "We are considering a different approach to solve this for us now. This means for now we are not evolving this design any further. I\u0027ll submit the remaining open changes (after addressing the remaining comments) so that the submitted version of the design docs reflects everything which has been discussed, in case we want to resume this at some point.\n\nFYI the approach that we are evaluating now is this:\nAt the moment when someone wants to do a direct push, they need to get the approval of a second person. Getting this approval happens outside of Gerrit.",
+      "parentUuid": "d1316ed3_549ad4aa",
+      "revId": "3885d1133870569aaebeae5bb6283e57e14d4aa2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4469e6b_a139c1e3",
@@ -67,6 +85,30 @@
       "writtenOn": "2022-04-27T22:12:29Z",
       "side": 1,
       "message": "+o",
+      "range": {
+        "startLine": 16,
+        "startChar": 33,
+        "endLine": 16,
+        "endChar": 34
+      },
+      "revId": "3885d1133870569aaebeae5bb6283e57e14d4aa2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e05e353_429a6a07",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-06-08T11:13:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4469e6b_a139c1e3",
       "range": {
         "startLine": 16,
         "startChar": 33,
