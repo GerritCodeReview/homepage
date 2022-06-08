@@ -53,6 +53,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "240cb355_76ea8b3b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-06-08T08:30:56Z",
+      "side": 1,
+      "message": "Just called\n```\n$ bazel test \\\n      --java_language_version\u003d17 \\\n      --java_runtime_version\u003dremotejdk_17 \\\n      --tool_java_language_version\u003d17 \\\n      --tool_java_runtime_version\u003dremotejdk_17 \\\n    //...\n```\nunder\n```\n$ java -version\nopenjdk version \"17.0.3\" 2022-04-19\nOpenJDK Runtime Environment (build 17.0.3+7-Ubuntu-0ubuntu0.22.04.1)\nOpenJDK 64-Bit Server VM (build 17.0.3+7-Ubuntu-0ubuntu0.22.04.1, mixed mode, sharing)\n...\nExecuted 198 out of 198 tests: 198 tests pass.\nINFO: Build completed successfully, 2240 total actions\n```\nand it is all green 😄\n\nI have also started the `3.6.1-1-g94891ef662` under JDK17, performed quick sanity and it worked fine.",
+      "revId": "db46b4a916c9e6da75350656fd36cb375dd1f714",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e075057f_c47e46d0",
