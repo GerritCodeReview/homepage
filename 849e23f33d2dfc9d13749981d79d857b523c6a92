@@ -16,6 +16,23 @@
       "message": "Kaushik, can you set V+1 if this looks correct in the docker-compose test site?",
       "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33552279_e9979aa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-07-02T09:38:24Z",
+      "side": 1,
+      "message": "There are no plans to release v3.3.12: it is EOL since the release of Gerrit v3.6 (see https://www.gerritcodereview.com/2022-02-24-gerrit-3.6-release-plan.html)",
+      "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
