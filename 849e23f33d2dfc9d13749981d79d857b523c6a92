@@ -33,6 +33,29 @@
       "message": "There are no plans to release v3.3.12: it is EOL since the release of Gerrit v3.6 (see https://www.gerritcodereview.com/2022-02-24-gerrit-3.6-release-plan.html)",
       "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "356568bc_96a59fb5",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 525,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-07-02T09:39:17Z",
+      "side": 1,
+      "message": "Can you move it to 3.5.3 (In Development) in 3.5.md?",
+      "range": {
+        "startLine": 525,
+        "startChar": 0,
+        "endLine": 525,
+        "endChar": 27
+      },
+      "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
