@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "315558c2_d917cd0a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-07-05T19:40:24Z",
+      "side": 1,
+      "message": "\u003e There are no plans to release v3.3.12: it is EOL since the release of Gerrit v3.6 (see https://www.gerritcodereview.com/2022-02-24-gerrit-3.6-release-plan.html)\n\nSince we ended up with that breaking change on stable-3.3 (SSH query --commit-message bug), I wanted (and Sven requested) to make sure it ended up in the release notes. It could be that we later have a security issue and release again from stable-3.3.\n\nHow about we add these notes under an \"Unreleased\" heading instead of \"In Development\"?",
+      "parentUuid": "33552279_e9979aa0",
+      "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "356568bc_96a59fb5",
         "filename": "pages/site/releases/3.3.md",
         "patchSetId": 2
@@ -48,6 +66,30 @@
       "writtenOn": "2022-07-02T09:39:17Z",
       "side": 1,
       "message": "Can you move it to 3.5.3 (In Development) in 3.5.md?",
+      "range": {
+        "startLine": 525,
+        "startChar": 0,
+        "endLine": 525,
+        "endChar": 27
+      },
+      "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73256f1e_5f2c6e36",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 525,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-07-05T19:40:24Z",
+      "side": 1,
+      "message": "\u003e Can you move it to 3.5.3 (In Development) in 3.5.md?\n\nDid you mean 3.4.6 in 3.4.md? Kaushik can upload a new change to add In Development sections for 3.4/3.5/3.6.",
+      "parentUuid": "356568bc_96a59fb5",
       "range": {
         "startLine": 525,
         "startChar": 0,
