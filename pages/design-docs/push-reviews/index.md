@@ -11,3 +11,4 @@ toc: false
 * [Use Cases](/design-docs/push-reviews-use-cases.html)
 * [Solution 1 proposed by Google](/design-docs/push-reviews-solution-google-1.html)
 * [Solution 2 proposed by Google](/design-docs/push-reviews-solution-google-2.html)
+* [Conclusion](/design-docs/push-reviews-conclusion.html)
