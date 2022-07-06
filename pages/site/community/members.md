@@ -13,7 +13,7 @@ and focus on the health of the community. For details about the role of
 community managers, refer to the
 [description here](https://gerrit-review.googlesource.com/Documentation/dev-roles.html#community-manager).
 
-Community Managers for the 2021-2022 term are:
+Community Managers for the 2022-2023 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
@@ -33,7 +33,7 @@ The Gerrit project has an Engineering Steering Committee (ESC) that
 governs the project. For details about the role of the ESC, refer to the
 [description here](https://gerrit-review.googlesource.com/Documentation/dev-processes.html#steering-committee).
 
-Members of the ESC for the 2021-2022 term are:
+Members of the ESC for the 2022-2023 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
