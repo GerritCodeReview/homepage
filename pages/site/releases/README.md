@@ -52,7 +52,7 @@ Latest release: **[3.6](/3.6.html)**. The support status of all recent Gerrit ve
 
 [Release notes for Gerrit 3.4](/3.4.html)
 
-## 3.3
+## 3.3 (EOL)
 
 * Java 11 by default for Gerrit
 
