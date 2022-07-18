@@ -16,6 +16,24 @@
       "message": "Another place to update is the main landing page for releases: [1]. Fixed in change 340934.\n\n[1] https://www.gerritcodereview.com/releases-readme.html",
       "revId": "447e0c5009d57275c496028931b777b4ab36fc72",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a0c82dd_bc8370d5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1012457
+      },
+      "writtenOn": "2022-07-18T18:37:27Z",
+      "side": 1,
+      "message": "Thanks David.",
+      "parentUuid": "f7bbc5b2_450e8fb0",
+      "revId": "447e0c5009d57275c496028931b777b4ab36fc72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
