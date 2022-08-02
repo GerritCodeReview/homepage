@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7c38f721_187ab436",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012457
+      },
+      "writtenOn": "2022-08-02T18:40:17Z",
+      "side": 1,
+      "message": "@Luca, do you have any objections to what Nasser suggested?",
+      "parentUuid": "315558c2_d917cd0a",
+      "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "356568bc_96a59fb5",
         "filename": "pages/site/releases/3.3.md",
         "patchSetId": 2
