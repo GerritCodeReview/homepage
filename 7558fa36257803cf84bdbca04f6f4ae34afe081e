@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f89f5c63_d03bfe94",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 1012457
+      },
+      "writtenOn": "2022-08-02T19:55:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "146da7f7_26a6a112",
+      "range": {
+        "startLine": 512,
+        "startChar": 0,
+        "endLine": 522,
+        "endChar": 66
+      },
+      "revId": "7558fa36257803cf84bdbca04f6f4ae34afe081e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8910afe0_11166082",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-07-16T00:06:02Z",
       "side": 1,
       "message": "Group as \"Documentation Fixes\"?",
+      "range": {
+        "startLine": 418,
+        "startChar": 0,
+        "endLine": 437,
+        "endChar": 66
+      },
+      "revId": "7558fa36257803cf84bdbca04f6f4ae34afe081e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16dfeea2_7bb32020",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 1012457
+      },
+      "writtenOn": "2022-08-02T19:55:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8910afe0_11166082",
       "range": {
         "startLine": 418,
         "startChar": 0,
