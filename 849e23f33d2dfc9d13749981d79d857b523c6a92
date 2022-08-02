@@ -98,6 +98,30 @@
       },
       "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5afa9ff_f81a618b",
+        "filename": "pages/site/releases/3.3.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 525,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-08-02T17:56:56Z",
+      "side": 1,
+      "message": "Change is up for review now: 340878: Add \u0027In Development\u0027 section to 3.4, 3.5, 3.6 | https://gerrit-review.googlesource.com/c/homepage/+/340878",
+      "parentUuid": "73256f1e_5f2c6e36",
+      "range": {
+        "startLine": 525,
+        "startChar": 0,
+        "endLine": 525,
+        "endChar": 27
+      },
+      "revId": "849e23f33d2dfc9d13749981d79d857b523c6a92",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
