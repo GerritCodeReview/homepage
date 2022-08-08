@@ -8,6 +8,94 @@ toc: false
 
 Google plans work per-quarter, using the OKR (Objective/Key-Result) framework.
 
+# Q3 2022
+
+## O: Increase system reliability
+
+### KR: Make the token highlight layer more efficient.
+
+### KR: Prevent HTML injection through commentLink feature
+
+### KR: Add shadowdom tests for each FE component
+
+### KR: Lit based gr-diff rendering
+
+This increases maintainability and makes it faster.
+
+### KR: Better plugins
+
+Work with SAP on checks-jenkins plugin. Deprecate the checks plugin on gerrit-review.
+
+
+
+## O: Improve Gerrit customer satisfaction
+
+### KR: Land bulk actions
+
+Provide actions on multiple changes from the dashboard page. Polish in
+response to user feedback.
+
+### KR: Allow patchset upload creation from textual patch
+
+This provides a mechanism that could execute cherry-picks across gerrit hosts.
+
+### KR: Land push notifications
+
+Show browser notifications if the attentionset for a user changes.
+
+### KR: Implement suggested edits
+
+Allow reviewers to suggest changes through specially formatted
+comments. Authors can apply the change as a change-edit.
+
+### KR: Land enhanced file status information
+
+Show file status diffs (added, removed) between patchsets.
+
+## O: Reduce toil, increase developer velocity, and improve developer happiness
+
+
+# Q2 2022
+
+## O: Increase system reliability
+
+### KR: Reduce overhead of Prolog
+
+Roll them out fully on googlesource.com for Android and Chrome,
+addressing any feature gaps relative to Prolog.
+
+*result*: launched to all but one host.
+
+## O: Improve Gerrit customer satisfaction
+
+### KR: Polish composable submit requirements based on customer feedback
+
+*result*: this is finished.
+
+### KR: Launch bulk actions
+
+Provide actions on multiple changes from the dashboard page.
+
+*result*: code almost finished, launch pending.
+
+### KR: Polish approval copying infrastructure
+
+When uploading new patchsets, provide more information to users why
+they need to get approvals again.
+
+*result*: done.
+
+## O: Reduce toil, increase developer velocity, and improve developer happiness
+
+### Finish Lit migration
+
+Lit is the next generation version of Polymer. Besides being nicer to
+work with, it reduces cold start due to reduced code size.
+
+*result*: done, except the code-owners plugin and gr-overlay and
+gr-account-list (on Polymer due to Iron dependencies.)
+
+
 # Q1 2022
 
 ## O: Increase system stability and reduce latency of critical user journeys
