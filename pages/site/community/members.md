@@ -67,6 +67,7 @@ Current maintainers are:
 | Chris Poucet               | Google                                  |
 | David Ostrovsky            | Independent                             |
 | David Pursehouse           | Independent (formerly Sony, CollabNet)  |
+| Dhruv Srivastava           | Google                                  |
 | Dmitrii Filippov           | Google                                  |
 | Edwin Kempin               | Google (formerly SAP)                   |
 | Frank Borden               | Google                                  |
