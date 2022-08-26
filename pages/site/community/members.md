@@ -67,10 +67,10 @@ Current maintainers are:
 | Chris Poucet               | Google                                  |
 | David Ostrovsky            | Independent                             |
 | David Pursehouse           | Independent (formerly Sony, CollabNet)  |
+| Dhruv Srivastava           | Google                                  |
 | Dmitrii Filippov           | Google                                  |
 | Edwin Kempin               | Google (formerly SAP)                   |
 | Frank Borden               | Google                                  |
-| Gal Paikin                 | Google                                  |
 | Han-Wen Nienhuys           | Google                                  |
 | Jacek Centkowski           | Independent (formerly Digital.ai)       |
 | Joerg Zieren               | Google                                  |
