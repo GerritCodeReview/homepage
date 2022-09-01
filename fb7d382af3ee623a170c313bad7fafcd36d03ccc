@@ -16,6 +16,24 @@
       "message": "At least the jgit update was mentioned and the commit message has the git log of the changes it introduced. That is how I found out about the sshd/kex changes.\n\nThank you!",
       "revId": "fb7d382af3ee623a170c313bad7fafcd36d03ccc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15fc60db_c23cd2a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-09-01T22:22:16Z",
+      "side": 1,
+      "message": "Is there a workaround or note that needs to be added somewhere for the issue you had Antoine?",
+      "parentUuid": "248824a3_97d7612d",
+      "revId": "fb7d382af3ee623a170c313bad7fafcd36d03ccc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
