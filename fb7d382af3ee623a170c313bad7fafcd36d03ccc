@@ -34,6 +34,24 @@
       "parentUuid": "248824a3_97d7612d",
       "revId": "fb7d382af3ee623a170c313bad7fafcd36d03ccc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21eeb457_13c68984",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010788
+      },
+      "writtenOn": "2022-09-08T13:37:54Z",
+      "side": 1,
+      "message": "Not really, my issue was really a corner case due to a very custom configuration. If the release notes mentioned the Mina upgrade I might have spend a bit of time to verify the basic ssh functionalities ahead of time, then I doubt I would have tested the replication over ssh.\n\nAnyway, this change looks good as is. Thank you for asking!",
+      "parentUuid": "15fc60db_c23cd2a5",
+      "revId": "fb7d382af3ee623a170c313bad7fafcd36d03ccc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
