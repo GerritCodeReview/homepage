@@ -258,5 +258,5 @@ policies adopted for Gerrit Code Review.
 [issue-tracking]: /issues.html
 [repo-discuss]: https://groups.google.com/forum/#!forum/repo-discuss
 [slack-workspace]: https://gerritcodereview.slack.com
-[discord-server]: https://discord.gg/2U7z5ZcjG4
+[discord-server]: https://disboard.org/server/775374026587373568
 [stack-overflow]: https://stackoverflow.com/questions/tagged/gerrit
