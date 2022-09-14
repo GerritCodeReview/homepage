@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1a64e26_acc8d870",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-09-14T17:39:18Z",
+      "side": 1,
+      "message": "Looks like you pushed direct to the branch already: https://gerrit.googlesource.com/homepage/+/refs/heads/master",
+      "revId": "a879a8bf262b7838f73b6cf5a9ae28303947ff85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
