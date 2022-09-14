@@ -70,7 +70,8 @@ Using the [mailing list][repo-discuss], you can also request to be
 invited to the open [Slack][slack-workspace] channel if prompted to. A
 maintainer or community manager should then be able to address your
 request. Please try [accessing it][slack-workspace] first before issuing
-a request for it.
+a request for it. Alternatively, you can join us on [discord][discord-server].
+
 
 You could also check the questions tagged with "gerrit" on
 [Stack Overflow][stack-overflow].
@@ -257,4 +258,5 @@ policies adopted for Gerrit Code Review.
 [issue-tracking]: /issues.html
 [repo-discuss]: https://groups.google.com/forum/#!forum/repo-discuss
 [slack-workspace]: https://gerritcodereview.slack.com
+[discord-server]: https://discord.gg/2U7z5ZcjG4
 [stack-overflow]: https://stackoverflow.com/questions/tagged/gerrit
