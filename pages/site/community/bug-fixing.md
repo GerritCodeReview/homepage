@@ -39,7 +39,7 @@ each supported branch to see if the issue reproduces on that branch._
 ### 3. Fix the bug on this branch
 
 Hard to give any generalizable advice since all bugs are not created equal, but if you get stuck you
-can always post a question on [slack](https://gerritcodereview.slack.com) or the
+can always post a question on [slack](https://gerritcodereview.slack.com), [discord](https://disboard.org/server/775374026587373568) or the
 [mailing list](https://groups.google.com/forum/#!forum/repo-discuss).
 
 _You should always aim to add a test-case that fails without your bug-fix._
