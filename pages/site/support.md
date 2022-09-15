@@ -66,11 +66,8 @@ appear on the mailing list. Approvals normally happen within 1 work
 day. Posts of people that participate in mailing list discussions
 frequently are approved automatically.
 
-Using the [mailing list][repo-discuss], you can also request to be
-invited to the open [Slack][slack-workspace] channel if prompted to. A
-maintainer or community manager should then be able to address your
-request. Please try [accessing it][slack-workspace] first before issuing
-a request for it. Alternatively, you can join us on [discord][discord-server].
+You can also join us on [discord][discord-server]. A maintainer or
+community manager should then be able to address your request.
 
 
 You could also check the questions tagged with "gerrit" on
@@ -216,7 +213,7 @@ and occasionally over week-ends and bank holidays.
 Although a response is not guaranteed for community support, we aim to
 meet the general [Gerrit Support SLO](#response-time-and-slo).
 
-> **NOTE**: GerritForge does not answer to private e-mails or Slack direct messages
+> **NOTE**: GerritForge does not answer to private e-mails or Discord direct messages
 > under the CS umbrella, because the aim is to spread the knowledge with the whole community.
 
 All Gerrit **non-EOL releases are actively supported** and GerritForge **is happy,
@@ -257,6 +254,5 @@ policies adopted for Gerrit Code Review.
 [feature-request]: https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose
 [issue-tracking]: /issues.html
 [repo-discuss]: https://groups.google.com/forum/#!forum/repo-discuss
-[slack-workspace]: https://gerritcodereview.slack.com
 [discord-server]: https://disboard.org/server/775374026587373568
 [stack-overflow]: https://stackoverflow.com/questions/tagged/gerrit
