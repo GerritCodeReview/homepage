@@ -67,6 +67,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ec71891c_527e27f0",
+        "filename": "_posts/2022-09-14-gerrit-3.7-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-09-15T08:24:15Z",
+      "side": 1,
+      "message": "\u003e Do you think there will be much work happening during the summit days? If not, maybe better to target final release for the 9th \n\nTrue, because we won\u0027t have time anyway on the 10-11th for doing much: best to get things nailed down before the 10th.\n\n\u003e \"What\u0027s new in 3.7.0\" talk for the summit?\n\nAbsolutely, I\u0027d say __What\u0027s new in 3.6.0/3.7.0__ as we had two releases since the last Summit in 2021.",
+      "parentUuid": "a60e0f35_d3e0bd75",
+      "revId": "7318d3f88f328d0daf2f83eec76eb2f3292d97b0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cdac1b58_c6dc8462",
         "filename": "_posts/2022-09-14-gerrit-3.7-release-plan.md",
         "patchSetId": 1
@@ -78,6 +96,30 @@
       "writtenOn": "2022-09-14T16:29:22Z",
       "side": 1,
       "message": "4",
+      "range": {
+        "startLine": 94,
+        "startChar": 11,
+        "endLine": 94,
+        "endChar": 12
+      },
+      "revId": "7318d3f88f328d0daf2f83eec76eb2f3292d97b0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d96ae73_bbc972e3",
+        "filename": "_posts/2022-09-14-gerrit-3.7-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-09-15T08:24:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cdac1b58_c6dc8462",
       "range": {
         "startLine": 94,
         "startChar": 11,
