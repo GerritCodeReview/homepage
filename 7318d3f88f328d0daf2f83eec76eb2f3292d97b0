@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fa241ea_589e9554",
+        "filename": "_posts/2022-09-14-gerrit-3.7-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-09-15T08:21:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d14dc22e_16333989",
+      "range": {
+        "startLine": 19,
+        "startChar": 51,
+        "endLine": 19,
+        "endChar": 58
+      },
+      "revId": "7318d3f88f328d0daf2f83eec76eb2f3292d97b0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a60e0f35_d3e0bd75",
