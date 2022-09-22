@@ -254,5 +254,5 @@ policies adopted for Gerrit Code Review.
 [feature-request]: https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose
 [issue-tracking]: /issues.html
 [repo-discuss]: https://groups.google.com/forum/#!forum/repo-discuss
-[discord-server]: https://disboard.org/server/775374026587373568
+[discord-server]: https://discord.gg/HkGbBJHYbY
 [stack-overflow]: https://stackoverflow.com/questions/tagged/gerrit

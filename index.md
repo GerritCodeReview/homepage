@@ -117,7 +117,7 @@ Schedule [git gc](https://gerrit-documentation.storage.googleapis.com/Documentat
 over all managed repositories and
 [replicate](https://gerrit.googlesource.com/plugins/replication/+doc/v3.6.0/src/main/resources/Documentation/config.md)
 to geographical mirrors for latency reduction and backup servers for hot
-spare redundancy.
+spare redundancy.w
 
 ## Extensible through plugins
 
@@ -130,7 +130,7 @@ Source code for additional plugins can be found through the
 
 [Members](https://www.gerritcodereview.com/members.html) of the Gerrit community are expected to behave within the guidelines of the community's [Code Of Conduct](https://www.gerritcodereview.com/codeofconduct.html) when representing the community.  We would like to [praise](https://www.gerritcodereview.com/kudos.html) some of the more recent accomplishements from the community.
 
-Members of the community will discuss most Gerrit related things on the [repo-discuss](https://groups.google.com/group/repo-discuss) mailing list. Events such as user summits and hackathons are announced there. You can also see the events posted on our [Calendar](https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), or if you prefer to follow us on [Twitter@gerritreview](https://twitter.com/gerritreview).  For a more real-time Gerrit discussion, see our [Discord server](https://disboard.org/server/775374026587373568).
+Members of the community will discuss most Gerrit related things on the [repo-discuss](https://groups.google.com/group/repo-discuss) mailing list. Events such as user summits and hackathons are announced there. You can also see the events posted on our [Calendar](https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), or if you prefer to follow us on [Twitter@gerritreview](https://twitter.com/gerritreview).  For a more real-time Gerrit discussion, see our [Discord server](https://discord.gg/HkGbBJHYbY).
 
 ## Support
 
