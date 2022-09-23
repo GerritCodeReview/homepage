@@ -16,6 +16,24 @@
       "message": "Do you want to update this section with the info from https://groups.google.com/g/repo-discuss/c/OKQ35uhRtOY/m/7C6VebIYAgAJ ?",
       "revId": "dafc3bdaec3285ccd67242e1f72bf29e5f2c90b5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed9c4d23_91bb3058",
+        "filename": "_posts/2022-09-14-gerrit-3.7-release-plan.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-09-23T22:56:59Z",
+      "side": 1,
+      "message": "Good idea, let me do that.",
+      "parentUuid": "0187fe6b_12078813",
+      "revId": "dafc3bdaec3285ccd67242e1f72bf29e5f2c90b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
