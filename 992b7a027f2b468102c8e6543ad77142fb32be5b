@@ -16,6 +16,24 @@
       "message": "Unfinished?",
       "revId": "992b7a027f2b468102c8e6543ad77142fb32be5b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e12317a_170c1103",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2022-09-27T08:15:57Z",
+      "side": 1,
+      "message": "Didn\u0027t quite know how to deal with this section since I\u0027m not familiar with the HA setup but it will likely be very similar to as for the previous release.\nBut your right this was a poor approach 😊 I\u0027ll remove the whole section and let those more well versed in the ins and outs of HA fill in the details later.",
+      "parentUuid": "a155d02b_03c7f7c2",
+      "revId": "992b7a027f2b468102c8e6543ad77142fb32be5b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
