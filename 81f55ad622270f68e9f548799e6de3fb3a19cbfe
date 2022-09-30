@@ -16,6 +16,24 @@
       "message": "This has a bug that Kaushik is fixing in 347194: Fix Lucene change index search-after implementation | https://gerrit-review.googlesource.com/c/gerrit/+/347194 so we should either wait for that fix or maybe not mention it in the notes yet.",
       "revId": "81f55ad622270f68e9f548799e6de3fb3a19cbfe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6150ae83_5be7414f",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1462,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-09-30T22:18:24Z",
+      "side": 1,
+      "message": "Let\u0027s not rush the release then: we can release it early next week.",
+      "parentUuid": "0d1ecd9e_5f7bf682",
+      "revId": "81f55ad622270f68e9f548799e6de3fb3a19cbfe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
