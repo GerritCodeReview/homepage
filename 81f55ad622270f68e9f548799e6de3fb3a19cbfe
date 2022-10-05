@@ -52,6 +52,24 @@
       "parentUuid": "6150ae83_5be7414f",
       "revId": "81f55ad622270f68e9f548799e6de3fb3a19cbfe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6a87fed_0d16f53f",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1462,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-10-05T17:20:14Z",
+      "side": 1,
+      "message": "The fixes are all merged now, so we should keep this the way you had it in PS1.",
+      "parentUuid": "410b3384_069f545c",
+      "revId": "81f55ad622270f68e9f548799e6de3fb3a19cbfe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
