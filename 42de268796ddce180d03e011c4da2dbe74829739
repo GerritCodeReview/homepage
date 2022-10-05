@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b67c0c3_780ffcd2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-10-05T19:02:41Z",
+      "side": 1,
+      "message": "Without this I would get an error like:\n\n```\n \u003d\u003e ERROR [3/5] RUN gem install jekyll                                                                                                                                    4.6s\n------\n \u003e [3/5] RUN gem install jekyll:\n#0 4.596 ERROR:  Error installing jekyll:\n#0 4.596 \tThe last version of public_suffix (\u003e\u003d 2.0.2, \u003c 6.0) to support your Ruby \u0026 RubyGems was 4.0.7. Try installing it with `gem install public_suffix -v 4.0.7` and then running the current command again\n#0 4.596 \tpublic_suffix requires Ruby version \u003e\u003d 2.6. The current ruby version is 2.4.10.364.\n------\nfailed to solve: executor failed running [/bin/sh -c gem install jekyll]: exit code: 1\n```",
+      "revId": "42de268796ddce180d03e011c4da2dbe74829739",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
