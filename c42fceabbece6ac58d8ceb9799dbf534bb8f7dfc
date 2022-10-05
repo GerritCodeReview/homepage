@@ -16,6 +16,24 @@
       "message": "Add:\n\n```\n  * [Change 347474](https://gerrit-review.googlesource.com/347474):\n  Fix DefaultMemoryCacheFactory to correctly set refreshAfterWrite\n    Setting refreshAfterWrite in gerrit.config now works and does not mistakenly set expireAfterAccess\n```",
       "revId": "c42fceabbece6ac58d8ceb9799dbf534bb8f7dfc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cad02fdc_883cdb37",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1495,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-10-05T17:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6dcf85ff_0dc835ae",
+      "revId": "c42fceabbece6ac58d8ceb9799dbf534bb8f7dfc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
