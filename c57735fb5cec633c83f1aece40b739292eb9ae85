@@ -111,6 +111,30 @@
       },
       "revId": "c57735fb5cec633c83f1aece40b739292eb9ae85",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b27a8f2a_aa1d39cc",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-10-06T19:17:54Z",
+      "side": 1,
+      "message": "\u003e Oh this is great info!  I\u0027ll put that in -- hopefully I have the right idea?\n\u003e \n\u003e I guess you just mean online reindexing with the reverted version\n\nNope, I mean reindexing all changes created from the time of the upgrade and the time of the rollback.\n\n\u003e  -- I\u0027m not aware there\u0027s any way to index from a particular point in time?\n\nJust do a change query *before* the upgrade, collect the change numbers and use them in the reindex command after the downgrade.",
+      "parentUuid": "15b6f357_78d6c1c9",
+      "range": {
+        "startLine": 89,
+        "startChar": 3,
+        "endLine": 93,
+        "endChar": 3
+      },
+      "revId": "c57735fb5cec633c83f1aece40b739292eb9ae85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
