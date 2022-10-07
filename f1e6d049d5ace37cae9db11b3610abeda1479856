@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3d9baeb_e9ad44a0",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1473,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-10-07T19:56:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c35f36be_c4f36cbf",
+      "range": {
+        "startLine": 1473,
+        "startChar": 48,
+        "endLine": 1473,
+        "endChar": 54
+      },
+      "revId": "f1e6d049d5ace37cae9db11b3610abeda1479856",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b5acae71_e99062c3",
