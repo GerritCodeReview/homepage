@@ -22,6 +22,30 @@
       },
       "revId": "fa8bf5dc2e383a56a2e9bd3e7fdfa1f24df955a2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a25bdd84_b9eb56b4",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 587,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-10-07T22:37:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc45774f_81605424",
+      "range": {
+        "startLine": 587,
+        "startChar": 35,
+        "endLine": 587,
+        "endChar": 37
+      },
+      "revId": "fa8bf5dc2e383a56a2e9bd3e7fdfa1f24df955a2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
