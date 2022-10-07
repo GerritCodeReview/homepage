@@ -116,6 +116,30 @@
       },
       "revId": "27b431dc82b0776b883358fcf11cb44945238722",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffe33cd5_ee6ac696",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1476,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-10-07T19:48:00Z",
+      "side": 1,
+      "message": "I can add a __\"or downloaded from the Gerrit-CI\"__\n\nBear in mind that users may have developed their own plugins, so they\u0027ll need to rebuild them from source in that case.",
+      "parentUuid": "259b8cef_27e05917",
+      "range": {
+        "startLine": 1476,
+        "startChar": 0,
+        "endLine": 1476,
+        "endChar": 70
+      },
+      "revId": "27b431dc82b0776b883358fcf11cb44945238722",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
