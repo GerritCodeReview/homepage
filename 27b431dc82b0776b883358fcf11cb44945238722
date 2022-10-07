@@ -45,6 +45,29 @@
       },
       "revId": "27b431dc82b0776b883358fcf11cb44945238722",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "259b8cef_27e05917",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1476,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2022-10-07T19:46:14Z",
+      "side": 1,
+      "message": "shall we add something like: \"Make sure to get the latest plugins version from the CI\"?",
+      "range": {
+        "startLine": 1476,
+        "startChar": 0,
+        "endLine": 1476,
+        "endChar": 70
+      },
+      "revId": "27b431dc82b0776b883358fcf11cb44945238722",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
