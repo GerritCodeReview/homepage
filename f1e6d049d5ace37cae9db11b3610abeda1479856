@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7309a0b3_87f2c32a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-10-07T19:53:25Z",
+      "side": 1,
+      "message": "@luca.milanesio@gmail.com one typo only",
+      "revId": "f1e6d049d5ace37cae9db11b3610abeda1479856",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c35f36be_c4f36cbf",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1473,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-10-07T19:53:25Z",
+      "side": 1,
+      "message": "nit: s/create/created/",
+      "range": {
+        "startLine": 1473,
+        "startChar": 48,
+        "endLine": 1473,
+        "endChar": 54
+      },
+      "revId": "f1e6d049d5ace37cae9db11b3610abeda1479856",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
