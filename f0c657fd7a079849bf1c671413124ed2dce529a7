@@ -52,6 +52,24 @@
       "parentUuid": "65eed9d0_7b70f1d0",
       "revId": "f0c657fd7a079849bf1c671413124ed2dce529a7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ce2366b_0f37ac8f",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-10-28T22:34:41Z",
+      "side": 1,
+      "message": "You can probably use this from the commit message as the text to go with the note:\n```\nObtaining the actual location of a repository using base-path\nand project name can be slow as it involves some guessing to\nlocate the repository. Cache the locations once they are\nobtained to avoid repeated work, thereby improving performance\nwhen opening repositories.\n```",
+      "parentUuid": "281cf436_6b435c43",
+      "revId": "f0c657fd7a079849bf1c671413124ed2dce529a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
