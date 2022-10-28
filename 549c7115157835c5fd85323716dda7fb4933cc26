@@ -16,6 +16,24 @@
       "message": "Duplicate",
       "revId": "549c7115157835c5fd85323716dda7fb4933cc26",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51ce5c89_64e20400",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-10-28T22:27:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df4d8a63_e8f514e0",
+      "revId": "549c7115157835c5fd85323716dda7fb4933cc26",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
