@@ -70,6 +70,24 @@
       "parentUuid": "281cf436_6b435c43",
       "revId": "f0c657fd7a079849bf1c671413124ed2dce529a7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce9b3687_591a4414",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-10-28T22:50:51Z",
+      "side": 1,
+      "message": "Here\u0027s a first pass of changes whose first \u0027.0\u0027 release will be 3.7.0 that might fit into the perf improvements section.\n\n344695: Fix pagination to stop querying when there are no more results | https://gerrit-review.googlesource.com/c/gerrit/+/344695 (there\u0027s a bunch that are index improvements, maybe group together?)\n\n343798: Provide configuration to paginate index queries with increasing size | https://gerrit-review.googlesource.com/c/gerrit/+/343798\n\n343694: ChangeIsVisibleToPredicate: Only create PermissionBackend.WithUser once | https://gerrit-review.googlesource.com/c/gerrit/+/343694\n\n343096: Introduce a SEARCH_AFTER index pagination type | https://gerrit-review.googlesource.com/c/gerrit/+/343096 (Maybe this even belongs under Release Highlights?)\n\n338034: Fix SSH queries to not show commit-message unless --commit-message is provided | https://gerrit-review.googlesource.com/c/gerrit/+/338034 (Maybe bucket the SSH query improvements together? This one is also a breaking change though)\n\n338614: Optimize SSH queries to avoid loading individual accounts | https://gerrit-review.googlesource.com/c/gerrit/+/338614\n\n338834: Avoid creating an IdentifiedUser multiple times in a SSH query | https://gerrit-review.googlesource.com/c/gerrit/+/338834\n\n338574: Cache ProjectControl instances in SSH queries | https://gerrit-review.googlesource.com/c/gerrit/+/338574\n\n334746: Set PerThreadCache as readonly after merging a change | https://gerrit-review.googlesource.com/c/gerrit/+/334746 (There\u0027s a bunch of similar changes, maybe bucket under one heading?)\n\n338154: Lazy load change notes when submit by push | https://gerrit-review.googlesource.com/c/gerrit/+/338154\n\n349694: Improve performance of parentof operator | https://gerrit-review.googlesource.com/c/gerrit/+/349694\n\n342894: Limit index query results in ChangeNotes#createCheckedUsingIndexLookup | https://gerrit-review.googlesource.com/c/gerrit/+/342894\n\n339795: CreateRefControl: Check permissions on source refs | https://gerrit-review.googlesource.com/c/gerrit/+/339795\n\n345634: Paginate internal change index queries | https://gerrit-review.googlesource.com/c/gerrit/+/345634\n\n346974: git-upload-pack: fetch the full list of changes lazily | https://gerrit-review.googlesource.com/c/gerrit/+/346974\n\n345678: Update jgit to 85182df26 | https://gerrit-review.googlesource.com/c/gerrit/+/345678",
+      "parentUuid": "9ce2366b_0f37ac8f",
+      "revId": "f0c657fd7a079849bf1c671413124ed2dce529a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
