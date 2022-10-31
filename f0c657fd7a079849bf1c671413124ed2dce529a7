@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1a011548_c8ef5c67",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-10-31T23:47:51Z",
+      "side": 1,
+      "message": "This `and` means that this change has to be split into two.",
+      "range": {
+        "startLine": 7,
+        "startChar": 21,
+        "endLine": 7,
+        "endChar": 24
+      },
+      "revId": "f0c657fd7a079849bf1c671413124ed2dce529a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "df0bffc3_e2b3f409",
         "filename": "pages/site/releases/3.7.md",
         "patchSetId": 2
