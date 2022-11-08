@@ -1,0 +1,680 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dbd41d37_f8b5eca2",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 453,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "`Replication plugin fixes` starting at COL0, for consistency with the other release notes",
+      "range": {
+        "startLine": 453,
+        "startChar": 0,
+        "endLine": 453,
+        "endChar": 22
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42ce6e86_8acbf184",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Add the hyperlink to:\n[Change 350234](https://gerrit-review.googlesource.com/c/plugins/replication/+/350234)",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30f1e9b4_36a2450c",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 455,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "There was no `Release-Notes` footer: is this worth mentioning?",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c527bcac_5e2e3ba4",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Start at COL2",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fa7d5bc_32c642ec",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 457,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Add empty line between bullet points.",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4aa99c22_07df9c11",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 458,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Not sure this is worth mentioning",
+      "range": {
+        "startLine": 458,
+        "startChar": 6,
+        "endLine": 458,
+        "endChar": 31
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0dcde543_8159b1f5",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 460,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Add empty line",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e74b0665_00443d5d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Use the shorter version: `https://crbug.com/gerrit/14861`",
+      "range": {
+        "startLine": 461,
+        "startChar": 18,
+        "endLine": 461,
+        "endChar": 75
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0802ef07_4268b5f9",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 462,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Is there anything worth mentioning as part of this update?",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b59a1639_2bfd5d33",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 471,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Flagged with `Release-Notes: skip`",
+      "range": {
+        "startLine": 471,
+        "startChar": 2,
+        "endLine": 471,
+        "endChar": 44
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8ca6e40_53c2cb6a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Include link to the change:\n\n[Change 350576](https://gerrit-review.googlesource.com/c/gerrit/+/350576)",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c63c698_700c1a72",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "It was flagged as `Release-Notes: skip`, however, that was a mistake IMHO.\nThis is an important change to mention.\n\nAdd the link to the change:\n[Change 350575](https://gerrit-review.googlesource.com/c/gerrit/+/350575)",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "160d0c8f_08aaf886",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 477,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "As a follow-up change, this needs to be also on v3.4.8",
+      "range": {
+        "startLine": 477,
+        "startChar": 2,
+        "endLine": 477,
+        "endChar": 52
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75aff047_acc4a793",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 479,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "As a follow-up change, this needs to be also on v3.4.8",
+      "range": {
+        "startLine": 479,
+        "startChar": 0,
+        "endLine": 479,
+        "endChar": 53
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6c998e5_d742a5fc",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 481,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 349895](https://gerrit-review.googlesource.com/c/gerrit/+/349895):\n  Add AndCardinalPredicate and OrCardinalPredicate\n\n    Before this change, IndexSource derived cardinality from predicate\n    which implement `HasCardinality`. Since `AndPredicate` and `OrPredicate`\n    does not return cardinality, IndexSource defaults to 10 when query\n    comprises more than one predicate. Due to this behavior, `AndSource`\n    chooses IndexSource almost always when query contains more than one\n    index predicate.\n    This helps `AndSource` to choose the right source more often.\n ```",
+      "range": {
+        "startLine": 481,
+        "startChar": 2,
+        "endLine": 481,
+        "endChar": 50
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18b018bc_929ae6f9",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 347956](https://gerrit-review.googlesource.com/c/gerrit/+/347956):\n  Introduce possibility to define the cardinality so that `AndSource` predicate\n  can work more efficiently\n\n    Before this change, cardinality of the IndexSource was always set to\n    10. This makes `AndSource` to choose IndexSource over other sources most of\n    the time.\n    Add a `HasCardinality` interface which can be used by all the predicates\n    which implement IndexPredicate to set a cardinality. This helps\n    AndSource to choose the right datasource.\n```",
+      "range": {
+        "startLine": 483,
+        "startChar": 2,
+        "endLine": 483,
+        "endChar": 68
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61d53254_7a7ac20b",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 349355](https://gerrit-review.googlesource.com/c/gerrit/+/349355):\n  Cache repository locations in LocalDiskRepositoryManager\n\n    Obtaining the actual location of a repository using base-path\n    and project name can be slow as it involves some guessing to\n    locate the repository. Cache the locations once they are\n    obtained to avoid repeated work, thereby improving performance\n    when opening repositories.\n```",
+      "range": {
+        "startLine": 485,
+        "startChar": 2,
+        "endLine": 485,
+        "endChar": 58
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f86ac0c6_a3684948",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 487,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 349894](https://gerrit-review.googlesource.com/c/gerrit/+/349894):\n  Don\u0027t always rewrite And/OrPredicate to And/OrSource\n\n    Before this change OrPredicate was always rewritten to OrSource. This\n    is not the right thing to do as `OrSource#read()` will eventually fail\n    when there is at least one non-datasource child. Since\n    [Change 347955](https://gerrit-review.googlesource.com/c/gerrit/+/347955),\n    `AndSource` picks a source which has the lowest cardinality\n    which makes the `OrSource#read()` failures more visible.\n    Rewrite `OrPredicate` to `OrSource` only when all the children in the\n    predicate are DataSources.\n```",
+      "range": {
+        "startLine": 487,
+        "startChar": 2,
+        "endLine": 487,
+        "endChar": 54
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63602a65_7d0280e5",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 489,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "This is flagged with `Release-Notes: skip\u0027",
+      "range": {
+        "startLine": 489,
+        "startChar": 2,
+        "endLine": 489,
+        "endChar": 42
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f63cdf4_28dd78a6",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 491,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 347955](https://gerrit-review.googlesource.com/c/gerrit/+/347955):\n  Consider cardinality while choosing the data source for `AndSource` predicate\n\n    Before this change, `AndSource` considered cost to choose a datasource.\n    Ideally cost should be used to determine which predicate to run\n    `#match()` against first, so that queries are faster. Cardinality should\n    be used to determine which datasource to be picked so that there are\n    fewer changes to process.\n    Consider cardinality of the datasource to choose the source and use\n    cost when cardinality is same.\n```",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "839e305c_32069796",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 493,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Add link to the change number:\n[Change 349314](https://gerrit-review.googlesource.com/c/gerrit/+/349314)\n\nAlso, use the description provided in the change: `Fixed reindex with label copyCondition containing group`",
+      "range": {
+        "startLine": 493,
+        "startChar": 2,
+        "endLine": 493,
+        "endChar": 33
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f109441e_81760210",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 495,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "This was flagged as `Release-Notes: skip`",
+      "range": {
+        "startLine": 495,
+        "startChar": 2,
+        "endLine": 495,
+        "endChar": 47
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe02c438_9f5eb62d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 497,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Use the shortcut `https://crbug.com/gerrit/16182`\n\nAlso use the same description as in v3.4.8:\n```\n  * [Issue 16182](https://crbug.com/gerrit/16182):\n  Reintroduce the Change-Id footer in change screen\n\n    This change reintroduce the Change-Id footer below the commit message on\n    the Gerrit UI.\n```",
+      "range": {
+        "startLine": 497,
+        "startChar": 16,
+        "endLine": 497,
+        "endChar": 73
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a17805e6_a228996d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 501,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy the same description as in v3.4.8:\n\n```\n  * [Issue 16322](https://crbug.com/gerrit/16322):\n  Limit the number of changes that can be submitted together\n\n    When chaining changes together, the sequence of commits to navigate\n    was previously unbound, causing the potential operations explosion.\n    The explosion could have also been accidental and caused by the push\n    of a change with a non-existent branch, which would have resulted\n    in the full scan of the repository for changes.\n    Introduce a new Gerrit configuration `change.maxSubmittableAtOnce` with\n    a safe default of `32767`, which would allow any use case that would have\n    also worked before this change.\n```",
+      "range": {
+        "startLine": 500,
+        "startChar": 0,
+        "endLine": 501,
+        "endChar": 60
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce50f5da_e50026aa",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 504,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "The `Release-Notes` footer says: `Support ssh kex server-sig-algs for modern RSA clients`",
+      "range": {
+        "startLine": 504,
+        "startChar": 2,
+        "endLine": 504,
+        "endChar": 51
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5baccbc1_cc9ef91f",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Issue 10168](https://crbug.com/gerrit/10168):\n  Fix HTTP 404 when browsing tags on Gitweb\n\n    The Gitweb links to tags have been broken in v2.14.10 onwards.\n    Gitweb supports the \u0027a\u003dtags\u0027 rendering action for annotated tags\n    only, returning 404 for all lightweight tags.\n    Use the generic \u0027a\u003dshortlog\u0027 for Gitweb links to tags which would\n    work for both annotated and lightweight ones.\n```",
+      "range": {
+        "startLine": 505,
+        "startChar": 0,
+        "endLine": 507,
+        "endChar": 43
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4cb7ca6_bc14c8dd",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 509,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 347496](https://gerrit-review.googlesource.com/c/gerrit/+/347496):\n  Enable project_list cache warmer when `cache.project_list.maxAge` is set\n```",
+      "range": {
+        "startLine": 509,
+        "startChar": 2,
+        "endLine": 509,
+        "endChar": 66
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fb635f0_ce6080f4",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 347496](https://gerrit-review.googlesource.com/c/gerrit/+/347496):\n  Enable project_list cache warmer when `cache.project_list.maxAge` is set\n```",
+      "range": {
+        "startLine": 511,
+        "startChar": 2,
+        "endLine": 511,
+        "endChar": 59
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6908b40e_0a2a0530",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 513,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 77495](https://gerrit-review.googlesource.com/c/gerrit/+/347495):\n  Fix for IllegalStateException during the Gerrit start when\n  `cache.projects.refreshAfterWrite` is set to true and prolog rules are used\n```",
+      "range": {
+        "startLine": 513,
+        "startChar": 0,
+        "endLine": 513,
+        "endChar": 62
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d4e6ed0_30d22972",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 341454](https://gerrit-review.googlesource.com/c/gerrit/+/341454):\n  GitwebServlet: Retrieve git path from FileRepository so that it can be used\n  with multi-site and cached-refdb modules\n```",
+      "range": {
+        "startLine": 515,
+        "startChar": 2,
+        "endLine": 515,
+        "endChar": 54
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eec556a5_4f0ce185",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "This was flagged with `Release-Notes: skip`",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6753296a_82369d3c",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-08T22:32:36Z",
+      "side": 1,
+      "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Issue 15997](https://crbug.com/gerrit/15997):\n  Make DelegateRepository#delegate() method public to allow plugins/modules to\n  access it\n```",
+      "range": {
+        "startLine": 519,
+        "startChar": 0,
+        "endLine": 520,
+        "endChar": 31
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
