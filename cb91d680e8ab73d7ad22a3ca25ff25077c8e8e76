@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "44e05983_282c61af",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 453,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dbd41d37_f8b5eca2",
+      "range": {
+        "startLine": 453,
+        "startChar": 0,
+        "endLine": 453,
+        "endChar": 22
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "42ce6e86_8acbf184",
@@ -37,6 +61,24 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Add the hyperlink to:\n[Change 350234](https://gerrit-review.googlesource.com/c/plugins/replication/+/350234)",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ece6a3bc_fb3e95e4",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42ce6e86_8acbf184",
       "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -58,6 +100,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c7fe7b2_c89e3a1d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 455,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "30f1e9b4_36a2450c",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c527bcac_5e2e3ba4",
@@ -75,6 +135,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "13189fa8_610a7b7f",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c527bcac_5e2e3ba4",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8fa7d5bc_32c642ec",
@@ -88,6 +166,24 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Add empty line between bullet points.",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eedd8c9c_a6a48042",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 457,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8fa7d5bc_32c642ec",
       "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -115,6 +211,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b7c8bd2_16dbf35d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 458,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4aa99c22_07df9c11",
+      "range": {
+        "startLine": 458,
+        "startChar": 6,
+        "endLine": 458,
+        "endChar": 31
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0dcde543_8159b1f5",
@@ -128,6 +248,24 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Add empty line",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8a70fe1_b04fcce7",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 460,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0dcde543_8159b1f5",
       "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -155,6 +293,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0e7c5db_24a083bc",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e74b0665_00443d5d",
+      "range": {
+        "startLine": 461,
+        "startChar": 18,
+        "endLine": 461,
+        "endChar": 75
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0802ef07_4268b5f9",
@@ -168,6 +330,24 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Is there anything worth mentioning as part of this update?",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "341ff152_61d4bdb4",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 462,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0802ef07_4268b5f9",
       "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -195,6 +375,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "57d2b25c_c0c4c04d",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 471,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b59a1639_2bfd5d33",
+      "range": {
+        "startLine": 471,
+        "startChar": 2,
+        "endLine": 471,
+        "endChar": 44
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f8ca6e40_53c2cb6a",
@@ -208,6 +412,24 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Include link to the change:\n\n[Change 350576](https://gerrit-review.googlesource.com/c/gerrit/+/350576)",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc0dcc9b_77d54f3c",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f8ca6e40_53c2cb6a",
       "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -229,6 +451,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e2bc4f0_9caa2e1f",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c63c698_700c1a72",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "160d0c8f_08aaf886",
@@ -242,6 +482,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "As a follow-up change, this needs to be also on v3.4.8",
+      "range": {
+        "startLine": 477,
+        "startChar": 2,
+        "endLine": 477,
+        "endChar": 52
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c78b5d9_73a69ba6",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 477,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Do you want me to copy this to 3.4.8 release notes or vice versa ?",
+      "parentUuid": "160d0c8f_08aaf886",
       "range": {
         "startLine": 477,
         "startChar": 2,
@@ -298,6 +562,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "384147f7_77211687",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 481,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c6c998e5_d742a5fc",
+      "range": {
+        "startLine": 481,
+        "startChar": 2,
+        "endLine": 481,
+        "endChar": 50
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "18b018bc_929ae6f9",
@@ -311,6 +599,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 347956](https://gerrit-review.googlesource.com/c/gerrit/+/347956):\n  Introduce possibility to define the cardinality so that `AndSource` predicate\n  can work more efficiently\n\n    Before this change, cardinality of the IndexSource was always set to\n    10. This makes `AndSource` to choose IndexSource over other sources most of\n    the time.\n    Add a `HasCardinality` interface which can be used by all the predicates\n    which implement IndexPredicate to set a cardinality. This helps\n    AndSource to choose the right datasource.\n```",
+      "range": {
+        "startLine": 483,
+        "startChar": 2,
+        "endLine": 483,
+        "endChar": 68
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08d365f0_d050f009",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "18b018bc_929ae6f9",
       "range": {
         "startLine": 483,
         "startChar": 2,
@@ -344,6 +656,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "50c8a59a_6c6c4890",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61d53254_7a7ac20b",
+      "range": {
+        "startLine": 485,
+        "startChar": 2,
+        "endLine": 485,
+        "endChar": 58
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f86ac0c6_a3684948",
@@ -357,6 +693,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 349894](https://gerrit-review.googlesource.com/c/gerrit/+/349894):\n  Don\u0027t always rewrite And/OrPredicate to And/OrSource\n\n    Before this change OrPredicate was always rewritten to OrSource. This\n    is not the right thing to do as `OrSource#read()` will eventually fail\n    when there is at least one non-datasource child. Since\n    [Change 347955](https://gerrit-review.googlesource.com/c/gerrit/+/347955),\n    `AndSource` picks a source which has the lowest cardinality\n    which makes the `OrSource#read()` failures more visible.\n    Rewrite `OrPredicate` to `OrSource` only when all the children in the\n    predicate are DataSources.\n```",
+      "range": {
+        "startLine": 487,
+        "startChar": 2,
+        "endLine": 487,
+        "endChar": 54
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f09caf06_e5fce357",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 487,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f86ac0c6_a3684948",
       "range": {
         "startLine": 487,
         "startChar": 2,
@@ -390,6 +750,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8d2acdf_80d70d24",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 489,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63602a65_7d0280e5",
+      "range": {
+        "startLine": 489,
+        "startChar": 2,
+        "endLine": 489,
+        "endChar": 42
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4f63cdf4_28dd78a6",
@@ -407,6 +791,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6614b1ea_f6472937",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 491,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f63cdf4_28dd78a6",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "839e305c_32069796",
@@ -420,6 +822,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Add link to the change number:\n[Change 349314](https://gerrit-review.googlesource.com/c/gerrit/+/349314)\n\nAlso, use the description provided in the change: `Fixed reindex with label copyCondition containing group`",
+      "range": {
+        "startLine": 493,
+        "startChar": 2,
+        "endLine": 493,
+        "endChar": 33
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6967b3d0_ea8635cc",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 493,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "839e305c_32069796",
       "range": {
         "startLine": 493,
         "startChar": 2,
@@ -453,6 +879,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8728e594_34f85276",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 495,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f109441e_81760210",
+      "range": {
+        "startLine": 495,
+        "startChar": 2,
+        "endLine": 495,
+        "endChar": 47
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fe02c438_9f5eb62d",
@@ -466,6 +916,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Use the shortcut `https://crbug.com/gerrit/16182`\n\nAlso use the same description as in v3.4.8:\n```\n  * [Issue 16182](https://crbug.com/gerrit/16182):\n  Reintroduce the Change-Id footer in change screen\n\n    This change reintroduce the Change-Id footer below the commit message on\n    the Gerrit UI.\n```",
+      "range": {
+        "startLine": 497,
+        "startChar": 16,
+        "endLine": 497,
+        "endChar": 73
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8e58cce_480de5a0",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 497,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fe02c438_9f5eb62d",
       "range": {
         "startLine": 497,
         "startChar": 16,
@@ -499,6 +973,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b604ef7_e6ec55b6",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 501,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a17805e6_a228996d",
+      "range": {
+        "startLine": 500,
+        "startChar": 0,
+        "endLine": 501,
+        "endChar": 60
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ce50f5da_e50026aa",
@@ -512,6 +1010,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "The `Release-Notes` footer says: `Support ssh kex server-sig-algs for modern RSA clients`",
+      "range": {
+        "startLine": 504,
+        "startChar": 2,
+        "endLine": 504,
+        "endChar": 51
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "505b9403_1883c0ef",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 504,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ce50f5da_e50026aa",
       "range": {
         "startLine": 504,
         "startChar": 2,
@@ -545,6 +1067,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb4a1b1e_5ee1e6f5",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5baccbc1_cc9ef91f",
+      "range": {
+        "startLine": 505,
+        "startChar": 0,
+        "endLine": 507,
+        "endChar": 43
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c4cb7ca6_bc14c8dd",
@@ -558,6 +1104,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 347496](https://gerrit-review.googlesource.com/c/gerrit/+/347496):\n  Enable project_list cache warmer when `cache.project_list.maxAge` is set\n```",
+      "range": {
+        "startLine": 509,
+        "startChar": 2,
+        "endLine": 509,
+        "endChar": 66
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dcd0ff25_7866f2d8",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 509,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4cb7ca6_bc14c8dd",
       "range": {
         "startLine": 509,
         "startChar": 2,
@@ -591,6 +1161,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd233e4e_5dd94862",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 511,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8fb635f0_ce6080f4",
+      "range": {
+        "startLine": 511,
+        "startChar": 2,
+        "endLine": 511,
+        "endChar": 59
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6908b40e_0a2a0530",
@@ -604,6 +1198,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Change 77495](https://gerrit-review.googlesource.com/c/gerrit/+/347495):\n  Fix for IllegalStateException during the Gerrit start when\n  `cache.projects.refreshAfterWrite` is set to true and prolog rules are used\n```",
+      "range": {
+        "startLine": 513,
+        "startChar": 0,
+        "endLine": 513,
+        "endChar": 62
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b15bff8d_554a30f9",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 513,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6908b40e_0a2a0530",
       "range": {
         "startLine": 513,
         "startChar": 0,
@@ -637,6 +1255,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "39ef7d2b_cad060ed",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9d4e6ed0_30d22972",
+      "range": {
+        "startLine": 515,
+        "startChar": 2,
+        "endLine": 515,
+        "endChar": 54
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eec556a5_4f0ce185",
@@ -654,6 +1296,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "387fbc30_991fe18f",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eec556a5_4f0ce185",
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6753296a_82369d3c",
@@ -667,6 +1327,30 @@
       "writtenOn": "2022-11-08T22:32:36Z",
       "side": 1,
       "message": "Copy from v3.4.8 release notes:\n\n```\n  * [Issue 15997](https://crbug.com/gerrit/15997):\n  Make DelegateRepository#delegate() method public to allow plugins/modules to\n  access it\n```",
+      "range": {
+        "startLine": 519,
+        "startChar": 0,
+        "endLine": 520,
+        "endChar": 31
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72c4e2f3_84290ef9",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-08T23:33:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6753296a_82369d3c",
       "range": {
         "startLine": 519,
         "startChar": 0,
