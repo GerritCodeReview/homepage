@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e56b042f_f5a683ef",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1453,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4a22e501_57986164",
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "66e37df7_da43088e",
@@ -31,6 +49,30 @@
       "writtenOn": "2022-11-08T16:57:40Z",
       "side": 1,
       "message": "This is too much detail for the Gerrit admin: I\u0027d just leave the L1463 to L1464.",
+      "range": {
+        "startLine": 1455,
+        "startChar": 0,
+        "endLine": 1462,
+        "endChar": 47
+      },
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab05b0de_1ae34cd4",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1462,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "66e37df7_da43088e",
       "range": {
         "startLine": 1455,
         "startChar": 0,
@@ -64,6 +106,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6877f127_46a57bca",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1492,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8b8145d_3b9762d1",
+      "range": {
+        "startLine": 1486,
+        "startChar": 1,
+        "endLine": 1492,
+        "endChar": 74
+      },
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7c1ac7a4_2a9a26e7",
@@ -77,6 +143,30 @@
       "writtenOn": "2022-11-08T16:57:40Z",
       "side": 1,
       "message": "This is redundant info IMHO.",
+      "range": {
+        "startLine": 1559,
+        "startChar": 0,
+        "endLine": 1562,
+        "endChar": 49
+      },
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d576ffbb_e510bac3",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1562,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7c1ac7a4_2a9a26e7",
       "range": {
         "startLine": 1559,
         "startChar": 0,
@@ -104,6 +194,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7187e63a_81389efd",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1565,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9fe41721_8c6cecf0",
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d28acaee_a2d42e21",
@@ -121,6 +229,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a76e2d50_b6b5a411",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1567,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d28acaee_a2d42e21",
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c2ba27ea_cd32fceb",
@@ -134,6 +260,30 @@
       "writtenOn": "2022-11-08T16:57:40Z",
       "side": 1,
       "message": "This is redundant here IMHO.",
+      "range": {
+        "startLine": 1578,
+        "startChar": 0,
+        "endLine": 1580,
+        "endChar": 47
+      },
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90dd71bb_f0d65ec0",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1580,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2ba27ea_cd32fceb",
       "range": {
         "startLine": 1578,
         "startChar": 0,
@@ -167,6 +317,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "30ec5055_d8d839cf",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1586,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4720e6b_3478e6ea",
+      "range": {
+        "startLine": 1585,
+        "startChar": 0,
+        "endLine": 1586,
+        "endChar": 60
+      },
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "48bf21ee_b66912e5",
@@ -180,6 +354,30 @@
       "writtenOn": "2022-11-08T16:57:40Z",
       "side": 1,
       "message": "This is too much info for this minor change IMHO.",
+      "range": {
+        "startLine": 1600,
+        "startChar": 0,
+        "endLine": 1604,
+        "endChar": 30
+      },
+      "revId": "11245b8f5ec7601a0534fd3ce81d96b043d1cf00",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48c6795c_064905e8",
+        "filename": "pages/site/releases/3.4.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1604,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-08T17:07:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "48bf21ee_b66912e5",
       "range": {
         "startLine": 1600,
         "startChar": 0,
