@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d61239e_4792febf",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-09T00:11:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca6b28b0_001ffaa0",
+      "revId": "7abc7eab0637475e4ff116f58f1c89a7e3cdd7b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f4fe83b0_66618c94",
@@ -48,6 +66,30 @@
       "writtenOn": "2022-11-08T23:41:41Z",
       "side": 1,
       "message": "These can be omitted, as we don\u0027t have breaking changes or security fixes.",
+      "range": {
+        "startLine": 443,
+        "startChar": 0,
+        "endLine": 445,
+        "endChar": 18
+      },
+      "revId": "7abc7eab0637475e4ff116f58f1c89a7e3cdd7b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62e9439f_ea2b15ff",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 445,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-09T00:11:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4fe83b0_66618c94",
       "range": {
         "startLine": 443,
         "startChar": 0,
