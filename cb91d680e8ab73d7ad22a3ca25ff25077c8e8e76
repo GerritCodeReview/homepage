@@ -540,6 +540,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37431d36_c4e0559a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 477,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-09T00:12:14Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "02844b88_3d4493c9",
+      "range": {
+        "startLine": 477,
+        "startChar": 2,
+        "endLine": 477,
+        "endChar": 52
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "75aff047_acc4a793",
@@ -577,6 +601,30 @@
       "side": 1,
       "message": "Copy this to v3.4.8, where we forgot to mention it.",
       "parentUuid": "75aff047_acc4a793",
+      "range": {
+        "startLine": 479,
+        "startChar": 0,
+        "endLine": 479,
+        "endChar": 53
+      },
+      "revId": "cb91d680e8ab73d7ad22a3ca25ff25077c8e8e76",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3254289_e7b119e1",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 479,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-09T00:12:14Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e98011d9_438c9512",
       "range": {
         "startLine": 479,
         "startChar": 0,
