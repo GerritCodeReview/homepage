@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e92702ee_726fa059",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 505,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2022-11-09T10:36:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1c25e37c_cec76690",
+      "revId": "b407cf03c4141fdfd88b4916bb6ae097411796f5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5740ca31_515887ef",
@@ -31,6 +49,30 @@
       "writtenOn": "2022-11-09T09:45:00Z",
       "side": 1,
       "message": "Would these fixes address this issue: https://crbug.com/gerrit/16326 so that it could be referenced here?",
+      "range": {
+        "startLine": 523,
+        "startChar": 2,
+        "endLine": 534,
+        "endChar": 17
+      },
+      "revId": "b407cf03c4141fdfd88b4916bb6ae097411796f5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f307ed3_9134048f",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2022-11-09T10:36:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5740ca31_515887ef",
       "range": {
         "startLine": 523,
         "startChar": 2,
