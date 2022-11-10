@@ -16,6 +16,74 @@
       "message": "LGTM, @Luca, WDYT?",
       "revId": "79cb8667e89241036acf6fd4e2dc319ae833b75f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae01704e_ac2d22dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-10T08:36:04Z",
+      "side": 1,
+      "message": "@David there are minor format issues but aparat from than it LGTM",
+      "revId": "79cb8667e89241036acf6fd4e2dc319ae833b75f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a89c33ab_3c3a5533",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-10T08:36:04Z",
+      "side": 1,
+      "message": "it seemes to be formatted differently than the other changes",
+      "revId": "79cb8667e89241036acf6fd4e2dc319ae833b75f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7cf0e5c_16f12c05",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-10T08:36:04Z",
+      "side": 1,
+      "message": "it seems to be formatted differently than the other entries",
+      "revId": "79cb8667e89241036acf6fd4e2dc319ae833b75f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7449abac_b133caeb",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 441,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2022-11-10T08:36:04Z",
+      "side": 1,
+      "message": "this and the following sections are formatted differently",
+      "revId": "79cb8667e89241036acf6fd4e2dc319ae833b75f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
