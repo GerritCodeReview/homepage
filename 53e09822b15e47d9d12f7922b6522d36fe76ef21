@@ -16,6 +16,46 @@
       "message": "verified checking preview URL: https://gerrit.googlesource.com/homepage/+/refs/changes/38/351738/1/pages/site/releases/3.7.md",
       "revId": "53e09822b15e47d9d12f7922b6522d36fe76ef21",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5e41b45_209c0c7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-16T23:50:38Z",
+      "side": 1,
+      "message": "Just one nit. Thanks @Frank for providing this 👍",
+      "revId": "53e09822b15e47d9d12f7922b6522d36fe76ef21",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "583487cc_e6e36033",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-16T23:50:38Z",
+      "side": 1,
+      "message": "accept",
+      "range": {
+        "startLine": 28,
+        "startChar": 20,
+        "endLine": 28,
+        "endChar": 27
+      },
+      "revId": "53e09822b15e47d9d12f7922b6522d36fe76ef21",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
