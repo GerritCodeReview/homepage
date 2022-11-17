@@ -51,6 +51,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## UI Improvements
 
+* [Gerrit UI Features 2022](https://docs.google.com/presentation/d/1Fq_FZMOe91QBosZSHWv3ppyz0RdHLy_1ZlkwOUTkimQ/view) (2022)
 * [UI Updates - Checks, Comment Context, Change Summary](https://docs.google.com/presentation/d/1LCqvHV9v8pZfsq6xzXjGx5Dzq0kLiEtNdjygdPUtBLA/view) (2021)
 * [Change Page Cleanups](https://docs.google.com/presentation/d/1FQar_fN2CS1WlvPobBT6djo9pgKwCe321wDEWC4uRR4/) (2021)
 * [Gerrit UX History](https://docs.google.com/presentation/d/1Y4-Ph6lb2eB8B0fZ2haJ1DlCw1ix48F-MfbdStGfyOI/view) (2021)
