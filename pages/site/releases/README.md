@@ -15,8 +15,24 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.6](/3.6.html)**. The support status of all recent Gerrit versions is
+Latest release: **[3.7](/3.7.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
+
+## 3.7
+
+* UI mostly migrated to [Lit](https://lit.dev/)
+
+* Mention support
+
+* Full markdown support
+
+* Bulk actions on search results and dashboard
+
+* Import of Projects and Changes from other Gerrit servers
+
+* New command to check project access for other users
+
+[Release notes for Gerrit 3.7](/3.7.html)
 
 ## 3.6
 
