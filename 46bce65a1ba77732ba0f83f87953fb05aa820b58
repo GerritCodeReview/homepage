@@ -16,6 +16,24 @@
       "message": "Maybe also apply my comments from https://gerrit-review.googlesource.com/c/homepage/+/352075/3/pages/site/releases/README.md ?",
       "revId": "46bce65a1ba77732ba0f83f87953fb05aa820b58",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eff00c2_0894d786",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2022-11-18T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bec44237_4ac70f68",
+      "revId": "46bce65a1ba77732ba0f83f87953fb05aa820b58",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
