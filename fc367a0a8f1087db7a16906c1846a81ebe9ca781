@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae1def08_8a5ce998",
+        "filename": "pages/site/releases/README.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-11-18T15:38:39Z",
+      "side": 1,
+      "message": "Should we clarify this as \"User mention support\"? Or \"Mention @user support\"?",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 9
+      },
+      "revId": "fc367a0a8f1087db7a16906c1846a81ebe9ca781",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c754531e_bd0cc7e8",
+        "filename": "pages/site/releases/README.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2022-11-18T15:38:39Z",
+      "side": 1,
+      "message": "\"Full markdown support in comments\"",
+      "revId": "fc367a0a8f1087db7a16906c1846a81ebe9ca781",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
