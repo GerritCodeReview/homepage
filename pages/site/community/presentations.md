@@ -30,12 +30,14 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [Pluggable Caches](https://drive.google.com/file/d/1egSyShDek0qQ8SYUGWzezE1CQkBjLcp0/view) (2020)
 * [Ported Comments](https://docs.google.com/presentation/d/16CzuaiIMjyfvmfxAtwDXqiyhhXtTTLRcszavNeECURM/view) (2020)
 * [PubSub / Consistency on Demand](https://drive.google.com/file/d/1ttLw3Ba44_8H1VLUMIlFWrs8AAzYkH0A/view) (2021)
+* [pull-replication plugin](https://storage.googleapis.com/gerrit-talks/summit/2021/An%20Introduction%20to%20pull-replication%20plugin.pdf) (2021)
 * [Replication Distributor](https://drive.google.com/file/d/1ejwCxkXTGaJEWDvbc1JnbQtDyZ9ctKdX/view) (2021)
 * [Revert Submission](https://docs.google.com/presentation/d/e/2PACX-1vTkbE5AIWEFcEyUnQ6ZlfglClgsX9h5fjB6dkSsCvXuL75Jd0DdsZfarvKswYtyCKUN0_QJQDdJ8Qzw/pub) (2019)
 * [Robot Comments](https://storage.googleapis.com/gerrit-talks/summit/2016/robot-comments.pdf) (2016)
 
 ## Release Highlights
 
+* [What's new in Gerrit 3.4/3.5](https://storage.googleapis.com/gerrit-talks/summit/2021/Whats.New.in.Gerrit.3.4-and.3.5.pdf) (2021)
 * [What's new in Gerrit 3.2/3.3?](https://drive.google.com/file/d/13T7CiQG54CZ7P6iqMYsFIV4P4dOV78iN/view) (2020)
 * [What's new in Gerrit 3.1 and beyond](https://www.slideshare.net/lucamilanesio/whats-new-in-gerrit-code-review-v31-and-beyond) (2019)
 * [What's new in Gerrit 3.0?](https://www.slideshare.net/lucamilanesio/whats-new-in-gerrit-code-review-30) (2019)
@@ -104,6 +106,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Build / CI
 
+* [New Checks UI](https://storage.googleapis.com/gerrit-talks/summit/2021/Checks%20UI%20-%20Slides.pdf) (2021)
 * [CI Reboot Wireframes Discussion](https://docs.google.com/presentation/d/1UT7LU6Kzd-WhNvwtEuvARzaiJ8mkdX3rDnbtavCZTp8/view) (2021)
 * [End-to-end tests](https://docs.google.com/presentation/d/1xZShuNKHmqeKAtfLzxwllQWze9P18i2nHbTzX_lQ9r4/view#slide=id.p) (2020)
   * [Video](https://drive.google.com/file/d/19YvJbPHDmwmMVcaehI1ot6xVdoQY0QxY/view) (2020)
@@ -129,6 +132,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Workflows
 
+* [Promoting Situational Awareness in Code Review Platforms](https://storage.googleapis.com/gerrit-talks/summit/2021/promoting-situational-awareness-code-review-platforms.pdf) (2021)
 * [Discuss faster reviews](https://docs.google.com/presentation/d/1PzDDsar8hQ4CKFhIkcTT8udbRHTcOsqe0K8SfyBe920/view) (2020)
 * [Different change workflows in Gerrit](https://ostrovsky.org/gerrit/gerrit-change-workflow/gerrit-change-workflows.html) (2018)
 * [Browsing Repository Content with Gerrit's REST API](https://docs.google.com/presentation/d/1EkgDcFmcEwSakkwyTT-jGI4OgO76CnmRkv2_aQygEgg/view) (2014)
@@ -140,6 +144,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [Debugging Gerrit](https://docs.google.com/presentation/d/1r7xR0oaFGrgkFmTQq6VRAfEqo8EeBAhWA_dS763zxJ0/view) (2021)
 * [Master to main migration at Google](https://docs.google.com/presentation/d/14G4m7YDAY-S2O8bsktgKRCNIKS4zrRej4MiBye9LfaU/view) (2021)
 * NoteDb:
+  * [Update on NoteDb](https://storage.googleapis.com/gerrit-talks/summit/2017/NoteDb-Non-Presentation-April-2017.pdf) (2017)
   * [Accounts in NoteDb](https://storage.googleapis.com/gerrit-talks/summit/2016/accounts-in-notedb.pdf) (2016)
   * [NoteDb: Code reviews in Git](https://storage.googleapis.com/gerrit-talks/summit/2015/NoteDB.pdf) (2015)
 * Performance:
@@ -148,6 +153,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
   * [Tuning Gerrit](https://www.dropbox.com/s/5v8k3msk3dmqfpo/GerritPerformanceTuning.pptx?dl=0) (2015)
     * [Performance Tuning Cheat Sheet](http://bit.ly/1kmpO7V) (2015)
   * [JGit Performance](https://docs.google.com/presentation/d/1t2qzSO4z5MbrN21Cz4RrLWz9IZ5ylJNwQassajKyPk8/view) (2012)
+* Scaling:
+  * [How to survive with large mono-repos in Gerrit](https://storage.googleapis.com/gerrit-talks/summit/2021/TracklingMonoRepos-with-Gerrit.pdf) (2021)
 
 ## Plugin API
 
@@ -190,6 +197,9 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Tools / ThirdParty
 
+* [Using GitHub Actions with GerritHub](https://storage.googleapis.com/gerrit-talks/summit/2021/2021-12-01%20Using%20GitHub%20Actions%20with%20GerritHub.pdf) (2021)
+* [Overview of Gerrit in AWS](https://storage.googleapis.com/gerrit-talks/summit/2021/Overview%20of%20Gerrit%20in%20AWS-03-12-2021.pdf) (2021)
+* [Forward Gerrit events to Jenkins via AWS Kinesis](https://storage.googleapis.com/gerrit-talks/summit/2021/Virtual%20Gerrit%20Summit%202021_%20Forward%20Gerrit%20events%20to%20Jenkins%20via%20AWS%20Kinesis.pdf) (2021)
 * [Gertty, console-based interface to the Gerrit Code Review system](https://youtu.be/EP-b5xhH-LY) (2019)
 * [Dependency Visualization with Gerrit](https://www.slideshare.net/MichaelWatkins92/gerrit-user-summit-2019-softagram-dependency-visualization) (2019)
 * [Introducing ‘zoekt’: git aware codesearch](https://storage.googleapis.com/gerrit-talks/summit/2016/zoekt.pdf) (2016)
