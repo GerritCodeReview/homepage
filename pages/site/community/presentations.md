@@ -183,6 +183,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Events
 
+* [User Summit 2022 (London)](https://gerrit.googlesource.com/summit/2022/+/refs/heads/master/schedule.md)
 * [Virtual Contributor Summit 2021](https://docs.google.com/document/d/1BOc17jyCXZYHb8seWSgdMOAh6_XeGoHDVCaJ10OTM20)
 * [Virtual Contributor Summit 2020](https://docs.google.com/document/d/1WauJfNxracjBK3PxuVnwNIppESGMBtZwxMYjxxeDN6M)
 * [User Summits 2019 (Gothenburg & Sunnyvale)](https://gerrit.googlesource.com/summit/2019/+/refs/heads/master/index.md)
