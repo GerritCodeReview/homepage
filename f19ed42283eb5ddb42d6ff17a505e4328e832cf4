@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "73283c7e_2d38d973",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2022-11-21T15:23:45Z",
+      "side": 1,
+      "message": "Downgrade?\n\nOr even add a title: Downgrade schema version to 184 and optionally mention, that Schema upgrade to 185 (MigrateLabelConfigToCopyCondition) can be run multiple times, as it would detect that the label migration was already executed?",
+      "range": {
+        "startLine": 126,
+        "startChar": 3,
+        "endLine": 126,
+        "endChar": 7
+      },
+      "revId": "f19ed42283eb5ddb42d6ff17a505e4328e832cf4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ced47c55_816d0592",
         "filename": "pages/site/releases/3.7.md",
         "patchSetId": 2
