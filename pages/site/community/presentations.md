@@ -20,6 +20,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Features
 
+* [Git Repo Metrics Plugin](https://docs.google.com/presentation/d/15Ed--hWpnlJzj5a0Y7JDE0ZxSvCH62J6yus7K8z7ENk) (2022)
 * [Attention Set](https://docs.google.com/presentation/d/1Vx8dW570M8hnP9HJb8nIc6JIV9s1667TW9JpB0l0uSA/view) (2020)
 * [Code Owners](https://docs.google.com/presentation/d/1DupBnGr3apIx-jzxi9cHzSgkI-2c1ouGu1teQ4khSfc/view) (2020)
   * [Demo](https://docs.google.com/presentation/d/1ExJz_PJHUVmMYy6bG7ADjBEYEeU1nUpeME3upqx-U1c/view) (Dec 2021)
