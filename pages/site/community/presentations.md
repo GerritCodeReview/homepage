@@ -123,6 +123,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 ## Analytics
 
 * [Gerrit Analytics applied to the Android project](https://www.slideshare.net/lucamilanesio/gerrit-analytics-applied-to-android-source-code) (2019)
+* [Git Repo Metrics Plugin](https://docs.google.com/presentation/d/15Ed--hWpnlJzj5a0Y7JDE0ZxSvCH62J6yus7K8z7ENk) (2022)
 * [Show me your dashboard](https://docs.google.com/presentation/d/1EeJdCngQaVBxJPQaGC2DYtTS9gzM9II-uoi7DtPQkw0/view) (2019)
 * [DevOps Analytics - Uncover the value of Gerrit Pipeline](https://www.slideshare.net/lucamilanesio/gerrit-devops-analytics-uncover-the-value-of-cicd-pipeline) (2018)
 * [Mining Gerrit Data to Study Contentious Reviews and Community Evolution](https://speakerdeck.com/shanemcintosh/mining-gerrit-reviews-for-contentious-reviews-and-community-evolution) (2017)
