@@ -16,6 +16,23 @@
       "message": "Following the instructions, I am able to downgrade to v3.6.3",
       "revId": "f19ed42283eb5ddb42d6ff17a505e4328e832cf4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ced47c55_816d0592",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1154215
+      },
+      "writtenOn": "2022-11-21T14:27:29Z",
+      "side": 1,
+      "message": "So the change to All-Users.git like mentioned in v3.3 downgrade instructions are not needed for v3.7-\u003ev3.6?",
+      "revId": "f19ed42283eb5ddb42d6ff17a505e4328e832cf4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
