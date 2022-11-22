@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54243a9a_046559fe",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1154215
+      },
+      "writtenOn": "2022-11-22T00:34:08Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be \"Start up\" as startup is a noun?",
+      "range": {
+        "startLine": 143,
+        "startChar": 3,
+        "endLine": 143,
+        "endChar": 10
+      },
+      "revId": "95f22edae6f0cc33ac0dd876bc05a5bb8d86c823",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
