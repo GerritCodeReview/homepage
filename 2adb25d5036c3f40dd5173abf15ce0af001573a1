@@ -22,6 +22,30 @@
       },
       "revId": "2adb25d5036c3f40dd5173abf15ce0af001573a1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e091f17c_ef8d4499",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-22T10:31:19Z",
+      "side": 1,
+      "message": "Nope, that is part of the same line and therefore should not be indented.",
+      "parentUuid": "2d423e8b_a9bcecc8",
+      "range": {
+        "startLine": 153,
+        "startChar": 2,
+        "endLine": 153,
+        "endChar": 94
+      },
+      "revId": "2adb25d5036c3f40dd5173abf15ce0af001573a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
