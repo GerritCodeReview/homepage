@@ -46,6 +46,30 @@
       },
       "revId": "7d8a416c375df66ed5177dc735653ecaaff0000f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f8e4c9f_046796f9",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2022-11-22T08:23:10Z",
+      "side": 1,
+      "message": "Most sections are sorted by date, newest first. Reason: newer presentations are likely more relevant than older presentations.\n\nThe exception is the Features section, which is sorted alphabetically.\nReasons:\n- A newer presentation about feature X doesn\u0027t replace an older presentation about feature Y.\n- If a feature was presented multiple times (e.g. in different years), we want to have those presentations grouped together.\n- If you look for a certain feature, it\u0027s easier to find the right presentations if the features are sorted alphabetically.\n\nLogically you can imagine the Features sections as N sections, one per feature. For each of these sections the sorting is again by date, newest first.",
+      "parentUuid": "1772ae99_a4301cc1",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 119
+      },
+      "revId": "7d8a416c375df66ed5177dc735653ecaaff0000f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
