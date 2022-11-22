@@ -22,6 +22,30 @@
       },
       "revId": "7d8a416c375df66ed5177dc735653ecaaff0000f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1772ae99_a4301cc1",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2022-11-22T08:15:28Z",
+      "side": 1,
+      "message": "Ok, this explains my initial confusion and why I sorted it by date in the previous PS 😊\n\nWhat\u0027s the rationale behind having different sections sorted with different criteria?",
+      "parentUuid": "9f93adb9_2444b1f8",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 119
+      },
+      "revId": "7d8a416c375df66ed5177dc735653ecaaff0000f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
