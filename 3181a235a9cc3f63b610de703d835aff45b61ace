@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "83840d62_3e6a171c",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-23T21:20:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6920380c_ed938499",
+      "range": {
+        "startLine": 85,
+        "startChar": 25,
+        "endLine": 85,
+        "endChar": 71
+      },
+      "revId": "3181a235a9cc3f63b610de703d835aff45b61ace",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a579d43c_756a2dfc",
@@ -37,6 +61,24 @@
       "writtenOn": "2022-11-23T20:40:14Z",
       "side": 1,
       "message": "How can this be done ?",
+      "revId": "3181a235a9cc3f63b610de703d835aff45b61ace",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31e13b17_49a9c035",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-23T21:20:32Z",
+      "side": 1,
+      "message": "Good point :-) let me add an example here.",
+      "parentUuid": "a579d43c_756a2dfc",
       "revId": "3181a235a9cc3f63b610de703d835aff45b61ace",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
