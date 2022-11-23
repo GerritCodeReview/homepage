@@ -144,6 +144,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [Debugging Gerrit](https://docs.google.com/presentation/d/1r7xR0oaFGrgkFmTQq6VRAfEqo8EeBAhWA_dS763zxJ0/view) (2021)
 * [Master to main migration at Google](https://docs.google.com/presentation/d/14G4m7YDAY-S2O8bsktgKRCNIKS4zrRej4MiBye9LfaU/view) (2021)
 * NoteDb:
+  * [How to import project changes between Gerrit Servers](https://storage.googleapis.com/gerrit-talks/summit/2022/Import%20Gerrit%20projects%20across%20servers.pdf) (2022)
+    * [Video with demo](https://youtu.be/Su1OpJ_s850) (2022)
   * [Update on NoteDb](https://storage.googleapis.com/gerrit-talks/summit/2017/NoteDb-Non-Presentation-April-2017.pdf) (2017)
   * [Accounts in NoteDb](https://storage.googleapis.com/gerrit-talks/summit/2016/accounts-in-notedb.pdf) (2016)
   * [NoteDb: Code reviews in Git](https://storage.googleapis.com/gerrit-talks/summit/2015/NoteDB.pdf) (2015)
