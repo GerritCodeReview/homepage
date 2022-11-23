@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6df26f2_5c8784e8",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-11-23T21:23:10Z",
+      "side": 1,
+      "message": "Not just for this, but in general, we should have a much easier external-ids manipulation tool in Gerrit.\n\nCountless times people asked on the mailing list how to fix the external-ids for various reasons, isn\u0027t it?",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 48
+      },
+      "revId": "3567493991a15569ed841931bb70cde1cfeb6547",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
