@@ -29,6 +29,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Deletion of Groups](design-docs/delete-groups.html) by Gal Paikin / Jacek Centkowski, approved as plugin 2020-09-01
 - [Case Insensitive Username Matching](design-docs/case-insensitive-username-matching.html) by Thomas Draebing, proposed 2021-03-18
 - [Push Reviews](design-docs/push-reviews.html) by Edwin Kempin, proposed 2022-03-04
+- [Project name in Change URL](design-docs/project-in-change-url.html) by Luca Milanesio, proposed 2022-12-07
 
 ## Reviews of Design Documents
 
