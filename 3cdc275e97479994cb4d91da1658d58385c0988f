@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4075109f_e50a96a6",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2022-12-12T08:32:40Z",
+      "side": 1,
+      "message": "Thanks for putting this together! I think this is the right direction!\n\nI would be especially interested in a safe migration plan. Here are some questions that come to mind:\n\n1) Can we force callers to always provide project+change-number in APIS calls?\n2) Can we just migrate our indices to primaryKey \u003d projectName+changeNumber?\n3) Can we have a setting if new change IDs should be globally unique or per-project unique?\n\nThis way we could migrate our stores/indices and get API callers ready for the change in advance.",
+      "range": {
+        "startLine": 14,
+        "startChar": 3,
+        "endLine": 14,
+        "endChar": 15
+      },
+      "revId": "3cdc275e97479994cb4d91da1658d58385c0988f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
