@@ -22,6 +22,30 @@
       },
       "revId": "3cdc275e97479994cb4d91da1658d58385c0988f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5032cbe5_7cf8c63a",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2022-12-14T10:46:59Z",
+      "side": 1,
+      "message": "\u003e Thanks for putting this together! I think this is the right direction!\n\u003e \n\u003e I would be especially interested in a safe migration plan. \n\n+1, fully agreed, including the on-line migration.\n\n\u003e Here are some questions that come to mind:\n\u003e \n\u003e 1) Can we force callers to always provide project+change-number in APIS calls?\n\nWe can, because we deprecated the change-number for many years so far.\nWe *could* still give the ability to call with just the change-number, with the caveat that it *may* return more than one entry.\n\n\u003e 2) Can we just migrate our indices to primaryKey \u003d projectName+changeNumber?\n\nI started drafting it in a local change and it should be possible. The Lucene document-id for this is a string already, we could have a prefix with the project name and a delimiter, exactly as we do today.\n\nExample: `project~changenum`\n\nThe migration could be __tolerant__ to document-ids missing the `~` which would be considered as the legacy id to migrate.\n\n\u003e 3) Can we have a setting if new change IDs should be globally unique or per-project unique?\n\nI believe that would make sense: at the end of the day is just an additional `refs/sequences/changes` in the project and, if missing, we could fallback to All-Projects as we now.\n\n\u003e This way we could migrate our stores/indices and get API callers ready for the change in advance.\n\nYes, also it would be possible to migrate on-line to Gerrit v3.8 now and enable the project-specific changes later on.",
+      "parentUuid": "4075109f_e50a96a6",
+      "range": {
+        "startLine": 14,
+        "startChar": 3,
+        "endLine": 14,
+        "endChar": 15
+      },
+      "revId": "3cdc275e97479994cb4d91da1658d58385c0988f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
