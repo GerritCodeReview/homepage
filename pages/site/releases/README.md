@@ -58,7 +58,7 @@ Latest release: **[3.7](/3.7.html)**. The support status of all recent Gerrit ve
 
 [Release notes for Gerrit 3.5](/3.5.html)
 
-## 3.4
+## 3.4 (EOL)
 
 * Checks UI
 
