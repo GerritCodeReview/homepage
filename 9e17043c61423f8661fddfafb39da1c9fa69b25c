@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3c9ca980_2c5c3226",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-05T13:48:32Z",
+      "side": 1,
+      "message": "I don\u0027t see how the proposed changes affects any URLs. FWICT it\u0027s mainly about no longer using change-number alone as a change identifier internally?\nTo me it\u0027s more about accepting that change-number no longer is unique and stop assuming that.",
+      "range": {
+        "startLine": 7,
+        "startChar": 32,
+        "endLine": 7,
+        "endChar": 56
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "19ba9f1d_911db33a",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
@@ -37,6 +60,52 @@
       "writtenOn": "2022-12-14T10:46:59Z",
       "side": 1,
       "message": "@hiesel@google.com thanks for the feedback, I had very much the same ideas but did not want to __influence__ the reader too much with my solution.",
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a6307de_4873e1aa",
+        "filename": "pages/design-docs/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-05T13:48:32Z",
+      "side": 1,
+      "message": "A more suitable title would be \"Use project name plus change-number as unique change identifier\" or \"Don\u0027t assume change-number is a unique change identifier\"",
+      "range": {
+        "startLine": 32,
+        "startChar": 3,
+        "endLine": 32,
+        "endChar": 29
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce17acce_bc25a30c",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-05T13:48:32Z",
+      "side": 1,
+      "message": "I see no point in not supporting identifying changes by change-number as long as the change-number uniquely identifies exactly one change. As we support identifying changes by Change-Id. ([which I just realized wasn\u0027t clarified in the documentation](https://gerrit-review.googlesource.com/c/gerrit/+/355966)).",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 10
+      },
       "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -105,6 +174,29 @@
         "startChar": 54,
         "endLine": 27,
         "endChar": 76
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0740e7f3_df37fec9",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-05T13:48:32Z",
+      "side": 1,
+      "message": "This is currently true and will be true after the proposed changes right?",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 28
       },
       "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -220,6 +312,29 @@
         "startChar": 38,
         "endLine": 78,
         "endChar": 40
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff980f5e_283a53b5",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-05T13:48:32Z",
+      "side": 1,
+      "message": "FWIW, I don\u0027t see a reason to remove this lookup for backwards compatibility.\nAs long as we clearly inform of the consequences of using this legacy change-id.",
+      "range": {
+        "startLine": 101,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 18
       },
       "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
