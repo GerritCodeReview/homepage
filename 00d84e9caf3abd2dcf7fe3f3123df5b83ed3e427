@@ -16,6 +16,29 @@
       "message": "Apologies for the delay, see the meeting minutes for December 2022.\nShall we postpone the January ESC to next week? (there are no updates since the last ESC in December)",
       "revId": "00d84e9caf3abd2dcf7fe3f3123df5b83ed3e427",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac57d004_75cb1ce6",
+        "filename": "_posts/2022-12-14-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2023-01-09T10:41:19Z",
+      "side": 1,
+      "message": "nit: more generally: \"Need for a solid migration path that allows gradual rollouts\".",
+      "range": {
+        "startLine": 29,
+        "startChar": 2,
+        "endLine": 29,
+        "endChar": 7
+      },
+      "revId": "00d84e9caf3abd2dcf7fe3f3123df5b83ed3e427",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
