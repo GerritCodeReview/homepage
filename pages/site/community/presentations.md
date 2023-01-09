@@ -21,22 +21,31 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 ## Features
 
 * [Attention Set](https://docs.google.com/presentation/d/1Vx8dW570M8hnP9HJb8nIc6JIV9s1667TW9JpB0l0uSA/view) (2020)
-* [Code Owners](https://docs.google.com/presentation/d/1DupBnGr3apIx-jzxi9cHzSgkI-2c1ouGu1teQ4khSfc/view) (2020)
-  * [Demo](https://docs.google.com/presentation/d/1ExJz_PJHUVmMYy6bG7ADjBEYEeU1nUpeME3upqx-U1c/view) (Dec 2021)
-  * [Video](https://www.youtube.com/watch?v=p6kbDEipjCY&list=PLySCWiWz9cNsDYPSZPzS_Tb1sw01sIfnD&index=4) (Dec 2021)
-  * [Demo](https://docs.google.com/presentation/d/15qfneQSY-TOrQ9sCSLfIZuR34IV7p2K9nxvTeaVBQ4w/view) (Jun 2021)
+* Code Owners:
+  * code-owners plugin
+    * [Code Owners](https://docs.google.com/presentation/d/1DupBnGr3apIx-jzxi9cHzSgkI-2c1ouGu1teQ4khSfc/view) (2020)
+      * [Demo](https://docs.google.com/presentation/d/1ExJz_PJHUVmMYy6bG7ADjBEYEeU1nUpeME3upqx-U1c/view) (Dec 2021)
+      * [Video](https://www.youtube.com/watch?v=p6kbDEipjCY&list=PLySCWiWz9cNsDYPSZPzS_Tb1sw01sIfnD&index=4) (Dec 2021)
+      * [Demo](https://docs.google.com/presentation/d/15qfneQSY-TOrQ9sCSLfIZuR34IV7p2K9nxvTeaVBQ4w/view) (Jun 2021)
+  * owners plugin
+    * 4 new OWNERS plugin features (2022)
+      * [Video](https://www.youtube.com/watch?v=vssqmcsXRKA&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=1)
 * [Diff Cache Redesign](https://docs.google.com/presentation/d/1XeqQJOQVIZ1bsjUlLpxsF8Uz8B9kUmArXKG41WHmm6U/view) (2020)
 * [Gitiles source browser](https://sites.google.com/site/gerritsummit2012/program/Sunday-Gitiles.pdf) (2012)
 * [Pluggable Caches](https://drive.google.com/file/d/1egSyShDek0qQ8SYUGWzezE1CQkBjLcp0/view) (2020)
 * [Ported Comments](https://docs.google.com/presentation/d/16CzuaiIMjyfvmfxAtwDXqiyhhXtTTLRcszavNeECURM/view) (2020)
 * [PubSub / Consistency on Demand](https://drive.google.com/file/d/1ttLw3Ba44_8H1VLUMIlFWrs8AAzYkH0A/view) (2021)
 * [pull-replication plugin](https://storage.googleapis.com/gerrit-talks/summit/2021/An%20Introduction%20to%20pull-replication%20plugin.pdf) (2021)
+  * What's new in the pull-replication plugin (2022)
+    * [Video](https://www.youtube.com/watch?v=hyjSUL6xhK8&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=3)
 * [Replication Distributor](https://drive.google.com/file/d/1ejwCxkXTGaJEWDvbc1JnbQtDyZ9ctKdX/view) (2021)
 * [Revert Submission](https://docs.google.com/presentation/d/e/2PACX-1vTkbE5AIWEFcEyUnQ6ZlfglClgsX9h5fjB6dkSsCvXuL75Jd0DdsZfarvKswYtyCKUN0_QJQDdJ8Qzw/pub) (2019)
 * [Robot Comments](https://storage.googleapis.com/gerrit-talks/summit/2016/robot-comments.pdf) (2016)
 
 ## Release Highlights
 
+* What's new in Gerrit 3.6/3.7 (2022)
+  * [Video](https://www.youtube.com/watch?v=ytgQItCiJBk&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=6)
 * [What's new in Gerrit 3.4/3.5](https://storage.googleapis.com/gerrit-talks/summit/2021/Whats.New.in.Gerrit.3.4-and.3.5.pdf) (2021)
 * [What's new in Gerrit 3.2/3.3?](https://drive.google.com/file/d/13T7CiQG54CZ7P6iqMYsFIV4P4dOV78iN/view) (2020)
 * [What's new in Gerrit 3.1 and beyond](https://www.slideshare.net/lucamilanesio/whats-new-in-gerrit-code-review-v31-and-beyond) (2019)
@@ -54,6 +63,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 ## UI Improvements
 
 * [Gerrit UI Features 2022](https://docs.google.com/presentation/d/1Fq_FZMOe91QBosZSHWv3ppyz0RdHLy_1ZlkwOUTkimQ/view) (2022)
+  * [Video](https://www.youtube.com/watch?v=R17tSOp8oCg&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=8)
 * [UI Updates - Checks, Comment Context, Change Summary](https://docs.google.com/presentation/d/1LCqvHV9v8pZfsq6xzXjGx5Dzq0kLiEtNdjygdPUtBLA/view) (2021)
 * [Change Page Cleanups](https://docs.google.com/presentation/d/1FQar_fN2CS1WlvPobBT6djo9pgKwCe321wDEWC4uRR4/) (2021)
 * [Gerrit UX History](https://docs.google.com/presentation/d/1Y4-Ph6lb2eB8B0fZ2haJ1DlCw1ix48F-MfbdStGfyOI/view) (2021)
@@ -66,6 +76,10 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## User stories
 
+* Switching from SVN to Gerrit mono repo (2022)
+  * [Video](https://www.youtube.com/watch?v=55VXo9PM6Sc&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=10)
+* Gerrit at Nokia (2022)
+  * [Video](https://www.youtube.com/watch?v=KKfNyFR2whA&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=5)
 * [Gerrit at Google: Multi-master, Multi-tenant](https://docs.google.com/presentation/d/1pZkXbrhcUZxO-1TEUJgBvOiJJiYWwtHOw8fegsjvCnc) (2017)
 * [Gerrit at OpenStack](https://storage.googleapis.com/gerrit-talks/summit/2016/keep-the-conversation-flowing.pdf) (2016)
 * [Git at Google](https://storage.googleapis.com/gerrit-talks/summit/2015/Git-at-Google.pdf) (2015)
@@ -79,6 +93,10 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Deployment
 
+* How healthcheck and multi-site keeps your sleep at night (2022)
+  * [Video](https://www.youtube.com/watch?v=ytgQItCiJBk&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=6)
+* Gerrit on Kubernetes (2022)
+  * [Video](https://www.youtube.com/watch?v=vssqmcsXRKA&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=1)
 * [Run Gerrit in a cloud](https://drive.google.com/file/d/1Ee7KoRCJlkouLoUnvLtXki4udrrVO4cV/view) (2021)
 * [Docker-based replica setup](https://docs.google.com/presentation/d/1m5nuNEvG2CWXNrb-LyS0-Jo6ic2VmBiZ-dzK6SdE7cI/view) (2021)
 * [Gerrit goes multi-site](https://www.slideshare.net/lucamilanesio/gerrit-code-review-multisite) (2019)
@@ -142,7 +160,12 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [Access Rights](https://docs.google.com/presentation/d/1TUwrCBljGqI4jLUA0TthuMLRwtqcUI7T9XH5kakrbpg/view) (2012)
 * [Case Insensitive Username Matching](https://docs.google.com/presentation/d/10egFZvu9zb9tkwSLA3_Hdg2WktDWSekzBwkG5HaNOdA/view) (2021)
 * [Debugging Gerrit](https://docs.google.com/presentation/d/1r7xR0oaFGrgkFmTQq6VRAfEqo8EeBAhWA_dS763zxJ0/view) (2021)
+* [Importing Projects](https://storage.googleapis.com/gerrit-talks/summit/2022/Import%20Gerrit%20projects%20across%20servers.pdf) (2022)
+  * [Video](https://www.youtube.com/watch?v=Su1OpJ_s850&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=4)
 * [Master to main migration at Google](https://docs.google.com/presentation/d/14G4m7YDAY-S2O8bsktgKRCNIKS4zrRej4MiBye9LfaU/view) (2021)
+* Metrics:
+  * git-repo-metrics plugin (2022)
+    * [Video](https://www.youtube.com/watch?v=R17tSOp8oCg&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr&index=8)
 * NoteDb:
   * [How to import project changes between Gerrit Servers](https://storage.googleapis.com/gerrit-talks/summit/2022/Import%20Gerrit%20projects%20across%20servers.pdf) (2022)
     * [Video with demo](https://youtu.be/Su1OpJ_s850) (2022)
@@ -186,6 +209,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 ## Events
 
 * [User Summit 2022 (London)](https://gerrit.googlesource.com/summit/2022/+/refs/heads/master/schedule.md)
+  * [Videos](https://youtube.com/playlist?list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * [Virtual Contributor Summit 2021](https://docs.google.com/document/d/1BOc17jyCXZYHb8seWSgdMOAh6_XeGoHDVCaJ10OTM20)
 * [Virtual Contributor Summit 2020](https://docs.google.com/document/d/1WauJfNxracjBK3PxuVnwNIppESGMBtZwxMYjxxeDN6M)
 * [User Summits 2019 (Gothenburg & Sunnyvale)](https://gerrit.googlesource.com/summit/2019/+/refs/heads/master/index.md)
