@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e2b0e23_feb1953b",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-01-09T14:30:21Z",
+      "side": 1,
+      "message": "this links to Thomas\u0027 talk on Gerrit on kubernetes",
+      "range": {
+        "startLine": 32,
+        "startChar": 16,
+        "endLine": 32,
+        "endChar": 107
+      },
+      "revId": "71aad68e9e9c9f8bdb95468eae3a76df7f68eb72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a8e1b58_e9440c2d",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-01-09T14:30:21Z",
+      "side": 1,
+      "message": "this links to Luca\u0027s talk \"What\u0027s new in Gerrit v3.6 and v3.7\"",
+      "range": {
+        "startLine": 97,
+        "startChar": 12,
+        "endLine": 97,
+        "endChar": 103
+      },
+      "revId": "71aad68e9e9c9f8bdb95468eae3a76df7f68eb72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1aed37df_a056e79c",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-01-09T14:30:21Z",
+      "side": 1,
+      "message": "Import Gerrit projects across servers",
+      "range": {
+        "startLine": 163,
+        "startChar": 3,
+        "endLine": 163,
+        "endChar": 21
+      },
+      "revId": "71aad68e9e9c9f8bdb95468eae3a76df7f68eb72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c95a5139_366651f9",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-01-09T14:30:21Z",
+      "side": 1,
+      "message": "this links to Ben\u0027s talk \"Gerrit UI updates in v3.7\"",
+      "range": {
+        "startLine": 168,
+        "startChar": 14,
+        "endLine": 168,
+        "endChar": 105
+      },
+      "revId": "71aad68e9e9c9f8bdb95468eae3a76df7f68eb72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
