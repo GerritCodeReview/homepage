@@ -97,6 +97,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "9e5f4ccb_6cca1074",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:51:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a34c968b_283ae9d1",
+      "range": {
+        "startLine": 17,
+        "startChar": 19,
+        "endLine": 17,
+        "endChar": 32
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "0931b3cc_c9c27a5f",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
@@ -149,6 +173,30 @@
       "side": 1,
       "message": "\u003e A more suitable title would be \"Use project name plus change-number as unique change identifier\"\n\nWell, we don\u0027t need a design document for that, isn\u0027t it? That is already the case today.\n\n\u003e \"Don\u0027t assume change-number is a unique change identifier\"\n\n+1, what about \"Project name ~ Change number as unique identifier\"? I agree that the design document is more than simply the Change URL.",
       "parentUuid": "7a6307de_4873e1aa",
+      "range": {
+        "startLine": 32,
+        "startChar": 3,
+        "endLine": 32,
+        "endChar": 29
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcb0631c_8472233d",
+        "filename": "pages/design-docs/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:51:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4cfd631_89fd0717",
       "range": {
         "startLine": 32,
         "startChar": 3,
