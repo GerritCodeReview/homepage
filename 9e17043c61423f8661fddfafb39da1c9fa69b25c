@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0891a218_b44b1acb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "\u003e I don\u0027t see how the proposed changes affects any URLs.\n\nThe only REST-API that will accept the change number without the project will be removed, because the change-number alone is not unique anymore.\n\n\u003e FWICT it\u0027s mainly about no longer using change-number alone as a change identifier internally?\n\nCorrect, that is why the change-number alone won\u0027t be enough in the URL.\n\n\u003e To me it\u0027s more about accepting that change-number no longer is unique and stop assuming that.\n\nCorrect, which is already the case in Gerrit v3.7 if you are importing projects with a different serverIds.\n\nWill amend to `Project name ~ Change number as unique identifier` because this is effectively what we do.",
+      "parentUuid": "3c9ca980_2c5c3226",
+      "range": {
+        "startLine": 7,
+        "startChar": 32,
+        "endLine": 7,
+        "endChar": 56
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "19ba9f1d_911db33a",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-12-14T14:30:49Z",
       "side": 1,
       "message": "they are already unique, or? With this change we want to get rid of the assumption that changeId alone is unique",
+      "range": {
+        "startLine": 17,
+        "startChar": 19,
+        "endLine": 17,
+        "endChar": 32
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a34c968b_283ae9d1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Point taken.",
+      "parentUuid": "19ba9f1d_911db33a",
       "range": {
         "startLine": 17,
         "startChar": 19,
@@ -89,6 +137,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a4cfd631_89fd0717",
+        "filename": "pages/design-docs/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "\u003e A more suitable title would be \"Use project name plus change-number as unique change identifier\"\n\nWell, we don\u0027t need a design document for that, isn\u0027t it? That is already the case today.\n\n\u003e \"Don\u0027t assume change-number is a unique change identifier\"\n\n+1, what about \"Project name ~ Change number as unique identifier\"? I agree that the design document is more than simply the Change URL.",
+      "parentUuid": "7a6307de_4873e1aa",
+      "range": {
+        "startLine": 32,
+        "startChar": 3,
+        "endLine": 32,
+        "endChar": 29
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ce17acce_bc25a30c",
         "filename": "pages/design-docs/project-in-change-url/solution.md",
         "patchSetId": 2
@@ -100,6 +172,30 @@
       "writtenOn": "2023-01-05T13:48:32Z",
       "side": 1,
       "message": "I see no point in not supporting identifying changes by change-number as long as the change-number uniquely identifies exactly one change. As we support identifying changes by Change-Id. ([which I just realized wasn\u0027t clarified in the documentation](https://gerrit-review.googlesource.com/c/gerrit/+/355966)).",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 10
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5ad57bd_48f7d563",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "\u003e I see no point in not supporting identifying changes by change-number\n\nDouble negation \u003d\u003e You see the point of supporting the identification of changes by change-number only?\n\nPlease note here that I say __reindexing changes by change-number only__ did not make sense. The reason is simple: the change-number alone (current situation) does not allow to identify where the change is, because you need the project name even today, since we removed ReviewDb back in Gerrit v3.0.\n\nWe rely on the index to lookup by change-number alone and fetch the project. However, if you don\u0027t have the entry in the index and you would like to create that entry, how come that you give only the change number?\n\nThat API existed from the times of ReviewDb and we never removed it once we introduced NoteDb, making a paradox that for creating the index for a change-number, you need the index for that change-number to understand where the project is.\n\nI will clarify the statement __did that make any sense before?__ with the above description that gives more historical background on the issue.\n\n\u003e as long as the change-number uniquely identifies exactly one change.\n\nThat isn\u0027t the case anymore since Gerrit v3.7 when you use importedServerId. Also in Gerrit the change-number alone isn\u0027t enough to understand where the change is: we do need the project-name as well today.\n\n\u003e As we support identifying changes by Change-Id. ([which I just realized wasn\u0027t clarified in the documentation](https://gerrit-review.googlesource.com/c/gerrit/+/355966)).\n\nChange-Id has never been unique AFAIK, because the same change cherry-picked to multiple branches have the same Change-Id, since the very beginning. The _change ID_ mentioned in the documentation is named inappropriately, that is the change-number not the Change-Id.\n\nGerrit still allows to resolve changes by just providing the change number thanks to the `changeid_project` cache and the index.",
+      "parentUuid": "ce17acce_bc25a30c",
       "range": {
         "startLine": 37,
         "startChar": 3,
@@ -133,6 +229,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "909e5faf_8066e7c7",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c74ca2c_25f9b8f5",
+      "range": {
+        "startLine": 15,
+        "startChar": 38,
+        "endLine": 15,
+        "endChar": 40
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0e4bf0c7_962ef029",
@@ -146,6 +266,30 @@
       "writtenOn": "2023-01-04T18:03:54Z",
       "side": 1,
       "message": "database",
+      "range": {
+        "startLine": 24,
+        "startChar": 46,
+        "endLine": 24,
+        "endChar": 55
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "725e3341_1225bf4e",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e4bf0c7_962ef029",
       "range": {
         "startLine": 24,
         "startChar": 46,
@@ -179,6 +323,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "13f42188_05416031",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "483e5a11_d91a332a",
+      "range": {
+        "startLine": 27,
+        "startChar": 54,
+        "endLine": 27,
+        "endChar": 76
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0740e7f3_df37fec9",
@@ -192,6 +360,30 @@
       "writtenOn": "2023-01-05T13:48:32Z",
       "side": 1,
       "message": "This is currently true and will be true after the proposed changes right?",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 28
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52d841bc_bbd321a0",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Correct, let me clarify that is the current behaviour and is kept after the proposed change.",
+      "parentUuid": "0740e7f3_df37fec9",
       "range": {
         "startLine": 27,
         "startChar": 0,
@@ -225,6 +417,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d01f28b_6acb7709",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "33366cff_e6afee39",
+      "range": {
+        "startLine": 37,
+        "startChar": 10,
+        "endLine": 37,
+        "endChar": 18
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fa872002_3d083c41",
@@ -238,6 +454,30 @@
       "writtenOn": "2023-01-04T18:03:54Z",
       "side": 1,
       "message": "them",
+      "range": {
+        "startLine": 53,
+        "startChar": 10,
+        "endLine": 53,
+        "endChar": 17
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad497f05_718653f2",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa872002_3d083c41",
       "range": {
         "startLine": 53,
         "startChar": 10,
@@ -271,6 +511,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f40af0f_1049ec3f",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "08e584ba_b0d7b340",
+      "range": {
+        "startLine": 56,
+        "startChar": 48,
+        "endLine": 56,
+        "endChar": 54
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "57c990bb_b80cc040",
@@ -284,6 +548,30 @@
       "writtenOn": "2023-01-04T18:03:54Z",
       "side": 1,
       "message": "frontend",
+      "range": {
+        "startLine": 69,
+        "startChar": 20,
+        "endLine": 69,
+        "endChar": 29
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad022359_251f3d87",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "57c990bb_b80cc040",
       "range": {
         "startLine": 69,
         "startChar": 20,
@@ -317,6 +605,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "12e5399f_e021d163",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b3f0dca_0afb467e",
+      "range": {
+        "startLine": 78,
+        "startChar": 38,
+        "endLine": 78,
+        "endChar": 40
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ff980f5e_283a53b5",
@@ -330,6 +642,30 @@
       "writtenOn": "2023-01-05T13:48:32Z",
       "side": 1,
       "message": "FWIW, I don\u0027t see a reason to remove this lookup for backwards compatibility.\nAs long as we clearly inform of the consequences of using this legacy change-id.",
+      "range": {
+        "startLine": 101,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 18
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5ef3bd9_a7482fd7",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-10T21:50:59Z",
+      "side": 1,
+      "message": "Fair enough; also, if you are not enabling the project-specific change numbering, it would still return a single entry.\n\nWhat it could be done is:\n- change the API to return a list of items\n- return all the `Project`/`CN` entries associated with the `CN`",
+      "parentUuid": "ff980f5e_283a53b5",
       "range": {
         "startLine": 101,
         "startChar": 0,
