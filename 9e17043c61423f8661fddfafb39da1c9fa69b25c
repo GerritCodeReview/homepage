@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "347c88d2_0d5a1505",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-01-10T23:54:50Z",
+      "side": 1,
+      "message": "\u003e The only REST-API that will accept the change number without the project will be removed, because the change-number alone is not unique anymore.\n\n[snip ...]\n\n\u003e Correct, which is already the case in Gerrit v3.7 if you are importing projects with a different serverIds.\n\nUh, so does doing that kind of import in 3.7+ already break those APIs?",
+      "parentUuid": "0891a218_b44b1acb",
+      "range": {
+        "startLine": 7,
+        "startChar": 32,
+        "endLine": 7,
+        "endChar": 56
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "19ba9f1d_911db33a",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
