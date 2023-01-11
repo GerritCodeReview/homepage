@@ -74,6 +74,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b72de19f_1a254be0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-11T09:34:15Z",
+      "side": 1,
+      "message": "\u003e \u003e The only REST-API that will accept the change number without the project will be removed, because the change-number alone is not unique anymore.\n\u003e \n\u003e [snip ...]\n\u003e \n\u003e \u003e Correct, which is already the case in Gerrit v3.7 if you are importing projects with a different serverIds.\n\u003e \n\u003e Uh, so does doing that kind of import in 3.7+ already break those APIs?\n\nNot exactly, I would recommend to watch the presentation about Gerrit v3.7 of the last Gerrit User Summit 2022 at [1], where I have described how the problem has been circumvented for preventing breakages in the APIs.\n\n[1] https://youtu.be/Su1OpJ_s850",
+      "parentUuid": "347c88d2_0d5a1505",
+      "range": {
+        "startLine": 7,
+        "startChar": 32,
+        "endLine": 7,
+        "endChar": 56
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "19ba9f1d_911db33a",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
@@ -292,6 +316,30 @@
       "side": 1,
       "message": "I\u0027m not sure we are talking about the same thing.\n\nI was talking about the REST API `POST /changes/{change-identifier}/index`.\nSince a change-number _may_ uniquely identify exactly one change, and in these cases we can lookup the project, I don\u0027t see a reason to stop supporting change-number as a change-identifier in those circumstances (but I\u0027m not certain that is what you mean by this statement).\nInternally we should never rely on this fallback and always use project~change-number.\n\nI could see a situation where:\n1. Change A {project\u003da,change-number\u003d1} is created and indexed.\n2. Change B {project\u003db,change-number\u003d1} is created/imported/... but isn\u0027t indexed or added to caches (for whatever reason)\n\nThen a REST API call of `POST /changes/1/index` would just reindex change A without an error since we cannot detect that there are more than 1 change that has change-number\u003d1.\n\nFrom my point of view we should allow users to shoot themselves in the foot if we document properly that they risk shooting themselves in the foot when using only change-number as identifier, in the name of not changing public APIs and consistency when it comes to what we accept as a change-ídentifier.\n\nBut then again, I\u0027m not certain you are talking about not accepting change-number as a change-identifier ever for the REST API.",
       "parentUuid": "d5ad57bd_48f7d563",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 10
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c58e3b0_bec2ded3",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-11T09:34:15Z",
+      "side": 1,
+      "message": "\u003e I\u0027m not sure we are talking about the same thing.\n\u003e \n\u003e I was talking about the REST API `POST /changes/{change-identifier}/index`.\n\u003e Since a change-number _may_ uniquely identify exactly one change, and in these cases we can lookup the project, I don\u0027t see a reason to stop supporting change-number as a change-identifier in those circumstances (but I\u0027m not certain that is what you mean by this statement).\n\nActually, the case you mentioned is exactly the one that I mentioned as already broken today, see L40-42.\n\n\u003e Internally we should never rely on this fallback and always use project~change-number.\n\u003e \n\u003e I could see a situation where:\n\u003e 1. Change A {project\u003da,change-number\u003d1} is created and indexed.\n\u003e 2. Change B {project\u003db,change-number\u003d1} is created/imported/... but isn\u0027t indexed or added to caches (for whatever reason)\n\n\n\u003e Then a REST API call of `POST /changes/1/index` would just reindex change A without an error since we cannot detect that there are more than 1 change that has change-number\u003d1.\n\nCorrect: if you are reindexing, it means the index *may be stale* isn\u0027t it? So, relying on a *potentially* stale index for performing a reindex is fragile by definition. That is the current issue we have with that API, which is beyond this design document.\n\n\u003e From my point of view we should allow users to shoot themselves in the foot if we document properly that they risk shooting themselves in the foot when using only change-number as identifier, in the name of not changing public APIs and consistency when it comes to what we accept as a change-ídentifier.\n\nI agree with you, should we upload a change today on that API warning about the current limitations?\n\n\u003e But then again, I\u0027m not certain you are talking about not accepting change-number as a change-identifier ever for the REST API.\n\nThis is actually a __TODOS__ section of this design document, which means that we haven\u0027t decided yet and we are discussing about it.\n\nSo, your input is definitely very welcomed and appreciated 👍",
+      "parentUuid": "56bcb297_00984ac0",
       "range": {
         "startLine": 37,
         "startChar": 3,

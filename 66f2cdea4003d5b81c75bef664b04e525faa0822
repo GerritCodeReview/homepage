@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9a52f03f_6a06bfa2",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-11T09:34:15Z",
+      "side": 1,
+      "message": "\u003e See my comment below, but currently this \"Problem\" line seems overly broad for the problem use cases being discussed. I would expect a statement more like:\n\u003e \n\u003e `# Problem: How to import changes from another Gerrit server with conflicting change numbers?`\n\nThis line is stale, the problem statement is: `How to complete the move to Project-Name~Change-Number as unique identifier?`.",
+      "parentUuid": "fc0a1795_47190d01",
+      "range": {
+        "startLine": 20,
+        "startChar": 11,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a7d4cc3c_57ec2347",
         "filename": "pages/design-docs/project-in-change-url/use-cases.md",
         "patchSetId": 3
@@ -66,6 +90,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e86e0636_b01e5a91",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-11T09:34:15Z",
+      "side": 1,
+      "message": "\u003e Does this problem exist for any other use case?\n\u003e \n\u003e As this document currently stands, it would seem a solution that re-numbers imported changes using the sequence would 1) address all the concerns and 2) likely be the simple appropriate  solution for 3.7.\n\nCorrect, the current solution for 3.7 is working and does not need the input from this design document.\n\nI will rephrase for making that clearer.",
+      "parentUuid": "a7d4cc3c_57ec2347",
+      "range": {
+        "startLine": 41,
+        "startChar": 19,
+        "endLine": 41,
+        "endChar": 78
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c785e012_a161315d",
         "filename": "pages/design-docs/project-in-change-url/use-cases.md",
         "patchSetId": 3
@@ -77,6 +125,24 @@
       "writtenOn": "2023-01-10T23:54:50Z",
       "side": 1,
       "message": "Is it expected that solutions must continue to support these older links?",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5916eb78_b79cf3e4",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-11T09:34:15Z",
+      "side": 1,
+      "message": "\u003e Is it expected that solutions must continue to support these older links?\n\nWe are discussing, so we are open to opinions and see what would work best for all of us and the community.",
+      "parentUuid": "c785e012_a161315d",
       "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
