@@ -376,6 +376,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ce7a114f_9a046a13",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-11T11:55:43Z",
+      "side": 1,
+      "message": "_Sorry for the strike-through, forgot to escape the tilde._",
+      "parentUuid": "18a7cda0_6f81343c",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 10
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5c74ca2c_25f9b8f5",
         "filename": "pages/design-docs/project-in-change-url/use-cases.md",
         "patchSetId": 2
