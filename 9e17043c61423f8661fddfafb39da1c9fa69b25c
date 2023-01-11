@@ -352,6 +352,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "18a7cda0_6f81343c",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-11T11:54:29Z",
+      "side": 1,
+      "message": "Not accepting change-number as change-identifier won\u0027t fix these issues, the same problem plagues all other change-identifiers except \"project~change-number\" since they require a lookup from index and/or caches which may be corrupt or stale.\nAnd I don\u0027t think only accepting project~change-number is feasible.\n\n\u003e \u003e I could see a situation where:\n\u003e \u003e 1. Change A {project\u003da,change-number\u003d1} is created and indexed.\n\u003e \u003e 2. Change B {project\u003db,change-number\u003d1} is created/imported/... but isn\u0027t indexed or added to caches (for whatever reason)\n\u003e \n\u003e \n\u003e \u003e Then a REST API call of `POST /changes/1/index` would just reindex change A without an error since we cannot detect that there are more than 1 change that has change-number\u003d1.\n\u003e \n\u003e Correct: if you are reindexing, it means the index *may be stale* isn\u0027t it? So, relying on a *potentially* stale index for performing a reindex is fragile by definition. That is the current issue we have with that API, which is beyond this design document.\n\nThe only data from the index that we are interested in in this case is the change number and the project.\nI don\u0027t see conceptually how the change number is stale (not really the project either) but in any case the worst thing that can happen is that the wrong change is indexed (which is a risk you take when using an incomplete change-identifier). If the project-name is faulty in the index-document you\u0027ll get an error (\"no such change\" probably).\nGoing back to \"Should we allow users to shoot themselves in the foot?\", if we shouldn\u0027t we should only allow project~change-number as change-identifier.\n\n\n\u003e \u003e From my point of view we should allow users to shoot themselves in the foot if we document properly that they risk shooting themselves in the foot when using only change-number as identifier, in the name of not changing public APIs and consistency when it comes to what we accept as a change-ídentifier.\n\u003e \n\u003e I agree with you, should we upload a change today on that API warning about the current limitations?\n\n+1\nhttps://gerrit-review.googlesource.com/c/gerrit/+/356134\n\n\u003e \n\u003e \u003e But then again, I\u0027m not certain you are talking about not accepting change-number as a change-identifier ever for the REST API.\n\u003e \n\u003e This is actually a __TODOS__ section of this design document, which means that we haven\u0027t decided yet and we are discussing about it.\n\u003e \n\u003e So, your input is definitely very welcomed and appreciated 👍",
+      "parentUuid": "5c58e3b0_bec2ded3",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 10
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5c74ca2c_25f9b8f5",
         "filename": "pages/design-docs/project-in-change-url/use-cases.md",
         "patchSetId": 2
