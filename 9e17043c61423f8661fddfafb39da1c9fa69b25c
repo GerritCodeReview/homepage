@@ -280,6 +280,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "56bcb297_00984ac0",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-11T08:50:45Z",
+      "side": 1,
+      "message": "I\u0027m not sure we are talking about the same thing.\n\nI was talking about the REST API `POST /changes/{change-identifier}/index`.\nSince a change-number _may_ uniquely identify exactly one change, and in these cases we can lookup the project, I don\u0027t see a reason to stop supporting change-number as a change-identifier in those circumstances (but I\u0027m not certain that is what you mean by this statement).\nInternally we should never rely on this fallback and always use project~change-number.\n\nI could see a situation where:\n1. Change A {project\u003da,change-number\u003d1} is created and indexed.\n2. Change B {project\u003db,change-number\u003d1} is created/imported/... but isn\u0027t indexed or added to caches (for whatever reason)\n\nThen a REST API call of `POST /changes/1/index` would just reindex change A without an error since we cannot detect that there are more than 1 change that has change-number\u003d1.\n\nFrom my point of view we should allow users to shoot themselves in the foot if we document properly that they risk shooting themselves in the foot when using only change-number as identifier, in the name of not changing public APIs and consistency when it comes to what we accept as a change-ídentifier.\n\nBut then again, I\u0027m not certain you are talking about not accepting change-number as a change-identifier ever for the REST API.",
+      "parentUuid": "d5ad57bd_48f7d563",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 10
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5c74ca2c_25f9b8f5",
         "filename": "pages/design-docs/project-in-change-url/use-cases.md",
         "patchSetId": 2
