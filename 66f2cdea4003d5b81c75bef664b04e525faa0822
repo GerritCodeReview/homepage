@@ -159,6 +159,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "41b1a02b_f3c0a7f3",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-01-12T18:12:31Z",
+      "side": 1,
+      "message": "\u003e \u003e See my comment below, but currently this \"Problem\" line seems overly broad for the problem use cases being discussed. I would expect a statement more like:\n\u003e \u003e \n\u003e \u003e `# Problem: How to import changes from another Gerrit server with conflicting change numbers?`\n\u003e \n\u003e This line is stale, the problem statement is: `How to complete the move to Project-Name~Change-Number as unique identifier?`.\n\nThat statement assumes there was ever an intent and agreement to make project+changeNumber the unique identifier. AFAIK, there was not and I can\u0027t find a reference to any agreement like that in this use case doc (agreement to change the URL structure is not the same).\n\nWithout a clear problem statement, this use-case is DOA. Please fix that before progressing further.",
+      "parentUuid": "9a52f03f_6a06bfa2",
+      "range": {
+        "startLine": 20,
+        "startChar": 11,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f91ee13a_062466d8",
         "filename": "pages/design-docs/project-in-change-url/use-cases.md",
         "patchSetId": 3
@@ -252,6 +276,24 @@
       "side": 1,
       "message": "\u003e Is it expected that solutions must continue to support these older links?\n\nWe are discussing, so we are open to opinions and see what would work best for all of us and the community.",
       "parentUuid": "c785e012_a161315d",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d136be4_bf245443",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-01-12T18:12:31Z",
+      "side": 1,
+      "message": "\u003e \u003e Is it expected that solutions must continue to support these older links?\n\u003e \n\u003e We are discussing, so we are open to opinions and see what would work best for all of us and the community.\n\nI think breaking those links would be very impactful and could lead to sites being stuck on an old Gerrit version.",
+      "parentUuid": "5916eb78_b79cf3e4",
       "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }

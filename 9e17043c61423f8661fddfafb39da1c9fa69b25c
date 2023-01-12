@@ -98,6 +98,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "906277f6_87cfb2bc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-01-12T18:12:31Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e The only REST-API that will accept the change number without the project will be removed, because the change-number alone is not unique anymore.\n\u003e \u003e \n\u003e \u003e [snip ...]\n\u003e \u003e \n\u003e \u003e \u003e Correct, which is already the case in Gerrit v3.7 if you are importing projects with a different serverIds.\n\u003e \u003e \n\u003e \u003e Uh, so does doing that kind of import in 3.7+ already break those APIs?\n\u003e \n\u003e Not exactly, I would recommend to watch the presentation about Gerrit v3.7 of the last Gerrit User Summit 2022 at [1], where I have described how the problem has been circumvented for preventing breakages in the APIs.\n\nI shouldn\u0027t have to watch a video to get an answer on this. Are the APIs broken in 3.7 if you import changes from another server with conflicting changeNumbers or not?",
+      "parentUuid": "b72de19f_1a254be0",
+      "range": {
+        "startLine": 7,
+        "startChar": 32,
+        "endLine": 7,
+        "endChar": 56
+      },
+      "revId": "9e17043c61423f8661fddfafb39da1c9fa69b25c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "19ba9f1d_911db33a",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
