@@ -3,6 +3,29 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "6562e567_03a63c16",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2023-01-12T14:39:11Z",
+      "side": 1,
+      "message": "That\u0027s just the place in the storage we use to make sure we can generate a unique number, but apart has no value / meaning in itself.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 54
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "0a15e5c9_9fabec65",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 3
@@ -14,6 +37,75 @@
       "writtenOn": "2023-01-10T23:54:50Z",
       "side": 1,
       "message": "This should probably get an announcement of some sort on the mailing list (as suggested in https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose).",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9e8cecc_8853f8e7",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2023-01-12T14:39:11Z",
+      "side": 1,
+      "message": "SGTM, but it means we\u0027ll need to protect this ref in project repos.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 57
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85d42371_39474b39",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2023-01-12T14:39:11Z",
+      "side": 1,
+      "message": "In other words: We used All-Users as kitchen sink for all things we didn\u0027t have a better place for and that for visibility reasons we could not put into project repos :-)\n\nI am wondering if there is a better way/place to store this information. It\u0027s not exactly where NoteDb is strong.\n\nIn both cases we need to be able to look up the information using either *user* or *change* as key.",
+      "range": {
+        "startLine": 27,
+        "startChar": 3,
+        "endLine": 27,
+        "endChar": 8
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbe7dbff_0560a983",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1026112
+      },
+      "writtenOn": "2023-01-12T14:39:11Z",
+      "side": 1,
+      "message": "Before, this would also only work if the change was already indexed. Otherwise, we had no way of finding the primary entity (which repo is it in?). Doesn\u0027t seem like a concern to me.",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 37,
+        "endChar": 73
+      },
       "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
