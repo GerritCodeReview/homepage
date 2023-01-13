@@ -140,7 +140,6 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Analytics
 
-* [Git Repo Metrics Plugin](https://docs.google.com/presentation/d/15Ed--hWpnlJzj5a0Y7JDE0ZxSvCH62J6yus7K8z7ENk) (2022)
 * [Gerrit Analytics applied to the Android project](https://www.slideshare.net/lucamilanesio/gerrit-analytics-applied-to-android-source-code) (2019)
 * [Show me your dashboard](https://docs.google.com/presentation/d/1EeJdCngQaVBxJPQaGC2DYtTS9gzM9II-uoi7DtPQkw0/view) (2019)
 * [DevOps Analytics - Uncover the value of Gerrit Pipeline](https://www.slideshare.net/lucamilanesio/gerrit-devops-analytics-uncover-the-value-of-cicd-pipeline) (2018)
@@ -165,7 +164,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
   * [Video](https://www.youtube.com/watch?v=Su1OpJ_s850&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * [Master to main migration at Google](https://docs.google.com/presentation/d/14G4m7YDAY-S2O8bsktgKRCNIKS4zrRej4MiBye9LfaU/view) (2021)
 * Metrics:
-  * git-repo-metrics plugin (2022)
+  * [git-repo-metrics plugin](https://docs.google.com/presentation/d/15Ed--hWpnlJzj5a0Y7JDE0ZxSvCH62J6yus7K8z7ENk) (2022)
     * [Video](https://www.youtube.com/watch?v=4u2Fe0h8_IU&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * NoteDb:
   * [How to import project changes between Gerrit Servers](https://storage.googleapis.com/gerrit-talks/summit/2022/Import%20Gerrit%20projects%20across%20servers.pdf) (2022)
