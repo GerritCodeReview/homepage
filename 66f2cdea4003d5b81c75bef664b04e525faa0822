@@ -296,6 +296,24 @@
       "parentUuid": "5916eb78_b79cf3e4",
       "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "431e2a37_3296efcd",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-01-13T10:34:49Z",
+      "side": 1,
+      "message": "I agree, supporting \"legacy\" links is very valuable and should be preserved as long as possible.\nIt is better that a very small number of links are broken due to inconclusive change-identification than to break basically all older links.\n_Even though ITS-links probably is the strongest use-case it is not the only one._",
+      "parentUuid": "5d136be4_bf245443",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
