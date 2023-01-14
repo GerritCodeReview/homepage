@@ -87,6 +87,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "d171a195_6ee1b4f7",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-14T13:29:59Z",
+      "side": 1,
+      "message": "\u003e In other words: We used All-Users as kitchen sink for all things we didn\u0027t have a better place for and that for visibility reasons we could not put into project repos :-)\n\nAgreed, however, we should make one step at a time: I\u0027d say that refactoring All-Users is the next step. However, we need to make sure to have a clear path towards it so that migrations would not become a nightmare.\n\n\u003e I am wondering if there is a better way/place to store this information. It\u0027s not exactly where NoteDb is strong.\n\u003e \n\u003e In both cases we need to be able to look up the information using either *user* or *change* as key.\n\nI\u0027d say *user*, *project+change-num* or legacy *change-num* as keys.",
+      "parentUuid": "85d42371_39474b39",
+      "range": {
+        "startLine": 27,
+        "startChar": 3,
+        "endLine": 27,
+        "endChar": 8
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "dbe7dbff_0560a983",
@@ -183,6 +207,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7d82e84b_27f96de2",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-14T13:29:59Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e See my comment below, but currently this \"Problem\" line seems overly broad for the problem use cases being discussed. I would expect a statement more like:\n\u003e \u003e \u003e \n\u003e \u003e \u003e `# Problem: How to import changes from another Gerrit server with conflicting change numbers?`\n\u003e \u003e \n\u003e \u003e This line is stale, the problem statement is: `How to complete the move to Project-Name~Change-Number as unique identifier?`.\n\u003e \n\u003e That statement assumes there was ever an intent and agreement to make project+changeNumber the unique identifier. AFAIK, there was not and I can\u0027t find a reference to any agreement like that in this use case doc (agreement to change the URL structure is not the same).\n\nWill add the links.\n\n\u003e Without a clear problem statement, this use-case is DOA. Please fix that before progressing further.\n\nSure.",
+      "parentUuid": "41b1a02b_f3c0a7f3",
+      "range": {
+        "startLine": 20,
+        "startChar": 11,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f91ee13a_062466d8",
         "filename": "pages/design-docs/project-in-change-url/use-cases.md",
         "patchSetId": 3
@@ -194,6 +242,70 @@
       "writtenOn": "2023-01-11T13:21:13Z",
       "side": 1,
       "message": "How does this relate to the previous paragraph? Also in the pre-notedb times the change ref didn\u0027t contain the branch name",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "244bed55_82943b6f",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-14T13:29:59Z",
+      "side": 1,
+      "message": "See my comments, below: this was referring to keeping the current Change-Numbers without requiring any renumbering.",
+      "parentUuid": "f91ee13a_062466d8",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e50a0e7c_c0afb1a2",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-14T13:29:59Z",
+      "side": 1,
+      "message": "Should be rephrased as `The current Change-Numbers`",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 21
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5bdb8ee_24cac0cc",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-14T13:29:59Z",
+      "side": 1,
+      "message": "Just remove it, redundant.",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 24
+      },
       "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -312,6 +424,24 @@
       "side": 1,
       "message": "I agree, supporting \"legacy\" links is very valuable and should be preserved as long as possible.\nIt is better that a very small number of links are broken due to inconclusive change-identification than to break basically all older links.\n_Even though ITS-links probably is the strongest use-case it is not the only one._",
       "parentUuid": "5d136be4_bf245443",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30413cfb_7bc21914",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-01-14T13:29:59Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "431e2a37_3296efcd",
       "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
