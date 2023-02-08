@@ -13,7 +13,7 @@ toc: false
 
 ## Supported Versions
 
-The Gerrit open-source community actively supports the last 2 releases
+The Gerrit open-source community actively supports the last 3 releases
 on a best effort basis. Older releases are not actively maintained but
 may still receive important fixes (e.g. security fixes), but there is
 no guarantee for this. Which fixes are backported to these old
