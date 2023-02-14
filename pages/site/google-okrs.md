@@ -8,6 +8,44 @@ toc: false
 
 Google plans work per-quarter, using the OKR (Objective/Key-Result) framework.
 
+# Q1 2023
+
+## O: Improve developer productivity
+
+### KR: Improve email notifications to reduce context switches.
+
+### KR: Optimistic updates for comment saving reduces latency.
+
+### KR: User suggested edits
+
+## O: Integration with other products
+
+### KR: Migrate gerrit-review CI to LUCI
+
+
+# Q4 2022
+
+## O: Improve user experience
+
+### KR: Land push notifications
+
+### KR: Improve code-owners UI: show which reviewers own which files
+
+### KR: Improve code-owners UI: owner approvals are sticky across patchsets
+
+### KR: Submit Requirement predicate to prevent merges that create submodule updates
+
+### KR: implement UI and API for rebasing a chain of changes
+
+### KR: per-label ACL to remove votes of other users
+
+### KR: allow change creation from supplied textual patch
+
+## O: Increase system reliability
+
+### KR: migrate further components to Lit
+
+
 # Q3 2022
 
 ## O: Increase system reliability
@@ -25,7 +63,6 @@ This increases maintainability and makes it faster.
 ### KR: Better plugins
 
 Work with SAP on checks-jenkins plugin. Deprecate the checks plugin on gerrit-review.
-
 
 
 ## O: Improve Gerrit customer satisfaction
