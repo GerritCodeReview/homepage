@@ -20,35 +20,7 @@ wishes you want someone else of the community to work on!
 If someone would like to be involved when a specific topic is tackled, please
 [reach out to the ESC](https://gerrit-documentation.storage.googleapis.com/Documentation/3.4.1/dev-roles.html#steering-committee-member).
 
-## Gerrit 3.6
-Target: Q2 2022
+## Gerrit 3.8
+Target: Q1 2023
 
-See [Google 2021 Q4 OKRs](google-okrs.html).
-
-* UX
-  * Composable SubmitRules
-
-## Upcoming plugin improvements related to Gerrit 3.6
-* New plugin: Allow group deletion
-* Replication plugin
-  * Recover events on time basis instead of startup
-  * Do not push to the same destination from more than one primary at a time
-    (URI locks)
-  * Shift the burden of firing pending events onto the specific
-    replication threads for each event's remote
-  * Support for external replication queue
-  * Message-broker based replication queue
-* High-availability plugin
-  * Mention HA and setup for multiple primary hosts in Gerrit documentation
-
-## Upgrades from 2.7 to latest stable release
-* Be able to upgrade a huge site
-  ([Qualcomm](https://groups.google.com/g/repo-discuss/c/WVwvngCkRMs/)) from 2.7
-  to latest stable release in less than 4 hours
-  * [Improve](https://gerrit-review.googlesource.com/q/hashtag:notedb-migration-optimizations)
-    NoteDb offline migration speed (Nov 2021 timing is ~2.5 hours for Qualcomm)
-  * [Improve](https://gerrit-review.googlesource.com/q/hashtag:schema-optimizations)
-    schema upgrade speed (Nov 2021 timing is ~3 hours for Qualcomm)
-  * [Improve](https://gerrit-review.googlesource.com/q/hashtag:reindex-optimizations)
-    offline reindex speed (Nov 2021 timing is ~2 hours for Qualcomm)
-  * Additional improvements planned through Q1 2022
+See [Google 2023 Q1 OKRs](google-okrs.html).
