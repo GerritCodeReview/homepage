@@ -74,8 +74,10 @@ Current maintainers are:
 | Han-Wen Nienhuys           | Google                                  |
 | Jacek Centkowski           | Independent (formerly Digital.ai)       |
 | Joerg Zieren               | Google                                  |
+| Kaushik Lingarkar          | Qualcomm                                |
 | Luca Milanesio             | GerritForge                             |
 | Marco Miller               | Ericsson                                |
+| Marija Savtchouk           | Google                                  |
 | Martin Fick                | Qualcomm                                |
 | Matthias Sohn              | SAP                                     |
 | Milutin Kristofic          | Google                                  |
