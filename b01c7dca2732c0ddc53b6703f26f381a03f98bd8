@@ -118,6 +118,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "423303a7_d35a49f0",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-02-24T17:05:10Z",
+      "side": 1,
+      "message": "mitigates failures",
+      "range": {
+        "startLine": 473,
+        "startChar": 59,
+        "endLine": 473,
+        "endChar": 64
+      },
+      "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cf91f79a_fa6b98a7",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 2
@@ -135,6 +158,46 @@
         "endLine": 477,
         "endChar": 11
       },
+      "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a6b05d5_8c2a6f72",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-02-24T17:05:10Z",
+      "side": 1,
+      "message": "Is this really a feature? It sounds more like a bug fix for Change 353177, which I don\u0027t think you\u0027d need to mention since that\u0027s new in this release.",
+      "range": {
+        "startLine": 483,
+        "startChar": 0,
+        "endLine": 485,
+        "endChar": 43
+      },
+      "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bdfb92a_1dd4c193",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 486,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-02-24T17:05:10Z",
+      "side": 1,
+      "message": "Both minor features, but maybe mention Change 356215 and Change 356234 too?\n\n```\n * [Change 356215](https://gerrit-review.googlesource.com/c/gerrit/+/356215):\n Support `init --reindex-threads\u003d-1` to skip reindexing after init\n \n   Admins may wish to run other commands after `init` and before `reindex`, but\n   previously would have needed to observe and interrupt the `init` command\n   process once it started reindexing in order to do so. Providing an option to\n   `init` that skips the reindexing phase simplifies that workflow and makes it\n   less error prone.\n\n * [Change 356234](https://gerrit-review.googlesource.com/c/gerrit/+/356234):\n Add CUDA syntax highlighting\n```",
       "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -187,6 +250,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5ea5db9c_f442ee0a",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-02-24T17:05:10Z",
+      "side": 1,
+      "message": "Maybe: \"Fixes an issue on wikimedia\"",
+      "range": {
+        "startLine": 534,
+        "startChar": 4,
+        "endLine": 534,
+        "endChar": 36
+      },
+      "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "108e9954_5d50d07a",
         "filename": "pages/site/releases/3.5.md",
         "patchSetId": 2
@@ -203,6 +289,29 @@
         "startChar": 26,
         "endLine": 535,
         "endChar": 33
+      },
+      "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "705cf4bf_cc7b6600",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-02-24T17:05:10Z",
+      "side": 1,
+      "message": "JGit was updated to the later commit a1901305b as well in 3.5.5.",
+      "range": {
+        "startLine": 544,
+        "startChar": 17,
+        "endLine": 544,
+        "endChar": 57
       },
       "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -250,6 +359,47 @@
         "endLine": 547,
         "endChar": 79
       },
+      "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e1c2e39_0ab4930b",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 547,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-02-24T17:05:10Z",
+      "side": 1,
+      "message": "Any advice for what to do with 6.5 since those notes are still empty? https://projects.eclipse.org/projects/technology.jgit/releases/6.5.0\n\nAlso, there are some highlights picked in the commit messages already:\n\n```\n    Notable enhancements are:\n     * 1a364c49e JGit blame very slow for large merge commits that rename\n       files\n\n    Notable fixes are:\n     * 1e04046a6 Fix crashes on rare combination of file names (This issue\n       has been seen during offline reindex of changes with specific merge\n       commits)\n     * 3e7281662 UploadPackServlet#doPost use try-with-resource to ensure\n       UploadPack is closed\n     * 7b1c8cf14 Re-try reading a file when there are concurrent writes\n     * fed1a5493 Refresh \u0027objects\u0027 dir and retry if a loose object is not found\n       (Fixes cases where a new loose object is not immediately visible on a NFS\n       client if it was created on another client)\n```",
+      "parentUuid": "e03503a6_f6e1363e",
+      "range": {
+        "startLine": 547,
+        "startChar": 4,
+        "endLine": 547,
+        "endChar": 79
+      },
+      "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8566fe73_da2137e5",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 549,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-02-24T17:05:10Z",
+      "side": 1,
+      "message": "Mention mina-core update to 2.0.23 too?\n\nAdd a mention of the fixes the sshd bumps brings in?\n\n```\n    Fixes CVE-2022-45047 [1]. It also includes this bug fix likely applicable to\n    Gerrit:\n     * [SSHD-1302] - Reading again from exhausted ChannelExec#getInvertedOut()\n       throws IOException instead of returning -1\n     * [SSHD-966] - Deadlock on disconnection at the end of key-exchange\n     * [SSHD-1231] - Public key authentication: wrong signature algorithm\n       used (ed25519 key with ssh-rsa signature)\n     * [SSHD-1257] - Shell is not getting closed if the command has already\n       closed the OutputStream it is using.\n     * [SSHD-1261] - Sometimes async write listener is not called\n     * [SSHD-1290] - Race condition is logged in ChannelAsyncOutputStream\n\n    [1] https://nvd.nist.gov/vuln/detail/CVE-2022-45047\n```",
       "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
