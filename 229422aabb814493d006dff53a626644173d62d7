@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "371c8d91_d33c1b76",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-02-25T14:01:39Z",
+      "side": 1,
+      "message": "Actually, Gerrit v3.5.4 contained the latest stable-6.1; so the bump is from stable-6.1 to stable-6.5.",
+      "range": {
+        "startLine": 553,
+        "startChar": 14,
+        "endLine": 553,
+        "endChar": 24
+      },
+      "revId": "229422aabb814493d006dff53a626644173d62d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
