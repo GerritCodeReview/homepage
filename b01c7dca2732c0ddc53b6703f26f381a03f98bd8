@@ -780,6 +780,24 @@
       "message": "Mention mina-core update to 2.0.23 too?\n\nAdd a mention of the fixes the sshd bumps brings in?\n\n```\n    Fixes CVE-2022-45047 [1]. It also includes this bug fix likely applicable to\n    Gerrit:\n     * [SSHD-1302] - Reading again from exhausted ChannelExec#getInvertedOut()\n       throws IOException instead of returning -1\n     * [SSHD-966] - Deadlock on disconnection at the end of key-exchange\n     * [SSHD-1231] - Public key authentication: wrong signature algorithm\n       used (ed25519 key with ssh-rsa signature)\n     * [SSHD-1257] - Shell is not getting closed if the command has already\n       closed the OutputStream it is using.\n     * [SSHD-1261] - Sometimes async write listener is not called\n     * [SSHD-1290] - Race condition is logged in ChannelAsyncOutputStream\n\n    [1] https://nvd.nist.gov/vuln/detail/CVE-2022-45047\n```",
       "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1c7fdc5_109ac52e",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 549,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-02-25T15:05:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8566fe73_da2137e5",
+      "revId": "b01c7dca2732c0ddc53b6703f26f381a03f98bd8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
