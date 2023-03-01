@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "013132df_a43cab12",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 395,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-03-01T19:57:08Z",
+      "side": 1,
+      "message": "Should these be in the bug fix section?",
+      "range": {
+        "startLine": 383,
+        "startChar": 0,
+        "endLine": 395,
+        "endChar": 51
+      },
+      "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9b5327b7_e16a11c6",
         "filename": "pages/site/releases/3.6.md",
         "patchSetId": 1
