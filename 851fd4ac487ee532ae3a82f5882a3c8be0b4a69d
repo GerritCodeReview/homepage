@@ -16,6 +16,29 @@
       "message": "Same comments as in https://gerrit-review.googlesource.com/c/homepage/+/361257/1/pages/site/releases/3.6.md",
       "revId": "851fd4ac487ee532ae3a82f5882a3c8be0b4a69d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f4bffb9_81477071",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1149025
+      },
+      "writtenOn": "2023-03-06T17:46:15Z",
+      "side": 1,
+      "message": "Is this correct?\nMarkdown support seemed to be enabled by default when I tried 3.7.1\n\nAlso saw change 346757 which looks to be included in 3.7.0 too.",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 3
+      },
+      "revId": "851fd4ac487ee532ae3a82f5882a3c8be0b4a69d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
