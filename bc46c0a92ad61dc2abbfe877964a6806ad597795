@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f56f3b8e_58e5af16",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 395,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-07T15:04:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "013132df_a43cab12",
+      "range": {
+        "startLine": 383,
+        "startChar": 0,
+        "endLine": 395,
+        "endChar": 51
+      },
+      "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9b5327b7_e16a11c6",
@@ -37,6 +61,24 @@
       "writtenOn": "2023-03-01T19:54:02Z",
       "side": 1,
       "message": "nit: Remove this blank line?",
+      "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a80aed70_0a40507a",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-07T15:04:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b5327b7_e16a11c6",
       "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -64,6 +106,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b001c86d_6709e295",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 418,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-07T15:04:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "161ad699_1d08ae06",
+      "range": {
+        "startLine": 418,
+        "startChar": 31,
+        "endLine": 418,
+        "endChar": 35
+      },
+      "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9c3c638c_22c481da",
@@ -77,6 +143,24 @@
       "writtenOn": "2023-03-01T09:36:39Z",
       "side": 1,
       "message": "nit: missing empty line?",
+      "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e754eb04_e06fe09c",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 487,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-07T15:04:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9c3c638c_22c481da",
       "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -104,6 +188,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2d71ae3_b5343383",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 502,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-07T15:04:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a803768_de4089d3",
+      "range": {
+        "startLine": 500,
+        "startChar": 116,
+        "endLine": 502,
+        "endChar": 17
+      },
+      "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1354998a_7964e9a6",
@@ -117,6 +225,30 @@
       "writtenOn": "2023-03-01T09:36:39Z",
       "side": 1,
       "message": "nit: consider breaking the long lines into 80 chars so that it stays consistent with the rest of the file",
+      "range": {
+        "startLine": 465,
+        "startChar": 2,
+        "endLine": 527,
+        "endChar": 90
+      },
+      "revId": "bc46c0a92ad61dc2abbfe877964a6806ad597795",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48678b27_ace0d4ff",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 527,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-07T15:04:18Z",
+      "side": 1,
+      "message": "Will do win a separate change on 3.5, 3.6 and 3.7 release notes.",
+      "parentUuid": "1354998a_7964e9a6",
       "range": {
         "startLine": 465,
         "startChar": 2,
