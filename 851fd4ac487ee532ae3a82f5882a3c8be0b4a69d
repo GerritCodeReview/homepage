@@ -105,6 +105,30 @@
       },
       "revId": "851fd4ac487ee532ae3a82f5882a3c8be0b4a69d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50ccf8a2_0a9a5070",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1149025
+      },
+      "writtenOn": "2023-03-08T23:36:32Z",
+      "side": 1,
+      "message": "Removed from the wrong feature - Mention @user support is still an experiment in 3.7 I believe.",
+      "parentUuid": "57ecfa85_8b07933d",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 3
+      },
+      "revId": "851fd4ac487ee532ae3a82f5882a3c8be0b4a69d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
