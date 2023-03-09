@@ -38,6 +38,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "73a3d3f2_078f99e0",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-09T11:35:09Z",
+      "side": 1,
+      "message": "This should be restored.",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 0
+      },
+      "revId": "851fd4ac487ee532ae3a82f5882a3c8be0b4a69d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0f4bffb9_81477071",
         "filename": "pages/site/releases/3.7.md",
         "patchSetId": 2
