@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bf7fdcf_54bb6a16",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 530,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-21T23:05:11Z",
+      "side": 1,
+      "message": "This should be in the `* New features` section, and mention the new setting `download.hide`.",
+      "range": {
+        "startLine": 529,
+        "startChar": 0,
+        "endLine": 530,
+        "endChar": 44
+      },
+      "revId": "b8a8822530cfe7292c730b2af47b976d06bb4934",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "054b54a3_e562290c",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-21T23:05:11Z",
+      "side": 1,
+      "message": "+ `Mark` (the Label functions were already deprecated but not marked in the JavaDoc)",
+      "range": {
+        "startLine": 536,
+        "startChar": 2,
+        "endLine": 536,
+        "endChar": 7
+      },
+      "revId": "b8a8822530cfe7292c730b2af47b976d06bb4934",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
