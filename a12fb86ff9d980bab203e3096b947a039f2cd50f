@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8e28b39_cbc7890b",
+        "filename": "_posts/2023-02-01-gerrit-3.8-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-31T12:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d39acb9_88fe332e",
+      "revId": "a12fb86ff9d980bab203e3096b947a039f2cd50f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2239ac2d_91ea78c6",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-03-31T11:10:04Z",
       "side": 1,
       "message": "Word wrap before \"in a\".",
+      "revId": "a12fb86ff9d980bab203e3096b947a039f2cd50f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9c27c5d_3fec770c",
+        "filename": "_posts/2023-02-01-gerrit-3.8-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-03-31T12:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2239ac2d_91ea78c6",
       "revId": "a12fb86ff9d980bab203e3096b947a039f2cd50f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
