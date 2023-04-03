@@ -22,6 +22,30 @@
       },
       "revId": "638024cbeded4c9ed831bfbe3d1fee3850535a9c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eac528c1_fdae151f",
+        "filename": "_posts/2023-03-31-gerrit-3.8-release-plan.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-04-03T20:36:19Z",
+      "side": 1,
+      "message": "It has not been finalised yet, I should have more news by the end of this week.",
+      "parentUuid": "5b21e826_c53e8a3b",
+      "range": {
+        "startLine": 27,
+        "startChar": 89,
+        "endLine": 27,
+        "endChar": 99
+      },
+      "revId": "638024cbeded4c9ed831bfbe3d1fee3850535a9c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
