@@ -22,6 +22,30 @@
       },
       "revId": "3eff97f8ad6828eba6f5580b7cd60a27226ffb3b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3ef1b04_23b0e85b",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-04-10T21:45:25Z",
+      "side": 1,
+      "message": "Nope, we don\u0027t keep the history of the documentation sets of the RCs.",
+      "parentUuid": "3b1236c4_b2d0c06e",
+      "range": {
+        "startLine": 12,
+        "startChar": 95,
+        "endLine": 12,
+        "endChar": 100
+      },
+      "revId": "3eff97f8ad6828eba6f5580b7cd60a27226ffb3b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
