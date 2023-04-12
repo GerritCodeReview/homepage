@@ -102,13 +102,3 @@ Actively developed plugins may have their own subcomponent.
 [p2]: https://bugs.chromium.org/p/gerrit/issues/list?can=2&q=Priority%3D2
 [p3]: https://bugs.chromium.org/p/gerrit/issues/list?can=2&q=Priority%3D3
 [p4]: https://bugs.chromium.org/p/gerrit/issues/list?can=2&q=Priority%3D4
-
-## Versions
-
-### Version
-All bugs require to specify the Gerrit version the bug was found in.
-This helps to categorize bugs and clean up stale bugs.
-
-### TargetMilestone
-The engineer working on fixing an issue can set "TargetMilestone" to specify
-the Gerrit version they expect to deliver the fix.
