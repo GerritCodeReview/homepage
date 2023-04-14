@@ -130,7 +130,11 @@ Source code for additional plugins can be found through the
 
 [Members](https://www.gerritcodereview.com/members.html) of the Gerrit community are expected to behave within the guidelines of the community's [Code Of Conduct](https://www.gerritcodereview.com/codeofconduct.html) when representing the community.  We would like to [praise](https://www.gerritcodereview.com/kudos.html) some of the more recent accomplishements from the community.
 
-Members of the community will discuss most Gerrit related things on the [repo-discuss](https://groups.google.com/group/repo-discuss) mailing list. Events such as user summits and hackathons are announced there. You can also see the events posted on our [Calendar](https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), or if you prefer to follow us on [Twitter@gerritreview](https://twitter.com/gerritreview).  For a more real-time Gerrit discussion, see our [Discord server](https://discord.gg/HkGbBJHYbY).
+Members of the community will discuss most Gerrit related things on the [repo-discuss](https://groups.google.com/group/repo-discuss) mailing list. For a more real-time Gerrit discussion you may also join our [Discord server](https://discord.gg/HkGbBJHYbY).
+
+Events such as user summits and hackathons are announced on the [repo-discuss](https://groups.google.com/group/repo-discuss) mailing list. You can also see the events posted on our [Calendar](https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), or if you prefer to follow us on [Twitter@gerritreview](https://twitter.com/gerritreview).
+
+For face-to-face discussions there is a monthly Gerrit community meeting (monthly on the first Thursday from 5pm to 6pm CET, join the meeting link:https://meet.google.com/kue-ysnz-yme[here]). Everyone is welcome to join and bring up things they like to discuss. The agenda is completely open, but topics may be added beforehand to the link:https://docs.google.com/document/d/1QmrIsyBx52Sk_qWwrcci0hI_SlUWMGiwT8Kp05_ioBw/edit?usp=sharing[agenda]. Please always prefix topics with your name in square brackets, so that it's clear who added which topic.
 
 ## Support
 
