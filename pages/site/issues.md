@@ -73,29 +73,42 @@ above, but there **IS NO guaranteed Service Level Agreement**.
 - *Type-Bug* is broken functionality.
 - *Type-Feature* is a request for new feature or enhancement.
 
-## Component
+## Components
 
-### PolyGerrit
-The new web interface built in Polymer.  Issues in this component are
-actively managed by PolyGerrit maintainers involved in the daily
-development efforts.
+Overview about the most important components (not an exhaustive list).
 
-### NoteDb
-Related to the change metadata in Git project, which is migrating
-Gerrit off the SQL "ReviewDb" database.
+### WebFrontend
+Component for the Gerrit web frontend. Issues in this component are actively
+triaged by the Gerrit Experience team at Google.
 
-### googlesource
-Issue is unique to the `googlesource.com` family of servers, including
-gerrit-review.googlesource.com.  This covers both administration
-support required (e.g.  correct a broken user account) and issues
-unique to the server's plugins (e.g.  authentication/web sessions or
-secondary index).
+### Backend
+General component for Gerrit backend issues. Issues that affect the
+`googlesource.com` family of servers, including gerrit-review.googlesource.com,
+may be tagged with the `Host-Googlesource` label, which brings them to the
+attention of the Gerrit Infrastructure team at Google.
+
+### Hosting>googlesource
+Component for issues that are unique to the `googlesource.com` family of
+servers, including gerrit-review.googlesource.com. This covers both
+administration support required (e.g. fix a broken user account) and issues
+unique to the server's plugins (e.g. authentication/web sessions or secondary
+index). Issues in this component are actively triaged by the Gerrit
+Infrastructure team at Google.
+
+### SteeringCommittee
+Component for issues regarding the
+[governance of the Gerrit project](https://gerrit-review.googlesource.com/Documentation/dev-processes.html#steering-committee).
+The [Engineering Steering Committee](https://www.gerritcodereview.com/members.html#engineering-steering-committee)
+is triaging issues on this component on a regular basis (e.g. monthly).
+
+### Community
+Component for issues regarding the health of the Gerrit community. The
+[community managers](https://www.gerritcodereview.com/members.html#community-managers)
+are triaging issues on this component on a regular basis (e.g. monthly).
 
 ### plugins
-Issues for a plugin project hosted under [plugins/][plugins].
-Actively developed plugins may have their own subcomponent.
-
-[plugins]: https://gerrit.googlesource.com/plugins/
+Plugins that are actively developed may have their own subcomponent:
+`Plugins>{plugin-name}`
 
 [p0]: https://bugs.chromium.org/p/gerrit/issues/list?can=2&q=Priority%3D0
 [p1]: https://bugs.chromium.org/p/gerrit/issues/list?can=2&q=Priority%3D1
