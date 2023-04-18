@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6c92b74_15123dcd",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-18T19:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e946f833_5ceb6cb5",
+      "range": {
+        "startLine": 131,
+        "startChar": 54,
+        "endLine": 131,
+        "endChar": 61
+      },
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c813c40a_6bd7fa34",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-04-18T17:23:25Z",
       "side": 1,
       "message": "s/is/will/",
+      "range": {
+        "startLine": 132,
+        "startChar": 15,
+        "endLine": 132,
+        "endChar": 18
+      },
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82d291f2_37a837c2",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-18T19:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c813c40a_6bd7fa34",
       "range": {
         "startLine": 132,
         "startChar": 15,
@@ -64,6 +112,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7161b2c5_3d09c7a1",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-18T19:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55c3c2b3_c96c3807",
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e8fcf1f7_7ecdc697",
@@ -77,6 +143,24 @@
       "writtenOn": "2023-04-18T17:23:25Z",
       "side": 1,
       "message": "The first sentences below here seem mostly indented when above the mostly aren\u0027t.",
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6e19023_a03f794c",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-18T19:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8fcf1f7_7ecdc697",
       "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -104,6 +188,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e687d10_d9db8a06",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-18T19:46:34Z",
+      "side": 1,
+      "message": "Reworded",
+      "parentUuid": "c6d799f1_2dad053e",
+      "range": {
+        "startLine": 264,
+        "startChar": 2,
+        "endLine": 265,
+        "endChar": 5
+      },
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "036a6086_fb593c9e",
@@ -117,6 +225,30 @@
       "writtenOn": "2023-04-18T17:23:25Z",
       "side": 1,
       "message": "/users/user\u0027s/",
+      "range": {
+        "startLine": 292,
+        "startChar": 30,
+        "endLine": 292,
+        "endChar": 36
+      },
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38252e52_1dffaccc",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-18T19:46:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "036a6086_fb593c9e",
       "range": {
         "startLine": 292,
         "startChar": 30,
