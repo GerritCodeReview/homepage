@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cfd2f49_0368e99e",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-18T15:09:15Z",
+      "side": 1,
+      "message": "nit: Would it make sense to have the \"flavors\" in bullet sub-levels?\n\n* [DockerHub images for arm64|amd64 architectures](https://hub.docker.com/r/gerritcodereview/gerrit/tags?page\u003d1\u0026name\u003d3.8.0)\n\n  * [gerrit:3.8.0-almalinux8](https://hub.docker.com/r/gerritcodereview/gerrit/tags?page\u003d1\u0026name\u003d3.8.0-almalinux8)\n    OS base image upgraded to [AlmaLinux 9.1](https://wiki.almalinux.org/release-notes/9.1.html)\n\n  * [gerrit:3.8.0-ubuntu22](https://hub.docker.com/r/gerritcodereview/gerrit/tags?page\u003d1\u0026name\u003d3.8.0-ubuntu22)\n    OS base image upgraded to [Ubuntu 22](https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668)",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 40
+      },
+      "revId": "b6b6dd08847cd38fc1d5ce401864b96e6b5dab74",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
