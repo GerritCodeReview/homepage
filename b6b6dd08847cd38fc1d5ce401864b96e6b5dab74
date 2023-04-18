@@ -22,6 +22,30 @@
       },
       "revId": "b6b6dd08847cd38fc1d5ce401864b96e6b5dab74",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b951218c_1fda0ee0",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-18T19:46:27Z",
+      "side": 1,
+      "message": "Yep makes sense.\nA lot of this is based on the previous release notes.\nI thought formatting had been long established and agreed upon, but that might hot be the case 😊",
+      "parentUuid": "6cfd2f49_0368e99e",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 92,
+        "endChar": 40
+      },
+      "revId": "b6b6dd08847cd38fc1d5ce401864b96e6b5dab74",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
