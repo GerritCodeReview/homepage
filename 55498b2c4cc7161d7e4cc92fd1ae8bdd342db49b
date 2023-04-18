@@ -1,0 +1,130 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e946f833_5ceb6cb5",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2023-04-18T17:23:25Z",
+      "side": 1,
+      "message": "s/expect/expects/",
+      "range": {
+        "startLine": 131,
+        "startChar": 54,
+        "endLine": 131,
+        "endChar": 61
+      },
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c813c40a_6bd7fa34",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2023-04-18T17:23:25Z",
+      "side": 1,
+      "message": "s/is/will/",
+      "range": {
+        "startLine": 132,
+        "startChar": 15,
+        "endLine": 132,
+        "endChar": 18
+      },
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55c3c2b3_c96c3807",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2023-04-18T17:23:25Z",
+      "side": 1,
+      "message": "Extra indent space?",
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8fcf1f7_7ecdc697",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2023-04-18T17:23:25Z",
+      "side": 1,
+      "message": "The first sentences below here seem mostly indented when above the mostly aren\u0027t.",
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6d799f1_2dad053e",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2023-04-18T17:23:25Z",
+      "side": 1,
+      "message": "This grammar in this sentence seems wrong (\"showing\"?), but I am not sure what the problem actually was, so I am not sure how to fix it.",
+      "range": {
+        "startLine": 264,
+        "startChar": 2,
+        "endLine": 265,
+        "endChar": 5
+      },
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "036a6086_fb593c9e",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1003883
+      },
+      "writtenOn": "2023-04-18T17:23:25Z",
+      "side": 1,
+      "message": "/users/user\u0027s/",
+      "range": {
+        "startLine": 292,
+        "startChar": 30,
+        "endLine": 292,
+        "endChar": 36
+      },
+      "revId": "55498b2c4cc7161d7e4cc92fd1ae8bdd342db49b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
