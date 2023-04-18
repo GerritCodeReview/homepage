@@ -3,6 +3,144 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0ec08700_2e24cebf",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-18T15:00:48Z",
+      "side": 1,
+      "message": "Should this be formatted as a numbered list also?\n\n```\n1. Download the new gerrit.war\n2. Stop Gerrit\n3. Run init\n4. Start Gerrit \n```",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 19
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d92814b_4937ec23",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-18T15:00:48Z",
+      "side": 1,
+      "message": "Move this to \"Schema and index changes\"?\nIt is true for both offline and online upgrades.",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 8
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "997a61c1_705a06d1",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-18T15:00:48Z",
+      "side": 1,
+      "message": "Since it\u0027s an upgrade:\n\n```suggestion\n  java -jar gerrit.war init -d site_path --batch\n```",
+      "range": {
+        "startLine": 31,
+        "startChar": 2,
+        "endLine": 31,
+        "endChar": 40
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a21f4165_8e09469a",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-18T15:00:48Z",
+      "side": 1,
+      "message": "We (at $DAY_JOB) do offline upgrades but we haven\u0027t run offline reindex once for any of our 3.x upgrades.\nThis step is normally unnecessary and is potentially very time-consuming. I don\u0027t think we should recommend it since it really has no benefits IMO.",
+      "range": {
+        "startLine": 32,
+        "startChar": 1,
+        "endLine": 32,
+        "endChar": 59
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd8202bc_27162125",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-18T15:00:48Z",
+      "side": 1,
+      "message": "Wouldn\u0027t this work for Gerrit servers in HA configuration with separate file-systems?",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 7
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c7e7276_6a9c6b65",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-18T15:00:48Z",
+      "side": 1,
+      "message": "3.7.2?",
+      "range": {
+        "startLine": 48,
+        "startChar": 32,
+        "endLine": 48,
+        "endChar": 37
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fa8535e5_98035631",
         "filename": "pages/site/releases/3.8.md",
         "patchSetId": 1
@@ -14,6 +152,29 @@
       "writtenOn": "2023-04-18T07:53:12Z",
       "side": 1,
       "message": "```suggestion\n3. Set the Gerrit server to unhealthy.\n```",
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d70dcaa_e3a3471b",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-18T15:00:48Z",
+      "side": 1,
+      "message": "`one of the Gerrit servers to`?",
+      "range": {
+        "startLine": 51,
+        "startChar": 7,
+        "endLine": 51,
+        "endChar": 24
+      },
       "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
