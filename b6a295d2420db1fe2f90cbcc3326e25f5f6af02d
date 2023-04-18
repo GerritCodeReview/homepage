@@ -191,6 +191,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1f69b5c5_f87d9a0c",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-04-18T16:37:43Z",
+      "side": 1,
+      "message": "\u003e I agree we shouldn\u0027t recommend it as a preferred option (we don\u0027t), nevertheless, I think we should document it as a viable option.\n\nI think we need to keep it documented as an offline reindex is required if you\u0027re upgrading from more than one release version (i.e. 3.6-\u003e3.8). I think you also want to add that starting version caveat to the \"By default\" statement above (I added a comment on PS2 to that effect).",
+      "parentUuid": "ed85f598_2f334fc6",
+      "range": {
+        "startLine": 32,
+        "startChar": 1,
+        "endLine": 32,
+        "endChar": 59
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cd8202bc_27162125",
         "filename": "pages/site/releases/3.8.md",
         "patchSetId": 1

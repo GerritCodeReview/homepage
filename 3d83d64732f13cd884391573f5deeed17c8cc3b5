@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85e097c7_1eac3af1",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-04-18T16:37:43Z",
+      "side": 1,
+      "message": "This is only true if starting from 3.7, correct? Maybe also reference the `index.onlineUpgrade` config? You could make this more obvious by adding a `### Online upgrade from 3.7` section like this:\n\n```suggestion\nThe `changes` index version has been increased to version _82_.\n\n### Online upgrade from 3.7\nBy default, if you\u0027re upgrading from 3.7, the index is automatically\nrebuilt upon Gerrit startup after the upgrade.\n\nIf you\u0027re upgrading from 3.6 or an earlier version, you must use the\nOffline upgrade steps below.\n```",
+      "range": {
+        "startLine": 22,
+        "startChar": 63,
+        "endLine": 24,
+        "endChar": 8
+      },
+      "revId": "3d83d64732f13cd884391573f5deeed17c8cc3b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9366560d_99d93d2b",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-04-18T16:37:43Z",
+      "side": 1,
+      "message": "It\u0027s probably obvious once anyone gets to step 1 below, but maybe it\u0027s worth saying up front that you can only do a zero-downtime upgrade when you have multiple nodes or some other way to run multiple Gerrit processes?",
+      "revId": "3d83d64732f13cd884391573f5deeed17c8cc3b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
