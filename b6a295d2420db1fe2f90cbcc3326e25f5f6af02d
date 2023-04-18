@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa8535e5_98035631",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1144862
+      },
+      "writtenOn": "2023-04-18T07:53:12Z",
+      "side": 1,
+      "message": "```suggestion\n3. Set the Gerrit server to unhealthy.\n```",
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
