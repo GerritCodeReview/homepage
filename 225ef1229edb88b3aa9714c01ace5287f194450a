@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f818e6d_2b7f84f8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-04-18T23:04:39Z",
+      "side": 1,
+      "message": "nit: s/3.7/3.7 version/\n\n```suggestion\n   * If you are upgrading from a 3.7 version, run reindex of `changes`:\n```",
+      "range": {
+        "startLine": 43,
+        "startChar": 31,
+        "endLine": 43,
+        "endChar": 36
+      },
+      "revId": "225ef1229edb88b3aa9714c01ace5287f194450a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5cd12c51_d27d0be0",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-04-18T23:04:39Z",
+      "side": 1,
+      "message": "It\u0027d be nice to link to the reindex doc to show it has more options like --threads. Something like:\n\n```suggestion\n\nSee the [reindex](https://gerrit-documentation.storage.googleapis.com/Documentation/3.8.0/pgm-reindex.html)\nprogram for other options.\n```",
+      "revId": "225ef1229edb88b3aa9714c01ace5287f194450a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
