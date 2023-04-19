@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "20dcc567_42f1925d",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-19T07:07:38Z",
+      "side": 1,
+      "message": "Thanks, this was indeed in the wrong place.\nI have now moved it to the codemirror plugin section.",
+      "parentUuid": "60195b9b_ddca108f",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f74a84f9_db67fb5d",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-04-19T00:17:27Z",
       "side": 1,
       "message": "Commit 351756 was cherry-picked to 3.7 branch as https://gerrit-review.googlesource.com/#/c/351795 and documented in 3.7 release notes https://www.gerritcodereview.com/3.7.html#auto-theme-mode",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "862ae535_730df8f8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-19T07:07:38Z",
+      "side": 1,
+      "message": "Thanks, I have now removed this.",
+      "parentUuid": "f74a84f9_db67fb5d",
       "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -52,6 +88,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c1e4d37_baccc6e7",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-19T07:07:38Z",
+      "side": 1,
+      "message": "Thanks! removed.",
+      "parentUuid": "a3baffce_bbde06b8",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3d764aab_aa935ba8",
@@ -69,6 +123,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6cbdd20_3bfd9235",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 488,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-19T07:07:38Z",
+      "side": 1,
+      "message": "true however they are two distinct changes, both having an individual \"Release-Notes\" section.\nI thought the intent was for both of them to be mentioned.\nPerhaps that was not the case and it might be confusing to mention both.\n\nBut I think you\u0027re right, as far as the users are concerned, this is the main feature, so I\u0027ll be mentioning this one only.\n\nThanks",
+      "parentUuid": "3d764aab_aa935ba8",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0859d1fb_85be8109",
@@ -82,6 +154,24 @@
       "writtenOn": "2023-04-19T00:17:27Z",
       "side": 1,
       "message": "Rebasing a chain not only supported by REST API but also supported by web UI - https://gerrit-review.googlesource.com/c/gerrit/+/359814.\n\nAlso IMHO it\u0027s quite prominent feature, so it would be beneficial if it were mentioned in \u0027Release highlights\u0027 (currently that section is empty anyway).",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67172857_f0789d3c",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-04-19T07:07:38Z",
+      "side": 1,
+      "message": "Good point, I have added the relevant change to the UI changes section.\n\nAs for the `Highlights` I think you\u0027re right, this is definitely one that should be mentioned.\n\nI was thinking a follow up to address highlights, that\u0027s why it is not part of this change yet.\n\nAny suggestion on what else should be mentioned?\nI am thinking definitely \"rebasing on behalf of the uploader\", what else?",
+      "parentUuid": "0859d1fb_85be8109",
       "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
