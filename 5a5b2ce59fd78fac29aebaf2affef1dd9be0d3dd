@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60195b9b_ddca108f",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 1041506
+      },
+      "writtenOn": "2023-04-19T00:17:27Z",
+      "side": 1,
+      "message": "Probably it\u0027s better to clarify that this is support for codemirror editor.\n\nDark mode and auto theme were already introduced in Gerrit 3.7 - https://gerrit-review.googlesource.com/#/c/351795",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f74a84f9_db67fb5d",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1041506
+      },
+      "writtenOn": "2023-04-19T00:17:27Z",
+      "side": 1,
+      "message": "Commit 351756 was cherry-picked to 3.7 branch as https://gerrit-review.googlesource.com/#/c/351795 and documented in 3.7 release notes https://www.gerritcodereview.com/3.7.html#auto-theme-mode",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3baffce_bbde06b8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 1041506
+      },
+      "writtenOn": "2023-04-19T00:17:27Z",
+      "side": 1,
+      "message": "Commit 351754 was cherry-picked to 3.7 branch as https://gerrit-review.googlesource.com/#/c/351774 and documented as 3.7 release notes https://www.gerritcodereview.com/3.7.html#copy-links",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d764aab_aa935ba8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 488,
+      "author": {
+        "id": 1041506
+      },
+      "writtenOn": "2023-04-19T00:17:27Z",
+      "side": 1,
+      "message": "This one seems to be duplicating feature listed on line 438.",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0859d1fb_85be8109",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 1041506
+      },
+      "writtenOn": "2023-04-19T00:17:27Z",
+      "side": 1,
+      "message": "Rebasing a chain not only supported by REST API but also supported by web UI - https://gerrit-review.googlesource.com/c/gerrit/+/359814.\n\nAlso IMHO it\u0027s quite prominent feature, so it would be beneficial if it were mentioned in \u0027Release highlights\u0027 (currently that section is empty anyway).",
+      "revId": "5a5b2ce59fd78fac29aebaf2affef1dd9be0d3dd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
