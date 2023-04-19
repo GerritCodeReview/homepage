@@ -63,6 +63,24 @@
       "message": "It\u0027s probably obvious once anyone gets to step 1 below, but maybe it\u0027s worth saying up front that you can only do a zero-downtime upgrade when you have multiple nodes or some other way to run multiple Gerrit processes?",
       "revId": "3d83d64732f13cd884391573f5deeed17c8cc3b5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b2b4cbf_a8fb1edc",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-19T07:43:17Z",
+      "side": 1,
+      "message": "I\u0027d say that it\u0027s covered.\nOptionally \"Have more than one Gerrit server running v3.7.2 or later...\"",
+      "parentUuid": "9366560d_99d93d2b",
+      "revId": "3d83d64732f13cd884391573f5deeed17c8cc3b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

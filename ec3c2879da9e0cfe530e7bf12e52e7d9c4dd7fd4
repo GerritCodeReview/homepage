@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b643ee7_45e531c8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-19T07:43:17Z",
+      "side": 1,
+      "message": "Online index schema upgrade?",
+      "range": {
+        "startLine": 24,
+        "startChar": 4,
+        "endLine": 24,
+        "endChar": 27
+      },
+      "revId": "ec3c2879da9e0cfe530e7bf12e52e7d9c4dd7fd4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b41d4d49_2b1cbf4b",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-19T07:43:17Z",
+      "side": 1,
+      "message": "```suggestion\n2. Stop Gerrit\n3. Ensure all installed plugins are compatible with the new API\n4. Run init\n```",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 11
+      },
+      "revId": "ec3c2879da9e0cfe530e7bf12e52e7d9c4dd7fd4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4948c45_93c87b68",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-19T07:43:17Z",
+      "side": 1,
+      "message": "```suggestion\n   * If you are upgrading from a 3.7 version you don\u0027t need to run reindex (see\n     `Online index schema upgrade` above).\n     If you still want to you will only need to run reindex of `changes`:\n```",
+      "range": {
+        "startLine": 43,
+        "startChar": 5,
+        "endLine": 43,
+        "endChar": 71
+      },
+      "revId": "ec3c2879da9e0cfe530e7bf12e52e7d9c4dd7fd4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}

@@ -239,6 +239,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5d7315c5_e21bf8ce",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-19T07:43:17Z",
+      "side": 1,
+      "message": "\u003e I have seen both approaches.\n\nYes off course you can do an offline reindex if you wish, my point is that the end-result will be the same as if you didn\u0027t do it and let online reindex do it\u0027s job. So the only difference is that your downtime is longer if you run reindex, which IMO always is a bad thing ;-)",
+      "parentUuid": "fd2e55e7_c7f2423e",
+      "range": {
+        "startLine": 32,
+        "startChar": 1,
+        "endLine": 32,
+        "endChar": 59
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cd8202bc_27162125",
         "filename": "pages/site/releases/3.8.md",
         "patchSetId": 1
@@ -274,6 +298,30 @@
       "side": 1,
       "message": "By \"HA configuration with separate file-systems\" do you mean multi-site?\n(I am not aware of any other solution that allows this).\n\nI think that might be the case, but we should verify that events get serialized as expected and understood by producers and consumers across different versions, respectively.\n\nI don\u0027t think any formal testing has been done on this.\n\nIs this what you were referring to?",
       "parentUuid": "cd8202bc_27162125",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 7
+      },
+      "revId": "b6a295d2420db1fe2f90cbcc3326e25f5f6af02d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ac7b48d_0b4b7e0c",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-04-19T07:43:17Z",
+      "side": 1,
+      "message": "\u003e By \"HA configuration with separate file-systems\" do you mean multi-site?\n\nYes.\n\n\u003e (I am not aware of any other solution that allows this).\n\u003e \n\u003e I think that might be the case, but we should verify that events get serialized as expected and understood by producers and consumers across different versions, respectively.\n\u003e \n\u003e I don\u0027t think any formal testing has been done on this.\n\u003e \n\u003e Is this what you were referring to?\n\nYes. I though GerritForge had a multi-site solution and that you ran online upgrades.\nMy question was really \"Is this copy/paste since before a valid multi-site was in place and should also cover multi-site?\"",
+      "parentUuid": "de57a862_3fff4ab0",
       "range": {
         "startLine": 39,
         "startChar": 0,
