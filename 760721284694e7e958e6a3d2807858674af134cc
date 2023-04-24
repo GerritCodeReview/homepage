@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab097a80_7cd034d7",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-04-24T19:42:57Z",
+      "side": 1,
+      "message": "To be consistent with the rest of the links in this file use:\n\n  https://gerrit-review.googlesource.com/335625",
+      "range": {
+        "startLine": 123,
+        "startChar": 18,
+        "endLine": 123,
+        "endChar": 74
+      },
+      "revId": "760721284694e7e958e6a3d2807858674af134cc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
