@@ -39,6 +39,30 @@
       },
       "revId": "9307fce8268ff693a44eea60ca31da794eeeea85",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aac7b8e5_0f796e84",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 1041506
+      },
+      "writtenOn": "2023-04-29T20:55:51Z",
+      "side": 1,
+      "message": "Fix applied (also removed the trailing dot, most changes listed below tend not to have trailing dot).",
+      "parentUuid": "6363cb49_b7293e18",
+      "range": {
+        "startLine": 288,
+        "startChar": 0,
+        "endLine": 290,
+        "endChar": 46
+      },
+      "revId": "9307fce8268ff693a44eea60ca31da794eeeea85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
