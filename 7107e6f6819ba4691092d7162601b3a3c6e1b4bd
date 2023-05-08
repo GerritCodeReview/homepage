@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60509495_2c34c41e",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 455,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-05-08T15:43:05Z",
+      "side": 1,
+      "message": "This should be in a section called `* JGit changes`, just with the other dependencies changes after the `jgit to 74fa245b3c3ccf13afcbec7911c7c8459e48527d`\n\nIs this a JGit fix or a Gerrit fix?",
+      "range": {
+        "startLine": 449,
+        "startChar": 0,
+        "endLine": 455,
+        "endChar": 42
+      },
+      "revId": "7107e6f6819ba4691092d7162601b3a3c6e1b4bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e8437e0_8cb071ec",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 469,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-05-08T15:43:05Z",
+      "side": 1,
+      "message": "Can you rephrase in a simpler form?\n\nE.g.\n```\nAllow hiding a download scheme in the  UI by still allowing to use it.\n```",
+      "range": {
+        "startLine": 468,
+        "startChar": 4,
+        "endLine": 469,
+        "endChar": 62
+      },
+      "revId": "7107e6f6819ba4691092d7162601b3a3c6e1b4bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6f01cb9_d3ed6a07",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 482,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-05-08T15:43:05Z",
+      "side": 1,
+      "message": "Can you add a pointer to the relevant documentation of this new project configuration?\n\nIs this a new feature? If yes, there should be a New Features section at the beginning",
+      "range": {
+        "startLine": 482,
+        "startChar": 31,
+        "endLine": 482,
+        "endChar": 61
+      },
+      "revId": "7107e6f6819ba4691092d7162601b3a3c6e1b4bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
