@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "467cc1f6_425ee3b3",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-09T08:17:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b849510_b7d45b51",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 86
+      },
+      "revId": "7107e6f6819ba4691092d7162601b3a3c6e1b4bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "993de98a_30713e36",
@@ -41,6 +65,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b4ed54d_f2549edf",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-09T08:17:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "993de98a_30713e36",
+      "revId": "7107e6f6819ba4691092d7162601b3a3c6e1b4bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "60509495_2c34c41e",
@@ -54,6 +96,30 @@
       "writtenOn": "2023-05-08T15:43:05Z",
       "side": 1,
       "message": "This should be in a section called `* JGit changes`, just with the other dependencies changes after the `jgit to 74fa245b3c3ccf13afcbec7911c7c8459e48527d`\n\nIs this a JGit fix or a Gerrit fix?",
+      "range": {
+        "startLine": 449,
+        "startChar": 0,
+        "endLine": 455,
+        "endChar": 42
+      },
+      "revId": "7107e6f6819ba4691092d7162601b3a3c6e1b4bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f14be1be_79fee0cc",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 455,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-09T08:17:32Z",
+      "side": 1,
+      "message": "It was fixed in two places: JGit: [1] and Gerrit: [2]. Done.\n\n[1]: https://git.eclipse.org/r/c/jgit/jgit/+/168537\n[2]: https://gerrit-review.googlesource.com/c/gerrit/+/362914",
+      "parentUuid": "60509495_2c34c41e",
       "range": {
         "startLine": 449,
         "startChar": 0,
@@ -87,6 +153,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6729f3a5_375e037c",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 469,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-09T08:17:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e8437e0_8cb071ec",
+      "range": {
+        "startLine": 468,
+        "startChar": 4,
+        "endLine": 469,
+        "endChar": 62
+      },
+      "revId": "7107e6f6819ba4691092d7162601b3a3c6e1b4bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c6f01cb9_d3ed6a07",
@@ -100,6 +190,30 @@
       "writtenOn": "2023-05-08T15:43:05Z",
       "side": 1,
       "message": "Can you add a pointer to the relevant documentation of this new project configuration?\n\nIs this a new feature? If yes, there should be a New Features section at the beginning",
+      "range": {
+        "startLine": 482,
+        "startChar": 31,
+        "endLine": 482,
+        "endChar": 61
+      },
+      "revId": "7107e6f6819ba4691092d7162601b3a3c6e1b4bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95130b49_09f39c61",
+        "filename": "pages/site/releases/3.5.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 482,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-09T08:17:32Z",
+      "side": 1,
+      "message": "The optimization is based on the existing project configuration: `Create a new change for every commit not in the target branch`. Done.",
+      "parentUuid": "c6f01cb9_d3ed6a07",
       "range": {
         "startLine": 482,
         "startChar": 31,
