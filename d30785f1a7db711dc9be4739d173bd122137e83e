@@ -164,6 +164,30 @@
       },
       "revId": "d30785f1a7db711dc9be4739d173bd122137e83e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "991c1ac5_46022bbb",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 442,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-11T14:26:28Z",
+      "side": 1,
+      "message": "I rephrased that fix and other important changes already mentioned above:\n\n```\nAllow hiding a download scheme in the UI by still allowing to use it.\n```",
+      "parentUuid": "14f47db1_ee74c6f5",
+      "range": {
+        "startLine": 441,
+        "startChar": 0,
+        "endLine": 442,
+        "endChar": 43
+      },
+      "revId": "d30785f1a7db711dc9be4739d173bd122137e83e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
