@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26f49dcd_ef5f6e74",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-05-11T13:45:14Z",
+      "side": 1,
+      "message": "```suggestion\n    Introduce [a new metric](point to the documentation?) which can be used to monitor total memory allocation rate causing work for the Java gc.\n```",
+      "range": {
+        "startLine": 430,
+        "startChar": 4,
+        "endLine": 431,
+        "endChar": 20
+      },
+      "revId": "d30785f1a7db711dc9be4739d173bd122137e83e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8de7ba73_97658e2e",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 434,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-05-11T13:45:14Z",
+      "side": 1,
+      "message": "Of which class?",
+      "range": {
+        "startLine": 434,
+        "startChar": 7,
+        "endLine": 434,
+        "endChar": 18
+      },
+      "revId": "d30785f1a7db711dc9be4739d173bd122137e83e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14f47db1_ee74c6f5",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 442,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-05-11T13:45:14Z",
+      "side": 1,
+      "message": "Can you specify if there are fixes in the latest master that are worth mentioning here?",
+      "range": {
+        "startLine": 441,
+        "startChar": 0,
+        "endLine": 442,
+        "endChar": 43
+      },
+      "revId": "d30785f1a7db711dc9be4739d173bd122137e83e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
