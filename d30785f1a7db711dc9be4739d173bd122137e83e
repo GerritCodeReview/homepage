@@ -48,6 +48,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1112fa2_0fff095d",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-11T14:18:05Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "26f49dcd_ef5f6e74",
+      "range": {
+        "startLine": 430,
+        "startChar": 4,
+        "endLine": 431,
+        "endChar": 20
+      },
+      "revId": "d30785f1a7db711dc9be4739d173bd122137e83e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8de7ba73_97658e2e",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "LabelType.Builder",
       "parentUuid": "8de7ba73_97658e2e",
+      "range": {
+        "startLine": 434,
+        "startChar": 7,
+        "endLine": 434,
+        "endChar": 18
+      },
+      "revId": "d30785f1a7db711dc9be4739d173bd122137e83e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2921da36_aebdb568",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 434,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-11T14:18:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b4b2fb62_1201bee6",
       "range": {
         "startLine": 434,
         "startChar": 7,
