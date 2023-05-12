@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2de6fffb_8833037e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-05-12T04:51:23Z",
+      "side": 1,
+      "message": "@david do we mention libs upgrade in the release notes? e.g.\n* Update bouncycastle to 1.72 (I846f51d83de5e0fec27022a7bc2927260f4465be)\n* Align commons-compress and tukaani-xz versions with jgit (I4103f08027581c9be8655d90864489f0ab3616ed)\n* Update bazel to 6.2.1 and remote_java_tools to 12.1 to fix build on MacOS 13.3 (Ib9d8d8be44a58c470f712d297c39518498c43dc2)\n* there is also this `3.6.x` fix `Fix the search by query in the project filter` (367034)",
+      "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
