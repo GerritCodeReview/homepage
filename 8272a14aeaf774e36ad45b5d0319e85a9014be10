@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "188aa0d6_c4649361",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-12T08:50:29Z",
+      "side": 1,
+      "message": "Bazel was actually updated to 6.1.2. Done.",
+      "parentUuid": "2de6fffb_8833037e",
+      "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7bcee4b4_7c531a0e",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-05-12T07:02:16Z",
       "side": 1,
       "message": "this is not a bug fix but a new feature",
+      "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa72c5c7_2b225399",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 545,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-12T08:50:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7bcee4b4_7c531a0e",
       "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -52,6 +88,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b557811f_93676792",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 585,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-12T08:50:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "841c54ae_9ba437a1",
+      "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e79f474_4b9d087f",
@@ -65,6 +119,30 @@
       "writtenOn": "2023-05-12T07:02:16Z",
       "side": 1,
       "message": "`LabelType.Builder#setFunction`",
+      "range": {
+        "startLine": 591,
+        "startChar": 7,
+        "endLine": 591,
+        "endChar": 18
+      },
+      "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6d89c47_36f0e660",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 591,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-12T08:50:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e79f474_4b9d087f",
       "range": {
         "startLine": 591,
         "startChar": 7,
@@ -98,6 +176,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d33a3759_322ceea5",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 597,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-12T08:50:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "705c2f73_3e92c5b7",
+      "range": {
+        "startLine": 597,
+        "startChar": 2,
+        "endLine": 597,
+        "endChar": 34
+      },
+      "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f0094059_36eb5b67",
@@ -115,6 +217,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "794dccc9_55cca16b",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 602,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-12T08:50:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f0094059_36eb5b67",
+      "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9f4db6d1_8e05662f",
@@ -128,6 +248,24 @@
       "writtenOn": "2023-05-12T07:02:16Z",
       "side": 1,
       "message": "[Change 372814](https://gerrit-review.googlesource.com/c/gerrit/+/372814)\nUpdate bouncycastle to 1.72\n\n[Change 372711](https://gerrit-review.googlesource.com/c/gerrit/+/372711)\nUpdate commons-compress version to 1.22",
+      "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9bf984c_2134d1ac",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 617,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-05-12T08:50:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9f4db6d1_8e05662f",
       "revId": "8272a14aeaf774e36ad45b5d0319e85a9014be10",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
