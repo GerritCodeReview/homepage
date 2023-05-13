@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc5d75b0_8fae5db7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-05-13T01:32:52Z",
+      "side": 1,
+      "message": "The v3.7.3 needs to be linked to the other \"last release\" links in the site:\n- index.md\n- _data/topnav.yml",
+      "revId": "c2317e253e359a784bf2f6781a921e2201540933",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
