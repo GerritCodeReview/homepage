@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8ca3d33_b0b906f6",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1111258
+      },
+      "writtenOn": "2023-05-19T21:20:45Z",
+      "side": 1,
+      "message": "```suggestion\nGerrit does not render properly the modal dialogs on Safari 15.3, Chrome 36, Edge 78, and Firefox 97\n```",
+      "revId": "a88889e545a5a83d75ccb579ee5a4456bd4e0680",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
