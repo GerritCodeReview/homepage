@@ -18,7 +18,7 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 Latest release: **[3.7](/3.7.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
-## 3.8 (RC)
+## 3.8
 
 * Rebase on behalf of the uploader
 
@@ -54,7 +54,7 @@ Latest release: **[3.7](/3.7.html)**. The support status of all recent Gerrit ve
 
 [Release notes for Gerrit 3.6](/3.6.html)
 
-## 3.5
+## 3.5 (EOL)
 
 * Java 8 support dropped
 
