@@ -10,7 +10,7 @@ toc: false
 
 ## <a id="overview"> Overview
 
-This solution suggests writing a simple plugin that enables deletion of groups.
+This solution suggests implementation of the feature in the core.
 
 ## <a id="detailed-design"> Detailed Design
 
@@ -39,14 +39,17 @@ There is no limitation on scale here.
 ## <a id="alternatives-considered"> Alternatives Considered
 
 1. Write a script that deletes the groups. Not very clean but it is an option.
-
-1. Plugin REST endpoint that deletes the group. By default, the endpoint should
+2. Plugin REST endpoint that deletes the group. By default, the endpoint should
 move the group to `refs/deleted-groups` and also ensure that the deletion
 shows up in the audit log. We could also add a configuration option that allows
 deleting the group completely. One problem with this is the time for implementing this
 option. It requires adding some functionality that nobody asked for, and also editing the
 creation of a new group (if the group is in `refs/deleted-groups`, move it from
 `deleted-groups` and connect it to the audit log of the previously created group).
+3. Implementing group deletion as a plugin is challenging due to possibility of
+GUI implementation of delete group on the group page. Existing plugin support lack 
+an endpoint for modifying group UI config page. There is also limitation with using 
+private methods for manipulating groups.
 
 ## <a id="pros-and-cons"> Pros and Cons
 
