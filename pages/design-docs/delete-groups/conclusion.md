@@ -21,7 +21,17 @@ host admins/owners might rely on core Gerrit's audit for groups to keep
 track of all modifications. Enabling traceless group deletion without explicit
 consent from these persons would likely result in negative surprises.
 
+To save audit log within the core Gerrit implementation, one approach is
+to save all audit records in a new branch called refs/meta/deleted-group or store
+them in a data directory if necessary. The core Gerrit implementation
+already has established structures and functions for manipulating group data, such
+as rename and group creation, which makes it more readable and coherent to include
+the delete group functionality within the core.
+Implementing group deletion as a core feature also offers scalability benefits as
+it requires less maintenance compared to an external plugin. By reusing existing
+core functions and maintaining all group-related operations in one place, the
+system becomes easier to manage in the long run.
+
 Implementing 2) is more effort, though, and even more so if want to offer 1)
 and 2) both inside of core Gerrit. The proposer of the design wishes to support
-just 1). Hence, we recommend to implement 1) in a plugin. Before that plugin
-can become a core plugin in the future, it needs to also support 2).
+just 1). Hence, we recommend to implement 1) in a core Gerrit.
