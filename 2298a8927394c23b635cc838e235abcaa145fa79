@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bf32cc8_be9b1f82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-06-08T20:24:48Z",
+      "side": 1,
+      "message": "Adding more ESC members for giving more context to the discussion.\n\n@Khai would you like to put this in the next ESC meeting agenda?",
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39763452_2d662a98",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-06-08T20:24:48Z",
+      "side": 1,
+      "message": "The same could be said for the project; however, we decided to implement the deletion of projects as a core-plugin rather than in core.\n\nWhat is making this case different from the delete-project plugin?",
+      "range": {
+        "startLine": 28,
+        "startChar": 30,
+        "endLine": 29,
+        "endChar": 46
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5c262de_9488bcd3",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-06-08T20:24:48Z",
+      "side": 1,
+      "message": "Can you elaborate on that?",
+      "range": {
+        "startLine": 30,
+        "startChar": 51,
+        "endLine": 31,
+        "endChar": 59
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a25fdef_2e093c0f",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-06-08T20:24:48Z",
+      "side": 1,
+      "message": "All plugins can reuse the classes in Gerrit, so I don\u0027t see this as an immediate benefit.",
+      "range": {
+        "startLine": 31,
+        "startChar": 65,
+        "endLine": 32,
+        "endChar": 72
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "507dec8f_2db5d37c",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-06-08T20:24:48Z",
+      "side": 1,
+      "message": "Can you specify how?",
+      "range": {
+        "startLine": 33,
+        "startChar": 15,
+        "endLine": 33,
+        "endChar": 31
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8b76506_80b4d792",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-06-08T20:24:48Z",
+      "side": 1,
+      "message": "Have explored the possibility of adding a UI extension point to add a button or panel? Similarly to what we do with the delete-project plugin.",
+      "range": {
+        "startLine": 49,
+        "startChar": 58,
+        "endLine": 50,
+        "endChar": 52
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
