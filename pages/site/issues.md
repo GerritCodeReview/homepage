@@ -6,9 +6,10 @@ hide_navtoggle: true
 toc: false
 ---
 
-[Issues][list] are tracked at bugs.chromium.org.
+[Issues][list] are tracked in the Gerrit Code Review Tracker at
+https://issues.gerritcodereview.com/.
 
-[list]: https://bugs.chromium.org/p/gerrit/issues/list?can=2
+[list]: https://issues.gerritcodereview.com/issues?q=status:open
 
 ## Status
 
