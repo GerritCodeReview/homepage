@@ -82,6 +82,6 @@ Skipped
 
 ### Monorail Issues assigned to ESC component
 
-We have looked into
-[all open issues](https://bugs.chromium.org/p/gerrit/issues/list?q=component%3AESC&can=2) and closed
-some. The remaining 4 issues are valid and will keep being monitored by the ESC.
+We have looked into all open issues and closed some. The remaining 4 issues are
+valid and will keep being monitored by the ESC.
+
