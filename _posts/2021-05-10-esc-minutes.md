@@ -62,5 +62,5 @@ Skipped
 
 ### Monorail Issues assigned to ESC component
 
-We have looked into
-[all open issues](https://bugs.chromium.org/p/gerrit/issues/list?q=component%3AESC&can=2) and assigned owners to all of them.
+We have looked into all open issues and assigned owners to all of them.
+
