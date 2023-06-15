@@ -98,7 +98,7 @@ think about it and provide feedback for the next meeting.
 ### Review of issues on the ESC component
 
 We briefly went over the issues that have been added to the
-[ESC component](https://bugs.chromium.org/p/gerrit/issues/list?q=component=ESC)
+[ESC component](https://issues.gerritcodereview.com/issues?q=status:open%20componentid:1371029)
 on the issue tracker.
 
 - [Issue 12000 - Publishing plugin artifacts to Maven Central](https://bugs.chromium.org/p/gerrit/issues/detail?id=12000):
