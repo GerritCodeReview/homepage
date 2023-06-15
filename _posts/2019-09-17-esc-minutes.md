@@ -151,7 +151,7 @@ Track ESC work items in the issue tracker
   Generally the ESC work items are small and are tracked in the minutes,
   so we're not sure if it's useful to track them in the issue tracker,
   however we have created an
-  [ESC component](https://bugs.chromium.org/p/gerrit/issues/list?q=component%3AESC%20)
+  [ESC component](https://issues.gerritcodereview.com/issues?q=status:open%20componentid:1371029)
   that can be used to raise issues to ESC members' attention. When this
   component is added to an issue all ESC members are automatically CC'd.
 

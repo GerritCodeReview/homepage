@@ -125,5 +125,5 @@ a separate meeting for 22nd October.
 ### Review of issues on the ESC component
 
 We briefly went over the issues that have been added to the
-[ESC component](https://bugs.chromium.org/p/gerrit/issues/list?q=component=ESC)
+[ESC component](https://issues.gerritcodereview.com/issues?q=status:open%20componentid:1371029)
 on the issue tracker and did not find any that need urgent attention.
