@@ -142,7 +142,7 @@ From: Edwin Kempin (Google)
 > Google team's involvement remained essential here once again. Your hard work,
 > guys and everyone around you, allowed us all to end up releasing Gerrit 3.3.0!
 
-[1] [Ensure that GC#deleteOrphans respects pack lock](https://bugs.chromium.org/p/gerrit/issues/detail?id=13544)<br>
+[1] [Ensure that GC#deleteOrphans respects pack lock](https://issues.gerritcodereview.com/issues/40013013)<br>
 [2] [Work around Gitiles bug on All-Users visibility](https://www.gerritcodereview.com/3.3.html#security-fixes)<br>
 [3] [Make PermissionBackend#ForRef authoritative](https://www.gerritcodereview.com/3.3.html#security-fixes)
 
@@ -244,8 +244,8 @@ Nieder (Google), Jonathan Tan (Google), Luca Milanesio (GerritForge);
 Masaya Suzuki (Google), Matthias Sohn (SAP)**
 
 > The Gerrit open-source project had to deal with 2 severe security
-> vulnerabilities ([issue 10201](https://bugs.chromium.org/p/gerrit/issues/detail?id=10201),
-> [issue 10262](https://bugs.chromium.org/p/gerrit/issues/detail?id=10262))
+> vulnerabilities ([issue 40010078](https://issues.gerritcodereview.com/issues/40010078),
+> [issue 40010130](https://issues.gerritcodereview.com/issues/40010130))
 > that required patching 6 JGit releases and 8 Gerrit releases (2.9 to 2.16).
 > David Pursehouse, David Ostrovsky, Jonathan Nieder, Jonathan Tan,
 > Luca Milanesio, Masaya Suzuki and Matthias Sohn were extremely supportive to
