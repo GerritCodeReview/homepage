@@ -34,6 +34,24 @@
       "parentUuid": "1f0f1b72_a8c80664",
       "revId": "07826cfc2589f6752fe3d1792765fbf77d74a03a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f67adebb_a39c0e50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2023-06-19T07:55:59Z",
+      "side": 1,
+      "message": "We agree that it would be nicer if the query would show \"componentid:SteeringCommittee\" instead of \"componentid:1371029\". The issue tracker team has this tracked, but currently no work on this is planned.\n\nNote, that you can see the component name when you click on the componentid:... operator: https://i.imgur.com/zS4LaCk.png\n\nAlso when querying with the componentid operator typing the component name auto-complete to the component ID: https://i.imgur.com/HkAuCyi.png",
+      "parentUuid": "0e4194d1_491abf64",
+      "revId": "07826cfc2589f6752fe3d1792765fbf77d74a03a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
