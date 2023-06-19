@@ -36,6 +36,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb0f17ef_1d41d35d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1152600
+      },
+      "writtenOn": "2023-06-19T14:32:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "c8e99ec7_6910bb7e",
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "39763452_2d662a98",
@@ -83,6 +101,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdb1bc96_a0b9e691",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1152600
+      },
+      "writtenOn": "2023-06-19T14:32:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "b97f1ee3_3cb5de18",
+      "range": {
+        "startLine": 28,
+        "startChar": 30,
+        "endLine": 29,
+        "endChar": 46
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a5c262de_9488bcd3",
@@ -120,6 +162,30 @@
       "side": 1,
       "message": "If something change in the core, then it will be revealed right away. The most common situation is when class or method become private, which will break the plugin.",
       "parentUuid": "a5c262de_9488bcd3",
+      "range": {
+        "startLine": 30,
+        "startChar": 51,
+        "endLine": 31,
+        "endChar": 59
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "71255155_f68d3add",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1152600
+      },
+      "writtenOn": "2023-06-19T14:32:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "107d9093_cb1e88fa",
       "range": {
         "startLine": 30,
         "startChar": 51,
@@ -224,6 +290,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e9fe592_34280e37",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1152600
+      },
+      "writtenOn": "2023-06-19T14:32:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "1d88c1e7_f09b9406",
+      "range": {
+        "startLine": 31,
+        "startChar": 65,
+        "endLine": 32,
+        "endChar": 72
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "507dec8f_2db5d37c",
@@ -261,6 +351,30 @@
       "side": 1,
       "message": "To develop a plugin I would copy paste private method, and public methods have potential to be private. it did happened to some methods/class in the past.",
       "parentUuid": "507dec8f_2db5d37c",
+      "range": {
+        "startLine": 33,
+        "startChar": 15,
+        "endLine": 33,
+        "endChar": 31
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82fd0b10_116c3ae6",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1152600
+      },
+      "writtenOn": "2023-06-19T14:32:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "2e378a80_8a73c5f1",
       "range": {
         "startLine": 33,
         "startChar": 15,
@@ -355,6 +469,30 @@
       "side": 1,
       "message": "Yes, I have tried to add the delete-button in the gerrit config. I encounter the problem that there is no plugins for group and the method to invalidate group cache was not available for group. As for delete project there was endpoint and available method to invalidate cache.\nIn this place [3] you can find what endpoint is available to plugins.\nAs you can see here [4] there is only endpoint to invalidate repocache\n\n[3]https://gerrit.googlesource.com/gerrit/+/refs/heads/master/Documentation/pg-plugin-endpoints.txt\n[4]https://gerrit.googlesource.com/gerrit/+/refs/heads/master/polygerrit-ui/app/elements/shared/gr-js-api-interface/gr-plugin-rest-api.ts",
       "parentUuid": "f8b76506_80b4d792",
+      "range": {
+        "startLine": 49,
+        "startChar": 58,
+        "endLine": 50,
+        "endChar": 52
+      },
+      "revId": "2298a8927394c23b635cc838e235abcaa145fa79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "152997d9_f77e702f",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1152600
+      },
+      "writtenOn": "2023-06-19T14:32:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "7421a556_25539b00",
       "range": {
         "startLine": 49,
         "startChar": 58,
