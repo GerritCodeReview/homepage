@@ -206,7 +206,7 @@ but relies on [Nodepool](https://zuul-ci.org/docs/nodepool/) and
 [Ansible](https://www.ansible.com/) for job scheduling and execution.
 
 Monty and James have already started to implement
-[Zuul for upstream Gerrit](https://bugs.chromium.org/p/gerrit/issues/detail?id=11418),
+[Zuul for upstream Gerrit](https://issues.gerritcodereview.com/issues/40011149),
 and we hope to show the progress at the next forthcoming Gerrit User Summit 2019
 USA in November in Sunnyvale CA.
 
@@ -342,7 +342,7 @@ on how to make the event better next time.
 
    Edwin Kempin gave immediate progress on this, by publishing all the action items
    from the retrospective to the
-   [Gerrit Code Review Issue Tracker](https://bugs.chromium.org/p/gerrit/issues/list).
+   [Gerrit Code Review Issue Tracker](https://issues.gerritcodereview.com/issues?q=is:open).
 
 2. We should better advertise the Hackathon and Summit. Outside of the immediate Gerrit
    community, it could be hard for people to learn about these events.

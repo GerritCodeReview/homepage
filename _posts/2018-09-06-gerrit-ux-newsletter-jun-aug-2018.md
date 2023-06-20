@@ -28,7 +28,7 @@ expect to see in the near future.
 
 The presentation of labels was updated to make better use of space, and address
 issues such as
-<a href="https://bugs.chromium.org/p/gerrit/issues/detail?id=8882">this bug</a>.
+<a href="https://issues.gerritcodereview.com/issues/40008971">this bug</a>.
 All labels now appear in two sections, Required labels and Other labels. This
 design solves two UX issues:
 
@@ -83,7 +83,7 @@ comment to another from the file view using the Draft comments panel.
 
 <img src="images/patchset-navigation.png" width="" alt="Screenshot of patchset navigation feature" title="Patchset Navigation Feature">
 
-Informed by bug reports <a href="https://bugs.chromium.org/p/gerrit/issues/detail?id=5946">like this one</a>,
+Informed by bug reports <a href="https://issues.gerritcodereview.com/issues/40006192">like this one</a>,
 the redesign adds:
 
 +  A single drop-down to select patchsets that reduces visual focus shifts and
@@ -101,5 +101,5 @@ Authors: <a href="mailto:arnabb@google.com">arnabb@google.com</a>,
 <a href="mailto:kaspern@google.com">kaspern@google.com</a>,
 <a href="mailto:wyatta@google.com">wyatta@google.com</a>
 
-Bugs? Feedback? <a href="https://bugs.chromium.org/p/gerrit/issues/entry?template=PolyGerrit+Issue">File it here!</a>
+Bugs? Feedback? <a href="https://issues.gerritcodereview.com/issues/new?component=1369968&template=1834342">File it here!</a>
 

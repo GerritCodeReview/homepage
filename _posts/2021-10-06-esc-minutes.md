@@ -35,7 +35,7 @@ Matthias, Patrick, Jacek and Luca will further evolve the ref cache change.
 
 ### RefCache to solve slow account loading and enable draft migration
 
-We discussed https://bugs.chromium.org/p/gerrit/issues/detail?id=14945 and
+We discussed https://issues.gerritcodereview.com/issues/40014084 and
 agreed that the RFC in https://git.eclipse.org/r/c/jgit/jgit/+/186205 is the
 preferred solution.
 

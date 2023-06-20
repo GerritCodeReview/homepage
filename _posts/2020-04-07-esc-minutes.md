@@ -90,13 +90,13 @@ version of ErrorProne and whether we can enable any of the new checks.
 Luca pointed out that the roadmap does not mention anything about Elasticsearch,
 and in fact the support for Elasticsearch has been defined as "experimental" for
 a long time. The latter has already been
-[raised as an issue](https://bugs.chromium.org/p/gerrit/issues/detail?id=11938)
+[raised as an issue](https://issues.gerritcodereview.com/issues/40011610)
 by David last year.
 
 We have recently started looking into reducing the number of Elasticsearch
 versions that are supported in Gerrit, particularly to remove support for those
-versions that have reached EOL.  See [issue 12527](https://bugs.chromium.org/p/gerrit/issues/detail?id=12527)
-and [issue 10922](https://bugs.chromium.org/p/gerrit/issues/detail?id=10922).
+versions that have reached EOL.  See [issue 40010718](https://issues.gerritcodereview.com/issues/40010718)
+and [issue 40010717](https://issues.gerritcodereview.com/issues/40010717).
 
 David mentioned that one of the reasons that Elasticsearch was defined as
 experimental is because nobody (of the core maintainers and developers) was
@@ -108,7 +108,7 @@ versions. David will ask the community managers to help with this.
 
 ### Review of issues on the ESC component
 
-ESC was asked to review [issue 10732](https://bugs.chromium.org/p/gerrit/issues/detail?id=10732)
+ESC was asked to review [issue 40010542](https://issues.gerritcodereview.com/issues/40010542)
 which is a request to make the reviewers plugin a core plugin. David Ostrovsky
 has recently updated that issue to add the information required by the new
 [process for adding a core plugin](https://gerrit-review.googlesource.com/c/gerrit/+/243027).

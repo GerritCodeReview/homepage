@@ -86,7 +86,7 @@ There is consensus on Ben's position: the current contribution process will rema
 
 ### Review of issues on the ESC component
 
-* [Issue 10126 - A better way to prevent spam, or report spammers](http://bugs.chromium.org/p/gerrit/issues/detail?id=10126)
+* [Issue 40009013 - A better way to prevent spam, or report spammers](https://issues.gerritcodereview.com/issues/40009013)
 
   A few months ago, gerrit-review introduced a group for adding accounts that have restricted permissions.
   David Pursehouse raised the issue that having restricted permissions is not enough as the spammers
@@ -96,7 +96,7 @@ There is consensus on Ben's position: the current contribution process will rema
   authorized to the Gerrit maintainers and Ben Rohlfs proposed to add button on the Gerrit
   UI should a suitable API be available in the backend.
 
-* [Issue 11632 - Schedule of the ESC/CM joint meeting](http://bugs.chromium.org/p/gerrit/issues/detail?id=11632)
+* [Issue 40011333 - Schedule of the ESC/CM joint meeting](https://issues.gerritcodereview.com/issues/40011333)
 
   It was supposed to happen during the next forthcoming Gerrit Hackathon in
   April/May 2020, now cancelled because of Covid-19. A follow-up discussion

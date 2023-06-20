@@ -40,8 +40,8 @@ Online meeting, June 5, 17:00-18:00 CET
 
 ### Backlog and communication
 
-* Backlog in new [component "Community" in issue tracker](https://bugs.chromium.org/p/gerrit/issues/list?can=2&q=component%3ACommunity+)
-* Establish a dedicated google group for discussions with community managers, sensitive topics need private group, explore what is supported by google groups, see [issue 10976](https://bugs.chromium.org/p/gerrit/issues/detail?id=10976)
+* Backlog in new [component "Community" in issue tracker](https://issues.gerritcodereview.com/issues?q=componentid:1371048)
+* Establish a dedicated google group for discussions with community managers, sensitive topics need private group, explore what is supported by google groups, see [issue 40010768](https://issues.gerritcodereview.com/issues/40010768)
 
 ### Introduce community managers
 
@@ -50,8 +50,8 @@ Online meeting, June 5, 17:00-18:00 CET
 
 ### Measure community satisfaction
 
-* consider surveys, discussion to be continued, see [issue 10979](https://bugs.chromium.org/p/gerrit/issues/detail?id=10979)
-* community retrospective similar to a scrum retrospective planned for user summit in Gothenburg on 29-30th August, see [issue 10983](https://bugs.chromium.org/p/gerrit/issues/detail?id=10983)
+* consider surveys, discussion to be continued, see [issue 40010771](https://issues.gerritcodereview.com/issues/40010771)
+* community retrospective similar to a scrum retrospective planned for user summit in Gothenburg on 29-30th August, see [issue 40010774](https://issues.gerritcodereview.com/issues/40010774)
 * consider community retrospective after releases
   * gather experience with the retrospective planned for user summit Gothenburg
   * do retrospective face to face at hackathon
@@ -60,17 +60,17 @@ Online meeting, June 5, 17:00-18:00 CET
 ### Possibilities to better align Gerrit community with JGit and Bazel communities
 
 * Bazel conference in Mountain View and Gerrit user summit in Sunnyvale both planned for Nov
-* invite a Bazel talk to the Gerrit user summit in Sunnyvale, see [issue 10982](https://bugs.chromium.org/p/gerrit/issues/detail?id=10982)
-* invite for JGit presentations at Gerrit user summits, see [issue 10980](https://bugs.chromium.org/p/gerrit/issues/detail?id=10980)
+* invite a Bazel talk to the Gerrit user summit in Sunnyvale, see [issue 40010773](https://issues.gerritcodereview.com/issues/40010773)
+* invite for JGit presentations at Gerrit user summits, see [issue 40010772](https://issues.gerritcodereview.com/issues/40010772)
 * [EclipseCon Europe Oct 21-24](https://www.eclipsecon.org/europe2019) would be another opportunity to meet JGit committers and contributors
 
 ### Code of conduct
 
-* consider introducing a code of conduct for the Gerrit project, discussion to be done, see [issue 10984](https://bugs.chromium.org/p/gerrit/issues/detail?id=10984)
+* consider introducing a code of conduct for the Gerrit project, discussion to be done, see [issue 40010775](https://issues.gerritcodereview.com/issues/40010775)
 
 ### Testimonials
 
 * CMs will drive gathering of [testimonials](https://www.gerritcodereview.com/testimonials.html)
-  * [Try to get some as example from/for (about Gerrit at) Google](https://bugs.chromium.org/p/gerrit/issues/detail?id=10989)
-  * [Try to get one from/for (about Gerrit at) SAP](https://bugs.chromium.org/p/gerrit/issues/detail?id=10988)
-  * [Try to get one from/for (about Gerrit at) Ericsson](https://bugs.chromium.org/p/gerrit/issues/detail?id=10987)
+  * [Try to get some as example from/for (about Gerrit at) Google](https://issues.gerritcodereview.com/issues/40010784)
+  * [Try to get one from/for (about Gerrit at) SAP](https://issues.gerritcodereview.com/issues/40010783)
+  * [Try to get one from/for (about Gerrit at) Ericsson](https://issues.gerritcodereview.com/issues/40010782)

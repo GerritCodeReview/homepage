@@ -54,7 +54,7 @@ will be changed as in the screenshot below.
 * [Small redesign of diff expansion row](https://gerrit-review.googlesource.com/c/gerrit/+/252614)
 * [Replace circled i from Unicode with proper icon](https://gerrit-review.googlesource.com/c/gerrit/+/252944)
 * [Add title and shortcuts for some links and buttons](https://gerrit-review.googlesource.com/c/gerrit/+/253544)
-* [Issue linkification should not work across two line breaks](https://bugs.chromium.org/p/gerrit/issues/detail?id=12277)
+* [Issue linkification should not work across two line breaks](https://issues.gerritcodereview.com/issues/40011890)
 * [Add tracking (metrics) on keyboard shortcut usage](https://gerrit-review.googlesource.com/c/gerrit/+/253653)
 * [Show X-Gerrit-Trace in error dialog if exists](https://gerrit-review.googlesource.com/c/gerrit/+/253541)
 * [Link in Blame annotation to commit should go directly to commit](https://gerrit-review.googlesource.com/c/gerrit/+/253127)

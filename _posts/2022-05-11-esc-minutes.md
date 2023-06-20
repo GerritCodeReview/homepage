@@ -20,7 +20,7 @@ June 1, 2022
 ## Status of Gerrit v3.6.0 release plan
 
 RC4 is out and is working as expected; GerritHub.io has already rolled out 50% of
-its sites to v3.6.0 and raised the [Issue 15909](https://bugs.chromium.org/p/gerrit/issues/detail?id=15909)
+its sites to v3.6.0 and raised the [Issue 40014790](https://issues.gerritcodereview.com/issues/40014790)
 caused by a NoteDb format change unnoticed because not advertised by a schema
 version upgrade.
 

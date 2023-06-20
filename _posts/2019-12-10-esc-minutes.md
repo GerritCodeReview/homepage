@@ -66,7 +66,7 @@ Also, the proposal to have a workshop for regular users received positive feedba
 
 ### Use Swagger for the Gerrit REST API
 
-[Issue 11401](https://bugs.chromium.org/p/gerrit/issues/detail?id=11401) suggests
+[Issue 40011133](https://issues.gerritcodereview.com/issues/40011133) suggests
 to use Swagger, which will allow generate REST API documentation and
 stubs for clients.
 
@@ -101,7 +101,7 @@ We briefly went over the issues that have been added to the
 [ESC component](https://issues.gerritcodereview.com/issues?q=status:open%20componentid:1371029)
 on the issue tracker.
 
-- [Issue 12000 - Publishing plugin artifacts to Maven Central](https://bugs.chromium.org/p/gerrit/issues/detail?id=12000):
+- [Issue 40011666 - Publishing plugin artifacts to Maven Central](https://issues.gerritcodereview.com/issues/40011666):
 
   This was requested for the checks plugin.
 
@@ -116,6 +116,6 @@ on the issue tracker.
 
   Luca will look into this some more.
 
-- [Issue 11772 - Clarify future of change identifiers](https://bugs.chromium.org/p/gerrit/issues/detail?id=11772):
+- [Issue 40011458 - Clarify future of change identifiers](https://issues.gerritcodereview.com/issues/40011458):
 
   Patrick confirmed that this did not get discussed during the user summit.

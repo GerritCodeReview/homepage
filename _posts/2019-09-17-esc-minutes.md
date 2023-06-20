@@ -72,12 +72,12 @@ a mandatory step. We should also be careful to keep the discussion of the
 design in the review on Gerrit rather than in the mail thread.
 
 Ben will propose updates to the design process documentation. This is tracked
-in [issue 11533](https://bugs.chromium.org/p/gerrit/issues/detail?id=11533)
+in [issue 40011250](https://issues.gerritcodereview.com/issues/40011250)
 
 ### Consolidation of mock framework for tests
 
 We currently use easymock in core tests, and provide mockito for plugins. It was
-proposed in [issue 5057](https://bugs.chromium.org/p/gerrit/issues/detail?id=5057)
+proposed in [issue 40005348](https://issues.gerritcodereview.com/issues/40005348)
 to consolidate to a single mock framework.
 
 Everyone agreed that it would be better to switch to mockito. David has already
@@ -100,7 +100,7 @@ stable on Java 11 and there is wider adoption of Java 11 in the community.
 
 ### Support for the checks plugin in Gerrit 3.0
 
-In [issue 11489](https://bugs.chromium.org/p/gerrit/issues/detail?id=11489) it
+In [issue 40011210](https://issues.gerritcodereview.com/issues/40011210) it
 was reported that the checks plugin does not build against Gerrit 3.0.
 
 According to comments from Edwin on that issue, and from Alice in the meeting,
@@ -112,7 +112,7 @@ the plugin.
 
 We also discussed whether or not the checks plugin should be promoted to a
 core plugin with the 3.1 release.
-See [issue 11534](https://bugs.chromium.org/p/gerrit/issues/detail?id=11534).
+See [issue 40011251](https://issues.gerritcodereview.com/issues/40011251).
 
 ### Support for git protocol v2
 
@@ -135,14 +135,14 @@ document be written.
 
 Luca will follow up with Marcin Czech, the change author, and bring it to the
 next ESC meeting.
-See [issue 11465](https://bugs.chromium.org/p/gerrit/issues/detail?id=11465).
+See [issue 40011189](https://issues.gerritcodereview.com/issues/40011189).
 
 ### Requests from retrospective
 
 Two issues were raised against ESC during the project retrospective at the
 recent user summit.
 
-* [Issue 11437](https://bugs.chromium.org/p/gerrit/issues/detail?id=11437):
+* [Issue 40011165](https://issues.gerritcodereview.com/issues/40011165):
 Track ESC work items in the issue tracker
 
   We agreed that it's not clear how to contact ESC members, and we should
@@ -160,9 +160,9 @@ Track ESC work items in the issue tracker
   documentation accordingly.
 
   Progress on this can be followed in
-  [issue 11437](https://bugs.chromium.org/p/gerrit/issues/detail?id=11437).
+  [issue 40011165](https://issues.gerritcodereview.com/issues/40011165).
 
-* [Issue 11436](https://bugs.chromium.org/p/gerrit/issues/detail?id=11436):
+* [Issue 40011164](https://issues.gerritcodereview.com/issues/40011164):
 Create an open roadmap for Gerrit 3.1 and beyond.
 
   We agree that a roadmap is needed, and we already identified some features

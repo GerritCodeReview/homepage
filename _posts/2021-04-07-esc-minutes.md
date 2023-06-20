@@ -50,7 +50,7 @@ Ben as the Frontend lead is aware of the problem and proposed the following:
 
 GerritForge will continue to improve the automatic E2E Gatling tests run daily on stable-3.4.
 A temporary 8x slowdown was discussed, but that was a one-off and performance is back to normal.
-Han-Wen has filed [issue 14344](https://bugs.chromium.org/p/gerrit/issues/detail?id=14344) for
+Han-Wen has filed [issue 40013643](https://issues.gerritcodereview.com/issues/40013643) for
 looking into Soy slowdown.
 
 Luca proposed to issue a “weekly release bulletin” with list of commits included, builds
@@ -62,7 +62,7 @@ It was decided to keep ElasticSearch support in 3.4, but remove it in 3.5.
 
 ### Click Tracking
 
-The [issue 14318](https://bugs.chromium.org/p/gerrit/issues/detail?id=14318) was briefly discussed.
+The [issue 40013625](https://issues.gerritcodereview.com/issues/40013625) was briefly discussed.
 Han-Wen and Ben explained how the 'clearcut' plugin works on Google hosted Gerrit instances. It
 collects usage statistics and performance data in accordance with the Google Privacy Policy.
 

@@ -58,7 +58,7 @@ so it goes into 3.2.
 
 ### Make the reviewers plugin a core plugin
 
-[Issue 10732](https://bugs.chromium.org/p/gerrit/issues/detail?id=10732)
+[Issue 40010542](https://issues.gerritcodereview.com/issues/40010542)
 proposes to make the reviewers plugin a core plugin.
 
 We discussed this without reaching any concrete conclusion. We will defer
@@ -67,7 +67,7 @@ a plugin to core, and then revisit this issue.
 
 ### Make checks a core feature instead of a plugin
 
-[Issue 11534](https://bugs.chromium.org/p/gerrit/issues/detail?id=11534)
+[Issue 40011251](https://issues.gerritcodereview.com/issues/40011251)
 proposes to make the checks plugin a core plugin. In that issue David
 Ostrovsky suggested the alternative of making checks a core feature
 rather than a plugin, with the motivation being that a number of current
@@ -98,23 +98,23 @@ is more complete.
 
 If any community members have opinions on whether checks should be a
 core feature, we ask them to add comments on
-[issue 11534](https://bugs.chromium.org/p/gerrit/issues/detail?id=11534).
+[issue 40011251](https://issues.gerritcodereview.com/issues/40011251).
 
 ### Follow up on blocking issues for 3.1
 
 Per the release plan for 3.1 we expect to be cutting the stable-3.1 branch
 and making the first release candidate in a couple of weeks. We had a look
 at the list of issues that are labelled
-[Blocking-3.1](https://bugs.chromium.org/p/gerrit/issues/list?q=label%3ABlocking-3.1).
+[Blocking-3.1](https://issues.gerritcodereview.com/hotlists/5052213).
 
 Ben confirmed that all the Polymer 2 related issues are expected to be fixed
 in time.
 
 Patrick will review the changes related to
-[issue 11643](https://bugs.chromium.org/p/gerrit/issues/detail?id=11643)
+[issue 40009176](https://issues.gerritcodereview.com/issues/40009176)
 ("Replace deprecated numeric types with new dimensional numeric types").
 
-For [issue 11550](https://bugs.chromium.org/p/gerrit/issues/detail?id=11550)
+For [issue 40011264](https://issues.gerritcodereview.com/issues/40011264)
 we decided that reducing the default SSH idle timeout will be a breaking
 change for many users, and we prefer to only submit that change on master
 after stable-3.1 has been cut.
@@ -124,7 +124,7 @@ after stable-3.1 has been cut.
 [Change 129130](https://gerrit-review.googlesource.com/c/gerrit/+/129130) adds
 the framework of a new REST endpoint to delete groups. This is addressing one
 of the oldest still open issues on the issue tracker:
-[issue 44](https://bugs.chromium.org/p/gerrit/issues/detail?id=44).
+[issue 40000131](https://issues.gerritcodereview.com/issues/40000131).
 
 David implemented the framework of the endpoint, but the actual deletion
 of the group is not done. The reason for adding it in the ESC agenda was
@@ -175,14 +175,14 @@ on the issue tracker.
 
 Urgent or important issues will typically already have been added to the agenda
 for the meeting, and we did cover a couple of them today.
-[Issue 11528](https://bugs.chromium.org/p/gerrit/issues/detail?id=11528) was not
+[Issue 40011246](https://issues.gerritcodereview.com/issues/40011246) was not
 on the agenda and we discussed that (see next section).
 
 We added this activity as a standing item on the ESC meeting agenda.
 
 ### Browsing repository should be a first class citizen
 
-[Issue 11528](https://bugs.chromium.org/p/gerrit/issues/detail?id=11528) requests
+[Issue 40011246](https://issues.gerritcodereview.com/issues/40011246) requests
 that finding and browsing code repositories should be provided by the Gerrit UI.
 
 Alice commented that 'first class' means there is a code browser in Gerrit, and

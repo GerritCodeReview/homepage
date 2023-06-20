@@ -25,7 +25,7 @@ March 02, 2021 - 11:00 - 12:00 CET
 
 ## Minutes
 
-### [Selection bug](https://bugs.chromium.org/p/gerrit/issues/detail?id=11811) in Safari
+### [Selection bug](https://issues.gerritcodereview.com/issues/40011496) in Safari
 
 Frontend team at Google added a polyfill workaround. This works for
 older versions of Safari, but not for the latest version of Safari.
