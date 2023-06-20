@@ -16,6 +16,24 @@
       "message": "Also add this hint to the release notes of the other maintained releases 3.6 and 3.7 ?",
       "revId": "049cc4a90f93d4b2953d764d52214c2bfb67e399",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db8f2395_e4af49ca",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2023-06-20T12:34:49Z",
+      "side": 1,
+      "message": "Good point. Done.",
+      "parentUuid": "22ad39a5_6bd60cef",
+      "revId": "049cc4a90f93d4b2953d764d52214c2bfb67e399",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
