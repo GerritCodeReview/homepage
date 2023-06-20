@@ -63,7 +63,7 @@ bug fixes and ad-hoc releases through any vendor that provides
 ### Accidental breakage of the conflicts UI in v3.4
 
 During the release of Gerrit v3.4.0, the functionality of displaying of
-[conflicting changes was accidentally broken](https://bugs.chromium.org/p/gerrit/issues/detail?id=14561).
+[conflicting changes was accidentally broken](https://issues.gerritcodereview.com/issues/40013800).
 The problem went unnoticed because there are not specific test validating the
 feature, and it is not used anymore in any of Google's `*-review.googlesource.com`
 sites.

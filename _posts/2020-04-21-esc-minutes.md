@@ -48,7 +48,7 @@ how to include in our Bazel build.
 ElasticSearch has been flagged experimental for many releases. Marco Miller
 (Community Manager) has agreed to prepare and circulate a survey for
 understanding the current use of ElasticSearch and its desired version to be
-supported (see [issue 11938](https://bugs.chromium.org/p/gerrit/issues/detail?id=11938)). Once the
+supported (see [issue 40011610](https://issues.gerritcodereview.com/issues/40011610)). Once the
 survey would be completed, the ESC can insert the ElasticSearch support in the
 Gerrit roadmap, with details of which version to consider and where the official
 readiness for production lies in the current or future Gerrit releases.
@@ -64,7 +64,7 @@ refactoring rather than the design of new functionalities).
 By looking at the fit for the reviewers plugin with the core Gerrit use-cases,
 it looks like the functionality makes sense and the current feature set seems
 like a nice addition to Gerrit. For the complete assessment, see the
-[Issue 12614](https://bugs.chromium.org/p/gerrit/issues/detail?id=12614).
+[Issue 40010546](https://issues.gerritcodereview.com/issues/40010546).
 The current implementation and user-journeys need some refinement (e.g. The
 suggestion of reviewers don't seem reasonable and the general behavior
 for WIP/private changes would need to be changed).
@@ -73,7 +73,7 @@ style can be improved. However, the issues are not a
 blocker and can be fixed easily afterwards. The code looks small and properly
 covered by integration tests. There are some `Thread.sleep()` as a means of
 synchronization in the tests, therefore suboptimal but it is not a blocker and
-can be possibly fixed (see [issue 12610](https://bugs.chromium.org/p/gerrit/issues/detail?id=12610)).
+can be possibly fixed (see [issue 40010545](https://issues.gerritcodereview.com/issues/40010545)).
 Overall the issues found are currently blockers in making the reviewers a Gerrit core plugin.
 However, the final decision is postponed to when the issues raised will be resolved.
 
@@ -102,19 +102,19 @@ the Gerrit home page with more details.
 
 ### Review of issues on the ESC component
 
-* [Issue 11637 - Process to remove a core plugin](http://bugs.chromium.org/p/gerrit/issues/detail?id=11637)
+* [Issue 40011335 - Process to remove a core plugin](https://issues.gerritcodereview.com/issues/40011335)
 
   The issue is currently assigned to the ESC, however a follow-up with the CMs
   is needed to understand the possible involvement that we can have.
 
-* [Issue 11632 - Schedule of the ESC/CM joint meeting](http://bugs.chromium.org/p/gerrit/issues/detail?id=11632)
+* [Issue 40011333 - Schedule of the ESC/CM joint meeting](https://issues.gerritcodereview.com/issues/40011333)
 
   It was supposed to happen during the next forthcoming Gerrit Hackathon in
   April/May 2020, now cancelled because of Covid-19. A follow-up discussion
   needs to happen with the CMs to understand how this can be
   coordinated remotely with all the different time-zones to cover.
 
-* [Issue 11534: Checks plugin as a core plugin](http://bugs.chromium.org/p/gerrit/issues/detail?id=11534)
+* [Issue 40011251: Checks plugin as a core plugin](https://issues.gerritcodereview.com/issues/40011251)
 
   The discussion has not started yet, the focus will be possibly postponed to
   Gerrit v3.3.

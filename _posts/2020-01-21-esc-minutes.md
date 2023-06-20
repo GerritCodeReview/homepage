@@ -57,7 +57,7 @@ us. Luca will follow up on this with Matthias.
 
 ### Escalation of LDAP permission saving issue
 
-Ben mentioned that [issue 11980](https://bugs.chromium.org/p/gerrit/issues/detail?id=11980)
+Ben mentioned that [issue 40010299](https://issues.gerritcodereview.com/issues/40010299)
 was escalated to the mailing list and no progress seems to have been made.
 
 Luca will try to reproduce the issue using the Docker environment.

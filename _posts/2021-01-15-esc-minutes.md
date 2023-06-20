@@ -91,11 +91,11 @@ GerritForge has performed a survey with its clients to identify the top #3 probl
 that companies have indicated as show-stoppers for migrating to PolyGerrit in Gerrit v2.16
 and beyond.
 
-1. [Issue 12617](https://bugs.chromium.org/p/gerrit/issues/detail?id=12617): Horizontal spacing usage
+1. [Issue 40012178](https://issues.gerritcodereview.com/issues/40012178): Horizontal spacing usage
 
-2. [Issue 13836](https://bugs.chromium.org/p/gerrit/issues/detail?id=13836): Lack of CSS customisation
+2. [Issue 40013256](https://issues.gerritcodereview.com/issues/40013256): Lack of CSS customisation
 
-3. [Issue 13904](https://bugs.chromium.org/p/gerrit/issues/detail?id=13904): Gap in browsers support
+3. [Issue 40011499](https://issues.gerritcodereview.com/issues/40011499): Gap in browsers support
 
 There is positive attitude for discussing those issues with Ben and the PolyGerrit Team and
 find possible solutions. GerritForge has offered its development Team to cooperate with the

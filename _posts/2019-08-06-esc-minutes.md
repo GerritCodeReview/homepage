@@ -68,7 +68,7 @@ The next meeting will be held on August 20, 12:30 CEST.
   go in `gerrit.config` or `All-Projects`.
 
   This is now being tracked in
-  [issue 11285](https://bugs.chromium.org/p/gerrit/issues/detail?id=11285).
+  [issue 40011036](https://issues.gerritcodereview.com/issues/40011036).
 
 ### Development workflow for frontend fixes
 

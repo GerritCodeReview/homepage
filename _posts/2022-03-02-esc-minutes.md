@@ -33,7 +33,7 @@ The following features are WIP but unlikely to be completed by v3.6:
 - Streaming Java API for retrieving query results
 - Workflow for reviewing/approving non-fast-forward pushes
 
-## [Issue 15707](https://bugs.chromium.org/p/gerrit/issues/detail?id=15707): Adopt Supply Chain Security best practices from SLSA
+## [Issue 40014642](https://issues.gerritcodereview.com/issues/40014642): Adopt Supply Chain Security best practices from SLSA
 
 More clarification on the issue would be required from Nasser. At high-level
 it does not seem like a Gerrit project issue. Gerrit can also be compiled

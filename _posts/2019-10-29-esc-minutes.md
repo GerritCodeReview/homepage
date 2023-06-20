@@ -116,9 +116,9 @@ product and the community on our website, for example:
 
 David pointed out that there have been several issues related to this raised
 against the homepage. See
-[issue 11390](https://bugs.chromium.org/p/gerrit/issues/detail?id=11390),
-[issue 11778](https://bugs.chromium.org/p/gerrit/issues/detail?id=11778), and
-[issue 11779](https://bugs.chromium.org/p/gerrit/issues/detail?id=11779).
+[issue 40011124](https://issues.gerritcodereview.com/issues/40011124),
+[issue 40011463](https://issues.gerritcodereview.com/issues/40011463), and
+[issue 40011464](https://issues.gerritcodereview.com/issues/40011464).
 
 We agreed that we should improve the homepage to better "sell" Gerrit to
 potential users. We will add this on the agenda for the next ESC and Community

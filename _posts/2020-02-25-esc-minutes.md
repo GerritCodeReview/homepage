@@ -71,7 +71,7 @@ decision yet.
 
 ### Review of issues on the ESC component
 
-* [Issue 11772 - future of change Ids](https://bugs.chromium.org/p/gerrit/issues/detail?id=11772)
+* [Issue 40011458 - future of change Ids](https://issues.gerritcodereview.com/issues/40011458)
 
   We agreed that the other forms of change identifier should still be supported,
   and we should therefore cancel the deprecation that was announced with 2.16.

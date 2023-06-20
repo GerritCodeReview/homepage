@@ -61,7 +61,7 @@ still need to be discussed.
 ### Concerns about polygerrit build reproducibility
 
 Recently a dependency of the polygerrit build disappeared, which caused
-build failures. See [issue 12304](https://bugs.chromium.org/p/gerrit/issues/detail?id=12304)
+build failures. See [issue 40011914](https://issues.gerritcodereview.com/issues/40011914)
 for details.
 
 The polygerrit build has recently switched from Bower to NPM which should
@@ -70,7 +70,7 @@ make sure that older releases are still buildable.
 
 ### Direct migration from 2.14 to 2.16
 
-David brought attention to [issue 10248](https://bugs.chromium.org/p/gerrit/issues/detail?id=10248).
+David brought attention to [issue 40010119](https://issues.gerritcodereview.com/issues/40010119).
 Direct migration from 2.14 to 2.16 does not work, and this has been raised
 by users on the mailing list. So far the solution provided is only to do the
 migration with an intermediate step on 2.15.

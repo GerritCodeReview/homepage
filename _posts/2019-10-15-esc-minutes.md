@@ -41,7 +41,7 @@ Members of the community may propose items by adding a change on the
 
 ### Security issue with LDAP and Java 11
 
-[Issue 11567](https://bugs.chromium.org/p/gerrit/issues/detail?id=11567)
+[Issue 40011278](https://issues.gerritcodereview.com/issues/40011278)
 reports that LDAP startTLS doesn't work as expected on Java 11 and is
 marked as a security issue.
 
