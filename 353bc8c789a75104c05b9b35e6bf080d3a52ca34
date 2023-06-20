@@ -16,6 +16,29 @@
       "message": "The biggest obstacle of implementing as plugin, is the potential of UI",
       "revId": "353bc8c789a75104c05b9b35e6bf080d3a52ca34",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "042d8110_2f7fb976",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-06-20T06:23:46Z",
+      "side": 1,
+      "message": "```suggestion\njust 1). Hence, we recommend to implement 1) in core Gerrit.\n```",
+      "range": {
+        "startLine": 37,
+        "startChar": 48,
+        "endLine": 37,
+        "endChar": 61
+      },
+      "revId": "353bc8c789a75104c05b9b35e6bf080d3a52ca34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
