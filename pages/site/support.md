@@ -111,18 +111,29 @@ The triage is not meant to investigate the cause of bugs or assign issues.
 Triaging should include the following steps:
 
 1. Determine the right [priority](#priorities).
-2. Mark feature requests as `Type-Feature`.
+2. For feature requests set `Type` to `Feature Request`.
 3. Check that the component is correctly set, and update it if necessary.
+   Move security and privacy issues to the `Gerrit Code Review > Security`
+   component (componentid: 1371046) to limit the issue visibility.
 4. If necessary, update the issue summary to be clear.
-5. Set label `Security` if it's a security or privacy issue.
-6. Close incomplete issues as `Incomplete`.
-7. Close spam issues as `Invalid`, flag them as spam and then delete them.
-8. Check if the issue has been reported before and close it as `Duplicate` if
-   possible.
-9. Check if reproduction steps are present and clear. If not, ask the reporter
-   to provide them and set the status to `AwaitingInformation`.
-10. Set the status to `Accepted` and add the label `Triaged-Yes` when the
-    triaging is done.
+5. If allowed flag spam issues as spam (3-dot menu -> `Mark as spam...`),
+   otherwise close them as `Won't Fix (Infeasible)`.
+6. Check whether the issue has been reported before and close it as `Duplicate`
+   if possible.
+7. Check if reproduction steps are present and clear. If not, ask the reporter
+   to provide them, assign the issue to the reporter and asked them to unassign
+   themselves from the issue once they provided the missing information (so that
+   the issue goes back into the triage queue).
+8. If the issue is about a bug that affects Gerrit servers hosted by Google
+   (`googlesource.com` servers) add the issue to the `Environment-Google`
+   hotlist (hotlistid: 5052245) so that Googlers can have a look.
+9. For issues that do not effect Gerrit servers hosted by Google
+   (`googlesource.com` servers), add the issue to the `Triaged-Yes` hotlist
+   (hotlistid: 5052889) when the triaging is done.
+
+**Tip:** Star this [bookmark
+group](https://issues.gerritcodereview.com/bookmark-groups/763138) to get the
+standard hotlists suggested when adding issues to hotlists.
 
 Triaging incoming issues is a community effort and is done on a best effort
 basis (also see [below](#response-time-and-slo)).
