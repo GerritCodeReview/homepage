@@ -16,6 +16,24 @@
       "message": "@Luca, Can we have your review? to move this review closer to completion?",
       "revId": "842b41e18718d9dac5bb9ab75f3f4e32b07f3eec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc09a6a6_f8b715ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-06-26T20:54:38Z",
+      "side": 1,
+      "message": "I\u0027ve put the review of this document in the agenda of the next ESC in July.\nDesign docs cannot be approved with the simple +2 of a single individual, but also needs the agreement of the ESC.",
+      "parentUuid": "2d84a38e_9a81dc26",
+      "revId": "842b41e18718d9dac5bb9ab75f3f4e32b07f3eec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
