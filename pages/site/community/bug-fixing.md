@@ -58,13 +58,13 @@ or master.
 
 To link the bug-fixing commit to the issue you should add a "Bug:" commit-message footer.
 Example:
-For the issue https://bugs.chromium.org/p/gerrit/issues/detail?id=14152, the "Bug:" footer would
+For the issue https://issues.gerritcodereview.com/issues/40013498, the "Bug:" footer would
 look like:
 
 ```
 Document our current bug-fix workflow
 
-Bug: Issue 14152
+Bug: Issue 40013498
 Change-Id: I43574b6464b288643327529a3d0121bc9aad3b67
 ```
 
