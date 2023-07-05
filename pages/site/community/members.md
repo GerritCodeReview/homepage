@@ -20,6 +20,7 @@ Community Managers for the 2022-2023 term are:
 | Edwin Kempin          | Google                 |
 | Matthias Sohn         | SAP                    |
 | Nasser Grainawi       | Qualcomm               |
+| Yolanda Jasso         | GerritForge            |
 
 ### Former community managers
 
