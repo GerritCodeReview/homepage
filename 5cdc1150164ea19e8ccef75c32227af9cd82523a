@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "405e751e_fbbcdc5f",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 447,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2023-07-10T20:47:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "90b80179_f95e91e3",
+      "range": {
+        "startLine": 447,
+        "startChar": 4,
+        "endLine": 447,
+        "endChar": 19
+      },
+      "revId": "5cdc1150164ea19e8ccef75c32227af9cd82523a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "38245b87_00bfe6b9",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-07-10T20:38:03Z",
       "side": 1,
       "message": "did not",
+      "range": {
+        "startLine": 448,
+        "startChar": 58,
+        "endLine": 448,
+        "endChar": 65
+      },
+      "revId": "5cdc1150164ea19e8ccef75c32227af9cd82523a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b349620c_a02626b8",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 448,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2023-07-10T20:47:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38245b87_00bfe6b9",
       "range": {
         "startLine": 448,
         "startChar": 58,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e31c00e3_60bb35a9",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 450,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2023-07-10T20:47:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0563712d_8329cf7b",
+      "range": {
+        "startLine": 449,
+        "startChar": 47,
+        "endLine": 450,
+        "endChar": 46
+      },
+      "revId": "5cdc1150164ea19e8ccef75c32227af9cd82523a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7bb2242a_5e27ac7a",
@@ -83,6 +155,30 @@
       "writtenOn": "2023-07-10T20:38:03Z",
       "side": 1,
       "message": "Not sure this is strictly necessary here, what do you think?",
+      "range": {
+        "startLine": 450,
+        "startChar": 48,
+        "endLine": 452,
+        "endChar": 41
+      },
+      "revId": "5cdc1150164ea19e8ccef75c32227af9cd82523a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "964de2df_143ebd94",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1083454
+      },
+      "writtenOn": "2023-07-10T20:47:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7bb2242a_5e27ac7a",
       "range": {
         "startLine": 450,
         "startChar": 48,
