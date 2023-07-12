@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09e53308_b524a3f0",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-07-12T20:14:51Z",
+      "side": 1,
+      "message": "nit: `s/slashes, replace not/slashes and replace not`\nnit: `s/string , the/string. The`\n\nI realise that it was copy-pasted from `3.6.6` release I will issue a fix for it later.",
+      "range": {
+        "startLine": 546,
+        "startChar": 4,
+        "endLine": 548,
+        "endChar": 73
+      },
+      "revId": "a24444751bdf1d733adde4e1493d507c18d9f9e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7802c787_b9881d07",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 578,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-07-12T20:14:51Z",
+      "side": 1,
+      "message": "nit: extra whitespace?",
+      "range": {
+        "startLine": 578,
+        "startChar": 58,
+        "endLine": 578,
+        "endChar": 60
+      },
+      "revId": "a24444751bdf1d733adde4e1493d507c18d9f9e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c18fac5_4e3384b7",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-07-12T20:14:51Z",
+      "side": 1,
+      "message": "it is already mentioned in line #621",
+      "range": {
+        "startLine": 705,
+        "startChar": 2,
+        "endLine": 709,
+        "endChar": 74
+      },
+      "revId": "a24444751bdf1d733adde4e1493d507c18d9f9e6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
