@@ -1,0 +1,228 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a59e1449_423afe2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "Thanks @Saša for taking care of the minutes, see my feedback below.",
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bf29558_4a2d167e",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "Can we skip August and jump to September?",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 14
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28bcfed2_66294a3b",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "I believe we can hide this intermediate level of discussion",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 44
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac10f895_d015601f",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "See https://gus2023.gerritforge.com: 30th Sep to 1st Oct.",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 7
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b6407a0_544ebfaf",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "Maybe put the link as well?",
+      "range": {
+        "startLine": 41,
+        "startChar": 35,
+        "endLine": 41,
+        "endChar": 48
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6663e37_7014954c",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "So far, we have seen them in the changes queries.",
+      "range": {
+        "startLine": 41,
+        "startChar": 81,
+        "endLine": 41,
+        "endChar": 97
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2723bc1d_80daca12",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "an example",
+      "range": {
+        "startLine": 41,
+        "startChar": 3,
+        "endLine": 41,
+        "endChar": 15
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0410e85_1f1c7caf",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "because",
+      "range": {
+        "startLine": 42,
+        "startChar": 56,
+        "endLine": 42,
+        "endChar": 63
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61a1851a_cc468b99",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "Put the link?",
+      "range": {
+        "startLine": 53,
+        "startChar": 20,
+        "endLine": 53,
+        "endChar": 33
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a701503f_a6724d86",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T22:59:39Z",
+      "side": 1,
+      "message": "gerrit.config",
+      "range": {
+        "startLine": 53,
+        "startChar": 76,
+        "endLine": 53,
+        "endChar": 80
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
