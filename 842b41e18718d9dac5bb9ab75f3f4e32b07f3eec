@@ -70,6 +70,23 @@
       "parentUuid": "12e50d64_23a0c33e",
       "revId": "842b41e18718d9dac5bb9ab75f3f4e32b07f3eec",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "554f2485_3eda3e55",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-12T13:45:24Z",
+      "side": 1,
+      "message": "We should introduce a feature switch in the gerrit.config to allow or disallow the removal of groups. The ability to remove groups would still be allowed to group owners.\n\nIf the groups removal is disabled, then the button should not show up.\n\nOther than that, the ESC agrees with the change.",
+      "revId": "842b41e18718d9dac5bb9ab75f3f4e32b07f3eec",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
