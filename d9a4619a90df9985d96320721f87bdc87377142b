@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "add5d103_e97d922f",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 564,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2023-07-13T13:07:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ed673665_8d588b7c",
+      "range": {
+        "startLine": 564,
+        "startChar": 4,
+        "endLine": 564,
+        "endChar": 20
+      },
+      "revId": "d9a4619a90df9985d96320721f87bdc87377142b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3f3ee630_f71b0f23",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-07-13T09:13:50Z",
       "side": 1,
       "message": "did not",
+      "range": {
+        "startLine": 565,
+        "startChar": 58,
+        "endLine": 566,
+        "endChar": 12
+      },
+      "revId": "d9a4619a90df9985d96320721f87bdc87377142b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c46c4fb2_18747cda",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 566,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2023-07-13T13:07:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f3ee630_f71b0f23",
       "range": {
         "startLine": 565,
         "startChar": 58,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9ceb498_d2539309",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2023-07-13T13:07:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4369a7f6_bc97c4ad",
+      "range": {
+        "startLine": 572,
+        "startChar": 12,
+        "endLine": 572,
+        "endChar": 49
+      },
+      "revId": "d9a4619a90df9985d96320721f87bdc87377142b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7698f1ce_549b94c8",
@@ -83,6 +155,30 @@
       "writtenOn": "2023-07-13T09:13:50Z",
       "side": 1,
       "message": "Removed",
+      "range": {
+        "startLine": 575,
+        "startChar": 2,
+        "endLine": 575,
+        "endChar": 12
+      },
+      "revId": "d9a4619a90df9985d96320721f87bdc87377142b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a1ea00a_935603c0",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 575,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2023-07-13T13:07:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7698f1ce_549b94c8",
       "range": {
         "startLine": 575,
         "startChar": 2,
