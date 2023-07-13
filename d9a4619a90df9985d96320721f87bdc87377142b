@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed673665_8d588b7c",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 564,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-13T09:13:50Z",
+      "side": 1,
+      "message": "We typically indicate the change number here, with a link to gerrit-review",
+      "range": {
+        "startLine": 564,
+        "startChar": 4,
+        "endLine": 564,
+        "endChar": 20
+      },
+      "revId": "d9a4619a90df9985d96320721f87bdc87377142b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f3ee630_f71b0f23",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 566,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-13T09:13:50Z",
+      "side": 1,
+      "message": "did not",
+      "range": {
+        "startLine": 565,
+        "startChar": 58,
+        "endLine": 566,
+        "endChar": 12
+      },
+      "revId": "d9a4619a90df9985d96320721f87bdc87377142b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4369a7f6_bc97c4ad",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-13T09:13:50Z",
+      "side": 1,
+      "message": "Can we make it more user-focused? Just mention that the timeline of events is kept in the same order they are generated.",
+      "range": {
+        "startLine": 572,
+        "startChar": 12,
+        "endLine": 572,
+        "endChar": 49
+      },
+      "revId": "d9a4619a90df9985d96320721f87bdc87377142b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7698f1ce_549b94c8",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 575,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-13T09:13:50Z",
+      "side": 1,
+      "message": "Removed",
+      "range": {
+        "startLine": 575,
+        "startChar": 2,
+        "endLine": 575,
+        "endChar": 12
+      },
+      "revId": "d9a4619a90df9985d96320721f87bdc87377142b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
