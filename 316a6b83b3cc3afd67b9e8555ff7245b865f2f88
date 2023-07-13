@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82536cd6_02f8afa3",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 751,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "the in-memory created ChangeData",
+      "range": {
+        "startLine": 750,
+        "startChar": 51,
+        "endLine": 751,
+        "endChar": 22
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04899782_e71878f0",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 752,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "available",
+      "range": {
+        "startLine": 752,
+        "startChar": 59,
+        "endLine": 752,
+        "endChar": 64
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cfc180d6_d1291752",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 764,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "correct local accounts",
+      "range": {
+        "startLine": 764,
+        "startChar": 8,
+        "endLine": 764,
+        "endChar": 32
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1acd3018_672a6304",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 770,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "I don\u0027t understand this sentence, please rephrase it. \nWhich kind of update is meant here ? \nDid you raise a JGit bug for this behavior ?",
+      "range": {
+        "startLine": 769,
+        "startChar": 4,
+        "endLine": 770,
+        "endChar": 13
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2c8306e_b7afa55c",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "downloads",
+      "range": {
+        "startLine": 794,
+        "startChar": 13,
+        "endLine": 794,
+        "endChar": 21
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db33be83_c944674b",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "disables",
+      "range": {
+        "startLine": 794,
+        "startChar": 48,
+        "endLine": 794,
+        "endChar": 55
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3cceac5_e6f3c130",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "architecture",
+      "range": {
+        "startLine": 794,
+        "startChar": 4,
+        "endLine": 794,
+        "endChar": 8
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fcbe379_8b2c5e55",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 796,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "for",
+      "range": {
+        "startLine": 796,
+        "startChar": 12,
+        "endLine": 796,
+        "endChar": 17
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fed04c67_fb18cee0",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 815,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2023-07-13T21:59:03Z",
+      "side": 1,
+      "message": "the now",
+      "range": {
+        "startLine": 815,
+        "startChar": 39,
+        "endLine": 815,
+        "endChar": 42
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
