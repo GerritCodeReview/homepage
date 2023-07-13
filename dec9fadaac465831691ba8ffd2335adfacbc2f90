@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1d3197c_42cc6d56",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 707,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-13T16:31:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "366cda8b_aba893a2",
+      "range": {
+        "startLine": 703,
+        "startChar": 0,
+        "endLine": 707,
+        "endChar": 73
+      },
+      "revId": "dec9fadaac465831691ba8ffd2335adfacbc2f90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f0bbc3f_469de37f",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-07-13T15:46:23Z",
       "side": 1,
       "message": "As above, check wording in 3.7.4 [1]\n\n[1]:https://gerrit-review.googlesource.com/c/homepage/+/379207",
+      "range": {
+        "startLine": 735,
+        "startChar": 48,
+        "endLine": 737,
+        "endChar": 37
+      },
+      "revId": "dec9fadaac465831691ba8ffd2335adfacbc2f90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "262eb4ab_8acb1214",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-13T16:31:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f0bbc3f_469de37f",
       "range": {
         "startLine": 735,
         "startChar": 48,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d6a341c_f0a39758",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 763,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-13T16:31:49Z",
+      "side": 1,
+      "message": "Thank you, was convinced of the opposite.",
+      "parentUuid": "917d9388_0ca1fd53",
+      "range": {
+        "startLine": 763,
+        "startChar": 5,
+        "endLine": 763,
+        "endChar": 18
+      },
+      "revId": "dec9fadaac465831691ba8ffd2335adfacbc2f90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2939dc7b_dec5b677",
@@ -83,6 +155,30 @@
       "writtenOn": "2023-07-13T15:46:23Z",
       "side": 1,
       "message": "Use issue number instead of change number",
+      "range": {
+        "startLine": 772,
+        "startChar": 5,
+        "endLine": 772,
+        "endChar": 18
+      },
+      "revId": "dec9fadaac465831691ba8ffd2335adfacbc2f90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45485650_4f9733dc",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 772,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-13T16:31:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2939dc7b_dec5b677",
       "range": {
         "startLine": 772,
         "startChar": 5,
