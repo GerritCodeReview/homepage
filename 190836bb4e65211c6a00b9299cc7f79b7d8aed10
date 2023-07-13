@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb09d66e_96ffecde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-07-13T05:47:22Z",
+      "side": 1,
+      "message": "Aparat from that it looks good 👍",
+      "revId": "190836bb4e65211c6a00b9299cc7f79b7d8aed10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "977ef7f5_337ffcfd",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 552,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-07-13T05:47:22Z",
+      "side": 1,
+      "message": "replace with `Issue 287484350`",
+      "range": {
+        "startLine": 552,
+        "startChar": 5,
+        "endLine": 552,
+        "endChar": 18
+      },
+      "revId": "190836bb4e65211c6a00b9299cc7f79b7d8aed10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6481eb9_9b2554b1",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 561,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-07-13T05:47:22Z",
+      "side": 1,
+      "message": "replace with `Issue 289321387`",
+      "range": {
+        "startLine": 561,
+        "startChar": 5,
+        "endLine": 561,
+        "endChar": 18
+      },
+      "revId": "190836bb4e65211c6a00b9299cc7f79b7d8aed10",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
