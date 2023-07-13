@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "366cda8b_aba893a2",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 707,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2023-07-13T15:46:23Z",
+      "side": 1,
+      "message": "Make it consistent with 3.7.4 release notes [1].\n\n[1]: https://gerrit-review.googlesource.com/c/homepage/+/379207",
+      "range": {
+        "startLine": 703,
+        "startChar": 0,
+        "endLine": 707,
+        "endChar": 73
+      },
+      "revId": "dec9fadaac465831691ba8ffd2335adfacbc2f90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f0bbc3f_469de37f",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2023-07-13T15:46:23Z",
+      "side": 1,
+      "message": "As above, check wording in 3.7.4 [1]\n\n[1]:https://gerrit-review.googlesource.com/c/homepage/+/379207",
+      "range": {
+        "startLine": 735,
+        "startChar": 48,
+        "endLine": 737,
+        "endChar": 37
+      },
+      "revId": "dec9fadaac465831691ba8ffd2335adfacbc2f90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "917d9388_0ca1fd53",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 763,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2023-07-13T15:46:23Z",
+      "side": 1,
+      "message": "Use the Issue number instead of the change when provided.",
+      "range": {
+        "startLine": 763,
+        "startChar": 5,
+        "endLine": 763,
+        "endChar": 18
+      },
+      "revId": "dec9fadaac465831691ba8ffd2335adfacbc2f90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2939dc7b_dec5b677",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 772,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2023-07-13T15:46:23Z",
+      "side": 1,
+      "message": "Use issue number instead of change number",
+      "range": {
+        "startLine": 772,
+        "startChar": 5,
+        "endLine": 772,
+        "endChar": 18
+      },
+      "revId": "dec9fadaac465831691ba8ffd2335adfacbc2f90",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
