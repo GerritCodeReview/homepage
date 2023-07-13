@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13e2c83f_fb3c0167",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-13T15:03:43Z",
+      "side": 1,
+      "message": "Thanks Saša.",
+      "revId": "9e7de299f8ecde22f2fe0613e416a131cb5fa755",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c158d369_a8df3694",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-13T15:03:43Z",
+      "side": 1,
+      "message": "nit: extra space",
+      "range": {
+        "startLine": 33,
+        "startChar": 66,
+        "endLine": 33,
+        "endChar": 68
+      },
+      "revId": "9e7de299f8ecde22f2fe0613e416a131cb5fa755",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15ccee2b_bc7f96f1",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-13T15:03:43Z",
+      "side": 1,
+      "message": "nit: extra space",
+      "range": {
+        "startLine": 37,
+        "startChar": 34,
+        "endLine": 37,
+        "endChar": 36
+      },
+      "revId": "9e7de299f8ecde22f2fe0613e416a131cb5fa755",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4112345_6199e9de",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-13T15:03:43Z",
+      "side": 1,
+      "message": "nit: extra new line",
+      "revId": "9e7de299f8ecde22f2fe0613e416a131cb5fa755",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
