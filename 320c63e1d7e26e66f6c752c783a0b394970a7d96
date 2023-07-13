@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "797aeca6_9e7ae731",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8bf29558_4a2d167e",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 14
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "28bcfed2_66294a3b",
@@ -64,6 +88,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a91343c_daa3a3f9",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28bcfed2_66294a3b",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 44
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ac10f895_d015601f",
@@ -77,6 +125,30 @@
       "writtenOn": "2023-07-12T22:59:39Z",
       "side": 1,
       "message": "See https://gus2023.gerritforge.com: 30th Sep to 1st Oct.",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 7
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f098f2f7_2fae09d1",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac10f895_d015601f",
       "range": {
         "startLine": 35,
         "startChar": 0,
@@ -156,6 +228,78 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "199c4196_ebbcc5fe",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3b6407a0_544ebfaf",
+      "range": {
+        "startLine": 41,
+        "startChar": 35,
+        "endLine": 41,
+        "endChar": 48
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8d37d8e_31782544",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6663e37_7014954c",
+      "range": {
+        "startLine": 41,
+        "startChar": 81,
+        "endLine": 41,
+        "endChar": 97
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9e50560_ec7e8a86",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2723bc1d_80daca12",
+      "range": {
+        "startLine": 41,
+        "startChar": 3,
+        "endLine": 41,
+        "endChar": 15
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a0410e85_1f1c7caf",
@@ -169,6 +313,30 @@
       "writtenOn": "2023-07-12T22:59:39Z",
       "side": 1,
       "message": "because",
+      "range": {
+        "startLine": 42,
+        "startChar": 56,
+        "endLine": 42,
+        "endChar": 63
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0dea187_35a00506",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a0410e85_1f1c7caf",
       "range": {
         "startLine": 42,
         "startChar": 56,
@@ -220,6 +388,54 @@
         "startChar": 76,
         "endLine": 53,
         "endChar": 80
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4be12c1f_b79dbe90",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a701503f_a6724d86",
+      "range": {
+        "startLine": 53,
+        "startChar": 76,
+        "endLine": 53,
+        "endChar": 80
+      },
+      "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e9821c9_88287dc1",
+        "filename": "_posts/2023-07-12-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-07-13T14:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61a1851a_cc468b99",
+      "range": {
+        "startLine": 53,
+        "startChar": 20,
+        "endLine": 53,
+        "endChar": 33
       },
       "revId": "320c63e1d7e26e66f6c752c783a0b394970a7d96",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
