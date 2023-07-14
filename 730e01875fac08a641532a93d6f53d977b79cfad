@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "225e238f_ede884de",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 773,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-14T19:59:53Z",
+      "side": 1,
+      "message": "I believe this is too much detail for the Gerrit release notes. Why don\u0027t you just mention the JGit bug 582044 and leave the description to the JGit issue tracker?",
+      "range": {
+        "startLine": 769,
+        "startChar": 4,
+        "endLine": 773,
+        "endChar": 35
+      },
+      "revId": "730e01875fac08a641532a93d6f53d977b79cfad",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
