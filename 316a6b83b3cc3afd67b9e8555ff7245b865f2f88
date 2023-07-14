@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd4140c5_94ebc9d7",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 751,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T07:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82536cd6_02f8afa3",
+      "range": {
+        "startLine": 750,
+        "startChar": 51,
+        "endLine": 751,
+        "endChar": 22
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "04899782_e71878f0",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b115635b_b5aa8959",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 752,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T07:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04899782_e71878f0",
+      "range": {
+        "startLine": 752,
+        "startChar": 59,
+        "endLine": 752,
+        "endChar": 64
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cfc180d6_d1291752",
@@ -60,6 +108,30 @@
       "writtenOn": "2023-07-13T21:59:03Z",
       "side": 1,
       "message": "correct local accounts",
+      "range": {
+        "startLine": 764,
+        "startChar": 8,
+        "endLine": 764,
+        "endChar": 32
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05023896_044bd992",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 764,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T07:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cfc180d6_d1291752",
       "range": {
         "startLine": 764,
         "startChar": 8,
@@ -162,6 +234,78 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "228b87f2_dd7ea25f",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T07:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2c8306e_b7afa55c",
+      "range": {
+        "startLine": 794,
+        "startChar": 13,
+        "endLine": 794,
+        "endChar": 21
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb8a4025_dbb1f766",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T07:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "db33be83_c944674b",
+      "range": {
+        "startLine": 794,
+        "startChar": 48,
+        "endLine": 794,
+        "endChar": 55
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10c3aeee_b378d764",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T07:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3cceac5_e6f3c130",
+      "range": {
+        "startLine": 794,
+        "startChar": 4,
+        "endLine": 794,
+        "endChar": 8
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6fcbe379_8b2c5e55",
@@ -185,6 +329,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a238d8d7_444ac610",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 796,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T07:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6fcbe379_8b2c5e55",
+      "range": {
+        "startLine": 796,
+        "startChar": 12,
+        "endLine": 796,
+        "endChar": 17
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fed04c67_fb18cee0",
@@ -198,6 +366,30 @@
       "writtenOn": "2023-07-13T21:59:03Z",
       "side": 1,
       "message": "the now",
+      "range": {
+        "startLine": 815,
+        "startChar": 39,
+        "endLine": 815,
+        "endChar": 42
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecdd8037_d28b8195",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 815,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T07:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fed04c67_fb18cee0",
       "range": {
         "startLine": 815,
         "startChar": 39,
