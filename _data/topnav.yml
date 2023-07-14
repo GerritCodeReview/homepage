@@ -20,7 +20,7 @@ topnav_dropdowns:
         - title: Members
           url: /members.html
         - title: Contributing
-          external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.8.0/dev-community.html#how-to-contribute
+          external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.8.1/dev-community.html#how-to-contribute
         - title: Fixing a bug
           url: /bug-fixing.html
         - title: Presentations
@@ -48,7 +48,7 @@ topnav_dropdowns:
     - title: Docs
       folderitems:
         - title: Latest
-          external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.8.0/index.html
+          external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.8.1/index.html
         - title: Designs
           url: /design-docs-index.html
         - title: Wiki
