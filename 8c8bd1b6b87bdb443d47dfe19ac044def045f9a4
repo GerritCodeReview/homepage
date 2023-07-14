@@ -94,6 +94,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "edaa7e6d_735d7675",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 770,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-14T22:27:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9d7b78f6_ee48a331",
+      "range": {
+        "startLine": 770,
+        "startChar": 15,
+        "endLine": 770,
+        "endChar": 24
+      },
+      "revId": "8c8bd1b6b87bdb443d47dfe19ac044def045f9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0881ccc4_87982d6b",
@@ -131,6 +155,30 @@
       "side": 1,
       "message": "@ponch78@gmail.com could you please confirm and maybe help me to find the right wording ? I believe that the cache loader `blows up` with the exception: \n\n`java.lang.IllegalArgumentException: Multiple entries with same key: `\n\n...\n\n`at com.google.common.collect.ImmutableMap.conflictException(ImmutableMap.java:211) `\n\nwhen the external_ids_map adds the key twice.",
       "parentUuid": "0881ccc4_87982d6b",
+      "range": {
+        "startLine": 773,
+        "startChar": 27,
+        "endLine": 773,
+        "endChar": 34
+      },
+      "revId": "8c8bd1b6b87bdb443d47dfe19ac044def045f9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aec56602_4a8f3051",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 773,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-14T22:27:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7f20a4ee_3a0c7619",
       "range": {
         "startLine": 773,
         "startChar": 27,
