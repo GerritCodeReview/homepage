@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1695468_026f8b45",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 770,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-07-14T21:45:50Z",
+      "side": 1,
+      "message": "You need to explain the correlation between this description and the JGit issue.\n\nWhat about `, caused by the JGit [Issue 582044](https://bugs.eclipse.org/bugs/show_bug.cgi?id\u003d582044)`",
+      "range": {
+        "startLine": 770,
+        "startChar": 31,
+        "endLine": 770,
+        "endChar": 33
+      },
+      "revId": "ef8e87d769840e872ae199a16a7d1ab86a9bb84c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
