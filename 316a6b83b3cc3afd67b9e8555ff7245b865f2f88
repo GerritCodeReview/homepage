@@ -189,6 +189,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1af87af_8073fed3",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 770,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T10:35:32Z",
+      "side": 1,
+      "message": "Hope this makes more sense.",
+      "parentUuid": "aec5dffa_f59cc5d1",
+      "range": {
+        "startLine": 769,
+        "startChar": 4,
+        "endLine": 770,
+        "endChar": 13
+      },
+      "revId": "316a6b83b3cc3afd67b9e8555ff7245b865f2f88",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c2c8306e_b7afa55c",
