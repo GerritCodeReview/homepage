@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4eacdf1_148fef87",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 750,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T13:04:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bbe853ce_8d042927",
+      "revId": "8c8bd1b6b87bdb443d47dfe19ac044def045f9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dfd0a51d_838f2c04",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-07-14T12:14:06Z",
       "side": 1,
       "message": "remove trailing whitespace",
+      "revId": "8c8bd1b6b87bdb443d47dfe19ac044def045f9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b85b112_e507cb30",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 769,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T13:04:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dfd0a51d_838f2c04",
       "revId": "8c8bd1b6b87bdb443d47dfe19ac044def045f9a4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -94,6 +130,24 @@
       "writtenOn": "2023-07-14T12:14:06Z",
       "side": 1,
       "message": "remove trailing whitespace",
+      "revId": "8c8bd1b6b87bdb443d47dfe19ac044def045f9a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5e735b1_54c50083",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 817,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2023-07-14T13:04:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e7db3a2a_a434bab0",
       "revId": "8c8bd1b6b87bdb443d47dfe19ac044def045f9a4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
