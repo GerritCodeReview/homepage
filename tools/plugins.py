@@ -238,7 +238,11 @@ class Plugins:
 
     def _create_plugins(self):
         """Create plugins by fetching plugin data from Gerrit"""
-        plugin_list = self.api.get("/projects/?p=plugins%2f&d")
+        # Set an explicit limit to get more results than the index default limit
+        # which is applied if no limit is set and which is 100 for gerrit-review
+        # TODO: Instead of setting a high limit paginate over the results (see
+        # https://issues.gerritcodereview.com/issues/296837507)
+        plugin_list = self.api.get("/projects/?p=plugins%2f&d&limit=500")
         builds = requests.get(
             f"{CI}/api/json?pretty=true&tree=jobs[name,lastBuild[result]]"
         ).json()
