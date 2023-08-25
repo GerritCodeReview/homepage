@@ -34,6 +34,29 @@
       "parentUuid": "53ce443f_40fd1b69",
       "revId": "c146f85bd5675423fee5d5a23e9325169c5ca390",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1298a805_9286b2e0",
+        "filename": "pages/design-docs/delete-groups/conclusion.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-08-25T05:57:26Z",
+      "side": 1,
+      "message": "```suggestion\njust 1). Hence, we recommend to implement 1) in core Gerrit.\n```",
+      "range": {
+        "startLine": 37,
+        "startChar": 48,
+        "endLine": 37,
+        "endChar": 61
+      },
+      "revId": "c146f85bd5675423fee5d5a23e9325169c5ca390",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
