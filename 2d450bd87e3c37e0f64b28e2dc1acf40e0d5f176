@@ -16,6 +16,29 @@
       "message": "We dont have permissions to merge",
       "revId": "2d450bd87e3c37e0f64b28e2dc1acf40e0d5f176",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5aa4edce_e4aa55cd",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-09-07T08:10:43Z",
+      "side": 1,
+      "message": "Capability perhaps?",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 8
+      },
+      "revId": "2d450bd87e3c37e0f64b28e2dc1acf40e0d5f176",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
