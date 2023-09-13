@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d1dff54_d0842b03",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 398,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Removed.",
+      "parentUuid": "c2c24b58_2f613476",
+      "range": {
+        "startLine": 388,
+        "startChar": 0,
+        "endLine": 398,
+        "endChar": 65
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "26fcfc73_be971b15",
@@ -54,6 +78,30 @@
       "writtenOn": "2023-09-13T20:20:54Z",
       "side": 1,
       "message": "Just use the imperative form: `Introduce`",
+      "range": {
+        "startLine": 400,
+        "startChar": 4,
+        "endLine": 400,
+        "endChar": 34
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d76b593e_efddf466",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "26fcfc73_be971b15",
       "range": {
         "startLine": 400,
         "startChar": 4,
@@ -87,6 +135,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f0e7cee_641b432e",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "2fb123e8_3e49e4e4",
+      "range": {
+        "startLine": 401,
+        "startChar": 50,
+        "endLine": 402,
+        "endChar": 25
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "91750ba5_1397fe45",
@@ -100,6 +172,30 @@
       "writtenOn": "2023-09-13T20:20:54Z",
       "side": 1,
       "message": "Not relevant IMHO.",
+      "range": {
+        "startLine": 415,
+        "startChar": 4,
+        "endLine": 415,
+        "endChar": 64
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "459d9d90_c37cb0f0",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 415,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "91750ba5_1397fe45",
       "range": {
         "startLine": 415,
         "startChar": 4,
@@ -133,6 +229,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac75fece_2873fc21",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 434,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "03636800_5f0a5ace",
+      "range": {
+        "startLine": 432,
+        "startChar": 4,
+        "endLine": 434,
+        "endChar": 58
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "830e0246_6c22efc1",
@@ -156,6 +276,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "42d4fa46_7aaea4b1",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 440,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "830e0246_6c22efc1",
+      "range": {
+        "startLine": 439,
+        "startChar": 4,
+        "endLine": 440,
+        "endChar": 21
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "092479e5_e9d8e9f4",
@@ -169,6 +313,30 @@
       "writtenOn": "2023-09-13T20:20:54Z",
       "side": 1,
       "message": "This is too complex and can be simplified by saying: `For example any incoming calls that imply the use of the change indexing search, such as a simple Git clone, could miss some refs or fail because of duplicates in the result set`",
+      "range": {
+        "startLine": 451,
+        "startChar": 0,
+        "endLine": 455,
+        "endChar": 24
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d9a30e3_34a69c60",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 455,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "092479e5_e9d8e9f4",
       "range": {
         "startLine": 451,
         "startChar": 0,
@@ -248,6 +416,78 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a564238_7d543cfa",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 457,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "13a8fdfc_4c89c91f",
+      "range": {
+        "startLine": 457,
+        "startChar": 61,
+        "endLine": 457,
+        "endChar": 67
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76e80914_b08f13f9",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 457,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "bcc221f8_3add165d",
+      "range": {
+        "startLine": 457,
+        "startChar": 32,
+        "endLine": 457,
+        "endChar": 35
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f17bde0_3ed918d8",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 457,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "a75aef4f_b9407373",
+      "range": {
+        "startLine": 457,
+        "startChar": 5,
+        "endLine": 457,
+        "endChar": 20
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8406db2a_4f9d0024",
@@ -261,6 +501,30 @@
       "writtenOn": "2023-09-13T20:20:54Z",
       "side": 1,
       "message": "`not resolve the issue of the missing refs in the results`",
+      "range": {
+        "startLine": 458,
+        "startChar": 30,
+        "endLine": 459,
+        "endChar": 27
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bbdbf0c_0e3ee91c",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 459,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "8406db2a_4f9d0024",
       "range": {
         "startLine": 458,
         "startChar": 30,
@@ -294,6 +558,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6be2d67_f6a4458a",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 462,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "e389fe3d_dfaccade",
+      "range": {
+        "startLine": 461,
+        "startChar": 0,
+        "endLine": 462,
+        "endChar": 65
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0f5175e8_d4c2c512",
@@ -307,6 +595,30 @@
       "writtenOn": "2023-09-13T20:20:54Z",
       "side": 1,
       "message": "To be escaped, otherwise is markdown formatting issue.",
+      "range": {
+        "startLine": 474,
+        "startChar": 45,
+        "endLine": 474,
+        "endChar": 46
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26b9324e_6ddeee21",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 474,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "0f5175e8_d4c2c512",
       "range": {
         "startLine": 474,
         "startChar": 45,
@@ -340,6 +652,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c67f2a16_c62af1d5",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "5cfab127_980ae61b",
+      "range": {
+        "startLine": 476,
+        "startChar": 32,
+        "endLine": 476,
+        "endChar": 33
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2962f408_bfe02027",
@@ -363,6 +699,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5113e468_f73dd34f",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 497,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "2962f408_bfe02027",
+      "range": {
+        "startLine": 490,
+        "startChar": 0,
+        "endLine": 497,
+        "endChar": 130
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "04dad2f8_fc41d4b9",
@@ -376,6 +736,30 @@
       "writtenOn": "2023-09-13T20:20:54Z",
       "side": 1,
       "message": "By reading this, I am confused if the issue is fixed or it was simply the revert of the fix?",
+      "range": {
+        "startLine": 527,
+        "startChar": 0,
+        "endLine": 540,
+        "endChar": 69
+      },
+      "revId": "496b252800c37617714f735f21e5070522f57127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b9fc21d_60bb3f54",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 540,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-13T20:40:53Z",
+      "side": 1,
+      "message": "It\u0027s a revert.",
+      "parentUuid": "04dad2f8_fc41d4b9",
       "range": {
         "startLine": 527,
         "startChar": 0,
