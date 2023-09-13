@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67ee05fb_b92d8379",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-09-13T20:45:02Z",
+      "side": 1,
+      "message": "Cool, just one nit. Can you upload a separate change where you update the links at the beginning of the 3.6.md?",
+      "revId": "6e70e29cb36c1b6526c6ce64ed76a26027493592",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4318bc40_c8c58d2b",
+        "filename": "pages/site/releases/3.6.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-09-13T20:45:02Z",
+      "side": 1,
+      "message": "all the ones having the project in their name",
+      "range": {
+        "startLine": 391,
+        "startChar": 47,
+        "endLine": 391,
+        "endChar": 62
+      },
+      "revId": "6e70e29cb36c1b6526c6ce64ed76a26027493592",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
