@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "610bc861_c3f2f7a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-09-14T19:34:09Z",
+      "side": 1,
+      "message": "LGTM, just two small nits.",
+      "revId": "c6dca069a406482554323f97f156b5ae60ca8a67",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de9c9ab2_efa69d50",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 756,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-09-14T19:34:09Z",
+      "side": 1,
+      "message": "nit: wrap long lines.",
+      "range": {
+        "startLine": 755,
+        "startChar": 0,
+        "endLine": 756,
+        "endChar": 82
+      },
+      "revId": "c6dca069a406482554323f97f156b5ae60ca8a67",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a7f1976_7228c016",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 760,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-09-14T19:34:09Z",
+      "side": 1,
+      "message": "nit: wrap long lines.",
+      "range": {
+        "startLine": 759,
+        "startChar": 86,
+        "endLine": 760,
+        "endChar": 92
+      },
+      "revId": "c6dca069a406482554323f97f156b5ae60ca8a67",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
