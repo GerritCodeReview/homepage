@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1723c15e_ac3eb9f8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 762,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-14T19:32:13Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "27ca2eb5_55c4af5c",
+      "range": {
+        "startLine": 752,
+        "startChar": 0,
+        "endLine": 762,
+        "endChar": 79
+      },
+      "revId": "cdf343967449f03eb8953e0c9c1b22e05427fa65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4f8da4fd_021938ea",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-09-14T19:28:33Z",
       "side": 1,
       "message": "I believe the version with the warning wasn\u0027t released yet, hence mentioning this change is not relevant IMHO.",
+      "range": {
+        "startLine": 766,
+        "startChar": 2,
+        "endLine": 771,
+        "endChar": 31
+      },
+      "revId": "cdf343967449f03eb8953e0c9c1b22e05427fa65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fcf2c47_8afaa801",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 771,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-09-14T19:32:13Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "4f8da4fd_021938ea",
       "range": {
         "startLine": 766,
         "startChar": 2,
