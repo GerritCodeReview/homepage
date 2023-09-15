@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c018cb6c_a2243569",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 720,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-09-15T12:17:45Z",
+      "side": 1,
+      "message": "This is already present in the v3.8.1 section (see L836)",
+      "range": {
+        "startLine": 701,
+        "startChar": 0,
+        "endLine": 720,
+        "endChar": 17
+      },
+      "revId": "11eda2fcace798dcdaaec369134d23534dd240c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65bf8a6b_050297b0",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 762,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-09-15T12:17:45Z",
+      "side": 1,
+      "message": "This was already included in v3.8.1, see L847",
+      "range": {
+        "startLine": 726,
+        "startChar": 0,
+        "endLine": 762,
+        "endChar": 17
+      },
+      "revId": "11eda2fcace798dcdaaec369134d23534dd240c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
