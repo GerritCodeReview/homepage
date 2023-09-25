@@ -519,6 +519,46 @@
       "parentUuid": "431e2a37_3296efcd",
       "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4121dcb5_a25e7eff",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1063024
+      },
+      "writtenOn": "2023-09-25T12:42:42Z",
+      "side": 1,
+      "message": "Typo: `project` (also other use cases).",
+      "range": {
+        "startLine": 77,
+        "startChar": 35,
+        "endLine": 77,
+        "endChar": 43
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "297233c2_5aab7524",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1063024
+      },
+      "writtenOn": "2023-09-25T12:42:42Z",
+      "side": 1,
+      "message": "Do we need to explicitly state this final step? It\u0027s very open-ended, arguably implicit, and I don\u0027t think would translate particularly well to an acceptance test. Maybe we need to be more specific, or drop it (also other use cases).",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
