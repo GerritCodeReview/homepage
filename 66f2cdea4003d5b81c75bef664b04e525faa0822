@@ -168,6 +168,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "d135ae0e_e2f41c96",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1010134
+      },
+      "writtenOn": "2023-09-25T12:42:33Z",
+      "side": 1,
+      "message": "There are potentially two places where `refs/drafts-comments` could be moved. One is inside the Project metadata, the other under the user settings.\n\nHaving draft comments under Project metadata would make things easier when dealing with hidden projects, as the whole project will be excluded from replication, meaning no draft comments will ever leak.\n\nAnother thing to consider is whether this should be a (configurable) core feature or an extension point. In both situations, we\u0027d need a migration step to move around the existing draft comments.\n\nIMO, this belongs more to the core Gerrit, especially since it requires a data migration. Also change in behaviour would be less confusing when going from one stable version to another, compared to \"just installing\" or \"just updating\" the _plugin_.\n\nOne more thing to consider is, if we\u0027d also need to change the recommendations for running the GC for projects. As with drafts being stored inside project metadata will increase the amount of created refs/commits/heads/blobs.",
+      "parentUuid": "46bd5336_3d572ca0",
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "dbe7dbff_0560a983",
