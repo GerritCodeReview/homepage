@@ -563,6 +563,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ec88c7fe_8d26de2a",
+        "filename": "pages/design-docs/project-in-change-url/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2023-09-25T13:35:40Z",
+      "side": 1,
+      "message": "This document shall define when two changes `clash` with each other.",
+      "range": {
+        "startLine": 81,
+        "startChar": 34,
+        "endLine": 81,
+        "endChar": 39
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "297233c2_5aab7524",
         "filename": "pages/design-docs/project-in-change-url/use-cases.md",
         "patchSetId": 3
