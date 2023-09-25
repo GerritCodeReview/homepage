@@ -41,6 +41,29 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "36a47f75_8e350a66",
+        "filename": "pages/design-docs/project-in-change-url/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1024147
+      },
+      "writtenOn": "2023-09-25T12:39:49Z",
+      "side": 1,
+      "message": "this isn\u0027t necessary, is it? You could just increase the seq number to max(server1, server2).  That would also ensure uniqueness for newly created changes, which I think is desirable even if not strictly necessary.",
+      "range": {
+        "startLine": 18,
+        "startChar": 34,
+        "endLine": 21,
+        "endChar": 88
+      },
+      "revId": "66f2cdea4003d5b81c75bef664b04e525faa0822",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "b9e8cecc_8853f8e7",
