@@ -3,13 +3,13 @@ title: "Gerrit ESC Meeting Minutes"
 tags: esc
 keywords: esc minutes
 permalink: 2023-07-12-esc-minutes.html
-summary: "Minutes from the ESC meeting held on July 12, 2023"
+summary: "Minutes from the ESC meeting held on Jul 12, 2023"
 hide_sidebar: true
 hide_navtoggle: true
 toc: true
 ---
 
-## Engineering Steering Committee Meeting, Apr 12 - May 3 2023
+## Engineering Steering Committee Meeting, Jul 12, 2023
 
 Christophe Poucet, Patrick Hiesel, Luca Milanesio, Saša Živkov
 
