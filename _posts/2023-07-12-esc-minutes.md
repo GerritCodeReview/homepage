@@ -44,6 +44,6 @@ A final decision couldn't be reached during this ESC meeting.
 ### Delete group feature in Gerrit core
 
 ESC agrees with the
-[change 376294](https://gerrit-review.googlesource.com/c/gerrit/+/376294).
+[change 376294](https://gerrit-review.googlesource.com/c/homepage/+/376294).
 There should also be a feature switch in gerrit.config to enable/disable this feature. The ability
 to delete groups would also be allowed to the group owners.
