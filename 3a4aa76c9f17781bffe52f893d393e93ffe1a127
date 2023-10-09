@@ -1,5 +1,29 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55a73616_70f1bddc",
+        "filename": "_posts/2023-10-05-gerrit-3.9-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-10-09T18:05:16Z",
+      "side": 1,
+      "message": "Two things to monitor:\n1. no native packages for JDK 21 for ubuntu, almalinux, etc... (e.g. packages for ubuntu [openjdk-21](https://packages.ubuntu.com/search?keywords\u003dopenjdk-21) has no LTS releases yet)\n2. no openjdk docker image from eclipse-temurin as there is a delay in certification (here is a [note](https://adoptium.net/en-GB/blog/2023/09/temurin21-delay/]))\n\nThe latter should be solved in a few days (according to the note from today) though.",
+      "range": {
+        "startLine": 26,
+        "startChar": 55,
+        "endLine": 26,
+        "endChar": 62
+      },
+      "revId": "3a4aa76c9f17781bffe52f893d393e93ffe1a127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
