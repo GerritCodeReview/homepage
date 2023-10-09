@@ -46,6 +46,30 @@
       },
       "revId": "3a4aa76c9f17781bffe52f893d393e93ffe1a127",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "270c31a0_33de3ebc",
+        "filename": "_posts/2023-10-05-gerrit-3.9-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2023-10-09T19:25:49Z",
+      "side": 1,
+      "message": "IMHO we should set the mitigation plan: if there is no packages/images support before X then we are aiming on JDK 17. WDYT? Any dates that we should stick to?",
+      "parentUuid": "a049e07a_3af0dabd",
+      "range": {
+        "startLine": 26,
+        "startChar": 55,
+        "endLine": 26,
+        "endChar": 62
+      },
+      "revId": "3a4aa76c9f17781bffe52f893d393e93ffe1a127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
