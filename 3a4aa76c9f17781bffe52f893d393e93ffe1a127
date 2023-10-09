@@ -70,6 +70,30 @@
       },
       "revId": "3a4aa76c9f17781bffe52f893d393e93ffe1a127",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed1187c7_ffacbfc8",
+        "filename": "_posts/2023-10-05-gerrit-3.9-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-10-09T21:04:00Z",
+      "side": 1,
+      "message": "I think we should treat JDK bumps the same as library bumps. We do them right after a release so that we get as long as possible on master with the bump. So for 3.9, I would say that if we don\u0027t already have changes for 21 merged, we go with 17. And then after stable-3.9 is cut (or after 3.9.0 depending the churn 21 would cause) we bump master to 21.",
+      "parentUuid": "270c31a0_33de3ebc",
+      "range": {
+        "startLine": 26,
+        "startChar": 55,
+        "endLine": 26,
+        "endChar": 62
+      },
+      "revId": "3a4aa76c9f17781bffe52f893d393e93ffe1a127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
