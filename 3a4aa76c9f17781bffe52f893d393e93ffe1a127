@@ -22,6 +22,30 @@
       },
       "revId": "3a4aa76c9f17781bffe52f893d393e93ffe1a127",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a049e07a_3af0dabd",
+        "filename": "_posts/2023-10-05-gerrit-3.9-release-plan.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-10-09T18:33:12Z",
+      "side": 1,
+      "message": "Should we be continuing with Java 17 for now? 17 is also LTS and it looks like most distributions of Java 17 will have support through Oct 2027, so I don\u0027t think there\u0027s a rush to jump to 21.",
+      "parentUuid": "55a73616_70f1bddc",
+      "range": {
+        "startLine": 26,
+        "startChar": 55,
+        "endLine": 26,
+        "endChar": 62
+      },
+      "revId": "3a4aa76c9f17781bffe52f893d393e93ffe1a127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
