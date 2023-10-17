@@ -22,6 +22,30 @@
       },
       "revId": "983a29f21d25a30d39397d6673cb4ac3f2ab9360",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34c09e55_0c6c9104",
+        "filename": "_posts/2023-10-05-gerrit-3.9-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2023-10-17T13:00:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8821cc90_98ed6d73",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 63
+      },
+      "revId": "983a29f21d25a30d39397d6673cb4ac3f2ab9360",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
