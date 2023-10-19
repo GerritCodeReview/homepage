@@ -120,6 +120,54 @@
       },
       "revId": "2d450bd87e3c37e0f64b28e2dc1acf40e0d5f176",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b611161c_5d538093",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1083195
+      },
+      "writtenOn": "2023-10-19T15:23:21Z",
+      "side": 1,
+      "message": "the capability is tied to the functionality, so I believe the functionality is the correct choice here",
+      "parentUuid": "095a4bce_a9d27a97",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 8
+      },
+      "revId": "2d450bd87e3c37e0f64b28e2dc1acf40e0d5f176",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c6b5aa8_ea10dd7a",
+        "filename": "pages/design-docs/delete-groups/solution-plugin.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1083195
+      },
+      "writtenOn": "2023-10-19T15:23:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f8b2ed4f_4c56d92a",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 7
+      },
+      "revId": "2d450bd87e3c37e0f64b28e2dc1acf40e0d5f176",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
