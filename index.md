@@ -134,7 +134,7 @@ Members of the community will discuss most Gerrit related things on the [repo-di
 
 Events such as user summits and hackathons are announced on the [repo-discuss](https://groups.google.com/group/repo-discuss) mailing list. You can also see the events posted on our [Calendar](https://calendar.google.com/calendar?cid=Z29vZ2xlLmNvbV91YmIxcGxhNmlqNzg1b3FianI2MWg0dmRpc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), or if you prefer to follow us on [Twitter@gerritreview](https://twitter.com/gerritreview).
 
-For face-to-face discussions there is a monthly Gerrit community meeting (monthly on the first Thursday from 5pm to 6pm CET, join the meeting [here](https://meet.google.com/kue-ysnz-yme)). Everyone is welcome to join and bring up things they like to discuss. The agenda is completely open, but topics may be added beforehand to the [agenda](https://docs.google.com/document/d/1QmrIsyBx52Sk_qWwrcci0hI_SlUWMGiwT8Kp05_ioBw/edit?usp=sharing). Please always prefix topics with your name in square brackets, so that it's clear who added which topic.
+For face-to-face discussions there is a monthly Gerrit community meeting that is hosted in Gerrit's [Discord channel](https://discord.gg/HkGbBJHYbY). Please watch out for the 'Gerrit Community Meeting' event there. Everyone is welcome to join and bring up things they like to discuss. The agenda is completely open, but topics may be added beforehand to the [agenda](https://docs.google.com/document/d/1QmrIsyBx52Sk_qWwrcci0hI_SlUWMGiwT8Kp05_ioBw/edit?usp=sharing). Please always prefix topics with your name in square brackets, so that it's clear who added which topic.
 
 ## Support
 
