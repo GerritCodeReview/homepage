@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b98bee4a_73713e5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2023-10-31T13:22:04Z",
+      "side": 1,
+      "message": "The documentation of the feature is merged into stable-3.8 and is yet to be merged up into master so that it is visible on gerrit-review:\nhttps://gerrit-review.googlesource.com/c/gerrit/+/391418",
+      "revId": "3781007044a63d07aba6a25ebbd5afef7b4a78c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
