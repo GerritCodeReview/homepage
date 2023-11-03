@@ -18,6 +18,10 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 Latest release: **[3.7](/3.7.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
+## 3.9 (RC)
+
+[Release notes for Gerrit 3.9](/3.9.html)
+
 ## 3.8
 
 * Rebase on behalf of the uploader
