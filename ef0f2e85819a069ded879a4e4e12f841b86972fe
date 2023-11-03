@@ -47,6 +47,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "effe2329_5f47c9d0",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-11-03T22:01:09Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c1326d7c_27419b34",
+      "range": {
+        "startLine": 9,
+        "startChar": 85,
+        "endLine": 9,
+        "endChar": 86
+      },
+      "revId": "ef0f2e85819a069ded879a4e4e12f841b86972fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44f049e7_d055ec7d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-11-03T22:01:09Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "f31467de_f7be603c",
+      "range": {
+        "startLine": 9,
+        "startChar": 13,
+        "endLine": 9,
+        "endChar": 21
+      },
+      "revId": "ef0f2e85819a069ded879a4e4e12f841b86972fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b76efc77_d7641204",
@@ -64,6 +112,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5da1233d_e1dbf848",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-11-03T22:01:09Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "b76efc77_d7641204",
+      "revId": "ef0f2e85819a069ded879a4e4e12f841b86972fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "60f5f045_5713a821",
@@ -77,6 +143,24 @@
       "writtenOn": "2023-11-03T21:55:10Z",
       "side": 1,
       "message": "```suggestion\n## Release highlights\n\n### Java 17\n\nThe language level used for Gerrit source code stays on Java 11, however,\nGerrit is built and distributed for Java 17, which is the recommended JVM\nversion for running it in production.\n\n### New stream events\n\n**batch-refupdate**\n\nGerrit notify all the refs of a single batch-refupdate as a single stream\nevent JSON payload. The new event is controlled by configuration and can be\nswitched off for backward compatibility with legacy CI/CD systems.\n\n**ref-update** for draft-comments\n\nGerrit generates the ref-update for all the additions and removals of draft\ncomments in the `All-Users` project. This is needed for replicating the\n`All-Users` project across sites, thanks to the replication plugins being\nnotified of the updates.\n\n### New limits\n\nThere are new limits definition for preventing Gerrit from being\noverwhelmed by improper client activity.\n\n- `change.topicLimit`: defines the maximum number of changes in the same\n  topic.\n\n- `change.maxFileSizeDownload`: prevents memory overload due to clients\n  downloading large files from REST-API.\n\n- `change.maxFileSizeDiff`: prevents memory overload due to the rendering\n  of large files diffs on the browser.\n\n### New diff3 view\n\nA new `change.diff3ConflictView` option allows to have a richer diff3\nrendering of changes with conflict markers.\n\n### Attention-set improvements\n\nGerrit can return changes to the original attention set assignment if any\nof the new assignees do not provide feedback within a specific time.\nThe behaviour is controlled by two new settings, `attentionSet.readdAfter`\nand `attentionSet.readdMessage`.\n\n### Indexing improvements\n\nAllow to limit the queries that do not specify a default limit and also\ncan now reindex changes with an asynchronous process when a change is updated\nfrom the UI, controlled by the `index.indexChangesAsync`.\n\nThe new option allow to have a much more reactive user-experience by\nreleasing the UI elements without having to wait for the backend reindex\nAPI execution.\n\n### Accounts deletion\n\nUsers can now delete their own account, making it possible to be forgotten\nby the Gerrit Code Review platform. Please note that existing commits into\nthe projects will stay and the account\u0027s e-mail disclosed in the Git\nfields will be preserved beyond the account deletion.\n\n### Plugin development\n\n#### Custom key/value to NoteDb\n\nPlugins may store additional string key/value pairs to change notes in NoteDb.\n\n#### Cross-plugin communication and dependency\n\nPlugins can communicate and depend between each-other thanks to the introduction\nof the `Api-Module` Guice modules and plugin manifest.\n\n```",
+      "revId": "ef0f2e85819a069ded879a4e4e12f841b86972fe",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a769bd21_7878521e",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2023-11-03T22:01:09Z",
+      "side": 1,
+      "message": "Thanks, done",
+      "parentUuid": "60f5f045_5713a821",
       "revId": "ef0f2e85819a069ded879a4e4e12f841b86972fe",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
