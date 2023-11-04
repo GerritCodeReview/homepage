@@ -16,6 +16,24 @@
       "message": "Is this documented in the plugin development guide ? Couldn\u0027t find it there.\nhttps://gerrit-review.googlesource.com/Documentation/dev-plugins.htm",
       "revId": "8c81f72adee0a32d28f3b2073314bc163803a7c1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb3f3d3f_7e260c82",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-04T23:40:24Z",
+      "side": 1,
+      "message": "There is a spelling mistake in L87: it is called `Gerrit-ApiModule` (see [1]).\n\n```suggestion\nintroduction of [`Gerrit-ApiModule`](https://gerrit-documentation.storage.googleapis.com/Documentation/3.9.0/dev-plugins.html#_cross_plugin_communication) Guice modules and plugin manifest.\n```\n\n[1] https://gerrit-documentation.storage.googleapis.com/Documentation/3.9.0/dev-plugins.html#_cross_plugin_communication",
+      "parentUuid": "0d3e6bee_210f461a",
+      "revId": "8c81f72adee0a32d28f3b2073314bc163803a7c1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
