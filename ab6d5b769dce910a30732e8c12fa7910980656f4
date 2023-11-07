@@ -39,6 +39,30 @@
       },
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad995f11_21da2741",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-07T23:31:10Z",
+      "side": 1,
+      "message": "\u003e This might be misleading? Any ref-updates done in that thread are updated in the per request cache.\n\nTrue, but the other threads are unaware of the refs updated and therefore may have stale data. It\u0027s a concurrency trade-off to pay.\n\n\u003e Is that what you meant? Maybe you have a specific example you can share where you saw this cause a problem?\n\nExample: two threads T1 and T2 are updating the same ref. T1 wants to update from S0 to S1 and T2 wants to update from S0 to S2. If they are executed concurrently, they are both successful because they use a thread-local cached snapshot of the ref-db.\n\n\u003e  We might just have a bug in the JGit side that we would want to fix.\n\nI don\u0027t believe there is any bug: from what I see this is the way is supposed to work. I do not see any eviction logic or notification across threads. Do you have any pointers?\n\nWe had a production issue on GerritHub.io and we had to disable this mechanism because different threads were using stale ref-db data. After we disabled this mechanism everything went back as it was before.\n\nI don\u0027t believe this is an issue for all setups, but it was for us. It is worth to communicate to the Gerrit admin that he has to make a decision because the way refs are cached is changing in v3.8.0.\n\nP.S. Even for me it wasn\u0027t obvious enough that I needed to analyse careful the setting and make a decision about it ... and I wrote the release notes 😊",
+      "parentUuid": "a7dc518d_a845b5ae",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
