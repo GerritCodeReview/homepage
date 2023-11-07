@@ -16,6 +16,29 @@
       "message": "@kaushik.lingarkar@linaro.org feel free to propose a different wordings in the notes.",
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7dc518d_a845b5ae",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-07T23:24:34Z",
+      "side": 1,
+      "message": "This might be misleading? Any ref-updates done in that thread are updated in the per request cache. Is that what you meant? Maybe you have a specific example you can share where you saw this cause a problem? We might just have a bug in the JGit side that we would want to fix.",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
