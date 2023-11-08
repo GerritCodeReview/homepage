@@ -63,6 +63,30 @@
       },
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85c5f33c_3aca7e84",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-08T00:30:19Z",
+      "side": 1,
+      "message": "\u003e \u003e This might be misleading? Any ref-updates done in that thread are updated in the per request cache.\n\u003e \n\u003e True, but the other threads are unaware of the refs updated and therefore may have stale data. It\u0027s a concurrency trade-off to pay.\n\nYes, but only for the lifetime of each thread. A new thread doesn\u0027t use the cached data. A thread lifetime is typically short enough that seeing updated data mid-lifetime could be considered a negative (i.e. it shows inconsistent results).\n\n\u003e \n\u003e \u003e Is that what you meant? Maybe you have a specific example you can share where you saw this cause a problem?\n\u003e \n\u003e Example: two threads T1 and T2 are updating the same ref. T1 wants to update from S0 to S1 and T2 wants to update from S0 to S2. If they are executed concurrently, they are both successful because they use a thread-local cached snapshot of the ref-db.\n\nNo no. If you saw that happen that that\u0027s 100% a bug somewhere. The ref\u0027s value must be read *after* acquiring a lock on the ref. That\u0027s very strict in the git ref db contract. Do you have a specific example of this happening?\n\nThe only way I know this can happen (with or without the per request cache enabled) is due to NFS caching. Martin started working on a fix that I then took over [1], but I haven\u0027t had time to pick it back up yet.\n\n[1] 205141: Make SnapshottingRefDirectory refresh looseRef dirs | https://git.eclipse.org/r/c/jgit/jgit/+/205141\n\n\u003e \n\u003e \u003e  We might just have a bug in the JGit side that we would want to fix.\n\u003e \n\u003e I don\u0027t believe there is any bug: from what I see this is the way is supposed to work. I do not see any eviction logic or notification across threads. Do you have any pointers?\n\nThere isn\u0027t, but I don\u0027t believe there needs to be to prevent user-facing errors. There is eviction logic for failures within a thread, so if a ref update fails, the cached value is evicted and will be re-read on a retry.\n\n\u003e \n\u003e We had a production issue on GerritHub.io and we had to disable this mechanism because different threads were using stale ref-db data. After we disabled this mechanism everything went back as it was before.\n\nI was hoping for specifics on an incident like this. Can you share which threads (what API/etc they were) and in what way they were stale? I didn\u0027t/don\u0027t anticipate this feature creating any production issues like you describe.\n\n\u003e \n\u003e I don\u0027t believe this is an issue for all setups, but it was for us. It is worth to communicate to the Gerrit admin that he has to make a decision because the way refs are cached is changing in v3.8.0.\n\nDo you think there\u0027s anything special about your setup that could otherwise explain this issue? Do you have other plugins/libs/infra that could also affect ref db behavior?",
+      "parentUuid": "ad995f11_21da2741",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
