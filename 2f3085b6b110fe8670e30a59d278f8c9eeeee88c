@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c2fc53d0_6f3735a5",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-09T23:40:33Z",
+      "side": 1,
+      "message": "These were replicated previously only if replication of all refs was triggered for All-Users? Would you expect this to significantly increase average replication traffic/activity? (maybe it needs its own warning/call-out)",
+      "range": {
+        "startLine": 32,
+        "startChar": 43,
+        "endLine": 34,
+        "endChar": 24
+      },
+      "revId": "2f3085b6b110fe8670e30a59d278f8c9eeeee88c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d6742bcc_8f756c93",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
