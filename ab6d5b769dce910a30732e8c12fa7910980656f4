@@ -111,6 +111,30 @@
       },
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "981218a1_f2949a65",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-10T18:08:13Z",
+      "side": 1,
+      "message": "\u003e Considering that it seems that it is not documented (NFS. looseRefs) when it could not work perhaps we should have it disabled by default?\n\nI think you missed this important part:\n\n\u003e\u003e (with or without the per request cache enabled) \n\nThis is not a new issue introduced with the per request ref cache.\n\n\u003e \n\u003e Here is a change to disable it for the time being (at least to the moment where failure conditions are well described):\n\nI have seen no well described failure conditions. I asked for them in my reply a few days ago, but there\u0027s no response to those questions yet. I\u0027m going to -1 this until there\u0027s clarification on those.\n\n\u003e https://gerrit-review.googlesource.com/c/gerrit/+/392480\n\u003e \n\u003e WDYT?\n\nLooks premature. We\u0027re using this in production for a VERY large, VERY busy instance since August 19th and we\u0027re not seeing any issues related to the per request ref cache.",
+      "parentUuid": "dac5e61f_21ee59ca",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
