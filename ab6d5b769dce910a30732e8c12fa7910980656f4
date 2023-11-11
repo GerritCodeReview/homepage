@@ -135,6 +135,30 @@
       },
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4e0f6a8_343a8c8e",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-11T01:22:53Z",
+      "side": 1,
+      "message": "\u003e Yes, but only for the lifetime of each thread. A new thread doesn\u0027t use the\n\u003e cached data. A thread lifetime is typically short enough that seeing updated data\n\u003e mid-lifetime could be considered a negative (i.e. it shows inconsistent results).\n\nWell, that depends on what the thread does, isn\u0027t it? Bear in mind that there are also two _unknowns_ on the lifetime of a thread:\n\n1. The thread continues when the events listeners are called: you aren\u0027t really sure what the listeners will do and how long would they take.\n2. Some of the threads are performing operations that are inherently long to execute (e.g. Git GC)\n\nI saw the reloading mechanism work in *some cases*, but you aren\u0027t really sure that those are all the cases possible. I don\u0027t believe Gerrit test coverage is enough for assuring that everything would be consistent anyway and during concurrent operations.\n\nLast but not least, most of Gerrit tests are not using the `@UseLocalDisk` annotation, hence would not use the thread-local cache of the refdb. We cannot really say that the mechanism is well tested so far. I would keep the feature enabled, but I warning to the Gerrit admin is a duty of care from my role.\n\n\u003e No no. If you saw that happen that that\u0027s 100% a bug somewhere.\n\u003e The ref\u0027s value must be read after acquiring a lock on the ref.\n\u003e That\u0027s very strict in the git ref db contract. Do you have a specific example of this happening?\n\nA simple example is the following:\n\n- Client 1 runs:\n\n```\nfor (( i\u003d0; i\u003c10000; i++ )); do echo $i \u003e\u003e foo.txt; git add foo.txt; git commit -m foo-$i; git push origin master; done\n```\n\n- Client 2 runs:\n\n```\nfor ((i\u003d0; i\u003c100; i++))\ndo\ncurl -n \u0027http://localhost:8080/a/projects/test-repo/gc\u0027 \\\n  -X \u0027POST\u0027\ndone\n```\n\nAfter a few minutes, the repository is corrupted:\n\n```\n git fsck\nChecking object directories: 100% (256/256), done.\nChecking objects: 100% (1773/1773), done.\nerror: refs/heads/master: invalid sha1 pointer a288a8956d91a2638adfa9ccc5eef21c6aaed2c0\nerror: HEAD: invalid sha1 pointer a288a8956d91a2638adfa9ccc5eef21c6aaed2c0\nerror: refs/heads/master: invalid reflog entry a288a8956d91a2638adfa9ccc5eef21c6aaed2c0\nbroken link from    tree 7fa528e0018128b1a65a31021deb651f7d867c12\n              to    blob 8d2ef2542fa78620336148ba51653b545d9dafd0\nmissing blob 8d2ef2542fa78620336148ba51653b545d9dafd0\n```\n\n- Client 1 pushes are failing with `Missing delta base xxxx` and many other errors.\n- Client 2 sees GC failing.\n\nOn GerritHub.io we had many split-brains alerts saying that some threads were attempting to update refs that were potentially in split-brain and misaligned with the global-refdb.\n\n\u003e I have seen no well described failure conditions.\n\nI did not see this change on Gerrit stable-3.5 branch, are you guys running this code in production? The failures are happening for us when there is concurrency and I managed to easily reproduce it locally (see the above scripts).\n\nThis isn\u0027t an issue for us anymore as we found the root cause and disabled the thread-local ref-db snapshotting. However, I believe we have the duty to make the Gerrit admin aware of the risks of enabling this performance optimisation.\nThen the Gerrit admin will decide how to proceed.",
+      "parentUuid": "981218a1_f2949a65",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
