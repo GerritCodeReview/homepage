@@ -279,6 +279,30 @@
       },
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8affe79e_e305abed",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-11T12:02:55Z",
+      "side": 1,
+      "message": "\u003e I looked at the JGit side more and I was wrong, I don\u0027t see any issues with the\n\u003e current code. What JGit configs do you have for your setup?\n\u003e Did you repro this on NFS or a local disk?\n\nCan you please follow-up on the associated Issue 309098227? There are all the steps for reproducing the problem and the logs observed. I believe it is the most appropriate place to discuss all these details.",
+      "parentUuid": "a7408c4b_2ee71920",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
