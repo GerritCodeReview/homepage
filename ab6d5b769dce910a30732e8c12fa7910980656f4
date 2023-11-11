@@ -207,6 +207,30 @@
       },
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30be4cc8_a33eab6a",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-11T02:19:45Z",
+      "side": 1,
+      "message": "\u003e After a few minutes, the repository is corrupted:\n\nI admit, we didn\u0027t test GC from within Gerrit, so there could be something bad there we didn\u0027t catch, but assuming other configuration is sane, that would definitely be a bug. I completely agree that disabling at least for your setup is a good idea until that\u0027s understood.\n\nI\u0027ll try to get some time to debug why GC is doing something bad, but at a quick glance, we should probably have SnapshottingRefDirectory override pack() and call invalidateSnapshot() before calling the super method.\n\nI\u0027m un-resolving because I still argue that this isn\u0027t a breaking change, it\u0027s a bug. The bug should be fixed. If you want to add a warning about this feature being new and that it has had bug(s) reported against it, that feels more appropriate than calling it a Breaking Change.\n\n\u003e On GerritHub.io we had many split-brains alerts saying that some threads were attempting to update refs that were potentially in split-brain and misaligned with the global-refdb.\n\nSorry, that really sucks. We didn\u0027t test any global-refdb implementations, so I don\u0027t know how those would interact with it.\n\n\u003e I did not see this change on Gerrit stable-3.5 branch, are you guys running this code in production?\n\nYes, we backported this to our 3.5 branch that we have for feature backports that we don\u0027t think are appropriate for upstream stable branches. We\u0027ve been running it there since Aug 19th and we had it in our stress testing since March without issues.",
+      "parentUuid": "c9840689_d781bf55",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
