@@ -159,6 +159,30 @@
       },
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "088386df_689c1d5d",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-11T01:40:59Z",
+      "side": 1,
+      "message": "Adding the `core.usePerRequestRefCache \u003d false` to `gerrit.config` resolved the concurrent issues between pushes and GC: I could leave the test running and all operations are successful and the repository isn\u0027t corrupted anymore.",
+      "parentUuid": "c4e0f6a8_343a8c8e",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
