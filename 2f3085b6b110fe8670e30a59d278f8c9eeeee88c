@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e18ec98f_4ee4466e",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-11T00:43:31Z",
+      "side": 1,
+      "message": "All the details is on the documentation and disabled by default. Yes, it may increase the replication activity.",
+      "parentUuid": "c2fc53d0_6f3735a5",
+      "range": {
+        "startLine": 32,
+        "startChar": 43,
+        "endLine": 34,
+        "endChar": 24
+      },
+      "revId": "2f3085b6b110fe8670e30a59d278f8c9eeeee88c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d6742bcc_8f756c93",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-11-06T19:57:55Z",
       "side": 1,
       "message": "Why is this mentioned here ? I don\u0027t understand this part of the sentence",
+      "range": {
+        "startLine": 89,
+        "startChar": 14,
+        "endLine": 89,
+        "endChar": 33
+      },
+      "revId": "2f3085b6b110fe8670e30a59d278f8c9eeeee88c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f57723cf_acb4539f",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-11T00:43:31Z",
+      "side": 1,
+      "message": "True, the remark is obvious because all the Guice modules are defined in the manifest. Possibly too much detail for the release notes.",
+      "parentUuid": "d6742bcc_8f756c93",
       "range": {
         "startLine": 89,
         "startChar": 14,
