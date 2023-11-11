@@ -231,6 +231,30 @@
       },
       "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "189b1cdc_fa30df68",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-11T02:47:51Z",
+      "side": 1,
+      "message": "\u003e I\u0027ll try to get some time to debug why GC is doing something bad, but at a quick glance, we should probably have SnapshottingRefDirectory override pack() and call invalidateSnapshot() before calling the super method.\n\nI looked at the JGit side more and I was wrong, I don\u0027t see any issues with the current code. What JGit configs do you have for your setup? Did you repro this on NFS or a local disk?",
+      "parentUuid": "30be4cc8_a33eab6a",
+      "range": {
+        "startLine": 195,
+        "startChar": 53,
+        "endLine": 196,
+        "endChar": 47
+      },
+      "revId": "ab6d5b769dce910a30732e8c12fa7910980656f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
