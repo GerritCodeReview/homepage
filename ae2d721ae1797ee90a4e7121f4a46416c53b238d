@@ -72,6 +72,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f4818807_2ffdf9ed",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T20:04:28Z",
+      "side": 1,
+      "message": "\u003e I will mention it there, as a separate change and mention here in the highlights that it is now enabled by default [2], WDYT @nasser.grainawi@linaro.org?\n\n+1, thanks!",
+      "parentUuid": "ce7330f6_a1fc4c24",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6eff419a_cba746d1",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
