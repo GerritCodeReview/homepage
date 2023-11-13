@@ -37,6 +37,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "54e6d76e_47f5a28e",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "Add User Suggested Edits?",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6eff419a_cba746d1",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
@@ -163,6 +180,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "This is a new option and should not break any existing change queries APIs, it should go to the _Other changes_ section IMHO.",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 6
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "32c28e68_840af1a8",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "Or if this info was previously available under the `change.stars` field, maybe combine this text with that breaking change above?",
+      "parentUuid": "10401402_b6b24d97",
       "range": {
         "startLine": 212,
         "startChar": 0,
@@ -520,6 +561,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "acd8f29c_c352a83b",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "It might be good to highlight this as a breaking change since it modifies the expected behavior in workflows.",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "527c4679_60737251",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
@@ -583,6 +641,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "176005f4_dc353622",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 379,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "Yeah, maybe just combine with line 380?",
+      "parentUuid": "2149b373_220d3fe0",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d57c577b_98686a7d",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
@@ -617,6 +693,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "```suggestion\nEnsure ThreadMXBeanSun reports only the allocated bytes if supported by the JVM\n```",
+      "range": {
+        "startLine": 392,
+        "startChar": 68,
+        "endLine": 392,
+        "endChar": 71
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1b082be_935d14d5",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "I think the text is correct as-is. The implementation of `supportsAllocatedBytes()` was changed to use the result of `ThreadMXBean.isThreadAllocatedMemorySupported()` which means we only report support for allocated bytes when it\u0027s supported by the JVM. I do see how the text could be confusing though. Maybe adjust like this?\n\n```suggestion\nFixed ThreadMXBeanSun to only report allocated bytes when supported by the JVM\n```",
+      "parentUuid": "5034d664_8a5db3b3",
       "range": {
         "startLine": 392,
         "startChar": 68,
@@ -991,6 +1091,159 @@
         "endLine": 614,
         "endChar": 44
       },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b65077f5_8c4d83b3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 626,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "Remove all \"Update ...\" lines? If they\u0027re really relevant to Gerrit then I would expect us to have a matching/similar line in the \"Other dependency changes\" section below.",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a436ae00_c33522cd",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 638,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c82a4c4d_68d1b34a",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dee734ee_e2950222",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffc8cb2a_ecc6e88e",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 648,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f33d0c27_a40392e3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 665,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21aaa502_43df1eaf",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 679,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8eb4dea0_95933d91",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 681,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "not interesting to Gerrit (remove any test-only commits)",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e33a8655_0cd1e387",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 687,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2023-11-13T17:32:22Z",
+      "side": 1,
+      "message": "not interesting to Gerrit (remove any build-only commits)",
       "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
