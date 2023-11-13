@@ -234,6 +234,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fa94f1ed_091b6571",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-13T20:04:11Z",
+      "side": 1,
+      "message": "The way I understand this is that previously, `starred` was always returned, whilst now one must explicitly set the `star` option to get this value back.\n\nFrom the commit message [1]\n\n```\nWe\u0027ve recently moved the drafts and stars out of the change index (see\nchange I36c1e2f5) after which the returned ChangeInfo(s) from the \u0027Query\nChanges\u0027 API always had the \u0027starred\u0027 field as null, since this field\nis no longer populated from the change index.\n```\n\nand from the docs:\n\n```\n|`starred`            |not set if `false`|\nWhether the calling user has starred this change with the default label.\nOnly set if link:#star[requested].\n```\n\nGiven the above, this is breaking compatibility.\n@luca.milanesio@gmail.com, @nasser.grainawi@linaro.org?\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/371198",
+      "parentUuid": "32c28e68_840af1a8",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 6
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e999f3a4_8635634a",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
