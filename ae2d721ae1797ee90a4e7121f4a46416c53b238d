@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "56490fc8_1a646353",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Thanks a lot @syntonyze@gmail.com for your help with the release notes 👍",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "85c37a0b_1d6b6f74",
@@ -36,6 +53,943 @@
         "startChar": 0,
         "endLine": 188,
         "endChar": 67
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a3628d7_5609b060",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "`change.stars` field in the JSON payload",
+      "range": {
+        "startLine": 202,
+        "startChar": 19,
+        "endLine": 202,
+        "endChar": 26
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2f78908_634e50cc",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Is it needed in this context? If that remains, then it should not mentioned here.",
+      "range": {
+        "startLine": 202,
+        "startChar": 33,
+        "endLine": 202,
+        "endChar": 56
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e5782bd_03f88e04",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "all the `performance/operations/*` metrics.",
+      "range": {
+        "startLine": 209,
+        "startChar": 10,
+        "endLine": 209,
+        "endChar": 21
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53d4c1ec_dff5c108",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Just add to the headline at L209? _\" ... because of the performance issues introduced\"_ (with the reference of the bug)",
+      "range": {
+        "startLine": 211,
+        "startChar": 2,
+        "endLine": 211,
+        "endChar": 75
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10401402_b6b24d97",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "This is a new option and should not break any existing change queries APIs, it should go to the _Other changes_ section IMHO.",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 6
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e999f3a4_8635634a",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\n  Gerrit removes votes from this reviewer too. However if the reviewer is\n```",
+      "range": {
+        "startLine": 243,
+        "startChar": 2,
+        "endLine": 243,
+        "endChar": 8
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80d2ed01_953bbb91",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Already mentioned in the highlights. Maybe just put a link to the change on L87?",
+      "range": {
+        "startLine": 262,
+        "startChar": 0,
+        "endLine": 263,
+        "endChar": 71
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3bc7275_2dbd8662",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "nit: wrap long line",
+      "range": {
+        "startLine": 266,
+        "startChar": 72,
+        "endLine": 266,
+        "endChar": 82
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "137cdbf5_cb68042b",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Removal of fields should be flagged as a breaking change IMHO.",
+      "range": {
+        "startLine": 277,
+        "startChar": 0,
+        "endLine": 278,
+        "endChar": 63
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0156cd1d_d628209f",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 284,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "This should be going into the _Breaking changes_ because, even if they were supposed to be honoured for years, they were not and the Gerrit admin should be made aware that it is time to check them carefully because they will be *really* used from v3.9.0 onwards.",
+      "range": {
+        "startLine": 282,
+        "startChar": 0,
+        "endLine": 284,
+        "endChar": 111
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8468bd48_495d0870",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "nit: wrap long line",
+      "range": {
+        "startLine": 287,
+        "startChar": 72,
+        "endLine": 287,
+        "endChar": 107
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc5a3d52_18daa35d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "nit: wrap long line",
+      "range": {
+        "startLine": 299,
+        "startChar": 77,
+        "endLine": 299,
+        "endChar": 100
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e43bdff3_174c70e3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 302,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nFix NPE when `auth.httpDisplaynameHeader` is configured but header is unset\n```",
+      "range": {
+        "startLine": 302,
+        "startChar": 13,
+        "endLine": 302,
+        "endChar": 39
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4111048_2080dc21",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "nit: wrap long line",
+      "range": {
+        "startLine": 308,
+        "startChar": 80,
+        "endLine": 308,
+        "endChar": 105
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aec93374_3ffe11db",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 311,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nSSH command `set-reviewers` now handles lock failures with retries\n```",
+      "range": {
+        "startLine": 311,
+        "startChar": 4,
+        "endLine": 311,
+        "endChar": 17
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd77f849_fbf619fc",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Should be made part of the equivalent section at L30 on the highlights.",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 317,
+        "endChar": 49
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "153a49f7_b091a41d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Same as above: move into the L30 as part of the corresponding new highlighted functionality.",
+      "range": {
+        "startLine": 318,
+        "startChar": 0,
+        "endLine": 320,
+        "endChar": 43
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f36388f5_fda9c6ee",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Would it be worth also linking to the _virtualhost_ module as an example?",
+      "range": {
+        "startLine": 323,
+        "startChar": 6,
+        "endLine": 323,
+        "endChar": 13
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "341f1b28_3a093b2d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nAllow SubmitRequirement errors to be HTTP 500 errors\n```",
+      "range": {
+        "startLine": 335,
+        "startChar": 0,
+        "endLine": 335,
+        "endChar": 5
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c705c35_966b2d55",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\n  a `_more_projects: true` JSON field set now.\n```",
+      "range": {
+        "startLine": 348,
+        "startChar": 0,
+        "endLine": 348,
+        "endChar": 46
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "527c4679_60737251",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Move to L45 closer to the feature mentioned in the highlights.",
+      "range": {
+        "startLine": 374,
+        "startChar": 0,
+        "endLine": 375,
+        "endChar": 52
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e8f38c5_54396e23",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nAdded param to /review API\n```",
+      "range": {
+        "startLine": 378,
+        "startChar": 0,
+        "endLine": 378,
+        "endChar": 5
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2149b373_220d3fe0",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 379,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Can you also specify which param was it?",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d57c577b_98686a7d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Move and integrate with the highlights at L42",
+      "range": {
+        "startLine": 381,
+        "startChar": 0,
+        "endLine": 386,
+        "endChar": 47
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5034d664_8a5db3b3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nEnsure ThreadMXBeanSun reports only the allocated bytes if supported by the JVM\n```",
+      "range": {
+        "startLine": 392,
+        "startChar": 68,
+        "endLine": 392,
+        "endChar": 71
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2709f576_459b7935",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Which one?",
+      "range": {
+        "startLine": 409,
+        "startChar": 0,
+        "endLine": 409,
+        "endChar": 50
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0de7cf90_f9d4c722",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 423,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Incorporate with the highlights at L24",
+      "range": {
+        "startLine": 416,
+        "startChar": 0,
+        "endLine": 423,
+        "endChar": 27
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd2fb61e_ed8e82e9",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nAdd API method for deleting self account\n```",
+      "range": {
+        "startLine": 446,
+        "startChar": 0,
+        "endLine": 446,
+        "endChar": 42
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7fd90aa7_70a6f8ea",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 460,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nReturn 500 when a request is canceled due to an exceeded server deadline\n```",
+      "range": {
+        "startLine": 460,
+        "startChar": 0,
+        "endLine": 460,
+        "endChar": 74
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1810dac7_5cb6cc9b",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 463,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Incorporate in the highlights L81",
+      "range": {
+        "startLine": 461,
+        "startChar": 0,
+        "endLine": 463,
+        "endChar": 56
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f6c6c5b_041d44b3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nThe commit-msg hook now detects existing `Link` trailers.\n```",
+      "range": {
+        "startLine": 466,
+        "startChar": 45,
+        "endLine": 466,
+        "endChar": 46
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b309745d_b71d0273",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 486,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nAdded periodic job that re-adds change owners who are inactive\n```",
+      "range": {
+        "startLine": 486,
+        "startChar": 24,
+        "endLine": 486,
+        "endChar": 30
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2750d45c_c384dd20",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 488,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\n  This makes it possible to configure Gerrit to automatically re-add the\n```",
+      "range": {
+        "startLine": 488,
+        "startChar": 62,
+        "endLine": 488,
+        "endChar": 67
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55b99a68_64b99090",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Move to the highlights at L51",
+      "range": {
+        "startLine": 563,
+        "startChar": 0,
+        "endLine": 568,
+        "endChar": 15
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "977db355_041b02d1",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 590,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nDocument gerrit `set-head` SSH command and fix old UI references\n```",
+      "range": {
+        "startLine": 590,
+        "startChar": 9,
+        "endLine": 590,
+        "endChar": 26
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ac65afb_917066c0",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 593,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nExplain in `ls-projects` SSH API when the \"parent\" field is \"?-N\"\n```",
+      "range": {
+        "startLine": 593,
+        "startChar": 0,
+        "endLine": 593,
+        "endChar": 63
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e72cc6c1_ba3aede4",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nExplain in `/projects/` REST API when the \"parent\" field is \"?-N\"\n```",
+      "range": {
+        "startLine": 596,
+        "startChar": 0,
+        "endLine": 596,
+        "endChar": 63
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e701a6d_36f4b17f",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 602,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nUpdate blurb for `ldap.accountFullName`\n```",
+      "range": {
+        "startLine": 602,
+        "startChar": 0,
+        "endLine": 602,
+        "endChar": 37
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "951a5836_e0e8ed32",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Is it worth mentioning or just too minor?",
+      "range": {
+        "startLine": 604,
+        "startChar": 0,
+        "endLine": 605,
+        "endChar": 66
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "041a8cfb_eac99ff4",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 611,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "Is it worth mentioning or just too minor?",
+      "range": {
+        "startLine": 609,
+        "startChar": 0,
+        "endLine": 611,
+        "endChar": 54
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdfcd12f_57a972b6",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 614,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-13T13:01:14Z",
+      "side": 1,
+      "message": "```suggestion\nAdd example to blurb for `ldap.mandatoryGroup`\n```",
+      "range": {
+        "startLine": 614,
+        "startChar": 0,
+        "endLine": 614,
+        "endChar": 44
       },
       "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
