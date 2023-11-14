@@ -124,6 +124,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f43cc25e_89f3fcc5",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-14T08:19:45Z",
+      "side": 1,
+      "message": "Mentioning that is now enabled by default is appropriate.",
+      "parentUuid": "5be6de86_a755260a",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6eff419a_cba746d1",
@@ -632,6 +650,30 @@
       "side": 1,
       "message": "This is not removing the field from the \"/cherrypick\" endpoint.\nIt is a polygerrit change that stops _setting_ that field.\n\nCallers of the \"/cherrypick\" endpoint can still use that field.\n@luca.milanesio@gmail.com thoughts?",
       "parentUuid": "137cdbf5_cb68042b",
+      "range": {
+        "startLine": 277,
+        "startChar": 0,
+        "endLine": 278,
+        "endChar": 63
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea6a89bb_226a3d57",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-14T08:19:45Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "b7d4753c_87d71f4a",
       "range": {
         "startLine": 277,
         "startChar": 0,
