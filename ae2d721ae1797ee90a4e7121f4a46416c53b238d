@@ -108,6 +108,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5be6de86_a755260a",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:22:52Z",
+      "side": 1,
+      "message": "Correction, the experimental `suggest edits` was actually available already since 3.7.2 [1] (and not since 3.8, as I thought), so it should have been mentioned there.\n\nHowever, the `Release-Notes` section was intentionally set to `skip`, probably as a reflection of the immaturity of such experimental feature.\n\nUnless you feel strongly about this, I will leave it undocumented in 3.7.\nI have documented it as a new feature now. \n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/339553",
+      "parentUuid": "f4818807_2ffdf9ed",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6eff419a_cba746d1",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
