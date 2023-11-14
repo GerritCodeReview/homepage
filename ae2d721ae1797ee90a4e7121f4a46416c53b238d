@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc57213e_2279d797",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "85c37a0b_1d6b6f74",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "54e6d76e_47f5a28e",
@@ -111,6 +129,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "daa9f3b8_9f0fa0db",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Nope, it doesn\u0027t.\nMoved to `Other changes`",
+      "parentUuid": "6eff419a_cba746d1",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 188,
+        "endChar": 67
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2a3628d7_5609b060",
@@ -157,6 +199,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c33997f_8097d720",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "It was mentioned in the `Release-Notes`, but agreed, it is unneded.\nRemoved.",
+      "parentUuid": "d2f78908_634e50cc",
+      "range": {
+        "startLine": 202,
+        "startChar": 33,
+        "endLine": 202,
+        "endChar": 56
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ad29eee_d0b03259",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a3628d7_5609b060",
+      "range": {
+        "startLine": 202,
+        "startChar": 19,
+        "endLine": 202,
+        "endChar": 26
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e5782bd_03f88e04",
@@ -180,6 +270,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "daec8a0f_d89ed4fb",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3e5782bd_03f88e04",
+      "range": {
+        "startLine": 209,
+        "startChar": 10,
+        "endLine": 209,
+        "endChar": 21
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53d4c1ec_dff5c108",
@@ -193,6 +307,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "Just add to the headline at L209? _\" ... because of the performance issues introduced\"_ (with the reference of the bug)",
+      "range": {
+        "startLine": 211,
+        "startChar": 2,
+        "endLine": 211,
+        "endChar": 75
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fe7b87f_dc9feb90",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53d4c1ec_dff5c108",
       "range": {
         "startLine": 211,
         "startChar": 2,
@@ -344,6 +482,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5d06d88_dbb29451",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80d2ed01_953bbb91",
+      "range": {
+        "startLine": 262,
+        "startChar": 0,
+        "endLine": 263,
+        "endChar": 71
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d3bc7275_2dbd8662",
@@ -357,6 +519,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "nit: wrap long line",
+      "range": {
+        "startLine": 266,
+        "startChar": 72,
+        "endLine": 266,
+        "endChar": 82
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f55a6a51_b4f459e3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d3bc7275_2dbd8662",
       "range": {
         "startLine": 266,
         "startChar": 72,
@@ -392,6 +578,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b7d4753c_87d71f4a",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "This is not removing the field from the \"/cherrypick\" endpoint.\nIt is a polygerrit change that stops _setting_ that field.\n\nCallers of the \"/cherrypick\" endpoint can still use that field.\n@luca.milanesio@gmail.com thoughts?",
+      "parentUuid": "137cdbf5_cb68042b",
+      "range": {
+        "startLine": 277,
+        "startChar": 0,
+        "endLine": 278,
+        "endChar": 63
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0156cd1d_d628209f",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
@@ -403,6 +613,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "This should be going into the _Breaking changes_ because, even if they were supposed to be honoured for years, they were not and the Gerrit admin should be made aware that it is time to check them carefully because they will be *really* used from v3.9.0 onwards.",
+      "range": {
+        "startLine": 282,
+        "startChar": 0,
+        "endLine": 284,
+        "endChar": 111
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddde1d97_516db64e",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 284,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Good point. Done.",
+      "parentUuid": "0156cd1d_d628209f",
       "range": {
         "startLine": 282,
         "startChar": 0,
@@ -436,6 +670,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f4a6911_07b71ca1",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8468bd48_495d0870",
+      "range": {
+        "startLine": 287,
+        "startChar": 72,
+        "endLine": 287,
+        "endChar": 107
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bc5a3d52_18daa35d",
@@ -449,6 +707,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "nit: wrap long line",
+      "range": {
+        "startLine": 299,
+        "startChar": 77,
+        "endLine": 299,
+        "endChar": 100
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36bc9548_a51638b0",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc5a3d52_18daa35d",
       "range": {
         "startLine": 299,
         "startChar": 77,
@@ -482,6 +764,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f68ebf50_282b9236",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 302,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e43bdff3_174c70e3",
+      "range": {
+        "startLine": 302,
+        "startChar": 13,
+        "endLine": 302,
+        "endChar": 39
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f4111048_2080dc21",
@@ -495,6 +801,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "nit: wrap long line",
+      "range": {
+        "startLine": 308,
+        "startChar": 80,
+        "endLine": 308,
+        "endChar": 105
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17331eca_8946fef5",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4111048_2080dc21",
       "range": {
         "startLine": 308,
         "startChar": 80,
@@ -528,6 +858,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d381282_6decc83f",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 311,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aec93374_3ffe11db",
+      "range": {
+        "startLine": 311,
+        "startChar": 4,
+        "endLine": 311,
+        "endChar": 17
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cd77f849_fbf619fc",
@@ -541,6 +895,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "Should be made part of the equivalent section at L30 on the highlights.",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 317,
+        "endChar": 49
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d294e6da_b951be66",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd77f849_fbf619fc",
       "range": {
         "startLine": 316,
         "startChar": 0,
@@ -574,6 +952,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "882cb7d5_488ccd84",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "153a49f7_b091a41d",
+      "range": {
+        "startLine": 318,
+        "startChar": 0,
+        "endLine": 320,
+        "endChar": 43
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f36388f5_fda9c6ee",
@@ -587,6 +989,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "Would it be worth also linking to the _virtualhost_ module as an example?",
+      "range": {
+        "startLine": 323,
+        "startChar": 6,
+        "endLine": 323,
+        "endChar": 13
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3117819f_6d3597ee",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f36388f5_fda9c6ee",
       "range": {
         "startLine": 323,
         "startChar": 6,
@@ -620,6 +1046,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3642807a_d73fe5dc",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "341f1b28_3a093b2d",
+      "range": {
+        "startLine": 335,
+        "startChar": 0,
+        "endLine": 335,
+        "endChar": 5
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c705c35_966b2d55",
@@ -633,6 +1083,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "```suggestion\n  a `_more_projects: true` JSON field set now.\n```",
+      "range": {
+        "startLine": 348,
+        "startChar": 0,
+        "endLine": 348,
+        "endChar": 46
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66137a63_b547ad9a",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c705c35_966b2d55",
       "range": {
         "startLine": 348,
         "startChar": 0,
@@ -660,6 +1134,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "183f9cc5_458c5361",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Good shout. Moved.",
+      "parentUuid": "acd8f29c_c352a83b",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "527c4679_60737251",
@@ -683,6 +1175,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "03541fb9_4e299721",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "527c4679_60737251",
+      "range": {
+        "startLine": 374,
+        "startChar": 0,
+        "endLine": 375,
+        "endChar": 52
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6e8f38c5_54396e23",
@@ -696,6 +1212,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "```suggestion\nAdded param to /review API\n```",
+      "range": {
+        "startLine": 378,
+        "startChar": 0,
+        "endLine": 378,
+        "endChar": 5
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09516bff_d8133ef3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6e8f38c5_54396e23",
       "range": {
         "startLine": 378,
         "startChar": 0,
@@ -741,6 +1281,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba75f97d_4cc50aa8",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 379,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "176005f4_dc353622",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d57c577b_98686a7d",
@@ -754,6 +1312,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "Move and integrate with the highlights at L42",
+      "range": {
+        "startLine": 381,
+        "startChar": 0,
+        "endLine": 386,
+        "endChar": 47
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae9afa35_679e30a4",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d57c577b_98686a7d",
       "range": {
         "startLine": 381,
         "startChar": 0,
@@ -811,6 +1393,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d909141_6bddf279",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f1b082be_935d14d5",
+      "range": {
+        "startLine": 392,
+        "startChar": 68,
+        "endLine": 392,
+        "endChar": 71
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2709f576_459b7935",
@@ -824,6 +1430,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "Which one?",
+      "range": {
+        "startLine": 409,
+        "startChar": 0,
+        "endLine": 409,
+        "endChar": 50
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f840721c_4a5b8251",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2709f576_459b7935",
       "range": {
         "startLine": 409,
         "startChar": 0,
@@ -857,6 +1487,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c94396a_a961b019",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 423,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0de7cf90_f9d4c722",
+      "range": {
+        "startLine": 416,
+        "startChar": 0,
+        "endLine": 423,
+        "endChar": 27
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fd2fb61e_ed8e82e9",
@@ -870,6 +1524,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "```suggestion\nAdd API method for deleting self account\n```",
+      "range": {
+        "startLine": 446,
+        "startChar": 0,
+        "endLine": 446,
+        "endChar": 42
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff339daa_180d91e6",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fd2fb61e_ed8e82e9",
       "range": {
         "startLine": 446,
         "startChar": 0,
@@ -903,6 +1581,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f04176da_63c84dc8",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 460,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7fd90aa7_70a6f8ea",
+      "range": {
+        "startLine": 460,
+        "startChar": 0,
+        "endLine": 460,
+        "endChar": 74
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1810dac7_5cb6cc9b",
@@ -916,6 +1618,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "Incorporate in the highlights L81",
+      "range": {
+        "startLine": 461,
+        "startChar": 0,
+        "endLine": 463,
+        "endChar": 56
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "790a2d1d_3c75a5fb",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 463,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1810dac7_5cb6cc9b",
       "range": {
         "startLine": 461,
         "startChar": 0,
@@ -949,6 +1675,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b4dd01a_72014f2f",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f6c6c5b_041d44b3",
+      "range": {
+        "startLine": 466,
+        "startChar": 45,
+        "endLine": 466,
+        "endChar": 46
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b309745d_b71d0273",
@@ -962,6 +1712,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "```suggestion\nAdded periodic job that re-adds change owners who are inactive\n```",
+      "range": {
+        "startLine": 486,
+        "startChar": 24,
+        "endLine": 486,
+        "endChar": 30
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0bc95ed_62e13090",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 486,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b309745d_b71d0273",
       "range": {
         "startLine": 486,
         "startChar": 24,
@@ -995,6 +1769,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a34622bb_5457da8b",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 488,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "incorporated in the `highlight` section",
+      "parentUuid": "2750d45c_c384dd20",
+      "range": {
+        "startLine": 488,
+        "startChar": 62,
+        "endLine": 488,
+        "endChar": 67
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "55b99a68_64b99090",
@@ -1008,6 +1806,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "Move to the highlights at L51",
+      "range": {
+        "startLine": 563,
+        "startChar": 0,
+        "endLine": 568,
+        "endChar": 15
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a0f930e_96c3d8b7",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55b99a68_64b99090",
       "range": {
         "startLine": 563,
         "startChar": 0,
@@ -1041,6 +1863,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2e2ecf4_50ec121b",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 590,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "977db355_041b02d1",
+      "range": {
+        "startLine": 590,
+        "startChar": 9,
+        "endLine": 590,
+        "endChar": 26
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5ac65afb_917066c0",
@@ -1054,6 +1900,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "```suggestion\nExplain in `ls-projects` SSH API when the \"parent\" field is \"?-N\"\n```",
+      "range": {
+        "startLine": 593,
+        "startChar": 0,
+        "endLine": 593,
+        "endChar": 63
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "661eb50c_a2ab81ee",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 593,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ac65afb_917066c0",
       "range": {
         "startLine": 593,
         "startChar": 0,
@@ -1087,6 +1957,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "90ac368b_68a7209b",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e72cc6c1_ba3aede4",
+      "range": {
+        "startLine": 596,
+        "startChar": 0,
+        "endLine": 596,
+        "endChar": 63
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2e701a6d_36f4b17f",
@@ -1100,6 +1994,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "```suggestion\nUpdate blurb for `ldap.accountFullName`\n```",
+      "range": {
+        "startLine": 602,
+        "startChar": 0,
+        "endLine": 602,
+        "endChar": 37
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c61800a_e55114ff",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 602,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e701a6d_36f4b17f",
       "range": {
         "startLine": 602,
         "startChar": 0,
@@ -1133,6 +2051,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "038d7735_66c4dc22",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Someone took the decision of adding release notes, so I thought they wanted this to be mentioned.\n\nHaving said that I agree, it might just be too minor.\nRemoving.",
+      "parentUuid": "951a5836_e0e8ed32",
+      "range": {
+        "startLine": 604,
+        "startChar": 0,
+        "endLine": 605,
+        "endChar": 66
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "041a8cfb_eac99ff4",
@@ -1146,6 +2088,30 @@
       "writtenOn": "2023-11-13T13:01:14Z",
       "side": 1,
       "message": "Is it worth mentioning or just too minor?",
+      "range": {
+        "startLine": 609,
+        "startChar": 0,
+        "endLine": 611,
+        "endChar": 54
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee9c51af_e397cf5d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 611,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "041a8cfb_eac99ff4",
       "range": {
         "startLine": 609,
         "startChar": 0,
@@ -1179,6 +2145,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f1ea1f8_05592e29",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 614,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdfcd12f_57a972b6",
+      "range": {
+        "startLine": 614,
+        "startChar": 0,
+        "endLine": 614,
+        "endChar": 44
+      },
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b65077f5_8c4d83b3",
@@ -1192,6 +2182,24 @@
       "writtenOn": "2023-11-13T17:32:22Z",
       "side": 1,
       "message": "Remove all \"Update ...\" lines? If they\u0027re really relevant to Gerrit then I would expect us to have a matching/similar line in the \"Other dependency changes\" section below.",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9f37549_331aee51",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 626,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Make sense, removed.",
+      "parentUuid": "b65077f5_8c4d83b3",
       "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -1213,6 +2221,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8f95edc_f819e0af",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 638,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a436ae00_c33522cd",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c82a4c4d_68d1b34a",
@@ -1226,6 +2252,24 @@
       "writtenOn": "2023-11-13T17:32:22Z",
       "side": 1,
       "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32f55449_dd49e2ea",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c82a4c4d_68d1b34a",
       "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -1247,6 +2291,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddaa3593_bc8978e2",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dee734ee_e2950222",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ffc8cb2a_ecc6e88e",
@@ -1260,6 +2322,24 @@
       "writtenOn": "2023-11-13T17:32:22Z",
       "side": 1,
       "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f38fe1f7_201612fc",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 648,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffc8cb2a_ecc6e88e",
       "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -1281,6 +2361,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9560f38_518ec14c",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 665,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f33d0c27_a40392e3",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "21aaa502_43df1eaf",
@@ -1294,6 +2392,24 @@
       "writtenOn": "2023-11-13T17:32:22Z",
       "side": 1,
       "message": "not interesting to Gerrit",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad9091f5_eb73289a",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 679,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "21aaa502_43df1eaf",
       "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -1315,6 +2431,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ffdd4ea_758c9a8f",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 681,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8eb4dea0_95933d91",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e33a8655_0cd1e387",
@@ -1328,6 +2462,24 @@
       "writtenOn": "2023-11-13T17:32:22Z",
       "side": 1,
       "message": "not interesting to Gerrit (remove any build-only commits)",
+      "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7dd10cc_fcbf2c72",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 687,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-14T00:12:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e33a8655_0cd1e387",
       "revId": "ae2d721ae1797ee90a4e7121f4a46416c53b238d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
