@@ -108,6 +108,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "743fd2ca_72ef378c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-22T12:17:57Z",
+      "side": 1,
+      "message": "Should this be abandoned? The X-plugin solution has been merged in stable-3.9",
+      "revId": "3accb48e69594045479b21591df4fa807ce9d119",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1765a36b_102ae467",
