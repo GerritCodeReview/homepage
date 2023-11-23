@@ -30,6 +30,9 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
   * owners plugin
     * 4 new OWNERS plugin features (2022)
       * [Video](https://www.youtube.com/watch?v=1kZhUd440vc&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
+    * How to make OWNERS faster (2023)
+      * [Slides](https://storage.googleapis.com/gerrit-talks/summit/2023/How%20to%20make%20owners%20rules%20faster.pdf)
+      * [Video](https://youtu.be/XDyNG2sxc2Y)
 * [Diff Cache Redesign](https://docs.google.com/presentation/d/1XeqQJOQVIZ1bsjUlLpxsF8Uz8B9kUmArXKG41WHmm6U/view) (2020)
 * [Gitiles source browser](https://sites.google.com/site/gerritsummit2012/program/Sunday-Gitiles.pdf) (2012)
 * [Pluggable Caches](https://drive.google.com/file/d/1egSyShDek0qQ8SYUGWzezE1CQkBjLcp0/view) (2020)
