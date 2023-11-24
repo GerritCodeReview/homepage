@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05efca33_73c11372",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 755,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-24T22:52:50Z",
+      "side": 1,
+      "message": "This should probably be mentioned as a breaking change as we did for 3.9 [1]\n\n\n[1 https://www.gerritcodereview.com/3.9.html#breaking-changes",
+      "range": {
+        "startLine": 754,
+        "startChar": 0,
+        "endLine": 755,
+        "endChar": 90
+      },
+      "revId": "12a1485594169a2c3844238c931dad9d7928432a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
