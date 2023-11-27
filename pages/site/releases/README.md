@@ -18,7 +18,7 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 Latest release: **[3.7](/3.7.html)**. The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
-## 3.9
+## 3.9 (RC)
 
 [Release notes for Gerrit 3.9](/3.9.html)
 
@@ -46,7 +46,7 @@ Latest release: **[3.7](/3.7.html)**. The support status of all recent Gerrit ve
 
 [Release notes for Gerrit 3.7](/3.7.html)
 
-## 3.6 (EOL)
+## 3.6
 
 * Deprecation of Prolog for submit rules and introduction of Submit Requirements
 
