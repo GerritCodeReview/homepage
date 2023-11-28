@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26a95594_c309a39c",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-28T19:50:23Z",
+      "side": 1,
+      "message": "This should mention _all_ the required reindexes",
+      "range": {
+        "startLine": 154,
+        "startChar": 14,
+        "endLine": 154,
+        "endChar": 40
+      },
+      "revId": "2eed8f6761565789727ab3ef6b7aea8f5f7b12d1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3edf6901_a097dcf2",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-28T19:50:23Z",
+      "side": 1,
+      "message": "This should now include accounts and groups too.\nPerhaps we should just remove the `--index` option so that all of them are triggered?\n\nMaybe even merging it with the section underneath (from a 3.7 version), since the behaviour is the same?",
+      "range": {
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 62
+      },
+      "revId": "2eed8f6761565789727ab3ef6b7aea8f5f7b12d1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c5ad854_7084cbae",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-11-28T19:50:23Z",
+      "side": 1,
+      "message": "The downgrade also requires to re-run all indexes",
+      "range": {
+        "startLine": 213,
+        "startChar": 0,
+        "endLine": 213,
+        "endChar": 59
+      },
+      "revId": "2eed8f6761565789727ab3ef6b7aea8f5f7b12d1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
