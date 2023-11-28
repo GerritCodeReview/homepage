@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf19f6ce_97210092",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-11-28T20:37:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "32d401c9_03e353cd",
+      "range": {
+        "startLine": 126,
+        "startChar": 4,
+        "endLine": 126,
+        "endChar": 53
+      },
+      "revId": "20168d0d9113212cffa208daa518e2c4e452a417",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c6840f7b_eb7345d0",
