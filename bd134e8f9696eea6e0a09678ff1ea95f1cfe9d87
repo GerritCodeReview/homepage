@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "886c1f3c_5a7ee78f",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-12-01T19:50:09Z",
+      "side": 1,
+      "message": "Wasn\u0027t this already implemented in v3.7?",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 31
+      },
+      "revId": "bd134e8f9696eea6e0a09678ff1ea95f1cfe9d87",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49f7ea9f_e31b2a27",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-12-01T19:50:09Z",
+      "side": 1,
+      "message": "```suggestion\n[Change 394440](https://gerrit-review.googlesource.com/394440) flagged the API Changes.id(int) as deprecated\n```",
+      "range": {
+        "startLine": 125,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 15
+      },
+      "revId": "bd134e8f9696eea6e0a09678ff1ea95f1cfe9d87",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "790f72c0_4411924d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 756,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-12-01T19:50:09Z",
+      "side": 1,
+      "message": "This should be moved to the breaking changes section: all existing plugins that are using Mockito need to be adapted.",
+      "range": {
+        "startLine": 754,
+        "startChar": 0,
+        "endLine": 756,
+        "endChar": 47
+      },
+      "revId": "bd134e8f9696eea6e0a09678ff1ea95f1cfe9d87",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
