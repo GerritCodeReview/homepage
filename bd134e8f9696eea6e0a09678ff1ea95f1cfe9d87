@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c6f77c7d_92272b61",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2023-12-01T19:53:32Z",
+      "side": 1,
+      "message": "Yes it was, it was already mentioned there, let me remove it.",
+      "parentUuid": "886c1f3c_5a7ee78f",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 31
+      },
+      "revId": "bd134e8f9696eea6e0a09678ff1ea95f1cfe9d87",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "49f7ea9f_e31b2a27",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 1
