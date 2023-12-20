@@ -457,6 +457,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "41885c86_b9909e57",
+        "filename": "_posts/2023-11-18-gus-2023-surevey-results.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-12-20T10:55:20Z",
+      "side": 1,
+      "message": "I would add:\n- GerritMeets every month in 2024, starting from February (we won\u0027t have time for January)\n- Gerrit v3.10 in May 2024\n- Gerrit User Summit in September 2024\n- Gerrit v3.11 in November 2024",
+      "parentUuid": "30db5302_eeee9ab2",
+      "range": {
+        "startLine": 143,
+        "startChar": 1,
+        "endLine": 143,
+        "endChar": 36
+      },
+      "revId": "3085a6172b298bb8925092ec85ba73d71c85e663",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6ca06124_ec7c5465",
         "filename": "_posts/2023-11-18-gus-2023-surevey-results.md",
         "patchSetId": 2
