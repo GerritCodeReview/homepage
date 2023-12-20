@@ -433,6 +433,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "30db5302_eeee9ab2",
+        "filename": "_posts/2023-11-18-gus-2023-surevey-results.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1086104
+      },
+      "writtenOn": "2023-12-20T10:23:23Z",
+      "side": 1,
+      "message": "@luca.milanesio@gmail.com if there\u0027s nothing to add here, should we remove this line?",
+      "parentUuid": "7938585c_0caee2e5",
+      "range": {
+        "startLine": 143,
+        "startChar": 1,
+        "endLine": 143,
+        "endChar": 36
+      },
+      "revId": "3085a6172b298bb8925092ec85ba73d71c85e663",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6ca06124_ec7c5465",
         "filename": "_posts/2023-11-18-gus-2023-surevey-results.md",
         "patchSetId": 2
