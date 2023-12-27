@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7162fd8_d721d6e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-12-27T22:22:32Z",
+      "side": 1,
+      "message": "There is one duplicate title and a broken image.",
+      "revId": "2bcfcd24d8a7a9707017ece1a0fa9ca9a347f9b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbe58003_d34f6cff",
+        "filename": "_posts/2023-11-18-gus-2023-surevey-results.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-12-27T22:22:32Z",
+      "side": 1,
+      "message": "Where is this image? Did you forget to add it to the change?",
+      "range": {
+        "startLine": 13,
+        "startChar": 10,
+        "endLine": 13,
+        "endChar": 28
+      },
+      "revId": "2bcfcd24d8a7a9707017ece1a0fa9ca9a347f9b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa7e914d_0f633695",
+        "filename": "_posts/2023-11-18-gus-2023-surevey-results.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2023-12-27T22:22:32Z",
+      "side": 1,
+      "message": "Duplicate title: the one at L2 would be rendered as title already, no need to repeat it here.",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 52
+      },
+      "revId": "2bcfcd24d8a7a9707017ece1a0fa9ca9a347f9b1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
