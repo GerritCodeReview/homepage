@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5eb59e1d_17d134f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-01-05T08:00:17Z",
+      "side": 1,
+      "message": "Thanks much for adding this. Looks great!",
+      "revId": "e763a7fb11ff95f56fe4475a8a3a0f01b9238e1a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e47d8c5b_bc8d3eb6",
+        "filename": "pages/site/community/contact.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-01-05T08:00:17Z",
+      "side": 1,
+      "message": "nit: posts",
+      "range": {
+        "startLine": 45,
+        "startChar": 37,
+        "endLine": 45,
+        "endChar": 42
+      },
+      "revId": "e763a7fb11ff95f56fe4475a8a3a0f01b9238e1a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
