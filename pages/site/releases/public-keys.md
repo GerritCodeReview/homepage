@@ -31,6 +31,7 @@ The following public keys are available on the
 |                  |                                 | 9825 38F5 0438 DD7B 4813  C822 0B4E F7D5 A2B6 987E | rsa-4096     |
 | Marco Miller     | marco.miller@ericsson.com       | 0830 0EEC 2BC2 0B9E 8E70  EDF0 EBA2 EE0C FECB C040 | rsa-3072     |
 | Masaya Suzuki    | masayasuzuki@google.com         | 17DE EE31 04AA 1FBD ABE4  D1F7 2489 35B0 B6B8 7F19 |              |
+| Matthias Sohn    | matthias.sohn@sap.com           | 7C66 9810 892C BD31 48FA  9299 5B05 CCDE 140C 2876 | dsa-2048     |
 | Nasser Grainawi  | nasser@codeaurora.org           | 7C29 4522 4865 1030 FD26  7410 CEF6 54C8 5EEF 0AF1 |              |
 | Patrick Hiesel   | hiesel@google.com               | 7789 759C D085 C90A 1823  63AB 710A 7242 BD5B 6C39 |              |
 | Saša Živkov      | sasa.zivkov@sap.com             | 024B 9991 1E26 0764 22A7  5AD4 4D52 61F9 26C1 290E |              |
