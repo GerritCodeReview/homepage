@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8021dc88_2ee64191",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-01-24T10:28:49Z",
+      "side": 1,
+      "message": "Maybe better say \"Git Health Service\" here, as most people may not know what \"GHS\" is.\n\n```suggestion\n* [Git Health Service](https://docs.google.com/presentation/d/1aIdRQzRGDujPvSXmjhMYysoDY8B6wYeAoZbC-oWHhZY)\n```",
+      "range": {
+        "startLine": 232,
+        "startChar": 3,
+        "endLine": 232,
+        "endChar": 6
+      },
+      "revId": "2a08f7c84506bf7b6a1783a987bd0d0d924e2195",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6dc54a1_2b9893e0",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-01-24T10:28:49Z",
+      "side": 1,
+      "message": "Please append the year of the talk in brackets (same as it\u0027s done for the other talks below).",
+      "range": {
+        "startLine": 232,
+        "startChar": 91,
+        "endLine": 232,
+        "endChar": 92
+      },
+      "revId": "2a08f7c84506bf7b6a1783a987bd0d0d924e2195",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
