@@ -229,6 +229,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Tools / ThirdParty
 
+* [GHS](https://docs.google.com/presentation/d/1aIdRQzRGDujPvSXmjhMYysoDY8B6wYeAoZbC-oWHhZY)
+ * [Video](https://youtu.be/0_UD33aK-3o)
 * [Using GitHub Actions with GerritHub](https://storage.googleapis.com/gerrit-talks/summit/2021/2021-12-01%20Using%20GitHub%20Actions%20with%20GerritHub.pdf) (2021)
 * [Overview of Gerrit in AWS](https://storage.googleapis.com/gerrit-talks/summit/2021/Overview%20of%20Gerrit%20in%20AWS-03-12-2021.pdf) (2021)
 * [Forward Gerrit events to Jenkins via AWS Kinesis](https://storage.googleapis.com/gerrit-talks/summit/2021/Virtual%20Gerrit%20Summit%202021_%20Forward%20Gerrit%20events%20to%20Jenkins%20via%20AWS%20Kinesis.pdf) (2021)
