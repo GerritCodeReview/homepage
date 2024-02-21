@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ae4cdf5a_f64b5ba5",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 589,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-02-21T15:39:07Z",
+      "side": 1,
+      "message": "I think this is a bit too technical to be in the release notes as it won\u0027t mean much for admin readers.\nI would drop this and leave the \"Improved performance...\" summary only.",
+      "range": {
+        "startLine": 588,
+        "startChar": 0,
+        "endLine": 589,
+        "endChar": 67
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d266c236_29a56052",
         "filename": "pages/site/releases/3.7.md",
         "patchSetId": 3
@@ -19,6 +42,99 @@
         "startChar": 2,
         "endLine": 597,
         "endChar": 79
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a34aa60_0d324d02",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 597,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-02-21T15:39:07Z",
+      "side": 1,
+      "message": "I think mentioning this in the dependencies section only is a good idea, usually we don\u0027t have duplicates.\n\nAlso, most library updates come with security fixes, we don\u0027t necessarily mention them directly in the `Security fixes`.",
+      "parentUuid": "d266c236_29a56052",
+      "range": {
+        "startLine": 593,
+        "startChar": 2,
+        "endLine": 597,
+        "endChar": 79
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e3eaa7f_a861e5d2",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 634,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-02-21T15:39:07Z",
+      "side": 1,
+      "message": "Should this be moved to the `New Features` section?",
+      "range": {
+        "startLine": 633,
+        "startChar": 0,
+        "endLine": 634,
+        "endChar": 60
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30bdeee5_f8002b27",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 636,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-02-21T15:39:07Z",
+      "side": 1,
+      "message": "```suggestion\n    Attach `o\u003dSTAR` on change list queries in frontend. Fix the dashboard to\n```",
+      "range": {
+        "startLine": 636,
+        "startChar": 11,
+        "endLine": 636,
+        "endChar": 17
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44c2c8d2_f1705b67",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 645,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-02-21T15:39:07Z",
+      "side": 1,
+      "message": "Since jgit is so tightly coupled with Gerrit, it would be useful to inform the users of _what_ changes are brought in.\n\nYou can take a look here [1] for an example on how we usually display this.\n\n[1] https://gerrit.googlesource.com/homepage/+/refs/heads/master/pages/site/releases/3.9.md#jgit-changes",
+      "range": {
+        "startLine": 644,
+        "startChar": 0,
+        "endLine": 645,
+        "endChar": 57
       },
       "revId": "c631382184109d541631d7093f0cbc435deb344c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
