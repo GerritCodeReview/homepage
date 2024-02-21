@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "28259262_6defc598",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 589,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-21T16:25:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae4cdf5a_f64b5ba5",
+      "range": {
+        "startLine": 588,
+        "startChar": 0,
+        "endLine": 589,
+        "endChar": 67
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d266c236_29a56052",
@@ -73,6 +97,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "01636d85_7ebeb036",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 597,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-21T16:25:05Z",
+      "side": 1,
+      "message": "Thank you, should the summary containing info on the security fix stay though?",
+      "parentUuid": "4a34aa60_0d324d02",
+      "range": {
+        "startLine": 593,
+        "startChar": 2,
+        "endLine": 597,
+        "endChar": 79
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4e3eaa7f_a861e5d2",
         "filename": "pages/site/releases/3.7.md",
         "patchSetId": 3
@@ -84,6 +132,30 @@
       "writtenOn": "2024-02-21T15:39:07Z",
       "side": 1,
       "message": "Should this be moved to the `New Features` section?",
+      "range": {
+        "startLine": 633,
+        "startChar": 0,
+        "endLine": 634,
+        "endChar": 60
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b8cc853_8778fd5e",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 634,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-21T16:25:05Z",
+      "side": 1,
+      "message": "Not really sure about this, reading the commit message of the change I understand this was done to fix the issue of not displaying correctly the starred changes when on the dashboard you star a change and then refresh. So to me is more a fix than a new feature. Maybe needs some rewording.\nAs a note this change also references `Google-Bug-Id: b/276296940` but is not accessible.",
+      "parentUuid": "4e3eaa7f_a861e5d2",
       "range": {
         "startLine": 633,
         "startChar": 0,
@@ -117,6 +189,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ee70e69_07ab3d94",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 636,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-21T16:25:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30bdeee5_f8002b27",
+      "range": {
+        "startLine": 636,
+        "startChar": 11,
+        "endLine": 636,
+        "endChar": 17
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "44c2c8d2_f1705b67",
@@ -130,6 +226,30 @@
       "writtenOn": "2024-02-21T15:39:07Z",
       "side": 1,
       "message": "Since jgit is so tightly coupled with Gerrit, it would be useful to inform the users of _what_ changes are brought in.\n\nYou can take a look here [1] for an example on how we usually display this.\n\n[1] https://gerrit.googlesource.com/homepage/+/refs/heads/master/pages/site/releases/3.9.md#jgit-changes",
+      "range": {
+        "startLine": 644,
+        "startChar": 0,
+        "endLine": 645,
+        "endChar": 57
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec7c7965_4a8016de",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 645,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-21T16:25:05Z",
+      "side": 1,
+      "message": "Thank you! Notable changes left as the subset of the git logs from the release notes you pointed to.",
+      "parentUuid": "44c2c8d2_f1705b67",
       "range": {
         "startLine": 644,
         "startChar": 0,
