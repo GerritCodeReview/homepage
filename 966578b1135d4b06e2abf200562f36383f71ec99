@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "49e7eced_cd8d2f2f",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 643,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-22T09:33:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7f3bc289_3c88c687",
+      "range": {
+        "startLine": 643,
+        "startChar": 58,
+        "endLine": 643,
+        "endChar": 59
+      },
+      "revId": "966578b1135d4b06e2abf200562f36383f71ec99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a0a86b7d_115010dc",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e000842a_7ffb0b4e",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 644,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-22T09:33:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a0a86b7d_115010dc",
+      "range": {
+        "startLine": 644,
+        "startChar": 0,
+        "endLine": 644,
+        "endChar": 4
+      },
+      "revId": "966578b1135d4b06e2abf200562f36383f71ec99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "090a24fe_ef7d922d",
@@ -60,6 +108,30 @@
       "writtenOn": "2024-02-21T19:59:17Z",
       "side": 1,
       "message": "trailing space",
+      "range": {
+        "startLine": 650,
+        "startChar": 0,
+        "endLine": 650,
+        "endChar": 4
+      },
+      "revId": "966578b1135d4b06e2abf200562f36383f71ec99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0d13798_fd888ecf",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 650,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-22T09:33:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "090a24fe_ef7d922d",
       "range": {
         "startLine": 650,
         "startChar": 0,
