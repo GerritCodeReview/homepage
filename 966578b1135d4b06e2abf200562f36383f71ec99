@@ -163,6 +163,30 @@
       },
       "revId": "966578b1135d4b06e2abf200562f36383f71ec99",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47cf9171_76ee8ea3",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-02-23T09:42:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "99ebe9b3_c2ea3c37",
+      "range": {
+        "startLine": 651,
+        "startChar": 4,
+        "endLine": 651,
+        "endChar": 24
+      },
+      "revId": "966578b1135d4b06e2abf200562f36383f71ec99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
