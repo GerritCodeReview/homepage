@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5ce9b8e8_ef8b465d",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-23T13:09:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1cd2e60f_590f97b3",
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "22b53a1f_3cbdd7c4",
         "filename": "pages/site/releases/3.7.md",
         "patchSetId": 3
@@ -37,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bba4e878_99c34d43",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-23T13:09:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "22b53a1f_3cbdd7c4",
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "452831a5_f423e33c",
         "filename": "pages/site/releases/3.7.md",
         "patchSetId": 3
@@ -48,6 +84,30 @@
       "writtenOn": "2024-02-23T10:54:49Z",
       "side": 1,
       "message": "Not in development anymore.\n\n\n```suggestion\n### 3.7.7\n```",
+      "range": {
+        "startLine": 543,
+        "startChar": 10,
+        "endLine": 543,
+        "endChar": 26
+      },
+      "revId": "c631382184109d541631d7093f0cbc435deb344c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd54790a_8e9812dc",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 543,
+      "author": {
+        "id": 1161425
+      },
+      "writtenOn": "2024-02-23T13:09:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "452831a5_f423e33c",
       "range": {
         "startLine": 543,
         "startChar": 10,
