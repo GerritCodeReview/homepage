@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4365bd25_6c9a6667",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-03-06T23:44:24Z",
+      "side": 1,
+      "message": "Thanks @dariusz.luksza@gmail.com for helping out with the releases 👍",
+      "revId": "3a4ef9023ed6a58003a9bb47c5a0a5f91b875b46",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6828fc66_d896ab6d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 773,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-03-06T23:44:24Z",
+      "side": 1,
+      "message": "_can_ or _must_?",
+      "range": {
+        "startLine": 773,
+        "startChar": 18,
+        "endLine": 773,
+        "endChar": 26
+      },
+      "revId": "3a4ef9023ed6a58003a9bb47c5a0a5f91b875b46",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab2b153e_8f4b8bac",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 779,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-03-06T23:44:24Z",
+      "side": 1,
+      "message": "nit: wrap long line",
+      "range": {
+        "startLine": 779,
+        "startChar": 100,
+        "endLine": 779,
+        "endChar": 108
+      },
+      "revId": "3a4ef9023ed6a58003a9bb47c5a0a5f91b875b46",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb1aa392_c8c80a10",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 828,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-03-06T23:44:24Z",
+      "side": 1,
+      "message": "Nit: wrap long line",
+      "range": {
+        "startLine": 828,
+        "startChar": 88,
+        "endLine": 828,
+        "endChar": 102
+      },
+      "revId": "3a4ef9023ed6a58003a9bb47c5a0a5f91b875b46",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d505fcb_a0812c78",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 860,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-03-06T23:44:24Z",
+      "side": 1,
+      "message": "```suggestion\n    Fixes a bug when comments posted on changes imported from another Gerrit instance were not\n```",
+      "range": {
+        "startLine": 860,
+        "startChar": 77,
+        "endLine": 860,
+        "endChar": 85
+      },
+      "revId": "3a4ef9023ed6a58003a9bb47c5a0a5f91b875b46",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "979ebc21_7609d9a9",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 892,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-03-06T23:44:24Z",
+      "side": 1,
+      "message": "We typically say _\"Update download-commands to 978e803c874\"_ like at L900",
+      "range": {
+        "startLine": 892,
+        "startChar": 2,
+        "endLine": 892,
+        "endChar": 58
+      },
+      "revId": "3a4ef9023ed6a58003a9bb47c5a0a5f91b875b46",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31d4fc91_29bef525",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 913,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-03-06T23:44:24Z",
+      "side": 1,
+      "message": "Is this relevant for the Gerrit admin?",
+      "range": {
+        "startLine": 912,
+        "startChar": 0,
+        "endLine": 913,
+        "endChar": 56
+      },
+      "revId": "3a4ef9023ed6a58003a9bb47c5a0a5f91b875b46",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
