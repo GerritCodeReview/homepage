@@ -65,6 +65,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "720b30a5_1fb02604",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-03-07T11:24:56Z",
+      "side": 1,
+      "message": ":facepalm: it was early in the morning 👍",
+      "parentUuid": "c86b46b5_9242d50d",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 92
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3a853c66_f51fa27c",
@@ -196,6 +220,30 @@
       "side": 1,
       "message": "this is how it\u0027s stated in the merged change commit message see: https://gerrit-review.googlesource.com/c/gerrit/+/393037 I assume it\u0027s correct as it was merged this way",
       "parentUuid": "06ac5fb1_39a84957",
+      "range": {
+        "startLine": 814,
+        "startChar": 32,
+        "endLine": 814,
+        "endChar": 36
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65711e91_214ec350",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 814,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-03-07T11:24:56Z",
+      "side": 1,
+      "message": "Right, it probably means [open-core](https://en.wikipedia.org/wiki/Open-core_model) model.",
+      "parentUuid": "210be64f_dc51ce11",
       "range": {
         "startLine": 814,
         "startChar": 32,
