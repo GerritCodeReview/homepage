@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c86b46b5_9242d50d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1010134
+      },
+      "writtenOn": "2024-03-07T09:51:52Z",
+      "side": 1,
+      "message": "nothing is replaced, only 3.9.2 is added. The diff view is messing this up a bit, but 3.9.1 stays as it was before (3.9.0 was a botched release) and only 3.9.2 is added.",
+      "parentUuid": "f69df5e8_9f827e9e",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 92
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3a853c66_f51fa27c",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 2
@@ -54,6 +78,30 @@
       "writtenOn": "2024-03-07T08:54:48Z",
       "side": 1,
       "message": "nit: add article e.g. `A star`?",
+      "range": {
+        "startLine": 773,
+        "startChar": 4,
+        "endLine": 773,
+        "endChar": 10
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35f6413f_b2fd0448",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 773,
+      "author": {
+        "id": 1010134
+      },
+      "writtenOn": "2024-03-07T09:51:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a853c66_f51fa27c",
       "range": {
         "startLine": 773,
         "startChar": 4,
@@ -87,6 +135,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "18fc5350_99416a0d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 793,
+      "author": {
+        "id": 1010134
+      },
+      "writtenOn": "2024-03-07T09:51:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6180c9dd_791fac91",
+      "range": {
+        "startLine": 793,
+        "startChar": 23,
+        "endLine": 793,
+        "endChar": 25
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "06ac5fb1_39a84957",
@@ -100,6 +172,30 @@
       "writtenOn": "2024-03-07T08:54:48Z",
       "side": 1,
       "message": "nit: `s/core/source`?",
+      "range": {
+        "startLine": 814,
+        "startChar": 32,
+        "endLine": 814,
+        "endChar": 36
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "210be64f_dc51ce11",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 814,
+      "author": {
+        "id": 1010134
+      },
+      "writtenOn": "2024-03-07T09:51:52Z",
+      "side": 1,
+      "message": "this is how it\u0027s stated in the merged change commit message see: https://gerrit-review.googlesource.com/c/gerrit/+/393037 I assume it\u0027s correct as it was merged this way",
+      "parentUuid": "06ac5fb1_39a84957",
       "range": {
         "startLine": 814,
         "startChar": 32,
