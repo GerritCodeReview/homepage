@@ -22,6 +22,30 @@
       },
       "revId": "31a0cee2a1b9a0aa0d95db7fa35033328217ba34",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9edab080_19f26155",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1010134
+      },
+      "writtenOn": "2024-03-07T16:20:41Z",
+      "side": 1,
+      "message": "It looks like the title is not updated for the patch releases. I\u0027ve checked the `3.7.md` and `3.8.md`, and both have the title set to `.0` patch release.\n\nWith 3.9 we start with `.1` patch release, as the `.0` was botched.",
+      "parentUuid": "71894e48_b988334c",
+      "range": {
+        "startLine": 2,
+        "startChar": 19,
+        "endLine": 2,
+        "endChar": 20
+      },
+      "revId": "31a0cee2a1b9a0aa0d95db7fa35033328217ba34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
