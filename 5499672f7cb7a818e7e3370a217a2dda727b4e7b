@@ -16,6 +16,98 @@
       "message": "LGTM, I\u0027m verified and merge once the release is merged, tagged and published. Good stuff @dariusz.luksza@gmail.com",
       "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f69df5e8_9f827e9e",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-03-07T08:54:48Z",
+      "side": 1,
+      "message": "We are typically adding releases in this section, not replacing them - see [stable-3.8](https://www.gerritcodereview.com/3.8.html) for reference.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 92
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a853c66_f51fa27c",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 773,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-03-07T08:54:48Z",
+      "side": 1,
+      "message": "nit: add article e.g. `A star`?",
+      "range": {
+        "startLine": 773,
+        "startChar": 4,
+        "endLine": 773,
+        "endChar": 10
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6180c9dd_791fac91",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 793,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-03-07T08:54:48Z",
+      "side": 1,
+      "message": "nit: double space",
+      "range": {
+        "startLine": 793,
+        "startChar": 23,
+        "endLine": 793,
+        "endChar": 25
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06ac5fb1_39a84957",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 814,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-03-07T08:54:48Z",
+      "side": 1,
+      "message": "nit: `s/core/source`?",
+      "range": {
+        "startLine": 814,
+        "startChar": 32,
+        "endLine": 814,
+        "endChar": 36
+      },
+      "revId": "5499672f7cb7a818e7e3370a217a2dda727b4e7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
