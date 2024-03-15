@@ -117,7 +117,7 @@ Schedule [git gc](https://gerrit-review.googlesource.com/Documentation/config-ge
 over all managed repositories and
 [replicate](https://gerrit.googlesource.com/plugins/replication/+doc/master/src/main/resources/Documentation/config.md)
 to geographical mirrors for latency reduction and backup servers for hot
-spare redundancy.w
+spare redundancy.
 
 ## Extensible through plugins
 
