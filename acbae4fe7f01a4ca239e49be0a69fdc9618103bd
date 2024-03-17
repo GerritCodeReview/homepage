@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b42dd67a_7e9fc857",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2024-03-17T14:31:05Z",
+      "side": 1,
+      "message": "Could update the dopcker image at somepoint as well from 2.4-alpine to 3.3-alpine?",
+      "revId": "acbae4fe7f01a4ca239e49be0a69fdc9618103bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
