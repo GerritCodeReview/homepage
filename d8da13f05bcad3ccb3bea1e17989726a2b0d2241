@@ -20,6 +20,46 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d175866_625af87f",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Can you add an overall description of what is supported and how to use it?",
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4fa3e82_6c6fc231",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This should be rather a note. Also, you should point on the issue that can lead to have duplicates of `project~branch~changeId` (see Issue 313935024)",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 71
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0908e9be_87a3f930",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 15
@@ -37,6 +77,75 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f6208184_c1d0641f",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "nit: empty space",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 2
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e4626de_9d18cebc",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Lucene",
+      "range": {
+        "startLine": 85,
+        "startChar": 11,
+        "endLine": 85,
+        "endChar": 25
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b58d118_c8985b2b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "by change number",
+      "range": {
+        "startLine": 85,
+        "startChar": 7,
+        "endLine": 85,
+        "endChar": 9
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "727babf2_8f56a6b9",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 15
@@ -48,6 +157,29 @@
       "writtenOn": "2024-04-05T15:06:07Z",
       "side": 1,
       "message": "Remove?",
+      "range": {
+        "startLine": 95,
+        "startChar": 47,
+        "endLine": 95,
+        "endChar": 74
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c20f669d_5ae3ca85",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "To be addressed",
       "range": {
         "startLine": 95,
         "startChar": 47,
@@ -95,6 +227,69 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ef431d13_59feb3fb",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "nit: empty space",
+      "range": {
+        "startLine": 99,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 2
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7811f5b9_b26428d2",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Specify that the schema version hasn\u0027t been updated, however, because of the bump of Lucene to v9.8, the upgrade is supported only from Gerrit v3.9, as Lucene libraries do not support more than one version upgrade at a time.",
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fb036c7_d55cc597",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Explain that is due to the bump of the Lucene libraries to v9.8 that do not support more than one bump at a time.",
+      "range": {
+        "startLine": 111,
+        "startChar": 20,
+        "endLine": 111,
+        "endChar": 50
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3a5e50fe_90a38cad",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 15
@@ -130,6 +325,391 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d07185ba_fdeccb7f",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "nit: empty space",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 2
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52f2c37f_98d6ba57",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Can you also explain what is the consequence?\nE.g. Clicking the branch link returns *all changes* associated with that branch, rather than the ones matching the change\u0027s status.",
+      "range": {
+        "startLine": 152,
+        "startChar": 20,
+        "endLine": 152,
+        "endChar": 37
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e51e4f0_c9ae5ae3",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "To be addressed.",
+      "range": {
+        "startLine": 152,
+        "startChar": 38,
+        "endLine": 153,
+        "endChar": 24
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c50cb809_09f9404f",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Add one blank here",
+      "range": {
+        "startLine": 154,
+        "startChar": 64,
+        "endLine": 154,
+        "endChar": 65
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7fe56039_275fe886",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "To be addressed and verified. Also, explain how this fix is breaking?",
+      "range": {
+        "startLine": 157,
+        "startChar": 40,
+        "endLine": 157,
+        "endChar": 51
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef775720_ab04d2dd",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Also explain why this is breaking: if the consumer is _\"well designed\"_ adding one extra field in JSON should not break any existing behaviour. However, that is a change in the payload and is potentially breaking clients and requires testing.",
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1d99d25_8e19cba1",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Specify that this is impacting only plugins.",
+      "range": {
+        "startLine": 162,
+        "startChar": 43,
+        "endLine": 162,
+        "endChar": 73
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87cda0bc_cbf1e19f",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "If this was unused, why is this breaking?",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 55
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7178de98_3aac1d0a",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Put link to the highlights section.",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 166,
+        "endChar": 17
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1a832b5_4d845072",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This needs to be further explained, because this client-side change can cause the clients to duplicate and hammer the server with HTTP requests in case of 429s.",
+      "range": {
+        "startLine": 168,
+        "startChar": 2,
+        "endLine": 168,
+        "endChar": 53
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b136efc6_66558af8",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This needs explanation on:\n- Why you could have multiple changes with the same number\n- What is the remediation",
+      "range": {
+        "startLine": 170,
+        "startChar": 2,
+        "endLine": 170,
+        "endChar": 31
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "293d4aa5_2d6fd992",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This is actually the remediation of the point above: you have to specify the project name to be sure that the change number in the review command is never ambiguous.",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 172,
+        "endChar": 9
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad6690d4_7591d6bf",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "To be addressed.",
+      "range": {
+        "startLine": 180,
+        "startChar": 33,
+        "endLine": 180,
+        "endChar": 56
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a205a315_210512d9",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "To be addressed",
+      "range": {
+        "startLine": 185,
+        "startChar": 24,
+        "endLine": 185,
+        "endChar": 47
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10548585_094179de",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This isn\u0027t relevant for the Gerrit admin",
+      "range": {
+        "startLine": 186,
+        "startChar": 0,
+        "endLine": 187,
+        "endChar": 40
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "32bc4a00_69efa114",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "To be addressed.",
+      "range": {
+        "startLine": 189,
+        "startChar": 38,
+        "endLine": 189,
+        "endChar": 61
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d7a8306_1eb38c7d",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Missing rest of the sentence",
+      "range": {
+        "startLine": 193,
+        "startChar": 37,
+        "endLine": 193,
+        "endChar": 55
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "baec7e6d_54dba959",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 15
@@ -159,6 +739,184 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "baec7e6d_54dba959",
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a452e62_7f0f4ea4",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "nit: remove empty space",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 2
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b80c8e10_cc9c5fec",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This is misleading, as this has been implemented only for `project-created` as noted at L204. Best to remove it IMHO.",
+      "range": {
+        "startLine": 202,
+        "startChar": 0,
+        "endLine": 203,
+        "endChar": 18
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3da7e372_13cb759b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Rather than _ignore_ I would say _do not fire locally_",
+      "range": {
+        "startLine": 206,
+        "startChar": 65,
+        "endLine": 207,
+        "endChar": 45
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8175696_78dfe129",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "I see the link: just remove the note?",
+      "range": {
+        "startLine": 210,
+        "startChar": 8,
+        "endLine": 210,
+        "endChar": 32
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9044672_56ce9136",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Is this related to multi-site?",
+      "range": {
+        "startLine": 211,
+        "startChar": 0,
+        "endLine": 213,
+        "endChar": 13
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "51a08722_5cbc2098",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "Is this relate to multi-site?",
+      "range": {
+        "startLine": 214,
+        "startChar": 0,
+        "endLine": 215,
+        "endChar": 29
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a726f02_3739ce38",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This isn\u0027a a plugin, remove it.",
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06934574_7d3a9da1",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This isn\u0027t a plugin, remove it.",
+      "range": {
+        "startLine": 219,
+        "startChar": 2,
+        "endLine": 219,
+        "endChar": 6
+      },
       "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -205,6 +963,92 @@
         "startChar": 73,
         "endLine": 231,
         "endChar": 82
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6474fec4_3fd04eb7",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "nit empty space",
+      "range": {
+        "startLine": 231,
+        "startChar": 73,
+        "endLine": 231,
+        "endChar": 82
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28c605aa_2474f618",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This isn\u0027t a plugin, just remove it.",
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c826580_4cad3f62",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This isn\u0027t relevant IMHO",
+      "range": {
+        "startLine": 262,
+        "startChar": 4,
+        "endLine": 262,
+        "endChar": 47
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f490c33b_518ad5ee",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:36:33Z",
+      "side": 1,
+      "message": "This isn\u0027t relevant IMHO",
+      "range": {
+        "startLine": 264,
+        "startChar": 4,
+        "endLine": 264,
+        "endChar": 71
       },
       "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
