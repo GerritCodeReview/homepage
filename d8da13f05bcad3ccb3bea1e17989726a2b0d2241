@@ -573,6 +573,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d1a8058_5999d5ba",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T17:46:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "52f2c37f_98d6ba57",
+      "range": {
+        "startLine": 152,
+        "startChar": 20,
+        "endLine": 152,
+        "endChar": 37
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e51e4f0_c9ae5ae3",
@@ -586,6 +610,30 @@
       "writtenOn": "2024-04-05T15:36:33Z",
       "side": 1,
       "message": "To be addressed.",
+      "range": {
+        "startLine": 152,
+        "startChar": 38,
+        "endLine": 153,
+        "endChar": 24
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd840639_c477dbfa",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T17:46:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3e51e4f0_c9ae5ae3",
       "range": {
         "startLine": 152,
         "startChar": 38,
@@ -683,6 +731,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3a1dcb6_9e261e61",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T17:46:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef775720_ab04d2dd",
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f1d99d25_8e19cba1",
@@ -767,6 +833,30 @@
       "side": 1,
       "message": "It\u0027s unused within Gerrit, but, as it\u0027s removing a field from the interface, some plugins could potentially be using it.",
       "parentUuid": "87cda0bc_cbf1e19f",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 55
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d07d925d_4a3f6bfc",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T17:46:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1c22ffbb_7d3cabd8",
       "range": {
         "startLine": 163,
         "startChar": 0,
