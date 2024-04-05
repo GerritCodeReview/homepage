@@ -346,6 +346,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "29fea342_6cf46468",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d07185ba_fdeccb7f",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 2
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "52f2c37f_98d6ba57",
@@ -766,6 +790,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d265eccf_e81ab811",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a452e62_7f0f4ea4",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 2
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b80c8e10_cc9c5fec",
@@ -1008,6 +1056,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0825cba7_53fe6710",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6474fec4_3fd04eb7",
+      "range": {
+        "startLine": 231,
+        "startChar": 73,
+        "endLine": 231,
+        "endChar": 82
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0c826580_4cad3f62",
@@ -1049,6 +1121,282 @@
         "startChar": 4,
         "endLine": 264,
         "endChar": 71
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a52bceb_3818017f",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "Already mentioned at L310",
+      "range": {
+        "startLine": 302,
+        "startChar": 0,
+        "endLine": 303,
+        "endChar": 17
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46d40483_82d972b5",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "This should be already mentioned in the plugin updates (gitiles plugin)",
+      "range": {
+        "startLine": 312,
+        "startChar": 0,
+        "endLine": 312,
+        "endChar": 79
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26daf9b9_e3f17dd5",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "just mentioned `reload4j`",
+      "range": {
+        "startLine": 316,
+        "startChar": 2,
+        "endLine": 316,
+        "endChar": 26
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "accc24ce_787e17a7",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "httpcore",
+      "range": {
+        "startLine": 318,
+        "startChar": 2,
+        "endLine": 318,
+        "endChar": 36
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b50a731_bbd29c9d",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "auto-value",
+      "range": {
+        "startLine": 320,
+        "startChar": 2,
+        "endLine": 320,
+        "endChar": 34
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e01aff9a_53204a70",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "httpclient",
+      "range": {
+        "startLine": 322,
+        "startChar": 2,
+        "endLine": 322,
+        "endChar": 38
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97b242a3_6547a7f6",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "Not relevant IMHO",
+      "range": {
+        "startLine": 323,
+        "startChar": 0,
+        "endLine": 324,
+        "endChar": 45
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6956e9a7_c2619e2e",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 328,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "Already mentioned at L329",
+      "range": {
+        "startLine": 327,
+        "startChar": 0,
+        "endLine": 328,
+        "endChar": 38
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed2dbd99_5f598fff",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "This should go into the highlights, it is a major UI improvement IMHO",
+      "range": {
+        "startLine": 337,
+        "startChar": 0,
+        "endLine": 338,
+        "endChar": 51
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cdfcbd0b_c8ef1c6f",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 357,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "Already mentioned at L208",
+      "range": {
+        "startLine": 356,
+        "startChar": 0,
+        "endLine": 357,
+        "endChar": 26
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b86c529_9b1951b6",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "This isn\u0027t relevant IMHO",
+      "range": {
+        "startLine": 358,
+        "startChar": 0,
+        "endLine": 359,
+        "endChar": 42
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc93326d_cb2a10ad",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-05T15:44:55Z",
+      "side": 1,
+      "message": "This is a breaking change IMHO. Also, is the **50BM limit hardcoded**? If yes, it should be mentioned.",
+      "range": {
+        "startLine": 363,
+        "startChar": 0,
+        "endLine": 364,
+        "endChar": 44
       },
       "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
