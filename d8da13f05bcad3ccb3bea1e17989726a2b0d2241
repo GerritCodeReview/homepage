@@ -1779,6 +1779,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c44bee52_73a5d213",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a52bceb_3818017f",
+      "range": {
+        "startLine": 302,
+        "startChar": 0,
+        "endLine": 303,
+        "endChar": 17
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "46d40483_82d972b5",
@@ -1792,6 +1816,30 @@
       "writtenOn": "2024-04-05T15:44:55Z",
       "side": 1,
       "message": "This should be already mentioned in the plugin updates (gitiles plugin)",
+      "range": {
+        "startLine": 312,
+        "startChar": 0,
+        "endLine": 312,
+        "endChar": 79
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4aa21f49_1c74af91",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46d40483_82d972b5",
       "range": {
         "startLine": 312,
         "startChar": 0,
@@ -1825,6 +1873,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b68f56c_6e4c678b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "26daf9b9_e3f17dd5",
+      "range": {
+        "startLine": 316,
+        "startChar": 2,
+        "endLine": 316,
+        "endChar": 26
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "accc24ce_787e17a7",
@@ -1838,6 +1910,30 @@
       "writtenOn": "2024-04-05T15:44:55Z",
       "side": 1,
       "message": "httpcore",
+      "range": {
+        "startLine": 318,
+        "startChar": 2,
+        "endLine": 318,
+        "endChar": 36
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18e29ed2_2ba5b69a",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "accc24ce_787e17a7",
       "range": {
         "startLine": 318,
         "startChar": 2,
@@ -1871,6 +1967,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a9b72c3_36a624b3",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5b50a731_bbd29c9d",
+      "range": {
+        "startLine": 320,
+        "startChar": 2,
+        "endLine": 320,
+        "endChar": 34
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e01aff9a_53204a70",
@@ -1884,6 +2004,30 @@
       "writtenOn": "2024-04-05T15:44:55Z",
       "side": 1,
       "message": "httpclient",
+      "range": {
+        "startLine": 322,
+        "startChar": 2,
+        "endLine": 322,
+        "endChar": 38
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2adfc7d0_132f677c",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e01aff9a_53204a70",
       "range": {
         "startLine": 322,
         "startChar": 2,
@@ -1917,6 +2061,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6546a134_e3955ec1",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "97b242a3_6547a7f6",
+      "range": {
+        "startLine": 323,
+        "startChar": 0,
+        "endLine": 324,
+        "endChar": 45
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6956e9a7_c2619e2e",
@@ -1930,6 +2098,30 @@
       "writtenOn": "2024-04-05T15:44:55Z",
       "side": 1,
       "message": "Already mentioned at L329",
+      "range": {
+        "startLine": 327,
+        "startChar": 0,
+        "endLine": 328,
+        "endChar": 38
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0faca77_a10b0be2",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 328,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6956e9a7_c2619e2e",
       "range": {
         "startLine": 327,
         "startChar": 0,
@@ -1963,6 +2155,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d695459c_9453cfd0",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ed2dbd99_5f598fff",
+      "range": {
+        "startLine": 337,
+        "startChar": 0,
+        "endLine": 338,
+        "endChar": 51
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cdfcbd0b_c8ef1c6f",
@@ -1976,6 +2192,30 @@
       "writtenOn": "2024-04-05T15:44:55Z",
       "side": 1,
       "message": "Already mentioned at L208",
+      "range": {
+        "startLine": 356,
+        "startChar": 0,
+        "endLine": 357,
+        "endChar": 26
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c19d7b41_80c59bb4",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 357,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cdfcbd0b_c8ef1c6f",
       "range": {
         "startLine": 356,
         "startChar": 0,
@@ -2009,6 +2249,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "03978a99_d27a9613",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0b86c529_9b1951b6",
+      "range": {
+        "startLine": 358,
+        "startChar": 0,
+        "endLine": 359,
+        "endChar": 42
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bc93326d_cb2a10ad",
@@ -2022,6 +2286,30 @@
       "writtenOn": "2024-04-05T15:44:55Z",
       "side": 1,
       "message": "This is a breaking change IMHO. Also, is the **50BM limit hardcoded**? If yes, it should be mentioned.",
+      "range": {
+        "startLine": 363,
+        "startChar": 0,
+        "endLine": 364,
+        "endChar": 44
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73d706cd_01146ad1",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T15:58:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc93326d_cb2a10ad",
       "range": {
         "startLine": 363,
         "startChar": 0,
