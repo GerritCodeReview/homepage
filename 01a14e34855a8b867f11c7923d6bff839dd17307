@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aeb0e63d_bf6e0efd",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-04-05T22:58:16Z",
+      "side": 1,
+      "message": "whether",
+      "range": {
+        "startLine": 39,
+        "startChar": 33,
+        "endLine": 39,
+        "endChar": 40
+      },
+      "revId": "01a14e34855a8b867f11c7923d6bff839dd17307",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "893e9f83_c32e1f48",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-04-05T22:58:16Z",
+      "side": 1,
+      "message": "to",
+      "range": {
+        "startLine": 67,
+        "startChar": 65,
+        "endLine": 67,
+        "endChar": 67
+      },
+      "revId": "01a14e34855a8b867f11c7923d6bff839dd17307",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "758a5e5c_78c417da",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-04-05T22:58:16Z",
+      "side": 1,
+      "message": "https://gerrit-review.googlesource.com/c/gerrit/+/413798 \"Add indexes to the H2 cache databases\"\nThis improves performance of persistent caches considerably, especially pruning and building bloom filter.",
+      "revId": "01a14e34855a8b867f11c7923d6bff839dd17307",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abe878ae_7dbd686d",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-04-05T22:58:16Z",
+      "side": 1,
+      "message": "committer",
+      "range": {
+        "startLine": 95,
+        "startChar": 22,
+        "endLine": 95,
+        "endChar": 30
+      },
+      "revId": "01a14e34855a8b867f11c7923d6bff839dd17307",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db866618_6b0375ec",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-04-05T22:58:16Z",
+      "side": 1,
+      "message": "if",
+      "range": {
+        "startLine": 135,
+        "startChar": 10,
+        "endLine": 135,
+        "endChar": 12
+      },
+      "revId": "01a14e34855a8b867f11c7923d6bff839dd17307",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e171b73d_7506b380",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-04-05T22:58:16Z",
+      "side": 1,
+      "message": "is this a different change than 417000 ?",
+      "range": {
+        "startLine": 240,
+        "startChar": 45,
+        "endLine": 241,
+        "endChar": 6
+      },
+      "revId": "01a14e34855a8b867f11c7923d6bff839dd17307",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
