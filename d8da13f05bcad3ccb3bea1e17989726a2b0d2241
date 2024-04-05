@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "63e4c0d8_5f5ace3e",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T17:56:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d175866_625af87f",
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c4fa3e82_6c6fc231",
@@ -48,6 +66,30 @@
       "writtenOn": "2024-04-05T15:36:33Z",
       "side": 1,
       "message": "This should be rather a note. Also, you should point on the issue that can lead to have duplicates of `project~branch~changeId` (see Issue 313935024)",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 71
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84b075b8_9278999b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-05T17:56:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4fa3e82_6c6fc231",
       "range": {
         "startLine": 59,
         "startChar": 0,
