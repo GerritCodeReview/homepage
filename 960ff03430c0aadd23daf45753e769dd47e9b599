@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e32e6cf8_04b3a11b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 26
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-04-10T21:13:06Z",
+      "side": 1,
+      "message": "I have just started reviewing it - will review it more thoroughly in the following days ;)",
+      "revId": "960ff03430c0aadd23daf45753e769dd47e9b599",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "306cfa14_8f684cef",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 26
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-04-10T21:13:06Z",
+      "side": 1,
+      "message": "nit: how about replacing it with a ling to a change in question\n[Change 387794](https://gerrit-review.googlesource.com/387794)?",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 41
+      },
+      "revId": "960ff03430c0aadd23daf45753e769dd47e9b599",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
