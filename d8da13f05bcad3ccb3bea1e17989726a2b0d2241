@@ -322,6 +322,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a0bd3b5_564ce1c7",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-11T04:32:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "727babf2_8f56a6b9",
+      "range": {
+        "startLine": 95,
+        "startChar": 47,
+        "endLine": 95,
+        "endChar": 74
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bf2dfb9_cbb57b61",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-11T04:32:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c20f669d_5ae3ca85",
+      "range": {
+        "startLine": 95,
+        "startChar": 47,
+        "endLine": 95,
+        "endChar": 74
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0a11b154_a8aad329",
@@ -756,6 +804,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e685cb45_22de3916",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-11T04:32:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7fe56039_275fe886",
+      "range": {
+        "startLine": 157,
+        "startChar": 40,
+        "endLine": 157,
+        "endChar": 51
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ef775720_ab04d2dd",
@@ -979,6 +1051,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "104ff853_c0a8d7c7",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-11T04:32:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a1a832b5_4d845072",
+      "range": {
+        "startLine": 168,
+        "startChar": 2,
+        "endLine": 168,
+        "endChar": 53
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b136efc6_66558af8",
@@ -1002,6 +1098,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "048195cb_8355c758",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-11T04:32:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b136efc6_66558af8",
+      "range": {
+        "startLine": 170,
+        "startChar": 2,
+        "endLine": 170,
+        "endChar": 31
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "293d4aa5_2d6fd992",
@@ -1015,6 +1135,30 @@
       "writtenOn": "2024-04-05T15:36:33Z",
       "side": 1,
       "message": "This is actually the remediation of the point above: you have to specify the project name to be sure that the change number in the review command is never ambiguous.",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 172,
+        "endChar": 9
+      },
+      "revId": "d8da13f05bcad3ccb3bea1e17989726a2b0d2241",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbe24bdf_04229c93",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-04-11T04:32:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "293d4aa5_2d6fd992",
       "range": {
         "startLine": 171,
         "startChar": 0,
