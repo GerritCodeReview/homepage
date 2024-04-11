@@ -9,8 +9,11 @@ toc: false
 ## Who is allowed to fix bugs?
 
 Anyone who has accepted [the CLA for the Gerrit Code Review project](https://gerrit-review.googlesource.com/Documentation/dev-cla.html)!
-If you feel like contributing and need a place to start you will always find bugs that need
-fixing, big and small, on the [issue-tracker](https://www.gerritcodereview.com/issues.html).
+If you feel like [contributing](/contributing.html) and need a place to start
+you will always find bugs that need fixing, big and small, on the
+[issue tracker](https://issues.gerritcodereview.com/). For more information on
+how the project uses the tracker, see the [Issue Tracking][issue-tracking]
+documentation.
 
 _Consider bugs in "accepted" state first since these have already been through triage._
 
@@ -26,8 +29,8 @@ After which you can follow the workflow below.
 This will announce to everyone else that you are working on the bug, which most likely will
 make other affected users very happy which is always positive.
 
-If there is no issue for the bug you want to fix you'll need to create one first in the
-[issue-tracker](https://www.gerritcodereview.com/issues.html).
+If there is no issue for the bug you want to fix you'll need to create one first.
+See the [Issue Tracking][issue-tracking] documentation for more information.
 
 ### 2. Find the earliest supported branch that has the bug
 
@@ -92,3 +95,5 @@ understanding of the context and you are hence probably best suited to solve any
 Severe bugs and [security issues](https://gerrit-review.googlesource.com/Documentation/dev-processes.html#security-issues)
 are on occasion fixed in branches that are EOL since we try to offer some support to instances that
 haven't been able to migrate to a supported version yet.
+
+[issue-tracking]: /issues.html

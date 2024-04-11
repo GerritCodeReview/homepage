@@ -9,7 +9,7 @@ toc: false
 ## Quick Links
 
 * [Mailing list][repo-discuss]
-* [Issue tracker][issue-tracking]
+* [Issue Tracking][issue-tracking]
 
 ## Supported Versions
 
@@ -86,10 +86,10 @@ and it's possible that community members will be able to assist them.
 
 If the issue/question you posted on Repo Discuss is considered a bug
 the community will ask you to create an issue for tracking it.
-Bugs are reported to the [issue tracker][issue-tracking].
-The issue tracker is not always the best place to initially request
-new features, as the main focus for those consuming it is fixing
-bugs.
+Bugs are reported to the [issue tracker][issue-tracker]. The issue tracker is
+not always the best place to initially request new features, as the main focus
+for those consuming it is fixing bugs. See the [issue tracking][issue-tracking]
+documentation for more information.
 
 ## New Features
 
@@ -226,7 +226,7 @@ Gerrit community; see below the SLO and SLA associated with its services.
 GerritForge provides free Community Support (CS) for the Gerrit community using
 two channels:
 1. [Repo-discuss mailing list](https://groups.google.com/g/repo-discuss)
-2. [Gerrit issue-tracker](https://bugs.chromium.org/p/gerrit)
+2. [Gerrit issue-tracker][issue-tracker]
 
 GerritForge monitors the channels *on UK and EU working days, 8:00-23:00 GMT*,
 and occasionally over week-ends and bank holidays.
@@ -273,6 +273,7 @@ policies adopted for Gerrit Code Review.
 
 [feature-request]: https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose
 [issue-tracking]: /issues.html
+[issue-tracker]: https://issues.gerritcodereview.com/
 [repo-discuss]: https://groups.google.com/forum/#!forum/repo-discuss
 [discord-server]: https://discord.gg/HkGbBJHYbY
 [stack-overflow]: https://stackoverflow.com/questions/tagged/gerrit
