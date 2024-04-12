@@ -16,6 +16,47 @@
       "message": "Could update the dopcker image at somepoint as well from 2.4-alpine to 3.3-alpine?",
       "revId": "acbae4fe7f01a4ca239e49be0a69fdc9618103bd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24aeae8d_d01193d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-04-12T18:58:07Z",
+      "side": 1,
+      "message": "\u003e Could update the dopcker image at somepoint as well from 2.4-alpine to 3.3-alpine?\n\nWe should do that in this change itself since it\u0027s broken otherwise. And I would vote for simplifying further and using `3-alpine`. That seems to work for me.",
+      "parentUuid": "b42dd67a_7e9fc857",
+      "revId": "acbae4fe7f01a4ca239e49be0a69fdc9618103bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a789fed_e1c26b9c",
+        "filename": "Gemfile.lock",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-04-12T18:58:07Z",
+      "side": 1,
+      "message": "Did this actually work for you with this bundler version? If I update the Dockerfile to `3.2-alpine`, I\u0027m hitting https://github.com/rubygems/bundler/pull/7385 unless I update this line to bundler 2.1.0+.",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 9
+      },
+      "revId": "acbae4fe7f01a4ca239e49be0a69fdc9618103bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
