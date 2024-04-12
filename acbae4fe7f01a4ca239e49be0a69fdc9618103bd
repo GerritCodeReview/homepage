@@ -54,6 +54,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8af4f2b5_bc735902",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-04-12T20:17:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12d380b3_44e6e388",
+      "revId": "acbae4fe7f01a4ca239e49be0a69fdc9618103bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9a789fed_e1c26b9c",
@@ -67,6 +85,30 @@
       "writtenOn": "2024-04-12T18:58:07Z",
       "side": 1,
       "message": "Did this actually work for you with this bundler version? If I update the Dockerfile to `3.2-alpine`, I\u0027m hitting https://github.com/rubygems/bundler/pull/7385 unless I update this line to bundler 2.1.0+.",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 9
+      },
+      "revId": "acbae4fe7f01a4ca239e49be0a69fdc9618103bd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b56d7aab_0751ee63",
+        "filename": "Gemfile.lock",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-04-12T20:17:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a789fed_e1c26b9c",
       "range": {
         "startLine": 69,
         "startChar": 3,
