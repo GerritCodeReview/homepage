@@ -258,6 +258,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eca6a8e6_eca3cbc6",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 743,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T06:11:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3d0de07b_7561cac4",
+      "range": {
+        "startLine": 743,
+        "startChar": 6,
+        "endLine": 743,
+        "endChar": 66
+      },
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "15b2837f_5377d7b9",
