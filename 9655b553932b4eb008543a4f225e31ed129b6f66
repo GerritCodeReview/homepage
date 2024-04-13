@@ -124,6 +124,75 @@
       },
       "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15b2837f_5377d7b9",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 769,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:24:40Z",
+      "side": 1,
+      "message": "`Allow merging WIP changes` would be clearer IMHO. Maybe put a link to the relevant documentation?",
+      "range": {
+        "startLine": 769,
+        "startChar": 6,
+        "endLine": 769,
+        "endChar": 48
+      },
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46fd8534_2fe331e8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 770,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:24:40Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 770,
+        "startChar": 18,
+        "endLine": 770,
+        "endChar": 22
+      },
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "936c21e2_67155d1d",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 776,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:24:40Z",
+      "side": 1,
+      "message": "Remove the section i there aren\u0027t relevant updates.",
+      "range": {
+        "startLine": 776,
+        "startChar": 3,
+        "endLine": 776,
+        "endChar": 22
+      },
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
