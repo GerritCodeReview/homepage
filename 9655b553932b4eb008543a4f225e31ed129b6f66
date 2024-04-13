@@ -236,6 +236,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3d0de07b_7561cac4",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 743,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T06:08:24Z",
+      "side": 1,
+      "message": "Should be Change 411279",
+      "parentUuid": "b5fb2b92_7c206641",
+      "range": {
+        "startLine": 743,
+        "startChar": 6,
+        "endLine": 743,
+        "endChar": 66
+      },
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "15b2837f_5377d7b9",
         "filename": "pages/site/releases/3.8.md",
         "patchSetId": 1
@@ -247,6 +271,30 @@
       "writtenOn": "2024-04-13T05:24:40Z",
       "side": 1,
       "message": "`Allow merging WIP changes` would be clearer IMHO. Maybe put a link to the relevant documentation?",
+      "range": {
+        "startLine": 769,
+        "startChar": 6,
+        "endLine": 769,
+        "endChar": 48
+      },
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f55361ce_f6d583f4",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 769,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T06:08:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "15b2837f_5377d7b9",
       "range": {
         "startLine": 769,
         "startChar": 6,
