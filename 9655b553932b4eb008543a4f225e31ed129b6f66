@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "51125785_d2644bec",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f066a0ba_32876e28",
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a88f0cf5_a643eb22",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-04-13T04:49:50Z",
       "side": 1,
       "message": "Add link to v3.8.5 documentation",
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b18dc8d6_2d00a4bc",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a88f0cf5_a643eb22",
       "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -52,6 +88,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "af269d56_772a4da8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 733,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf94cc05_38ede6cf",
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9abad248_f9ee403b",
@@ -65,6 +119,24 @@
       "writtenOn": "2024-04-13T04:49:50Z",
       "side": 1,
       "message": "Nit: add spaces after each bullet point.",
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9f069d2_a40a736a",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abad248_f9ee403b",
       "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -86,6 +158,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ddab1ac_6c588ef1",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 739,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e06584eb_71889194",
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ab5b21b5_2f34bae1",
@@ -99,6 +189,24 @@
       "writtenOn": "2024-04-13T04:49:50Z",
       "side": 1,
       "message": "Assign draft comments to the correct change when there is ambiguity due to imported changes having the same change number.",
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3cbae8a_2087445f",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 741,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab5b21b5_2f34bae1",
       "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -172,6 +280,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e89e12ba_ca76eef0",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 770,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46fd8534_2fe331e8",
+      "range": {
+        "startLine": 770,
+        "startChar": 18,
+        "endLine": 770,
+        "endChar": 22
+      },
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "936c21e2_67155d1d",
@@ -185,6 +317,30 @@
       "writtenOn": "2024-04-13T05:24:40Z",
       "side": 1,
       "message": "Remove the section i there aren\u0027t relevant updates.",
+      "range": {
+        "startLine": 776,
+        "startChar": 3,
+        "endLine": 776,
+        "endChar": 22
+      },
+      "revId": "9655b553932b4eb008543a4f225e31ed129b6f66",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0d55695_82c32253",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 776,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-13T05:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "936c21e2_67155d1d",
       "range": {
         "startLine": 776,
         "startChar": 3,
