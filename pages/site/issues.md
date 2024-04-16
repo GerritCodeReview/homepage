@@ -8,6 +8,13 @@ toc: false
 
 [Issues][list] are tracked in the [Gerrit Code Review Issue Tracker][tracker].
 
+The issue tracker provides features such as
+[subscribing to an issue](https://developers.google.com/issue-tracker/guides/subscribe)
+and overall [notification preferences](https://developers.google.com/issue-tracker/guides/set-notification-preferences).
+
+You can learn more about the issue tracker's features at:
+[developers.google.com/issue-tracker](https://developers.google.com/issue-tracker).
+
 [list]: https://issues.gerritcodereview.com/issues?q=status:open
 [tracker]: https://issues.gerritcodereview.com/
 

@@ -139,8 +139,8 @@ standard hotlists suggested when adding issues to hotlists.
 Triaging incoming issues is a community effort and is done on a best effort
 basis (also see [below](#response-time-and-slo)).
 
-**Tip:** You can learn more about the issue tracker's features at:
-[developers.google.com/issue-tracker](https://developers.google.com/issue-tracker).
+**Tip:** You can learn more about how the Gerrit project uses the issue tracker
+on the [Issue Tracking][issue-tracking] page.
 
 ## Response time and [SLO](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/)
 
