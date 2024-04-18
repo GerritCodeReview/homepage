@@ -50,6 +50,22 @@ The support status of all recent Gerrit versions is
 
 ## 3.9
 
+* Java 17
+
+* New stream events
+
+* New limits
+
+* New diff3 view
+
+* Attention-set improvements
+
+* Indexing improvements
+
+* Account deletion
+
+* User Suggested Edits
+
 [Release notes for Gerrit 3.9](/3.9.html)
 
 ## 3.8
