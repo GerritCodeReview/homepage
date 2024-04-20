@@ -50,6 +50,23 @@
       "message": "27d1fea9586690d8f02cddb5961c7a2915eeb419",
       "revId": "27d1fea9586690d8f02cddb5961c7a2915eeb419",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93a98627_b4e0cc47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3389970
+      },
+      "writtenOn": "2024-04-20T13:06:08Z",
+      "side": 1,
+      "message": "421597: Update Gerrit v3.10.0-rc3 download links | https://gerrit-review.googlesource.com/c/homepage/+/421597",
+      "revId": "27d1fea9586690d8f02cddb5961c7a2915eeb419",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
