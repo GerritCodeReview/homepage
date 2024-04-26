@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "433975b5_9f33c367",
+        "filename": "_posts/2024-02-13-gerrit-3.10-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-04-26T09:56:22Z",
+      "side": 1,
+      "message": "```suggestion\nat SAP in Walldorf, focused on the [k8s-gerrit project](https://gerrit.googlesource.com/k8s-gerrit)\n```",
+      "range": {
+        "startLine": 28,
+        "startChar": 20,
+        "endLine": 28,
+        "endChar": 31
+      },
+      "revId": "b810be1a74b1bc655e6b2c6394a72ba80389af93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
