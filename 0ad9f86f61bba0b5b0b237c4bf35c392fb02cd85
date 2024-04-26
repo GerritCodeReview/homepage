@@ -22,6 +22,30 @@
       },
       "revId": "0ad9f86f61bba0b5b0b237c4bf35c392fb02cd85",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d61934b7_52c89c84",
+        "filename": "Pipfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-04-26T15:27:38Z",
+      "side": 1,
+      "message": "True, but AFAIK there isn\u0027t a way to say \u003e\u003d 3.7. A minor issue anyway IMHO",
+      "parentUuid": "ec23fbc1_1bb0c077",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 20
+      },
+      "revId": "0ad9f86f61bba0b5b0b237c4bf35c392fb02cd85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
