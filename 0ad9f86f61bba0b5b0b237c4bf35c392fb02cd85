@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec23fbc1_1bb0c077",
+        "filename": "Pipfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-04-26T15:15:16Z",
+      "side": 1,
+      "message": "that means that anything older than `3.7` could be used as well but that is probably minor issue these days ;)",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 20
+      },
+      "revId": "0ad9f86f61bba0b5b0b237c4bf35c392fb02cd85",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
