@@ -46,6 +46,30 @@
       },
       "revId": "ebe11b9be59183858a238050f44044d7c8b5ddb0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2741e47_e20445f5",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-03T15:33:44Z",
+      "side": 1,
+      "message": "Should then be moved to the _Other dependency changes_ ?",
+      "parentUuid": "17773645_fd08b350",
+      "range": {
+        "startLine": 296,
+        "startChar": 0,
+        "endLine": 298,
+        "endChar": 33
+      },
+      "revId": "ebe11b9be59183858a238050f44044d7c8b5ddb0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
