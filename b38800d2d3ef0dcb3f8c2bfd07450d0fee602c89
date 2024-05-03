@@ -48,6 +48,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "10bacda3_896df523",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2024-05-03T16:19:02Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6a7a842f_7b9a8763",
+      "range": {
+        "startLine": 9,
+        "startChar": 20,
+        "endLine": 9,
+        "endChar": 23
+      },
+      "revId": "b38800d2d3ef0dcb3f8c2bfd07450d0fee602c89",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ab2fddcf_a76f99c1",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "Fix applied.",
       "parentUuid": "ab2fddcf_a76f99c1",
+      "range": {
+        "startLine": 11,
+        "startChar": 25,
+        "endLine": 11,
+        "endChar": 28
+      },
+      "revId": "b38800d2d3ef0dcb3f8c2bfd07450d0fee602c89",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b6d89d9_7b2a5f9a",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2024-05-03T16:19:02Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "eb7686f2_9f779057",
       "range": {
         "startLine": 11,
         "startChar": 25,
