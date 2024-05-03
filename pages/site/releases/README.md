@@ -15,10 +15,56 @@ Gerrit Code Review releases can be downloaded from the
 Artifacts deployed to Maven Central are signed with the maintainer's key.
 Please refer to the [list of maintainers' keys](/public-keys.html).
 
-Latest release: **[3.7](/3.7.html)**. The support status of all recent Gerrit versions is
+The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
+## 3.10 (RC)
+
+* Rebase merge commits
+
+* Further improve Suggest Fixes
+
+* Import changes from other servers
+
+* List enabled features/experiments via REST API
+
+* Index management is now more accessible
+
+* Less email notifications
+
+* Support project~changeNumber when querying for changes
+
+* Configurable H2 cache pruning
+
+* Improved H2 Cache performances
+
+* Allow fixes in Human comments via Rest API
+
+* Native log deletion
+
+* Support for secondary emails
+
+* Update author and committer from the UI
+
+[Release notes for Gerrit 3.10](/3.10.html)
+
 ## 3.9
+
+* Java 17
+
+* New stream events
+
+* New limits
+
+* New diff3 view
+
+* Attention-set improvements
+
+* Indexing improvements
+
+* Account deletion
+
+* User Suggested Edits
 
 [Release notes for Gerrit 3.9](/3.9.html)
 
