@@ -70,6 +70,30 @@
       },
       "revId": "ebe11b9be59183858a238050f44044d7c8b5ddb0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "584b7eba_19ac8d5c",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2024-05-03T15:38:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2741e47_e20445f5",
+      "range": {
+        "startLine": 296,
+        "startChar": 0,
+        "endLine": 298,
+        "endChar": 33
+      },
+      "revId": "ebe11b9be59183858a238050f44044d7c8b5ddb0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
