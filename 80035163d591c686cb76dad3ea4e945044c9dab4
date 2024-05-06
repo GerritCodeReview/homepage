@@ -22,6 +22,30 @@
       },
       "revId": "80035163d591c686cb76dad3ea4e945044c9dab4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "699f60fe_791c69c4",
+        "filename": "_posts/2024-02-13-gerrit-3.10-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-06T20:34:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df305b1e_f3c71922",
+      "range": {
+        "startLine": 21,
+        "startChar": 7,
+        "endLine": 21,
+        "endChar": 9
+      },
+      "revId": "80035163d591c686cb76dad3ea4e945044c9dab4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
