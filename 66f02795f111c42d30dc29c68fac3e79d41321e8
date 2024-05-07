@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43df73b3_154cd17b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-07T11:02:27Z",
+      "side": 1,
+      "message": "_Currently_ is misleading, because also after v3.10 that will continue to be the case.",
+      "range": {
+        "startLine": 149,
+        "startChar": 0,
+        "endLine": 149,
+        "endChar": 17
+      },
+      "revId": "66f02795f111c42d30dc29c68fac3e79d41321e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4facdbb7_5c57d093",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-07T11:02:27Z",
+      "side": 1,
+      "message": "Add a note that *when plugins are reloaded at runtime* the ordering cannot be guaranteed anyway.",
+      "revId": "66f02795f111c42d30dc29c68fac3e79d41321e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
