@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "18fb38e5_32f7293a",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-05-17T19:48:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40916930_b015f4d0",
+      "revId": "a0f8de17db25c933a0d986a587e0dfdb6386526b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "def8c8a2_67d2ae3b",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-05-17T19:45:37Z",
       "side": 1,
       "message": "```suggestion\nDocumentation: **[3.8.6](https://gerrit-documentation.storage.googleapis.com/Documentation/3.8.6/index.html)**\n| [3.8.5](https://gerrit-documentation.storage.googleapis.com/Documentation/3.8.5/index.html)\n```",
+      "revId": "a0f8de17db25c933a0d986a587e0dfdb6386526b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f442c12_227e97e7",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-05-17T19:48:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "def8c8a2_67d2ae3b",
       "revId": "a0f8de17db25c933a0d986a587e0dfdb6386526b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
