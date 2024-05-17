@@ -18,7 +18,7 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
-## 3.10 (RC)
+## 3.10
 
 * Rebase merge commits
 
