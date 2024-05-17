@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb412f16_ceb2e85d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 790,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-05-17T19:57:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70746ff3_db1d26d5",
+      "range": {
+        "startLine": 790,
+        "startChar": 0,
+        "endLine": 790,
+        "endChar": 20
+      },
+      "revId": "d866416d1dd3c676d19adfee4bd8a85ef353f70c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "95bb0213_496287f4",
@@ -41,6 +65,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9964ec7_d6fd1c45",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 793,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-05-17T19:57:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95bb0213_496287f4",
+      "revId": "d866416d1dd3c676d19adfee4bd8a85ef353f70c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a3bbf085_a4a54b78",
@@ -54,6 +96,24 @@
       "writtenOn": "2024-05-17T18:12:05Z",
       "side": 1,
       "message": "```suggestion\n  Codemirror: Add missing javascript language support\n```",
+      "revId": "d866416d1dd3c676d19adfee4bd8a85ef353f70c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75724958_7b947261",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 796,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-05-17T19:57:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a3bbf085_a4a54b78",
       "revId": "d866416d1dd3c676d19adfee4bd8a85ef353f70c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
