@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9c320a6_3d4d6b44",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 741,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-17T19:49:56Z",
+      "side": 1,
+      "message": "Remove those two blanks.\n\n\n\n```suggestion\n  Emails notifications for comments now mention who owns the change\n```",
+      "range": {
+        "startLine": 741,
+        "startChar": 2,
+        "endLine": 741,
+        "endChar": 4
+      },
+      "revId": "c498ab1b1278e9b68649af29d7c00a513799ca1e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b97e642_4277ace8",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 747,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-17T19:49:56Z",
+      "side": 1,
+      "message": "Remove those two blanks.\n\n\n\n```suggestion\n  Add `virtual_id_number` to `ChangeInfo`.\n```",
+      "range": {
+        "startLine": 747,
+        "startChar": 2,
+        "endLine": 747,
+        "endChar": 4
+      },
+      "revId": "c498ab1b1278e9b68649af29d7c00a513799ca1e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
