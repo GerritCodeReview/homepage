@@ -64,6 +64,7 @@ Current maintainers are:
 
 | Name                       | Affiliation                             |
 |----------------------------|-----------------------------------------|
+| Antonio Barone             | GerritForge                             |
 | Ben Rohlfs                 | Google                                  |
 | Chris Poucet               | Google                                  |
 | David Ostrovsky            | Independent                             |
