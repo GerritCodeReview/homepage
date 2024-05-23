@@ -166,6 +166,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6d077d61_e0d07ab9",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T11:47:47Z",
+      "side": 1,
+      "message": "\u003e By data migration I assume you mean migrating indexes right?\n\nThe `init` does not do any index migration: only reindex (online or offline) does the migration of indexes.",
+      "parentUuid": "8ae820a4_74b0d26a",
+      "range": {
+        "startLine": 249,
+        "startChar": 45,
+        "endLine": 249,
+        "endChar": 54
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a6e421a3_2d2b2faa",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 1
@@ -177,6 +201,30 @@
       "writtenOn": "2024-05-23T08:53:53Z",
       "side": 1,
       "message": "Might want to add a note about ensuring the server has caught up with the backlog accumulated while it was down.",
+      "range": {
+        "startLine": 252,
+        "startChar": 3,
+        "endLine": 252,
+        "endChar": 64
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ff1e5d2_40698102",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T11:47:47Z",
+      "side": 1,
+      "message": "👍",
+      "parentUuid": "a6e421a3_2d2b2faa",
       "range": {
         "startLine": 252,
         "startChar": 3,
