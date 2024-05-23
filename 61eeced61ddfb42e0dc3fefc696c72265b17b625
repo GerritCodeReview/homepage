@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80f00fff_10fcb063",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1155610
+      },
+      "writtenOn": "2024-05-23T16:19:56Z",
+      "side": 1,
+      "message": "```suggestion\n5. Ensure the Gerrit server is fully caught up with the events that happened while\n   it was down before directing traffic to it.\n```",
+      "range": {
+        "startLine": 248,
+        "startChar": 3,
+        "endLine": 249,
+        "endChar": 71
+      },
+      "revId": "61eeced61ddfb42e0dc3fefc696c72265b17b625",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
