@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfa2ffdd_48d57de4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T07:53:16Z",
+      "side": 1,
+      "message": "👍 just one typo",
+      "revId": "50b56ac345d6b2ddd6814671a075837dc2f2ebd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8d18d27_19114762",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T07:53:16Z",
+      "side": 1,
+      "message": "```suggestion\n\u003e there is a need to rollback as already existing indexes are affected.\n```",
+      "range": {
+        "startLine": 202,
+        "startChar": 50,
+        "endLine": 202,
+        "endChar": 56
+      },
+      "revId": "50b56ac345d6b2ddd6814671a075837dc2f2ebd0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
