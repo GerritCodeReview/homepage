@@ -142,6 +142,53 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8ae820a4_74b0d26a",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1155610
+      },
+      "writtenOn": "2024-05-23T08:53:53Z",
+      "side": 1,
+      "message": "By data migration I assume you mean migrating indexes right? Which is needed, so assume the init is necessary.",
+      "parentUuid": "ba0aee98_a40d32df",
+      "range": {
+        "startLine": 249,
+        "startChar": 45,
+        "endLine": 249,
+        "endChar": 54
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6e421a3_2d2b2faa",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1155610
+      },
+      "writtenOn": "2024-05-23T08:53:53Z",
+      "side": 1,
+      "message": "Might want to add a note about ensuring the server has caught up with the backlog accumulated while it was down.",
+      "range": {
+        "startLine": 252,
+        "startChar": 3,
+        "endLine": 252,
+        "endChar": 64
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "47c8fc4b_ffa66c72",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 1
