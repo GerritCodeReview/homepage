@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a55904ed_88c8241d",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T07:56:47Z",
+      "side": 1,
+      "message": "Either omit this remark or include SSH also.",
+      "range": {
+        "startLine": 236,
+        "startChar": 10,
+        "endLine": 236,
+        "endChar": 37
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cd669e1b_8a6e26ba",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 1
@@ -19,6 +42,122 @@
         "startChar": 16,
         "endLine": 240,
         "endChar": 91
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "734f9770_3f48733b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T07:56:47Z",
+      "side": 1,
+      "message": "👍 I would just write here the up-to-date instructions for both",
+      "parentUuid": "cd669e1b_8a6e26ba",
+      "range": {
+        "startLine": 240,
+        "startChar": 16,
+        "endLine": 240,
+        "endChar": 91
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c393197_63f42b5e",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T07:56:47Z",
+      "side": 1,
+      "message": "```suggestion\n1. Have Gerrit servers running v3.9 in high-availability or multi-site configuration, healthy and\n```",
+      "range": {
+        "startLine": 243,
+        "startChar": 39,
+        "endLine": 243,
+        "endChar": 49
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a49e8163_1d724312",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T07:56:47Z",
+      "side": 1,
+      "message": "Is there any schema change from v3.9? If yes, this is needed *only* for high-availability anyway.",
+      "range": {
+        "startLine": 245,
+        "startChar": 0,
+        "endLine": 246,
+        "endChar": 20
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba0aee98_a40d32df",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T07:56:47Z",
+      "side": 1,
+      "message": "If you upgrade the binaries directly, there\u0027s no need to call init. You call init if you want the init process to upgrade the binaries or perform any data migration.",
+      "range": {
+        "startLine": 249,
+        "startChar": 45,
+        "endLine": 249,
+        "endChar": 54
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47c8fc4b_ffa66c72",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-05-23T07:56:47Z",
+      "side": 1,
+      "message": "Not needed if there is no schema change or if you are on multi-site.",
+      "range": {
+        "startLine": 254,
+        "startChar": 3,
+        "endLine": 255,
+        "endChar": 20
       },
       "revId": "d577793d480b464a40801b134bb86bb77101281c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
