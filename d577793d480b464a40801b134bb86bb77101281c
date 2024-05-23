@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "39cbe396_c397c2f0",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-05-23T16:13:00Z",
+      "side": 1,
+      "message": "Removed.",
+      "parentUuid": "a55904ed_88c8241d",
+      "range": {
+        "startLine": 236,
+        "startChar": 10,
+        "endLine": 236,
+        "endChar": 37
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cd669e1b_8a6e26ba",
@@ -71,6 +95,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "25f5ce2d_e803d39c",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-05-23T16:13:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "734f9770_3f48733b",
+      "range": {
+        "startLine": 240,
+        "startChar": 16,
+        "endLine": 240,
+        "endChar": 91
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c393197_63f42b5e",
@@ -94,6 +142,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae1ad1a2_6f3d2e79",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-05-23T16:13:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c393197_63f42b5e",
+      "range": {
+        "startLine": 243,
+        "startChar": 39,
+        "endLine": 243,
+        "endChar": 49
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a49e8163_1d724312",
@@ -107,6 +179,30 @@
       "writtenOn": "2024-05-23T07:56:47Z",
       "side": 1,
       "message": "Is there any schema change from v3.9? If yes, this is needed *only* for high-availability anyway.",
+      "range": {
+        "startLine": 245,
+        "startChar": 0,
+        "endLine": 246,
+        "endChar": 20
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb0c381d_df235271",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-05-23T16:13:00Z",
+      "side": 1,
+      "message": "No schema change - I was able to just copy over the `gerrit.war` and site started.",
+      "parentUuid": "a49e8163_1d724312",
       "range": {
         "startLine": 245,
         "startChar": 0,
@@ -188,6 +284,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da38f53a_6f45007b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-05-23T16:13:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba0aee98_a40d32df",
+      "range": {
+        "startLine": 249,
+        "startChar": 45,
+        "endLine": 249,
+        "endChar": 54
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a6e421a3_2d2b2faa",
@@ -248,6 +368,30 @@
       "writtenOn": "2024-05-23T07:56:47Z",
       "side": 1,
       "message": "Not needed if there is no schema change or if you are on multi-site.",
+      "range": {
+        "startLine": 254,
+        "startChar": 3,
+        "endLine": 255,
+        "endChar": 20
+      },
+      "revId": "d577793d480b464a40801b134bb86bb77101281c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5821b247_f342558b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-05-23T16:13:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "47c8fc4b_ffa66c72",
       "range": {
         "startLine": 254,
         "startChar": 3,
