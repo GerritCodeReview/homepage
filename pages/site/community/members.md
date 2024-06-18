@@ -54,7 +54,7 @@ The Google members have jointly 3 votes on the ESC.
 | Alice Kober-Sotzek    | Google                                 |
 | Ben Rohlfs            | Google                                 |
 | David Pursehouse      | Independent (formerly Sony, CollabNet) |
-| Han-Wen Nienhuys      | Google                                 |
+| Han-Wen Nienhuys      | Independent (formerly Google)          |
 
 ## Maintainers
 
@@ -76,14 +76,14 @@ Current maintainers are:
 | Dmitrii Filippov           | Google                                  |
 | Edwin Kempin               | Google (formerly SAP)                   |
 | Frank Borden               | Google                                  |
-| Han-Wen Nienhuys           | Google                                  |
+| Han-Wen Nienhuys           | Independent (formerly Google)           |
 | Jacek Centkowski           | Independent (formerly Digital.ai)       |
 | Joerg Zieren               | Google                                  |
 | Kaushik Lingarkar          | Qualcomm                                |
 | Luca Milanesio             | GerritForge                             |
 | Marco Miller               | Ericsson                                |
 | Marija Savtchouk           | Google                                  |
-| Martin Fick                | Qualcomm                                |
+| Martin Fick                | Independent (formerly Qualcomm)         |
 | Matthias Sohn              | SAP                                     |
 | Milutin Kristofic          | Google                                  |
 | Nasser Grainawi            | Qualcomm                                |
