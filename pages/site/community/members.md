@@ -13,20 +13,21 @@ and focus on the health of the community. For details about the role of
 community managers, refer to the
 [description here](https://gerrit-review.googlesource.com/Documentation/dev-roles.html#community-manager).
 
-Community Managers for the 2022-2023 term are:
+Community Managers for the 2024-2025 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
+| Daniele Sassioli      | GerritForge            |
 | Edwin Kempin          | Google                 |
 | Matthias Sohn         | SAP                    |
 | Nasser Grainawi       | Qualcomm               |
-| Yolanda Jasso         | GerritForge            |
 
 ### Former community managers
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
 | Marco Miller          | Ericsson               |
+| Yolanda Jasso         | GerritForge            |
 
 ## Engineering Steering Committee
 
@@ -34,24 +35,26 @@ The Gerrit project has an Engineering Steering Committee (ESC) that
 governs the project. For details about the role of the ESC, refer to the
 [description here](https://gerrit-review.googlesource.com/Documentation/dev-processes.html#steering-committee).
 
-Members of the ESC for the 2022-2023 term are:
+Members of the ESC for the 2024-2025 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
 | Chris Poucet          | Google                 |
-| Han-Wen Nienhuys      | Google                 |
 | Luca Milanesio        | GerritForge            |
 | Patrick Hiesel        | Google                 |
 | Saša Živkov           | SAP                    |
+
+The Google members have jointly 3 votes on the ESC.
 
 ### Former ESC members
 
 | Name                  | Affiliation                            |
 |-----------------------|----------------------------------------|
-| Albert Cui            | Google                 |
+| Albert Cui            | Google                                 |
 | Alice Kober-Sotzek    | Google                                 |
 | Ben Rohlfs            | Google                                 |
 | David Pursehouse      | Independent (formerly Sony, CollabNet) |
+| Han-Wen Nienhuys      | Google                                 |
 
 ## Maintainers
 
