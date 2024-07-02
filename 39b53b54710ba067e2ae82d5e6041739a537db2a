@@ -16,6 +16,24 @@
       "message": "This can be removed or noted that this only impacts the dev server. It doesn\u0027t impact production or running gerrit from the jar.",
       "revId": "39b53b54710ba067e2ae82d5e6041739a537db2a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c79a8a91_d04dcd51",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 731,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-07-02T13:13:58Z",
+      "side": 1,
+      "message": "Gotcha, then best to remove it IMHO.",
+      "parentUuid": "d1fa486e_12ef151c",
+      "revId": "39b53b54710ba067e2ae82d5e6041739a537db2a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
