@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef29aee8_6dda61b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-07-02T10:33:44Z",
+      "side": 1,
+      "message": "I have imported @syntonyze@gmail.com\u0027s key 9EB1DC3AF064EF2D8D3F5AF0074F79B09FDFE577 from keyserver.ubuntu.com and used it from verifying the signature of the sample text below:\n\n```\n-----BEGIN PGP MESSAGE-----\n\nowEBVAKr/ZANAwAIAQdPebCf3+V3AcsNYgBmg9bpZm9vYmFyCokCMwQAAQgAHRYh\nBJ6x3DrwZO8tjT9a8AdPebCf3+V3BQJmg9bpAAoJEAdPebCf3+V3MeYP/1X7qzq8\noIisQ86wHl2KFRiR5YNj96D5xblMdCv2Sleq2VaI9d+Kmu0sgok0Xe0N8gJpJrwd\nxLYUmN2xuCebr95ft9AkAOTzr+F5iPcE1QSeDfu5F0sxuoiomp65EeVkq77vgX0+\nNJtLnGC9cqVcsAeV/xakKUrh8AlEFMqoMGRrm5YICUIRpRDpiRIcdHPPdjZ5I0EW\nZXYktIXBwzH7SQZEdBe4Esy4iCKFnG3CJ1Me65/7CxnHyFm+bJ/yZCVzi+dGsCp7\nskrLiTDoIpJYT9G6GSfRnxqKX1hPJrqMBtw6slplzZmW/soa3s5X7u8k52yKk29t\n5TddEEpU1XelFaA9kPFMilu803S2FQxxhOZTjRldL27JXhPtk4htjXTOVb3CVdwW\naQBbFLkNL5l1LYfVaQzbsgkISMTNjGFb+rIZkPi+aoS5es1VqjPhkXFJJHlfZ6TS\nLg0kkN9gTpRY0vsXCkfuTb8uUNnboCLZmmtsshBl9NzmQlTh95xfSH9L/qKyb0Lb\nPz/qhZZcIy0+7Uefp5KleVC+Dr/tApA6hi+76KhfjhHppx//QMnG2DOsU4deKTkj\nrl+UHsd0fuvLjg3dCZ+EYejG0O4dKu2vHgelaMwyPuIv8wbrzMoHutqE/CzLTVLb\nJzNk4czBY+1kPgtcKXZvN6Kl4tNQdj4VuRLt\n\u003dhB3X\n-----END PGP MESSAGE-----\n```\n\nThe output of the verification is:\n```\ngpg: Signature made Tue  2 Jul 11:31:05 2024 BST\ngpg:                using RSA key 9EB1DC3AF064EF2D8D3F5AF0074F79B09FDFE577\ngpg: Good signature from \"Antonio Barone \u003csyntonyze@gmail.com\u003e\" [unknown]\n```",
+      "revId": "ac215d203b6a57f2bec37450feb113f9c39cc7f3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
