@@ -20,7 +20,7 @@ from tqdm import tqdm
 
 
 BRANCHES = ["master"] + [
-    f"stable-{version}" for version in ["3.8", "3.7", "3.6"]
+    f"stable-{version}" for version in ["3.10", "3.9", "3.8"]
 ]
 CI = "https://gerrit-ci.gerritforge.com"
 GERRIT = "https://gerrit-review.googlesource.com"
