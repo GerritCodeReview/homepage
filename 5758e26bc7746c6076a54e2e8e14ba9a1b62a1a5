@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "51ce7ff4_f393306b",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 727,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T15:53:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7299250d_16c33efe",
+      "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "48842851_79af9039",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-08-06T14:27:13Z",
       "side": 1,
       "message": "```suggestion\n    git log --no-merges --format\u003doneline c0b415fb0..cfdfb01f4\n```",
+      "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1550f37_c9d8e95d",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 775,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T15:53:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "48842851_79af9039",
       "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -82,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a889d88_f2758582",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 793,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T15:53:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6583024c_bd254058",
+      "range": {
+        "startLine": 784,
+        "startChar": 0,
+        "endLine": 793,
+        "endChar": 0
+      },
+      "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9b2f9d31_2ad1ba82",
@@ -99,6 +159,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cce0e7fb_cdbd7931",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 795,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T15:53:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b2f9d31_2ad1ba82",
+      "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ad0074c4_719211c1",
@@ -112,6 +190,30 @@
       "writtenOn": "2024-08-06T14:27:13Z",
       "side": 1,
       "message": "Is this relevant to Gerrit though?",
+      "range": {
+        "startLine": 800,
+        "startChar": 0,
+        "endLine": 802,
+        "endChar": 43
+      },
+      "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bf16d56_dfca2809",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 802,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T15:53:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ad0074c4_719211c1",
       "range": {
         "startLine": 800,
         "startChar": 0,
