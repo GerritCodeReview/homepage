@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae7f1d9d_1bf14f08",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 797,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-08-06T16:58:30Z",
+      "side": 1,
+      "message": "3 of those commits do have Release-Notes footers, so maybe add a notable changes section for them?\n\n```suggestion\n    ```\n    \n    notable changes are:\n    \n    * [Change 384754](https://gerrit-review.googlesource.com/c/plugins/replication/+/384754):\n    Avoid opportunity to inadvertently block the distributor\n    \n    * [Change 383694](https://gerrit-review.googlesource.com/c/plugins/replication/+/383694):\n    Reduced log level for Task deletion errors in MP setups\n    \n    * [Change 352174](https://gerrit-review.googlesource.com/c/plugins/replication/+/352174):\n    Reduced log level for no-op distributor push consolidations\n```",
+      "range": {
+        "startLine": 797,
+        "startChar": 0,
+        "endLine": 797,
+        "endChar": 7
+      },
+      "revId": "c6e55906ff3337f58af60a5830f020b8dae020a6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
