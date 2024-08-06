@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7299250d_16c33efe",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 727,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-08-06T15:18:37Z",
+      "side": 1,
+      "message": "Include the replication plugin changes?",
+      "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "48842851_79af9039",
         "filename": "pages/site/releases/3.8.md",
         "patchSetId": 1
@@ -37,6 +54,47 @@
         "endLine": 793,
         "endChar": 0
       },
+      "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6583024c_bd254058",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 793,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-08-06T15:18:37Z",
+      "side": 1,
+      "message": "+1. I would keep both Gerrit changes listed though so that it\u0027s easy to find them both.",
+      "parentUuid": "6a0a997f_1697df4d",
+      "range": {
+        "startLine": 784,
+        "startChar": 0,
+        "endLine": 793,
+        "endChar": 0
+      },
+      "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b2f9d31_2ad1ba82",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 795,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-08-06T15:18:37Z",
+      "side": 1,
+      "message": "You probably could skip this one since it\u0027s just adding a test.",
       "revId": "5758e26bc7746c6076a54e2e8e14ba9a1b62a1a5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
