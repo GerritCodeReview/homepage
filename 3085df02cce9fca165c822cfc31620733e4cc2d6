@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8fcc8b9_8fbf83b2",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 844,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T21:00:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf6c16ad_770dc3a9",
+      "revId": "3085df02cce9fca165c822cfc31620733e4cc2d6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6ffac4f2_6676ab26",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-08-06T20:16:49Z",
       "side": 1,
       "message": "same as above",
+      "revId": "3085df02cce9fca165c822cfc31620733e4cc2d6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b99a8ebf_ded6c3a3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 865,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T21:00:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ffac4f2_6676ab26",
       "revId": "3085df02cce9fca165c822cfc31620733e4cc2d6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
