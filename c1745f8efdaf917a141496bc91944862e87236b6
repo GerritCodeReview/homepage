@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ed1ef2b_f8075b08",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-06T20:15:54Z",
+      "side": 1,
+      "message": "question: does that mean that changes from `v3.8.7` are mentioned in the `v3.8.8` release notes?",
+      "revId": "c1745f8efdaf917a141496bc91944862e87236b6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97213e3b_fcdaf17f",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-06T20:15:54Z",
+      "side": 1,
+      "message": "perhaps you could add the init phrase like below for `replication`\n\n\u003e You can retrieve the full list of changes with:\n\notherwise this `shell` snippet looks a bit out of context",
+      "revId": "c1745f8efdaf917a141496bc91944862e87236b6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "daf7053c_39abe451",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 815,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-06T20:15:54Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "c1745f8efdaf917a141496bc91944862e87236b6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
