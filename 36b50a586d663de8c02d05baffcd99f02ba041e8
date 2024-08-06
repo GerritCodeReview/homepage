@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb88bf4a_94b415b0",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 767,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-08-06T14:45:08Z",
+      "side": 1,
+      "message": "Missing indentation.\n\n\n\n```suggestion\n  * [Change 425817](https://gerrit-review.googlesource.com/425817):\n  Improved WorkQueue task thread names.\n```",
+      "range": {
+        "startLine": 766,
+        "startChar": 0,
+        "endLine": 767,
+        "endChar": 37
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b20efe9e_51d745f3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 775,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-08-06T14:45:08Z",
+      "side": 1,
+      "message": "Missing `.` at the end of the line.\n\n\n\n```suggestion\n  Fix binding of ApiModule bindings upon plugin reload.\n```",
+      "range": {
+        "startLine": 775,
+        "startChar": 0,
+        "endLine": 775,
+        "endChar": 54
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8799124f_4263feb3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 787,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-08-06T14:45:08Z",
+      "side": 1,
+      "message": "Missing `.` at the end of the line.\n\n\n\n```suggestion\n    Use constant-time comparison for hashed password validation, for increased security.\n```",
+      "range": {
+        "startLine": 787,
+        "startChar": 0,
+        "endLine": 787,
+        "endChar": 87
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ad882e5_6ed1e6c0",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 805,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-08-06T14:45:08Z",
+      "side": 1,
+      "message": "Missing `.` at the end of the line.\n\n```suggestion\n    Use h2 header for `Run GC` command.\n```",
+      "range": {
+        "startLine": 805,
+        "startChar": 0,
+        "endLine": 805,
+        "endChar": 38
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f84ddcd1_e73bdb08",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 813,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-08-06T14:45:08Z",
+      "side": 1,
+      "message": "Missing `.` at the end of the line.\n\n```suggestion\n    Fix code commenting popup position under Firefox.\n```",
+      "range": {
+        "startLine": 813,
+        "startChar": 0,
+        "endLine": 813,
+        "endChar": 52
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a42bb71_d8ca1cfb",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 821,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-08-06T14:45:08Z",
+      "side": 1,
+      "message": "```suggestion\n    git log --no-merges --format\u003doneline c0b415fb0..cfdfb01f4\n```",
+      "range": {
+        "startLine": 821,
+        "startChar": 41,
+        "endLine": 821,
+        "endChar": 50
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9f50a6f_75499c5e",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 838,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-08-06T14:45:08Z",
+      "side": 1,
+      "message": "Consolidate the two JGit bumps into a single one.",
+      "range": {
+        "startLine": 830,
+        "startChar": 0,
+        "endLine": 838,
+        "endChar": 24
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
