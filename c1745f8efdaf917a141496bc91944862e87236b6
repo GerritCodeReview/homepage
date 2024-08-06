@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0462434c_96f47d18",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T21:00:15Z",
+      "side": 1,
+      "message": "the `v3.8.7` does not exist yet.\nSo every change from `3.8.6` to `stable-3.8` is mentioned in the release notes for `v3.8.8`\n\n[1] https://gerrit-review.googlesource.com/admin/repos/gerrit,tags/q/filter:3.8.",
+      "parentUuid": "1ed1ef2b_f8075b08",
+      "revId": "c1745f8efdaf917a141496bc91944862e87236b6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "97213e3b_fcdaf17f",
         "filename": "pages/site/releases/3.8.md",
         "patchSetId": 5
@@ -31,6 +49,24 @@
       "writtenOn": "2024-08-06T20:15:54Z",
       "side": 1,
       "message": "perhaps you could add the init phrase like below for `replication`\n\n\u003e You can retrieve the full list of changes with:\n\notherwise this `shell` snippet looks a bit out of context",
+      "revId": "c1745f8efdaf917a141496bc91944862e87236b6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9777db16_0aa7890d",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T21:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "97213e3b_fcdaf17f",
       "revId": "c1745f8efdaf917a141496bc91944862e87236b6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -48,6 +84,24 @@
       "writtenOn": "2024-08-06T20:15:54Z",
       "side": 1,
       "message": "same as above",
+      "revId": "c1745f8efdaf917a141496bc91944862e87236b6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01d57180_dc234843",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 815,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T21:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "daf7053c_39abe451",
       "revId": "c1745f8efdaf917a141496bc91944862e87236b6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
