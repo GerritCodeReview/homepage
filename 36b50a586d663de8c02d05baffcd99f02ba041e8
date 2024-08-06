@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "edc9d445_37ce638a",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 759,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e10ee02a_165d6065",
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cb88bf4a_94b415b0",
@@ -31,6 +49,30 @@
       "writtenOn": "2024-08-06T14:45:08Z",
       "side": 1,
       "message": "Missing indentation.\n\n\n\n```suggestion\n  * [Change 425817](https://gerrit-review.googlesource.com/425817):\n  Improved WorkQueue task thread names.\n```",
+      "range": {
+        "startLine": 766,
+        "startChar": 0,
+        "endLine": 767,
+        "endChar": 37
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f72d25b6_8596bc14",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 767,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cb88bf4a_94b415b0",
       "range": {
         "startLine": 766,
         "startChar": 0,
@@ -60,6 +102,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b42ff01a_4fc7033a",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 768,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "These have been actually added to 3.8, I will add them there first and then populate the same section here for 3.9 too.",
+      "parentUuid": "d0a9d61d_8e7f7dea",
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b20efe9e_51d745f3",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 1
@@ -71,6 +131,30 @@
       "writtenOn": "2024-08-06T14:45:08Z",
       "side": 1,
       "message": "Missing `.` at the end of the line.\n\n\n\n```suggestion\n  Fix binding of ApiModule bindings upon plugin reload.\n```",
+      "range": {
+        "startLine": 775,
+        "startChar": 0,
+        "endLine": 775,
+        "endChar": 54
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c57f775_ff6e1228",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 775,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b20efe9e_51d745f3",
       "range": {
         "startLine": 775,
         "startChar": 0,
@@ -98,6 +182,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7836af61_0021504e",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 783,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done, added to the UI changes section",
+      "parentUuid": "f3c1eeef_cac15f6c",
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8799124f_4263feb3",
@@ -111,6 +213,30 @@
       "writtenOn": "2024-08-06T14:45:08Z",
       "side": 1,
       "message": "Missing `.` at the end of the line.\n\n\n\n```suggestion\n    Use constant-time comparison for hashed password validation, for increased security.\n```",
+      "range": {
+        "startLine": 787,
+        "startChar": 0,
+        "endLine": 787,
+        "endChar": 87
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27451c3a_d8560bcd",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 787,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8799124f_4263feb3",
       "range": {
         "startLine": 787,
         "startChar": 0,
@@ -144,6 +270,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0164882e_d1101620",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 805,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad882e5_6ed1e6c0",
+      "range": {
+        "startLine": 805,
+        "startChar": 0,
+        "endLine": 805,
+        "endChar": 38
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f84ddcd1_e73bdb08",
@@ -157,6 +307,30 @@
       "writtenOn": "2024-08-06T14:45:08Z",
       "side": 1,
       "message": "Missing `.` at the end of the line.\n\n```suggestion\n    Fix code commenting popup position under Firefox.\n```",
+      "range": {
+        "startLine": 813,
+        "startChar": 0,
+        "endLine": 813,
+        "endChar": 52
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb183af6_6c19ed77",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 813,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f84ddcd1_e73bdb08",
       "range": {
         "startLine": 813,
         "startChar": 0,
@@ -190,6 +364,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9432d6b6_a0e90f06",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 821,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a42bb71_d8ca1cfb",
+      "range": {
+        "startLine": 821,
+        "startChar": 41,
+        "endLine": 821,
+        "endChar": 50
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a9f50a6f_75499c5e",
@@ -203,6 +401,30 @@
       "writtenOn": "2024-08-06T14:45:08Z",
       "side": 1,
       "message": "Consolidate the two JGit bumps into a single one.",
+      "range": {
+        "startLine": 830,
+        "startChar": 0,
+        "endLine": 838,
+        "endChar": 24
+      },
+      "revId": "36b50a586d663de8c02d05baffcd99f02ba041e8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "707d2782_09060852",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 838,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-06T16:10:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a9f50a6f_75499c5e",
       "range": {
         "startLine": 830,
         "startChar": 0,
