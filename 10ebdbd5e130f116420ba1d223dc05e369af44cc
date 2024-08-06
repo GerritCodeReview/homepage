@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8abf2d20_2973eff4",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 664,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-08-06T22:07:18Z",
+      "side": 1,
+      "message": "extra indent?\n```suggestion\n  HttpPasswordUpdateEmailDecorator: Fix link to http credentials\n```",
+      "range": {
+        "startLine": 664,
+        "startChar": 2,
+        "endLine": 664,
+        "endChar": 4
+      },
+      "revId": "10ebdbd5e130f116420ba1d223dc05e369af44cc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
