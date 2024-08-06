@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf6c16ad_770dc3a9",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 844,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-06T20:16:49Z",
+      "side": 1,
+      "message": "perhaps you could add the init phrase like below for `replication`\n\n\u003e You can retrieve the full list of changes with:\n\notherwise this `shell` snippet looks a bit out of context",
+      "revId": "3085df02cce9fca165c822cfc31620733e4cc2d6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ffac4f2_6676ab26",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 865,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-06T20:16:49Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "3085df02cce9fca165c822cfc31620733e4cc2d6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
