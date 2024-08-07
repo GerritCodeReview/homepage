@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "487e07b0_36b8d909",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-07T06:01:16Z",
+      "side": 1,
+      "message": "```suggestion\n    Any link not starting with `/` is automatically prefixed `https://`.\n```",
+      "revId": "eaeade1c028fea689cb36e2642685239fea9812a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1df2ca2b_bdfbaa88",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 9
