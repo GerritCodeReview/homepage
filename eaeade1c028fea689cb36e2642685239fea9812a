@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "89433398_3665a0f7",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-07T10:13:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "487e07b0_36b8d909",
+      "revId": "eaeade1c028fea689cb36e2642685239fea9812a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1df2ca2b_bdfbaa88",
@@ -35,6 +53,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f86aa5af_40c84023",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 845,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-07T10:13:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1df2ca2b_bdfbaa88",
+      "revId": "eaeade1c028fea689cb36e2642685239fea9812a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "60465101_70485a4b",
@@ -48,6 +84,24 @@
       "writtenOn": "2024-08-07T05:52:59Z",
       "side": 1,
       "message": "```suggestion\n    You can retrieve the full list of changes with:\n```",
+      "revId": "eaeade1c028fea689cb36e2642685239fea9812a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b6a1b03_c227fd61",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 868,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-07T10:13:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "60465101_70485a4b",
       "revId": "eaeade1c028fea689cb36e2642685239fea9812a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
