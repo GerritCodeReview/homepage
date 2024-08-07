@@ -22,6 +22,57 @@
       },
       "revId": "10ebdbd5e130f116420ba1d223dc05e369af44cc",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef4e0ee6_2170d413",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 664,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-07T06:00:10Z",
+      "side": 1,
+      "message": "nit: missing `.` at the end?",
+      "revId": "10ebdbd5e130f116420ba1d223dc05e369af44cc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e480b0b_efc92a75",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-07T06:00:10Z",
+      "side": 1,
+      "message": "```suggestion\n    and cherry-pick with conflicts.\n```",
+      "revId": "10ebdbd5e130f116420ba1d223dc05e369af44cc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d4afe51_1bca9927",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 686,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-07T06:00:10Z",
+      "side": 1,
+      "message": "```suggestion\n    Any link not starting with `/` is automatically prefixed `https://`.\n```",
+      "revId": "10ebdbd5e130f116420ba1d223dc05e369af44cc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
