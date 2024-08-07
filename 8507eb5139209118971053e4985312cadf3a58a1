@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c7b631d_e171bc73",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-07T10:07:50Z",
+      "side": 1,
+      "message": "Yep that\u0027s the idea, for now, this is just preparation work.\nIt will be added once it\u0027s available.",
+      "parentUuid": "0aa7af12_cef33c13",
+      "revId": "8507eb5139209118971053e4985312cadf3a58a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b4aea432_9cfd4d70",
@@ -35,6 +53,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "498d98b3_a05307b3",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 795,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-07T10:07:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "b4aea432_9cfd4d70",
+      "revId": "8507eb5139209118971053e4985312cadf3a58a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "80767e63_6db8f1c3",
@@ -48,6 +84,24 @@
       "writtenOn": "2024-08-07T05:46:04Z",
       "side": 1,
       "message": "```suggestion\n    You can retrieve the full list of changes with:\n```\n\nsame as above",
+      "revId": "8507eb5139209118971053e4985312cadf3a58a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fce3bdef_30716fa5",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 818,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-08-07T10:07:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "80767e63_6db8f1c3",
       "revId": "8507eb5139209118971053e4985312cadf3a58a1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
