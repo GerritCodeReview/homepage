@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "386a21ab_cc40571c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2024-08-07T10:43:29Z",
+      "side": 1,
+      "message": "@ponch78@gmail.com according to https://www.gerritcodereview.com/publishing.html there\u0027s a job that automatically generates the plugins page and deploys the homepage. Do you know if this is accurate? You were the last one to do an update.",
+      "revId": "c626b9a3e7b547fd506419330ce0aa7e3cd1567f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
