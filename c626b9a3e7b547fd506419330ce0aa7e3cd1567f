@@ -16,6 +16,24 @@
       "message": "@ponch78@gmail.com according to https://www.gerritcodereview.com/publishing.html there\u0027s a job that automatically generates the plugins page and deploys the homepage. Do you know if this is accurate? You were the last one to do an update.",
       "revId": "c626b9a3e7b547fd506419330ce0aa7e3cd1567f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "252eb2b7_1d3c0bb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2024-08-07T11:47:42Z",
+      "side": 1,
+      "message": "I can\u0027t recall if there was an automatic job TBH. For sure I didn\u0027t do anything myself to pusblish it. I don\u0027t see any job in the CI itself. Sorry I couldn\u0027t be more helpful :/",
+      "parentUuid": "386a21ab_cc40571c",
+      "revId": "c626b9a3e7b547fd506419330ce0aa7e3cd1567f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
