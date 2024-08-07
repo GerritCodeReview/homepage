@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4aea432_9cfd4d70",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 795,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-07T05:46:04Z",
+      "side": 1,
+      "message": "```suggestion\n    You can retrieve the full list of changes with:\n```\n\notherwise it breaks the formatting following part of the section",
+      "revId": "8507eb5139209118971053e4985312cadf3a58a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80767e63_6db8f1c3",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 818,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2024-08-07T05:46:04Z",
+      "side": 1,
+      "message": "```suggestion\n    You can retrieve the full list of changes with:\n```\n\nsame as above",
+      "revId": "8507eb5139209118971053e4985312cadf3a58a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
