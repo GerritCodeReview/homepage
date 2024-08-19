@@ -17,7 +17,7 @@ Community Managers for the 2024-2025 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
-| Daniele Sassioli      | GerritForge            |
+| Daniele Sassoli       | GerritForge            |
 | Edwin Kempin          | Google                 |
 | Matthias Sohn         | SAP                    |
 | Nasser Grainawi       | Qualcomm               |
