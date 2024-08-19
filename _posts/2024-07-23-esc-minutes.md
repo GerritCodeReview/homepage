@@ -26,12 +26,7 @@ of Google's implementation of the Servlet API.
 
 ### SPAM on gerrit-review.googlesource.com (ESC of July 23)
 
-Spammers have been targeting 
-[Change 390074](https://gerrit-review.googlesource.com/390074) broke the
-Gerrit setup of [Chromium](https://chromium-review.googlesource.com),
-because of the lack of visibility from the contributor
-of the impact of its changes on the closed-source fork of Gerrit maintained
-by Google.
+Spammers have been targeting Gerrit changes on gerrit-review.googlesource.com.
 
 The repo-discuss mailing list has a message moderation policy that allows
 existing regular members to keep on posting without delay; however, new
