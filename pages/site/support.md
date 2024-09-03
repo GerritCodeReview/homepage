@@ -70,6 +70,19 @@ appear on the mailing list. Approvals normally happen within 1 work
 day. Posts of people that participate in mailing list discussions
 frequently are approved automatically.
 
+When posting to repo-discuss, you must adhere to the following policy:
+
+1. Keep the discussion in topics: if there is already a topic for your
+   question, you should reply to that topic. One problem is one topic and
+   should be as specific as possible.
+
+2. Avoid top-posting, use
+   [interleaved posting](https://en.wikipedia.org/wiki/Posting_style#Interleaved_style)
+   instead.
+
+3. Look for existing solutions to known problems and avoid asking questions
+   that have already been answered.
+
 You can also join us on [discord][discord-server]. A maintainer or
 community manager should then be able to address your request.
 
