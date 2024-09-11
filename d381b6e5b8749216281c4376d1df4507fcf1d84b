@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dca1d954_b93dfaa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011624
+      },
+      "writtenOn": "2024-09-11T15:51:36Z",
+      "side": 1,
+      "message": "Look  quite comprehensive",
+      "revId": "d381b6e5b8749216281c4376d1df4507fcf1d84b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf90246e_0f06d247",
+        "filename": "pages/design-docs/dynamic-submit-type/solution-topic-configuration.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1011624
+      },
+      "writtenOn": "2024-09-11T15:51:36Z",
+      "side": 1,
+      "message": "From my uses-case this would be fine ( we use default type cheryy-pick, with topic take the whole series and use a more suitable type (always merge). Otherwise this would more or less either duplicate the setting  (if it is a merge type) or lead to even  stranger side effects ( if it is set to cherry-pick)",
+      "revId": "d381b6e5b8749216281c4376d1df4507fcf1d84b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
