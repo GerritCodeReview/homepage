@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "400ecb8f_93fe5dbf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-03T22:10:05Z",
+      "side": 1,
+      "message": "This update has broken the homepage build for publishing:\n```\npublic_suffix-6.0.0 requires ruby version \u003e\u003d 3.0, which is incompatible with the\ncurrent version, ruby 2.7.4p191\n```\n\nShould we also update the Jekyll image on the CI to Ruby \u003e\u003d 3.0?\nWe currently have this: https://gerrit.googlesource.com/gerrit-ci-scripts/+/refs/heads/master/jenkins-docker/agent-jekyll/Dockerfile",
+      "revId": "52711071463b25fd9ff9687af8b68af1fb8051b7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
