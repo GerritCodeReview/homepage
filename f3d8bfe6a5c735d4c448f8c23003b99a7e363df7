@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b60061b_a5ce925a",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 748,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-09T18:26:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f25b2b21_0ae9e0a0",
+      "range": {
+        "startLine": 747,
+        "startChar": 0,
+        "endLine": 748,
+        "endChar": 49
+      },
+      "revId": "f3d8bfe6a5c735d4c448f8c23003b99a7e363df7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7c148984_921260b2",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-10-09T17:09:23Z",
       "side": 1,
       "message": "Is this relevant from an external perspective?",
+      "range": {
+        "startLine": 767,
+        "startChar": 5,
+        "endLine": 767,
+        "endChar": 80
+      },
+      "revId": "f3d8bfe6a5c735d4c448f8c23003b99a7e363df7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8ba3a89_83199e3f",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 767,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-09T18:26:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7c148984_921260b2",
       "range": {
         "startLine": 767,
         "startChar": 5,
