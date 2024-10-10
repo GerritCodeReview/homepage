@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40966423_a455de09",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 628,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:56:48Z",
+      "side": 1,
+      "message": "Isn\u0027t this a bug-fix rather than a new feature? Also, this needs to be reported on the v3.9.7 as well, where it was introduced.",
+      "range": {
+        "startLine": 624,
+        "startChar": 0,
+        "endLine": 628,
+        "endChar": 57
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a2a90f0d_fc1a97a4",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 631,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:56:48Z",
+      "side": 1,
+      "message": "```suggestion\n  Added messageClassDisplay param for Soy templates.\n```",
+      "range": {
+        "startLine": 631,
+        "startChar": 2,
+        "endLine": 631,
+        "endChar": 42
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7caf1572_546fa618",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 633,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:56:48Z",
+      "side": 1,
+      "message": "I believe this is redundant, as the headline is clear enough.",
+      "range": {
+        "startLine": 633,
+        "startChar": 0,
+        "endLine": 633,
+        "endChar": 87
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80b6fd4c_da47c3d2",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 641,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:56:48Z",
+      "side": 1,
+      "message": "This looks like a bug fix rather than a breaking change IMHO. Can you elaborate on why this is breaking?",
+      "range": {
+        "startLine": 638,
+        "startChar": 0,
+        "endLine": 641,
+        "endChar": 53
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "455eb19e_91832478",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 648,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:56:48Z",
+      "side": 1,
+      "message": "This is redundant IMHO.",
+      "range": {
+        "startLine": 648,
+        "startChar": 0,
+        "endLine": 648,
+        "endChar": 54
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17326645_74e66704",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:56:48Z",
+      "side": 1,
+      "message": "```suggestion\n  Fix the ability to access projects URLs starting with a number\n```",
+      "range": {
+        "startLine": 660,
+        "startChar": 0,
+        "endLine": 660,
+        "endChar": 82
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d8023d3_3258ff8d",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:56:48Z",
+      "side": 1,
+      "message": "Actually the bug was impacting all type of URLs, not just the changes.",
+      "range": {
+        "startLine": 662,
+        "startChar": 18,
+        "endLine": 662,
+        "endChar": 34
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
