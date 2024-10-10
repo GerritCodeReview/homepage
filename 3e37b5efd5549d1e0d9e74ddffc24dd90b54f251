@@ -72,6 +72,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d6b82d3_7a2bd5f7",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 789,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-10T14:42:34Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "d648f108_b17afff7",
+      "range": {
+        "startLine": 785,
+        "startChar": 1,
+        "endLine": 789,
+        "endChar": 53
+      },
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ccf1e1fd_214bf722",
