@@ -74,6 +74,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d04d863c_abd21db2",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 628,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T15:42:40Z",
+      "side": 1,
+      "message": "Posted my comments on [1].",
+      "parentUuid": "efb8d9fe_eb39101c",
+      "range": {
+        "startLine": 624,
+        "startChar": 0,
+        "endLine": 628,
+        "endChar": 57
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a2a90f0d_fc1a97a4",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 2
