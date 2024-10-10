@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f54c2ffa_d6165fa3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 789,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:45:11Z",
+      "side": 1,
+      "message": "This looks like a bug fix rather than a breaking change IMHO. Can you elaborate on why this is breaking?",
+      "range": {
+        "startLine": 785,
+        "startChar": 1,
+        "endLine": 789,
+        "endChar": 53
+      },
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ccf1e1fd_214bf722",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 797,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:45:11Z",
+      "side": 1,
+      "message": "```suggestion\n  Fix the ability to access projects URLs starting with a number.\n```",
+      "range": {
+        "startLine": 797,
+        "startChar": 28,
+        "endLine": 797,
+        "endChar": 58
+      },
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb6a8d2d_ce98ccea",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 799,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:45:11Z",
+      "side": 1,
+      "message": "Actually the bug was impacting all type of URLs, not just the changes.",
+      "range": {
+        "startLine": 799,
+        "startChar": 19,
+        "endLine": 799,
+        "endChar": 35
+      },
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55e2b095_3c595ea3",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 800,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T12:45:11Z",
+      "side": 1,
+      "message": "I believe we should also mention Change 436577 that has an associated `Release-Notes` footer.",
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
