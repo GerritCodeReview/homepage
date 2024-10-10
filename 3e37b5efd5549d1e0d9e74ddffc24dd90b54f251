@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0669ef84_1e5c67e9",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 789,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-10T12:58:19Z",
+      "side": 1,
+      "message": "I thought this constitutes a behaviour change worth mentioning:\nIf anyone relied on the status of the cherry-pick, this change would affect them.\n\nHappy to consider it as a bug fix, WDYT?",
+      "parentUuid": "f54c2ffa_d6165fa3",
+      "range": {
+        "startLine": 785,
+        "startChar": 1,
+        "endLine": 789,
+        "endChar": 53
+      },
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ccf1e1fd_214bf722",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 3
@@ -37,6 +61,30 @@
       "writtenOn": "2024-10-10T12:45:11Z",
       "side": 1,
       "message": "```suggestion\n  Fix the ability to access projects URLs starting with a number.\n```",
+      "range": {
+        "startLine": 797,
+        "startChar": 28,
+        "endLine": 797,
+        "endChar": 58
+      },
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13c73a7c_ea56f701",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 797,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-10T12:58:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ccf1e1fd_214bf722",
       "range": {
         "startLine": 797,
         "startChar": 28,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e40a4d2a_c586c5c0",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 799,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-10T12:58:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cb6a8d2d_ce98ccea",
+      "range": {
+        "startLine": 799,
+        "startChar": 19,
+        "endLine": 799,
+        "endChar": 35
+      },
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "55e2b095_3c595ea3",
@@ -83,6 +155,24 @@
       "writtenOn": "2024-10-10T12:45:11Z",
       "side": 1,
       "message": "I believe we should also mention Change 436577 that has an associated `Release-Notes` footer.",
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d62c79b_7480b5db",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 800,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-10T12:58:19Z",
+      "side": 1,
+      "message": "This is already done at L777.",
+      "parentUuid": "55e2b095_3c595ea3",
       "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
