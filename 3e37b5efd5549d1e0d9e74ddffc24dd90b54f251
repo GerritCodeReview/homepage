@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d648f108_b17afff7",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 789,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-10-10T14:16:28Z",
+      "side": 1,
+      "message": "I consider this is a bug fix for two reasons:\n\n1. It did not break any existing tests, that means did not change any part of the contract that was expected\n2. Did not include any documentation change, therefore the expected behaviour is the same\n\nI believe it fixed a situation that wasn\u0027t covered and it has added a validation for it.\n\nFor the above reasons, isn\u0027t really breaking any existing documented and expected behaviour IMHO.",
+      "parentUuid": "0669ef84_1e5c67e9",
+      "range": {
+        "startLine": 785,
+        "startChar": 1,
+        "endLine": 789,
+        "endChar": 53
+      },
+      "revId": "3e37b5efd5549d1e0d9e74ddffc24dd90b54f251",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ccf1e1fd_214bf722",
         "filename": "pages/site/releases/3.9.md",
         "patchSetId": 3
