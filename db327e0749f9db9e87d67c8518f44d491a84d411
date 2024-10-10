@@ -189,6 +189,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "58a3e02f_79d047b5",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 641,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-10T14:44:32Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "67ea56b0_eff68548",
+      "range": {
+        "startLine": 638,
+        "startChar": 0,
+        "endLine": 641,
+        "endChar": 53
+      },
+      "revId": "db327e0749f9db9e87d67c8518f44d491a84d411",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "455eb19e_91832478",
