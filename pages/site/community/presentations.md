@@ -73,7 +73,6 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [PolyGerrit UX: Findings from research/experience on the new GUI](https://docs.google.com/presentation/d/17q-ygGioZi_5DITLyELa8oaOr22e15AHy8cq6XTZ0nY/view) (2017)
 * [An Update on PolyGerrit](https://storage.googleapis.com/gerrit-talks/summit/2016/polygerrit.pdf) (2016)
 * [PolyGerrit: New Polymer UI](https://storage.googleapis.com/gerrit-talks/summit/2015/PolyGerrit-Preview.pdf) (2015)
-* [Gerrit with Angular](https://www.slideshare.net/dluksza/angular-revolution-in-gerrit) (2014)
 * [Discoverable Projects](https://sites.google.com/site/gerritsummit2012/program/Saturday-Discoverable-Projects.pdf) (2012)
 
 ## User stories
