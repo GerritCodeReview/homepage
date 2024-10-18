@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e4afff3_be25ff36",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-10-18T07:46:37Z",
+      "side": 0,
+      "message": "Hmm, these work for me and the sharing settings look correct (viewable by everyone in the internet who has the link). \n\nIf I use the copy link action it gives me these links:\nhttps://drive.google.com/file/d/0B5_-qRW_6quzaVVRdE9jZTB0TFU/view?usp\u003dsharing\u0026resourcekey\u003d0-DYVL79SfSOezMlkjGWsYxQ\nhttps://drive.google.com/file/d/0BxQu3m7vXWQfOUc5UzljLUdLb0U/view?usp\u003dsharing\u0026resourcekey\u003d0-KFx7FUM59TWlgae3iRnBeg\n\nCan you double-check that these are not working for you?",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 93
+      },
+      "revId": "b0d3220665d5456880ae48fb659e5bf92ff8acd6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e7e24769_6eb8a7e9",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-10-18T07:46:37Z",
+      "side": 0,
+      "message": "Here too, this still works for me and the sharing settings look correct.\n\nhttps://drive.google.com/file/d/0BxuvZE_J-0uzemY2TVk3aVJJUEU/view?usp\u003dsharing\u0026resourcekey\u003d0-9GtiqTTYzBvZOIWusGvFIw",
+      "revId": "b0d3220665d5456880ae48fb659e5bf92ff8acd6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec8744d0_a4827a90",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-10-18T07:46:37Z",
+      "side": 0,
+      "message": "Same here: https://drive.google.com/file/d/0BxuvZE_J-0uzWkQ5VjdITFMxVEU/view?usp\u003dsharing\u0026resourcekey\u003d0-t-8EFC3c5Dl-sSunYy0qvw",
+      "revId": "b0d3220665d5456880ae48fb659e5bf92ff8acd6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
