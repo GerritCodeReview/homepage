@@ -34,8 +34,6 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
     * 4 new OWNERS plugin features (2022)
       * [Video](https://www.youtube.com/watch?v=1kZhUd440vc&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * [Diff Cache Redesign](https://docs.google.com/presentation/d/1XeqQJOQVIZ1bsjUlLpxsF8Uz8B9kUmArXKG41WHmm6U/view) (2020)
-* [Gitiles source browser](https://sites.google.com/site/gerritsummit2012/program/Sunday-Gitiles.pdf) (2012)
-* [Pluggable Caches](https://drive.google.com/file/d/1egSyShDek0qQ8SYUGWzezE1CQkBjLcp0/view) (2020)
 * [Ported Comments](https://docs.google.com/presentation/d/16CzuaiIMjyfvmfxAtwDXqiyhhXtTTLRcszavNeECURM/view) (2020)
 * [PubSub / Consistency on Demand](https://drive.google.com/file/d/1ttLw3Ba44_8H1VLUMIlFWrs8AAzYkH0A/view) (2021)
 * [pull-replication plugin](https://storage.googleapis.com/gerrit-talks/summit/2021/An%20Introduction%20to%20pull-replication%20plugin.pdf) (2021)
@@ -52,7 +50,6 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * What's new in Gerrit 3.6/3.7 (2022)
   * [Video](https://www.youtube.com/watch?v=ytgQItCiJBk&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * [What's new in Gerrit 3.4/3.5](https://storage.googleapis.com/gerrit-talks/summit/2021/Whats.New.in.Gerrit.3.4-and.3.5.pdf) (2021)
-* [What's new in Gerrit 3.2/3.3?](https://drive.google.com/file/d/13T7CiQG54CZ7P6iqMYsFIV4P4dOV78iN/view) (2020)
 * [What's new in Gerrit 3.1 and beyond](https://www.slideshare.net/lucamilanesio/whats-new-in-gerrit-code-review-v31-and-beyond) (2019)
 * [What's new in Gerrit 3.0?](https://www.slideshare.net/lucamilanesio/whats-new-in-gerrit-code-review-30) (2019)
 * [What's new in Gerrit 2.14.x and 2.15?](https://storage.cloud.google.com/gerrit-talks/summit/2018/whats-new-in-2.14-and-2.15-gus-2018.pdf) (2018)
@@ -90,8 +87,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [Git at Google](https://storage.googleapis.com/gerrit-talks/summit/2015/Git-at-Google.pdf) (2015)
 * [Ericsson's migration to Gerrit](https://drive.google.com/open?id=1-BZBBIpnR6THOHE0mKyVOvRNXPH-sFKp) (2015)
 * [Scaling Gerrit at Ericsson](https://storage.googleapis.com/gerrit-talks/summit/2015/Scaling-Gerrit-Ericsson.pdf) (2015)
-* [Scaling Gerrit at Ericsson](https://docs.google.com/file/d/0B5_-qRW_6quzaVVRdE9jZTB0TFU/view) (2014)
-* [Gerrit at Yahoo](https://drive.google.com/file/d/0BxQu3m7vXWQfOUc5UzljLUdLb0U/view) (2015)
+* [Scaling Gerrit at Ericsson](https://drive.google.com/file/d/0B5_-qRW_6quzaVVRdE9jZTB0TFU/view?usp=sharing&resourcekey=0-DYVL79SfSOezMlkjGWsYxQ) (2014)
+* [Gerrit at Yahoo](https://drive.google.com/file/d/0BxQu3m7vXWQfOUc5UzljLUdLb0U/view?usp=sharing&resourcekey=0-KFx7FUM59TWlgae3iRnBeg) (2015)
 * [Gerrit at LibreOffice](https://ostrovsky.org/gerrit/gerrit_at_libreoffice.pdf) (2014)
 * [Gerrit at SAP](http://storage.googleapis.com/gerrit-talks/gerrit-at-sap.html#(2)) (2014)
 * [Gerrit at Tieto](https://sites.google.com/site/gerritsummit2012/program/Saturday-Gerrit-For-Large-Enterprises.pdf) (2012)
@@ -102,7 +99,6 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
   * [Video](https://www.youtube.com/watch?v=AAkbHMhdclQ&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * Gerrit on Kubernetes (2022)
   * [Video](https://www.youtube.com/watch?v=vssqmcsXRKA&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
-* [Run Gerrit in a cloud](https://drive.google.com/file/d/1Ee7KoRCJlkouLoUnvLtXki4udrrVO4cV/view) (2021)
 * [Docker-based replica setup](https://docs.google.com/presentation/d/1m5nuNEvG2CWXNrb-LyS0-Jo6ic2VmBiZ-dzK6SdE7cI/view) (2021)
 * [Gerrit goes multi-site](https://www.slideshare.net/lucamilanesio/gerrit-code-review-multisite) (2019)
 * [Gerrit Multi-master and Multi-site](https://www.slideshare.net/lucamilanesio/gerrit-multimaster-multisite-at-gerrithub) (2018)
@@ -141,7 +137,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [Atomicity with change-sets and topic submission](https://storage.googleapis.com/gerrit-talks/summit/2016/changesets.pdf) (2016)
 * [Implementing Gerrit build with Bazel](http://ostrovsky.org/gerrit/bazel-build-gerrit/) (2016)
 * [Continuous Delivery in Big Data](http://www.slideshare.net/stefanogalarraga/gerrit-jenkins-continuous-delivery-for-big-data) (2015)
-* [Codenvy - Continuous Development with Gerrit](https://docs.google.com/file/d/0BxuvZE_J-0uzemY2TVk3aVJJUEU/view) (2014)
+* [Codenvy - Continuous Development with Gerrit](https://drive.google.com/file/d/0BxuvZE_J-0uzemY2TVk3aVJJUEU/view?usp=sharing&resourcekey=0-9GtiqTTYzBvZOIWusGvFIw) (2014)
 
 ## Analytics
 
@@ -151,7 +147,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [Mining Gerrit Data to Study Contentious Reviews and Community Evolution](https://speakerdeck.com/shanemcintosh/mining-gerrit-reviews-for-contentious-reviews-and-community-evolution) (2017)
 * [Gerrit Analytics](http://www.slideshare.net/lucamilanesio/gerrit-code-review-analytics) (2016)
 * [Monitoring Gerrit](https://storage.googleapis.com/gerrit-talks/summit/2015/Monitoring-Gerrit.pdf) (2015)
-* [Monitoring Gerrit](https://docs.google.com/file/d/0BxuvZE_J-0uzWkQ5VjdITFMxVEU/view) (2014)
+* [Monitoring Gerrit](https://drive.google.com/file/d/0BxuvZE_J-0uzWkQ5VjdITFMxVEU/view?usp=sharing&resourcekey=0-t-8EFC3c5Dl-sSunYy0qvw) (2014)
 
 ## Workflows
 
