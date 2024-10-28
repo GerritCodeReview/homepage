@@ -18,6 +18,16 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
+## 3.11
+
+* Java 21
+
+* Enforce project configuration changes for code review
+
+* New maintenance APIs
+
+* New metrics
+
 ## 3.10
 
 * Rebase merge commits
