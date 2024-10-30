@@ -2442,6 +2442,30 @@
       },
       "revId": "93459b852014dd7a6e3a1cf7bd286937394ac3fd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb58ba5a_27b686fb",
+        "filename": "pages/site/releases/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-10-30T13:43:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "60620b30_c979e728",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 6
+      },
+      "revId": "93459b852014dd7a6e3a1cf7bd286937394ac3fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
