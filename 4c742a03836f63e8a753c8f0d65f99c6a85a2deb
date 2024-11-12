@@ -26,6 +26,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8d4d3184_a8a0e182",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T17:04:34Z",
+      "side": 1,
+      "message": "With a",
+      "range": {
+        "startLine": 7,
+        "startChar": 15,
+        "endLine": 7,
+        "endChar": 22
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75fcb846_8100652f",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T17:04:34Z",
+      "side": 1,
+      "message": "```suggestion\nThe plan uses the OKR (Objective/Key-Result) framework and the input from the whole community.\n```",
+      "range": {
+        "startLine": 10,
+        "startChar": 45,
+        "endLine": 10,
+        "endChar": 54
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "49271d48_c15f565c",
         "filename": "pages/site/community-objectives.md",
         "patchSetId": 3
@@ -42,6 +88,29 @@
         "startChar": 6,
         "endLine": 14,
         "endChar": 60
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f836f972_1794ad8c",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T17:04:34Z",
+      "side": 1,
+      "message": "This looks like a (code)owners plugin feature: this roadmap is more about Gerrit core isn\u0027t it?",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 43
       },
       "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -72,6 +141,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b08e64c6_c4b03592",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T17:04:34Z",
+      "side": 1,
+      "message": "I don\u0027t believe these belongs to the roadmap",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 37
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "07bd3dcd_c661f248",
         "filename": "pages/site/roadmap.md",
         "patchSetId": 3
@@ -89,6 +181,47 @@
         "endLine": 13,
         "endChar": 0
       },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b0d36ff_09fa22c4",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T17:04:34Z",
+      "side": 1,
+      "message": "+1, this should stay in the Gerrit core and core-plugins roadmap",
+      "parentUuid": "07bd3dcd_c661f248",
+      "range": {
+        "startLine": 11,
+        "startChar": 57,
+        "endLine": 13,
+        "endChar": 0
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc781e61_c8877653",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T17:04:34Z",
+      "side": 1,
+      "message": "Should we also keep the Google\u0027s 2025 Q1/Q2 OKRs? @poucet@google.com?",
       "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
