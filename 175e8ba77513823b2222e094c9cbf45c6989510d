@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc1c1549_14c47714",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T16:49:17Z",
+      "side": 1,
+      "message": "```suggestion\nDocumentation: **[3.11.0](http://gerrit-documentation.storage.googleapis.com/Documentation/3.11.0/index.html)**\n```",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 95
+      },
+      "revId": "175e8ba77513823b2222e094c9cbf45c6989510d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "928b5c92_fda0436c",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T16:49:17Z",
+      "side": 1,
+      "message": "Isn\u0027t this covered already at L59?",
+      "range": {
+        "startLine": 385,
+        "startChar": 0,
+        "endLine": 387,
+        "endChar": 58
+      },
+      "revId": "175e8ba77513823b2222e094c9cbf45c6989510d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9aefbb87_a3325e87",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 390,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T16:49:17Z",
+      "side": 1,
+      "message": "```suggestion\n  Allow to run periodic group reindexing also on Gerrit primary server.\n```",
+      "range": {
+        "startLine": 390,
+        "startChar": 49,
+        "endLine": 390,
+        "endChar": 56
+      },
+      "revId": "175e8ba77513823b2222e094c9cbf45c6989510d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1689a3fe_e11d70cf",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T16:49:17Z",
+      "side": 1,
+      "message": "Even though they are not properly Gerrit changes, I believe we should mention the JGit improvements on the encoding computation (https://eclipse.gerrithub.io/c/eclipse-jgit/jgit/+/1203547 and https://eclipse.gerrithub.io/c/eclipse-jgit/jgit/+/1203548/3) which more than double the performance of the I/O processing across the whole library.",
+      "revId": "175e8ba77513823b2222e094c9cbf45c6989510d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "437b01b9_dfa5a1b7",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 551,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-12T16:49:17Z",
+      "side": 1,
+      "message": "Add also:\n\n```\nd34f8b523 Replace custom encoder Constants#encodeASCII by JDK implementation\ne8c414b9c Replace custom encoder `Constants#encode` by JDK implementation\n93ede18ff Add `numberOfPackFilesAfterBitmap` to RepoStatistics\n958d05392 Enhance CommitBuilder#parent to tolerate null parent\n```",
+      "revId": "175e8ba77513823b2222e094c9cbf45c6989510d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
