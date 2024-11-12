@@ -68,6 +68,29 @@
       },
       "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07bd3dcd_c661f248",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-12T13:57:05Z",
+      "side": 1,
+      "message": "\"Objectives for H1 2025\" refers to improving understanding of files ownership.\nHowever, the owner plugin (in any of its incarnations) is not a core plugin.\nDo objectives extend to non-core plugins, too?",
+      "range": {
+        "startLine": 11,
+        "startChar": 57,
+        "endLine": 13,
+        "endChar": 0
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
