@@ -28,6 +28,10 @@ The support status of all recent Gerrit versions is
 
 * New metrics
 
+* New Submit requirements
+
+[Release notes for Gerrit 3.11](/3.11.html)
+
 ## 3.10
 
 * Rebase merge commits
