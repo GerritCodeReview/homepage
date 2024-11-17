@@ -78,6 +78,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## User stories
 
+* Gerrit at CodeCraft (BMW) (2023)
+  * [Video](https://www.youtube.com/watch?v=MKklVdn0LwE)
 * Switching from SVN to Gerrit mono repo (2022)
   * [Video](https://www.youtube.com/watch?v=55VXo9PM6Sc&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * Gerrit at Nokia (2022)
