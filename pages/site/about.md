@@ -30,7 +30,7 @@ Mondrian does for Google employees.  Unlike Mondrian and the Google
 Perforce triggers, Rietveld is strictly advisory and does not enforce
 peer-review prior to submission.
 
-## Gitosis and Gitolite
+## Gitolite
 
 Git is a distributed version control system, wherein each repository
 is assumed to be owned/maintained by a single user.  There are no
@@ -40,13 +40,12 @@ filesystem access controls.  When multiple maintainers collaborate on
 a single shared repository a high degree of trust is required, as any
 collaborator with write access can alter the repository.
 
-[Gitosis] and [Gitolite] provide tools to secure centralized Git
+[Gitolite] provide tools to secure centralized Git
 repositories, permitting multiple maintainers to manage the same
 project at once, by restricting the access to only over a secure
 network protocol, much like Perforce secures a repository by only
 permitting access over its network port.
 
-[Gitosis]: https://github.com/tv42/gitosis
 [Gitolite]: http://gitolite.com/gitolite/index.html
 
 ## Android
