@@ -104,6 +104,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * [Docker-ization of Gerrit](http://www.slideshare.net/lucamilanesio/gerrit-is-getting-native-with-rpm-deb-and-docker) (2014)
 
 ## Multi-Site
+* Unsplitting Gerrit (2023)
+  * [Video](https://www.youtube.com/watch?v=l7Koc1Z8MLE&list=PLySCWiWz9cNveIOCYaau34Jr6IwEfRX0E)
 * How healthcheck and multi-site keeps your sleep at night (2022)
   * [Video](https://www.youtube.com/watch?v=AAkbHMhdclQ&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * [Gerrit goes multi-site](https://www.slideshare.net/lucamilanesio/gerrit-code-review-multisite) (2019)
