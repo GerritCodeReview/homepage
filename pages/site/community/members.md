@@ -107,7 +107,7 @@ Current maintainers are:
 | Kasper Nilsson        | Google                     |
 | Logan Hanks           | Google                     |
 | Ole Rehmsen           | Google                     |
-| Shawn Pearce          | Google                     |
+| Shawn Pearce          | Google (Founder of Gerrit) |
 | Tao Zhou              | Google                     |
 | Viktar Donich         | Google                     |
 | Wyatt Allen           | Google                     |
