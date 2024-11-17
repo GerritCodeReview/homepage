@@ -71,6 +71,47 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fc05901_40481be3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-17T14:06:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e347a2b_937cd9b5",
+      "range": {
+        "startLine": 7,
+        "startChar": 33,
+        "endLine": 7,
+        "endChar": 38
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e68d904_c2afc975",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-17T14:06:10Z",
+      "side": 1,
+      "message": "Just to be clear, as this point, by no means this change is ready for review, it just wants to be a place to collate new ideas and collaborate.",
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "75fcb846_8100652f",
@@ -257,6 +298,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ccca0fc_24db692c",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-17T14:06:10Z",
+      "side": 1,
+      "message": "See comment below.",
+      "parentUuid": "1681bfcc_06856747",
+      "range": {
+        "startLine": 11,
+        "startChar": 57,
+        "endLine": 13,
+        "endChar": 0
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aa72591c_3ed08c07",
@@ -270,6 +335,30 @@
       "writtenOn": "2024-11-13T04:48:39Z",
       "side": 1,
       "message": "Update this to be the latest version?",
+      "range": {
+        "startLine": 22,
+        "startChar": 89,
+        "endLine": 22,
+        "endChar": 94
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1521ef8_53cea2f8",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-17T14:06:10Z",
+      "side": 1,
+      "message": "Will raise a separate change for this.",
+      "parentUuid": "aa72591c_3ed08c07",
       "range": {
         "startLine": 22,
         "startChar": 89,
@@ -311,6 +400,24 @@
       "side": 1,
       "message": "I don\u0027t get why we have a new page. Why not just put everything here?\n\nI do like how the community-objectives page is organizing the headings by date and then have subheadings for each \"project\" (core/plugins/etc), as I think that\u0027s aligned to the idea above of including more than just core.\n\n```\n# H1 2025\n## Gerrit 3.12\n\u003cspecific objectives for core 3.12\u003e\n\n## owners plugin\n### O: Improve understanding of ownership of files in changes\n....\n```",
       "parentUuid": "dc781e61_c8877653",
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b1cfdbfa_c7cc9038",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-17T14:06:10Z",
+      "side": 1,
+      "message": "@luca.milanesio@gmail.com I would like the Google OKRs to be included in this page.\n@poucet@google.com, is that ok with you guys?\n\n@nasser My only issue with including non-core plugin is that if we list all-plugins here it\u0027ll give the impression that they are somewhat \"officially supported\" or that at the very least there\u0027s a reliable maintainer behind it.\n\nAs long as we have some criteria of which plugins are listed here then fine, but we\u0027ll need to agree on that.\n\nMaybe for now just including core plugins is fine?",
+      "parentUuid": "c5ca0431_a4260912",
       "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
