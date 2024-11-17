@@ -231,6 +231,11 @@ has contributed [thousands of changes](https://analytics.gerrithub.io/kibana/s/g
 to the Gerrit platform and has been organizing the Gerrit User Summits and
 Hackathons since the [London Hackathon 2013](https://gerritforge.com/events.html).
 
+It also runs `gerrithub.io`, which offers users an easy way to use the latest
+version of Gerrit for their code reviews on top of their GitHub repositories.
+All code pushed to gerrithub.io will be replicated back to the selected GitHub
+server thanks to the [github-plugin](https://github.com/GerritCodeReview/plugins_github).
+
 GerritForge offers [**Enterprise Support (ES)**](#enterprise-support) to its
 customers and [**Community Support (CS)**](#community-support) to the whole
 Gerrit community; see below the SLO and SLA associated with its services.
