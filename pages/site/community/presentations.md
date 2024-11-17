@@ -140,6 +140,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Analytics
 
+* [Unsplitting Gerrit](https://www.youtube.com/watch?v=l7Koc1Z8MLE)
 * [Gerrit Analytics applied to the Android project](https://www.slideshare.net/lucamilanesio/gerrit-analytics-applied-to-android-source-code) (2019)
 * [Show me your dashboard](https://docs.google.com/presentation/d/1EeJdCngQaVBxJPQaGC2DYtTS9gzM9II-uoi7DtPQkw0/view) (2019)
 * [DevOps Analytics - Uncover the value of Gerrit Pipeline](https://www.slideshare.net/lucamilanesio/gerrit-devops-analytics-uncover-the-value-of-cicd-pipeline) (2018)
