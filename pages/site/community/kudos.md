@@ -35,6 +35,17 @@ will take care to upload the kudos for you.
 Please add new kudos at the top of this list.
 
 ---
+**[2024-11-17] To: Nasser Grainawi**
+
+> For driving the organization of the latest Gerrit Hackathon and User Summit,
+> it's never easy to organize such events and it should not be taken for granted
+> that they keep happening every year. They're a great way to foster the
+> collaboration within the community, so thanks again for your effort and
+> dedication.
+
+From: Daniele Sassoli (GerritForge)
+
+---
 **[2022-02-04] To: Andrew Allen**
 
 > Thank you Andrew for moderating the last Gerrit community meeting and taking
