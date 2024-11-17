@@ -45,6 +45,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Release Highlights
 
+* [What's new in Gerrit 3.9/3.10](https://www.youtube.com/watch?v=7MDBAHUQO70)
 * [What's new in Gerrit 3.8 and beyond](https://storage.googleapis.com/gerrit-talks/summit/2023/Whats%20new%20in%20Gerrit%203.8%20and%20beyond.pdf) (2023)
   * [Video](https://youtu.be/CSuUiivbmw8)
 * What's new in Gerrit 3.6/3.7 (2022)
