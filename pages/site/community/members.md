@@ -96,18 +96,18 @@ Current maintainers are:
 
 ### Former maintainers
 
-| Name                  | Affiliation                |
-|-----------------------|----------------------------|
-| Alice Kober-Sotzek    | Google                     |
-| Andrew Bonventre      | Google                     |
-| Becky Siegel          | Google                     |
-| Dave Borowitz         | Google                     |
-| Gal Paikin            | Google                     |
-| Hugo Arès             | Kaloom (formerly Ericsson) |
-| Kasper Nilsson        | Google                     |
-| Logan Hanks           | Google                     |
-| Ole Rehmsen           | Google                     |
-| Shawn Pearce          | Google                     |
-| Tao Zhou              | Google                     |
-| Viktar Donich         | Google                     |
-| Wyatt Allen           | Google                     |
+| Name                  | Affiliation                         |
+|-----------------------|-------------------------------------|
+| Alice Kober-Sotzek    | Google                              |
+| Andrew Bonventre      | Google                              |
+| Becky Siegel          | Google                              |
+| Dave Borowitz         | Google                              |
+| Gal Paikin            | Google                              |
+| Hugo Arès             | Kaloom (formerly Ericsson)          |
+| Kasper Nilsson        | Google                              |
+| Logan Hanks           | Google                              |
+| Ole Rehmsen           | Google                              |
+| Shawn Pearce          | Google (Founder of Gerrit and JGit) |
+| Tao Zhou              | Google                              |
+| Viktar Donich         | Google                              |
+| Wyatt Allen           | Google                              |
