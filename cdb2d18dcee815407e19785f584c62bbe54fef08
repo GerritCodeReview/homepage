@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a16e84a1_ab3bd8c8",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-11-17T23:37:12Z",
+      "side": 1,
+      "message": "JGit and EGit are not ex-Eclipse Foundation projects, they are still Eclipse Foundation projects but they now host their source code on gerrithub since the Eclipse Foundation deprecated their Gerrit server.",
+      "range": {
+        "startLine": 235,
+        "startChar": 19,
+        "endLine": 235,
+        "endChar": 56
+      },
+      "revId": "cdb2d18dcee815407e19785f584c62bbe54fef08",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b053b7b5_fc732dab",
+        "filename": "pages/site/support.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-11-17T23:37:12Z",
+      "side": 1,
+      "message": "I wouldn\u0027t add implementation details to the support page\n\n```suggestion\neasy way to use the latest version of Gerrit for code review and mirror branches and tags to github.com.\n```",
+      "range": {
+        "startLine": 236,
+        "startChar": 49,
+        "endLine": 239,
+        "endChar": 67
+      },
+      "revId": "cdb2d18dcee815407e19785f584c62bbe54fef08",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
