@@ -194,6 +194,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "00ffa54c_84dfff87",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-11-18T10:33:04Z",
+      "side": 1,
+      "message": "I checked the numbers of feature requests in the issue tracker:\n\n[open feature requests](https://issues.gerritcodereview.com/issues?q\u003dis:open%20type:feature_request): 1238\n[assigned](https://issues.gerritcodereview.com/issues?q\u003dis:open%20type:feature_request%20status:assigned): 68\n[accepted (in progress)](https://issues.gerritcodereview.com/issues?q\u003dis:open%20type:feature_request%20status:accepted): 47\n\n106 of all feature request were created or updated in 2024\n\n[open feature requests on Gerrit backend](https://issues.gerritcodereview.com/issues?q\u003dis:open%20type:feature_request%20componentid:1369887): 490\n\nLooks like we should go through this list and find out what\u0027s really being worked on, and which entries are stale or obsolete.",
+      "parentUuid": "50c262a4_b2dc3b88",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bf1a319d_25da73a8",
         "filename": "pages/site/community-objectives.md",
         "patchSetId": 5
