@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "845bd6f5_035c0359",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-18T08:58:27Z",
+      "side": 1,
+      "message": "Analytics?",
+      "range": {
+        "startLine": 7,
+        "startChar": 7,
+        "endLine": 7,
+        "endChar": 16
+      },
+      "revId": "d54815e5efb6bd532dd45efc3ea24ccc8e40f06e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb975e72_f4933ed2",
+        "filename": "pages/site/community/presentations.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-18T08:58:27Z",
+      "side": 1,
+      "message": "Nit: unneeded change",
+      "revId": "d54815e5efb6bd532dd45efc3ea24ccc8e40f06e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
