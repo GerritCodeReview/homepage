@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82c6d62a_0f90862d",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-18T16:43:43Z",
+      "side": 1,
+      "message": "Unneeded change.\n\n```suggestion\nDocumentation: **[3.11.0](http://gerrit-documentation.storage.googleapis.com/Documentation/3.11.0/index.html)**\n```",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 95
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a434e9b9_df4258f8",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 472,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-18T16:43:43Z",
+      "side": 1,
+      "message": "This will be part of the forthcoming Gerrit v3.9.8 release notes: moving it there?",
+      "range": {
+        "startLine": 470,
+        "startChar": 0,
+        "endLine": 472,
+        "endChar": 43
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a46883e6_9e8edde1",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 496,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-18T16:43:43Z",
+      "side": 1,
+      "message": "This will be part of the forthcoming Gerrit v3.9.8 release notes: moving it there?",
+      "range": {
+        "startLine": 495,
+        "startChar": 0,
+        "endLine": 496,
+        "endChar": 56
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20ec62b8_3ace0196",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-18T16:43:43Z",
+      "side": 1,
+      "message": "This will be part of the forthcoming Gerrit v3.9.8 release notes: moving it there?",
+      "range": {
+        "startLine": 498,
+        "startChar": 0,
+        "endLine": 499,
+        "endChar": 52
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
