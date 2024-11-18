@@ -74,6 +74,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cb5802a8_72cfbe7b",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-11-18T10:12:15Z",
+      "side": 1,
+      "message": "The usual way to request features is by filing an issue in the issue tracker, e.g. here: https://issues.gerritcodereview.com/issues/new?component\u003d1369887\u0026template\u003d1834263\n\nIf we want to have a list of features requested by the community that people can pick up, we should create a hotlist for this, e.g. like https://issues.gerritcodereview.com/hotlists/5395287",
+      "parentUuid": "67fd4bb8_fbfde07c",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bf1a319d_25da73a8",
         "filename": "pages/site/community-objectives.md",
         "patchSetId": 5
