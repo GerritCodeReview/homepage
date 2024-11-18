@@ -95,6 +95,8 @@ You could also check the questions tagged with "gerrit" on
 Existing users having issues with the migration to/through Gerrit v2.16 can
 still use the [General Support](#generalsupport) on the mailing list as usual
 and it's possible that community members will be able to assist them.
+Alternatively, [GerritForge](#gerritforge) offers enterprise support migrating
+from 2.X version of Gerrit to 3.X.
 
 ## Bugs
 
