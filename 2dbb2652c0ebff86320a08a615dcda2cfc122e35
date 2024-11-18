@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "69459b7a_2080e97b",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-18T18:25:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82c6d62a_0f90862d",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 95
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a434e9b9_df4258f8",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-11-18T16:43:43Z",
       "side": 1,
       "message": "This will be part of the forthcoming Gerrit v3.9.8 release notes: moving it there?",
+      "range": {
+        "startLine": 470,
+        "startChar": 0,
+        "endLine": 472,
+        "endChar": 43
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f43ab658_550e4e24",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 472,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-18T18:25:37Z",
+      "side": 1,
+      "message": "Removed it, it\u0027ll be included when we do the 3.9.8 release.",
+      "parentUuid": "a434e9b9_df4258f8",
       "range": {
         "startLine": 470,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1b5b844_1afe7d8a",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 496,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-18T18:25:37Z",
+      "side": 1,
+      "message": "Removed it, it\u0027ll be included when we do the 3.9.8 release.",
+      "parentUuid": "a46883e6_9e8edde1",
+      "range": {
+        "startLine": 495,
+        "startChar": 0,
+        "endLine": 496,
+        "endChar": 56
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "20ec62b8_3ace0196",
@@ -88,6 +160,76 @@
         "startChar": 0,
         "endLine": 499,
         "endChar": 52
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f1b6a7f_1771b019",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-18T18:25:37Z",
+      "side": 1,
+      "message": "Removed it, it\u0027ll be included when we do the 3.9.8 release.",
+      "parentUuid": "20ec62b8_3ace0196",
+      "range": {
+        "startLine": 498,
+        "startChar": 0,
+        "endLine": 499,
+        "endChar": 52
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e98ea032_8b6612d3",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 502,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-18T18:25:37Z",
+      "side": 1,
+      "message": "Removed, this will be part of 3.10.3",
+      "range": {
+        "startLine": 501,
+        "startChar": 0,
+        "endLine": 502,
+        "endChar": 67
+      },
+      "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81b433ed_210d1c1b",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-18T18:25:37Z",
+      "side": 1,
+      "message": "Remove this, as it\u0027ll be included in 3.10.3",
+      "range": {
+        "startLine": 556,
+        "startChar": 0,
+        "endLine": 558,
+        "endChar": 0
       },
       "revId": "2dbb2652c0ebff86320a08a615dcda2cfc122e35",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
