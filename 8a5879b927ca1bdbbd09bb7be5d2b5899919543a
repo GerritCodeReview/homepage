@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "67fd4bb8_fbfde07c",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-18T10:08:01Z",
+      "side": 1,
+      "message": "I think sending a survey could be a good idea, but as @ekempin@google.com mentions, each item on the roadmap should be assigned to a person/entity.\nNothing wrong with having a list of features requested by the community that people can pick up though.\n\nWe already have a way for people to request features [1], but wonder if the cumbersome process puts people off. I can look into doing a more informal poll and see how that goes.\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html#propose",
+      "parentUuid": "414079ec_db20bd77",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bf1a319d_25da73a8",
         "filename": "pages/site/community-objectives.md",
         "patchSetId": 5
@@ -37,6 +61,24 @@
       "writtenOn": "2024-11-18T08:38:16Z",
       "side": 1,
       "message": "Should each objective have a an owner? Otherwise it\u0027s un clear who is driving this and to whom to reach out if there are questions.",
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d68229be_c9c47b98",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-18T10:08:01Z",
+      "side": 1,
+      "message": "+1, will add.",
+      "parentUuid": "bf1a319d_25da73a8",
       "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
