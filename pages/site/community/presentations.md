@@ -94,17 +94,20 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Deployment
 
-* How healthcheck and multi-site keeps your sleep at night (2022)
-  * [Video](https://www.youtube.com/watch?v=AAkbHMhdclQ&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
+
 * Gerrit on Kubernetes (2022)
   * [Video](https://www.youtube.com/watch?v=vssqmcsXRKA&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * [Docker-based replica setup](https://docs.google.com/presentation/d/1m5nuNEvG2CWXNrb-LyS0-Jo6ic2VmBiZ-dzK6SdE7cI/view) (2021)
-* [Gerrit goes multi-site](https://www.slideshare.net/lucamilanesio/gerrit-code-review-multisite) (2019)
-* [Gerrit Multi-master and Multi-site](https://www.slideshare.net/lucamilanesio/gerrit-multimaster-multisite-at-gerrithub) (2018)
 * [Gerrit on Kubernetes and Gardener](https://speakerdeck.com/msohn/code-review-goes-cloud-native-gerrit-on-kubernetes-managed-by-gardener) (2018)
 * [Gerrit with Apache Cassandra as JGit storage](http://www.slideshare.net/HaithemJarraya/infinite-gerrit) (2016)
-* [Scaling Gerrit: active-active masters](https://storage.googleapis.com/gerrit-talks/summit/2015/Multimaster-Gerrit.pdf) (2015)
 * [Docker-ization of Gerrit](http://www.slideshare.net/lucamilanesio/gerrit-is-getting-native-with-rpm-deb-and-docker) (2014)
+
+## Multi-Site
+* How healthcheck and multi-site keeps your sleep at night (2022)
+  * [Video](https://www.youtube.com/watch?v=AAkbHMhdclQ&list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
+* [Gerrit goes multi-site](https://www.slideshare.net/lucamilanesio/gerrit-code-review-multisite) (2019)
+* [Gerrit Multi-master and Multi-site](https://www.slideshare.net/lucamilanesio/gerrit-multimaster-multisite-at-gerrithub) (2018)
+* * [Scaling Gerrit: active-active masters](https://storage.googleapis.com/gerrit-talks/summit/2015/Multimaster-Gerrit.pdf) (2015)
 
 ## Upgrades
 
