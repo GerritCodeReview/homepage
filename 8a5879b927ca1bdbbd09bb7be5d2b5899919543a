@@ -122,6 +122,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3fccacc7_fd4ebd7e",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-18T10:16:47Z",
+      "side": 1,
+      "message": "These all sound like great options, shall I update the docs on our homepage to point to these links for feature request rather than a full blown-out document design?",
+      "parentUuid": "cb5802a8_72cfbe7b",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bf1a319d_25da73a8",
         "filename": "pages/site/community-objectives.md",
         "patchSetId": 5
