@@ -242,6 +242,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1f8a07db_718bc129",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-18T16:52:14Z",
+      "side": 1,
+      "message": "This roadmap shouldn\u0027t be so detailed, as it would become easily stale. For the details of the issues, we have the issue tracker and use a hotlist.\n\nThe purpose of this document was the high-level goals for the next releases where people and companies committed to it with committed workstream and contributors.",
+      "parentUuid": "d374ece7_565a969d",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bf1a319d_25da73a8",
         "filename": "pages/site/community-objectives.md",
         "patchSetId": 5

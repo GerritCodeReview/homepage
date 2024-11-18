@@ -373,6 +373,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3a46e80d_b7ec82b0",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-18T16:52:14Z",
+      "side": 1,
+      "message": "We do it constantly all the times, it\u0027s not really a \"feature in the roadmap\" as it should be in every release.",
+      "parentUuid": "ec890b52_2ef1ed21",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 37
+      },
+      "revId": "4c742a03836f63e8a753c8f0d65f99c6a85a2deb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "07bd3dcd_c661f248",
         "filename": "pages/site/roadmap.md",
         "patchSetId": 3
