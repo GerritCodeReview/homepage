@@ -220,7 +220,7 @@ In addition, issues on the following components are triaged by Google:
 
 ### [GerritForge](http://www.gerritforge.com)
 
-GerritForge is [UK-based Private Limited Company](https://find-and-update.company-information.service.gov.uk/company/06895373)
+GerritForge is [US-based Incorporated Company](https://bizfileonline.sos.ca.gov/search/business)
 with a passion for Open-Source and is fully committed to providing *all of its
 source code contributions* and know-how to the community, including bug-fixes,
 features, plugins, help and support.
