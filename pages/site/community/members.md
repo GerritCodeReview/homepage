@@ -78,15 +78,15 @@ Current maintainers are:
 | Frank Borden               | Google                                  |
 | Han-Wen Nienhuys           | Independent (formerly Google)           |
 | Jacek Centkowski           | Independent (formerly Digital.ai)       |
-| Joerg Zieren               | Google                                  |
+| Kamil Musin                | Google                                  |
 | Kaushik Lingarkar          | Qualcomm                                |
 | Luca Milanesio             | GerritForge                             |
 | Marco Miller               | Ericsson                                |
-| Marija Savtchouk           | Google                                  |
 | Martin Fick                | Independent (formerly Qualcomm)         |
 | Matthias Sohn              | SAP                                     |
 | Milutin Kristofic          | Google                                  |
 | Nasser Grainawi            | Qualcomm                                |
+| Nitzan Gur-Furman          | Google                                  |
 | Patrick Hiesel             | Google                                  |
 | Patrick Mulhall (Paladox)  | Independent                             |
 | Saša Živkov                | SAP                                     |
@@ -104,8 +104,10 @@ Current maintainers are:
 | Dave Borowitz         | Google                             |
 | Gal Paikin            | Google                             |
 | Hugo Arès             | Kaloom (formerly Ericsson)         |
+| Joerg Zieren          | Google                             |
 | Kasper Nilsson        | Google                             |
 | Logan Hanks           | Google                             |
+| Marija Savtchouk      | Google                             |
 | Ole Rehmsen           | Google                             |
 | Shawn Pearce          | Google (Founder of Gerrit and JGit)|
 | Tao Zhou              | Google                             |
