@@ -266,6 +266,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "78c0fa86_28fd3f59",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-19T10:46:56Z",
+      "side": 1,
+      "message": "While the idea of using the hotlist seems enticing at first, I agree with Luca that maybe is a bit too detailed(one objective could have multiple tickets associated with it).\n\nI\u0027ve provided a different idea of how to do this with If979769, with GerritForge\u0027s objective for 2025.\n\nLet me know what you think about it.",
+      "parentUuid": "1f8a07db_718bc129",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bf1a319d_25da73a8",
         "filename": "pages/site/community-objectives.md",
         "patchSetId": 5
