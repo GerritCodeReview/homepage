@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a16f1ea_8e755865",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-11-19T10:55:22Z",
+      "side": 1,
+      "message": "Should it be made clear that these are objectives from GerritForge?",
+      "fixSuggestions": [
+        {
+          "fixId": "a8e0e364_ef07c9c8",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "pages/site/roadmap.md",
+              "range": {
+                "startLine": 29,
+                "startChar": 0,
+                "endLine": 30,
+                "endChar": 0
+              },
+              "replacement": "## Gerrit 3.12 (GerritForge)\n"
+            }
+          ]
+        }
+      ],
+      "revId": "f38e15cff0fc467fdea4ebd47481f97b46633e4f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
