@@ -363,6 +363,24 @@
       "parentUuid": "d68229be_c9c47b98",
       "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96398bc7_7040dbf2",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-11-19T10:57:51Z",
+      "side": 1,
+      "message": "Personally, I\u0027d prefer to state it explicitly, using git blame is a too high barrier to look up this info.",
+      "parentUuid": "558e6cf2_e956cc61",
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
