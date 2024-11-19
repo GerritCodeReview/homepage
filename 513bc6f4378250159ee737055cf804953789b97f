@@ -22,6 +22,30 @@
       },
       "revId": "513bc6f4378250159ee737055cf804953789b97f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "739713f9_ea33a1e7",
+        "filename": "pages/site/support.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-19T10:06:11Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "44001cd4_48f2c6e6",
+      "range": {
+        "startLine": 223,
+        "startChar": 16,
+        "endLine": 223,
+        "endChar": 45
+      },
+      "revId": "513bc6f4378250159ee737055cf804953789b97f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
