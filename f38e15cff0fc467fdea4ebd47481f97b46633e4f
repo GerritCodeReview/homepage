@@ -34,6 +34,24 @@
       ],
       "revId": "f38e15cff0fc467fdea4ebd47481f97b46633e4f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02f30937_0584af1b",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-19T10:58:10Z",
+      "side": 1,
+      "message": "So the idea would be that users can git-blame the file to see who owns each objective.\nThis way other companies(including google) can add their own objectives for the first half of next year, and we don\u0027t have separate sections for each company, which could be quite fragmented.\n\nI\u0027ve added a note to the document to specify that git-blame is the preferred way of identifying owners of roadmap items.",
+      "parentUuid": "7a16f1ea_8e755865",
+      "revId": "f38e15cff0fc467fdea4ebd47481f97b46633e4f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
