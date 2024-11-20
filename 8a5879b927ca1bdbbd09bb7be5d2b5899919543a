@@ -381,6 +381,41 @@
       "parentUuid": "558e6cf2_e956cc61",
       "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1156b4a1_6b06e689",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-11-20T08:55:12Z",
+      "side": 1,
+      "message": "yes, the owner should be mentioned explicitly",
+      "parentUuid": "96398bc7_7040dbf2",
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1e58c4b_fc618852",
+        "filename": "pages/site/community-objectives.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-11-20T08:55:12Z",
+      "side": 1,
+      "message": "usually that\u0027s the case, currently it\u0027s not since it takes time for Google to update to jakarta servlet API and Jetty 12",
+      "revId": "8a5879b927ca1bdbbd09bb7be5d2b5899919543a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
