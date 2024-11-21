@@ -16,6 +16,24 @@
       "message": "Is the roadmap up to date? I see that the multi-site support is planned for v2.0, but we have developed and you merged it already :-)",
       "revId": "22a6629b4cbfbf5cdc75c3c056c547f5f753ceab",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a590c4ea_e2882483",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2024-11-21T23:11:09Z",
+      "side": 1,
+      "message": "the last larger update was in Sep 23:\nhttps://gerrit-review.googlesource.com/c/k8s-gerrit/+/387257\nwe are still working on some topics added to the roadmap back then\n\nsome weeks ago we removed the helm charts:\nhttps://gerrit-review.googlesource.com/c/k8s-gerrit/+/440081/1/Documentation/roadmap.md\n\nwe can do another update soon",
+      "parentUuid": "c6e7174b_e09e8cdb",
+      "revId": "22a6629b4cbfbf5cdc75c3c056c547f5f753ceab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
