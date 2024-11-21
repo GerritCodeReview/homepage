@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd887318_932a7425",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-11-21T20:52:51Z",
+      "side": 1,
+      "message": "nit: I mostly see this written with a lowercase `k`: `k8s-gerrit`\n```suggestion\n## k8s-Gerrit\n```",
+      "revId": "95c8c5966c9b5c4a3016c39f455c1c152000c1b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36e2d33e_b552e521",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2024-11-21T20:52:51Z",
+      "side": 1,
+      "message": "```suggestion\nRoadmap for k8s-Gerrit can be found [here](https://gerrit.googlesource.com/k8s-gerrit/+/refs/heads/master/Documentation/roadmap.md)\n```",
+      "range": {
+        "startLine": 83,
+        "startChar": 12,
+        "endLine": 83,
+        "endChar": 22
+      },
+      "revId": "95c8c5966c9b5c4a3016c39f455c1c152000c1b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
