@@ -77,3 +77,7 @@ Target: H2 2025
 #### KR: Introduce APIs for dynamically creating and updating replication endpoints [Issue 380234240](https://issues.gerritcodereview.com/issues/380234240)
 #### KR: Surface replication status on UI [Issue 380234241](https://issues.gerritcodereview.com/issues/380234241)
 #### KR: Improve replication latency on force-push (apply-object with prerequisite) [Issue 380282333](https://issues.gerritcodereview.com/issues/380282333)
+
+## k8s-Gerrit
+
+Roadmap for k8s-Gerrit can be found [here](https://gerrit.googlesource.com/k8s-gerrit/+/refs/heads/master/Documentation/roadmap.md)
