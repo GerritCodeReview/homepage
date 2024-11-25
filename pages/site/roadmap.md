@@ -77,3 +77,12 @@ Target: H2 2025
 #### KR: Introduce APIs for dynamically creating and updating replication endpoints [Issue 380234240](https://issues.gerritcodereview.com/issues/380234240)
 #### KR: Surface replication status on UI [Issue 380234241](https://issues.gerritcodereview.com/issues/380234241)
 #### KR: Improve replication latency on force-push (apply-object with prerequisite) [Issue 380282333](https://issues.gerritcodereview.com/issues/380282333)
+
+## Gerrit 4.0
+Target: 2026/2027
+
+### O: Decouple Gerrit review UI review and JGit Server
+
+#### KR: Allow to deploy Gerrit UI as JGit Server as separate services and indepenent
+
+#### KR: Enable other Gerrit review UIs on top of JGit Server (e.g. pull-requests)
