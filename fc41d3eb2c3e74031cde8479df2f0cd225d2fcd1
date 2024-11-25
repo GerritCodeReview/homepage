@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70795f06_f7af6817",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-25T15:10:57Z",
+      "side": 1,
+      "message": "```suggestion\n#### KR: Allow to deploy Gerrit UI and JGit Server as separate and independent services\n```",
+      "range": {
+        "startLine": 86,
+        "startChar": 9,
+        "endLine": 86,
+        "endChar": 85
+      },
+      "revId": "fc41d3eb2c3e74031cde8479df2f0cd225d2fcd1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1be61e2_de4f9a06",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-25T15:10:57Z",
+      "side": 1,
+      "message": "```suggestion\n#### KR: Enable other review UIs on top of JGit Server (e.g. pull-requests)\n```\nI don\u0027t think we need to specify Gerrit here?",
+      "range": {
+        "startLine": 88,
+        "startChar": 9,
+        "endLine": 88,
+        "endChar": 61
+      },
+      "revId": "fc41d3eb2c3e74031cde8479df2f0cd225d2fcd1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
