@@ -81,3 +81,12 @@ Target: H2 2025
 ## k8s-Gerrit
 
 Roadmap for k8s-Gerrit can be found [here](https://gerrit.googlesource.com/k8s-gerrit/+/refs/heads/master/Documentation/roadmap.md)
+
+## Gerrit 4.0
+Target: 2026/2027
+
+### O: Decouple Gerrit review UI review and JGit Server
+
+#### KR: Allow to deploy Gerrit UI and JGit Server as separate and independent services [Issue 381906253](https://issues.gerritcodereview.com/issues/381906253)
+
+#### KR: Enable other review UIs on top of JGit Server (e.g. pull-requests) [Issue 381906254](https://issues.gerritcodereview.com/issues/381906254)
