@@ -35,7 +35,6 @@ LOCK = "&#x1F512;"
 RED_CROSS = "&#x274C;"
 SQUARE = "&#x20DE;"
 
-
 class BuildResult(Enum):
     """Build result for a plugin"""
 
@@ -143,6 +142,14 @@ class Plugins:
             type=int,
             help="number of threads to fetch data from Gerrit concurrently",
         )
+        parser.add_argument(
+            "-t",
+            "--sleep",
+            dest="sleep",
+            default=0,
+            type=int,
+            help="amount to pause in-between fetching plugins data in order to avoid rate limiting",
+        )
         return parser.parse_args()
 
     @staticmethod
@@ -234,6 +241,7 @@ class Plugins:
             recent_changes_count=changes,
             branches=branches,
         )
+        time.sleep(self.options.sleep)
         return plugin, maintainers
 
     def _create_plugins(self):
