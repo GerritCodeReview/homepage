@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc1c1520_1ea684d8",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-26T11:14:46Z",
+      "side": 1,
+      "message": "I’m still unclear on the meaning of \"inconsistent\" in this context, as it feels somewhat vague. Could you clarify what is meant by \"inconsistent changes\"?\n\nFor example:\n\n* Does \"inconsistent\" mean the changes are corrupted, such as missing a patch set or having an invalid/missing meta ref?\n* We mention imported changes, but what specifically makes these changes inconsistent?\n\nI think clarifying the above would allow Gerrit admins to understand whether they are affected by this issue.",
+      "range": {
+        "startLine": 279,
+        "startChar": 47,
+        "endLine": 280,
+        "endChar": 41
+      },
+      "revId": "a525a0eac9f4f2ef514659bbeaa13bcbb086423d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
