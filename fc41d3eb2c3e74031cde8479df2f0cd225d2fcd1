@@ -3,6 +3,41 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bdba23bf_963312f9",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2024-11-26T14:21:50Z",
+      "side": 1,
+      "message": "Do you want to mark this as a GerritForge objective?",
+      "fixSuggestions": [
+        {
+          "fixId": "d16c46de_e1c69b0f",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "pages/site/roadmap.md",
+              "range": {
+                "startLine": 84,
+                "startChar": 0,
+                "endLine": 85,
+                "endChar": 0
+              },
+              "replacement": "### O: GerritForge\n"
+            }
+          ]
+        }
+      ],
+      "revId": "fc41d3eb2c3e74031cde8479df2f0cd225d2fcd1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "70795f06_f7af6817",
         "filename": "pages/site/roadmap.md",
         "patchSetId": 1
