@@ -4,7 +4,7 @@ node("jekyll") {
         withEnv(['LC_ALL=C.UTF-8', 'LANG=C.UTF-8']) {
             withCredentials([usernamePassword(credentialsId: "gerrit-review.googlesource.com", usernameVariable: "username", passwordVariable: "password")]) {
                 sh "pipenv install --dev"
-                sh "pipenv run python tools/plugins.py"
+                sh "pipenv run python tools/plugins.py --sleep 30"
             }
         }
     }
