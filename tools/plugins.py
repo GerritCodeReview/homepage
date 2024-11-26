@@ -143,6 +143,14 @@ class Plugins:
             type=int,
             help="number of threads to fetch data from Gerrit concurrently",
         )
+        parser.add_argument(
+            "-s",
+            "--sleep",
+            dest="sleep",
+            default=0,
+            type=int,
+            help="amount to pause in-between fetching plugins data in order to avoid rate limiting",
+        )
         return parser.parse_args()
 
     @staticmethod
@@ -234,6 +242,7 @@ class Plugins:
             recent_changes_count=changes,
             branches=branches,
         )
+        time.sleep(self.options.sleep)
         return plugin, maintainers
 
     def _create_plugins(self):
