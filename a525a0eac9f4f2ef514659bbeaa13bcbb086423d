@@ -70,6 +70,30 @@
       },
       "revId": "a525a0eac9f4f2ef514659bbeaa13bcbb086423d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "774597f5_712e3618",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-26T16:49:52Z",
+      "side": 1,
+      "message": "\u003e Yep agreed, my issue is that I don\u0027t fully understand the one example provided.\n\u003e What makes imported changes \"inconsistent\"?\n\nIf a change in the `/meta` ref has a serverId that differs from the one configured in `gerrit.config` it fails the load and therefore its data isn\u0027t consistent with what Gerrit expects.\n\nI believe you confused this use case with the import of changes from other servers (see https://www.gerritcodereview.com/3.7.html#import-projects-changes-from-other-gerrit-servers) which isn\u0027t an inconsistency at all and it is a valid use-case.\n\nHope this clarifies.",
+      "parentUuid": "4ea71458_3cf4ea9f",
+      "range": {
+        "startLine": 279,
+        "startChar": 47,
+        "endLine": 280,
+        "endChar": 41
+      },
+      "revId": "a525a0eac9f4f2ef514659bbeaa13bcbb086423d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
