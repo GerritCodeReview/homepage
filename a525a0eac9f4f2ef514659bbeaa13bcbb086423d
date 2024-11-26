@@ -22,6 +22,30 @@
       },
       "revId": "a525a0eac9f4f2ef514659bbeaa13bcbb086423d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50de3375_876e5081",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-26T13:01:31Z",
+      "side": 1,
+      "message": "There is one example with the _\"like changes with /meta ...\"_ as one example. The list of possible inconsistencies that a Gerrit change may have is very long, not sure the release notes are the best place to add them.",
+      "parentUuid": "dc1c1520_1ea684d8",
+      "range": {
+        "startLine": 279,
+        "startChar": 47,
+        "endLine": 280,
+        "endChar": 41
+      },
+      "revId": "a525a0eac9f4f2ef514659bbeaa13bcbb086423d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
