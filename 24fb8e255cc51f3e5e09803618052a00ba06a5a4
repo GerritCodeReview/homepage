@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7ed8adc_13491790",
+        "filename": "tools/plugins.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-26T14:43:58Z",
+      "side": 1,
+      "message": "I believe this should be passed as command line option",
+      "revId": "24fb8e255cc51f3e5e09803618052a00ba06a5a4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
