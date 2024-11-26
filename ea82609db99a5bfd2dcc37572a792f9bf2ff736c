@@ -16,6 +16,24 @@
       "message": "nit: unneeded change.",
       "revId": "ea82609db99a5bfd2dcc37572a792f9bf2ff736c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73fbf685_280da350",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-11-26T15:04:31Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "30491d9d_a94df99b",
+      "revId": "ea82609db99a5bfd2dcc37572a792f9bf2ff736c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
