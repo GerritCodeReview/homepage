@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "499d3138_f445fb5d",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 820,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-26T17:03:38Z",
+      "side": 1,
+      "message": "```suggestion\n  * `5cfb07a` Fixed chance for exceptions to block future distributor runs.\n```",
+      "range": {
+        "startLine": 820,
+        "startChar": 14,
+        "endLine": 820,
+        "endChar": 65
+      },
+      "revId": "d7cea7a7441555a4548c1746aac402f93e08c866",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
