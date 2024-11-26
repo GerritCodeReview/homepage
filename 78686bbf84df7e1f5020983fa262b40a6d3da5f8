@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb081c85_a6bff483",
+        "filename": "pages/site/releases/3.8.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 740,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-11-26T16:52:14Z",
+      "side": 1,
+      "message": "We should just include what was mentioned in the `Release-Notes` footer IMHO.\n\n```suggestion\n  * `5cfb07a` Fixed chance for exceptions to block future distributor runs.\n```",
+      "range": {
+        "startLine": 740,
+        "startChar": 14,
+        "endLine": 740,
+        "endChar": 64
+      },
+      "revId": "78686bbf84df7e1f5020983fa262b40a6d3da5f8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
