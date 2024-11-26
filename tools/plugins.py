@@ -34,6 +34,7 @@ GREEN_CHECK_MARK = "&#x2705;"
 LOCK = "&#x1F512;"
 RED_CROSS = "&#x274C;"
 SQUARE = "&#x20DE;"
+PLUGIN_DEPLOYMENT_PAUSE = "30"
 
 
 class BuildResult(Enum):
@@ -234,6 +235,8 @@ class Plugins:
             recent_changes_count=changes,
             branches=branches,
         )
+
+        time.sleep(int(PLUGIN_DEPLOYMENT_PAUSE))
         return plugin, maintainers
 
     def _create_plugins(self):
