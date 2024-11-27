@@ -94,6 +94,30 @@
       },
       "revId": "a525a0eac9f4f2ef514659bbeaa13bcbb086423d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c88dcb52_60b74b73",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2024-11-27T09:05:34Z",
+      "side": 1,
+      "message": "Yes indeed when I read:\n\n\"changes with /meta refs coming from other Gerrit serverId instances\".\n\nI don\u0027t immediately think about an inconsistency because whether that is a problem or not depends on the Gerrit configuration.\n\nIf we mention this example, we should clarify that only \"unexpected\" serverIds apply, not any foreign serverId (at least for the versions where this is supported).\n\nOther than that I am happy with this description.",
+      "parentUuid": "774597f5_712e3618",
+      "range": {
+        "startLine": 279,
+        "startChar": 47,
+        "endLine": 280,
+        "endChar": 41
+      },
+      "revId": "a525a0eac9f4f2ef514659bbeaa13bcbb086423d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
