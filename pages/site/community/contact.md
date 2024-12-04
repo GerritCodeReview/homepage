@@ -54,11 +54,11 @@ you don't want to ask publicly.
 
 ### Discord
 
-Gerrit Code Review has a discord channel that is a great place to get your questions
+Gerrit Code Review has a discord server that is a great place to get your questions
 answered, discuss various items or just keep track of what's happening in the
 community. Everyone is welcome.
 
-* [Gerrit Code Review Discord channel](https://discord.com/channels/775374026587373568/775374026587373571)
+* [Gerrit Code Review Discord server](https://discord.gg/eEZQrtzAwV)
 
 ## Other Social
 
