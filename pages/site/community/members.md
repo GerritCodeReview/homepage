@@ -18,7 +18,6 @@ Community Managers for the 2024-2025 term are:
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
 | Daniele Sassoli       | GerritForge            |
-| Edwin Kempin          | Google                 |
 | Matthias Sohn         | SAP                    |
 | Nasser Grainawi       | Qualcomm               |
 
@@ -26,6 +25,7 @@ Community Managers for the 2024-2025 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
+| Edwin Kempin          | Google                 |
 | Marco Miller          | Ericsson               |
 | Yolanda Jasso         | GerritForge            |
 
@@ -39,12 +39,11 @@ Members of the ESC for the 2024-2025 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
-| Chris Poucet          | Google                 |
+| Edwin Kempin          | Google                 |
 | Luca Milanesio        | GerritForge            |
-| Patrick Hiesel        | Google                 |
 | Saša Živkov           | SAP                    |
 
-The Google members have jointly 3 votes on the ESC.
+The Google member(s) have jointly 3 votes on the ESC.
 
 ### Former ESC members
 
@@ -53,8 +52,10 @@ The Google members have jointly 3 votes on the ESC.
 | Albert Cui            | Google                                 |
 | Alice Kober-Sotzek    | Google                                 |
 | Ben Rohlfs            | Google                                 |
+| Chris Poucet          | Google                                 |
 | David Pursehouse      | Independent (formerly Sony, CollabNet) |
 | Han-Wen Nienhuys      | Independent (formerly Google)          |
+| Patrick Hiesel        | Google                                 |
 
 ## Maintainers
 
