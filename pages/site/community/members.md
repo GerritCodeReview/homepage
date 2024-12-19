@@ -66,34 +66,34 @@ to the
 
 Current maintainers are:
 
-| Name                       | Affiliation                                        |
-|----------------------------|----------------------------------------------------|
-| Antonio Barone             | GerritForge                                        |
-| Ben Rohlfs                 | Google                                             |
-| Chris Poucet               | Google                                             |
-| David Ostrovsky            | Independent                                        |
-| David Pursehouse           | Independent (formerly Sony, CollabNet)             |
-| Dhruv Srivastava           | Google                                             |
-| Dmitrii Filippov           | Google                                             |
-| Edwin Kempin               | Google (formerly SAP)                              |
-| Frank Borden               | Google                                             |
-| Han-Wen Nienhuys           | Independent (formerly Google)                      |
-| Jacek Centkowski           | Independent (formerly Digital.ai)                  |
-| Kamil Musin                | Google                                             |
-| Kaushik Lingarkar          | Qualcomm Technologies, Inc.                        |
-| Luca Milanesio             | GerritForge                                        |
-| Marco Miller               | Ericsson                                           |
-| Martin Fick                | Independent (formerly Qualcomm Technologies, Inc.) |
-| Matthias Sohn              | SAP                                                |
-| Milutin Kristofic          | Google                                             |
-| Nasser Grainawi            | Qualcomm Technologies, Inc.                        |
-| Nitzan Gur-Furman          | Google                                             |
-| Patrick Hiesel             | Google                                             |
-| Patrick Mulhall (Paladox)  | Independent                                        |
-| Saša Živkov                | SAP                                                |
-| Sven Selberg               | Axis                                               |
-| Thomas Dräbing             | SAP                                                |
-| Youssef Elghareeb          | Google                                             |
+| Name                       | Affiliation                                    |
+|----------------------------|------------------------------------------------|
+| Antonio Barone             | GerritForge                                    |
+| Ben Rohlfs                 | Google                                         |
+| Chris Poucet               | Google                                         |
+| David Ostrovsky            | Independent                                    |
+| David Pursehouse           | Independent (formerly Sony, CollabNet)         |
+| Dhruv Srivastava           | Google                                         |
+| Dmitrii Filippov           | Google                                         |
+| Edwin Kempin               | Google (formerly SAP)                          |
+| Frank Borden               | Google                                         |
+| Han-Wen Nienhuys           | Independent (formerly Google)                  |
+| Jacek Centkowski           | Independent (formerly Digital.ai)              |
+| Kamil Musin                | Google                                         |
+| Kaushik Lingarkar          | Qualcomm Technologies, Inc.                    |
+| Luca Milanesio             | GerritForge                                    |
+| Marco Miller               | Ericsson                                       |
+| Martin Fick                | NVIDIA (formerly Qualcomm Technologies, Inc.)  |
+| Matthias Sohn              | SAP                                            |
+| Milutin Kristofic          | Google                                         |
+| Nasser Grainawi            | Qualcomm Technologies, Inc.                    |
+| Nitzan Gur-Furman          | Google                                         |
+| Patrick Hiesel             | Google                                         |
+| Patrick Mulhall (Paladox)  | Independent                                    |
+| Saša Živkov                | SAP                                            |
+| Sven Selberg               | Axis                                           |
+| Thomas Dräbing             | SAP                                            |
+| Youssef Elghareeb          | Google                                         |
 
 ### Former maintainers
 
