@@ -22,6 +22,30 @@
       },
       "revId": "e9ab03d6a0204dfb71adf44f28ad1e398c49c77a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7247094_ec132952",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2024-12-24T10:54:21Z",
+      "side": 1,
+      "message": "Let me apply to all instances of the issue.",
+      "parentUuid": "efedd68d_15c66510",
+      "range": {
+        "startLine": 278,
+        "startChar": 0,
+        "endLine": 279,
+        "endChar": 26
+      },
+      "revId": "e9ab03d6a0204dfb71adf44f28ad1e398c49c77a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
