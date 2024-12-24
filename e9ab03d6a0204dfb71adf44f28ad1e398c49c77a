@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efedd68d_15c66510",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2024-12-24T10:48:30Z",
+      "side": 1,
+      "message": "```suggestion\nThe introduction of a per-request ref cache for better performance may break\nrepository consistency\n```\n\nApplies to the other files too.",
+      "range": {
+        "startLine": 278,
+        "startChar": 0,
+        "endLine": 279,
+        "endChar": 26
+      },
+      "revId": "e9ab03d6a0204dfb71adf44f28ad1e398c49c77a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
