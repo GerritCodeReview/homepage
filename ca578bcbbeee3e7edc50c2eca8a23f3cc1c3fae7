@@ -1,5 +1,29 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c914206_70fb8732",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-01-07T22:39:14Z",
+      "side": 1,
+      "message": "The [last comment on that issue](https://issues.gerritcodereview.com/u/1/issues/309098227#comment20) is from me saying that the JGit fix should have solved the issue. Do you still see problems with git-gc and multi-site when the per-request ref cache is enabled?",
+      "range": {
+        "startLine": 9,
+        "startChar": 41,
+        "endLine": 9,
+        "endChar": 60
+      },
+      "revId": "ca578bcbbeee3e7edc50c2eca8a23f3cc1c3fae7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
