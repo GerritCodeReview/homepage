@@ -46,6 +46,30 @@
       },
       "revId": "ca578bcbbeee3e7edc50c2eca8a23f3cc1c3fae7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec60e4e4_196bc2c2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-01-08T17:52:16Z",
+      "side": 1,
+      "message": "\u003e What he saw is that a change on the filesystem (he was NOT using NFS but a local filesystem) was not noticed by a running thread in Gerrit. Applying the workaround fixed the problem.\n\nCan you update that issue then or create a new one with details on what kind of running thread this was in Gerrit, what the timing was relative to the change on the filesystem, and what the impact was due to not seeing the update?",
+      "parentUuid": "0d3b95e2_aa06c8f5",
+      "range": {
+        "startLine": 9,
+        "startChar": 41,
+        "endLine": 9,
+        "endChar": 60
+      },
+      "revId": "ca578bcbbeee3e7edc50c2eca8a23f3cc1c3fae7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
