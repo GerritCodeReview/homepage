@@ -22,6 +22,30 @@
       },
       "revId": "ca578bcbbeee3e7edc50c2eca8a23f3cc1c3fae7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d3b95e2_aa06c8f5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-01-08T09:32:03Z",
+      "side": 1,
+      "message": "I added the reference to v3.9, v3.10 and v3.11 as we just had a client in December having this issue in v3.10.2 which contains the JGit fix 29c89d1f02e84d0395e12f55204bd129e61c43bf. What he saw is that a change on the filesystem (he was NOT using NFS but a local filesystem) was not noticed by a running thread in Gerrit. Applying the workaround fixed the problem.\n\nHe missed the workaround because he jumped from v3.7 to v3.10 in one go and missed the note in the Gerrit v3.8 release notes.",
+      "parentUuid": "1c914206_70fb8732",
+      "range": {
+        "startLine": 9,
+        "startChar": 41,
+        "endLine": 9,
+        "endChar": 60
+      },
+      "revId": "ca578bcbbeee3e7edc50c2eca8a23f3cc1c3fae7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
