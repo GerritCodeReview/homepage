@@ -71,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c64b433c_8cc94259",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 800,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-01-13T12:12:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "726b8cfe_f6c4a8dd",
+      "range": {
+        "startLine": 799,
+        "startChar": 0,
+        "endLine": 800,
+        "endChar": 40
+      },
+      "revId": "89f9db7e56ec00e57919526e24ac4595c499d7ef",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f5b12c8d_4bb423ee",
@@ -84,6 +108,30 @@
       "writtenOn": "2025-01-13T12:07:34Z",
       "side": 1,
       "message": "Is this relevant for the Gerrit admin? If not consider removing",
+      "range": {
+        "startLine": 811,
+        "startChar": 0,
+        "endLine": 811,
+        "endChar": 70
+      },
+      "revId": "89f9db7e56ec00e57919526e24ac4595c499d7ef",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a924f38_f3879e97",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 811,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-01-13T12:12:08Z",
+      "side": 1,
+      "message": "I\u0027ve analysed the commit and seems it provides performance improvements. How much? I don\u0027t know, the change doesn\u0027t mention numbers.",
+      "parentUuid": "f5b12c8d_4bb423ee",
       "range": {
         "startLine": 811,
         "startChar": 0,
