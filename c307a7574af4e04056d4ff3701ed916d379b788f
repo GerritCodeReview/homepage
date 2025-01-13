@@ -16,6 +16,24 @@
       "message": "We should also mention:\n\n- 4ec9a7e730 Enable User suggestion on commit message\n- Set Gerrit typescript API to 3.11.0\n- Update @gerritcodereview/typescript-api to 3.11.0",
       "revId": "c307a7574af4e04056d4ff3701ed916d379b788f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bea2ac7c_df0669d2",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 761,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-01-13T15:56:57Z",
+      "side": 1,
+      "message": "\u003e We should also mention:\n\u003e \n\u003e - 4ec9a7e730 Enable User suggestion on commit message\n\nDone.\n\n\u003e - Set Gerrit typescript API to 3.11.0\n\nThis is already done at L788\n\n\u003e - Update @gerritcodereview/typescript-api to 3.11.0\n\nDone",
+      "parentUuid": "3bf73d1c_1e623105",
+      "revId": "c307a7574af4e04056d4ff3701ed916d379b788f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
