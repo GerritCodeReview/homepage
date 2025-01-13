@@ -257,6 +257,30 @@
       },
       "revId": "89f9db7e56ec00e57919526e24ac4595c499d7ef",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04f2bdaf_d813feaf",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 849,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-01-13T12:14:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8379cc39_abb89698",
+      "range": {
+        "startLine": 849,
+        "startChar": 0,
+        "endLine": 849,
+        "endChar": 55
+      },
+      "revId": "89f9db7e56ec00e57919526e24ac4595c499d7ef",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
