@@ -82,7 +82,7 @@ The support status of all recent Gerrit versions is
 
 [Release notes for Gerrit 3.9](/3.9.html)
 
-## 3.8
+## 3.8 (EOL)
 
 * Rebase on behalf of the uploader
 
