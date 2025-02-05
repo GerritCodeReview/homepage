@@ -33,9 +33,25 @@ Target: H1 2025
 #### KR: Improve object lookup across multiple packfiles by at least one order of magnitude
 #### KR: Parallelize bitmap generation across multiple cores
 
-### O: Gerrit Core experience improvements
+### O: Gerrit dependencies updates
+
+#### KR: Drop Java 17 support and fully adopt Java 21 for source and binaries
+#### KR: H2 backend upgrade to v2.3.232
+#### KR: Update JGit to master (currently v7.2)
+
+### O: Gerrit Core improvements
 
 #### KR: Support X.509 signed commits [Issue 380211814](https://issues.gerritcodereview.com/issues/380211814)
+#### KR: Production support for ref-table in Gerrit cache [Issue 392541994](https://issues.gerritcodereview.com/issues/392541994)
+#### KR: New index metrics [Issue 381216361](https://issues.gerritcodereview.com/issues/381216361)
+#### KR: New ACL permission for posting reviews to prevent spam on gerrit-review [Issue 391666234](https://issues.gerritcodereview.com/issues/391666234)
+#### KR: Prolog rules disabled by default
+
+### O: Gerrit UI experience improvements
+
+#### KR: New syntax highlighting when rendering files
+#### KR: Automatic commit message formatting
+#### KR: Allow edit suggestions in commit message
 
 ### O: Owners Plugin
 
