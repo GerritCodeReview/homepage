@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65f77c95_25ab2a1a",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-02-05T23:48:13Z",
+      "side": 1,
+      "message": "documents may be misunderstood as a verb which is confusing\n\n```suggestion\n#### KR: New index metrics [Issue 381216361](https://issues.gerritcodereview.com/issues/381216361)\n```",
+      "range": {
+        "startLine": 46,
+        "startChar": 13,
+        "endLine": 46,
+        "endChar": 29
+      },
+      "revId": "df129d551ca71ebddaf6a8badea889dc3cb058f8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c0f7b07_bc233d02",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-02-05T23:48:13Z",
+      "side": 1,
+      "message": "```suggestion\n#### KR: New ACL permission for posting reviews to prevent spam on gerrit-review [Issue 391666234](https://issues.gerritcodereview.com/issues/391666234)\n```",
+      "revId": "df129d551ca71ebddaf6a8badea889dc3cb058f8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a6f07f9_4031243c",
+        "filename": "pages/site/roadmap.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-02-05T23:48:13Z",
+      "side": 1,
+      "message": "what does that mean ?",
+      "range": {
+        "startLine": 52,
+        "startChar": 9,
+        "endLine": 52,
+        "endChar": 32
+      },
+      "revId": "df129d551ca71ebddaf6a8badea889dc3cb058f8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
