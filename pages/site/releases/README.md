@@ -18,6 +18,20 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
+## 3.12
+
+* Dropped support for Java 17
+
+* Site-wide override of copy label conditions
+
+* Group deletion
+
+* H2 v2 backend
+
+* Performance improvements
+
+[Release notes for Gerrit 3.12](/3.12.html)
+
 ## 3.11
 
 * Java 21
