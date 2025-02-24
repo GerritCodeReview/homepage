@@ -18,6 +18,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e212ec6_17554718",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3604707
+      },
+      "writtenOn": "2025-02-24T20:54:01Z",
+      "side": 1,
+      "message": "Thanks for proposing this!",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6412416c_188a73a8",
@@ -35,6 +52,70 @@
         "startLine": 51,
         "startChar": 0,
         "endLine": 55,
+        "endChar": 29
+      },
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25a6973a_d32aefb6",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 3604707
+      },
+      "writtenOn": "2025-02-24T20:54:01Z",
+      "side": 1,
+      "message": "I don\u0027t think changing this as part of this effort would be a good idea, that seems like an installation\u0027s decision. Providing the ability to do this however seems good.\n\nIronically NSA recommends no longer rotating passwords unless there is a known breach.",
+      "parentUuid": "6412416c_188a73a8",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 29
+      },
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c1341ce_f191b796",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 3604707
+      },
+      "writtenOn": "2025-02-24T20:54:01Z",
+      "side": 1,
+      "message": "This doesn\u0027t feel like an AC, but rather an implementation detail. Can you express this as something more abstract like \"There should be no need for user intervention related to this feature during an upgrade\"?",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "601933b4_591f3dca",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 3604707
+      },
+      "writtenOn": "2025-02-24T20:54:01Z",
+      "side": 1,
+      "message": "Should we consider using this term instead of passwords for this proposal? i.e are we really talking about converting the http password to a token approach since it better matches the use of the http password?",
+      "range": {
+        "startLine": 73,
+        "startChar": 22,
+        "endLine": 73,
         "endChar": 29
       },
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
