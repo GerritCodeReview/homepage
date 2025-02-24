@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90280af7_21a5274d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1135623
+      },
+      "writtenOn": "2025-02-24T15:38:49Z",
+      "side": 1,
+      "message": "I agree, this is a missed feature, that would make many users happy when it is added.",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6412416c_188a73a8",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1135623
+      },
+      "writtenOn": "2025-02-24T15:38:49Z",
+      "side": 1,
+      "message": "Do you mean that the default should be no limited lifetime? \nMaybe we should enforce a limited lifetime with a reasonable maximum lifetime as default instead and follow best security practices, or will this have consequences that we should avoid?",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 29
+      },
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
