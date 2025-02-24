@@ -161,6 +161,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "19c0c2d5_b238fb3f",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-24T13:42:08Z",
+      "side": 1,
+      "message": "I should have known this, as I\u0027ve introduced the option in Change 94270 😄\n\nAgreed, the name is misleading, and it was a piggyback of the `gitBasicAuth` configuration that was allowing us to use the REST-API password *also* for the Git protocol. I am marking this as resolved; apologies for the noise.",
+      "parentUuid": "14c010a2_9c29a2a6",
+      "range": {
+        "startLine": 14,
+        "startChar": 36,
+        "endLine": 14,
+        "endChar": 53
+      },
+      "revId": "71437e757df0aca91a9477d69b417584e9cc6ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "f53b0507_a2cef650",
         "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
         "patchSetId": 3
