@@ -297,6 +297,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0fdf3a8b_bc46ff84",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-24T13:11:41Z",
+      "side": 1,
+      "message": "Isn\u0027t this already implemented?\n[https://gerrit.googlesource.com/gerrit/+/refs/heads/master/javatests/com/google/gerrit/acceptance/OutgoingEmailIT.java#98]",
+      "parentUuid": "18044533_a7ab28ed",
+      "range": {
+        "startLine": 69,
+        "startChar": 41,
+        "endLine": 69,
+        "endChar": 47
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e63c8f11_e20b3196",
         "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
         "patchSetId": 2
