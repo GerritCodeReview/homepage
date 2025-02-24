@@ -321,6 +321,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d41ded88_da20274c",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-24T13:15:54Z",
+      "side": 1,
+      "message": "[https://gerrit.googlesource.com/gerrit/+/refs/heads/master/java/com/google/gerrit/server/mail/send/HttpPasswordUpdateEmailDecorator.java]",
+      "parentUuid": "0fdf3a8b_bc46ff84",
+      "range": {
+        "startLine": 69,
+        "startChar": 41,
+        "endLine": 69,
+        "endChar": 47
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e63c8f11_e20b3196",
         "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
         "patchSetId": 2
