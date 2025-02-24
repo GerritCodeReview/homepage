@@ -554,6 +554,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb71da42_0efb0ac7",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-24T13:09:00Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "53fab675_91c13331",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 76
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "54dc02c0_600ecf11",
