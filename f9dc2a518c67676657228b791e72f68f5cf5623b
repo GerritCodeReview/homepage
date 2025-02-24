@@ -18,6 +18,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "49d6c484_e7fc48a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-24T12:13:30Z",
+      "side": 1,
+      "message": "This is awesome! Very appreciated.",
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ee041e50_aee7c2c1",
@@ -53,6 +70,29 @@
         "startChar": 12,
         "endLine": 41,
         "endChar": 28
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad95d2b5_e8bfb081",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-24T12:13:30Z",
+      "side": 1,
+      "message": "_Here\u0027s just an idea, do with it what you will:_\n\nWouldn\u0027t it be possible that `external-id-passwords` are valid but deprecated for 1-2 releases, in parallel to the multi-pass solution (and can be disabled through configuration).\nI.e. If not disabled through configuration, in the authentication context the `external-id` password is collected and added to the set of valid passwords toghether with the `expire-password`s.\n\nThat way admins could choose themselves how to deprecate the `external-id` password.\n\n1. Integrations still using external-id.\n   `legacy-passwords\u003dTrue,expire-passwords\u003dFalse`\n2. Integrations updated to use higher level APIs.\n   `legacy-passwords\u003dTrue,expire-passwords\u003dTrue`\n3. Users are notified that their old password will expire on date $DATE and they need to create a new password with expiry.\n4. At date $DATE\n   `legacy-passwords\u003dFalse,expire-passwords\u003dTrue`\n5. At release $RELEASE\n   `external-id-passwords` are removed entirely.",
+      "range": {
+        "startLine": 51,
+        "startChar": 2,
+        "endLine": 53,
+        "endChar": 64
       },
       "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -168,6 +208,29 @@
         "startChar": 2,
         "endLine": 16,
         "endChar": 5
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb32fa02_be9fa778",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-24T12:13:30Z",
+      "side": 1,
+      "message": "I think these are two use-cases:\n\n\n```suggestion\n* Replacing an old password with a new is less disruptive if both passwords\n  can be valid simultaneously so as to not break f.i. automation between\n  requesting a new password and replacing the old.\n* Exposure is significantly reduced if users can requests short-lived passwords\n  for development, proof-of-concepts etc. instead of using their long lived\n  credentials outside of their local environment.\n```\nOr maybe even three?\n```\n* When finnished replacing the old password it would further reduce exposure if\n  the user can manually invalidate the old password.\n```",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 76
       },
       "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
