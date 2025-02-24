@@ -90,6 +90,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3cb0f6d1_83d11b59",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-02-24T13:00:41Z",
+      "side": 1,
+      "message": "Thanks, sounds good to me! I just wanted to make sure that this is on your radar.",
+      "parentUuid": "c8872685_8e07b4af",
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c9791693_efb1cecb",
         "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
         "patchSetId": 2
@@ -231,6 +249,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "18044533_a7ab28ed",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-02-24T13:00:41Z",
+      "side": 1,
+      "message": "Yeah, but with this design it becomes a bigger issue. With the current design, if someone regenerates the password, the user would notice that something is wrong because their password stops working. With the new design, if someone adds an additional password, the user wouldn\u0027t notice it at all. So I think it\u0027s at least something related that we may want to fix before implementing this design?",
+      "parentUuid": "c5cdd87d_18fe4e13",
+      "range": {
+        "startLine": 69,
+        "startChar": 41,
+        "endLine": 69,
+        "endChar": 47
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e63c8f11_e20b3196",
         "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
         "patchSetId": 2
@@ -313,6 +355,30 @@
       "side": 1,
       "message": "I actually missed that the password hashes are currently already cached that way. My intention here was rather not to extend caches with that critical information as part of this change, if possible. In that case, I would say, the hashes should also be cached in the future. Thanks for pointing me to that fact.",
       "parentUuid": "d2e32f31_5ab3566d",
+      "range": {
+        "startLine": 76,
+        "startChar": 61,
+        "endLine": 77,
+        "endChar": 8
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb3befa4_d38e5808",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-02-24T13:00:41Z",
+      "side": 1,
+      "message": "Sounds good to me. FWIW this looks consistent with SSH keys which are also cached (SshKeyCacheImpl).",
+      "parentUuid": "764420e7_5be07c87",
       "range": {
         "startLine": 76,
         "startChar": 61,
