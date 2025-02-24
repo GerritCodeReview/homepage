@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2536b8f3_024c3b72",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-24T13:19:33Z",
+      "side": 1,
+      "message": "```suggestion\nAdd design doc for multiple passwords with a limited lifetime\n```",
+      "range": {
+        "startLine": 7,
+        "startChar": 19,
+        "endLine": 7,
+        "endChar": 28
+      },
+      "revId": "71437e757df0aca91a9477d69b417584e9cc6ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87f1e8e5_50c86462",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-24T13:19:33Z",
+      "side": 1,
+      "message": "Thanks @thomas.draebing@sap.com for proposing this, very much appreciated.",
+      "revId": "71437e757df0aca91a9477d69b417584e9cc6ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00f1d665_2be141a9",
+        "filename": "pages/design-docs/http-password-with-lifetime/conclusion.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-24T13:19:33Z",
+      "side": 1,
+      "message": "```suggestion\ntitle: \"Design Doc - Multiple HTTP Passwords with Limited Lifetime - Conclusion\"\n```",
+      "range": {
+        "startLine": 2,
+        "startChar": 21,
+        "endLine": 2,
+        "endChar": 35
+      },
+      "revId": "71437e757df0aca91a9477d69b417584e9cc6ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ead0f15_a6dc3db3",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-24T13:19:33Z",
+      "side": 1,
+      "message": "I don\u0027t believe this is accurate: the `gitBasicAuthPolicy` defines what needs to be used for the *git* protocol, as the name suggests.",
+      "range": {
+        "startLine": 14,
+        "startChar": 36,
+        "endLine": 14,
+        "endChar": 53
+      },
+      "revId": "71437e757df0aca91a9477d69b417584e9cc6ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f53b0507_a2cef650",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-24T13:19:33Z",
+      "side": 1,
+      "message": "Yes, agreed, most compliance standards requires any password to expire.",
+      "range": {
+        "startLine": 23,
+        "startChar": 38,
+        "endLine": 24,
+        "endChar": 10
+      },
+      "revId": "71437e757df0aca91a9477d69b417584e9cc6ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b276904e_8cb59fa4",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-24T13:19:33Z",
+      "side": 1,
+      "message": "100% supporting this: how do you rotate passwords in zero-downtime if you can\u0027t have two credentials active at the same time.\n\nThanks for proposing this.",
+      "range": {
+        "startLine": 32,
+        "startChar": 2,
+        "endLine": 32,
+        "endChar": 49
+      },
+      "revId": "71437e757df0aca91a9477d69b417584e9cc6ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d8d8f35_81f3e552",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-24T13:19:33Z",
+      "side": 1,
+      "message": "We should mention that this will have to be followed up with a later design document, as *it is something we must address* in the near future.",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 63
+      },
+      "revId": "71437e757df0aca91a9477d69b417584e9cc6ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
