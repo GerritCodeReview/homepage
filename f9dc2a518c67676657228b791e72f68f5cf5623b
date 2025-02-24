@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "94d7fdec_bfdd1268",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Thanks for the links!",
+      "parentUuid": "3cfa8067_0b8e781e",
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ee041e50_aee7c2c1",
@@ -54,6 +72,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c8872685_8e07b4af",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "For now, I haven\u0027t put to much thought into how the internal API will look like, since I first wanted to have a discussion about the general concept. Of course, we should find a way to make it work fr all of us, i.e. that an abstraction layer exists that you can use for your account storage.\nAs I have written in reply to your other comment, I just missed that password hashes are already being cached and would of course continue to do so and then likely as you mentioned as part of the AccountState.",
+      "parentUuid": "ee041e50_aee7c2c1",
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c9791693_efb1cecb",
         "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
         "patchSetId": 2
@@ -65,6 +101,30 @@
       "writtenOn": "2025-02-24T10:32:30Z",
       "side": 1,
       "message": "append `Z` to make clear this is UTC ?\nsee https://en.wikipedia.org/wiki/ISO_8601\n\n```suggestion\n  expires \u003d 2025-06-01T14:30Z\n```",
+      "range": {
+        "startLine": 41,
+        "startChar": 12,
+        "endLine": 41,
+        "endChar": 28
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "483080fa_37bec6c7",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9791693_efb1cecb",
       "range": {
         "startLine": 41,
         "startChar": 12,
@@ -100,6 +160,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "af8bbd58_8c960484",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "It definitely makes sense to have a period where both password storage implementations work. My thought was that I don\u0027t want to introduce too many new options and also to keep the implementation as lean as possible. Thus, I came up with the idea to keep read-only access to the external-ID based password storage, but to write to the new account-ref based storage, which then has precedence or is used in combination with the old password. That woul dat least allow a migration-less transition for active users, i.e. users that react to an announcement that everybody should rotate their password to use the new storage. This would mean less control than you suggestion, since the time of `$DATE` / `$RELEASE` would be determined by an upgrade, rather than a configuration option. It would also not provide a clean way to roll back, if the external-ID-based password was already deleted.\nI would be open for both and rather listen to what the community prefers.",
+      "parentUuid": "ad95d2b5_e8bfb081",
+      "range": {
+        "startLine": 51,
+        "startChar": 2,
+        "endLine": 53,
+        "endChar": 64
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a6bcc983_4990f1c2",
         "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
         "patchSetId": 2
@@ -111,6 +195,30 @@
       "writtenOn": "2025-02-24T11:57:41Z",
       "side": 1,
       "message": "Should there also be an email, when a new password is added, so users can check if it wasn\u0027t them?",
+      "range": {
+        "startLine": 69,
+        "startChar": 41,
+        "endLine": 69,
+        "endChar": 47
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5cdd87d_18fe4e13",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Yes, that would be a good idea, but I believe that this is rather independent of the changes proposed here, since it would already make sense with the current implementation, i.e. sending an email, when the password is regenerated would already make sense.",
+      "parentUuid": "a6bcc983_4990f1c2",
       "range": {
         "startLine": 69,
         "startChar": 41,
@@ -167,6 +275,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ce3ba15_734f87f7",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e63c8f11_e20b3196",
+      "range": {
+        "startLine": 77,
+        "startChar": 2,
+        "endLine": 77,
+        "endChar": 8
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "764420e7_5be07c87",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "I actually missed that the password hashes are currently already cached that way. My intention here was rather not to extend caches with that critical information as part of this change, if possible. In that case, I would say, the hashes should also be cached in the future. Thanks for pointing me to that fact.",
+      "parentUuid": "d2e32f31_5ab3566d",
+      "range": {
+        "startLine": 76,
+        "startChar": 61,
+        "endLine": 77,
+        "endChar": 8
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "787f27e1_ef111e63",
@@ -190,6 +346,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da97e983_354b4edb",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Yes. I have made that explixit now.",
+      "parentUuid": "787f27e1_ef111e63",
+      "range": {
+        "startLine": 13,
+        "startChar": 59,
+        "endLine": 13,
+        "endChar": 64
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6ab254dc_7b66f149",
@@ -203,6 +383,30 @@
       "writtenOn": "2025-02-24T10:11:53Z",
       "side": 1,
       "message": "Maybe define that IDP \u003d Identity Provider",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 5
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "856d2fdf_f3684e36",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ab254dc_7b66f149",
       "range": {
         "startLine": 16,
         "startChar": 2,
@@ -238,6 +442,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "53fab675_91c13331",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Thanks for the suggestion.\nAs for the third point, this is technically already possible, by just regenerating the password with the disadvantages that are described in your first point.",
+      "parentUuid": "eb32fa02_be9fa778",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 76
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "54dc02c0_600ecf11",
         "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
         "patchSetId": 2
@@ -249,6 +477,30 @@
       "writtenOn": "2025-02-24T10:11:53Z",
       "side": 1,
       "message": ",",
+      "range": {
+        "startLine": 41,
+        "startChar": 23,
+        "endLine": 41,
+        "endChar": 24
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7b8c713_0dfc35a4",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "54dc02c0_600ecf11",
       "range": {
         "startLine": 41,
         "startChar": 23,
@@ -272,6 +524,30 @@
       "writtenOn": "2025-02-24T10:11:53Z",
       "side": 1,
       "message": ",",
+      "range": {
+        "startLine": 68,
+        "startChar": 54,
+        "endLine": 68,
+        "endChar": 55
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffc708a1_057d743f",
+        "filename": "pages/design-docs/http-password-with-lifetime/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-24T12:48:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "90bb07c4_59a1b35f",
       "range": {
         "startLine": 68,
         "startChar": 54,
