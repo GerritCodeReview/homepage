@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ee041e50_aee7c2c1",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-02-24T11:57:41Z",
+      "side": 1,
+      "message": "How will the multiple passwords be accessed in the internal API?\n \nE.g. will there be a passwords() method on AccountState, or do you intend to have a seperate accessor similar to VersionedAuthorizedKeys? I guess the latter since you do not intent to cache the passwords? In this case we (Google) will need an abstraction layer (e.g. similar to the Accounts interface that is implemented by AccountsNoteDbImpl).\n\nI\u0027m asking because I\u0027m trying to understand what this design means for us at Google. Context, we no longer store the account data in NoteDb, but in a custom storage which is backed by a database. So we need to understand how much work this will be for us.\n\nAdding @nitzan@google.com as a reviewer since she is the expert for our internal account storage.",
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c9791693_efb1cecb",
         "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
         "patchSetId": 2
@@ -43,6 +60,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a6bcc983_4990f1c2",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-02-24T11:57:41Z",
+      "side": 1,
+      "message": "Should there also be an email, when a new password is added, so users can check if it wasn\u0027t them?",
+      "range": {
+        "startLine": 69,
+        "startChar": 41,
+        "endLine": 69,
+        "endChar": 47
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e63c8f11_e20b3196",
         "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
         "patchSetId": 2
@@ -57,6 +97,29 @@
       "range": {
         "startLine": 77,
         "startChar": 2,
+        "endLine": 77,
+        "endChar": 8
+      },
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2e32f31_5ab3566d",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-02-24T11:57:41Z",
+      "side": 1,
+      "message": "IIUC currently the password hash is cached as part of the external IDs in AccountState. If the password hash is no longer cached, is it the porposal to make a read from NoteDb each time the password needs to be checked?\n\nDoes this mean that in comparison to the current design lookup times for passwords increase? How much?",
+      "range": {
+        "startLine": 76,
+        "startChar": 61,
         "endLine": 77,
         "endChar": 8
       },
