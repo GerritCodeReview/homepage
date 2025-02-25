@@ -142,6 +142,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f6805eb_7fa8a067",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-25T08:43:29Z",
+      "side": 1,
+      "message": "Would it make your life easier if you could disable the new `tokens` feature through configuration?",
+      "parentUuid": "4a1b9dbf_93efb67b",
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c9791693_efb1cecb",
