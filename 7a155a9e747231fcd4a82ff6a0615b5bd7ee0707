@@ -231,6 +231,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bdf9d456_c3abbb3a",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-25T08:05:19Z",
+      "side": 1,
+      "message": "+1 to @mfick@nvidia.com comment: depending on the solution, a migration tool may or may not be needed. It should not stay in the requirements section but moved into the solution design.",
+      "parentUuid": "3c1341ce_f191b796",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "601933b4_591f3dca",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
         "patchSetId": 4
@@ -266,6 +284,30 @@
       "side": 1,
       "message": "I concur. I think it would be beneficial if we changed this.\nShifting the terminology to `token` would more correctly describe this feature.\nIf we keep on calling it `password` it will likely spur unnecessary confusion during security discussions (I\u0027m now referring to e.g. Gerrit-admin vs Security-group discusssions in each individual organization (it already has caused such confusion)).\n`password`- envoques the concept of long-lived and outdated forms of authentication fraught with security-breach.\n`tokens` - has the air of a more modern authentication paradigm.",
       "parentUuid": "601933b4_591f3dca",
+      "range": {
+        "startLine": 73,
+        "startChar": 22,
+        "endLine": 73,
+        "endChar": 29
+      },
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95d07db7_6b02503e",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-25T08:05:19Z",
+      "side": 1,
+      "message": "+1 to both comments: often customers believe that this is a _user chosen password_ and therefore automatically consider this as low security/entropy. Let\u0027s rename it to _authentication token_ that represents what it really is.",
+      "parentUuid": "a46ac695_76b7f52f",
       "range": {
         "startLine": 73,
         "startChar": 22,
