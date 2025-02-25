@@ -90,6 +90,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "06534cbd_418bbdae",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T08:11:05Z",
+      "side": 1,
+      "message": "It seems you misunderstood my intention. I don\u0027t mean that the user can set a password, but the user can assign an ID/name as a reference to a given password. This might be useful in some cases, e.g. if a user creates a password for use in a demo and wants to delete it afterwards. Then having a descriptive ID/name (e.g. `demo`) would make it easy to identify a given password.",
+      "parentUuid": "05d5fdd6_3c6dd361",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bec26bdc_42b83872",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
@@ -137,6 +155,24 @@
       "side": 1,
       "message": "We must tolerate and read the existing format as well, otherwise we won\u0027t be able to support a rolling upgrade.",
       "parentUuid": "aa2d1acc_f599017d",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "468f81ce_8f6e31b0",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T08:11:05Z",
+      "side": 1,
+      "message": "I thoought about this as well, but found it kind of messy. We would end up with an ever growing ID for passwords of each user, with gaps where passwords were deleted. Considering the jgit API for reading config values, this would already require a lot of additional code to just collect all passwords. It seems like a hack of the git config format just to not have to fix a design decision that turned out to be not ideal. To me it anyway seems strange that an `ExternalId` contains a password, which is in itself not an ID.",
+      "parentUuid": "bec26bdc_42b83872",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -214,6 +250,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0169491e_1450589e",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T08:11:05Z",
+      "side": 1,
+      "message": "My suggestion would be:\n\n- At least in the beginning don\u0027t set a limited lifetime, since that is backward compatible and would allow to support the previous format for a while.\n- As mentioned in the design doc, there will be a tool to rewrite the password entries and to set a default expiration time for existing passwords, which can be chosen by the admin.\n- Admins can configure whetehr to allow an unlimited lifetime for tokens at all and if not, what the maximum lifetime would be.\n- Since I am also a fan of security by default, I would suggest that with the update that removes the support for the old format the default should change to allow a maximum lifetime for tokens to be e.g. 90 days. Admins can then still decide to allow an unlimited lifetime.",
+      "parentUuid": "94171cc2_d4ef39ca",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 29
+      },
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3c1341ce_f191b796",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
         "patchSetId": 4
@@ -242,6 +302,24 @@
       "writtenOn": "2025-02-25T08:05:19Z",
       "side": 1,
       "message": "+1 to @mfick@nvidia.com comment: depending on the solution, a migration tool may or may not be needed. It should not stay in the requirements section but moved into the solution design.",
+      "parentUuid": "3c1341ce_f191b796",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "893d7486_160dd4fd",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T08:11:05Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "3c1341ce_f191b796",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -307,6 +385,30 @@
       "writtenOn": "2025-02-25T08:05:19Z",
       "side": 1,
       "message": "+1 to both comments: often customers believe that this is a _user chosen password_ and therefore automatically consider this as low security/entropy. Let\u0027s rename it to _authentication token_ that represents what it really is.",
+      "parentUuid": "a46ac695_76b7f52f",
+      "range": {
+        "startLine": 73,
+        "startChar": 22,
+        "endLine": 73,
+        "endChar": 29
+      },
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db6db6cd_708ff099",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T08:11:05Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "a46ac695_76b7f52f",
       "range": {
         "startLine": 73,
