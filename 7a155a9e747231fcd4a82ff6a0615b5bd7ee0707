@@ -196,6 +196,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "58d6c227_24d80cc7",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-25T08:41:19Z",
+      "side": 1,
+      "message": "\u003e We must tolerate and read the existing format as well, otherwise we won\u0027t be able to support a rolling upgrade.\n\nI think there\u0027s a way to have old and new in parallel that would allow for a smooth transition for all parties and a clean removal of ExternalId passwords after a couple of releases.\nhttps://gerrit-review.googlesource.com/c/homepage/+/455521/2..5/pages/design-docs/http-password-with-lifetime/solution.md#b53",
+      "parentUuid": "468f81ce_8f6e31b0",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3c1f45bc_67e7861b",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
