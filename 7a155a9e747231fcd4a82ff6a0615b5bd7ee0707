@@ -72,6 +72,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0a3978f8_5258d3be",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-25T08:02:11Z",
+      "side": 1,
+      "message": "I believe that @thomas.draebing@sap.com refers to the ability to _label_ credentials, similarly to what you do today with the SSH keys.\n\nNaming or labeling a password doesn\u0027t make it less secure, as you would still be required to enter the full password upton authentication.",
+      "parentUuid": "35963939_299ef2c8",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bec26bdc_42b83872",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
@@ -101,6 +119,24 @@
       "side": 1,
       "message": "I\u0027m personally more in favor of the initial proposal of storing it in a `passwords` file under the user ref.\nThe less you can bastardize and burden new functionality with old solutions the better in my book.\nIf given a couple of versions to stop using the internal `ExternalId` API should be enough for most consumers to adapt.",
       "parentUuid": "bec26bdc_42b83872",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4bc47d9_cbfc75a1",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-02-25T08:02:11Z",
+      "side": 1,
+      "message": "We must tolerate and read the existing format as well, otherwise we won\u0027t be able to support a rolling upgrade.",
+      "parentUuid": "aa2d1acc_f599017d",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
