@@ -125,6 +125,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4c47f65e_849d1810",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T09:19:13Z",
+      "side": 1,
+      "message": "I am not sure whether it makes sense to preload accounts into the cache. Since accounts are usually not deleted, a lot of inactive account data would fill the cache. Also it would be a lot more data than external IDs.\nAdmins might however need to incraese the accounts cache.\nAlternatively, we could add a new dedictaed cache for tokens, similar to SSH-keys, which could be preloaded to reduce lookup times.",
+      "parentUuid": "15a21287_cba56d8e",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bec26bdc_42b83872",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
@@ -229,6 +247,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9c016a7_5cbd8e31",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T09:19:13Z",
+      "side": 1,
+      "message": "The name is just for users to have a reference to a password. They might for example create a password to be used for a certain automation and name it accordingly. Then it is easy to identify it, if they want to rotate or delete it.",
+      "parentUuid": "3c1f45bc_67e7861b",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ffc967e7_5ef63df1",
@@ -276,6 +312,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "26bcc019_988a2ed2",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T09:19:13Z",
+      "side": 1,
+      "message": "I believe the order should stay as it is. First users should be able to configure a lifetime for their tokens and then admins should be able to set an upper limit for that lifetime. I changed the sentences to make them clearer.",
+      "parentUuid": "ffc967e7_5ef63df1",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "64ebc7cd_10c17b7e",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
@@ -287,6 +341,24 @@
       "writtenOn": "2025-02-25T08:36:22Z",
       "side": 1,
       "message": "Per user? Per host? What\u0027s the goal of this tool?",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02c852ac_3c535abd",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-25T09:19:13Z",
+      "side": 1,
+      "message": "Per host. If this feature gets enabled, the old HTTP passwords won\u0027t have yet have a lifetime. They would only get one, if the users would rotate them, which they might not do. So this tool could be used by an admin to set a default lifetime for all existing tokens, which will cause all users to have to rotate at one point. Alternatively, we could add an option to the gerrit config which sets a default expiry date for all tokens that do not have one. This would not require a migration, but would still force users to rotate their existing tokens if they do not yet have a lifetime set.",
+      "parentUuid": "64ebc7cd_10c17b7e",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
