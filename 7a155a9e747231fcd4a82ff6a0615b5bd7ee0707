@@ -143,6 +143,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4d8be1a1_a84b571d",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1146706
+      },
+      "writtenOn": "2025-02-25T18:57:03Z",
+      "side": 1,
+      "message": "\u003e ince accounts are usually not deleted, a lot of inactive account data would fill the cache. \nIt is possible to only load active accounts  to the cache.\n\nMy thread of thought was that reading all user references is an expensive operation. If we are already opening them all - when not speeding up account loading/querying?",
+      "parentUuid": "4c47f65e_849d1810",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bec26bdc_42b83872",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
@@ -328,6 +346,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "19ab71d9_81dc3653",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1146706
+      },
+      "writtenOn": "2025-02-25T18:57:03Z",
+      "side": 1,
+      "message": "Thanks!",
+      "parentUuid": "26bcc019_988a2ed2",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "64ebc7cd_10c17b7e",
@@ -359,6 +395,24 @@
       "side": 1,
       "message": "Per host. If this feature gets enabled, the old HTTP passwords won\u0027t have yet have a lifetime. They would only get one, if the users would rotate them, which they might not do. So this tool could be used by an admin to set a default lifetime for all existing tokens, which will cause all users to have to rotate at one point. Alternatively, we could add an option to the gerrit config which sets a default expiry date for all tokens that do not have one. This would not require a migration, but would still force users to rotate their existing tokens if they do not yet have a lifetime set.",
       "parentUuid": "64ebc7cd_10c17b7e",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24b3e3aa_e2129d4f",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1146706
+      },
+      "writtenOn": "2025-02-25T18:57:03Z",
+      "side": 1,
+      "message": "The later suggestion sounds much more sustainable.",
+      "parentUuid": "02c852ac_3c535abd",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
