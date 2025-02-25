@@ -124,6 +124,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a1b9dbf_93efb67b",
+        "filename": "pages/design-docs/http-password-with-lifetime/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1146706
+      },
+      "writtenOn": "2025-02-25T08:36:22Z",
+      "side": 1,
+      "message": "Thanks for looping me in, @ekempin@google.com.\n\nPasswords are disabled for google-managed instances, and we currently have no plans to change that. As long as there will be no enforcement of having a password, this should be a no-op for us (with the likely exception of creating a few empty implementations to different classes).\n\nI added a few comments to the doc.",
+      "parentUuid": "60fdf1e4_c124c607",
+      "revId": "f9dc2a518c67676657228b791e72f68f5cf5623b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c9791693_efb1cecb",

@@ -108,6 +108,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "15a21287_cba56d8e",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1146706
+      },
+      "writtenOn": "2025-02-25T08:36:22Z",
+      "side": 1,
+      "message": "Currently, ExternalIdsCache is loading a single (large) ref of all external IDs.\n\nIf passwords are stored under `refs/users/` and their cache is being preloaded, we might as well preload all acount data into a cache.",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bec26bdc_42b83872",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
@@ -173,6 +190,85 @@
       "side": 1,
       "message": "I thoought about this as well, but found it kind of messy. We would end up with an ever growing ID for passwords of each user, with gaps where passwords were deleted. Considering the jgit API for reading config values, this would already require a lot of additional code to just collect all passwords. It seems like a hack of the git config format just to not have to fix a design decision that turned out to be not ideal. To me it anyway seems strange that an `ExternalId` contains a password, which is in itself not an ID.",
       "parentUuid": "bec26bdc_42b83872",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c1f45bc_67e7861b",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1146706
+      },
+      "writtenOn": "2025-02-25T08:36:22Z",
+      "side": 1,
+      "message": "How will the name be used? I didn\u0027t see any mentions of it in the previous section.",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffc967e7_5ef63df1",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1146706
+      },
+      "writtenOn": "2025-02-25T08:36:22Z",
+      "side": 1,
+      "message": "I think 7 and 8 should switch places.",
+      "fixSuggestions": [
+        {
+          "fixId": "93a23916_1e063d29",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+              "range": {
+                "startLine": 128,
+                "startChar": 0,
+                "endLine": 129,
+                "endChar": 0
+              },
+              "replacement": "7) Add option to enforce a lifetime for passwords.\n"
+            },
+            {
+              "path": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+              "range": {
+                "startLine": 130,
+                "startChar": 0,
+                "endLine": 131,
+                "endChar": 0
+              },
+              "replacement": "8) Allow to configure a lifetime for passwords.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64ebc7cd_10c17b7e",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1146706
+      },
+      "writtenOn": "2025-02-25T08:36:22Z",
+      "side": 1,
+      "message": "Per user? Per host? What\u0027s the goal of this tool?",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
