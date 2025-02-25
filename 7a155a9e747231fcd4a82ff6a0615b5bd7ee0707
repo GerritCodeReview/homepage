@@ -54,6 +54,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "35963939_299ef2c8",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-25T07:37:55Z",
+      "side": 1,
+      "message": "In what way does a manually set id make it less secure?\nWhen I read this I thought of short-term tokens that you create for dev or PoC were an id (or at least label) like \"Gerrit ITS service poc\" that would make it easy to identify where your tokens are used and for what.",
+      "parentUuid": "05d5fdd6_3c6dd361",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bec26bdc_42b83872",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
@@ -65,6 +83,24 @@
       "writtenOn": "2025-02-24T21:14:35Z",
       "side": 1,
       "message": "I think it might be worth considering an approach like this:\n```\n[externalId \"username:admin\"]\n\taccountId \u003d 1000000\n\tpassword \u003d bcrypt0:4:Dd2OxFM73ALnECduYqYQEQ\u003d\u003d:QnQIFibB/Y04HvIY4UstiJhWagTtk6gN\n\texpires \u003d 2025-06-30T15:45Z\n\tid \u003d original\n\n\tpassword-1 \u003d bcrypt0:4:dddd....\n\texpires-1 \u003d 2025-06-01T14:30Z\n\tid-1 \u003d From Office\n        \t\n\tpassword-2 \u003d bcrypt0:4:eee....\n\texpires-2 \u003d 2025-06-01T14:30Z\n\tid-2 \u003d From Home\n```  \n  \nAs this keeps the info together, feels a bit simpler, and allows us likely more easily to keep backwards compatability.\n\nA similar alternative (not quite as backward compatible):\n\n```\n[externalId \"username:admin\"]\n\taccountId \u003d 1000000\n\tpassword \u003d bcrypt0:4:Dd2OxFM73ALnECduYqYQEQ\u003d\u003d:QnQIFibB/Y04HvIY4UstiJhWagTtk6gN\n\texpires \u003d 2025-06-30T15:45Z\n\tpassword-id \u003d original\n\n\tpassword-1 \u003d bcrypt0:4:dddd....\n\tpassword-1-expires \u003d 2025-06-01T14:30Z\n\tpassword-1-id \u003d From Office\n        \t\n\tpassword-2 \u003d bcrypt0:4:eee....\n\tpassword-2-expires \u003d 2025-06-01T14:30Z\n\tpassword-2-id \u003d From Home\n```",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa2d1acc_f599017d",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-25T07:37:55Z",
+      "side": 1,
+      "message": "I\u0027m personally more in favor of the initial proposal of storing it in a `passwords` file under the user ref.\nThe less you can bastardize and burden new functionality with old solutions the better in my book.\nIf given a couple of versions to stop using the internal `ExternalId` API should be enough for most consumers to adapt.",
+      "parentUuid": "bec26bdc_42b83872",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -118,6 +154,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "94171cc2_d4ef39ca",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-25T07:37:55Z",
+      "side": 1,
+      "message": "I think a middle ground is preferable.\nSet a limited lifetime as the default default (say 6 months) but allow for the administrator to configure default to be whatever they wish.",
+      "parentUuid": "25a6973a_d32aefb6",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 29
+      },
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3c1341ce_f191b796",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
         "patchSetId": 4
@@ -146,6 +206,30 @@
       "writtenOn": "2025-02-24T20:54:01Z",
       "side": 1,
       "message": "Should we consider using this term instead of passwords for this proposal? i.e are we really talking about converting the http password to a token approach since it better matches the use of the http password?",
+      "range": {
+        "startLine": 73,
+        "startChar": 22,
+        "endLine": 73,
+        "endChar": 29
+      },
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a46ac695_76b7f52f",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/use-cases.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-25T07:37:55Z",
+      "side": 1,
+      "message": "I concur. I think it would be beneficial if we changed this.\nShifting the terminology to `token` would more correctly describe this feature.\nIf we keep on calling it `password` it will likely spur unnecessary confusion during security discussions (I\u0027m now referring to e.g. Gerrit-admin vs Security-group discusssions in each individual organization (it already has caused such confusion)).\n`password`- envoques the concept of long-lived and outdated forms of authentication fraught with security-breach.\n`tokens` - has the air of a more modern authentication paradigm.",
+      "parentUuid": "601933b4_591f3dca",
       "range": {
         "startLine": 73,
         "startChar": 22,
