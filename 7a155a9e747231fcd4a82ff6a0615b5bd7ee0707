@@ -340,6 +340,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fe5cddeb_e1764274",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1014252
+      },
+      "writtenOn": "2025-02-28T12:19:45Z",
+      "side": 1,
+      "message": "+1 for option 3)\nif \"a few versions\" is 1-2).\n\nAlso move \"passwords\" to an API (e.g. `AccountState#passwords()` ) and deprecate getting password from ExternalId in version 0-1.\n\n|Version|Old password| New token|\n|--------|-------|------|\n| 0 | default | experimental |\n| 0+1 | deprecated | default |\n| 0+2 | removed | default |",
+      "parentUuid": "8d70f0bd_cde3a801",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3c1f45bc_67e7861b",
         "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
         "patchSetId": 4
