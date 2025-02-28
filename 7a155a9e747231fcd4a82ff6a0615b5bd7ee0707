@@ -106,6 +106,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9901b1d_d21749d1",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-28T08:04:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06534cbd_418bbdae",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "15a21287_cba56d8e",
@@ -155,6 +173,24 @@
       "side": 1,
       "message": "\u003e ince accounts are usually not deleted, a lot of inactive account data would fill the cache. \nIt is possible to only load active accounts  to the cache.\n\nMy thread of thought was that reading all user references is an expensive operation. If we are already opening them all - when not speeding up account loading/querying?",
       "parentUuid": "4c47f65e_849d1810",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a3fd81d_b8626a37",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-28T08:04:54Z",
+      "side": 1,
+      "message": "With the new token storage, the passwords will not be in a single ref as external IDs, but distributed about all `refs/users/*`. I believe, the accounts cache is also not prefilled with all accounts (or am I wrong here?), so I doubt we should not do that with tokens as well. We should rather point admins to configure the tokens cache to be persistent and large enoug hto contain the data for all active users.",
+      "parentUuid": "4d8be1a1_a84b571d",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -244,6 +280,24 @@
       "side": 1,
       "message": "\u003e We must tolerate and read the existing format as well, otherwise we won\u0027t be able to support a rolling upgrade.\n\nI think there\u0027s a way to have old and new in parallel that would allow for a smooth transition for all parties and a clean removal of ExternalId passwords after a couple of releases.\nhttps://gerrit-review.googlesource.com/c/homepage/+/455521/2..5/pages/design-docs/http-password-with-lifetime/solution.md#b53",
       "parentUuid": "468f81ce_8f6e31b0",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97954d39_814fabd3",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-28T08:04:54Z",
+      "side": 1,
+      "message": "Let me list the options on the table and put it up for a vote to close this discussion:\n\n1) A hard cut (Only the new format will be supported; offline migration required, if users should be able to use their existing passwords as tokens)\n2) The new format will be used for all newly created tokens, a fallback to the old HTTP password exists in case no new token was generated. Old REST API endpoints will be kept as aliases for new REST API endpoints to ensure backwards compatibility. Offline and online migration proceduresare optionally available to migrate all existing HTTP passwords to tokens in one go.\n3) For a few versions, the behaviour will be fully configurable, i.e. admins can decide whetehr to support the old HTTP password or the new tokens or both [1].\n\n[1] https://gerrit-review.googlesource.com/c/homepage/+/455521/2..5/pages/design-docs/http-password-with-lifetime/solution.md#b53\n\nI would vote for **2)**.\n1) is out of the game for the obvious reason that we need zero downtime upgrades and I believe that 3) would lead to a lot more work and code complexity with too little to gain.",
+      "parentUuid": "58d6c227_24d80cc7",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -413,6 +467,24 @@
       "side": 1,
       "message": "The later suggestion sounds much more sustainable.",
       "parentUuid": "02c852ac_3c535abd",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c068fc4_d9f70a16",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-02-28T08:04:54Z",
+      "side": 1,
+      "message": "It might however have an issue with the following scenario:\n\n1) The existing configuration allows a max lifetime of 90d.\n2) Admins want to enforce a maximum lifetime of 30d.\n3) Admins set a new expiry date 30d from now in the gerrit.config\n4) All tokens that have an expiry date after that date would use the configured one.\n5) But what of passwords created after the configuration was applied with a lifetime of 30d, which would expire after the configured date, but have a valid lifetime.\n\nThus, I fear a rewrite in notedb is not avoidable. However, a typical site has a manageable number of accounts and I believe that a background job could do the migration asynchronously without affecting performance significantly. I would thus suggest to implement such a background job for online migration that can be configured, similar to the process to migrate to case insensitive usernames.",
+      "parentUuid": "24b3e3aa_e2129d4f",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
