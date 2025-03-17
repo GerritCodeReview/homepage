@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6daf4b27_0cd4fc3d",
+        "filename": "_posts/2025-03-13-community-manager-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-03-17T04:14:31Z",
+      "side": 1,
+      "message": "```suggestion\nrequired in order to post comments on [changes](https://gerrit-review.googlesource.com/) or\n```",
+      "range": {
+        "startLine": 33,
+        "startChar": 38,
+        "endLine": 33,
+        "endChar": 93
+      },
+      "revId": "86dc19b56af9c1c29d38fb9f9f5b233bcc16eceb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b14d2fba_319c4e5c",
+        "filename": "_posts/2025-03-13-community-manager-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-03-17T04:14:31Z",
+      "side": 1,
+      "message": "```suggestion\n[raise issues](https://issues.gerritcodereview.com/).\n```",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 69
+      },
+      "revId": "86dc19b56af9c1c29d38fb9f9f5b233bcc16eceb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d8aa26d_4953bce3",
+        "filename": "_posts/2025-03-13-community-manager-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-03-17T04:14:31Z",
+      "side": 1,
+      "message": "```suggestion\nto prevent someone to post comments on issues while still allowing read access. DS has already started working on this as part of\n```",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 45
+      },
+      "revId": "86dc19b56af9c1c29d38fb9f9f5b233bcc16eceb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
