@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06ee6512_7e20b66a",
+        "filename": "_posts/2025-02-26-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-21T17:53:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2fffa8bf_a75ec883",
+      "revId": "061774b9f07d10ed9e07174fe94e9ba1144e9ada",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "43fbebfc_95cb7754",
@@ -35,6 +53,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "420e574b_ac091e97",
+        "filename": "_posts/2025-02-26-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-21T17:53:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "43fbebfc_95cb7754",
+      "revId": "061774b9f07d10ed9e07174fe94e9ba1144e9ada",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4f1250cb_eebf417d",
@@ -48,6 +84,30 @@
       "writtenOn": "2025-03-18T13:14:26Z",
       "side": 1,
       "message": "here are corresponding WIP changes\n\ngerrit core:\n- https://gerrit-review.googlesource.com/c/gerrit/+/457003\n- https://gerrit-review.googlesource.com/c/gerrit/+/457045\n\nplugins:\n- https://gerrit-review.googlesource.com/c/plugins/delete-project/+/457141\n- https://gerrit-review.googlesource.com/c/plugins/replication/+/457142\n- https://gerrit-review.googlesource.com/c/plugins/reviewnotes/+/457046",
+      "range": {
+        "startLine": 80,
+        "startChar": 46,
+        "endLine": 80,
+        "endChar": 74
+      },
+      "revId": "061774b9f07d10ed9e07174fe94e9ba1144e9ada",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cc981f1_01d30c95",
+        "filename": "_posts/2025-02-26-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-21T17:53:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f1250cb_eebf417d",
       "range": {
         "startLine": 80,
         "startChar": 46,
