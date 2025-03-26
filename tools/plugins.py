@@ -366,7 +366,7 @@ class Plugins:
                 print(
                     f"Failed to read owner group {id} of plugin {name}", file=sys.stderr
                 )
-        csv = ", ".join(sorted({a.name for a in accounts if a.name is not None} | external_groups))
+        csv = ", ".join(sorted({a.name for a in accounts} | external_groups))
         return accounts, csv
 
     def _is_project_empty(self, pluginName):
