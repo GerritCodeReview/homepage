@@ -359,7 +359,7 @@ class Plugins:
                     owners = self.api.get(f"/groups/{id}/members/")
                     a = {
                         Account(o.get("_account_id"), o.get("name"), o.get("email"))
-                        for o in owners
+                        for o in owners if o.get("name") is not None
                     }
                     accounts.update(a)
             except requests.HTTPError:
