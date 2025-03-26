@@ -1,5 +1,29 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e36edf8d_9fa71c38",
+        "filename": "tools/plugins.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-26T18:38:40Z",
+      "side": 1,
+      "message": "Actually this condition should have been applied at L364, avoiding the addition to accounts.",
+      "range": {
+        "startLine": 369,
+        "startChar": 57,
+        "endLine": 369,
+        "endChar": 78
+      },
+      "revId": "82f6a15357173c61b088cc6fece0fe79236d0e1e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
