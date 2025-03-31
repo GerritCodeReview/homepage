@@ -24,6 +24,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fb5a72d_686ed16c",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 826,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "4719ed7f_6ccfce05",
+      "range": {
+        "startLine": 826,
+        "startChar": 2,
+        "endLine": 826,
+        "endChar": 4
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "786c6920_a0978b99",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 826,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "4719ed7f_6ccfce05",
+      "range": {
+        "startLine": 826,
+        "startChar": 2,
+        "endLine": 826,
+        "endChar": 4
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "055e0d2e_1c67b099",
@@ -37,6 +85,54 @@
       "writtenOn": "2025-03-31T16:32:34Z",
       "side": 1,
       "message": "```suggestion\n  Fix log rotation of `gc_log` avoiding to have it overwritten.\n```",
+      "range": {
+        "startLine": 829,
+        "startChar": 2,
+        "endLine": 829,
+        "endChar": 8
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d97dcf65_0ee7747b",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 829,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "055e0d2e_1c67b099",
+      "range": {
+        "startLine": 829,
+        "startChar": 2,
+        "endLine": 829,
+        "endChar": 8
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65bd2f58_9b46fcbd",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 829,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "055e0d2e_1c67b099",
       "range": {
         "startLine": 829,
         "startChar": 2,
@@ -70,6 +166,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6613835a_e4f4e006",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 832,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e491d04c_383f3ca2",
+      "range": {
+        "startLine": 832,
+        "startChar": 6,
+        "endLine": 832,
+        "endChar": 34
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ca10013_3dc11990",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 832,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e491d04c_383f3ca2",
+      "range": {
+        "startLine": 832,
+        "startChar": 6,
+        "endLine": 832,
+        "endChar": 34
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "84d08a08_a22b0481",
@@ -83,6 +227,54 @@
       "writtenOn": "2025-03-31T16:32:34Z",
       "side": 1,
       "message": "```suggestion\n  Support `SO_TIMEOUT` configuration in SMTP email sender.\n```",
+      "range": {
+        "startLine": 840,
+        "startChar": 10,
+        "endLine": 840,
+        "endChar": 20
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c075afc4_e5ea6a71",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 840,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "84d08a08_a22b0481",
+      "range": {
+        "startLine": 840,
+        "startChar": 10,
+        "endLine": 840,
+        "endChar": 20
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83c2fe17_81d09161",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 840,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "84d08a08_a22b0481",
       "range": {
         "startLine": 840,
         "startChar": 10,
@@ -110,6 +302,42 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1aea906f_f65d1601",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 845,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "1bc8333d_656b1d1c",
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bea6563_6e53034c",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 845,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "1bc8333d_656b1d1c",
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "87088d9b_b2c7c5e8",
@@ -123,6 +351,54 @@
       "writtenOn": "2025-03-31T16:32:34Z",
       "side": 1,
       "message": "```suggestion\n  Fixes a bug where selecting the diff content did not exclude the line numbers on Safari.\n```",
+      "range": {
+        "startLine": 850,
+        "startChar": 54,
+        "endLine": 850,
+        "endChar": 60
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8145c1b4_92da15a7",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 850,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "87088d9b_b2c7c5e8",
+      "range": {
+        "startLine": 850,
+        "startChar": 54,
+        "endLine": 850,
+        "endChar": 60
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "774925d1_a6396153",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 850,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-03-31T16:42:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "87088d9b_b2c7c5e8",
       "range": {
         "startLine": 850,
         "startChar": 54,
