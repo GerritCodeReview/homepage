@@ -25,6 +25,7 @@ The following public keys are available on the
 | GerritForge      | info@gerritforge.com            | 9911 F82E 2783 6B7F AE85  090D 8470 05AE 6190 67D5 | Deb rsa-3072 |
 |                  |                                 | F0E2 4DA6 6FFA A737 081E  5A7E 1FFF AA5E 1871 F775 | Deb          |
 | GerritForge Yum  | yum@gerritforge.com             | 87BE F09F 08AF 18A9 79ED  67DB AF71 9AD5 21EF A0F0 | Rpm          |
+| Gerrit at GerritForge | gerrit@gerritforge.com     | 72AD B205 736D 7147 DA56  E8C9 5578 7ED7 8130 4950 | Rpm / Deb    |
 | Hugo Arès        | hugares@gmail.com               | 6884 7C78 8005 34A7 3386  86C9 C5D7 01B8 24EE 7037 |              |
 | Kaushik Lingarkar| kaushikl@qti.qualcomm.com       | A032 ABA1 4D07 D223 E9FC  68C2 C29A CB32 4041 72C6 | rsa-4096     |
 | Luca Milanesio   | luca.milanesio@gmail.com        | 4D87 E730 9713 C7D6 6B77  CFBF 7079 1290 7562 EA4B | rsa-3072     |
