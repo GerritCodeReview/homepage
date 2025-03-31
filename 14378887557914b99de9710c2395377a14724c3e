@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4719ed7f_6ccfce05",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 826,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-31T16:32:34Z",
+      "side": 1,
+      "message": "```suggestion\n  sequence set\u0027 command.\n```",
+      "range": {
+        "startLine": 826,
+        "startChar": 2,
+        "endLine": 826,
+        "endChar": 4
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "055e0d2e_1c67b099",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 829,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-31T16:32:34Z",
+      "side": 1,
+      "message": "```suggestion\n  Fix log rotation of `gc_log` avoiding to have it overwritten.\n```",
+      "range": {
+        "startLine": 829,
+        "startChar": 2,
+        "endLine": 829,
+        "endChar": 8
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e491d04c_383f3ca2",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 832,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-31T16:32:34Z",
+      "side": 1,
+      "message": "```suggestion\n  Fix project\u0027s access section when saving changes in the exclusive ACLs.\n```",
+      "range": {
+        "startLine": 832,
+        "startChar": 6,
+        "endLine": 832,
+        "endChar": 34
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84d08a08_a22b0481",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 840,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-31T16:32:34Z",
+      "side": 1,
+      "message": "```suggestion\n  Support `SO_TIMEOUT` configuration in SMTP email sender.\n```",
+      "range": {
+        "startLine": 840,
+        "startChar": 10,
+        "endLine": 840,
+        "endChar": 20
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1bc8333d_656b1d1c",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 845,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-31T16:32:34Z",
+      "side": 1,
+      "message": "```suggestion\n  Improve `jgit.config` documentation for NFS v4 caching.\n```",
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87088d9b_b2c7c5e8",
+        "filename": "pages/site/releases/3.9.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 850,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-03-31T16:32:34Z",
+      "side": 1,
+      "message": "```suggestion\n  Fixes a bug where selecting the diff content did not exclude the line numbers on Safari.\n```",
+      "range": {
+        "startLine": 850,
+        "startChar": 54,
+        "endLine": 850,
+        "endChar": 60
+      },
+      "revId": "14378887557914b99de9710c2395377a14724c3e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
