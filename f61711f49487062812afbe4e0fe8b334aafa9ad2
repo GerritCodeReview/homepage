@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "587c9162_f5644144",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-01T13:47:46Z",
+      "side": 1,
+      "message": "Really great design doc! 😊 I think you probably want to hold off with most implementation work until git itself is convinced to support the change-id header as well. (Which may not happen at all!) But it\u0027s great to know for the Jujutsu project that there is a viable path for the ecosystem to standardize on this, so we can start pushing forward.",
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "650a704a_6d6cc923",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-01T13:47:46Z",
+      "side": 1,
+      "message": "Why not? I think Jujutsu works the same way Git does in this regard. The commit message is left intact by both of them, meaning the Change-Id footer is preserved.",
+      "range": {
+        "startLine": 149,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 36
+      },
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
