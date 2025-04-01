@@ -36,6 +36,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "63d90724_eba946f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-01T16:09:34Z",
+      "side": 1,
+      "message": "Thank you, the conversation was just as informative for me. I\u0027m looking forward to getting in touch with the git contributors when the time is right.",
+      "parentUuid": "cf02bd2d_681fcd7f",
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "650a704a_6d6cc923",
@@ -73,6 +91,30 @@
       "side": 1,
       "message": "Good question, I was not sure whether the missing change-id commit header would somehow derail Jujutsu. If that\u0027s not the case and the commit message is left intact, I agree it should just work.\n\nDoes Jujutsu assign a change ID in this case? I think this would be a reason to give Change-Id\u0027s from commit messages precedence over the Change ID from the commit message (see line 28-30), so that the existing change gets updated in this case.",
       "parentUuid": "650a704a_6d6cc923",
+      "range": {
+        "startLine": 149,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 36
+      },
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c29e7570_89531913",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-01T16:09:34Z",
+      "side": 1,
+      "message": "Yes, exactly. Jujutsu doesn\u0027t only store the change-id in the commit header (the PR to do that at all is still pending). The source of truth for the change-id is stored separately. When Jujutsu fetches a commit without the header, it will generate a new change-id, stored separately. I assume Jujutsu will add the header the next time the commit is amended / rebased.\n\nThe Change-Id footer taking precedence over the change-id header makes sense to me.",
+      "parentUuid": "c7f11778_ca1cf024",
       "range": {
         "startLine": 149,
         "startChar": 2,
