@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf02bd2d_681fcd7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-01T14:15:08Z",
+      "side": 1,
+      "message": "Thanks for the review and giving us all the insights in the discussion! This was super helpful for us to understand how this could work!!\n\nIt would be great if git itself would support change-id headers. That would probably allow us to replace Gerrit Change-Id\u0027s completely in the long term, which sounds super exciting.\n\nFor Q2 we haven\u0027t planned to start working on the implementation (except maybe some experimental changes). Our idea is to consider this when we are making the plans for Q3. Hopefully until then we have more certainty that this is the way to go.\n\nThanks much for driving the overall effort on the standardisation. Much appreciated!",
+      "parentUuid": "587c9162_f5644144",
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "650a704a_6d6cc923",
@@ -31,6 +49,30 @@
       "writtenOn": "2025-04-01T13:47:46Z",
       "side": 1,
       "message": "Why not? I think Jujutsu works the same way Git does in this regard. The commit message is left intact by both of them, meaning the Change-Id footer is preserved.",
+      "range": {
+        "startLine": 149,
+        "startChar": 2,
+        "endLine": 150,
+        "endChar": 36
+      },
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7f11778_ca1cf024",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-01T14:15:08Z",
+      "side": 1,
+      "message": "Good question, I was not sure whether the missing change-id commit header would somehow derail Jujutsu. If that\u0027s not the case and the commit message is left intact, I agree it should just work.\n\nDoes Jujutsu assign a change ID in this case? I think this would be a reason to give Change-Id\u0027s from commit messages precedence over the Change ID from the commit message (see line 28-30), so that the existing change gets updated in this case.",
+      "parentUuid": "650a704a_6d6cc923",
       "range": {
         "startLine": 149,
         "startChar": 2,
