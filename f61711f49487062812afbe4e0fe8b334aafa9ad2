@@ -169,6 +169,30 @@
       },
       "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11f4a29e_c42b2b53",
+        "filename": "pages/design-docs/support-jujutsu/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-02T06:54:33Z",
+      "side": 1,
+      "message": "I\u0027m not aware of documentation that describes reverse hex, but it\u0027s pretty simple: Hex with a different (\"reverse\") alphabet, namely \"zyxwvutsrqponmlk\" instead of the usual \"0123456789abcdef\".\n\nThe reason for choosing it as the standard is that Jujutsu uses it already and GitButler doesn\u0027t care, so they are fine with adopting it. The reason Jujutsu uses it in the first place is probably similar to your \"I\"-prefix: It allows Jujutsu to distinguish between change-id and commit hash without any overhead. Jujutsu users often type a short, unambiguous prefix of a change-id to refer to their commits, so it\u0027s useful that they can\u0027t be confused with commit hashes.",
+      "parentUuid": "667805a0_978861e6",
+      "range": {
+        "startLine": 96,
+        "startChar": 25,
+        "endLine": 96,
+        "endChar": 52
+      },
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
