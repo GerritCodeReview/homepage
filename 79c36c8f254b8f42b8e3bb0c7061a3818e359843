@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d77a4cd_1b59b96a",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-02T15:04:21Z",
+      "side": 1,
+      "message": "I don\u0027t think the change-id header has to be rejected outright. Without this project configuration, the header should just be ignored and the footer required. This will allow Jujutsu users to continue using normal Gerrit instances with existing workarounds that make sure commits created with Jujutsu have a Change-Id footer just like commits created with Git.",
+      "range": {
+        "startLine": 102,
+        "startChar": 2,
+        "endLine": 108,
+        "endChar": 11
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21f95077_f3e148be",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-02T15:04:21Z",
+      "side": 1,
+      "message": "This section is about changes being made with Jujutsu. Jujutsu users typically don\u0027t rework existing changes with `git commit --amend` (although that is possible in a colocated repo). A more common command would be `jj squash`, but that\u0027s beside the point.\n\nI suggest wording it like something like this: \"Since Jujutsus equivalent of `git commit --amend` preserves the commit message ...\"",
+      "range": {
+        "startLine": 205,
+        "startChar": 54,
+        "endLine": 206,
+        "endChar": 31
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3aa790c0_83524985",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-02T15:04:21Z",
+      "side": 1,
+      "message": "This isn\u0027t quite correct. Jujutsu doesn\u0027t have an equivalent to Gits interactive rebase. (insert Hulk meme with caption: That\u0027s my secret, I\u0027m always interactively rebasing!)\n\nMaybe it would be better to collapse the two sections about making changes with Jujutsu into one. In Jujutsu, the same operations are used to rework a single commit as well as a patch series, and both are fine for the same reason (commit message with Change-Id footer is preserved, change-id header is ignored).",
+      "range": {
+        "startLine": 242,
+        "startChar": 3,
+        "endLine": 242,
+        "endChar": 68
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f123193_5f16d132",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-02T15:04:21Z",
+      "side": 1,
+      "message": "As mentioned in another comment, I don\u0027t think usage of Jujutsu need to be blocked entirely.\n\nConsider mentioning the default of this configuration option, presumably commits with a change-id header but no Change-Id footer should continue to be rejected by default.",
+      "range": {
+        "startLine": 357,
+        "startChar": 2,
+        "endLine": 359,
+        "endChar": 10
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "512da8a2_0e0a36a7",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-02T15:04:21Z",
+      "side": 1,
+      "message": "That seems great... maybe even good enough for most teams? If I understand correctly, Gerrit users _must_ go through the UI to fetch some commit / patch series locally? In that case, a mandatory warning modal could be pretty reliable in letting users know about the situation.\n\nThe configuration option is probably still required, I imagine there are teams who simply don\u0027t _want_ to deal with coworkers playing around with new shiny tools that prevent them from using the tried-and-true ones.\n\nMaybe the system could even be extra smart and detect which users are using Jujutsu already (by the fact that the new changes they upload come with a change-id header). In that case, there\u0027s no need to show a warning modal. But that seems like a luxury feature.",
+      "range": {
+        "startLine": 378,
+        "startChar": 41,
+        "endLine": 380,
+        "endChar": 31
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
