@@ -313,6 +313,30 @@
       },
       "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d93c37c_cab52fcd",
+        "filename": "pages/design-docs/support-jujutsu/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 3983987
+      },
+      "writtenOn": "2025-04-02T07:37:12Z",
+      "side": 1,
+      "message": "I don\u0027t know why 16 bytes was chosen instead of 20, Martin probably knows. 16 bytes is still big enough not to cause conflicts any time soon. Since they are not related to commits hashes in any way, there\u0027s not really a reason to make them match from Jujutsus point of view.\n\nNew ones are generated randomly.",
+      "parentUuid": "ae6da86d_71b0e6c4",
+      "range": {
+        "startLine": 96,
+        "startChar": 25,
+        "endLine": 96,
+        "endChar": 52
+      },
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
