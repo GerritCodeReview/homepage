@@ -265,6 +265,30 @@
       },
       "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ce8194e_68e37bf1",
+        "filename": "pages/design-docs/support-jujutsu/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-04-02T07:26:58Z",
+      "side": 1,
+      "message": "Ok, got it, so this could use a 16 byte binary representation at runtime and render to string using reverse alphabet \"z-k\" instead of the usual \"0-9a-f\".\n\nWhat was the reason to use 16 and not 20 bytes like SHA1 used throughout git ?\n\nHow are these change-ids generated ? The Gerrit change-ids are a content hash (SHA1) of cleaned commit metadata.",
+      "parentUuid": "02d7f3f9_9b7911c8",
+      "range": {
+        "startLine": 96,
+        "startChar": 25,
+        "endLine": 96,
+        "endChar": 52
+      },
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
