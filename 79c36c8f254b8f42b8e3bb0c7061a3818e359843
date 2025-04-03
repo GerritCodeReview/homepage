@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "46120ebe_2db40bee",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-03T11:05:08Z",
+      "side": 1,
+      "message": "Oh yes! With this config we do not need to reject change-id headers, but only ignore them. I\u0027ve updated this point now.",
+      "parentUuid": "3d77a4cd_1b59b96a",
+      "range": {
+        "startLine": 102,
+        "startChar": 2,
+        "endLine": 108,
+        "endChar": 11
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "21f95077_f3e148be",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-04-02T15:04:21Z",
       "side": 1,
       "message": "This section is about changes being made with Jujutsu. Jujutsu users typically don\u0027t rework existing changes with `git commit --amend` (although that is possible in a colocated repo). A more common command would be `jj squash`, but that\u0027s beside the point.\n\nI suggest wording it like something like this: \"Since Jujutsus equivalent of `git commit --amend` preserves the commit message ...\"",
+      "range": {
+        "startLine": 205,
+        "startChar": 54,
+        "endLine": 206,
+        "endChar": 31
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54a81b18_41c7a83b",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-03T11:05:08Z",
+      "side": 1,
+      "message": "Thanks for pointing this out. Yeah, I already thought that the command is different in JJ. You are right that what matters here is that JJ preserves the commit message. I updated this now.",
+      "parentUuid": "21f95077_f3e148be",
       "range": {
         "startLine": 205,
         "startChar": 54,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5720951f_b3cf2c57",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-03T11:05:08Z",
+      "side": 1,
+      "message": "Done, merged into the section above.",
+      "parentUuid": "3aa790c0_83524985",
+      "range": {
+        "startLine": 242,
+        "startChar": 3,
+        "endLine": 242,
+        "endChar": 68
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9f123193_5f16d132",
@@ -93,6 +165,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b77a42df_947a0390",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-03T11:05:08Z",
+      "side": 1,
+      "message": "Done. Updated this here and also added the default above.",
+      "parentUuid": "9f123193_5f16d132",
+      "range": {
+        "startLine": 357,
+        "startChar": 2,
+        "endLine": 359,
+        "endChar": 10
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "512da8a2_0e0a36a7",
@@ -106,6 +202,30 @@
       "writtenOn": "2025-04-02T15:04:21Z",
       "side": 1,
       "message": "That seems great... maybe even good enough for most teams? If I understand correctly, Gerrit users _must_ go through the UI to fetch some commit / patch series locally? In that case, a mandatory warning modal could be pretty reliable in letting users know about the situation.\n\nThe configuration option is probably still required, I imagine there are teams who simply don\u0027t _want_ to deal with coworkers playing around with new shiny tools that prevent them from using the tried-and-true ones.\n\nMaybe the system could even be extra smart and detect which users are using Jujutsu already (by the fact that the new changes they upload come with a change-id header). In that case, there\u0027s no need to show a warning modal. But that seems like a luxury feature.",
+      "range": {
+        "startLine": 378,
+        "startChar": 41,
+        "endLine": 380,
+        "endChar": 31
+      },
+      "revId": "79c36c8f254b8f42b8e3bb0c7061a3818e359843",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "265e2477_bc3a2885",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-03T11:05:08Z",
+      "side": 1,
+      "message": "\u003e That seems great... maybe even good enough for most teams?\n\nYeah, I kind of like this idea too. Funnily this occurred to me only after I wrote everything else down.\n\nI added doing this as a point to the design above.\n\n\u003e If I understand correctly, Gerrit users must go through the UI to fetch\n\u003e some commit / patch series locally?\n\nIn theory, based on the change number, users could assemble the fetch command on their own, but I would be surprised if users are doing this a lot. In practise, we expect everyone to just copy the fetch command from the UI.\n\n\u003e The configuration option is probably still required, I imagine there are\n\u003e teams who simply don\u0027t want to deal with coworkers playing around with new \n\u003e shiny tools that prevent them from using the tried-and-true ones.\n\nYes, at least for the beginning this option makes sense. If things go well, we would likely enable jj change IDs globally for alls host at Google at some point.\n\n\u003e Maybe the system could even be extra smart and detect which users are using \n\u003e Jujutsu already (by the fact that the new changes they upload come with a \n\u003e change-id header). In that case, there\u0027s no need to show a warning modal. But\n\u003e that seems like a luxury feature.\n\nNice idea. Maybe that\u0027s actually not that hard to implement. I guess all we would need for that would be a new field in the change index, that informs about the change ID type (Gerrit Change-Id or Jujutsu change ID). \n\nI wonder if that distinction would be useful for other purposes too (e.g. to gain stats on what\u0027s the percentage of changes that were uploaded from jj).\n\nI added these ideas as optional points to the design above.",
+      "parentUuid": "512da8a2_0e0a36a7",
       "range": {
         "startLine": 378,
         "startChar": 41,
