@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36b24a93_52706a47",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 1109429
+      },
+      "writtenOn": "2025-04-03T00:33:37Z",
+      "side": 1,
+      "message": "Isn\u0027t this the opposite of what the doc says at the top?\n\n(If no change-id commit header is present, *then* read the Change-Id footer)",
+      "revId": "8edea9d4cd910e6345b59dfad9aa6698835b2038",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
