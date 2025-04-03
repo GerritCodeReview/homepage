@@ -16,6 +16,24 @@
       "message": "We could provide download commands which fetch the original commit and then amend it locally adding the Change-Id from the commit header if no Gerrit Change-Id is present in the commit message:\n\n```\ngit fetch https://gerrit.googlesource.com/homepage refs/changes/87/464287/6 \\\n  \u0026\u0026 git checkout -b change-464287 FETCH_HEAD \\\n  \u0026\u0026 git log -1 --format\u003d%B \\\n  | git interpret-trailers --if-missing --trailer\u003d\"Change-Id: mlqnqnkrxpuvuuxzlzoltostwlwyskpx\" \\\n  | git commit --amend --no-edit -m \"$(cat -)\" \\\n  || echo \"Error amending commit with jj Change-Id\"\n```\n\nGerrit\u0027s download-commands plugin could be enhanced to inject the Change-Id from the change-id commit header.",
       "revId": "64b4e1133a04bd0d80cc89481bc63dd1623f8aea",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16b834b4_4faf1319",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-03T12:54:04Z",
+      "side": 1,
+      "message": "Nice! Thanks much for figuring out how such a command could look like!\nThis was the idea of the point in l. 406 below, but I wasn\u0027t sure if writing such a command was feasible.\n\nWill add it there.",
+      "parentUuid": "98022b7e_1f583279",
+      "revId": "64b4e1133a04bd0d80cc89481bc63dd1623f8aea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
