@@ -63,6 +63,24 @@
       "message": "This change missed having the Release-Notes footer. Can you add it here?\n```\n* [Change 442981] https://gerrit-review.googlesource.com/c/gerrit/+/442981\n  Allow restricting users from deleting their own accounts\n```",
       "revId": "3de03603aaa5737cf76680718b664a0b301896b6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8093e593_65eec60f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-06T05:15:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7b334436_cb24a8d9",
+      "revId": "3de03603aaa5737cf76680718b664a0b301896b6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
