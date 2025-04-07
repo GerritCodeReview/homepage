@@ -26,6 +26,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6bdaccaf_f641b055",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-07T08:41:49Z",
+      "side": 1,
+      "message": "nit: therefore",
+      "range": {
+        "startLine": 32,
+        "startChar": 45,
+        "endLine": 32,
+        "endChar": 48
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "843e3e79_db8e89f3",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 10
@@ -95,6 +118,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "24c9ad14_939f228a",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-07T08:41:49Z",
+      "side": 1,
+      "message": "missing change number",
+      "range": {
+        "startLine": 111,
+        "startChar": 53,
+        "endLine": 111,
+        "endChar": 63
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0a6e199_f7685a59",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-07T08:41:49Z",
+      "side": 1,
+      "message": "remove `the`",
+      "range": {
+        "startLine": 140,
+        "startChar": 22,
+        "endLine": 140,
+        "endChar": 35
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "912589b5_17b9f814",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 10
@@ -111,6 +180,76 @@
         "startChar": 0,
         "endLine": 158,
         "endChar": 88
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b7903ae_9237bf59",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-07T08:41:49Z",
+      "side": 1,
+      "message": "Maybe with adding some context about how it changes development workflow when working on Gerrit?",
+      "parentUuid": "912589b5_17b9f814",
+      "range": {
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 88
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "685370fe_24038529",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-07T08:41:49Z",
+      "side": 1,
+      "message": "nit: `needs`",
+      "range": {
+        "startLine": 163,
+        "startChar": 66,
+        "endLine": 163,
+        "endChar": 70
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44615c48_f0837f86",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-07T08:41:49Z",
+      "side": 1,
+      "message": "Do we want to add since what version these are deprecated? Deprecation notice was added to docs with I25cd93c, which was included in 3.6",
+      "range": {
+        "startLine": 169,
+        "startChar": 58,
+        "endLine": 170,
+        "endChar": 26
       },
       "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
