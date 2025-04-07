@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "584ef1be_405b92f4",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-04-07T06:22:50Z",
+      "side": 1,
+      "message": "nit: `3.12.0`?",
+      "range": {
+        "startLine": 11,
+        "startChar": 97,
+        "endLine": 11,
+        "endChar": 110
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "912589b5_17b9f814",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-04-07T06:22:50Z",
+      "side": 1,
+      "message": "nit: this is about GJF (IOW development) do we care for that in the release notes?",
+      "range": {
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 88
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ada62004_c8f84cec",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-04-07T06:22:50Z",
+      "side": 1,
+      "message": "nit: perhaps it could be summarised as a single entry adding both REST and SSH option to cleanup draft-comments? Including also the one from below\n```\n* [Change ](https://gerrit-review.googlesource.com/c/gerrit/+/):\n  Added draftsCleanup job\n```",
+      "range": {
+        "startLine": 219,
+        "startChar": 0,
+        "endLine": 223,
+        "endChar": 42
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9b7288f_0ed4985c",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-04-07T06:22:50Z",
+      "side": 1,
+      "message": "nit: all index periodic reindexing could be grouped",
+      "range": {
+        "startLine": 261,
+        "startChar": 0,
+        "endLine": 265,
+        "endChar": 47
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f07b41e6_7a04ae65",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-04-07T06:22:50Z",
+      "side": 1,
+      "message": "nit: already mentioned in `New features` section",
+      "range": {
+        "startLine": 340,
+        "startChar": 0,
+        "endLine": 341,
+        "endChar": 64
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb8a054d_540ecf8c",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-04-07T06:22:50Z",
+      "side": 1,
+      "message": "nit: already mentioned in `New features` section",
+      "range": {
+        "startLine": 361,
+        "startChar": 0,
+        "endLine": 362,
+        "endChar": 64
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49461b61_a7dc758a",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-04-07T06:22:50Z",
+      "side": 1,
+      "message": "nit: perhaps could be combined",
+      "range": {
+        "startLine": 379,
+        "startChar": 0,
+        "endLine": 383,
+        "endChar": 78
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bbf58b80_2e296d99",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-04-07T06:22:50Z",
+      "side": 1,
+      "message": "nit: already mentioned in line #334",
+      "range": {
+        "startLine": 385,
+        "startChar": 0,
+        "endLine": 386,
+        "endChar": 46
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
