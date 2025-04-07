@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6654a9c_a5b1a019",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "584ef1be_405b92f4",
+      "range": {
+        "startLine": 11,
+        "startChar": 97,
+        "endLine": 11,
+        "endChar": 110
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6bdaccaf_f641b055",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-04-07T08:41:49Z",
       "side": 1,
       "message": "nit: therefore",
+      "range": {
+        "startLine": 32,
+        "startChar": 45,
+        "endLine": 32,
+        "endChar": 48
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbf4ce7d_b23cc7fc",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6bdaccaf_f641b055",
       "range": {
         "startLine": 32,
         "startChar": 45,
@@ -88,6 +136,54 @@
         "startChar": 82,
         "endLine": 72,
         "endChar": 95
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82aebb3f_6c658f79",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "No, the online reindex can automatically manage the reindex and display of the old index until the new one is done.",
+      "parentUuid": "7a472d12_f0891f84",
+      "range": {
+        "startLine": 72,
+        "startChar": 82,
+        "endLine": 72,
+        "endChar": 95
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afe67e41_b174d0c6",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "843e3e79_db8e89f3",
+      "range": {
+        "startLine": 72,
+        "startChar": 53,
+        "endLine": 72,
+        "endChar": 60
       },
       "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
@@ -162,6 +258,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9fba0fc_87a5a778",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b0a6e199_f7685a59",
+      "range": {
+        "startLine": 140,
+        "startChar": 22,
+        "endLine": 140,
+        "endChar": 35
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "912589b5_17b9f814",
@@ -209,6 +329,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "04c626f0_f0db64d6",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "I\u0027ll move it to the plugins section, as plugin developers need to be advised.",
+      "parentUuid": "7b7903ae_9237bf59",
+      "range": {
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 88
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "685370fe_24038529",
@@ -232,6 +376,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "57719dd7_dc2f9ef8",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "685370fe_24038529",
+      "range": {
+        "startLine": 163,
+        "startChar": 66,
+        "endLine": 163,
+        "endChar": 70
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "44615c48_f0837f86",
@@ -245,6 +413,30 @@
       "writtenOn": "2025-04-07T08:41:49Z",
       "side": 1,
       "message": "Do we want to add since what version these are deprecated? Deprecation notice was added to docs with I25cd93c, which was included in 3.6",
+      "range": {
+        "startLine": 169,
+        "startChar": 58,
+        "endLine": 170,
+        "endChar": 26
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "831ac067_bdcc0e1b",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "44615c48_f0837f86",
       "range": {
         "startLine": 169,
         "startChar": 58,
@@ -855,6 +1047,30 @@
       "writtenOn": "2025-04-07T06:22:50Z",
       "side": 1,
       "message": "nit: already mentioned in line #334",
+      "range": {
+        "startLine": 385,
+        "startChar": 0,
+        "endLine": 386,
+        "endChar": 46
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be654e74_ed6bd13e",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T20:51:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bbf58b80_2e296d99",
       "range": {
         "startLine": 385,
         "startChar": 0,
