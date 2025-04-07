@@ -16,9 +16,6 @@ toc: false
 
 * Gerrit preserves Jujutsu change ID's when rewriting commits.
 
-* On cherry-pick Gerrit stores the information about the source change in
-  NoteDb. This information is used to track cherry-picks across branches.
-
 ## <a id="detailed-design"> Detailed Design
 
 * When a commit is pushed for review, Gerrit reads the Change-Id from the
@@ -78,23 +75,12 @@ toc: false
   side (e.g. when creating a new patch set via online edit, rebasing, by
   applying fixes or during submit).
 
-* When a change that has a Jujutsu change ID is cherry-picked through the Gerrit
-  API Gerrit generates a new Jujutsu change ID for the cherry-pick change (to be
-  consistent with cherry-picks that are done in Jujutsu where the change ID is
-  not preserved).
+* Jujutsu preserves the `change-id` commit header on cherry-pick:
 
-* When a change that has a Jujutsu change ID is cherry-picked through the Gerrit
-  API Gerrit records the source change (and maybe patchset) in NoteDb. If a
-  cherry-pick change is cherry-picked we may record the original source change.
-
-* When a change is cherry-picked in Jujutsu Jujutsu records the source commit in
-  a Git commit header. On upload Gerrit reads the information from this header
-  and uses it to lookup the source change to record it in NoteDb.
-
-* We use the information about the source change that is recorded for
-  cherry-pick changes to populate the `Cherry picks` section on the change
-  screen and to allow querying all cherry-picks of a change (allows to check in
-  which branches a change is contained).
+  The Jujutsu team intends to an option to their `duplicate` command that lets
+  users control if they want a new change ID or the old one. This way users are
+  in control to preserve the change ID when cherry-picking changes to other
+  branches in Jujutsu.
 
 * When a change that has a Jujutsu change ID is reverted through the Gerrit API
   Gerrit creates the revert change with a Jujutsu change ID.
@@ -145,11 +131,6 @@ toc: false
 
 ## <a id="alternatives-considered"> Alternatives Considered
 
-* Jujutsu preserves the `change-id` commit header on cherry-pick:
-
-  Rejected by the Jujutsu team as they prefer change ID's to uniquely identify
-  one change/review.
-
 * Have a 2-part change ID where the first part is preserved on cherry-pick and
   the second part is unique:
 
@@ -198,6 +179,22 @@ toc: false
     any change. Fixing that (e.g. recognize that the base change is the amended
     version of an existing change and rebase the new commit onto the original
     commit) is error-prone and adds too much complexity.
+
+* On cherry-pick store information about the source change in NoteDb (when the
+  cherry-pick is done via the Gerrit API or by push from a Git client we know
+  the source change from the Gerrit Change-Id, when a cherry-pick is done in
+  Jujutsu Jujutsu considered to record the source commit in a Git commit header
+  that we could read on push). The recorded information could be used to track
+  cherry-picks across branches.
+
+  * Tracking cherry-picks separately is needed if Jujutsu doesn't preserve the
+    change ID on cherry-pick. When discussing the idea of supporting change ID's
+    in Git, it was concluded that Git should preserve the change ID on
+    cherry-pick (see [below](#git-does-not-preserve-jj-change-ids)). To align
+    with this Jujutsu intends to an option to their `duplicate` command that
+    lets users control if they want a new change ID or the old one. This way
+    Jujutsu users can preserve the change ID on cherry-pick and tracking
+    cherry-picks separately in Gerrit is not needed.
 
 ## <a id="compatibility"> Compatibility between users that use native Git and users that use Jujutsu
 
@@ -370,11 +367,10 @@ cherry-pick them, or vice versa:
 
 Thoughts on addressing/mitigating this:
 
-* [PREFERRED SOLUTION] If Git would preserve unknown commit headers, or at least
-  the `change-id` commit header, that would solve the problem. The Jujutsu team
-  has reached out to the Git team to see if they can be convinced to change
-  this (see this
-  [discussion thread](https://lore.kernel.org/git/CAESOdVAspxUJKGAA58i0tvks4ZOfoGf1Aa5gPr0FXzdcywqUUw@mail.gmail.com/T/#u)).
+* [PREFERRED SOLUTION] If Git would preserve the `change-id` commit header, that
+  would solve the problem. The Jujutsu team has reached out to the Git team and
+  it seems they agree to preserving the `change-id` header on rebase and
+  cherry-pick (see [below](#git-does-not-preserve-jj-change-ids)).
 
 * [SAVE DEFAULT] By default Gerrit Change-Id's are required. If teams do not
   configure their hosts or projects to use Jujutsu change ID's when a Gerrit
@@ -450,13 +446,25 @@ Thoughts on addressing/mitigating this:
 
 ### <a id="git-does-not-preserve-jj-change-ids"> Native Git doesn't preserve Jujutsu change ID's on rebase and cherry-pick
 
-Changes that have a Jujutsu change ID cannot be reworked/rebased/cherry-picked
-locally by users that use native Git. This is because Git doesn't preserve the
-`change-id` commit header on rebase and cherry-pick (the Jujutsu team intends to
-reach out to the Git team to see if they can be convinced to change this). This
-means at the moment it's not an option for Gerrit to adopt change ID's in Git
-headers regardless of the client (and drop Gerrit Change-Id's in commit message
-footers completely).
+At the moment Git does not preserve the `change-id` commit header on rebase and
+cherry-pick. Due to this changes that have a Jujutsu change ID cannot be
+reworked/rebased/cherry-picked locally by users that use native Git (see
+[above](#compatibility).
+
+> Note: This limitation also means that at the moment it's not an option for
+> Gerrit to adopt change ID's in Git headers regardless of the client (and drop
+> Gerrit Change-Id's in commit message footers completely).
+
+The Jujutsu team has reached out to the Git team to ask them if they would
+consider changing this (see
+[discussion thread](https://lore.kernel.org/git/Z_OGMb-1oV0Ex05e@pks.im/T/#m038be849b9b4020c16c562d810cf77bad91a2c87)).
+The conclusion seems to be that the Git team is open to support a `change-id`
+commit header that is preserved on rebase and cherry-pick (see this
+[summary](https://lore.kernel.org/git/Z_OGMb-1oV0Ex05e@pks.im/T/#m2e6a57d8aeefd3146c7632e89dc36e2a0a8f68ba)).
+This means that the behaviour for change ID's in Git would be the exactly the
+same as it is for Gerrit Change-Id footers today (they are preserved on amend,
+rebase and cherry-pick). This solves the [compatibility issues](#compatibility)
+for us.
 
 ## <a id="implementation-plan"> Implementation Plan
 
