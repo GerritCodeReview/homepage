@@ -337,6 +337,30 @@
       },
       "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa94e02b_0dbaaf5b",
+        "filename": "pages/design-docs/support-jujutsu/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-07T06:33:25Z",
+      "side": 1,
+      "message": "Marking this as resolved.",
+      "parentUuid": "6d93c37c_cab52fcd",
+      "range": {
+        "startLine": 96,
+        "startChar": 25,
+        "endLine": 96,
+        "endChar": 52
+      },
+      "revId": "f61711f49487062812afbe4e0fe8b334aafa9ad2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
