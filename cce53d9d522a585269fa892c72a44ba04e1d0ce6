@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7abd3961_60596c0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-07T06:45:25Z",
+      "side": 1,
+      "message": "Thanks all for the reviews! Very much appreciated!\n\nI think this doc has reached a state where we can submit it as the first version. \n\nFor everyone who is not familiar with the Gerrit design doc process [1], submitting a solution doesn\u0027t mean that it has been accepted. Accepting a solution is done via the `conclusion.md` doc (that is still empty). This requires a  discussion in the engineering steering committee (ESC).\n\nAfter this change has been submitted everyone is welcome to upload iterative improvements to the doc or suggest alternative solutions.\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html",
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
