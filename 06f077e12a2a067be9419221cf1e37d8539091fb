@@ -278,6 +278,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b17134f8_6446509a",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T19:56:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bcc4fb8d_ca4597e9",
+      "range": {
+        "startLine": 189,
+        "startChar": 47,
+        "endLine": 189,
+        "endChar": 57
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ada62004_c8f84cec",
@@ -301,6 +325,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed1f254c_9da139df",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T19:56:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ada62004_c8f84cec",
+      "range": {
+        "startLine": 219,
+        "startChar": 0,
+        "endLine": 223,
+        "endChar": 42
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f298c694_4eebbe35",
@@ -314,6 +362,30 @@
       "writtenOn": "2025-04-07T09:01:54Z",
       "side": 1,
       "message": "Isn\u0027t this the same as what @geminica.programs@gmail.com comments on L223?",
+      "range": {
+        "startLine": 228,
+        "startChar": 0,
+        "endLine": 229,
+        "endChar": 25
+      },
+      "revId": "06f077e12a2a067be9419221cf1e37d8539091fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ddff96d_dc330840",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-04-07T19:56:48Z",
+      "side": 1,
+      "message": "No, this is a background job and not an API or SSH command.",
+      "parentUuid": "f298c694_4eebbe35",
       "range": {
         "startLine": 228,
         "startChar": 0,
