@@ -16,6 +16,40 @@
       "message": "Thanks all for the reviews! Very much appreciated!\n\nI think this doc has reached a state where we can submit it as the first version. \n\nFor everyone who is not familiar with the Gerrit design doc process [1], submitting a solution doesn\u0027t mean that it has been accepted. Accepting a solution is done via the `conclusion.md` doc (that is still empty). This requires a  discussion in the engineering steering committee (ESC).\n\nAfter this change has been submitted everyone is welcome to upload iterative improvements to the doc or suggest alternative solutions.\n\n[1] https://gerrit-review.googlesource.com/Documentation/dev-design-docs.html",
       "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5142321_46a96237",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1011217
+      },
+      "writtenOn": "2025-04-08T16:30:16Z",
+      "side": 1,
+      "message": "This general process is a common one for our (OpenDev) users though currently everyone that I know of is using Git. See my comment below for how we might be able to continue to support existing users while adding support for Jujutsu without breaking common use cases like this one.",
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22d603f2_164216d7",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 432,
+      "author": {
+        "id": 1011217
+      },
+      "writtenOn": "2025-04-08T16:30:16Z",
+      "side": 1,
+      "message": "This item and the [SAVE DEFAULT] item above have me wondering why we don\u0027t update the commit message hook to set the Change-Id: in the commit message to match any existing change-ids from jujutsu? Then continue to require a Change-Id in the commit message for all users which may match the jujutsu change-id if using jujutsu.\n\nDoing this I think you mitigate many of the problems with a mixture of client tooling across users while allowing jujutsu users to take advantage of whatever functionality change-id provides them.\n\nI think this is important because the last thing we should want to do is break existing Gerrit users who continue to use Git and other tools that have worked for them for years (more than a decade for many of us). Adding jujutsu support to help other users seems great, but I think maintaining existing workflows for existing users is also important.",
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
