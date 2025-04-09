@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d38b46c3_1b4616f9",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-09T10:36:16Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "b5142321_46a96237",
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "22d603f2_164216d7",
@@ -48,6 +66,24 @@
       "writtenOn": "2025-04-08T16:30:16Z",
       "side": 1,
       "message": "This item and the [SAVE DEFAULT] item above have me wondering why we don\u0027t update the commit message hook to set the Change-Id: in the commit message to match any existing change-ids from jujutsu? Then continue to require a Change-Id in the commit message for all users which may match the jujutsu change-id if using jujutsu.\n\nDoing this I think you mitigate many of the problems with a mixture of client tooling across users while allowing jujutsu users to take advantage of whatever functionality change-id provides them.\n\nI think this is important because the last thing we should want to do is break existing Gerrit users who continue to use Git and other tools that have worked for them for years (more than a decade for many of us). Adding jujutsu support to help other users seems great, but I think maintaining existing workflows for existing users is also important.",
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "597e7d56_90d397ba",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 432,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-09T10:36:16Z",
+      "side": 1,
+      "message": "\u003e have me wondering why we don\u0027t update the commit message hook to set the\n\u003e Change-Id: in the commit message to match any existing change-ids from jujutsu?\n\nYeah, we thought about this, but as mentioned below (l. 438) it\u0027s not working:\n* the commit-msg hook doesn\u0027t have access to the source commit and its headers (hence it can\u0027t read the jujutsu change ID)\n* the commit-msg hook is not invoked on rebase/cherry-pick, but only on amend (but amend already preserves the change-id commit header, so we do not need to insert the change ID as a footer in this case).\n\n\u003e I think this is important because the last thing we should want to do is break \n\u003e existing Gerrit users who continue to use Git and other tools that have worked \n\u003e for them for years (more than a decade for many of us). Adding jujutsu support\n\u003e to help other users seems great, but I think maintaining existing workflows for \n\u003e existing users is also important.\n\nYeah, best would be if the Git team could be convinced to preserve the `change-id` commit header on rebase/cherry-pick. The discussion about this [1] is still in progress. First it seemed like they could agree to that (see https://gerrit-review.googlesource.com/c/homepage/+/465461), but then new concerns got raised. So I guess to make a final conclusion, we need to to see what will be the result of this discussion.\n\nIn the meantime we could go with the 2 mitigations that are marked as \"[BEST MITIGATION]\" above.\n\n[1] https://lore.kernel.org/git/Z_OGMb-1oV0Ex05e@pks.im/T/#m038be849b9b4020c16c562d810cf77bad91a2c87",
+      "parentUuid": "22d603f2_164216d7",
       "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
