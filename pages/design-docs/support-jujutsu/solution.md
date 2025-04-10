@@ -391,6 +391,14 @@ Thoughts on addressing/mitigating this:
   the change was uploaded from Jujutsu saying that Jujutsu must be used to
   rework/rebase/cherry-pick it.
 
+* [BEST MITIGATION] For changes that have been created with Jujutsu offer a
+  button on the Gerrit change screen that creates a new patch set that has the
+  Jujutsu change ID from the `change-id` header copied to the commit message
+  footer. Once such a patch set has been created the change be
+  reworked/rebased/cherry-picked in both clients. We can inform users that they
+  need to create such patch set in the download commands drop-down (see previous
+  point).
+
 * The first step for human users to rework/rebase/cherry-pick a change from
   someone else is to fetch it from Gerrit. For this users copy a download
   command from the Gerrit change screen. We could change the commands there or
