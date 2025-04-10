@@ -220,14 +220,17 @@ When users are allowed to upload patch sets to changes of other users, there is
 the question what happens when changes were uploaded by a user that uses Jujutsu
 and a user that uses native Git attempts to rework them, or vice versa:
 
-1. [OK] Rework a change in Git that was uploaded from Jujutsu:
+1. [NOT OK] Rework a change in Git that was uploaded from Jujutsu:
 
    If a change was uploaded from Jujutsu it has a `change-id` commit header with
    a Jujutsu change ID, but not a commit message footer with a Gerrit Change-Id.
 
    Reworking a change is done by amending the commit. Since `git commit --amend`
    preserves unknown commit headers the `change-id` header with the Jujutsu
-   change ID stays intact and Gerrit will update the correct change on push.
+   change ID stays intact, but the `commit-msg` footer inserts a new Gerrit
+   Change-Id as a commit message footer, which will take precedence on push.
+   Hence this would create a new change rather than updating the existing
+   change.
 
 1. [NOT OK] Rework a change series in Git that was uploaded from Jujutsu:
 
