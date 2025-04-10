@@ -1,0 +1,109 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd416a88_c74bfcc0",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 1083225
+      },
+      "writtenOn": "2025-04-10T10:56:40Z",
+      "side": 1,
+      "message": "are you using `commit` here intentionally instead of `change`?\n\nIs this uploaded to Gerrit already?\n\nNext lie says `so that this change` so maybe this should say `change` as well?",
+      "range": {
+        "startLine": 412,
+        "startChar": 62,
+        "endLine": 412,
+        "endChar": 68
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "d3da7fe7_cf589d03",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "pages/design-docs/support-jujutsu/solution.md",
+              "range": {
+                "startLine": 412,
+                "startChar": 0,
+                "endLine": 413,
+                "endChar": 0
+              },
+              "replacement": "    \u003e make a follow-up change they need to fetch the original change, that only\n"
+            }
+          ]
+        }
+      ],
+      "revId": "6cf41a155480c6d997e7f5299b730420a4542059",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e1ae2b08_d4d278dc",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 414,
+      "author": {
+        "id": 1083225
+      },
+      "writtenOn": "2025-04-10T10:56:40Z",
+      "side": 1,
+      "message": "do you mean a change on top of the current change?",
+      "range": {
+        "startLine": 414,
+        "startChar": 20,
+        "endLine": 414,
+        "endChar": 36
+      },
+      "revId": "6cf41a155480c6d997e7f5299b730420a4542059",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "673cd2d6_6d3bc593",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1083225
+      },
+      "writtenOn": "2025-04-10T10:56:40Z",
+      "side": 1,
+      "message": "lose",
+      "range": {
+        "startLine": 416,
+        "startChar": 24,
+        "endLine": 416,
+        "endChar": 29
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "e69d7d48_af7196aa",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "pages/design-docs/support-jujutsu/solution.md",
+              "range": {
+                "startLine": 416,
+                "startChar": 0,
+                "endLine": 417,
+                "endChar": 0
+              },
+              "replacement": "    \u003e base change would lose its change ID and pushing the rebased series\n"
+            }
+          ]
+        }
+      ],
+      "revId": "6cf41a155480c6d997e7f5299b730420a4542059",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
