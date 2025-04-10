@@ -42,6 +42,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "740876ab_797d12c6",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-10T11:11:55Z",
+      "side": 1,
+      "message": "It\u0027s intentionally saying \u0027commit\u0027 here. This mitigation is about amending the fetched commit locally. But when you want to make a follow-up commit/change it needs to be based on the original patch set commit, not the amended commit (note the amended commit would still belong to the same change has it as the same change ID, even if it wasn\u0027t uploaded yet).\n\nYou right that something is wrong here. In any case they \u0027fetch\u0027 the original commit, but if users want to make a follow-up commit/change, they need to \u0027keep\u0027 the original commit.\n\nFixed that.",
+      "parentUuid": "dd416a88_c74bfcc0",
+      "range": {
+        "startLine": 412,
+        "startChar": 62,
+        "endLine": 412,
+        "endChar": 68
+      },
+      "revId": "6cf41a155480c6d997e7f5299b730420a4542059",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e1ae2b08_d4d278dc",
@@ -55,6 +79,30 @@
       "writtenOn": "2025-04-10T10:56:40Z",
       "side": 1,
       "message": "do you mean a change on top of the current change?",
+      "range": {
+        "startLine": 414,
+        "startChar": 20,
+        "endLine": 414,
+        "endChar": 36
+      },
+      "revId": "6cf41a155480c6d997e7f5299b730420a4542059",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1381300_273f3d55",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 414,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-10T11:11:55Z",
+      "side": 1,
+      "message": "Yes, a follow-up change is a change that depends on another change.",
+      "parentUuid": "e1ae2b08_d4d278dc",
       "range": {
         "startLine": 414,
         "startChar": 20,
@@ -102,6 +150,30 @@
           ]
         }
       ],
+      "revId": "6cf41a155480c6d997e7f5299b730420a4542059",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81016ead_beeb3e0e",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-04-10T11:11:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "673cd2d6_6d3bc593",
+      "range": {
+        "startLine": 416,
+        "startChar": 24,
+        "endLine": 416,
+        "endChar": 29
+      },
       "revId": "6cf41a155480c6d997e7f5299b730420a4542059",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
