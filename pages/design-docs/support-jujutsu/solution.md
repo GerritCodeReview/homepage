@@ -131,11 +131,31 @@ toc: false
 
 ## <a id="alternatives-considered"> Alternatives Considered
 
+* On cherry-pick store information about the source change in NoteDb (when the
+  cherry-pick is done via the Gerrit API or by push from a Git client we know
+  the source change from the Gerrit Change-Id, when a cherry-pick is done in
+  Jujutsu Jujutsu considered to record the source commit in a Git commit header
+  that we could read on push). The recorded information could be used to track
+  cherry-picks across branches.
+
+  * Tracking cherry-picks separately is needed if Jujutsu doesn't preserve the
+    change ID on cherry-pick. When discussing the idea of supporting change ID's
+    in Git, it was concluded that Git should preserve the change ID on
+    cherry-pick (see [below](#git-does-not-preserve-jj-change-ids)). To align
+    with this Jujutsu intends to add an option to their `duplicate` command that
+    lets users control if they want a new change ID or the old one. This way
+    Jujutsu users can preserve the change ID on cherry-pick and tracking
+    cherry-picks separately in Gerrit is not needed.
+
 * Have a 2-part change ID where the first part is preserved on cherry-pick and
   the second part is unique:
 
-  Having a dedicated commit header to track the source of a cherry-pick looks
-  like a cleaner solution.
+  Since Jujutsu intends to add an option to their `duplicate` command that
+  preserves the Change ID, there is no need for a 2-part change ID.
+
+  If Jujutsu would not preserve the change ID on cherry-pick we would prefer
+  having a dedicated commit header to track the source of a cherry-pick, as
+  this looks like a cleaner solution.
 
 * Let users use `git cherry-pick -x` to do cherry-picks locally to include
   "(cherry picked from commit ...)" into the commit message footer section and
@@ -179,22 +199,6 @@ toc: false
     any change. Fixing that (e.g. recognize that the base change is the amended
     version of an existing change and rebase the new commit onto the original
     commit) is error-prone and adds too much complexity.
-
-* On cherry-pick store information about the source change in NoteDb (when the
-  cherry-pick is done via the Gerrit API or by push from a Git client we know
-  the source change from the Gerrit Change-Id, when a cherry-pick is done in
-  Jujutsu Jujutsu considered to record the source commit in a Git commit header
-  that we could read on push). The recorded information could be used to track
-  cherry-picks across branches.
-
-  * Tracking cherry-picks separately is needed if Jujutsu doesn't preserve the
-    change ID on cherry-pick. When discussing the idea of supporting change ID's
-    in Git, it was concluded that Git should preserve the change ID on
-    cherry-pick (see [below](#git-does-not-preserve-jj-change-ids)). To align
-    with this Jujutsu intends to add an option to their `duplicate` command that
-    lets users control if they want a new change ID or the old one. This way
-    Jujutsu users can preserve the change ID on cherry-pick and tracking
-    cherry-picks separately in Gerrit is not needed.
 
 ## <a id="compatibility"> Compatibility between users that use native Git and users that use Jujutsu
 
