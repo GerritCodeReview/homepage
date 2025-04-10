@@ -81,8 +81,8 @@ code. The workflows to craft changes in Jujutsu look very compatible with
 Gerrit (e.g check this
 [video tutorial](https://www.youtube.com/watch?v=dwyMlLYIrPk)). In particular,
 they identify changes and reviews by a change ID, which looks conceptually
-similar to the Gerrit Change-Id. Supporting Jujutsu change ID's can elimate the
-need to install the
+similar to the Gerrit Change-Id. Supporting Jujutsu change ID's can eliminate
+the need to install the
 [commit-msg hook](https://gerrit-review.googlesource.com/Documentation/cmd-hook-commit-msg.html)
 which is a constant source of confusion, at least for new Gerrit users.
 
