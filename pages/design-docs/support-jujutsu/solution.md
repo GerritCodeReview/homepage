@@ -77,7 +77,7 @@ toc: false
 
 * Jujutsu preserves the `change-id` commit header on cherry-pick:
 
-  The Jujutsu team intends to an option to their `duplicate` command that lets
+  The Jujutsu team intends to add an option to their `duplicate` command that lets
   users control if they want a new change ID or the old one. This way users are
   in control to preserve the change ID when cherry-picking changes to other
   branches in Jujutsu.
@@ -191,7 +191,7 @@ toc: false
     change ID on cherry-pick. When discussing the idea of supporting change ID's
     in Git, it was concluded that Git should preserve the change ID on
     cherry-pick (see [below](#git-does-not-preserve-jj-change-ids)). To align
-    with this Jujutsu intends to an option to their `duplicate` command that
+    with this Jujutsu intends to add an option to their `duplicate` command that
     lets users control if they want a new change ID or the old one. This way
     Jujutsu users can preserve the change ID on cherry-pick and tracking
     cherry-picks separately in Gerrit is not needed.
@@ -461,7 +461,7 @@ consider changing this (see
 The conclusion seems to be that the Git team is open to support a `change-id`
 commit header that is preserved on rebase and cherry-pick (see this
 [summary](https://lore.kernel.org/git/Z_OGMb-1oV0Ex05e@pks.im/T/#m2e6a57d8aeefd3146c7632e89dc36e2a0a8f68ba)).
-This means that the behaviour for change ID's in Git would be the exactly the
+This means that the behaviour for change ID's in Git would be exactly the
 same as it is for Gerrit Change-Id footers today (they are preserved on amend,
 rebase and cherry-pick). This solves the [compatibility issues](#compatibility)
 for us.
@@ -482,4 +482,3 @@ Main tasks (not an exhaustive list):
 
 At this point no work on implementing this is planned yet. The Gerrit team at
 Google may pick this up in Q3.
-
