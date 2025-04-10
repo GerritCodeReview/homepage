@@ -384,10 +384,10 @@ Thoughts on addressing/mitigating this:
   the change was uploaded from Jujutsu saying that Jujutsu must be used to
   rework/rebase/cherry-pick it.
 
-* [BEST MITIGATION] The first step for human users to rework/rebase/cherry-pick
-  a change from someone else is to fetch it from Gerrit. For this users copy a
-  download command from the Gerrit change screen. We could change the commands
-  there or add new ones if we find a command that mitigates the issues.
+* The first step for human users to rework/rebase/cherry-pick a change from
+  someone else is to fetch it from Gerrit. For this users copy a download
+  command from the Gerrit change screen. We could change the commands there or
+  add new ones if we find a command that mitigates the issues.
 
   * For example Matthias Sohn suggested the following command which amends the
     fetched commit locally to copy the Jujutsu change ID from the commit header
@@ -405,7 +405,18 @@ Thoughts on addressing/mitigating this:
     > Note: Depending on their use case users need to use a download command
     > that fetches the original commit (to push a follow-up change) or the
     > amended commit (to rework/rebase/cherry-pick the change). We would need to
-    > explain that in the Downloads commands popoup.
+    > explain that in the Downloads commands popoup and users would need to make
+    > the right choice.
+
+    > Note: There is a case where this doesn't work well. If a users wants to
+    > make a follow-up change they need to keep the original commit, that only
+    > has the Jujutsu change ID, so that this change doesn't get updated when
+    > they push a follow-up commit to create a follow-up change. However if
+    > later they decide to rebase their change including the base change of the
+    > other user, rebasing that base commit would lose its change ID and pushing
+    > the rebased series would not work. Hence this mitigation is not really
+    > helping much.
+
 
 * Teams that disallow uploading patch sets to changes of other users are less
   affected since reworking/rebasing changes of other users is not possible, but
