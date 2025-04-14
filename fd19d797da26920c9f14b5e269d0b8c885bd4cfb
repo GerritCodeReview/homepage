@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bd8326f_ca7ab020",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 411,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-04-14T06:12:23Z",
+      "side": 1,
+      "message": "```suggestion\n    \u003e Note: There is a case where this doesn\u0027t work well. If users wants to\n```",
+      "revId": "fd19d797da26920c9f14b5e269d0b8c885bd4cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5a015f3_54edec25",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-04-14T06:12:23Z",
+      "side": 1,
+      "message": "```suggestion\n    \u003e other user, rebasing that base commit would loose its change ID and pushing\n```",
+      "revId": "fd19d797da26920c9f14b5e269d0b8c885bd4cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
