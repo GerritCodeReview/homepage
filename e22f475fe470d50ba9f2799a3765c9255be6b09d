@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4011d946_4e59bae0",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 545,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-23T20:37:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "364b1559_94496266",
+      "range": {
+        "startLine": 545,
+        "startChar": 3,
+        "endLine": 545,
+        "endChar": 19
+      },
+      "revId": "e22f475fe470d50ba9f2799a3765c9255be6b09d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "330245f7_61debff5",
@@ -41,6 +65,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b922bf9e_e12569eb",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 546,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-23T20:37:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "330245f7_61debff5",
+      "revId": "e22f475fe470d50ba9f2799a3765c9255be6b09d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "69de6eaf_f9c45a22",
@@ -54,6 +96,30 @@
       "writtenOn": "2025-04-23T17:44:39Z",
       "side": 1,
       "message": "Can we just use their _first + last_ instead?",
+      "range": {
+        "startLine": 548,
+        "startChar": 0,
+        "endLine": 555,
+        "endChar": 16
+      },
+      "revId": "e22f475fe470d50ba9f2799a3765c9255be6b09d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea493426_651dd7f6",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 555,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-04-23T20:37:25Z",
+      "side": 1,
+      "message": "I\u0027ve used the author name.",
+      "parentUuid": "69de6eaf_f9c45a22",
       "range": {
         "startLine": 548,
         "startChar": 0,
