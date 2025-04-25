@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "080ee6af_67f7af4f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 508,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-04-25T13:08:49Z",
+      "side": 1,
+      "message": "```suggestion\n  Update jgit from stable-6.10 (e328d203f) to servlet-4 branch (7a46fa6f8)\n  which follows the jgit master branch with servlet-api downported to 4.0.4.\n```",
+      "revId": "1780fb199e97932d2a2fb740931b928dc915419e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18c4bc46_0facdecf",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 525,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-04-25T13:08:49Z",
+      "side": 1,
+      "message": "```suggestion\n- c2a8e0026 midx: reader for the multipack index\n- 4a5dfce0d SystemReader: Add support for XDG_CACHE_HOME\n- e2ddcc969 TreeRevFilter: enable Bloom Filter usage with ChangedPathTreeFilter\n- 52dc9fdd0 BlameGenerator: Use cache only for candidates modifying the path\n- ac5146ffb FileReftableStack: use FileSnapshot to detect modification\n- 1ff9c2a1c FileReftableDatabase: consider ref updates by another process\n- 68f454af4 DescribeCommand: Add exclusion matches using setExclude()\n- 8720b352a Insert the Change-Id at the end of the footer block\n- 70a3131d6 Update Change-Id insertion logic to insert after footers\n- bec51e7d7 pgm.MultiPackIndex: CLI command to write/print the multipack index\n- 871c5e177 BlameGenerator: cache and reuse blame results\n- 2d8777536 Downgrade from servlet-api 6.1.0 to 4.0.4\n- c625d67f8 URIish: fix stack overflow in regex matching\n- e9f43b6c1 midx.MultiPackIndexPrettyPrinter: pretty printer to debug multi pack index\n- 072e93fde midx.MultiPackIndexWriter: a writer for the multipack index format\n- 4c4bef885 DirCacheCheckout.preScanOneTree: consider mode bits\n- f41253804 Merge: improve handling of case-variants\n- ff3a15049 Improve configuration of trusting file attributes in FileSnapshot\n- a86e2a7d7 Config: add getters for primitive types without default value\n- 772ee0e5f Log pruned packfiles as debug and not warn logs\n- 32b9a9523 Submodules: Update submodule with deleted worktree\n- 7b8ddc2ce RefDatabase#getReflogReader(String): use #exactRef to resolve refName\n- fda44a444 Add RefDatabase#getReflogReader methods\n- e9094fffd RevertCommand: use only first line in revert commit message\n- df7810957 Submodules: use relative paths for worktree and gitdir\n- bd57a19fa TreeWalk: Make a null check before dereferencing the config variable.\n- 6fa28d767 Add pack-refs command to the CLI\n- 307ef6b4b GitTimeParser: A date parser using the java.time API\n- ba905906c Change default similarity score to 50(%) to match git\u0027s default\n- b2accb0e9 GPG: use bouncycastle PGP secret key parsing out of the box\n- d1a14b8ff SSH signing: implement a SignatureVerifier\n- c9958e9b7 SSH signing: implement a Signer\n- 4902b2baf Add `numberOfPackFilesAfterBitmap` to RepoStatistics\n- 1519c1479 Align request policies with CGit\n- 0155f8bf6 RevolveMerger: honor ignoreConflicts also for binary files\n- 1332b5156 Record failing paths in recursive merge.\n- 0fd76114e Replace custom encoder Constants#encodeASCII by JDK implementation\n- e5d289899 Replace custom encoder `Constants#encode` by JDK implementation\n- 9fec73970 Do not set headers if response is already committed\n- a78e6eaef Signing: refactor interfaces\n- 81199f02f Lib: Fix ssh value for gpg.format throwing an IllegalArgumentException\n- f9beeb3b3 Add worktrees read support\n- 47fd412af RepoProject: read the \u0027dest-branch\u0027 attribute of a project\n- 48465f840 RepoCommand: Copy manifest upstream into .gitmodules ref field\n- 1dd6324d4 RepoProject: read the \"upstream\" attribute of a project\n```",
+      "range": {
+        "startLine": 515,
+        "startChar": 0,
+        "endLine": 525,
+        "endChar": 54
+      },
+      "revId": "1780fb199e97932d2a2fb740931b928dc915419e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
