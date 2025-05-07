@@ -16,6 +16,29 @@
       "message": "Fuck",
       "revId": "08dfb9c0f19fa13df92a5ae77041406ce2a433e3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "655e9d20_063ec023",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-05-07T07:33:53Z",
+      "side": 1,
+      "message": "Shall we reach out to him and ask his real name? (if he wants to share it)\n\nI would not be nice to have a release where you know an _unknown Odd Man_ has put some code on it ...",
+      "range": {
+        "startLine": 84,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 9
+      },
+      "revId": "08dfb9c0f19fa13df92a5ae77041406ce2a433e3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
