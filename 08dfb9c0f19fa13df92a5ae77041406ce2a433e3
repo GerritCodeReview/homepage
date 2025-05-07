@@ -63,6 +63,30 @@
       },
       "revId": "08dfb9c0f19fa13df92a5ae77041406ce2a433e3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3882983d_773ff3c4",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-05-07T09:41:11Z",
+      "side": 1,
+      "message": "On the ruby-core list he is using the first name Pavel, so we could guess his name might be Pavel Valodzka.\nhttps://public-inbox.org/ruby-core/cc74dba1-0363-44c5-bab8-51fd0b77d193@z1g2000yqn.googlegroups.com/",
+      "parentUuid": "d64ef676_b2243c5f",
+      "range": {
+        "startLine": 84,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 9
+      },
+      "revId": "08dfb9c0f19fa13df92a5ae77041406ce2a433e3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
