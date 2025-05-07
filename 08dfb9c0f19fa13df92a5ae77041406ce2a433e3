@@ -39,6 +39,30 @@
       },
       "revId": "08dfb9c0f19fa13df92a5ae77041406ce2a433e3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d64ef676_b2243c5f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-05-07T09:11:19Z",
+      "side": 1,
+      "message": "We could use a combination of name/email. The reason I haven\u0027t done this is because it looks like a few people that have already contributed in the past contributed with a new email for Gerrit 3.12.\n\nIf we did the unique combination of name/email, we\u0027d get the following list:\n```\nAllen Li \u003cayatane@chromium.org\u003e\nFabio Ponciroli \u003cPonch78@gmail.com\u003e\nFredde Ribeiro \u003cfredde@google.com\u003e\nJade Lovelace \u003clists@jade.fyi\u003e\nJohn Soo \u003cjohh.soo@arista.com\u003e\nMartin Fick US \u003cmfick@nvidia.com\u003e\nOdd Man \u003cvalodzka@gmail.com\u003e\nPrakash Aswal \u003cpaswal@qti.qualcomm.com\u003e\nTran Tuan Khai Phan \u003ctrantuankhaiphan@Trans-MacBook-Air.local\u003e\nYash Chaturvedi \u003cyash.chaturvedi@oss.qualcomm.com\u003e\nZhechen Yan \u003czcyan@google.com\u003e\nnarendra kumar \u003cnknkchoudhary@gmail.com\u003e\n```",
+      "parentUuid": "655e9d20_063ec023",
+      "range": {
+        "startLine": 84,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 9
+      },
+      "revId": "08dfb9c0f19fa13df92a5ae77041406ce2a433e3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
