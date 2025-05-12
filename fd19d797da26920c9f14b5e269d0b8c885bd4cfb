@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f528ae30_b6786401",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 411,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-05-12T11:18:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5bd8326f_ca7ab020",
+      "revId": "fd19d797da26920c9f14b5e269d0b8c885bd4cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a5a015f3_54edec25",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-04-14T06:12:23Z",
       "side": 1,
       "message": "```suggestion\n    \u003e other user, rebasing that base commit would loose its change ID and pushing\n```",
+      "revId": "fd19d797da26920c9f14b5e269d0b8c885bd4cfb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0178fa93_017aa429",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2025-05-12T11:18:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a5a015f3_54edec25",
       "revId": "fd19d797da26920c9f14b5e269d0b8c885bd4cfb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
