@@ -39,6 +39,24 @@
       "message": "Oh whoops. Sorry about that!",
       "revId": "11533390ffeb25b383fb16c4ae7cc3ae84ef79a8",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "579d40ea_b61ca869",
+        "filename": "_posts/2025-03-26-gerrit-3.12-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-05-12T11:44:14Z",
+      "side": 1,
+      "message": "Not at all, it wasn\u0027t you submitting the merge and we would have done it anyway to include https://gerrit-review.googlesource.com/c/gerrit/+/473702, thanks for cherry-picking that one  😊",
+      "parentUuid": "86ff2ede_ffa37ca6",
+      "revId": "11533390ffeb25b383fb16c4ae7cc3ae84ef79a8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
