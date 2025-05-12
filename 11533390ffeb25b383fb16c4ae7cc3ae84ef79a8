@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "047e3b98_f1e12a2c",
+        "filename": "_posts/2025-03-26-gerrit-3.12-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-05-12T11:44:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d17d5b8c_26f9d6c8",
+      "range": {
+        "startLine": 23,
+        "startChar": 6,
+        "endLine": 23,
+        "endChar": 8
+      },
+      "revId": "11533390ffeb25b383fb16c4ae7cc3ae84ef79a8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "86ff2ede_ffa37ca6",
         "filename": "_posts/2025-03-26-gerrit-3.12-release-plan.md",
         "patchSetId": 1
