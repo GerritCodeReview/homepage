@@ -22,6 +22,30 @@
       },
       "revId": "603e51cb77ce3fa36376d1c2463f63317d5ca1fb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9283d3d8_f31b12f1",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-05-14T19:46:15Z",
+      "side": 1,
+      "message": "It \"breaks\" the previous expectations around repository visibility. See the NOTE on L260 below.",
+      "parentUuid": "f604a2f2_f55ee8bc",
+      "range": {
+        "startLine": 248,
+        "startChar": 0,
+        "endLine": 250,
+        "endChar": 41
+      },
+      "revId": "603e51cb77ce3fa36376d1c2463f63317d5ca1fb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
