@@ -17,5 +17,5 @@ that we had on Discord (special thanks to Remo and Martin from the Jujutsu team
 to reach out to us, answer our questions and find solutions together with us).
 
 * [Use Cases](/design-docs/support-jujutsu-use-cases.html)
-* [Solution - Threaded Feedback](/design-docs/support-jujutsu-solution.html)
+* [Solution](/design-docs/support-jujutsu-solution.html)
 * [Conclusion](/design-docs/support-jujutsu-conclusion.html)
