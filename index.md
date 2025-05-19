@@ -68,7 +68,7 @@ toc: false
                 <div class="panel-body">
                     <h4>Download</h4>
                     <p>Our latest release is:<br>
-                    <b><a href="3.11.html">3.12.0</a></b>
+                    <b><a href="3.12.html">3.12.0</a></b>
                     </p>
                     <a href="https://gerrit-releases.storage.googleapis.com/gerrit-3.12.0.war" class="btn btn-primary">Download</a>
                 </div>
