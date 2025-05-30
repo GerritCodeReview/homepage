@@ -16,6 +16,24 @@
       "message": "This change has broken the build of the homepage; it now fails with the following error:\n\n```\n+ bundle install\nWarning: the running version of Bundler (2.2.5) is older than the version that created the lockfile (2.6.3). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.6.3`.\nFetching gem metadata from https://rubygems.org/..........\nYour bundle is locked to ffi (1.17.2-x86_64-linux-musl), but that version could\nnot be found in any of the sources listed in your Gemfile. If you haven\u0027t\nchanged sources, that means the author of ffi (1.17.2-x86_64-linux-musl) has\nremoved it. You\u0027ll need to update your bundle to a version other than ffi\n(1.17.2-x86_64-linux-musl) that hasn\u0027t been removed in order to install.\n```",
       "revId": "7dd4347aee9705aaf21318121fe4874767922420",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f1a5e5d_44e3f4cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-05-30T21:04:00Z",
+      "side": 1,
+      "message": "it worked for me on MacOS 15.5",
+      "parentUuid": "5250082b_5f3a675f",
+      "revId": "7dd4347aee9705aaf21318121fe4874767922420",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
