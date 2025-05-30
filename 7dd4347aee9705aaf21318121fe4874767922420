@@ -52,6 +52,24 @@
       "parentUuid": "8f1a5e5d_44e3f4cc",
       "revId": "7dd4347aee9705aaf21318121fe4874767922420",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fba5c02f_ea351836",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-05-30T23:57:52Z",
+      "side": 1,
+      "message": "@luca.milanesio@gmail.com it took some iteration, but this now works correctly in 447882: Upgrade agent-jekyll to bookworm | https://gerrit-review.googlesource.com/c/gerrit-ci-scripts/+/447882",
+      "parentUuid": "9198a2cd_9975f00e",
+      "revId": "7dd4347aee9705aaf21318121fe4874767922420",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
