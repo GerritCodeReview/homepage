@@ -76,7 +76,7 @@ The support status of all recent Gerrit versions is
 
 [Release notes for Gerrit 3.10](/3.10.html)
 
-## 3.9
+## 3.9 (EOL)
 
 * Java 17
 
