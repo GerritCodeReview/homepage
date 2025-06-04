@@ -428,6 +428,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "50897c2d_e0f3d6de",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-06-04T08:42:50Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "28d1eba4_81eaeb85",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3c1f45bc_67e7861b",
@@ -611,6 +629,24 @@
       "side": 1,
       "message": "It might however have an issue with the following scenario:\n\n1) The existing configuration allows a max lifetime of 90d.\n2) Admins want to enforce a maximum lifetime of 30d.\n3) Admins set a new expiry date 30d from now in the gerrit.config\n4) All tokens that have an expiry date after that date would use the configured one.\n5) But what of passwords created after the configuration was applied with a lifetime of 30d, which would expire after the configured date, but have a valid lifetime.\n\nThus, I fear a rewrite in notedb is not avoidable. However, a typical site has a manageable number of accounts and I believe that a background job could do the migration asynchronously without affecting performance significantly. I would thus suggest to implement such a background job for online migration that can be configured, similar to the process to migrate to case insensitive usernames.",
       "parentUuid": "24b3e3aa_e2129d4f",
+      "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f4d91f6_3780d8e7",
+        "filename": "pages/design-docs/multiple-http-passwords-with-lifetime/solution.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1065256
+      },
+      "writtenOn": "2025-06-04T08:42:50Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "3c068fc4_d9f70a16",
       "revId": "7a155a9e747231fcd4a82ff6a0615b5bd7ee0707",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
