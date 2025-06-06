@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b99a03d1_31a322e9",
+        "filename": "_posts/2025-06-05-community-manager-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-06-06T17:56:06Z",
+      "side": 1,
+      "message": "```suggestion\n[Gerrit](https://gerrit-review.googlesource.com) itself.\n```",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 19
+      },
+      "revId": "502f6c253eeba316f3da53933de6924aff333d6f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
