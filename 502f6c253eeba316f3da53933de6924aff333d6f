@@ -46,6 +46,30 @@
       },
       "revId": "502f6c253eeba316f3da53933de6924aff333d6f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ca5598b_0fd20ee4",
+        "filename": "_posts/2025-06-05-community-manager-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-06-06T18:13:59Z",
+      "side": 1,
+      "message": "Oh, I see, you meant Gerrit the app, not gerrit-review the instance of Gerrit. Yeah, I agree, both are relevant.",
+      "parentUuid": "a3f61298_87be33b5",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 19
+      },
+      "revId": "502f6c253eeba316f3da53933de6924aff333d6f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
