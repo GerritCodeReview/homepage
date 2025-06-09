@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "199ec6d3_42fb6d06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-06-09T16:12:18Z",
+      "side": 1,
+      "message": "I have tested this without NFS and I don\u0027t see any occurence of the problem:\n\n```\n grep \u0027java.nio.channels.ClosedChannelException\u0027 error_log\n $ # no results here\n ```",
+      "parentUuid": "aeb6cee7_4b6e5ef4",
+      "revId": "29cd18d5ea05ea3f913e077395776a7692abae06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9f78d2b2_047517f0",
@@ -55,6 +73,30 @@
       "side": 1,
       "message": "I will try to reproduce it without NFS and update the related-issue accordingly.",
       "parentUuid": "9f78d2b2_047517f0",
+      "range": {
+        "startLine": 198,
+        "startChar": 37,
+        "endLine": 198,
+        "endChar": 75
+      },
+      "revId": "29cd18d5ea05ea3f913e077395776a7692abae06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bab5708c_1144cfbe",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-06-09T16:12:18Z",
+      "side": 1,
+      "message": "I can only reproduce this over NFS.",
+      "parentUuid": "9cfa4ee0_17fbbf68",
       "range": {
         "startLine": 198,
         "startChar": 37,
