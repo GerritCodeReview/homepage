@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f78d2b2_047517f0",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-06-09T07:27:14Z",
+      "side": 1,
+      "message": "Are you sure this is NFS-related? Can you reproduce the issue outside the NFS storage?",
+      "range": {
+        "startLine": 198,
+        "startChar": 37,
+        "endLine": 198,
+        "endChar": 75
+      },
+      "revId": "29cd18d5ea05ea3f913e077395776a7692abae06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d0de812_cd631efe",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-06-09T07:27:14Z",
+      "side": 1,
+      "message": "Same as above: *IF* the issue happens also without NFS, we should suggest to *NOT* use `reftable` for now, until the issue is either clarified or resolved.",
+      "range": {
+        "startLine": 200,
+        "startChar": 23,
+        "endLine": 200,
+        "endChar": 26
+      },
+      "revId": "29cd18d5ea05ea3f913e077395776a7692abae06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
