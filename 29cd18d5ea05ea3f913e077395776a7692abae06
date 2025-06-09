@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "aeb6cee7_4b6e5ef4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-06-09T07:33:29Z",
+      "side": 1,
+      "message": "Please hold this, until I shed some light on whether it can be reproduced also without NFS.",
+      "revId": "29cd18d5ea05ea3f913e077395776a7692abae06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9f78d2b2_047517f0",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 1
@@ -26,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9cfa4ee0_17fbbf68",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-06-09T07:33:29Z",
+      "side": 1,
+      "message": "I will try to reproduce it without NFS and update the related-issue accordingly.",
+      "parentUuid": "9f78d2b2_047517f0",
+      "range": {
+        "startLine": 198,
+        "startChar": 37,
+        "endLine": 198,
+        "endChar": 75
+      },
+      "revId": "29cd18d5ea05ea3f913e077395776a7692abae06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8d0de812_cd631efe",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 1
@@ -37,6 +78,30 @@
       "writtenOn": "2025-06-09T07:27:14Z",
       "side": 1,
       "message": "Same as above: *IF* the issue happens also without NFS, we should suggest to *NOT* use `reftable` for now, until the issue is either clarified or resolved.",
+      "range": {
+        "startLine": 200,
+        "startChar": 23,
+        "endLine": 200,
+        "endChar": 26
+      },
+      "revId": "29cd18d5ea05ea3f913e077395776a7692abae06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee58be8f_860103f1",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-06-09T07:33:29Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "8d0de812_cd631efe",
       "range": {
         "startLine": 200,
         "startChar": 23,
