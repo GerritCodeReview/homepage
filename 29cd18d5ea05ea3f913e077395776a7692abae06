@@ -36,6 +36,23 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "59fc57a5_3f456469",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4132464
+      },
+      "writtenOn": "2025-06-09T18:16:32Z",
+      "side": 1,
+      "message": "$ repo sync -c -j8",
+      "revId": "29cd18d5ea05ea3f913e077395776a7692abae06",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9f78d2b2_047517f0",
