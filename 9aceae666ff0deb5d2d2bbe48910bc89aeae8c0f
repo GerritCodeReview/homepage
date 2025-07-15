@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "25893fa9_e0ac5995",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-15T20:52:32Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "cfb11d4f_92a3bd61",
+      "range": {
+        "startLine": 649,
+        "startChar": 2,
+        "endLine": 649,
+        "endChar": 6
+      },
+      "revId": "9aceae666ff0deb5d2d2bbe48910bc89aeae8c0f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ee17bdd7_79c41ec0",
@@ -41,6 +65,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9d91caf_c35d647d",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-15T20:52:32Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ee17bdd7_79c41ec0",
+      "revId": "9aceae666ff0deb5d2d2bbe48910bc89aeae8c0f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e055ec47_f2095a50",
@@ -54,6 +96,24 @@
       "writtenOn": "2025-07-15T20:49:31Z",
       "side": 1,
       "message": "```suggestion\n    Fixed an issue with a comment\u0027s resolved flag not updating\n```",
+      "revId": "9aceae666ff0deb5d2d2bbe48910bc89aeae8c0f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7952f13_862d5c25",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 674,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-15T20:52:32Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e055ec47_f2095a50",
       "revId": "9aceae666ff0deb5d2d2bbe48910bc89aeae8c0f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
