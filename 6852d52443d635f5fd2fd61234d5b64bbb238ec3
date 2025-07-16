@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "266e5f3a_8226a0b0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-07-16T13:50:30Z",
+      "side": 1,
+      "message": "3.11.4",
+      "range": {
+        "startLine": 7,
+        "startChar": 33,
+        "endLine": 7,
+        "endChar": 39
+      },
+      "revId": "6852d52443d635f5fd2fd61234d5b64bbb238ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79d3964a_c79e0694",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-07-16T13:50:30Z",
+      "side": 1,
+      "message": "bump to 3.11.4",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 88
+      },
+      "revId": "6852d52443d635f5fd2fd61234d5b64bbb238ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
