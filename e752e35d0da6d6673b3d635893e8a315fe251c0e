@@ -16,6 +16,29 @@
       "message": "Download links don\u0027t work yet.",
       "revId": "e752e35d0da6d6673b3d635893e8a315fe251c0e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df570d78_d5404c60",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 670,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-07-16T15:41:21Z",
+      "side": 1,
+      "message": "Remove this blank line?\n\n```suggestion\n    Fixed project list cache data race due to Caffeine issue\n```",
+      "range": {
+        "startLine": 669,
+        "startChar": 0,
+        "endLine": 670,
+        "endChar": 60
+      },
+      "revId": "e752e35d0da6d6673b3d635893e8a315fe251c0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
