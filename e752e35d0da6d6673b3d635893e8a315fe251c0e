@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b6a48c5_8387e000",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-16T21:11:11Z",
+      "side": 1,
+      "message": "Apologies, my bad. Have now added them in. Thanks for pointing it out.",
+      "parentUuid": "bbb46f2e_c6f7d385",
+      "revId": "e752e35d0da6d6673b3d635893e8a315fe251c0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e6dd4527_47c00366",
@@ -48,6 +66,30 @@
       "writtenOn": "2025-07-16T20:40:36Z",
       "side": 1,
       "message": "From v3.10.6 to stable-3.10 jgit bumps from e328d2 to 3f3f3b5",
+      "range": {
+        "startLine": 653,
+        "startChar": 15,
+        "endLine": 653,
+        "endChar": 24
+      },
+      "revId": "e752e35d0da6d6673b3d635893e8a315fe251c0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d8e89d1_5cb5fd49",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 653,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-16T21:11:11Z",
+      "side": 1,
+      "message": "So JGit has been bumped a few times, wasn\u0027t sure which bump to pick and went with the one that we definitely wanted to highlight.\n\nLet me just put a list of all commits for jgit. It\u0027ll be clearer",
+      "parentUuid": "e6dd4527_47c00366",
       "range": {
         "startLine": 653,
         "startChar": 15,
@@ -81,6 +123,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "38d3742a_d453cbe8",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 670,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-16T21:11:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df570d78_d5404c60",
+      "range": {
+        "startLine": 669,
+        "startChar": 0,
+        "endLine": 670,
+        "endChar": 60
+      },
+      "revId": "e752e35d0da6d6673b3d635893e8a315fe251c0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "98c2bc0e_57be92fd",
@@ -94,6 +160,30 @@
       "writtenOn": "2025-07-16T20:40:36Z",
       "side": 1,
       "message": "Looks like replication plugin was bumped to: 5be3cc55304ebdef853fb43ec184a51f59fdf07f no?",
+      "range": {
+        "startLine": 710,
+        "startChar": 13,
+        "endLine": 710,
+        "endChar": 53
+      },
+      "revId": "e752e35d0da6d6673b3d635893e8a315fe251c0e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d595865c_836a6373",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 710,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-16T21:11:11Z",
+      "side": 1,
+      "message": "Same thought process that I had for jgit update, let me fix it in the same way",
+      "parentUuid": "98c2bc0e_57be92fd",
       "range": {
         "startLine": 710,
         "startChar": 13,
