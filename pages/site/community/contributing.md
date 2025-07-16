@@ -10,7 +10,7 @@ toc: false
 
 ### How can I contribute?
 
-The [How To Contribute](https://gerrit-documentation.storage.googleapis.com/Documentation/3.12.0/dev-community.html#how-to-contribute)
+The [How To Contribute](https://gerrit-documentation.storage.googleapis.com/Documentation/3.12.1/dev-community.html#how-to-contribute)
 section of the Gerrit documentation tells you all you need to know about
 developer setup, CLAs, how to propose new features to the community etc.
 
