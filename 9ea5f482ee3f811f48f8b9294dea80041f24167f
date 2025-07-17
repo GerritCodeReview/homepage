@@ -22,6 +22,30 @@
       },
       "revId": "9ea5f482ee3f811f48f8b9294dea80041f24167f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73518910_164aa428",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 813,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-07-17T22:09:49Z",
+      "side": 1,
+      "message": "This is probably due to [1].\nCan you remove the `XXX`, so we can merge it?\n\n[1] https://gerrit-review.googlesource.com/Documentation/user-submodules.html",
+      "parentUuid": "bb26d62d_5bb2bbfb",
+      "range": {
+        "startLine": 813,
+        "startChar": 4,
+        "endLine": 813,
+        "endChar": 14
+      },
+      "revId": "9ea5f482ee3f811f48f8b9294dea80041f24167f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
