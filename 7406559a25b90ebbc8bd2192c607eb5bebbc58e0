@@ -1,0 +1,343 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d8e3cae_3aa37805",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 679,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "Missing the `Notable changes are:` introduction, to let people know that the following list are the changes that may be relevant for the use with Gerrit Code Review.",
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "033a57c8_9942b55c",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 681,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These were merged and then reverted, not relevant to mention any of the two.",
+      "range": {
+        "startLine": 680,
+        "startChar": 0,
+        "endLine": 681,
+        "endChar": 49
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1e08746_5ffe170f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 682,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "This isn\u0027t relevant",
+      "range": {
+        "startLine": 682,
+        "startChar": 0,
+        "endLine": 682,
+        "endChar": 45
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4cf61b7c_ace73278",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 683,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "This isn\u0027t relevant",
+      "range": {
+        "startLine": 683,
+        "startChar": 0,
+        "endLine": 683,
+        "endChar": 43
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc4081c8_e4070cde",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 687,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These are not relevant",
+      "range": {
+        "startLine": 686,
+        "startChar": 0,
+        "endLine": 687,
+        "endChar": 42
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e819943_120933aa",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 706,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These are not relevant",
+      "range": {
+        "startLine": 700,
+        "startChar": 0,
+        "endLine": 706,
+        "endChar": 36
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a8cb24ae_89b51049",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 715,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These aren\u0027t relevant",
+      "range": {
+        "startLine": 708,
+        "startChar": 0,
+        "endLine": 715,
+        "endChar": 43
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "254c5116_53ab2c9f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 715,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These are not relevant",
+      "range": {
+        "startLine": 700,
+        "startChar": 0,
+        "endLine": 715,
+        "endChar": 43
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a118e5db_e4786422",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 719,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These dependencies do not impact Gerrit and may be misleading",
+      "range": {
+        "startLine": 718,
+        "startChar": 0,
+        "endLine": 719,
+        "endChar": 39
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c34509ad_92ea6787",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 722,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These aren\u0027t relevant",
+      "range": {
+        "startLine": 720,
+        "startChar": 0,
+        "endLine": 722,
+        "endChar": 43
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "41743dbc_e6f31e33",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 727,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These are not relevant",
+      "range": {
+        "startLine": 726,
+        "startChar": 0,
+        "endLine": 727,
+        "endChar": 42
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07c55d76_179872d3",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 740,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "These are not relevant",
+      "range": {
+        "startLine": 739,
+        "startChar": 0,
+        "endLine": 740,
+        "endChar": 37
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6bdf89c_a090e74f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 749,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "Missing `:` after the issue link. Here and all on the other items below.",
+      "range": {
+        "startLine": 747,
+        "startChar": 0,
+        "endLine": 749,
+        "endChar": 43
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d10c64c_23401bd8",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 780,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "The UI changes are typically in a separate section.",
+      "range": {
+        "startLine": 779,
+        "startChar": 0,
+        "endLine": 780,
+        "endChar": 39
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c702997b_b24719f8",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 797,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T12:44:29Z",
+      "side": 1,
+      "message": "This looks like a fix for concurrency issues?",
+      "range": {
+        "startLine": 795,
+        "startChar": 0,
+        "endLine": 797,
+        "endChar": 66
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
