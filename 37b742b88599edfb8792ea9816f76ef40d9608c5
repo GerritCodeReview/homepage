@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae6276fe_acf3eff9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-18T10:37:57Z",
+      "side": 1,
+      "message": "Thanks for spotting this, looks like some changes wehre merged in the last few days.",
+      "revId": "37b742b88599edfb8792ea9816f76ef40d9608c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c99aec11_cb65b291",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-07-18T10:37:57Z",
+      "side": 1,
+      "message": "Sure you don\u0027t need the third dot here?",
+      "range": {
+        "startLine": 794,
+        "startChar": 41,
+        "endLine": 794,
+        "endChar": 43
+      },
+      "revId": "37b742b88599edfb8792ea9816f76ef40d9608c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
