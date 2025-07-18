@@ -602,6 +602,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "26e38a93_36fa9456",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 749,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T14:18:24Z",
+      "side": 1,
+      "message": "Are you sure? See https://www.gerritcodereview.com/3.11.html or any other release.",
+      "parentUuid": "42a4f56c_6a4bcdc4",
+      "range": {
+        "startLine": 747,
+        "startChar": 0,
+        "endLine": 749,
+        "endChar": 43
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6d10c64c_23401bd8",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 11
@@ -637,6 +661,30 @@
       "side": 1,
       "message": "Seems more of a bug fix though?",
       "parentUuid": "6d10c64c_23401bd8",
+      "range": {
+        "startLine": 779,
+        "startChar": 0,
+        "endLine": 780,
+        "endChar": 39
+      },
+      "revId": "7406559a25b90ebbc8bd2192c607eb5bebbc58e0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6499d9e3_d9d3a419",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 780,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-07-18T14:18:24Z",
+      "side": 1,
+      "message": "Sure, but we tend to separate them between UI and the rest of Gerrit.",
+      "parentUuid": "dfd232e6_28a6422d",
       "range": {
         "startLine": 779,
         "startChar": 0,
