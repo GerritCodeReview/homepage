@@ -26,6 +26,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "758d62e7_f2e827b7",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T15:50:05Z",
+      "side": 1,
+      "message": "nit: `e.`",
+      "range": {
+        "startLine": 660,
+        "startChar": 70,
+        "endLine": 660,
+        "endChar": 71
+      },
+      "revId": "d123b4947cf3e8920337f5917e61040ef96d47ed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b49d7dbe_e7f24264",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 2
@@ -37,6 +60,30 @@
       "writtenOn": "2025-08-14T15:24:44Z",
       "side": 1,
       "message": "This part looks too detailed for release notes.",
+      "range": {
+        "startLine": 664,
+        "startChar": 14,
+        "endLine": 665,
+        "endChar": 31
+      },
+      "revId": "d123b4947cf3e8920337f5917e61040ef96d47ed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6e55da9_c230e0b8",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 665,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T15:50:05Z",
+      "side": 1,
+      "message": "What about: `Fixed ownerin:group_name submit requirements with internal groups failing due to blocked member expansion.`",
+      "parentUuid": "b49d7dbe_e7f24264",
       "range": {
         "startLine": 664,
         "startChar": 14,
@@ -65,6 +112,75 @@
         "startChar": 48,
         "endLine": 669,
         "endChar": 36
+      },
+      "revId": "d123b4947cf3e8920337f5917e61040ef96d47ed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1245ee12_6ce39095",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T15:50:05Z",
+      "side": 1,
+      "message": "rewind",
+      "range": {
+        "startLine": 672,
+        "startChar": 46,
+        "endLine": 672,
+        "endChar": 53
+      },
+      "revId": "d123b4947cf3e8920337f5917e61040ef96d47ed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e5e07c1_e8944890",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 677,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T15:50:05Z",
+      "side": 1,
+      "message": "What about: \"Enforced strictly increasing ref sequence values to prevent rare stale-read issues on NFS.\" I don\u0027t think it matters mentioning the implementation detail (NonIncrementingSequenceException) in the release notes.",
+      "range": {
+        "startLine": 674,
+        "startChar": 2,
+        "endLine": 677,
+        "endChar": 21
+      },
+      "revId": "d123b4947cf3e8920337f5917e61040ef96d47ed",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd0d7fc7_9459bf49",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 681,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T15:50:05Z",
+      "side": 1,
+      "message": "\"Fix alignement issue\"",
+      "range": {
+        "startLine": 681,
+        "startChar": 21,
+        "endLine": 681,
+        "endChar": 30
       },
       "revId": "d123b4947cf3e8920337f5917e61040ef96d47ed",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
