@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce788623_7f1a6a34",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:32:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6966dd6_63e61bb0",
+      "revId": "11fd4dc79d2a0ae9788a5c5a7a4262c92ee9d74b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ca7edf2d_38b63fde",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-08-14T18:19:58Z",
       "side": 1,
       "message": "Shall we add the link for 3.10.8? Or we do it later?",
+      "revId": "11fd4dc79d2a0ae9788a5c5a7a4262c92ee9d74b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c9076cc_a722a629",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:32:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca7edf2d_38b63fde",
       "revId": "11fd4dc79d2a0ae9788a5c5a7a4262c92ee9d74b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
