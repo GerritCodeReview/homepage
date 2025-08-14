@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b249bdf_e11eafcf",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6d3e2e9e_2a3950db",
+      "range": {
+        "startLine": 7,
+        "startChar": 29,
+        "endLine": 7,
+        "endChar": 33
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7d4f2ae0_af097a26",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-08-14T16:31:52Z",
       "side": 1,
       "message": "2",
+      "range": {
+        "startLine": 658,
+        "startChar": 9,
+        "endLine": 658,
+        "endChar": 10
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e47f4e5_aaec6dd9",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 658,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d4f2ae0_af097a26",
       "range": {
         "startLine": 658,
         "startChar": 9,
@@ -93,6 +141,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f696789c_7210bb4d",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2456430_6d0381af",
+      "range": {
+        "startLine": 672,
+        "startChar": 36,
+        "endLine": 672,
+        "endChar": 54
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fe17abb6_5db0c57f",
@@ -139,6 +211,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4f11914_3edf0578",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 695,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d063447b_e705b107",
+      "range": {
+        "startLine": 690,
+        "startChar": 2,
+        "endLine": 695,
+        "endChar": 0
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f6fde180_dfb92678",
@@ -152,6 +248,30 @@
       "writtenOn": "2025-08-14T16:31:52Z",
       "side": 1,
       "message": "What about: \"Enabled setNoLimit in the InternalQuery API, allowing the AllChangesIndexer to exponentially increase page size when scanning large result sets. This can significantly reduce the number of index queries (e.g., 200 pages down to 4 for 100K results).\"",
+      "range": {
+        "startLine": 700,
+        "startChar": 1,
+        "endLine": 708,
+        "endChar": 68
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "705408ae_f976f1c0",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 708,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f6fde180_dfb92678",
       "range": {
         "startLine": 700,
         "startChar": 1,
@@ -185,6 +305,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "68fb6828_8c4f027b",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 711,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b1496e9b_40c1de5d",
+      "range": {
+        "startLine": 710,
+        "startChar": 0,
+        "endLine": 711,
+        "endChar": 38
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6907d3f1_aeb61de6",
@@ -198,6 +342,30 @@
       "writtenOn": "2025-08-14T15:36:33Z",
       "side": 1,
       "message": "Can you move this to a `Documentation` section",
+      "range": {
+        "startLine": 713,
+        "startChar": 0,
+        "endLine": 714,
+        "endChar": 78
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2341a337_fc76b3c9",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 714,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:11:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6907d3f1_aeb61de6",
       "range": {
         "startLine": 713,
         "startChar": 0,
