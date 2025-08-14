@@ -3,6 +3,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6d3e2e9e_2a3950db",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T16:31:52Z",
+      "side": 1,
+      "message": "3.12.2",
+      "range": {
+        "startLine": 7,
+        "startChar": 29,
+        "endLine": 7,
+        "endChar": 33
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d4f2ae0_af097a26",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 658,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T16:31:52Z",
+      "side": 1,
+      "message": "2",
+      "range": {
+        "startLine": 658,
+        "startChar": 9,
+        "endLine": 658,
+        "endChar": 10
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "617c6755_a6d4e3a5",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 1
@@ -65,6 +111,52 @@
         "startChar": 49,
         "endLine": 690,
         "endChar": 56
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d063447b_e705b107",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 695,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T16:31:52Z",
+      "side": 1,
+      "message": "What about a more concise: \"Added a post-reindex cleanup step for the `--reuse` option to remove index entries without corresponding NoteDb changes. Cleanup runs per project, starting as soon as indexing for that project completes.\"",
+      "range": {
+        "startLine": 690,
+        "startChar": 2,
+        "endLine": 695,
+        "endChar": 0
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6fde180_dfb92678",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 708,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-08-14T16:31:52Z",
+      "side": 1,
+      "message": "What about: \"Enabled setNoLimit in the InternalQuery API, allowing the AllChangesIndexer to exponentially increase page size when scanning large result sets. This can significantly reduce the number of index queries (e.g., 200 pages down to 4 for 100K results).\"",
+      "range": {
+        "startLine": 700,
+        "startChar": 1,
+        "endLine": 708,
+        "endChar": 68
       },
       "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
