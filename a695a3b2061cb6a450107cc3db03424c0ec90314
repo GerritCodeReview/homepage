@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "25b6a82e_08d88545",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 712,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:07:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2782b35d_5b83bd63",
+      "range": {
+        "startLine": 708,
+        "startChar": 0,
+        "endLine": 712,
+        "endChar": 62
+      },
+      "revId": "a695a3b2061cb6a450107cc3db03424c0ec90314",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e8d4fca_d492fac7",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-08-14T15:55:51Z",
       "side": 1,
       "message": "nit: `state.`",
+      "range": {
+        "startLine": 715,
+        "startChar": 66,
+        "endLine": 715,
+        "endChar": 71
+      },
+      "revId": "a695a3b2061cb6a450107cc3db03424c0ec90314",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddb4a59e_cb86b33f",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 715,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:07:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e8d4fca_d492fac7",
       "range": {
         "startLine": 715,
         "startChar": 66,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "70d7deca_2d61411e",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 725,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:07:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "31718299_b0dc8a1c",
+      "range": {
+        "startLine": 718,
+        "startChar": 1,
+        "endLine": 725,
+        "endChar": 0
+      },
+      "revId": "a695a3b2061cb6a450107cc3db03424c0ec90314",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9277844b_51fc0646",
@@ -93,6 +165,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdaadeed_5cfdcab7",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 733,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:07:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9277844b_51fc0646",
+      "range": {
+        "startLine": 727,
+        "startChar": 1,
+        "endLine": 733,
+        "endChar": 0
+      },
+      "revId": "a695a3b2061cb6a450107cc3db03424c0ec90314",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5effd447_59719ece",
@@ -106,6 +202,30 @@
       "writtenOn": "2025-08-14T15:55:51Z",
       "side": 1,
       "message": "same as: https://gerrit-review.googlesource.com/c/homepage/+/498442/comment/cd0d7fc7_9459bf49/",
+      "range": {
+        "startLine": 736,
+        "startChar": 21,
+        "endLine": 736,
+        "endChar": 32
+      },
+      "revId": "a695a3b2061cb6a450107cc3db03424c0ec90314",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c16fbed_dc97ca18",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 736,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:07:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5effd447_59719ece",
       "range": {
         "startLine": 736,
         "startChar": 21,
