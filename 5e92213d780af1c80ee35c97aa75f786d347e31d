@@ -118,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "79b047e3_80d50dd1",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 664,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-14T18:31:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "617c6755_a6d4e3a5",
+      "range": {
+        "startLine": 663,
+        "startChar": 0,
+        "endLine": 664,
+        "endChar": 46
+      },
+      "revId": "5e92213d780af1c80ee35c97aa75f786d347e31d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b2456430_6d0381af",
