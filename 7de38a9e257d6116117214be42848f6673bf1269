@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3cc7387_cbd88053",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-08-14T19:39:02Z",
+      "side": 1,
+      "message": "@danielesassoli@gmail.com we have to change all references to 3.12.1, like in topnav. Can you search for all occurrences of 3.12.1 in the repo and update those too?",
+      "revId": "7de38a9e257d6116117214be42848f6673bf1269",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
