@@ -248,6 +248,7 @@ GerritForge provides free Community Support (CS) for the Gerrit community using
 two channels:
 1. [Repo-discuss mailing list](https://groups.google.com/g/repo-discuss)
 2. [Gerrit issue-tracker][issue-tracker]
+3. [Discord-Server]: https://discord.gg/HkGbBJHYbY
 
 GerritForge monitors the channels *on UK and EU working days, 8:00-23:00 GMT*,
 and occasionally over week-ends and bank holidays.
