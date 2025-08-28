@@ -20,7 +20,7 @@ toc: true
 A critical Gerrit migration to Bazel 8 is needed to fix compatibility issues
 with JGit. Gerritforge offered to lead the effort with Google providing
 reviews. The immediate next step is to add more details to the associated
-[issue 339767728](https://issues.gerritcodereview.com/issues/339767728).
+[issue 303819949](https://issues.gerritcodereview.com/303819949).
 
 Two key community events were announced: a Git Mini Summit in Amsterdam on
 August 28th and a GerritMeet at Google's Munich HQ on November 19th. The Munich
@@ -45,7 +45,7 @@ assuming that Google is available for reviews, because any modification to the
 dependencies requires an LC+1 from a Google maintainer.
 [SZ] suggested that Matthias Sohn would be a suitable person to help with this,
 and [EK] agreed that a summary should be added to the
-[issue 339767728](https://issues.gerritcodereview.com/issues/339767728) detailing
+[issue 303819949](https://issues.gerritcodereview.com/303819949) detailing
 the work, pluses, minuses, and required involvement from Gerrit maintainers would
 be helpful to start the discussion and planning of the activity.
 
