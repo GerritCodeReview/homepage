@@ -1,0 +1,40 @@
+<header class="site-header">
+  <div class="wrapper">
+    <div class="site-header-content">
+      <div class="site-title">
+        <a href="{{ "/" | relative_url }}">
+          <img src="/images/gerrit-logo.svg" alt="Gerrit Logo" class="header-logo">
+          {{ site.title | escape }}
+        </a>
+      </div>
+      
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/news/">News</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Docs <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://gerrit-documentation.storage.googleapis.com/Documentation/3.12.2/index.html" target="_blank">Latest</a></li>
+              <li><a href="https://www.gerritcodereview.com/design-docs-index.html"  target="_blank">Designs</a></li>
+              <li><a href="https://gerrit.googlesource.com/homepage/+/master/pages/site/docs/"  target="_blank">Wiki</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Code <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://gerrit.googlesource.com/gerrit/" target="_blank">Source</a></li>
+              <li><a href="/releases-readme.html">Releases</a></li>
+              <li><a href="/plugins.html">Plugins</a></li>
+              <li><a href="/roadmap.html">Roadmap</a></li>
+              <li><a href="https://gerrit-ci.gerritforge.com/" target="_blank">Builds</a></li>
+              <li><a href="https://gerrit-review.googlesource.com/q/status:open+project:gerrit" target="_blank">Reviews</a></li>
+            </ul>
+          </li>
+          <li><a href="/support/">Support</a></li>
+          <li><a href="mailto:repo-discuss@googlegroups.com">Feedback</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
