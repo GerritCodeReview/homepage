@@ -1,10 +1,34 @@
-<footer>
-            <div class="row">
-                <div class="col-lg-12 footer">
-               &copy;{{ site.time | date: "%Y"  }} {{site.company_name}}. All rights reserved. <br />
-{% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br/>{% endif %} Site last generated: {{ site.time | date: "%b %-d, %Y"  }} <br />
-<p><img src="{{ "/images/diffy_logo.png" }}" alt="Diffy"/></p>
-<p><a href="https://www.google.com/policies/privacy/">Privacy Notice</a></p>
-                </div>
-            </div>
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>{{ site.title | escape }}</h3>
+        <p>{{ site.description | escape }}</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="https://gerrit-review.googlesource.com/Documentation/">Documentation</a></li>
+          <li><a href="https://gerrit-review.googlesource.com/Documentation/user-upload.html">How To Upload a Patch</a></li>
+          <li><a href="https://groups.google.com/group/repo-discuss">Mailing List</a></li>
+          <li><a href="https://discord.gg/eEZQrtzAwV">Join Discord</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://gerrit-review.googlesource.com/Documentation/rest-api.html">API Reference</a></li>
+          <li><a href="https://gerrit.googlesource.com/plugins/">Plugins</a></li>
+          <li><a href="https://www.gerritcodereview.com/#enterprise-support">Enterprise Support</a></li>
+          <li><a href="https://www.google.com/policies/privacy/">Privacy Notice</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Gerrit Code Review. Apache 2.0 Licensed.</p>
+    </div>
+  </div>
 </footer>
