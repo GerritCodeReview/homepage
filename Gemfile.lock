@@ -42,8 +42,14 @@ GEM
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
       webrick (>= 1.0)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.5.2)
@@ -71,6 +77,8 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     webrick (1.9.2)
 
 PLATFORMS
@@ -89,9 +97,12 @@ PLATFORMS
 DEPENDENCIES
   base64
   bigdecimal
-  jekyll (< 4)
+  jekyll (~> 3.10.0)
+  jekyll-feed (~> 0.12)
+  jekyll-seo-tag (~> 2.8)
+  jekyll-sitemap (~> 1.4)
   kramdown-parser-gfm
-  rexml
+  sassc (~> 2.4)
   webrick (~> 1.8)
 
 BUNDLED WITH

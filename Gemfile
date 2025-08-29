@@ -1,9 +1,16 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '<4', group: :jekyll_plugins
-gem 'kramdown-parser-gfm'
-gem "webrick", "~> 1.8" if RUBY_VERSION >= '3.0'
-gem 'rexml' if RUBY_VERSION >= '3.0'
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 gem 'base64'
 gem 'bigdecimal'
+gem "jekyll", "~> 3.10.0"
+gem "webrick", "~> 1.8"
+gem "kramdown-parser-gfm"
+gem "sassc", "~> 2.4"
+
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag", "~> 2.8"
+  gem "jekyll-sitemap", "~> 1.4"
+
+end
