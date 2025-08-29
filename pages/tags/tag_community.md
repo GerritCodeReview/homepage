@@ -8,6 +8,6 @@ hide_navtoggle: true
 folder: tags
 ---
 
-{% include taglogic.html %}
+
 
 {% include links.html %}
