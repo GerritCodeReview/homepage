@@ -3,6 +3,8 @@ set -e
 
 #cd /site
 
+# Ensure we use the newer bundler version
+export BUNDLE_GEMFILE=/site/Gemfile
 
 if [ "$JEKYLL_NEW" = true ]; then
   echo "NOTE: making new jekyll site!"
@@ -20,6 +22,7 @@ if [ ! -f Gemfile ]; then
   exit 1
 fi
 
+# Install dependencies
 bundle install
 
 exec "$@"
