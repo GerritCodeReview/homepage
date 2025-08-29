@@ -1,0 +1,228 @@
+# placed here for translation purposes
+search_placeholder_text: search...
+search_no_results_text: No results found.
+
+links:
+  gerrit_war: "https://gerrit-releases.storage.googleapis.com/gerrit-3.13.1.war"
+  getting_started: "#getting-started"
+  enterprise_support: "https://www.gerritcodereview.com/support.html#enterprise-support"
+  plugins: "plugins.html"
+  jenkins: "https://www.jenkins.io"
+  gerrit_docs: "https://gerrit-review.googlesource.com/Documentation/"
+  rest_api: "https://gerrit-review.googlesource.com/Documentation/rest-api.html"
+  repo_discuss: "https://groups.google.com/group/repo-discuss"
+  discord: "https://discord.gg/eEZQrtzAwV"
+  docker_hub: "https://hub.docker.com/r/gerritcodereview/gerrit"
+  gerrithub: "https://gerrithub.io"
+  github_actions: "https://github.com/features/actions"
+  zuul: "https://zuul-ci.org/docs/zuul/latest/index.html"
+
+hero:
+  title: "Gerrit Code Review"
+  subtitle: "The open source, patchset based, code review platform for Git-based development"
+  download_button: "Download Gerrit 3.13.1"
+  try_now_button: "Try now"
+  try_now_icon: "fas fa-rocket"
+
+intro:
+  text: "Gerrit is a web-based code review system that enables teams to collaborate on Git repositories with powerful patchset based review workflows, fine-grained permissions, and seamless integration with CI/CD pipelines."
+
+why_gerrit:
+  title: "Why Teams Choose Gerrit"
+  subtitle: "Powerful features that make Gerrit the preferred choice for enterprise code review"
+  cards:
+    - icon: "fas fa-shield-alt"
+      title: "Open Source Freedom"
+      text: "100% open source with no licensing fees or vendor lock-in. Use at any scale without restrictions, with full access to source code and community-driven development."
+    - icon: "fas fa-users"
+      title: "Team Collaboration"
+      text: "Advanced review workflows with inline comments, patchset management, and configurable approval processes that scale from small teams to thousands of developers."
+    - icon: "fas fa-rocket"
+      title: "Git-Native Performance"
+      text: "Built specifically for Git with optimized performance, sophisticated branching strategies, and seamless integration with existing Git workflows."
+    - icon: "fas fa-cogs"
+      title: "Extensible Platform"
+      text: "Plugin architecture with 100+ community plugins and REST API for custom integrations with your existing tools and workflows."
+
+core_features:
+  title: "Core Features"
+  subtitle: "Everything you need for effective code review and collaboration"
+  features:
+    - title: "Fine Grained Permission Model"
+      text: "Enterprise-grade access control that enables organizations to enforce strict security policies, maintain compliance requirements, and manage complex team structures with precise control over who can access what code. Perfect for regulated industries and large organizations with diverse development teams."
+    - title: "Git-Native Workflow"
+      text: "Unlike other SCMs, Gerrit's unique patch-based code review system more closely resembles the proven mailing list workflow used by Git itself and the Linux kernel, where patches are reviewed and iterated on before being applied to the main repository, ensuring higher code quality and better collaboration."
+    - title: "Enterprise Scalability"
+      text: "Get <b>out-of-hours support</b> with <b>strict SLAs</b> for your on-prem installation, ensuring your enterprise deployment has the professional support it needs. Plus, enjoy multi-node scalability with <b>no-downtime upgrades</b> for enterprise-grade reliability."
+      button: "Enterprise Support"
+      button_icon: "fas fa-rocket"
+      button_url: "https://www.gerritcodereview.com/support.html#enterprise-support"
+
+dev_experience:
+  title: "Developer Experience"
+  subtitle: "Built for developers, with the tools and integrations you need to be productive"
+  cards:
+    - icon: "fas fa-code-branch"
+      title: "Patchset-Based Workflow"
+      text: "Unlike other SCMs, Gerrit's adopts a patch-based code review system which more closely resembles the proven mailing list workflow used by Git itself and the Linux kernel."
+      features_icon: "fas fa-check"
+      features:
+        - "Patchset-based reviews"
+        - "Iterative refinement"
+        - "Git-native workflow"
+        - "Proven collaboration model"
+    - icon: "fas fa-code"
+      title: "REST API & Integrations"
+      text: "Comprehensive REST API for seamless integration with your existing development tools and CI/CD pipelines."
+      features_icon: "fas fa-check"
+      features:
+        - "Full REST API coverage"
+        - "Webhook support"
+        - "CLI tools"
+        - "IDE integrations"
+      button: "View API Docs"
+      button_icon: "fas fa-code"
+      button_url: "https://gerrit-review.googlesource.com/Documentation/rest-api.html"
+    - icon: "fas fa-puzzle-piece"
+      title: "Plugin Ecosystem"
+      text: "Extend and customize Gerrit with 100+ community plugins or build your own to fit your specific workflow needs."
+      features_icon: "fas fa-check"
+      features:
+        - "100+ community plugins"
+        - "Custom plugin development"
+        - "Plugin marketplace"
+        - "Easy installation"
+      button: "Browse Plugins"
+      button_icon: "fas fa-puzzle-piece"
+      button_url: "plugins.html"
+
+cicd:
+  title: "CI/CD Integration"
+  subtitle: "Seamlessly integrate with your existing CI/CD pipeline"
+  cards:
+    - icon: "fab fa-jenkins"
+      title: "Jenkins Integration"
+      text: "Integrate with Jenkins pipelines for automated testing, building, and deployment workflows."
+      url: "https://www.jenkins.io"
+      tags:
+        - "Pipeline Support"
+        - "Build Status"
+        - "Auto-trigger"
+    - icon: "fab fa-github"
+      title: "GitHub Actions"
+      text: "Connect with GitHub Actions for automated testing and quality checks in your development workflow."
+      url: "https://github.com/features/actions"
+      tags:
+        - "Workflow Integration"
+        - "Status Checks"
+        - "Parallel Jobs"
+    - icon: "fas fa-link"
+      title: "Custom Webhooks"
+      text: "Webhook support for any CI/CD system, allowing you to integrate with your preferred tools and platforms."
+      tags:
+        - "REST API"
+        - "Event-driven"
+        - "Flexible"
+    - icon: "zuul"
+      title: "Zuul Gating System"
+      text: "Advanced gating system that ensures code quality by running tests before merging, preventing broken code from entering the repository."
+      url: "https://zuul-ci.org/docs/zuul/latest/index.html"
+      tags:
+        - "Pre-merge Testing"
+        - "Gating Workflows"
+        - "Quality Assurance"
+
+trusted_by:
+  title: "Trusted by Industry Leaders"
+  subtitle: "Some of the biggest open source projects in the world succesfully use Gerrit for their Code Review workflows"
+  logos:
+    - icon: "fab fa-android"
+      name: "Android"
+      url: "https://android.googlesource.com/"
+    - icon: "fab fa-chrome"
+      name: "Chrome"
+      url: "https://chromium.googlesource.com/"
+    - icon: "fas fa-cloud"
+      name: "OpenInfra Foundation"
+      url: "https://review.opendev.org"
+    - icon: "fas fa-git"
+      name: "JGit"
+    - icon: "fas fa-cube"
+      name: "Qt"
+      url: "https://codereview.qt-project.org"
+
+getting_started:
+  title: "Getting Started"
+  subtitle: "Get up and running with Gerrit in minutes with our simple setup guides"
+  cards:
+    - icon: "fas fa-rocket"
+      title: "Standalone"
+      text: "Get Gerrit running locally in under 2 minutes"
+      button: "Download Now"
+      button_url: "https://gerrit-releases.storage.googleapis.com/gerrit-3.13.1.war"
+      code_block: |
+        # Download the latest release
+        wget {{ site.data.content.links.gerrit_war }}
+
+        # Initialize a new Gerrit site
+        java -jar gerrit-3.13.1.war init -d /path/to/gerrit --dev --batch --install-all-plugins
+
+        # Start Gerrit
+        cd /path/to/gerrit && bin/gerrit.sh start
+    - icon: "fab fa-docker"
+      title: "Docker Deployment"
+      text: "Run Gerrit in a container for easy deployment"
+      button: "View on Docker Hub"
+      button_url: "https://hub.docker.com/r/gerritcodereview/gerrit"
+      code_block: |
+        # Run with Docker
+        docker run -d \
+          -p 8080:8080 \
+          -p 29418:29418 \
+          --name gerrit \
+          gerritcodereview/gerrit:latest
+    - icon: "fas fa-cloud"
+      title: "GerritHub.io"
+      text: "Readily available Gerrit instance. GerritHub.io is free to use, even for private repositories, making it perfect for teams of any size."
+      subtext: "Seamlessly integrate your GitHub repositories, automatically replicate data from Gerrit to GitHub so to leverage Gerrit's code review capabilities while maintaining the visibility and social features of GitHub."
+      button: "Visit GerritHub.io"
+      button_url: "https://gerrithub.io"
+
+resources:
+  title: "Resources & Community"
+  subtitle: "Everything you need to learn, connect, and get support"
+  cards:
+    - icon: "fas fa-book"
+      title: "Documentation"
+      text: "Complete user and admin guides to get the most out of Gerrit"
+      button: "View Documentation"
+      button_icon: "fas fa-arrow-right"
+      button_url: "https://gerrit-review.googlesource.com/Documentation/"
+    - icon: "fas fa-code"
+      title: "API Reference"
+      text: "Comprehensive REST API documentation for integrations"
+      button: "View API Docs"
+      button_icon: "fas fa-arrow-right"
+      button_url: "https://gerrit-review.googlesource.com/Documentation/rest-api.html"
+    - icon: "fas fa-envelope"
+      title: "Mailing List"
+      text: "Join the official Gerrit community discussion forum"
+      button: "Join Discussion"
+      button_icon: "fas fa-arrow-right"
+      button_url: "https://groups.google.com/group/repo-discuss"
+    - icon: "fas fa-comments"
+      title: "Discord Server"
+      text: "Chat with the community in real-time on Discord"
+      button: "Join Discord"
+      button_icon: "fas fa-arrow-right"
+      button_url: "https://discord.gg/eEZQrtzAwV"
+
+cta:
+  title: "Ready to Transform Your Code Review Process?"
+  subtitle: "Join thousands of teams already using the most powerful code review platform available."
+  download_button: "Download Gerrit 3.13.1"
+  download_button_icon: "fas fa-download"
+  download_button_url: "https://gerrit-releases.storage.googleapis.com/gerrit-3.13.1.war"
+  docs_button: "View Documentation"
+  docs_button_icon: "fas fa-book"
+  docs_button_url: "https://gerrit-review.googlesource.com/Documentation/"
