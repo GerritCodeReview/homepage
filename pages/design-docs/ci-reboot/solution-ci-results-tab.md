@@ -91,7 +91,7 @@ The UI will respect the order of the returned lists of runs and results, so plug
 which Checks appear first and thus make up for the absence of a priority field in the data model.
 If multiple plugins provide data, then the results from earlier installed plugins are shown first.
 
-```
+```js
 // A CheckRun models an entity that has start/end timestamps and can be in either of the states
 // RUNNABLE, RUNNING, COMPLETED. By itself it cannot model an error, neither can it be failed or
 // successful by itself. A run can be associated with 0 to n results (see below). So until runs

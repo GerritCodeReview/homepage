@@ -6,17 +6,27 @@ layout: default
    <h1 class="post-title-main">{{ page.title }}</h1>
 </div>
 
+{% if page.simple_map == true %}
+
+{% include custom/{{page.map_name}}.html %}
+
+{% elsif page.complex_map == true %}
+
+{% include custom/{{page.map_name}}.html %}
+
+{% endif %}
+
 <div class="post-content">
 
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}
 
-    {% unless page.toc == false %}
-    {% include toc.html %}
-    {% endunless %}
+   {% if page.toc %}
+   {% include toc.html %}
+   {% endif %}
 
-  {{content}}
+{{ content }}
 
     <div class="tags">
         {% if page.tags != null %}
@@ -33,5 +43,3 @@ layout: default
 </div>
 
 {{site.data.alerts.hr_shaded}}
-
-{% include footer.html %}
