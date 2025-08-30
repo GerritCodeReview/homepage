@@ -16,6 +16,24 @@
       "message": "Excellent effort, however, it seems that it changes too much stuff in a single commit. It would be difficult to review.\n\nIs there a way to break this down into separate changes and focus each one of them on a website topic to address?",
       "revId": "fd47ead67b79392851dce580d8304a14910fbc6d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "802c48a9_111ea4db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-08-30T22:03:22Z",
+      "side": 1,
+      "message": "Would moving the deletion of the files in a separate change help? as that looks to be most of the changes.",
+      "parentUuid": "b0e1c6de_a78f37d4",
+      "revId": "fd47ead67b79392851dce580d8304a14910fbc6d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
