@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0e1c6de_a78f37d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-08-30T21:37:54Z",
+      "side": 1,
+      "message": "Excellent effort, however, it seems that it changes too much stuff in a single commit. It would be difficult to review.\n\nIs there a way to break this down into separate changes and focus each one of them on a website topic to address?",
+      "revId": "fd47ead67b79392851dce580d8304a14910fbc6d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
