@@ -33,6 +33,23 @@
       "message": "https://gerrit-review.googlesource.com/c/homepage/+/502728/comments/571a5eab_e9da05bd",
       "revId": "7f06b9b0cbb6eb4901a482c7fce4441390853b5a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8b6608f_b2651bed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4327447
+      },
+      "writtenOn": "2025-09-05T19:16:04Z",
+      "side": 1,
+      "message": "git fetch https://gerrit.googlesource.com/homepage refs/changes/28/502728/6 \u0026\u0026 git checkout -b change-502728 FETCH_HEAD",
+      "revId": "7f06b9b0cbb6eb4901a482c7fce4441390853b5a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
