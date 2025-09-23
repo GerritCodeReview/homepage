@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "aa4b7cc3_e48b3dba",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-09-23T16:07:12Z",
+      "side": 1,
+      "message": "I don\u0027t actually think it\u0027s currently broken, but it breaks once you merge the previous change as I\u0027m relying on different jekyll plugins, so not sure it makes sense to move it to earlier in the chain, WDYT?",
+      "parentUuid": "9c567da0_9b3c8575",
+      "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a942579b_f27b9bbe",
         "filename": "Gemfile",
         "patchSetId": 4
@@ -52,6 +70,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bb9eeee_293a88e0",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-09-23T16:07:12Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "656e8d9e_3ffd5d44",
+      "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f6fe298b_afead3e4",
@@ -65,6 +101,24 @@
       "writtenOn": "2025-09-23T15:36:45Z",
       "side": 1,
       "message": "This page does have the same instructions you pasted above. Probably better to fix the reference here to make it easier to find (its `pages/site/publishing-gerrit-docs.md`) and don\u0027t add the duplicate instructions above.",
+      "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae48876d_8436e2fe",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-09-23T16:07:12Z",
+      "side": 1,
+      "message": "ah good point, I missed that.",
+      "parentUuid": "f6fe298b_afead3e4",
       "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
