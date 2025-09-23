@@ -53,6 +53,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2e474ab_e89b8936",
+        "filename": "Gemfile",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-09-23T16:09:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a942579b_f27b9bbe",
+      "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "656e8d9e_3ffd5d44",
@@ -119,6 +137,24 @@
       "side": 1,
       "message": "ah good point, I missed that.",
       "parentUuid": "f6fe298b_afead3e4",
+      "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "808a166d_4c046a0e",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-09-23T16:09:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae48876d_8436e2fe",
       "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
