@@ -1,0 +1,181 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c9c3b6a_adb348d8",
+        "filename": "_config.yml",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "I\u0027m confused about the changes to this file. Are they all required?",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "303e695e_cb522654",
+        "filename": "_includes/footer.html",
+        "patchSetId": 17
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "2025\n```suggestion\n      \u003cp\u003e\u0026copy; 2025 Gerrit Code Review. Apache 2.0 Licensed.\u003c/p\u003e\n```",
+      "range": {
+        "startLine": 30,
+        "startChar": 16,
+        "endLine": 30,
+        "endChar": 20
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb94fc02_d930c854",
+        "filename": "_includes/head.html",
+        "patchSetId": 17
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "All of our css is currently in `/css/`. Why move it? And is the current css still used?",
+      "range": {
+        "startLine": 21,
+        "startChar": 33,
+        "endLine": 21,
+        "endChar": 54
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7be1a11a_fd21c4f1",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "So... why is this still a Markdown file if the content is almost exclusively HTML? Previously we had a bit of HTML and then it was just Markdown. And is there no way to get our fancy UI and keep Markdown (maybe with the help of some css?)?",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce8e6fa6_94a510a9",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "Why does this \"Try now\" link go to GerritHub? I\u0027m not strictly opposed to having links go there, but I don\u0027t quite get the context. I would expect this to go to something like a Docker quickstart guide or some kind of fancy sandbox setup (which I see you have documented lower in the `Getting Started` section, so maybe link there?)\n```suggestion\n       \u003ca href\u003d\"#getting-started\" class\u003d\"btn-modern btn-outline\" _target\u003d\"blank\"\u003e\n```",
+      "range": {
+        "startLine": 17,
+        "startChar": 16,
+        "endLine": 17,
+        "endChar": 36
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16854adb_29f092d7",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "I think this should go to `/plugins.html`\n```suggestion\n        \u003ca href\u003d\"plugins.html\" class\u003d\"btn-modern btn-small\"\u003e\n```",
+      "range": {
+        "startLine": 178,
+        "startChar": 17,
+        "endLine": 178,
+        "endChar": 57
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "375cdd98_1b46a67d",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "It\u0027d be great if each of these (Jenkins, Zuul, etc) linked to their respective pages for users to get more info on them.",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a23cfe5f_711f3c51",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "```suggestion\n  \u003ch2 id\u003d\"getting-started\"\u003eGetting Started\u003c/h2\u003e\n```",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87309799_c37bbc11",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-23T20:37:27Z",
+      "side": 1,
+      "message": "This is the 3rd link to the REST API docs and L426 is the 3rd link to the overall docs. Maybe we don\u0027t need all of them?",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
