@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "90dc12f0_9ed1982e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-09-24T00:16:16Z",
+      "side": 1,
+      "message": "Oh. `docker compose up` definitely failed for me when I only had your \"first attempt\" change pulled.",
+      "parentUuid": "aa4b7cc3_e48b3dba",
+      "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a942579b_f27b9bbe",
         "filename": "Gemfile",
         "patchSetId": 4
