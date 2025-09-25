@@ -106,6 +106,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cf954fc6_e030c03a",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-09-25T13:38:45Z",
+      "side": 1,
+      "message": "I\u0027m trying to cater for those that don\u0027t care about spinning it up locally but might want to just try using it. Think of GitHub of GitLab, when you think of \"Try GitHub now\" you don\u0027t think of downloading a docker container, spin it up and start using it, but rather to just go to github.com and use it there, so yeah, trying to provide the same experience, and AFAIK, gerrithub is the only gerrit installation in the wild that lets anyone create projects and get going with it.\n\nWDYT?",
+      "parentUuid": "ce8e6fa6_94a510a9",
+      "range": {
+        "startLine": 17,
+        "startChar": 16,
+        "endLine": 17,
+        "endChar": 36
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "16854adb_29f092d7",
         "filename": "index.md",
         "patchSetId": 17
