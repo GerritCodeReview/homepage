@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fb61c8c_6b0c840e",
+        "filename": "_config.yml",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-01T04:06:53Z",
+      "side": 1,
+      "message": "Have tried to reduce the diff to make it clearer what\u0027s changed. From what I understand I believe they\u0027re all necessary.",
+      "parentUuid": "0c9c3b6a_adb348d8",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "303e695e_cb522654",
