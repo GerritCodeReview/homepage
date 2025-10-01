@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "db57e455_dc43367a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-01T15:09:00Z",
+      "side": 1,
+      "message": "Yeah, so I checked and the tip works, but your redesign change on its own doesn\u0027t. So you should squash whatever changes from here are necessary for the redesign change to work into your redesign change.",
+      "parentUuid": "9d8cc018_c2d64691",
+      "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a942579b_f27b9bbe",
         "filename": "Gemfile",
         "patchSetId": 4
