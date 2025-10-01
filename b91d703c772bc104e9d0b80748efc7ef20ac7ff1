@@ -90,6 +90,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3c7e7db2_8a9b8c2b",
+        "filename": "_includes/head.html",
+        "patchSetId": 17
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-01T03:52:43Z",
+      "side": 1,
+      "message": "Trying to separate new and old css in different folders so its was a little \"safer\" to work on knowing I wasn\u0027t accidentally editing old css which then would have been a pain to recover if we wanted too.\n\nSo kept the css for the redesign separate, old css is not longer used and is deleted in next commit.",
+      "parentUuid": "bb94fc02_d930c854",
+      "range": {
+        "startLine": 21,
+        "startChar": 33,
+        "endLine": 21,
+        "endChar": 54
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7be1a11a_fd21c4f1",
         "filename": "index.md",
         "patchSetId": 17
@@ -101,6 +125,24 @@
       "writtenOn": "2025-09-23T20:37:27Z",
       "side": 1,
       "message": "So... why is this still a Markdown file if the content is almost exclusively HTML? Previously we had a bit of HTML and then it was just Markdown. And is there no way to get our fancy UI and keep Markdown (maybe with the help of some css?)?",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61310f98_ddb9c0b3",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-01T03:52:43Z",
+      "side": 1,
+      "message": "yeah, no good reason.",
+      "parentUuid": "7be1a11a_fd21c4f1",
       "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -176,6 +218,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d567a239_b8f7812e",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-01T03:52:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "20b57a51_c6d47f73",
+      "range": {
+        "startLine": 17,
+        "startChar": 16,
+        "endLine": 17,
+        "endChar": 36
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "16854adb_29f092d7",
@@ -189,6 +255,30 @@
       "writtenOn": "2025-09-23T20:37:27Z",
       "side": 1,
       "message": "I think this should go to `/plugins.html`\n```suggestion\n        \u003ca href\u003d\"plugins.html\" class\u003d\"btn-modern btn-small\"\u003e\n```",
+      "range": {
+        "startLine": 178,
+        "startChar": 17,
+        "endLine": 178,
+        "endChar": 57
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4957dfe0_827b08ca",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-01T03:52:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "16854adb_29f092d7",
       "range": {
         "startLine": 178,
         "startChar": 17,
@@ -233,6 +323,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b3c676d_26f61bbd",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-01T03:52:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a23cfe5f_711f3c51",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "87309799_c37bbc11",
@@ -246,6 +354,24 @@
       "writtenOn": "2025-09-23T20:37:27Z",
       "side": 1,
       "message": "This is the 3rd link to the REST API docs and L426 is the 3rd link to the overall docs. Maybe we don\u0027t need all of them?",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bde08d1_fd83576b",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-01T03:52:43Z",
+      "side": 1,
+      "message": ":shrug: not sure it\u0027s a problem? Maybe when we find something better to replace them with we can do that then?",
+      "parentUuid": "87309799_c37bbc11",
       "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
