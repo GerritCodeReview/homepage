@@ -56,6 +56,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9d8cc018_c2d64691",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-01T04:24:50Z",
+      "side": 1,
+      "message": "Yeah, is that alright or do you want me to squash the changes?",
+      "parentUuid": "90dc12f0_9ed1982e",
+      "revId": "b328fed922920c8b52e38551c0e0adfb3d532beb",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a942579b_f27b9bbe",
         "filename": "Gemfile",
         "patchSetId": 4
