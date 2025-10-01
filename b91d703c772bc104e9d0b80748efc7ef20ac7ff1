@@ -130,6 +130,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "20b57a51_c6d47f73",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-01T03:07:51Z",
+      "side": 1,
+      "message": "Ok, then I\u0027d say link to the Getting Started below, which has that explanation about GerritHub being ready to go, but also has the docker quickstart and other options.",
+      "parentUuid": "cf954fc6_e030c03a",
+      "range": {
+        "startLine": 17,
+        "startChar": 16,
+        "endLine": 17,
+        "endChar": 36
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "16854adb_29f092d7",
         "filename": "index.md",
         "patchSetId": 17
