@@ -39,6 +39,30 @@
       },
       "revId": "ab9c1638bfaf568720d1433b67e570daad92c754",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9be9e68_fadec813",
+        "filename": "pages/design-docs/ai-code-review-assistant/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 4240010
+      },
+      "writtenOn": "2025-10-02T07:11:37Z",
+      "side": 1,
+      "message": "At the moment, there are no plans to store conversations. At most, we considered caching them temporarily, but not for the long term. If the community has a different perspective, we are open to adapting the approach.",
+      "parentUuid": "0aab5e15_63593169",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 18
+      },
+      "revId": "ab9c1638bfaf568720d1433b67e570daad92c754",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
