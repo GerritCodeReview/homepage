@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e7f40c6b_1a1ec781",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-02T18:53:31Z",
+      "side": 1,
+      "message": "I\u0027ve tried to clean up as much as possible.\nThe main changes are:\n- New CSS (67% of lines changes, and can\u0027t split that up).\n- Redid the index.html page (22% of lines changed), I guess I could split this up but to what pro?\n- Header/Footer(5% of lines changed), also, not sure it make sense to move these out.\n- Adjust build(~2% of lines changed)\n\nThat\u0027s 97% of the lines of this change that I don\u0027t think they make sense to split out.\n\nHappy to split the index.html further if you\u0027d like to review each section individually.",
+      "parentUuid": "1819fe69_ec1f0a0f",
+      "revId": "fd47ead67b79392851dce580d8304a14910fbc6d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "49b74112_5a690bcc",
         "filename": "_config.yml",
         "patchSetId": 10
