@@ -63,6 +63,30 @@
       },
       "revId": "ab9c1638bfaf568720d1433b67e570daad92c754",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3d5bd78_6f7cfbf4",
+        "filename": "pages/design-docs/ai-code-review-assistant/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-02T07:59:39Z",
+      "side": 1,
+      "message": "I think it would be important to add a section on this in the design document as its quite an important point, WDYT?\n\nIt can be something we resolve later, but it would be good to discuss it.",
+      "parentUuid": "a9be9e68_fadec813",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 18
+      },
+      "revId": "ab9c1638bfaf568720d1433b67e570daad92c754",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
