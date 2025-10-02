@@ -22,6 +22,30 @@
       },
       "revId": "6380c506e36a96b38642c4cb91269205b72a6665",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33110ffa_c5fd1f97",
+        "filename": "pages/design-docs/ai-code-review-assistant/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 4240010
+      },
+      "writtenOn": "2025-10-02T12:03:51Z",
+      "side": 1,
+      "message": "For POC Config, I though of placing it in its section as we just have a single model.\ne.g.\ngerrit.config\n[plugin \"poc-ai-review\"]\n\tgemini25ProUrl \u003d \u003c\u003e\n\tauthUrl \u003d \u003c\u003e\n\nsecure.config\n[plugin \"poc-ai-review\"]\n\tclientId \u003d \u003c\u003e\n\tclientSecret \u003d \u003c\u003e\n\nThis suggestion can be considered as there will be various models and list will grow.",
+      "parentUuid": "fa69c40e_d408de5d",
+      "range": {
+        "startLine": 50,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 72
+      },
+      "revId": "6380c506e36a96b38642c4cb91269205b72a6665",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
