@@ -112,6 +112,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c3f850e_a66785b9",
+        "filename": "pages/news/news.html",
+        "patchSetId": 17
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-02T18:46:22Z",
+      "side": 0,
+      "message": "I suspect it has to do with the permalink that changed. It\u0027s definitely needed though.",
+      "parentUuid": "34c0866e_f0b5240e",
+      "revId": "42b3c07b88c624709f1dd391afd5cca85badc663",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a58eae4c_7ca27971",
