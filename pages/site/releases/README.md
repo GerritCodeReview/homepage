@@ -18,6 +18,16 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
+## 3.13
+
+* Introduce a predicate to skip inconsistent changes.
+
+* Support Authorization: Bearer headers for OAuth authentication.
+
+* Add scheduled reindexing of accounts.
+
+[Release notes for Gerrit 3.13](/3.13.html)
+
 ## 3.12
 
 * Dropped support for Java 17
