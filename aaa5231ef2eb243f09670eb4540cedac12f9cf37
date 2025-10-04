@@ -22,6 +22,98 @@
       },
       "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abc66fcb_ebaed836",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2025-10-04T13:04:33Z",
+      "side": 1,
+      "message": "Mention as well that some polymer external components were replaced with @material/web with the goal of removing Polymer in a future release. And that plugins can access @material/web. I guess also mention about AI, a generate prompt was removed from behind feature flag. Another thing is that creating a change is more easier by making it more prominent. You can now create a change on the repo-list.\n\nAlso mention that the mobile view has been redesigned to make it easier to navigate. Search bar has also been redesigned for mobile users and desktop users.",
+      "parentUuid": "59dfab7b_77513b63",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c5b707f_5c73d411",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2025-10-04T13:04:33Z",
+      "side": 1,
+      "message": "Remove whitespace.",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9935248b_354085a4",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 595,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2025-10-04T13:04:33Z",
+      "side": 1,
+      "message": "You can add that webcomponents are now loaded by browser need, rather than loading a big file.\n\nhttps://gerrit-review.googlesource.com/c/gerrit/+/486462",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de027cd6_0516c003",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2025-10-04T13:04:33Z",
+      "side": 1,
+      "message": "Remove whitespace.",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75fe1fa9_0cecbfe2",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 891,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2025-10-04T13:04:33Z",
+      "side": 1,
+      "message": "Remove whitespace.",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
