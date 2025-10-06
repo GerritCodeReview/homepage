@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d807621_e4927bc7",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Have a look if what I have added makes sense. Sorry but my frontend knoledge is closed to 0 😊",
+      "parentUuid": "abc66fcb_ebaed836",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "56340955_1e98a275",
         "filename": "pages/site/releases/3.13.md",
         "patchSetId": 5
@@ -236,6 +260,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f07d1c12_e34c1bc3",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "My bad copy and paste leftover",
+      "parentUuid": "000b23fe_706bd270",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 28
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "32f1f741_098a3121",
@@ -249,6 +297,30 @@
       "writtenOn": "2025-10-06T07:51:06Z",
       "side": 1,
       "message": "The OS version is deprecated, we should either point to the BSL version or just remove this part covering multi-site.",
+      "range": {
+        "startLine": 72,
+        "startChar": 21,
+        "endLine": 72,
+        "endChar": 93
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0a1cc6e_cb02be7e",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "removed",
+      "parentUuid": "32f1f741_098a3121",
       "range": {
         "startLine": 72,
         "startChar": 21,
@@ -282,6 +354,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f062ad1_aa5664c7",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "removed",
+      "parentUuid": "edfdb376_610d442d",
+      "range": {
+        "startLine": 79,
+        "startChar": 56,
+        "endLine": 79,
+        "endChar": 69
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "31591bba_15b8987a",
@@ -295,6 +391,30 @@
       "writtenOn": "2025-10-06T07:51:06Z",
       "side": 1,
       "message": "Same as above.",
+      "range": {
+        "startLine": 82,
+        "startChar": 58,
+        "endLine": 82,
+        "endChar": 71
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17dfbabd_36677527",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "removed",
+      "parentUuid": "31591bba_15b8987a",
       "range": {
         "startLine": 82,
         "startChar": 58,
@@ -328,6 +448,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a74e6bc_475149c6",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2cc93d3a_10e62000",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 19
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ab294a94_6079d5e8",
@@ -341,6 +485,30 @@
       "writtenOn": "2025-10-06T07:51:06Z",
       "side": 1,
       "message": "To be removed and replaced the the link to the standard instructions on how to use native packaging on https://gitenterprise.me/2015/02/27/gerrit-2-10-rpm-and-debian-packages-available/",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 114,
+        "endChar": 115
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08b335c4_34e16a1b",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab294a94_6079d5e8",
       "range": {
         "startLine": 109,
         "startChar": 0,
@@ -462,6 +630,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e5396ad_2dc4b9d2",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c5b707f_5c73d411",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9935248b_354085a4",
@@ -475,6 +661,24 @@
       "writtenOn": "2025-10-04T13:04:33Z",
       "side": 1,
       "message": "You can add that webcomponents are now loaded by browser need, rather than loading a big file.\n\nhttps://gerrit-review.googlesource.com/c/gerrit/+/486462",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87079bf7_6202c320",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 595,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9935248b_354085a4",
       "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -496,6 +700,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9486bcf1_9da7f2a6",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "de027cd6_0516c003",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "febaacb0_3ebac9d7",
@@ -509,6 +731,30 @@
       "writtenOn": "2025-10-06T07:51:06Z",
       "side": 1,
       "message": "I believe you should look at the commits below and remove the ones that aren\u0027t impacting the Gerrit use-case or they do not introduce any significant or noticeable change in Gerrit.",
+      "range": {
+        "startLine": 869,
+        "startChar": 0,
+        "endLine": 869,
+        "endChar": 7
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5de1750_57ea6e2c",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 869,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "febaacb0_3ebac9d7",
       "range": {
         "startLine": 869,
         "startChar": 0,
@@ -542,6 +788,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fef3dad_2afb646c",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 878,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "597cbc4e_fe15b93f",
+      "range": {
+        "startLine": 878,
+        "startChar": 0,
+        "endLine": 878,
+        "endChar": 56
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "75fe1fa9_0cecbfe2",
@@ -559,6 +829,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6426bb8e_1731ffe5",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 891,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75fe1fa9_0cecbfe2",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "72d032c4_e7c9b61a",
@@ -572,6 +860,30 @@
       "writtenOn": "2025-10-06T07:51:06Z",
       "side": 1,
       "message": "DtsReader isn\u0027t used in Gerrit core, but only by Google in their setup.",
+      "range": {
+        "startLine": 919,
+        "startChar": 0,
+        "endLine": 922,
+        "endChar": 69
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7bd38192_7fdac785",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 922,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "72d032c4_e7c9b61a",
       "range": {
         "startLine": 919,
         "startChar": 0,
@@ -605,6 +917,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e140965a_e508c5f0",
+        "filename": "pages/site/releases/README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e7f3ee7a_921bc4cc",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 24
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b66461db_181b5886",
@@ -618,6 +954,24 @@
       "writtenOn": "2025-10-06T07:51:06Z",
       "side": 1,
       "message": "As highlight we should also put the deprecation of HTTP passwords and the introduction of API tokens.",
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c8e3d4d_cd33e5e6",
+        "filename": "pages/site/releases/README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2025-10-06T10:57:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b66461db_181b5886",
       "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
