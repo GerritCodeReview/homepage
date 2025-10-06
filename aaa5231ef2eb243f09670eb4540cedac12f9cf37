@@ -72,6 +72,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8fb48d4_11c95784",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2025-10-06T11:05:44Z",
+      "side": 1,
+      "message": "Thanks, it looks good to me!",
+      "parentUuid": "2d807621_e4927bc7",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "aaa5231ef2eb243f09670eb4540cedac12f9cf37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "56340955_1e98a275",
