@@ -24,6 +24,7 @@ The following public keys are available on the
 | Edwin Kempin     | ekempin@google.com              | 8DC3 89F5 9066 40FA C5A9  9037 51B5 FD97 A0D0 EF51 |              |
 | GerritForge      | info@gerritforge.com            | 9911 F82E 2783 6B7F AE85  090D 8470 05AE 6190 67D5 | Deb rsa-3072 |
 |                  |                                 | F0E2 4DA6 6FFA A737 081E  5A7E 1FFF AA5E 1871 F775 | Deb          |
+|                  |                                 | B261 1D9B AB22 681A D726  EB49 1DD7 67F4 90CD 2E2A | ed25519      |
 | GerritForge Yum  | yum@gerritforge.com             | 87BE F09F 08AF 18A9 79ED  67DB AF71 9AD5 21EF A0F0 | Rpm          |
 | Gerrit at GerritForge | gerrit@gerritforge.com     | 72AD B205 736D 7147 DA56  E8C9 5578 7ED7 8130 4950 | Rpm / Deb    |
 | Hugo Arès        | hugares@gmail.com               | 6884 7C78 8005 34A7 3386  86C9 C5D7 01B8 24EE 7037 |              |
