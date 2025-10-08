@@ -1,0 +1,345 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f84bc875_2a6da613",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Sorry for the late comments, but hopefully better than never 😊",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58088207_24e7db91",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "This is missing a `#`, so the sections below are nested under it.\n```suggestion\n### Security Fixes\n```",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ddfb82f_cd209f1f",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "I don\u0027t think this is a breaking change, since auth tokens are only introduced in 3.13.",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1c67937_e04f4ac9",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Does this actually break something? Or should it go into a different section \"Deprecations / Future removals\"?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c591357b_6d0ccf33",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Does this actually break something? Or should it go into a different section \"Deprecations / Future removals\"?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcbc6b67_1ef28bd9",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Does this actually break something?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f31d23ea_c5077367",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Remove \"Reland\"?\n```suggestion\n  Return the base that was used when performing a merge in ConflictsInfo.\n```",
+      "range": {
+        "startLine": 446,
+        "startChar": 73,
+        "endLine": 446,
+        "endChar": 81
+      },
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "feb20b35_023387de",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "typo\n```suggestion\n  This allows plugins to add additional checks before code approval\n```",
+      "range": {
+        "startLine": 521,
+        "startChar": 29,
+        "endLine": 521,
+        "endChar": 38
+      },
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "595eba9e_9905c9d0",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 617,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "I don\u0027t think this is a perf improvement?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86d5d998_6411ff60",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 624,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Not a perf improvement",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f87d8e10_6d923d26",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 627,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Not a perf improvement",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88072a3f_402ce9c7",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 641,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "This is a frontend change. Are you trying to list all of those in the section below?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4118145d_1c2ac14a",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 691,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "This isn\u0027t a bug fix. It\u0027s probably best under perf improvements.",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d274e0e_a306b785",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 694,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "This was a fix for a feature added in this release. I think we usually omit those?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab5c91b6_141f5cd3",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 698,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "This should probably get reworded. I\u0027m not really sure what introduced the break or when, but that context should likely be included.",
+      "range": {
+        "startLine": 697,
+        "startChar": 2,
+        "endLine": 698,
+        "endChar": 49
+      },
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e448345_3cb005e4",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Also a fix for a feature in this release. Omit?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fe51b5b_ced8c4c7",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 754,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "The other modifications of \"default\" configs are listed in the breaking changes. Move this near L240?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bdb3f74f_486bfd5c",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 772,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Should this have separate \"Features\" and \"Bug Fixes\" sections? Or is it a bucket like \"Other miscellaneous Frontend changes\"? There\u0027s items above in the other sections that are for Frontend and the other sections don\u0027t mention a focus on Backend.",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "406fc558_726aeffa",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 865,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-08T23:39:24Z",
+      "side": 1,
+      "message": "Who is \"i\" and where is \"[0]\"?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
