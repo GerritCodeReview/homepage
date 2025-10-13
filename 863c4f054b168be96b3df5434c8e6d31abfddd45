@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "70652fa1_f49acf60",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Removed the empty section in Ifba7c2917.",
+      "parentUuid": "58088207_24e7db91",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ddfb82f_cd209f1f",
@@ -48,6 +66,24 @@
       "writtenOn": "2025-10-08T23:39:24Z",
       "side": 1,
       "message": "I don\u0027t think this is a breaking change, since auth tokens are only introduced in 3.13.",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1d75f69_629b6ef2",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Agreed, also the support for auth tokens should be discussed at L42 and not there as it was an issue. Fixed in Iaa0193c9e4.",
+      "parentUuid": "2ddfb82f_cd209f1f",
       "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -69,6 +105,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f73df9e_569e1ab7",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "I\u0027ll move this remark to L42 inside the description of the new token authentication mechanism.\n\nFixed with I084bc334d.",
+      "parentUuid": "f1c67937_e04f4ac9",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c591357b_6d0ccf33",
@@ -82,6 +136,24 @@
       "writtenOn": "2025-10-08T23:39:24Z",
       "side": 1,
       "message": "Does this actually break something? Or should it go into a different section \"Deprecations / Future removals\"?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b620f0ba_e1d3b228",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Agreed, this mention of Change 458727 is unneeded. Fixed with I084bc334d.",
+      "parentUuid": "c591357b_6d0ccf33",
       "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -103,6 +175,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f809eb3e_5ac57931",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "It isn\u0027t *technically breaking*; however, it changes the default behaviour and may have unwanted or unexpected ACL evaluation results. I\u0027d leave it here for making sure that the Gerrit admin pays a lot of attention to it.",
+      "parentUuid": "fcbc6b67_1ef28bd9",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f31d23ea_c5077367",
@@ -116,6 +206,30 @@
       "writtenOn": "2025-10-08T23:39:24Z",
       "side": 1,
       "message": "Remove \"Reland\"?\n```suggestion\n  Return the base that was used when performing a merge in ConflictsInfo.\n```",
+      "range": {
+        "startLine": 446,
+        "startChar": 73,
+        "endLine": 446,
+        "endChar": 81
+      },
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2e03e4b_cb128e94",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Fixed with I91a839d5c.",
+      "parentUuid": "f31d23ea_c5077367",
       "range": {
         "startLine": 446,
         "startChar": 73,
@@ -149,6 +263,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "36a0d62e_16d8730c",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Fixed with I91a839d5c.",
+      "parentUuid": "feb20b35_023387de",
+      "range": {
+        "startLine": 521,
+        "startChar": 29,
+        "endLine": 521,
+        "endChar": 38
+      },
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "595eba9e_9905c9d0",
@@ -162,6 +300,24 @@
       "writtenOn": "2025-10-08T23:39:24Z",
       "side": 1,
       "message": "I don\u0027t think this is a perf improvement?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7e51685_f6cc55be",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 617,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Agreed, this is part of the new auth token mechanism to be mentioned in the highlights at L42.\n\nFixed with I906854c8.",
+      "parentUuid": "595eba9e_9905c9d0",
       "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -183,6 +339,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "30952954_9912ef03",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 624,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "That is implied by the new token generation feature, not worth to be mentioned individually.\n\nFixed with I906854c8.",
+      "parentUuid": "86d5d998_6411ff60",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f87d8e10_6d923d26",
@@ -196,6 +370,24 @@
       "writtenOn": "2025-10-08T23:39:24Z",
       "side": 1,
       "message": "Not a perf improvement",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9df9c63_f175b52c",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 627,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Agreed, this has now been incorporated into the authentication token highlight.\n\nFixed with I2e723adc95",
+      "parentUuid": "f87d8e10_6d923d26",
       "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -217,6 +409,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "93c6f7f6_a5fa8a38",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 641,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Moved to frontend changes in I57705359.",
+      "parentUuid": "88072a3f_402ce9c7",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4118145d_1c2ac14a",
@@ -234,6 +444,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "68f0e6c3_edc56ab5",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 691,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Fixed with If46b58eab8.",
+      "parentUuid": "4118145d_1c2ac14a",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4d274e0e_a306b785",
@@ -247,6 +475,24 @@
       "writtenOn": "2025-10-08T23:39:24Z",
       "side": 1,
       "message": "This was a fix for a feature added in this release. I think we usually omit those?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e960ef53_bc3c3262",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 694,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "True, the problem never existed in any released version of Gerrit, therefore the fix should not even be mentioned here.",
+      "parentUuid": "4d274e0e_a306b785",
       "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -274,6 +520,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "43fece45_165dc4df",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 698,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "This fix will go into the forthcoming v3.12.3; therefore, it should not be mentioned here.\n\nDone in Ie7ec62af",
+      "parentUuid": "ab5c91b6_141f5cd3",
+      "range": {
+        "startLine": 697,
+        "startChar": 2,
+        "endLine": 698,
+        "endChar": 49
+      },
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0e448345_3cb005e4",
@@ -291,6 +561,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4203d508_b99acfdc",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Fixes to new features should not be mentioned, as the token generation mechanism didn\u0027t exist in v3.12.\n\nRemoved in I0bf3c799.",
+      "parentUuid": "0e448345_3cb005e4",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6fe51b5b_ced8c4c7",
@@ -304,6 +592,24 @@
       "writtenOn": "2025-10-08T23:39:24Z",
       "side": 1,
       "message": "The other modifications of \"default\" configs are listed in the breaking changes. Move this near L240?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6dbcb58b_273ee977",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 754,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Done with I6ce7f2914c.",
+      "parentUuid": "6fe51b5b_ced8c4c7",
       "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -327,6 +633,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2cdef360_b1c4bde6",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 772,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Not sure if it\u0027s worth it, we have never done it before.\nWe can, of course, change the organisation and add a more detailed classification of features and bugs on the front end.\n\nIn my experience, the front end is so volatile compared to the back end that it is difficult to differentiate between new features and bugs. The frontend framework and user experience are constantly changing, so _everything is new_, always.\n\nOpen for discussion 😊",
+      "parentUuid": "bdb3f74f_486bfd5c",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "406fc558_726aeffa",
         "filename": "pages/site/releases/3.13.md",
         "patchSetId": 8
@@ -338,6 +662,24 @@
       "writtenOn": "2025-10-08T23:39:24Z",
       "side": 1,
       "message": "Who is \"i\" and where is \"[0]\"?",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c5a1d80_c81f5763",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 865,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-13T20:17:22Z",
+      "side": 1,
+      "message": "Fixed with I91a839d5c.",
+      "parentUuid": "406fc558_726aeffa",
       "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
