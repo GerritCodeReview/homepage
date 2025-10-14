@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e986982a_ac57c135",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-14T20:42:32Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "eeddc62e_091db58a",
+      "range": {
+        "startLine": 10,
+        "startChar": 13,
+        "endLine": 10,
+        "endChar": 16
+      },
+      "revId": "7e8300535ebc0b28eb6e6c70e08aa0494fdb1afd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b178f22d_bc771a0f",
@@ -37,6 +61,24 @@
       "writtenOn": "2025-10-14T09:21:32Z",
       "side": 1,
       "message": "There’s also a screen for labels now as well.",
+      "revId": "7e8300535ebc0b28eb6e6c70e08aa0494fdb1afd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1f3a179_9e5f10b5",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-14T20:42:32Z",
+      "side": 1,
+      "message": "True, let me amend the section.",
+      "parentUuid": "b178f22d_bc771a0f",
       "revId": "7e8300535ebc0b28eb6e6c70e08aa0494fdb1afd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
