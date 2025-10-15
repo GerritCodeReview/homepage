@@ -16,6 +16,24 @@
       "message": "Mention that this is hidden behind a feature flag as it’s currently experimental.",
       "revId": "11c8cc8aa4a3bfa4d65376e9a507d52b71e31244",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "214bf9f1_b7f13a38",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-15T10:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7a8cba2_e5f8eca2",
+      "revId": "11c8cc8aa4a3bfa4d65376e9a507d52b71e31244",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
