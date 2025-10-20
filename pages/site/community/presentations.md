@@ -15,6 +15,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Basics
 
+* [How to do Code Reviews like a Pro](https://storage.googleapis.com/gerrit-talks/summit/2025/OpenInfra.2025.HowToDoCodeReviewLikeAPro.pdf) (2025)
+* [Contributing to Gerrit: Challenges and Rewards](https://storage.googleapis.com/gerrit-talks/summit/2025/OpenInfra.2025.Contributing.To.Gerrit.pdf) (2025)
 * [Git explained](https://docs.google.com/presentation/d/1IQCRPHEIX-qKo7QFxsD3V62yhyGA9_5YsYXFOiBpgkk/view) (2019)
 * [Gerrit explained](https://docs.google.com/presentation/d/1C73UgQdzZDw0gzpaEqIC6SPujZJhqamyqO1XOHjH-uk/view) (2019)
 
@@ -45,6 +47,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Release Highlights
 
+* [What's new in Gerrit 3.13](https://storage.googleapis.com/gerrit-talks/summit/2025/Whats.New.in.Gerrit.3.13.pdf) (2025)
 * [What's new in Gerrit 3.9/3.10](https://www.youtube.com/watch?v=7MDBAHUQO70)
 * [What's new in Gerrit 3.8 and beyond](https://storage.googleapis.com/gerrit-talks/summit/2023/Whats%20new%20in%20Gerrit%203.8%20and%20beyond.pdf) (2023)
   * [Video](https://youtu.be/CSuUiivbmw8)
@@ -189,6 +192,10 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 * Scaling:
   * [How to survive with large mono-repos in Gerrit](https://storage.googleapis.com/gerrit-talks/summit/2021/TracklingMonoRepos-with-Gerrit.pdf) (2021)
 
+## AI and Gerrit
+
+* [Harnessing the power of AI with Gerrit](https://storage.googleapis.com/gerrit-talks/summit/2025/AI.Code-Review.for.Gerrit.pdf) (2025)
+
 ## Plugin API
 
 * [Extending Gerrit - A look at the Gerrit Plugin API](https://go-talks.appspot.com/github.com/irbull/gerrit-talk-eclipsecon2014/gerrit-api-econ2014.slide#1) (2014)
@@ -201,6 +208,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 * [Reftable](https://storage.googleapis.com/gerrit-talks/summit/2019/reftable-slides.pdf) (2019)
   * [Reftable status updates](https://drive.google.com/file/d/1eNxAufTCwSsYUPxBhTyVnV0lAxc2ulbV/view) (2021)
+  * [Reftable in JGit: past, present and future](https://storage.googleapis.com/gerrit-talks/summit/2025/JGit%20past%20present%20future%20of%20reftable.pdf) (2025)
 * [Racy JGit - a short history of time](https://speakerdeck.com/msohn/racy-jgit-a-short-history-of-time) (2019)
 
 ## Community
@@ -216,6 +224,8 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Events
 
+* [User Summit 2025 (Paris)](https://gerrit.googlesource.com/summit/2025/+/refs/heads/master/schedule.md)
+  * [Keynote](https://storage.googleapis.com/gerrit-talks/summit/2025/OpenInfra.2025.Gerrit.KeyNote.pdf)
 * [User Summit 2022 (London)](https://gerrit.googlesource.com/summit/2022/+/refs/heads/master/schedule.md)
   * [Videos](https://youtube.com/playlist?list=PLySCWiWz9cNv9oV7mOjWIkRuhC_wC9kKr)
 * [Virtual Contributor Summit 2021](https://docs.google.com/document/d/1BOc17jyCXZYHb8seWSgdMOAh6_XeGoHDVCaJ10OTM20)
@@ -232,6 +242,7 @@ Gerrit summits on a dedicated [YouTube channel](https://www.youtube.com/gerritfo
 
 ## Tools / ThirdParty
 
+* [Pushing Git over the speed limit](https://storage.googleapis.com/gerrit-talks/summit/2025/Pushing.Git.over.speed.limit.GHS.pdf) (2025)
 * [Git Health Service](https://docs.google.com/presentation/d/1aIdRQzRGDujPvSXmjhMYysoDY8B6wYeAoZbC-oWHhZY) (2023)
   * [Video](https://youtu.be/0_UD33aK-3o)
 * [Using GitHub Actions with GerritHub](https://storage.googleapis.com/gerrit-talks/summit/2021/2021-12-01%20Using%20GitHub%20Actions%20with%20GerritHub.pdf) (2021)
