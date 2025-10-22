@@ -47,6 +47,10 @@ topnav_dropdowns:
           external_url: https://gerrit-ci.gerritforge.com/
         - title: Reviews
           external_url: https://gerrit-review.googlesource.com/q/status:open+project:gerrit
+        - title: Code search
+          url: https://cs.opensource.google/gerrit
+        - title: GitHub mirror
+          url: https://github.com/GerritCodeReview/gerrit
     - title: Docs
       folderitems:
         - title: Latest
