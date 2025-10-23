@@ -16,6 +16,23 @@
       "message": "If these are intended to be nested under the `## Future ...` heading above, they should have one more `#`? Or was that header supposed to have one fewer?\n```suggestion\n### 2026 Summit Planning\n```",
       "revId": "96b262bf70bf1f7a4dc119ee99dca99e84ef08e7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5f0cb68_76b32e79",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2025-10-23T20:59:04Z",
+      "side": 1,
+      "message": "```suggestion\nannouncement of the event to the mailing list next week.\n```",
+      "revId": "96b262bf70bf1f7a4dc119ee99dca99e84ef08e7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
