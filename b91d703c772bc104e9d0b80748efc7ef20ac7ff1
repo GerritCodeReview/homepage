@@ -185,6 +185,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "679d999d_34f943aa",
+        "filename": "index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-10-23T15:45:11Z",
+      "side": 1,
+      "message": "I looked into this a bit more and it seems it is possible to keep more of the content in Markdown, but it takes a little refactoring of what you have. I\u0027ll see if I can give it a try with some AI help, but I think the general idea would be to move structured content (cards, tiles, logos) into `_data/*.yml` and render them with small Liquid includes, while authoring all text as Markdown strings. I\u0027m hopeful that will also easily extend to the other parts of the site you didn\u0027t yet update in this change.",
+      "parentUuid": "e2f586aa_d7598f11",
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ce8e6fa6_94a510a9",
         "filename": "index.md",
         "patchSetId": 17
