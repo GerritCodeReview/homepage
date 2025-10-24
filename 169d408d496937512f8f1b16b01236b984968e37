@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06266180_47020ea5",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:28:59Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "1c44861e_36e8597d",
+      "range": {
+        "startLine": 178,
+        "startChar": 2,
+        "endLine": 178,
+        "endChar": 75
+      },
+      "revId": "169d408d496937512f8f1b16b01236b984968e37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "28b0971c_aee0526c",
@@ -54,6 +78,30 @@
       "writtenOn": "2025-10-24T13:23:30Z",
       "side": 1,
       "message": "```suggestion\n  cache files upon JVM forced shutdown.\n```",
+      "range": {
+        "startLine": 180,
+        "startChar": 2,
+        "endLine": 180,
+        "endChar": 14
+      },
+      "revId": "169d408d496937512f8f1b16b01236b984968e37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e86f122_c3256aa5",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:28:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28b0971c_aee0526c",
       "range": {
         "startLine": 180,
         "startChar": 2,
@@ -87,6 +135,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3de02745_40c0b7c1",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:28:59Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "3c0ce1bb_29617c1f",
+      "range": {
+        "startLine": 182,
+        "startChar": 0,
+        "endLine": 186,
+        "endChar": 54
+      },
+      "revId": "169d408d496937512f8f1b16b01236b984968e37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bc1fb9c2_85daa908",
@@ -100,6 +172,30 @@
       "writtenOn": "2025-10-24T13:23:30Z",
       "side": 1,
       "message": "```suggestion\nThe new H2 library brings multi-threaded operations, but also [one critical issue](https://github.com/h2database/h2database/issues/4083), reported on cache files\ncorruptions upon Gerrit ungracefully shutdowns.\n\n\u003e **NOTE**: The `gerrit.sh stop` command performs a forced shutdown if the JVM does not exit within the shutdown timeout.\n```",
+      "range": {
+        "startLine": 188,
+        "startChar": 0,
+        "endLine": 189,
+        "endChar": 55
+      },
+      "revId": "169d408d496937512f8f1b16b01236b984968e37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9426299f_67432dbf",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:28:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc1fb9c2_85daa908",
       "range": {
         "startLine": 188,
         "startChar": 0,
@@ -127,6 +223,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a25c0d5b_c55aa04d",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:28:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "99b5c323_08e8f7b2",
+      "revId": "169d408d496937512f8f1b16b01236b984968e37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6d52c975_3473a39f",
@@ -140,6 +254,24 @@
       "writtenOn": "2025-10-24T13:23:30Z",
       "side": 1,
       "message": "```suggestion\n  **NOTE: This is not actively maintained, consider further testing before rolling out**\n```",
+      "revId": "169d408d496937512f8f1b16b01236b984968e37",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2bf8b49_4ae7e06f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:28:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6d52c975_3473a39f",
       "revId": "169d408d496937512f8f1b16b01236b984968e37",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
