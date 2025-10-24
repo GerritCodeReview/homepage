@@ -1,0 +1,331 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffeff23f_a651d0e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "Thanks, Dani, for writing this up.",
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3830909_2bb69a97",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "_definitely_ or _probably_? \n\n\n\n```suggestion\nThe recent Gerrit User Summit was a great success, one of the best ones in over a decade, generating considerable enthusiasm and valuable discussion. We were\n```",
+      "range": {
+        "startLine": 22,
+        "startChar": 51,
+        "endLine": 23,
+        "endChar": 22
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78988080_13e4f65b",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "_and Skyler for the JJ project_",
+      "range": {
+        "startLine": 25,
+        "startChar": 61,
+        "endLine": 25,
+        "endChar": 62
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13685325_7645fa24",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "You can access the full summary of the summit on the [GerritForge blog](https://gitenterprise.me/2025/10/22/how-git-and-gerrit-are-re-tooling-for-the-age-of-ai/).",
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bceee07b_4823473d",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "```suggestion\neven more integrated conference, reminiscent of the old [GitTogether](https://opensource.googleblog.com/2011/12/gittogether-2011.html) days for\n```",
+      "range": {
+        "startLine": 39,
+        "startChar": 56,
+        "endLine": 39,
+        "endChar": 68
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68862dca_c4770f2c",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "```suggestion\nnext year, where we could cover even more broadly the git ecosystem,\n```",
+      "range": {
+        "startLine": 40,
+        "startChar": 69,
+        "endLine": 40,
+        "endChar": 74
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee4cae45_30f1dbf9",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "```suggestion\nproposed a German-based company to host a Gerrit beginners hackathon in Berlin. Matthias has offered\n```",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 16
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "992dba0e_d336d507",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "Remove? It\u0027s already mentioned at L57",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 20
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8c0b3a2_a185c0f5",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "```suggestion\nMark your calendars! The next [Gerrit community meetup](https://www.meetup.com/gerritmeets/events/310709185/) will take place at the\n```",
+      "range": {
+        "startLine": 56,
+        "startChar": 30,
+        "endLine": 56,
+        "endChar": 53
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70df6432_5e3c81f6",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "It\u0027s already at L64, remove it?",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 16
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d5be5d2_0d5f5861",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "```suggestion\nattendees is that only a couple of people out of hundreds using Gerrit at the OpenInfra projects were aware\n```",
+      "range": {
+        "startLine": 74,
+        "startChar": 18,
+        "endLine": 74,
+        "endChar": 65
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35e6cb54_1e974455",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "```suggestion\nthat Diffy is the official Gerrit logo. This is a significant branding issue with\n```",
+      "range": {
+        "startLine": 75,
+        "startChar": 40,
+        "endLine": 75,
+        "endChar": 71
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d4cf5bd_d41ca848",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "```suggestion\nout logo and its discoverability. We propose to start discussions again on updating the project\n```",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 17
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ce41a4f_0cfffbd1",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "```suggestion\nbrand recognition. We propose to start discussions again on improving the project\n```",
+      "range": {
+        "startLine": 76,
+        "startChar": 60,
+        "endLine": 76,
+        "endChar": 68
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b25b3aae_9ec752ff",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T13:09:04Z",
+      "side": 1,
+      "message": "One idea could be starting a contest amongst all the logo previously used in the past Gerrit User Summits and let the community decide.\n\nIn contract, GitLab and GitHub have a clear branding strategy and their logo is immediately recognised as the project identity.",
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
