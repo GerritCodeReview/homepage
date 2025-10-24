@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bfe1bd17_f442027c",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-24T15:15:57Z",
+      "side": 1,
+      "message": "```suggestion\n\u003e **NOTE**: Please check the [Known Issues](#known-issues) section to be aware\n```",
+      "range": {
+        "startLine": 81,
+        "startChar": 44,
+        "endLine": 81,
+        "endChar": 92
+      },
+      "revId": "bb9d50ab0066853ecec644cce8725adcdb8cc40e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
