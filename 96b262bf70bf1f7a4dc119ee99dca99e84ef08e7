@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5de6d50c_a081796c",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T09:16:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7dae52c2_8d64e606",
+      "revId": "96b262bf70bf1f7a4dc119ee99dca99e84ef08e7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d5f0cb68_76b32e79",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-10-23T20:59:04Z",
       "side": 1,
       "message": "```suggestion\nannouncement of the event to the mailing list next week.\n```",
+      "revId": "96b262bf70bf1f7a4dc119ee99dca99e84ef08e7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "013a239e_9e7e335b",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T09:16:51Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d5f0cb68_76b32e79",
       "revId": "96b262bf70bf1f7a4dc119ee99dca99e84ef08e7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
