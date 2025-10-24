@@ -88,6 +88,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "814c882a_86aa6ca0",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:25:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78988080_13e4f65b",
+      "range": {
+        "startLine": 25,
+        "startChar": 61,
+        "endLine": 25,
+        "endChar": 62
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "13685325_7645fa24",
@@ -101,6 +125,24 @@
       "writtenOn": "2025-10-24T13:09:04Z",
       "side": 1,
       "message": "You can access the full summary of the summit on the [GerritForge blog](https://gitenterprise.me/2025/10/22/how-git-and-gerrit-are-re-tooling-for-the-age-of-ai/).",
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b85e2f8f_2956b215",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:25:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13685325_7645fa24",
       "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -457,6 +499,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4e74d9c_df8716b1",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:25:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35e6cb54_1e974455",
+      "range": {
+        "startLine": 75,
+        "startChar": 40,
+        "endLine": 75,
+        "endChar": 71
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6d4cf5bd_d41ca848",
@@ -527,6 +593,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "07c53735_28d0bee6",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:25:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6d4cf5bd_d41ca848",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 17
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b25b3aae_9ec752ff",
@@ -540,6 +630,24 @@
       "writtenOn": "2025-10-24T13:09:04Z",
       "side": 1,
       "message": "One idea could be starting a contest amongst all the logo previously used in the past Gerrit User Summits and let the community decide.\n\nIn contract, GitLab and GitHub have a clear branding strategy and their logo is immediately recognised as the project identity.",
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76cfd754_2898a1b2",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:25:09Z",
+      "side": 1,
+      "message": "Good point, We\u0027ll discuss how to achieve this at the next meeting.",
+      "parentUuid": "b25b3aae_9ec752ff",
       "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
