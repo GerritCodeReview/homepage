@@ -22,6 +22,30 @@
       },
       "revId": "c3c3b126553a403b965be1b6c6944ea9f524aa92",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cb6fc35_f1e6e84f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:53:26Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "14f3e39b_10087fd7",
+      "range": {
+        "startLine": 186,
+        "startChar": 61,
+        "endLine": 186,
+        "endChar": 67
+      },
+      "revId": "c3c3b126553a403b965be1b6c6944ea9f524aa92",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
