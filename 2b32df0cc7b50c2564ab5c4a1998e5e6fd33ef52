@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e61b812_29979630",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:18:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e3830909_2bb69a97",
+      "range": {
+        "startLine": 22,
+        "startChar": 51,
+        "endLine": 23,
+        "endChar": 22
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "78988080_13e4f65b",
@@ -104,6 +128,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b983675_1308a42f",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:18:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "bceee07b_4823473d",
+      "range": {
+        "startLine": 39,
+        "startChar": 56,
+        "endLine": 39,
+        "endChar": 68
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "68862dca_c4770f2c",
@@ -140,6 +188,30 @@
       "writtenOn": "2025-10-24T13:09:04Z",
       "side": 1,
       "message": "```suggestion\nproposed a German-based company to host a Gerrit beginners hackathon in Berlin. Matthias has offered\n```",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 16
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6031da0_c6aa391f",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:18:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ee4cae45_30f1dbf9",
       "range": {
         "startLine": 45,
         "startChar": 0,
@@ -196,6 +268,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0456f1c2_00af3fd6",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:18:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "b8c0b3a2_a185c0f5",
+      "range": {
+        "startLine": 56,
+        "startChar": 30,
+        "endLine": 56,
+        "endChar": 53
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "70df6432_5e3c81f6",
@@ -232,6 +328,30 @@
       "writtenOn": "2025-10-24T13:09:04Z",
       "side": 1,
       "message": "```suggestion\nattendees is that only a couple of people out of hundreds using Gerrit at the OpenInfra projects were aware\n```",
+      "range": {
+        "startLine": 74,
+        "startChar": 18,
+        "endLine": 74,
+        "endChar": 65
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0c0d31e_63fdad10",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:18:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "4d5be5d2_0d5f5861",
       "range": {
         "startLine": 74,
         "startChar": 18,
@@ -301,6 +421,30 @@
       "writtenOn": "2025-10-24T13:09:04Z",
       "side": 1,
       "message": "```suggestion\nbrand recognition. We propose to start discussions again on improving the project\n```",
+      "range": {
+        "startLine": 76,
+        "startChar": 60,
+        "endLine": 76,
+        "endChar": 68
+      },
+      "revId": "2b32df0cc7b50c2564ab5c4a1998e5e6fd33ef52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01f7c223_ac985f93",
+        "filename": "_posts/2025-10-23-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-24T13:18:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8ce41a4f_0cfffbd1",
       "range": {
         "startLine": 76,
         "startChar": 60,
