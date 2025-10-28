@@ -118,6 +118,30 @@
       },
       "revId": "9cb7069de9898ecee84bc15cd98ed747f2dd2ac1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba4b3a7c_23270968",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 3604707
+      },
+      "writtenOn": "2025-10-28T20:00:50Z",
+      "side": 1,
+      "message": "Sure, we have lots of external dependencies, but that doesn\u0027t mean I think they should be high level links on our homepage. Code Search is a primary use case, so that link makes sense to me. If there are other primary use cases that we have, let\u0027s propose them, but I\u0027m not seeing a good justification for this link yet.",
+      "parentUuid": "cfe5902e_33508814",
+      "range": {
+        "startLine": 11,
+        "startChar": 49,
+        "endLine": 11,
+        "endChar": 62
+      },
+      "revId": "9cb7069de9898ecee84bc15cd98ed747f2dd2ac1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
