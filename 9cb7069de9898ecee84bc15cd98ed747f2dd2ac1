@@ -22,6 +22,30 @@
       },
       "revId": "9cb7069de9898ecee84bc15cd98ed747f2dd2ac1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eec38458_72e4ad7e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1111258
+      },
+      "writtenOn": "2025-10-28T19:19:46Z",
+      "side": 1,
+      "message": "I guess you\u0027d have to ask whoever created all of these mirrors on GitHub: https://github.com/GerritCodeReview\n\n\nFor one thing, Gerrit doesn\u0027t have code search. GitHub is pretty good for code search. Another idea: you can easily get raw files over HTTP from repos with GitHub, whereas with Gerrit, Gitiles only gives raw files in json or base64 encoding.",
+      "parentUuid": "19c9b4ed_ffabded5",
+      "range": {
+        "startLine": 11,
+        "startChar": 49,
+        "endLine": 11,
+        "endChar": 62
+      },
+      "revId": "9cb7069de9898ecee84bc15cd98ed747f2dd2ac1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
