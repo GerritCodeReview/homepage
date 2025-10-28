@@ -46,6 +46,30 @@
       },
       "revId": "9cb7069de9898ecee84bc15cd98ed747f2dd2ac1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1e54af4_8c788951",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 3604707
+      },
+      "writtenOn": "2025-10-28T19:40:50Z",
+      "side": 1,
+      "message": "Thanks for outlining those things. Since you are already adding the code search piece, this does not seem like it requires the other link. As for the raw files piece, if someone desires that, I would encourage them to work with the Gerrit community on getting this supported instead of sending them elsewhere.",
+      "parentUuid": "eec38458_72e4ad7e",
+      "range": {
+        "startLine": 11,
+        "startChar": 49,
+        "endLine": 11,
+        "endChar": 62
+      },
+      "revId": "9cb7069de9898ecee84bc15cd98ed747f2dd2ac1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
