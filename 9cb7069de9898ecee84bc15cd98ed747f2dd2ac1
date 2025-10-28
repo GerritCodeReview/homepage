@@ -94,6 +94,30 @@
       },
       "revId": "9cb7069de9898ecee84bc15cd98ed747f2dd2ac1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "58e239d5_5e8acd78",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-28T20:00:16Z",
+      "side": 1,
+      "message": "\u003e FWIW there are some links to GitHub in Gerrit repos: https://github.com/search?q\u003dorg%3AGerritCodeReview%20github.com%2FGerritCodeReview\u0026type\u003dcode\n\u003e \n\u003e \n\u003e The GerritCodeReview GitHub site seems like an official Gerrit site,\n\nThat\u0027s the official mirror of Gerrit repos to GitHub. All the Gerrit maintainers are part of the associated GitHub organisation, which I created over a decade ago.",
+      "parentUuid": "cfe5902e_33508814",
+      "range": {
+        "startLine": 11,
+        "startChar": 49,
+        "endLine": 11,
+        "endChar": 62
+      },
+      "revId": "9cb7069de9898ecee84bc15cd98ed747f2dd2ac1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
