@@ -48,7 +48,7 @@ topnav_dropdowns:
         - title: Reviews
           external_url: https://gerrit-review.googlesource.com/q/status:open+project:gerrit
         - title: Code search
-          url: https://cs.opensource.google/gerrit
+          external_url: https://cs.opensource.google/gerrit
     - title: Docs
       folderitems:
         - title: Latest
