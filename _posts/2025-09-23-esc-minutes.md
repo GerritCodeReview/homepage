@@ -2,8 +2,8 @@
 title: "Gerrit ESC Meeting Minutes, September 23, 2025"
 tags: esc
 keywords: esc minutes
-permalink: 2025-07-31-esc-minutes.html
-summary: "Minutes from the ESC meeting held on July 31, 2025"
+permalink: 2025-09-23-esc-minutes.html
+summary: "Minutes from the ESC meeting held on September 23, 2025"
 hide_sidebar: true
 hide_navtoggle: true
 toc: true
