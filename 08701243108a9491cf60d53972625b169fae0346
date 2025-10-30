@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9db47aaa_3cd3fae6",
+        "filename": "_posts/2025-10-29-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-30T14:32:08Z",
+      "side": 1,
+      "message": "That\u0027s one of them, there\u0027s another one (possibly many other also) raised.",
+      "parentUuid": "41a949a1_b09c2a94",
+      "range": {
+        "startLine": 62,
+        "startChar": 31,
+        "endLine": 62,
+        "endChar": 53
+      },
+      "revId": "08701243108a9491cf60d53972625b169fae0346",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3a6da9c6_71f4870f",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed416b67_15c062af",
+        "filename": "_posts/2025-10-29-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-30T14:32:08Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "3a6da9c6_71f4870f",
+      "range": {
+        "startLine": 84,
+        "startChar": 10,
+        "endLine": 84,
+        "endChar": 20
+      },
+      "revId": "08701243108a9491cf60d53972625b169fae0346",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "28518221_e6a0f612",
@@ -60,6 +108,30 @@
       "writtenOn": "2025-10-30T14:18:29Z",
       "side": 1,
       "message": "```suggestion\nmore suited for advanced users, while GitButler is for everyone, but noted that GitButler\nis a commercial product, whereas JJ is completely open source.\n```",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 69
+      },
+      "revId": "08701243108a9491cf60d53972625b169fae0346",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87bb27ef_4dccc5a7",
+        "filename": "_posts/2025-10-29-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-10-30T14:32:08Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "28518221_e6a0f612",
       "range": {
         "startLine": 97,
         "startChar": 0,
