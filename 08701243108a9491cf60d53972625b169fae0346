@@ -22,6 +22,52 @@
       },
       "revId": "08701243108a9491cf60d53972625b169fae0346",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a6da9c6_71f4870f",
+        "filename": "_posts/2025-10-29-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-30T14:18:29Z",
+      "side": 1,
+      "message": "```suggestion\n## JJ and GitButler Integration with Gerrit\n```",
+      "range": {
+        "startLine": 84,
+        "startChar": 10,
+        "endLine": 84,
+        "endChar": 20
+      },
+      "revId": "08701243108a9491cf60d53972625b169fae0346",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28518221_e6a0f612",
+        "filename": "_posts/2025-10-29-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-10-30T14:18:29Z",
+      "side": 1,
+      "message": "```suggestion\nmore suited for advanced users, while GitButler is for everyone, but noted that GitButler\nis a commercial product, whereas JJ is completely open source.\n```",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 69
+      },
+      "revId": "08701243108a9491cf60d53972625b169fae0346",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
