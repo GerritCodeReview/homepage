@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebca0dac_2864a365",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2025-11-03T16:59:20Z",
+      "side": 1,
+      "message": "You\u0027ll probably want to mention https://gerrit-review.googlesource.com/c/gerrit/+/512922 (sorry that i did skip here)",
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ec8a7fe8_d54ca0db",
