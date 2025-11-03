@@ -20,6 +20,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "809d5dbf_7928757c",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 661,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n    Attempts to set a sequence (for `changes`, `accounts`, or `groups`) to a value lower than its\n    current value are now rejected immediately.\n```",
+      "range": {
+        "startLine": 660,
+        "startChar": 0,
+        "endLine": 661,
+        "endChar": 49
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c8bfdac_61d9e5dc",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 669,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n    Previously, when LDAP authentication was enabled, user lookups were incorrectly performed\n    using the `username` external ID scheme, which could lead to failed logins.\n    This change restricts username-based lookups to `HTTP` and `HTTP_LDAP` authentication\n    protocols only, ensuring `LDAP` uses the correct `gerrit` scheme.\n```",
+      "range": {
+        "startLine": 666,
+        "startChar": 0,
+        "endLine": 669,
+        "endChar": 71
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ec8a7fe8_d54ca0db",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 1
@@ -43,6 +89,99 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0d31b9b0_c97efbab",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n    Return `HTTP 401` for any incoming authentication request with a password longer than `71` chars\n```",
+      "range": {
+        "startLine": 672,
+        "startChar": 91,
+        "endLine": 672,
+        "endChar": 93
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2b49445_0453a5d2",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "Correct, just say `71` chars then.",
+      "parentUuid": "ec8a7fe8_d54ca0db",
+      "range": {
+        "startLine": 672,
+        "startChar": 78,
+        "endLine": 672,
+        "endChar": 85
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f435838e_9284c89a",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 674,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n      Fixed password validation to explicitly fail when a password is longer than 71 characters,\n```",
+      "range": {
+        "startLine": 674,
+        "startChar": 70,
+        "endLine": 674,
+        "endChar": 93
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5fbc4a0_a70d0151",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 684,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n    Fixed an issue where, under heavy concurrent Git/HTTP load, some worker threads could remain\n    stuck indefinitely due to unbounded blocking in synchronous write callbacks.\n    Blocking callbacks are now properly capped by the configured `httpd.idleTimeout`, ensuring\n    idle or stalled Git/HTTP requests are terminated and threads are released as expected.\n```",
+      "range": {
+        "startLine": 681,
+        "startChar": 0,
+        "endLine": 684,
+        "endChar": 92
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "77646f95_a3a6fcfa",
         "filename": "pages/site/releases/3.10.md",
         "patchSetId": 1
@@ -59,6 +198,122 @@
         "startChar": 4,
         "endLine": 693,
         "endChar": 75
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e449ec40_6695901a",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 693,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "It\u0027s a fix that allows to correct a bug in the high-availability plugin.",
+      "parentUuid": "77646f95_a3a6fcfa",
+      "range": {
+        "startLine": 693,
+        "startChar": 4,
+        "endLine": 693,
+        "endChar": 75
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10a3e529_79f0d21b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 701,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n    Fixed an issue where corrupted or unloadable changes could cause Internal Server Errors during\n    `git-upload-pack` on replicas.\n```",
+      "range": {
+        "startLine": 700,
+        "startChar": 0,
+        "endLine": 701,
+        "endChar": 36
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "036fc6c8_c32c61e4",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 714,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n\n    Fixed an issue where submitting a change could fail if its index entry was out of sync with\n    the underlying NoteDb data. Gerrit can now backfill missing change information directly from\n    the repository when the index is stale, ensuring that valid changes can still be submitted\n    without repeated retries.\n\n    A new configuration option, `change.backfillMergeSuperSet`, controls this behavior.\n    When enabled, Gerrit reloads change data from the repository instead of failing due to a stale\n    index, making change submissions more reliable in setups that use asynchronous indexing or\n    multiple primaries.\n```",
+      "range": {
+        "startLine": 705,
+        "startChar": 0,
+        "endLine": 714,
+        "endChar": 25
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cd02dfc_af9d2865",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 735,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n\n    Change owners can now propose suggested edits directly in comments, even if they are not the\n    original authors of the change.\n```",
+      "range": {
+        "startLine": 733,
+        "startChar": 0,
+        "endLine": 735,
+        "endChar": 37
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b54d191_5f6cc129",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 738,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T17:07:17Z",
+      "side": 1,
+      "message": "```suggestion\n    `gr-permission`: Fix deleting rule in `gr-rule-editor`.\n```",
+      "range": {
+        "startLine": 738,
+        "startChar": 2,
+        "endLine": 738,
+        "endChar": 58
       },
       "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
