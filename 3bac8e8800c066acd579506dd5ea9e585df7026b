@@ -22,6 +22,29 @@
       },
       "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77646f95_a3a6fcfa",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 693,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-11-03T16:58:09Z",
+      "side": 1,
+      "message": "Wrong issue?(Same as above)\n\nAlso, from description seems like an enhancement rather than a bug fix.",
+      "range": {
+        "startLine": 693,
+        "startChar": 4,
+        "endLine": 693,
+        "endChar": 75
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
