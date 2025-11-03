@@ -33,6 +33,24 @@
       "message": "Just noticed this right after submission :(\n\n\n\nDone in Iecc7966e73090aca659a0a2072736e7130f73d7d\n\n```suggestion\n\n          external_url: https://cs.opensource.google/gerrit\n```",
       "revId": "a6dedc15c2db68f5a773a2997952e80f2b47deac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c01115b_996dafcc",
+        "filename": "_data/topnav.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-11-03T19:05:25Z",
+      "side": 1,
+      "message": "Fixed in 522344: topnav: Code: mark link to Code Search as external | https://gerrit-review.googlesource.com/c/homepage/+/522344",
+      "parentUuid": "a93bd6e9_b67668ff",
+      "revId": "a6dedc15c2db68f5a773a2997952e80f2b47deac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
