@@ -371,6 +371,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa7a260e_35a986fc",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 693,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:25:40Z",
+      "side": 1,
+      "message": "Good catch @danielesassoli@gmail.com, fixed the link.",
+      "parentUuid": "e449ec40_6695901a",
+      "range": {
+        "startLine": 693,
+        "startChar": 4,
+        "endLine": 693,
+        "endChar": 75
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "10a3e529_79f0d21b",
