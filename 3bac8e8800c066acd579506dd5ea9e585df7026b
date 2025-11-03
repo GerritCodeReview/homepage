@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a05d045a_0db12e6e",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 661,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "809d5dbf_7928757c",
+      "range": {
+        "startLine": 660,
+        "startChar": 0,
+        "endLine": 661,
+        "endChar": 49
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9c8bfdac_61d9e5dc",
@@ -54,6 +78,30 @@
       "writtenOn": "2025-11-03T17:07:17Z",
       "side": 1,
       "message": "```suggestion\n    Previously, when LDAP authentication was enabled, user lookups were incorrectly performed\n    using the `username` external ID scheme, which could lead to failed logins.\n    This change restricts username-based lookups to `HTTP` and `HTTP_LDAP` authentication\n    protocols only, ensuring `LDAP` uses the correct `gerrit` scheme.\n```",
+      "range": {
+        "startLine": 666,
+        "startChar": 0,
+        "endLine": 669,
+        "endChar": 71
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea8e2ede_45cbdf76",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 669,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "9c8bfdac_61d9e5dc",
       "range": {
         "startLine": 666,
         "startChar": 0,
@@ -134,6 +182,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "42619ba3_294d9f9c",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "0d31b9b0_c97efbab",
+      "range": {
+        "startLine": 672,
+        "startChar": 91,
+        "endLine": 672,
+        "endChar": 93
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c48e26b1_26bcdf37",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "e2b49445_0453a5d2",
+      "range": {
+        "startLine": 672,
+        "startChar": 78,
+        "endLine": 672,
+        "endChar": 85
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f435838e_9284c89a",
@@ -157,6 +253,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "486aa13d_4962a7de",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 674,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f435838e_9284c89a",
+      "range": {
+        "startLine": 674,
+        "startChar": 70,
+        "endLine": 674,
+        "endChar": 93
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d5fbc4a0_a70d0151",
@@ -170,6 +290,30 @@
       "writtenOn": "2025-11-03T17:07:17Z",
       "side": 1,
       "message": "```suggestion\n    Fixed an issue where, under heavy concurrent Git/HTTP load, some worker threads could remain\n    stuck indefinitely due to unbounded blocking in synchronous write callbacks.\n    Blocking callbacks are now properly capped by the configured `httpd.idleTimeout`, ensuring\n    idle or stalled Git/HTTP requests are terminated and threads are released as expected.\n```",
+      "range": {
+        "startLine": 681,
+        "startChar": 0,
+        "endLine": 684,
+        "endChar": 92
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "866a8798_8619d376",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 684,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d5fbc4a0_a70d0151",
       "range": {
         "startLine": 681,
         "startChar": 0,
@@ -250,6 +394,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ec65137_7b308473",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 701,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "10a3e529_79f0d21b",
+      "range": {
+        "startLine": 700,
+        "startChar": 0,
+        "endLine": 701,
+        "endChar": 36
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "036fc6c8_c32c61e4",
@@ -263,6 +431,30 @@
       "writtenOn": "2025-11-03T17:07:17Z",
       "side": 1,
       "message": "```suggestion\n\n    Fixed an issue where submitting a change could fail if its index entry was out of sync with\n    the underlying NoteDb data. Gerrit can now backfill missing change information directly from\n    the repository when the index is stale, ensuring that valid changes can still be submitted\n    without repeated retries.\n\n    A new configuration option, `change.backfillMergeSuperSet`, controls this behavior.\n    When enabled, Gerrit reloads change data from the repository instead of failing due to a stale\n    index, making change submissions more reliable in setups that use asynchronous indexing or\n    multiple primaries.\n```",
+      "range": {
+        "startLine": 705,
+        "startChar": 0,
+        "endLine": 714,
+        "endChar": 25
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6bbfa96_e574077b",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 714,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "036fc6c8_c32c61e4",
       "range": {
         "startLine": 705,
         "startChar": 0,
@@ -296,6 +488,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "deb25348_1e68cf70",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 735,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "7cd02dfc_af9d2865",
+      "range": {
+        "startLine": 733,
+        "startChar": 0,
+        "endLine": 735,
+        "endChar": 37
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b54d191_5f6cc129",
@@ -309,6 +525,30 @@
       "writtenOn": "2025-11-03T17:07:17Z",
       "side": 1,
       "message": "```suggestion\n    `gr-permission`: Fix deleting rule in `gr-rule-editor`.\n```",
+      "range": {
+        "startLine": 738,
+        "startChar": 2,
+        "endLine": 738,
+        "endChar": 58
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6288498a_9540eb0f",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 738,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:23:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "3b54d191_5f6cc129",
       "range": {
         "startLine": 738,
         "startChar": 2,
