@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec8a7fe8_d54ca0db",
+        "filename": "pages/site/releases/3.10.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2025-11-03T16:55:22Z",
+      "side": 1,
+      "message": "nit: AFAIU from the body below it will fail for passwords of 72 chars or longer, not just longer...",
+      "range": {
+        "startLine": 672,
+        "startChar": 78,
+        "endLine": 672,
+        "endChar": 85
+      },
+      "revId": "3bac8e8800c066acd579506dd5ea9e585df7026b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
