@@ -39,6 +39,30 @@
       },
       "revId": "99c177ad5fda47a6d766fd8c83ae334e3fa69614",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "018d6513_69d949c7",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 750,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2025-11-03T19:48:19Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "7cbff601_8653d5dd",
+      "range": {
+        "startLine": 750,
+        "startChar": 0,
+        "endLine": 750,
+        "endChar": 76
+      },
+      "revId": "99c177ad5fda47a6d766fd8c83ae334e3fa69614",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
