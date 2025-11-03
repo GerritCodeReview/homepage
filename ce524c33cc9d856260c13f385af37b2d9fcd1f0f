@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "afd1022b_7783e0d6",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 761,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-03T20:52:01Z",
+      "side": 1,
+      "message": "```suggestion\n    Avoid _\"change N missing from ChangeSet[][]\"_ error when submitting a change with a stale index entry.\n```",
+      "range": {
+        "startLine": 761,
+        "startChar": 4,
+        "endLine": 761,
+        "endChar": 49
+      },
+      "revId": "ce524c33cc9d856260c13f385af37b2d9fcd1f0f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
