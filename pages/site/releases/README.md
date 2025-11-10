@@ -64,7 +64,7 @@ The support status of all recent Gerrit versions is
 
 [Release notes for Gerrit 3.11](/3.11.html)
 
-## 3.10
+## 3.10 (EOL)
 
 * Rebase merge commits
 
