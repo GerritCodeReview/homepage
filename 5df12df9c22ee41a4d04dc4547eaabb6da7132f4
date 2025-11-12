@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c21217d3_11a5a022",
+        "filename": "pages/design-docs/ai-code-review-assistant/solution.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1012457
+      },
+      "writtenOn": "2025-11-12T17:11:31Z",
+      "side": 1,
+      "message": "Should we still pursue this, given that Google has added an AI chat feature to core?\n\n522821: Add AI Chat | https://gerrit-review.googlesource.com/c/gerrit/+/522821",
+      "range": {
+        "startLine": 136,
+        "startChar": 0,
+        "endLine": 136,
+        "endChar": 32
+      },
+      "revId": "5df12df9c22ee41a4d04dc4547eaabb6da7132f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0c74aed1_9a2c5437",
         "filename": "pages/design-docs/ai-code-review-assistant/solution.md",
         "patchSetId": 6
