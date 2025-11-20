@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5852ee9f_a7a0381a",
+        "filename": "_posts/2025-11-19-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-11-20T18:11:15Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c94d86a5_7d0b0181",
+      "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "638bdf3b_5fe32508",
@@ -48,6 +66,24 @@
       "writtenOn": "2025-11-20T17:50:04Z",
       "side": 1,
       "message": "```suggestion\npermalink: 2025-11-20-cm-minutes.html\n```",
+      "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35b42709_4ef4c3a5",
+        "filename": "_posts/2025-11-19-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-11-20T18:11:15Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "638bdf3b_5fe32508",
       "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -169,6 +205,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6049aef2_0968a049",
+        "filename": "_posts/2025-11-19-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-11-20T18:11:15Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "7417ff15_764887b9",
+      "range": {
+        "startLine": 54,
+        "startChar": 67,
+        "endLine": 54,
+        "endChar": 70
+      },
+      "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aa870349_caeecd7a",
@@ -182,6 +242,30 @@
       "writtenOn": "2025-11-20T17:58:02Z",
       "side": 1,
       "message": "```suggestion\nWe\u0027re still discussing this, Luca is planning to start a poll in the coming days with a carousel of the logos proposed in the past few years at the Gerrit events.\n```",
+      "range": {
+        "startLine": 57,
+        "startChar": 36,
+        "endLine": 57,
+        "endChar": 78
+      },
+      "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa5ce39e_f24b3cf0",
+        "filename": "_posts/2025-11-19-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-11-20T18:11:15Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "aa870349_caeecd7a",
       "range": {
         "startLine": 57,
         "startChar": 36,
