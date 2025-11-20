@@ -77,6 +77,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "9990029a_3bfc9771",
+        "filename": "_posts/2025-11-19-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-20T17:58:02Z",
+      "side": 1,
+      "message": "I did not participate :-)",
+      "parentUuid": "208313d1_acd377bd",
+      "range": {
+        "startLine": 12,
+        "startChar": 52,
+        "endLine": 12,
+        "endChar": 65
+      },
+      "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "3f85b846_543b6736",
         "filename": "_posts/2025-11-19-cm-minutes.md",
         "patchSetId": 3
@@ -93,6 +117,76 @@
         "startChar": 25,
         "endLine": 20,
         "endChar": 36
+      },
+      "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "191e9a49_4a9ab5e8",
+        "filename": "_posts/2025-11-19-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-20T17:58:02Z",
+      "side": 1,
+      "message": "😜",
+      "parentUuid": "3f85b846_543b6736",
+      "range": {
+        "startLine": 20,
+        "startChar": 25,
+        "endLine": 20,
+        "endChar": 36
+      },
+      "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7417ff15_764887b9",
+        "filename": "_posts/2025-11-19-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-20T17:58:02Z",
+      "side": 1,
+      "message": "```suggestion\nDani will try to abstract the plain english from the HTML pages to YAML files.\n```",
+      "range": {
+        "startLine": 54,
+        "startChar": 67,
+        "endLine": 54,
+        "endChar": 70
+      },
+      "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa870349_caeecd7a",
+        "filename": "_posts/2025-11-19-cm-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-20T17:58:02Z",
+      "side": 1,
+      "message": "```suggestion\nWe\u0027re still discussing this, Luca is planning to start a poll in the coming days with a carousel of the logos proposed in the past few years at the Gerrit events.\n```",
+      "range": {
+        "startLine": 57,
+        "startChar": 36,
+        "endLine": 57,
+        "endChar": 78
       },
       "revId": "ac7917e6680dfa49e1438179d31e0dff84c233fd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
