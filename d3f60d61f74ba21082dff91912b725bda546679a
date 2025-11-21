@@ -45,6 +45,30 @@
       },
       "revId": "d3f60d61f74ba21082dff91912b725bda546679a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "045a64fa_ac355ecf",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-11-21T12:17:43Z",
+      "side": 1,
+      "message": "I would assume this was tested when this was added?\n\nAre we ok not providing any downgrade instructions then? This would be a first as far as I\u0027m aware.",
+      "parentUuid": "61afcc0f_d301920e",
+      "range": {
+        "startLine": 178,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 46
+      },
+      "revId": "d3f60d61f74ba21082dff91912b725bda546679a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
