@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfae6f34_221f75ad",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-11-21T14:12:24Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "557bdfd7_cf83a479",
+      "range": {
+        "startLine": 177,
+        "startChar": 67,
+        "endLine": 177,
+        "endChar": 107
+      },
+      "revId": "d3f60d61f74ba21082dff91912b725bda546679a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "61afcc0f_d301920e",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "\u003e I would assume this was tested when this was added?\n\nPossibly not, as we mention in the breaking change that isn\u0027t possible out of the box.\n\n\u003e Are we ok not providing any downgrade instructions then? This would be a first as far as I\u0027m aware.\n\nWhenever the downgrade isn\u0027t possible out of the box, we either omit or mention that isn\u0027t possible out of the box.",
       "parentUuid": "045a64fa_ac355ecf",
+      "range": {
+        "startLine": 178,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 46
+      },
+      "revId": "d3f60d61f74ba21082dff91912b725bda546679a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b735bf32_55b4a3d9",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2025-11-21T14:12:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e262ab15_5a00a706",
       "range": {
         "startLine": 178,
         "startChar": 0,
