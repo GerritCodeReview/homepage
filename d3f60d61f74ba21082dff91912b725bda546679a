@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "557bdfd7_cf83a479",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-21T12:10:14Z",
+      "side": 1,
+      "message": "I don\u0027t believe the instructions below are enough.",
+      "range": {
+        "startLine": 177,
+        "startChar": 67,
+        "endLine": 177,
+        "endChar": 107
+      },
+      "revId": "d3f60d61f74ba21082dff91912b725bda546679a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61afcc0f_d301920e",
+        "filename": "pages/site/releases/3.7.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2025-11-21T12:10:14Z",
+      "side": 1,
+      "message": "This should then be removed: the downgrade as you\u0027ve mentioned isn\u0027t possible out of the box.",
+      "range": {
+        "startLine": 178,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 46
+      },
+      "revId": "d3f60d61f74ba21082dff91912b725bda546679a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
