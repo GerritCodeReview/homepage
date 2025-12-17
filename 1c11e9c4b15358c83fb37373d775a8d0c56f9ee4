@@ -1,0 +1,384 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f356258_28aea442",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 37
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "```suggestion\nRedesign website to highlight the strongpoints of Gerrit, its\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a21e7e3d_d7eb9868",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 37
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Sorry it took me so long to finish reviewing this.",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa8c155a_9bfe996d",
+        "filename": "_config.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Should this match the `hero.subtitle` text from `_data/content.yml`?",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58e6d031_1709fa59",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Can you add a `latest_gerrit_version: \"3.13.1\"` at the top and use it everywhere you mention the version? It\u0027ll make updating new versions a little simpler.",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "411df1d0_bd531376",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "```suggestion\n  enterprise_support: \"support.html#enterprise-support\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df50d629_84660e72",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "```suggestion\n  rest_api: \"{{ links.gerrit_docs }}rest-api.html\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52242243_6a472c3a",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "I don\u0027t think we need to single out enterprises here. It sounds a little too much like a sales pitch.\n```suggestion\n  subtitle: \"Powerful features that make Gerrit the preferred choice for code review\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "662cb31a_47ec2a79",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Should we s/SCMs/Git forges/?\n\n```suggestion\n      text: \"Unlike other Git forges, Gerrit\u0027s unique patch-based code review system more closely resembles the proven mailing list workflow used by Git itself and the Linux kernel, where patches are reviewed and iterated on before being applied to the main repository, ensuring higher code quality and better collaboration.\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1e11c03_53dac616",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "The first sentence looks like it should go under Enterprise Support whereas the second sentence is about Gerrit scalability. We shouldn\u0027t mix those.",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a17bff3d_5f3dfe06",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "```suggestion\n      button_url: {{ links.enterprise_support }}\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3246148c_0884ba50",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "De-dup these links?\n```suggestion\n      button_url: \"{{ links.rest_api }}\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e8853ca_0b6a3687",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Should this link to one of the Jenkins plugins for Gerrit? Or is there more built-in support for Gerrit in Jenkins now?",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84145a70_cb7767db",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Same kind of question as Jenkins, is there something Gerrit-specific that we can link to?",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35d8890a_71dafcb6",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Link to the webhook plugin docs?",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f9a0929_2cccfd22",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "```suggestion\n      name: \"JGit\"\n      url: \"https://projects.eclipse.org/projects/technology.jgit\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9cb01d24_9a3daaa3",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Does it work to do this?\n```suggestion\n      button_url: \"{{ links.gerrit_war }}\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66569a99_1511247a",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "```suggestion\n      button_url: \"{{ links.docker_hub }}\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb5ee0a2_633bc173",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "```suggestion\n  download_button_url: \"{{ site.data.content.links.gerrit_war }}\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5f2e94a_fb9c3b83",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "```suggestion\n  docs_button_url: \"{{ site.data.content.links.gerrit_docs }}\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d4276c3_e8b6c863",
+        "filename": "_includes/footer.html",
+        "patchSetId": 37
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Can you remove this extra whitespace?",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca0cc7a5_2c085d43",
+        "filename": "_includes/footer.html",
+        "patchSetId": 37
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "What if we do this instead?\n\n```suggestion\n      {% for section in site.data.content.footers %}\n      \u003cdiv class\u003d\"footer-section\"\u003e\n        \u003ch3\u003e{{ section.name }}\u003c/h3\u003e\n        \u003cul\u003e\n          {% for link in section.links %}\n          \u003cli\u003e\u003ca href\u003d\"{{ link.url }}\"\u003e{{ link.text }}\u003c/a\u003e\u003c/li\u003e\n          {% endfor %}\n        \u003c/ul\u003e\n      \u003c/div\u003e\n      {% endfor %}\n```",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 12
+      },
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b79b7f7_85a12de1",
+        "filename": "_includes/topnav.html",
+        "patchSetId": 37
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "Can you use templating syntax like what\u0027s in the base (and like what I suggested in `footer.html`)? You could improve the `topnav.yml` data and the logic on the left to use a combined `topnav` list and conditionally handle `.folderitems` if it exists. That will let us have the custom ordering you have in this new version. Something like:\n\n```html\n          {% for item in site.data.content.topnav %}\n          {% if item.folderitems %}\n          \u003c!-- items with drop-downs handled here --\u003e\n          \u003cli class\u003d\"dropdown\"\u003e\n            \u003ca href\u003d\"#\" class\u003d\"dropdown-toggle\"\u003e{{ item.title }}\u003ci class\u003d\"fas fa-caret-down\"\u003e\u003c/i\u003e\u003c/a\u003e\n            \u003cul class\u003d\"dropdown-menu\"\u003e\n              {% for folderitem in item.folderitems %}\n              {% if folderitem.external_url %}\n              \u003cli\u003e\u003ca href\u003d\"{{folderitem.external_url}}\" target\u003d\"_blank\"\u003e{{folderitem.title}}\u003c/a\u003e\u003c/li\u003e\n              {% elsif page.url contains folderitem.url %}\n              \u003cli class\u003d\"dropdownActive\"\u003e\u003ca href\u003d\"{{folderitem.url}}\"\u003e{{folderitem.title}}\u003c/a\u003e\u003c/li\u003e\n              {% else %}\n              \u003cli\u003e\u003ca href\u003d\"{{folderitem.url}}\"\u003e{{folderitem.title}}\u003c/a\u003e\u003c/li\u003e\n              {% endif %}\n              {% endfor %}\n            \u003c/ul\u003e\n          \u003c/li\u003e\n          {% else %}\n          \u003c!-- items without drop-downs handled here --\u003e\n          \u003cli\u003e\u003ca href\u003d\"/about/\"\u003eAbout\u003c/a\u003e\u003c/li\u003e\n          {% if item.external_url %}\n          \u003cli\u003e\u003ca href\u003d\"{{item.external_url}}\" target\u003d\"_blank\"\u003e{{item.title}}\u003c/a\u003e\u003c/li\u003e\n          {% elsif page.url contains item.url %} \u003c!-- TODO: Not sure if we still need this case? --\u003e\n          \u003cli class\u003d\"active\"\u003e\u003ca href\u003d\"{{item.url}}\"\u003e{{item.title}}\u003c/a\u003e\u003c/li\u003e\n          {% else %}\n          \u003cli\u003e\u003ca href\u003d\"{{item.url}}\"\u003e{{item.title}}\u003c/a\u003e\u003c/li\u003e\n          {% endif %}\n          {% endif %}\n          {% endfor %}\n```\n\nThe content in `content.yml` (this is copied from `_data/topnav.yml`, but you can update with the differences you have in this PS) would look like:\n\n```yaml\ntopnav:\n  - title: About\n    url: /about.html\n  - title: News\n    url: /news.html\n  - title: Community\n    folderitems:\n      - title: Code of Conduct\n        url: /codeofconduct.html\n      - title: Forums, Mailing lists etc.\n        url: /contact.html\n      - title: Members\n        url: /members.html\n      # fill in the rest\n  - title: Docs\n    folderitems:\n      - title: Latest\n        external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.13.1/index.html\n      - title: Designs\n        url: /design-docs-index.html\n      - title: Wiki\n        external_url: https://gerrit.googlesource.com/homepage/+/master/pages/site/docs/\n  - title: Code\n    folderitems:\n      - title: Source\n        external_url: https://gerrit.googlesource.com/gerrit/\n      - title: Releases\n        url: /releases-readme.html\n      # fill in the rest\n  - title: Support\n    url: /support.html\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}

@@ -132,6 +132,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3480f0de_8470e420",
+        "filename": "_includes/head.html",
+        "patchSetId": 17
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 1,
+      "message": "\u003e Trying to separate new and old css in different folders so its was a little \"safer\" to work on knowing I wasn\u0027t accidentally editing old css which then would have been a pain to recover if we wanted too.\n\nGotcha.\n\n\u003e So kept the css for the redesign separate, old css is not longer used and is deleted in next commit.\n\nDo you think you\u0027re safe from the concern above now? If yes, it would be good to squash that commit into this one so that it\u0027s clear what\u0027s not used.",
+      "parentUuid": "3c7e7db2_8a9b8c2b",
+      "range": {
+        "startLine": 21,
+        "startChar": 33,
+        "endLine": 21,
+        "endChar": 54
+      },
+      "revId": "b91d703c772bc104e9d0b80748efc7ef20ac7ff1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7be1a11a_fd21c4f1",
         "filename": "index.md",
         "patchSetId": 17

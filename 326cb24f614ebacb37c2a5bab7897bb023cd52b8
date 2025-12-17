@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef8f0578_df0558a9",
+        "filename": "_layouts/post.html",
+        "patchSetId": 37
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 0,
+      "message": "Don\u0027t we still need the title?",
+      "revId": "326cb24f614ebacb37c2a5bab7897bb023cd52b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2af5263b_0d716a91",
+        "filename": "_layouts/post.html",
+        "patchSetId": 37
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2025-12-17T23:53:11Z",
+      "side": 0,
+      "message": "We don\u0027t want the footer on posts?",
+      "revId": "326cb24f614ebacb37c2a5bab7897bb023cd52b8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
