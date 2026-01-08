@@ -1,0 +1,251 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b3c46d9_29be9cb5",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "Should we mention multi-site?",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 6
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7286370b_e9b44b55",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "I would argue this is a highlight.",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 95,
+        "endChar": 27
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cbf0057_f43a6766",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "All links seem to be broken, as it needs the change number, not the issue ID...\nNot sure gemini has access to that from the git log tbf...",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 60
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "813cc619_cf0b0ee8",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "These are a bit too succint, can update prompt to include more details for changes",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 45
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6bf3f713_d68218e4",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "Already highlights, can update prompt",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 59
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4df99b0_fb05b50c",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "Not really a performance improvement, this seems like a miscategorization from Gemini",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 14
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60aedf65_49ad880d",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "Change id doesn\u0027t exists",
+      "range": {
+        "startLine": 133,
+        "startChar": 0,
+        "endLine": 133,
+        "endChar": 84
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f16fe4d_87397204",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "Change id doesn\u0027t exists.",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 84
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "709b60d7_8ff4eeac",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "Also not really a performance improvement, but somewhat related, maybe this is ok.",
+      "range": {
+        "startLine": 133,
+        "startChar": 0,
+        "endLine": 136,
+        "endChar": 70
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01f6c57b_408da6f5",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "Already a highlight",
+      "range": {
+        "startLine": 155,
+        "startChar": 0,
+        "endLine": 156,
+        "endChar": 68
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24426375_7473d344",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-08T12:01:46Z",
+      "side": 1,
+      "message": "Section on dependencies updates is completely missing, notably \"Plugin changes\" and \"jgit changes\" as well as \"Other dependency changes\"",
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
