@@ -118,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c78449af_77a04fc4",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-09T18:08:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2cbf0057_f43a6766",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 60
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "813cc619_cf0b0ee8",
@@ -258,6 +282,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0729dca1_a0c29dd7",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-09T18:08:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "60aedf65_49ad880d",
+      "range": {
+        "startLine": 133,
+        "startChar": 0,
+        "endLine": 133,
+        "endChar": 84
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4f16fe4d_87397204",
@@ -271,6 +319,30 @@
       "writtenOn": "2026-01-08T12:01:46Z",
       "side": 1,
       "message": "Change id doesn\u0027t exists.",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 84
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7729b0f5_84ab9aa8",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-09T18:08:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f16fe4d_87397204",
       "range": {
         "startLine": 135,
         "startChar": 0,
