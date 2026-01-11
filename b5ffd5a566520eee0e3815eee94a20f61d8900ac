@@ -261,6 +261,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4bb26af7_8ce85af8",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-01-11T10:33:59Z",
+      "side": 1,
+      "message": "Yes, here the issue is that AI looks at _keywords_ rather than _context and meaning_. AI sees the `performance` keyword in the commit message and categorised the change as performance-related, whilst that\u0027s not the case.",
+      "parentUuid": "e4df99b0_fb05b50c",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 14
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "60aedf65_49ad880d",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 2
@@ -366,6 +390,30 @@
       "writtenOn": "2026-01-08T12:01:46Z",
       "side": 1,
       "message": "Also not really a performance improvement, but somewhat related, maybe this is ok.",
+      "range": {
+        "startLine": 133,
+        "startChar": 0,
+        "endLine": 136,
+        "endChar": 70
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e7f0f0c_31f8748b",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-01-11T10:33:59Z",
+      "side": 1,
+      "message": "The issue with the formulation is that isn\u0027t a _user-focused_ wording but rather just a summary of what the changes do. If you want some details, you should then look at the changes and the Gerrit admin *may not be* a Java developer.",
+      "parentUuid": "709b60d7_8ff4eeac",
       "range": {
         "startLine": 133,
         "startChar": 0,
