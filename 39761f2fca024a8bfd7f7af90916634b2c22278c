@@ -50,6 +50,77 @@
       "message": "Do we want to iterate on this initial result from Gemini or iterate using a different prompt? @milutin@google.com WDYT?",
       "revId": "39761f2fca024a8bfd7f7af90916634b2c22278c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5c10123_fa9be69c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1085182
+      },
+      "writtenOn": "2026-01-13T15:05:03Z",
+      "side": 1,
+      "message": "We could ask in the end to verify all links.",
+      "parentUuid": "519943ca_a290e0c0",
+      "revId": "39761f2fca024a8bfd7f7af90916634b2c22278c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "579629d1_d217f489",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1085182
+      },
+      "writtenOn": "2026-01-13T15:05:03Z",
+      "side": 1,
+      "message": "In google we don\u0027t do release notes. I would say that you and Dani know best if quality is good enough. Thank you and especially Dani for trying this. If it doesn\u0027t look good for you we can continue using release notes in commit message.",
+      "parentUuid": "0c92f2d0_2eb086eb",
+      "revId": "39761f2fca024a8bfd7f7af90916634b2c22278c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b51ccdb1_3525422e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1085182
+      },
+      "writtenOn": "2026-01-13T15:05:03Z",
+      "side": 1,
+      "message": "Thank you so much Dani to test this with AI. Unfortunately I didn\u0027t have time but you did very good job and very good taskflow for AI so I think this is best we can currently get. Seems like Luca doesn\u0027t like it so we can stay with manual release notes.",
+      "revId": "39761f2fca024a8bfd7f7af90916634b2c22278c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a764c09_7ecd33c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1085182
+      },
+      "writtenOn": "2026-01-13T15:05:03Z",
+      "side": 1,
+      "message": "I don\u0027t produce release notes, but I am usually quite happy with results that AI produce. But I think Dani did great job here and if it doesn\u0027t work as expected probably we need to wait one more year 😊",
+      "parentUuid": "8abf592a_1769a9c2",
+      "revId": "39761f2fca024a8bfd7f7af90916634b2c22278c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
