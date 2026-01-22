@@ -283,6 +283,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d525f5d8_e81e6486",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-22T10:03:13Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "4bb26af7_8ce85af8",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 14
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "60aedf65_49ad880d",
@@ -424,6 +448,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "08ea2e8a_6453ef2f",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-22T10:03:13Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "6e7f0f0c_31f8748b",
+      "range": {
+        "startLine": 133,
+        "startChar": 0,
+        "endLine": 136,
+        "endChar": 70
+      },
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "01f6c57b_408da6f5",
@@ -484,6 +532,24 @@
       "writtenOn": "2026-01-08T12:01:46Z",
       "side": 1,
       "message": "Section on dependencies updates is completely missing, notably \"Plugin changes\" and \"jgit changes\" as well as \"Other dependency changes\"",
+      "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3f2ca23_b5a42a78",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-22T10:03:13Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "24426375_7473d344",
       "revId": "b5ffd5a566520eee0e3815eee94a20f61d8900ac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
