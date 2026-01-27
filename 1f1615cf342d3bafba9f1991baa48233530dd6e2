@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84937721_26cfae73",
+        "filename": "_posts/2026-01-26-gerrit-3.14-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-01-27T17:32:49Z",
+      "side": 1,
+      "message": "Isn\u0027t this like a month earlier than usual? 3.10 and 3.12 were both mid-May.",
+      "revId": "1f1615cf342d3bafba9f1991baa48233530dd6e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15911a6e_a0cb90c3",
+        "filename": "_posts/2026-01-26-gerrit-3.14-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-01-27T17:32:49Z",
+      "side": 1,
+      "message": "```suggestion\n## End of Life for Gerrit 3.11.x\n```",
+      "revId": "1f1615cf342d3bafba9f1991baa48233530dd6e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
