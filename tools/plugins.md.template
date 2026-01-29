@@ -1,6 +1,6 @@
 ---
 title: "Gerrit Code Review - Plugins"
-permalink: {{ data.permalink }}.html
+permalink: "{{ data.permalink }}.html"
 hide_sidebar: true
 hide_navtoggle: true
 toc: true
