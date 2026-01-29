@@ -47,15 +47,15 @@ directory is not stored in the repository.
 1. Type the following command:
 
     ```bash
-    docker-compose up
+    docker compose up
     ```
 
 1. If that command fails, try these, with caution:
 
     ```bash
-    docker-compose down && \
+    docker compose down && \
     git clean -fdx && \
-    docker-compose up
+    docker compose up
     ```
 
 The docker file is configured to build the site and serve it on a local staging
@@ -89,7 +89,7 @@ options, depending on CI authentication:
 ```bash
 cd homepage
 pipenv run python tools/plugins.py
-docker-compose up
+docker compose up
 (browse to) http://localhost:4000/plugins.html
 ```
 
