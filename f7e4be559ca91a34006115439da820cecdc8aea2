@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e63ae60_705737e2",
+        "filename": "_posts/2026-01-29-cm-minutes copy.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-30T10:13:55Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "3e2152c9_11115d9c",
+      "range": {
+        "startLine": 42,
+        "startChar": 13,
+        "endLine": 42,
+        "endChar": 19
+      },
+      "revId": "f7e4be559ca91a34006115439da820cecdc8aea2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8e62b70e_ce254bd2",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-01-30T09:11:50Z",
       "side": 1,
       "message": "```suggestion\nDani brought up the subject of Gitiles maintainership. Terry confirmed that its\n```",
+      "range": {
+        "startLine": 59,
+        "startChar": 39,
+        "endLine": 59,
+        "endChar": 54
+      },
+      "revId": "f7e4be559ca91a34006115439da820cecdc8aea2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6673806c_1088822b",
+        "filename": "_posts/2026-01-29-cm-minutes copy.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-30T10:13:55Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8e62b70e_ce254bd2",
       "range": {
         "startLine": 59,
         "startChar": 39,
