@@ -34,6 +34,47 @@
       "parentUuid": "e5d2e085_b35cfda3",
       "revId": "acf68dcf5dc8d7b9b216284d37a660f5f934200a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73605135_b8727972",
+        "filename": "_posts/2026-01-29-cm-minutes copy.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-30T08:52:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "14cc2a47_4b39d7a0",
+      "revId": "acf68dcf5dc8d7b9b216284d37a660f5f934200a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbb99497_eeffcdb0",
+        "filename": "_posts/2026-01-29-cm-minutes copy.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-01-30T08:52:52Z",
+      "side": 1,
+      "message": "```suggestion\n**Participants**: Daniele Sassoli, Nasser Grainawi, Matthias Sohn, Terry Parker, Ivo Ristovski List\n```",
+      "range": {
+        "startLine": 12,
+        "startChar": 81,
+        "endLine": 12,
+        "endChar": 95
+      },
+      "revId": "acf68dcf5dc8d7b9b216284d37a660f5f934200a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
