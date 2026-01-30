@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e2152c9_11115d9c",
+        "filename": "_posts/2026-01-29-cm-minutes copy.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-01-30T09:11:50Z",
+      "side": 1,
+      "message": "```suggestion\nWe discussed whether it makes sense to still keep a roadmap out as its not\n```",
+      "range": {
+        "startLine": 42,
+        "startChar": 13,
+        "endLine": 42,
+        "endChar": 19
+      },
+      "revId": "f7e4be559ca91a34006115439da820cecdc8aea2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e62b70e_ce254bd2",
+        "filename": "_posts/2026-01-29-cm-minutes copy.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-01-30T09:11:50Z",
+      "side": 1,
+      "message": "```suggestion\nDani brought up the subject of Gitiles maintainership. Terry confirmed that its\n```",
+      "range": {
+        "startLine": 59,
+        "startChar": 39,
+        "endLine": 59,
+        "endChar": 54
+      },
+      "revId": "f7e4be559ca91a34006115439da820cecdc8aea2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af1dad6e_b8651074",
+        "filename": "_posts/2026-01-29-cm-minutes copy.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-01-30T09:11:50Z",
+      "side": 1,
+      "message": "I was about to review https://gerrit-review.googlesource.com/c/gitiles/+/327120 but couldn\u0027t test it, first had to fix the broken dev mode (https://gerrit-review.googlesource.com/c/gitiles/+/547284). \nUntil this was finished, Paladox already had approved this UI improvement :-)",
+      "revId": "f7e4be559ca91a34006115439da820cecdc8aea2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
