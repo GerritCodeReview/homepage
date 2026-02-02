@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c56b19f7_358273da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-02T18:09:33Z",
+      "side": 1,
+      "message": "This broke the CI build of the homepage, which has failed to publish since this change. The dependencies need to be in the Docker definition, as the build does not allow modification of the system components.",
+      "revId": "91b6b0300107662f38b017da95d39b9339dbdd79",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
