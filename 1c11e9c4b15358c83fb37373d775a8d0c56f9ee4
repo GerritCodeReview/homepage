@@ -347,6 +347,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bab90b0_44e67143",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:22:07Z",
+      "side": 1,
+      "message": "For now I\u0027ve put a link to github plugin, in the future we\u0027ll have a CI focused page.",
+      "parentUuid": "84145a70_cb7767db",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "35d8890a_71dafcb6",
