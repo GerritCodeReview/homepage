@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "52da9ae4_e93bb836",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 37
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f356258_28aea442",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "a21e7e3d_d7eb9868",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 37
@@ -103,6 +121,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d0d6164_4aa8b9ee",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "411df1d0_bd531376",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "df50d629_84660e72",
@@ -137,6 +173,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d90d459_81119791",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "52242243_6a472c3a",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "662cb31a_47ec2a79",
@@ -150,6 +204,24 @@
       "writtenOn": "2025-12-17T23:53:11Z",
       "side": 1,
       "message": "Should we s/SCMs/Git forges/?\n\n```suggestion\n      text: \"Unlike other Git forges, Gerrit\u0027s unique patch-based code review system more closely resembles the proven mailing list workflow used by Git itself and the Linux kernel, where patches are reviewed and iterated on before being applied to the main repository, ensuring higher code quality and better collaboration.\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c531d04_79b02777",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "662cb31a_47ec2a79",
       "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -222,6 +294,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "665a4ab4_32cd3457",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "As per conversation, we\u0027ll follow up with a separate change with something more specific here.",
+      "parentUuid": "8e8853ca_0b6a3687",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "84145a70_cb7767db",
@@ -256,6 +346,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ca14e69_fe04dfde",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35d8890a_71dafcb6",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f9a0929_2cccfd22",
@@ -269,6 +377,24 @@
       "writtenOn": "2025-12-17T23:53:11Z",
       "side": 1,
       "message": "```suggestion\n      name: \"JGit\"\n      url: \"https://projects.eclipse.org/projects/technology.jgit\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a63b5a51_ac7cfcb8",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f9a0929_2cccfd22",
       "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -358,6 +484,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c5b19c4_c9ee7474",
+        "filename": "_includes/footer.html",
+        "patchSetId": 37
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d4276c3_e8b6c863",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ca0cc7a5_2c085d43",
@@ -394,6 +538,24 @@
       "writtenOn": "2025-12-17T23:53:11Z",
       "side": 1,
       "message": "Can you use templating syntax like what\u0027s in the base (and like what I suggested in `footer.html`)? You could improve the `topnav.yml` data and the logic on the left to use a combined `topnav` list and conditionally handle `.folderitems` if it exists. That will let us have the custom ordering you have in this new version. Something like:\n\n```html\n          {% for item in site.data.content.topnav %}\n          {% if item.folderitems %}\n          \u003c!-- items with drop-downs handled here --\u003e\n          \u003cli class\u003d\"dropdown\"\u003e\n            \u003ca href\u003d\"#\" class\u003d\"dropdown-toggle\"\u003e{{ item.title }}\u003ci class\u003d\"fas fa-caret-down\"\u003e\u003c/i\u003e\u003c/a\u003e\n            \u003cul class\u003d\"dropdown-menu\"\u003e\n              {% for folderitem in item.folderitems %}\n              {% if folderitem.external_url %}\n              \u003cli\u003e\u003ca href\u003d\"{{folderitem.external_url}}\" target\u003d\"_blank\"\u003e{{folderitem.title}}\u003c/a\u003e\u003c/li\u003e\n              {% elsif page.url contains folderitem.url %}\n              \u003cli class\u003d\"dropdownActive\"\u003e\u003ca href\u003d\"{{folderitem.url}}\"\u003e{{folderitem.title}}\u003c/a\u003e\u003c/li\u003e\n              {% else %}\n              \u003cli\u003e\u003ca href\u003d\"{{folderitem.url}}\"\u003e{{folderitem.title}}\u003c/a\u003e\u003c/li\u003e\n              {% endif %}\n              {% endfor %}\n            \u003c/ul\u003e\n          \u003c/li\u003e\n          {% else %}\n          \u003c!-- items without drop-downs handled here --\u003e\n          \u003cli\u003e\u003ca href\u003d\"/about/\"\u003eAbout\u003c/a\u003e\u003c/li\u003e\n          {% if item.external_url %}\n          \u003cli\u003e\u003ca href\u003d\"{{item.external_url}}\" target\u003d\"_blank\"\u003e{{item.title}}\u003c/a\u003e\u003c/li\u003e\n          {% elsif page.url contains item.url %} \u003c!-- TODO: Not sure if we still need this case? --\u003e\n          \u003cli class\u003d\"active\"\u003e\u003ca href\u003d\"{{item.url}}\"\u003e{{item.title}}\u003c/a\u003e\u003c/li\u003e\n          {% else %}\n          \u003cli\u003e\u003ca href\u003d\"{{item.url}}\"\u003e{{item.title}}\u003c/a\u003e\u003c/li\u003e\n          {% endif %}\n          {% endif %}\n          {% endfor %}\n```\n\nThe content in `content.yml` (this is copied from `_data/topnav.yml`, but you can update with the differences you have in this PS) would look like:\n\n```yaml\ntopnav:\n  - title: About\n    url: /about.html\n  - title: News\n    url: /news.html\n  - title: Community\n    folderitems:\n      - title: Code of Conduct\n        url: /codeofconduct.html\n      - title: Forums, Mailing lists etc.\n        url: /contact.html\n      - title: Members\n        url: /members.html\n      # fill in the rest\n  - title: Docs\n    folderitems:\n      - title: Latest\n        external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.13.1/index.html\n      - title: Designs\n        url: /design-docs-index.html\n      - title: Wiki\n        external_url: https://gerrit.googlesource.com/homepage/+/master/pages/site/docs/\n  - title: Code\n    folderitems:\n      - title: Source\n        external_url: https://gerrit.googlesource.com/gerrit/\n      - title: Releases\n        url: /releases-readme.html\n      # fill in the rest\n  - title: Support\n    url: /support.html\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecc109e0_3f0207d4",
+        "filename": "_includes/topnav.html",
+        "patchSetId": 37
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2b79b7f7_85a12de1",
       "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }

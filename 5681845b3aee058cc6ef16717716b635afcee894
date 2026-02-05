@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad81f514_f8f7bf87",
+        "filename": "_data/content.yml",
+        "patchSetId": 38
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "```suggestion\n      text: \"Connect with GitHub Actions via the GitHub plugin for automated testing and quality checks in your development workflow.\"\n```",
+      "range": {
+        "startLine": 113,
+        "startChar": 26,
+        "endLine": 113,
+        "endChar": 44
+      },
+      "revId": "5681845b3aee058cc6ef16717716b635afcee894",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "add1cabb_846f7dd6",
+        "filename": "_data/content.yml",
+        "patchSetId": 38
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-05T17:13:32Z",
+      "side": 1,
+      "message": "```suggestion\n      url: \"https://gerrithub.io/admin/repos/GerritForge/plugins/github,general\"\n```",
+      "range": {
+        "startLine": 114,
+        "startChar": 12,
+        "endLine": 114,
+        "endChar": 47
+      },
+      "revId": "5681845b3aee058cc6ef16717716b635afcee894",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
