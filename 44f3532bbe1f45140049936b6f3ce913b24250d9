@@ -16,6 +16,91 @@
       "message": "I am preparing to present a preview of Gerrit v3.14 at the GerritMeets in Sunnyvale, CA. I would be grateful if you could review my updated release notes drafts, so that I can have a clear view of what to present!",
       "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5437fc16_c214013f",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-02-08T23:31:02Z",
+      "side": 1,
+      "message": "```suggestion\n* Hide the bulk action checkbox until all changes are loaded.\n```",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bca3ae17_197a9732",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-02-08T23:31:02Z",
+      "side": 1,
+      "message": "can you quantify that ?",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0186afc9_7c721d29",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-02-08T23:31:02Z",
+      "side": 1,
+      "message": "```suggestion\nsystem load.\n```",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38bb9bf7_79e5450a",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-02-08T23:31:02Z",
+      "side": 1,
+      "message": "```suggestion\n  for enable tracking the performance perceived by interactive users vs. the jobs and\n```",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b5251d0_b94c0e49",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-02-08T23:31:02Z",
+      "side": 1,
+      "message": "```suggestion\n* Included callers in the performance summary log, simplifying troubleshooting\n```",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
