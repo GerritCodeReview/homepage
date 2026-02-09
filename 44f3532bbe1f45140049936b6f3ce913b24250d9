@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "abafac6a_5f1d4c63",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T08:41:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "5437fc16_c214013f",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bca3ae17_197a9732",
@@ -48,6 +66,24 @@
       "writtenOn": "2026-02-08T23:31:02Z",
       "side": 1,
       "message": "can you quantify that ?",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49a31e3a_aa536b63",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T08:41:36Z",
+      "side": 1,
+      "message": "Not yet, but I am preparing a demo at the next forthcoming Gerrit User Summit and provide exact data :-)",
+      "parentUuid": "bca3ae17_197a9732",
       "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -69,6 +105,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4677cd38_50f61203",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T08:41:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "0186afc9_7c721d29",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "38bb9bf7_79e5450a",
@@ -86,6 +140,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d911f7d0_339f58a0",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T08:41:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "38bb9bf7_79e5450a",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5b5251d0_b94c0e49",
@@ -99,6 +171,24 @@
       "writtenOn": "2026-02-08T23:31:02Z",
       "side": 1,
       "message": "```suggestion\n* Included callers in the performance summary log, simplifying troubleshooting\n```",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2548e481_41c57ad0",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T08:41:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "5b5251d0_b94c0e49",
       "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
