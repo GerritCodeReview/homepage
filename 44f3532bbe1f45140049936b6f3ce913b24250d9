@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ed9e4c8_9b8edf89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T17:42:14Z",
+      "side": 1,
+      "message": "Thanks, everyone, for the thorough review. It is much appreciated.",
+      "parentUuid": "98a4d4c9_3b833150",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5437fc16_c214013f",
@@ -84,6 +102,24 @@
       "side": 1,
       "message": "Not yet, but I am preparing a demo at the next forthcoming Gerrit User Summit and provide exact data :-)",
       "parentUuid": "bca3ae17_197a9732",
+      "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28ce05d7_cad13523",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T17:42:14Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "49a31e3a_aa536b63",
       "revId": "44f3532bbe1f45140049936b6f3ce913b24250d9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
