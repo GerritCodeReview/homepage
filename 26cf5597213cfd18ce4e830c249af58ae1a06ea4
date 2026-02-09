@@ -73,6 +73,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "84fe3345_5971798e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-09T15:16:51Z",
+      "side": 1,
+      "message": "Mixing these 2 feels a bit confusing, it does feel like 2 separate things.",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 37
+      },
+      "revId": "26cf5597213cfd18ce4e830c249af58ae1a06ea4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff6ba2a2_d31ec3fb",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-09T15:16:51Z",
+      "side": 1,
+      "message": "Is this per patchset or overall? Sounds like overall, but might be worth being extra precise?",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 60
+      },
+      "revId": "26cf5597213cfd18ce4e830c249af58ae1a06ea4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2d958721_624753f1",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 2
@@ -113,6 +159,29 @@
         "startChar": 0,
         "endLine": 160,
         "endChar": 0
+      },
+      "revId": "26cf5597213cfd18ce4e830c249af58ae1a06ea4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60f41767_384f5d39",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-09T15:16:51Z",
+      "side": 1,
+      "message": "```suggestion\n  to enable tracking perceived performance by interactive users vs. the jobs and\n```",
+      "range": {
+        "startLine": 173,
+        "startChar": 2,
+        "endLine": 173,
+        "endChar": 63
       },
       "revId": "26cf5597213cfd18ce4e830c249af58ae1a06ea4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
