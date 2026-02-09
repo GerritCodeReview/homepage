@@ -118,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "83565ba9_a7d1236e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T17:34:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "84fe3345_5971798e",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 37
+      },
+      "revId": "26cf5597213cfd18ce4e830c249af58ae1a06ea4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ff6ba2a2_d31ec3fb",
@@ -131,6 +155,30 @@
       "writtenOn": "2026-02-09T15:16:51Z",
       "side": 1,
       "message": "Is this per patchset or overall? Sounds like overall, but might be worth being extra precise?",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 60
+      },
+      "revId": "26cf5597213cfd18ce4e830c249af58ae1a06ea4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0d8f674_9b65f5d3",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T17:34:00Z",
+      "side": 1,
+      "message": "Well, it says _\"on a change\"_ and not _\"on a patchset\"_, I\u0027ll make it more explicit.",
+      "parentUuid": "ff6ba2a2_d31ec3fb",
       "range": {
         "startLine": 79,
         "startChar": 0,
