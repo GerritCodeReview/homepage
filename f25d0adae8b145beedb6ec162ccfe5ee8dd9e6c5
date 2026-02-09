@@ -16,6 +16,24 @@
       "message": "why are these changes removed ? The features are mentioned above",
       "revId": "f25d0adae8b145beedb6ec162ccfe5ee8dd9e6c5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2889a38a_f672f745",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-09T15:11:12Z",
+      "side": 0,
+      "message": "These are now duplicates of the highlights. I\u0027ll add the reference to the change in the features list above.",
+      "parentUuid": "f013dfaf_8703b10d",
+      "revId": "f25d0adae8b145beedb6ec162ccfe5ee8dd9e6c5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
