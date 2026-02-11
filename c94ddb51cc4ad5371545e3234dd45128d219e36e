@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0331e01f_83517a36",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 917,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-02-11T11:22:56Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "197298d9_1f5247f1",
+      "range": {
+        "startLine": 917,
+        "startChar": 33,
+        "endLine": 917,
+        "endChar": 42
+      },
+      "revId": "c94ddb51cc4ad5371545e3234dd45128d219e36e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "266be081_04c0c1ac",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-02-11T11:08:59Z",
       "side": 1,
       "message": "```suggestion\n    causing votes to disappear from history of closed changes.\n```",
+      "range": {
+        "startLine": 920,
+        "startChar": 47,
+        "endLine": 920,
+        "endChar": 53
+      },
+      "revId": "c94ddb51cc4ad5371545e3234dd45128d219e36e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b73f31c7_cfc9ed27",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 920,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-02-11T11:22:56Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "266be081_04c0c1ac",
       "range": {
         "startLine": 920,
         "startChar": 47,
