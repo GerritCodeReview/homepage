@@ -72,6 +72,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "de4a3f1d_2a98bc91",
+        "filename": "_includes/footer.html",
+        "patchSetId": 17
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 0,
+      "message": "I\u0027ll mark this done. I\u0027m not going to worry about it right now.",
+      "parentUuid": "475f5af5_91af2f74",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 76
+      },
+      "revId": "42b3c07b88c624709f1dd391afd5cca85badc663",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "464db034_bdb1f196",

@@ -122,6 +122,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc5b4d75_3c1c8d42",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "58e6d031_1709fa59",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "411df1d0_bd531376",
@@ -170,6 +188,24 @@
       "writtenOn": "2025-12-17T23:53:11Z",
       "side": 1,
       "message": "```suggestion\n  rest_api: \"{{ links.gerrit_docs }}rest-api.html\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c94e5679_bc163223",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Can\u0027t use Liquid templates within data YAML files.",
+      "parentUuid": "df50d629_84660e72",
       "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -261,6 +297,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "149250de_4d564378",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1e11c03_53dac616",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a17bff3d_5f3dfe06",
@@ -278,6 +332,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "59d48af3_81c6f269",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Can\u0027t use Liquid templates within data YAML files.",
+      "parentUuid": "a17bff3d_5f3dfe06",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3246148c_0884ba50",
@@ -291,6 +363,24 @@
       "writtenOn": "2025-12-17T23:53:11Z",
       "side": 1,
       "message": "De-dup these links?\n```suggestion\n      button_url: \"{{ links.rest_api }}\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95c27922_094cd71b",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Can\u0027t use Liquid templates within data YAML files.",
+      "parentUuid": "3246148c_0884ba50",
       "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -452,6 +542,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "03dc6bd1_91400449",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Can\u0027t use Liquid templates within data YAML files.",
+      "parentUuid": "9cb01d24_9a3daaa3",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "66569a99_1511247a",
@@ -465,6 +573,24 @@
       "writtenOn": "2025-12-17T23:53:11Z",
       "side": 1,
       "message": "```suggestion\n      button_url: \"{{ links.docker_hub }}\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "feeb99b4_807e225b",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Can\u0027t use Liquid templates within data YAML files.",
+      "parentUuid": "66569a99_1511247a",
       "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -486,6 +612,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a559a28_16610193",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Can\u0027t use Liquid templates within data YAML files.",
+      "parentUuid": "cb5ee0a2_633bc173",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a5f2e94a_fb9c3b83",
@@ -499,6 +643,24 @@
       "writtenOn": "2025-12-17T23:53:11Z",
       "side": 1,
       "message": "```suggestion\n  docs_button_url: \"{{ site.data.content.links.gerrit_docs }}\"\n```",
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a04f8932_0381c7ee",
+        "filename": "_data/content.yml",
+        "patchSetId": 37
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Can\u0027t use Liquid templates within data YAML files.",
+      "parentUuid": "a5f2e94a_fb9c3b83",
       "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -551,6 +713,30 @@
       "writtenOn": "2025-12-17T23:53:11Z",
       "side": 1,
       "message": "What if we do this instead?\n\n```suggestion\n      {% for section in site.data.content.footers %}\n      \u003cdiv class\u003d\"footer-section\"\u003e\n        \u003ch3\u003e{{ section.name }}\u003c/h3\u003e\n        \u003cul\u003e\n          {% for link in section.links %}\n          \u003cli\u003e\u003ca href\u003d\"{{ link.url }}\"\u003e{{ link.text }}\u003c/a\u003e\u003c/li\u003e\n          {% endfor %}\n        \u003c/ul\u003e\n      \u003c/div\u003e\n      {% endfor %}\n```",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 12
+      },
+      "revId": "1c11e9c4b15358c83fb37373d775a8d0c56f9ee4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e90b2e46_6d47bf9d",
+        "filename": "_includes/footer.html",
+        "patchSetId": 37
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T01:25:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca0cc7a5_2c085d43",
       "range": {
         "startLine": 9,
         "startChar": 0,
