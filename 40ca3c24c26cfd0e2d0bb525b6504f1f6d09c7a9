@@ -16,6 +16,23 @@
       "message": "We should have another button here for \"Release Notes\", because that\u0027s what I always want 😊",
       "revId": "40ca3c24c26cfd0e2d0bb525b6504f1f6d09c7a9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f61b14a3_80beca3e",
+        "filename": "js/toc.js",
+        "patchSetId": 43
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-02-14T03:36:07Z",
+      "side": 1,
+      "message": "We should look at replacing this with https://github.com/toshimaru/jekyll-toc instead",
+      "revId": "40ca3c24c26cfd0e2d0bb525b6504f1f6d09c7a9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
