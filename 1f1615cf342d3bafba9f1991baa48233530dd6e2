@@ -36,6 +36,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "568da59a_0fd86293",
+        "filename": "_posts/2026-01-26-gerrit-3.14-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-18T05:07:48Z",
+      "side": 1,
+      "message": "Postponed by 1 month to align with previous releases.",
+      "parentUuid": "53beccab_d20310c6",
+      "revId": "1f1615cf342d3bafba9f1991baa48233530dd6e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "15911a6e_a0cb90c3",
