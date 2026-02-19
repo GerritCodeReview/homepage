@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "52365ba0_0c79f5fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-19T08:03:09Z",
+      "side": 1,
+      "message": "Thanks for reporting it!",
+      "revId": "e1da7ece611472c203670d9aa3ac5294c53dd2f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "425770e5_22d497a9",
@@ -14,6 +31,24 @@
       "writtenOn": "2026-02-18T19:30:33Z",
       "side": 1,
       "message": "Typo on Matthias\u0027s name\n\n```suggestion\n* **Bazel Migration:** It was decided to check with Matthias regarding the status of the migration\n```",
+      "revId": "e1da7ece611472c203670d9aa3ac5294c53dd2f4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e79f167d_7dbd7adc",
+        "filename": "_posts/2026-01-28-esc-minutes.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-19T08:03:09Z",
+      "side": 1,
+      "message": "Fixed in I8ed12fec",
+      "parentUuid": "425770e5_22d497a9",
       "revId": "e1da7ece611472c203670d9aa3ac5294c53dd2f4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
