@@ -30,7 +30,7 @@ over other issues like concurrency problems with the ref-table.
 * **Draft Plan:** [LM] drafted the release plan for version 3.14, initially proposing a
   start date at the end of February.
 
-* **Bazel Migration:** It was decided to check with Matias regarding the status of the migration
+* **Bazel Migration:** It was decided to check with Matthias regarding the status of the migration
   to `bzlmod` (managed by David Ostrovski and Thomas), as this could serve as a major feature for
   the release.
 
