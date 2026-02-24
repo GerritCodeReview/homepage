@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "19d47c45_a67e56cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-02-24T16:01:44Z",
+      "side": 1,
+      "message": "I believe we might have overlooked a UI component to this change.\nAs the changeId will not longer be part of the footer, it becomes hard to tell what the change-id of a change is in Gerrit.\n\nShould we first introduce some sort of separate way of showing the change-id, that will then be populated either by the footer or by the header?",
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b5142321_46a96237",
         "filename": "pages/design-docs/support-jujutsu/solution.md",
         "patchSetId": 7
