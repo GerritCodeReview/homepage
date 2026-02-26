@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "91ad4cee_dd09cb29",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 728,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-02-26T22:38:47Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "4d75e48a_ecefe2f8",
+      "revId": "6dc3197fb0d69de9e412e5bb4419a0e50ef229e4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "054cba9b_e29d1f66",
@@ -52,6 +70,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca446411_0f7ead75",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-02-26T22:38:47Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "054cba9b_e29d1f66",
+      "revId": "6dc3197fb0d69de9e412e5bb4419a0e50ef229e4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d3844d96_a9a4cab2",
@@ -65,6 +101,24 @@
       "writtenOn": "2026-02-26T22:19:10Z",
       "side": 1,
       "message": "```suggestion\n  Improve file-list rendering performance by memoizing patch-change calculations.\n```",
+      "revId": "6dc3197fb0d69de9e412e5bb4419a0e50ef229e4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10fd11b9_64a47369",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 745,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-02-26T22:38:47Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d3844d96_a9a4cab2",
       "revId": "6dc3197fb0d69de9e412e5bb4419a0e50ef229e4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
