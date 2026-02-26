@@ -16,6 +16,57 @@
       "message": "556381: 3.11.9 release notes | https://gerrit-review.googlesource.com/c/homepage/+/556381",
       "revId": "6dc3197fb0d69de9e412e5bb4419a0e50ef229e4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d75e48a_ecefe2f8",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 728,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-26T22:19:10Z",
+      "side": 1,
+      "message": "```suggestion\n  Fix reviewer-added stream events getting overwritten when processed asynchronously.\n```",
+      "revId": "6dc3197fb0d69de9e412e5bb4419a0e50ef229e4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "054cba9b_e29d1f66",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-26T22:19:10Z",
+      "side": 1,
+      "message": "```suggestion\n  Fix caret placement in empty `gr-textarea` with placeholder text.\n```",
+      "revId": "6dc3197fb0d69de9e412e5bb4419a0e50ef229e4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3844d96_a9a4cab2",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 745,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-02-26T22:19:10Z",
+      "side": 1,
+      "message": "```suggestion\n  Improve file-list rendering performance by memoizing patch-change calculations.\n```",
+      "revId": "6dc3197fb0d69de9e412e5bb4419a0e50ef229e4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
