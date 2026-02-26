@@ -39,7 +39,6 @@ Members of the ESC for the 2024-2025 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
-| Edwin Kempin          | Google                 |
 | Luca Milanesio        | GerritForge            |
 | Saša Živkov           | SAP                    |
 
@@ -54,6 +53,7 @@ The Google member(s) have jointly 3 votes on the ESC.
 | Ben Rohlfs            | Google                                 |
 | Chris Poucet          | Google                                 |
 | David Pursehouse      | Independent (formerly Sony, CollabNet) |
+| Edwin Kempin          | Google                                 |
 | Han-Wen Nienhuys      | Independent (formerly Google)          |
 | Patrick Hiesel        | Google                                 |
 
