@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "528963f8_1d1d27af",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 728,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-03-02T12:56:18Z",
+      "side": 1,
+      "message": "that https://www.cve.org/CVERecord?id\u003dCVE-2026-2725 should do, shouldn\u0027t it?",
+      "parentUuid": "9ed897af_2aeff552",
+      "range": {
+        "startLine": 728,
+        "startChar": 20,
+        "endLine": 728,
+        "endChar": 21
+      },
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "73d02fc7_cf142257",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 1
@@ -60,6 +84,30 @@
       "writtenOn": "2026-03-02T10:51:25Z",
       "side": 1,
       "message": "Wrong link",
+      "range": {
+        "startLine": 919,
+        "startChar": 20,
+        "endLine": 919,
+        "endChar": 66
+      },
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f8882fa_cf5b08bb",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 919,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-03-02T12:56:18Z",
+      "side": 1,
+      "message": "https://www.cve.org/CVERecord?id\u003dCVE-2026-2725 ?",
+      "parentUuid": "db5b11dc_843c2db3",
       "range": {
         "startLine": 919,
         "startChar": 20,
