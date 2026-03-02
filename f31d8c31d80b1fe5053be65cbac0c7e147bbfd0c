@@ -3,6 +3,40 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e2bc5876_4d2ca3a1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-03-02T13:06:18Z",
+      "side": 1,
+      "message": "```suggestion\nAdd CVE-2026-2725 to 3.11.9, 3.12.5 and 3.13.4 release notes\n```",
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9145e2d5_d401a7a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-03-02T13:06:18Z",
+      "side": 1,
+      "message": "Applying the comments on one release, however, it would apply to other releases as well, but I just avoided copying and pasting them.",
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9ed897af_2aeff552",
         "filename": "pages/site/releases/3.11.md",
         "patchSetId": 1
@@ -43,6 +77,63 @@
         "startChar": 20,
         "endLine": 728,
         "endChar": 21
+      },
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a1299f5_d35fb321",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 729,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-03-02T13:06:18Z",
+      "side": 1,
+      "message": "```suggestion\n  Create/update change with submit option bypasses ACLs when used with the `change.submitWholeTopic \u003d true`.\n```",
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "568e8e6d_fdf6bbcb",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 731,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-03-02T13:06:18Z",
+      "side": 1,
+      "message": "```suggestion\n    A Gerrit user with permissions to create/update changes with the submit option, could submit other changes when `change.submitWholeTopic\u003dtrue` is set on `gerrit.config`. Submit to a Gerrit branch\n```",
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6b8f3f2_06299bbe",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 733,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-03-02T13:06:18Z",
+      "side": 1,
+      "message": "Well, that\u0027s normal and shouldn\u0027t be mentioned anyway. The issue isn\u0027t bypassing the submit requirements, code-review approvals or CI checks, that\u0027s exactly the `submit` permission on `refs/for/\u003c\u003e` ref. The issue here is that the `submit` permission is automatically granted even if the caller does not have any rights on the other changes that belong to the same topic.",
+      "range": {
+        "startLine": 732,
+        "startChar": 73,
+        "endLine": 733,
+        "endChar": 68
       },
       "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
