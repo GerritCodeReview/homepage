@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8d0338b0_28046180",
+        "filename": "index.md",
+        "patchSetId": 43
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-03-02T22:25:29Z",
+      "side": 1,
+      "message": "Sure, but let\u0027s do it in a follow-up change, as this is already big enough.",
+      "parentUuid": "06723e14_236f96c6",
+      "revId": "40ca3c24c26cfd0e2d0bb525b6504f1f6d09c7a9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f61b14a3_80beca3e",
         "filename": "js/toc.js",
         "patchSetId": 43
@@ -31,6 +49,24 @@
       "writtenOn": "2026-02-14T03:36:07Z",
       "side": 1,
       "message": "We should look at replacing this with https://github.com/toshimaru/jekyll-toc instead",
+      "revId": "40ca3c24c26cfd0e2d0bb525b6504f1f6d09c7a9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a312eab_a89bb168",
+        "filename": "js/toc.js",
+        "patchSetId": 43
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-03-02T22:25:29Z",
+      "side": 1,
+      "message": "This can be a follow-up change though, no? This change is already big enough.",
+      "parentUuid": "f61b14a3_80beca3e",
       "revId": "40ca3c24c26cfd0e2d0bb525b6504f1f6d09c7a9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
