@@ -47,6 +47,9 @@ exclude:
   - .jekyll-cache/
   - .jekyll-metadata
 
+feedback_email: gerritcodereview-maintainers@googlegroups.com
+feedback_subject_line: Gerrit Code Review website
+
 # Build settings
 destination: _site
 incremental: false
