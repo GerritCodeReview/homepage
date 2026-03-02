@@ -51,6 +51,24 @@
       "message": "```suggestion\n  Prevent page reload when clicking the documentation icon in search autocomplete.\n```",
       "revId": "cf8c880f794741ea924a99397af5e565d3f37fac",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed1c76f5_a8cbf49c",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 927,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T10:37:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "399d0028_b9835ab6",
+      "revId": "cf8c880f794741ea924a99397af5e565d3f37fac",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
