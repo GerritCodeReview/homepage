@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06875f49_9ba814c3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T14:02:08Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e2bc5876_4d2ca3a1",
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9145e2d5_d401a7a2",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-03-02T13:06:18Z",
       "side": 1,
       "message": "Applying the comments on one release, however, it would apply to other releases as well, but I just avoided copying and pasting them.",
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3dcf3030_289dd094",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T14:02:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9145e2d5_d401a7a2",
       "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -82,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "58444f4f_2222b13a",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 728,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T14:02:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "528963f8_1d1d27af",
+      "range": {
+        "startLine": 728,
+        "startChar": 20,
+        "endLine": 728,
+        "endChar": 21
+      },
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0a1299f5_d35fb321",
@@ -99,6 +159,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff2ad0ba_c0f3486c",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 729,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T14:02:08Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "0a1299f5_d35fb321",
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "568e8e6d_fdf6bbcb",
@@ -112,6 +190,24 @@
       "writtenOn": "2026-03-02T13:06:18Z",
       "side": 1,
       "message": "```suggestion\n    A Gerrit user with permissions to create/update changes with the submit option, could submit other changes when `change.submitWholeTopic\u003dtrue` is set on `gerrit.config`. Submit to a Gerrit branch\n```",
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "161043d1_914dc2d9",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 731,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T14:02:08Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "568e8e6d_fdf6bbcb",
       "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -139,6 +235,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "433bc979_290a5182",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 733,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T14:02:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6b8f3f2_06299bbe",
+      "range": {
+        "startLine": 732,
+        "startChar": 73,
+        "endLine": 733,
+        "endChar": 68
+      },
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "73d02fc7_cf142257",
@@ -152,6 +272,30 @@
       "writtenOn": "2026-03-02T10:51:25Z",
       "side": 1,
       "message": "missing link",
+      "range": {
+        "startLine": 690,
+        "startChar": 20,
+        "endLine": 690,
+        "endChar": 21
+      },
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b55167d_9d213ac2",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 690,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T14:02:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "73d02fc7_cf142257",
       "range": {
         "startLine": 690,
         "startChar": 20,
@@ -199,6 +343,30 @@
       "side": 1,
       "message": "https://www.cve.org/CVERecord?id\u003dCVE-2026-2725 ?",
       "parentUuid": "db5b11dc_843c2db3",
+      "range": {
+        "startLine": 919,
+        "startChar": 20,
+        "endLine": 919,
+        "endChar": 66
+      },
+      "revId": "f31d8c31d80b1fe5053be65cbac0c7e147bbfd0c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c858dc5_7a7db5b2",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 919,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-02T14:02:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f8882fa_cf5b08bb",
       "range": {
         "startLine": 919,
         "startChar": 20,
