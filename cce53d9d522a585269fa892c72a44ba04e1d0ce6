@@ -88,6 +88,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "255c309f_7a2ef649",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-03-04T19:47:16Z",
+      "side": 1,
+      "message": "Yeah, at this point I was hoping that maybe we could get rid of `jj gerrit upload` entirely, if we have something like `jj git push --for \u003cbranch\u003e` then we wouldn\u0027t need a separate comand... but that decision can be left to the JJ community at a later stage.\n\nThanks for chipping in @remo.senekowitsch@gmail.com",
+      "parentUuid": "04fb47ac_ac2d7459",
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b5142321_46a96237",
