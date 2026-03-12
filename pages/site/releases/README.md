@@ -34,6 +34,8 @@ The support status of all recent Gerrit versions is
 
 * Plugins can access `@material/web`
 
+* Removal of robot comments.
+
 [Release notes for Gerrit 3.13](/3.13.html)
 
 ## 3.12
