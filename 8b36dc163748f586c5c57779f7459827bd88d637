@@ -301,6 +301,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5460259c_c65c21a7",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-03-23T18:48:55Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "5c52867c_7e70606a",
+      "range": {
+        "startLine": 400,
+        "startChar": 0,
+        "endLine": 400,
+        "endChar": 20
+      },
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "155be2bc_c5d1f94f",
