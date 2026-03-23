@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22e6a143_53ef3b2b",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-03-23T10:44:28Z",
+      "side": 1,
+      "message": "```suggestion\n    and getGroupConfig REST endpoints return an error or empty config, which caused\n    the UI to freeze indefinitely on \u0027Loading...\u0027 in the Group Options or\n```",
+      "range": {
+        "startLine": 733,
+        "startChar": 77,
+        "endLine": 734,
+        "endChar": 11
+      },
+      "revId": "280d2bffa2a8e17f430859e0391f49013791bf30",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
