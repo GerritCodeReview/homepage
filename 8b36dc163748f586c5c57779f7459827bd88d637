@@ -102,6 +102,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e4d88db1_50daaa9f",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-03-23T15:15:49Z",
+      "side": 1,
+      "message": "Forgot to mention: CI pipelines (both Zuul and Jenkins) support both files:\n\n* `external_plugin_deps.bzl`\n* `external_plugin_deps.MODULE.bazel`\n\nThat’s why plugins can migrate to Bazel modules and CI will continue to work.",
+      "parentUuid": "d5465643_685a477e",
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c7487ad7_7bd90cf5",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 1
