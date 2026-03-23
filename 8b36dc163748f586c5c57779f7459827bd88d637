@@ -84,6 +84,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d5465643_685a477e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-03-23T15:06:57Z",
+      "side": 1,
+      "message": "Yes, see discussion here: [1].\n\nThat why we are doing it in two steps:\n\n* Release 3.14: we deprecate old plugin dependency management toolchain and announce it in the Release Notes and in the code, see for example in `Documentation/dev-build-plugins.txt`:\n\n```\n\u003d\u003d\u003d Plugins with external dependencies \u003d\u003d\u003d\n\n[NOTE]\nAs of Gerrit 3.14 using the `external_plugin_deps.bzl` file for adding external\ndependencies of plugins to the build has been deprecated. This feature will be\nremoved with Gerrit 3.15. Please migrate to using Bazel modules as described\nbelow. The documentation of the deprecated `external_plugin_deps.bzl`\nfunctionality has been moved to a dedicated section below.\n```\n\nAnd in the file itself `plugins/external_plugin_deps.bzl`:\n\n```\n# Deprecation notice: This file is deprecated. Please migrate dependencies to\n# MODULE.bazel.\n```\n\n* Release 3.15: we remove the old toolchain support entirely.\n\n[1]: https://gerrit-review.googlesource.com/c/gerrit/+/526631/26/WORKSPACE.bzlmod#b146",
+      "parentUuid": "15e610fa_3f44194f",
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c7487ad7_7bd90cf5",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 1
