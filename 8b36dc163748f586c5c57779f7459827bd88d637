@@ -3,6 +3,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "194fa4c6_62e359f5",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-23T14:50:51Z",
+      "side": 1,
+      "message": "```suggestion\n* [Change 519682](https://gerrit-review.googlesource.com/c/gerrit/+/519682):\n  The `SUBMIT_REQUIREMENTS` option now also controls the deprecated\n  `requirements` and `submit_records` fields in `ChangeInfo`.\n  REST clients that previously received these deprecated fields without\n  explicitly requesting submit requirements must now opt in with\n  `SUBMIT_REQUIREMENTS`.\n\n* [Change 534063](https://gerrit-review.googlesource.com/c/gerrit/+/534063):\n```",
+      "range": {
+        "startLine": 240,
+        "startChar": 0,
+        "endLine": 241,
+        "endChar": 76
+      },
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9c8264c_eb436029",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-23T14:50:51Z",
+      "side": 1,
+      "message": "```suggestion\n* [Change 488984](https://gerrit-review.googlesource.com/c/gerrit/+/488984):\n```",
+      "range": {
+        "startLine": 263,
+        "startChar": 9,
+        "endLine": 263,
+        "endChar": 10
+      },
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fc3b0d39_196170f1",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 1
@@ -32,6 +78,98 @@
       "side": 1,
       "message": "Are you sure? AFAIK plugins need to be migrated, or am I mistaken? @david.ostrovsky@gmail.com?",
       "parentUuid": "fc3b0d39_196170f1",
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7487ad7_7bd90cf5",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-23T14:50:51Z",
+      "side": 1,
+      "message": "```suggestion\n  migration.\n  \n* [Change 523841](https://gerrit-review.googlesource.com/c/gerrit/+/523841):\n  Extend the Flows REST API with `ListActions`, so integrations can discover\n  which flow action types are currently offered by the configured flow service.\n\n* [Issue 483936085](https://issues.gerritcodereview.com/issues/483936085):\n  Add a new `aiReview` ref permission and expose `canAiReview` on `ChangeInfo`\n  so administrators can control access to AI review features per ref without\n  changing plugin configuration.\n\n* [Change 544621](https://gerrit-review.googlesource.com/c/gerrit/+/544621):\n  Add an `onBehalfOf` field to `ReviewerInput`, allowing privileged users to\n  add reviewers on behalf of another user while preserving the real actor in\n  reviewer update metadata.\n\n* [Change 559801](https://gerrit-review.googlesource.com/c/gerrit/+/559801):\n  Allow one plugin to replace a `DynamicItem` binding that was originally\n  provided by another plugin, enabling plugin-to-plugin API extension patterns\n  without core changes.\n```",
+      "range": {
+        "startLine": 296,
+        "startChar": 1,
+        "endLine": 296,
+        "endChar": 12
+      },
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ff9d5c1_ca2e3a50",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 397,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-23T14:50:51Z",
+      "side": 1,
+      "message": "```suggestion\n  $ git log --oneline --no-merges bb309748c..d95b54f60\n```",
+      "range": {
+        "startLine": 397,
+        "startChar": 45,
+        "endLine": 397,
+        "endChar": 54
+      },
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c52867c_7e70606a",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-23T14:50:51Z",
+      "side": 1,
+      "message": "```suggestion\nNotable changes are:\n- [d72f8c159](https://eclipse.gerrithub.io/q/d72f8c159) [cli] Add options --pack-refs and --no-pack-refs to Gc command\n- [1eb9749c7](https://eclipse.gerrithub.io/q/1eb9749c7) GC: add flag to control whether gc should pack all refs\n- [707fe22bc](https://eclipse.gerrithub.io/q/707fe22bc) pack-refs: Add sorted flag\n- [506e62f9e](https://eclipse.gerrithub.io/q/506e62f9e) DfsMidxWriter: add writing bitmaps to the newly created midx\n- [136d9cb23](https://eclipse.gerrithub.io/q/136d9cb23) DfsMidxWriter: set file size for the midx extension\n```",
+      "range": {
+        "startLine": 400,
+        "startChar": 0,
+        "endLine": 400,
+        "endChar": 20
+      },
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "155be2bc_c5d1f94f",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 445,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-23T14:50:51Z",
+      "side": 1,
+      "message": "```suggestion\n* Andrew Dorsett\n* Andrew Lamb\n* Daniel Murphy\n* Helmut Januschka\n* Igor Tverdovskiy\n* Janosch Steinhoff\n* Josh Brown\n* Jussi Karhu\n* Kenyon Ralph\n* Lorenzo Buzzi\n* Manuel Stahl\n* Marco Soeima\n* Robert DAZI\n* Sarah Silva\n* Svilen Marchev\n* Wyatt Hepler\n```",
+      "range": {
+        "startLine": 441,
+        "startChar": 0,
+        "endLine": 445,
+        "endChar": 15
+      },
       "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
