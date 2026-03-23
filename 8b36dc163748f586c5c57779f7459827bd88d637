@@ -346,6 +346,30 @@
       },
       "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d21f0d4_8df58532",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 445,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-03-23T18:57:31Z",
+      "side": 1,
+      "message": "\u003e ```suggestion\n\u003e * Andrew Dorsett\n\u003e * Andrew Lamb\n\u003e * Daniel Murphy\n\u003e * Helmut Januschka\n\u003e * Igor Tverdovskiy\n\u003e * Janosch Steinhoff\n\u003e * Josh Brown\n\u003e * Jussi Karhu\n\u003e * Kenyon Ralph\n\nKenyon has been contributing for a long time.\n\n\u003e * Lorenzo Buzzi\n\u003e * Manuel Stahl\n\u003e * Marco Soeima\n\nI am sure Marco is not a new Gerrit dev, I can see contributions from the old Gerrit v2.15 onwards.\n\n\u003e * Robert DAZI\n\u003e * Sarah Silva\n\u003e * Svilen Marchev\n\u003e * Wyatt Hepler\n\u003e ```",
+      "parentUuid": "155be2bc_c5d1f94f",
+      "range": {
+        "startLine": 441,
+        "startChar": 0,
+        "endLine": 445,
+        "endChar": 15
+      },
+      "revId": "8b36dc163748f586c5c57779f7459827bd88d637",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
