@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ab5bde6_2a656ae5",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-03-25T23:23:07Z",
+      "side": 1,
+      "message": "Keep the blank line above this.\n```suggestion\n\n  This option helps to prevent possible XSS-attacks.\n```",
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c25524ed_519295bd",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-03-25T23:23:07Z",
+      "side": 1,
+      "message": "Why is the setting referred to as a cookie? Should this be this instead?\n```suggestion\n  This makes the authentication cookie more secure by default as there\n```",
+      "range": {
+        "startLine": 177,
+        "startChar": 17,
+        "endLine": 177,
+        "endChar": 45
+      },
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4f320bc_7cd39dfd",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-03-25T23:23:07Z",
+      "side": 1,
+      "message": "Looks like you added a `[` by accident.\n```suggestion\n  The addition of a new `core.usePerRequestRefCache` setting, `true` by\n```",
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f54fdbf3_1f2e454c",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-03-25T23:23:07Z",
+      "side": 1,
+      "message": "`/meta` was correct\n```suggestion\n  having one or more inconsistent changes, like changes with `/meta` refs\n```",
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd6400b1_911bb3e1",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-03-25T23:23:07Z",
+      "side": 1,
+      "message": "keep the line break as-is?\n```suggestion\n  You can now `POST /config/server/deactivate.stale.accounts` to trigger account deactivation\n  outside the time window scheduled in `gerrit.config`.\n```",
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
