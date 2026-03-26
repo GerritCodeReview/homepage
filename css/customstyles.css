@@ -425,10 +425,6 @@ span.myLabel {
     padding-right:10px;
 }
 
-button.cursorNorm {
-    cursor: default;
-}
-
 a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
     margin-left: 10px;
 }
@@ -598,7 +594,6 @@ ol.series li {
     text-align: center;
     margin-bottom: 20px;
     font-family: courier;
-    color: silver;
     color: #444;
     display:block;
 }
@@ -738,33 +733,6 @@ span.soft {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
     }
-}
-
-.col-md-9 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-
-.post-content img {
-    margin: 12px 0px 3px 0px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-.col-md-9 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-
-.post-content img {
-    margin: 12px 0px 3px 0px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .videoThumbs img {
@@ -914,7 +882,6 @@ table thead th code.highlighter-rouge {
     height: 80px;
     background-color: #f5f5f5;
     font-family: Arial;
-    font-size: 12px;
     hyphens: auto;
     float: left;
     font-size: 12px;
