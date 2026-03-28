@@ -18,6 +18,18 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
+## 3.14 (Not released)
+
+* Review Agent (AI Chat)
+
+* WebUI Modernization
+
+* Gerrit Flows
+
+* Sticky Headers
+
+* Performance improvements
+
 ## 3.13
 
 * Introduce a predicate to skip inconsistent changes.
