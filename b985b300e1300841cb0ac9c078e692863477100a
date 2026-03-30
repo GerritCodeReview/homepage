@@ -16,6 +16,24 @@
       "message": "```suggestion\nDocumentation: **[3.14.0-rc1](https://gerrit-documentation.storage.googleapis.com/Documentation/3.14.0/index.html)**\n```",
       "revId": "b985b300e1300841cb0ac9c078e692863477100a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e72c4500_90a413d5",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-03-30T19:24:46Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6f1a7478_e82a0a77",
+      "revId": "b985b300e1300841cb0ac9c078e692863477100a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
