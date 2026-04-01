@@ -16,6 +16,98 @@
       "message": "I have applied all fixes, thank you very much for the proofreading!  I should have verified my diff before sending it ;)",
       "revId": "53e1342f3bfb7bbadca7d92313f135663e990a27",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7924c566_50eb463b",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-01T22:20:24Z",
+      "side": 1,
+      "message": "Sorry, missed this before. I don\u0027t think this works with the line break. Can you check it locally?",
+      "range": {
+        "startLine": 169,
+        "startChar": 5,
+        "endLine": 170,
+        "endChar": 63
+      },
+      "revId": "53e1342f3bfb7bbadca7d92313f135663e990a27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7465ed23_e79dbc3d",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-01T22:20:24Z",
+      "side": 1,
+      "message": "Same problem with a line break",
+      "range": {
+        "startLine": 263,
+        "startChar": 28,
+        "endLine": 265,
+        "endChar": 63
+      },
+      "revId": "53e1342f3bfb7bbadca7d92313f135663e990a27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26276511_a5b4f5bd",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 778,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-01T22:20:24Z",
+      "side": 1,
+      "message": "Same comment about line break",
+      "range": {
+        "startLine": 777,
+        "startChar": 1,
+        "endLine": 778,
+        "endChar": 68
+      },
+      "revId": "53e1342f3bfb7bbadca7d92313f135663e990a27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80d88cad_bfc7f77e",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 819,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-01T22:20:24Z",
+      "side": 1,
+      "message": "line break",
+      "range": {
+        "startLine": 818,
+        "startChar": 4,
+        "endLine": 819,
+        "endChar": 48
+      },
+      "revId": "53e1342f3bfb7bbadca7d92313f135663e990a27",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
