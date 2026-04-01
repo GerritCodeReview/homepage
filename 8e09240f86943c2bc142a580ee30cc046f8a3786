@@ -16,6 +16,24 @@
       "message": "If you\u0027re ok with it, I\u0027d rather focus on getting 503461: Redesign Gerrit Code Review website | https://gerrit-review.googlesource.com/c/homepage/+/503461 merged and then improve from there.",
       "revId": "8e09240f86943c2bc142a580ee30cc046f8a3786",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9ca5e02_ccab34c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010788
+      },
+      "writtenOn": "2026-04-01T19:45:27Z",
+      "side": 1,
+      "message": "Oh perfect, I wasn\u0027t aware of that change, and I guess it makes little sense to further tweak the old page.  I\u0027ll give the other change a try!",
+      "parentUuid": "f38fb982_e128560e",
+      "revId": "8e09240f86943c2bc142a580ee30cc046f8a3786",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
