@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4d7edfb_95d9d6a1",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1010788
+      },
+      "writtenOn": "2026-04-01T19:43:45Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "7ab5bde6_2a656ae5",
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c25524ed_519295bd",
@@ -31,6 +49,30 @@
       "writtenOn": "2026-03-25T23:23:07Z",
       "side": 1,
       "message": "Why is the setting referred to as a cookie? Should this be this instead?\n```suggestion\n  This makes the authentication cookie more secure by default as there\n```",
+      "range": {
+        "startLine": 177,
+        "startChar": 17,
+        "endLine": 177,
+        "endChar": 45
+      },
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4dd06368_3f2cf9b8",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1010788
+      },
+      "writtenOn": "2026-04-01T19:43:45Z",
+      "side": 1,
+      "message": "Sure I confess I just added backticks around the setting and haven\u0027t read the sentence. That looks nicer indeed.",
+      "parentUuid": "c25524ed_519295bd",
       "range": {
         "startLine": 177,
         "startChar": 17,
@@ -58,6 +100,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "02c0f4ec_8c106249",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1010788
+      },
+      "writtenOn": "2026-04-01T19:43:45Z",
+      "side": 1,
+      "message": "Fix applied, thanks",
+      "parentUuid": "b4f320bc_7cd39dfd",
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f54fdbf3_1f2e454c",
@@ -75,6 +135,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "74a83ade_ab0fd5cd",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 1010788
+      },
+      "writtenOn": "2026-04-01T19:43:45Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f54fdbf3_1f2e454c",
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dd6400b1_911bb3e1",
@@ -88,6 +166,24 @@
       "writtenOn": "2026-03-25T23:23:07Z",
       "side": 1,
       "message": "keep the line break as-is?\n```suggestion\n  You can now `POST /config/server/deactivate.stale.accounts` to trigger account deactivation\n  outside the time window scheduled in `gerrit.config`.\n```",
+      "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45934b69_a56d45f3",
+        "filename": "pages/site/releases/3.11.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 1010788
+      },
+      "writtenOn": "2026-04-01T19:43:45Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "dd6400b1_911bb3e1",
       "revId": "285580ff0d9e060d383d18dd84b5bf60807d0cc1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
