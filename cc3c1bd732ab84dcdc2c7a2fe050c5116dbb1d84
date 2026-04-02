@@ -22,6 +22,30 @@
       },
       "revId": "cc3c1bd732ab84dcdc2c7a2fe050c5116dbb1d84",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06502af9_07ea2a01",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-04-02T09:58:58Z",
+      "side": 1,
+      "message": "Interesting, still doesn\u0027t work for me neither on the currently online version nor or the previous patchset.\n\nDoes this still work for you though, yeah?",
+      "parentUuid": "5cbe6e67_3a27e4ff",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 41
+      },
+      "revId": "cc3c1bd732ab84dcdc2c7a2fe050c5116dbb1d84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
