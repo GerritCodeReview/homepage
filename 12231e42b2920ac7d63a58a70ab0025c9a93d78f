@@ -33,6 +33,23 @@
       "message": "This is the biggest change to the Gerrit website, in a very long time, if not ever, so that\u0027s why I\u0027m CC\u0027ing a bunch of folks on here. If you\u0027re frontend-fluent and have a minute to look at this or if you\u0027re willing to grab this change and run `docker compose up` to try the local site a little, please do.",
       "revId": "12231e42b2920ac7d63a58a70ab0025c9a93d78f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c064970_525728f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 46
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2026-04-02T16:27:18Z",
+      "side": 1,
+      "message": "News still needs to be updated to match the new design. It still uses the old design. Oh seems some others need updating as well. Also the buttons should be fixed so the width is the entire length of the drop down rather than cut off. I think? it\u0027s more pronoun in \"Docs\". \"Browse Plugins\" leads to a 404 /plugins.html doesn\u0027t exist. Also under \"CI/CD Integration\" you have a bunch of listed CIs that link to their websites. But when hovering, it doesn\u0027t indicate it\u0027s a button that you can press. Under \"Trusted by Industry Leaders\" you probably want to list the Wikimedia Foundation.\n\nAnyways great job on the redesign! It looks much more modern!",
+      "revId": "12231e42b2920ac7d63a58a70ab0025c9a93d78f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
