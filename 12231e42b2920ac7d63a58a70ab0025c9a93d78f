@@ -16,6 +16,23 @@
       "message": "I know it looks like I\u0027m +1 myself, but Nasser has done a lot of work to get this over the line, so its aimed to that.",
       "revId": "12231e42b2920ac7d63a58a70ab0025c9a93d78f",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2834323d_688913fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 46
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-02T13:55:46Z",
+      "side": 1,
+      "message": "This is the biggest change to the Gerrit website, in a very long time, if not ever, so that\u0027s why I\u0027m CC\u0027ing a bunch of folks on here. If you\u0027re frontend-fluent and have a minute to look at this or if you\u0027re willing to grab this change and run `docker compose up` to try the local site a little, please do.",
+      "revId": "12231e42b2920ac7d63a58a70ab0025c9a93d78f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
