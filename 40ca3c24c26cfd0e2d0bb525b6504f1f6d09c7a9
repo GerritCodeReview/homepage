@@ -36,6 +36,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "77c87de7_af257dd2",
+        "filename": "index.md",
+        "patchSetId": 43
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-02T06:28:33Z",
+      "side": 1,
+      "message": "Sure",
+      "parentUuid": "8d0338b0_28046180",
+      "revId": "40ca3c24c26cfd0e2d0bb525b6504f1f6d09c7a9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f61b14a3_80beca3e",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "This can be a follow-up change though, no? This change is already big enough.",
       "parentUuid": "f61b14a3_80beca3e",
+      "revId": "40ca3c24c26cfd0e2d0bb525b6504f1f6d09c7a9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "413df303_3d487476",
+        "filename": "js/toc.js",
+        "patchSetId": 43
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-02T06:28:33Z",
+      "side": 1,
+      "message": "Yes, definitely, just making a note of it here to keep track of it.",
+      "parentUuid": "2a312eab_a89bb168",
       "revId": "40ca3c24c26cfd0e2d0bb525b6504f1f6d09c7a9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
