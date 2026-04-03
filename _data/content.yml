@@ -5,7 +5,7 @@ search_no_results_text: No results found.
 
 # Version and base URLs for de-duplication
 # Update latest_version when releasing a new version to update all download links and references
-latest_version: "3.13.3"
+latest_version: "3.13.5"
 base_urls:
   gerrit_review: "https://gerrit-review.googlesource.com"
   gerrit_releases: "https://gerrit-releases.storage.googleapis.com"
@@ -167,10 +167,10 @@ getting_started:
       text: "Get Gerrit running locally in under 2 minutes"
       button: "Download Now"
       url_prefix: "gerrit_releases"
-      button_url: "/gerrit-3.13.3.war"
+      button_url: "/gerrit-3.13.5.war"
       code_block: |
         # Download the latest release
-        wget -O gerrit.war https://gerrit-releases.storage.googleapis.com/gerrit-3.13.3.war
+        wget -O gerrit.war https://gerrit-releases.storage.googleapis.com/gerrit-3.13.5.war
 
         # Initialize a new Gerrit site
         java -jar gerrit.war init -d /path/to/gerrit/site_dir --dev --batch --install-all-plugins
@@ -285,7 +285,7 @@ topnav:
   - title: Docs
     folderitems:
       - title: Latest
-        external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.13.3/index.html
+        external_url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.13.5/index.html
       - title: Designs
         url: /design-docs-index.html
       - title: Wiki
