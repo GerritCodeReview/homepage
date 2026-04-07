@@ -69,14 +69,12 @@ Current maintainers are:
 | Name                       | Affiliation                                    |
 |----------------------------|------------------------------------------------|
 | Antonio Barone             | GerritForge                                    |
-| Ben Rohlfs                 | Google                                         |
-| Chris Poucet               | Google                                         |
+| Becky Siegel               | Google                                         |
 | David Ostrovsky            | Independent                                    |
 | David Pursehouse           | Independent (formerly Sony, CollabNet)         |
 | Dhruv Srivastava           | Google                                         |
-| Dmitrii Filippov           | Google                                         |
 | Edwin Kempin               | Google (formerly SAP)                          |
-| Frank Borden               | Google                                         |
+| Emily Shaffer              | Google                                         |
 | Han-Wen Nienhuys           | Independent (formerly Google)                  |
 | Jacek Centkowski           | Independent (formerly Digital.ai)              |
 | Kamil Musin                | Google                                         |
@@ -88,12 +86,12 @@ Current maintainers are:
 | Milutin Kristofic          | Google                                         |
 | Nasser Grainawi            | Qualcomm Technologies, Inc.                    |
 | Nitzan Gur-Furman          | Google                                         |
-| Patrick Hiesel             | Google                                         |
 | Patrick Mulhall (Paladox)  | Independent                                    |
+| Sarah Silva                | Google                                         |
 | Saša Živkov                | SAP                                            |
 | Sven Selberg               | Axis                                           |
+| Terry Parker               | Google                                         |
 | Thomas Dräbing             | SAP                                            |
-| Youssef Elghareeb          | Google                                         |
 
 ### Former maintainers
 
@@ -101,8 +99,11 @@ Current maintainers are:
 |-----------------------|------------------------------------|
 | Alice Kober-Sotzek    | Google                             |
 | Andrew Bonventre      | Google                             |
-| Becky Siegel          | Google                             |
+| Ben Rohlfs            | Google                             |
+| Chris Poucet          | Google                             |
 | Dave Borowitz         | Google                             |
+| Dmitrii Filippov      | Google                             |
+| Frank Borden          | Google                             |
 | Gal Paikin            | Google                             |
 | Hugo Arès             | Kaloom (formerly Ericsson)         |
 | Joerg Zieren          | Google                             |
@@ -110,7 +111,9 @@ Current maintainers are:
 | Logan Hanks           | Google                             |
 | Marija Savtchouk      | Google                             |
 | Ole Rehmsen           | Google                             |
+| Patrick Hiesel        | Google                             |
 | Shawn Pearce          | Google (Founder of Gerrit and JGit)|
 | Tao Zhou              | Google                             |
 | Viktar Donich         | Google                             |
 | Wyatt Allen           | Google                             |
+| Youssef Elghareeb     | Google                             |
