@@ -1,0 +1,175 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "670eb53e_8809effc",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\ncontributors, the team highlighted the urgent need to collaboratively build \"guardrails\" — such as\n```",
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0ea39fb_a2b2d075",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\ntargeted load tests and automated invariants to ensure project stability and quality as we\n```",
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8be575e_f80c8595",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\nTo combat spam on `gerrit-review.googlesource.com` and other public-facing Gerrit setups (e.g.,\n```",
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ab01879_4075bcb2",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\nThere is ongoing concern regarding spam on closed changes and the current inability of community\n```",
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a709aa8_5d1da6b4",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\nwould allow them to remove spam while ensuring all compliance-relevant records\n```",
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98b3b57f_12c852f5",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\nSpecifically, replication  from the upstream JGit repository to\n`gerrit-review.googlesource.com` of the `servlet-4` and some security fix\nbranches was failing.\n```",
+      "range": {
+        "startLine": 63,
+        "startChar": 34,
+        "endLine": 65,
+        "endChar": 28
+      },
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c46594a_4fd725f7",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\n* Starting from **Gerrit v3.16**, Java 25 will become mandatory, and support\nfor Java 21 will end.\n```",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 86,
+        "endChar": 17
+      },
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af7a947e_a1259f15",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\n    comments) can be extended to designated community managers outside of\n```",
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5fba645_5de820d6",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-04-14T08:10:17Z",
+      "side": 1,
+      "message": "```suggestion\n    * *(Note: [LM] and [MS] have confirmed that only regular `refs/heads/` branches\n— specifically `master`, `servlet-4`, and the `stable-*` branches are required.*\n```",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 120,
+        "endChar": 70
+      },
+      "revId": "e14a094075a69c59bf86e14affc0acdbff814a54",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
