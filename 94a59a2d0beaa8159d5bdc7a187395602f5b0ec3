@@ -3,6 +3,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a29acfb0_e4e1a05a",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-04-14T05:31:50Z",
+      "side": 1,
+      "message": "```suggestion\n**Participants**: Daniele Sassoli [DS], David Ostrovsky [DO], Ivan Frade [IF], Matthias Sohn [MS], Nasser Grainawi [NG], Terry Parker [TP], Luca Milanesio [LM]\n```",
+      "range": {
+        "startLine": 12,
+        "startChar": 46,
+        "endLine": 12,
+        "endChar": 55
+      },
+      "revId": "94a59a2d0beaa8159d5bdc7a187395602f5b0ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61af76a7_a6b6df17",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-04-14T05:31:50Z",
+      "side": 1,
+      "message": "Nit: here and below, remove trailing blanks.",
+      "range": {
+        "startLine": 35,
+        "startChar": 31,
+        "endLine": 35,
+        "endChar": 32
+      },
+      "revId": "94a59a2d0beaa8159d5bdc7a187395602f5b0ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7a550562_ebe1a17b",
         "filename": "_posts/2026-04-01-esc-minutes.md",
         "patchSetId": 2
@@ -32,6 +78,52 @@
       "side": 1,
       "message": "Fix applied.",
       "parentUuid": "7a550562_ebe1a17b",
+      "revId": "94a59a2d0beaa8159d5bdc7a187395602f5b0ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4158563_387fc7c2",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-04-14T05:31:50Z",
+      "side": 1,
+      "message": "```suggestion\n    Google.\n    * **Engineering Team:**: Review [proposed change](https://gerrit-review.googlesource.com/c/gerrit/+/569641), which introduced the dedicated global Delete Comment capability for removing comments and change messages.\n    * **Engineering Team:**: Define or propose a dedicated global capability for removing votes on closed changes.\n```",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 11
+      },
+      "revId": "94a59a2d0beaa8159d5bdc7a187395602f5b0ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8241b652_b881b050",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-04-14T05:31:50Z",
+      "side": 1,
+      "message": "```suggestion\n    branch where it will be set as the default output bytecode.\n    * **Engineering Team:** Add a new Jenkins job on the `master` branch that enforces Java 21 source and target compatibility, failing if the codebase inadvertently moves to Java 25.\n```",
+      "range": {
+        "startLine": 123,
+        "startChar": 0,
+        "endLine": 123,
+        "endChar": 63
+      },
       "revId": "94a59a2d0beaa8159d5bdc7a187395602f5b0ec3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
