@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f4a51d5_80ea7c60",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-04-14T20:21:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "a29acfb0_e4e1a05a",
+      "range": {
+        "startLine": 12,
+        "startChar": 46,
+        "endLine": 12,
+        "endChar": 55
+      },
+      "revId": "94a59a2d0beaa8159d5bdc7a187395602f5b0ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "61af76a7_a6b6df17",
@@ -105,6 +129,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0979043f_c89d22b3",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-04-14T20:21:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "b4158563_387fc7c2",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 11
+      },
+      "revId": "94a59a2d0beaa8159d5bdc7a187395602f5b0ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8241b652_b881b050",
@@ -118,6 +166,30 @@
       "writtenOn": "2026-04-14T05:31:50Z",
       "side": 1,
       "message": "```suggestion\n    branch where it will be set as the default output bytecode.\n    * **Engineering Team:** Add a new Jenkins job on the `master` branch that enforces Java 21 source and target compatibility, failing if the codebase inadvertently moves to Java 25.\n```",
+      "range": {
+        "startLine": 123,
+        "startChar": 0,
+        "endLine": 123,
+        "endChar": 63
+      },
+      "revId": "94a59a2d0beaa8159d5bdc7a187395602f5b0ec3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0761fd51_a9392379",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-04-14T20:21:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8241b652_b881b050",
       "range": {
         "startLine": 123,
         "startChar": 0,
