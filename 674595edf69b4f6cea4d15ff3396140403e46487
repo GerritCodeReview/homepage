@@ -16,6 +16,29 @@
       "message": "@tparker@google.com @ifrade@google.com anything else to add?",
       "revId": "674595edf69b4f6cea4d15ff3396140403e46487",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f15ae1a8_d0fa4b78",
+        "filename": "_posts/2026-04-01-esc-minutes.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-15T18:19:44Z",
+      "side": 1,
+      "message": "To be fair, Dani did a lot of the work for this too. I just did some refactoring and updating on top of that.\n```suggestion\nto rollout difficulties on Google\u0027s infrastructure. To resolve this, [DS] and [NG] have prepared\na new two-step deployment strategy:\n```",
+      "range": {
+        "startLine": 44,
+        "startChar": 52,
+        "endLine": 45,
+        "endChar": 29
+      },
+      "revId": "674595edf69b4f6cea4d15ff3396140403e46487",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
