@@ -46,6 +46,47 @@
       },
       "revId": "cc3c1bd732ab84dcdc2c7a2fe050c5116dbb1d84",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c553065_de38010c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-23T00:07:13Z",
+      "side": 1,
+      "message": "ok, so it works, but it doesn\u0027t. It opens an email, but there\u0027s no `To:` populated since we don\u0027t have those `_config.yml` values set.",
+      "parentUuid": "06502af9_07ea2a01",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 41
+      },
+      "revId": "cc3c1bd732ab84dcdc2c7a2fe050c5116dbb1d84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9eb17f75_aa184236",
+        "filename": "_config.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-04-23T00:07:13Z",
+      "side": 1,
+      "message": "Maybe send to community managers instead?",
+      "revId": "cc3c1bd732ab84dcdc2c7a2fe050c5116dbb1d84",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
