@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33eb3fd9_2be4aac0",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 928,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-04-28T14:36:49Z",
+      "side": 1,
+      "message": "Add more details? For example that it\u0027s still enabled per default, like it was the case in 3.13.5 release, but there is new experiment option to disable it entirely:\n\n```suggestion\n  Allow disabling AI review prompt.\n\n    Keep the AI review prompt enabled by default as shipped in 3.13, but\n    allow administrators to disable it explicitly via:\n```\n\nWould it even make sense to quote how to disable it?\n\n  ```\n    [experiments]\n            disabled \u003d UiFeature__get_ai_prompt\n  ```",
+      "range": {
+        "startLine": 928,
+        "startChar": 0,
+        "endLine": 928,
+        "endChar": 35
+      },
+      "revId": "284e6fbec0f4e6d970ae9e8a3b5b4c85dc27bab5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
