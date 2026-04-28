@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "723c194f_1af32971",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 696,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-04-28T13:59:26Z",
+      "side": 1,
+      "message": "nit: wrap long line",
+      "range": {
+        "startLine": 696,
+        "startChar": 0,
+        "endLine": 696,
+        "endChar": 144
+      },
+      "revId": "87808dab413fde07a589409ef967de24698eb010",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64c38e47_b8c584b6",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-04-28T13:59:26Z",
+      "side": 1,
+      "message": "Should have this not been `24b0f4b` as we stated at L725?",
+      "range": {
+        "startLine": 730,
+        "startChar": 43,
+        "endLine": 730,
+        "endChar": 50
+      },
+      "revId": "87808dab413fde07a589409ef967de24698eb010",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
