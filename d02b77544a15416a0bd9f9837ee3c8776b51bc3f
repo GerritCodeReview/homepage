@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4947e154_ef0e92a1",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 694,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-04-28T13:26:24Z",
+      "side": 1,
+      "message": "It\u0027s not very clear to me what the problem was.\nReading the commit message seems that, this was a leading slash problem.\n\n```\nThe old code formed this Location header by\nconcatenating baseUrl and servletPath, which produced \"//\" whenever\nbaseUrl ended with \"/\" and servletPath started with \"/\". The filter\nnow drops one leading slash from servletPath in that case, ensuring the\nredirect URL is correct.\n```\n\nCan you consider explaining this more clearly?",
+      "range": {
+        "startLine": 694,
+        "startChar": 0,
+        "endLine": 694,
+        "endChar": 68
+      },
+      "revId": "d02b77544a15416a0bd9f9837ee3c8776b51bc3f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f65fafbf_bc03ff57",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-04-28T13:26:24Z",
+      "side": 1,
+      "message": "Looks like this was already included since v3.12.4",
+      "range": {
+        "startLine": 707,
+        "startChar": 0,
+        "endLine": 709,
+        "endChar": 44
+      },
+      "revId": "d02b77544a15416a0bd9f9837ee3c8776b51bc3f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07219d1f_684f1779",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 722,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-04-28T13:26:24Z",
+      "side": 1,
+      "message": "I think this reads a bit weird\n\n```suggestion\n    Clarifies that this capability allows deleting internal groups through the REST API. It can be\n    granted to non-administrators, and only takes effect when `groups.enableDeleteGroup` is\n```",
+      "range": {
+        "startLine": 721,
+        "startChar": 4,
+        "endLine": 722,
+        "endChar": 33
+      },
+      "revId": "d02b77544a15416a0bd9f9837ee3c8776b51bc3f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
