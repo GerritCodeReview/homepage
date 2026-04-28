@@ -47,6 +47,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d709bff8_1e649cb7",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-04-28T13:27:03Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "f65fafbf_bc03ff57",
+      "range": {
+        "startLine": 707,
+        "startChar": 0,
+        "endLine": 709,
+        "endChar": 44
+      },
+      "revId": "d02b77544a15416a0bd9f9837ee3c8776b51bc3f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "07219d1f_684f1779",
