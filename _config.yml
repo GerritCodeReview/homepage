@@ -46,6 +46,7 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - .jekyll-metadata
+  - summit/2026/
 
 # Build settings
 destination: _site
