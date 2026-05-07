@@ -1,0 +1,112 @@
+/* ── Address card ── */
+.address-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 22px;
+  margin: 24px 0 0;
+}
+.address-icon {
+  color: var(--accent);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.address-details {
+  color: var(--text-muted);
+  line-height: 1.7;
+  font-size: 15px;
+}
+.address-details strong { color: var(--text); }
+.address-tbd {
+  font-style: italic;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+
+/* ── Map ── */
+.map-container {
+  margin: 20px 0 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  line-height: 0;
+}
+.map-container iframe {
+  display: block;
+  width: 100%;
+  height: 400px;
+  filter: invert(0.88) hue-rotate(180deg) saturate(0.85) brightness(0.92);
+}
+
+/* ── Transport grid ── */
+.transport-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0 0;
+}
+.transport-card--wide {
+  grid-column: 1 / -1;
+}
+.transport-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 22px 24px 20px;
+  transition: border-color 0.2s;
+}
+.transport-card:hover { border-color: rgba(249,115,22,0.35); }
+.transport-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.transport-header h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 16px !important;
+  color: var(--text) !important;
+  border: none !important;
+}
+.transport-icon {
+  width: 38px;
+  height: 38px;
+  background: var(--accent-dim);
+  border: 1px solid rgba(249,115,22,0.25);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.transport-card p {
+  font-size: 14px;
+  margin-bottom: 12px !important;
+}
+.transport-card ul {
+  margin-bottom: 12px !important;
+}
+.transport-card li {
+  font-size: 14px;
+}
+.transport-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  font-family: "DM Mono", monospace;
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  letter-spacing: 0.2px;
+}
+.transport-link:hover { text-decoration: underline !important; }
+
+@media (max-width: 640px) {
+  .transport-grid { grid-template-columns: 1fr; }
+  .transport-card--wide { grid-column: auto; }
+  .map-container iframe { height: 280px; }
+}

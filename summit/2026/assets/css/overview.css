@@ -1,0 +1,37 @@
+.organiser-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px 0 16px;
+}
+.organiser-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 22px;
+  transition: border-color 0.2s;
+}
+.organiser-card:hover { border-color: rgba(249,115,22,0.35); }
+.organiser-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.organiser-org {
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.organiser-card p {
+  font-size: 14px;
+  margin: 0 !important;
+  line-height: 1.7;
+}
+
+@media (max-width: 680px) {
+  .organiser-grid { grid-template-columns: 1fr; }
+}
