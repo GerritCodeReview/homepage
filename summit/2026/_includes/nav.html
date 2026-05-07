@@ -1,0 +1,24 @@
+<nav id="main-nav">
+  <a href="/index.html" class="nav-logo">GUS <span>2026</span></a>
+  <div class="nav-links">
+    <a href="/index.html" {% if page.url == '/index.html' or page.url == '/' %}class="active"{% endif %}>Home</a>
+    <a href="/location.html" {% if page.url contains 'location' %}class="active"{% endif %}>Location</a>
+    <a href="/schedule.html" {% if page.url contains 'schedule' %}class="active"{% endif %}>Schedule</a>
+    <a href="/speakers.html" {% if page.url contains 'speakers' %}class="active"{% endif %}>Speakers</a>
+    <a href="/overview.html" {% if page.url contains 'overview' %}class="active"{% endif %}>Overview</a>
+    <a href="https://www.gerritcodereview.com/codeofconduct.html" target="_blank" rel="noopener" class="conduct">Code of Conduct</a>
+    <a href="/register.html" class="nav-register">Register</a>
+  </div>
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="nav-mobile-menu" id="nav-mobile-menu">
+  <a href="/index.html">Home</a>
+  <a href="/location.html">Location</a>
+  <a href="/schedule.html">Schedule</a>
+  <a href="/speakers.html">Speakers</a>
+  <a href="/overview.html">Overview</a>
+  <a href="https://www.gerritcodereview.com/codeofconduct.html" target="_blank" rel="noopener">Code of Conduct</a>
+  <a href="/register.html" class="mobile-register">Register</a>
+</div>
