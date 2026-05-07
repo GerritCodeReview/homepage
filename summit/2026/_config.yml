@@ -1,0 +1,22 @@
+title: "Gerrit User Summit 2026"
+description: "The annual Gerrit Code Review community event — November 9-10, 2026, Sunnyvale, CA"
+baseurl: ""
+url: "https://gus.gerritcodereview.com"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
