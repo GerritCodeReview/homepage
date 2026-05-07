@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ea2dd44_062c6e7f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-05-07T07:12:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b5e4748_4a5335f5",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 35
+      },
+      "revId": "994f3ab2f329b3b87e2217f9c0298236e63d3ed2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e2f8e418_baedca60",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-05-07T05:14:40Z",
       "side": 1,
       "message": "Gerrit v3.12 also supports zero-downtime upgrade from v3.10.\n\nConsider clarifying this, e.g.:\n\n```\nGerrit v3.12.x supports zero-downtime upgrade from Gerrit v3.11 and v3.10.\n\nThis is due to Lucene’s backward compatibility guarantees,\nwhich allow reading index formats from the previous (N-1) major version.\n\nSince Gerrit v3.10 and v3.11 use Lucene 9.x and Gerrit 3.12 uses Lucene 10.x,\nonline upgrade is supported.\n\nUpgrades from older versions (e.g. v3.9, which uses Lucene 8.x) are\nnot supported for zero-downtime upgrade.\n```",
+      "range": {
+        "startLine": 133,
+        "startChar": 0,
+        "endLine": 133,
+        "endChar": 63
+      },
+      "revId": "994f3ab2f329b3b87e2217f9c0298236e63d3ed2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2002c909_abe24db1",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-05-07T07:12:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2f8e418_baedca60",
       "range": {
         "startLine": 133,
         "startChar": 0,
@@ -78,6 +126,24 @@
       "side": 1,
       "message": "+1 to listing both options.\n\nWe could clarify it like this:\n\n* Restore a backup of the previous Gerrit version indexes\n* Rebuild the indexes offline (e.g. using `gerrit reindex`)",
       "parentUuid": "2635fff5_4bc3100d",
+      "revId": "994f3ab2f329b3b87e2217f9c0298236e63d3ed2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8203c94f_8a844b34",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-05-07T07:12:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "18f268e8_67b22073",
       "revId": "994f3ab2f329b3b87e2217f9c0298236e63d3ed2",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
