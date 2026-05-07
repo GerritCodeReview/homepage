@@ -1,0 +1,24 @@
+<nav id="main-nav">
+  <a href="{{ site.baseurl }}/index.html" class="nav-logo">GUS <span>2026</span></a>
+  <div class="nav-links">
+    <a href="{{ site.baseurl }}/index.html" {% if page.url == '/index.html' or page.url == '/' %}class="active"{% endif %}>Home</a>
+    <a href="{{ site.baseurl }}/location.html" {% if page.url contains 'location' %}class="active"{% endif %}>Location</a>
+    <a href="{{ site.baseurl }}/schedule.html" {% if page.url contains 'schedule' %}class="active"{% endif %}>Schedule</a>
+    <a href="{{ site.baseurl }}/speakers.html" {% if page.url contains 'speakers' %}class="active"{% endif %}>Speakers</a>
+    <a href="{{ site.baseurl }}/overview.html" {% if page.url contains 'overview' %}class="active"{% endif %}>About</a>
+    <a href="https://www.gerritcodereview.com/codeofconduct.html" target="_blank" rel="noopener" class="conduct">Code of Conduct</a>
+    <a href="{{ site.baseurl }}/register.html" class="nav-register">Register</a>
+  </div>
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="nav-mobile-menu" id="nav-mobile-menu">
+  <a href="{{ site.baseurl }}/index.html">Home</a>
+  <a href="{{ site.baseurl }}/location.html">Location</a>
+  <a href="{{ site.baseurl }}/schedule.html">Schedule</a>
+  <a href="{{ site.baseurl }}/speakers.html">Speakers</a>
+  <a href="{{ site.baseurl }}/overview.html">About</a>
+  <a href="https://www.gerritcodereview.com/codeofconduct.html" target="_blank" rel="noopener">Code of Conduct</a>
+  <a href="{{ site.baseurl }}/register.html" class="mobile-register">Register</a>
+</div>
