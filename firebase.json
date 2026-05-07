@@ -1,142 +1,154 @@
 {
-  "hosting": {
-    "public": "_site",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "redirects": [
-      {
-        "source": "/about.md",
-        "destination": "/about.html",
-        "type": 301
-      },
-      {
-        "source": "/docs/MultiMaster.md",
-        "destination": "/multimaster.html",
-        "type": 301
-      },
-      {
-        "source": "/docs/Notedb.md",
-        "destination": "/notedb.html",
-        "type": 301
-      },
-      {
-        "source": "/docs/OutstandingTopics.md",
-        "destination": "/outstandingtopics.html",
-        "type": 301
-      },
-      {
-        "source": "/docs/ReviewKungFu.md",
-        "destination": "/reviewkungfu.html",
-        "type": 301
-      },
-      {
-        "source": "/docs/RoadMap.md",
-        "destination": "/roadmap.html",
-        "type": 301
-      },
-      {
-        "source": "/docs/Scaling.md",
-        "destination": "/scaling.html",
-        "type": 301
-      },
-      {
-        "source": "/docs/ShowCases.md",
-        "destination": "/showcases.html",
-        "type": 301
-      },
-      {
-        "source": "/docs/SqlMergeUserAccounts.md",
-        "destination": "/sqlmergeuseraccounts.html",
-        "type": 301
-      },
-      {
-        "source": "/index.md",
-        "destination": "/index.html",
-        "type": 301
-      },
-      {
-        "source": "/issues.md",
-        "destination": "/issues.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/2.9.md",
-        "destination": "/2.9.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/2.10.md",
-        "destination": "/2.10.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/2.11.md",
-        "destination": "/2.11.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/2.12.md",
-        "destination": "/2.12.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/2.13.md",
-        "destination": "/2.13.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/2.14.md",
-        "destination": "/2.14.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/2.15.md",
-        "destination": "/2.15.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/2.16.md",
-        "destination": "/2.16.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/3.0.md",
-        "destination": "/3.0.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/3.1.md",
-        "destination": "/3.1.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/3.2.md",
-        "destination": "/3.2.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/3.3.md",
-        "destination": "/3.3.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/3.4.md",
-        "destination": "/3.4.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/public-keys.md",
-        "destination": "/public-keys.html",
-        "type": 301
-      },
-      {
-        "source": "/releases/README.md",
-        "destination": "/releases-readme.html",
-        "type": 301
-      }
-    ]
-  }
+  "hosting": [
+    {
+      "target": "gus",
+      "public": "summit/2026/_site",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "main",
+      "public": "_site",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "redirects": [
+        {
+          "source": "/about.md",
+          "destination": "/about.html",
+          "type": 301
+        },
+        {
+          "source": "/docs/MultiMaster.md",
+          "destination": "/multimaster.html",
+          "type": 301
+        },
+        {
+          "source": "/docs/Notedb.md",
+          "destination": "/notedb.html",
+          "type": 301
+        },
+        {
+          "source": "/docs/OutstandingTopics.md",
+          "destination": "/outstandingtopics.html",
+          "type": 301
+        },
+        {
+          "source": "/docs/ReviewKungFu.md",
+          "destination": "/reviewkungfu.html",
+          "type": 301
+        },
+        {
+          "source": "/docs/RoadMap.md",
+          "destination": "/roadmap.html",
+          "type": 301
+        },
+        {
+          "source": "/docs/Scaling.md",
+          "destination": "/scaling.html",
+          "type": 301
+        },
+        {
+          "source": "/docs/ShowCases.md",
+          "destination": "/showcases.html",
+          "type": 301
+        },
+        {
+          "source": "/docs/SqlMergeUserAccounts.md",
+          "destination": "/sqlmergeuseraccounts.html",
+          "type": 301
+        },
+        {
+          "source": "/index.md",
+          "destination": "/index.html",
+          "type": 301
+        },
+        {
+          "source": "/issues.md",
+          "destination": "/issues.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/2.9.md",
+          "destination": "/2.9.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/2.10.md",
+          "destination": "/2.10.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/2.11.md",
+          "destination": "/2.11.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/2.12.md",
+          "destination": "/2.12.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/2.13.md",
+          "destination": "/2.13.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/2.14.md",
+          "destination": "/2.14.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/2.15.md",
+          "destination": "/2.15.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/2.16.md",
+          "destination": "/2.16.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/3.0.md",
+          "destination": "/3.0.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/3.1.md",
+          "destination": "/3.1.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/3.2.md",
+          "destination": "/3.2.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/3.3.md",
+          "destination": "/3.3.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/3.4.md",
+          "destination": "/3.4.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/public-keys.md",
+          "destination": "/public-keys.html",
+          "type": 301
+        },
+        {
+          "source": "/releases/README.md",
+          "destination": "/releases-readme.html",
+          "type": 301
+        }
+      ]
+    }
+  ]
 }
