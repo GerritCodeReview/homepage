@@ -5,3 +5,11 @@ services:
       - "4000:4000"
     volumes:
       - ".:/site"
+
+  summit-2026:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - "./summit/2026:/site"
+      - "./_site/summit26:/output"
+    command: bundle exec jekyll serve --force_polling -H 0.0.0.0 -P 4000 -d /output
+
