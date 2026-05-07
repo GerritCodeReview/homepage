@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "53bc138a_92404e7f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-05-07T07:47:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55b37f7d_739ce28f",
+      "range": {
+        "startLine": 133,
+        "startChar": 64,
+        "endLine": 133,
+        "endChar": 67
+      },
+      "revId": "e417dc0da92c7d5cd9633217b2bc048dd200f128",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e47979a9_6d7f5cb9",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "08b2192b_fbab48ff",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-05-07T07:47:37Z",
+      "side": 1,
+      "message": "You are right. No need. Furthermore it is already explained in the commit message if needed.",
+      "parentUuid": "e47979a9_6d7f5cb9",
+      "range": {
+        "startLine": 140,
+        "startChar": 0,
+        "endLine": 144,
+        "endChar": 28
+      },
+      "revId": "e417dc0da92c7d5cd9633217b2bc048dd200f128",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a364c6a5_ccbe9e8c",
@@ -60,6 +108,30 @@
       "writtenOn": "2026-05-07T07:30:56Z",
       "side": 1,
       "message": "That\u0027s misleading, because even if Gerrit v3.9 would have used the same version of Lucene as v3.10, the online upgrade would have not been possible because there are two bumps of the changes version index.\n\nSee https://www.gerritcodereview.com/3.10.html#schema-and-index-changes",
+      "range": {
+        "startLine": 146,
+        "startChar": 0,
+        "endLine": 147,
+        "endChar": 40
+      },
+      "revId": "e417dc0da92c7d5cd9633217b2bc048dd200f128",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "257f1f47_1b40e82b",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-05-07T07:47:37Z",
+      "side": 1,
+      "message": "Removed.",
+      "parentUuid": "a364c6a5_ccbe9e8c",
       "range": {
         "startLine": 146,
         "startChar": 0,
