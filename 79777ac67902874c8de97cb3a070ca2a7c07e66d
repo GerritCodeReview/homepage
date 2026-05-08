@@ -22,6 +22,30 @@
       },
       "revId": "79777ac67902874c8de97cb3a070ca2a7c07e66d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a396fb68_a29065f0",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-05-08T14:08:59Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "68dce84e_ce965d03",
+      "range": {
+        "startLine": 376,
+        "startChar": 0,
+        "endLine": 381,
+        "endChar": 0
+      },
+      "revId": "79777ac67902874c8de97cb3a070ca2a7c07e66d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
