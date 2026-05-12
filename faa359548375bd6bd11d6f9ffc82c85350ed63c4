@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e87bcfc_d876af07",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-05-12T06:29:19Z",
+      "side": 1,
+      "message": "Can we avoid the acronym ?",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "faa359548375bd6bd11d6f9ffc82c85350ed63c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52091966_e417831e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-05-12T06:29:19Z",
+      "side": 1,
+      "message": "looks like an incomplete squash containing 2 change-ids",
+      "revId": "faa359548375bd6bd11d6f9ffc82c85350ed63c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ccd8fff_489d9bb3",
+        "filename": "docker-compose.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-05-12T06:29:19Z",
+      "side": 1,
+      "message": "why do we need to serve the summit pages from a different endpoint ?",
+      "revId": "faa359548375bd6bd11d6f9ffc82c85350ed63c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
