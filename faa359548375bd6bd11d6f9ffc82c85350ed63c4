@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3973681_a3da8bef",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-05-12T07:08:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e87bcfc_d876af07",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "faa359548375bd6bd11d6f9ffc82c85350ed63c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "52091966_e417831e",
@@ -41,6 +65,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "455ea571_4a893f45",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-05-12T07:08:51Z",
+      "side": 1,
+      "message": "Ah, thanks, must have forgotten to push when I updated it locally.",
+      "parentUuid": "52091966_e417831e",
+      "revId": "faa359548375bd6bd11d6f9ffc82c85350ed63c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ccd8fff_489d9bb3",
@@ -54,6 +96,24 @@
       "writtenOn": "2026-05-12T06:29:19Z",
       "side": 1,
       "message": "why do we need to serve the summit pages from a different endpoint ?",
+      "revId": "faa359548375bd6bd11d6f9ffc82c85350ed63c4",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6bfc47c2_be481e32",
+        "filename": "docker-compose.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-05-12T07:08:51Z",
+      "side": 1,
+      "message": "Good point, I was initially planning on serving this from gus.gerritcodereview.com, but I think it might be more hassle than it\u0027s worth.\n\ngerritcodereview.com/summit26 should work too.\n\nLet me update it.",
+      "parentUuid": "0ccd8fff_489d9bb3",
       "revId": "faa359548375bd6bd11d6f9ffc82c85350ed63c4",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
