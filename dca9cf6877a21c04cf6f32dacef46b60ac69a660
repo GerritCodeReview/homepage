@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f198257f_0e09905a",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-05-15T11:11:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a9fffc2_79e19722",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 3
+      },
+      "revId": "dca9cf6877a21c04cf6f32dacef46b60ac69a660",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6a958d1a_1c75a6ae",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-05-15T10:46:58Z",
       "side": 1,
       "message": "I don\u0027t believe this was ever mentioned in the previous releases and it never existed before. Rather than documenting the removal of something that was never released, I\u0027d just remove the reference to it at L41.",
+      "range": {
+        "startLine": 283,
+        "startChar": 0,
+        "endLine": 290,
+        "endChar": 0
+      },
+      "revId": "dca9cf6877a21c04cf6f32dacef46b60ac69a660",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "311d4df9_aaa4005d",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-05-15T11:11:34Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "6a958d1a_1c75a6ae",
       "range": {
         "startLine": 283,
         "startChar": 0,
