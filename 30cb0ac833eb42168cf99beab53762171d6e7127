@@ -16,6 +16,24 @@
       "message": "indices",
       "revId": "30cb0ac833eb42168cf99beab53762171d6e7127",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf3c1f49_5caa0186",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-05-15T11:53:50Z",
+      "side": 1,
+      "message": "or `indexes` as the REST-API URL says.",
+      "parentUuid": "cce48115_54ab8bed",
+      "revId": "30cb0ac833eb42168cf99beab53762171d6e7127",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
