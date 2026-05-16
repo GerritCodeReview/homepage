@@ -16,6 +16,24 @@
       "message": "It wasn\u0027t merged yet. 8.6.0 id still currently used verdion. Frontend wasn\u0027t finally migrated to bzlmod.",
       "revId": "b0b110e51f7f2accbb0d2f718806706632bfeca6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73d99a64_a4bfae20",
+        "filename": "pages/site/releases/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-05-16T16:45:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a1d80d2_2e8cee80",
+      "revId": "b0b110e51f7f2accbb0d2f718806706632bfeca6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
