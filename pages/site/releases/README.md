@@ -18,7 +18,13 @@ Please refer to the [list of maintainers' keys](/public-keys.html).
 The support status of all recent Gerrit versions is
 [summarized here](https://www.gerritcodereview.com/support.html#supported-versions).
 
-## 3.14 (Not released)
+## 3.15 (in development)
+
+* Bazel 9 and full transition to bzlmod
+
+* Java 25
+
+## 3.14
 
 * WebUI Modernization
 
