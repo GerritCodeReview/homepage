@@ -70,7 +70,7 @@ The support status of all recent Gerrit versions is
 
 [Release notes for Gerrit 3.12](/3.12.html)
 
-## 3.11
+## 3.11 (EOL)
 
 * Java 21
 
