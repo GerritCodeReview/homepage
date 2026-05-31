@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00c78e1f_56d6e2b5",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-05-31T21:12:44Z",
+      "side": 1,
+      "message": "Should this section have ## to match with \"## Breaking Changes\".\n\n```suggestion\n## Known issues\n```",
+      "range": {
+        "startLine": 230,
+        "startChar": 0,
+        "endLine": 230,
+        "endChar": 16
+      },
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dad77655_17a54e2d",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-05-31T21:12:44Z",
+      "side": 1,
+      "message": "Is there any workaround available?",
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94c6c74a_8a8c9039",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-05-31T21:12:44Z",
+      "side": 1,
+      "message": "\"upon ungraceful Gerrit shutdowns\" or \"when Gerrit is shut down ungracefully (e.g., kill -9, OOM, host crash).\"",
+      "range": {
+        "startLine": 238,
+        "startChar": 20,
+        "endLine": 238,
+        "endChar": 54
+      },
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc7151cb_7654b9c9",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-05-31T21:12:44Z",
+      "side": 1,
+      "message": "```suggestion\nSSH/HTTP download urls provided by the download-commands plugin show wrong userid or are\n```",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 241,
+        "endChar": 87
+      },
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b10592e_263fa343",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-05-31T21:12:44Z",
+      "side": 1,
+      "message": "`server_config` is a non-loading Cache; `memoryLimit \u003d 0` relies on Caffeine\u0027s weight-based eviction (entries evicted asynchronously immediately after insert) rather than the cleaner `PassthroughLoadingCache` shortcut that applies to `LoadingCache` instances.\n\nThere is a small race window where a stale entry may be returned before async eviction, but in practice this is sufficient to mitigate Issue 514817934.",
+      "range": {
+        "startLine": 256,
+        "startChar": 3,
+        "endLine": 256,
+        "endChar": 18
+      },
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
