@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "61b11ba1_08e74bea",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-01T05:31:03Z",
+      "side": 1,
+      "message": "All the other _Known issues_ have the same level with `###`, just try `git grep \u0027Known issues\u0027`\n\nThe _Known issues_ section belongs to the _Important notes_ hence need a 3rd level nesting.",
+      "parentUuid": "00c78e1f_56d6e2b5",
+      "range": {
+        "startLine": 230,
+        "startChar": 0,
+        "endLine": 230,
+        "endChar": 16
+      },
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dad77655_17a54e2d",
@@ -41,6 +65,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bfb9a86_073cd876",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-01T05:31:03Z",
+      "side": 1,
+      "message": "Unfortunately not.",
+      "parentUuid": "dad77655_17a54e2d",
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "94c6c74a_8a8c9039",
@@ -54,6 +96,30 @@
       "writtenOn": "2026-05-31T21:12:44Z",
       "side": 1,
       "message": "\"upon ungraceful Gerrit shutdowns\" or \"when Gerrit is shut down ungracefully (e.g., kill -9, OOM, host crash).\"",
+      "range": {
+        "startLine": 238,
+        "startChar": 20,
+        "endLine": 238,
+        "endChar": 54
+      },
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1e5c2b3_f74bc175",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-01T05:31:03Z",
+      "side": 1,
+      "message": "Any ungraceful shutdown would cause the issue. I\u0027ve just copied and pasted from the previous version.",
+      "parentUuid": "94c6c74a_8a8c9039",
       "range": {
         "startLine": 238,
         "startChar": 20,
@@ -87,6 +153,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b135ddea_de84e61e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-01T05:31:03Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "bc7151cb_7654b9c9",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 241,
+        "endChar": 87
+      },
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8b10592e_263fa343",
@@ -100,6 +190,30 @@
       "writtenOn": "2026-05-31T21:12:44Z",
       "side": 1,
       "message": "`server_config` is a non-loading Cache; `memoryLimit \u003d 0` relies on Caffeine\u0027s weight-based eviction (entries evicted asynchronously immediately after insert) rather than the cleaner `PassthroughLoadingCache` shortcut that applies to `LoadingCache` instances.\n\nThere is a small race window where a stale entry may be returned before async eviction, but in practice this is sufficient to mitigate Issue 514817934.",
+      "range": {
+        "startLine": 256,
+        "startChar": 3,
+        "endLine": 256,
+        "endChar": 18
+      },
+      "revId": "ec42d9de4ca2b13e6f57d872fb8461faf817b48e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ec09111_f7cdbe12",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-01T05:31:03Z",
+      "side": 1,
+      "message": "Applied as a note.",
+      "parentUuid": "8b10592e_263fa343",
       "range": {
         "startLine": 256,
         "startChar": 3,
