@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ba05e2a_82269b27",
+        "filename": "docker-compose.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-04T15:22:44Z",
+      "side": 1,
+      "message": "This is probably little cleaner if you use a separate compose file (and maybe `extends`). You probably also want to use different ports?\n\n`compose-summit26.yml`\n``` \nservices:\n  summit-2026:\n    extends:\n      file: docker-compose.yml\n      service: server\n    volumes:\n      - \"./summit/2026:/site\"\n      - \"./_site/summit26:/site/_site\" # this lets you avoid setting `-d /output`\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
