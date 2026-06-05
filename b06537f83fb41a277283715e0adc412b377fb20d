@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fa8ca893_49e792b3",
+        "filename": "_data/content.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "Maybe to get this live, we just use a layout like we have for releases and create a top level `/summit.html`? If we someday get `https://summit.gerritcodereview.com` working, we can make `/summit.html` redirect there.",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4ba05e2a_82269b27",
         "filename": "docker-compose.yml",
         "patchSetId": 6
@@ -14,6 +31,290 @@
       "writtenOn": "2026-06-04T15:22:44Z",
       "side": 1,
       "message": "This is probably little cleaner if you use a separate compose file (and maybe `extends`). You probably also want to use different ports?\n\n`compose-summit26.yml`\n``` \nservices:\n  summit-2026:\n    extends:\n      file: docker-compose.yml\n      service: server\n    volumes:\n      - \"./summit/2026:/site\"\n      - \"./_site/summit26:/site/_site\" # this lets you avoid setting `-d /output`\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bdb8824_75df52ad",
+        "filename": "summit/2026/_includes/nav.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "Maybe we can convert this into a side nav so we don\u0027t conflict with the main topnav?",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f908308_14b9dd72",
+        "filename": "summit/2026/_layouts/default.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "I\u0027m hoping this style is the same as the new index.md style? If yes, do we need it repeated here?",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b13638c3_2051101e",
+        "filename": "summit/2026/_layouts/home.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "Same comment about style. Let\u0027s use the same styles as the new homepage.",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ccb4689d_abff1d6b",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "```suggestion\npermalink: /summit.html\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f94e477_9b5b17d4",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "Sunnyvale or Mountain View?",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab67b92f_65a21d0a",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "Looking at [2024](https://gerrit.googlesource.com/summit/2024/+/refs/heads/master/index.md) we had Hackathon info here too. I think we should add it now even if we don\u0027t have the complete details (I got confirmation that it will be at NVIDIA office though).",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "51a1fca9_fcd2cb96",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "Maybe send to CMs only?\n```suggestion\nspeaker bio to the\n[Community Managers mailing list](mailto:gerritcodereview-community-managers@googlegroups.com).\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "804ae355_82601e01",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "Same here\n```suggestion\n[gerritcodereview-community-managers](mailto:gerritcodereview-community-managers@googlegroups.com)\nor contact [GerritForge](https://www.gerritforge.com).\n```",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 43
+      },
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aebc5f43_40862b0b",
+        "filename": "summit/2026/overview.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "Maybe use our new homepage intro text instead? https://gerrit.googlesource.com/homepage/+/refs/changes/21/581721/6/_data/content.yml#35",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09845be9_4071b485",
+        "filename": "summit/2026/overview.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "We should try to update these.",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 14
+      },
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff2e3d6d_3d9359c8",
+        "filename": "summit/2026/register.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "```suggestion\n- [Submit a talk proposal](summit.html#call-for-presentations) for the summit\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a2e9754f_936b450e",
+        "filename": "summit/2026/register.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "```suggestion\n- Follow [@GerritForge](https://x.com/GerritForge) for updates\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "225d846a_10b0d4ff",
+        "filename": "summit/2026/schedule.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "```suggestion\nThe **Call for Presentations is open** — see the [home page](summit.html) for details on how\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "591c21d8_13ae212f",
+        "filename": "summit/2026/schedule.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "nit: Registration is done ahead of time, I think this is \"Check-in\"\n```suggestion\n| 09:00 | Check-in \u0026 breakfast |\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dda61919_977a5c3c",
+        "filename": "summit/2026/schedule.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "```suggestion\n| 09:00 | Check-in \u0026 breakfast |\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a5b5bb8_004d31e9",
+        "filename": "summit/2026/speakers.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-05T23:54:24Z",
+      "side": 1,
+      "message": "```suggestion\nspeaker bio to the\n[Community Managers mailing list](mailto:gerritcodereview-community-managers@googlegroups.com).\n```",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
