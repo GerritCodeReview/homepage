@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8003c8fc_db0896f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-08T09:28:39Z",
+      "side": 1,
+      "message": "I have a few general objections to the practicality of hosting the Gerrit User Summit 2026 on the homepage:\n\n1. We typically change the site quite often because of the re-shuffling of the agenda. In the past, we were making last-minute changes even during the summit.\n2. The audience is very limited, as we typically have a maximum of 60-70 people coming\n3. The publish time for the homepage is 2-3h, which is typically painful for sites that change often\n\nThe good side is the flexibility Jekyll offers; however, do we need it?\n\nThe style looks nice. I believe we can also achieve it with static content publishing, isn\u0027t it? A simple HTTP server would do. We can engage our design agency to make it \"nice\" and run the usual logo contest.\n\nWDYT?",
+      "revId": "5e9b0a9f19b255514e50210d21b690bc6d99e4b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
