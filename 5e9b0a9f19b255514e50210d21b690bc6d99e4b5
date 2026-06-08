@@ -34,6 +34,24 @@
       "parentUuid": "8003c8fc_db0896f8",
       "revId": "5e9b0a9f19b255514e50210d21b690bc6d99e4b5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f476de2_c884bdc6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-08T17:32:45Z",
+      "side": 1,
+      "message": "\u003e 1. We typically change the site quite often because of the re-shuffling of the agenda. In the past, we were making last-minute changes even during the summit.\n\nThis doesn\u0027t seem like a concern in itself, but tied to #3? Or am I missing something?\n\n\u003e 2. The audience is very limited, as we typically have a maximum of 60-70 people coming\n\nBut wouldn\u0027t having the summit on our homepage only serve to increase visibility and improve attendance? I\u0027m not seeing why this is an objection.\n\n\u003e 3. The publish time for the homepage is 2-3h, which is typically painful for sites that change often\n\nThis could be a real problem for last-minute changes like what you describe in #1. However, I think we could find some clever workarounds such as only regenerating plugin data once every N hours and re-using the latest existing data for other runs. This could even take the form of splitting the publishing job into a dedicated \"generate plugin data\" job that runs on whatever cadence we want and a separate job that runs on a change-merged trigger that never generates plugin data and only uses pre-generated artifacts.\n\n\u003e \n\u003e The good side is the flexibility Jekyll offers; however, do we need it?\n\u003e \n\u003e The style looks nice. I believe we can also achieve it with static content publishing, isn\u0027t it? A simple HTTP server would do. We can engage our design agency to make it \"nice\" and run the usual logo contest.\n\u003e \n\u003e WDYT?\n\nWe could, but why duplicate? We put a lot of effort into creating a better web site for Gerrit and I think we should leverage that to the fullest extent.",
+      "parentUuid": "8003c8fc_db0896f8",
+      "revId": "5e9b0a9f19b255514e50210d21b690bc6d99e4b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
