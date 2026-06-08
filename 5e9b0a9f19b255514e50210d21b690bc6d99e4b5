@@ -70,6 +70,24 @@
       "parentUuid": "0f476de2_c884bdc6",
       "revId": "5e9b0a9f19b255514e50210d21b690bc6d99e4b5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee5bf948_95fe998a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-08T23:24:31Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e 1. We typically change the site quite often because of the re-shuffling of the agenda. In the past, we were making last-minute changes even during the summit.\n\u003e \u003e \n\u003e \u003e This doesn\u0027t seem like a concern in itself, but tied to #3? Or am I missing something?\n\u003e \n\u003e Yes, that\u0027s not a concern, but waiting 2-3h to publish any change is. We may be in a situation where the site will be stale, and we need to use another means of communication, which would be confusing.\n\u003e \n\u003e What we *can do* is to have the announcement of the Gerrit User Summit 2026 on the homepage and then have a separate, more easily updatable site for the event itself.\n\u003e \n\u003e See, for instance, what the OpenInfra foundation does:\n\u003e https://openinfra.org/summit/\n\nI think your example here supports my argument more than yours 😊. The current summit is hosted by a different group, which is why it points to a Linux Foundation site. Past years either point to the YouTube playlist or to a subsite like https://openinfra.org/summit/vancouver-2023 which is very similar to what I\u0027m pushing for here.\n\n\u003e \n\u003e \n\u003e \u003e \u003e 3. The publish time for the homepage is 2-3h, which is typically painful for sites that change often\n\u003e \u003e \n\u003e \u003e This could be a real problem for last-minute changes like what you describe in #1. However, I think we could find some clever workarounds such as only regenerating plugin data once every N hours and re-using the latest existing data for other runs. This could even take the form of splitting the publishing job into a dedicated \"generate plugin data\" job that runs on whatever cadence we want and a separate job that runs on a change-merged trigger that never generates plugin data and only uses pre-generated artifacts.\n\u003e \n\u003e Sure, if publishing doesn\u0027t take 2-3h anymore, but is done within seconds or at most 5-10 minutes, then it isn\u0027t an objection anymore.\n\n+1. I\u0027ll take a look at the CI setup for the homepage and see what I can do. If you have a suggestion for how to accomplish what I sketched out, please share.\n\n\u003e  \n\u003e \u003e \u003e The good side is the flexibility Jekyll offers; however, do we need it?\n\u003e \u003e \u003e \n\u003e \u003e \u003e The style looks nice. I believe we can also achieve it with static content publishing, isn\u0027t it? A simple HTTP server would do. We can engage our design agency to make it \"nice\" and run the usual logo contest.\n\u003e \u003e \u003e \n\u003e \u003e \u003e WDYT?\n\u003e \u003e \n\u003e \u003e We could, but why duplicate? We put a lot of effort into creating a better web site for Gerrit and I think we should leverage that to the fullest extent.\n\u003e \n\u003e Another option could be to put the _static_ part of the site on www.gerritcodereview.com and the _dynamic_ part (e.g., schedule, announcements, ...) on a separate site.\n\nThis feels like extra work that only benefits the summit. Splitting the slow piece of homepage generation into a separate job will benefit *all* homepage site updates, so that seems like the correct place to invest any effort into.",
+      "parentUuid": "78d035ba_1f385b19",
+      "revId": "5e9b0a9f19b255514e50210d21b690bc6d99e4b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
