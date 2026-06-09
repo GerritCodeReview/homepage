@@ -9,4 +9,11 @@ node("jekyll") {
         }
         archiveArtifacts artifacts: "pages/site/plugins/plugins.md", fingerprint: true
     }
+    stage("trigger homepage build") {
+        // Deploy the refreshed plugins page promptly rather than waiting
+        // for the next homepage SCM poll. Don't wait for or propagate the
+        // downstream result so a homepage build/deploy failure doesn't mark
+        // this (successful, multi-hour) generation run as failed.
+        build job: "homepage", wait: false, propagate: false
+    }
 }
