@@ -106,6 +106,24 @@
       "parentUuid": "ee5bf948_95fe998a",
       "revId": "5e9b0a9f19b255514e50210d21b690bc6d99e4b5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2417091e_a4dc7aca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-10T21:01:22Z",
+      "side": 1,
+      "message": "\u003e \u003e \u003e Sure, if publishing doesn\u0027t take 2-3h anymore, but is done within seconds or at most 5-10 minutes, then it isn\u0027t an objection anymore.\n\u003e \u003e \n\u003e \u003e +1. I\u0027ll take a look at the CI setup for the homepage and see what I can do. If you have a suggestion for how to accomplish what I sketched out, please share.\n\u003e \n\u003e My 2c: we should remove the list of plugins altogether. The list of plugins on a per-version basis is already available in real-time at https://gerrit-ci.gerritforge.com/plugin-manager/ isn\u0027t it?\n\u003e \n\u003e Super-simple and effective :-)\n\nThe listing between those doesn\u0027t quite match (didn\u0027t look into why). It would be good to have one consolidated location though.\n\n\u003e \n\u003e \u003e \u003e Another option could be to put the _static_ part of the site on www.gerritcodereview.com and the _dynamic_ part (e.g., schedule, announcements, ...) on a separate site.\n\u003e \u003e \n\u003e \u003e This feels like extra work that only benefits the summit. Splitting the slow piece of homepage generation into a separate job will benefit *all* homepage site updates, so that seems like the correct place to invest any effort into.\n\u003e \n\u003e Sure, if we can publish the homepage faster and multiple times a day, let\u0027s go for it.\n\nDone in https://gerrit-review.googlesource.com/q/hashtag:%22split-homepage-plugins-generation%22+(status:open%20OR%20status:merged)",
+      "parentUuid": "cd8ebdbb_eb77144e",
+      "revId": "5e9b0a9f19b255514e50210d21b690bc6d99e4b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
