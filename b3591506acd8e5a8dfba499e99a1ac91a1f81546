@@ -16,6 +16,24 @@
       "message": "Jenkins isn\u0027t a repository, and we should archive artifacts to it.\nIt\u0027s good for keeping results, with a pinch of salt, that they are just current builds.\n\nSee some blog posts about the risks of doing it at:\nhttps://blog.inedo.com/jenkins/dont-store-build-artifacts-in-jenkins\n\nWhat about checking them back into the repository instead by creating a change back to the repository, if the file has changed since the last build?",
       "revId": "b3591506acd8e5a8dfba499e99a1ac91a1f81546",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf815b64_d8acdb83",
+        "filename": "Jenkinsfile.plugins",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-11T17:28:48Z",
+      "side": 1,
+      "message": "I\u0027m open to changing this, but this seems like the simple solution for a single markdown file. A solution that involves creating and pushing commits back to the repo is definitely more complicated.\n\nAlso, unless I\u0027m really misreading the jjb yamls for most other jobs in gerrit-ci-scripts, they\u0027re already using [`publishers.archive`](https://jenkins-job-builder.readthedocs.io/en/latest/publishers.html#publishers.archive), correct? So, why not continue that here?",
+      "parentUuid": "8266b128_3d12d1d1",
+      "revId": "b3591506acd8e5a8dfba499e99a1ac91a1f81546",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
