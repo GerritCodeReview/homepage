@@ -34,6 +34,24 @@
       "parentUuid": "8266b128_3d12d1d1",
       "revId": "b3591506acd8e5a8dfba499e99a1ac91a1f81546",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91349c4d_14106d07",
+        "filename": "Jenkinsfile.plugins",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-11T17:29:50Z",
+      "side": 1,
+      "message": "Also, note that this change will be enabled by 593483: Add homepage-plugins pipeline job | https://gerrit-review.googlesource.com/c/gerrit-ci-scripts/+/593483",
+      "parentUuid": "cf815b64_d8acdb83",
+      "revId": "b3591506acd8e5a8dfba499e99a1ac91a1f81546",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
