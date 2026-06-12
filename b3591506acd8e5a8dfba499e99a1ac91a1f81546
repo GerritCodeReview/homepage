@@ -52,6 +52,24 @@
       "parentUuid": "cf815b64_d8acdb83",
       "revId": "b3591506acd8e5a8dfba499e99a1ac91a1f81546",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dbc6229c_12311a64",
+        "filename": "Jenkinsfile.plugins",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-12T22:52:00Z",
+      "side": 1,
+      "message": "The homepage job is not executed on the public Jenkins and does not persist in permanent volumes. The assumption that there will be an existing execution where to fetch the artifacts may not be true, resulting in the failure to publish the homepage.\n\nI would prefer to:\n\na) Have the list of plugins checked in on the homepage repository (or removed, as we have them already in the plugin manager)\n\n*OR*\n\nb) Have a job to simply regenerate the list of plugins and upload as a new change.\n\n\u003e **NOTE**: the jobs in the internal CI already create changes (e.g., during the release process), and therefore, it isn\u0027t the first time we do it in one of these jobs.",
+      "parentUuid": "91349c4d_14106d07",
+      "revId": "b3591506acd8e5a8dfba499e99a1ac91a1f81546",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
