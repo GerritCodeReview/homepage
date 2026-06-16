@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "de27d9e2_c957c958",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 696,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-06-16T19:33:57Z",
+      "side": 1,
+      "message": "The original change was specifically about mitigating HTTP header spoofing. \"for securing HTTP auth\" feels a bit generic; consider describing the concrete threat being addressed.\n\n```suggestion\n  Introduce `auth.httpTrustedProxyNetworks` to mitigate HTTP header spoofing\n  when using HTTP/HTTP_LDAP authentication behind reverse proxies.\n```",
+      "range": {
+        "startLine": 696,
+        "startChar": 0,
+        "endLine": 696,
+        "endChar": 67
+      },
+      "revId": "40f9fa0d984a0f3f6fca34f8cf4d6c91c82f1d5d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "86b1c051_fa2b0e61",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 2
