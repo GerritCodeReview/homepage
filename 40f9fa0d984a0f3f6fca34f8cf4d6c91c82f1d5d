@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86b1c051_fa2b0e61",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 698,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-16T19:09:19Z",
+      "side": 1,
+      "message": "nit: wrap long lines",
+      "range": {
+        "startLine": 698,
+        "startChar": 100,
+        "endLine": 698,
+        "endChar": 102
+      },
+      "revId": "40f9fa0d984a0f3f6fca34f8cf4d6c91c82f1d5d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ca68214_9366f32d",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 788,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-16T19:09:19Z",
+      "side": 1,
+      "message": "nit: This list indentation is deeper than necessary.\nConsider indenting as Notable changes list in the documentation.",
+      "range": {
+        "startLine": 788,
+        "startChar": 4,
+        "endLine": 788,
+        "endChar": 6
+      },
+      "revId": "40f9fa0d984a0f3f6fca34f8cf4d6c91c82f1d5d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
