@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "947cdb0b_816faeaa",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 795,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-17T08:17:03Z",
+      "side": 1,
+      "message": "Why don\u0027t we bump `modules/jgit` to `stable-6.10` instead?",
+      "range": {
+        "startLine": 775,
+        "startChar": 0,
+        "endLine": 795,
+        "endChar": 76
+      },
+      "revId": "7436ec22bed40c31d3a0b834a42b4da15d194580",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
