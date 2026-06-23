@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2e48f09_6c761bb3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Max subscription provides `Claude Fable 5`, so I have mentioned this.",
+      "parentUuid": "225bd54f_d4ad8fd4",
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fc033016_ee7972f9",
@@ -31,6 +49,30 @@
       "writtenOn": "2026-06-22T07:55:04Z",
       "side": 1,
       "message": "Although this is nice, this should be copied from v3.13.7.",
+      "range": {
+        "startLine": 574,
+        "startChar": 0,
+        "endLine": 583,
+        "endChar": 49
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cade4072_95c18d74",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 583,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc033016_ee7972f9",
       "range": {
         "startLine": 574,
         "startChar": 0,
@@ -64,6 +106,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b44bb6d_4642c7ff",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 591,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f61bb540_b978bdf4",
+      "range": {
+        "startLine": 591,
+        "startChar": 4,
+        "endLine": 591,
+        "endChar": 50
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cffb22a6_c51a7873",
@@ -77,6 +143,30 @@
       "writtenOn": "2026-06-22T07:55:04Z",
       "side": 1,
       "message": "Although this is nice, this should be copied from v3.13.7.",
+      "range": {
+        "startLine": 594,
+        "startChar": 0,
+        "endLine": 603,
+        "endChar": 61
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b90c8e26_762dfc7e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 603,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cffb22a6_c51a7873",
       "range": {
         "startLine": 594,
         "startChar": 0,
@@ -110,6 +200,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd31221e_c8f59f54",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 610,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a4e6554_24c3c5c9",
+      "range": {
+        "startLine": 605,
+        "startChar": 0,
+        "endLine": 610,
+        "endChar": 15
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ef798c87_f153f107",
@@ -123,6 +237,30 @@
       "writtenOn": "2026-06-22T07:55:04Z",
       "side": 1,
       "message": "Although this is nice, this should be copied from v3.13.7.",
+      "range": {
+        "startLine": 612,
+        "startChar": 0,
+        "endLine": 618,
+        "endChar": 68
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9afbb107_b4bf0cd3",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 618,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef798c87_f153f107",
       "range": {
         "startLine": 612,
         "startChar": 0,
@@ -156,6 +294,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "44e245d2_d6463ea8",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 624,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6e5cddc_82385410",
+      "range": {
+        "startLine": 620,
+        "startChar": 0,
+        "endLine": 624,
+        "endChar": 41
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9f3167db_9257cb81",
@@ -169,6 +331,30 @@
       "writtenOn": "2026-06-22T07:55:04Z",
       "side": 1,
       "message": "Although this is nice, this should be copied from v3.13.7.",
+      "range": {
+        "startLine": 626,
+        "startChar": 0,
+        "endLine": 628,
+        "endChar": 10
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b088918e_fdb028f6",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 628,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9f3167db_9257cb81",
       "range": {
         "startLine": 626,
         "startChar": 0,
@@ -202,6 +388,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "79226707_446b95b2",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 635,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6757e14a_bae81e1a",
+      "range": {
+        "startLine": 630,
+        "startChar": 0,
+        "endLine": 635,
+        "endChar": 53
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "af37ee97_1f3e371d",
@@ -215,6 +425,30 @@
       "writtenOn": "2026-06-22T07:55:04Z",
       "side": 1,
       "message": "```suggestion\n    Hide \"Create AI Review Prompt\" action for anonymous traffic.\n```",
+      "range": {
+        "startLine": 643,
+        "startChar": 4,
+        "endLine": 643,
+        "endChar": 70
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00fa4f94_87c2c767",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 643,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "af37ee97_1f3e371d",
       "range": {
         "startLine": 643,
         "startChar": 4,
@@ -248,6 +482,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "15787fd9_fdf78b02",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ddb56b3f_36163b22",
+      "range": {
+        "startLine": 646,
+        "startChar": 15,
+        "endLine": 646,
+        "endChar": 34
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e079f646_d05482a1",
@@ -261,6 +519,30 @@
       "writtenOn": "2026-06-22T07:55:04Z",
       "side": 1,
       "message": "Although this is nice, this should be copied from v3.13.7.",
+      "range": {
+        "startLine": 653,
+        "startChar": 0,
+        "endLine": 662,
+        "endChar": 7
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52e62bd5_6073bc69",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e079f646_d05482a1",
       "range": {
         "startLine": 653,
         "startChar": 0,
@@ -294,6 +576,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "19e9c97b_954c92f1",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9c4e0ec6_8d636418",
+      "range": {
+        "startLine": 666,
+        "startChar": 0,
+        "endLine": 672,
+        "endChar": 51
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "28d8bec8_30292d6d",
@@ -307,6 +613,30 @@
       "writtenOn": "2026-06-22T07:55:04Z",
       "side": 1,
       "message": "Although this is nice, this should be copied from v3.13.7.",
+      "range": {
+        "startLine": 674,
+        "startChar": 0,
+        "endLine": 679,
+        "endChar": 54
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a17b1649_2afab49e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 679,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28d8bec8_30292d6d",
       "range": {
         "startLine": 674,
         "startChar": 0,
@@ -340,6 +670,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b23e7ddb_73adeade",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 695,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "32847f5f_44c71f8c",
+      "range": {
+        "startLine": 682,
+        "startChar": 0,
+        "endLine": 695,
+        "endChar": 53
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d3ab8741_e1d56270",
@@ -353,6 +707,30 @@
       "writtenOn": "2026-06-22T07:55:04Z",
       "side": 1,
       "message": "Should this be mentioned in the breaking changes?",
+      "range": {
+        "startLine": 726,
+        "startChar": 0,
+        "endLine": 730,
+        "endChar": 59
+      },
+      "revId": "006a5a4bf7366c2cd9678f89ed9cd52bb4e3a415",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dc2a8e4_18485b5a",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-23T13:35:32Z",
+      "side": 1,
+      "message": "I think we should mention in the breaking changes only if users must change configuration, plugins, APIs, Java versions, deployment setup, etc.\n\nHere the statement seems to imply we preserve compatibility:\n\n```\npreserves compatibility with existing javax.servlet-based plugins\nrequires no plugin migration to Jakarta EE\n```\n\nI\u0027d leave it here WDYT?",
+      "parentUuid": "d3ab8741_e1d56270",
       "range": {
         "startLine": 726,
         "startChar": 0,
