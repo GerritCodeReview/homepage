@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a51a681_d761cad1",
+        "filename": "_posts/2026-06-10-esc-minutes.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-06-23T23:33:44Z",
+      "side": 1,
+      "message": "```suggestion\nTo manage the dependency misalignment, [MS] proposed creating specific\n```",
+      "range": {
+        "startLine": 73,
+        "startChar": 39,
+        "endLine": 73,
+        "endChar": 52
+      },
+      "revId": "e8f18098ef8639a75b035b0eb21aea559f652d52",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
