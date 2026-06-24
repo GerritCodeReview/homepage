@@ -495,6 +495,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "504e1654_4de50bb2",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-24T10:42:56Z",
+      "side": 1,
+      "message": "nit: I think mentioning _583241_ is wrong, because that\u0027s the change that got into _master_.\nThe change that was cherry-picked and merged into 3.12, 3.13 and 3.14 **is** _588201_, so I think we should mention that one instead.\n\nIf any, we should fix existing release notes to point to the. correct change.\nAnyway, not a big deal, feel free to ignore.",
+      "parentUuid": "50fbf192_c0eac037",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "860fc1b7_f22c94f5",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 6
