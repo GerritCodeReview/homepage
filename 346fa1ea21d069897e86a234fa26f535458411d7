@@ -513,6 +513,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4653756f_ee91daff",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T12:01:33Z",
+      "side": 1,
+      "message": "We mentioned the same change everywhere:\n\n```\npages/site/releases/3.12.md:  * [Change 583241](https://gerrit-review.googlesource.com/c/gerrit/+/583241):\npages/site/releases/3.13.md:  * [Change 583241](https://gerrit-review.googlesource.com/c/gerrit/+/583241):\npages/site/releases/3.14.md:  * [Change 583241](https://gerrit-review.googlesource.com/c/gerrit/+/583241):\n```\n\nWe can change it to `588201` but then the same should be done also in v3.12 and v3.13.\nHappy to address this in a follow-up change.",
+      "parentUuid": "504e1654_4de50bb2",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "860fc1b7_f22c94f5",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 6
