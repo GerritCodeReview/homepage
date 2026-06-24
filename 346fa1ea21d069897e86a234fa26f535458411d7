@@ -88,6 +88,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a9e4b81_ea8df408",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 583,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9e9fa03d_9dbea71e",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "27133e30_dcfd34b5",
@@ -101,6 +119,30 @@
       "writtenOn": "2026-06-24T10:21:54Z",
       "side": 1,
       "message": "Nesting not aligned with existing release notes.",
+      "range": {
+        "startLine": 587,
+        "startChar": 0,
+        "endLine": 588,
+        "endChar": 11
+      },
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9d93a32_3ab770e0",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 588,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "27133e30_dcfd34b5",
       "range": {
         "startLine": 587,
         "startChar": 0,
@@ -134,6 +176,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b749881_eb218f3c",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0f06518e_c8a0d38a",
+      "range": {
+        "startLine": 592,
+        "startChar": 0,
+        "endLine": 605,
+        "endChar": 67
+      },
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2945f8d4_ed8267e9",
@@ -147,6 +213,30 @@
       "writtenOn": "2026-06-24T10:21:54Z",
       "side": 1,
       "message": "Nesting not aligned with existing release notes.",
+      "range": {
+        "startLine": 607,
+        "startChar": 0,
+        "endLine": 608,
+        "endChar": 67
+      },
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c6ebd67_dcd6b8c2",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 608,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2945f8d4_ed8267e9",
       "range": {
         "startLine": 607,
         "startChar": 0,
@@ -180,6 +270,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7b7189d_4baf4263",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 615,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d89da9c6_4417245e",
+      "range": {
+        "startLine": 614,
+        "startChar": 0,
+        "endLine": 615,
+        "endChar": 54
+      },
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f5b29d61_9764c9c4",
@@ -193,6 +307,30 @@
       "writtenOn": "2026-06-24T10:21:54Z",
       "side": 1,
       "message": "Nesting not aligned with existing release notes.",
+      "range": {
+        "startLine": 619,
+        "startChar": 0,
+        "endLine": 620,
+        "endChar": 53
+      },
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e532070_c0dea844",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 620,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5b29d61_9764c9c4",
       "range": {
         "startLine": 619,
         "startChar": 0,
@@ -226,6 +364,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8ea932b_6c72ff8f",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 627,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7cf5396a_cb7b03fe",
+      "range": {
+        "startLine": 626,
+        "startChar": 0,
+        "endLine": 627,
+        "endChar": 46
+      },
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ffd323a3_581d219f",
@@ -239,6 +401,24 @@
       "writtenOn": "2026-06-24T10:21:54Z",
       "side": 1,
       "message": "Fix header alignment with existing release notes.",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "704f00d3_c9e2534e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 632,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffd323a3_581d219f",
       "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -260,6 +440,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "53aa1859_e2d4501c",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 638,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "734f8376_6b110168",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8d78dbea_2f4f4c1e",
@@ -273,6 +471,24 @@
       "writtenOn": "2026-06-24T10:21:54Z",
       "side": 1,
       "message": "Use the same change number of the existing release notes.",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50fbf192_c0eac037",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8d78dbea_2f4f4c1e",
       "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -294,6 +510,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "299b5533_73beed39",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 657,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "860fc1b7_f22c94f5",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cdec3d0d_d0741f0b",
@@ -311,6 +545,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a4b464d_770744cd",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 707,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cdec3d0d_d0741f0b",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "916ff7b2_66f22e33",
@@ -324,6 +576,24 @@
       "writtenOn": "2026-06-24T10:21:54Z",
       "side": 1,
       "message": "No, Bazel wasn\u0027t downgraded to `7.7.1` in v3.14.1",
+      "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e51148a_d51f3128",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-24T10:25:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "916ff7b2_66f22e33",
       "revId": "346fa1ea21d069897e86a234fa26f535458411d7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
