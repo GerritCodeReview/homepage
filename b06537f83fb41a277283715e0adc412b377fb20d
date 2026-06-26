@@ -228,6 +228,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "34697a7e_4cb1a35f",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T13:54:10Z",
+      "side": 1,
+      "message": "I\u0027ve created a sessionize, once the free licence is approved I\u0027ll replace it with that. Leaving open for now...",
+      "parentUuid": "51a1fca9_fcd2cb96",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "804ae355_82601e01",
         "filename": "summit/2026/index.md",
         "patchSetId": 6
@@ -239,6 +257,30 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "Same here\n```suggestion\n[gerritcodereview-community-managers](mailto:gerritcodereview-community-managers@googlegroups.com)\nor contact [GerritForge](https://www.gerritforge.com).\n```",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 43
+      },
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "831a6f1f_c11f466d",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T13:54:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "804ae355_82601e01",
       "range": {
         "startLine": 49,
         "startChar": 0,
@@ -337,6 +379,24 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "```suggestion\n- Follow [@GerritForge](https://x.com/GerritForge) for updates\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af3e8d78_fa27d85b",
+        "filename": "summit/2026/register.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T13:54:10Z",
+      "side": 1,
+      "message": "Removed as the page is largely unused",
+      "parentUuid": "a2e9754f_936b450e",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -441,6 +501,24 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "```suggestion\nspeaker bio to the\n[Community Managers mailing list](mailto:gerritcodereview-community-managers@googlegroups.com).\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95dc5a14_07744d88",
+        "filename": "summit/2026/speakers.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T13:54:10Z",
+      "side": 1,
+      "message": "Will leave open but this will be on sessionize if we\u0027re approved.",
+      "parentUuid": "1a5b5bb8_004d31e9",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
