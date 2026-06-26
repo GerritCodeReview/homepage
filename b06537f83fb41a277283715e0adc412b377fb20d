@@ -69,6 +69,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ffd751b_03bf4daa",
+        "filename": "summit/2026/_layouts/default.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T10:19:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0f908308_14b9dd72",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b13638c3_2051101e",
@@ -82,6 +100,24 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "Same comment about style. Let\u0027s use the same styles as the new homepage.",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df6f4b16_c908a609",
+        "filename": "summit/2026/_layouts/home.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T10:19:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b13638c3_2051101e",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -303,6 +339,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d946df29_a6e02bba",
+        "filename": "summit/2026/schedule.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T10:19:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "591c21d8_13ae212f",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dda61919_977a5c3c",
@@ -316,6 +370,24 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "```suggestion\n| 09:00 | Check-in \u0026 breakfast |\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b9940e8_41bebc44",
+        "filename": "summit/2026/schedule.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T10:19:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dda61919_977a5c3c",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
