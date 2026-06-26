@@ -156,6 +156,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9580839_f4578aed",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T13:51:00Z",
+      "side": 1,
+      "message": "Sunnyvale",
+      "parentUuid": "9f94e477_9b5b17d4",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ab67b92f_65a21d0a",
@@ -169,6 +187,24 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "Looking at [2024](https://gerrit.googlesource.com/summit/2024/+/refs/heads/master/index.md) we had Hackathon info here too. I think we should add it now even if we don\u0027t have the complete details (I got confirmation that it will be at NVIDIA office though).",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3b7beac_7377fee0",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-26T13:51:00Z",
+      "side": 1,
+      "message": "AFAIK it won\u0027t be at NVidia office? I thought it was going to be elsewhere? anyway, I\u0027ll say with a 3 day hackathon to follow.",
+      "parentUuid": "ab67b92f_65a21d0a",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
