@@ -31,6 +31,7 @@ documents can be found in Gerrit by using the link inside each doc.
 - [Push Reviews](design-docs/push-reviews.html) by Edwin Kempin, proposed 2022-03-04
 - [Multiple HTTP passwords with a limited lifetime](design-docs/multiple-http-passwords-with-lifetime) by Thomas Draebing, proposed 2021-02-21
 - [Support posting changes from Jujutsu](design-docs/support-jujutsu.html) by Edwin Kempin, proposed 2025-04-01
+- [Gerrit EE8/EE10 Flavoured Release](design-docs/ee8-ee10-flavoured-release.html) by David Ostrovsky, proposed 2026-06-27
 
 ## Reviews of Design Documents
 
