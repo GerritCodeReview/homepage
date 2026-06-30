@@ -99,6 +99,30 @@
       },
       "revId": "66060dad9cbca0db12da7a0a5af678eb8d151ab7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "117f118c_75ef272c",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-30T22:37:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "046222a6_969713c5",
+      "range": {
+        "startLine": 584,
+        "startChar": 5,
+        "endLine": 584,
+        "endChar": 76
+      },
+      "revId": "66060dad9cbca0db12da7a0a5af678eb8d151ab7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
