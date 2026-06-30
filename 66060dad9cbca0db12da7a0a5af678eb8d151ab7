@@ -75,6 +75,30 @@
       },
       "revId": "66060dad9cbca0db12da7a0a5af678eb8d151ab7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "046222a6_969713c5",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-30T22:37:02Z",
+      "side": 1,
+      "message": "\u003e I am not sure we should mention `Issue 529423506` here because it actually _didn\u0027t_ land into `3.14.1`.\n\nAre you sure? If I look at https://gerrit-review.googlesource.com/c/gerrit/+/595141 I see that the offending change was released *exactly* in `v3.14.1`. Can you also check and confirm?\n\n\u003e This section of the release notes should mention changes (and issues) that *were* merged into `3.14.1`.\n\nYep, this was introduced in `v3.14.1`, therefore is a known issue.\n\u003e \n\u003e The breaking change was the _JGit upgrade_, not `Issue 529423506`.\n\u003e Should we add this note to the JGit upgrade entry or maybe adding it to `Known Issues`?\n\nWill move up to the `Known Issues` section then.",
+      "parentUuid": "8c9556ca_15b548d8",
+      "range": {
+        "startLine": 584,
+        "startChar": 5,
+        "endLine": 584,
+        "endChar": 76
+      },
+      "revId": "66060dad9cbca0db12da7a0a5af678eb8d151ab7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ],
   "submitRequirementResults": [
