@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f5df8bb6_327b5cbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-30T15:33:53Z",
+      "side": 1,
+      "message": "But that won\u0027t fix 3.14.1, we can fix it for future versions, but 3.14.1 is already released and \"broken\", no?",
+      "parentUuid": "a13e9f89_617fb582",
+      "revId": "66060dad9cbca0db12da7a0a5af678eb8d151ab7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8c9556ca_15b548d8",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 1
