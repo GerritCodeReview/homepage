@@ -262,6 +262,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d12a8ef_45ea7a2e",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-30T16:55:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "34697a7e_4cb1a35f",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "804ae355_82601e01",
@@ -357,6 +375,30 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "We should try to update these.",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 14
+      },
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0b1a4c0_49fb7d92",
+        "filename": "summit/2026/overview.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-30T16:55:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "09845be9_4071b485",
       "range": {
         "startLine": 37,
         "startChar": 0,
@@ -537,6 +579,24 @@
       "side": 1,
       "message": "Will leave open but this will be on sessionize if we\u0027re approved.",
       "parentUuid": "1a5b5bb8_004d31e9",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11361b88_6689414e",
+        "filename": "summit/2026/speakers.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-30T16:55:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95dc5a14_07744d88",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
