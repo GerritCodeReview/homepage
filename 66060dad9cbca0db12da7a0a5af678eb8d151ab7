@@ -54,6 +54,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "babba81c_17a97d0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-06-30T22:53:30Z",
+      "side": 1,
+      "message": "👍 let\u0027s get the fix landed on `stable-3.14` and then the fix will appear in the release notes of `v3.14.2` and removed from the `Known Issues` section.",
+      "parentUuid": "56aff321_0bda301f",
+      "revId": "66060dad9cbca0db12da7a0a5af678eb8d151ab7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8c9556ca_15b548d8",
