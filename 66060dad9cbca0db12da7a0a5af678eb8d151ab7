@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c9556ca_15b548d8",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-06-30T10:02:19Z",
+      "side": 1,
+      "message": "I am not sure we should mention `Issue 529423506` here because it actually _didn\u0027t_ land into `3.14.1`.\nThis section of the release notes should mention changes (and issues) that *were* merged into `3.14.1`.\n\nThe breaking change was the _JGit upgrade_, not `Issue 529423506`.\nShould we add this note to the JGit upgrade entry or maybe adding it to `Known Issues`?\n\nWDYT?",
+      "range": {
+        "startLine": 584,
+        "startChar": 5,
+        "endLine": 584,
+        "endChar": 76
+      },
+      "revId": "66060dad9cbca0db12da7a0a5af678eb8d151ab7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
