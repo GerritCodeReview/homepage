@@ -36,6 +36,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "56aff321_0bda301f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-06-30T16:22:40Z",
+      "side": 1,
+      "message": "You\u0027re right, thanks for catching this. I had assumed everyone builds from the tip of stable-3.14, where the pin fixes the issue (most CI) — but anyone building against the v3.14.1 tag still gets rules_java 9.3.0 and would remain affected, since the tag predates the fix and can\u0027t be changed retroactively.\n\nSo the two changes are complementary, not alternatives: the pin fixes it going forward, and the release note is still needed to document the breakage for v3.14.1 users. I\u0027ve restored Luca\u0027s release-notes change — sorry for abandoning it.",
+      "parentUuid": "f5df8bb6_327b5cbc",
+      "revId": "66060dad9cbca0db12da7a0a5af678eb8d151ab7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8c9556ca_15b548d8",
