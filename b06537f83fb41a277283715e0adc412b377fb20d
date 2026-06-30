@@ -157,6 +157,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "edf0fe27_bc3b0b4f",
+        "filename": "summit/2026/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-30T16:55:39Z",
+      "side": 1,
+      "message": "As we\u0027ve decided to create its own separate website, I don\u0027t think this is needed anymore.",
+      "parentUuid": "74ed2c8b_15b4ff49",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9f94e477_9b5b17d4",
@@ -426,6 +444,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "535b4607_229915e3",
+        "filename": "summit/2026/register.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-30T16:55:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff2e3d6d_3d9359c8",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a2e9754f_936b450e",
@@ -474,6 +510,24 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "```suggestion\nThe **Call for Presentations is open** — see the [home page](summit.html) for details on how\n```",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a189912a_377bb46f",
+        "filename": "summit/2026/schedule.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-06-30T16:55:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "225d846a_10b0d4ff",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
