@@ -78,7 +78,7 @@ Current maintainers are:
 | Han-Wen Nienhuys           | Independent (formerly Google)                  |
 | Jacek Centkowski           | Independent (formerly Digital.ai)              |
 | Kamil Musin                | Google                                         |
-| Kaushik Lingarkar          | Qualcomm Technologies, Inc.                    |
+| Kaushik Lingarkar          | NVIDIA (formerly Qualcomm Technologies, Inc.)  |
 | Luca Milanesio             | GerritForge                                    |
 | Marco Miller               | Ericsson                                       |
 | Martin Fick                | NVIDIA (formerly Qualcomm Technologies, Inc.)  |
