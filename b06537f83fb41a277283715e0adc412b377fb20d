@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d112d731_9bb76658",
+        "filename": "docker-compose.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-07-06T10:26:33Z",
+      "side": 1,
+      "message": "This was related to when we wanted to deploy this as part of the gerritcodereview homepage, I\u0027m not clear on what the plan is going forward now from a deployment perspective, but this could be removed now I imagine.",
+      "parentUuid": "73263e9a_501af9c4",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4bdb8824_75df52ad",
         "filename": "summit/2026/_includes/nav.html",
         "patchSetId": 6
