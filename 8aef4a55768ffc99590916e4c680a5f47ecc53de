@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe86ec35_a90a742b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-07-06T10:23:43Z",
+      "side": 1,
+      "message": "The `Jenkinsfile` also needs to be amended for building the `summit26` site. Publishing may happen as a follow-up change.",
+      "revId": "8aef4a55768ffc99590916e4c680a5f47ecc53de",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}

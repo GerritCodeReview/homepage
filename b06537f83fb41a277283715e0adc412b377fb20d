@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "73263e9a_501af9c4",
+        "filename": "docker-compose.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-07-06T10:23:43Z",
+      "side": 1,
+      "message": "I am confused on why we even need a separate server, can you explain @danielesassoli@gmail.com?",
+      "parentUuid": "4ba05e2a_82269b27",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4bdb8824_75df52ad",
         "filename": "summit/2026/_includes/nav.html",
         "patchSetId": 6
