@@ -73,6 +73,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5f34cf5e_985b7659",
+        "filename": "docker-compose.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-07-06T14:06:11Z",
+      "side": 1,
+      "message": "Yeah, let\u0027s remove it as it is misleading for now.",
+      "parentUuid": "d112d731_9bb76658",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4bdb8824_75df52ad",
         "filename": "summit/2026/_includes/nav.html",
         "patchSetId": 6
