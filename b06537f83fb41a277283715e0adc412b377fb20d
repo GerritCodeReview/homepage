@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "415637c0_28b136e2",
+        "filename": "_data/content.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-07-13T09:24:48Z",
+      "side": 1,
+      "message": "As it\u0027s its own website now, I don\u0027t think this is needed any longer.",
+      "parentUuid": "fa8ca893_49e792b3",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4ba05e2a_82269b27",
@@ -89,6 +107,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "63188fca_876683d6",
+        "filename": "docker-compose.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-07-13T09:24:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f34cf5e_985b7659",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4bdb8824_75df52ad",
@@ -102,6 +138,24 @@
       "writtenOn": "2026-06-05T23:54:24Z",
       "side": 1,
       "message": "Maybe we can convert this into a side nav so we don\u0027t conflict with the main topnav?",
+      "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebf40528_3cc35b77",
+        "filename": "summit/2026/_includes/nav.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-07-13T09:24:48Z",
+      "side": 1,
+      "message": "Separate website, so don\u0027t think this is a concern any longer.",
+      "parentUuid": "4bdb8824_75df52ad",
       "revId": "b06537f83fb41a277283715e0adc412b377fb20d",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
