@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5805d937_74af0e3b",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 739,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-07-14T08:43:46Z",
+      "side": 1,
+      "message": "Harmonize the list of notable changes with 3.13.8 release notes:\n\n```suggestion\n    Notable changes are:\n    - `41c2f03b2` Introduce `fetch.autogc` to disable concurrent GC upon fetches\n    - `189b33dcb` FetchProcess: Report lock failure when destination ref changes\n    - `804e29be9` RefDirectory#refreshPathToLooseRef: also refresh loose ref itself\n    - `d0a524206` Do not always refresh packed-refs during ref updates\n    - `8b23132d5` Avoid reading packed-refs concurrently sometimes\n    - `d3429a62a` Allow to discover bitmap on disk created after the packfile\n    - `3e3f18385` Fix signed push failing when using push options\n    - `ebc179fa1` Support unshallow request in Boundary/TopoSortGenerators\n    - `d5b6962cf` Disable BOUNDARY and TOPO sort for unshallow fetches\n    - `a678a5bc2` Refine time unit parsing to throw exception on invalid values\n\n```",
+      "range": {
+        "startLine": 734,
+        "startChar": 0,
+        "endLine": 739,
+        "endChar": 0
+      },
+      "revId": "846da933d6ea403f7590d3a41d68acfcaa7fc458",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
