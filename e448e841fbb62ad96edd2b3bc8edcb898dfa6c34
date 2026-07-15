@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b784e1ab_6c7c55b3",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-07-15T09:53:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "adcb2846_93272fbf",
+      "revId": "e448e841fbb62ad96edd2b3bc8edcb898dfa6c34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4c40728c_60828d5a",
@@ -41,6 +59,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2594b82b_ccc56f27",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-07-15T09:53:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4c40728c_60828d5a",
+      "range": {
+        "startLine": 340,
+        "startChar": 34,
+        "endLine": 340,
+        "endChar": 45
+      },
+      "revId": "e448e841fbb62ad96edd2b3bc8edcb898dfa6c34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "80824373_761ef70e",
@@ -54,6 +96,24 @@
       "writtenOn": "2026-07-15T09:49:10Z",
       "side": 1,
       "message": "```suggestion\n  `sshd_log` or `httpd_log` entries to be updated accordingly.\n```",
+      "revId": "e448e841fbb62ad96edd2b3bc8edcb898dfa6c34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90be971f_395652e3",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-07-15T09:53:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80824373_761ef70e",
       "revId": "e448e841fbb62ad96edd2b3bc8edcb898dfa6c34",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
