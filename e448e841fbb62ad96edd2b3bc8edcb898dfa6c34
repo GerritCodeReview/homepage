@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "adcb2846_93272fbf",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-07-15T09:49:10Z",
+      "side": 1,
+      "message": "Should these be moved to the breaking changes section?",
+      "revId": "e448e841fbb62ad96edd2b3bc8edcb898dfa6c34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c40728c_60828d5a",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-07-15T09:49:10Z",
+      "side": 1,
+      "message": "```suggestion\n  This changes the log format and requires any parsing logic that consume\n```",
+      "range": {
+        "startLine": 340,
+        "startChar": 34,
+        "endLine": 340,
+        "endChar": 45
+      },
+      "revId": "e448e841fbb62ad96edd2b3bc8edcb898dfa6c34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80824373_761ef70e",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-07-15T09:49:10Z",
+      "side": 1,
+      "message": "```suggestion\n  `sshd_log` or `httpd_log` entries to be updated accordingly.\n```",
+      "revId": "e448e841fbb62ad96edd2b3bc8edcb898dfa6c34",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
