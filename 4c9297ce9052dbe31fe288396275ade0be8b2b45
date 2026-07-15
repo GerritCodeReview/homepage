@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90a10edc_00536855",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 555,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-07-15T07:57:43Z",
+      "side": 1,
+      "message": "Missing:\n\n* Fix inverted dedup check in byProjectGroups\n* Speed up ParentDataProvider merged check with RevWalk",
+      "revId": "4c9297ce9052dbe31fe288396275ade0be8b2b45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
