@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c23e5672_7a8a36f6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-07-17T07:54:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ffa35a7_22904853",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 10
+      },
+      "revId": "8b7781b0c53fd76ddf6570217e688638eb1a0e30",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2baf9e32_1b88b9a4",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-07-17T07:34:12Z",
       "side": 1,
       "message": "```suggestion\nThe Gerrit v3.12 release notes had the main header sections\nincorrectly labelled as sub-headers within the security\nfixes chapter.\n```",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 27
+      },
+      "revId": "8b7781b0c53fd76ddf6570217e688638eb1a0e30",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a8ca47d_548cb6f9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-07-17T07:54:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2baf9e32_1b88b9a4",
       "range": {
         "startLine": 9,
         "startChar": 0,
