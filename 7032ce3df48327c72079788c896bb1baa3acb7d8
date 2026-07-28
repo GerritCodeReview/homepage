@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74182b96_8195b3f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3684851
+      },
+      "writtenOn": "2026-07-28T10:37:02Z",
+      "side": 1,
+      "message": "[Fix chapter nesting of Gerrit v3.12 release notes](https://gerrit-review.googlesource.com/c/609261)\n[Update known issues for Gerrit v3.1[2-4]](https://gerrit-review.googlesource.com/c/609241)\n[Servlet-flavoured release proposal](https://gerrit-review.googlesource.com/c/602001)\n[Clarify TRACE_ID in logs might break consumers](https://gerrit-review.googlesource.com/c/608007)\n[Update release notes for v3.12.9](https://gerrit-review.googlesource.com/c/607021)\n[Update release notes for v3.13.8](https://gerrit-review.googlesource.com/c/607462)\n[Update release notes for v3.14.2](https://gerrit-review.googlesource.com/c/607781)\n[Add Gerrit User Summit base design](https://gerrit-review.googlesource.com/c/581721)\n[Update build for summit site](https://gerrit-review.googlesource.com/c/606921)\n[Conditionally only build files changed in latest commit](https://gerrit-review.googlesource.com/c/606922)\n[Withdraw v3.10.0-rc5 and update v3.10.0-rc6](https://gerrit-review.googlesource.com/c/424859)\n[Add 3.12.9 release notes with JGit stable-7.5 changes](https://gerrit-review.googlesource.com/c/602743)\n[Update affiliation for Kaushik Lingarkar](https://gerrit-review.googlesource.com/c/603481)\n[Mention the plugin breakages on Gerrit v3.14.1 release notes](https://gerrit-review.googlesource.com/c/602641)\n[Replace Change 583241 with 588201 in Gerrit v3.1[2-4] notes](https://gerrit-review.googlesource.com/c/600781)\n[Add Gerrit v3.14.1 release notes](https://gerrit-review.googlesource.com/c/598941)\n[Add ESC Meeting Minutes of 10th June 2026](https://gerrit-review.googlesource.com/c/599861)\n[Add Gerrit v3.13.7 release notes](https://gerrit-review.googlesource.com/c/598581)\n[Clarify the current JGit situation on v3.12.8](https://gerrit-review.googlesource.com/c/596761)\n[Improve Gerrit v3.12.8 release notes](https://gerrit-review.googlesource.com/c/596621)\n[Add Gerrit v3.12.8 release notes](https://gerrit-review.googlesource.com/c/596521)\n[Add Jenkins config for standalone plugins-page generation](https://gerrit-review.googlesource.com/c/593481)\n[Build homepage from archived plugins page artifact](https://gerrit-review.googlesource.com/c/593482)\n[Add known issues section to Gerrit v3.14](https://gerrit-review.googlesource.com/c/589241)\n[Flag Gerrit v3.11 as EOL](https://gerrit-review.googlesource.com/c/584861)",
+      "revId": "7032ce3df48327c72079788c896bb1baa3acb7d8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
