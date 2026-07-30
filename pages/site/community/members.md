@@ -3,7 +3,7 @@ title: "Gerrit Code Review - Project Members"
 permalink: members.html
 hide_sidebar: true
 hide_navtoggle: true
-toc: false
+toc: true
 ---
 
 ## Community Managers
