@@ -13,13 +13,14 @@ and focus on the health of the community. For details about the role of
 community managers, refer to the
 [description here](https://gerrit-review.googlesource.com/Documentation/dev-roles.html#community-manager).
 
-Community Managers for the 2024-2025 term are:
+Community Managers for the 2026-2027 term are:
 
 | Name                  | Affiliation                 |
 |-----------------------|-----------------------------|
 | Daniele Sassoli       | GerritForge                 |
 | Matthias Sohn         | SAP                         |
 | Nasser Grainawi       | Qualcomm Technologies, Inc. |
+| Ivan Frade            | Google                      |
 
 ### Former community managers
 
@@ -35,12 +36,13 @@ The Gerrit project has an Engineering Steering Committee (ESC) that
 governs the project. For details about the role of the ESC, refer to the
 [description here](https://gerrit-review.googlesource.com/Documentation/dev-processes.html#steering-committee).
 
-Members of the ESC for the 2024-2025 term are:
+Members of the ESC for the 2026-2027 term are:
 
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
 | Luca Milanesio        | GerritForge            |
 | Saša Živkov           | SAP                    |
+| Hari Jeyamani         | Google                 |
 
 The Google member(s) have jointly 3 votes on the ESC.
 
