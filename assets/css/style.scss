@@ -149,7 +149,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   flex-direction: column;
 }
 
@@ -160,6 +160,7 @@ body {
 }
 
 .site-nav .dropdown-menu li {
+  display: block;
   margin: 0;
   padding: 0;
 }
@@ -175,6 +176,11 @@ body {
 }
 
 .site-nav .dropdown-menu a:hover {
+  background-color: #347dbe;
+  color: #ffffff;
+}
+
+.site-nav .dropdown-menu .dropdownActive a {
   background-color: #347dbe;
   color: #ffffff;
 }
