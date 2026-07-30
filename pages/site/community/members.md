@@ -22,14 +22,6 @@ Community Managers for the 2026-2027 term are:
 | Nasser Grainawi       | Qualcomm Technologies, Inc. |
 | Ivan Frade            | Google                      |
 
-### Former community managers
-
-| Name                  | Affiliation            |
-|-----------------------|------------------------|
-| Edwin Kempin          | Google                 |
-| Marco Miller          | Ericsson               |
-| Yolanda Jasso         | GerritForge            |
-
 ## Engineering Steering Committee
 
 The Gerrit project has an Engineering Steering Committee (ESC) that
@@ -45,19 +37,6 @@ Members of the ESC for the 2026-2027 term are:
 | Hari Jeyamani         | Google                 |
 
 The Google member(s) have jointly 3 votes on the ESC.
-
-### Former ESC members
-
-| Name                  | Affiliation                            |
-|-----------------------|----------------------------------------|
-| Albert Cui            | Google                                 |
-| Alice Kober-Sotzek    | Google                                 |
-| Ben Rohlfs            | Google                                 |
-| Chris Poucet          | Google                                 |
-| David Pursehouse      | Independent (formerly Sony, CollabNet) |
-| Edwin Kempin          | Google                                 |
-| Han-Wen Nienhuys      | Independent (formerly Google)          |
-| Patrick Hiesel        | Google                                 |
 
 ## Maintainers
 
@@ -94,6 +73,30 @@ Current maintainers are:
 | Sven Selberg               | Axis                                           |
 | Terry Parker               | Google                                         |
 | Thomas Dräbing             | SAP                                            |
+
+## Previous Community Members
+We're grateful for the many individuals who have previously held community roles!
+
+### Former community managers
+
+| Name                  | Affiliation            |
+|-----------------------|------------------------|
+| Edwin Kempin          | Google                 |
+| Marco Miller          | Ericsson               |
+| Yolanda Jasso         | GerritForge            |
+
+### Former ESC members
+
+| Name                  | Affiliation                            |
+|-----------------------|----------------------------------------|
+| Albert Cui            | Google                                 |
+| Alice Kober-Sotzek    | Google                                 |
+| Ben Rohlfs            | Google                                 |
+| Chris Poucet          | Google                                 |
+| David Pursehouse      | Independent (formerly Sony, CollabNet) |
+| Edwin Kempin          | Google                                 |
+| Han-Wen Nienhuys      | Independent (formerly Google)          |
+| Patrick Hiesel        | Google                                 |
 
 ### Former maintainers
 
