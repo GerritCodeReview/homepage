@@ -1,0 +1,118 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7b774c4_4deef5af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-06T21:38:30Z",
+      "side": 1,
+      "message": "Just reviewed use-cases so far.\n\n@ajagup@qti.qualcomm.com can you split this change so that the `solution.md` and `conclusion.md` are in separate changes?",
+      "revId": "ab18dda6bb3579b94240546499183c875237e406",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34dd3d0b_aae527a4",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-06T21:38:30Z",
+      "side": 1,
+      "message": "This (and maybe this whole paragraph?) feel like they belong in the solution. The Use Cases doc shouldn\u0027t refer to any specific design (as noted in the [template](https://gerrit.googlesource.com/gerrit/+/master/Documentation/dev-design-doc-use-cases-template.md)).",
+      "range": {
+        "startLine": 39,
+        "startChar": 25,
+        "endLine": 41,
+        "endChar": 53
+      },
+      "revId": "ab18dda6bb3579b94240546499183c875237e406",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20b5e9f3_f53cb46c",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-06T21:38:30Z",
+      "side": 1,
+      "message": "Move this paragraph to your solution doc",
+      "revId": "ab18dda6bb3579b94240546499183c875237e406",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d166daff_37dbaf97",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-06T21:38:30Z",
+      "side": 1,
+      "message": "If there are sufficiently many indexed projects+branches, users might want to search within them to see which are indexed. Likewise, any UI displaying a list of indexed projects should likely be paginated for a good user experience.\n\nAdditionally, it might be nice to see an \"indexed status\" as a column on the project branches page (like https://gerrit-review.googlesource.com/admin/repos/gerrit,branches).",
+      "revId": "ab18dda6bb3579b94240546499183c875237e406",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "422ed37a_abdd3bc6",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-06T21:38:30Z",
+      "side": 1,
+      "message": "A couple others:\n\n* What about API access to the code search? I can imagine at least a few higher-level use cases (AI agent coding) where searching via an API would be especially useful. I would at least add it as a Secondary Use Case.\n* Admins/project-owners need some way to configure which projects and branches are indexed.",
+      "revId": "ab18dda6bb3579b94240546499183c875237e406",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "254c652e_fcfd16c7",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-06T21:38:30Z",
+      "side": 1,
+      "message": "This is a design-specific detail. I think the related AC item would be about what is an acceptable delay for access control modifications to be reflected in search results. Related, there should be another item for an acceptable delay for a branch update and updated search results.",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 29
+      },
+      "revId": "ab18dda6bb3579b94240546499183c875237e406",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
