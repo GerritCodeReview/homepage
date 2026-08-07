@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1378399_fda11784",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-07T16:57:38Z",
+      "side": 1,
+      "message": "This should probably start with explaining that Gerrit\u0027s existing built-in search capabilities only extend to Change metadata. Then continue with what you have here and explain there\u0027s no way to search for data not in a Change and in the underlying git repo itself.\n\nOr, likely better, put most of that in the background and keep this even shorter with just the second sentence:\n```\nUsers need to search across the repositories and branches they\nare allowed to read, with results respecting Gerrit\u0027s existing project and\nbranch/ref access rules, including private or restricted refs, and the\nsolution must work for large installations with many repositories and\nbranches.\n```",
+      "revId": "dad74d8db52c9feb8b94e64c52e3a25c65edfbc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a1b914b_ab897b81",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-07T16:57:38Z",
+      "side": 1,
+      "message": "I think this needs to be a primary use case. Secondary use cases are intended to be optional for solutions and this doesn\u0027t feel optional.",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 23
+      },
+      "revId": "dad74d8db52c9feb8b94e64c52e3a25c65edfbc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f850285_91a1fbe7",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-07T16:57:38Z",
+      "side": 1,
+      "message": "We could mention existing solutions (OpenGrok) and why they don\u0027t address the AC.",
+      "revId": "dad74d8db52c9feb8b94e64c52e3a25c65edfbc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
