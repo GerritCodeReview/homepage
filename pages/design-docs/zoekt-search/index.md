@@ -9,3 +9,4 @@ toc: false
 ## Design Doc - Zoekt-Based Code Search for Gerrit
 
 * [Use Cases](/design-docs/zoekt-search-use-cases.html)
+* [Solution: Gerrit-Aware Search Platform](/design-docs/zoekt-search-solution.html)
