@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5ba36c66_c9d02fa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-08-10T16:28:27Z",
+      "side": 1,
+      "message": "Post-merge -1.",
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "58088207_24e7db91",
         "filename": "pages/site/releases/3.13.md",
         "patchSetId": 8
@@ -282,6 +299,29 @@
         "startChar": 29,
         "endLine": 521,
         "endChar": 38
+      },
+      "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93dc073a_7a35d1f7",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 604,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-08-10T16:28:27Z",
+      "side": 1,
+      "message": "This is the only reference to the implicit merges we have in the release notes; however, there was a much bigger change introduced with [1].\nImplicit merges are now disabled by default!\n\nIn the future, we should make a diff of the documentation between releases to double-check that we have highlighted all the end-to-end changes that have an impact on the functionality.\n\n\u003e **NOTE**: the Change 477742 also has a `Release-Notes` footer.\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/477742",
+      "range": {
+        "startLine": 604,
+        "startChar": 2,
+        "endLine": 604,
+        "endChar": 47
       },
       "revId": "863c4f054b168be96b3df5434c8e6d31abfddd45",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
