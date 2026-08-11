@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "38a5abbe_c00b23fc",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2026-08-11T08:53:55Z",
+      "side": 1,
+      "message": "Except in this title, zoekt is not mentioned anywhere in this design document. IMHO, if the proposed solution is zoekt based then this design document shall describe the reasons for that.\nFurther, this document should clearly separate the design of the supporting Gerrit plugin vs the design of the necessary code search backend.",
+      "revId": "dad74d8db52c9feb8b94e64c52e3a25c65edfbc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f1378399_fda11784",
         "filename": "pages/design-docs/zoekt-search/use-cases.md",
         "patchSetId": 2
@@ -37,6 +54,23 @@
         "endLine": 43,
         "endChar": 23
       },
+      "revId": "dad74d8db52c9feb8b94e64c52e3a25c65edfbc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28c430bd_65cb906b",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1003873
+      },
+      "writtenOn": "2026-08-11T08:53:55Z",
+      "side": 1,
+      "message": "The code search query language shall also be part of this design document. In particular, users shall be able to limit the search to a project or a set of projects (for example: `project:foo search_string`).",
       "revId": "dad74d8db52c9feb8b94e64c52e3a25c65edfbc1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
