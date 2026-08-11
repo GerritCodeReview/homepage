@@ -49,6 +49,7 @@ Current maintainers are:
 
 | Name                       | Affiliation                                    |
 |----------------------------|------------------------------------------------|
+| Adithya Chakilam           | NVIDIA                                         |
 | Antonio Barone             | GerritForge                                    |
 | Becky Siegel               | Google                                         |
 | David Ostrovsky            | Independent                                    |
