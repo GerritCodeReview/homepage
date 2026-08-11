@@ -16,6 +16,24 @@
       "message": "```suggestion\nAdd rejections of implicit merges on push to breaking changes\n\nChange 477742 introduced a switch of the default value for the\n`receive.rejectImplicitMerges` configuration, which was missed in\nthe initial version of the release notes.\n```",
       "revId": "8b07cc84f5bd2f98a83b7d5f40b212f0bf652cb6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb7729a3_4d1e7d90",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-08-11T06:19:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "b16713d7_e2a806b3",
+      "revId": "8b07cc84f5bd2f98a83b7d5f40b212f0bf652cb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
