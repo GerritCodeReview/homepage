@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c1a05c5e_319d09b4",
+        "filename": "pages/design-docs/zoekt-search/use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-08-12T21:49:25Z",
+      "side": 1,
+      "message": "I think the other way to approach this is to remove `zoekt` from the titles and file paths. i.e. rename the dir from `zoekt-search` to `code-search` and update this line to be:\n```\n# Code Search for Gerrit - Use Cases\n```\n\nThen it\u0027s solution agnostic.",
+      "parentUuid": "058f5226_7e78fb10",
+      "revId": "dad74d8db52c9feb8b94e64c52e3a25c65edfbc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f1378399_fda11784",
         "filename": "pages/design-docs/zoekt-search/use-cases.md",
         "patchSetId": 2
