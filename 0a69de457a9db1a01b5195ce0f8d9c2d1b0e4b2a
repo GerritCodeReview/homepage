@@ -39,6 +39,30 @@
       },
       "revId": "0a69de457a9db1a01b5195ce0f8d9c2d1b0e4b2a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bf48d33_7ab5dfe0",
+        "filename": "pages/design-docs/zoekt-search/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 3255163
+      },
+      "writtenOn": "2026-08-12T18:46:09Z",
+      "side": 1,
+      "message": "Added opengrok as the alternative considered",
+      "parentUuid": "9b6c395b_f8ffbc70",
+      "range": {
+        "startLine": 17,
+        "startChar": 28,
+        "endLine": 17,
+        "endChar": 33
+      },
+      "revId": "0a69de457a9db1a01b5195ce0f8d9c2d1b0e4b2a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
