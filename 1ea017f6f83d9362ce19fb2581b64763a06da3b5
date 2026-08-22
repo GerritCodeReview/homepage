@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90abfc2e_6ef1b303",
+        "filename": "_posts/2026-07-29-esc-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-08-22T10:19:36Z",
+      "side": 1,
+      "message": "I\u0027m missing `Gitiles` in that list of Soy-dependent projects — and it\u0027s probably the heaviest one. Unlike Gerrit, where Soy is limited to a few email/landing-page templates, Gitiles renders its entire web UI from Soy templates:\n\n```bash\n$ ls -1 resources/com/google/gitiles/templates/*.soy\nresources/com/google/gitiles/templates/BlameDetail.soy\nresources/com/google/gitiles/templates/Common.soy\nresources/com/google/gitiles/templates/DiffDetail.soy\nresources/com/google/gitiles/templates/Doc.soy\nresources/com/google/gitiles/templates/Error.soy\nresources/com/google/gitiles/templates/HostIndex.soy\nresources/com/google/gitiles/templates/LogDetail.soy\nresources/com/google/gitiles/templates/ObjectDetail.soy\nresources/com/google/gitiles/templates/PathDetail.soy\nresources/com/google/gitiles/templates/RefList.soy\nresources/com/google/gitiles/templates/RepositoryIndex.soy\nresources/com/google/gitiles/templates/RevisionDetail.soy\n```\n\nSo whatever replacement is chosen has to cover Gitiles\u0027 rendering too — it\u0027s likely the largest single Soy migration in the ecosystem, and worth folding into @hariprak@google.com\u0027s replacement-system investigation rather than discovering it later.",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 137,
+        "endChar": 17
+      },
+      "revId": "1ea017f6f83d9362ce19fb2581b64763a06da3b5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
