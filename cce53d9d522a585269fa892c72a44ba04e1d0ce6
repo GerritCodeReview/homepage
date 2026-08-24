@@ -166,6 +166,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8e73fa27_bc8cdc6a",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-08-24T17:16:40Z",
+      "side": 1,
+      "message": "I was able to add support for both cherry-picking and rebase in JGit, therefore we should mention that from the UI this is possible, but yes, in plain git, this is still a problem.",
+      "range": {
+        "startLine": 328,
+        "startChar": 0,
+        "endLine": 329,
+        "endChar": 71
+      },
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "285ec8ed_3756d667",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-08-24T17:16:40Z",
+      "side": 1,
+      "message": "We should add another [OK] where these operations work if done in the UI.",
+      "range": {
+        "startLine": 368,
+        "startChar": 0,
+        "endLine": 369,
+        "endChar": 39
+      },
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "22d603f2_164216d7",
         "filename": "pages/design-docs/support-jujutsu/solution.md",
         "patchSetId": 7
