@@ -108,6 +108,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "38aeb17b_8b5b57dc",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-08-24T16:56:48Z",
+      "side": 1,
+      "message": "This was updated in I41e653f and labelled as `NOT OK`, I\u0027ve left a comment on that change articulating why I think this can still be ok.",
+      "range": {
+        "startLine": 226,
+        "startChar": 3,
+        "endLine": 226,
+        "endChar": 62
+      },
+      "revId": "cce53d9d522a585269fa892c72a44ba04e1d0ce6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b5142321_46a96237",
         "filename": "pages/design-docs/support-jujutsu/solution.md",
         "patchSetId": 7
