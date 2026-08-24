@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14be6022_8b14c253",
+        "filename": "pages/design-docs/support-jujutsu/solution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-08-24T16:55:08Z",
+      "side": 1,
+      "message": "We decide which change id takes precedence, so we could also decide to reject changes that have both change ids, ensuring users only set one. We could then instruct users to run `git commit --amend --no-verify` which will skip the commit-msg hook and not re-generate the commit message footer, on the subsequent push the change-id header would be selected.",
+      "range": {
+        "startLine": 231,
+        "startChar": 41,
+        "endLine": 231,
+        "endChar": 76
+      },
+      "revId": "bf355e00f72b75623907a687ecc2c3c86a4d26af",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
