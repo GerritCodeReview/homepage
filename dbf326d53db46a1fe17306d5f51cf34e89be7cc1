@@ -18,6 +18,29 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e4ed4d7_57dd2120",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-02T22:04:59Z",
+      "side": 1,
+      "message": "```suggestion\nevents and activities have been announced in due course, updates regarding the\n```",
+      "range": {
+        "startLine": 20,
+        "startChar": 11,
+        "endLine": 20,
+        "endChar": 19
+      },
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c80607af_d4a80cb3",
@@ -35,6 +58,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e70b3b6_4b6c0ecf",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-02T22:04:59Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c80607af_d4a80cb3",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "76d15bc5_008a9921",
@@ -48,6 +89,24 @@
       "writtenOn": "2026-09-02T22:02:37Z",
       "side": 1,
       "message": "nit: remove trailing whitespace\n```suggestion\ntalk submissions so far—making this our highest number of CFP responses to date.\n```",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d421d4d_6fa56d4d",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-02T22:04:59Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "76d15bc5_008a9921",
       "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -75,6 +134,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4920dd5d_ddf66544",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-02T22:04:59Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "331a1e44_f094d046",
+      "range": {
+        "startLine": 45,
+        "startChar": 41,
+        "endLine": 45,
+        "endChar": 62
+      },
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d3011e51_af5f14d2",
@@ -92,6 +175,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a653017_422fa438",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-02T22:04:59Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d3011e51_af5f14d2",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2cd086f3_5b08355e",
@@ -105,6 +206,24 @@
       "writtenOn": "2026-09-02T22:02:37Z",
       "side": 1,
       "message": "link here too\n```suggestion\nIf you haven\u0027t joined one yet, keep an eye out for upcoming events on\n[Discord](https://www.gerritcodereview.com/contact.html#discord)!\n```",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75f7f86e_b6d2ad7e",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-02T22:04:59Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "2cd086f3_5b08355e",
       "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
