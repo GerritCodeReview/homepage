@@ -1,0 +1,112 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe461de7_850e534d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-02T22:02:37Z",
+      "side": 1,
+      "message": "Thanks Dani!",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c80607af_d4a80cb3",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-02T22:02:37Z",
+      "side": 1,
+      "message": "nit: remove trailing whitespace\n```suggestion\nNasser. We are delighted to welcome Josie as our newest Community Manager!\n```",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "76d15bc5_008a9921",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-02T22:02:37Z",
+      "side": 1,
+      "message": "nit: remove trailing whitespace\n```suggestion\ntalk submissions so far—making this our highest number of CFP responses to date.\n```",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "331a1e44_f094d046",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-02T22:02:37Z",
+      "side": 1,
+      "message": "```suggestion\nRegistration is still open, head over to\n[gus26.gerritforge.com](https://gus26.gerritforge.com) to find out more.\n```",
+      "range": {
+        "startLine": 45,
+        "startChar": 41,
+        "endLine": 45,
+        "endChar": 62
+      },
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3011e51_af5f14d2",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-02T22:02:37Z",
+      "side": 1,
+      "message": "Let\u0027s link to the repo too.\n```suggestion\ncontributors to projects like the\n[Gerrit MCP server](https://gerrit.googlesource.com/gerrit-mcp-server).\n```",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cd086f3_5b08355e",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-02T22:02:37Z",
+      "side": 1,
+      "message": "link here too\n```suggestion\nIf you haven\u0027t joined one yet, keep an eye out for upcoming events on\n[Discord](https://www.gerritcodereview.com/contact.html#discord)!\n```",
+      "revId": "dbf326d53db46a1fe17306d5f51cf34e89be7cc1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
