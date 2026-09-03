@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbba233a_8b6fe26b",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-03T09:45:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9b744b7_62da56b6",
+      "revId": "d2bc210c9fed6e9ab14d9b3897562cb836a7dae8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8fcb61f4_8fbff476",
@@ -48,6 +66,30 @@
       "writtenOn": "2026-09-03T08:01:40Z",
       "side": 1,
       "message": "AFAICS https://groups.google.com/g/repo-discuss/c/QRfpRkqhvzA didn\u0027t ask for submissions of proposals for a new Gerrit logo but just asked for voting on the ones Luca proposed",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 10
+      },
+      "revId": "d2bc210c9fed6e9ab14d9b3897562cb836a7dae8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f4455a3_f0a82c31",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-03T09:45:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "402799cd_e531c7c1",
       "range": {
         "startLine": 76,
         "startChar": 0,
