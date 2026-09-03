@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9b744b7_62da56b6",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-09-03T08:01:40Z",
+      "side": 1,
+      "message": "I see a duplicated title when rendering this page using the docker compose setup:\n- the one from line 2\n- the one from line 12",
+      "revId": "d2bc210c9fed6e9ab14d9b3897562cb836a7dae8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fcb61f4_8fbff476",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-09-03T08:01:40Z",
+      "side": 1,
+      "message": "I don\u0027t see Josie listed in https://www.gerritcodereview.com/members.html#community-managers",
+      "revId": "d2bc210c9fed6e9ab14d9b3897562cb836a7dae8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "402799cd_e531c7c1",
+        "filename": "_posts/2026-09-02-cm-minutes.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2026-09-03T08:01:40Z",
+      "side": 1,
+      "message": "AFAICS https://groups.google.com/g/repo-discuss/c/QRfpRkqhvzA didn\u0027t ask for submissions of proposals for a new Gerrit logo but just asked for voting on the ones Luca proposed",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 10
+      },
+      "revId": "d2bc210c9fed6e9ab14d9b3897562cb836a7dae8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
