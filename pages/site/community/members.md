@@ -20,7 +20,7 @@ Community Managers for the 2026-2027 term are:
 | Daniele Sassoli       | GerritForge                 |
 | Matthias Sohn         | SAP                         |
 | Nasser Grainawi       | Qualcomm Technologies, Inc. |
-| Ivan Frade            | Google                      |
+| Josie Cuff            | Google                      |
 
 ## Engineering Steering Committee
 
