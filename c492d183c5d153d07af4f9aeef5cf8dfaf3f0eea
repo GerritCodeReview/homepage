@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f9a2dc6_e58db658",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 612,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-09-07T10:55:22Z",
+      "side": 1,
+      "message": "Should this be considered a breaking change if some plugins where using the reversed order?",
+      "range": {
+        "startLine": 608,
+        "startChar": 1,
+        "endLine": 612,
+        "endChar": 0
+      },
+      "revId": "c492d183c5d153d07af4f9aeef5cf8dfaf3f0eea",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
