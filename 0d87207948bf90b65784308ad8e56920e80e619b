@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4598fa88_86b8efa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-09-08T10:29:10Z",
+      "side": 1,
+      "message": "You should also change all the topnav references from 3.14.2 to 3.14.3, since this is now the latest version of Gerrit.",
+      "revId": "0d87207948bf90b65784308ad8e56920e80e619b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
