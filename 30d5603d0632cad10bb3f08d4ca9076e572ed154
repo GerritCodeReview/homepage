@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09f37504_9fa66caa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-09T22:29:00Z",
+      "side": 1,
+      "message": "Overall looks good to me. Just a few nits and questions.",
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4875d34c_efe9f9d0",
+        "filename": "pages/design-docs/code-search/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-09T22:29:00Z",
+      "side": 1,
+      "message": "This solution title should probably mention Zoekt now\n```suggestion\ntitle: \"Design Doc - Code Search for Gerrit - Solution: Zoekt-based Search Platform\"\n```",
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d326fbd_fbb06f7b",
+        "filename": "pages/design-docs/code-search/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-09T22:29:00Z",
+      "side": 1,
+      "message": "This solution title should probably mention Zoekt now\n```suggestion\n# Solution: Zoekt-based Search Platform\n```",
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6652328f_9dca38bd",
+        "filename": "pages/design-docs/code-search/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-09T22:29:00Z",
+      "side": 1,
+      "message": "Is only Gititles supported, or will this use whatever is configured in [`config-gitweb`](https://gerrit-review.googlesource.com/Documentation/config-gitweb.html) too? What happens if the gitiles plugin isn\u0027t installed?",
+      "range": {
+        "startLine": 42,
+        "startChar": 44,
+        "endLine": 42,
+        "endChar": 52
+      },
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ecbb42b3_9170a5ea",
+        "filename": "pages/design-docs/code-search/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-09T22:29:00Z",
+      "side": 1,
+      "message": "How is access to the gateway restricted to Gerrit and other authorized callers? Some kind of standard account/user-based check?",
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
