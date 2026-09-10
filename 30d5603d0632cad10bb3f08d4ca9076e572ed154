@@ -35,6 +35,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ae900c2_a3199b80",
+        "filename": "pages/design-docs/code-search/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 3255163
+      },
+      "writtenOn": "2026-09-10T09:19:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4875d34c_efe9f9d0",
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5d326fbd_fbb06f7b",
@@ -48,6 +66,24 @@
       "writtenOn": "2026-09-09T22:29:00Z",
       "side": 1,
       "message": "This solution title should probably mention Zoekt now\n```suggestion\n# Solution: Zoekt-based Search Platform\n```",
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57b0bffc_48d144b3",
+        "filename": "pages/design-docs/code-search/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 3255163
+      },
+      "writtenOn": "2026-09-10T09:19:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d326fbd_fbb06f7b",
       "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -75,6 +111,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3b58e8c_6770f797",
+        "filename": "pages/design-docs/code-search/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 3255163
+      },
+      "writtenOn": "2026-09-10T09:19:24Z",
+      "side": 1,
+      "message": "We can support gitweb as well. Also search would still work if there is no browser integration, just the file navigation won\u0027t work. Updated the doc.",
+      "parentUuid": "6652328f_9dca38bd",
+      "range": {
+        "startLine": 42,
+        "startChar": 44,
+        "endLine": 42,
+        "endChar": 52
+      },
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ecbb42b3_9170a5ea",
@@ -88,6 +148,24 @@
       "writtenOn": "2026-09-09T22:29:00Z",
       "side": 1,
       "message": "How is access to the gateway restricted to Gerrit and other authorized callers? Some kind of standard account/user-based check?",
+      "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3cb318f5_1314451c",
+        "filename": "pages/design-docs/code-search/solution.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 3255163
+      },
+      "writtenOn": "2026-09-10T09:19:24Z",
+      "side": 1,
+      "message": "I was thinking about mTLS or auth tokens. Updated the doc.",
+      "parentUuid": "ecbb42b3_9170a5ea",
       "revId": "30d5603d0632cad10bb3f08d4ca9076e572ed154",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
