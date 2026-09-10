@@ -11,7 +11,7 @@ toc: true
 
 **Participants**: Hari Jeyamani [HJ], Luca Milanesio [LM]
 
-**Next meeting**: August 26th, 2026.
+**Next meeting**: September 30th, 2026.
 
 ---
 
