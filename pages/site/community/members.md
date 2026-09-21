@@ -54,7 +54,6 @@ Current maintainers are:
 | Becky Siegel               | Google                                         |
 | David Ostrovsky            | Independent                                    |
 | David Pursehouse           | Independent (formerly Sony, CollabNet)         |
-| Dhruv Srivastava           | Google                                         |
 | Edwin Kempin               | Google (formerly SAP)                          |
 | Emily Shaffer              | Google                                         |
 | Han-Wen Nienhuys           | Independent (formerly Google)                  |
@@ -108,6 +107,7 @@ We're grateful for the many individuals who have previously held community roles
 | Ben Rohlfs            | Google                             |
 | Chris Poucet          | Google                             |
 | Dave Borowitz         | Google                             |
+| Dhruv Srivastava      | Google                             |
 | Dmitrii Filippov      | Google                             |
 | Frank Borden          | Google                             |
 | Gal Paikin            | Google                             |
