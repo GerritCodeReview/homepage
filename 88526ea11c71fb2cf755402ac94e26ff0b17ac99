@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2b8bc453_39eeb06c",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 719,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-21T13:45:14Z",
+      "side": 1,
+      "message": "I suppose they are not published yet. The link is properly built.",
+      "parentUuid": "e1731e26_42c67b09",
+      "range": {
+        "startLine": 719,
+        "startChar": 21,
+        "endLine": 719,
+        "endChar": 68
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f3d4b834_1a2553e7",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 6
@@ -37,6 +61,30 @@
       "writtenOn": "2026-09-21T13:31:36Z",
       "side": 1,
       "message": "This does not resolve for me, I get 404.",
+      "range": {
+        "startLine": 726,
+        "startChar": 21,
+        "endLine": 726,
+        "endChar": 69
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43df8de9_84206277",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 726,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-21T13:45:14Z",
+      "side": 1,
+      "message": "I suppose they are not published yet. The link is properly built.",
+      "parentUuid": "f3d4b834_1a2553e7",
       "range": {
         "startLine": 726,
         "startChar": 21,
@@ -72,6 +120,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bd606e4e_b72b1e8f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-21T13:45:14Z",
+      "side": 1,
+      "message": "I suppose they are not published yet. The link is properly built.",
+      "parentUuid": "7452a89a_86c5775c",
+      "range": {
+        "startLine": 734,
+        "startChar": 21,
+        "endLine": 734,
+        "endChar": 68
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cf73f000_bc250311",
         "filename": "pages/site/releases/3.12.md",
         "patchSetId": 6
@@ -83,6 +155,30 @@
       "writtenOn": "2026-09-21T13:30:40Z",
       "side": 1,
       "message": "```suggestion\n    Administrators can [restrict](https://gerrit-documentation.storage.googleapis.com/Documentation/3.12.10/config-gerrit.html#regex.allowedGroup)\n```",
+      "range": {
+        "startLine": 737,
+        "startChar": 23,
+        "endLine": 737,
+        "endChar": 26
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b11196ee_a5c6fc32",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-21T13:45:14Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "cf73f000_bc250311",
       "range": {
         "startLine": 737,
         "startChar": 23,
@@ -129,6 +225,30 @@
       "writtenOn": "2026-09-21T13:30:40Z",
       "side": 1,
       "message": "```suggestion\n    The `submitted_together` endpoint applies change visibility checks to merged changes that\n```",
+      "range": {
+        "startLine": 745,
+        "startChar": 38,
+        "endLine": 745,
+        "endChar": 41
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "614edc2b_a8bda642",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 745,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-21T13:45:14Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "7a8c75aa_85b5364f",
       "range": {
         "startLine": 745,
         "startChar": 38,
