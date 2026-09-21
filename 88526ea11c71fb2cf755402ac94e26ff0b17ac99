@@ -212,6 +212,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9529eaba_176633e8",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 738,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-21T13:51:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "08bc0a91_dc4d8cb2",
+      "range": {
+        "startLine": 738,
+        "startChar": 17,
+        "endLine": 738,
+        "endChar": 55
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7a8c75aa_85b5364f",
@@ -272,6 +296,30 @@
       "writtenOn": "2026-09-21T13:30:40Z",
       "side": 1,
       "message": "_\"Ad-hoc\"_ is ambiguous here.\n\nThese are submit requirements expressions received as part of the client payload, not stored in Gerrit.",
+      "range": {
+        "startLine": 751,
+        "startChar": 4,
+        "endLine": 751,
+        "endChar": 37
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a62d85e_892471ba",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 751,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-21T13:51:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63f10568_6e88536e",
       "range": {
         "startLine": 751,
         "startChar": 4,
