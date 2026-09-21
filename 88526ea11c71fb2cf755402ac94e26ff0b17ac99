@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf73f000_bc250311",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-09-21T13:30:40Z",
+      "side": 1,
+      "message": "```suggestion\n    Administrators can [restrict](https://gerrit-documentation.storage.googleapis.com/Documentation/3.12.10/config-gerrit.html#regex.allowedGroup)\n```",
+      "range": {
+        "startLine": 737,
+        "startChar": 23,
+        "endLine": 737,
+        "endChar": 26
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08bc0a91_dc4d8cb2",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 738,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-09-21T13:30:40Z",
+      "side": 1,
+      "message": "The word _\"submit\"_ is ambiguous.\n\n\n\n```suggestion\n    which groups can use regular expression operands, limiting expensive automaton compilation\n```",
+      "range": {
+        "startLine": 738,
+        "startChar": 17,
+        "endLine": 738,
+        "endChar": 55
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a8c75aa_85b5364f",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 745,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-09-21T13:30:40Z",
+      "side": 1,
+      "message": "```suggestion\n    The `submitted_together` endpoint applies change visibility checks to merged changes that\n```",
+      "range": {
+        "startLine": 745,
+        "startChar": 38,
+        "endLine": 745,
+        "endChar": 41
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63f10568_6e88536e",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 751,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-09-21T13:30:40Z",
+      "side": 1,
+      "message": "_\"Ad-hoc\"_ is ambiguous here.\n\nThese are submit requirements expressions received as part of the client payload, not stored in Gerrit.",
+      "range": {
+        "startLine": 751,
+        "startChar": 4,
+        "endLine": 751,
+        "endChar": 37
+      },
+      "revId": "88526ea11c71fb2cf755402ac94e26ff0b17ac99",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
