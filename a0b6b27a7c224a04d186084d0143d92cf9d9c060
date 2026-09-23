@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dda0fca3_31783820",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 595,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-09-23T20:18:52Z",
+      "side": 1,
+      "message": "Should this not include also these changes that were not in 3.14.3:\n\n- https://gerrit-review.googlesource.com/c/gerrit/+/631121 \"OAuth credentials are no longer written to logs in clear text by OAuthToken.toString()\"\n- https://gerrit-review.googlesource.com/c/gerrit/+/629361 \"Fix reply-by-email so replies thread under the correct original comment, including when a patchset-level comment precedes inline ones in the same notification\"\n- https://gerrit-review.googlesource.com/c/gerrit/+/634183 \"Log at INFO when project_list cache warmer is disabled\"\n- https://gerrit-review.googlesource.com/c/gerrit/+/634243 \"Include project name for index tasks\"\n\nAlso Jgit was updated to `182a140566592276ac94146b26cd43242b03965c` and replication was updated to `d820c3780693fccd9192dd1839c31df9c72f33af`",
+      "range": {
+        "startLine": 595,
+        "startChar": 0,
+        "endLine": 595,
+        "endChar": 10
+      },
+      "revId": "a0b6b27a7c224a04d186084d0143d92cf9d9c060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f42581b6_0db87500",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 613,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-09-23T20:18:52Z",
+      "side": 1,
+      "message": "It doesn\u0027t mention which plugin it is, I guess `plugin-manager`",
+      "range": {
+        "startLine": 611,
+        "startChar": 0,
+        "endLine": 613,
+        "endChar": 0
+      },
+      "revId": "a0b6b27a7c224a04d186084d0143d92cf9d9c060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
