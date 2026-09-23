@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d4e1c5e_6794eac4",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 721,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-09-23T15:06:12Z",
+      "side": 1,
+      "message": "nit: can you inline this under the bullet point as we did for all other items (see 3.12.10 for example)",
+      "range": {
+        "startLine": 721,
+        "startChar": 2,
+        "endLine": 721,
+        "endChar": 4
+      },
+      "revId": "2f7634ca43398b4d76f563beefbdb6c5787af2f6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
