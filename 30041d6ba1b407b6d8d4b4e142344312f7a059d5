@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "df0f5154_1af57b5d",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 731,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-23T14:42:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f05ada3_bf6463fa",
+      "range": {
+        "startLine": 731,
+        "startChar": 98,
+        "endLine": 731,
+        "endChar": 115
+      },
+      "revId": "30041d6ba1b407b6d8d4b4e142344312f7a059d5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "85bd8192_9d951ae9",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-09-23T14:29:47Z",
       "side": 1,
       "message": "Is this intentional? I have never seen this being added before",
+      "range": {
+        "startLine": 1604,
+        "startChar": 0,
+        "endLine": 1612,
+        "endChar": 32
+      },
+      "revId": "30041d6ba1b407b6d8d4b4e142344312f7a059d5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb3c9640_4e5de8bd",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1612,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-23T14:42:36Z",
+      "side": 1,
+      "message": "yes, check this out: https://www.gerritcodereview.com/3.14.html#welcome-to-our-new-contributors",
+      "parentUuid": "85bd8192_9d951ae9",
       "range": {
         "startLine": 1604,
         "startChar": 0,
