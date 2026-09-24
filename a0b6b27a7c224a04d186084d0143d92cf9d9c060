@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ef66c62_0d90d2cc",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 595,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-24T07:03:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dda0fca3_31783820",
+      "range": {
+        "startLine": 595,
+        "startChar": 0,
+        "endLine": 595,
+        "endChar": 10
+      },
+      "revId": "a0b6b27a7c224a04d186084d0143d92cf9d9c060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f42581b6_0db87500",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-09-23T20:18:52Z",
       "side": 1,
       "message": "It doesn\u0027t mention which plugin it is, I guess `plugin-manager`",
+      "range": {
+        "startLine": 611,
+        "startChar": 0,
+        "endLine": 613,
+        "endChar": 0
+      },
+      "revId": "a0b6b27a7c224a04d186084d0143d92cf9d9c060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf37a928_58ae1ce3",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 613,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-09-24T07:03:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f42581b6_0db87500",
       "range": {
         "startLine": 611,
         "startChar": 0,
