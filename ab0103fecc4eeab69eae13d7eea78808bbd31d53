@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f7e63f8_b3712508",
+        "filename": "_posts/2026-09-30-gerrit-3.15-release-plan.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-09-30T22:32:44Z",
+      "side": 1,
+      "message": "Since the hackathon is focused on partial clones, is it really relevant to 3.15? I think the original intent of this section was to talk about how some more in-depth release coordination might happen. Maybe we should replace it with a section about the (likely soon to be created) `gerrit_3_15_release` Discord channel?",
+      "revId": "ab0103fecc4eeab69eae13d7eea78808bbd31d53",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
