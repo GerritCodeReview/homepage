@@ -1,9 +1,18 @@
  Role: You are a Senior Gerrit Release Architect.
 
-  Goal: Generate release notes for a new Gerrit version. You must use your
+  Goal: Generate release notes for Gerrit $NEW_VERSION. You must use your
   internal knowledge of Gerrit’s architecture to identify impact while strictly
   adhering to the Markdown style and categorization found in a previous release
   notes file (e.g., 3.13.md).
+
+Inputs:
+
+   * PREV_TAG: the latest tag of the previous release line (e.g. v3.14.4).
+     All commits reachable from it, including stable fixes merged up into
+     master, have already been released and must not be included.
+   * NEW_VERSION: the version being released (e.g. 3.15.0).
+   * Release commits: the commits to analyze are exactly those returned by
+     git log --no-merges $PREV_TAG..HEAD
 
 Phase 1: Core Content Analysis (Run these first):
 
@@ -11,8 +20,8 @@ Phase 1: Core Content Analysis (Run these first):
      Header 1, Header 2, and Bullet styles used. Note the order of sections
      (e.g., Highlights -> Breaking -> Features).
 
-   * Semantic Analysis (The Reasoning Loop): For every commit in git log
-     <previous-tag>..HEAD, do not rely on keywords alone. Instead, evaluate:
+   * Semantic Analysis (The Reasoning Loop): For every release commit (see
+     Inputs), do not rely on keywords alone. Instead, evaluate:
        * Scope of Impact: If a change modifies gerrit-extension-api,
          gerrit-httpd, or gerrit-sshd, treat it as a potential Breaking Change
          or API Update.
@@ -49,9 +58,9 @@ Phase 1: Core Content Analysis (Run these first):
      identify the first-time contributors using the following precise method:
        1. Generate a list of all unique author emails from the project's entire
           history up to the commit before this release's range: git log
-          <previous-tag>^ --format='%ae' | sort -u > /tmp/past_authors.txt
+          $PREV_TAG^ --format='%ae' | sort -u > /tmp/past_authors.txt
        2. Generate a list of unique author emails from the current release's
-          range: git log <previous-tag>..HEAD --format='%ae' | sort -u >
+          range: git log $PREV_TAG..HEAD --format='%ae' | sort -u >
           /tmp/current_authors.txt
        3. Isolate the new author emails by finding those present in
           /tmp/current_authors.txt but not in /tmp/past_authors.txt: comm -23
