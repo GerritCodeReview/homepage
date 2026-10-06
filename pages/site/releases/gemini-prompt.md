@@ -73,6 +73,32 @@ Phase 1: Core Content Analysis (Run these first):
          entry and add <!-- REVIEW: no change found for <sha> --> instead of
          the link.
 
+   * Schema & Index Analysis: Compare the latest NoteDb schema version and
+     the latest version of each index (changes, accounts, groups, projects)
+     between $PREV_TAG and HEAD:
+
+       for f in \
+         java/com/google/gerrit/server/index/change/ChangeSchemaDefinitions.java \
+         java/com/google/gerrit/server/index/account/AccountSchemaDefinitions.java \
+         java/com/google/gerrit/server/index/group/GroupSchemaDefinitions.java \
+         java/com/google/gerrit/index/project/ProjectSchemaDefinitions.java; do
+         for ref in $PREV_TAG HEAD; do
+           printf '%s %s v' "$ref" "$(basename "$f" SchemaDefinitions.java)"
+           git show "$ref:$f" | grep -oE '> V[0-9]+' \
+             | tr -dc '0-9\n' | sort -n | tail -n 1
+         done
+       done
+       for ref in $PREV_TAG HEAD; do
+         printf '%s NoteDb schema ' "$ref"
+         git show "$ref:java/com/google/gerrit/server/schema/NoteDbSchemaVersions.java" \
+           | grep -oE 'Schema_[0-9]+' | tr -dc '0-9\n' | sort -n | tail -n 1
+       done
+
+     For every index whose version increased, find the commit that added the
+     new schema version and use its message to explain why a reindex is
+     needed. For a NoteDb schema increase, read the new Schema_<N>.java and
+     its commit to explain what the migration does.
+
   Phase 2: Draft Generation:
 
    * Using the analysis from Phase 1, generate the full release notes draft.
@@ -81,6 +107,29 @@ Phase 1: Core Content Analysis (Run these first):
    * Avoid Duplication: Ensure that any change mentioned in the "Release
      highlights" section is not repeated in other sections like "New Features",
      "Bug fixes", or "Frontend changes".
+   * Important Notes: Generate this section from the Schema & Index Analysis,
+     following the wording of the template:
+       * "Schema and index changes": state whether the Gerrit schema version
+         is unchanged or upgraded (from/to), and list each index upgraded
+         from `v<old>` to `v<new>` with the reason. If nothing changed, write
+         that no reindex is needed.
+       * "Offline upgrade": the template steps, plus
+         `java -jar gerrit.war init -d site_path --batch` if the NoteDb
+         schema changed, and
+         `java -jar gerrit.war reindex --index <name> -d site_path` for each
+         upgraded index (or a single `reindex -d site_path` if all were
+         upgraded).
+       * "Online upgrade with zero-downtime": copy the template text with the
+         version numbers updated. If the NoteDb schema changed, add
+         <!-- REVIEW: NoteDb schema changed, confirm zero-downtime upgrade is
+         still supported -->.
+       * Start both upgrade subsections with the line
+         "//TODO - NEEDS TESTING" so the writer verifies the steps before
+         publishing.
+       * "Known issues": carry over every known issue from the previous
+         release notes, each followed by <!-- REVIEW: still open? -->. Add new
+         known issues only when a release commit explicitly describes a known
+         regression or limitation.
    * Include Dependencies: Scan the commit log for dependency updates and
      generate the following sections where applicable:
        * "Plugin changes"
