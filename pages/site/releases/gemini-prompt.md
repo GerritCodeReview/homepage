@@ -20,8 +20,42 @@ Phase 1: Core Content Analysis (Run these first):
      Header 1, Header 2, and Bullet styles used. Note the order of sections
      (e.g., Highlights -> Breaking -> Features).
 
-   * Semantic Analysis (The Reasoning Loop): For every release commit (see
-     Inputs), do not rely on keywords alone. Instead, evaluate:
+   * Commit Dump: Write the release commits to a fixed list once, oldest
+     first, and record the count:
+
+       git log --no-merges --reverse --format='%H' $PREV_TAG..HEAD \
+         > /tmp/release-shas.txt
+       wc -l < /tmp/release-shas.txt
+
+     Process the list in batches of 50 (lines 1-50, 51-100, ...). For each
+     batch, read the full message and changed files of every commit:
+
+       sed -n '1,50p' /tmp/release-shas.txt \
+         | xargs git show --stat --format='----%n%H%n%aN%n%B'
+
+     For each commit, apply the Semantic Analysis below and append exactly
+     one tab-separated row to /tmp/release-ledger.tsv (no tabs or newlines
+     inside fields):
+
+       <sha>  <link>  <section>  <summary>  <note>
+
+     where <link> follows Traceability, <section> is the target section name
+     from the template (or "Release highlights", or SKIP for skipped
+     commits), <summary> follows Description (for SKIP rows, the commit
+     subject), and <note> is the REVIEW reason or empty. Finish and save each
+     batch before starting the next.
+
+   * Ledger Check: After the last batch, the ledger must contain every
+     release commit exactly once. This must print nothing:
+
+       cut -f1 /tmp/release-ledger.tsv | LC_ALL=C sort \
+         | LC_ALL=C comm -3 - <(LC_ALL=C sort /tmp/release-shas.txt)
+
+     and the line counts of both files must be equal. Fix any missing or
+     duplicated rows before continuing.
+
+   * Semantic Analysis (The Reasoning Loop): For every commit in the current
+     batch, do not rely on keywords alone. Instead, evaluate:
        * Grounding: Every statement in an entry must be supported by the
          commit message or diff. Do not describe behavior, motivation or
          impact that the commit does not show.
@@ -31,9 +65,8 @@ Phase 1: Core Content Analysis (Run these first):
        * Relevance: Skip commits with no user-, admin- or plugin-developer-
          visible effect: changes limited to tests, CI, build tooling, or
          internal refactoring with no behavior change. Dependency updates are
-         not skipped; they go to the dependency sections. Record every
-         skipped commit (short SHA and subject) for the final "Skipped
-         commits" list.
+         not skipped; they go to the dependency sections. Record skipped
+         commits in the ledger with section SKIP.
        * Scope of Impact: Use the changed paths (git show --stat <sha>) as
          hints for the target section, then confirm against the commit
          message and diff:
@@ -113,12 +146,14 @@ Phase 1: Core Content Analysis (Run these first):
 
   Phase 2: Draft Generation:
 
-   * Using the analysis from Phase 1, generate the full release notes draft.
-     Follow the template's structure for all sections except the final
-     "Community" section.
-   * Avoid Duplication: Ensure that any change mentioned in the "Release
-     highlights" section is not repeated in other sections like "New Features",
-     "Bug fixes", or "Frontend changes".
+   * Generate the full release notes draft from the ledger only; do not go
+     back to the raw commit log. Follow the template's structure for all
+     sections except the final "Community" section. Related ledger rows may
+     be combined into one entry listing all their links.
+   * Avoid Duplication: Each ledger row appears in exactly one section. Any
+     change mentioned in the "Release highlights" section must not be
+     repeated in other sections like "New Features", "Bug fixes", or
+     "Frontend changes".
    * Important Notes: Generate this section from the Schema & Index Analysis,
      following the wording of the template:
        * "Schema and index changes": state whether the Gerrit schema version
@@ -142,7 +177,7 @@ Phase 1: Core Content Analysis (Run these first):
          release notes, each followed by <!-- REVIEW: still open? -->. Add new
          known issues only when a release commit explicitly describes a known
          regression or limitation.
-   * Include Dependencies: Scan the commit log for dependency updates and
+   * Include Dependencies: Use the ledger rows for dependency updates and
      generate the following sections where applicable:
        * "Plugin changes"
        * "JGit Changes" (including the full git log of the submodule)
@@ -179,5 +214,5 @@ Phase 1: Core Content Analysis (Run these first):
    * Final Assembly: Generate the "Community" section containing a "Welcome New
      Contributors" list. Insert this section at the end of the drafted release
      notes, followed by a "Skipped commits" section: a plain Markdown list of
-     every skipped commit as "<short-sha> <subject>", for the writer to
-     double-check and remove before publishing.
+     every ledger row with section SKIP as "<short-sha> <subject>", for the
+     writer to double-check and remove before publishing.
