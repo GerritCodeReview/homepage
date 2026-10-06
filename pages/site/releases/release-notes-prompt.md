@@ -273,11 +273,15 @@ where applicable:
   `Notable changes are:` with one line per user-visible commit:
   `- [<short-sha>](https://eclipse.gerrithub.io/q/<short-sha>) <subject>`.
   Do not paste the full log.
-* "Plugin changes": one `### <Plugin name> plugin` subsection per plugin with
-  user-visible changes, with entries linked as in Traceability (the REST
-  lookup by commit SHA also finds plugin changes; use
-  `https://gerrit-review.googlesource.com/c/<project>/+/<number>` with the
-  project returned by the lookup).
+* "Plugin changes": consider only the `plugins/*` submodules that moved, as
+  listed above. Ignore everything else: release commits touching other files
+  under `plugins/` (e.g. `BUILD`, `package.json`, `yarn.lock`), commits that
+  mention plugins, and plugins that are not submodules. Never assign a release
+  commit to "Plugin changes" in the ledger. Write one `### <Plugin name> plugin`
+  subsection per moved submodule with user-visible changes, with entries
+  linked as in Traceability (the REST lookup by commit SHA also finds plugin
+  changes; use `https://gerrit-review.googlesource.com/c/<project>/+/<number>`
+  with the project returned by the lookup).
 * "Other dependency changes"
 
 ## Phase 3: Community List & Finalization (run these last)
