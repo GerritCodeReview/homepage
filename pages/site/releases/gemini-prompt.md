@@ -34,9 +34,24 @@ Phase 1: Core Content Analysis (Run these first):
          description of its functional impact. Do not just repeat the commit
          subject line. Use the full commit message to understand the "why" and
          rephrase it into a user-focused summary.
-       * Traceability: Every entry must include a link. Prioritize the Bug link
-         (e.g., [Issue <id>](...))) if a Bug: <id> footer exists. Otherwise, use
-         the Change link (e.g., [Change <hash>](...)).
+       * Traceability: Every entry must include a link, using exactly one of:
+           * If the commit has one or more "Bug: Issue <id>" footers, link
+             only the issue(s):
+             [Issue <id>](https://issues.gerritcodereview.com/issues/<id>)
+           * Otherwise, link the change by its number (never by SHA or
+             Change-Id):
+             [Change <number>](https://gerrit-review.googlesource.com/c/gerrit/+/<number>)
+         Resolve change numbers via the Gerrit REST API by commit SHA. Batch
+         several SHAs per request with OR, drop the first line of the response
+         (the ")]}'" XSSI prefix), and map each "current_revision" back to its
+         "_number":
+
+           curl -s 'https://gerrit-review.googlesource.com/changes/?q=commit:<sha1>+OR+commit:<sha2>&o=CURRENT_REVISION' \
+             | sed 1d | jq -r '.[] | "\(.current_revision) \(._number)"'
+
+         Never guess a change number. If a SHA returns no change, keep the
+         entry and add <!-- REVIEW: no change found for <sha> --> instead of
+         the link.
 
   Phase 2: Draft Generation:
 
