@@ -3,7 +3,7 @@
   Goal: Generate release notes for Gerrit $NEW_VERSION. Use your knowledge of
   Gerrit’s architecture only to classify and prioritize changes, never to add
   facts, while strictly adhering to the Markdown style and categorization
-  found in a previous release notes file (e.g., 3.13.md).
+  found in $PREV_NOTES.
 
 Inputs:
 
@@ -11,14 +11,19 @@ Inputs:
      All commits reachable from it, including stable fixes merged up into
      master, have already been released and must not be included.
    * NEW_VERSION: the version being released (e.g. 3.15.0).
+   * PREV_NOTES: the release notes of the immediately previous release line,
+     used as the template (e.g. pages/site/releases/3.14.md).
+   * OUTPUT: pages/site/releases/<major>.<minor>.md for NEW_VERSION (e.g.
+     pages/site/releases/3.15.md). If the file already exists, stop and ask
+     instead of overwriting it.
    * Release commits: the commits to analyze are exactly those returned by
      git log --no-merges $PREV_TAG..HEAD
 
 Phase 1: Core Content Analysis (Run these first):
 
-   * Template Analysis: cat [PATH TO PREVIOUS NOTES].md. Identify the specific
-     Header 1, Header 2, and Bullet styles used. Note the order of sections
-     (e.g., Highlights -> Breaking -> Features).
+   * Template Analysis: cat $PREV_NOTES. Identify the specific Header 1,
+     Header 2, and Bullet styles used. Note the order of sections (e.g.,
+     Highlights -> Breaking -> Features).
 
    * Commit Dump: Write the release commits to a fixed list once, oldest
      first, and record the count:
@@ -95,10 +100,13 @@ Phase 1: Core Content Analysis (Run these first):
          or NoteDb storage logic (java/com/google/gerrit/server/notedb/).
          Reason about how this affects large-scale Gerrit instances
          ("Performance Changes").
-       * Description: For each generated entry, write a concise, one-sentence
-         description of its functional impact. Do not just repeat the commit
-         subject line. Use the full commit message to understand the "why" and
-         rephrase it into a user-focused summary.
+       * Description: For each generated entry, write a one-sentence summary
+         of its functional impact. Do not just repeat the commit subject
+         line. Use the full commit message to understand the "why" and
+         rephrase it into a user-focused summary. Only for breaking changes,
+         highlights, or entries that need upgrade or configuration guidance,
+         add an indented explanation paragraph below the summary, as in the
+         template.
        * Traceability: Every entry must include a link, using exactly one of:
            * If the commit has one or more "Bug: Issue <id>" footers, link
              only the issue(s):
@@ -146,6 +154,13 @@ Phase 1: Core Content Analysis (Run these first):
 
   Phase 2: Draft Generation:
 
+   * Header: Copy the YAML front matter of $PREV_NOTES with the title set to
+     "Gerrit <major>.<minor>.x" and the permalink to "<major>.<minor>.html".
+     Follow it with the Download and Documentation lines listing only
+     NEW_VERSION:
+       Download: **[<NEW_VERSION>](https://gerrit-releases.storage.googleapis.com/gerrit-<NEW_VERSION>.war)**
+       Documentation: **[<NEW_VERSION>](https://gerrit-documentation.storage.googleapis.com/Documentation/<NEW_VERSION>/index.html)**
+     Omit the "Bugfix releases" section; there are none yet.
    * Generate the full release notes draft from the ledger only; do not go
      back to the raw commit log. Follow the template's structure for all
      sections except the final "Community" section. Related ledger rows may
@@ -179,8 +194,33 @@ Phase 1: Core Content Analysis (Run these first):
          regression or limitation.
    * Include Dependencies: Use the ledger rows for dependency updates and
      generate the following sections where applicable:
-       * "Plugin changes"
-       * "JGit Changes" (including the full git log of the submodule)
+       * "Plugin changes" and "JGit Changes": list the submodule commits at
+         both ends to find which ones moved:
+
+           for ref in $PREV_TAG HEAD; do
+             git ls-tree $ref modules/jgit plugins/ \
+               | awk -v ref=$ref '$2=="commit" {print ref, $4, $3}'
+           done
+
+         For each moved submodule, read its history (initialize it first
+         with git submodule update --init <path> if needed):
+
+           git -C <path> log --no-merges <old>..<new>
+
+         and apply the same Grounding, Relevance and Description rules as for
+         the release commits.
+       * "JGit Changes": follow the template: "Update JGit to
+         [<new-short-sha>](https://eclipse.gerrithub.io/q/<new-short-sha>).",
+         then a shell block with
+         "$ git log --oneline --no-merges <old-short-sha>..<new-short-sha>",
+         then "Notable changes are:" with one line per user-visible commit:
+         "- [<short-sha>](https://eclipse.gerrithub.io/q/<short-sha>) <subject>".
+         Do not paste the full log.
+       * "Plugin changes": one "### <Plugin name> plugin" subsection per
+         plugin with user-visible changes, with entries linked as in
+         Traceability (the REST lookup by commit SHA also finds plugin
+         changes; use https://gerrit-review.googlesource.com/c/<project>/+/<number>
+         with the project returned by the lookup).
        * "Other dependency changes"
 
   Phase 3: Community List & Finalization (Run these last):
@@ -211,8 +251,12 @@ Phase 1: Core Content Analysis (Run these first):
        4. Use /tmp/new_authors.txt as-is for the welcome list; the names are
           already resolved through .mailmap.
 
-   * Final Assembly: Generate the "Community" section containing a "Welcome New
-     Contributors" list. Insert this section at the end of the drafted release
+   * Final Assembly: Generate the "Community" section using the exact
+     heading and intro sentence of the new contributors subsection in
+     $PREV_NOTES with the version updated, followed by the names in
+     /tmp/new_authors.txt. Omit the subsection if there are no new
+     contributors. Insert this section at the end of the drafted release
      notes, followed by a "Skipped commits" section: a plain Markdown list of
      every ledger row with section SKIP as "<short-sha> <subject>", for the
-     writer to double-check and remove before publishing.
+     writer to double-check and remove before publishing. Write the complete
+     draft to $OUTPUT.
