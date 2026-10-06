@@ -55,19 +55,30 @@ Phase 1: Core Content Analysis (Run these first):
   Phase 3: Community List & Finalization (Run these last):
 
    * New Contributor Identification: Just before creating the final file,
-     identify the first-time contributors using the following precise method:
-       1. Generate a list of all unique author emails from the project's entire
-          history up to the commit before this release's range: git log
-          $PREV_TAG^ --format='%ae' | sort -u > /tmp/past_authors.txt
-       2. Generate a list of unique author emails from the current release's
-          range: git log $PREV_TAG..HEAD --format='%ae' | sort -u >
-          /tmp/current_authors.txt
-       3. Isolate the new author emails by finding those present in
-          /tmp/current_authors.txt but not in /tmp/past_authors.txt: comm -23
-          /tmp/current_authors.txt /tmp/past_authors.txt >
-          /tmp/new_author_emails.txt
-       4. Using the list of new emails, retrieve the full names for the final
-          list and resolve them using .mailmap.
+     identify the first-time contributors using the following precise method.
+     %aN and %aE apply .mailmap, so authors are compared by their canonical
+     identity. An author is new only if neither their name nor their email
+     appears in any commit already released (reachable from $PREV_TAG).
+     Only commit authors count; ignore Co-authored-by trailers.
+       1. Collect every author name and email already released:
+
+          git log $PREV_TAG --format='%aN%n%aE' | LC_ALL=C sort -u \
+            > /tmp/past_authors.txt
+
+       2. Collect the authors of the release commits as email<TAB>name:
+
+          git log --no-merges $PREV_TAG..HEAD --format='%aE%x09%aN' \
+            | LC_ALL=C sort -u > /tmp/current_authors.tsv
+
+       3. Keep the authors whose name and email are both unseen:
+
+          awk -F'\t' 'NR==FNR { seen[$0]; next }
+                      !($1 in seen) && !($2 in seen) { print $2 }' \
+            /tmp/past_authors.txt /tmp/current_authors.tsv \
+            | LC_ALL=C sort -u > /tmp/new_authors.txt
+
+       4. Use /tmp/new_authors.txt as-is for the welcome list; the names are
+          already resolved through .mailmap.
 
    * Final Assembly: Generate the "Community" section containing a "Welcome New
      Contributors" list. Insert this section at the end of the drafted release
