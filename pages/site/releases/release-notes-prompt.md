@@ -218,6 +218,14 @@ Each ledger row appears in exactly one section. Any change mentioned in the
 "Release highlights" section must not be repeated in other sections like "New
 Features", "Bug fixes", or "Frontend changes".
 
+### Java Highlight
+
+If the release changes the Java version Gerrit is built, distributed or
+required to run with, the first release highlight must be a
+`### Java <version>` section describing it, as in the 3.9, 3.11 and 3.12
+release notes. Following Avoid Duplication, these changes appear only there,
+not in "Breaking Changes" or any other section.
+
 ### Important Notes
 
 Generate this section from the Schema & Index Analysis, following the wording
