@@ -141,7 +141,8 @@ evaluate:
   user-focused summary. Only for breaking changes, highlights, or entries that
   need upgrade or configuration guidance, add an indented explanation
   paragraph below the summary, as in the template.
-* **Traceability**: Every entry must include a link, using exactly one of:
+* **Traceability**: Every entry outside "Release highlights" must include a
+  link, using exactly one of:
   * If the commit has one or more `Bug: Issue <id>` footers, link only the
     issue(s):
     `[Issue <id>](https://issues.gerritcodereview.com/issues/<id>)`
@@ -217,6 +218,12 @@ entry listing all their links.
 Each ledger row appears in exactly one section. Any change mentioned in the
 "Release highlights" section must not be repeated in other sections like "New
 Features", "Bug fixes", or "Frontend changes".
+
+### Release Highlights
+
+Write the release highlights as prose without Change or Issue links, as in
+the template; Traceability applies to all the other sections. Links to
+documentation are allowed.
 
 ### Java Highlight
 
