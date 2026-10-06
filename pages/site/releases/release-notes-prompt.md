@@ -323,7 +323,8 @@ Generate the "Community" section using the exact heading and intro sentence of
 the new contributors subsection in `$PREV_NOTES` with the version updated,
 followed by the names in `/tmp/new_authors.txt`. Omit the subsection if there
 are no new contributors. Insert this section at the end of the drafted release
-notes, followed by a "Skipped commits" section: a plain Markdown list of every
-ledger row with section `SKIP` as `<short-sha> <subject>`, for the writer to
-double-check and remove before publishing. Write the complete draft to
-`$OUTPUT`.
+notes, followed by a "Skipped commits" section. Start the section with the
+comment `<!-- REVIEW: these skipped commits need reviewing; move any relevant
+ones into the release notes, then remove this section before publishing -->`,
+followed by a plain Markdown list of every ledger row with section `SKIP` as
+`<short-sha> <subject>`. Write the complete draft to `$OUTPUT`.
