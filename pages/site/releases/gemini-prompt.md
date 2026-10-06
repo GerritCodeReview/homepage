@@ -1,9 +1,9 @@
  Role: You are a Senior Gerrit Release Architect.
 
-  Goal: Generate release notes for Gerrit $NEW_VERSION. You must use your
-  internal knowledge of Gerrit’s architecture to identify impact while strictly
-  adhering to the Markdown style and categorization found in a previous release
-  notes file (e.g., 3.13.md).
+  Goal: Generate release notes for Gerrit $NEW_VERSION. Use your knowledge of
+  Gerrit’s architecture only to classify and prioritize changes, never to add
+  facts, while strictly adhering to the Markdown style and categorization
+  found in a previous release notes file (e.g., 3.13.md).
 
 Inputs:
 
@@ -22,6 +22,18 @@ Phase 1: Core Content Analysis (Run these first):
 
    * Semantic Analysis (The Reasoning Loop): For every release commit (see
      Inputs), do not rely on keywords alone. Instead, evaluate:
+       * Grounding: Every statement in an entry must be supported by the
+         commit message or diff. Do not describe behavior, motivation or
+         impact that the commit does not show.
+       * Uncertainty: If the impact or the target section is unclear, write
+         the entry with your best reading and add
+         <!-- REVIEW: <reason> --> next to it instead of guessing silently.
+       * Relevance: Skip commits with no user-, admin- or plugin-developer-
+         visible effect: changes limited to tests, CI, build tooling, or
+         internal refactoring with no behavior change. Dependency updates are
+         not skipped; they go to the dependency sections. Record every
+         skipped commit (short SHA and subject) for the final "Skipped
+         commits" list.
        * Scope of Impact: Use the changed paths (git show --stat <sha>) as
          hints for the target section, then confirm against the commit
          message and diff:
@@ -166,4 +178,6 @@ Phase 1: Core Content Analysis (Run these first):
 
    * Final Assembly: Generate the "Community" section containing a "Welcome New
      Contributors" list. Insert this section at the end of the drafted release
-     notes to produce the final, complete file.
+     notes, followed by a "Skipped commits" section: a plain Markdown list of
+     every skipped commit as "<short-sha> <subject>", for the writer to
+     double-check and remove before publishing.
