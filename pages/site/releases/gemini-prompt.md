@@ -13,6 +13,21 @@ in `$PREV_NOTES`.
 
 ## Inputs
 
+* `GERRIT_REPO`: path to a local clone of the Gerrit core repository
+  (`https://gerrit.googlesource.com/gerrit`). Before starting, ask the user
+  where to find it; do not clone it yourself. Check that it is a Gerrit clone
+  and contains `$PREV_TAG`:
+
+  ```shell
+  git -C $GERRIT_REPO remote -v | grep gerrit.googlesource.com/gerrit
+  git -C $GERRIT_REPO rev-parse --verify "$PREV_TAG^{commit}"
+  git -C $GERRIT_REPO log -1 --oneline HEAD
+  ```
+
+  If a check fails, tell the user and ask again. Show the user the `HEAD`
+  commit and confirm it is the one being released. Run every `git` command
+  in this prompt from `$GERRIT_REPO`; the `PREV_NOTES` and `OUTPUT` paths are
+  relative to this release notes repository.
 * `PREV_TAG`: the latest tag of the previous release line (e.g. `v3.14.4`).
   All commits reachable from it, including stable fixes merged up into master,
   have already been released and must not be included.
