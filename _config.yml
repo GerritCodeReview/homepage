@@ -46,6 +46,7 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - .jekyll-metadata
+  - pages/site/releases/release-notes-prompt.md
 
 # Build settings
 destination: _site
