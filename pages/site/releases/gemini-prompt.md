@@ -22,14 +22,34 @@ Phase 1: Core Content Analysis (Run these first):
 
    * Semantic Analysis (The Reasoning Loop): For every release commit (see
      Inputs), do not rely on keywords alone. Instead, evaluate:
-       * Scope of Impact: If a change modifies gerrit-extension-api,
-         gerrit-httpd, or gerrit-sshd, treat it as a potential Breaking Change
-         or API Update.
+       * Scope of Impact: Use the changed paths (git show --stat <sha>) as
+         hints for the target section, then confirm against the commit
+         message and diff:
+           * Extension and plugin API, REST API, HTTP and SSH layers:
+             java/com/google/gerrit/extensions/,
+             java/com/google/gerrit/server/restapi/,
+             java/com/google/gerrit/httpd/, java/com/google/gerrit/sshd/,
+             Documentation/rest-api-*.txt, Documentation/pg-plugin-*.txt.
+             Treat removed or incompatible behavior as "Breaking Changes";
+             additions as "New Features".
+           * Permissions and authentication:
+             java/com/google/gerrit/server/permissions/,
+             Documentation/access-control.txt. Consider "Permissions &
+             Security Changes".
+           * Configuration: java/com/google/gerrit/server/config/,
+             Documentation/config-*.txt. New or changed gerrit.config or
+             project.config options are "New Features" (or "Breaking Changes"
+             when defaults or semantics change).
+           * Documentation only: changes limited to Documentation/ go to
+             "Documentation changes".
        * User Experience: If changes occur in polygerrit-ui/, reason about
-         whether this is a visual polish or a functional workflow change.
-       * Stability & Performance: Look for changes in Lucene/FakeDB indexing or
-         NoteDb storage logic. Reason about how this affects large-scale Gerrit
-         instances.
+         whether this is a visual polish or a functional workflow change
+         ("Frontend changes").
+       * Stability & Performance: Look for changes in indexing
+         (java/com/google/gerrit/lucene/, java/com/google/gerrit/server/index/)
+         or NoteDb storage logic (java/com/google/gerrit/server/notedb/).
+         Reason about how this affects large-scale Gerrit instances
+         ("Performance Changes").
        * Description: For each generated entry, write a concise, one-sentence
          description of its functional impact. Do not just repeat the commit
          subject line. Use the full commit message to understand the "why" and
