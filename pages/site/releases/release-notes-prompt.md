@@ -238,14 +238,31 @@ Omit the "Bugfix releases" section; there are none yet.
 
 Generate the full release notes draft from the ledger only; do not go back to
 the raw commit log. Follow the template's structure for all sections except
-the final "Community" section. Related ledger rows may be combined into one
-entry listing all their links.
+the final "Community" section.
 
 ### Avoid Duplication
 
 Each ledger row appears in exactly one section. Any change mentioned in the
 "Release highlights" section must not be repeated in other sections like "New
 Features", "Bug fixes", or "Frontend changes".
+
+Ledger rows about the same functionality (the same REST endpoint, SSH
+command, configuration option, search operator, extension point or UI
+feature, or follow-ups of the same change) must be combined into a single
+entry listing all their links, never described in separate entries or
+sections. Place the combined entry in the most significant of their
+sections, in this order: "Breaking Changes", "Permissions & Security
+Changes", "New Features", "Performance Changes", "Bug fixes", then the
+others. For example, a fix to the `config/server/index.changes` REST endpoint
+and a later breaking change to the same endpoint form one "Breaking Changes"
+entry.
+
+No Change or Issue link may appear more than once in the draft. This must
+print nothing:
+
+```shell
+grep -oE '\[(Change|Issue) [0-9]+\]' $OUTPUT | sort | uniq -d
+```
 
 ### Release Highlights
 
