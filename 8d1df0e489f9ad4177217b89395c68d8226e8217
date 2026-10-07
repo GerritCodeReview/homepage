@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b66e255_232771cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5192836
+      },
+      "writtenOn": "2026-10-07T12:18:43Z",
+      "side": 1,
+      "message": "$ ls .repo/local_manifests\nlocal_manifest.xml\nanother_local_manifest.xml\n\n$ cat .repo/local_manifests/local_manifest.xml\n\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cmanifest\u003e\n  \u003cproject path\u003d\"manifest\"\n           name\u003d\"tools/manifest\" /\u003e\n  \u003cproject path\u003d\"platform-manifest\"\n           name\u003d\"platform/manifest\" /\u003e\n\u003c/manifest",
+      "revId": "8d1df0e489f9ad4177217b89395c68d8226e8217",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
