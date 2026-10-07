@@ -45,6 +45,54 @@
       },
       "revId": "db13421fa2d04af9a5c9669bc99e0b06b18b80c1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02eeae0a_ba1e803b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 831,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:53Z",
+      "side": 1,
+      "message": "It was also listed under Breaking Changes; both are now merged into that single entry.",
+      "parentUuid": "f9f4017e_a2e73d30",
+      "range": {
+        "startLine": 828,
+        "startChar": 0,
+        "endLine": 831,
+        "endChar": 32
+      },
+      "revId": "db13421fa2d04af9a5c9669bc99e0b06b18b80c1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a9ff43a_fd97caa1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 831,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:53Z",
+      "side": 1,
+      "message": "It was also listed under Breaking Changes; both are now merged into that single entry.",
+      "parentUuid": "79422563_a68642e2",
+      "range": {
+        "startLine": 828,
+        "startChar": 0,
+        "endLine": 831,
+        "endChar": 32
+      },
+      "revId": "db13421fa2d04af9a5c9669bc99e0b06b18b80c1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
