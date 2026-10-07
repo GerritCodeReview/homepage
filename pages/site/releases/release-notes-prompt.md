@@ -170,7 +170,11 @@ evaluate:
     "Documentation changes".
 * **User Experience**: If changes occur in `polygerrit-ui/`, reason about
   whether this is a visual polish or a functional workflow change ("Frontend
-  changes").
+  changes"). Report only substantial UI changes: new or redesigned views,
+  dialogs and components, and changes to how users accomplish a task. Skip
+  minor navigational and cosmetic tweaks (link targets, scroll or focus
+  behavior, small layout, spacing, alignment, icon or tooltip changes), and
+  fixes to them, with the note `minor UI`.
 * **Stability & Performance**: Look for changes in indexing
   (`java/com/google/gerrit/lucene/`, `java/com/google/gerrit/server/index/`) or
   NoteDb storage logic (`java/com/google/gerrit/server/notedb/`). Reason about
