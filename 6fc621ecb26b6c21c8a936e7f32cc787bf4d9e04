@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd35e8eb_bfd20df0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, now links the 3.15.0-rc0 war, as for 3.13.0-rc0.",
+      "parentUuid": "1017deb6_33cdd68b",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 112
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0fd802f9_1be6f15b",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-10-06T18:32:01Z",
       "side": 1,
       "message": "Arguably shouldn\u0027t be a highlight, relatively minor feature.",
+      "range": {
+        "startLine": 128,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 71
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3875c5c0_6233912f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, moved to New Features.",
+      "parentUuid": "0fd802f9_1be6f15b",
       "range": {
         "startLine": 128,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb9c21b4_2ae38645",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, moved to New Features.",
+      "parentUuid": "66ece35d_e32097aa",
+      "range": {
+        "startLine": 137,
+        "startChar": 0,
+        "endLine": 145,
+        "endChar": 66
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bf3ffdc7_815d3059",
@@ -83,6 +155,30 @@
       "writtenOn": "2026-10-06T18:32:01Z",
       "side": 1,
       "message": "Not sure this should be considered a breaking change, it was more of a bug fix which I don\u0027t think even needs to feature in the release notes.",
+      "range": {
+        "startLine": 386,
+        "startChar": 0,
+        "endLine": 393,
+        "endChar": 57
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4dc9627d_fffd3cef",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "bf3ffdc7_815d3059",
       "range": {
         "startLine": 386,
         "startChar": 0,
@@ -116,6 +212,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed77eb60_33785c26",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "5d55da76_3fc9db19",
+      "range": {
+        "startLine": 395,
+        "startChar": 0,
+        "endLine": 402,
+        "endChar": 12
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8a3e080e_fea93696",
@@ -129,6 +249,30 @@
       "writtenOn": "2026-10-06T18:32:01Z",
       "side": 1,
       "message": "If these are behind feature flag, are they really performance changes if people don\u0027t enable them? Should remove from here.",
+      "range": {
+        "startLine": 406,
+        "startChar": 0,
+        "endLine": 416,
+        "endChar": 63
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2290fa7f_050a0c2b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "8a3e080e_fea93696",
       "range": {
         "startLine": 406,
         "startChar": 0,
@@ -162,6 +306,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "00e944e4_f748a9f8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 436,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, grouped into a single Performance Changes entry.",
+      "parentUuid": "cf3e5490_a4c8ae8f",
+      "range": {
+        "startLine": 434,
+        "startChar": 0,
+        "endLine": 436,
+        "endChar": 52
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "da91d15b_06084190",
@@ -175,6 +343,30 @@
       "writtenOn": "2026-10-07T17:09:02Z",
       "side": 1,
       "message": "Very specific, could be skipped.",
+      "range": {
+        "startLine": 477,
+        "startChar": 0,
+        "endLine": 480,
+        "endChar": 21
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16ee5795_40eadb9d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 480,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "da91d15b_06084190",
       "range": {
         "startLine": 477,
         "startChar": 0,
@@ -208,6 +400,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cbd9cfb_82e9d5d7",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 497,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "660b7d70_3431f634",
+      "range": {
+        "startLine": 493,
+        "startChar": 0,
+        "endLine": 497,
+        "endChar": 60
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4526ba9c_34d6f3f1",
@@ -221,6 +437,30 @@
       "writtenOn": "2026-10-07T17:09:02Z",
       "side": 1,
       "message": "Also quite specific, could be skipped.",
+      "range": {
+        "startLine": 512,
+        "startChar": 0,
+        "endLine": 516,
+        "endChar": 25
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25cae3df_1cfaf475",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 516,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "4526ba9c_34d6f3f1",
       "range": {
         "startLine": 512,
         "startChar": 0,
@@ -254,6 +494,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c14eb4d2_e91fe48f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "2ccf25d4_0603d49c",
+      "range": {
+        "startLine": 518,
+        "startChar": 0,
+        "endLine": 521,
+        "endChar": 74
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f151e7e1_41d7d149",
@@ -267,6 +531,30 @@
       "writtenOn": "2026-10-07T17:09:02Z",
       "side": 1,
       "message": "Very niche, can be removed.",
+      "range": {
+        "startLine": 562,
+        "startChar": 0,
+        "endLine": 570,
+        "endChar": 64
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fc94525_ecc64a41",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 570,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "f151e7e1_41d7d149",
       "range": {
         "startLine": 562,
         "startChar": 0,
@@ -300,6 +588,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2e8bdec_36cb0645",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 582,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "c62fc1d6_9742d3c7",
+      "range": {
+        "startLine": 571,
+        "startChar": 0,
+        "endLine": 582,
+        "endChar": 68
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a5765823_ff48f10b",
@@ -313,6 +625,30 @@
       "writtenOn": "2026-10-07T17:09:02Z",
       "side": 1,
       "message": "Very niche, can be removed.",
+      "range": {
+        "startLine": 584,
+        "startChar": 0,
+        "endLine": 591,
+        "endChar": 9
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4471b123_275a8f33",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 591,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "a5765823_ff48f10b",
       "range": {
         "startLine": 584,
         "startChar": 0,
@@ -346,6 +682,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2dbabf4_77edc67b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "a5deac79_d9956743",
+      "range": {
+        "startLine": 631,
+        "startChar": 0,
+        "endLine": 640,
+        "endChar": 24
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d778795a_0f583eaa",
@@ -359,6 +719,30 @@
       "writtenOn": "2026-10-07T17:09:02Z",
       "side": 1,
       "message": "This bit can be removed.",
+      "range": {
+        "startLine": 681,
+        "startChar": 0,
+        "endLine": 683,
+        "endChar": 63
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e49b834e_2312a2df",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 683,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "d778795a_0f583eaa",
       "range": {
         "startLine": 681,
         "startChar": 0,
@@ -392,6 +776,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef19b0f3_ffbb7842",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 692,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed the link.",
+      "parentUuid": "05b24dc6_3661d4f3",
+      "range": {
+        "startLine": 692,
+        "startChar": 0,
+        "endLine": 692,
+        "endChar": 76
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5364ec76_1052334e",
@@ -405,6 +813,30 @@
       "writtenOn": "2026-10-07T17:09:02Z",
       "side": 1,
       "message": "Highlight the new feature rather than what we\u0027re replacing, make it clearer what it allows you to do.",
+      "range": {
+        "startLine": 728,
+        "startChar": 2,
+        "endLine": 734,
+        "endChar": 0
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09d237db_c01e8eea",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, now describes the new \"Shrink only\" option of \"Fit to screen\".",
+      "parentUuid": "5364ec76_1052334e",
       "range": {
         "startLine": 728,
         "startChar": 2,
@@ -438,6 +870,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1beed653_807c03b4",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 739,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "6526a799_e24bb935",
+      "range": {
+        "startLine": 735,
+        "startChar": 0,
+        "endLine": 739,
+        "endChar": 10
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4036ba87_9ed471af",
@@ -461,6 +917,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "59df4d65_c7cefc14",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 752,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed.",
+      "parentUuid": "4036ba87_9ed471af",
+      "range": {
+        "startLine": 747,
+        "startChar": 0,
+        "endLine": 752,
+        "endChar": 84
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "277a6aff_ff1d1850",
@@ -474,6 +954,30 @@
       "writtenOn": "2026-10-07T17:09:02Z",
       "side": 1,
       "message": "Can be removed.",
+      "range": {
+        "startLine": 774,
+        "startChar": 0,
+        "endLine": 776,
+        "endChar": 15
+      },
+      "revId": "6fc621ecb26b6c21c8a936e7f32cc787bf4d9e04",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae19c0e8_fe8ef964",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 776,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T19:09:51Z",
+      "side": 1,
+      "message": "Done, removed in a previous patch set.",
+      "parentUuid": "277a6aff_ff1d1850",
       "range": {
         "startLine": 774,
         "startChar": 0,
