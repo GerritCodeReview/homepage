@@ -109,6 +109,18 @@ evaluate:
   with no behavior change. Dependency updates are not skipped; they go to the
   dependency sections. Record skipped commits in the ledger with section
   `SKIP`.
+* **Audience**: Prioritize changes that affect Gerrit end users and
+  administrators. Changes that only matter to Gerrit developers (building,
+  testing or developing Gerrit itself, IDE setup, internal APIs, contributor
+  documentation, and fixes to any of these) are skipped, with the note
+  `developer-only`. Changes for plugin developers are mentioned only when they
+  enable new plugin features, such as a new UI plugin endpoint (e.g.
+  `change-view-commit-aside`), extension point or plugin API method, or when
+  plugin maintainers must act on them (removals, incompatible changes and
+  deprecations, under "Breaking Changes"); other plugin-developer changes,
+  such as plugin build tooling fixes, are skipped as `developer-only`. Within
+  each section, list the end-user and administrator entries before the
+  plugin-developer ones.
 * **Released Bugs Only**: "Bug fixes" lists only fixes for bugs present in a
   released version. A fix for a bug introduced by another release commit
   (i.e. the bug was never released) is skipped: record it as `SKIP` with the
