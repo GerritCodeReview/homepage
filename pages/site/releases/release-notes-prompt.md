@@ -337,11 +337,21 @@ where applicable:
   listed above. Ignore everything else: release commits touching other files
   under `plugins/` (e.g. `BUILD`, `package.json`, `yarn.lock`), commits that
   mention plugins, and plugins that are not submodules. Never assign a release
-  commit to "Plugin changes" in the ledger. Write one `### <Plugin name> plugin`
-  subsection per moved submodule with user-visible changes, with entries
-  linked as in Traceability (the REST lookup by commit SHA also finds plugin
-  changes; use `https://gerrit-review.googlesource.com/c/<project>/+/<number>`
-  with the project returned by the lookup).
+  commit to "Plugin changes" in the ledger: release commits are core changes
+  even when they target plugin developers (extension points, plugin and UI
+  plugin APIs, plugin endpoints, the plugin build), so they go to the core
+  sections, with deprecations under "Breaking Changes". Write one
+  `### <Plugin name> plugin` subsection per moved submodule with user-visible
+  changes, with entries linked as in Traceability (the REST lookup by commit
+  SHA also finds plugin changes; use
+  `https://gerrit-review.googlesource.com/c/<project>/+/<number>` with the
+  project returned by the lookup). Every link in "Plugin changes" must point
+  to a plugin change, so this must print nothing:
+
+  ```shell
+  awk '/^## Plugin changes/{p=1; next} p && /^## /{exit} p' $OUTPUT \
+    | grep -F 'gerrit-review.googlesource.com/c/gerrit/'
+  ```
 * "Other dependency changes"
 
 ## Phase 3: Community List & Finalization (run these last)
