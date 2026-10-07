@@ -77,8 +77,8 @@ fields):
 where `<link>` follows Traceability, `<section>` is the target section name
 from the template (or "Release highlights", or `SKIP` for skipped commits),
 `<summary>` follows Description (for `SKIP` rows, the commit subject), and
-`<note>` is the REVIEW reason or empty. Finish and save each batch before
-starting the next.
+`<note>` is the REVIEW reason, the skip reason (e.g. `fixes unreleased code`),
+or empty. Finish and save each batch before starting the next.
 
 ### Ledger Check
 
@@ -109,6 +109,34 @@ evaluate:
   with no behavior change. Dependency updates are not skipped; they go to the
   dependency sections. Record skipped commits in the ledger with section
   `SKIP`.
+* **Released Bugs Only**: "Bug fixes" lists only fixes for bugs present in a
+  released version. A fix for a bug introduced by another release commit
+  (i.e. the bug was never released) is skipped: record it as `SKIP` with the
+  note `fixes unreleased code`. For every fix, find which commits introduced
+  the lines it modifies or deletes, ignoring tests, and whether they were
+  released:
+
+  ```shell
+  git diff -U0 <sha>^ <sha> -- . ':!javatests' ':!*_test.ts' \
+    | awk '/^--- a\//{f=substr($0,7)} /^@@/{split($2,a,","); n=(a[2]=="")?1:a[2]; if (n>0) print f, substr(a[1],2), n}' \
+    | while read -r f s n; do
+        git blame --porcelain -L "$s,+$n" <sha>^ -- "$f" | awk '/^[0-9a-f]{40} /{print $1}'
+      done \
+    | sort -u \
+    | while read -r c; do
+        git merge-base --is-ancestor "$c" "$PREV_TAG" && echo released || echo unreleased
+      done \
+    | sort | uniq -c
+  ```
+
+  * Only `unreleased`: the bug was never released; skip the fix.
+  * Any `released`: the fix addresses released code; keep it in "Bug fixes".
+  * No output (the fix only adds lines): decide from the commit message. If it
+    names the commit or change that introduced the bug, check whether that
+    one is a release commit
+    (`git log --format=%h $PREV_TAG..HEAD --grep='Change-Id: <id>'`). If the
+    origin is still unclear, keep the fix in "Bug fixes" and add
+    `<!-- REVIEW: could not tell whether this bug was released -->`.
 * **Scope of Impact**: Use the changed paths (`git show --stat <sha>`) as hints
   for the target section, then confirm against the commit message and diff:
   * Extension and plugin API, REST API, HTTP and SSH layers:
