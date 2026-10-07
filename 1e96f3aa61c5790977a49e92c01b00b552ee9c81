@@ -1,0 +1,464 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bef5de29_4c918783",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 849,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "This can be removed, feels very minor",
+      "range": {
+        "startLine": 842,
+        "startChar": 0,
+        "endLine": 849,
+        "endChar": 0
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ba12e3f_3ea90f88",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 868,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Very low level, can be removed.",
+      "range": {
+        "startLine": 862,
+        "startChar": 0,
+        "endLine": 868,
+        "endChar": 54
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebad4e2d_451d6509",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 879,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Again, very low level, not sure it\u0027s worth including.",
+      "range": {
+        "startLine": 870,
+        "startChar": 0,
+        "endLine": 879,
+        "endChar": 17
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "364f255d_92705792",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 903,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "very low level, can be removed.",
+      "range": {
+        "startLine": 901,
+        "startChar": 0,
+        "endLine": 903,
+        "endChar": 65
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb984e81_6ad40a1e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 913,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Minor, can be skiped.",
+      "range": {
+        "startLine": 910,
+        "startChar": 0,
+        "endLine": 913,
+        "endChar": 63
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b6c2fb4_91984155",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 922,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Minor, can be removed.",
+      "range": {
+        "startLine": 918,
+        "startChar": 0,
+        "endLine": 922,
+        "endChar": 34
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50f79db7_68fc4d06",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 931,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Niche, can be removed.",
+      "range": {
+        "startLine": 927,
+        "startChar": 0,
+        "endLine": 931,
+        "endChar": 64
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20850ef6_ce5df094",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 966,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Very niche, can be skipped.",
+      "range": {
+        "startLine": 963,
+        "startChar": 0,
+        "endLine": 966,
+        "endChar": 11
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd9d84fc_ba4d3451",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 990,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "This should be combined with the previous mention of applicableIf migration fix.",
+      "range": {
+        "startLine": 987,
+        "startChar": 0,
+        "endLine": 990,
+        "endChar": 64
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe1d9547_e51306a1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1005,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Minor, can be removed.",
+      "range": {
+        "startLine": 1002,
+        "startChar": 0,
+        "endLine": 1005,
+        "endChar": 46
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95d16c45_60aff132",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1037,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Skip, low level.",
+      "range": {
+        "startLine": 1032,
+        "startChar": 0,
+        "endLine": 1037,
+        "endChar": 75
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c51f5cb1_2cb31926",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1061,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "No customer impact, can be removed.",
+      "range": {
+        "startLine": 1059,
+        "startChar": 0,
+        "endLine": 1061,
+        "endChar": 62
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a58c1785_904d07ea",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1065,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Can be skipped.",
+      "range": {
+        "startLine": 1062,
+        "startChar": 0,
+        "endLine": 1065,
+        "endChar": 68
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7d9179d_cfd4ab01",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1069,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Ambigous and all info only accessible by Google, skip.",
+      "range": {
+        "startLine": 1067,
+        "startChar": 0,
+        "endLine": 1069,
+        "endChar": 36
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48e20fda_aa6875e0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1073,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Minor, remove.",
+      "range": {
+        "startLine": 1071,
+        "startChar": 0,
+        "endLine": 1073,
+        "endChar": 24
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84d94f16_48b33299",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1077,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "How is this reported? A Metric?",
+      "range": {
+        "startLine": 1076,
+        "startChar": 2,
+        "endLine": 1077,
+        "endChar": 66
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e825ca1b_f455b9cd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1081,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Minor, can be removed.",
+      "range": {
+        "startLine": 1079,
+        "startChar": 0,
+        "endLine": 1081,
+        "endChar": 61
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf520ac8_c78aff9d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1090,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Minor, can be removed.",
+      "range": {
+        "startLine": 1087,
+        "startChar": 0,
+        "endLine": 1090,
+        "endChar": 59
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db90c8b4_c6497c17",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1106,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Relates to the previous one.",
+      "range": {
+        "startLine": 1104,
+        "startChar": 0,
+        "endLine": 1106,
+        "endChar": 10
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "471816c6_4a6221ab",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1111,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-07T18:19:27Z",
+      "side": 1,
+      "message": "Vague and google specific, remove",
+      "range": {
+        "startLine": 1107,
+        "startChar": 0,
+        "endLine": 1111,
+        "endChar": 85
+      },
+      "revId": "1e96f3aa61c5790977a49e92c01b00b552ee9c81",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
