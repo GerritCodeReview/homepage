@@ -10,3 +10,4 @@ toc: false
 
 * [Use Cases](/design-docs/code-search-use-cases.html)
 * [Solution: Gerrit-Aware Search Platform](/design-docs/code-search-solution.html)
+* [Conclusion](/design-docs/code-search-conclusion.html)
