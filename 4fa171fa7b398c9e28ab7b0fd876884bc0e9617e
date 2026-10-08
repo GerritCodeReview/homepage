@@ -20,6 +20,75 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "03d0180e_dc027da5",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-10-08T09:32:14Z",
+      "side": 1,
+      "message": "Mention, that gerrit oauth plugin and OAuth2 provider support that feature, and that the provider must be configured correspondingly.",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 0
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e5e79cb_6fdd28e9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-10-08T09:32:14Z",
+      "side": 1,
+      "message": "Mention this is only relevant for authentication scheme OAUTH.",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 26
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "022b9d3c_666e269b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-10-08T09:32:14Z",
+      "side": 1,
+      "message": "Wasn\u0027t that fixed by @nasser.grainawi@oss.qualcomm.com and H2 was upgraded to 2.5.250, see change 629161.",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 206,
+        "endChar": 55
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0c5c2633_7f9c133b",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 7
