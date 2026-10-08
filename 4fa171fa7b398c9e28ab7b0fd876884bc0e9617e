@@ -1,0 +1,232 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0acd55d2_76c3e71b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Did you perform a self-review of the AI-generated content?",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c5c2633_7f9c133b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1089,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Missing spaces between bullet points.\nLines are not word-wrapped.",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f23e49b5_91dffa42",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1098,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Missing spaces between bullet points.\nLines are not word-wrapped.",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb3e6289_414c1187",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1102,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Missing spaces between bullet points.\nLines are not word-wrapped.",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6e70bb0_d5c59a3f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1107,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Missing spaces between bullet points.\nLines are not word-wrapped.",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f24b2076_75431ef7",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1134,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Is this noteworthy?",
+      "range": {
+        "startLine": 1134,
+        "startChar": 56,
+        "endLine": 1134,
+        "endChar": 88
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4380dfc9_fd0d3ec7",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1141,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "The Dfs* code paths aren\u0027t used in Gerrit.",
+      "range": {
+        "startLine": 1140,
+        "startChar": 0,
+        "endLine": 1141,
+        "endChar": 110
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f048b7b5_8dccf813",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1154,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Checkout isn\u0027t used in Gerrit.",
+      "range": {
+        "startLine": 1154,
+        "startChar": 56,
+        "endLine": 1154,
+        "endChar": 64
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35c3ccea_80e805ee",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1157,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Missing spaces between the bullet points below.",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f9c2404_40227c9c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1214,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Danny who?",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1154c700_cd717841",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1225,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Sandeep who?",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "930e3aa9_5c3e480f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1237,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-08T06:24:59Z",
+      "side": 1,
+      "message": "Are you expecting the reviewer to do it?\nDumping the commits here in the change for review isn\u0027t really useful, we know how to use `git` 😊",
+      "range": {
+        "startLine": 1236,
+        "startChar": 0,
+        "endLine": 1237,
+        "endChar": 75
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
