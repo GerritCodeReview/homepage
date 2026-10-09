@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b75e2f06_a47f0aeb",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-09T10:45:56Z",
+      "side": 1,
+      "message": "I think this change (that landed in 3.15 [1]) fixes this problem @luca.milanesio@gmail.com?\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/629161",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 39
+      },
+      "revId": "ec62c5108a836c1bfbaf5c7ab7e35c49e55ed53a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
