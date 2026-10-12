@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c237c5b1_977a310e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-10-12T11:45:28Z",
+      "side": 1,
+      "message": "Mention bazel modules migration, as stated in milenstone site. Bzlmod migration was finalised.\nOld `maven_jar` home grown macro was removed. All plugins must migrate to bzlmod.",
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5411733a_351d01a3",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 2
@@ -186,6 +203,23 @@
         "endLine": 41,
         "endChar": 77
       },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26a6ae5f_20b6348f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-10-12T11:45:28Z",
+      "side": 1,
+      "message": "Mention: this is relevant for oauth authentication scheme only?\n\nMay be also say that oauth plugin must support these new features (oauth pkugin does support it).",
       "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
