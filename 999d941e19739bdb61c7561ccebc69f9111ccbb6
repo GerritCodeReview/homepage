@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5411733a_351d01a3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T11:22:37Z",
+      "side": 1,
+      "message": "```suggestion\nAn experimental _\"Stack Diff\"_ dialog, opened from the Relation Chain section, shows\n```\n\nDo you have any pointers to a screenshot of this dialog? AFAIK is a pop-up div, not a dialog box.",
+      "range": {
+        "startLine": 25,
+        "startChar": 16,
+        "endLine": 25,
+        "endChar": 26
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22833c30_b22640c2",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T11:22:37Z",
+      "side": 1,
+      "message": "Not sure if the dialog has any active workflow action. AFAIK is a pure visualization in a pop-up, that\u0027s it.",
+      "range": {
+        "startLine": 30,
+        "startChar": 12,
+        "endLine": 30,
+        "endChar": 22
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcc5f93d_0f08a55f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T11:22:37Z",
+      "side": 1,
+      "message": "Can you add a link to the documentation of the new APIs?",
+      "range": {
+        "startLine": 41,
+        "startChar": 63,
+        "endLine": 41,
+        "endChar": 77
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "828967e9_21d3f014",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T11:22:37Z",
+      "side": 1,
+      "message": "This is way too verbose. Just reduce to a single paragraph and report the link to the documentation.",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 83
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "070bf059_df256212",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T11:22:37Z",
+      "side": 1,
+      "message": "This is specific for the sharing of indexes between HA nodes. Create a separate `### High-Availability Configuration` section.",
+      "range": {
+        "startLine": 138,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 33
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
