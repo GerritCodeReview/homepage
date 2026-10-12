@@ -16,6 +16,24 @@
       "message": "The removal of Polymer probably wants to be mentioned.",
       "revId": "1feef377f9e18f9a46dae3623382cb9fda490b93",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81135c58_8ab0a062",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-12T14:38:07Z",
+      "side": 1,
+      "message": "This is only the highlights section, I don\u0027t believe the removal of Polymer has that big of an impact on end users?\n\nIt\u0027ll be mentioned in the front-end changes section, unless you think otherwise?",
+      "parentUuid": "f0991332_4a459d21",
+      "revId": "1feef377f9e18f9a46dae3623382cb9fda490b93",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
