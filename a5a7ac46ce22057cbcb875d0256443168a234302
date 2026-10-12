@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "321c18e7_6a72a649",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T10:53:08Z",
+      "side": 1,
+      "message": "Thanks for the additions: they were all missed because of the `Release-Notes: skip` footer, which indicates to the release manager that the changes are not worth mentioning.\n\nHowever, I\u0027ve reviewed them and agree they are valid improvements worth mentioning.",
+      "revId": "a5a7ac46ce22057cbcb875d0256443168a234302",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
