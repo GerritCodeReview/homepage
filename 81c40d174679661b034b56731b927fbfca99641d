@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4adf899_1c10cbe7",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T12:58:45Z",
+      "side": 1,
+      "message": "This is incorrect: I tried to post a review on the _stacked diff_ and could not post any comment.\nAre you sure that you can post comments on the diff view?\n\nSee https://review.gerrithub.io/c/GerritForge/pull-replication/+/1253336, click the \"Relation chain diff\" and try to post a comment on the unified diff view: can you post a comment there?",
+      "range": {
+        "startLine": 41,
+        "startChar": 15,
+        "endLine": 41,
+        "endChar": 79
+      },
+      "revId": "81c40d174679661b034b56731b927fbfca99641d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
