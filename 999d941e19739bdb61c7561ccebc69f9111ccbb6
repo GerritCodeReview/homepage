@@ -282,6 +282,30 @@
       },
       "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2259e0fc_9f007a94",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T11:40:48Z",
+      "side": 1,
+      "message": "The configuration is meant to be used with HA, not with Gerrit standalone, and is used to share indexes between nodes.",
+      "parentUuid": "f5343336_3c77ae30",
+      "range": {
+        "startLine": 138,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 33
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
