@@ -22,6 +22,30 @@
       },
       "revId": "d0034da9d7c842d1cf0b2bbadc5e3b5fdf2ea60a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e794c51e_33f41fc0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T13:28:26Z",
+      "side": 1,
+      "message": "I don\u0027t think so, https://gerrit-review.googlesource.com/c/gerrit/+/642003 is not included in stable-3.14.\n\nThe `chat-panel` endpoint did not exist in v3.14.",
+      "parentUuid": "6269698e_79c6e28f",
+      "range": {
+        "startLine": 25,
+        "startChar": 48,
+        "endLine": 26,
+        "endChar": 70
+      },
+      "revId": "d0034da9d7c842d1cf0b2bbadc5e3b5fdf2ea60a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
