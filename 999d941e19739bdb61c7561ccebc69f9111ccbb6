@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "64b96c63_d86cf860",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-12T11:36:51Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "5411733a_351d01a3",
+      "range": {
+        "startLine": 25,
+        "startChar": 16,
+        "endLine": 25,
+        "endChar": 26
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "22833c30_b22640c2",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-10-12T11:22:37Z",
       "side": 1,
       "message": "Not sure if the dialog has any active workflow action. AFAIK is a pure visualization in a pop-up, that\u0027s it.",
+      "range": {
+        "startLine": 30,
+        "startChar": 12,
+        "endLine": 30,
+        "endChar": 22
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9723d11_c7aa8c1c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-12T11:36:51Z",
+      "side": 1,
+      "message": "I didn\u0027t meant to link it to gerrit flows, I\u0027m trying to highlight that it allows working in a manner similar to PRs, but maybe we don\u0027t need to say it?",
+      "parentUuid": "22833c30_b22640c2",
       "range": {
         "startLine": 30,
         "startChar": 12,
@@ -93,6 +141,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0d119e5_73ff1d5a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-12T11:36:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "828967e9_21d3f014",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 83
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "070bf059_df256212",
@@ -106,6 +178,30 @@
       "writtenOn": "2026-10-12T11:22:37Z",
       "side": 1,
       "message": "This is specific for the sharing of indexes between HA nodes. Create a separate `### High-Availability Configuration` section.",
+      "range": {
+        "startLine": 138,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 33
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5343336_3c77ae30",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-12T11:36:51Z",
+      "side": 1,
+      "message": "The setting is in Gerrit Core and the setting itself is not related to HA?",
+      "parentUuid": "070bf059_df256212",
       "range": {
         "startLine": 138,
         "startChar": 0,
