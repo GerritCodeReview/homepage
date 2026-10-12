@@ -3,6 +3,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0e1e1123_1eabad6b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-12T07:51:48Z",
+      "side": 1,
+      "message": "```suggestion\nGerrit v3.15.x supports zero-downtime upgrade from Gerrit v3.14 when configured\n```",
+      "range": {
+        "startLine": 34,
+        "startChar": 58,
+        "endLine": 34,
+        "endChar": 63
+      },
+      "revId": "cf192d97ad3e558d3784e919e84376bfba6e7dce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72509469_0d4ff1dd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-12T07:51:48Z",
+      "side": 1,
+      "message": "```suggestion\n1. Have Gerrit servers running v3.14 in high-availability\n```",
+      "range": {
+        "startLine": 46,
+        "startChar": 31,
+        "endLine": 46,
+        "endChar": 36
+      },
+      "revId": "cf192d97ad3e558d3784e919e84376bfba6e7dce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "61da90eb_ba8d032b",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 2
