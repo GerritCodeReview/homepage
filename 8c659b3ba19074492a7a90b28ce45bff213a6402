@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43beca22_159fff82",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-12T13:36:41Z",
+      "side": 1,
+      "message": "```suggestion\nTo support the growing ecosystem of AI plugins, the UI introduces a dedicated plugin endpoint within the change view sidebar, called `chat-panel`, alongside a new\n```\n\nThe way it was phrased before it made me think we where adding an Agent Chat, which we already have. In reality what we\u0027re adding is a dedicated plugin endpoint for it.",
+      "range": {
+        "startLine": 25,
+        "startChar": 48,
+        "endLine": 26,
+        "endChar": 70
+      },
+      "revId": "8c659b3ba19074492a7a90b28ce45bff213a6402",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
