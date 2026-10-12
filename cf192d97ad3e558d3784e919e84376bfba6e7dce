@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "48df067b_3794e344",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T10:47:11Z",
+      "side": 1,
+      "message": "No, this is correct. There are no schema changes between v3.13 and v3.14, therefore you can upgrade from v3.13 to v3.15 directly.\n\nSee https://www.gerritcodereview.com/3.14.html#schema-and-index-changes",
+      "parentUuid": "0e1e1123_1eabad6b",
+      "range": {
+        "startLine": 34,
+        "startChar": 58,
+        "endLine": 34,
+        "endChar": 63
+      },
+      "revId": "cf192d97ad3e558d3784e919e84376bfba6e7dce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "72509469_0d4ff1dd",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "93537800_badb60ab",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T10:47:11Z",
+      "side": 1,
+      "message": "No, this is correct, see https://www.gerritcodereview.com/3.14.html#schema-and-index-changes.",
+      "parentUuid": "72509469_0d4ff1dd",
+      "range": {
+        "startLine": 46,
+        "startChar": 31,
+        "endLine": 46,
+        "endChar": 36
+      },
+      "revId": "cf192d97ad3e558d3784e919e84376bfba6e7dce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "61da90eb_ba8d032b",
@@ -60,6 +108,24 @@
       "writtenOn": "2026-10-12T07:48:37Z",
       "side": 1,
       "message": "In 3.13/3.14 we were also menthining the migration to H2 as a known issue: https://www.gerritcodereview.com/3.13.html#known-issues\n\nI believe this is still the case.",
+      "revId": "cf192d97ad3e558d3784e919e84376bfba6e7dce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eedbf518_e7be25a8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T10:47:11Z",
+      "side": 1,
+      "message": "No, the issue has been fixed, see https://gerrit-review.googlesource.com/c/homepage/+/641924/comment/b75e2f06_a47f0aeb/.",
+      "parentUuid": "61da90eb_ba8d032b",
       "revId": "cf192d97ad3e558d3784e919e84376bfba6e7dce",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
