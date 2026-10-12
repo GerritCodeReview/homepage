@@ -121,6 +121,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4eab43c1_b19c10bd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-12T11:39:57Z",
+      "side": 1,
+      "message": "Maybe just mention \"diff display\" similar to PRs?\nNothing has changed in terms of the Gerrit workflow for making it similar to PR; it\u0027s just a combined display.",
+      "parentUuid": "c9723d11_c7aa8c1c",
+      "range": {
+        "startLine": 30,
+        "startChar": 12,
+        "endLine": 30,
+        "endChar": 22
+      },
+      "revId": "999d941e19739bdb61c7561ccebc69f9111ccbb6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bcc5f93d_0f08a55f",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 2
