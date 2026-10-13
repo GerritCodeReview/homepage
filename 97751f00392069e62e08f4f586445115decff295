@@ -1,0 +1,314 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "341e2f52_cacaedc9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "The _from 185_ depends from which version is are upgrading from.",
+      "range": {
+        "startLine": 172,
+        "startChar": 33,
+        "endLine": 172,
+        "endChar": 43
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a83b3529_2342b255",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "This is useful information; thanks for adding it.",
+      "range": {
+        "startLine": 174,
+        "startChar": 0,
+        "endLine": 179,
+        "endChar": 11
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1423dd73_d36efffc",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "Well spotted! 👍",
+      "range": {
+        "startLine": 191,
+        "startChar": 0,
+        "endLine": 192,
+        "endChar": 70
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70f4361f_4c1f20cc",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "It is already mentioned at L48. Maybe just add a link instead of repeating the instructions?",
+      "range": {
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 44
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a97a20c_0bcd1ccb",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "No, it supports migration from v3.13 because v3.13 and v3.14 have the same schema version.",
+      "range": {
+        "startLine": 203,
+        "startChar": 58,
+        "endLine": 203,
+        "endChar": 63
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fb3b11c_8dda827b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "```suggestion\n1. Have Gerrit servers running v3.13/v3.14 in high-availability\n```",
+      "range": {
+        "startLine": 215,
+        "startChar": 31,
+        "endLine": 215,
+        "endChar": 36
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b82acff6_9b61dbf6",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "```suggestion\n  v3.13/v3.14 servers refuse to start once the first server has migrated the schema.\n```",
+      "range": {
+        "startLine": 228,
+        "startChar": 2,
+        "endLine": 228,
+        "endChar": 8
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "406d10cf_8a9fa0fa",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "```suggestion\nDowngrade to Gerrit v3.13 or v3.14 is possible, but requires the following manual steps:\n```",
+      "range": {
+        "startLine": 233,
+        "startChar": 20,
+        "endLine": 233,
+        "endChar": 25
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6576360_498f5a3c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "```suggestion\n2. Set `gerrit.experimentalRollingUpgrade \u003d true` in `gerrit.config`: v3.13/v3.14\n```",
+      "range": {
+        "startLine": 236,
+        "startChar": 70,
+        "endLine": 236,
+        "endChar": 75
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dffccf3e_1d34f441",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "```suggestion\n3. Rollback the gerrit.war and plugins to the previous v3.13/v3.14 version\n```",
+      "range": {
+        "startLine": 238,
+        "startChar": 55,
+        "endLine": 238,
+        "endChar": 60
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d15829b0_a99c80b4",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "```suggestion\n4. Run the full reindex with the v3.13/v3.14 `gerrit.war`, because the old\n```",
+      "range": {
+        "startLine": 239,
+        "startChar": 33,
+        "endLine": 239,
+        "endChar": 39
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7db2906_d8780667",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "You need to specify what happens though, because depending on the old version they may be ignored or considered.",
+      "range": {
+        "startLine": 244,
+        "startChar": 39,
+        "endLine": 245,
+        "endChar": 22
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f394450c_3bfa390c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "Issue link?",
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f872595_c0224d8f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-13T15:05:59Z",
+      "side": 1,
+      "message": "Issue link?",
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
