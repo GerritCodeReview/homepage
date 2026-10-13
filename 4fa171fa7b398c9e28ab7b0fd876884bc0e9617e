@@ -176,6 +176,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "015970fe_ecb5fd26",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1089,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c5c2633_7f9c133b",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f23e49b5_91dffa42",
@@ -189,6 +207,24 @@
       "writtenOn": "2026-10-08T06:24:59Z",
       "side": 1,
       "message": "Missing spaces between bullet points.\nLines are not word-wrapped.",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de61ad35_f1656b4e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1098,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f23e49b5_91dffa42",
       "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -210,6 +246,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d48cc31f_5bccc4d7",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1102,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb3e6289_414c1187",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c6e70bb0_d5c59a3f",
@@ -227,6 +281,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6100178f_0c4b6fd2",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1107,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c6e70bb0_d5c59a3f",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f24b2076_75431ef7",
@@ -240,6 +312,30 @@
       "writtenOn": "2026-10-08T06:24:59Z",
       "side": 1,
       "message": "Is this noteworthy?",
+      "range": {
+        "startLine": 1134,
+        "startChar": 56,
+        "endLine": 1134,
+        "endChar": 88
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92ac973b_c5453fee",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1134,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f24b2076_75431ef7",
       "range": {
         "startLine": 1134,
         "startChar": 56,
@@ -273,6 +369,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fd197e7_b4119a21",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1141,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4380dfc9_fd0d3ec7",
+      "range": {
+        "startLine": 1140,
+        "startChar": 0,
+        "endLine": 1141,
+        "endChar": 110
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f048b7b5_8dccf813",
@@ -296,6 +416,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "54e13607_a7872693",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1154,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f048b7b5_8dccf813",
+      "range": {
+        "startLine": 1154,
+        "startChar": 56,
+        "endLine": 1154,
+        "endChar": 64
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "35c3ccea_80e805ee",
@@ -309,6 +453,24 @@
       "writtenOn": "2026-10-08T06:24:59Z",
       "side": 1,
       "message": "Missing spaces between the bullet points below.",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "98089503_1c0642c4",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1157,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35c3ccea_80e805ee",
       "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -361,6 +523,24 @@
       "writtenOn": "2026-10-08T06:24:59Z",
       "side": 1,
       "message": "Sandeep who?",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0edd74e0_879acd1b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1225,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:40:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1154c700_cd717841",
       "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
