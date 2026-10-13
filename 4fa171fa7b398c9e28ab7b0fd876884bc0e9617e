@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "270e8794_09af3c2a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:36:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "03d0180e_dc027da5",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 0
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e5e79cb_6fdd28e9",
@@ -64,6 +88,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6401ca6_08f86fdc",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:36:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e5e79cb_6fdd28e9",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 26
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "022b9d3c_666e269b",
@@ -77,6 +125,30 @@
       "writtenOn": "2026-10-08T09:32:14Z",
       "side": 1,
       "message": "Wasn\u0027t that fixed by @nasser.grainawi@oss.qualcomm.com and H2 was upgraded to 2.5.250, see change 629161.",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 206,
+        "endChar": 55
+      },
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae7d1e13_1a2db94c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:36:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "022b9d3c_666e269b",
       "range": {
         "startLine": 200,
         "startChar": 0,
@@ -254,6 +326,24 @@
       "writtenOn": "2026-10-08T06:24:59Z",
       "side": 1,
       "message": "Danny who?",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc567b24_3899ea85",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1214,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-13T12:36:25Z",
+      "side": 1,
+      "message": "`Danny \u003cdannyc@arista.com\u003e` is all we have. Want me to remove it if we don\u0027t have a surname?",
+      "parentUuid": "4f9c2404_40227c9c",
       "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
