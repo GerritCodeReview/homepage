@@ -95,6 +95,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a301faa5_8f7ae109",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-14T20:38:03Z",
+      "side": 1,
+      "message": "Isn\u0027t this said in the release highlights already?",
+      "range": {
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 44
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4a97a20c_0bcd1ccb",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 1
