@@ -46,6 +46,30 @@
       },
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55109e78_ce9cb215",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-15T19:25:33Z",
+      "side": 1,
+      "message": "Yeah, I see your point. If we rename this to `Upgrade with Downtime`, would we rename the section below to `Upgrade with Zero-Downtime` (omitting the \"Online\" part)? Or maybe we should change L196 to `Upgrading` and increase the heading level of `Known issues`?\n\nIt also seems like it would be nice to have our sections as `Upgrading from v3.13` and `Upgrading from an earlier 3.x version`. That\u0027s probably clearer to most users vs offline/online. Then under the from v3.13 section we can have info about zero downtime vs with downtime and we can point to the \"from an earlier 3.x\" section as the reference for choosing to do offline reindexing.\n\nWhat do you think of that? And also, I\u0027m ok with a smaller change for 3.14 and maybe we do more of the bigger changes I\u0027m thinking of for the 3.15 release we\u0027re working on now.",
+      "parentUuid": "cdd6f563_d69f9734",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 213,
+        "endChar": 83
+      },
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
