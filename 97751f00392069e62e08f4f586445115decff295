@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "43f8bca6_9c1cdd97",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "341e2f52_cacaedc9",
+      "range": {
+        "startLine": 172,
+        "startChar": 33,
+        "endLine": 172,
+        "endChar": 43
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "a83b3529_2342b255",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 1
@@ -116,6 +140,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "484ec235_a7f309ab",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70f4361f_4c1f20cc",
+      "range": {
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 44
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec563d78_f962571e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a301faa5_8f7ae109",
+      "range": {
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 44
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4a97a20c_0bcd1ccb",
@@ -129,6 +201,30 @@
       "writtenOn": "2026-10-13T15:05:59Z",
       "side": 1,
       "message": "No, it supports migration from v3.13 because v3.13 and v3.14 have the same schema version.",
+      "range": {
+        "startLine": 203,
+        "startChar": 58,
+        "endLine": 203,
+        "endChar": 63
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18db69c0_9fa39b96",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a97a20c_0bcd1ccb",
       "range": {
         "startLine": 203,
         "startChar": 58,
@@ -162,6 +258,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7dcbe7b9_7009dd34",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0fb3b11c_8dda827b",
+      "range": {
+        "startLine": 215,
+        "startChar": 31,
+        "endLine": 215,
+        "endChar": 36
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b82acff6_9b61dbf6",
@@ -175,6 +295,30 @@
       "writtenOn": "2026-10-13T15:05:59Z",
       "side": 1,
       "message": "```suggestion\n  v3.13/v3.14 servers refuse to start once the first server has migrated the schema.\n```",
+      "range": {
+        "startLine": 228,
+        "startChar": 2,
+        "endLine": 228,
+        "endChar": 8
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a19f983_38bd123a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b82acff6_9b61dbf6",
       "range": {
         "startLine": 228,
         "startChar": 2,
@@ -208,6 +352,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "666fc480_0eda76da",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "406d10cf_8a9fa0fa",
+      "range": {
+        "startLine": 233,
+        "startChar": 20,
+        "endLine": 233,
+        "endChar": 25
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b6576360_498f5a3c",
@@ -221,6 +389,30 @@
       "writtenOn": "2026-10-13T15:05:59Z",
       "side": 1,
       "message": "```suggestion\n2. Set `gerrit.experimentalRollingUpgrade \u003d true` in `gerrit.config`: v3.13/v3.14\n```",
+      "range": {
+        "startLine": 236,
+        "startChar": 70,
+        "endLine": 236,
+        "endChar": 75
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4caa5d84_2e2351ba",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6576360_498f5a3c",
       "range": {
         "startLine": 236,
         "startChar": 70,
@@ -254,6 +446,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a54ab6f_cbd95ff9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dffccf3e_1d34f441",
+      "range": {
+        "startLine": 238,
+        "startChar": 55,
+        "endLine": 238,
+        "endChar": 60
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d15829b0_a99c80b4",
@@ -267,6 +483,30 @@
       "writtenOn": "2026-10-13T15:05:59Z",
       "side": 1,
       "message": "```suggestion\n4. Run the full reindex with the v3.13/v3.14 `gerrit.war`, because the old\n```",
+      "range": {
+        "startLine": 239,
+        "startChar": 33,
+        "endLine": 239,
+        "endChar": 39
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f7daed7_38b7e104",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d15829b0_a99c80b4",
       "range": {
         "startLine": 239,
         "startChar": 33,
@@ -300,6 +540,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8260bace_49d3e546",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7db2906_d8780667",
+      "range": {
+        "startLine": 244,
+        "startChar": 39,
+        "endLine": 245,
+        "endChar": 22
+      },
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f394450c_3bfa390c",
@@ -317,6 +581,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3aadc985_24bfd476",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f394450c_3bfa390c",
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f872595_c0224d8f",
@@ -330,6 +612,24 @@
       "writtenOn": "2026-10-13T15:05:59Z",
       "side": 1,
       "message": "Issue link?",
+      "revId": "97751f00392069e62e08f4f586445115decff295",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9dcd4ee2_ad7053cd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1025452
+      },
+      "writtenOn": "2026-10-15T07:28:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f872595_c0224d8f",
       "revId": "97751f00392069e62e08f4f586445115decff295",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
