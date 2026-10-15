@@ -22,6 +22,30 @@
       },
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cdd6f563_d69f9734",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 5236794
+      },
+      "writtenOn": "2026-10-15T18:01:15Z",
+      "side": 1,
+      "message": "I guess in my mind this is still an offline upgrade as you have to stop then start Gerrit. But the amount of time spent offline is minimized by being able to perform the reindex online. That is why I put it into this section.\n\nI think the only way to do a truly online upgrade is with the HA setup and that is document just below my edits.\n\nLet me know if you still think we should rename the section. Maybe `Upgrade with Downtime`? That can include a note that if you are not running HA then downtime is required to upgrade Gerrit. Then have the condition on whether or not offline reindexing is required based on what version you are upgrading from.\n\nI do think having the caveat about why you might still prefer offline reindexing is also worth including. Let me know if those edits make sense and I\u0027ll get them pushed up.",
+      "parentUuid": "62a788d4_405eebc0",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 213,
+        "endChar": 83
+      },
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
