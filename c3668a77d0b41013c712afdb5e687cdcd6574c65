@@ -70,6 +70,47 @@
       },
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6badfd2a_1d0a37da",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T19:46:12Z",
+      "side": 1,
+      "message": "\u003e Yeah, I see your point. If we rename this to `Upgrade with Downtime`, would we rename the section below to `Upgrade with Zero-Downtime` (omitting the \"Online\" part)? Or maybe we should change L196 to `Upgrading` and increase the heading level of `Known issues`?\n\nI would still separate the two sections into \"Offline upgrade\" and \"Online upgrade\". They both require downtime, so they are separate from the section \"Online upgrade with zero-downtime\".\n\n\u003e It also seems like it would be nice to have our sections as `Upgrading from v3.13` and `Upgrading from an earlier 3.x version`.\n\nThe \"Upgrading from an earlier 3.x version\" chapter would be very long, because the instructions can vary depending on the source version. I\u0027ve spent about 45 minutes explaining this during a past migration talk at the user summits.",
+      "parentUuid": "55109e78_ce9cb215",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 213,
+        "endChar": 83
+      },
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "273fb246_1b70f62e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T19:46:12Z",
+      "side": 1,
+      "message": "The above may not be needed if the system did not receive any write traffic whilst it was on v3.14.",
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
