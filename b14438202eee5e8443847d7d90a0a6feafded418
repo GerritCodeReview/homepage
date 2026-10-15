@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30324043_a5c86b7d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T13:49:28Z",
+      "side": 1,
+      "message": "This is stale.",
+      "range": {
+        "startLine": 11,
+        "startChar": 28,
+        "endLine": 11,
+        "endChar": 56
+      },
+      "revId": "b14438202eee5e8443847d7d90a0a6feafded418",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d10aaa21_7e5a24a4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T13:49:28Z",
+      "side": 1,
+      "message": "We may want to indicate that schema 186 is a noop.",
+      "range": {
+        "startLine": 12,
+        "startChar": 20,
+        "endLine": 12,
+        "endChar": 67
+      },
+      "revId": "b14438202eee5e8443847d7d90a0a6feafded418",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "947c75b5_29f3dac0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T13:49:28Z",
+      "side": 1,
+      "message": "No, `Schema_186` is a no-op.",
+      "range": {
+        "startLine": 175,
+        "startChar": 0,
+        "endLine": 176,
+        "endChar": 38
+      },
+      "revId": "b14438202eee5e8443847d7d90a0a6feafded418",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2bdaeaa_c1701f1d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T13:49:28Z",
+      "side": 1,
+      "message": "Should this be listed as a prerequisite? You can\u0027t really start the upgrade procedure if you haven\u0027t upgraded to Java 25 first.",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 22
+      },
+      "revId": "b14438202eee5e8443847d7d90a0a6feafded418",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0e8a6ad_7b1c8456",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T13:49:28Z",
+      "side": 1,
+      "message": "We would also add an `Online upgrade with limited downtime` which includes only the stop, init, and start phases and relies on the online reindex.",
+      "revId": "b14438202eee5e8443847d7d90a0a6feafded418",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1eabb115_ad2056e8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T13:49:28Z",
+      "side": 1,
+      "message": "This `postReviewComment` doesn\u0027t exist anymore: it has be totally removed and its change reverted.",
+      "range": {
+        "startLine": 245,
+        "startChar": 4,
+        "endLine": 245,
+        "endChar": 23
+      },
+      "revId": "b14438202eee5e8443847d7d90a0a6feafded418",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92658bfa_fb08de1c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-15T13:49:28Z",
+      "side": 1,
+      "message": "The `postReviewComment` is always ignored and not even granted anymore.",
+      "range": {
+        "startLine": 249,
+        "startChar": 31,
+        "endLine": 250,
+        "endChar": 19
+      },
+      "revId": "b14438202eee5e8443847d7d90a0a6feafded418",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
