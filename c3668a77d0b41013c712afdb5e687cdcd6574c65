@@ -98,6 +98,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bceaf6be_f1dcdc41",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 5236794
+      },
+      "writtenOn": "2026-10-15T20:47:39Z",
+      "side": 1,
+      "message": "Sorry I missed this feedback from Luca while I was updating the change. Do you think the way I\u0027ve written patchset 2 based on Nasser\u0027s feedback works? You are right that the older gerrit versions may require additional steps. I tried to point people at those without being too specific.\n\nIf you think that is problematic I can continue to edit to try and find a workable solution.",
+      "parentUuid": "6badfd2a_1d0a37da",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 213,
+        "endChar": 83
+      },
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "273fb246_1b70f62e",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 1
