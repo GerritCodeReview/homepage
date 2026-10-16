@@ -159,6 +159,24 @@
       "message": "The above may not be needed if the system did not receive any write traffic whilst it was on v3.14.",
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3657698_72120f45",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 5236794
+      },
+      "writtenOn": "2026-10-16T20:40:05Z",
+      "side": 1,
+      "message": "Do we want to call that out here? I think what is important for Gerrit operators to know is that you can downgrade and that there is a path forward. If I\u0027m considering a downgrade I\u0027m already probably having a worse outage than I anticipated and trying to sort out conditions like whether or not any changes got modified in that window is mental overhead that may not be worthwhile.",
+      "parentUuid": "273fb246_1b70f62e",
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

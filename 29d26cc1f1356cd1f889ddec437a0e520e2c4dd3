@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d467903_08b89c91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5236794
+      },
+      "writtenOn": "2026-10-16T20:40:05Z",
+      "side": 1,
+      "message": "One thing I\u0027m trying to keep in mind as we make these edits is what is relevant to a large cross section of Gerrit operators. For me at least knowing that an online reindex on upgrade is possible is important. As is knowing that a downgrade is possible. I will test both in our test environment before we proceed with any upgrade. Details like checking results of reindexing and knowing that you only need to reindex on a downgrade if changes were modified/pushed to during the time after upgrade and before downgrade are probably less important.\n\nEssentially I want to know what the happy paths are and that there is an outlet if the worst happens. Then I can sort out the details via CI and our test environment. But without knowing that these happy paths exist and that there is a downgrade path I\u0027m left questioning if the fact they work in our CI system or in test envs is a fluke or intended. Communicating the big picture these things are intended is my main motivation with this change.",
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f69fad81_ba97131b",
@@ -61,6 +78,30 @@
       "side": 1,
       "message": "I\u0027m fine if you want to remove the performance note. I\u0027m not sure how you\u0027re thinking those two options should be written out though.",
       "parentUuid": "f69fad81_ba97131b",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 40
+      },
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89ad67fc_581dad5d",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 5236794
+      },
+      "writtenOn": "2026-10-16T20:40:05Z",
+      "side": 1,
+      "message": "Are we thinking something like:\n\n```\n#### Upgrade from Gerrit v3.13 to v3.14\n\n##### Upgrade with an online reindex\n\n- Stop Gerrit\n- Download the new `gerrit.war` and move it to `$GERRIT_SITE/bin`\n- Extract all the plugins from `gerrit.war` and move the ones needed into `$GERRIT_SITE/plugins`\n- Start Gerrit\n- Confirm online reindexing of the Changes index from version v87 to v88 completes via the Gerrit error_log\n\n##### Upgrade with an offline reindex\n\n- Stop Gerrit\n- Download the new `gerrit.war` and move it to `$GERRIT_SITE/bin`\n- Extract all the plugins from `gerrit.war` and move the ones needed into `$GERRIT_SITE/plugins`\n- Run the full reindex:\n  `java -jar $GERRIT_SITE/bin/gerrit.war reindex --index changes -d $GERRIT_SITE`\n- Check the reindex results for successful completion\n- Start Gerrit\n```",
+      "parentUuid": "43a9f8d5_be5d8bda",
       "range": {
         "startLine": 241,
         "startChar": 0,
