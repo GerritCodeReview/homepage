@@ -486,6 +486,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "608ad1c4_c93470a3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 346,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-16T22:18:04Z",
+      "side": 1,
+      "message": "Yeah, which is no longer accepted, so it\u0027s a breaking change.\n\nAm I missing something?",
+      "parentUuid": "e3b8501b_4dcd4d0e",
+      "range": {
+        "startLine": 345,
+        "startChar": 0,
+        "endLine": 346,
+        "endChar": 65
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e049f079_cc06087a",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 20
