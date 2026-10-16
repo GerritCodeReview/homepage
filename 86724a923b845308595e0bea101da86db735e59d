@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "885104b1_aea445f9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 683,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-16T15:19:18Z",
+      "side": 1,
+      "message": "```suggestion\n  `sshd.backend \u003d MINA`.\n```",
+      "range": {
+        "startLine": 683,
+        "startChar": 24,
+        "endLine": 683,
+        "endChar": 30
+      },
+      "revId": "86724a923b845308595e0bea101da86db735e59d",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
