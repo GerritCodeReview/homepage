@@ -34,6 +34,52 @@
       "parentUuid": "d72d8356_07a7969b",
       "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38393ed2_35686a98",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T19:33:48Z",
+      "side": 1,
+      "message": "The `DefaultLockManager` uses an in-memory structure of striped locks: how can the same JVM have v3.13 and v3.15 active at the same time?\n\nIf a plugin implements and binds a custom lock manager, it should be documented in the plugin\u0027s upgrade instructions. We cannot cover the documentation for all the hundreds of Gerrit plugins here.",
+      "range": {
+        "startLine": 247,
+        "startChar": 0,
+        "endLine": 251,
+        "endChar": 57
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9342002c_544ef1d6",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T19:33:48Z",
+      "side": 1,
+      "message": "The `contrib/*` files aren\u0027t part of the Gerrit distribution; therefore, they are never mentioned in the release notes.",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 321,
+        "endChar": 78
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
