@@ -70,6 +70,30 @@
       },
       "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1de24564_c2b289b2",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:44:12Z",
+      "side": 1,
+      "message": "True, we can create a new `Deprecated Features` section; that\u0027s a good idea.\nSo that people have an early warning of what will disappear soon.",
+      "parentUuid": "8d625832_096361a8",
+      "range": {
+        "startLine": 320,
+        "startChar": 0,
+        "endLine": 329,
+        "endChar": 53
+      },
+      "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

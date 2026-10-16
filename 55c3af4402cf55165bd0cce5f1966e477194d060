@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "877b490f_d15dce81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 20
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:44:12Z",
+      "side": 1,
+      "message": "The change was merged 12 months ago; how can this possibly be a _new feature_ of v3.15?\n\nWe include any new changes from the *latest release* before releasing v3.15.0.\n\nv3.13.2 isn\u0027t really the latest release before v3.15.0.",
+      "parentUuid": "67d16542_a1d043c6",
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d72d8356_07a7969b",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 20
