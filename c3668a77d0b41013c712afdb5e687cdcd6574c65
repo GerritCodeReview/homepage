@@ -120,6 +120,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "436c0cf6_48acf854",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T19:23:04Z",
+      "side": 1,
+      "message": "I\u0027ve applied @nasser.grainawi@oss.qualcomm.com\u0027s suggestion: it is impossible to code all the different combinations; it would be a very long chapter.\n\nA generic description is more than enough, and then a long research and the development of an upgrade plan *IS* the action needed by the Gerrit admin, which cannot be encoded here, as it would require too much detail.",
+      "parentUuid": "bceaf6be_f1dcdc41",
+      "range": {
+        "startLine": 212,
+        "startChar": 0,
+        "endLine": 213,
+        "endChar": 83
+      },
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "273fb246_1b70f62e",

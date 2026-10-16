@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f69fad81_ba97131b",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T19:23:04Z",
+      "side": 1,
+      "message": "It isn\u0027t as simple as that, unfortunately.\n\nOnline reindex and offline reindex are fundamentally different. With regard to performance, the code is the same, so they perform the same; the only difference is that online could be faster because it has all the power of Gerrit injections available, which aren\u0027t available for the offline reindex.\n\nI am not sure we want to add all those details here.\n\nWe should just limit the steps to two options:\n\na) Online reindex: just do nothing and restart Gerrit\nb) Offline reindex: after you\u0027ve stopped Gerrit, run the following command ...",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 40
+      },
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1da523dc_c002b9f6",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T19:23:04Z",
+      "side": 1,
+      "message": "If you are using the online reindex, you must also wait for the reindexing to finish and check the errors.\nIf the online reindex fails, you end up with a Gerrit using an old index, and the online reindex will kick in every single time you start Gerrit.",
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
