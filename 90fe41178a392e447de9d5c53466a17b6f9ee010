@@ -94,6 +94,30 @@
       },
       "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8034671f_332694c7",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-16T21:45:00Z",
+      "side": 1,
+      "message": "I\u0027ve thought about this in previous release notes too, we\u0027ve never had such section so I opted to not add it, but yeah, it\u0027s a consideration I had too.",
+      "parentUuid": "8d625832_096361a8",
+      "range": {
+        "startLine": 320,
+        "startChar": 0,
+        "endLine": 329,
+        "endChar": 53
+      },
+      "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
