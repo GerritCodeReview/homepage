@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f5346207_a0a5fff6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 20
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:23:26Z",
+      "side": 1,
+      "message": "It looks like you are including fixes that were cherry-picked to older releases (see https://gerrit-review.googlesource.com/c/gerrit/+/528741, which has been released from v3.13.2 onwards.\n\nCan you review the full list of changes/issues mentioned and ensure that they have not already been released before v3.15?\n\nWe mention in the release notes whatever changed from the *LAST* release up to v3.15.0, not everything included in stable-3.15, which also includes all past changes.",
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d72d8356_07a7969b",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 20
@@ -157,6 +174,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d3d2dac3_98b6b3c0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:23:26Z",
+      "side": 1,
+      "message": "Well, you should remove it, but it *may be kept* for the reasons you mention below.",
+      "range": {
+        "startLine": 267,
+        "startChar": 43,
+        "endLine": 267,
+        "endChar": 51
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77fa7f5d_1310442c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 284,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:23:26Z",
+      "side": 1,
+      "message": "I would either remove them or wait until someone raises them against v3.15.0.\nIf you have personally verified them, then they can stay.",
+      "range": {
+        "startLine": 275,
+        "startChar": 0,
+        "endLine": 284,
+        "endChar": 68
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9342002c_544ef1d6",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 20
@@ -221,6 +284,121 @@
         "startChar": 0,
         "endLine": 321,
         "endChar": 78
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "191399a0_54034b54",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:23:26Z",
+      "side": 1,
+      "message": "Mention the feature flag to keep the behavior in v3.15 as well, if anyone liked it and wanted to keep it as-is.",
+      "range": {
+        "startLine": 328,
+        "startChar": 2,
+        "endLine": 329,
+        "endChar": 57
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "185c4fc1_b1197075",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:23:26Z",
+      "side": 1,
+      "message": "Well, this is a bug we should fix IMHO. Can you raise it and report it as a known issue?\n\nThe migration to a default-deny was supposed to preserve the behavior of existing sites; however, you are saying that if there was a `DENY` rule for some group, it now applies to everyone because the default grant isn\u0027t added during migration.",
+      "range": {
+        "startLine": 336,
+        "startChar": 63,
+        "endLine": 337,
+        "endChar": 23
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3b8501b_4dcd4d0e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 346,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:23:26Z",
+      "side": 1,
+      "message": "Wasn\u0027t this feature previously used only for change numbers?",
+      "range": {
+        "startLine": 345,
+        "startChar": 0,
+        "endLine": 346,
+        "endChar": 65
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e049f079_cc06087a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:23:26Z",
+      "side": 1,
+      "message": "Not sure this is breaking any interface or functionality.\nIt looks more like an evolution of the notification feature to me, or a bug fix.\n\nNotifying of WIP changes seemed wrong to me; it is a change in behavior but does not break any interface.",
+      "range": {
+        "startLine": 356,
+        "startChar": 0,
+        "endLine": 363,
+        "endChar": 56
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9bc7242_682cdd42",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:23:26Z",
+      "side": 1,
+      "message": "This isn\u0027t a breaking change:\n\n- It is a bug fix for a problem reported by HRT\n- It is fixed from v3.13 onwards\n\nIt should not be reported here in v3.15, but rather in the v3.13 patch release notes and onward.",
+      "range": {
+        "startLine": 365,
+        "startChar": 0,
+        "endLine": 372,
+        "endChar": 73
       },
       "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
