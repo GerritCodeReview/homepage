@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "67d16542_a1d043c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 20
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T21:39:58Z",
+      "side": 1,
+      "message": "How do we define \"last release\"? Does that mean 3.14.0 or the latest 3.14.x? Whichever we pick, how about we put it in the notes somewhere \"Change since 3.14...\"?",
+      "parentUuid": "f5346207_a0a5fff6",
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d72d8356_07a7969b",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 20
@@ -279,6 +297,30 @@
       "side": 1,
       "message": "\u003e That seems like an odd rule. Why does it matter if they\u0027re not in the distribution?\n\nNothing against documenting it in the project source tree, but this file is the release notes for the v3.15.0 release.\n\nWhoever wants to download the `/contrib` files needs to fetch them from the source tree; therefore, the documentation should be located there.",
       "parentUuid": "94cb4949_bb505fc8",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 321,
+        "endChar": 78
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "decf0561_cee0c66b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T21:39:58Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "f80161a6_effc726c",
       "range": {
         "startLine": 316,
         "startChar": 0,

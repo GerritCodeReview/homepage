@@ -46,6 +46,30 @@
       },
       "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d625832_096361a8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T21:39:58Z",
+      "side": 1,
+      "message": "How about a section for deprecations? It\u0027s like \"upcoming breaking change\" 😊",
+      "parentUuid": "8d02da80_108ee335",
+      "range": {
+        "startLine": 320,
+        "startChar": 0,
+        "endLine": 329,
+        "endChar": 53
+      },
+      "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
