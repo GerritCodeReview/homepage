@@ -177,6 +177,24 @@
       "parentUuid": "273fb246_1b70f62e",
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0e22a16_a7fbf96f",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:34:26Z",
+      "side": 1,
+      "message": "In my personal experience, when you decide to rollback, it\u0027s because you tried everything you could to roll forward and that didn\u0027t work.\n\nGoing through a full offline reindex *again* is painful and long. *IF* the system was not used by the end users *OR* it was used for a small amount of time, it is way better to just flag the old index as active and downgrade.\n\nIf anything in the old index is missing, it is way faster to just reindex those changes or those projects, rather than going *again* through a full offline reindexing.",
+      "parentUuid": "f3657698_72120f45",
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

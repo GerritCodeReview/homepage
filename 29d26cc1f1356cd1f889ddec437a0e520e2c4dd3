@@ -114,6 +114,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d9d472f_9faf24d3",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:34:26Z",
+      "side": 1,
+      "message": "👍",
+      "parentUuid": "89ad67fc_581dad5d",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 40
+      },
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1da523dc_c002b9f6",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 3
@@ -143,6 +167,24 @@
       "side": 1,
       "message": "That\u0027s also missing from the zero-downtime steps then too, correct? I added this in my suggestion above.",
       "parentUuid": "1da523dc_c002b9f6",
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e904a17_cc506cbd",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T21:34:26Z",
+      "side": 1,
+      "message": "True, it is missing there as well.\n\nIt is _implicitly_ said on:\n_\"5. Ensure the Gerrit server is fully caught up with the events that happened while\n   it was down before directing traffic to it.\"_\n   \nBeing more explicit would be helpful indeed.",
+      "parentUuid": "1cd0fc85_b84a52f3",
       "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
