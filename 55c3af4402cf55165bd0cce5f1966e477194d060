@@ -491,6 +491,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "dbb54e43_a33c34ba",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T22:08:31Z",
+      "side": 1,
+      "message": "Well, we constantly change the way Gerrit works, including notifications.\nIf any change in behavior is a _breaking change_, then this will be the only section with a list of items, apart from the pure bug fixes.\n\nThe purpose of this section is to notify the Gerrit admin that any existing end-to-end functionality will break if they upgrade, and they\u0027ll need to change something (config, rules, scripts, other apps) to make it work again.\n\nExample 1: I am calling a REST API/foo with parameter bar\u003d1, but in v3.15, if I make the same call, it returns a 400, and I need to change it by amending the parameter to bar\u003d2.\n\nExample 2: I am calling the `gerrit show-caches` SSH command and parsing the output ... but the output doesn\u0027t include the stats anymore, and my script would fail. I read the release notes, and I understand that by adding `include-diskstats\u003dtrue,` I can adapt my scripting and still fetch the statistics as I was doing before.",
+      "parentUuid": "d7d4bdd9_a6b19eb2",
+      "range": {
+        "startLine": 356,
+        "startChar": 0,
+        "endLine": 363,
+        "endChar": 56
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b9bc7242_682cdd42",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 20
@@ -526,6 +550,30 @@
       "side": 1,
       "message": "Again, this API",
       "parentUuid": "b9bc7242_682cdd42",
+      "range": {
+        "startLine": 365,
+        "startChar": 0,
+        "endLine": 372,
+        "endChar": 73
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42975e0a_45daf780",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T22:08:31Z",
+      "side": 1,
+      "message": "?",
+      "parentUuid": "8cce8cc7_0a7827d7",
       "range": {
         "startLine": 365,
         "startChar": 0,
