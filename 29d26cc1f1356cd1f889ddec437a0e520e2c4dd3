@@ -26,6 +26,53 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cf42b749_59f3c404",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T19:38:35Z",
+      "side": 1,
+      "message": "Attempted rewording\n\n```suggestion\n- (Optionally) Run the full reindex:\n  `java -jar $GERRIT_SITE/bin/gerrit.war reindex --index changes -d $GERRIT_SITE`\\\n  If this step is not performed, Gerrit v3.14 will begin an online reindex at startup\n  and you should confirm that it completes successfully. An offline reindex may be\n  preferable for some setups.\n```",
+      "range": {
+        "startLine": 239,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 40
+      },
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43a9f8d5_be5d8bda",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T19:38:35Z",
+      "side": 1,
+      "message": "I\u0027m fine if you want to remove the performance note. I\u0027m not sure how you\u0027re thinking those two options should be written out though.",
+      "parentUuid": "f69fad81_ba97131b",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 40
+      },
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1da523dc_c002b9f6",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 3
@@ -37,6 +84,24 @@
       "writtenOn": "2026-10-16T19:23:04Z",
       "side": 1,
       "message": "If you are using the online reindex, you must also wait for the reindexing to finish and check the errors.\nIf the online reindex fails, you end up with a Gerrit using an old index, and the online reindex will kick in every single time you start Gerrit.",
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1cd0fc85_b84a52f3",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T19:38:35Z",
+      "side": 1,
+      "message": "That\u0027s also missing from the zero-downtime steps then too, correct? I added this in my suggestion above.",
+      "parentUuid": "1da523dc_c002b9f6",
       "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
