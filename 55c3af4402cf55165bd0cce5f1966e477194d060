@@ -131,6 +131,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06ae424f_f73d8b69",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T20:53:52Z",
+      "side": 1,
+      "message": "You are right: this section assumes you\u0027re using the `high-availability` plugin; therefore, this warning is valid.",
+      "parentUuid": "1d784e9d_5b781ca8",
+      "range": {
+        "startLine": 247,
+        "startChar": 0,
+        "endLine": 251,
+        "endChar": 57
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9342002c_544ef1d6",
