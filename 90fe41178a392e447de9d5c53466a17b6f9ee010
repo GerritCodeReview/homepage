@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8edc9a7b_8a82d29c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-16T15:12:48Z",
+      "side": 1,
+      "message": "I\u0027m still unsure if this belongs more in `bug fix` or a `breaking change`.\n\nThoughts?",
+      "range": {
+        "startLine": 320,
+        "startChar": 0,
+        "endLine": 329,
+        "endChar": 53
+      },
+      "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
