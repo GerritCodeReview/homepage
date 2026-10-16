@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5ecc6c4_824072d4",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T19:09:51Z",
+      "side": 1,
+      "message": "Just commenting on this so I can follow up on it later, noticed this broken link.\n```suggestion\nA new [REST API for flows](https://gerrit-documentation.storage.googleapis.com/Documentation/3.12.10/rest-api-changes.html#flow-endpoints)\n```",
+      "revId": "e58b856843dc1bcbc5e844452165d70e4f877bab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f433c4c_76b09cae",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T19:09:51Z",
+      "side": 1,
+      "message": "To Luca\u0027s point, there can also be schema changes, config updates, etc. required, so let\u0027s make this more generic.\n\n```suggestion\nreindex of the Changes index. Reindexing of other indexes, schema changes,\nconfiguration changes, and more may be required depending on the Gerrit version you\nare starting from. It\u0027s recommended to check the release notes of each intermediate\nversion before attempting this type of upgrade. See the\n[Upgrades](/presentations.html#upgrades) presentations for more info.\n```",
+      "range": {
+        "startLine": 249,
+        "startChar": 29,
+        "endLine": 257,
+        "endChar": 14
+      },
+      "revId": "e58b856843dc1bcbc5e844452165d70e4f877bab",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
