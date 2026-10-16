@@ -512,6 +512,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b8324652_58da9a94",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1214,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-16T20:58:37Z",
+      "side": 1,
+      "message": "See https://gerrit-review.googlesource.com/q/owner:dannyc@arista.com.\n\nHis first+last is Danni Chen.",
+      "parentUuid": "bc567b24_3899ea85",
+      "revId": "4fa171fa7b398c9e28ab7b0fd876884bc0e9617e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1154c700_cd717841",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 7
