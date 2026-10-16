@@ -80,6 +80,30 @@
       },
       "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94cb4949_bb505fc8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T19:39:49Z",
+      "side": 1,
+      "message": "That seems like an odd rule. Why does it matter if they\u0027re not in the distribution? An admin using something from contrib would still care about updates.",
+      "parentUuid": "9342002c_544ef1d6",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 321,
+        "endChar": 78
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
