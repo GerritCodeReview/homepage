@@ -92,6 +92,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ca9c3196_88fbd4fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 20
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-16T23:14:49Z",
+      "side": 1,
+      "message": "\u003e The change was merged 12 months ago; how can this possibly be a _new feature_ of v3.15?\n\nSure, I actually didn\u0027t even look at that change, I was just asking in general.\n\n\u003e We include any new changes from the _latest release_ before releasing v3.15.0.\n\nThis didn\u0027t answer my question about what is the definition of latest release 😊 I\u0027m guessing that you mean \"most recent release of the most recent stable version\". Is that correct?\n\n\u003e For reference, I\u0027m considering everything newer than 3.14.4\n\nWhy not 3.14.0? I think most people would assume the \"* Changes\", \"New features\", and \"Bug fixes\" sections all are relative to that release (perhaps less likely for \"Bug fixes\"). I don\u0027t think we should expect people to have to keep track of which release happened when. Once we have 3.14.5/6/7, how does someone know the 3.15.0 release contained only the fixes from 3.14.0-4 (other than checking the dates or git history)? I\u0027d be fine with explicitly stating in the 3.15 release notes that it has fixes through 3.14.4. If you really want to de-dup those items, can we have a pointer to 3.14.4 at the end of each of those sections stating that \"see 3.14.4 and earlier releases for additional features/fixes included in 3.15.0\"?",
+      "parentUuid": "b3d92b5a_84057327",
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d72d8356_07a7969b",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 20
