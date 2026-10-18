@@ -128,6 +128,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fc75ac23_c1e1d3b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 20
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-18T19:31:26Z",
+      "side": 1,
+      "message": "@nasser.grainawi@oss.qualcomm.com I think we should continue the conversation on which changes to include separately. AFAIK, The thinking is that 3.15.0 release notes include everything that\u0027s not been released so far. I believe this has been the case for a very long time so unless there\u0027s a strong reason to change an established process we shouldn\u0027t change it too lightly.\n\n@luca.milanesio@gmail.com please correct me if I\u0027m wrong, happy to take guidance on what we should include or not.",
+      "parentUuid": "1598445c_2cf9ddd4",
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d72d8356_07a7969b",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 20
