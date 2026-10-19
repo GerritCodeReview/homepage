@@ -118,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "86a18509_08df6fa1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e91794f_c4453614",
+      "range": {
+        "startLine": 254,
+        "startChar": 0,
+        "endLine": 256,
+        "endChar": 70
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fe287dad_f270506e",
@@ -131,6 +155,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "I believe you need to be more end-user focused here: this is for rendering the result of the Changes queries in parallel, rather than serially.\n\nCan you reformulate this from an end-user perspective?",
+      "range": {
+        "startLine": 260,
+        "startChar": 33,
+        "endLine": 260,
+        "endChar": 69
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40480261_7ebf9052",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fe287dad_f270506e",
       "range": {
         "startLine": 260,
         "startChar": 33,
@@ -201,6 +249,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "The end-user relevance is unclear to me: how much performance improvement has this provided to the end user?\nIf you believe it was significant, can you explain where?",
+      "range": {
+        "startLine": 267,
+        "startChar": 0,
+        "endLine": 269,
+        "endChar": 78
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e8e82ae_b393b22b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "220b787b_830cb0a1",
       "range": {
         "startLine": 267,
         "startChar": 0,
@@ -618,6 +690,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "889bb6e9_a289ff2d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f36809c_4c6ed383",
+      "range": {
+        "startLine": 336,
+        "startChar": 2,
+        "endLine": 339,
+        "endChar": 10
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "80e9e1c6_35e7d8e0",
@@ -631,6 +727,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "This was flagged as `Release-Notes: skip`, and looking at the change, it is a lower-level optimization with no clear impact on the end user.",
+      "range": {
+        "startLine": 341,
+        "startChar": 0,
+        "endLine": 344,
+        "endChar": 27
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15d5bcd2_968d3469",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80e9e1c6_35e7d8e0",
       "range": {
         "startLine": 341,
         "startChar": 0,
@@ -677,6 +797,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "This is impacting only the description of the revert submission action and was flagged as `Release-Notes: skip`.\nNot sure this is worth mentioning it here.",
+      "range": {
+        "startLine": 351,
+        "startChar": 0,
+        "endLine": 354,
+        "endChar": 46
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee69d32f_2cb6f1e2",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "154a096f_a8713464",
       "range": {
         "startLine": 351,
         "startChar": 0,
@@ -747,6 +891,24 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "This looks like a usability or UX improvement, rather than a performance fix.\nThe Checks API is a client to the checks backend API implementation, which may or may not be Gerrit.",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c8b0954_05bfd4be",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "What makes you think that it\u0027s a UX improvement?",
+      "parentUuid": "3bcc4a9b_9d5a443f",
       "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -892,6 +1054,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0de6df60_13d62983",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "140c0cb0_785f5ea9",
+      "range": {
+        "startLine": 379,
+        "startChar": 0,
+        "endLine": 381,
+        "endChar": 65
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2add8f9b_7b5f0379",
@@ -1026,6 +1212,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a88b7e2_ee7c124d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02cb2bac_9e36fd49",
+      "range": {
+        "startLine": 401,
+        "startChar": 0,
+        "endLine": 402,
+        "endChar": 68
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8e6dec3d_cfd235d3",
@@ -1098,6 +1308,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7fe8278c_c58eace0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "I wouldn\u0027t know as I don\u0027t have access to that issue, I extrapolated the information here from [1] which links to it. I\u0027ll assume that `Change 630421` is more pertinent and replace with that.\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/630501",
+      "parentUuid": "e6875597_31f02c6f",
+      "range": {
+        "startLine": 414,
+        "startChar": 0,
+        "endLine": 422,
+        "endChar": 49
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "28de34a0_9cb8fced",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -1109,6 +1343,30 @@
       "writtenOn": "2026-10-19T13:31:30Z",
       "side": 1,
       "message": "This is a functional change, not a security or ACL modification.",
+      "range": {
+        "startLine": 424,
+        "startChar": 0,
+        "endLine": 430,
+        "endChar": 17
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cb66aa1_f81a982a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:35:50Z",
+      "side": 1,
+      "message": "I put it here because of this part in the commit message\n\n```\nA user\nwith a generic or deceptive display name could trigger change emails\nwhose body text appeared to attribute actions to the recipient or\nanother user.\n```\n\nI\u0027ll rephrase it.",
+      "parentUuid": "28de34a0_9cb8fced",
       "range": {
         "startLine": 424,
         "startChar": 0,
