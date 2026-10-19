@@ -353,6 +353,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fb3daa3_93ea50eb",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:10:35Z",
+      "side": 1,
+      "message": "I guess you could see it both ways? Anyway, will move.",
+      "parentUuid": "ac9e523d_baacc607",
+      "range": {
+        "startLine": 275,
+        "startChar": 1,
+        "endLine": 277,
+        "endChar": 77
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c2502962_7a7169cb",
@@ -472,6 +496,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ab725f54_1a33ddfb",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:10:35Z",
+      "side": 1,
+      "message": "Re-reading it, I still think the main intention of the change is the performance improvement. There is a bug fix element to the change, but I don\u0027t think it\u0027s the dominant part.",
+      "parentUuid": "6f567d36_c4b28f18",
+      "range": {
+        "startLine": 291,
+        "startChar": 2,
+        "endLine": 295,
+        "endChar": 67
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3fc0dd55_8f14ba49",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -483,6 +531,24 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "The performance improvement is massive. Can you also include the stats from the commit message?\n\n```\nCached evaluation latency is over 5x faster than cold evaluation.\n```",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f1f0e6d_597b5d98",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:10:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3fc0dd55_8f14ba49",
       "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -500,6 +566,24 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "The performance improvement is massive. Can you also include the stats from the commit message?\n```\nHydration latency is 3.2x to 12.8x lower than before.\n```\n\nYou may mention where the NoteDb access loading has an impact: a change to the screen or to search results, change notifications and events.",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f553766a_f9abcb43",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:10:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "68d24e57_06850048",
       "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -552,6 +636,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "The 9-10% latency reduction is minimal, but the reduction in JVM GC pressure is massive. Maybe rephrase by giving more emphasis to the memory pressure reduction?\n\nAlso, specify where the notedb change metadata parsing is used in Gerrit.",
+      "range": {
+        "startLine": 313,
+        "startChar": 43,
+        "endLine": 314,
+        "endChar": 32
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88ebf9af_7b668400",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:10:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9191b6a9_7205562b",
       "range": {
         "startLine": 313,
         "startChar": 43,
@@ -657,6 +765,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "This looks like a hallucination: the `index.indexChangesAsync` was introduced in v3.9, and the Change 626801 is about `Preserve AccessPath and PropertyMap in IdentifiedUser.materializedCopy`.",
+      "range": {
+        "startLine": 330,
+        "startChar": 0,
+        "endLine": 334,
+        "endChar": 40
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae69e1d4_5df0baf3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:10:35Z",
+      "side": 1,
+      "message": "If you look at the commit message, it mentions\n\n```\nEnables the intended ~150-300ms server-side latency reduction on git push\nby correctly routing interactive pushes to asynchronous change indexing.\n```\n\nI took this to mean that the intended scope was the performance improvement.\nAnyway, it feels minor, as we have doubts I\u0027ll remove it.",
+      "parentUuid": "011102e6_662b68ae",
       "range": {
         "startLine": 330,
         "startChar": 0,
@@ -774,6 +906,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "Can you rephrase from an end-user perspective? Because this avoided quadratic-complexity scanning, it should have impacted changes with a large number of patch sets. Also specify which parts of Gerrit were impacted (e.g., the change screen, ...)",
+      "range": {
+        "startLine": 347,
+        "startChar": 0,
+        "endLine": 349,
+        "endChar": 12
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f314548a_80d66088",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:10:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4237734d_d6267a32",
       "range": {
         "startLine": 347,
         "startChar": 0,
@@ -1185,6 +1341,24 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "Make it explicit from the beginning that this applies only when using Java 25.",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01d93ef3_8b6af8af",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:10:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc69c44f_799f48c0",
       "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
