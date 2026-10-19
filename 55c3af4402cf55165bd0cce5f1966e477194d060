@@ -768,6 +768,30 @@
       },
       "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04eb7e4e_aff900e3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T07:37:13Z",
+      "side": 1,
+      "message": "Just for completeness, this issue was referenced by https://gerrit-review.googlesource.com/c/gerrit/+/635324, which is why it was included in the release notes.\n\nParts of this are breaking, such that some requests now return 400 in a way that they didn\u0027t before, but it\u0027s a fair point, that we should move this, maybe even split it.",
+      "parentUuid": "161536a1_0fed06d3",
+      "range": {
+        "startLine": 365,
+        "startChar": 0,
+        "endLine": 372,
+        "endChar": 73
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
