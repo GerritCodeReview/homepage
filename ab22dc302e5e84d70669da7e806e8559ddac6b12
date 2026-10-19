@@ -1330,6 +1330,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c1b6641_b8cfa60b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:36:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7fe8278c_c58eace0",
+      "range": {
+        "startLine": 414,
+        "startChar": 0,
+        "endLine": 422,
+        "endChar": 49
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "28de34a0_9cb8fced",
@@ -1390,6 +1414,30 @@
       "writtenOn": "2026-10-19T13:31:30Z",
       "side": 1,
       "message": "Where did you get this information? AFAIK, Gerrit doesn\u0027t use IoBuffer.getObject() from Apache Mina.\n\nI believe this is a simple dependency update.",
+      "range": {
+        "startLine": 441,
+        "startChar": 41,
+        "endLine": 443,
+        "endChar": 44
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68534fde_09ee0933",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T14:36:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12878357_2abdddb3",
       "range": {
         "startLine": 441,
         "startChar": 41,
