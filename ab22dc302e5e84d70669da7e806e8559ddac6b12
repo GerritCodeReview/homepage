@@ -49,6 +49,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "465854e7_04de9108",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "I grouped them because they\u0027re all relevant to the same thread, I didn\u0027t think they warranted it a section each. I also didn\u0027t think they where important enough for the highlights section, happy to move it over if you think is best.",
+      "parentUuid": "98c9f2f1_1876d1c9",
+      "range": {
+        "startLine": 243,
+        "startChar": 0,
+        "endLine": 252,
+        "endChar": 34
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1e91794f_c4453614",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -118,6 +142,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bb4f6ea7_d7f0243c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "I\u0027d consider it a performance improvement,",
+      "parentUuid": "5c95819d_48acd6b0",
+      "range": {
+        "startLine": 262,
+        "startChar": 0,
+        "endLine": 265,
+        "endChar": 36
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "220b787b_830cb0a1",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -152,6 +200,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "Can you re-express in a user-facing fashion?\n\n```suggestion\n  Speed up diff expansion in the change screen UI for changes with a large number of paths.\n```",
+      "range": {
+        "startLine": 272,
+        "startChar": 0,
+        "endLine": 273,
+        "endChar": 63
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e9beccd_ae77daf8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "7a0e4dda_5d66c7af",
       "range": {
         "startLine": 272,
         "startChar": 0,
@@ -208,6 +280,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7bdfba6f_f7c44eb9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c2502962_7a7169cb",
+      "range": {
+        "startLine": 280,
+        "startChar": 2,
+        "endLine": 281,
+        "endChar": 45
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "96e06b6a_d8dc555e",
@@ -221,6 +317,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "This should be expressed more on the end-user\u0027s perspective, as suggested by the `Release-Notes: ...` footer.\n\n\n\n```suggestion\n  Improved querying of disk stats on large persistent caches.\n```",
+      "range": {
+        "startLine": 287,
+        "startChar": 0,
+        "endLine": 288,
+        "endChar": 46
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f9b2f06_81509e7d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "96e06b6a_d8dc555e",
       "range": {
         "startLine": 287,
         "startChar": 0,
@@ -305,6 +425,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed6b601b_5cd7e4d4",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6becd36e_14279d9f",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9191b6a9_7205562b",
@@ -351,6 +489,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e5466e8_31db68b0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f80ec69f_19cfc22b",
+      "range": {
+        "startLine": 317,
+        "startChar": 2,
+        "endLine": 317,
+        "endChar": 32
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f3c0ca21_bde32719",
@@ -364,6 +526,24 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "```suggestion\n  Internal group lookups are faster thanks to batched group index queries by UUIDs and\n```",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95cfccf6_0145a607",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f3c0ca21_bde32719",
       "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -506,6 +686,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f540063_c1d9a345",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "18790c8c_086ade17",
+      "range": {
+        "startLine": 364,
+        "startChar": 51,
+        "endLine": 364,
+        "endChar": 68
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3bcc4a9b_9d5a443f",
@@ -546,6 +750,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a2fe42b_f8b86968",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "814de275_4d415067",
+      "range": {
+        "startLine": 368,
+        "startChar": 2,
+        "endLine": 368,
+        "endChar": 8
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e06029ed_fbfcd69d",
@@ -559,6 +787,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "Can you make this more end-user-focused?\n\n\n\n```suggestion\n  Reduce the footprint of all Gerrit HTTP requests going through the `AllRequestFilter` pipeline.\n  The pipeline no longer scans all registered filters on every request, reducing its footprint to near-zero time.\n\n  \u003e **NOTE**: Two plugins providing different filter implementations with the same equality check will no longer be usable. The Gerrit admin should check and review the code of plugins that implement `AllRequestFilter`.\n```",
+      "range": {
+        "startLine": 373,
+        "startChar": 0,
+        "endLine": 377,
+        "endChar": 55
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bdb8bf9_a6468a5d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e06029ed_fbfcd69d",
       "range": {
         "startLine": 373,
         "startChar": 0,
@@ -594,6 +846,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "140c0cb0_785f5ea9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "We don\u0027t usually do deprecation notices, but it\u0027s a deprecation about a performance issue, which is why I initially put it here.  Will remove now that  I36010187 is published.",
+      "parentUuid": "37361407_5e7f0dcd",
+      "range": {
+        "startLine": 379,
+        "startChar": 0,
+        "endLine": 381,
+        "endChar": 65
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2add8f9b_7b5f0379",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -605,6 +881,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "Rephrase from a more user-perspective basis.\n\n```suggestion\n  Speed up the processing of incoming changes or patch sets pushed to Gerrit by skipping rename detection when counting the number of files changed in the commit for commit validation. This results in a max-files validation on large changes performing 4x faster.\n```",
+      "range": {
+        "startLine": 384,
+        "startChar": 0,
+        "endLine": 386,
+        "endChar": 26
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "102faf32_a9f0d80f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "2add8f9b_7b5f0379",
       "range": {
         "startLine": 384,
         "startChar": 0,
@@ -628,6 +928,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "This should be formatted as a warning note.\n\n\n\n```suggestion\n  \u003e **NOTE**: A renamed file now counts as two changed files (one deletion and one\n  \u003e addition) against the max files limit (`change.maxFiles`, which defaults to 10k).\n  \u003e As a consequence of this performance improvement, an incoming change that was renaming files\n  \u003e and was previously accepted, it may now exceed the limits.\n```",
+      "range": {
+        "startLine": 388,
+        "startChar": 0,
+        "endLine": 391,
+        "endChar": 20
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0741b94a_96307d7a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "1ed212bd_5ed12257",
       "range": {
         "startLine": 388,
         "startChar": 0,
@@ -691,6 +1015,30 @@
       "writtenOn": "2026-10-19T13:06:32Z",
       "side": 1,
       "message": "These look like a security fix, rather than a change in the way we evaluate the permissions.\nMove it to the `Security Fixes` section?",
+      "range": {
+        "startLine": 406,
+        "startChar": 0,
+        "endLine": 412,
+        "endChar": 55
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9587ba20_de51313a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:30:50Z",
+      "side": 1,
+      "message": "It\u0027s in `Security Changes`, do you want me to rename it to `Security Fixes`?",
+      "parentUuid": "8e6dec3d_cfd235d3",
       "range": {
         "startLine": 406,
         "startChar": 0,
