@@ -1071,6 +1071,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b29a6cc0_88b1ef2b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:13:08Z",
+      "side": 1,
+      "message": "I guess I should add, It doesn\u0027t seem to have any end user impact? I would consider it either a performance improvement or a bug fix at most.",
+      "parentUuid": "8c8b0954_05bfd4be",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "814de275_4d415067",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
