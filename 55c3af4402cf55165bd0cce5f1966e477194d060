@@ -162,6 +162,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffbb6a5d_936ea5be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 20
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:37:09Z",
+      "side": 1,
+      "message": "I\u0027ll mark this thread as resolved again @nasser.grainawi@oss.qualcomm.com, feel free to start a thread on the maintainers list? (Happy to be added in CC if you think that\u0027d help).",
+      "parentUuid": "0716c4ef_df3cd37b",
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d72d8356_07a7969b",
@@ -660,6 +678,30 @@
       "side": 1,
       "message": "You mentioned _\"If any of the change identifiers\"_ which makes me thing that there were other identifiers expected, other than the change number.",
       "parentUuid": "608ad1c4_c93470a3",
+      "range": {
+        "startLine": 345,
+        "startChar": 0,
+        "endLine": 346,
+        "endChar": 65
+      },
+      "revId": "55c3af4402cf55165bd0cce5f1966e477194d060",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e63d222_16363cf3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 20
+      },
+      "lineNbr": 346,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T15:37:09Z",
+      "side": 1,
+      "message": "The endpoint takes a list of change identifiers, if any are in a different format then it fails the request. Would you like me to clarify this?",
+      "parentUuid": "59361dd2_77617988",
       "range": {
         "startLine": 345,
         "startChar": 0,
