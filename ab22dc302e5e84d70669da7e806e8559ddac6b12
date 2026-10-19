@@ -260,6 +260,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "837bbf17_fb9663ac",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T16:14:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f0d5ba7_a3f2b6e9",
+      "range": {
+        "startLine": 262,
+        "startChar": 0,
+        "endLine": 265,
+        "endChar": 36
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "220b787b_830cb0a1",
@@ -556,6 +580,30 @@
       "side": 1,
       "message": "The change notes say it fixes a bug introduced by I469066e5.",
       "parentUuid": "ab725f54_1a33ddfb",
+      "range": {
+        "startLine": 291,
+        "startChar": 2,
+        "endLine": 295,
+        "endChar": 67
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a03083a7_014de35e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T16:14:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "090e3f74_91e6ef91",
       "range": {
         "startLine": 291,
         "startChar": 2,
@@ -1537,6 +1585,30 @@
       "side": 1,
       "message": "This chapter is to highlight what has changed in the way Gerrit manages permissions or the overall security settings.\n\n\nThis one is just a bug fix related to a security problem; it isn\u0027t a change in behavior, but a fix to the code to align with the expected secure behavior.",
       "parentUuid": "9587ba20_de51313a",
+      "range": {
+        "startLine": 406,
+        "startChar": 0,
+        "endLine": 412,
+        "endChar": 55
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85af743b_cef279b2",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T16:14:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "748c1058_4f62d2c6",
       "range": {
         "startLine": 406,
         "startChar": 0,
