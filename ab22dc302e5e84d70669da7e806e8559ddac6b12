@@ -544,6 +544,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "090e3f74_91e6ef91",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T15:33:33Z",
+      "side": 1,
+      "message": "The change notes say it fixes a bug introduced by I469066e5.",
+      "parentUuid": "ab725f54_1a33ddfb",
+      "range": {
+        "startLine": 291,
+        "startChar": 2,
+        "endLine": 295,
+        "endChar": 67
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3fc0dd55_8f14ba49",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -1489,6 +1513,30 @@
       "side": 1,
       "message": "It\u0027s in `Security Changes`, do you want me to rename it to `Security Fixes`?",
       "parentUuid": "8e6dec3d_cfd235d3",
+      "range": {
+        "startLine": 406,
+        "startChar": 0,
+        "endLine": 412,
+        "endChar": 55
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "748c1058_4f62d2c6",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T15:33:33Z",
+      "side": 1,
+      "message": "This chapter is to highlight what has changed in the way Gerrit manages permissions or the overall security settings.\n\n\nThis one is just a bug fix related to a security problem; it isn\u0027t a change in behavior, but a fix to the code to align with the expected secure behavior.",
+      "parentUuid": "9587ba20_de51313a",
       "range": {
         "startLine": 406,
         "startChar": 0,
