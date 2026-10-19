@@ -213,6 +213,24 @@
       "parentUuid": "c0e22a16_a7fbf96f",
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f17d08b9_b7dae6b3",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T17:42:31Z",
+      "side": 1,
+      "message": "\u003e Got it so something like \"if you have the v87 Change index restore that version as the active version.\n\n👍\n\n\u003e Then if updates to changes have been made while Gerrit 3.14 was running run an offline reindex which will update the restored v87 version to include those updates\".\n\nThe above is inaccurate: the offline reindex will totally recreate the whole index.\nI believe that, in that case, you would need to reindex only the changes that have been modified, or the project containing them, not the whole index, unless that is quick enough.",
+      "parentUuid": "6608be3f_c40fa757",
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
