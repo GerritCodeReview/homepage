@@ -97,6 +97,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "967c4201_deae746c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T19:42:58Z",
+      "side": 1,
+      "message": "I have reviewed in detail all the changes mentioned, and I do believe it is worth putting into the highlights as a major performance improvement.\n\nThe change at https://gerrit-review.googlesource.com/c/gerrit/+/633783 fixed the implementation of the `SKIP_DIFFSTAT` option, introduced back in Gerrit v3.1; therefore, the endpoints that return revision info were just ignoring it, and there was no benefit in passing the option either.\n\nThe series of changes fixed the backend behavior and then leveraged it in multiple places in the frontend:\n- Getting all revision files\n- Getting new updates for the change\n- Cherry-pick changes\n- Change conflicts\n\nThe benefit overall is huge and is worth putting it into the highlights IMHO.",
+      "parentUuid": "465854e7_04de9108",
+      "range": {
+        "startLine": 243,
+        "startChar": 0,
+        "endLine": 252,
+        "endChar": 34
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1e91794f_c4453614",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
