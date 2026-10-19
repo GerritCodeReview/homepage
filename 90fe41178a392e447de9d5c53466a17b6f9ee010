@@ -118,6 +118,30 @@
       },
       "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed256da9_af12c9e4",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-19T13:21:08Z",
+      "side": 1,
+      "message": "I\u0027ve added a `Deprecated Features` section and moved it there, see I36010187",
+      "parentUuid": "8034671f_332694c7",
+      "range": {
+        "startLine": 320,
+        "startChar": 0,
+        "endLine": 329,
+        "endChar": 53
+      },
+      "revId": "90fe41178a392e447de9d5c53466a17b6f9ee010",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
