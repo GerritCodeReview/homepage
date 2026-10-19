@@ -1047,6 +1047,75 @@
       },
       "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6875597_31f02c6f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:31:30Z",
+      "side": 1,
+      "message": "I am confused. Issue 561066231 concerned OAuth tokens stored unencrypted in the `oauth_tokens` cache.",
+      "range": {
+        "startLine": 414,
+        "startChar": 0,
+        "endLine": 422,
+        "endChar": 49
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28de34a0_9cb8fced",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:31:30Z",
+      "side": 1,
+      "message": "This is a functional change, not a security or ACL modification.",
+      "range": {
+        "startLine": 424,
+        "startChar": 0,
+        "endLine": 430,
+        "endChar": 17
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12878357_2abdddb3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:31:30Z",
+      "side": 1,
+      "message": "Where did you get this information? AFAIK, Gerrit doesn\u0027t use IoBuffer.getObject() from Apache Mina.\n\nI believe this is a simple dependency update.",
+      "range": {
+        "startLine": 441,
+        "startChar": 41,
+        "endLine": 443,
+        "endChar": 44
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
