@@ -231,6 +231,24 @@
       "parentUuid": "6608be3f_c40fa757",
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "833e48d1_2fa41a04",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 5236794
+      },
+      "writtenOn": "2026-10-19T21:23:05Z",
+      "side": 1,
+      "message": "Oh interesting. I thought there was a newish feature that allowed reindexing to use the existing content in the index when doing reindexing. That way upgrades can be sped up if you do an incomplete reindex in a test environment, copy the results over, then finish the reindexing during the upgrade to catch everything up. Maybe I misunderstood how that works or maybe it only works with online reindexing?\n\nGiven this behavior should we just say that if updates have been made you will need to reindex the affected changes after the downgrade?",
+      "parentUuid": "f17d08b9_b7dae6b3",
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
