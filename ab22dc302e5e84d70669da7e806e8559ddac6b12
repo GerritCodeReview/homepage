@@ -1,0 +1,704 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01a3710a_91c848f7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "```suggestion\nList the performance improvements and the permissions and security fixes\n```",
+      "range": {
+        "startLine": 9,
+        "startChar": 21,
+        "endLine": 9,
+        "endChar": 28
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98c9f2f1_1876d1c9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This looks like something for the highlight: it\u0027s a benefit provided by multiple changes in a chain; therefore, it isn\u0027t really a change-specific fix here.",
+      "range": {
+        "startLine": 243,
+        "startChar": 0,
+        "endLine": 252,
+        "endChar": 34
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e91794f_c4453614",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This looks like a change in how the UI sends its internal events. Have you measured any significant impact on the end user that makes it worth mentioning in the release notes?",
+      "range": {
+        "startLine": 254,
+        "startChar": 0,
+        "endLine": 256,
+        "endChar": 70
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe287dad_f270506e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "I believe you need to be more end-user focused here: this is for rendering the result of the Changes queries in parallel, rather than serially.\n\nCan you reformulate this from an end-user perspective?",
+      "range": {
+        "startLine": 260,
+        "startChar": 33,
+        "endLine": 260,
+        "endChar": 69
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c95819d_48acd6b0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Is this performance or an actual bug fix?",
+      "range": {
+        "startLine": 262,
+        "startChar": 0,
+        "endLine": 265,
+        "endChar": 36
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "220b787b_830cb0a1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "The end-user relevance is unclear to me: how much performance improvement has this provided to the end user?\nIf you believe it was significant, can you explain where?",
+      "range": {
+        "startLine": 267,
+        "startChar": 0,
+        "endLine": 269,
+        "endChar": 78
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a0e4dda_5d66c7af",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Can you re-express in a user-facing fashion?\n\n```suggestion\n  Speed up diff expansion in the change screen UI for changes with a large number of paths.\n```",
+      "range": {
+        "startLine": 272,
+        "startChar": 0,
+        "endLine": 273,
+        "endChar": 63
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac9e523d_baacc607",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This doesn\u0027t look like a performance improvement but a bug fix.",
+      "range": {
+        "startLine": 275,
+        "startChar": 1,
+        "endLine": 277,
+        "endChar": 77
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2502962_7a7169cb",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "I believe the `Release-Notes` footer was more compact and clearer.\n\n```suggestion\n  Add file warming for faster H2 bloom filter building.\n```",
+      "range": {
+        "startLine": 280,
+        "startChar": 2,
+        "endLine": 281,
+        "endChar": 45
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96e06b6a_d8dc555e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This should be expressed more on the end-user\u0027s perspective, as suggested by the `Release-Notes: ...` footer.\n\n\n\n```suggestion\n  Improved querying of disk stats on large persistent caches.\n```",
+      "range": {
+        "startLine": 287,
+        "startChar": 0,
+        "endLine": 288,
+        "endChar": 46
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f567d36_c4b28f18",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Looking at the change, it seems that this should be considered a bug fix because the `COMMIT_MSG` and `PATCHSET_LEVEL` should not have been counted, but they were broken by I469066e5.",
+      "range": {
+        "startLine": 291,
+        "startChar": 2,
+        "endLine": 295,
+        "endChar": 67
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3fc0dd55_8f14ba49",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "The performance improvement is massive. Can you also include the stats from the commit message?\n\n```\nCached evaluation latency is over 5x faster than cold evaluation.\n```",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68d24e57_06850048",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "The performance improvement is massive. Can you also include the stats from the commit message?\n```\nHydration latency is 3.2x to 12.8x lower than before.\n```\n\nYou may mention where the NoteDb access loading has an impact: a change to the screen or to search results, change notifications and events.",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6becd36e_14279d9f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Specify which part of the Gerrit is impacted: the change screen.\n\n\n\n```suggestion\n  Speed up the \"Submitted Together\" computation in the change screen by returning immediately for\n```",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9191b6a9_7205562b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "The 9-10% latency reduction is minimal, but the reduction in JVM GC pressure is massive. Maybe rephrase by giving more emphasis to the memory pressure reduction?\n\nAlso, specify where the notedb change metadata parsing is used in Gerrit.",
+      "range": {
+        "startLine": 313,
+        "startChar": 43,
+        "endLine": 314,
+        "endChar": 32
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f80ec69f_19cfc22b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Specify from an end-user perspective?\n\n\n\n```suggestion\n  Listing change comments and formatting them for the change screen is twice as fast thanks to fewer redundant\n```",
+      "range": {
+        "startLine": 317,
+        "startChar": 2,
+        "endLine": 317,
+        "endChar": 32
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3c0ca21_bde32719",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "```suggestion\n  Internal group lookups are faster thanks to batched group index queries by UUIDs and\n```",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "011102e6_662b68ae",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This looks like a hallucination: the `index.indexChangesAsync` was introduced in v3.9, and the Change 626801 is about `Preserve AccessPath and PropertyMap in IdentifiedUser.materializedCopy`.",
+      "range": {
+        "startLine": 330,
+        "startChar": 0,
+        "endLine": 334,
+        "endChar": 40
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f36809c_4c6ed383",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This was flagged as `Release-Notes: skip`, and looking at the change, it is a lower-level optimization with no clear impact on the end user.",
+      "range": {
+        "startLine": 336,
+        "startChar": 2,
+        "endLine": 339,
+        "endChar": 10
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80e9e1c6_35e7d8e0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This was flagged as `Release-Notes: skip`, and looking at the change, it is a lower-level optimization with no clear impact on the end user.",
+      "range": {
+        "startLine": 341,
+        "startChar": 0,
+        "endLine": 344,
+        "endChar": 27
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4237734d_d6267a32",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Can you rephrase from an end-user perspective? Because this avoided quadratic-complexity scanning, it should have impacted changes with a large number of patch sets. Also specify which parts of Gerrit were impacted (e.g., the change screen, ...)",
+      "range": {
+        "startLine": 347,
+        "startChar": 0,
+        "endLine": 349,
+        "endChar": 12
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "154a096f_a8713464",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This is impacting only the description of the revert submission action and was flagged as `Release-Notes: skip`.\nNot sure this is worth mentioning it here.",
+      "range": {
+        "startLine": 351,
+        "startChar": 0,
+        "endLine": 354,
+        "endChar": 46
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18790c8c_086ade17",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "```suggestion\n  overhead on the hot path of Git and REST requests when\n```",
+      "range": {
+        "startLine": 364,
+        "startChar": 51,
+        "endLine": 364,
+        "endChar": 68
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bcc4a9b_9d5a443f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This looks like a usability or UX improvement, rather than a performance fix.\nThe Checks API is a client to the checks backend API implementation, which may or may not be Gerrit.",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "814de275_4d415067",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "```suggestion\n  When a Change has associated checks configured, they are no longer fetched twice from providers when the selected patchset\n```",
+      "range": {
+        "startLine": 368,
+        "startChar": 2,
+        "endLine": 368,
+        "endChar": 8
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e06029ed_fbfcd69d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Can you make this more end-user-focused?\n\n\n\n```suggestion\n  Reduce the footprint of all Gerrit HTTP requests going through the `AllRequestFilter` pipeline.\n  The pipeline no longer scans all registered filters on every request, reducing its footprint to near-zero time.\n\n  \u003e **NOTE**: Two plugins providing different filter implementations with the same equality check will no longer be usable. The Gerrit admin should check and review the code of plugins that implement `AllRequestFilter`.\n```",
+      "range": {
+        "startLine": 373,
+        "startChar": 0,
+        "endLine": 377,
+        "endChar": 55
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37361407_5e7f0dcd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This change does not introduce any performance improvement: it is a deprecation notice.",
+      "range": {
+        "startLine": 379,
+        "startChar": 0,
+        "endLine": 381,
+        "endChar": 65
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2add8f9b_7b5f0379",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Rephrase from a more user-perspective basis.\n\n```suggestion\n  Speed up the processing of incoming changes or patch sets pushed to Gerrit by skipping rename detection when counting the number of files changed in the commit for commit validation. This results in a max-files validation on large changes performing 4x faster.\n```",
+      "range": {
+        "startLine": 384,
+        "startChar": 0,
+        "endLine": 386,
+        "endChar": 26
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ed212bd_5ed12257",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This should be formatted as a warning note.\n\n\n\n```suggestion\n  \u003e **NOTE**: A renamed file now counts as two changed files (one deletion and one\n  \u003e addition) against the max files limit (`change.maxFiles`, which defaults to 10k).\n  \u003e As a consequence of this performance improvement, an incoming change that was renaming files\n  \u003e and was previously accepted, it may now exceed the limits.\n```",
+      "range": {
+        "startLine": 388,
+        "startChar": 0,
+        "endLine": 391,
+        "endChar": 20
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc69c44f_799f48c0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "Make it explicit from the beginning that this applies only when using Java 25.",
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02cb2bac_9e36fd49",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "This looks redundant; you\u0027re already saying at L397-L399 that it is not changed if the option is explicitly disabled.",
+      "range": {
+        "startLine": 401,
+        "startChar": 0,
+        "endLine": 402,
+        "endChar": 68
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e6dec3d_cfd235d3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T13:06:32Z",
+      "side": 1,
+      "message": "These look like a security fix, rather than a change in the way we evaluate the permissions.\nMove it to the `Security Fixes` section?",
+      "range": {
+        "startLine": 406,
+        "startChar": 0,
+        "endLine": 412,
+        "endChar": 55
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
