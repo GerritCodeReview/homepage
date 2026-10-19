@@ -238,6 +238,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8f0d5ba7_a3f2b6e9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-19T15:24:21Z",
+      "side": 1,
+      "message": "I disagree: it isn\u0027t faster than before, but it fixes a problem where the page would freeze during a large change.\nThere isn\u0027t any performance improvement here; the user experience is just different, and it fixes the page-freeze issue.",
+      "parentUuid": "bb4f6ea7_d7f0243c",
+      "range": {
+        "startLine": 262,
+        "startChar": 0,
+        "endLine": 265,
+        "endChar": 36
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "220b787b_830cb0a1",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
