@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "863ce846_c183f682",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 14
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-20T11:44:31Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f6fa8d36_f76a88e8",
+      "revId": "12432b8bcf304e717514b5f279cd49df4a10824b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6efcad08_19c1be80",
@@ -35,6 +53,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "47f37582_ad093f87",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 14
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-20T11:44:31Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6efcad08_19c1be80",
+      "revId": "12432b8bcf304e717514b5f279cd49df4a10824b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a60c82ec_f109e670",
@@ -48,6 +84,24 @@
       "writtenOn": "2026-10-20T11:38:47Z",
       "side": 1,
       "message": "```suggestion\n  Fixes Git pushes by non-service users not using asynchronous change indexing even\n```",
+      "revId": "12432b8bcf304e717514b5f279cd49df4a10824b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2d3c68a_4930acfd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-20T11:44:31Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "a60c82ec_f109e670",
       "revId": "12432b8bcf304e717514b5f279cd49df4a10824b",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }

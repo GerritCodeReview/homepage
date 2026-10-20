@@ -734,6 +734,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c22e5e0e_390928ce",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-20T11:44:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cefb0eeb_d4d5e10c",
+      "range": {
+        "startLine": 291,
+        "startChar": 2,
+        "endLine": 295,
+        "endChar": 67
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3fc0dd55_8f14ba49",
@@ -1077,6 +1101,30 @@
       "side": 1,
       "message": "OK, see my proposed rephrasing below in the bug fix section.",
       "parentUuid": "f8e71308_46391349",
+      "range": {
+        "startLine": 330,
+        "startChar": 0,
+        "endLine": 334,
+        "endChar": 40
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99e5b2dd_cf7dec3e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-20T11:44:31Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "4150c40f_b7d2d9aa",
       "range": {
         "startLine": 330,
         "startChar": 0,
