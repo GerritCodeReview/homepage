@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6fa8d36_f76a88e8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 14
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T11:38:47Z",
+      "side": 1,
+      "message": "```suggestion\nAdd performance, security, and bug fixes to Gerrit v3.15.0 notes\n```",
+      "revId": "12432b8bcf304e717514b5f279cd49df4a10824b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6efcad08_19c1be80",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 14
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T11:38:47Z",
+      "side": 1,
+      "message": "```suggestion\nAdd performance improvements, security, and bug fixes\n```",
+      "revId": "12432b8bcf304e717514b5f279cd49df4a10824b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a60c82ec_f109e670",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T11:38:47Z",
+      "side": 1,
+      "message": "```suggestion\n  Fixes Git pushes by non-service users not using asynchronous change indexing even\n```",
+      "revId": "12432b8bcf304e717514b5f279cd49df4a10824b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}

@@ -712,6 +712,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cefb0eeb_d4d5e10c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T11:38:47Z",
+      "side": 1,
+      "message": "Yes, just amend the commit message to `Add performance, security and bug fixes to the Gerrit v3.15.0 notes`.",
+      "parentUuid": "57011a48_080ff743",
+      "range": {
+        "startLine": 291,
+        "startChar": 2,
+        "endLine": 295,
+        "endChar": 67
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3fc0dd55_8f14ba49",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -1029,6 +1053,30 @@
       "side": 1,
       "message": "Reinstated and moved, will leave you to resolve the comment.",
       "parentUuid": "95aae999_5d8071e2",
+      "range": {
+        "startLine": 330,
+        "startChar": 0,
+        "endLine": 334,
+        "endChar": 40
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4150c40f_b7d2d9aa",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T11:38:47Z",
+      "side": 1,
+      "message": "OK, see my proposed rephrasing below in the bug fix section.",
+      "parentUuid": "f8e71308_46391349",
       "range": {
         "startLine": 330,
         "startChar": 0,
@@ -1902,6 +1950,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "73e34c8a_098f3074",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T11:38:47Z",
+      "side": 1,
+      "message": "This is good; however, the description still doesn\u0027t match the issue.\nAlso, the documentation details on how to disable the cache can be found in the original change\nrather than copying and pasting it all here.\n\n```suggestion\n* [Issue 561066231](https://issues.gerritcodereview.com/issues/561066231):\n  The `oauth_tokens` cache is now encrypted in core: `OAuthTokenCache` and its\n  H2 persistence has been part of Gerrit core since the feature was introduced, so\n  encrypting the stored tokens is a core data-protection concern.\n\n  \u003e **NOTE**: Setting `cache.oauth_tokens.memoryLimit \u003d 0` now fully disables OAuth token\n  \u003e storage, so tokens are no longer written to the persistent H2 cache even when\n  \u003e `diskLimit` is positive. See [Change 630421](https://gerrit-review.googlesource.com/c/gerrit/+/630421)\n  \u003e for more details.\n```",
+      "parentUuid": "4c6cd527_a256d4c7",
+      "range": {
+        "startLine": 414,
+        "startChar": 0,
+        "endLine": 422,
+        "endChar": 49
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "28de34a0_9cb8fced",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -2080,6 +2152,30 @@
       "side": 1,
       "message": "Did you check in the dependencies update change?\nhttps://gerrit-review.googlesource.com/c/homepage/+/645046 #L946\n\nI\u0027ll leave you to resolve the comment.",
       "parentUuid": "28588473_27a041b8",
+      "range": {
+        "startLine": 441,
+        "startChar": 41,
+        "endLine": 443,
+        "endChar": 44
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfc8c411_e954c1d3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T11:38:47Z",
+      "side": 1,
+      "message": "I see, you\u0027ve just removed it.",
+      "parentUuid": "4e83ffa4_4193a226",
       "range": {
         "startLine": 441,
         "startChar": 41,
