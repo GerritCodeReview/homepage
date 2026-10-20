@@ -1805,6 +1805,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "14bd2e20_10f3db8a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T10:48:49Z",
+      "side": 1,
+      "message": "I still think this is mentioned in the security fixes, but this isn\u0027t IMHO.\nAlso, _\"Fix impersonation in change notification emails\"_ isn\u0027t anywhere in the commit message.\n\nIt is a change in behavior, yes, a functional change.\nI don\u0027t believe there was any security issue raised against it, and nothing in the `Release-Notes` footer by the author suggests that this was a security problem.",
+      "parentUuid": "5cb66aa1_f81a982a",
+      "range": {
+        "startLine": 424,
+        "startChar": 0,
+        "endLine": 430,
+        "endChar": 17
+      },
+      "revId": "ab22dc302e5e84d70669da7e806e8559ddac6b12",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "12878357_2abdddb3",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
