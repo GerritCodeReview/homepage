@@ -249,6 +249,24 @@
       "parentUuid": "f17d08b9_b7dae6b3",
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75703301_3393dca9",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-20T06:15:38Z",
+      "side": 1,
+      "message": "\u003e Oh interesting. I thought there was a newish feature that allowed reindexing to use the existing content in the index when doing reindexing. \n\nYou mean the `--reuse` option in the reindex command?\nThat option is used to determine whether the actual insertion in Lucene should be a replace() or an insert(). Still, the reindex will go through *ALL* the changes regardless of that option.\n\n\u003e That way upgrades can be sped up if you do an incomplete reindex in a test environment, copy the results over, then finish the reindexing during the upgrade to catch everything up. Maybe I misunderstood how that works or maybe it only works with online reindexing?\n\nWhat really makes reindex faster is the use of a pre-warmed persistent cache: in the reindex operation, writing to Lucene is the quickest part. Understanding *what to write* to Lucene takes time.\n\n\u003e Given this behavior should we just say that if updates have been made you will need to reindex the affected changes after the downgrade?\n\nI believe so. Reindexing everything is, of course, also an option.",
+      "parentUuid": "833e48d1_2fa41a04",
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
