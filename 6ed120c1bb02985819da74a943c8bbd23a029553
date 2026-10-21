@@ -283,6 +283,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "38018dbb_0436244c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T15:26:15Z",
+      "side": 1,
+      "message": "Sorry, I thought you wanted me to change `Online upgrade` with `online reindex`, this makes more sense.",
+      "parentUuid": "d53bfc16_bcc3d944",
+      "range": {
+        "startLine": 202,
+        "startChar": 4,
+        "endLine": 202,
+        "endChar": 18
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8fd1c4f4_ff3864e2",
@@ -332,6 +356,24 @@
       "side": 1,
       "message": "No, that\u0027s not enough. If you install Java 25 and do not edit the `[container] javaHome`, you\u0027ll still be using Java 21 which is the one pointed in the configuration.",
       "parentUuid": "cec44bd7_25cd3c27",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86e6a5d1_7420103f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T15:26:15Z",
+      "side": 1,
+      "message": "Yeah, I mention that in the prerequisites too.\n\nI\u0027m saying, want me to remind the user of both here too, or just the one?",
+      "parentUuid": "e7c375c1_fefdee26",
       "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
