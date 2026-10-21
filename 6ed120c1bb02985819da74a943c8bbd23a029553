@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "585b0e21_11bf2ef2",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:18:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7591f05b_6a7af853",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0fdc0d9d_6bff25d5",
@@ -135,6 +153,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "69f679a7_e2da6b94",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:18:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "804017ab_a8b43fe9",
+      "range": {
+        "startLine": 187,
+        "startChar": 25,
+        "endLine": 187,
+        "endChar": 29
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6b27af25_25191b30",
@@ -195,6 +237,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "600c404e_f03fa3fd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:18:07Z",
+      "side": 1,
+      "message": "Why do you say so? We\u0027re upgrading the `gerrit.war`?",
+      "parentUuid": "85fe84e7_126d44a3",
+      "range": {
+        "startLine": 202,
+        "startChar": 4,
+        "endLine": 202,
+        "endChar": 18
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8fd1c4f4_ff3864e2",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -212,6 +278,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cec44bd7_25cd3c27",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:18:07Z",
+      "side": 1,
+      "message": "That\u0027s already said in the pre-requisites, want me to remind the user to also install Java 25?",
+      "parentUuid": "8fd1c4f4_ff3864e2",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "593bc596_49a56eb1",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
@@ -223,6 +307,30 @@
       "writtenOn": "2026-10-21T13:04:31Z",
       "side": 1,
       "message": "If we don\u0027t need to change it, do we even need to mention it?\nI\u0027ve never used it before, I am unsure on when you really need to use it honestly 😊",
+      "range": {
+        "startLine": 212,
+        "startChar": 73,
+        "endLine": 215,
+        "endChar": 56
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0454806_7e29328f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:18:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "593bc596_49a56eb1",
       "range": {
         "startLine": 212,
         "startChar": 73,
