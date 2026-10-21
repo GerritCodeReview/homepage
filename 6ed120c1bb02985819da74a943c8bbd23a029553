@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6dfde3ef_ca5ca95e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:02:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "0fdc0d9d_6bff25d5",
+      "range": {
+        "startLine": 177,
+        "startChar": 43,
+        "endLine": 177,
+        "endChar": 65
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "87f74da3_e205556e",
@@ -54,6 +78,30 @@
       "writtenOn": "2026-10-21T13:04:31Z",
       "side": 1,
       "message": "Gerrit v3.12 is also on `v87`.\n\n\n\n\n```suggestion\nThe Changes index has been upgraded to `v90` (Gerrit v3.12/v3.13 are on `v87`, v3.14\n```",
+      "range": {
+        "startLine": 186,
+        "startChar": 46,
+        "endLine": 186,
+        "endChar": 70
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d598083b_2ae839fc",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:02:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "87f74da3_e205556e",
       "range": {
         "startLine": 186,
         "startChar": 46,
@@ -100,6 +148,24 @@
       "writtenOn": "2026-10-21T13:04:31Z",
       "side": 1,
       "message": "```suggestion\n`unsatisfied-requirement-count` fields, and `v90` adds the `file-count` field. The\n```",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01559fc8_a80e5c91",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:02:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6b27af25_25191b30",
       "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
@@ -190,6 +256,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "615fd0b1_61419121",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:02:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "63e12f18_cc459cb7",
+      "range": {
+        "startLine": 219,
+        "startChar": 58,
+        "endLine": 219,
+        "endChar": 72
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ad301968_3441dec7",
@@ -203,6 +293,30 @@
       "writtenOn": "2026-10-21T13:04:31Z",
       "side": 1,
       "message": "```suggestion\n1. Have Gerrit servers running v3.12/v3.13/v3.14 in high-availability\n```",
+      "range": {
+        "startLine": 231,
+        "startChar": 31,
+        "endLine": 231,
+        "endChar": 42
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d0ffd4d_4688796d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:02:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ad301968_3441dec7",
       "range": {
         "startLine": 231,
         "startChar": 31,
@@ -236,6 +350,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b2ef666_ac068bdb",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:02:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "03267bad_5cd50af9",
+      "range": {
+        "startLine": 249,
+        "startChar": 20,
+        "endLine": 249,
+        "endChar": 34
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "03f62c7c_117c5185",
@@ -249,6 +387,24 @@
       "writtenOn": "2026-10-21T13:04:31Z",
       "side": 1,
       "message": "```suggestion\n* Gerrit v3.12/v3.13 does not know the `aiReview` permission and ignores it.\n```",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37baafcd_0e0afbd0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T14:02:27Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "03f62c7c_117c5185",
       "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
