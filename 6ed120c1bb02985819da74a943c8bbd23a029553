@@ -380,6 +380,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d71ca962_45655f06",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T15:45:30Z",
+      "side": 1,
+      "message": "\u003e I\u0027m saying, want me to remind the user of both here too, or just the one?\n\nIt\u0027s not a reminder; it\u0027s a step. These are step-by-step instructions, aren\u0027t they?",
+      "parentUuid": "86e6a5d1_7420103f",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "593bc596_49a56eb1",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 5
