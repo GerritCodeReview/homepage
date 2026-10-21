@@ -1,0 +1,256 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7591f05b_6a7af853",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "Also mention that the `[container] javaHome` setting in `gerrit.config` need to be updated to point to the new `JAVA_HOME` location.",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fdc0d9d_6bff25d5",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "```suggestion\nGerrit schema version is updated to `187` (Gerrit v3.12/v3.13/v3.14 are all\n```",
+      "range": {
+        "startLine": 177,
+        "startChar": 43,
+        "endLine": 177,
+        "endChar": 65
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87f74da3_e205556e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "Gerrit v3.12 is also on `v87`.\n\n\n\n\n```suggestion\nThe Changes index has been upgraded to `v90` (Gerrit v3.12/v3.13 are on `v87`, v3.14\n```",
+      "range": {
+        "startLine": 186,
+        "startChar": 46,
+        "endLine": 186,
+        "endChar": 70
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "804017ab_a8b43fe9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "Gerrit only has one type of reindex: just remove the word `full,` which may lead the reader to think that there is a _partial_ reindex.\n\n\n\n```suggestion\non `v88`) and requires a reindex: `v89` adds the `unmet-requirement` and\n```",
+      "range": {
+        "startLine": 187,
+        "startChar": 25,
+        "endLine": 187,
+        "endChar": 29
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b27af25_25191b30",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "```suggestion\n`unsatisfied-requirement-count` fields, and `v90` adds the `file-count` field. The\n```",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85fe84e7_126d44a3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "This isn\u0027t actually an `online upgrade` but an upgrade with `online reindex`.",
+      "range": {
+        "startLine": 202,
+        "startChar": 4,
+        "endLine": 202,
+        "endChar": 18
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fd1c4f4_ff3864e2",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "You need to remind to upgrade Java to Java 25 and edit the `[container] javaHome` setting in `gerrit.config`",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "593bc596_49a56eb1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "If we don\u0027t need to change it, do we even need to mention it?\nI\u0027ve never used it before, I am unsure on when you really need to use it honestly 😊",
+      "range": {
+        "startLine": 212,
+        "startChar": 73,
+        "endLine": 215,
+        "endChar": 56
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63e12f18_cc459cb7",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "```suggestion\nGerrit v3.15.x supports zero-downtime upgrade from Gerrit v3.12, v3.13 or v3.14 when\n```",
+      "range": {
+        "startLine": 219,
+        "startChar": 58,
+        "endLine": 219,
+        "endChar": 72
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad301968_3441dec7",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "```suggestion\n1. Have Gerrit servers running v3.12/v3.13/v3.14 in high-availability\n```",
+      "range": {
+        "startLine": 231,
+        "startChar": 31,
+        "endLine": 231,
+        "endChar": 42
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03267bad_5cd50af9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "```suggestion\nDowngrade to Gerrit v3.12, v3.13 or v3.14 is possible, but requires the following manual steps:\n```",
+      "range": {
+        "startLine": 249,
+        "startChar": 20,
+        "endLine": 249,
+        "endChar": 34
+      },
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03f62c7c_117c5185",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-21T13:04:31Z",
+      "side": 1,
+      "message": "```suggestion\n* Gerrit v3.12/v3.13 does not know the `aiReview` permission and ignores it.\n```",
+      "revId": "6ed120c1bb02985819da74a943c8bbd23a029553",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
