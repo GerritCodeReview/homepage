@@ -59,6 +59,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1975fa68_37e82304",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T11:52:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb314fa8_07a13d76",
+      "range": {
+        "startLine": 261,
+        "startChar": 0,
+        "endLine": 261,
+        "endChar": 67
+      },
+      "revId": "9098f5bc47c06df6c0f0013e64c6b2561b37d07c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e9b0d77_c1bb5820",
@@ -96,6 +120,30 @@
       "side": 1,
       "message": "Yeah, I would say just remove it if you\u0027re not sure about it.",
       "parentUuid": "5e9b0d77_c1bb5820",
+      "range": {
+        "startLine": 268,
+        "startChar": 0,
+        "endLine": 278,
+        "endChar": 68
+      },
+      "revId": "9098f5bc47c06df6c0f0013e64c6b2561b37d07c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87cdd55d_6559bf8f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T11:52:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffaf786f_5d1d0046",
       "range": {
         "startLine": 268,
         "startChar": 0,
