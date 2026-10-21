@@ -36,6 +36,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b5682c6_34087a6c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T16:10:50Z",
+      "side": 1,
+      "message": "I\u0027m leaning towards agreeing with Luca here, let\u0027s leave it as is for now and then we can rename it accordingly in every release note once 643983 is submitted.",
+      "parentUuid": "75827baf_bbbc3af2",
+      "revId": "9098f5bc47c06df6c0f0013e64c6b2561b37d07c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bb314fa8_07a13d76",
