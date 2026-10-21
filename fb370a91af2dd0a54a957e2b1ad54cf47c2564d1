@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a40ae39_2c2e44bf",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 31
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-21T11:45:03Z",
+      "side": 1,
+      "message": "```suggestion\n* [Issue 309098227](https://issues.gerritcodereview.com/issues/309098227) [Change 360646](https://gerrit-review.googlesource.com/360646):\nThe introduction of a per-request ref cache for better performance may break\nthe repository consistency\n```\n\nThat issue can be removed from the release notes and closed as the intended workaround is to set `GerritBackendFeature__allow_ai_review_for_registered_users` as intended in the Highlights sections",
+      "range": {
+        "startLine": 286,
+        "startChar": 0,
+        "endLine": 295,
+        "endChar": 26
+      },
+      "revId": "fb370a91af2dd0a54a957e2b1ad54cf47c2564d1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
