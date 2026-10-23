@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04272373_8155909d",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 627,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-23T11:23:26Z",
+      "side": 1,
+      "message": "This is different from the [description](https://gerrit.googlesource.com/homepage/+show/refs/changes/43/645043/19/pages/site/releases/3.15.md#315) we have for 3.15\n\nCan we align them?",
+      "range": {
+        "startLine": 621,
+        "startChar": 0,
+        "endLine": 627,
+        "endChar": 43
+      },
+      "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
