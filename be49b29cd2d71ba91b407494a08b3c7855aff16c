@@ -305,6 +305,30 @@
       },
       "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b3952bd_9bde6754",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-23T13:07:27Z",
+      "side": 1,
+      "message": "Sorry, I see what you\u0027re saying! yes, good point. Done.",
+      "parentUuid": "ae453fad_33105a3f",
+      "range": {
+        "startLine": 666,
+        "startChar": 0,
+        "endLine": 671,
+        "endChar": 63
+      },
+      "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
