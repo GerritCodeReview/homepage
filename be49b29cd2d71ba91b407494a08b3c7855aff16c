@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8899efb9_222098fb",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-10-23T11:39:19Z",
+      "side": 1,
+      "message": "Not sure if we care about presenting the numbers.",
+      "range": {
+        "startLine": 618,
+        "startChar": 4,
+        "endLine": 619,
+        "endChar": 16
+      },
+      "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "04272373_8155909d",
         "filename": "pages/site/releases/3.14.md",
         "patchSetId": 2
@@ -19,6 +42,75 @@
         "startChar": 0,
         "endLine": 627,
         "endChar": 43
+      },
+      "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1933bf6b_49585121",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 628,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-10-23T11:39:19Z",
+      "side": 1,
+      "message": "I would put a generic improvement in encoding time and memory allocation.",
+      "range": {
+        "startLine": 626,
+        "startChar": 21,
+        "endLine": 628,
+        "endChar": 0
+      },
+      "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cb3eaef_7e2f3ea7",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 650,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-10-23T11:39:19Z",
+      "side": 1,
+      "message": "`conflicts` cache has been bumped in this change as well",
+      "range": {
+        "startLine": 650,
+        "startChar": 60,
+        "endLine": 650,
+        "endChar": 70
+      },
+      "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28110e4c_59ea9b58",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-10-23T11:39:19Z",
+      "side": 1,
+      "message": "Is this a UI fix as well?",
+      "range": {
+        "startLine": 666,
+        "startChar": 0,
+        "endLine": 671,
+        "endChar": 63
       },
       "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
