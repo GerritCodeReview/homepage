@@ -281,6 +281,30 @@
       },
       "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae453fad_33105a3f",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-23T12:51:01Z",
+      "side": 1,
+      "message": "I believe so yes, as all the files involved where in the UI\n\nhttps://gerrit-review.googlesource.com/c/gerrit/+/634945",
+      "parentUuid": "28110e4c_59ea9b58",
+      "range": {
+        "startLine": 666,
+        "startChar": 0,
+        "endLine": 671,
+        "endChar": 63
+      },
+      "revId": "be49b29cd2d71ba91b407494a08b3c7855aff16c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
