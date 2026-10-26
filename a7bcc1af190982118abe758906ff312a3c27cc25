@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2e580bbe_81f27061",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T17:09:33Z",
+      "side": 1,
+      "message": "```suggestion\n- [a3a8b9785](https://eclipse.gerrithub.io/q/a3a8b9785) Include time negotiating in total time in UploadPack\n```",
+      "range": {
+        "startLine": 678,
+        "startChar": 69,
+        "endLine": 678,
+        "endChar": 79
+      },
+      "revId": "a7bcc1af190982118abe758906ff312a3c27cc25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2ecb763d_e62579a2",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 22
