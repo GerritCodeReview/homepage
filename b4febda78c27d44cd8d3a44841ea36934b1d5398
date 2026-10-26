@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "641b1b04_c248e2fc",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 595,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:59:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "83cd4df9_8a0732d1",
+      "range": {
+        "startLine": 592,
+        "startChar": 0,
+        "endLine": 595,
+        "endChar": 66
+      },
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3873abf3_ea96380e",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-10-26T21:48:49Z",
       "side": 1,
       "message": "This looks more a bug fix than an enhancement.",
+      "range": {
+        "startLine": 626,
+        "startChar": 0,
+        "endLine": 629,
+        "endChar": 11
+      },
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84eff627_d50aaebf",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 629,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:59:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3873abf3_ea96380e",
       "range": {
         "startLine": 626,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3fb81f6_3912bcc0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 653,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:59:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf0e706c_0f0f0ffd",
+      "range": {
+        "startLine": 650,
+        "startChar": 0,
+        "endLine": 653,
+        "endChar": 47
+      },
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d51ff3d3_499d26ea",
@@ -93,6 +165,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "55c48e41_4f2790f1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 755,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:59:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d51ff3d3_499d26ea",
+      "range": {
+        "startLine": 752,
+        "startChar": 0,
+        "endLine": 755,
+        "endChar": 46
+      },
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f056fe3b_f8e610a1",
@@ -106,6 +202,24 @@
       "writtenOn": "2026-10-26T21:48:49Z",
       "side": 1,
       "message": "```suggestion\n  Stop logging a spurious `SEVERE \"Internal server error\"` when an SSH client\n```",
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "824c14a9_7aa5e7ab",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 788,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:59:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f056fe3b_f8e610a1",
       "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
