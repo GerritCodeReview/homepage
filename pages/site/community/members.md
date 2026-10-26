@@ -71,7 +71,6 @@ Current maintainers are:
 | Sarah Silva                | Google                                         |
 | Saša Živkov                | SAP                                            |
 | Sven Selberg               | Axis                                           |
-| Terry Parker               | Google                                         |
 | Thomas Dräbing             | SAP                                            |
 
 ## Previous Community Members
@@ -120,6 +119,7 @@ We're grateful for the many individuals who have previously held community roles
 | Patrick Hiesel        | Google                             |
 | Shawn Pearce          | Google (Founder of Gerrit and JGit)|
 | Tao Zhou              | Google                             |
+| Terry Parker          | Google                             |
 | Viktar Donich         | Google                             |
 | Wyatt Allen           | Google                             |
 | Youssef Elghareeb     | Google                             |
