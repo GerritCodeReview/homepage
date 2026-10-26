@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7a618d65_defefd5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 21
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T17:35:22Z",
+      "side": 1,
+      "message": "I believe this one is included as part of the `Stack Diff` section in the highlights. I don\u0027t believe the REST API has much uses beyond that?",
+      "parentUuid": "2d7122f9_053d3ac5",
+      "revId": "6fa7c0159bfe5509e09d8f9c77d50dc29f2f81a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ce906d81_c2c8d6d3",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 21
@@ -31,6 +49,30 @@
       "writtenOn": "2026-10-26T17:09:09Z",
       "side": 1,
       "message": "```suggestion\n  means that it\u0027s evaluated in the request thread and no timeout applies. To use\n```",
+      "range": {
+        "startLine": 389,
+        "startChar": 13,
+        "endLine": 389,
+        "endChar": 26
+      },
+      "revId": "6fa7c0159bfe5509e09d8f9c77d50dc29f2f81a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73de68b3_1dc28d47",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 389,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T17:35:22Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ce906d81_c2c8d6d3",
       "range": {
         "startLine": 389,
         "startChar": 13,
@@ -54,6 +96,24 @@
       "writtenOn": "2026-10-26T17:09:09Z",
       "side": 1,
       "message": "```suggestion\n  `/config/server/tasks/{task-id}` by users with `View Queue`, instead of failing\n```",
+      "revId": "6fa7c0159bfe5509e09d8f9c77d50dc29f2f81a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44e2214a_4e9d2d0b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 570,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T17:35:22Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "a7735152_83a4f989",
       "revId": "6fa7c0159bfe5509e09d8f9c77d50dc29f2f81a1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
