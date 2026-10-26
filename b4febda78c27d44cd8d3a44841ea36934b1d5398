@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83cd4df9_8a0732d1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 595,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:48:49Z",
+      "side": 1,
+      "message": "This is a copy/paste from documentation, I think we should be rather pointing to it.",
+      "range": {
+        "startLine": 592,
+        "startChar": 0,
+        "endLine": 595,
+        "endChar": 66
+      },
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3873abf3_ea96380e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 629,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:48:49Z",
+      "side": 1,
+      "message": "This looks more a bug fix than an enhancement.",
+      "range": {
+        "startLine": 626,
+        "startChar": 0,
+        "endLine": 629,
+        "endChar": 11
+      },
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf0e706c_0f0f0ffd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 653,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:48:49Z",
+      "side": 1,
+      "message": "Shall we refer to the documentation for this, rather than duplicating it here?",
+      "range": {
+        "startLine": 650,
+        "startChar": 0,
+        "endLine": 653,
+        "endChar": 47
+      },
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d51ff3d3_499d26ea",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 755,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:48:49Z",
+      "side": 1,
+      "message": "I think this should go together with Issue 515272357, that we already mentioned above?",
+      "range": {
+        "startLine": 752,
+        "startChar": 0,
+        "endLine": 755,
+        "endChar": 46
+      },
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f056fe3b_f8e610a1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 24
+      },
+      "lineNbr": 788,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T21:48:49Z",
+      "side": 1,
+      "message": "```suggestion\n  Stop logging a spurious `SEVERE \"Internal server error\"` when an SSH client\n```",
+      "revId": "b4febda78c27d44cd8d3a44841ea36934b1d5398",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
