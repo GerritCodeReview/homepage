@@ -135,6 +135,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "62e9405d_299266ed",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T15:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c41d0a7a_87d94f95",
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2bb26e23_fc26f7be",
@@ -195,6 +213,30 @@
       "writtenOn": "2026-10-26T14:23:37Z",
       "side": 1,
       "message": "In frontend we have the following change, which is analogous to this one:\n\n```\n* [Change 621221](https://gerrit-review.googlesource.com/c/gerrit/+/621221):\n  Add an optional Hashtags column to the change list, disabled by default, that\n  users can enable in their change table preferences.\n```\n\nHow did you decide to have this here rather than in the `Frontend` section or vice-versa?",
+      "range": {
+        "startLine": 401,
+        "startChar": 0,
+        "endLine": 401,
+        "endChar": 76
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4726c43_0e525276",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T15:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "51949b78_697c1463",
       "range": {
         "startLine": 401,
         "startChar": 0,
@@ -312,6 +354,30 @@
       "writtenOn": "2026-10-26T14:23:37Z",
       "side": 1,
       "message": "Is this shown anywhere else rather than the UI?\nIf not, I\u0027d suggest this to be moved to `Frontend`",
+      "range": {
+        "startLine": 478,
+        "startChar": 0,
+        "endLine": 484,
+        "endChar": 39
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40165f1e_e13f8720",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 484,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T15:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e4e45947_6051f6e9",
       "range": {
         "startLine": 478,
         "startChar": 0,
