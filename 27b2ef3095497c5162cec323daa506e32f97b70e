@@ -94,6 +94,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "30a98a89_8dba84d6",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T14:47:44Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "25d31c85_9061a536",
+      "range": {
+        "startLine": 391,
+        "startChar": 0,
+        "endLine": 391,
+        "endChar": 79
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c41d0a7a_87d94f95",
@@ -124,6 +148,30 @@
       "writtenOn": "2026-10-26T14:23:37Z",
       "side": 1,
       "message": "```suggestion\n  The `Fit to screen` diff preference now offers a `Shrink only` option, giving\n```",
+      "range": {
+        "startLine": 394,
+        "startChar": 6,
+        "endLine": 394,
+        "endChar": 21
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eec0f140_2aa61b7d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T14:47:44Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "2bb26e23_fc26f7be",
       "range": {
         "startLine": 394,
         "startChar": 6,
@@ -170,6 +218,30 @@
       "writtenOn": "2026-10-26T14:23:37Z",
       "side": 1,
       "message": "```suggestion\n  Add a `Shown Labels` user preference in the `Change Table Columns` settings to\n```",
+      "range": {
+        "startLine": 402,
+        "startChar": 8,
+        "endLine": 402,
+        "endChar": 22
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5bc69c8_be6a9ba0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T14:47:44Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6ce24e53_3c526350",
       "range": {
         "startLine": 402,
         "startChar": 8,
