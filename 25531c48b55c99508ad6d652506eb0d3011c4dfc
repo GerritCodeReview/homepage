@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "774f4828_756052fd",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:53:07Z",
+      "side": 1,
+      "message": "```suggestion\n  New [`check-result-feedback`](https://gerrit-documentation.storage.googleapis.com/Documentation/3.15.0/pg-plugin-endpoints.html#_check_result_feedback)\n```",
+      "range": {
+        "startLine": 422,
+        "startChar": 2,
+        "endLine": 422,
+        "endChar": 133
+      },
+      "revId": "25531c48b55c99508ad6d652506eb0d3011c4dfc",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
