@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9b0dc8f_e3332887",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T16:52:52Z",
+      "side": 1,
+      "message": "I believe we should cover:\n\n- `Implicit merges are now rejected on submit by default` : https://gerrit-review.googlesource.com/c/gerrit/+/624061",
+      "range": {
+        "startLine": 239,
+        "startChar": 0,
+        "endLine": 239,
+        "endChar": 19
+      },
+      "revId": "b3f11b5afff547961c9936f74a69904575bcc04e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
