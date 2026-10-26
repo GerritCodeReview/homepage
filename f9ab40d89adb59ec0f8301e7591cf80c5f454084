@@ -47,6 +47,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a81214e_99469ada",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 423,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d85180b2_2bc5f60f",
+      "range": {
+        "startLine": 423,
+        "startChar": 27,
+        "endLine": 423,
+        "endChar": 46
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9cfaee27_cf70ba59",
@@ -60,6 +84,30 @@
       "writtenOn": "2026-10-26T13:22:50Z",
       "side": 1,
       "message": "```suggestion\n  modifications when clicking `Cancel`.\n```",
+      "range": {
+        "startLine": 428,
+        "startChar": 30,
+        "endLine": 428,
+        "endChar": 36
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d1670ca_e72a2cde",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 428,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "9cfaee27_cf70ba59",
       "range": {
         "startLine": 428,
         "startChar": 30,
@@ -93,6 +141,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbe812b1_e355062f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 432,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8c1e4f34_c83ffc0e",
+      "range": {
+        "startLine": 432,
+        "startChar": 59,
+        "endLine": 432,
+        "endChar": 76
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7d27d95c_03ea0823",
@@ -106,6 +178,30 @@
       "writtenOn": "2026-10-26T13:22:50Z",
       "side": 1,
       "message": "```suggestion\n  The `Unresolved comments` section of the `Create AI Review Prompt` now\n```",
+      "range": {
+        "startLine": 444,
+        "startChar": 6,
+        "endLine": 444,
+        "endChar": 27
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55bdc2a6_a61e794c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 444,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "7d27d95c_03ea0823",
       "range": {
         "startLine": 444,
         "startChar": 6,
@@ -139,6 +235,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "18798331_73c5896b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 467,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d735b837_49ba62f9",
+      "range": {
+        "startLine": 467,
+        "startChar": 18,
+        "endLine": 467,
+        "endChar": 26
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "849038e9_29ca644d",
@@ -152,6 +272,30 @@
       "writtenOn": "2026-10-26T13:22:50Z",
       "side": 1,
       "message": "```suggestion\n  Re-add the `Default Base For Merges` user preference, removed in Gerrit 3.7.0,\n```",
+      "range": {
+        "startLine": 471,
+        "startChar": 13,
+        "endLine": 471,
+        "endChar": 38
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07ae2214_d757d191",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 471,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "849038e9_29ca644d",
       "range": {
         "startLine": 471,
         "startChar": 13,
@@ -208,6 +352,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "188d75e8_c31a10a0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "97cee685_ceeb5416",
+      "range": {
+        "startLine": 476,
+        "startChar": 16,
+        "endLine": 476,
+        "endChar": 23
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93e1ba35_4018a565",
@@ -221,6 +389,30 @@
       "writtenOn": "2026-10-26T13:22:50Z",
       "side": 1,
       "message": "```suggestion\n  `Voting on labels disallowed after submit`.\n```",
+      "range": {
+        "startLine": 490,
+        "startChar": 2,
+        "endLine": 490,
+        "endChar": 45
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca171e7b_2120c86a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 490,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "93e1ba35_4018a565",
       "range": {
         "startLine": 490,
         "startChar": 2,
@@ -254,6 +446,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea7edf93_fa404e1f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "3e3fef66_1b08c2ec",
+      "range": {
+        "startLine": 497,
+        "startChar": 74,
+        "endLine": 498,
+        "endChar": 9
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ca0c265a_d8f32331",
@@ -267,6 +483,30 @@
       "writtenOn": "2026-10-26T13:22:50Z",
       "side": 1,
       "message": "```suggestion\n  owner, attention-set and label votes as badges instead of the change size.\n```",
+      "range": {
+        "startLine": 512,
+        "startChar": 9,
+        "endLine": 512,
+        "endChar": 22
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26f404e3_f7747f83",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 512,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ca0c265a_d8f32331",
       "range": {
         "startLine": 512,
         "startChar": 9,
@@ -300,6 +540,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe986354_6c427839",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e55ac60c_34f5df5b",
+      "range": {
+        "startLine": 520,
+        "startChar": 19,
+        "endLine": 520,
+        "endChar": 30
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6c12d41a_b8ff988d",
@@ -323,6 +587,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "21a68d1e_ebc85e43",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 532,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6c12d41a_b8ff988d",
+      "range": {
+        "startLine": 532,
+        "startChar": 2,
+        "endLine": 532,
+        "endChar": 80
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1bb62183_30b8344a",
@@ -336,6 +624,30 @@
       "writtenOn": "2026-10-26T13:22:50Z",
       "side": 1,
       "message": "```suggestion\n  The upload documentation now warns more prominently that granting `Submit` on\n```",
+      "range": {
+        "startLine": 545,
+        "startChar": 68,
+        "endLine": 545,
+        "endChar": 74
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19462ee5_5c197f50",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 545,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:25:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "1bb62183_30b8344a",
       "range": {
         "startLine": 545,
         "startChar": 68,
