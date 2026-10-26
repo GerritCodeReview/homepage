@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9de8787c_863939ac",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T14:28:35Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e12ac44e_1110ce05",
+      "range": {
+        "startLine": 381,
+        "startChar": 63,
+        "endLine": 381,
+        "endChar": 64
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d38f411e_7ae983b6",
@@ -179,6 +203,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab904a1c_e6157055",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T14:28:35Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "4bb1f449_ea8588f0",
+      "range": {
+        "startLine": 465,
+        "startChar": 67,
+        "endLine": 466,
+        "endChar": 17
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e4e45947_6051f6e9",
@@ -215,6 +263,30 @@
       "writtenOn": "2026-10-26T14:23:37Z",
       "side": 1,
       "message": "```suggestion\n  commands, can now be retrieved and killed via `kill` and `GET`/`DELETE`\n```",
+      "range": {
+        "startLine": 591,
+        "startChar": 66,
+        "endLine": 591,
+        "endChar": 72
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fc5d173_d26e1f13",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 591,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T14:28:35Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "33e5a1d2_a22f2360",
       "range": {
         "startLine": 591,
         "startChar": 66,
