@@ -1,0 +1,349 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "caaefbb8_b371f61c",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "Consider linking the documentation [1]\n\n[1] https://gerrit-review.googlesource.com/Documentation/pg-plugin-endpoints.html#_check_result_feedback",
+      "range": {
+        "startLine": 422,
+        "startChar": 7,
+        "endLine": 422,
+        "endChar": 29
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d85180b2_2bc5f60f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 423,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  result wraps the default `Was this helpful?` feedback controls, letting\n```",
+      "range": {
+        "startLine": 423,
+        "startChar": 27,
+        "endLine": 423,
+        "endChar": 46
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9cfaee27_cf70ba59",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 428,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  modifications when clicking `Cancel`.\n```",
+      "range": {
+        "startLine": 428,
+        "startChar": 30,
+        "endLine": 428,
+        "endChar": 36
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c1e4f34_c83ffc0e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 432,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  hidden in the change log by default and only shown with `Show all entries`.\n```",
+      "range": {
+        "startLine": 432,
+        "startChar": 59,
+        "endLine": 432,
+        "endChar": 76
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d27d95c_03ea0823",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 444,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  The `Unresolved comments` section of the `Create AI Review Prompt` now\n```",
+      "range": {
+        "startLine": 444,
+        "startChar": 6,
+        "endLine": 444,
+        "endChar": 27
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d735b837_49ba62f9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 467,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  Add an optional `Hashtags` column to the change list, disabled by default, that\n```",
+      "range": {
+        "startLine": 467,
+        "startChar": 18,
+        "endLine": 467,
+        "endChar": 26
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "849038e9_29ca644d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 471,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  Re-add the `Default Base For Merges` user preference, removed in Gerrit 3.7.0,\n```",
+      "range": {
+        "startLine": 471,
+        "startChar": 13,
+        "endLine": 471,
+        "endChar": 38
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "207fef7c_c50bf4dc",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 472,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  allowing users to choose between `Auto Merge` and `First Parent` as the\n```",
+      "range": {
+        "startLine": 472,
+        "startChar": 35,
+        "endLine": 472,
+        "endChar": 73
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97cee685_ceeb5416",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  Turn the bulk `Abandon` button of the change list into a `Restore` button when all\n```",
+      "range": {
+        "startLine": 476,
+        "startChar": 16,
+        "endLine": 476,
+        "endChar": 23
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93e1ba35_4018a565",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 490,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  `Voting on labels disallowed after submit`.\n```",
+      "range": {
+        "startLine": 490,
+        "startChar": 2,
+        "endLine": 490,
+        "endChar": 45
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e3fef66_1b08c2ec",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  Changing the notification settings of a watched project now enables the `Save\n  Changes` button, so these updates can be saved on their own.\n```",
+      "range": {
+        "startLine": 497,
+        "startChar": 74,
+        "endLine": 498,
+        "endChar": 9
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca0c265a_d8f32331",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 512,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  owner, attention-set and label votes as badges instead of the change size.\n```",
+      "range": {
+        "startLine": 512,
+        "startChar": 9,
+        "endLine": 512,
+        "endChar": 22
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e55ac60c_34f5df5b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  clicking below a `Code-Review` button could select a vote on the `Verified` row\n```",
+      "range": {
+        "startLine": 520,
+        "startChar": 19,
+        "endLine": 520,
+        "endChar": 30
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c12d41a_b8ff988d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 532,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  The `Review Agent` button on the change screen is renamed to `Agent Chat`, and\n```",
+      "range": {
+        "startLine": 532,
+        "startChar": 2,
+        "endLine": 532,
+        "endChar": 80
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1bb62183_30b8344a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 545,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:22:50Z",
+      "side": 1,
+      "message": "```suggestion\n  The upload documentation now warns more prominently that granting `Submit` on\n```",
+      "range": {
+        "startLine": 545,
+        "startChar": 68,
+        "endLine": 545,
+        "endChar": 74
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
