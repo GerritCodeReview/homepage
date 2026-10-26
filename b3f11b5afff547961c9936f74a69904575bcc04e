@@ -22,6 +22,30 @@
       },
       "revId": "b3f11b5afff547961c9936f74a69904575bcc04e",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31f23c36_ce459bd0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T16:58:20Z",
+      "side": 1,
+      "message": "Is this breaking change mentioned already [1]?\n\n```\nBreaking change: require tilde changeIds in config/server/index.changes when requesting deletions and reject legacy numeric-only ids.\n```\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/581621",
+      "parentUuid": "d9b0dc8f_e3332887",
+      "range": {
+        "startLine": 239,
+        "startChar": 0,
+        "endLine": 239,
+        "endChar": 19
+      },
+      "revId": "b3f11b5afff547961c9936f74a69904575bcc04e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
