@@ -1,5 +1,29 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8386d3c_23a6d4db",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T17:10:23Z",
+      "side": 1,
+      "message": "These are duplicated, can you remove one in a follow up change?",
+      "range": {
+        "startLine": 399,
+        "startChar": 0,
+        "endLine": 409,
+        "endChar": 43
+      },
+      "revId": "b00c24d9a236bb9ed06f9f87bccd59f3db9cb72e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
