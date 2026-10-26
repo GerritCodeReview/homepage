@@ -16,6 +16,46 @@
       "message": "This one should be mentioned too imho [1], WDYT?\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/541701",
       "revId": "6fa7c0159bfe5509e09d8f9c77d50dc29f2f81a1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce906d81_c2c8d6d3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 389,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T17:09:09Z",
+      "side": 1,
+      "message": "```suggestion\n  means that it\u0027s evaluated in the request thread and no timeout applies. To use\n```",
+      "range": {
+        "startLine": 389,
+        "startChar": 13,
+        "endLine": 389,
+        "endChar": 26
+      },
+      "revId": "6fa7c0159bfe5509e09d8f9c77d50dc29f2f81a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7735152_83a4f989",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 570,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T17:09:09Z",
+      "side": 1,
+      "message": "```suggestion\n  `/config/server/tasks/{task-id}` by users with `View Queue`, instead of failing\n```",
+      "revId": "6fa7c0159bfe5509e09d8f9c77d50dc29f2f81a1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
