@@ -1,0 +1,274 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e12ac44e_1110ce05",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "```suggestion\n  The new `submitRequirement.executionTimeout` option (default `0`, no timeout)\n```",
+      "range": {
+        "startLine": 381,
+        "startChar": 63,
+        "endLine": 381,
+        "endChar": 64
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d38f411e_7ae983b6",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 388,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "I find this section quite dense and hard to follow.\n\nAlso, if I understand correctly, the timeout is disabled by default, and both `submitRequirement.executionTimeout` and `submitRequirement.evaluationThreads` need to be configured to enable it.\n\nCan you clarify this and make it a bit shorter?",
+      "range": {
+        "startLine": 376,
+        "startChar": 0,
+        "endLine": 388,
+        "endChar": 18
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25d31c85_9061a536",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "I think it is unnecessary to mention this.\n\n```suggestion\n  new `TIMEOUT` value, reported instead of `UNSATISFIED`.\n```",
+      "range": {
+        "startLine": 391,
+        "startChar": 0,
+        "endLine": 391,
+        "endChar": 79
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c41d0a7a_87d94f95",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "Should this be mentioned as `Frontend`?",
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bb26e23_fc26f7be",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "```suggestion\n  The `Fit to screen` diff preference now offers a `Shrink only` option, giving\n```",
+      "range": {
+        "startLine": 394,
+        "startChar": 6,
+        "endLine": 394,
+        "endChar": 21
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "51949b78_697c1463",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "In frontend we have the following change, which is analogous to this one:\n\n```\n* [Change 621221](https://gerrit-review.googlesource.com/c/gerrit/+/621221):\n  Add an optional Hashtags column to the change list, disabled by default, that\n  users can enable in their change table preferences.\n```\n\nHow did you decide to have this here rather than in the `Frontend` section or vice-versa?",
+      "range": {
+        "startLine": 401,
+        "startChar": 0,
+        "endLine": 401,
+        "endChar": 76
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ce24e53_3c526350",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 402,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "```suggestion\n  Add a `Shown Labels` user preference in the `Change Table Columns` settings to\n```",
+      "range": {
+        "startLine": 402,
+        "startChar": 8,
+        "endLine": 402,
+        "endChar": 22
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bb1f449_ea8588f0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "```suggestion\n  register custom diff layers that are applied when rendering diffs.\n```",
+      "range": {
+        "startLine": 465,
+        "startChar": 67,
+        "endLine": 466,
+        "endChar": 17
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4e45947_6051f6e9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 484,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "Is this shown anywhere else rather than the UI?\nIf not, I\u0027d suggest this to be moved to `Frontend`",
+      "range": {
+        "startLine": 478,
+        "startChar": 0,
+        "endLine": 484,
+        "endChar": 39
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33e5a1d2_a22f2360",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 591,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "```suggestion\n  commands, can now be retrieved and killed via `kill` and `GET`/`DELETE`\n```",
+      "range": {
+        "startLine": 591,
+        "startChar": 66,
+        "endLine": 591,
+        "endChar": 72
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c65f926_00c21fb2",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 592,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "```suggestion\n  /config/server/tasks/{task-id}` by users with `View Queue`, instead of failing\n```",
+      "range": {
+        "startLine": 592,
+        "startChar": 48,
+        "endLine": 592,
+        "endChar": 58
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e33ba91_98d7e062",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 637,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T14:23:37Z",
+      "side": 1,
+      "message": "I find this difficult to understand.\nCan you consider separating these into two separate bug fixes and maintain their original release-notes inputs?\n\n- Fix HTTP 500 when updating a draft comment without path\n- Fix draft comment losing unresolved state on update",
+      "range": {
+        "startLine": 632,
+        "startChar": 0,
+        "endLine": 637,
+        "endChar": 45
+      },
+      "revId": "27b2ef3095497c5162cec323daa506e32f97b70e",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
