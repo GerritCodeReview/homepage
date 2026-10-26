@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65c73f07_b3aa4db0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:37:02Z",
+      "side": 1,
+      "message": "Not sure this is relevant for gerrit release note readers.\nIt seems this was only needed to fix a flaky test:\n\n```\nThis manifested as a flaky\nInterruptTimerTest.testRepeatedShortThanTooLong()\nin CI job running on Linux where coarser timer resolution and higher\nscheduling jitter made the race window large enough to hit reliably.\n```",
+      "range": {
+        "startLine": 640,
+        "startChar": 0,
+        "endLine": 640,
+        "endChar": 127
+      },
+      "revId": "00de1ca21213ef35365b6b7b35a7cd9777c89efa",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c45e6957_f6e6e156",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 731,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:37:02Z",
+      "side": 1,
+      "message": "Does this not change the `gitiles` plugin _as well_?\nIf so, we should probably mention `gitiles` plugins in the `Plugin changes` too.",
+      "range": {
+        "startLine": 730,
+        "startChar": 0,
+        "endLine": 731,
+        "endChar": 65
+      },
+      "revId": "00de1ca21213ef35365b6b7b35a7cd9777c89efa",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
