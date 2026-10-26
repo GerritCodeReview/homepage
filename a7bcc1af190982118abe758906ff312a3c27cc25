@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc1af4dd_95064331",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T17:36:02Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "2e580bbe_81f27061",
+      "range": {
+        "startLine": 678,
+        "startChar": 69,
+        "endLine": 678,
+        "endChar": 79
+      },
+      "revId": "a7bcc1af190982118abe758906ff312a3c27cc25",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ecb763d_e62579a2",
