@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f7e6d6f_bb58a5ac",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:33:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "caaefbb8_b371f61c",
+      "range": {
+        "startLine": 422,
+        "startChar": 7,
+        "endLine": 422,
+        "endChar": 29
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d85180b2_2bc5f60f",
@@ -319,6 +343,30 @@
       "writtenOn": "2026-10-26T13:22:50Z",
       "side": 1,
       "message": "```suggestion\n  allowing users to choose between `Auto Merge` and `First Parent` as the\n```",
+      "range": {
+        "startLine": 472,
+        "startChar": 35,
+        "endLine": 472,
+        "endChar": 73
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "206af572_c7a3a3db",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 472,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:33:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "207fef7c_c50bf4dc",
       "range": {
         "startLine": 472,
         "startChar": 35,
