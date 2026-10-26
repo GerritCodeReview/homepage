@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "552e52bd_91f28ef3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 25
+      },
+      "lineNbr": 809,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-26T20:56:52Z",
+      "side": 1,
+      "message": "This should be moved to the breaking changes section: the additional options are incompatible with some older git client versions and may break existing users if they are not aware of it.",
+      "range": {
+        "startLine": 806,
+        "startChar": 0,
+        "endLine": 809,
+        "endChar": 35
+      },
+      "revId": "18d1e4565f34c7df78412a81333a8937355bfc03",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
