@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f67b58ee_25f31f6f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-26T13:38:35Z",
+      "side": 1,
+      "message": "Sorry I should have been more clear.\nCan you link the one from 3.15?",
+      "parentUuid": "2f7e6d6f_bb58a5ac",
+      "range": {
+        "startLine": 422,
+        "startChar": 7,
+        "endLine": 422,
+        "endChar": 29
+      },
+      "revId": "f9ab40d89adb59ec0f8301e7591cf80c5f454084",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d85180b2_2bc5f60f",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 13
