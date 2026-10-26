@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32eff359_26f17312",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-26T13:39:29Z",
+      "side": 1,
+      "message": "```suggestion\nNotable changes are:\n- [771bfb6ee](https://eclipse.gerrithub.io/q/771bfb6ee) PackedBatchRefUpdate: Release locks in reverse order of acquisition\n```",
+      "range": {
+        "startLine": 640,
+        "startChar": 0,
+        "endLine": 642,
+        "endChar": 123
+      },
+      "revId": "93ce758fa1f13d05936d2b64eeda1181dc404f72",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
