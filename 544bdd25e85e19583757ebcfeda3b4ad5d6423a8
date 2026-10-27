@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa71f411_2d0c7e36",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 471,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-27T17:37:55Z",
+      "side": 1,
+      "message": "This is mentioned in the deprecated features, consider centralising this.",
+      "range": {
+        "startLine": 463,
+        "startChar": 0,
+        "endLine": 471,
+        "endChar": 56
+      },
+      "revId": "544bdd25e85e19583757ebcfeda3b4ad5d6423a8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
