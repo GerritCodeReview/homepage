@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "93d474cc_5200e391",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 486,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-27T21:43:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9e11dbd_10552099",
+      "range": {
+        "startLine": 483,
+        "startChar": 0,
+        "endLine": 486,
+        "endChar": 56
+      },
+      "revId": "f59dca9c32fd5252a4a2d1b9427278daeadc25a0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b297280f_0b1687ac",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-10-27T20:33:10Z",
       "side": 1,
       "message": "Same as the one above: this isn\u0027t an end-user feature but rather a Java API.",
+      "range": {
+        "startLine": 489,
+        "startChar": 2,
+        "endLine": 489,
+        "endChar": 51
+      },
+      "revId": "f59dca9c32fd5252a4a2d1b9427278daeadc25a0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f53bded3_7f01e329",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 489,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-27T21:43:14Z",
+      "side": 1,
+      "message": "I thought so too, but the change has a `Release-Notes` footer that isn\u0027t `skip`.\n\nAnyway, I tend to agree, will remove.",
+      "parentUuid": "b297280f_0b1687ac",
       "range": {
         "startLine": 489,
         "startChar": 2,
