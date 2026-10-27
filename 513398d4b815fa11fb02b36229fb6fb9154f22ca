@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a8f204e_28b78f3b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-27T18:20:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e27e51f2_034c285b",
+      "range": {
+        "startLine": 209,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 77
+      },
+      "revId": "513398d4b815fa11fb02b36229fb6fb9154f22ca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2327be8a_55eb6e17",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dae3a711_6540c9d0",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 765,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-27T18:20:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2327be8a_55eb6e17",
+      "range": {
+        "startLine": 765,
+        "startChar": 36,
+        "endLine": 765,
+        "endChar": 37
+      },
+      "revId": "513398d4b815fa11fb02b36229fb6fb9154f22ca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dc0be482_690187d0",
@@ -60,6 +108,24 @@
       "writtenOn": "2026-10-27T17:45:30Z",
       "side": 1,
       "message": "```suggestion\n* [Change 634944](https://gerrit-review.googlesource.com/c/gerrit/+/634944):\n```",
+      "revId": "513398d4b815fa11fb02b36229fb6fb9154f22ca",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b7d523d_91a384f8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1102,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-27T18:20:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc0be482_690187d0",
       "revId": "513398d4b815fa11fb02b36229fb6fb9154f22ca",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
