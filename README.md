@@ -73,3 +73,11 @@ JUnit results go to `test-results/browser.xml`; HTML reports go to
 `playwright-report/`, with screenshots and traces for failures. These artifacts
 are ignored and excluded from deployment. Browser checks can run locally
 independently of agent image rollout.
+
+#### Jenkins integration
+
+Jenkins installs lockfile dependencies and the matching browser as `jenkins`,
+runs the suite with `CI=1`, and publishes JUnit results and failure artifacts
+in a `finally` block. Installation and test failures stop deployment. Old
+reports are cleared first so installation failures cannot publish stale
+results.
