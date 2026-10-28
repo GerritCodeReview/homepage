@@ -1,0 +1,222 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54676866_ad644ba1",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "I would not mention where it is stored; that seems obvious, as pretty much everything goes into notedb.\nIf this is achieved via REST APIs (I would perhaps mention, or even link to, those), with a particular emphasis on the `is_ai` field.",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 39
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a93eaee_36d8262e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 593,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "```suggestion\n  which are now only computed for the returned page: in a test with `20,000`\n  annotated tags, listing `26` of them went from `~450ms` to `~15-35ms`.\n```",
+      "range": {
+        "startLine": 592,
+        "startChar": 68,
+        "endLine": 593,
+        "endChar": 66
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed748848_6f127dee",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 601,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "```suggestion\n  need external directory or authentication calls (`~100ms` per candidate). With\n```",
+      "range": {
+        "startLine": 601,
+        "startChar": 51,
+        "endLine": 601,
+        "endChar": 57
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47fbd13f_61e5b3f6",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 723,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "```suggestion\n  The new `httpd.enableProxyProtocol` option accepts `PROXY` protocol (`v1` and `v2`)\n```",
+      "range": {
+        "startLine": 723,
+        "startChar": 53,
+        "endLine": 723,
+        "endChar": 58
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3d06b3d_9c62300d",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "This makes it ambiguous about which header can be forged.\nWe just mentioned both a `PROXY` protocol header and `X-Forwarded-For`, but here we just say that a direct client \"could forge the header.\". We actually mean the _PROXY_ header here.\n\nConsider making this explicit: ``\u0027 A client connecting directly could forge a PROXY protocol header and spoof its address.```",
+      "range": {
+        "startLine": 730,
+        "startChar": 51,
+        "endLine": 730,
+        "endChar": 72
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "99cd84be_55c1ab72",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 750,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "```suggestion\n* [Change 645029](https://gerrit-review.googlesource.com/c/gerrit/+/645029):\n```",
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79b902ec_9e3c8fe6",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 971,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "```suggestion\n  Auto-close changes on direct push even if they have a `Patch-Set-Lock`.\n```",
+      "range": {
+        "startLine": 971,
+        "startChar": 56,
+        "endLine": 971,
+        "endChar": 70
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8979e9f1_5eb0d41e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 988,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "```suggestion\n  Fix H2 connections to use the async file system for thread-interruption safety.\n```",
+      "range": {
+        "startLine": 988,
+        "startChar": 8,
+        "endLine": 988,
+        "endChar": 10
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "821c2304_f0757b03",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 994,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "```suggestion\n  `accountPatchReviewDb.url` is accepted as an alias for `jdbc:h2:async:`.\n```",
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e0b6536_8808c821",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1138,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-28T10:41:09Z",
+      "side": 1,
+      "message": "```suggestion\n  Fix the repository `\"Maximum Git object size limit\"` field rejecting unit\n  suffixes (e.g. `\"5m\"`) in the web UI.\n```",
+      "range": {
+        "startLine": 1137,
+        "startChar": 0,
+        "endLine": 1138,
+        "endChar": 37
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
