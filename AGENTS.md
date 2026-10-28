@@ -36,8 +36,17 @@ This repository is a Jekyll site for `gerritcodereview.com`.
 - Keep changes focused; avoid unrelated formatting churn in large content files.
 
 ## Testing Guidelines
-There is no dedicated unit-test suite in this repo. Validate changes with build checks:
+Validate changes with fresh production and controlled-fixture builds (see README.md):
 - Run `bundle exec jekyll build` before uploading a Change.
+- Run `python3 -m unittest discover -s tests -p test_check_site.py -v` and
+  `python3 tools/check_site.py` for offline generated-site validation.
+- Prepare fixtures with `python3 tools/prepare_test_site.py`, build them as described
+  in README.md, then run
+  `TEST_SITE=_test/site python3 -m unittest discover -s tests -p test_rendering.py -v`.
+- Browser tests require Node 22+: run `npm ci`, `npm run test:install-browser`, and
+  `npm test` after building both sites. Reports and `_test/` are generated; do not commit them.
+- Preserve behavior-focused TOC tests through layout redesigns; sidebar-specific
+  assertions belong with the sidebar implementation.
 - For Python tooling updates, run `pipenv run flake8` and `pipenv run black --check tools`.
 - Manually spot-check affected pages in local `jekyll serve` output.
 

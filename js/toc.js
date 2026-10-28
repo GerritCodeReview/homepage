@@ -6,6 +6,7 @@
       title: '',
       minimumHeaders: 3,
       headers: 'h1, h2, h3, h4',//, h5, h6',
+      scope: document,
       listType: 'ol', // values: [ol|ul]
       showEffect: 'show', // values: [show|slideDown|fadeIn|none]
       showSpeed: 'slow', // set to 0 to deactivate effect
@@ -13,8 +14,8 @@
                  item: '',
                  link: ''
                }
-    },
-    settings = $.extend(defaults, options);
+    };
+    var settings = $.extend(defaults, options);
 
     function fixedEncodeURIComponent (str) {
       return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
@@ -24,10 +25,14 @@
 
     function createLink (header) {
       var innerText = (header.textContent === undefined) ? header.innerText : header.textContent;
-      return "<a class='"+settings.classes.link+"' href='#" + fixedEncodeURIComponent(header.id) + "'>" + innerText + "</a>";
+      var link = document.createElement('a');
+      link.className = settings.classes.link;
+      link.href = '#' + fixedEncodeURIComponent(header.id);
+      link.textContent = innerText;
+      return link.outerHTML;
     }
 
-    var headers = $(settings.headers).filter(function() {
+    var headers = $(settings.headers, settings.scope).filter(function() {
       // get all headers with an ID
       var previousSiblingName = $(this).prev().attr( "name" );
       if (!this.id && previousSiblingName) {

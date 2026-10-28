@@ -1800,3 +1800,37 @@ div#toc a:hover {
 .layout-page .post-content .heading-anchor:focus {
   opacity: 1;
 }
+
+// Keep long documentation content locally scrollable instead of widening the page.
+.layout-page .post-content pre,
+.layout-page .post-content table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.layout-page .post-content table {
+  display: block;
+}
+
+// Documentation uses a static header, so wrapped navigation stays in normal flow.
+.layout-page .site-header-content,
+.layout-page .site-nav > ul {
+  flex-wrap: wrap;
+}
+
+.layout-page .site-nav {
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  // Hidden absolute menus can otherwise widen the page before they are opened.
+  .layout-page .site-nav .dropdown-menu {
+    left: auto;
+    right: 0;
+    max-width: 200px;
+  }
+
+  .layout-page .site-nav .dropdown-menu a {
+    white-space: normal;
+  }
+}
