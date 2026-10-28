@@ -11,7 +11,12 @@
         <h3>{{ section.name }}</h3>
         <ul>
           {% for link in section.links %}
-          <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+          {% if link.url contains '://' %}
+          {% assign footer_url = link.url %}
+          {% else %}
+          {% assign footer_url = link.url | relative_url %}
+          {% endif %}
+          <li><a href="{{ footer_url }}">{{ link.text }}</a></li>
           {% endfor %}
         </ul>
       </div>

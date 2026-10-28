@@ -23,6 +23,18 @@ plugins:
 
 # Exclude files from processing
 exclude:
+  - AGENTS.md
+  - Jenkinsfile
+  - Pipfile
+  - Pipfile.lock
+  - tools/
+  - tests/
+  - _test/
+  - package.json
+  - package-lock.json
+  - playwright.config.js
+  - test-results/
+  - playwright-report/
   - .idea/
   - .gitignore
   - Gemfile
