@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "df2797b4_15b8ae81",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-28T11:04:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "54676866_ad644ba1",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 39
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0a93eaee_36d8262e",
@@ -178,6 +202,30 @@
       "writtenOn": "2026-10-28T10:41:09Z",
       "side": 1,
       "message": "This makes it ambiguous about which header can be forged.\nWe just mentioned both a `PROXY` protocol header and `X-Forwarded-For`, but here we just say that a direct client \"could forge the header.\". We actually mean the _PROXY_ header here.\n\nConsider making this explicit: ``\u0027 A client connecting directly could forge a PROXY protocol header and spoof its address.```",
+      "range": {
+        "startLine": 730,
+        "startChar": 51,
+        "endLine": 730,
+        "endChar": 72
+      },
+      "revId": "95c531709460ad3076a82f98bff74f8b1ca4080a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc8fae04_3d459053",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-10-28T11:04:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3d06b3d_9c62300d",
       "range": {
         "startLine": 730,
         "startChar": 51,
