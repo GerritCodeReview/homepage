@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b595249_b2cae4db",
+        "filename": "AGENTS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-29T00:33:49Z",
+      "side": 1,
+      "message": "align with the file name used below\n```suggestion\n- Blog/news posts: `_posts/*.md` using `YYYY-MM-DD-short-title.md`.\n```",
+      "revId": "b91b0071063106b3c6e6496f85b46dbbac627e2a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b2150f7_05331e1f",
+        "filename": "AGENTS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-29T00:33:49Z",
+      "side": 1,
+      "message": "```suggestion\n- For a clean rebuild if container state is broken, first run `git clean -ndx` and review every path it would delete. Obtain explicit user approval before running `docker compose down \u0026\u0026 git clean -fdx \u0026\u0026 docker compose up`; this deletes all untracked and ignored files.\n```",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 323
+      },
+      "revId": "b91b0071063106b3c6e6496f85b46dbbac627e2a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d336c1f_33b58f1f",
+        "filename": "AGENTS.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-29T00:33:49Z",
+      "side": 1,
+      "message": "```suggestion\n- `bundle` might not be installed on the host (`bundle: command not found`). Use Docker commands for Jekyll validation.\n```",
+      "revId": "b91b0071063106b3c6e6496f85b46dbbac627e2a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
