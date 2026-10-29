@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0872509d_7351edc7",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 601,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-29T23:26:23Z",
+      "side": 1,
+      "message": "It\u0027s good to welcome new contributors: I don\u0027t believe it is very relevant if they contributed to the PS4 or PS5 of the v3.14.\n\nConsider just adding them to the welcome at 565 and amending `3.14.0` to `3.14`",
+      "range": {
+        "startLine": 586,
+        "startChar": 0,
+        "endLine": 601,
+        "endChar": 32
+      },
+      "revId": "82f8649662fd91447103557adece4252a4b145f1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
