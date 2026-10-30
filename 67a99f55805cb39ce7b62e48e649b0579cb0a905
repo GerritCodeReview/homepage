@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f90cca89_78990303",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T20:30:35Z",
+      "side": 1,
+      "message": "The title seems a bit too long.\n\n\n\n```suggestion\n### Production-ready support for Git `reftable` storage\n```",
+      "revId": "67a99f55805cb39ce7b62e48e649b0579cb0a905",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f793cb26_99a0bcbb",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T20:30:35Z",
+      "side": 1,
+      "message": "The link to the specifications is already at L60 and can be omitted here.\n\n\n\n```suggestion\n`reftable` storage backend, significantly boosting repository\n```",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 53
+      },
+      "revId": "67a99f55805cb39ce7b62e48e649b0579cb0a905",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
