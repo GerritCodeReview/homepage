@@ -267,6 +267,24 @@
       "parentUuid": "833e48d1_2fa41a04",
       "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f086355_79b2d7f1",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-30T18:42:17Z",
+      "side": 1,
+      "message": "\u003e \u003e Oh interesting. I thought there was a newish feature that allowed reindexing to use the existing content in the index when doing reindexing. \n\u003e \n\u003e You mean the `--reuse` option in the reindex command?\n\u003e That option is used to determine whether the actual insertion in Lucene should be a replace() or an insert(). Still, the reindex will go through *ALL* the changes regardless of that option.\n\nNot quite. While it does go through all changes, it doesn\u0027t always insert or replace. It only replaces if the indexed version is stale, so Clark is correct about it using existing indexed content. See the config doc entry: https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#index.reuseExistingDocuments\n\n\u003e \n\u003e \u003e That way upgrades can be sped up if you do an incomplete reindex in a test environment, copy the results over, then finish the reindexing during the upgrade to catch everything up. Maybe I misunderstood how that works or maybe it only works with online reindexing?\n\u003e \n\u003e What really makes reindex faster is the use of a pre-warmed persistent cache: in the reindex operation, writing to Lucene is the quickest part. Understanding *what to write* to Lucene takes time.\n\nPersistent caches are a huge help for reindex speed.",
+      "parentUuid": "75703301_3393dca9",
+      "revId": "c3668a77d0b41013c712afdb5e687cdcd6574c65",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }

@@ -41,6 +41,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "223bdc65_073245a7",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-30T18:42:17Z",
+      "side": 1,
+      "message": "I think this is ok. The changes do have to be reindexed to get the new field.",
+      "parentUuid": "318f3c76_98e1a76c",
+      "range": {
+        "startLine": 202,
+        "startChar": 60,
+        "endLine": 202,
+        "endChar": 83
+      },
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f69fad81_ba97131b",
@@ -159,6 +183,54 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb857067_1a782cd2",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-30T18:42:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf42b749_59f3c404",
+      "range": {
+        "startLine": 239,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 40
+      },
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c02a3e0f_b6bcd709",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-30T18:42:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d9d472f_9faf24d3",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 40
+      },
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1da523dc_c002b9f6",
@@ -208,6 +280,24 @@
       "side": 1,
       "message": "True, it is missing there as well.\n\nIt is _implicitly_ said on:\n_\"5. Ensure the Gerrit server is fully caught up with the events that happened while\n   it was down before directing traffic to it.\"_\n   \nBeing more explicit would be helpful indeed.",
       "parentUuid": "1cd0fc85_b84a52f3",
+      "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a535c0d2_b423d20f",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-30T18:42:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8e904a17_cc506cbd",
       "revId": "29d26cc1f1356cd1f889ddec437a0e520e2c4dd3",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
