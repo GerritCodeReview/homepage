@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ae7ca78_b2b768a8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T20:33:18Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f90cca89_78990303",
+      "revId": "67a99f55805cb39ce7b62e48e649b0579cb0a905",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f793cb26_99a0bcbb",
@@ -31,6 +49,30 @@
       "writtenOn": "2026-10-30T20:30:35Z",
       "side": 1,
       "message": "The link to the specifications is already at L60 and can be omitted here.\n\n\n\n```suggestion\n`reftable` storage backend, significantly boosting repository\n```",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 53
+      },
+      "revId": "67a99f55805cb39ce7b62e48e649b0579cb0a905",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aca79f91_29086ec3",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T20:33:18Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f793cb26_99a0bcbb",
       "range": {
         "startLine": 54,
         "startChar": 0,
