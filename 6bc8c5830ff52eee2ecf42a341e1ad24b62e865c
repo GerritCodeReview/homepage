@@ -110,6 +110,30 @@
       },
       "revId": "6bc8c5830ff52eee2ecf42a341e1ad24b62e865c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca0d49e2_b9cd5407",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T21:53:20Z",
+      "side": 1,
+      "message": "Yes, the feature\u0027s configuration style is new and replaces an old functionality that is currently deprecated.",
+      "parentUuid": "fd9ef3c2_d2542f41",
+      "range": {
+        "startLine": 288,
+        "startChar": 0,
+        "endLine": 299,
+        "endChar": 71
+      },
+      "revId": "6bc8c5830ff52eee2ecf42a341e1ad24b62e865c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
