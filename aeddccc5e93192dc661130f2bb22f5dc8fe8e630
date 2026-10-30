@@ -48,6 +48,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b90410ef_f038a661",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T19:50:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8d12d0ec_629c8eba",
+      "range": {
+        "startLine": 55,
+        "startChar": 19,
+        "endLine": 55,
+        "endChar": 28
+      },
+      "revId": "aeddccc5e93192dc661130f2bb22f5dc8fe8e630",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6b09bedb_83edb52f",
