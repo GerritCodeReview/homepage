@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "797c9f39_c734d698",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-30T19:29:44Z",
+      "side": 1,
+      "message": "I am not sure `certified` is the right word here. To me, it implies that some formal certification or validation process has been completed.\n\nThis has been tested as much as any other feature in before being submitted, but \"certified\" seems to glorify that testing process a bit too much.\n\nCan you consider simplifying this to say something like:\n\n```\nGerrit 3.15 introduces production-ready support for repositories using Git\u0027s reftable reference\nstorage format, following improvements to stability and repository conversion.\n```",
+      "range": {
+        "startLine": 55,
+        "startChar": 19,
+        "endLine": 55,
+        "endChar": 28
+      },
+      "revId": "aeddccc5e93192dc661130f2bb22f5dc8fe8e630",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b09bedb_83edb52f",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-30T19:29:44Z",
+      "side": 1,
+      "message": "nit: wrap long line.",
+      "range": {
+        "startLine": 60,
+        "startChar": 100,
+        "endLine": 60,
+        "endChar": 101
+      },
+      "revId": "aeddccc5e93192dc661130f2bb22f5dc8fe8e630",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b34847c0_e99355a8",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-30T19:29:44Z",
+      "side": 1,
+      "message": "I find \"predictable fixed time execution\" is a bit too strong. It sounds like \"constant time\" to me.\nThe execution time still depends on factors such as the number of refs being updated, compaction, etc.\n\nThe [reftable documentation](https://git-scm.com/docs/reftable) states:\n\n```\nSupport atomic push with O(size_of_update) operations.\n```\n\nnot strictly `O(1)`.\n\n\nCould we just state that performance scales much better as the number of refs grows?\n\n```suggestion\nautomatic compaction of refdb files. This integration significantly improves the scalability\nof reference lookups and updates, helping repositories with millions of refs maintain\nconsistent and predictable performance.\n```",
+      "range": {
+        "startLine": 62,
+        "startChar": 37,
+        "endLine": 64,
+        "endChar": 92
+      },
+      "revId": "aeddccc5e93192dc661130f2bb22f5dc8fe8e630",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82f5989e_60a154b5",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-30T19:29:44Z",
+      "side": 1,
+      "message": "The conversion is not a 100% hassle-free.\n\nThe conversion implementation explicitly doesn\u0027t lock the repository, so administrators need to ensure that no concurrent writes can happen during migration.\n\nCould we use more neutral wording, such as `To simplify migration`, and make it clear that the administrator is responsible for ensuring the repository isn\u0027t modified?",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 35
+      },
+      "revId": "aeddccc5e93192dc661130f2bb22f5dc8fe8e630",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "931e5704_3dfe2304",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-10-30T19:29:44Z",
+      "side": 1,
+      "message": "Since the conversion tool supports both directions, could we mention that administrators can also convert from reftable back to files? I think it would be useful to highlight, especially for administrators evaluating a migration to reftable for the first time.",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 40
+      },
+      "revId": "aeddccc5e93192dc661130f2bb22f5dc8fe8e630",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
