@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14dbd308_e91ceb26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T21:45:33Z",
+      "side": 1,
+      "message": "These AI-generated prompts produced AI-generated release notes slop that took a lot more time to review than a regular human-authored version.\n\nWe don\u0027t have an AI contribution guideline yet; however, I would rather avoid pushing so many AI-generated changes without first verifying whether they make sense.\n\nShall we abandon this experiment for now?",
+      "revId": "037d4acb0a44a38da547f2430c4773b3e91c5cf6",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
