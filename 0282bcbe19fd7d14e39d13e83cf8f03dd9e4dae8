@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "902e6a70_925e0af1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002666
+      },
+      "writtenOn": "2026-10-30T21:15:03Z",
+      "side": 1,
+      "message": "Why are we moving the date up? Also, maybe just say \"Move up\" since I\u0027m not sure most people are used to see anticipate used like this.\n```suggestion\nMove Gerrit v3.15.0-rc4 up to Oct 30\n```",
+      "revId": "0282bcbe19fd7d14e39d13e83cf8f03dd9e4dae8",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
