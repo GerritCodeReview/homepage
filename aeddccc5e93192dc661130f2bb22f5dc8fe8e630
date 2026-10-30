@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8d12d0ec_629c8eba",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T19:38:25Z",
+      "side": 1,
+      "message": "What about `load-tested` instead of `certified`?\nWe did extensive load testing and concurrent testing, and we can say that it\u0027s working and ready for production.",
+      "parentUuid": "797c9f39_c734d698",
+      "range": {
+        "startLine": 55,
+        "startChar": 19,
+        "endLine": 55,
+        "endChar": 28
+      },
+      "revId": "aeddccc5e93192dc661130f2bb22f5dc8fe8e630",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6b09bedb_83edb52f",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 1
@@ -60,6 +84,30 @@
       "writtenOn": "2026-10-30T19:29:44Z",
       "side": 1,
       "message": "I find \"predictable fixed time execution\" is a bit too strong. It sounds like \"constant time\" to me.\nThe execution time still depends on factors such as the number of refs being updated, compaction, etc.\n\nThe [reftable documentation](https://git-scm.com/docs/reftable) states:\n\n```\nSupport atomic push with O(size_of_update) operations.\n```\n\nnot strictly `O(1)`.\n\n\nCould we just state that performance scales much better as the number of refs grows?\n\n```suggestion\nautomatic compaction of refdb files. This integration significantly improves the scalability\nof reference lookups and updates, helping repositories with millions of refs maintain\nconsistent and predictable performance.\n```",
+      "range": {
+        "startLine": 62,
+        "startChar": 37,
+        "endLine": 64,
+        "endChar": 92
+      },
+      "revId": "aeddccc5e93192dc661130f2bb22f5dc8fe8e630",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bff828b_79826fd6",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-10-30T19:38:25Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "b34847c0_e99355a8",
       "range": {
         "startLine": 62,
         "startChar": 37,
