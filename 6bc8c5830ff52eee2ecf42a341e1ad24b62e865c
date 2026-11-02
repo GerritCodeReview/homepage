@@ -65,6 +65,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f729dda_14473f7a",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-11-02T09:44:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "205475a0_9573d5a6",
+      "range": {
+        "startLine": 277,
+        "startChar": 0,
+        "endLine": 277,
+        "endChar": 23
+      },
+      "revId": "6bc8c5830ff52eee2ecf42a341e1ad24b62e865c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "67f28220_78db251b",
@@ -126,6 +150,30 @@
       "side": 1,
       "message": "Yes, the feature\u0027s configuration style is new and replaces an old functionality that is currently deprecated.",
       "parentUuid": "fd9ef3c2_d2542f41",
+      "range": {
+        "startLine": 288,
+        "startChar": 0,
+        "endLine": 299,
+        "endChar": 71
+      },
+      "revId": "6bc8c5830ff52eee2ecf42a341e1ad24b62e865c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f7ad316_68740c89",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1155599
+      },
+      "writtenOn": "2026-11-02T09:44:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca0d49e2_b9cd5407",
       "range": {
         "startLine": 288,
         "startChar": 0,
