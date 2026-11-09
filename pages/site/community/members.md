@@ -55,11 +55,11 @@ Current maintainers are:
 | David Ostrovsky            | Independent                                    |
 | David Pursehouse           | Independent (formerly Sony, CollabNet)         |
 | Edwin Kempin               | Google (formerly SAP)                          |
-| Emily Shaffer              | Google                                         |
 | Han-Wen Nienhuys           | Independent (formerly Google)                  |
 | Jacek Centkowski           | Independent (formerly Digital.ai)              |
 | Kamil Musin                | Google                                         |
 | Kaushik Lingarkar          | NVIDIA (formerly Qualcomm Technologies, Inc.)  |
+| Laura Hamelin-Owens        | Google                                         |
 | Luca Milanesio             | GerritForge                                    |
 | Marco Miller               | Ericsson                                       |
 | Martin Fick                | NVIDIA (formerly Qualcomm Technologies, Inc.)  |
@@ -72,6 +72,7 @@ Current maintainers are:
 | Saša Živkov                | SAP                                            |
 | Sven Selberg               | Axis                                           |
 | Thomas Dräbing             | SAP                                            |
+| Yash Chaturvedi            | Qualcomm Technologies, Inc.                    |
 
 ## Previous Community Members
 We're grateful for the many individuals who have previously held community roles!
@@ -81,6 +82,7 @@ We're grateful for the many individuals who have previously held community roles
 | Name                  | Affiliation            |
 |-----------------------|------------------------|
 | Edwin Kempin          | Google                 |
+| Emily Shaffer         | Google                 |
 | Marco Miller          | Ericsson               |
 | Yolanda Jasso         | GerritForge            |
 
