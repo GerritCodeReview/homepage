@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae3843e2_8071813a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 981,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-10T04:37:44Z",
+      "side": 1,
+      "message": "removed",
+      "parentUuid": "8ab05142_9cfc039c",
+      "range": {
+        "startLine": 976,
+        "startChar": 0,
+        "endLine": 981,
+        "endChar": 24
+      },
+      "revId": "be3639c2d6d40810e230f81c8d495025cc71d538",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7715edda_0c6c49c8",
@@ -47,6 +71,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce7b5c3d_4a148fa9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1053,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-10T04:37:44Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "7715edda_0c6c49c8",
+      "range": {
+        "startLine": 1053,
+        "startChar": 12,
+        "endLine": 1053,
+        "endChar": 20
+      },
+      "revId": "be3639c2d6d40810e230f81c8d495025cc71d538",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d444b45f_c2853a88",
@@ -60,6 +108,30 @@
       "writtenOn": "2026-11-10T04:35:43Z",
       "side": 1,
       "message": "```suggestion\n  The `Branches` page now hides the branch creation button when the user has no\n```",
+      "range": {
+        "startLine": 1077,
+        "startChar": 6,
+        "endLine": 1077,
+        "endChar": 14
+      },
+      "revId": "be3639c2d6d40810e230f81c8d495025cc71d538",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "015932c9_dfbb4564",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1077,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-10T04:37:44Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d444b45f_c2853a88",
       "range": {
         "startLine": 1077,
         "startChar": 6,
