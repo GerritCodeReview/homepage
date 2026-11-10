@@ -9,3 +9,4 @@ toc: false
 # Design Doc - Subordinate Identities
 
 * [Use Cases](/design-docs/subordinate-identities-use-cases.html)
+* [Solution - Subordinate Accounts](/design-docs/subordinate-identities-solution.html)
