@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea04413b_e101bb96",
+        "filename": "pages/design-docs/subordinate-identities/solution.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 3255163
+      },
+      "writtenOn": "2026-11-11T10:34:46Z",
+      "side": 1,
+      "message": "Thanks for adding these. Each alternative is rejected on its own, but not the combination: scoped tokens for limiting what a credential can do, plus service accounts where a separate identity is needed.\n\nCould you add it as an alternative and explain what it doesn\u0027t cover and if those remaining cases justify the extra work?",
+      "range": {
+        "startLine": 224,
+        "startChar": 0,
+        "endLine": 224,
+        "endChar": 59
+      },
+      "revId": "bb23709f7ffc0c6f040cebd43d3ccca4b06c4a7b",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
