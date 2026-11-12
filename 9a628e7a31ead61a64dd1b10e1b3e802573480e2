@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca8dee10_85604226",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 961,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-12T15:19:23Z",
+      "side": 1,
+      "message": "```suggestion\n* Upgrade eslint to 9.26.0\n\n* Community\n\n  * Welcome New Contributors\n\n    * Martin Wölfle\n    * Bhoomika Srinivas\n    * Eugene Gvozdetsky\n    * Réda Housni Alaoui\n    * Spencer McEwan\n    * Li Yingchun\n```",
+      "revId": "9a628e7a31ead61a64dd1b10e1b3e802573480e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6efb51b_cbfd4957",
+        "filename": "pages/site/releases/3.13.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1102,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-12T15:19:23Z",
+      "side": 1,
+      "message": "Move this to the main section: we don\u0027t welcome bug-fixers :-D",
+      "range": {
+        "startLine": 1093,
+        "startChar": 0,
+        "endLine": 1102,
+        "endChar": 17
+      },
+      "revId": "9a628e7a31ead61a64dd1b10e1b3e802573480e2",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
