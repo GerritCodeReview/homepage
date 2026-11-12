@@ -24,6 +24,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f4b6c6f_644705e0",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 752,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b972d7b2_5db01261",
+      "range": {
+        "startLine": 750,
+        "startChar": 0,
+        "endLine": 752,
+        "endChar": 61
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d2ee4f62_bc0bce15",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-11-12T06:01:06Z",
       "side": 1,
       "message": "Let\u0027s use the same version we used in 3.15",
+      "range": {
+        "startLine": 755,
+        "startChar": 0,
+        "endLine": 758,
+        "endChar": 69
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a5015b6_d27381d7",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 758,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d2ee4f62_bc0bce15",
       "range": {
         "startLine": 755,
         "startChar": 0,
@@ -70,6 +118,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2612cb86_8ed80d24",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 772,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dea4453e_481d4dd6",
+      "range": {
+        "startLine": 763,
+        "startChar": 0,
+        "endLine": 772,
+        "endChar": 59
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6a563ebf_c1c4c3f4",
@@ -83,6 +155,30 @@
       "writtenOn": "2026-11-12T06:01:06Z",
       "side": 1,
       "message": "Let\u0027s use the same version we used in 3.15, for change 648583",
+      "range": {
+        "startLine": 773,
+        "startChar": 0,
+        "endLine": 776,
+        "endChar": 88
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3935da4_758e827e",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 776,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a563ebf_c1c4c3f4",
       "range": {
         "startLine": 773,
         "startChar": 0,
@@ -116,6 +212,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "02e6b4ae_a1b5dd0d",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 783,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f916361_1516ae6d",
+      "range": {
+        "startLine": 781,
+        "startChar": 0,
+        "endLine": 783,
+        "endChar": 47
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ec4e5f05_ca0dd8c3",
@@ -129,6 +249,30 @@
       "writtenOn": "2026-11-12T06:01:06Z",
       "side": 1,
       "message": "Let\u0027s use the same version we used in 3.15",
+      "range": {
+        "startLine": 785,
+        "startChar": 0,
+        "endLine": 787,
+        "endChar": 68
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8247f34_1892b678",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 787,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec4e5f05_ca0dd8c3",
       "range": {
         "startLine": 785,
         "startChar": 0,
@@ -162,6 +306,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "87d13182_d2ac8cb8",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 796,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3c8849ac_57ffbaf4",
+      "range": {
+        "startLine": 793,
+        "startChar": 0,
+        "endLine": 796,
+        "endChar": 42
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ffdcb2f_2842aace",
@@ -175,6 +343,30 @@
       "writtenOn": "2026-11-12T06:01:06Z",
       "side": 1,
       "message": "Let\u0027s use the same version we used in 3.15 (was change 649143)",
+      "range": {
+        "startLine": 818,
+        "startChar": 0,
+        "endLine": 820,
+        "endChar": 78
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e447803_91c1a66b",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 820,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ffdcb2f_2842aace",
       "range": {
         "startLine": 818,
         "startChar": 0,
@@ -208,6 +400,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "17b0efa6_a329e6df",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 778,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d5335ecc_8cd4e19f",
+      "range": {
+        "startLine": 774,
+        "startChar": 0,
+        "endLine": 778,
+        "endChar": 10
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "679818cc_40317b1c",
@@ -221,6 +437,30 @@
       "writtenOn": "2026-11-12T06:01:06Z",
       "side": 1,
       "message": "This needs to be removed, since it has now landed on 3.12.12",
+      "range": {
+        "startLine": 905,
+        "startChar": 0,
+        "endLine": 908,
+        "endChar": 69
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8ca013a_71b36488",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 908,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "679818cc_40317b1c",
       "range": {
         "startLine": 905,
         "startChar": 0,
@@ -254,6 +494,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a923a7d9_23683e7b",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 967,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "01577c9c_de34f6e7",
+      "range": {
+        "startLine": 964,
+        "startChar": 0,
+        "endLine": 967,
+        "endChar": 39
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3f22e203_57c591d3",
@@ -267,6 +531,30 @@
       "writtenOn": "2026-11-12T06:01:06Z",
       "side": 1,
       "message": "This needs to be removed, since it has now landed on 3.12.12",
+      "range": {
+        "startLine": 1022,
+        "startChar": 0,
+        "endLine": 1025,
+        "endChar": 30
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d6fc668_eae54a6e",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1025,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f22e203_57c591d3",
       "range": {
         "startLine": 1022,
         "startChar": 0,
@@ -300,6 +588,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8229682b_44d22ad9",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1037,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d4b46108_a7491107",
+      "range": {
+        "startLine": 1030,
+        "startChar": 0,
+        "endLine": 1037,
+        "endChar": 28
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "225b9444_b51055e8",
@@ -313,6 +625,30 @@
       "writtenOn": "2026-11-12T06:01:06Z",
       "side": 1,
       "message": "This needs to be removed, since it has now landed on 3.12.12",
+      "range": {
+        "startLine": 1044,
+        "startChar": 0,
+        "endLine": 1047,
+        "endChar": 55
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1392b8a6_81d41f6a",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1047,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "225b9444_b51055e8",
       "range": {
         "startLine": 1044,
         "startChar": 0,
@@ -346,6 +682,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "180ae967_25e15721",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1056,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da032d83_ec290da3",
+      "range": {
+        "startLine": 1049,
+        "startChar": 0,
+        "endLine": 1056,
+        "endChar": 74
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "63fdb254_934fc1e0",
@@ -369,6 +729,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d461d55a_5207ee26",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1170,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63fdb254_934fc1e0",
+      "range": {
+        "startLine": 1168,
+        "startChar": 0,
+        "endLine": 1170,
+        "endChar": 50
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fdb8c2d8_aa993426",
@@ -382,6 +766,30 @@
       "writtenOn": "2026-11-12T06:01:06Z",
       "side": 1,
       "message": "This needs to be removed, since it has now landed on 3.12.12",
+      "range": {
+        "startLine": 1349,
+        "startChar": 0,
+        "endLine": 1351,
+        "endChar": 73
+      },
+      "revId": "85d8db8742005318ab398270e4f30573206eb4ff",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d00e644f_a8af74bf",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1351,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T06:15:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdb8c2d8_aa993426",
       "range": {
         "startLine": 1349,
         "startChar": 0,
