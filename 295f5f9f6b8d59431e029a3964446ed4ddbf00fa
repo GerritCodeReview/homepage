@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63e17499_addc542e",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 727,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-11-12T02:42:48Z",
+      "side": 1,
+      "message": "Did we miss: https://gerrit-review.googlesource.com/c/gerrit/+/645345 ?",
+      "revId": "295f5f9f6b8d59431e029a3964446ed4ddbf00fa",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbbf4ee2_a633c286",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 780,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-11-12T02:42:48Z",
+      "side": 1,
+      "message": "We should link the issue instead of the change since it is available [1]\n\n\n[1] https://gerrit-review.googlesource.com/c/gerrit/+/546765",
+      "range": {
+        "startLine": 780,
+        "startChar": 0,
+        "endLine": 780,
+        "endChar": 78
+      },
+      "revId": "295f5f9f6b8d59431e029a3964446ed4ddbf00fa",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "728b9159_a53230dd",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 818,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-11-12T02:42:48Z",
+      "side": 1,
+      "message": "This looks like an internal refactoring with unchanged routing behavior. Should we exclude it?",
+      "range": {
+        "startLine": 816,
+        "startChar": 0,
+        "endLine": 818,
+        "endChar": 68
+      },
+      "revId": "295f5f9f6b8d59431e029a3964446ed4ddbf00fa",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f947a61_122c1db9",
+        "filename": "pages/site/releases/3.12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 835,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-11-12T02:42:48Z",
+      "side": 1,
+      "message": "```suggestion\n  * [Change 1254786](https://eclipse.gerrithub.io/c/eclipse-jgit/jgit/+/1254786):\n    Remove empty parent directories left behind after a loose-ref lock is released.\n\n  * [Change 1254631](https://eclipse.gerrithub.io/c/eclipse-jgit/jgit/+/1254631):\n    Refresh a repository\u0027s own packed-refs snapshot when reusing a shared ref-database refresher.\n\n  * [Change 1246044](https://eclipse.gerrithub.io/c/eclipse-jgit/jgit/+/1246044):\n    Propagate thread interruption through fundamental JGit operations so canceled work terminates\n    promptly.\n```",
+      "range": {
+        "startLine": 827,
+        "startChar": 0,
+        "endLine": 835,
+        "endChar": 17
+      },
+      "revId": "295f5f9f6b8d59431e029a3964446ed4ddbf00fa",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ]
+}
