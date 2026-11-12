@@ -18,6 +18,24 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "68284139_c03d298a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T17:20:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "519e5ffa_363eb7f7",
+      "revId": "d0be4fb2a8e96b645faa4198d0642912d6332326",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "244e08f4_5a904435",
@@ -76,6 +94,48 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c627809f_bdb5fb40",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 667,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T17:20:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d6c8f31_8950cb8b",
+      "range": {
+        "startLine": 667,
+        "startChar": 31,
+        "endLine": 667,
+        "endChar": 33
+      },
+      "revId": "d0be4fb2a8e96b645faa4198d0642912d6332326",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bc1a0a6_9ba55666",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 667,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T17:20:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "244e08f4_5a904435",
+      "revId": "d0be4fb2a8e96b645faa4198d0642912d6332326",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "18190dab_82da6af1",
@@ -99,6 +159,30 @@
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "94fbc250_f15e9704",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 677,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T17:20:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "18190dab_82da6af1",
+      "range": {
+        "startLine": 675,
+        "startChar": 0,
+        "endLine": 677,
+        "endChar": 30
+      },
+      "revId": "d0be4fb2a8e96b645faa4198d0642912d6332326",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "25347e5d_e1aab194",
@@ -112,6 +196,30 @@
       "writtenOn": "2026-11-12T17:13:23Z",
       "side": 1,
       "message": "This entry is already in 3.15 as Replication change \"649143\", we should remove it from there.",
+      "range": {
+        "startLine": 688,
+        "startChar": 0,
+        "endLine": 690,
+        "endChar": 79
+      },
+      "revId": "d0be4fb2a8e96b645faa4198d0642912d6332326",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3d78bfe_15b2762e",
+        "filename": "pages/site/releases/3.14.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 690,
+      "author": {
+        "id": 1054778
+      },
+      "writtenOn": "2026-11-12T17:20:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "25347e5d_e1aab194",
       "range": {
         "startLine": 688,
         "startChar": 0,
