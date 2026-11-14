@@ -27,9 +27,10 @@ The following table shows the current level of support for Gerrit releases:
 
 | Version  | Support Status | Notes |
 |----------|----------------|-------|
+| 3.15     | Active         |       |
 | 3.14     | Active         |       |
 | 3.13     | Active         |       |
-| 3.12     | Active         |       |
+| 3.12     | EOL            | [EOL since Nov 13, 2026](https://www.gerritcodereview.com/2026-09-30-gerrit-3.15-release-plan.html) |
 | 3.11     | EOL            | [EOL since May 15, 2026](https://www.gerritcodereview.com/2026-01-26-gerrit-3.14-release-plan.html) |
 | 3.10     | EOL            | [EOL since Nov 10, 2025](https://www.gerritcodereview.com/2025-09-17-gerrit-3.13-release-plan.html#end-of-life-for-gerrit-310x) |
 | 3.9      | EOL            | [EOL since May 19, 2025](https://www.gerritcodereview.com/2024-10-03-gerrit-3.12-release-plan.html#end-of-life-for-gerrit-39x) |
