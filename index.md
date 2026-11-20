@@ -22,7 +22,7 @@ layout: default
 </div>
 
 <div class="wrapper">
-  <p style="text-align: center; font-size: 1.3rem; margin-bottom: 4rem;">
+  <p class="intro-text">
     {{ site.data.content.intro.text }}
   </p>
 

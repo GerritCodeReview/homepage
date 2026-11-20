@@ -8,13 +8,17 @@
         </a>
       </div>
       
-      <nav class="site-nav">
+      <button type="button" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="site-nav" id="site-nav">
         <ul>
           {% for item in site.data.content.topnav %}
           {% if item.folderitems %}
           <!-- items with drop-downs handled here -->
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle">{{ item.title }}</a>
+            <button type="button" class="dropdown-toggle" aria-expanded="false">{{ item.title }}</button>
             <ul class="dropdown-menu">
               {% for folderitem in item.folderitems %}
               {% if folderitem.external_url %}

@@ -44,6 +44,11 @@ body {
   .wrapper {
     padding: 0 1rem;
   }
+
+  // Homepage content sits in a second .wrapper inside the layout's one.
+  .wrapper > .wrapper {
+    padding: 0;
+  }
 }
 
 // Header styling
@@ -129,6 +134,17 @@ body {
   align-items: center;
   gap: 0.25rem;
   cursor: pointer;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 500;
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}
+
+.site-nav .dropdown-toggle:hover {
+  color: var(--accent-color);
 }
 
 .site-nav .dropdown-menu {
@@ -153,7 +169,8 @@ body {
   flex-direction: column;
 }
 
-.site-nav .dropdown:hover .dropdown-menu {
+.site-nav .dropdown:hover .dropdown-menu,
+.site-nav .dropdown.open .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -185,15 +202,102 @@ body {
   color: #ffffff;
 }
 
-@media (max-width: 768px) {
+// Hamburger toggle, only shown when the nav collapses
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+// Collapsed navigation: below ~1170px the full menu no longer fits beside the title
+@media (max-width: 1199px) {
+  .site-header {
+    padding: 0.75rem 0;
+  }
+
+  .site-header.nav-open {
+    background: #ffffff;
+  }
+
   .site-header-content {
+    flex-wrap: wrap;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .site-nav {
+    display: none;
+    flex-basis: 100%;
+    margin-top: 0.75rem;
+  }
+
+  .site-header.nav-open .site-nav {
+    display: block;
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+  }
+
+  .site-nav > ul {
     flex-direction: column;
-    gap: 1rem;
+    align-items: stretch;
   }
-  
-  .site-nav ul {
-    gap: 1rem;
+
+  .site-nav > ul > li {
+    display: block;
+    border-top: 1px solid rgba(127, 127, 127, 0.25);
   }
+
+  .site-nav > ul > li > a,
+  .site-nav .dropdown-toggle {
+    display: flex;
+    width: 100%;
+    padding: 0.75rem 0;
+    text-align: left;
+  }
+
+  .site-nav .dropdown-menu {
+    display: none;
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    min-width: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    padding: 0 0 0.5rem 1rem;
+  }
+
+  .site-nav .dropdown.open .dropdown-menu {
+    display: flex;
+  }
+
+  .site-nav .dropdown-menu a {
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+  }
+
+  .site-nav > ul > li:last-child {
+    padding: 0.75rem 0;
+  }
+}
+
+// Bootstrap's reboot outlines every focused button; keep it for keyboard focus only.
+.nav-toggle:focus:not(:focus-visible),
+.site-nav .dropdown-toggle:focus:not(:focus-visible) {
+  outline: none;
 }
 
 // Enhanced typography
@@ -292,6 +396,12 @@ li {
   color: rgba(255, 255, 255, 0.9);
   max-width: 800px;
   margin: 0 auto 3rem;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 4rem;
 }
 
 // Modern buttons
@@ -636,13 +746,42 @@ li {
   }
   
   .hero-section {
-    padding: 4rem 0;
+    padding: 3rem 0 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0 0 20px 20px;
   }
-  
+
   .hero-section h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-icon .gerrit-logo {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .hero-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-section .btn-modern {
+    display: block;
+    max-width: 20rem;
+    margin: 0 auto 1rem;
+  }
+
+  .intro-text {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
   }
   
+  .site-footer {
+    padding: 3rem 0 1.5rem;
+    margin-top: 3rem;
+  }
+
   .footer-content {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -912,14 +1051,19 @@ li {
 }
 
 @media (max-width: 768px) {
+  .section-header {
+    margin: 3rem 0 1.5rem;
+    padding: 1.5rem 0 0;
+  }
+
   .section-header h2 {
     font-size: 2rem;
   }
-  
+
   .section-subtitle {
     font-size: 1.1rem;
   }
-  
+
   .section-icon {
     font-size: 2.5rem;
   }
@@ -1218,7 +1362,8 @@ li {
   }
   
   .logo-container {
-    padding: 2rem 1.5rem;
+    height: 100%;
+    padding: 2rem 1rem;
   }
   
   .logo-container i {
@@ -1288,9 +1433,30 @@ li {
 }
 
 @media (max-width: 768px) {
+  .cta-section {
+    padding: 3rem 1.25rem;
+    margin: 3rem 0;
+  }
+
+  .cta-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
   .cta-buttons {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+  }
+
+  .cta-buttons .btn-modern {
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .btn-large {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
   }
   
   .cta-content h2 {
@@ -1325,6 +1491,40 @@ li {
   
   .cicd-features {
     justify-content: center;
+  }
+
+  .why-gerrit-section,
+  .dev-experience-section,
+  .cicd-section,
+  .company-logos {
+    margin: 2rem 0;
+  }
+
+  .why-gerrit-grid,
+  .dev-experience-grid,
+  .logo-grid {
+    margin-top: 1.5rem;
+  }
+
+  .feature__wrapper {
+    margin: 2rem 0;
+  }
+
+  .feature__item,
+  .why-gerrit-card,
+  .cicd-card,
+  .resource-card {
+    padding: 2rem 1.25rem;
+  }
+
+  .dev-experience-header,
+  .card-header {
+    padding: 1.25rem;
+  }
+
+  .dev-experience-content,
+  .card-content {
+    padding: 1.5rem 1.25rem;
   }
 }
 
@@ -1386,6 +1586,23 @@ table > tbody > tr:nth-of-type(odd) {
 table > tbody > tr:hover {
   background-color: rgba(52, 152, 219, 0.05);
   transition: background-color 0.2s ease;
+}
+
+.post-content {
+  overflow-wrap: break-word;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Wide tables scroll inside their own box instead of widening the page.
+.post-content table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .post-content table th {
@@ -1799,4 +2016,68 @@ div#toc a:hover {
 .layout-page .post-content h5:hover .heading-anchor,
 .layout-page .post-content .heading-anchor:focus {
   opacity: 1;
+}
+
+// Collapsed navigation, continued. These override the search box and docs-header
+// rules above, so they must come after them.
+@media (max-width: 1199px) {
+  #search-container {
+    position: relative;
+  }
+
+  #search-input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  #search-container ul#results-container,
+  .layout-page #search-container ul#results-container {
+    position: static;
+    width: auto;
+    margin: 0.5rem 0 0;
+    padding: 0.25rem 0;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 0.9rem;
+  }
+
+  #search-container ul#results-container:empty {
+    display: none;
+  }
+
+  .site-nav ul#results-container a {
+    display: block;
+    padding: 0.4rem 0.75rem;
+    color: var(--secondary-color);
+  }
+
+  .layout-page .nav-toggle {
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .layout-page .site-nav > ul > li {
+    border-top-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .layout-page .site-nav .dropdown-menu {
+    background: transparent;
+  }
+
+  .layout-page .site-nav .dropdown-menu a {
+    color: #ffffff;
+    white-space: normal;
+  }
+
+  .layout-page .site-nav .dropdown-menu a:hover,
+  .layout-page .site-nav .dropdown-menu .dropdownActive a {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .layout-page #search-input {
+    width: 100%;
+    margin: 0;
+    font-size: 0.95rem;
+  }
 }
