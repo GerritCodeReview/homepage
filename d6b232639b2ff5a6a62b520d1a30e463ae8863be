@@ -16,6 +16,29 @@
       "message": "It also impacts Gerrit v3.10, v3.11 and v3.12.",
       "revId": "d6b232639b2ff5a6a62b520d1a30e463ae8863be",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1568d80d_0e8534ac",
+        "filename": "pages/site/releases/3.15.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "2026-11-21T16:43:00Z",
+      "side": 1,
+      "message": "Should we add the reference to Zuul JDK:\n\nhttps://support.azul.com/hc/en-us/articles/55793255806100-Java4Shell-for-Zulu-and-Zing-CVE-2026-114938",
+      "range": {
+        "startLine": 361,
+        "startChar": 2,
+        "endLine": 361,
+        "endChar": 65
+      },
+      "revId": "d6b232639b2ff5a6a62b520d1a30e463ae8863be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
     }
   ]
 }
