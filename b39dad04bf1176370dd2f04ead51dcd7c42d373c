@@ -1,5 +1,144 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "312d1244_55b0862c",
+        "filename": "_posts/2026-11-19-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-23T22:02:01Z",
+      "side": 1,
+      "message": "We had one with 44% of the preferences: how would you define \"cut it\"?\nAre we aiming for at least 51%?",
+      "range": {
+        "startLine": 23,
+        "startChar": 47,
+        "endLine": 24,
+        "endChar": 2
+      },
+      "revId": "b39dad04bf1176370dd2f04ead51dcd7c42d373c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ad20dfc_b4a32e63",
+        "filename": "_posts/2026-11-19-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-23T22:02:01Z",
+      "side": 1,
+      "message": "Shall we set a new contest that includes Nasser\u0027s design and the other top-performing logos from the recent vote?",
+      "range": {
+        "startLine": 24,
+        "startChar": 4,
+        "endLine": 24,
+        "endChar": 32
+      },
+      "revId": "b39dad04bf1176370dd2f04ead51dcd7c42d373c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fccd8081_4bcc10d9",
+        "filename": "_posts/2026-11-19-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-23T22:02:01Z",
+      "side": 1,
+      "message": "That is the most important thing: Gerrit is a Google trademark, and therefore we should stick to the legal requirements of the logo associated with it.",
+      "range": {
+        "startLine": 25,
+        "startChar": 50,
+        "endLine": 26,
+        "endChar": 25
+      },
+      "revId": "b39dad04bf1176370dd2f04ead51dcd7c42d373c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dbc28daf_7f4743e7",
+        "filename": "_posts/2026-11-19-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-23T22:02:01Z",
+      "side": 1,
+      "message": "👍",
+      "range": {
+        "startLine": 31,
+        "startChar": 40,
+        "endLine": 31,
+        "endChar": 49
+      },
+      "revId": "b39dad04bf1176370dd2f04ead51dcd7c42d373c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a362487c_393856e1",
+        "filename": "_posts/2026-11-19-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-23T22:02:01Z",
+      "side": 1,
+      "message": "True, but it has been on the top-left of gerrit-review.googlesource.com for quite a while ... and it is now on Gerrit v3.15 as well.\n\nAlso, GitLab has a fox mascot; GitHub has an octopus mascot after all :-)",
+      "range": {
+        "startLine": 30,
+        "startChar": 6,
+        "endLine": 31,
+        "endChar": 31
+      },
+      "revId": "b39dad04bf1176370dd2f04ead51dcd7c42d373c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c6cfb21_fdc5be03",
+        "filename": "_posts/2026-11-19-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-23T22:02:01Z",
+      "side": 1,
+      "message": "Can you share the survey results?",
+      "range": {
+        "startLine": 43,
+        "startChar": 51,
+        "endLine": 43,
+        "endChar": 57
+      },
+      "revId": "b39dad04bf1176370dd2f04ead51dcd7c42d373c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
