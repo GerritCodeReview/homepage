@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4c9770f3_b71756b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1072905
+      },
+      "writtenOn": "2026-11-23T09:53:26Z",
+      "side": 1,
+      "message": "All of these releases are EOL; we usually don\u0027t look back to see how \"known issues\" affect unsupported releases.\n\nHaving said that, given the critical nature of this issue, I think it\u0027s OK to make an exception.\n\nIn that case, we should include 3.9, which is distributed on Java17 and thus potentially affected as well.\n\nWDYT?\n\n[1] https://www.gerritcodereview.com/3.9.html#java-17",
+      "parentUuid": "bd450b2f_8e557aa7",
+      "revId": "d6b232639b2ff5a6a62b520d1a30e463ae8863be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1568d80d_0e8534ac",
         "filename": "pages/site/releases/3.15.md",
         "patchSetId": 1
