@@ -32,13 +32,15 @@ Diffy is technically the mascot; having two logos is extremely confusing and we
 should converge on one.
 
 ## GUS26 Feedback
-The feedback from this year's User Summit was incredibly positive, with almost
-all of the participants enjoying the food and drinks (although coffee and water
-ran out a bit too quickly) as well as the spaces that Google hosted us in. Some
-feedback suggested that more time for informal networking, and maybe even
-targeted unconference-style sessions, would be appreciated! We'll keep this in
-mind for next year and see how we can accommodate it in the setting we will
-have then.
+
+The feedback from this year's User Summit, available
+[here](https://docs.google.com/forms/d/1rO2VilrShvDMIFHdUlOezRup3oBUDDHkXIxGiJvgSAk/viewanalytics)
+was incredibly positive, with almost all of the participants enjoying the food
+and drinks (although coffee and water ran out a bit too quickly) as well as the
+spaces that Google hosted us in. Some feedback suggested that more time for
+informal networking, and maybe even targeted unconference-style sessions, would
+be appreciated! We'll keep this in mind for next year and see how we can
+accommodate it in the setting we will have then.
 
 We briefly talked about the setting for next year. Survey responders expressed a
 preference for the SF-Bay area again. Nasser suggested potentially teaming up
