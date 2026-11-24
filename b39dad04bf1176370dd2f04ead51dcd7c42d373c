@@ -238,6 +238,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1a16ea07_77caaf10",
+        "filename": "_posts/2026-11-19-cm-minutes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2026-11-24T08:01:59Z",
+      "side": 1,
+      "message": "\u003e GitHub has the octocat, but I\u0027m not aware of a GitLab mascotte?\n\u003e Also, their brand identity is much stronger than ours. As you showed in your survey at the OpenInfra foundation barely anyone know\u0027s Gerrit\u0027s logo.\n\u003e \n\u003e Below you agree that we shouldn\u0027t have two logos, so I\u0027m confused on the objective of this comment?\n\nI was just challenging the statement _Diffy is a mascot, not Gerrit logo_ :-)\n\nI agree that we should have *one* logo and use it everywhere.\nThe logo should be scalable and shouldn\u0027t have too many colours or details.\n\nPreferably, it should come from a designer with experience in creating logos.",
+      "parentUuid": "2f76b0b2_e760d43c",
+      "range": {
+        "startLine": 30,
+        "startChar": 6,
+        "endLine": 31,
+        "endChar": 31
+      },
+      "revId": "b39dad04bf1176370dd2f04ead51dcd7c42d373c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1c6cfb21_fdc5be03",
         "filename": "_posts/2026-11-19-cm-minutes.md",
         "patchSetId": 2
